@@ -63,11 +63,9 @@ Documentation files are found in the following directories:
    <li><p>If an entry comes from the EPSG database, then the authority name
           is "EPSG" and the version value is in the form
           "EPSG-version(Esri-version)".</p>
-
        <p>The "EPSG-version" is either the EPSG version in which the entry was
           added or the EPSG version in which the entry was last updated
           (with no way to tell which one it is).</p>
-
        <p>The "Esri-version" is always the Esri version in which the entry was
           added.</p>
 
