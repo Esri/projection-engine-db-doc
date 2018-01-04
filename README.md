@@ -60,14 +60,14 @@ Documentation files are found in the following directories:
 ### Notes
 
 <ul>
-   <li><p>If an entry comes from the EPSG database, then the authority name
-          is "EPSG" and the version value is in the form
-          "EPSG-version(Esri-version)".</p>
-       <p>The "EPSG-version" is either the EPSG version in which the entry was
-          added or the EPSG version in which the entry was last updated
-          (with no way to tell which one it is).</p>
-       <p>The "Esri-version" is always the Esri version in which the entry was
-          added.</p>
+   <li>If an entry comes from the EPSG database, then the authority name
+       is "EPSG" and the version value is in the form
+       "EPSG-version(Esri-version)".
+       The "EPSG-version" is either the EPSG version in which the entry was
+       added or the EPSG version in which the entry was last updated
+       (with no way to tell which one it is).
+       The "Esri-version" is always the Esri version in which the entry was
+       added.
 
    <li>Area extents are specified in degrees (from Greenwich).
 
