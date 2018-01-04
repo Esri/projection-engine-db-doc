@@ -1,0 +1,6092 @@
+# ------------------------------------------------------------------------- #
+#  Copyright 1999-2018 Esri Inc.                                            #
+#                                                                           #
+#  Licensed under the Apache License, Version 2.0 (the "License");          #
+#  you may not use this file except in compliance with the License.         #
+#  You may obtain a copy of the License at                                  #
+#                                                                           #
+#      http://www.apache.org/licenses/LICENSE-2.0                           #
+#                                                                           #
+#  Unless required by applicable law or agreed to in writing, software      #
+#  distributed under the License is distributed on an "AS IS" BASIS,        #
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #
+#  See the License for the specific language governing permissions and      #
+#  limitations under the License.                                           #
+# ------------------------------------------------------------------------- #
+
+Vertical Coordinate Systems:
+
+WKID        : 3855
+Latest-WKID : 3855
+Macro       : PE_VCS_EGM2008_GEOID
+Name        : EGM2008_Geoid
+WKT         : VERTCS["EGM2008_Geoid",
+               VDATUM["EGM2008_Geoid"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : EGM2008 Geoid
+Authority   : EPSG
+Version     : 8.8(10.1.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 3886
+Latest-WKID : 3886
+Macro       : PE_VCS_FAO_1979
+Name        : Fao_1979
+WKT         : VERTCS["Fao_1979",
+               VDATUM["Fao_1979"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Fao 1979
+Authority   : EPSG
+Version     : 7.4.4(10.1.0)
+Deprecated  : no
+Area-name   : Iraq - onshore
+Area-slat   : 29.06
+Area-nlat   : 37.39
+Area-llon   : 38.79
+Area-rlon   : 48.61
+
+WKID        : 3900
+Latest-WKID : 3900
+Macro       : PE_VCS_N2000
+Name        : N2000_height
+WKT         : VERTCS["N2000_height",
+               VDATUM["N2000"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : N2000
+Authority   : EPSG
+Version     : 7.5.1(10.1.0)
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+
+WKID        : 4440
+Latest-WKID : 4440
+Macro       : PE_VCS_NZVD2009
+Name        : NZVD2009_height
+WKT         : VERTCS["NZVD2009_height",
+               VDATUM["New_Zealand_Vertical_Datum_2009"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NZVD2009
+Authority   : EPSG
+Version     : 9.0(10.1.0)
+Deprecated  : no
+Area-name   : New Zealand
+Area-slat   : -55.95
+Area-nlat   : -25.88
+Area-llon   : 160.6
+Area-rlon   : -171.2
+
+WKID        : 4458
+Latest-WKID : 4458
+Macro       : PE_VCS_DUNEDIN_BLUFF_1960
+Name        : Dunedin_Bluff_1960_height
+WKT         : VERTCS["Dunedin_Bluff_1960_height",
+               VDATUM["Dunedin_Bluff_1960"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Dunedin-Bluff 1960
+Authority   : EPSG
+Version     : 7.6.4(10.1.0)
+Deprecated  : no
+Area-name   : New Zealand - South Island - Dunedin-Bluff vcrs
+Area-slat   : -46.73
+Area-nlat   : -44.52
+Area-llon   : 166.37
+Area-rlon   : 169.95
+
+WKID        : 5193
+Latest-WKID : 5193
+Macro       : PE_VCS_INCHEON_HT
+Name        : Incheon_height
+WKT         : VERTCS["Incheon_height",
+               VDATUM["Incheon"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Incheon (Height)
+Authority   : EPSG
+Version     : 7.5.6(10.1.0)
+Deprecated  : no
+Area-name   : Korea, Republic of (South Korea) - mainland
+Area-slat   : 33.96
+Area-nlat   : 38.64
+Area-llon   : 125.75
+Area-rlon   : 129.65
+
+WKID        : 5195
+Latest-WKID : 5195
+Macro       : PE_VCS_TRIESTE_HT
+Name        : Trieste_height
+WKT         : VERTCS["Trieste_height",
+               VDATUM["Trieste"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Trieste (Height)
+Authority   : EPSG
+Version     : 7.5.8(10.1.0)
+Deprecated  : no
+Area-name   : Europe - former Yugoslavia onshore
+Area-slat   : 40.85
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 23.04
+
+WKID        : 5214
+Latest-WKID : 5214
+Macro       : PE_VCS_GENOA_HT
+Name        : Genoa_height
+WKT         : VERTCS["Genoa_height",
+               VDATUM["Genoa"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Genoa (Height)
+Authority   : EPSG
+Version     : 7.5.8(10.1.0)
+Deprecated  : no
+Area-name   : Italy - mainland and Sicily
+Area-slat   : 36.59
+Area-nlat   : 47.1
+Area-llon   : 6.62
+Area-rlon   : 18.58
+
+WKID        : 5237
+Latest-WKID : 5237
+Macro       : PE_VCS_SLVD_HT
+Name        : SLVD_height
+WKT         : VERTCS["SLVD_height",
+               VDATUM["Sri_Lanka_Vertical_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SLVD (Height)
+Authority   : EPSG
+Version     : 7.5.9(10.1.0)
+Deprecated  : no
+Area-name   : Sri Lanka - onshore
+Area-slat   : 5.86
+Area-nlat   : 9.88
+Area-llon   : 79.64
+Area-rlon   : 81.95
+
+WKID        : 5317
+Latest-WKID : 5317
+Macro       : PE_VCS_FVR09_HT
+Name        : FVR09_height
+WKT         : VERTCS["FVR09_height",
+               VDATUM["Faroe_Islands_Vertical_Reference_2009"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : FVR09 (Height)
+Authority   : EPSG
+Version     : 7.6(10.1.0)
+Deprecated  : no
+Area-name   : Faroe Islands - onshore
+Area-slat   : 61.33
+Area-nlat   : 62.41
+Area-llon   : -7.49
+Area-rlon   : -6.33
+
+WKID        : 5336
+Latest-WKID : 5336
+Macro       : PE_VCS_BLACK_SEA_D
+Name        : Black_Sea_Depth
+WKT         : VERTCS["Black_Sea_Depth",
+               VDATUM["Black_Sea"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : Black Sea Depth
+Authority   : EPSG
+Version     : 7.8.2(10.2.0)
+Deprecated  : no
+Area-name   : Georgia - onshore
+Area-slat   : 41.04
+Area-nlat   : 43.59
+Area-llon   : 39.99
+Area-rlon   : 46.72
+
+WKID        : 5597
+Latest-WKID : 5597
+Macro       : PE_VCS_FCSVR10_HT
+Name        : FCSVR10_Height
+WKT         : VERTCS["FCSVR10_Height",
+               VDATUM["Fehmarnbelt_Vertical_Reference_2010"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : FCSVR 2010 (Height)
+Authority   : EPSG
+Version     : 7.9.1(10.1.1)
+Deprecated  : no
+Area-name   : Europe - Fehmarnbelt inner
+Area-slat   : 54.42
+Area-nlat   : 54.76
+Area-llon   : 11.17
+Area-rlon   : 11.51
+
+WKID        : 5600
+Latest-WKID : 5600
+Macro       : PE_VCS_NGPF
+Name        : NGPF
+WKT         : VERTCS["NGPF",
+               VDATUM["Nivellement_General_de_Polynesie_Francaise"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Nivellement General de Polynesie Francaise
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : French Polynesia - Society Islands - main islands
+Area-slat   : -17.93
+Area-nlat   : -16.17
+Area-llon   : -152.39
+Area-rlon   : -149.09
+
+WKID        : 5601
+Latest-WKID : 5601
+Macro       : PE_VCS_IGN_1966
+Name        : IGN_1966
+WKT         : VERTCS["IGN_1966",
+               VDATUM["IGN_1966"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGN 1966
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : French Polynesia - Society Islands - Tahiti
+Area-slat   : -17.93
+Area-nlat   : -17.44
+Area-llon   : -149.7
+Area-rlon   : -149.09
+
+WKID        : 5602
+Latest-WKID : 5602
+Macro       : PE_VCS_MOOREA_SAU_1981
+Name        : Moorea_SAU_1981
+WKT         : VERTCS["Moorea_SAU_1981",
+               VDATUM["Moorea_SAU_1981"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Moorea SAU 1981
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : French Polynesia - Society Islands - Moorea
+Area-slat   : -17.63
+Area-nlat   : -17.41
+Area-llon   : -150.0
+Area-rlon   : -149.73
+
+WKID        : 5603
+Latest-WKID : 5603
+Macro       : PE_VCS_RAIATEA_SAU_2001
+Name        : Raiatea_SAU_2001
+WKT         : VERTCS["Raiatea_SAU_2001",
+               VDATUM["Raiatea_SAU_2001"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Raiatea SAU 2001
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : French Polynesia - Society Islands - Raiatea
+Area-slat   : -16.96
+Area-nlat   : -16.68
+Area-llon   : -151.55
+Area-rlon   : -151.3
+
+WKID        : 5604
+Latest-WKID : 5604
+Macro       : PE_VCS_MAUPITI_SAU_2001
+Name        : Maupiti_SAU_2001
+WKT         : VERTCS["Maupiti_SAU_2001",
+               VDATUM["Maupiti_SAU_2001"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Maupiti SAU 2001
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : French Polynesia - Society Islands - Maupiti
+Area-slat   : -16.57
+Area-nlat   : -16.34
+Area-llon   : -152.39
+Area-rlon   : -152.14
+
+WKID        : 5605
+Latest-WKID : 5605
+Macro       : PE_VCS_HUAHINE_SAU_2001
+Name        : Huahine_SAU_2001
+WKT         : VERTCS["Huahine_SAU_2001",
+               VDATUM["Huahine_SAU_2001"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Huahine SAU 2001
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : French Polynesia - Society Islands - Huahine
+Area-slat   : -16.87
+Area-nlat   : -16.63
+Area-llon   : -151.11
+Area-rlon   : -150.89
+
+WKID        : 5606
+Latest-WKID : 5606
+Macro       : PE_VCS_TAHAA_SAU_2001
+Name        : Tahaa_SAU_2001
+WKT         : VERTCS["Tahaa_SAU_2001",
+               VDATUM["Tahaa_SAU_2001"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Tahaa SAU 2001
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : French Polynesia - Society Islands - Tahaa
+Area-slat   : -16.72
+Area-nlat   : -16.5
+Area-llon   : -151.63
+Area-rlon   : -151.36
+
+WKID        : 5607
+Latest-WKID : 5607
+Macro       : PE_VCS_BORA_BORA_SAU_2001
+Name        : Bora_Bora_SAU_2001
+WKT         : VERTCS["Bora_Bora_SAU_2001",
+               VDATUM["Bora_Bora_SAU_2001"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Bora Bora SAU 2001
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : French Polynesia - Society Islands - Bora Bora
+Area-slat   : -16.62
+Area-nlat   : -16.39
+Area-llon   : -151.86
+Area-rlon   : -151.61
+
+WKID        : 5608
+Latest-WKID : 5608
+Macro       : PE_VCS_IGLD_1955
+Name        : IGLD_1955
+WKT         : VERTCS["IGLD_1955",
+               VDATUM["International_Great_Lakes_Datum_1955"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGLD 1955 (Int'l Great Lakes Datum 1955)
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : North America - Great Lakes basin and St Lawrence Seaway
+Area-slat   : 40.99
+Area-nlat   : 52.22
+Area-llon   : -93.17
+Area-rlon   : -54.75
+
+WKID        : 5609
+Latest-WKID : 5609
+Macro       : PE_VCS_IGLD_1985
+Name        : IGLD_1985
+WKT         : VERTCS["IGLD_1985",
+               VDATUM["International_Great_Lakes_Datum_1985"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGLD 1985 (Int'l Great Lakes Datum 1985)
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : North America - Great Lakes basin and St Lawrence Seaway
+Area-slat   : 40.99
+Area-nlat   : 52.22
+Area-llon   : -93.17
+Area-rlon   : -54.75
+
+WKID        : 5610
+Latest-WKID : 5610
+Macro       : PE_VCS_HVRS_1971
+Name        : HVRS_1971
+WKT         : VERTCS["HVRS_1971",
+               VDATUM["Croatian_Vertical_Reference_System_1971"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Croatian Vertical Reference System 1971
+Authority   : EPSG
+Version     : 7.5.8(10.0.0)
+Deprecated  : no
+Area-name   : Croatia - onshore
+Area-slat   : 42.34
+Area-nlat   : 46.54
+Area-llon   : 13.43
+Area-rlon   : 19.43
+
+WKID        : 5611
+Latest-WKID : 5611
+Macro       : PE_VCS_CASPIAN_HEIGHT
+Name        : Caspian_height
+WKT         : VERTCS["Caspian_height",
+               VDATUM["Caspian_Sea"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Caspian (height)
+Authority   : EPSG
+Version     : 6.15(10.0.0)
+Deprecated  : no
+Area-name   : Asia - FSU - Caspian Sea
+Area-slat   : 37.35
+Area-nlat   : 46.97
+Area-llon   : 46.95
+Area-rlon   : 53.93
+
+WKID        : 5612
+Latest-WKID : 5612
+Macro       : PE_VCS_BALTIC_DEPTH
+Name        : Baltic_depth
+WKT         : VERTCS["Baltic_depth",
+               VDATUM["Baltic_Sea"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : Baltic (depth)
+Authority   : EPSG
+Version     : 6.15(10.0.0)
+Deprecated  : no
+Area-name   : Europe - FSU, Czechoslovakia - onshore
+Area-slat   : 35.14
+Area-nlat   : 77.79
+Area-llon   : 12.09
+Area-rlon   : -169.57
+
+WKID        : 5613
+Latest-WKID : 5613
+Macro       : PE_VCS_RH2000
+Name        : RH2000
+WKT         : VERTCS["RH2000",
+               VDATUM["Rikets_Hojdsystem_2000"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RH2000 -- Rikets Hojdsystem 2000
+Authority   : EPSG
+Version     : 7.5.8(10.0.0)
+Deprecated  : no
+Area-name   : Sweden - onshore
+Area-slat   : 55.28
+Area-nlat   : 69.07
+Area-llon   : 10.93
+Area-rlon   : 24.17
+
+WKID        : 5614
+Latest-WKID : 5614
+Macro       : PE_VCS_KOC_WD_DEPTH_FT
+Name        : KOC_WD_depth_ft
+WKT         : VERTCS["KOC_WD_depth_ft",
+               VDATUM["KOC_Well_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Foot", 0.3048]]
+Description : KOC WD (depth - ft)
+Authority   : EPSG
+Version     : 6.15(10.0.0)
+Deprecated  : no
+Area-name   : Kuwait - onshore
+Area-slat   : 28.53
+Area-nlat   : 30.09
+Area-llon   : 46.54
+Area-rlon   : 48.48
+
+WKID        : 5615
+Latest-WKID : 5615
+Macro       : PE_VCS_RH1900
+Name        : RH1900
+WKT         : VERTCS["RH1900",
+               VDATUM["Rikets_Hojdsystem_1900"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Rikets hojdsystem 1900
+Authority   : EPSG
+Version     : 6.15(10.0.0)
+Deprecated  : no
+Area-name   : Sweden - onshore
+Area-slat   : 55.28
+Area-nlat   : 69.07
+Area-llon   : 10.93
+Area-rlon   : 24.17
+
+WKID        : 5616
+Latest-WKID : 5616
+Macro       : PE_VCS_IGN_1988_LS
+Name        : IGN_1988_LS
+WKT         : VERTCS["IGN_1988_LS",
+               VDATUM["IGN_1988_LS"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGN 1988 LS
+Authority   : EPSG
+Version     : 6.18(10.0.0)
+Deprecated  : no
+Area-name   : Guadeloupe - Les Saintes - onshore
+Area-slat   : 15.8
+Area-nlat   : 15.94
+Area-llon   : -61.68
+Area-rlon   : -61.52
+
+WKID        : 5617
+Latest-WKID : 5617
+Macro       : PE_VCS_IGN_1988_MG
+Name        : IGN_1988_MG
+WKT         : VERTCS["IGN_1988_MG",
+               VDATUM["IGN_1988_MG"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGN 1988 MG
+Authority   : EPSG
+Version     : 6.18(10.0.0)
+Deprecated  : no
+Area-name   : Guadeloupe - Marie-Galante - onshore
+Area-slat   : 15.8
+Area-nlat   : 16.05
+Area-llon   : -61.39
+Area-rlon   : -61.13
+
+WKID        : 5618
+Latest-WKID : 5618
+Macro       : PE_VCS_IGN_1992_LD
+Name        : IGN_1992_LD
+WKT         : VERTCS["IGN_1992_LD",
+               VDATUM["IGN_1992_LD"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGN 1992 LD
+Authority   : EPSG
+Version     : 6.18(10.0.0)
+Deprecated  : no
+Area-name   : Guadeloupe - La Desirade - onshore
+Area-slat   : 16.26
+Area-nlat   : 16.38
+Area-llon   : -61.13
+Area-rlon   : -60.97
+
+WKID        : 5619
+Latest-WKID : 5619
+Macro       : PE_VCS_IGN_1988_SB
+Name        : IGN_1988_SB
+WKT         : VERTCS["IGN_1988_SB",
+               VDATUM["IGN_1988_SB"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGN 1988 SB
+Authority   : EPSG
+Version     : 6.18(10.0.0)
+Deprecated  : no
+Area-name   : Guadeloupe - St Barthelemy - onshore
+Area-slat   : 17.82
+Area-nlat   : 17.98
+Area-llon   : -62.92
+Area-rlon   : -62.73
+
+WKID        : 5620
+Latest-WKID : 5620
+Macro       : PE_VCS_IGN_1988_SM
+Name        : IGN_1988_SM
+WKT         : VERTCS["IGN_1988_SM",
+               VDATUM["IGN_1988_SM"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGN 1988 SM
+Authority   : EPSG
+Version     : 6.18(10.0.0)
+Deprecated  : no
+Area-name   : Guadeloupe - St Martin - onshore
+Area-slat   : 18.01
+Area-nlat   : 18.17
+Area-llon   : -63.21
+Area-rlon   : -62.96
+
+WKID        : 5621
+Latest-WKID : 5621
+Macro       : PE_VCS_EVRF_2007
+Name        : EVRF_2007
+WKT         : VERTCS["EVRF_2007",
+               VDATUM["European_Vertical_Reference_Frame_2007"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : European Vertical Reference Frame 2007
+Authority   : EPSG
+Version     : 8.6.3(10.0.0)
+Deprecated  : no
+Area-name   : Europe - EVRF2007
+Area-slat   : 35.95
+Area-nlat   : 71.21
+Area-llon   : -9.56
+Area-rlon   : 31.59
+
+WKID        : 5701
+Latest-WKID : 5701
+Macro       : PE_VCS_NEWLYN
+Name        : Newlyn
+WKT         : VERTCS["Newlyn",
+               VDATUM["Ordnance_Datum_Newlyn"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Newlyn
+Authority   : EPSG
+Version     : 8.9.3(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - Great Britain mainland onshore
+Area-slat   : 49.93
+Area-nlat   : 58.71
+Area-llon   : -7.06
+Area-rlon   : 1.8
+
+WKID        : 5702
+Latest-WKID : 5702
+Macro       : PE_VCS_NGVD_1929
+Name        : NGVD_1929
+WKT         : VERTCS["NGVD_1929",
+               VDATUM["National_Geodetic_Vertical_Datum_1929"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot_US", 0.3048006096012192]]
+Description : NGVD_1929 -- National Geodetic Vertical Datum of 1929
+Authority   : EPSG
+Version     : 8.2.7(9.3.0.0)
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+
+WKID        : 5703
+Latest-WKID : 5703
+Macro       : PE_VCS_NAVD_1988
+Name        : NAVD_1988
+WKT         : VERTCS["NAVD_1988",
+               VDATUM["North_American_Vertical_Datum_1988"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAVD_1988 -- North American Vertical Datum of 1988
+Authority   : EPSG
+Version     : 8.2.7(9.3.0.0)
+Deprecated  : no
+Area-name   : North America - Mexico and USA - onshore
+Area-slat   : 14.51
+Area-nlat   : 71.4
+Area-llon   : 172.42
+Area-rlon   : -66.91
+
+WKID        : 5704
+Latest-WKID : 5736
+Macro       : PE_VCS_YELLOW_SEA_1956
+Name        : Yellow_Sea_1956
+WKT         : VERTCS["Yellow_Sea_1956",
+               VDATUM["Yellow_Sea_1956"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Yellow Sea 1956
+Authority   : EPSG
+Version     : 2.1(10.2.0)
+Deprecated  : yes
+Area-name   : China - onshore
+Area-slat   : 18.11
+Area-nlat   : 53.56
+Area-llon   : 73.62
+Area-rlon   : 134.77
+
+WKID        : 5705
+Latest-WKID : 5705
+Macro       : PE_VCS_BALTIC
+Name        : Baltic
+WKT         : VERTCS["Baltic",
+               VDATUM["Baltic_Sea"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Baltic
+Authority   : EPSG
+Version     : 7.5.8(9.3.0.0)
+Deprecated  : no
+Area-name   : Europe - FSU, Czechoslovakia - onshore
+Area-slat   : 35.14
+Area-nlat   : 77.79
+Area-llon   : 12.09
+Area-rlon   : -169.57
+
+WKID        : 5706
+Latest-WKID : 5706
+Macro       : PE_VCS_CASPIAN
+Name        : Caspian
+WKT         : VERTCS["Caspian",
+               VDATUM["Caspian_Sea"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : Caspian
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Asia - FSU - Caspian Sea
+Area-slat   : 37.35
+Area-nlat   : 46.97
+Area-llon   : 46.95
+Area-rlon   : 53.93
+
+WKID        : 5709
+Latest-WKID : 5709
+Macro       : PE_VCS_NAP
+Name        : NAP
+WKT         : VERTCS["NAP",
+               VDATUM["Normaal_Amsterdams_Peil"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAP -- Normaal Amsterdams Peil
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Netherlands - onshore
+Area-slat   : 50.75
+Area-nlat   : 53.7
+Area-llon   : 3.2
+Area-rlon   : 7.22
+
+WKID        : 5710
+Latest-WKID : 5710
+Macro       : PE_VCS_OOSTENDE
+Name        : Oostende
+WKT         : VERTCS["Oostende",
+               VDATUM["Oostende"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Oostende
+Authority   : EPSG
+Version     : 8.2(9.3.0.0)
+Deprecated  : no
+Area-name   : Belgium - onshore
+Area-slat   : 49.5
+Area-nlat   : 51.51
+Area-llon   : 2.5
+Area-rlon   : 6.4
+
+WKID        : 5711
+Latest-WKID : 5711
+Macro       : PE_VCS_AHD
+Name        : AHD
+WKT         : VERTCS["AHD",
+               VDATUM["Australian_Height_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : AHD -- Australian Height Datum
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Australia - mainland
+Area-slat   : -39.2
+Area-nlat   : -10.65
+Area-llon   : 112.85
+Area-rlon   : 153.69
+
+WKID        : 5712
+Latest-WKID : 5712
+Macro       : PE_VCS_AHD_TASMANIA
+Name        : AHD_Tasmania
+WKT         : VERTCS["AHD_Tasmania",
+               VDATUM["Australian_Height_Datum_Tasmania"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : AHD_Tasmania -- Australian Height Datum (Tasmania)
+Authority   : EPSG
+Version     : 7.9.4(9.3.0.0)
+Deprecated  : no
+Area-name   : Australia - Tasmania mainland onshore
+Area-slat   : -43.7
+Area-nlat   : -40.24
+Area-llon   : 144.55
+Area-rlon   : 148.44
+
+WKID        : 5713
+Latest-WKID : 5713
+Macro       : PE_VCS_CGVD_1928
+Name        : CGVD_1928
+WKT         : VERTCS["CGVD_1928",
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : CGVD_1928 -- Canadian Geodetic Vertical Datum of 1928
+Authority   : EPSG
+Version     : 8.3.3(9.3.0.0)
+Deprecated  : no
+Area-name   : Canada - CGVD28
+Area-slat   : 41.67
+Area-nlat   : 69.8
+Area-llon   : -141.01
+Area-rlon   : -59.73
+
+WKID        : 5714
+Latest-WKID : 5714
+Macro       : PE_VCS_MSL_HEIGHT
+Name        : MSL_Height
+WKT         : VERTCS["MSL_Height",
+               VDATUM["Mean_Sea_Level"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MSL_Height -- Mean Sea Level Height
+Authority   : EPSG
+Version     : 7.12(9.3.0.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5715
+Latest-WKID : 5715
+Macro       : PE_VCS_MSL_DEPTH
+Name        : MSL_Depth
+WKT         : VERTCS["MSL_Depth",
+               VDATUM["Mean_Sea_Level"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : MSL_Depth -- Mean Sea Level Depth
+Authority   : EPSG
+Version     : 7.12(9.3.0.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5716
+Latest-WKID : 5716
+Macro       : PE_VCS_PIRAEUS
+Name        : Piraeus
+WKT         : VERTCS["Piraeus",
+               VDATUM["Piraeus_Harbour_1986"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Piraeus
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Greece - onshore
+Area-slat   : 34.88
+Area-nlat   : 41.75
+Area-llon   : 19.57
+Area-rlon   : 28.3
+
+WKID        : 5717
+Latest-WKID : 5717
+Macro       : PE_VCS_N60
+Name        : N60
+WKT         : VERTCS["N60",
+               VDATUM["Helsinki_1960"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : N60
+Authority   : EPSG
+Version     : 7.5.1(9.3.0.0)
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+
+WKID        : 5718
+Latest-WKID : 5718
+Macro       : PE_VCS_RH70
+Name        : RH70
+WKT         : VERTCS["RH70",
+               VDATUM["Rikets_Hojdsystem_1970"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RH70 -- Rikets Hojdsystem 1970
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Sweden - onshore
+Area-slat   : 55.28
+Area-nlat   : 69.07
+Area-llon   : 10.93
+Area-rlon   : 24.17
+
+WKID        : 5719
+Latest-WKID : 5719
+Macro       : PE_VCS_NGF_LALLEMAND
+Name        : NGF_Lallemand
+WKT         : VERTCS["NGF_Lallemand",
+               VDATUM["Nivellement_General_de_la_France_Lallemand"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NGF Lallemand
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : France - mainland onshore
+Area-slat   : 42.33
+Area-nlat   : 51.14
+Area-llon   : -4.87
+Area-rlon   : 8.23
+
+WKID        : 5720
+Latest-WKID : 5720
+Macro       : PE_VCS_NGF_IGN69
+Name        : NGF_IGN69
+WKT         : VERTCS["NGF_IGN69",
+               VDATUM["Nivellement_General_de_la_France_IGN69"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NGF IGN69
+Authority   : EPSG
+Version     : 7.9.4(9.3.0.0)
+Deprecated  : no
+Area-name   : France - mainland onshore
+Area-slat   : 42.33
+Area-nlat   : 51.14
+Area-llon   : -4.87
+Area-rlon   : 8.23
+
+WKID        : 5721
+Latest-WKID : 5721
+Macro       : PE_VCS_NGF_IGN78
+Name        : NGF_IGN78
+WKT         : VERTCS["NGF_IGN78",
+               VDATUM["Nivellement_General_de_la_France_IGN78"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NGF IGN78
+Authority   : EPSG
+Version     : 7.9.4(9.3.0.0)
+Deprecated  : no
+Area-name   : France - Corsica onshore
+Area-slat   : 41.31
+Area-nlat   : 43.07
+Area-llon   : 8.5
+Area-rlon   : 9.63
+
+WKID        : 5722
+Latest-WKID : 5722
+Macro       : PE_VCS_MAPUTO
+Name        : Maputo
+WKT         : VERTCS["Maputo",
+               VDATUM["Maputo"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Maputo
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Mozambique - onshore
+Area-slat   : -26.87
+Area-nlat   : -10.42
+Area-llon   : 30.21
+Area-rlon   : 40.9
+
+WKID        : 5723
+Latest-WKID : 5723
+Macro       : PE_VCS_JAPAN_STD_LEVEL_DATUM_1969
+Name        : Japanese_Standard_Levelling_Datum_1969
+WKT         : VERTCS["Japanese_Standard_Levelling_Datum_1969",
+               VDATUM["Japanese_Standard_Levelling_Datum_1969"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Japanese Standard Levelling Datum 1969
+Authority   : EPSG
+Version     : 8.4(9.3.0.0)
+Deprecated  : no
+Area-name   : Japan - onshore mainland
+Area-slat   : 30.94
+Area-nlat   : 45.54
+Area-llon   : 129.3
+Area-rlon   : 145.87
+
+WKID        : 5724
+Latest-WKID : 5724
+Macro       : PE_VCS_PDO_HEIGHT_DATUM_1993
+Name        : PDO_Height_Datum_1993
+WKT         : VERTCS["PDO_Height_Datum_1993",
+               VDATUM["PDO_Height_Datum_1993"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : PDO Height Datum 1993
+Authority   : EPSG
+Version     : 6.18(9.3.0.0)
+Deprecated  : no
+Area-name   : Oman - onshore
+Area-slat   : 16.59
+Area-nlat   : 26.58
+Area-llon   : 51.99
+Area-rlon   : 59.91
+
+WKID        : 5725
+Latest-WKID : 5725
+Macro       : PE_VCS_FAHUD_HEIGHT_DATUM_1993
+Name        : Fahud_Height_Datum_1993
+WKT         : VERTCS["Fahud_Height_Datum_1993",
+               VDATUM["Fahud_Height_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Fahud Height Datum 1993
+Authority   : EPSG
+Version     : 7.9.5(9.3.0.0)
+Deprecated  : no
+Area-name   : Oman - mainland
+Area-slat   : 16.59
+Area-nlat   : 26.42
+Area-llon   : 51.99
+Area-rlon   : 59.91
+
+WKID        : 5726
+Latest-WKID : 5726
+Macro       : PE_VCS_HA_TIEN_1960
+Name        : Ha_Tien_1960
+WKT         : VERTCS["Ha_Tien_1960",
+               VDATUM["Ha_Tien_1960"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Ha Tien 1960
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Asia - Cambodia and Vietnam - mainland
+Area-slat   : 8.5
+Area-nlat   : 23.33
+Area-llon   : 102.14
+Area-rlon   : 109.52
+
+WKID        : 5727
+Latest-WKID : 5727
+Macro       : PE_VCS_HON_DAU_1992
+Name        : Hon_Dau_1992
+WKT         : VERTCS["Hon_Dau_1992",
+               VDATUM["Hon_Dau_1992"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Hon Dau 1992
+Authority   : EPSG
+Version     : 7.11.1(9.3.0.0)
+Deprecated  : no
+Area-name   : Vietnam - mainland
+Area-slat   : 8.5
+Area-nlat   : 23.33
+Area-llon   : 102.14
+Area-rlon   : 109.52
+
+WKID        : 5728
+Latest-WKID : 5728
+Macro       : PE_VCS_LN_1902
+Name        : LN_1902
+WKT         : VERTCS["LN_1902",
+               VDATUM["Landesnivellement_1902"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : LN_1902 -- Landesnivellement 1902
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.82
+Area-nlat   : 47.81
+Area-llon   : 5.96
+Area-rlon   : 10.49
+
+WKID        : 5729
+Latest-WKID : 5729
+Macro       : PE_VCS_LHN95
+Name        : LHN95
+WKT         : VERTCS["LHN95",
+               VDATUM["Landeshohennetz_1995"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : LHN95 -- Landeshohennetz 1995
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.82
+Area-nlat   : 47.81
+Area-llon   : 5.96
+Area-rlon   : 10.49
+
+WKID        : 5730
+Latest-WKID : 5730
+Macro       : PE_VCS_EVRS_2000
+Name        : EVRS_2000
+WKT         : VERTCS["EVRS_2000",
+               VDATUM["European_Vertical_Reference_Frame_2000"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : EVRS_2000 -- European Vertical Reference System 2000
+Authority   : EPSG
+Version     : 6.18.1(9.3.0.0)
+Deprecated  : no
+Area-name   : Europe - EVRF2000
+Area-slat   : 35.95
+Area-nlat   : 71.21
+Area-llon   : -9.56
+Area-rlon   : 31.59
+
+WKID        : 5731
+Latest-WKID : 5731
+Macro       : PE_VCS_MALIN_HEAD
+Name        : Malin_Head
+WKT         : VERTCS["Malin_Head",
+               VDATUM["Malin_Head"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Malin Head
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Europe - Ireland (Republic and Ulster) - onshore
+Area-slat   : 51.39
+Area-nlat   : 55.43
+Area-llon   : -10.56
+Area-rlon   : -5.34
+
+WKID        : 5732
+Latest-WKID : 5732
+Macro       : PE_VCS_BELFAST
+Name        : Belfast
+WKT         : VERTCS["Belfast",
+               VDATUM["Belfast"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Belfast
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - Northern Ireland - onshore
+Area-slat   : 53.96
+Area-nlat   : 55.36
+Area-llon   : -8.18
+Area-rlon   : -5.34
+
+WKID        : 5733
+Latest-WKID : 5733
+Macro       : PE_VCS_DANSK_NORMAL_NUL
+Name        : Dansk_Normal_Nul
+WKT         : VERTCS["Dansk_Normal_Nul",
+               VDATUM["Dansk_Normal_Nul"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Dansk Normal Nul
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Denmark - onshore
+Area-slat   : 54.51
+Area-nlat   : 57.8
+Area-llon   : 8.0
+Area-rlon   : 15.24
+
+WKID        : 5734
+Latest-WKID : 5734
+Macro       : PE_VCS_AIOC95_DEPTH
+Name        : AIOC95_Depth
+WKT         : VERTCS["AIOC95_Depth",
+               VDATUM["AIOC_1995"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : AIOC95 depth
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Azerbaijan - offshore and Sangachal
+Area-slat   : 37.89
+Area-nlat   : 42.59
+Area-llon   : 48.66
+Area-rlon   : 51.73
+
+WKID        : 5735
+Latest-WKID : 5735
+Macro       : PE_VCS_BLACK_SEA
+Name        : Black_Sea
+WKT         : VERTCS["Black_Sea",
+               VDATUM["Black_Sea"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Black Sea
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : Georgia - onshore
+Area-slat   : 41.04
+Area-nlat   : 43.59
+Area-llon   : 39.99
+Area-rlon   : 46.72
+
+WKID        : 5736
+Latest-WKID : 5736
+Macro       : PE_VCS_YELLOW_SEA_1956
+Name        : Yellow_Sea_1956
+WKT         : VERTCS["Yellow_Sea_1956",
+               VDATUM["Yellow_Sea_1956"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Yellow Sea 1956
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : China - onshore
+Area-slat   : 18.11
+Area-nlat   : 53.56
+Area-llon   : 73.62
+Area-rlon   : 134.77
+
+WKID        : 5737
+Latest-WKID : 5737
+Macro       : PE_VCS_YELLOW_SEA_1985
+Name        : Yellow_Sea_1985
+WKT         : VERTCS["Yellow_Sea_1985",
+               VDATUM["Yellow_Sea_1985"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Yellow Sea 1985
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : China - onshore
+Area-slat   : 18.11
+Area-nlat   : 53.56
+Area-llon   : 73.62
+Area-rlon   : 134.77
+
+WKID        : 5738
+Latest-WKID : 5738
+Macro       : PE_VCS_HONG_KONG_PRINCIPAL_DATUM
+Name        : Hong_Kong_Principal_Datum
+WKT         : VERTCS["Hong_Kong_Principal_Datum",
+               VDATUM["Hong_Kong_Principal_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Hong Kong Principal Datum
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : China - Hong Kong - onshore
+Area-slat   : 22.19
+Area-nlat   : 22.56
+Area-llon   : 113.82
+Area-rlon   : 114.39
+
+WKID        : 5739
+Latest-WKID : 5739
+Macro       : PE_VCS_HONG_KONG_CHART_DATUM
+Name        : Hong_Kong_Chart_Datum
+WKT         : VERTCS["Hong_Kong_Chart_Datum",
+               VDATUM["Hong_Kong_Chart_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : Hong Kong Chart Datum
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : China - Hong Kong - offshore
+Area-slat   : 22.13
+Area-nlat   : 22.58
+Area-llon   : 113.76
+Area-rlon   : 114.51
+
+WKID        : 5740
+Latest-WKID : 5740
+Macro       : PE_VCS_NEWLYN_ORKNEY_ISLES
+Name        : Newlyn_Orkney_Isles
+WKT         : VERTCS["Newlyn_Orkney_Isles",
+               VDATUM["Ordnance_Datum_Newlyn_Orkney_Isles"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Ordnance Datum Newlyn (Orkney Isles)
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - Orkney Islands onshore
+Area-slat   : 58.72
+Area-nlat   : 59.41
+Area-llon   : -3.48
+Area-rlon   : -2.34
+
+WKID        : 5741
+Latest-WKID : 5741
+Macro       : PE_VCS_FAIR_ISLE
+Name        : Fair_Isle
+WKT         : VERTCS["Fair_Isle",
+               VDATUM["Fair_Isle"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Fair Isle
+Authority   : EPSG
+Version     : 8.9.3(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - Fair Isle onshore
+Area-slat   : 59.45
+Area-nlat   : 59.6
+Area-llon   : -1.76
+Area-rlon   : -1.5
+
+WKID        : 5742
+Latest-WKID : 5742
+Macro       : PE_VCS_LERWICK
+Name        : Lerwick
+WKT         : VERTCS["Lerwick",
+               VDATUM["Lerwick"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Lerwick
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - Shetland Islands onshore
+Area-slat   : 59.83
+Area-nlat   : 60.87
+Area-llon   : -1.78
+Area-rlon   : -0.67
+
+WKID        : 5743
+Latest-WKID : 5743
+Macro       : PE_VCS_FOULA
+Name        : Foula
+WKT         : VERTCS["Foula",
+               VDATUM["Foula"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Foula
+Authority   : EPSG
+Version     : 8.9.3(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - Foula onshore
+Area-slat   : 60.06
+Area-nlat   : 60.2
+Area-llon   : -2.21
+Area-rlon   : -1.95
+
+WKID        : 5744
+Latest-WKID : 5744
+Macro       : PE_VCS_SULE_SKERRY
+Name        : Sule_Skerry
+WKT         : VERTCS["Sule_Skerry",
+               VDATUM["Sule_Skerry"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Sule Skerry
+Authority   : EPSG
+Version     : 8.9.3(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - Sule Skerry onshore
+Area-slat   : 59.05
+Area-nlat   : 59.13
+Area-llon   : -4.5
+Area-rlon   : -4.3
+
+WKID        : 5745
+Latest-WKID : 5745
+Macro       : PE_VCS_NORTH_RONA
+Name        : North_Rona
+WKT         : VERTCS["North_Rona",
+               VDATUM["North_Rona"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : North Rona
+Authority   : EPSG
+Version     : 8.9.3(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - North Rona onshore
+Area-slat   : 59.07
+Area-nlat   : 59.19
+Area-llon   : -5.92
+Area-rlon   : -5.73
+
+WKID        : 5746
+Latest-WKID : 5746
+Macro       : PE_VCS_STORNOWAY
+Name        : Stornoway
+WKT         : VERTCS["Stornoway",
+               VDATUM["Stornoway"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Stornoway
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - Outer Hebrides onshore
+Area-slat   : 56.76
+Area-nlat   : 58.54
+Area-llon   : -7.72
+Area-rlon   : -6.1
+
+WKID        : 5747
+Latest-WKID : 5747
+Macro       : PE_VCS_ST_KILDA
+Name        : St_Kilda
+WKT         : VERTCS["St_Kilda",
+               VDATUM["St_Kilda"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : St. Kilda
+Authority   : EPSG
+Version     : 8.9.3(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - St. Kilda onshore
+Area-slat   : 57.74
+Area-nlat   : 57.93
+Area-llon   : -8.74
+Area-rlon   : -8.41
+
+WKID        : 5748
+Latest-WKID : 5748
+Macro       : PE_VCS_FLANNAN_ISLES
+Name        : Flannan_Isles
+WKT         : VERTCS["Flannan_Isles",
+               VDATUM["Flannan_Isles"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Flannan Isles
+Authority   : EPSG
+Version     : 8.9.3(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - Flannan Isles onshore
+Area-slat   : 58.21
+Area-nlat   : 58.35
+Area-llon   : -7.75
+Area-rlon   : -7.46
+
+WKID        : 5749
+Latest-WKID : 5749
+Macro       : PE_VCS_ST_MARYS
+Name        : St_Marys
+WKT         : VERTCS["St_Marys",
+               VDATUM["St_Marys"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : St. Marys
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : UK - Scilly Isles onshore
+Area-slat   : 49.86
+Area-nlat   : 49.99
+Area-llon   : -6.41
+Area-rlon   : -6.23
+
+WKID        : 5750
+Latest-WKID : 5750
+Macro       : PE_VCS_DOUGLAS
+Name        : Douglas
+WKT         : VERTCS["Douglas",
+               VDATUM["Douglas"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Douglas
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Isle of Man - onshore
+Area-slat   : 54.02
+Area-nlat   : 54.44
+Area-llon   : -4.87
+Area-rlon   : -4.27
+
+WKID        : 5751
+Latest-WKID : 5751
+Macro       : PE_VCS_FAO
+Name        : Fao
+WKT         : VERTCS["Fao",
+               VDATUM["Fao"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Fao
+Authority   : EPSG
+Version     : 7.4.4(9.3.0.0)
+Deprecated  : no
+Area-name   : Asia - Middle East -SE Iraq and SW Iran
+Area-slat   : 29.06
+Area-nlat   : 33.5
+Area-llon   : 44.3
+Area-rlon   : 51.06
+
+WKID        : 5752
+Latest-WKID : 5752
+Macro       : PE_VCS_BANDAR_ABBAS
+Name        : Bandar_Abbas
+WKT         : VERTCS["Bandar_Abbas",
+               VDATUM["Bandar_Abbas"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Bandar Abbas
+Authority   : EPSG
+Version     : 7.4.4(9.3.0.0)
+Deprecated  : no
+Area-name   : Iran - onshore
+Area-slat   : 25.02
+Area-nlat   : 39.78
+Area-llon   : 44.03
+Area-rlon   : 63.34
+
+WKID        : 5753
+Latest-WKID : 5753
+Macro       : PE_VCS_NGNC
+Name        : NGNC
+WKT         : VERTCS["NGNC",
+               VDATUM["Nivellement_General_de_Nouvelle_Caledonie"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NGNC -- Nivellement General de Nouvelle Caledonie
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : New Caledonia - Grande Terre
+Area-slat   : -22.45
+Area-nlat   : -20.03
+Area-llon   : 163.92
+Area-rlon   : 167.09
+
+WKID        : 5754
+Latest-WKID : 5754
+Macro       : PE_VCS_POOLBEG
+Name        : Poolbeg
+WKT         : VERTCS["Poolbeg",
+               VDATUM["Poolbeg"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot_British_1936", 0.3048007491]]
+Description : Poolbeg
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Europe - Ireland (Republic and Ulster) - onshore
+Area-slat   : 51.39
+Area-nlat   : 55.43
+Area-llon   : -10.56
+Area-rlon   : -5.34
+
+WKID        : 5755
+Latest-WKID : 5755
+Macro       : PE_VCS_NGG_1977
+Name        : NGG_1977
+WKT         : VERTCS["NGG_1977",
+               VDATUM["Nivellement_General_Guyanais_1977"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NGG_1977 -- Nivellement General Guyanais 1977
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : French Guiana - onshore
+Area-slat   : 2.11
+Area-nlat   : 5.81
+Area-llon   : -54.61
+Area-rlon   : -51.61
+
+WKID        : 5756
+Latest-WKID : 5756
+Macro       : PE_VCS_IGN_1987
+Name        : IGN_1987
+WKT         : VERTCS["IGN_1987",
+               VDATUM["IGN_1987"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGN 1987
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Martinique - onshore
+Area-slat   : 14.35
+Area-nlat   : 14.93
+Area-llon   : -61.29
+Area-rlon   : -60.76
+
+WKID        : 5757
+Latest-WKID : 5757
+Macro       : PE_VCS_IGN_1988
+Name        : IGN_1988
+WKT         : VERTCS["IGN_1988",
+               VDATUM["IGN_1988"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGN 1988
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Guadeloupe - Grande-Terre and Basse-Terre - onshore
+Area-slat   : 15.88
+Area-nlat   : 16.55
+Area-llon   : -61.85
+Area-rlon   : -61.15
+
+WKID        : 5758
+Latest-WKID : 5758
+Macro       : PE_VCS_IGN_1989
+Name        : IGN_1989
+WKT         : VERTCS["IGN_1989",
+               VDATUM["IGN_1989"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGN 1989
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Reunion - onshore
+Area-slat   : -21.42
+Area-nlat   : -20.81
+Area-llon   : 55.16
+Area-rlon   : 55.91
+
+WKID        : 5759
+Latest-WKID : 5759
+Macro       : PE_VCS_AUCKLAND
+Name        : Auckland
+WKT         : VERTCS["Auckland",
+               VDATUM["Auckland"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Auckland
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - North Island - Auckland vcrs
+Area-slat   : -37.67
+Area-nlat   : -36.12
+Area-llon   : 174.0
+Area-rlon   : 176.17
+
+WKID        : 5760
+Latest-WKID : 5760
+Macro       : PE_VCS_BLUFF
+Name        : Bluff
+WKT         : VERTCS["Bluff",
+               VDATUM["Bluff"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Bluff
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - South Island - Bluff vcrs
+Area-slat   : -46.71
+Area-nlat   : -46.26
+Area-llon   : 168.01
+Area-rlon   : 168.86
+
+WKID        : 5761
+Latest-WKID : 5761
+Macro       : PE_VCS_DUNEDIN
+Name        : Dunedin
+WKT         : VERTCS["Dunedin",
+               VDATUM["Dunedin"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Dunedin
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - South Island - Dunedin vcrs
+Area-slat   : -46.4
+Area-nlat   : -43.82
+Area-llon   : 167.73
+Area-rlon   : 171.28
+
+WKID        : 5762
+Latest-WKID : 5762
+Macro       : PE_VCS_GISBORNE
+Name        : Gisborne
+WKT         : VERTCS["Gisborne",
+               VDATUM["Gisborne"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Gisborne
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - North Island - Gisborne vcrs
+Area-slat   : -39.04
+Area-nlat   : -37.49
+Area-llon   : 176.41
+Area-rlon   : 178.63
+
+WKID        : 5763
+Latest-WKID : 5763
+Macro       : PE_VCS_LYTTELTON
+Name        : Lyttelton
+WKT         : VERTCS["Lyttelton",
+               VDATUM["Lyttelton"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Lyttelton
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - South Island - Lyttleton vcrs
+Area-slat   : -44.92
+Area-nlat   : -41.6
+Area-llon   : 168.95
+Area-rlon   : 173.77
+
+WKID        : 5764
+Latest-WKID : 5764
+Macro       : PE_VCS_MOTURIKI
+Name        : Moturiki
+WKT         : VERTCS["Moturiki",
+               VDATUM["Moturiki"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Moturiki
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - North Island - Moturiki vcrs
+Area-slat   : -40.59
+Area-nlat   : -37.52
+Area-llon   : 174.57
+Area-rlon   : 177.26
+
+WKID        : 5765
+Latest-WKID : 5765
+Macro       : PE_VCS_NAPIER
+Name        : Napier
+WKT         : VERTCS["Napier",
+               VDATUM["Napier"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Napier
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - North Island - Hawkes Bay mc Napier vcrs
+Area-slat   : -40.57
+Area-nlat   : -38.87
+Area-llon   : 175.8
+Area-rlon   : 178.07
+
+WKID        : 5766
+Latest-WKID : 5766
+Macro       : PE_VCS_NELSON
+Name        : Nelson
+WKT         : VERTCS["Nelson",
+               VDATUM["Nelson"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Nelson
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - South Island - Nelson vcrs
+Area-slat   : -42.44
+Area-nlat   : -40.44
+Area-llon   : 171.82
+Area-rlon   : 174.46
+
+WKID        : 5767
+Latest-WKID : 5767
+Macro       : PE_VCS_ONE_TREE_POINT
+Name        : One_Tree_Point
+WKT         : VERTCS["One_Tree_Point",
+               VDATUM["One_Tree_Point"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : One Tree Point
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - North Island - One Tree vcrs
+Area-slat   : -36.41
+Area-nlat   : -34.36
+Area-llon   : 172.61
+Area-rlon   : 174.83
+
+WKID        : 5768
+Latest-WKID : 5768
+Macro       : PE_VCS_TARARU
+Name        : Tararu
+WKT         : VERTCS["Tararu",
+               VDATUM["Tararu"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Tararu
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - North Island - Tararu vcrs
+Area-slat   : -37.21
+Area-nlat   : -36.78
+Area-llon   : 175.44
+Area-rlon   : 175.99
+
+WKID        : 5769
+Latest-WKID : 5769
+Macro       : PE_VCS_TARANAKI
+Name        : Taranaki
+WKT         : VERTCS["Taranaki",
+               VDATUM["Taranaki"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Taranaki
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - North Island - Taranaki vcrs
+Area-slat   : -39.92
+Area-nlat   : -38.41
+Area-llon   : 173.68
+Area-rlon   : 174.95
+
+WKID        : 5770
+Latest-WKID : 5770
+Macro       : PE_VCS_WELLINGTON
+Name        : Wellington
+WKT         : VERTCS["Wellington",
+               VDATUM["Wellington"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Wellington
+Authority   : EPSG
+Version     : 7.6.4(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - North Island - Wellington vcrs
+Area-slat   : -41.67
+Area-nlat   : -40.12
+Area-llon   : 174.52
+Area-rlon   : 176.56
+
+WKID        : 5771
+Latest-WKID : 5771
+Macro       : PE_VCS_CHATHAM_ISLAND
+Name        : Chatham_Island
+WKT         : VERTCS["Chatham_Island",
+               VDATUM["Chatham_Island"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Chatham Island
+Authority   : EPSG
+Version     : 7.7.1(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - Chatham Island onshore
+Area-slat   : -44.18
+Area-nlat   : -43.67
+Area-llon   : -176.92
+Area-rlon   : -176.2
+
+WKID        : 5772
+Latest-WKID : 5772
+Macro       : PE_VCS_STEWART_ISLAND
+Name        : Stewart_Island
+WKT         : VERTCS["Stewart_Island",
+               VDATUM["Stewart_Island"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Stewart Island
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : New Zealand - Stewart Island
+Area-slat   : -47.33
+Area-nlat   : -46.63
+Area-llon   : 167.29
+Area-rlon   : 168.34
+
+WKID        : 5773
+Latest-WKID : 5773
+Macro       : PE_VCS_EGM96_GEOID
+Name        : EGM96_Geoid
+WKT         : VERTCS["EGM96_Geoid",
+               VDATUM["EGM96_Geoid"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : EGM96 Geoid
+Authority   : EPSG
+Version     : 8.8(9.3.0.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5774
+Latest-WKID : 5774
+Macro       : PE_VCS_NG_L
+Name        : NG_L
+WKT         : VERTCS["NG_L",
+               VDATUM["Nivellement_General_du_Luxembourg"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NG_L -- Nivellement General du Luxembourg
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Luxembourg
+Area-slat   : 49.44
+Area-nlat   : 50.19
+Area-llon   : 5.73
+Area-rlon   : 6.53
+
+WKID        : 5775
+Latest-WKID : 5775
+Macro       : PE_VCS_ANTALYA
+Name        : Antalya
+WKT         : VERTCS["Antalya",
+               VDATUM["Antalya"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Antalya
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Turkey - onshore
+Area-slat   : 35.81
+Area-nlat   : 42.15
+Area-llon   : 25.62
+Area-rlon   : 44.83
+
+WKID        : 5776
+Latest-WKID : 5776
+Macro       : PE_VCS_NN54
+Name        : NN54
+WKT         : VERTCS["NN54",
+               VDATUM["Norway_Normal_Null_1954"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NN54 -- Norway Normal Nul 1954
+Authority   : EPSG
+Version     : 8.1.1(9.3.0.0)
+Deprecated  : no
+Area-name   : Norway - onshore
+Area-slat   : 57.93
+Area-nlat   : 71.21
+Area-llon   : 4.68
+Area-rlon   : 31.22
+
+WKID        : 5777
+Latest-WKID : 5777
+Macro       : PE_VCS_DURRES
+Name        : Durres
+WKT         : VERTCS["Durres",
+               VDATUM["Durres"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Durres
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Albania - onshore
+Area-slat   : 39.64
+Area-nlat   : 42.67
+Area-llon   : 19.22
+Area-rlon   : 21.06
+
+WKID        : 5778
+Latest-WKID : 5778
+Macro       : PE_VCS_GHA
+Name        : GHA
+WKT         : VERTCS["GHA",
+               VDATUM["Gebrauchshohen_Adria"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : GHA -- Gebrauchshohen ADRIA
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Austria
+Area-slat   : 46.4
+Area-nlat   : 49.02
+Area-llon   : 9.53
+Area-rlon   : 17.17
+
+WKID        : 5779
+Latest-WKID : 5779
+Macro       : PE_VCS_NVN99
+Name        : NVN99
+WKT         : VERTCS["NVN99",
+               VDATUM["National_Vertical_Network_1999"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NVN99 -- National Vertical Network 1999 (Slovenia)
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Slovenia - onshore
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
+
+WKID        : 5780
+Latest-WKID : 5780
+Macro       : PE_VCS_CASCAIS
+Name        : Cascais
+WKT         : VERTCS["Cascais",
+               VDATUM["Cascais"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Cascais
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Portugal - mainland - onshore
+Area-slat   : 36.95
+Area-nlat   : 42.16
+Area-llon   : -9.56
+Area-rlon   : -6.19
+
+WKID        : 5781
+Latest-WKID : 5781
+Macro       : PE_VCS_CONSTANTA
+Name        : Constanta
+WKT         : VERTCS["Constanta",
+               VDATUM["Constanta"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Constanta
+Authority   : EPSG
+Version     : 7.5.8(9.3.0.0)
+Deprecated  : no
+Area-name   : Romania - onshore
+Area-slat   : 43.62
+Area-nlat   : 48.27
+Area-llon   : 20.26
+Area-rlon   : 29.74
+
+WKID        : 5782
+Latest-WKID : 5782
+Macro       : PE_VCS_ALICANTE
+Name        : Alicante
+WKT         : VERTCS["Alicante",
+               VDATUM["Alicante"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Alicante
+Authority   : EPSG
+Version     : 8.6.2(9.3.0.0)
+Deprecated  : no
+Area-name   : Spain and Gibraltar - onshore
+Area-slat   : 35.95
+Area-nlat   : 43.82
+Area-llon   : -9.37
+Area-rlon   : 3.39
+
+WKID        : 5783
+Latest-WKID : 5783
+Macro       : PE_VCS_DHHN92
+Name        : DHHN92
+WKT         : VERTCS["DHHN92",
+               VDATUM["Deutches_Haupthoehennetz_1992"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : DHHN92 -- Deutches Haupthohennetz 1992
+Authority   : EPSG
+Version     : 8.9.4(9.3.0.0)
+Deprecated  : no
+Area-name   : Germany - onshore
+Area-slat   : 47.27
+Area-nlat   : 55.09
+Area-llon   : 5.86
+Area-rlon   : 15.04
+
+WKID        : 5784
+Latest-WKID : 5784
+Macro       : PE_VCS_DHHN85
+Name        : DHHN85
+WKT         : VERTCS["DHHN85",
+               VDATUM["Deutches_Haupthoehennetz_1985"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : DHHN85 -- Deutches Haupthohennetz 1985
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Germany - West Germany all states
+Area-slat   : 47.27
+Area-nlat   : 55.09
+Area-llon   : 5.87
+Area-rlon   : 13.84
+
+WKID        : 5785
+Latest-WKID : 5785
+Macro       : PE_VCS_SNN76
+Name        : SNN76
+WKT         : VERTCS["SNN76",
+               VDATUM["SNN76"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SNN76
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Germany - East Germany all states
+Area-slat   : 50.2
+Area-nlat   : 54.74
+Area-llon   : 9.92
+Area-rlon   : 15.04
+
+WKID        : 5786
+Latest-WKID : 5786
+Macro       : PE_VCS_BALTIC_1982
+Name        : Baltic_1982
+WKT         : VERTCS["Baltic_1982",
+               VDATUM["Baltic_1982"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Baltic 1982
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Bulgaria - onshore
+Area-slat   : 41.24
+Area-nlat   : 44.23
+Area-llon   : 22.36
+Area-rlon   : 28.68
+
+WKID        : 5787
+Latest-WKID : 5787
+Macro       : PE_VCS_EOMA_1980
+Name        : EOMA_1980
+WKT         : VERTCS["EOMA_1980",
+               VDATUM["Baltic_1980"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : EOMA_1980 -- Baltic 1980
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Hungary
+Area-slat   : 45.74
+Area-nlat   : 48.58
+Area-llon   : 16.11
+Area-rlon   : 22.9
+
+WKID        : 5788
+Latest-WKID : 5788
+Macro       : PE_VCS_KUWAIT_PWD
+Name        : Kuwait_PWD
+WKT         : VERTCS["Kuwait_PWD",
+               VDATUM["Kuwait_PWD"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Kuwait PWD
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Kuwait - onshore
+Area-slat   : 28.53
+Area-nlat   : 30.09
+Area-llon   : 46.54
+Area-rlon   : 48.48
+
+WKID        : 5789
+Latest-WKID : 5789
+Macro       : PE_VCS_KOC_WELL_DATUM
+Name        : KOC_Well_Datum
+WKT         : VERTCS["KOC_Well_Datum",
+               VDATUM["KOC_Well_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : KOC Well Datum
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Kuwait - onshore
+Area-slat   : 28.53
+Area-nlat   : 30.09
+Area-llon   : 46.54
+Area-rlon   : 48.48
+
+WKID        : 5790
+Latest-WKID : 5790
+Macro       : PE_VCS_KOC_CONSTRUCTION_DATUM
+Name        : KOC_Construction_Datum
+WKT         : VERTCS["KOC_Construction_Datum",
+               VDATUM["KOC_Construction_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : KOC Construction Datum
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Kuwait - onshore
+Area-slat   : 28.53
+Area-nlat   : 30.09
+Area-llon   : 46.54
+Area-rlon   : 48.48
+
+WKID        : 5791
+Latest-WKID : 5791
+Macro       : PE_VCS_NGC_1948
+Name        : NGC_1948
+WKT         : VERTCS["NGC_1948",
+               VDATUM["Nivellement_General_de_la_Corse_1948"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NGC_1948 -- Nivellement General de la Corse 1948
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : France - Corsica onshore
+Area-slat   : 41.31
+Area-nlat   : 43.07
+Area-llon   : 8.5
+Area-rlon   : 9.63
+
+WKID        : 5792
+Latest-WKID : 5792
+Macro       : PE_VCS_DANGER_1950
+Name        : Danger_1950
+WKT         : VERTCS["Danger_1950",
+               VDATUM["Danger_1950"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Danger 1950
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : St Pierre and Miquelon - onshore
+Area-slat   : 46.69
+Area-nlat   : 47.19
+Area-llon   : -56.48
+Area-rlon   : -56.07
+
+WKID        : 5793
+Latest-WKID : 5793
+Macro       : PE_VCS_MAYOTTE_1950
+Name        : Mayotte_1950
+WKT         : VERTCS["Mayotte_1950",
+               VDATUM["Mayotte_1950"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Mayotte 1950
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Mayotte - onshore
+Area-slat   : -13.05
+Area-nlat   : -12.61
+Area-llon   : 44.98
+Area-rlon   : 45.35
+
+WKID        : 5794
+Latest-WKID : 5794
+Macro       : PE_VCS_MARTINIQUE_1955
+Name        : Martinique_1955
+WKT         : VERTCS["Martinique_1955",
+               VDATUM["Martinique_1955"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Martinique 1955
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Martinique - onshore
+Area-slat   : 14.35
+Area-nlat   : 14.93
+Area-llon   : -61.29
+Area-rlon   : -60.76
+
+WKID        : 5795
+Latest-WKID : 5795
+Macro       : PE_VCS_GUADELOUPE_1951
+Name        : Guadeloupe_1951
+WKT         : VERTCS["Guadeloupe_1951",
+               VDATUM["Guadeloupe_1951"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Guadeloupe 1951
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Guadeloupe - Grande-Terre and Basse-Terre - onshore
+Area-slat   : 15.88
+Area-nlat   : 16.55
+Area-llon   : -61.85
+Area-rlon   : -61.15
+
+WKID        : 5796
+Latest-WKID : 5796
+Macro       : PE_VCS_LAGOS_1955
+Name        : Lagos_1955
+WKT         : VERTCS["Lagos_1955",
+               VDATUM["Lagos_1955"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Lagos 1955
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Nigeria - onshore
+Area-slat   : 4.22
+Area-nlat   : 13.9
+Area-llon   : 2.69
+Area-rlon   : 14.65
+
+WKID        : 5797
+Latest-WKID : 5797
+Macro       : PE_VCS_AIOC95_HEIGHT
+Name        : AIOC95_Height
+WKT         : VERTCS["AIOC95_Height",
+               VDATUM["AIOC_1995"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : AIOC95 height
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Azerbaijan - offshore and Sangachal
+Area-slat   : 37.89
+Area-nlat   : 42.59
+Area-llon   : 48.66
+Area-rlon   : 51.73
+
+WKID        : 5798
+Latest-WKID : 5798
+Macro       : PE_VCS_EGM84_GEOID
+Name        : EGM84_Geoid
+WKT         : VERTCS["EGM84_Geoid",
+               VDATUM["EGM84_Geoid"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : EGM84 Geoid
+Authority   : EPSG
+Version     : 8.8(9.3.0.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5799
+Latest-WKID : 5799
+Macro       : PE_VCS_DANSK_VERT_REF_1990
+Name        : DVR90
+WKT         : VERTCS["DVR90",
+               VDATUM["Dansk_Vertikal_Reference_1990"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Dansk Vertical Reference 1990
+Authority   : EPSG
+Version     : 6.15(9.3.0.0)
+Deprecated  : no
+Area-name   : Denmark - onshore
+Area-slat   : 54.51
+Area-nlat   : 57.8
+Area-llon   : 8.0
+Area-rlon   : 15.24
+
+WKID        : 5829
+Latest-WKID : 5829
+Macro       : PE_VCS_INST_WATER_LEVEL_HT
+Name        : Instantaneous_Water_Level_Height
+WKT         : VERTCS["Instantaneous_Water_Level_Height",
+               VDATUM["Sea_Level"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Instantaneous Water Level Height
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5831
+Latest-WKID : 5831
+Macro       : PE_VCS_INST_WATER_LEVEL_D
+Name        : Instantaneous_Water_Level_Depth
+WKT         : VERTCS["Instantaneous_Water_Level_Depth",
+               VDATUM["Sea_Level"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : Instantaneous Water Level Depth
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5843
+Latest-WKID : 5843
+Macro       : PE_VCS_RAS_GHUMAYS_HT
+Name        : Ras_Ghumays_height
+WKT         : VERTCS["Ras_Ghumays_height",
+               VDATUM["Ras_Ghumays"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Ras Ghumays (height)
+Authority   : EPSG
+Version     : 8.6.2(10.4.0)
+Deprecated  : no
+Area-name   : UAE - Abu Dhabi - onshore
+Area-slat   : 22.63
+Area-nlat   : 24.95
+Area-llon   : 51.56
+Area-rlon   : 56.03
+
+WKID        : 5861
+Latest-WKID : 5861
+Macro       : PE_VCS_LAT_D
+Name        : LAT_Depth
+WKT         : VERTCS["LAT_Depth",
+               VDATUM["Lowest_Astronomic_Tide"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : LAT Depth
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5862
+Latest-WKID : 5862
+Macro       : PE_VCS_LLWLT_D
+Name        : LLWLT_Depth
+WKT         : VERTCS["LLWLT_Depth",
+               VDATUM["Lower_Low_Water_Large_Tide"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : LLWLT Depth
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5863
+Latest-WKID : 5863
+Macro       : PE_VCS_ISLW_D
+Name        : ISLW_Depth
+WKT         : VERTCS["ISLW_Depth",
+               VDATUM["Indian_Spring_Low_Water"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : ISLW Depth
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5864
+Latest-WKID : 5864
+Macro       : PE_VCS_MLLWS_D
+Name        : MLLWS_Depth
+WKT         : VERTCS["MLLWS_Depth",
+               VDATUM["Mean_Lower_Low_Water_Spring_Tides"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : MLLWS Depth
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5865
+Latest-WKID : 5865
+Macro       : PE_VCS_MLWS_D
+Name        : MLWS_Depth
+WKT         : VERTCS["MLWS_Depth",
+               VDATUM["Mean_Low_Water_Spring_Tides"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : MLWS Depth
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5866
+Latest-WKID : 5866
+Macro       : PE_VCS_MLLW_D
+Name        : MLLW_Depth
+WKT         : VERTCS["MLLW_Depth",
+               VDATUM["Mean_Lower_Low_Water"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : MLLW Depth
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5867
+Latest-WKID : 5867
+Macro       : PE_VCS_MLW_D
+Name        : MLW_Depth
+WKT         : VERTCS["MLW_Depth",
+               VDATUM["Mean_Low_Water"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : MLW Depth
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5868
+Latest-WKID : 5868
+Macro       : PE_VCS_MHW_HT
+Name        : MHW_Height
+WKT         : VERTCS["MHW_Height",
+               VDATUM["Mean_High_Water"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MHW Height
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5869
+Latest-WKID : 5869
+Macro       : PE_VCS_MHHW_HT
+Name        : MHHW_Height
+WKT         : VERTCS["MHHW_Height",
+               VDATUM["Mean_Higher_High_Water"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MHHW Height
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5870
+Latest-WKID : 5870
+Macro       : PE_VCS_MHWS_HT
+Name        : MHWS_Height
+WKT         : VERTCS["MHWS_Height",
+               VDATUM["Mean_High_Water_Spring_Tides"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MHWS Height
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5871
+Latest-WKID : 5871
+Macro       : PE_VCS_HHWLT_HT
+Name        : HHWLT_Height
+WKT         : VERTCS["HHWLT_Height",
+               VDATUM["Higher_High_Water_Large_Tide"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : HHWLT Height
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5872
+Latest-WKID : 5872
+Macro       : PE_VCS_HAT_HT
+Name        : HAT_Height
+WKT         : VERTCS["HAT_Height",
+               VDATUM["Highest_Astronomic_Tide"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : HAT Height
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5873
+Latest-WKID : 5873
+Macro       : PE_VCS_LW_D
+Name        : Low_Water_Depth
+WKT         : VERTCS["Low_Water_Depth",
+               VDATUM["Low_Water"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : Low Water Depth
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5874
+Latest-WKID : 5874
+Macro       : PE_VCS_HW_HT
+Name        : High_Water_Height
+WKT         : VERTCS["High_Water_Height",
+               VDATUM["High_Water"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : High Water Height
+Authority   : EPSG
+Version     : 7.12(10.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 5941
+Latest-WKID : 5941
+Macro       : PE_VCS_NN2000_HT
+Name        : NN2000_height
+WKT         : VERTCS["NN2000_height",
+               VDATUM["Norway_Normal_Null_2000"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NN2000 (height)
+Authority   : EPSG
+Version     : 8.1.1(10.2.0)
+Deprecated  : no
+Area-name   : Norway - onshore
+Area-slat   : 57.93
+Area-nlat   : 71.21
+Area-llon   : 4.68
+Area-rlon   : 31.22
+
+WKID        : 6130
+Latest-WKID : 6130
+Macro       : PE_VCS_GCVD54_HT
+Name        : GCVD54_height
+WKT         : VERTCS["GCVD54_height",
+               VDATUM["Grand_Cayman_Vertical_Datum_1954"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot", 0.3048]]
+Description : Grand Cayman Vertical Datum 1954 (height)
+Authority   : EPSG
+Version     : 8.1.2(10.2.1)
+Deprecated  : no
+Area-name   : Cayman Islands - Grand Cayman
+Area-slat   : 19.21
+Area-nlat   : 19.41
+Area-llon   : -81.46
+Area-rlon   : -81.04
+
+WKID        : 6131
+Latest-WKID : 6131
+Macro       : PE_VCS_LCVD61_HT
+Name        : LCVD61_height
+WKT         : VERTCS["LCVD61_height",
+               VDATUM["Little_Cayman_Vertical_Datum_1961"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot", 0.3048]]
+Description : Little Cayman Vertical Datum 1961 (height)
+Authority   : EPSG
+Version     : 8.1.3(10.2.1)
+Deprecated  : no
+Area-name   : Cayman Islands - Little Cayman
+Area-slat   : 19.63
+Area-nlat   : 19.74
+Area-llon   : -80.14
+Area-rlon   : -79.93
+
+WKID        : 6132
+Latest-WKID : 6132
+Macro       : PE_VCS_CBVD61_HT
+Name        : CBVD61_height
+WKT         : VERTCS["CBVD61_height",
+               VDATUM["Cayman_Brac_Vertical_Datum_1961"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot", 0.3048]]
+Description : Cayman Brac Vertical Datum 1961 (height)
+Authority   : EPSG
+Version     : 8.1.2(10.2.1)
+Deprecated  : no
+Area-name   : Cayman Islands - Cayman Brac
+Area-slat   : 19.66
+Area-nlat   : 19.78
+Area-llon   : -79.92
+Area-rlon   : -79.69
+
+WKID        : 6178
+Latest-WKID : 6178
+Macro       : PE_VCS_CAIS_DA_PONTINHA_FUNCHAL_HT
+Name        : Cais_da_Pontinha-Funchal_height
+WKT         : VERTCS["Cais_da_Pontinha-Funchal_height",
+               VDATUM["Cais_da_Pontinha-Funchal"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Cais da Pontinha - Funchal (height)
+Authority   : EPSG
+Version     : 8.2(10.2.1)
+Deprecated  : no
+Area-name   : Portugal - Madeira and Desertas islands onshore
+Area-slat   : 32.35
+Area-nlat   : 32.93
+Area-llon   : -17.31
+Area-rlon   : -16.4
+
+WKID        : 6179
+Latest-WKID : 6179
+Macro       : PE_VCS_CAIS_DA_VILA_PORTO_SANTO_HT
+Name        : Cais_da_Vila-Porto_Santo_height
+WKT         : VERTCS["Cais_da_Vila-Porto_Santo_height",
+               VDATUM["Cais_da_Vila-Porto_Santo"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Cais da Vila - Porto Santo (height)
+Authority   : EPSG
+Version     : 8.2(10.2.1)
+Deprecated  : no
+Area-name   : Portugal - Porto Santo island onshore
+Area-slat   : 32.96
+Area-nlat   : 33.15
+Area-llon   : -16.44
+Area-rlon   : -16.23
+
+WKID        : 6180
+Latest-WKID : 6180
+Macro       : PE_VCS_CAIS_DAS_VELAS_HT
+Name        : Cais_das_Velas_height
+WKT         : VERTCS["Cais_das_Velas_height",
+               VDATUM["Cais_das_Velas"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Cais das Velas (height)
+Authority   : EPSG
+Version     : 8.2(10.2.1)
+Deprecated  : no
+Area-name   : Portugal - Azores C - S Jorge onshore
+Area-slat   : 38.48
+Area-nlat   : 38.8
+Area-llon   : -28.37
+Area-rlon   : -27.71
+
+WKID        : 6181
+Latest-WKID : 6181
+Macro       : PE_VCS_HORTA_HT
+Name        : Horta_height
+WKT         : VERTCS["Horta_height",
+               VDATUM["Horta"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Horta (height)
+Authority   : EPSG
+Version     : 8.2(10.2.1)
+Deprecated  : no
+Area-name   : Portugal - Azores C - Faial onshore
+Area-slat   : 38.46
+Area-nlat   : 38.7
+Area-llon   : -28.9
+Area-rlon   : -28.54
+
+WKID        : 6182
+Latest-WKID : 6182
+Macro       : PE_VCS_CAIS_DA_MADALENA_HT
+Name        : Cais_da_Madalena_height
+WKT         : VERTCS["Cais_da_Madalena_height",
+               VDATUM["Cais_da_Madalena"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Cais da Madalena (height)
+Authority   : EPSG
+Version     : 8.2(10.2.1)
+Deprecated  : no
+Area-name   : Portugal - Azores C - Pico onshore
+Area-slat   : 38.32
+Area-nlat   : 38.61
+Area-llon   : -28.61
+Area-rlon   : -27.98
+
+WKID        : 6183
+Latest-WKID : 6183
+Macro       : PE_VCS_SANTA_CRUZ_DA_GRACIOSA_HT
+Name        : Santa_Cruz_da_Graciosa_height
+WKT         : VERTCS["Santa_Cruz_da_Graciosa_height",
+               VDATUM["Santa_Cruz_da_Graciosa"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Santa Cruz da Graciosa (height)
+Authority   : EPSG
+Version     : 8.2(10.2.1)
+Deprecated  : no
+Area-name   : Portugal - Azores C - Graciosa onshore
+Area-slat   : 38.97
+Area-nlat   : 39.14
+Area-llon   : -28.13
+Area-rlon   : -27.88
+
+WKID        : 6184
+Latest-WKID : 6184
+Macro       : PE_VCS_CAIS_DA_FIGUEIRINHA_HT
+Name        : Cais_da_Figueirinha-Angra_do_Heroismo_height
+WKT         : VERTCS["Cais_da_Figueirinha-Angra_do_Heroismo_height",
+               VDATUM["Cais_da_Figueirinha-Angra_do_Heroismo"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Cais da Figueirinha - Angra do Heroismo (height)
+Authority   : EPSG
+Version     : 8.5.4(10.2.1)
+Deprecated  : no
+Area-name   : Portugal - Azores C - Terceira onshore
+Area-slat   : 38.57
+Area-nlat   : 38.86
+Area-llon   : -27.44
+Area-rlon   : -26.97
+
+WKID        : 6185
+Latest-WKID : 6185
+Macro       : PE_VCS_SANTA_CRUZ_DAS_FLORES_HT
+Name        : Santa_Cruz_das_Flores_height
+WKT         : VERTCS["Santa_Cruz_das_Flores_height",
+               VDATUM["Santa_Cruz_das_Flores"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Santa Cruz das Flores (height)
+Authority   : EPSG
+Version     : 8.2(10.2.1)
+Deprecated  : no
+Area-name   : Portugal - Azores W - onshore
+Area-slat   : 39.3
+Area-nlat   : 39.77
+Area-llon   : -31.34
+Area-rlon   : -31.02
+
+WKID        : 6186
+Latest-WKID : 6186
+Macro       : PE_VCS_CAIS_DA_VILA_DO_PORTO_HT
+Name        : Cais_da_Vila_do_Porto_height
+WKT         : VERTCS["Cais_da_Vila_do_Porto_height",
+               VDATUM["Cais_da_Vila_do_Porto"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Cais da Vila do Porto (height)
+Authority   : EPSG
+Version     : 8.2(10.2.1)
+Deprecated  : no
+Area-name   : Portugal - Azores E onshore - Santa Maria and Formigas
+Area-slat   : 36.87
+Area-nlat   : 37.34
+Area-llon   : -25.26
+Area-rlon   : -24.72
+
+WKID        : 6187
+Latest-WKID : 6187
+Macro       : PE_VCS_PONTA_DELGADA_HT
+Name        : Ponta_Delgada_height
+WKT         : VERTCS["Ponta_Delgada_height",
+               VDATUM["Ponta_Delgada"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Ponta Delgada (height)
+Authority   : EPSG
+Version     : 8.2(10.2.1)
+Deprecated  : no
+Area-name   : Portugal - Azores E - S Miguel onshore
+Area-slat   : 37.65
+Area-nlat   : 37.96
+Area-llon   : -25.92
+Area-rlon   : -25.08
+
+WKID        : 6357
+Latest-WKID : 6357
+Macro       : PE_VCS_NAVD88_D
+Name        : NAVD88_depth
+WKT         : VERTCS["NAVD88_depth",
+               VDATUM["North_American_Vertical_Datum_1988"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : NAVD88 depth
+Authority   : EPSG
+Version     : 8.2.4(10.3.1)
+Deprecated  : no
+Area-name   : North America - Mexico and USA - onshore
+Area-slat   : 14.51
+Area-nlat   : 71.4
+Area-llon   : 172.42
+Area-rlon   : -66.91
+
+WKID        : 6358
+Latest-WKID : 6358
+Macro       : PE_VCS_NAVD88_D_USFT
+Name        : NAVD88_depth_(ftUS)
+WKT         : VERTCS["NAVD88_depth_(ftUS)",
+               VDATUM["North_American_Vertical_Datum_1988"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Foot_US", 0.3048006096012192]]
+Description : NAVD88 depth (ftUS)
+Authority   : EPSG
+Version     : 8.2.10(10.3.1)
+Deprecated  : no
+Area-name   : USA - CONUS and Alaska - onshore
+Area-slat   : 24.41
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -66.91
+
+WKID        : 6359
+Latest-WKID : 6359
+Macro       : PE_VCS_NGVD29_D
+Name        : NGVD29_depth
+WKT         : VERTCS["NGVD29_depth",
+               VDATUM["National_Geodetic_Vertical_Datum_1929"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Foot_US", 0.3048006096012192]]
+Description : NGVD29 depth
+Authority   : EPSG
+Version     : 8.2.10(10.3.1)
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+
+WKID        : 6360
+Latest-WKID : 6360
+Macro       : PE_VCS_NAVD88_HT_USFT
+Name        : NAVD88_height_(ftUS)
+WKT         : VERTCS["NAVD88_height_(ftUS)",
+               VDATUM["North_American_Vertical_Datum_1988"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot_US", 0.3048006096012192]]
+Description : NAVD88 height (ftUS) - aliased to 105703
+Authority   : EPSG
+Version     : 8.2.4(10.5.1)
+Deprecated  : no
+Area-name   : USA - CONUS and Alaska - onshore
+Area-slat   : 24.41
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -66.91
+
+WKID        : 6638
+Latest-WKID : 6638
+Macro       : PE_VCS_TUTUILA_1962_HT
+Name        : Tutuila_1962_height
+WKT         : VERTCS["Tutuila_1962_height",
+               VDATUM["Tutuila_Vertical_Datum_of_1962"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Tutuila 1962 height
+Authority   : EPSG
+Version     : 8.2.10(10.3.1)
+Deprecated  : no
+Area-name   : American Samoa - Tutuila island
+Area-slat   : -14.43
+Area-nlat   : -14.2
+Area-llon   : -170.88
+Area-rlon   : -170.51
+
+WKID        : 6639
+Latest-WKID : 6639
+Macro       : PE_VCS_GUAM_1963_HT
+Name        : Guam_1963_height
+WKT         : VERTCS["Guam_1963_height",
+               VDATUM["Guam_Vertical_Datum_of_1963"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Guam 1963 height
+Authority   : EPSG
+Version     : 8.2.10(10.3.1)
+Deprecated  : no
+Area-name   : Guam - onshore
+Area-slat   : 13.18
+Area-nlat   : 13.7
+Area-llon   : 144.58
+Area-rlon   : 145.01
+
+WKID        : 6640
+Latest-WKID : 6640
+Macro       : PE_VCS_NMVD03_HT
+Name        : NMVD03_height
+WKT         : VERTCS["NMVD03_height",
+               VDATUM["Northern_Marianas_Vertical_Datum_of_2003"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NMVD03 height
+Authority   : EPSG
+Version     : 8.2.10(10.3.1)
+Deprecated  : no
+Area-name   : Northern Mariana Islands - Rota, Saipan and Tinian
+Area-slat   : 14.06
+Area-nlat   : 15.35
+Area-llon   : 145.06
+Area-rlon   : 145.89
+
+WKID        : 6641
+Latest-WKID : 6641
+Macro       : PE_VCS_PRVD02_HT
+Name        : PRVD02_height
+WKT         : VERTCS["PRVD02_height",
+               VDATUM["Puerto_Rico_Vertical_Datum_of_2002"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : PRVD02 height
+Authority   : EPSG
+Version     : 8.2.10(10.3.1)
+Deprecated  : no
+Area-name   : Puerto Rico - onshore
+Area-slat   : 17.87
+Area-nlat   : 18.57
+Area-llon   : -67.97
+Area-rlon   : -65.19
+
+WKID        : 6642
+Latest-WKID : 6642
+Macro       : PE_VCS_VIVD09_HT
+Name        : VIVD09_height
+WKT         : VERTCS["VIVD09_height",
+               VDATUM["Virgin_Islands_Vertical_Datum_of_2009"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : VIVD09 height
+Authority   : EPSG
+Version     : 8.2.10(10.3.1)
+Deprecated  : no
+Area-name   : Virgin Islands, US - onshore
+Area-slat   : 17.62
+Area-nlat   : 18.44
+Area-llon   : -65.09
+Area-rlon   : -64.51
+
+WKID        : 6643
+Latest-WKID : 6643
+Macro       : PE_VCS_ASVD02_HT
+Name        : ASVD02_height
+WKT         : VERTCS["ASVD02_height",
+               VDATUM["American_Samoa_Vertical_Datum_of_2002"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ASVD02 height
+Authority   : EPSG
+Version     : 8.2.10(10.3.1)
+Deprecated  : no
+Area-name   : American Samoa - Tutuila island
+Area-slat   : -14.43
+Area-nlat   : -14.2
+Area-llon   : -170.88
+Area-rlon   : -170.51
+
+WKID        : 6644
+Latest-WKID : 6644
+Macro       : PE_VCS_GUVD04_HT
+Name        : GUVD04_height
+WKT         : VERTCS["GUVD04_height",
+               VDATUM["Guam_Vertical_Datum_of_2004"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : GUVD04 height
+Authority   : EPSG
+Version     : 8.2.10(10.3.1)
+Deprecated  : no
+Area-name   : Guam - onshore
+Area-slat   : 13.18
+Area-nlat   : 13.7
+Area-llon   : 144.58
+Area-rlon   : 145.01
+
+WKID        : 6647
+Latest-WKID : 6647
+Macro       : PE_VCS_CGVD2013_HT
+Name        : CGVD2013_height
+WKT         : VERTCS["CGVD2013_height",
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : CGVD2013 height
+Authority   : EPSG
+Version     : 9.1.1(10.3.1)
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 40.04
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -47.74
+
+WKID        : 6693
+Latest-WKID : 6693
+Macro       : PE_VCS_JSLD72_HT
+Name        : JSLD72_height
+WKT         : VERTCS["JSLD72_height",
+               VDATUM["Japanese_Standard_Levelling_Datum_1972"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : JSLD72 height
+Authority   : EPSG
+Version     : 8.3.2(10.3.1)
+Deprecated  : no
+Area-name   : Japan - onshore - Hokkaido
+Area-slat   : 41.34
+Area-nlat   : 45.54
+Area-llon   : 139.7
+Area-rlon   : 145.87
+
+WKID        : 6694
+Latest-WKID : 6694
+Macro       : PE_VCS_JGD_2000_HT
+Name        : JGD2000_vertical_height
+WKT         : VERTCS["JGD2000_vertical_height",
+               VDATUM["Japanese_Geodetic_Datum_2000_vertical"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Japanese Geodetic Datum 2000 (vertical) height
+Authority   : EPSG
+Version     : 8.3.2(10.3.1)
+Deprecated  : no
+Area-name   : Japan - onshore mainland
+Area-slat   : 30.94
+Area-nlat   : 45.54
+Area-llon   : 129.3
+Area-rlon   : 145.87
+
+WKID        : 6695
+Latest-WKID : 6695
+Macro       : PE_VCS_JGD_2011_HT
+Name        : JGD2011_vertical_height
+WKT         : VERTCS["JGD2011_vertical_height",
+               VDATUM["Japanese_Geodetic_Datum_2011_vertical"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Japanese Geodetic Datum 2011 (vertical) height
+Authority   : EPSG
+Version     : 8.3.2(10.3.1)
+Deprecated  : no
+Area-name   : Japan - onshore mainland
+Area-slat   : 30.94
+Area-nlat   : 45.54
+Area-llon   : 129.3
+Area-rlon   : 145.87
+
+WKID        : 6916
+Latest-WKID : 6916
+Macro       : PE_VCS_SHD_HT
+Name        : SHD_height
+WKT         : VERTCS["SHD_height",
+               VDATUM["Singapore_Height_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SHD height
+Authority   : EPSG
+Version     : 8.5.1(10.3.1)
+Deprecated  : no
+Area-name   : Singapore
+Area-slat   : 1.13
+Area-nlat   : 1.47
+Area-llon   : 103.59
+Area-rlon   : 104.07
+
+WKID        : 7446
+Latest-WKID : 7446
+Macro       : PE_VCS_FAMAGUSTA_1960_HT
+Name        : Famagusta_1960_(height)
+WKT         : VERTCS["Famagusta_1960_(height)",
+               VDATUM["Famagusta_1960"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Cyprus - Famagusta (height)
+Authority   : EPSG
+Version     : 8.8(10.5.0)
+Deprecated  : no
+Area-name   : Cyprus - onshore
+Area-slat   : 34.59
+Area-nlat   : 35.74
+Area-llon   : 32.2
+Area-rlon   : 34.65
+
+WKID        : 7447
+Latest-WKID : 7447
+Macro       : PE_VCS_PNG08_HT
+Name        : PNG08_(height)
+WKT         : VERTCS["PNG08_(height)",
+               VDATUM["Papua_New_Guinea_2008"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Papua New Guinea 2008 (height)
+Authority   : EPSG
+Version     : 9.0.1(10.5.0)
+Deprecated  : no
+Area-name   : Papua New Guinea - 0~N to 12~S and 140~E to 158~E
+Area-slat   : -12.0
+Area-nlat   : 0.01
+Area-llon   : 140.0
+Area-rlon   : 158.01
+
+WKID        : 7651
+Latest-WKID : 7651
+Macro       : PE_VCS_KUMUL_34_HT
+Name        : Kumul_34_(height)
+WKT         : VERTCS["Kumul_34_(height)",
+               VDATUM["Kumul_34"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : PNG - Kumul 34 (height)
+Authority   : EPSG
+Version     : 9.0(10.5.0)
+Deprecated  : no
+Area-name   : Papua New Guinea - PFTB
+Area-slat   : -8.28
+Area-nlat   : -5.59
+Area-llon   : 142.24
+Area-rlon   : 144.75
+
+WKID        : 7652
+Latest-WKID : 7652
+Macro       : PE_VCS_KIUNGA_HT
+Name        : Kiunga_(height)
+WKT         : VERTCS["Kiunga_(height)",
+               VDATUM["Kiunga"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : PNG - Kiunga (height)
+Authority   : EPSG
+Version     : 8.8(10.5.0)
+Deprecated  : no
+Area-name   : Papua New Guinea - onshore south of 5~S and west of 144~E
+Area-slat   : -9.35
+Area-nlat   : -5.0
+Area-llon   : 140.85
+Area-rlon   : 144.01
+
+WKID        : 7699
+Latest-WKID : 7699
+Macro       : PE_VCS_DHHN12_HT
+Name        : DHHN12_(height)
+WKT         : VERTCS["DHHN12_(height)",
+               VDATUM["Deutsches_Haupthoehennetz_1912"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Germany - DHHN12 (height)
+Authority   : EPSG
+Version     : 8.8.1(10.5.0)
+Deprecated  : no
+Area-name   : Germany - onshore
+Area-slat   : 47.27
+Area-nlat   : 55.09
+Area-llon   : 5.86
+Area-rlon   : 15.04
+
+WKID        : 7700
+Latest-WKID : 7700
+Macro       : PE_VCS_LATVIA_2000_HT
+Name        : Latvia_2000_(height)
+WKT         : VERTCS["Latvia_2000_(height)",
+               VDATUM["Latvian_Height_System_2000"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Latvia 2000 (height)
+Authority   : EPSG
+Version     : 8.8.1(10.5.0)
+Deprecated  : no
+Area-name   : Latvia - onshore
+Area-slat   : 55.67
+Area-nlat   : 58.09
+Area-llon   : 20.87
+Area-rlon   : 28.24
+
+WKID        : 7707
+Latest-WKID : 7707
+Macro       : PE_VCS_ODN_OFFSHORE_HT
+Name        : ODN_(Offshore)_(height)
+WKT         : VERTCS["ODN_(Offshore)_(height)",
+               VDATUM["Ordnance_Datum_Newlyn_(Offshore)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ODN (Offshore) (height)
+Authority   : EPSG
+Version     : 8.9(10.5.0)
+Deprecated  : no
+Area-name   : UK - offshore 49~46'N to 61~01'N, 7~33'W to 3~33'E
+Area-slat   : 49.75
+Area-nlat   : 61.14
+Area-llon   : -9.2
+Area-rlon   : 2.88
+
+WKID        : 7832
+Latest-WKID : 7832
+Macro       : PE_VCS_POM96_HT
+Name        : POM96_height
+WKT         : VERTCS["POM96_height",
+               VDATUM["Port_Moresby_1996"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : POM96 (height)
+Authority   : EPSG
+Version     : 9.0(10.6.0)
+Deprecated  : no
+Area-name   : Papua New Guinea - onshore - Central province and Gulf province
+              east of 144~E
+Area-slat   : -10.42
+Area-nlat   : -6.67
+Area-llon   : 144.4
+Area-rlon   : 149.67
+
+WKID        : 7837
+Latest-WKID : 7837
+Macro       : PE_VCS_DHHN2016_HT
+Name        : DHHN2016_(height)
+WKT         : VERTCS["DHHN2016_(height)",
+               VDATUM["Deutsches_Haupthoehennetz_2016"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Germany - DHHN2016 (height)
+Authority   : EPSG
+Version     : 8.9.4(10.5.0)
+Deprecated  : no
+Area-name   : Germany - onshore
+Area-slat   : 47.27
+Area-nlat   : 55.09
+Area-llon   : 5.86
+Area-rlon   : 15.04
+
+WKID        : 7839
+Latest-WKID : 7839
+Macro       : PE_VCS_NZVD2016_HT
+Name        : NZVD2016_height
+WKT         : VERTCS["NZVD2016_height",
+               VDATUM["New_Zealand_Vertical_Datum_2016"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : New Zealand Vertical Datum 2016 (height)
+Authority   : EPSG
+Version     : 8.9.4(10.6.0)
+Deprecated  : no
+Area-name   : New Zealand
+Area-slat   : -55.95
+Area-nlat   : -25.88
+Area-llon   : 160.6
+Area-rlon   : -171.2
+
+WKID        : 7841
+Latest-WKID : 7841
+Macro       : PE_VCS_POM08_HT
+Name        : POM08_height
+WKT         : VERTCS["POM08_height",
+               VDATUM["Port_Moresby_2008"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : POM08 (height)
+Authority   : EPSG
+Version     : 9.0(10.6.0)
+Deprecated  : no
+Area-name   : Papua New Guinea - onshore - Central province and Gulf province
+              east of 144~E
+Area-slat   : -10.42
+Area-nlat   : -6.67
+Area-llon   : 144.4
+Area-rlon   : 149.67
+
+WKID        : 7888
+Latest-WKID : 7888
+Macro       : PE_VCS_JAMESTOWN_1971_HT
+Name        : Jamestown_1971_height
+WKT         : VERTCS["Jamestown_1971_height",
+               VDATUM["Jamestown_1971"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Jamestown 1971 (height)
+Authority   : EPSG
+Version     : 9.0(10.6.0)
+Deprecated  : no
+Area-name   : St Helena - St Helena Island
+Area-slat   : -16.08
+Area-nlat   : -15.85
+Area-llon   : -5.85
+Area-rlon   : -5.58
+
+WKID        : 7889
+Latest-WKID : 7889
+Macro       : PE_VCS_ST_HELENA_TRITAN_2011_HT
+Name        : St_Helena_Tritan_2011_height
+WKT         : VERTCS["St_Helena_Tritan_2011_height",
+               VDATUM["St_Helena_Tritan_Vertical_Datum_2011"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : St. Helena Tritan 2011 (height)
+Authority   : EPSG
+Version     : 9.0(10.6.0)
+Deprecated  : no
+Area-name   : St Helena - St Helena Island
+Area-slat   : -16.08
+Area-nlat   : -15.85
+Area-llon   : -5.85
+Area-rlon   : -5.58
+
+WKID        : 7890
+Latest-WKID : 7890
+Macro       : PE_VCS_SHVD2015_HT
+Name        : SHVD2015_height
+WKT         : VERTCS["SHVD2015_height",
+               VDATUM["St_Helena_Vertical_Datum_2015"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SHVD2015 (height)
+Authority   : EPSG
+Version     : 9.0(10.6.0)
+Deprecated  : no
+Area-name   : St Helena - St Helena Island
+Area-slat   : -16.08
+Area-nlat   : -15.85
+Area-llon   : -5.85
+Area-rlon   : -5.58
+
+WKID        : 8089
+Latest-WKID : 8089
+Macro       : PE_VCS_ISH2004_HT
+Name        : ISH2004_height
+WKT         : VERTCS["ISH2004_height",
+               VDATUM["Landshaedarkerfi_Islands_2004"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ISH2004 (height)
+Authority   : EPSG
+Version     : 9.1(10.6.0)
+Deprecated  : no
+Area-name   : Iceland - onshore
+Area-slat   : 63.34
+Area-nlat   : 66.59
+Area-llon   : -24.66
+Area-rlon   : -13.38
+
+WKID        : 105603
+Latest-WKID : 105603
+Macro       : PE_VCS_REDNAP
+Name        : REDNAP_height
+WKT         : VERTCS["REDNAP_height",
+               VDATUM["Red_Espanola_de_Nivelacion_de_Alta_Precision"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : REDNAP
+Authority   : Esri
+Version     : 10.3.1
+Deprecated  : no
+Area-name   : Spain - mainland and Balearic Islands onshore
+Area-slat   : 35.26
+Area-nlat   : 43.82
+Area-llon   : -9.37
+Area-rlon   : 4.39
+
+WKID        : 105700
+Latest-WKID : 105700
+Macro       : PE_VCS_WGS_1984_GEOID
+Name        : WGS_1984_Geoid
+WKT         : VERTCS["WGS_1984_Geoid",
+               VDATUM["WGS_1984_Geoid"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Generic WGS 1984 Geoid
+Authority   : Esri
+Version     : 9.3.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 105701
+Latest-WKID : 5799
+Macro       : PE_VCS_DANSK_VERT_REF_1990
+Name        : DVR90
+WKT         : VERTCS["DVR90",
+               VDATUM["Dansk_Vertikal_Reference_1990"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Dansk Vertical Reference 1990
+Authority   : Esri
+Version     : 9.3.0.0
+Deprecated  : yes
+Area-name   : Denmark - onshore
+Area-slat   : 54.51
+Area-nlat   : 57.8
+Area-llon   : 8.0
+Area-rlon   : 15.24
+
+WKID        : 105702
+Latest-WKID : 5613
+Macro       : PE_VCS_RH2000
+Name        : RH2000
+WKT         : VERTCS["RH2000",
+               VDATUM["Rikets_Hojdsystem_2000"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RH2000 -- Rikets Hojdsystem 2000
+Authority   : Esri
+Version     : 9.3.0.0
+Deprecated  : yes
+Area-name   : Sweden - onshore
+Area-slat   : 55.28
+Area-nlat   : 69.07
+Area-llon   : 10.93
+Area-rlon   : 24.17
+
+WKID        : 105703
+Latest-WKID : 6360
+Macro       : PE_VCS_NAVD88_HT_USFT
+Name        : NAVD88_height_(ftUS)
+WKT         : VERTCS["NAVD88_height_(ftUS)",
+               VDATUM["North_American_Vertical_Datum_1988"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot_US", 0.3048006096012192]]
+Description : NAVD88 height (ftUS) - aliased to 105703
+Authority   : Esri
+Version     : 10.3.1
+Deprecated  : yes
+Area-name   : USA - CONUS and Alaska - onshore
+Area-slat   : 24.41
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -66.91
+
+WKID        : 105704
+Latest-WKID : 105704
+Macro       : PE_VCS_LAS07_HT
+Name        : LAS07_height
+WKT         : VERTCS["LAS07_height",
+               VDATUM["LAS07"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Lithuania State System 2007 (height)
+Authority   : Esri
+Version     : 10.6.0
+Deprecated  : no
+Area-name   : Lithuania - onshore
+Area-slat   : 53.89
+Area-nlat   : 56.45
+Area-llon   : 20.86
+Area-rlon   : 26.82
+
+WKID        : 105790
+Latest-WKID : 3855
+Macro       : PE_VCS_EGM2008_GEOID
+Name        : EGM2008_Geoid
+WKT         : VERTCS["EGM2008_Geoid",
+               VDATUM["EGM2008_Geoid"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : EGM2008 Geoid
+Authority   : Esri
+Version     : 10.0.0
+Deprecated  : yes
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 105791
+Latest-WKID : 3886
+Macro       : PE_VCS_FAO_1979
+Name        : Fao_1979
+WKT         : VERTCS["Fao_1979",
+               VDATUM["Fao_1979"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Fao 1979
+Authority   : Esri
+Version     : 10.0.0
+Deprecated  : yes
+Area-name   : Iraq - onshore
+Area-slat   : 29.06
+Area-nlat   : 37.39
+Area-llon   : 38.79
+Area-rlon   : 48.61
+
+WKID        : 105792
+Latest-WKID : 4440
+Macro       : PE_VCS_NZVD2009
+Name        : NZVD2009_height
+WKT         : VERTCS["NZVD2009_height",
+               VDATUM["New_Zealand_Vertical_Datum_2009"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NZVD2009
+Authority   : Esri
+Version     : 10.0.0
+Deprecated  : yes
+Area-name   : New Zealand
+Area-slat   : -55.95
+Area-nlat   : -25.88
+Area-llon   : 160.6
+Area-rlon   : -171.2
+
+WKID        : 105793
+Latest-WKID : 3900
+Macro       : PE_VCS_N2000
+Name        : N2000_height
+WKT         : VERTCS["N2000_height",
+               VDATUM["N2000"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : N2000
+Authority   : Esri
+Version     : 10.0.0
+Deprecated  : yes
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+
+WKID        : 105794
+Latest-WKID : 4458
+Macro       : PE_VCS_DUNEDIN_BLUFF_1960
+Name        : Dunedin_Bluff_1960_height
+WKT         : VERTCS["Dunedin_Bluff_1960_height",
+               VDATUM["Dunedin_Bluff_1960"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Dunedin-Bluff 1960
+Authority   : Esri
+Version     : 10.0.0
+Deprecated  : yes
+Area-name   : New Zealand - South Island - Dunedin-Bluff vcrs
+Area-slat   : -46.73
+Area-nlat   : -44.52
+Area-llon   : 166.37
+Area-rlon   : 169.95
+
+WKID        : 115700
+Latest-WKID : 115700
+Macro       : PE_VCS_WGS_1984
+Name        : WGS_1984
+WKT         : VERTCS["WGS_1984",
+               DATUM["D_WGS_1984",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : WGS 1984 ellipsoid height
+Authority   : Esri
+Version     : 9.3.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115701
+Latest-WKID : 115701
+Macro       : PE_VCS_ETRS_1989
+Name        : ETRS_1989
+WKT         : VERTCS["ETRS_1989",
+               DATUM["D_ETRS_1989",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRS 1989 ellipsoid height
+Authority   : Esri
+Version     : 9.3.0.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115702
+Latest-WKID : 115702
+Macro       : PE_VCS_NAD_1983
+Name        : NAD_1983
+WKT         : VERTCS["NAD_1983",
+               DATUM["D_North_American_1983",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 (GRS 1980) ellipsoid height
+Authority   : Esri
+Version     : 9.3.0.0
+Deprecated  : no
+Area-name   : North America - NAD83
+Area-slat   : 14.92
+Area-nlat   : 86.46
+Area-llon   : 167.65
+Area-rlon   : -47.74
+
+WKID        : 115703
+Latest-WKID : 115703
+Macro       : PE_VCS_AUSTRALIAN_ANTARCTIC_1998
+Name        : Australian_Antarctic_1998
+WKT         : VERTCS["Australian_Antarctic_1998",
+               DATUM["D_Australian_Antarctic_1998",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Australian Antarctic 1998 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Antarctica - Australian sector
+Area-slat   : -90.0
+Area-nlat   : -60.0
+Area-llon   : 45.0
+Area-rlon   : 160.0
+
+WKID        : 115704
+Latest-WKID : 115704
+Macro       : PE_VCS_CADASTRE_1997
+Name        : Cadastre_1997
+WKT         : VERTCS["Cadastre_1997",
+               DATUM["D_Cadastre_1997",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Cadastre 1997 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Mayotte - onshore
+Area-slat   : -13.05
+Area-nlat   : -12.61
+Area-llon   : 44.98
+Area-rlon   : 45.35
+
+WKID        : 115705
+Latest-WKID : 115705
+Macro       : PE_VCS_CHINA_2000
+Name        : China_Geodetic_Coordinate_System_2000
+WKT         : VERTCS["China_Geodetic_Coordinate_System_2000",
+               DATUM["D_China_2000",
+                SPHEROID["CGCS2000", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : China Geodetic Coordinate System 2000 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : China
+Area-slat   : 16.7
+Area-nlat   : 53.56
+Area-llon   : 73.62
+Area-rlon   : 134.77
+
+WKID        : 115706
+Latest-WKID : 115706
+Macro       : PE_VCS_CHTRF_1995
+Name        : Swiss_TRF_1995
+WKT         : VERTCS["Swiss_TRF_1995",
+               DATUM["D_Swiss_TRF_1995",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Swiss TRF 1995 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.82
+Area-nlat   : 47.81
+Area-llon   : 5.96
+Area-rlon   : 10.49
+
+WKID        : 115707
+Latest-WKID : 115707
+Macro       : PE_VCS_CIGD11
+Name        : CIGD11
+WKT         : VERTCS["CIGD11",
+               DATUM["D_Cayman_Islands_Geodetic_Datum_2011",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : CIGD11 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Cayman Islands
+Area-slat   : 17.58
+Area-nlat   : 20.68
+Area-llon   : -83.6
+Area-rlon   : -78.72
+
+WKID        : 115708
+Latest-WKID : 115708
+Macro       : PE_VCS_CR05
+Name        : CR05
+WKT         : VERTCS["CR05",
+               DATUM["D_Costa_Rica_2005",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : CR05 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Costa Rica
+Area-slat   : 2.15
+Area-nlat   : 11.77
+Area-llon   : -90.45
+Area-rlon   : -81.43
+
+WKID        : 115709
+Latest-WKID : 115709
+Macro       : PE_VCS_DB_REF
+Name        : DB_REF
+WKT         : VERTCS["DB_REF",
+               DATUM["D_Deutsche_Bahn_Reference_System",
+                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : DB-REF ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Germany - onshore
+Area-slat   : 47.27
+Area-nlat   : 55.09
+Area-llon   : 5.86
+Area-rlon   : 15.04
+
+WKID        : 115710
+Latest-WKID : 115710
+Macro       : PE_VCS_DGN_1995
+Name        : DGN_1995
+WKT         : VERTCS["DGN_1995",
+               DATUM["D_Datum_Geodesi_Nasional_1995",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : DGN 1995 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Indonesia
+Area-slat   : -13.95
+Area-nlat   : 7.79
+Area-llon   : 92.01
+Area-rlon   : 141.46
+
+WKID        : 115711
+Latest-WKID : 115711
+Macro       : PE_VCS_DRUKREF_03
+Name        : DRUKREF_03
+WKT         : VERTCS["DRUKREF_03",
+               DATUM["D_Bhutan_National_Geodetic_Datum",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : DRUKREF 03 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Bhutan
+Area-slat   : 26.7
+Area-nlat   : 28.33
+Area-llon   : 88.74
+Area-rlon   : 92.13
+
+WKID        : 115712
+Latest-WKID : 115712
+Macro       : PE_VCS_ESTONIA_1997
+Name        : Estonia_1997
+WKT         : VERTCS["Estonia_1997",
+               DATUM["D_Estonia_1997",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Estonia 1997 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Estonia
+Area-slat   : 57.52
+Area-nlat   : 60.0
+Area-llon   : 20.37
+Area-rlon   : 28.2
+
+WKID        : 115713
+Latest-WKID : 115713
+Macro       : PE_VCS_EUREF_FIN
+Name        : EUREF_FIN
+WKT         : VERTCS["EUREF_FIN",
+               DATUM["D_ETRS_1989",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : EUREF-FIN ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Finland
+Area-slat   : 58.84
+Area-nlat   : 70.09
+Area-llon   : 19.08
+Area-rlon   : 31.59
+
+WKID        : 115714
+Latest-WKID : 115714
+Macro       : PE_VCS_FEH2010
+Name        : FEH2010
+WKT         : VERTCS["FEH2010",
+               DATUM["D_Fehmarnbelt_Datum_2010",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : FEH2010 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Europe - Fehmarnbelt outer
+Area-slat   : 54.33
+Area-nlat   : 54.83
+Area-llon   : 10.66
+Area-rlon   : 12.01
+
+WKID        : 115715
+Latest-WKID : 115715
+Macro       : PE_VCS_GDA_1994
+Name        : GDA_1994
+WKT         : VERTCS["GDA_1994",
+               DATUM["D_GDA_1994",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : GDA 1994 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Australia - GDA
+Area-slat   : -60.56
+Area-nlat   : -8.47
+Area-llon   : 93.41
+Area-rlon   : 173.35
+
+WKID        : 115716
+Latest-WKID : 115716
+Macro       : PE_VCS_GDBD2009
+Name        : GDBD2009
+WKT         : VERTCS["GDBD2009",
+               DATUM["D_GDBD2009",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : GDBD2009 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Brunei
+Area-slat   : 4.01
+Area-nlat   : 6.31
+Area-llon   : 112.37
+Area-rlon   : 115.37
+
+WKID        : 115717
+Latest-WKID : 115717
+Macro       : PE_VCS_GDM_2000
+Name        : GDM_2000
+WKT         : VERTCS["GDM_2000",
+               DATUM["D_GDM_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : GDM 2000 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Malaysia
+Area-slat   : 0.85
+Area-nlat   : 7.81
+Area-llon   : 98.02
+Area-rlon   : 119.61
+
+WKID        : 115718
+Latest-WKID : 115718
+Macro       : PE_VCS_GREENLAND_1996
+Name        : Greenland_1996
+WKT         : VERTCS["Greenland_1996",
+               DATUM["D_Greenland_1996",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Greenland 1996 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Greenland
+Area-slat   : 56.38
+Area-nlat   : 87.03
+Area-llon   : -75.0
+Area-rlon   : 8.12
+
+WKID        : 115719
+Latest-WKID : 115719
+Macro       : PE_VCS_HARTEBEESTHOEK94
+Name        : Hartebeesthoek_1994
+WKT         : VERTCS["Hartebeesthoek_1994",
+               DATUM["D_Hartebeesthoek_1994",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Hartebeesthoek94 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : South Africa
+Area-slat   : -50.32
+Area-nlat   : -22.13
+Area-llon   : 13.33
+Area-rlon   : 42.85
+
+WKID        : 115720
+Latest-WKID : 115720
+Macro       : PE_VCS_IGD05
+Name        : IGD05
+WKT         : VERTCS["IGD05",
+               DATUM["Israel_Geodetic_Datum_2005",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGD05 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Israel
+Area-slat   : 29.45
+Area-nlat   : 33.53
+Area-llon   : 32.99
+Area-rlon   : 35.69
+
+WKID        : 115721
+Latest-WKID : 115721
+Macro       : PE_VCS_IG05_INTERM_CRS
+Name        : IG05_Intermediate_CRS
+WKT         : VERTCS["IG05_Intermediate_CRS",
+               DATUM["IG05_Intermediate_Datum",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IG05 Intermediate CRS ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Asia - Middle East - Israel and Palestine Territory onshore
+Area-slat   : 29.45
+Area-nlat   : 33.28
+Area-llon   : 34.17
+Area-rlon   : 35.69
+
+WKID        : 115722
+Latest-WKID : 115722
+Macro       : PE_VCS_IGD05_2012
+Name        : IGD05(2012)
+WKT         : VERTCS["IGD05(2012)",
+               DATUM["Israeli_Geodetic_Datum_2005(2012)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGD05(2012) ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Israel
+Area-slat   : 29.45
+Area-nlat   : 33.53
+Area-llon   : 32.99
+Area-rlon   : 35.69
+
+WKID        : 115723
+Latest-WKID : 115723
+Macro       : PE_VCS_IG05_2012_INTERM_CRS
+Name        : IG05(2012)_Intermediate_CRS
+WKT         : VERTCS["IG05(2012)_Intermediate_CRS",
+               DATUM["IG05(2012)_Intermediate_Datum",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IG05(2012) Intermediate CRS ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Asia - Middle East - Israel and Palestine Territory onshore
+Area-slat   : 29.45
+Area-nlat   : 33.28
+Area-llon   : 34.17
+Area-rlon   : 35.69
+
+WKID        : 115724
+Latest-WKID : 115724
+Macro       : PE_VCS_IGM_1995
+Name        : IGM_1995
+WKT         : VERTCS["IGM_1995",
+               DATUM["D_IGM_1995",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGM 1995 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Italy - including San Marino and Vatican
+Area-slat   : 34.76
+Area-nlat   : 47.1
+Area-llon   : 5.93
+Area-rlon   : 18.99
+
+WKID        : 115725
+Latest-WKID : 115725
+Macro       : PE_VCS_IGRS
+Name        : IGRS
+WKT         : VERTCS["IGRS",
+               DATUM["D_Iraqi_Geospatial_Reference_System",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGRS ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Iraq
+Area-slat   : 29.06
+Area-nlat   : 37.39
+Area-llon   : 38.79
+Area-rlon   : 48.75
+
+WKID        : 115726
+Latest-WKID : 115726
+Macro       : PE_VCS_IRENET95
+Name        : IRENET95
+WKT         : VERTCS["IRENET95",
+               DATUM["D_IRENET95",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IRENET95 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Europe - Ireland (Republic and Ulster) - onshore
+Area-slat   : 51.39
+Area-nlat   : 55.43
+Area-llon   : -10.56
+Area-rlon   : -5.34
+
+WKID        : 115727
+Latest-WKID : 115727
+Macro       : PE_VCS_ISN_1993
+Name        : ISN_1993
+WKT         : VERTCS["ISN_1993",
+               DATUM["D_Islands_Network_1993",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ISN 1993 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Iceland
+Area-slat   : 59.96
+Area-nlat   : 69.59
+Area-llon   : -30.87
+Area-rlon   : -5.55
+
+WKID        : 115728
+Latest-WKID : 115728
+Macro       : PE_VCS_ISN_2004
+Name        : ISN_2004
+WKT         : VERTCS["ISN_2004",
+               DATUM["D_Islands_Network_2004",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ISN 2004 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Iceland
+Area-slat   : 59.96
+Area-nlat   : 69.59
+Area-llon   : -30.87
+Area-rlon   : -5.55
+
+WKID        : 115729
+Latest-WKID : 115729
+Macro       : PE_VCS_ITRF_1988
+Name        : ITRF_1988
+WKT         : VERTCS["ITRF_1988",
+               DATUM["D_ITRF_1988",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 1988 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115730
+Latest-WKID : 115730
+Macro       : PE_VCS_ITRF_1989
+Name        : ITRF_1989
+WKT         : VERTCS["ITRF_1989",
+               DATUM["D_ITRF_1989",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 1989 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115731
+Latest-WKID : 115731
+Macro       : PE_VCS_ITRF_1990
+Name        : ITRF_1990
+WKT         : VERTCS["ITRF_1990",
+               DATUM["D_ITRF_1990",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 1990 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115732
+Latest-WKID : 115732
+Macro       : PE_VCS_ITRF_1991
+Name        : ITRF_1991
+WKT         : VERTCS["ITRF_1991",
+               DATUM["D_ITRF_1991",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 1991 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115733
+Latest-WKID : 115733
+Macro       : PE_VCS_ITRF_1992
+Name        : ITRF_1992
+WKT         : VERTCS["ITRF_1992",
+               DATUM["D_ITRF_1992",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 1992 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115734
+Latest-WKID : 115734
+Macro       : PE_VCS_ITRF_1993
+Name        : ITRF_1993
+WKT         : VERTCS["ITRF_1993",
+               DATUM["D_ITRF_1993",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 1993 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115735
+Latest-WKID : 115735
+Macro       : PE_VCS_ITRF_1996
+Name        : ITRF_1996
+WKT         : VERTCS["ITRF_1996",
+               DATUM["D_ITRF_1996",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 1996 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115736
+Latest-WKID : 115736
+Macro       : PE_VCS_ITRF_1997
+Name        : ITRF_1997
+WKT         : VERTCS["ITRF_1997",
+               DATUM["D_ITRF_1997",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 1997 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115737
+Latest-WKID : 115737
+Macro       : PE_VCS_ITRF_2000
+Name        : ITRF_2000
+WKT         : VERTCS["ITRF_2000",
+               DATUM["D_ITRF_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 2000 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115738
+Latest-WKID : 115738
+Macro       : PE_VCS_ITRF_2005
+Name        : ITRF_2005
+WKT         : VERTCS["ITRF_2005",
+               DATUM["D_ITRF_2005",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 2005 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115739
+Latest-WKID : 115739
+Macro       : PE_VCS_JAD_2001
+Name        : JAD_2001
+WKT         : VERTCS["JAD_2001",
+               DATUM["D_Jamaica_2001",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : JAD 2001 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Jamaica
+Area-slat   : 14.08
+Area-nlat   : 19.36
+Area-llon   : -80.6
+Area-rlon   : -74.51
+
+WKID        : 115740
+Latest-WKID : 115740
+Macro       : PE_VCS_JGD_2000
+Name        : JGD_2000
+WKT         : VERTCS["JGD_2000",
+               DATUM["D_JGD_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : JGD 2000 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Japan
+Area-slat   : 17.09
+Area-nlat   : 46.05
+Area-llon   : 122.38
+Area-rlon   : 157.65
+
+WKID        : 115741
+Latest-WKID : 115741
+Macro       : PE_VCS_JGD_2011
+Name        : JGD_2011
+WKT         : VERTCS["JGD_2011",
+               DATUM["D_JGD_2011",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : JGD 2011 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Japan
+Area-slat   : 17.09
+Area-nlat   : 46.05
+Area-llon   : 122.38
+Area-rlon   : 157.65
+
+WKID        : 115742
+Latest-WKID : 115742
+Macro       : PE_VCS_KOREA_2000
+Name        : Korea_2000
+WKT         : VERTCS["Korea_2000",
+               DATUM["D_Korea_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Korea 2000 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Korea, Republic of (South Korea)
+Area-slat   : 28.6
+Area-nlat   : 40.27
+Area-llon   : 122.71
+Area-rlon   : 134.28
+
+WKID        : 115743
+Latest-WKID : 115743
+Macro       : PE_VCS_LAO_1997
+Name        : Lao_1997
+WKT         : VERTCS["Lao_1997",
+               DATUM["D_Lao_National_Datum_1997",
+                SPHEROID["Krasovsky_1940", 6378245.0, 298.3]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Lao 1997 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Laos
+Area-slat   : 13.92
+Area-nlat   : 22.5
+Area-llon   : 100.09
+Area-rlon   : 107.7
+
+WKID        : 115744
+Latest-WKID : 115744
+Macro       : PE_VCS_LGD2006
+Name        : LGD2006
+WKT         : VERTCS["LGD2006",
+               DATUM["D_Libyan_Geodetic_Datum_2006",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : LGD2006 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Libya
+Area-slat   : 19.5
+Area-nlat   : 35.23
+Area-llon   : 9.31
+Area-rlon   : 26.21
+
+WKID        : 115745
+Latest-WKID : 115745
+Macro       : PE_VCS_LKS_1992
+Name        : LKS_1992
+WKT         : VERTCS["LKS_1992",
+               DATUM["D_Latvia_1992",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : LKS 1992 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Latvia
+Area-slat   : 55.67
+Area-nlat   : 58.09
+Area-llon   : 19.06
+Area-rlon   : 28.24
+
+WKID        : 115746
+Latest-WKID : 115746
+Macro       : PE_VCS_LKS_1994
+Name        : LKS_1994
+WKT         : VERTCS["LKS_1994",
+               DATUM["D_Lithuania_1994",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : LKS 1994 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Lithuania
+Area-slat   : 53.89
+Area-nlat   : 56.45
+Area-llon   : 19.02
+Area-rlon   : 26.82
+
+WKID        : 115747
+Latest-WKID : 115747
+Macro       : PE_VCS_MACAO_2008
+Name        : MACAO_2008
+WKT         : VERTCS["MACAO_2008",
+               DATUM["D_MACAO_2008",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MACAO 2008 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : China - Macao
+Area-slat   : 22.06
+Area-nlat   : 22.23
+Area-llon   : 113.52
+Area-rlon   : 113.68
+
+WKID        : 115748
+Latest-WKID : 115748
+Macro       : PE_VCS_MAGNA
+Name        : MAGNA
+WKT         : VERTCS["MAGNA",
+               DATUM["D_MAGNA",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MAGNA ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Colombia
+Area-slat   : -4.23
+Area-nlat   : 15.51
+Area-llon   : -84.77
+Area-rlon   : -66.87
+
+WKID        : 115749
+Latest-WKID : 115749
+Macro       : PE_VCS_MARCARIO_SOLIS
+Name        : MARCARIO_SOLIS
+WKT         : VERTCS["MARCARIO_SOLIS",
+               DATUM["D_SGNP_MARCARIO_SOLIS",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MARCARIO SOLIS ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Panama
+Area-slat   : 5.0
+Area-nlat   : 12.51
+Area-llon   : -84.32
+Area-rlon   : -77.04
+
+WKID        : 115750
+Latest-WKID : 115750
+Macro       : PE_VCS_MARGEN
+Name        : MARGEN
+WKT         : VERTCS["MARGEN",
+               DATUM["D_Marco_Geodesico_Nacional",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MARGEN ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Bolivia
+Area-slat   : -22.91
+Area-nlat   : -9.67
+Area-llon   : -69.66
+Area-rlon   : -57.52
+
+WKID        : 115751
+Latest-WKID : 115751
+Macro       : PE_VCS_MEXICO_ITRF2008
+Name        : Mexico_ITRF2008
+WKT         : VERTCS["Mexico_ITRF2008",
+               DATUM["D_Mexico_ITRF2008",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Mexico ITRF2008 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Mexico
+Area-slat   : 12.1
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -84.64
+
+WKID        : 115752
+Latest-WKID : 115752
+Macro       : PE_VCS_MOLDREF99
+Name        : MOLDREF99
+WKT         : VERTCS["MOLDREF99",
+               DATUM["D_MOLDREF99",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MOLDREF99 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Moldova
+Area-slat   : 45.44
+Area-nlat   : 48.47
+Area-llon   : 26.63
+Area-rlon   : 30.13
+
+WKID        : 115753
+Latest-WKID : 115753
+Macro       : PE_VCS_MONREF_1997
+Name        : MONREF_1997
+WKT         : VERTCS["MONREF_1997",
+               DATUM["D_ITRF_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MONREF 1997 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Mongolia
+Area-slat   : 41.58
+Area-nlat   : 52.15
+Area-llon   : 87.76
+Area-rlon   : 119.94
+
+WKID        : 115754
+Latest-WKID : 115754
+Macro       : PE_VCS_MOZNET
+Name        : Moznet
+WKT         : VERTCS["Moznet",
+               DATUM["D_Moznet",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Moznet ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Mozambique
+Area-slat   : -27.71
+Area-nlat   : -10.09
+Area-llon   : 30.21
+Area-rlon   : 43.03
+
+WKID        : 115755
+Latest-WKID : 115755
+Macro       : PE_VCS_NAD_1983_2011
+Name        : NAD_1983_2011
+WKT         : VERTCS["NAD_1983_2011",
+               DATUM["D_NAD_1983_2011",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 (2011) ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : USA - CONUS and Alaska; PRVI
+Area-slat   : 14.92
+Area-nlat   : 74.71
+Area-llon   : 167.65
+Area-rlon   : -63.88
+
+WKID        : 115756
+Latest-WKID : 115756
+Macro       : PE_VCS_NAD_1983_CORS96
+Name        : NAD_1983_CORS96
+WKT         : VERTCS["NAD_1983_CORS96",
+               DATUM["D_NAD_1983_CORS96",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 CORS96 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : USA - CONUS and Alaska; PRVI
+Area-slat   : 14.92
+Area-nlat   : 74.71
+Area-llon   : 167.65
+Area-rlon   : -63.88
+
+WKID        : 115757
+Latest-WKID : 115757
+Macro       : PE_VCS_NAD_1983_CSRS
+Name        : North_American_1983_CSRS
+WKT         : VERTCS["North_American_1983_CSRS",
+               DATUM["D_North_American_1983_CSRS",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 (CSRS) ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 40.04
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -47.74
+
+WKID        : 115758
+Latest-WKID : 115758
+Macro       : PE_VCS_NAD_1983_HARN
+Name        : North_American_1983_HARN
+WKT         : VERTCS["North_American_1983_HARN",
+               DATUM["D_North_American_1983_HARN",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 HARN ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : USA - HARN
+Area-slat   : -14.59
+Area-nlat   : 49.38
+Area-llon   : 144.58
+Area-rlon   : -64.51
+
+WKID        : 115759
+Latest-WKID : 115759
+Macro       : PE_VCS_NAD_1983_MA11
+Name        : NAD_1983_MA11
+WKT         : VERTCS["NAD_1983_MA11",
+               DATUM["D_NAD_1983_MA11",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD_1983 (MA11) ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Pacific - US interests Mariana plate
+Area-slat   : 1.64
+Area-nlat   : 23.9
+Area-llon   : 129.48
+Area-rlon   : 149.55
+
+WKID        : 115760
+Latest-WKID : 115760
+Macro       : PE_VCS_NAD_1983_MARP00
+Name        : NAD_1983_MARP00
+WKT         : VERTCS["NAD_1983_MARP00",
+               DATUM["D_NAD_1983_MARP00",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 (MARP00) ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Pacific - US interests Mariana plate
+Area-slat   : 1.64
+Area-nlat   : 23.9
+Area-llon   : 129.48
+Area-rlon   : 149.55
+
+WKID        : 115761
+Latest-WKID : 115761
+Macro       : PE_VCS_NAD_1983_NSRS2007
+Name        : NAD_1983_NSRS2007
+WKT         : VERTCS["NAD_1983_NSRS2007",
+               DATUM["D_NAD_1983_NSRS2007",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 (NSRS2007) ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : USA - CONUS and Alaska; PRVI
+Area-slat   : 14.92
+Area-nlat   : 74.71
+Area-llon   : 167.65
+Area-rlon   : -63.88
+
+WKID        : 115762
+Latest-WKID : 115762
+Macro       : PE_VCS_NAD_1983_PA11
+Name        : NAD_1983_PA11
+WKT         : VERTCS["NAD_1983_PA11",
+               DATUM["D_NAD_1983_PA11",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 (PA11) ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Pacific - US interests Pacific plate
+Area-slat   : -17.56
+Area-nlat   : 31.8
+Area-llon   : 157.47
+Area-rlon   : -151.27
+
+WKID        : 115763
+Latest-WKID : 115763
+Macro       : PE_VCS_NAD_1983_PACP00
+Name        : NAD_1983_PACP00
+WKT         : VERTCS["NAD_1983_PACP00",
+               DATUM["D_NAD_1983_PACP00",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 (PACP00) ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Pacific - US interests Pacific plate
+Area-slat   : -17.56
+Area-nlat   : 31.8
+Area-llon   : 157.47
+Area-rlon   : -151.27
+
+WKID        : 115764
+Latest-WKID : 115764
+Macro       : PE_VCS_NEPAL_NAGARKOT
+Name        : Nepal_Nagarkot
+WKT         : VERTCS["Nepal_Nagarkot",
+               DATUM["D_Nepal_Nagarkot",
+                SPHEROID["Everest_Adjustment_1937", 6377276.345, 300.8017]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Nepal Nagarkot ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Nepal
+Area-slat   : 26.34
+Area-nlat   : 30.43
+Area-llon   : 80.06
+Area-rlon   : 88.21
+
+WKID        : 115765
+Latest-WKID : 115765
+Macro       : PE_VCS_NZGD_2000
+Name        : NZGD_2000
+WKT         : VERTCS["NZGD_2000",
+               DATUM["D_NZGD_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NZGD 2000 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : New Zealand
+Area-slat   : -55.95
+Area-nlat   : -25.88
+Area-llon   : 160.6
+Area-rlon   : -171.2
+
+WKID        : 115766
+Latest-WKID : 115766
+Macro       : PE_VCS_PERU96
+Name        : Peru96
+WKT         : VERTCS["Peru96",
+               DATUM["D_Peru96",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Peru96 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Peru
+Area-slat   : -21.05
+Area-nlat   : -0.03
+Area-llon   : -84.68
+Area-rlon   : -68.67
+
+WKID        : 115767
+Latest-WKID : 115767
+Macro       : PE_VCS_PNG94
+Name        : PNG94
+WKT         : VERTCS["PNG94",
+               DATUM["D_Papua_New_Guinea_Geodetic_Datum_1994",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : PNG94 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Papua New Guinea
+Area-slat   : -14.75
+Area-nlat   : 2.58
+Area-llon   : 139.2
+Area-rlon   : 162.81
+
+WKID        : 115768
+Latest-WKID : 115768
+Macro       : PE_VCS_POSGAR
+Name        : POSGAR
+WKT         : VERTCS["POSGAR",
+               DATUM["D_POSGAR",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : POSGAR ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Argentina
+Area-slat   : -58.41
+Area-nlat   : -21.78
+Area-llon   : -73.59
+Area-rlon   : -52.63
+
+WKID        : 115769
+Latest-WKID : 115769
+Macro       : PE_VCS_POSGAR_1994
+Name        : POSGAR_1994
+WKT         : VERTCS["POSGAR_1994",
+               DATUM["D_POSGAR_1994",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : POSGAR 1994 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Argentina
+Area-slat   : -58.41
+Area-nlat   : -21.78
+Area-llon   : -73.59
+Area-rlon   : -52.63
+
+WKID        : 115770
+Latest-WKID : 115770
+Macro       : PE_VCS_POSGAR_1998
+Name        : POSGAR_1998
+WKT         : VERTCS["POSGAR_1998",
+               DATUM["D_POSGAR_1998",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : POSGAR 1998 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Argentina
+Area-slat   : -58.41
+Area-nlat   : -21.78
+Area-llon   : -73.59
+Area-rlon   : -52.63
+
+WKID        : 115771
+Latest-WKID : 115771
+Macro       : PE_VCS_PRS_1992
+Name        : PRS_1992
+WKT         : VERTCS["PRS_1992",
+               DATUM["D_Philippine_Reference_System_1992",
+                SPHEROID["Clarke_1866", 6378206.4, 294.9786982]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : PRS 1992 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Philippines
+Area-slat   : 3.0
+Area-nlat   : 22.18
+Area-llon   : 116.04
+Area-rlon   : 129.95
+
+WKID        : 115772
+Latest-WKID : 115772
+Macro       : PE_VCS_PTRA08
+Name        : PTRA08
+WKT         : VERTCS["PTRA08",
+               DATUM["D_PTRA08",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : PTRA08 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Portugal - Azores and Madeira
+Area-slat   : 29.24
+Area-nlat   : 43.07
+Area-llon   : -35.58
+Area-rlon   : -12.48
+
+WKID        : 115773
+Latest-WKID : 115773
+Macro       : PE_VCS_PZ_1990
+Name        : PZ_1990
+WKT         : VERTCS["PZ_1990",
+               DATUM["D_Parametrop_Zemp_1990",
+                SPHEROID["PZ_1990", 6378136.0, 298.257839303]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : PZ 1990 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115774
+Latest-WKID : 115774
+Macro       : PE_VCS_RDN2008
+Name        : RDN2008
+WKT         : VERTCS["RDN2008",
+               DATUM["D_Rete_Dinamica_Nazionale_2008",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RDN2008 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Italy - including San Marino and Vatican
+Area-slat   : 34.76
+Area-nlat   : 47.1
+Area-llon   : 5.93
+Area-rlon   : 18.99
+
+WKID        : 115775
+Latest-WKID : 115775
+Macro       : PE_VCS_REGCAN95
+Name        : REGCAN95
+WKT         : VERTCS["REGCAN95",
+               DATUM["D_Red_Geodesica_de_Canarias_1995",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : REGCAN95 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Spain - Canary Islands
+Area-slat   : 24.6
+Area-nlat   : 32.76
+Area-llon   : -21.93
+Area-rlon   : -11.75
+
+WKID        : 115776
+Latest-WKID : 115776
+Macro       : PE_VCS_REGVEN
+Name        : REGVEN
+WKT         : VERTCS["REGVEN",
+               DATUM["D_REGVEN",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : REGVEN ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Venezuela
+Area-slat   : 0.64
+Area-nlat   : 16.75
+Area-llon   : -73.38
+Area-rlon   : -58.95
+
+WKID        : 115777
+Latest-WKID : 115777
+Macro       : PE_VCS_RGAF09
+Name        : RGAF09
+WKT         : VERTCS["RGAF09",
+               DATUM["Reseau_Geodesique_des_Antilles_Francaises_2009",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGAF09 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Caribbean - French Antilles
+Area-slat   : 14.08
+Area-nlat   : 18.54
+Area-llon   : -63.66
+Area-rlon   : -57.52
+
+WKID        : 115778
+Latest-WKID : 115778
+Macro       : PE_VCS_RGF_1993
+Name        : RGF_1993
+WKT         : VERTCS["RGF_1993",
+               DATUM["D_RGF_1993",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGF 1993 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 115779
+Latest-WKID : 115779
+Macro       : PE_VCS_RGFG_1995
+Name        : RGFG_1995
+WKT         : VERTCS["RGFG_1995",
+               DATUM["D_RGFG_1995",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGFG 1995 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : French Guiana
+Area-slat   : 2.11
+Area-nlat   : 8.88
+Area-llon   : -54.6
+Area-rlon   : -49.46
+
+WKID        : 115780
+Latest-WKID : 115780
+Macro       : PE_VCS_RGM_2004
+Name        : RGM_2004
+WKT         : VERTCS["RGM_2004",
+               DATUM["D_Reseau_Geodesique_de_Mayotte_2004",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGM 2004 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Mayotte
+Area-slat   : -14.49
+Area-nlat   : -11.33
+Area-llon   : 43.68
+Area-rlon   : 46.7
+
+WKID        : 115781
+Latest-WKID : 115781
+Macro       : PE_VCS_RGNC_1991
+Name        : RGNC_1991
+WKT         : VERTCS["RGNC_1991",
+               DATUM["D_RGNC_1991",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGNC 1991 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+
+WKID        : 115782
+Latest-WKID : 115782
+Macro       : PE_VCS_RGNC_1991_93
+Name        : RGNC_1991-93
+WKT         : VERTCS["RGNC_1991-93",
+               DATUM["D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGNC 1991-93 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+
+WKID        : 115783
+Latest-WKID : 115783
+Macro       : PE_VCS_RGPF
+Name        : RGPF
+WKT         : VERTCS["RGPF",
+               DATUM["D_Reseau_Geodesique_de_la_Polynesie_Francaise",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGPF ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : French Polynesia
+Area-slat   : -31.24
+Area-nlat   : -4.52
+Area-llon   : -158.13
+Area-rlon   : -131.97
+
+WKID        : 115784
+Latest-WKID : 115784
+Macro       : PE_VCS_RGR_1992
+Name        : RGR_1992
+WKT         : VERTCS["RGR_1992",
+               DATUM["D_RGR_1992",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGR 1992 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Reunion
+Area-slat   : -24.72
+Area-nlat   : -18.28
+Area-llon   : 51.83
+Area-rlon   : 58.24
+
+WKID        : 115785
+Latest-WKID : 115785
+Macro       : PE_VCS_RGRDC_2005
+Name        : RGRDC_2005
+WKT         : VERTCS["RGRDC_2005",
+               DATUM["D_Reseau_Geodesique_de_la_RDC_2005",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGRDC 2005 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Congo DR (Zaire) - south
+Area-slat   : -13.46
+Area-nlat   : -3.41
+Area-llon   : 11.79
+Area-rlon   : 29.81
+
+WKID        : 115786
+Latest-WKID : 115786
+Macro       : PE_VCS_RGSPM_2006
+Name        : RGSPM_2006
+WKT         : VERTCS["RGSPM_2006",
+               DATUM["D_Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGSPM 2006 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : St Pierre and Miquelon
+Area-slat   : 43.41
+Area-nlat   : 47.37
+Area-llon   : -57.1
+Area-rlon   : -55.9
+
+WKID        : 115787
+Latest-WKID : 115787
+Macro       : PE_VCS_RRAF_1991
+Name        : RRAF_1991
+WKT         : VERTCS["RRAF_1991",
+               DATUM["D_RRAF_1991",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RRAF 1991 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Caribbean - French Antilles
+Area-slat   : 14.08
+Area-nlat   : 18.54
+Area-llon   : -63.66
+Area-rlon   : -57.52
+
+WKID        : 115788
+Latest-WKID : 115788
+Macro       : PE_VCS_RSRGD2000
+Name        : RSRGD2000
+WKT         : VERTCS["RSRGD2000",
+               DATUM["D_Ross_Sea_Region_Geodetic_Datum_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RSRGD2000 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Antarctica - Ross Sea Region
+Area-slat   : -90.0
+Area-nlat   : -59.99
+Area-llon   : 144.99
+Area-rlon   : -144.99
+
+WKID        : 115789
+Latest-WKID : 115789
+Macro       : PE_VCS_SIRGAS_2000
+Name        : SIRGAS_2000
+WKT         : VERTCS["SIRGAS_2000",
+               DATUM["D_SIRGAS_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS 2000 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Latin America - SIRGAS 2000 by country
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115790
+Latest-WKID : 115790
+Macro       : PE_VCS_SIRGAS_CHILE
+Name        : SIRGAS-Chile
+WKT         : VERTCS["SIRGAS-Chile",
+               DATUM["D_SIRGAS-Chile",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS-Chile ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 115791
+Latest-WKID : 115791
+Macro       : PE_VCS_SIRGAS_ES2007_8
+Name        : SIRGAS_ES2007.8
+WKT         : VERTCS["SIRGAS_ES2007.8",
+               DATUM["D_SIRGAS_ES2007.8",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS ES2007.8 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : El Salvador
+Area-slat   : 9.97
+Area-nlat   : 14.44
+Area-llon   : -91.43
+Area-rlon   : -87.65
+
+WKID        : 115792
+Latest-WKID : 115792
+Macro       : PE_VCS_SIRGAS_ROU98
+Name        : SIRGAS-ROU98
+WKT         : VERTCS["SIRGAS-ROU98",
+               DATUM["D_SIRGAS-ROU98",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS-ROU98 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Uruguay
+Area-slat   : -37.77
+Area-nlat   : -30.09
+Area-llon   : -58.49
+Area-rlon   : -50.01
+
+WKID        : 115793
+Latest-WKID : 115793
+Macro       : PE_VCS_SLD99
+Name        : SLD99
+WKT         : VERTCS["SLD99",
+               DATUM["D_Sri_Lanka_Datum_1999",
+                SPHEROID["Everest_Adjustment_1937", 6377276.345, 300.8017]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 2008 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Sri Lanka - onshore
+Area-slat   : 5.86
+Area-nlat   : 9.88
+Area-llon   : 79.64
+Area-rlon   : 81.95
+
+WKID        : 115794
+Latest-WKID : 115794
+Macro       : PE_VCS_SLOVENIA_1996
+Name        : Slovenia_1996
+WKT         : VERTCS["Slovenia_1996",
+               DATUM["D_Slovenia_Geodetic_Datum_1996",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Slovenia 1996 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Slovenia
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
+
+WKID        : 115795
+Latest-WKID : 115795
+Macro       : PE_VCS_SREF98
+Name        : SREF98
+WKT         : VERTCS["SREF98",
+               DATUM["D_Serbian_Reference_Network_1998",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SREF98 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Serbia
+Area-slat   : 41.85
+Area-nlat   : 46.19
+Area-llon   : 18.81
+Area-rlon   : 23.01
+
+WKID        : 115796
+Latest-WKID : 115796
+Macro       : PE_VCS_S_JTSK_05
+Name        : S_JTSK/05
+WKT         : VERTCS["S_JTSK/05",
+               DATUM["D_S_JTSK_05",
+                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : S_JTSK/05 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Czech Republic
+Area-slat   : 48.58
+Area-nlat   : 51.06
+Area-llon   : 12.09
+Area-rlon   : 18.86
+
+WKID        : 115797
+Latest-WKID : 115797
+Macro       : PE_VCS_S_JTSK_05_FERRO
+Name        : S_JTSK/05_Ferro
+WKT         : VERTCS["S_JTSK/05_Ferro",
+               DATUM["D_S_JTSK_05",
+                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : S JTSK/05 (Ferro) ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Czech Republic
+Area-slat   : 48.58
+Area-nlat   : 51.06
+Area-llon   : 12.09
+Area-rlon   : 18.86
+
+WKID        : 115798
+Latest-WKID : 115798
+Macro       : PE_VCS_SWEREF99
+Name        : SWEREF99
+WKT         : VERTCS["SWEREF99",
+               DATUM["D_SWEREF99",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SWEREF99 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Sweden
+Area-slat   : 54.96
+Area-nlat   : 69.07
+Area-llon   : 10.03
+Area-rlon   : 24.17
+
+WKID        : 115799
+Latest-WKID : 115799
+Macro       : PE_VCS_TGD2005
+Name        : TGD2005
+WKT         : VERTCS["TGD2005",
+               DATUM["D_Tonga_Geodetic_Datum_2005",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : TGD2005 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Tonga
+Area-slat   : -25.68
+Area-nlat   : -14.14
+Area-llon   : -179.08
+Area-rlon   : -171.28
+
+WKID        : 115800
+Latest-WKID : 115800
+Macro       : PE_VCS_TWD_1997
+Name        : TWD_1997
+WKT         : VERTCS["TWD_1997",
+               DATUM["D_TWD_1997",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : TWD 1997 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Taiwan
+Area-slat   : 17.36
+Area-nlat   : 26.96
+Area-llon   : 114.32
+Area-rlon   : 123.61
+
+WKID        : 115801
+Latest-WKID : 115801
+Macro       : PE_VCS_UKRAINE_2000
+Name        : Ukraine_2000
+WKT         : VERTCS["Ukraine_2000",
+               DATUM["D_Ukraine_2000",
+                SPHEROID["Krasovsky_1940", 6378245.0, 298.3]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Ukraine 2000 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Ukraine
+Area-slat   : 43.18
+Area-nlat   : 52.38
+Area-llon   : 22.15
+Area-rlon   : 40.18
+
+WKID        : 115802
+Latest-WKID : 115802
+Macro       : PE_VCS_YEMEN_NGN_1996
+Name        : Yemen_NGN_1996
+WKT         : VERTCS["Yemen_NGN_1996",
+               DATUM["D_Yemen_NGN_1996",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Yemen NGN 1996 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Yemen
+Area-slat   : 8.95
+Area-nlat   : 19.0
+Area-llon   : 41.08
+Area-rlon   : 57.96
+
+WKID        : 115803
+Latest-WKID : 115803
+Macro       : PE_VCS_ITRF_2008
+Name        : ITRF_2008
+WKT         : VERTCS["ITRF_2008",
+               DATUM["D_ITRF_2008",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF 2008 ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115804
+Latest-WKID : 115804
+Macro       : PE_VCS_TUREF
+Name        : TUREF
+WKT         : VERTCS["TUREF",
+               DATUM["D_Turkish_National_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : TUREF ellipsoid height
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Turkey
+Area-slat   : 34.42
+Area-nlat   : 43.45
+Area-llon   : 25.62
+Area-rlon   : 44.83
+
+WKID        : 115805
+Latest-WKID : 115805
+Macro       : PE_VCS_GDA2020
+Name        : GDA2020
+WKT         : VERTCS["GDA2020",
+               DATUM["GDA2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : GDA2020 ellipsoid height
+Authority   : Esri
+Version     : 10.5.0
+Deprecated  : no
+Area-name   : Australia - GDA
+Area-slat   : -60.56
+Area-nlat   : -8.47
+Area-llon   : 93.41
+Area-rlon   : 173.35
+
+WKID        : 115806
+Latest-WKID : 115806
+Macro       : PE_VCS_BGS2005
+Name        : BGS2005
+WKT         : VERTCS["BGS2005",
+               DATUM["Bulgaria_Geodetic_System_2005",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : BGS2005 ellipsoid height
+Authority   : Esri
+Version     : 10.5.0
+Deprecated  : no
+Area-name   : Bulgaria
+Area-slat   : 41.24
+Area-nlat   : 44.23
+Area-llon   : 22.36
+Area-rlon   : 31.35
+
+WKID        : 115807
+Latest-WKID : 115807
+Macro       : PE_VCS_UNKNOWN_HT_SYSTEM_M
+Name        : Unknown_height_system_(meters)
+WKT         : VERTCS["Unknown_height_system_(meters)",
+               VDATUM["Unknown_height_system_(meters)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Unknown height system using meters
+Authority   : Esri
+Version     : 10.5.1
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115808
+Latest-WKID : 115808
+Macro       : PE_VCS_UNKNOWN_HT_SYSTEM_USFT
+Name        : Unknown_height_system_(US_survey_feet)
+WKT         : VERTCS["Unknown_height_system_(US_survey_feet)",
+               VDATUM["Unknown_height_system_(US_survey_feet)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Unknown height system using US survey feet
+Authority   : Esri
+Version     : 10.5.1
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115809
+Latest-WKID : 115809
+Macro       : PE_VCS_UNKNOWN_HT_SYSTEM_FT
+Name        : Unknown_height_system_(Intl_Feet)
+WKT         : VERTCS["Unknown_height_system_(Intl_Feet)",
+               VDATUM["Unknown_height_system_(Intl_feet)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Unknown height system using international feet
+Authority   : Esri
+Version     : 10.5.1
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0

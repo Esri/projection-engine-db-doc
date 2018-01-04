@@ -1,0 +1,6106 @@
+#------------------------------------------------------------------------------------------------------
+# DATUM synonym table
+#
+# syntax: [DATUM,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
+#------------------------------------------------------------------------------------------------------
+
+"Abidjan 1987 (EPSG ID 6143)", \
+   "Abidjan_1987", \
+   FALSE, \
+   "Oracle"
+
+"Accra (EPSG ID 6168)", \
+   "Accra", \
+   FALSE, \
+   "Oracle"
+
+"Adindan (EPSG ID 6201)", \
+   "Adindan", \
+   FALSE, \
+   "Oracle"
+
+"Afgooye (EPSG ID 6205)", \
+   "Afgooye", \
+   FALSE, \
+   "Oracle"
+
+"Agadez (EPSG ID 6206)", \
+   "Agadez", \
+   FALSE, \
+   "Oracle"
+
+"AGD 66 ACT", \
+   "Australian_1966", \
+   FALSE, \
+   "Oracle"
+
+"AGD 66 NT", \
+   "Australian_1966", \
+   FALSE, \
+   "Oracle"
+
+"AGD 66 TAS", \
+   "Australian_1966", \
+   FALSE, \
+   "Oracle"
+
+"AGD 66 VIC NSW", \
+   "Australian_1966", \
+   FALSE, \
+   "Oracle"
+
+"Ain el Abd 1970 (EPSG ID 6204)", \
+   "Ain_el_Abd_1970", \
+   FALSE, \
+   "Oracle"
+
+"Albanian 1987 (EPSG ID 6191)", \
+   "Albanian_1987", \
+   FALSE, \
+   "Oracle"
+
+"American Samoa 1962 (EPSG ID 6169)", \
+   "American_Samoa_1962", \
+   FALSE, \
+   "Oracle"
+
+"Amersfoort (EPSG ID 6289)", \
+   "Amersfoort", \
+   FALSE, \
+   "Oracle"
+
+"Ammassalik 1958 (EPSG ID 6196)", \
+   "Ammassalik_1958", \
+   FALSE, \
+   "Oracle"
+
+"Ancienne Triangulation Francaise (Paris)", \
+   "ATF", \
+   FALSE, \
+   "EPSG"
+
+"Ancienne Triangulation Francaise (Paris)", \
+   "ATF", \
+   FALSE, \
+   "SQLserver"
+
+"Ancienne_Triangulation_Francaise_Paris", \
+   "ATF", \
+   FALSE, \
+   "Teradata"
+
+"Ancienne Triangulation Francaise (Paris) (EPSG ID 6901)", \
+   "ATF", \
+   FALSE, \
+   "Oracle"
+
+"Anguilla 1957 (EPSG ID 6600)", \
+   "Anguilla_1957", \
+   FALSE, \
+   "Oracle"
+
+"Anna 1 Astro 1965", \
+   "Anna_1_1965", \
+   FALSE, \
+   "Oracle"
+
+"Antigua 1943 (EPSG ID 6601)", \
+   "Antigua_1943", \
+   FALSE, \
+   "Oracle"
+
+"Aratu (EPSG ID 6208)", \
+   "Aratu", \
+   FALSE, \
+   "Oracle"
+
+"Arc 1950 (EPSG ID 6209)", \
+   "Arc_1950", \
+   FALSE, \
+   "Oracle"
+
+"Arc 1960 (EPSG ID 6210)", \
+   "Arc_1960", \
+   FALSE, \
+   "Oracle"
+
+"Astro Beacon E", \
+   "Beacon_E_1945", \
+   FALSE, \
+   "Oracle"
+
+"Astro DOS 71", \
+   "DOS_71_4", \
+   FALSE, \
+   "EPSG"
+
+"Astro DOS 71/4", \
+   "DOS_71_4", \
+   FALSE, \
+   "Oracle"
+
+"Astronomic Station 1952", \
+   "Astro_1952", \
+   FALSE, \
+   "Oracle"
+
+"Australian Antarctic Datum 1998", \
+   "Australian_Antarctic_1998", \
+   FALSE, \
+   "EPSG"
+
+"Australian_Antarctic_Datum_1998", \
+   "Australian_Antarctic_1998", \
+   FALSE, \
+   "PostGIS"
+
+"Australian_Antarctic_Datum_1998", \
+   "Australian_Antarctic_1998", \
+   FALSE, \
+   "SpatiaLite"
+
+"Australian Antarctic Datum 1998", \
+   "Australian_Antarctic_1998", \
+   FALSE, \
+   "SQLserver"
+
+"Australian_Antarctic_Datum_1998", \
+   "Australian_Antarctic_1998", \
+   FALSE, \
+   "Teradata"
+
+"Australian Antarctic Datum 1998 (EPSG ID 6176)", \
+   "Australian_Antarctic_1998", \
+   FALSE, \
+   "Oracle"
+
+"Australian Geodetic 1966", \
+   "Australian_1966", \
+   FALSE, \
+   "Oracle"
+
+"Australian Geodetic 1984", \
+   "Australian_1984", \
+   FALSE, \
+   "Oracle"
+
+"Australian Geodetic Datum 1966", \
+   "Australian_1966", \
+   FALSE, \
+   "EPSG"
+
+"Australian_Geodetic_Datum_1966", \
+   "Australian_1966", \
+   FALSE, \
+   "PostGIS"
+
+"Australian_Geodetic_Datum_1966", \
+   "Australian_1966", \
+   FALSE, \
+   "SpatiaLite"
+
+"Australian Geodetic Datum 1966", \
+   "Australian_1966", \
+   FALSE, \
+   "SQLserver"
+
+"Australian_Geodetic_Datum_1966", \
+   "Australian_1966", \
+   FALSE, \
+   "Teradata"
+
+"Australian Geodetic Datum 1966 (EPSG ID 6202)", \
+   "Australian_1966", \
+   FALSE, \
+   "Oracle"
+
+"Australian Geodetic Datum 1984", \
+   "Australian_1984", \
+   FALSE, \
+   "EPSG"
+
+"Australian_Geodetic_Datum_1984", \
+   "Australian_1984", \
+   FALSE, \
+   "PostGIS"
+
+"Australian_Geodetic_Datum_1984", \
+   "Australian_1984", \
+   FALSE, \
+   "SpatiaLite"
+
+"Australian Geodetic Datum 1984", \
+   "Australian_1984", \
+   FALSE, \
+   "SQLserver"
+
+"Australian_Geodetic_Datum_1984", \
+   "Australian_1984", \
+   FALSE, \
+   "Teradata"
+
+"Australian Geodetic Datum 1984 (EPSG ID 6203)", \
+   "Australian_1984", \
+   FALSE, \
+   "Oracle"
+
+"Autonomous Regions of Portugal 2008", \
+   "PTRA08", \
+   FALSE, \
+   "EPSG"
+
+"Average Terrestrial System 1977", \
+   "ATS_1977", \
+   FALSE, \
+   "EPSG"
+
+"Average_Terrestrial_System_1977", \
+   "ATS_1977", \
+   FALSE, \
+   "PostGIS"
+
+"Average_Terrestrial_System_1977", \
+   "ATS_1977", \
+   FALSE, \
+   "SpatiaLite"
+
+"Average Terrestrial System 1977", \
+   "ATS_1977", \
+   FALSE, \
+   "SQLserver"
+
+"Average_Terrestrial_System_1977", \
+   "ATS_1977", \
+   FALSE, \
+   "Teradata"
+
+"Average Terrestrial System 1977 (EPSG ID 6122)", \
+   "ATS_1977", \
+   FALSE, \
+   "Oracle"
+
+"Ayabelle Lighthouse", \
+   "Ayabelle", \
+   FALSE, \
+   "EPSG"
+
+"Ayabelle_Lighthouse", \
+   "Ayabelle", \
+   FALSE, \
+   "PostGIS"
+
+"Ayabelle_Lighthouse", \
+   "Ayabelle", \
+   FALSE, \
+   "SpatiaLite"
+
+"Ayabelle Lighthouse", \
+   "Ayabelle", \
+   FALSE, \
+   "SQLserver"
+
+"Ayabelle_Lighthouse", \
+   "Ayabelle", \
+   FALSE, \
+   "Teradata"
+
+"Azores Central Islands 1948 (EPSG ID 6183)", \
+   "Azores_Central_Islands_1948", \
+   FALSE, \
+   "Oracle"
+
+"Azores Central Islands 1995 (EPSG ID 6665)", \
+   "Azores_Central_Islands_1995", \
+   FALSE, \
+   "Oracle"
+
+"Azores Occidental Islands 1939 (EPSG ID 6182)", \
+   "Azores_Occidental_Islands_1939", \
+   FALSE, \
+   "Oracle"
+
+"Azores Oriental Islands 1940 (EPSG ID 6184)", \
+   "Azores_Oriental_Islands_1940", \
+   FALSE, \
+   "Oracle"
+
+"Azores Oriental Islands 1995 (EPSG ID 6664)", \
+   "Azores_Oriental_Islands_1995", \
+   FALSE, \
+   "Oracle"
+
+"Barbados 1938 (EPSG ID 6212)", \
+   "Barbados_1938", \
+   FALSE, \
+   "Oracle"
+
+"Batavia (EPSG ID 6211)", \
+   "Batavia", \
+   FALSE, \
+   "Oracle"
+
+"Batavia_Jakarta", \
+   "Batavia", \
+   FALSE, \
+   "PostGIS"
+
+"Batavia_Jakarta", \
+   "Batavia", \
+   FALSE, \
+   "SpatiaLite"
+
+"Batavia (Jakarta)", \
+   "Batavia", \
+   FALSE, \
+   "SQLserver"
+
+"Batavia_Jakarta", \
+   "Batavia", \
+   FALSE, \
+   "Teradata"
+
+"Batavia (Jakarta) (EPSG ID 6813)", \
+   "Batavia", \
+   FALSE, \
+   "Oracle"
+
+"Beduaram (EPSG ID 6213)", \
+   "Beduaram", \
+   FALSE, \
+   "Oracle"
+
+"Beijing 1954 (EPSG ID 6214)", \
+   "Beijing_1954", \
+   FALSE, \
+   "Oracle"
+
+"Belgium Hayford", \
+   "Lisboa_Hayford", \
+   FALSE, \
+   "Oracle"
+
+"Bellevue", \
+   "Bellevue_IGN", \
+   FALSE, \
+   "EPSG"
+
+"Bellevue", \
+   "Bellevue_IGN", \
+   FALSE, \
+   "PostGIS"
+
+"Bellevue", \
+   "Bellevue_IGN", \
+   FALSE, \
+   "SpatiaLite"
+
+"Bellevue", \
+   "Bellevue_IGN", \
+   FALSE, \
+   "SQLserver"
+
+"Bellevue", \
+   "Bellevue_IGN", \
+   FALSE, \
+   "Teradata"
+
+"Bermuda 1957 (EPSG ID 6216)", \
+   "Bermuda_1957", \
+   FALSE, \
+   "Oracle"
+
+"Bern 1938 (EPSG ID 6306)", \
+   "Bern_1938", \
+   FALSE, \
+   "Oracle"
+
+"Bissau (EPSG ID 6165)", \
+   "Bissau", \
+   FALSE, \
+   "Oracle"
+
+"Bogota 1975", \
+   "Bogota", \
+   FALSE, \
+   "EPSG"
+
+"Bogota_1975", \
+   "Bogota", \
+   FALSE, \
+   "PostGIS"
+
+"Bogota_1975", \
+   "Bogota", \
+   FALSE, \
+   "SpatiaLite"
+
+"Bogota 1975", \
+   "Bogota", \
+   FALSE, \
+   "SQLserver"
+
+"Bogota_1975", \
+   "Bogota", \
+   FALSE, \
+   "Teradata"
+
+"Bogota_1975_Bogota", \
+   "Bogota", \
+   FALSE, \
+   "PostGIS"
+
+"Bogota_1975_Bogota", \
+   "Bogota", \
+   FALSE, \
+   "SpatiaLite"
+
+"Bogota 1975 (Bogota)", \
+   "Bogota", \
+   FALSE, \
+   "SQLserver"
+
+"Bogota_1975_Bogota", \
+   "Bogota", \
+   FALSE, \
+   "Teradata"
+
+"Bogota 1975 (Bogota) (EPSG ID 6802)", \
+   "Bogota", \
+   FALSE, \
+   "Oracle"
+
+"Bogota 1975 (EPSG ID 6218)", \
+   "Bogota", \
+   FALSE, \
+   "Oracle"
+
+"Bogota Observatory", \
+   "Bogota", \
+   FALSE, \
+   "Oracle"
+
+"Bukit Rimpah (EPSG ID 6219)", \
+   "Bukit_Rimpah", \
+   FALSE, \
+   "Oracle"
+
+"Camacupa (EPSG ID 6220)", \
+   "Camacupa", \
+   FALSE, \
+   "Oracle"
+
+"Camp Area Astro", \
+   "Camp_Area", \
+   FALSE, \
+   "EPSG"
+
+"Camp_Area_Astro", \
+   "Camp_Area", \
+   FALSE, \
+   "PostGIS"
+
+"Camp_Area_Astro", \
+   "Camp_Area", \
+   FALSE, \
+   "SpatiaLite"
+
+"Camp Area Astro", \
+   "Camp_Area", \
+   FALSE, \
+   "SQLserver"
+
+"Camp_Area_Astro", \
+   "Camp_Area", \
+   FALSE, \
+   "Teradata"
+
+"Campo Inchauspe (EPSG ID 6221)", \
+   "Campo_Inchauspe", \
+   FALSE, \
+   "Oracle"
+
+"Canton Astro 1966", \
+   "Canton_1966", \
+   FALSE, \
+   "Oracle"
+
+"Cape (EPSG ID 6222)", \
+   "Cape", \
+   FALSE, \
+   "Oracle"
+
+"Carthage (EPSG ID 6223)", \
+   "Carthage", \
+   FALSE, \
+   "Oracle"
+
+"Carthage_Paris", \
+   "Carthage", \
+   FALSE, \
+   "PostGIS"
+
+"Carthage_Paris", \
+   "Carthage", \
+   FALSE, \
+   "SpatiaLite"
+
+"Carthage (Paris)", \
+   "Carthage", \
+   FALSE, \
+   "SQLserver"
+
+"Carthage_Paris", \
+   "Carthage", \
+   FALSE, \
+   "Teradata"
+
+"Carthage (Paris) (EPSG ID 6816)", \
+   "Carthage", \
+   FALSE, \
+   "Oracle"
+
+"Centre Spatial Guyanais 1967", \
+   "CSG_1967", \
+   FALSE, \
+   "EPSG"
+
+"Centre_Spatial_Guyanais_1967", \
+   "CSG_1967", \
+   FALSE, \
+   "PostGIS"
+
+"Centre_Spatial_Guyanais_1967", \
+   "CSG_1967", \
+   FALSE, \
+   "SpatiaLite"
+
+"Centre Spatial Guyanais 1967", \
+   "CSG_1967", \
+   FALSE, \
+   "SQLserver"
+
+"Centre_Spatial_Guyanais_1967", \
+   "CSG_1967", \
+   FALSE, \
+   "Teradata"
+
+"Centre Spatial Guyanais 1967 (EPSG ID 6623)", \
+   "CSG_1967", \
+   FALSE, \
+   "Oracle"
+
+"CH1903+ (EPSG ID 6150)", \
+   "CH1903+", \
+   FALSE, \
+   "Oracle"
+
+"CH1903_Bern", \
+   "Bern_1898", \
+   FALSE, \
+   "PostGIS"
+
+"CH1903_Bern", \
+   "Bern_1898", \
+   FALSE, \
+   "SpatiaLite"
+
+"CH1903 (Bern)", \
+   "Bern_1898", \
+   FALSE, \
+   "SQLserver"
+
+"CH1903_Bern", \
+   "Bern_1898", \
+   FALSE, \
+   "Teradata"
+
+"CH1903 (Bern) (EPSG ID 6801)", \
+   "Bern_1898", \
+   FALSE, \
+   "Oracle"
+
+"CH1903 (EPSG ID 6149)", \
+   "CH1903", \
+   FALSE, \
+   "Oracle"
+
+"CH 1903 (Switzerland)", \
+   "CH1903", \
+   FALSE, \
+   "Oracle"
+
+"Chatham 1971", \
+   "Chatham_Island_1971", \
+   FALSE, \
+   "Oracle"
+
+"Chatham Islands Datum 1971", \
+   "Chatham_Island_1971", \
+   FALSE, \
+   "EPSG"
+
+"Chatham_Islands_Datum_1971", \
+   "Chatham_Island_1971", \
+   FALSE, \
+   "PostGIS"
+
+"Chatham_Islands_Datum_1971", \
+   "Chatham_Island_1971", \
+   FALSE, \
+   "SpatiaLite"
+
+"Chatham Islands Datum 1971", \
+   "Chatham_Island_1971", \
+   FALSE, \
+   "SQLserver"
+
+"Chatham_Islands_Datum_1971", \
+   "Chatham_Island_1971", \
+   FALSE, \
+   "Teradata"
+
+"Chatham Islands Datum 1979", \
+   "Chatham_Islands_1979", \
+   FALSE, \
+   "EPSG"
+
+"Chatham_Islands_Datum_1979", \
+   "Chatham_Islands_1979", \
+   FALSE, \
+   "PostGIS"
+
+"Chatham_Islands_Datum_1979", \
+   "Chatham_Islands_1979", \
+   FALSE, \
+   "SpatiaLite"
+
+"Chatham Islands Datum 1979", \
+   "Chatham_Islands_1979", \
+   FALSE, \
+   "SQLserver"
+
+"Chatham_Islands_Datum_1979", \
+   "Chatham_Islands_1979", \
+   FALSE, \
+   "Teradata"
+
+"Chos Malal 1914 (EPSG ID 6160)", \
+   "Chos_Malal_1914", \
+   FALSE, \
+   "Oracle"
+
+"Chua Astro", \
+   "Chua", \
+   FALSE, \
+   "Oracle"
+
+"Chua (EPSG ID 6224)", \
+   "Chua", \
+   FALSE, \
+   "Oracle"
+
+"Cocos Islands 1965", \
+   "Anna_1_1965", \
+   FALSE, \
+   "EPSG"
+
+"Cocos_Islands_1965", \
+   "Anna_1_1965", \
+   FALSE, \
+   "PostGIS"
+
+"Cocos_Islands_1965", \
+   "Anna_1_1965", \
+   FALSE, \
+   "SpatiaLite"
+
+"Cocos Islands 1965", \
+   "Anna_1_1965", \
+   FALSE, \
+   "SQLserver"
+
+"Cocos_Islands_1965", \
+   "Anna_1_1965", \
+   FALSE, \
+   "Teradata"
+
+"Combani 1950 (EPSG ID 6632)", \
+   "Combani_1950", \
+   FALSE, \
+   "Oracle"
+
+"Conakry 1905 (EPSG ID 6315)", \
+   "Conakry_1905", \
+   FALSE, \
+   "Oracle"
+
+"Congo 1960 Pointe Noire", \
+   "Pointe_Noire", \
+   FALSE, \
+   "EPSG"
+
+"Congo_1960_Pointe_Noire", \
+   "Pointe_Noire", \
+   FALSE, \
+   "PostGIS"
+
+"Congo_1960_Pointe_Noire", \
+   "Pointe_Noire", \
+   FALSE, \
+   "SpatiaLite"
+
+"Congo 1960 Pointe Noire", \
+   "Pointe_Noire", \
+   FALSE, \
+   "SQLserver"
+
+"Congo_1960_Pointe_Noire", \
+   "Pointe_Noire", \
+   FALSE, \
+   "Teradata"
+
+"Congo 1960 Pointe Noire (EPSG ID 6282)", \
+   "Pointe_Noire", \
+   FALSE, \
+   "Oracle"
+
+"Corrego Alegre 1970-72", \
+   "Corrego_Alegre", \
+   FALSE, \
+   "EPSG"
+
+"Corrego Alegre (EPSG ID 6225)", \
+   "Corrego_Alegre", \
+   FALSE, \
+   "Oracle"
+
+"Cote d'Ivoire (EPSG ID 6226)", \
+   "Cote_d_Ivoire", \
+   FALSE, \
+   "Oracle"
+
+"Dabola 1981 (EPSG ID 6155)", \
+   "Dabola_1981", \
+   FALSE, \
+   "Oracle"
+
+"Datum 73 (EPSG ID 6274)", \
+   "Datum_73", \
+   FALSE, \
+   "Oracle"
+
+"D_Deutsche_Hauptdreiecksnetz", \
+   "D_Deutsches_Hauptdreiecksnetz", \
+   TRUE, \
+   ""
+
+"Dealul Piscului 1930", \
+   "Dealul_Piscului_1933", \
+   FALSE, \
+   "EPSG"
+
+"Dealul_Piscului_1930", \
+   "Dealul_Piscului_1933", \
+   FALSE, \
+   "PostGIS"
+
+"Dealul_Piscului_1930", \
+   "Dealul_Piscului_1933", \
+   FALSE, \
+   "SpatiaLite"
+
+"Dealul Piscului 1933 (EPSG ID 6316)", \
+   "Dealul_Piscului_1933", \
+   FALSE, \
+   "Oracle"
+
+"Dealul Piscului 1970 (EPSG ID 6317)", \
+   "Dealul_Piscului_1970", \
+   FALSE, \
+   "Oracle"
+
+"Deir ez Zor (EPSG ID 6227)", \
+   "Deir_ez_Zor", \
+   FALSE, \
+   "Oracle"
+
+"Deutsches Hauptdreiecksnetz (EPSG ID 6314)", \
+   "Deutsches_Hauptdreiecksnetz", \
+   FALSE, \
+   "Oracle"
+
+"Diego Garcia 1969", \
+   "ISTS_073_1969", \
+   FALSE, \
+   "EPSG"
+
+"Diego_Garcia_1969", \
+   "ISTS_073_1969", \
+   FALSE, \
+   "PostGIS"
+
+"Diego_Garcia_1969", \
+   "ISTS_073_1969", \
+   FALSE, \
+   "SpatiaLite"
+
+"Diego Garcia 1969", \
+   "ISTS_073_1969", \
+   FALSE, \
+   "SQLserver"
+
+"Diego_Garcia_1969", \
+   "ISTS_073_1969", \
+   FALSE, \
+   "Teradata"
+
+"D_K0_1949", \
+   "D_Kerguelen_Island_1949", \
+   TRUE, \
+   ""
+
+"D_Kasai_1955", \
+   "D_Kasai_1953", \
+   TRUE, \
+   ""
+
+"D_North_American_1983_CSRS98", \
+   "D_North_American_1983_CSRS", \
+   TRUE, \
+   ""
+
+"D_Observ_Meteorological_1939", \
+   "D_Observatorio_Meteorologico_1939", \
+   TRUE, \
+   ""
+
+"Dominica 1945 (EPSG ID 6602)", \
+   "Dominica_1945", \
+   FALSE, \
+   "Oracle"
+
+"Douala 1948 (EPSG ID 6192)", \
+   "Douala_1948", \
+   FALSE, \
+   "Oracle"
+
+"Douala (EPSG ID 6228)", \
+   "Douala", \
+   FALSE, \
+   "Oracle"
+
+"D_Phillipine_Reference_System_1992", \
+   "D_Philippine_Reference_System_1992", \
+   TRUE, \
+   ""
+
+"D_Piton_des_Neiges", \
+   "D_Reunion_1947", \
+   TRUE, \
+   ""
+
+"D_Reunion", \
+   "D_Reunion_1947", \
+   TRUE, \
+   ""
+
+"D_Tahaa", \
+   "D_Tahaa_1954", \
+   TRUE, \
+   ""
+
+"D_Tahiti", \
+   "D_Tahiti_1952", \
+   TRUE, \
+   ""
+
+"Egypt 1907 (EPSG ID 6229)", \
+   "Egypt_1907", \
+   FALSE, \
+   "Oracle"
+
+"Egypt 1930 (EPSG ID 6199)", \
+   "Egypt_1930", \
+   FALSE, \
+   "Oracle"
+
+"Estonia 1992 (EPSG ID 6133)", \
+   "Estonia_1992", \
+   FALSE, \
+   "Oracle"
+
+"Estonia 1997 (EPSG ID 6180)", \
+   "Estonia_1997", \
+   FALSE, \
+   "Oracle"
+
+"ETRS 89", \
+   "ETRS_1989", \
+   FALSE, \
+   "Oracle"
+
+"European 1950 (Denmark)", \
+   "European_1950", \
+   FALSE, \
+   "Oracle"
+
+"European Datum 1950", \
+   "European_1950", \
+   FALSE, \
+   "EPSG"
+
+"European_Datum_1950", \
+   "European_1950", \
+   FALSE, \
+   "PostGIS"
+
+"European_Datum_1950", \
+   "European_1950", \
+   FALSE, \
+   "SpatiaLite"
+
+"European Datum 1950", \
+   "European_1950", \
+   FALSE, \
+   "SQLserver"
+
+"European_Datum_1950", \
+   "European_1950", \
+   FALSE, \
+   "Teradata"
+
+"European Datum 1950(1977)", \
+   "European_1950_ED77", \
+   FALSE, \
+   "EPSG"
+
+"European_Datum_1950_1977", \
+   "European_1950_ED77", \
+   FALSE, \
+   "PostGIS"
+
+"European_Datum_1950_1977", \
+   "European_1950_ED77", \
+   FALSE, \
+   "SpatiaLite"
+
+"European Datum 1950(1977)", \
+   "European_1950_ED77", \
+   FALSE, \
+   "SQLserver"
+
+"European_Datum_1950_1977", \
+   "European_1950_ED77", \
+   FALSE, \
+   "Teradata"
+
+"European Datum 1950(1977) (EPSG ID 6154)", \
+   "European_1950_ED77", \
+   FALSE, \
+   "Oracle"
+
+"European Datum 1950 (EPSG ID 6230)", \
+   "European_1950", \
+   FALSE, \
+   "Oracle"
+
+"European Datum 1979", \
+   "European_1979", \
+   FALSE, \
+   "EPSG"
+
+"European_Datum_1979", \
+   "European_1979", \
+   FALSE, \
+   "PostGIS"
+
+"European_Datum_1979", \
+   "European_1979", \
+   FALSE, \
+   "SpatiaLite"
+
+"European Datum 1979", \
+   "European_1979", \
+   FALSE, \
+   "SQLserver"
+
+"European_Datum_1979", \
+   "European_1979", \
+   FALSE, \
+   "Teradata"
+
+"European Datum 1987", \
+   "European_1987", \
+   FALSE, \
+   "EPSG"
+
+"European_Datum_1987", \
+   "European_1987", \
+   FALSE, \
+   "PostGIS"
+
+"European_Datum_1987", \
+   "European_1987", \
+   FALSE, \
+   "SpatiaLite"
+
+"European Datum 1987", \
+   "European_1987", \
+   FALSE, \
+   "SQLserver"
+
+"European_Datum_1987", \
+   "European_1987", \
+   FALSE, \
+   "Teradata"
+
+"European Datum 1987 (EPSG ID 6231)", \
+   "European_1987", \
+   FALSE, \
+   "Oracle"
+
+"European Libyan Datum 1979", \
+   "European_Libyan_1979", \
+   FALSE, \
+   "EPSG"
+
+"European_Libyan_Datum_1979", \
+   "European_Libyan_1979", \
+   FALSE, \
+   "PostGIS"
+
+"European_Libyan_Datum_1979", \
+   "European_Libyan_1979", \
+   FALSE, \
+   "SpatiaLite"
+
+"European Libyan Datum 1979", \
+   "European_Libyan_1979", \
+   FALSE, \
+   "SQLserver"
+
+"European_Libyan_Datum_1979", \
+   "European_Libyan_1979", \
+   FALSE, \
+   "Teradata"
+
+"European Libyan Datum 1979 (EPSG ID 6159)", \
+   "European_Libyan_1979", \
+   FALSE, \
+   "Oracle"
+
+"European Terrestrial Reference Frame 1989", \
+   "ETRF_1989", \
+   FALSE, \
+   "EPSG"
+
+"European Terrestrial Reference System 1989", \
+   "ETRS_1989", \
+   FALSE, \
+   "EPSG"
+
+"European_Terrestrial_Reference_System_1989", \
+   "ETRS_1989", \
+   FALSE, \
+   "PostGIS"
+
+"European_Terrestrial_Reference_System_1989", \
+   "ETRS_1989", \
+   FALSE, \
+   "SpatiaLite"
+
+"European Terrestrial Reference System 1989", \
+   "ETRS_1989", \
+   FALSE, \
+   "SQLserver"
+
+"European_Terrestrial_Reference_System_1989", \
+   "ETRS_1989", \
+   FALSE, \
+   "Teradata"
+
+"European Terrestrial Reference System 1989 (EPSG ID 6258)", \
+   "ETRS_1989", \
+   FALSE, \
+   "Oracle"
+
+"Fahud (EPSG ID 6232)", \
+   "Fahud", \
+   FALSE, \
+   "Oracle"
+
+"Fatu Iva 72", \
+   "Fatu_Iva_1972", \
+   FALSE, \
+   "EPSG"
+
+"Fatu_Iva_72", \
+   "Fatu_Iva_1972", \
+   FALSE, \
+   "PostGIS"
+
+"Fatu_Iva_72", \
+   "Fatu_Iva_1972", \
+   FALSE, \
+   "SpatiaLite"
+
+"Fatu Iva 72", \
+   "Fatu_Iva_1972", \
+   FALSE, \
+   "SQLserver"
+
+"Fatu_Iva_72", \
+   "Fatu_Iva_1972", \
+   FALSE, \
+   "Teradata"
+
+"Fiji Geodetic Datum 1986", \
+   "Fiji_1986", \
+   FALSE, \
+   "EPSG"
+
+"Fiji_Geodetic_Datum_1986", \
+   "Fiji_1986", \
+   FALSE, \
+   "PostGIS"
+
+"Fiji_Geodetic_Datum_1986", \
+   "Fiji_1986", \
+   FALSE, \
+   "SpatiaLite"
+
+"Fiji Geodetic Datum 1986", \
+   "Fiji_1986", \
+   FALSE, \
+   "SQLserver"
+
+"Fiji_Geodetic_Datum_1986", \
+   "Fiji_1986", \
+   FALSE, \
+   "Teradata"
+
+"Final Datum 1958", \
+   "FD_1958", \
+   FALSE, \
+   "EPSG"
+
+"Final_Datum_1958", \
+   "FD_1958", \
+   FALSE, \
+   "PostGIS"
+
+"Final_Datum_1958", \
+   "FD_1958", \
+   FALSE, \
+   "SpatiaLite"
+
+"Final Datum 1958", \
+   "FD_1958", \
+   FALSE, \
+   "SQLserver"
+
+"Final_Datum_1958", \
+   "FD_1958", \
+   FALSE, \
+   "Teradata"
+
+"Final Datum 1958 (EPSG ID 6132)", \
+   "FD_1958", \
+   FALSE, \
+   "Oracle"
+
+"Fort Desaix (EPSG ID 6625)", \
+   "Fort_Desaix", \
+   FALSE, \
+   "Oracle"
+
+"Fort Marigot (EPSG ID 6621)", \
+   "Fort_Marigot", \
+   FALSE, \
+   "Oracle"
+
+"Gandajika", \
+   "Gandajika_1970", \
+   FALSE, \
+   "PostGIS"
+
+"Gandajika", \
+   "Gandajika_1970", \
+   FALSE, \
+   "Teradata"
+
+"Gandajika 1970 (EPSG ID 6233)", \
+   "Gandajika_1970", \
+   FALSE, \
+   "Oracle"
+
+"Garoua (EPSG ID 6197)", \
+   "Garoua", \
+   FALSE, \
+   "Oracle"
+
+"Garoua (EPSG ID 6234)", \
+   "Garoua", \
+   FALSE, \
+   "Oracle"
+
+"GDA 94", \
+   "GDA_1994", \
+   FALSE, \
+   "Oracle"
+
+"Geocentric Datum Brunei Darussalam 2009", \
+   "GDBD2009", \
+   FALSE, \
+   "EPSG"
+
+"Geocentric Datum of Australia 1994", \
+   "GDA_1994", \
+   FALSE, \
+   "EPSG"
+
+"Geocentric_Datum_of_Australia_1994", \
+   "GDA_1994", \
+   FALSE, \
+   "PostGIS"
+
+"Geocentric_Datum_of_Australia_1994", \
+   "GDA_1994", \
+   FALSE, \
+   "SpatiaLite"
+
+"Geocentric Datum of Australia 1994", \
+   "GDA_1994", \
+   FALSE, \
+   "SQLserver"
+
+"Geocentric_Datum_of_Australia_1994", \
+   "GDA_1994", \
+   FALSE, \
+   "Teradata"
+
+"Geocentric Datum of Australia 1994 (EPSG ID 6283)", \
+   "GDA_1994", \
+   FALSE, \
+   "Oracle"
+
+"Geocentric Datum of Australia 2020", \
+   "GDA2020", \
+   FALSE, \
+   "EPSG"
+
+"Geocentric datum of Korea", \
+   "Korea_2000", \
+   FALSE, \
+   "EPSG"
+
+"Geocentric_datum_of_Korea", \
+   "Korea_2000", \
+   FALSE, \
+   "PostGIS"
+
+"Geocentric_datum_of_Korea", \
+   "Korea_2000", \
+   FALSE, \
+   "SpatiaLite"
+
+"Geocentric datum of Korea", \
+   "Korea_2000", \
+   FALSE, \
+   "SQLserver"
+
+"Geocentric_datum_of_Korea", \
+   "Korea_2000", \
+   FALSE, \
+   "Teradata"
+
+"Geodetic Datum 1949", \
+   "New_Zealand_1949", \
+   FALSE, \
+   "Oracle"
+
+"Geodetic Datum of 1965", \
+   "TM75", \
+   FALSE, \
+   "EPSG"
+
+"Geodetic_Datum_of_1965", \
+   "TM75", \
+   FALSE, \
+   "PostGIS"
+
+"Geodetic_Datum_of_1965", \
+   "TM75", \
+   FALSE, \
+   "SpatiaLite"
+
+"Geodetic Datum of 1965", \
+   "TM75", \
+   FALSE, \
+   "SQLserver"
+
+"Geodetic_Datum_of_1965", \
+   "TM75", \
+   FALSE, \
+   "Teradata"
+
+"Geodetic Datum of 1965 (EPSG ID 6300)", \
+   "TM75", \
+   FALSE, \
+   "Oracle"
+
+"Geodetic Datum of Malaysia 2000", \
+   "GDM_2000", \
+   FALSE, \
+   "EPSG"
+
+"Geodetic_Datum_of_Malaysia_2000", \
+   "GDM_2000", \
+   FALSE, \
+   "PostGIS"
+
+"Geodetic_Datum_of_Malaysia_2000", \
+   "GDM_2000", \
+   FALSE, \
+   "SpatiaLite"
+
+"Geodetic Datum of Malaysia 2000", \
+   "GDM_2000", \
+   FALSE, \
+   "SQLserver"
+
+"Geodetic_Datum_of_Malaysia_2000", \
+   "GDM_2000", \
+   FALSE, \
+   "Teradata"
+
+"Grand Cayman Geodetic Datum 1959", \
+   "Grand_Cayman_1959", \
+   FALSE, \
+   "EPSG"
+
+"Grand Comoros (EPSG ID 6646)", \
+   "Grand_Comoros", \
+   FALSE, \
+   "Oracle"
+
+"Greek_Athens", \
+   "Greek", \
+   FALSE, \
+   "PostGIS"
+
+"Greek_Athens", \
+   "Greek", \
+   FALSE, \
+   "SpatiaLite"
+
+"Greek (Athens)", \
+   "Greek", \
+   FALSE, \
+   "SQLserver"
+
+"Greek_Athens", \
+   "Greek", \
+   FALSE, \
+   "Teradata"
+
+"Greek (Athens) (EPSG ID 6815)", \
+   "Greek", \
+   FALSE, \
+   "Oracle"
+
+"Greek (EPSG ID 6120)", \
+   "Greek", \
+   FALSE, \
+   "Oracle"
+
+"Greek Geodetic Reference System 1987", \
+   "GGRS_1987", \
+   FALSE, \
+   "EPSG"
+
+"Greek_Geodetic_Reference_System_1987", \
+   "GGRS_1987", \
+   FALSE, \
+   "PostGIS"
+
+"Greek_Geodetic_Reference_System_1987", \
+   "GGRS_1987", \
+   FALSE, \
+   "SpatiaLite"
+
+"Greek Geodetic Reference System 1987", \
+   "GGRS_1987", \
+   FALSE, \
+   "SQLserver"
+
+"Greek_Geodetic_Reference_System_1987", \
+   "GGRS_1987", \
+   FALSE, \
+   "Teradata"
+
+"Greek Geodetic Reference System 1987 (EPSG ID 6121)", \
+   "GGRS_1987", \
+   FALSE, \
+   "Oracle"
+
+"Grenada 1953 (EPSG ID 6603)", \
+   "Grenada_1953", \
+   FALSE, \
+   "Oracle"
+
+"GRS 80", \
+   "GRS_1980", \
+   FALSE, \
+   "Oracle"
+
+"GRS 80 (EPSG ID 10035)", \
+   "GRS_1980", \
+   FALSE, \
+   "Oracle"
+
+"Guadeloupe 1948", \
+   "Sainte_Anne", \
+   FALSE, \
+   "EPSG"
+
+"Guadeloupe_1948", \
+   "Sainte_Anne", \
+   FALSE, \
+   "PostGIS"
+
+"Guadeloupe_1948", \
+   "Sainte_Anne", \
+   FALSE, \
+   "SpatiaLite"
+
+"Guadeloupe 1948", \
+   "Sainte_Anne", \
+   FALSE, \
+   "SQLserver"
+
+"Guadeloupe_1948", \
+   "Sainte_Anne", \
+   FALSE, \
+   "Teradata"
+
+"Gunung Segara (EPSG ID 6613)", \
+   "Gunung_Segara", \
+   FALSE, \
+   "Oracle"
+
+"Gunung_Segara_Jakarta", \
+   "Gunung_Segara", \
+   FALSE, \
+   "PostGIS"
+
+"Gunung_Segara_Jakarta", \
+   "Gunung_Segara", \
+   FALSE, \
+   "SpatiaLite"
+
+"Gunung Segara (Jakarta)", \
+   "Gunung_Segara", \
+   FALSE, \
+   "SQLserver"
+
+"Gunung_Segara_Jakarta", \
+   "Gunung_Segara", \
+   FALSE, \
+   "Teradata"
+
+"Gunung Segara (Jakarta) (EPSG ID 6820)", \
+   "Gunung_Segara", \
+   FALSE, \
+   "Oracle"
+
+"GUX 1 Astro", \
+   "GUX_1", \
+   FALSE, \
+   "Oracle"
+
+"Guyane Francaise (EPSG ID 6235)", \
+   "Guyane_Francaise", \
+   FALSE, \
+   "Oracle"
+
+"Hanoi 1972 (EPSG ID 6147)", \
+   "Hanoi_1972", \
+   FALSE, \
+   "Oracle"
+
+"Hartebeesthoek94", \
+   "Hartebeesthoek_1994", \
+   FALSE, \
+   "EPSG"
+
+"Hartebeesthoek94", \
+   "Hartebeesthoek_1994", \
+   FALSE, \
+   "PostGIS"
+
+"Hartebeesthoek94", \
+   "Hartebeesthoek_1994", \
+   FALSE, \
+   "SpatiaLite"
+
+"Hartebeesthoek94", \
+   "Hartebeesthoek_1994", \
+   FALSE, \
+   "SQLserver"
+
+"Hartebeesthoek94", \
+   "Hartebeesthoek_1994", \
+   FALSE, \
+   "Teradata"
+
+"Hartebeesthoek94 (EPSG ID 6148)", \
+   "Hartebeesthoek_1994", \
+   FALSE, \
+   "Oracle"
+
+"Helle 1954 (EPSG ID 6660)", \
+   "Helle_1954", \
+   FALSE, \
+   "Oracle"
+
+"Herat North (EPSG ID 6255)", \
+   "Herat_North", \
+   FALSE, \
+   "Oracle"
+
+"Hito XVIII 1963 (EPSG ID 6254)", \
+   "Hito_XVIII_1963", \
+   FALSE, \
+   "Oracle"
+
+"Hjorsey 1955 (EPSG ID 6658)", \
+   "Hjorsey_1955", \
+   FALSE, \
+   "Oracle"
+
+"Hong Kong 1980 (EPSG ID 6611)", \
+   "Hong_Kong_1980", \
+   FALSE, \
+   "Oracle"
+
+"Hungarian Datum 1972", \
+   "Hungarian_1972", \
+   FALSE, \
+   "EPSG"
+
+"Hungarian_Datum_1972", \
+   "Hungarian_1972", \
+   FALSE, \
+   "PostGIS"
+
+"Hungarian_Datum_1972", \
+   "Hungarian_1972", \
+   FALSE, \
+   "SpatiaLite"
+
+"Hungarian Datum 1972", \
+   "Hungarian_1972", \
+   FALSE, \
+   "SQLserver"
+
+"Hungarian_Datum_1972", \
+   "Hungarian_1972", \
+   FALSE, \
+   "Teradata"
+
+"Hungarian Datum 1972 (EPSG ID 6237)", \
+   "Hungarian_1972", \
+   FALSE, \
+   "Oracle"
+
+"Hu Tzu Shan 1950", \
+   "Hu_Tzu_Shan", \
+   FALSE, \
+   "EPSG"
+
+"Hu_Tzu_Shan_1950", \
+   "Hu_Tzu_Shan", \
+   FALSE, \
+   "PostGIS"
+
+"Hu_Tzu_Shan_1950", \
+   "Hu_Tzu_Shan", \
+   FALSE, \
+   "SpatiaLite"
+
+"Hu Tzu Shan (EPSG ID 6236)", \
+   "Hu_Tzu_Shan", \
+   FALSE, \
+   "Oracle"
+
+"IERS Terrestrial Reference Frame 1988 (EPSG ID 6647)", \
+   "ITRF_1988", \
+   FALSE, \
+   "Oracle"
+
+"IERS Terrestrial Reference Frame 1989 (EPSG ID 6648)", \
+   "ITRF_1989", \
+   FALSE, \
+   "Oracle"
+
+"IERS Terrestrial Reference Frame 1990 (EPSG ID 6649)", \
+   "ITRF_1990", \
+   FALSE, \
+   "Oracle"
+
+"IERS Terrestrial Reference Frame 1991 (EPSG ID 6650)", \
+   "ITRF_1991", \
+   FALSE, \
+   "Oracle"
+
+"IERS Terrestrial Reference Frame 1992 (EPSG ID 6651)", \
+   "ITRF_1992", \
+   FALSE, \
+   "Oracle"
+
+"IERS Terrestrial Reference Frame 1993 (EPSG ID 6652)", \
+   "ITRF_1993", \
+   FALSE, \
+   "Oracle"
+
+"IERS Terrestrial Reference Frame 1994 (EPSG ID 6653)", \
+   "ITRF_1994", \
+   FALSE, \
+   "Oracle"
+
+"IERS Terrestrial Reference Frame 1996 (EPSG ID 6654)", \
+   "ITRF_1996", \
+   FALSE, \
+   "Oracle"
+
+"IERS Terrestrial Reference Frame 1997 (EPSG ID 6655)", \
+   "ITRF_1997", \
+   FALSE, \
+   "Oracle"
+
+"IERS Terrestrial Reference Frame 2000 (EPSG ID 6656)", \
+   "ITRF_2000", \
+   FALSE, \
+   "Oracle"
+
+"IG05/12 Intermediate Datum", \
+   "IG05(2012)_Intermediate_Datum", \
+   FALSE, \
+   "EPSG"
+
+"IGN 1962 Kerguelen", \
+   "Kerguelen_Island_1949", \
+   FALSE, \
+   "EPSG"
+
+"IGN_1962_Kerguelen", \
+   "Kerguelen_Island_1949", \
+   FALSE, \
+   "PostGIS"
+
+"IGN_1962_Kerguelen", \
+   "Kerguelen_Island_1949", \
+   FALSE, \
+   "SpatiaLite"
+
+"IGN 1962 Kerguelen", \
+   "Kerguelen_Island_1949", \
+   FALSE, \
+   "SQLserver"
+
+"IGN_1962_Kerguelen", \
+   "Kerguelen_Island_1949", \
+   FALSE, \
+   "Teradata"
+
+"IGN53 Mare (EPSG ID 6641)", \
+   "IGN53_Mare", \
+   FALSE, \
+   "Oracle"
+
+"IGN56 Lifou (EPSG ID 6633)", \
+   "IGN56_Lifou", \
+   FALSE, \
+   "Oracle"
+
+"IGN72 Grande Terre (EPSG ID 6634)", \
+   "IGN72_Grande_Terre", \
+   FALSE, \
+   "Oracle"
+
+"IGN72 Nuku Hiva (EPSG ID 6630)", \
+   "IGN72_Nuku_Hiva", \
+   FALSE, \
+   "Oracle"
+
+"Indian 1954 (EPSG ID 6239)", \
+   "Indian_1954", \
+   FALSE, \
+   "Oracle"
+
+"Indian 1960 (EPSG ID 6131)", \
+   "Indian_1960", \
+   FALSE, \
+   "Oracle"
+
+"Indian 1975 (EPSG ID 6240)", \
+   "Indian_1975", \
+   FALSE, \
+   "Oracle"
+
+"Indonesian Datum 1974", \
+   "Indonesian_1974", \
+   FALSE, \
+   "EPSG"
+
+"Indonesian_Datum_1974", \
+   "Indonesian_1974", \
+   FALSE, \
+   "PostGIS"
+
+"Indonesian_Datum_1974", \
+   "Indonesian_1974", \
+   FALSE, \
+   "SpatiaLite"
+
+"Indonesian Datum 1974", \
+   "Indonesian_1974", \
+   FALSE, \
+   "SQLserver"
+
+"Indonesian_Datum_1974", \
+   "Indonesian_1974", \
+   FALSE, \
+   "Teradata"
+
+"Indonesian Datum 1974 (EPSG ID 6238)", \
+   "Indonesian_1974", \
+   FALSE, \
+   "Oracle"
+
+"International Terrestrial Reference Frame 1988", \
+   "ITRF_1988", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 1989", \
+   "ITRF_1989", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 1990", \
+   "ITRF_1990", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 1991", \
+   "ITRF_1991", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 1992", \
+   "ITRF_1992", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 1993", \
+   "ITRF_1993", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 1994", \
+   "ITRF_1994", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 1996", \
+   "ITRF_1996", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 1997", \
+   "ITRF_1997", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 2000", \
+   "ITRF_2000", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 2005", \
+   "ITRF_2005", \
+   FALSE, \
+   "EPSG"
+
+"International Terrestrial Reference Frame 2008", \
+   "ITRF_2008", \
+   FALSE, \
+   "EPSG"
+
+"Iraq-Kuwait Boundary Datum 1992", \
+   "Iraq_Kuwait_Boundary_1992", \
+   FALSE, \
+   "EPSG"
+
+"Iraq_Kuwait_Boundary_Datum_1992", \
+   "Iraq_Kuwait_Boundary_1992", \
+   FALSE, \
+   "PostGIS"
+
+"Iraq_Kuwait_Boundary_Datum_1992", \
+   "Iraq_Kuwait_Boundary_1992", \
+   FALSE, \
+   "SpatiaLite"
+
+"Iraq-Kuwait Boundary Datum 1992", \
+   "Iraq_Kuwait_Boundary_1992", \
+   FALSE, \
+   "SQLserver"
+
+"Iraq_Kuwait_Boundary_Datum_1992", \
+   "Iraq_Kuwait_Boundary_1992", \
+   FALSE, \
+   "Teradata"
+
+"Iraq-Kuwait Boundary Datum 1992 (EPSG ID 6667)", \
+   "Iraq_Kuwait_Boundary_1992", \
+   FALSE, \
+   "Oracle"
+
+"Ireland 1965", \
+   "TM65", \
+   FALSE, \
+   "Oracle"
+
+"IRENET95 (EPSG ID 6173)", \
+   "IRENET95", \
+   FALSE, \
+   "Oracle"
+
+"Islands Net 1993", \
+   "Islands_Network_1993", \
+   FALSE, \
+   "EPSG"
+
+"Islands Net 2004", \
+   "Islands_Network_2004", \
+   FALSE, \
+   "EPSG"
+
+"Islands Network 1993 (EPSG ID 6659)", \
+   "Islands_Network_1993", \
+   FALSE, \
+   "Oracle"
+
+"Israel 1993", \
+   "Israel", \
+   FALSE, \
+   "EPSG"
+
+"Israel (EPSG ID 6141)", \
+   "Israel", \
+   FALSE, \
+   "Oracle"
+
+"Israeli Geodetic Datum 2005", \
+   "Israel_Geodetic_Datum_2005", \
+   FALSE, \
+   "EPSG"
+
+"Istituto Geografico Militaire 1995", \
+   "IGM_1995", \
+   FALSE, \
+   "EPSG"
+
+"Istituto_Geografico_Militaire_1995", \
+   "IGM_1995", \
+   FALSE, \
+   "PostGIS"
+
+"Istituto_Geografico_Militaire_1995", \
+   "IGM_1995", \
+   FALSE, \
+   "SpatiaLite"
+
+"Istituto Geografico Militaire 1995", \
+   "IGM_1995", \
+   FALSE, \
+   "SQLserver"
+
+"Istituto_Geografico_Militaire_1995", \
+   "IGM_1995", \
+   FALSE, \
+   "Teradata"
+
+"Istituto Geografico Militaire 1995 (EPSG ID 6670)", \
+   "IGM_1995", \
+   FALSE, \
+   "Oracle"
+
+"ISTS 073 Astro 1969", \
+   "ISTS_073_1969", \
+   FALSE, \
+   "Oracle"
+
+"Iwo Jima 1945", \
+   "Beacon_E_1945", \
+   FALSE, \
+   "EPSG"
+
+"Iwo_Jima_1945", \
+   "Beacon_E_1945", \
+   FALSE, \
+   "PostGIS"
+
+"Iwo_Jima_1945", \
+   "Beacon_E_1945", \
+   FALSE, \
+   "SpatiaLite"
+
+"Iwo Jima 1945", \
+   "Beacon_E_1945", \
+   FALSE, \
+   "SQLserver"
+
+"Iwo_Jima_1945", \
+   "Beacon_E_1945", \
+   FALSE, \
+   "Teradata"
+
+"Jamaica 1875 (EPSG ID 6241)", \
+   "Jamaica_1875", \
+   FALSE, \
+   "Oracle"
+
+"Jamaica 1969 (EPSG ID 6242)", \
+   "Jamaica_1969", \
+   FALSE, \
+   "Oracle"
+
+"Japanese Geodetic Datum 2000", \
+   "JGD_2000", \
+   FALSE, \
+   "EPSG"
+
+"Japanese_Geodetic_Datum_2000", \
+   "JGD_2000", \
+   FALSE, \
+   "PostGIS"
+
+"Japanese_Geodetic_Datum_2000", \
+   "JGD_2000", \
+   FALSE, \
+   "SpatiaLite"
+
+"Japanese Geodetic Datum 2000", \
+   "JGD_2000", \
+   FALSE, \
+   "SQLserver"
+
+"Japanese_Geodetic_Datum_2000", \
+   "JGD_2000", \
+   FALSE, \
+   "Teradata"
+
+"Japanese Geodetic Datum 2000 (EPSG ID 6612)", \
+   "JGD_2000", \
+   FALSE, \
+   "Oracle"
+
+"Japanese Geodetic Datum 2011", \
+   "JGD_2011", \
+   FALSE, \
+   "EPSG"
+
+"Jednotne_Trigonometricke_Site_Katastralni", \
+   "S_JTSK", \
+   FALSE, \
+   "PostGIS"
+
+"Jednotne_Trigonometricke_Site_Katastralni", \
+   "S_JTSK", \
+   FALSE, \
+   "SpatiaLite"
+
+"Jednotne Trigonometricke Site Katastralni", \
+   "S_JTSK", \
+   FALSE, \
+   "SQLserver"
+
+"Jednotne_Trigonometricke_Site_Katastralni", \
+   "S_JTSK", \
+   FALSE, \
+   "Teradata"
+
+"Jednotne Trigonometricke Site Katastralni (EPSG ID 6156)", \
+   "S_JTSK", \
+   FALSE, \
+   "Oracle"
+
+"K0_1949", \
+   "Kerguelen_Island_1949", \
+   FALSE, \
+   "SpatiaLite"
+
+"K0_1949", \
+   "Kerguelen_Island_1949", \
+   FALSE, \
+   "Teradata"
+
+"K0 1949 (EPSG ID 6631)", \
+   "Kerguelen_Island_1949", \
+   FALSE, \
+   "Oracle"
+
+"Kalianpur 1880 (EPSG ID 6243)", \
+   "Kalianpur_1880", \
+   FALSE, \
+   "Oracle"
+
+"Kalianpur 1937 (EPSG ID 6144)", \
+   "Kalianpur_1937", \
+   FALSE, \
+   "Oracle"
+
+"Kalianpur 1962 (EPSG ID 6145)", \
+   "Kalianpur_1962", \
+   FALSE, \
+   "Oracle"
+
+"Kalianpur 1975 (EPSG ID 6146)", \
+   "Kalianpur_1975", \
+   FALSE, \
+   "Oracle"
+
+"Kandawala (EPSG ID 6244)", \
+   "Kandawala", \
+   FALSE, \
+   "Oracle"
+
+"Karbala 1979", \
+   "Karbala_1979_Polservice", \
+   FALSE, \
+   "EPSG"
+
+"Karbala_1979", \
+   "Karbala_1979_Polservice", \
+   FALSE, \
+   "PostGIS"
+
+"Karbala_1979", \
+   "Karbala_1979_Polservice", \
+   FALSE, \
+   "SpatiaLite"
+
+"Kartasto Koordinaati Jarjestelma 1966 (EPSG ID 6123)", \
+   "KKJ", \
+   FALSE, \
+   "Oracle"
+
+"Kartastokoordinaattijarjestelma (1966)", \
+   "KKJ", \
+   FALSE, \
+   "EPSG"
+
+"Kartastokoordinaattijarjestelma_1966", \
+   "KKJ", \
+   FALSE, \
+   "PostGIS"
+
+"Kartastokoordinaattijarjestelma_1966", \
+   "KKJ", \
+   FALSE, \
+   "SpatiaLite"
+
+"Kartastokoordinaattijarjestelma (1966)", \
+   "KKJ", \
+   FALSE, \
+   "SQLserver"
+
+"Kartastokoordinaattijarjestelma_1966", \
+   "KKJ", \
+   FALSE, \
+   "Teradata"
+
+"Kerguelen Island", \
+   "Kerguelen_Island_1949", \
+   FALSE, \
+   "Oracle"
+
+"Kertau 1948", \
+   "Kertau", \
+   FALSE, \
+   "Oracle"
+
+"Kertau 1968", \
+   "Kertau", \
+   FALSE, \
+   "EPSG"
+
+"Kertau_1968", \
+   "Kertau", \
+   FALSE, \
+   "PostGIS"
+
+"Kertau_1968", \
+   "Kertau", \
+   FALSE, \
+   "SpatiaLite"
+
+"Kertau 1968", \
+   "Kertau", \
+   FALSE, \
+   "SQLserver"
+
+"Kertau_1968", \
+   "Kertau", \
+   FALSE, \
+   "Teradata"
+
+"Kertau (EPSG ID 6245)", \
+   "Kertau", \
+   FALSE, \
+   "Oracle"
+
+"Korean Datum 1985 (EPSG ID 6162)", \
+   "Korean_Datum_1985", \
+   FALSE, \
+   "Oracle"
+
+"Korean Datum 1995 (EPSG ID 6166)", \
+   "Korean_Datum_1995", \
+   FALSE, \
+   "Oracle"
+
+"Kousseri (EPSG ID 6198)", \
+   "Kousseri", \
+   FALSE, \
+   "Oracle"
+
+"Kuwait Oil Company (EPSG ID 6246)", \
+   "Kuwait_Oil_Company", \
+   FALSE, \
+   "Oracle"
+
+"Kuwait Utility (EPSG ID 6319)", \
+   "Kuwait_Utility", \
+   FALSE, \
+   "Oracle"
+
+"L.C. 5 Astro", \
+   "LC5_1961", \
+   FALSE, \
+   "Oracle"
+
+"La Canoa (EPSG ID 6247)", \
+   "La_Canoa", \
+   FALSE, \
+   "Oracle"
+
+"Lake (EPSG ID 6249)", \
+   "Lake", \
+   FALSE, \
+   "Oracle"
+
+"Latvia 1992 (EPSG ID 6661)", \
+   "Latvia_1992", \
+   FALSE, \
+   "Oracle"
+
+"Leigon (EPSG ID 6250)", \
+   "Leigon", \
+   FALSE, \
+   "Oracle"
+
+"Liberia 1964 (EPSG ID 6251)", \
+   "Liberia_1964", \
+   FALSE, \
+   "Oracle"
+
+"Lisboa (DLx)", \
+   "Datum_Lisboa_Hayford", \
+   FALSE, \
+   "Oracle"
+
+"Lisbon 1890 (EPSG ID 6666)", \
+   "Lisbon_1890", \
+   FALSE, \
+   "Oracle"
+
+"Lisbon_1890_Lisbon", \
+   "Lisbon_1890", \
+   FALSE, \
+   "PostGIS"
+
+"Lisbon_1890_Lisbon", \
+   "Lisbon_1890", \
+   FALSE, \
+   "SpatiaLite"
+
+"Lisbon 1890 (Lisbon)", \
+   "Lisbon_1890", \
+   FALSE, \
+   "SQLserver"
+
+"Lisbon_1890_Lisbon", \
+   "Lisbon_1890", \
+   FALSE, \
+   "Teradata"
+
+"Lisbon 1890 (Lisbon) (EPSG ID 6904)", \
+   "Lisbon_1890", \
+   FALSE, \
+   "Oracle"
+
+"Lisbon 1937", \
+   "Lisbon", \
+   FALSE, \
+   "EPSG"
+
+"Lisbon_1937", \
+   "Lisbon", \
+   FALSE, \
+   "PostGIS"
+
+"Lisbon_1937", \
+   "Lisbon", \
+   FALSE, \
+   "SpatiaLite"
+
+"Lisbon 1937", \
+   "Lisbon", \
+   FALSE, \
+   "SQLserver"
+
+"Lisbon_1937", \
+   "Lisbon", \
+   FALSE, \
+   "Teradata"
+
+"Lisbon 1937 (EPSG ID 6207)", \
+   "Lisbon", \
+   FALSE, \
+   "Oracle"
+
+"Lisbon_1937_Lisbon", \
+   "Lisbon", \
+   FALSE, \
+   "PostGIS"
+
+"Lisbon_1937_Lisbon", \
+   "Lisbon", \
+   FALSE, \
+   "SpatiaLite"
+
+"Lisbon 1937 (Lisbon)", \
+   "Lisbon", \
+   FALSE, \
+   "SQLserver"
+
+"Lisbon_1937_Lisbon", \
+   "Lisbon", \
+   FALSE, \
+   "Teradata"
+
+"Lisbon 1937 (Lisbon) (EPSG ID 6803)", \
+   "Lisbon", \
+   FALSE, \
+   "Oracle"
+
+"Lithuania 1994 (ETRS89)", \
+   "Lithuania_1994", \
+   FALSE, \
+   "EPSG"
+
+"Lithuania_1994_ETRS89", \
+   "Lithuania_1994", \
+   FALSE, \
+   "PostGIS"
+
+"Lithuania_1994_ETRS89", \
+   "Lithuania_1994", \
+   FALSE, \
+   "SpatiaLite"
+
+"Lithuania 1994 (ETRS89)", \
+   "Lithuania_1994", \
+   FALSE, \
+   "SQLserver"
+
+"Lithuania_1994_ETRS89", \
+   "Lithuania_1994", \
+   FALSE, \
+   "Teradata"
+
+"Lithuania 1994 (ETRS89) (EPSG ID 6126)", \
+   "Lithuania_1994", \
+   FALSE, \
+   "Oracle"
+
+"Lithuanian Pulkovo 1942 (EPSG ID 30001131)", \
+   "Pulkovo_1942", \
+   FALSE, \
+   "Oracle"
+
+"Locodjo 1965 (EPSG ID 6142)", \
+   "Locodjo_1965", \
+   FALSE, \
+   "Oracle"
+
+"Loma Quintana (EPSG ID 6288)", \
+   "Loma_Quintana", \
+   FALSE, \
+   "Oracle"
+
+"Lome (EPSG ID 6252)", \
+   "Lome", \
+   FALSE, \
+   "Oracle"
+
+"Luxembourg 1930 (EPSG ID 6181)", \
+   "Luxembourg_1930", \
+   FALSE, \
+   "Oracle"
+
+"Luzon 1911 (EPSG ID 6253)", \
+   "Luzon_1911", \
+   FALSE, \
+   "Oracle"
+
+"M'poraloko", \
+   "Mporaloko", \
+   FALSE, \
+   "EPSG"
+
+"M'poraloko", \
+   "Mporaloko", \
+   FALSE, \
+   "SQLserver"
+
+"M'poraloko (EPSG ID 6266)", \
+   "Mporaloko", \
+   FALSE, \
+   "Oracle"
+
+"Madeira 1936 (EPSG ID 6185)", \
+   "Madeira_1936", \
+   FALSE, \
+   "Oracle"
+
+"Madrid 1870 (Madrid)", \
+   "Madrid_1870", \
+   FALSE, \
+   "EPSG"
+
+"Madrid_1870_Madrid", \
+   "Madrid_1870", \
+   FALSE, \
+   "PostGIS"
+
+"Madrid_1870_Madrid", \
+   "Madrid_1870", \
+   FALSE, \
+   "SpatiaLite"
+
+"Madrid 1870 (Madrid)", \
+   "Madrid_1870", \
+   FALSE, \
+   "SQLserver"
+
+"Madrid_1870_Madrid", \
+   "Madrid_1870", \
+   FALSE, \
+   "Teradata"
+
+"Madrid 1870 (Madrid) (EPSG ID 6903)", \
+   "Madrid_1870", \
+   FALSE, \
+   "Oracle"
+
+"Madzansua (EPSG ID 6128)", \
+   "Madzansua", \
+   FALSE, \
+   "Oracle"
+
+"Mahe 1971 (EPSG ID 6256)", \
+   "Mahe_1971", \
+   FALSE, \
+   "Oracle"
+
+"Makassar (EPSG ID 6257)", \
+   "Makassar", \
+   FALSE, \
+   "Oracle"
+
+"Makassar_Jakarta", \
+   "Makassar", \
+   FALSE, \
+   "PostGIS"
+
+"Makassar_Jakarta", \
+   "Makassar", \
+   FALSE, \
+   "SpatiaLite"
+
+"Makassar (Jakarta)", \
+   "Makassar", \
+   FALSE, \
+   "SQLserver"
+
+"Makassar_Jakarta", \
+   "Makassar", \
+   FALSE, \
+   "Teradata"
+
+"Makassar (Jakarta) (EPSG ID 6804)", \
+   "Makassar", \
+   FALSE, \
+   "Oracle"
+
+"Malongo 1987 (EPSG ID 6259)", \
+   "Malongo_1987", \
+   FALSE, \
+   "Oracle"
+
+"Manoca 1962 (EPSG ID 6193)", \
+   "Manoca_1962", \
+   FALSE, \
+   "Oracle"
+
+"Manoca (EPSG ID 6260)", \
+   "Manoca", \
+   FALSE, \
+   "Oracle"
+
+"Marco Astro", \
+   "Astro_1952", \
+   FALSE, \
+   "Oracle"
+
+"Marco Geocentrico Nacional de Referencia", \
+   "MAGNA", \
+   FALSE, \
+   "EPSG"
+
+"Marco_Geocentrico_Nacional_de_Referencia", \
+   "MAGNA", \
+   FALSE, \
+   "PostGIS"
+
+"Marco_Geocentrico_Nacional_de_Referencia", \
+   "MAGNA", \
+   FALSE, \
+   "SpatiaLite"
+
+"Marco Geocentrico Nacional de Referencia", \
+   "MAGNA", \
+   FALSE, \
+   "SQLserver"
+
+"Marco_Geocentrico_Nacional_de_Referencia", \
+   "MAGNA", \
+   FALSE, \
+   "Teradata"
+
+"Marco Geodesico Nacional de Bolivia", \
+   "Marco_Geodesico_Nacional", \
+   FALSE, \
+   "EPSG"
+
+"Marcus Island 1952", \
+   "Astro_1952", \
+   FALSE, \
+   "EPSG"
+
+"Marcus_Island_1952", \
+   "Astro_1952", \
+   FALSE, \
+   "PostGIS"
+
+"Marcus_Island_1952", \
+   "Astro_1952", \
+   FALSE, \
+   "SpatiaLite"
+
+"Marcus Island 1952", \
+   "Astro_1952", \
+   FALSE, \
+   "SQLserver"
+
+"Marcus_Island_1952", \
+   "Astro_1952", \
+   FALSE, \
+   "Teradata"
+
+"Marshall Islands 1960", \
+   "Wake_Eniwetok_1960", \
+   FALSE, \
+   "EPSG"
+
+"Marshall_Islands_1960", \
+   "Wake_Eniwetok_1960", \
+   FALSE, \
+   "PostGIS"
+
+"Marshall_Islands_1960", \
+   "Wake_Eniwetok_1960", \
+   FALSE, \
+   "SpatiaLite"
+
+"Marshall Islands 1960", \
+   "Wake_Eniwetok_1960", \
+   FALSE, \
+   "SQLserver"
+
+"Marshall_Islands_1960", \
+   "Wake_Eniwetok_1960", \
+   FALSE, \
+   "Teradata"
+
+"Martinique 1938", \
+   "Fort_Desaix", \
+   FALSE, \
+   "EPSG"
+
+"Martinique_1938", \
+   "Fort_Desaix", \
+   FALSE, \
+   "PostGIS"
+
+"Martinique_1938", \
+   "Fort_Desaix", \
+   FALSE, \
+   "SpatiaLite"
+
+"Martinique 1938", \
+   "Fort_Desaix", \
+   FALSE, \
+   "SQLserver"
+
+"Martinique_1938", \
+   "Fort_Desaix", \
+   FALSE, \
+   "Teradata"
+
+"Massawa (EPSG ID 6262)", \
+   "Massawa", \
+   FALSE, \
+   "Oracle"
+
+"Maupiti 83", \
+   "Maupiti_1983", \
+   FALSE, \
+   "EPSG"
+
+"Maupiti_83", \
+   "Maupiti_1983", \
+   FALSE, \
+   "PostGIS"
+
+"Maupiti_83", \
+   "Maupiti_1983", \
+   FALSE, \
+   "SpatiaLite"
+
+"Maupiti 83", \
+   "Maupiti_1983", \
+   FALSE, \
+   "SQLserver"
+
+"Maupiti_83", \
+   "Maupiti_1983", \
+   FALSE, \
+   "Teradata"
+
+"Melrica 1973 (D73)", \
+   "Datum_73", \
+   FALSE, \
+   "Oracle"
+
+"Merchich (EPSG ID 6261)", \
+   "Merchich", \
+   FALSE, \
+   "Oracle"
+
+"Mexico ITRF92", \
+   "Mexican_Datum_of_1993", \
+   FALSE, \
+   "EPSG"
+
+"Mhast (EPSG ID 6264)", \
+   "Mhast", \
+   FALSE, \
+   "Oracle"
+
+"Midway Astro 1961", \
+   "Midway_1961", \
+   FALSE, \
+   "Oracle"
+
+"Militar-Geographische Institut", \
+   "MGI", \
+   FALSE, \
+   "EPSG"
+
+"Militar-Geographische Institut", \
+   "MGI", \
+   FALSE, \
+   "SQLserver"
+
+"Militar_Geographische_Institute", \
+   "MGI", \
+   FALSE, \
+   "PostGIS"
+
+"Militar_Geographische_Institute", \
+   "MGI", \
+   FALSE, \
+   "SpatiaLite"
+
+"Militar_Geographische_Institute", \
+   "MGI", \
+   FALSE, \
+   "Teradata"
+
+"Militar-Geographische Institut (EPSG ID 6312)", \
+   "MGI", \
+   FALSE, \
+   "Oracle"
+
+"Militar_Geographische_Institut_Ferro", \
+   "MGI", \
+   FALSE, \
+   "PostGIS"
+
+"Militar_Geographische_Institut_Ferro", \
+   "MGI", \
+   FALSE, \
+   "SpatiaLite"
+
+"Militar-Geographische Institut (Ferro)", \
+   "MGI", \
+   FALSE, \
+   "SQLserver"
+
+"Militar_Geographische_Institut_Ferro", \
+   "MGI", \
+   FALSE, \
+   "Teradata"
+
+"Militar-Geographische Institut (Ferro) (EPSG ID 6805)", \
+   "MGI", \
+   FALSE, \
+   "Oracle"
+
+"Minna (EPSG ID 6263)", \
+   "Minna", \
+   FALSE, \
+   "Oracle"
+
+"Missao Hidrografico Angola y Sao Tome 1951", \
+   "Mhast_1951", \
+   FALSE, \
+   "EPSG"
+
+"Missao_Hidrografico_Angola_y_Sao_Tome_1951", \
+   "Mhast_1951", \
+   FALSE, \
+   "PostGIS"
+
+"Missao_Hidrografico_Angola_y_Sao_Tome_1951", \
+   "Mhast_1951", \
+   FALSE, \
+   "SpatiaLite"
+
+"Missao Hidrografico Angola y Sao Tome 1951", \
+   "Mhast_1951", \
+   FALSE, \
+   "SQLserver"
+
+"Missao_Hidrografico_Angola_y_Sao_Tome_1951", \
+   "Mhast_1951", \
+   FALSE, \
+   "Teradata"
+
+"Monte Mario (EPSG ID 6265)", \
+   "Monte_Mario", \
+   FALSE, \
+   "Oracle"
+
+"Monte_Mario_Rome", \
+   "Monte_Mario", \
+   FALSE, \
+   "PostGIS"
+
+"Monte_Mario_Rome", \
+   "Monte_Mario", \
+   FALSE, \
+   "SpatiaLite"
+
+"Monte Mario (Rome)", \
+   "Monte_Mario", \
+   FALSE, \
+   "SQLserver"
+
+"Monte_Mario_Rome", \
+   "Monte_Mario", \
+   FALSE, \
+   "Teradata"
+
+"Monte Mario (Rome) (EPSG ID 6806)", \
+   "Monte_Mario", \
+   FALSE, \
+   "Oracle"
+
+"Montserrat 1958 (EPSG ID 6604)", \
+   "Montserrat_1958", \
+   FALSE, \
+   "Oracle"
+
+"Moorea 87", \
+   "Moorea_1987", \
+   FALSE, \
+   "EPSG"
+
+"Moorea_87", \
+   "Moorea_1987", \
+   FALSE, \
+   "PostGIS"
+
+"Moorea_87", \
+   "Moorea_1987", \
+   FALSE, \
+   "SpatiaLite"
+
+"Moorea 87", \
+   "Moorea_1987", \
+   FALSE, \
+   "SQLserver"
+
+"Moorea_87", \
+   "Moorea_1987", \
+   FALSE, \
+   "Teradata"
+
+"MOP78 (EPSG ID 6639)", \
+   "MOP78", \
+   FALSE, \
+   "Oracle"
+
+"Mount Dillon (EPSG ID 6157)", \
+   "Mount_Dillon", \
+   FALSE, \
+   "Oracle"
+
+"Moznet (ITRF94)", \
+   "Moznet", \
+   FALSE, \
+   "EPSG"
+
+"Moznet_ITRF94", \
+   "Moznet", \
+   FALSE, \
+   "PostGIS"
+
+"Moznet_ITRF94", \
+   "Moznet", \
+   FALSE, \
+   "SpatiaLite"
+
+"Moznet (ITRF94)", \
+   "Moznet", \
+   FALSE, \
+   "SQLserver"
+
+"Moznet_ITRF94", \
+   "Moznet", \
+   FALSE, \
+   "Teradata"
+
+"Moznet (ITRF94) (EPSG ID 6130)", \
+   "Moznet", \
+   FALSE, \
+   "Oracle"
+
+"NAD 83", \
+   "North_American_1983", \
+   FALSE, \
+   "Oracle"
+
+"NAD83 Canadian Spatial Reference System", \
+   "North_American_1983_CSRS", \
+   FALSE, \
+   "EPSG"
+
+"NAD83_Canadian_Spatial_Reference_System", \
+   "North_American_1983_CSRS", \
+   FALSE, \
+   "PostGIS"
+
+"NAD83_Canadian_Spatial_Reference_System", \
+   "North_American_1983_CSRS", \
+   FALSE, \
+   "SpatiaLite"
+
+"NAD83 Canadian Spatial Reference System", \
+   "North_American_1983_CSRS", \
+   FALSE, \
+   "SQLserver"
+
+"NAD83_Canadian_Spatial_Reference_System", \
+   "North_American_1983_CSRS", \
+   FALSE, \
+   "Teradata"
+
+"NAD83 Canadian Spatial Reference System (EPSG ID 6140)", \
+   "North_American_1983_CSRS", \
+   FALSE, \
+   "Oracle"
+
+"NAD83 (Continuously Operating Reference Station 1996)", \
+   "NAD_1983_CORS96", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 (High Accuracy Reference Network)", \
+   "North_American_1983_HARN", \
+   FALSE, \
+   "EPSG"
+
+"NAD83_High_Accuracy_Regional_Network", \
+   "North_American_1983_HARN", \
+   FALSE, \
+   "PostGIS"
+
+"NAD83_High_Accuracy_Regional_Network", \
+   "North_American_1983_HARN", \
+   FALSE, \
+   "SpatiaLite"
+
+"NAD83 (High Accuracy Regional Network)", \
+   "North_American_1983_HARN", \
+   FALSE, \
+   "SQLserver"
+
+"NAD83_High_Accuracy_Regional_Network", \
+   "North_American_1983_HARN", \
+   FALSE, \
+   "Teradata"
+
+"NAD83 (High Accuracy Regional Network) (EPSG ID 6152)", \
+   "North_American_1983_HARN", \
+   FALSE, \
+   "Oracle"
+
+"NAD83 (National Spatial Reference System 2007)", \
+   "NAD_1983_NSRS2007", \
+   FALSE, \
+   "EPSG"
+
+"NAD83_National_Spatial_Reference_System_2007", \
+   "NAD_1983_NSRS2007", \
+   FALSE, \
+   "PostGIS"
+
+"NAD83_National_Spatial_Reference_System_2007", \
+   "NAD_1983_NSRS2007", \
+   FALSE, \
+   "SpatiaLite"
+
+"NAD83 (National Spatial Reference System 2011)", \
+   "NAD_1983_2011", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 (National Spatial Reference System MA11)", \
+   "NAD_1983_MA11", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 (National Spatial Reference System PA11)", \
+   "NAD_1983_PA11", \
+   FALSE, \
+   "EPSG"
+
+"NAD_Michigan", \
+   "North_American_Michigan", \
+   FALSE, \
+   "PostGIS"
+
+"NAD_Michigan", \
+   "North_American_Michigan", \
+   FALSE, \
+   "SpatiaLite"
+
+"NAD Michigan", \
+   "North_American_Michigan", \
+   FALSE, \
+   "SQLserver"
+
+"NAD_Michigan", \
+   "North_American_Michigan", \
+   FALSE, \
+   "Teradata"
+
+"NAD Michigan (EPSG ID 6268)", \
+   "North_American_Michigan", \
+   FALSE, \
+   "Oracle"
+
+"Nahrwan 1967 (EPSG ID 6270)", \
+   "Nahrwan_1967", \
+   FALSE, \
+   "Oracle"
+
+"Naparima 1955 (EPSG ID 6158)", \
+   "Naparima_1955", \
+   FALSE, \
+   "Oracle"
+
+"Naparima 1972 (EPSG ID 6271)", \
+   "Naparima_1972", \
+   FALSE, \
+   "Oracle"
+
+"National Geodetic Network", \
+   "NGN", \
+   FALSE, \
+   "EPSG"
+
+"National_Geodetic_Network", \
+   "NGN", \
+   FALSE, \
+   "PostGIS"
+
+"National_Geodetic_Network", \
+   "NGN", \
+   FALSE, \
+   "SpatiaLite"
+
+"National Geodetic Network", \
+   "NGN", \
+   FALSE, \
+   "SQLserver"
+
+"National_Geodetic_Network", \
+   "NGN", \
+   FALSE, \
+   "Teradata"
+
+"National Geodetic Network (EPSG ID 6318)", \
+   "NGN", \
+   FALSE, \
+   "Oracle"
+
+"NEA74 Noumea (EPSG ID 6644)", \
+   "NEA74_Noumea", \
+   FALSE, \
+   "Oracle"
+
+"Nepal 1981", \
+   "Nepal_Nagarkot", \
+   FALSE, \
+   "EPSG"
+
+"New AGD 84", \
+   "Australian_1984", \
+   FALSE, \
+   "Oracle"
+
+"New Zealand Geodetic Datum 1949", \
+   "New_Zealand_1949", \
+   FALSE, \
+   "EPSG"
+
+"New_Zealand_Geodetic_Datum_1949", \
+   "New_Zealand_1949", \
+   FALSE, \
+   "PostGIS"
+
+"New_Zealand_Geodetic_Datum_1949", \
+   "New_Zealand_1949", \
+   FALSE, \
+   "SpatiaLite"
+
+"New Zealand Geodetic Datum 1949", \
+   "New_Zealand_1949", \
+   FALSE, \
+   "SQLserver"
+
+"New_Zealand_Geodetic_Datum_1949", \
+   "New_Zealand_1949", \
+   FALSE, \
+   "Teradata"
+
+"New Zealand Geodetic Datum 1949 (EPSG ID 6272)", \
+   "New_Zealand_1949", \
+   FALSE, \
+   "Oracle"
+
+"New Zealand Geodetic Datum 2000", \
+   "NZGD_2000", \
+   FALSE, \
+   "EPSG"
+
+"New_Zealand_Geodetic_Datum_2000", \
+   "NZGD_2000", \
+   FALSE, \
+   "PostGIS"
+
+"New_Zealand_Geodetic_Datum_2000", \
+   "NZGD_2000", \
+   FALSE, \
+   "SpatiaLite"
+
+"New Zealand Geodetic Datum 2000", \
+   "NZGD_2000", \
+   FALSE, \
+   "SQLserver"
+
+"New_Zealand_Geodetic_Datum_2000", \
+   "NZGD_2000", \
+   FALSE, \
+   "Teradata"
+
+"New Zealand Geodetic Datum 2000 (EPSG ID 6167)", \
+   "NZGD_2000", \
+   FALSE, \
+   "Oracle"
+
+"NGO 1948 (EPSG ID 6273)", \
+   "NGO_1948", \
+   FALSE, \
+   "Oracle"
+
+"NGO_1948_Oslo", \
+   "NGO_1948", \
+   FALSE, \
+   "PostGIS"
+
+"NGO_1948_Oslo", \
+   "NGO_1948", \
+   FALSE, \
+   "SpatiaLite"
+
+"NGO 1948 (Oslo)", \
+   "NGO_1948", \
+   FALSE, \
+   "SQLserver"
+
+"NGO_1948_Oslo", \
+   "NGO_1948", \
+   FALSE, \
+   "Teradata"
+
+"NGO 1948 (Oslo) (EPSG ID 6817)", \
+   "NGO_1948", \
+   FALSE, \
+   "Oracle"
+
+"Nord_de_Guerre_Paris", \
+   "Nord_de_Guerre", \
+   FALSE, \
+   "PostGIS"
+
+"Nord_de_Guerre_Paris", \
+   "Nord_de_Guerre", \
+   FALSE, \
+   "SpatiaLite"
+
+"Nord de Guerre (Paris)", \
+   "Nord_de_Guerre", \
+   FALSE, \
+   "SQLserver"
+
+"Nord_de_Guerre_Paris", \
+   "Nord_de_Guerre", \
+   FALSE, \
+   "Teradata"
+
+"Nord de Guerre (Paris) (EPSG ID 6902)", \
+   "Nord_de_Guerre", \
+   FALSE, \
+   "Oracle"
+
+"Nord Sahara 1959 (EPSG ID 6307)", \
+   "Nord_Sahara_1959", \
+   FALSE, \
+   "Oracle"
+
+"Nord_Sahara_1959_Paris", \
+   "Nord_Sahara_1959", \
+   FALSE, \
+   "PostGIS"
+
+"Nord_Sahara_1959_Paris", \
+   "Nord_Sahara_1959", \
+   FALSE, \
+   "SpatiaLite"
+
+"Nord_Sahara_1959_Paris", \
+   "Nord_Sahara_1959", \
+   FALSE, \
+   "Teradata"
+
+"Nord Sahara 1959 (Paris) (EPSG ID 6819)", \
+   "Nord_Sahara_1959", \
+   FALSE, \
+   "Oracle"
+
+"North American Datum 1927", \
+   "North_American_1927", \
+   FALSE, \
+   "EPSG"
+
+"North_American_Datum_1927", \
+   "North_American_1927", \
+   FALSE, \
+   "PostGIS"
+
+"North_American_Datum_1927", \
+   "North_American_1927", \
+   FALSE, \
+   "SpatiaLite"
+
+"North American Datum 1927", \
+   "North_American_1927", \
+   FALSE, \
+   "SQLserver"
+
+"North_American_Datum_1927", \
+   "North_American_1927", \
+   FALSE, \
+   "Teradata"
+
+"North American Datum 1927 (1976)", \
+   "NAD_1927_Definition_1976", \
+   FALSE, \
+   "EPSG"
+
+"North_American_Datum_1927_1976", \
+   "NAD_1927_Definition_1976", \
+   FALSE, \
+   "PostGIS"
+
+"North_American_Datum_1927_1976", \
+   "NAD_1927_Definition_1976", \
+   FALSE, \
+   "SpatiaLite"
+
+"North American Datum 1927 (1976)", \
+   "NAD_1927_Definition_1976", \
+   FALSE, \
+   "SQLserver"
+
+"North_American_Datum_1927_1976", \
+   "NAD_1927_Definition_1976", \
+   FALSE, \
+   "Teradata"
+
+"North American Datum 1927 (1976) (EPSG ID 6608)", \
+   "NAD_1927_Definition_1976", \
+   FALSE, \
+   "Oracle"
+
+"North American Datum 1927 (CGQ77)", \
+   "NAD_1927_CGQ77", \
+   FALSE, \
+   "EPSG"
+
+"North_American_Datum_1927_CGQ77", \
+   "NAD_1927_CGQ77", \
+   FALSE, \
+   "PostGIS"
+
+"North_American_Datum_1927_CGQ77", \
+   "NAD_1927_CGQ77", \
+   FALSE, \
+   "SpatiaLite"
+
+"North American Datum 1927 (CGQ77)", \
+   "NAD_1927_CGQ77", \
+   FALSE, \
+   "SQLserver"
+
+"North_American_Datum_1927_CGQ77", \
+   "NAD_1927_CGQ77", \
+   FALSE, \
+   "Teradata"
+
+"North American Datum 1927 (CGQ77) (EPSG ID 6609)", \
+   "NAD_1927_CGQ77", \
+   FALSE, \
+   "Oracle"
+
+"North American Datum 1927 (EPSG ID 6267)", \
+   "North_American_1927", \
+   FALSE, \
+   "Oracle"
+
+"North American Datum 1983", \
+   "North_American_1983", \
+   FALSE, \
+   "EPSG"
+
+"North_American_Datum_1983", \
+   "North_American_1983", \
+   FALSE, \
+   "PostGIS"
+
+"North_American_Datum_1983", \
+   "North_American_1983", \
+   FALSE, \
+   "SpatiaLite"
+
+"North American Datum 1983", \
+   "North_American_1983", \
+   FALSE, \
+   "SQLserver"
+
+"North_American_Datum_1983", \
+   "North_American_1983", \
+   FALSE, \
+   "Teradata"
+
+"North American Datum 1983 (EPSG ID 6269)", \
+   "North_American_1983", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Airy 1830 ellipsoid)", \
+   "Airy_1830", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Airy_1830_ellipsoid", \
+   "Airy_1830", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Airy_1830_ellipsoid", \
+   "Airy_1830", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Airy_1830_ellipsoid", \
+   "Airy_1830", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Airy 1830 ellipsoid) (EPSG ID 6001)", \
+   "Airy_1830", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Airy Modified 1849 ellipsoid)", \
+   "Airy_Modified", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Airy_Modified_1849_ellipsoid", \
+   "Airy_Modified", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Airy_Modified_1849_ellipsoid", \
+   "Airy_Modified", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Airy_Modified_1849_ellipsoid", \
+   "Airy_Modified", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Airy Modified 1849 ellipsoid) (EPSG ID 6002)", \
+   "Airy_Modified", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Australian National Spheroid)", \
+   "Australian", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Australian_National_Spheroid", \
+   "Australian", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Australian_National_Spheroid", \
+   "Australian", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Australian_National_Spheroid", \
+   "Australian", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Australian National Spheroid) (EPSG ID 6003)", \
+   "Australian", \
+   FALSE, \
+   "Oracle"
+
+"Not_specified_based_on_Authalic_Sphere", \
+   "Sphere", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Authalic_Sphere", \
+   "Sphere", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Authalic_Sphere", \
+   "Sphere", \
+   FALSE, \
+   "Teradata"
+
+"Not_specified_based_on_Authalic_Sphere (EPSG ID 53004)", \
+   "Sphere", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Authalic Sphere) (EPSG ID 6035)", \
+   "Sphere", \
+   FALSE, \
+   "Oracle"
+
+"Not_specified_based_on_Average_Terrestrial_System_1977_ellipsoid", \
+   "ATS_1977", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Average_Terrestrial_System_1977_ellipsoid", \
+   "ATS_1977", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Bessel 1841 ellipsoid)", \
+   "Bessel_1841", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Bessel_1841_ellipsoid", \
+   "Bessel_1841", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Bessel_1841_ellipsoid", \
+   "Bessel_1841", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Bessel_1841_ellipsoid", \
+   "Bessel_1841", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Bessel 1841 ellipsoid) (EPSG ID 6004)", \
+   "Bessel_1841", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Bessel Modified ellipsoid)", \
+   "Bessel_Modified", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Bessel_Modified_ellipsoid", \
+   "Bessel_Modified", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Bessel_Modified_ellipsoid", \
+   "Bessel_Modified", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Bessel_Modified_ellipsoid", \
+   "Bessel_Modified", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Bessel Modified ellipsoid) (EPSG ID 6005)", \
+   "Bessel_Modified", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Bessel Namibia ellipsoid)", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Bessel_Namibia_ellipsoid", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Bessel_Namibia_ellipsoid", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Bessel_Namibia_ellipsoid", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Bessel Namibia ellipsoid) (EPSG ID 6006)", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Clarke 1858 ellipsoid)", \
+   "Clarke_1858", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Clarke_1858_ellipsoid", \
+   "Clarke_1858", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Clarke_1858_ellipsoid", \
+   "Clarke_1858", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Clarke_1858_ellipsoid", \
+   "Clarke_1858", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Clarke 1858 ellipsoid) (EPSG ID 6007)", \
+   "Clarke_1858", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Clarke 1866 Authalic Sphere)", \
+   "Sphere_Clarke_1866_Authalic", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Clarke_1866_Authalic_Sphere", \
+   "Sphere_Clarke_1866_Authalic", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Clarke_1866_Authalic_Sphere", \
+   "Sphere_Clarke_1866_Authalic", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Clarke_1866_Authalic_Sphere", \
+   "Sphere_Clarke_1866_Authalic", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Clarke 1866 ellipsoid)", \
+   "Clarke_1866", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Clarke_1866_ellipsoid", \
+   "Clarke_1866", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Clarke_1866_ellipsoid", \
+   "Clarke_1866", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Clarke_1866_ellipsoid", \
+   "Clarke_1866", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Clarke 1866 ellipsoid) (EPSG ID 6008)", \
+   "Clarke_1866", \
+   FALSE, \
+   "Oracle"
+
+"Not_specified_based_on_Clarke_1866_Michigan_ellipsoid", \
+   "Clarke_1866_Michigan", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Clarke_1866_Michigan_ellipsoid", \
+   "Clarke_1866_Michigan", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Clarke_1866_Michigan_ellipsoid", \
+   "Clarke_1866_Michigan", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Clarke 1866 Michigan ellipsoid) (EPSG ID 6009)", \
+   "Clarke_1866_Michigan", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Clarke 1880 (Arc) ellipsoid)", \
+   "Clarke_1880_Arc", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Clarke_1880_Arc_ellipsoid", \
+   "Clarke_1880_Arc", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Clarke_1880_Arc_ellipsoid", \
+   "Clarke_1880_Arc", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Clarke_1880_Arc_ellipsoid", \
+   "Clarke_1880_Arc", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Clarke 1880 (Arc) ellipsoid) (EPSG ID 6013)", \
+   "Clarke_1880_Arc", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Clarke 1880 (Benoit) ellipsoid)", \
+   "Clarke_1880_Benoit", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Clarke_1880_Benoit_ellipsoid", \
+   "Clarke_1880_Benoit", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Clarke_1880_Benoit_ellipsoid", \
+   "Clarke_1880_Benoit", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Clarke_1880_Benoit_ellipsoid", \
+   "Clarke_1880_Benoit", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Clarke 1880 (Benoit) ellipsoid) (EPSG ID 6010)", \
+   "Clarke_1880_Benoit", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Clarke 1880 ellipsoid)", \
+   "Clarke_1880", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Clarke_1880_ellipsoid", \
+   "Clarke_1880", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Clarke_1880_ellipsoid", \
+   "Clarke_1880", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Clarke_1880_ellipsoid", \
+   "Clarke_1880", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Clarke 1880 ellipsoid) (EPSG ID 6034)", \
+   "Clarke_1880", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Clarke 1880 (IGN) ellipsoid)", \
+   "Clarke_1880_IGN", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Clarke_1880_IGN_ellipsoid", \
+   "Clarke_1880_IGN", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Clarke_1880_IGN_ellipsoid", \
+   "Clarke_1880_IGN", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Clarke_1880_IGN_ellipsoid", \
+   "Clarke_1880_IGN", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Clarke 1880 (IGN) ellipsoid) (EPSG ID 6011)", \
+   "Clarke_1880_IGN", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Clarke 1880 (RGS) ellipsoid)", \
+   "Clarke_1880_RGS", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Clarke_1880_RGS_ellipsoid", \
+   "Clarke_1880_RGS", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Clarke_1880_RGS_ellipsoid", \
+   "Clarke_1880_RGS", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Clarke_1880_RGS_ellipsoid", \
+   "Clarke_1880_RGS", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Clarke 1880 (RGS) ellipsoid) (EPSG ID 6012)", \
+   "Clarke_1880_RGS", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Clarke 1880 (SGA 1922) ellipsoid)", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Clarke_1880_SGA_1922_ellipsoid", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Clarke_1880_SGA_1922_ellipsoid", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Clarke_1880_SGA_1922_ellipsoid", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Clarke 1880 (SGA 1922) ellipsoid) (EPSG ID 6014)", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Everest 1830 (1937 Adjustment) ellipsoid)", \
+   "Everest_Adj_1937", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Everest_1830_1937_Adjustment_ellipsoid", \
+   "Everest_Adj_1937", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Everest_1830_1937_Adjustment_ellipsoid", \
+   "Everest_Adj_1937", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Everest_1830_1937_Adjustment_ellipsoid", \
+   "Everest_Adj_1937", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Everest 1830 1937 Adjustment ellipsoid) (EPSG ID 6015)", \
+   "Everest_Adj_1937", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Everest 1830 (1962 Definition) ellipsoid)", \
+   "Everest_Def_1962", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Everest_1830_1962_Definition_ellipsoid", \
+   "Everest_Def_1962", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Everest_1830_1962_Definition_ellipsoid", \
+   "Everest_Def_1962", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Everest_1830_1962_Definition_ellipsoid", \
+   "Everest_Def_1962", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Everest 1830 (1967 Definition) ellipsoid)", \
+   "Everest_Def_1967", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Everest_1830_1967_Definition_ellipsoid", \
+   "Everest_Def_1967", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Everest_1830_1967_Definition_ellipsoid", \
+   "Everest_Def_1967", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Everest_1830_1967_Definition_ellipsoid", \
+   "Everest_Def_1967", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Everest 1830 1967 Definition ellipsoid) (EPSG ID 6016)", \
+   "Everest_Def_1967", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Everest 1830 (1975 Definition) ellipsoid)", \
+   "Everest_Def_1975", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Everest_1830_1975_Definition_ellipsoid", \
+   "Everest_Def_1975", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Everest_1830_1975_Definition_ellipsoid", \
+   "Everest_Def_1975", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Everest_1830_1975_Definition_ellipsoid", \
+   "Everest_Def_1975", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Everest 1830 1975 Definition ellipsoid) (EPSG ID 6045)", \
+   "Everest_Def_1975", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Everest (1830 Definition) ellipsoid)", \
+   "Everest_1830", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Everest_1830_Definition_ellipsoid", \
+   "Everest_1830", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Everest_1830_Definition_ellipsoid", \
+   "Everest_1830", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Everest_1830_Definition_ellipsoid", \
+   "Everest_1830", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Everest (1830 Definition) ellipsoid) (EPSG ID 6042)", \
+   "Everest_1830", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Everest 1830 Modified ellipsoid)", \
+   "Everest_Modified", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Everest_1830_Modified_ellipsoid", \
+   "Everest_Modified", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Everest_1830_Modified_ellipsoid", \
+   "Everest_Modified", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Everest_1830_Modified_ellipsoid", \
+   "Everest_Modified", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Everest 1830 Modified ellipsoid) (EPSG ID 6018)", \
+   "Everest_Modified", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on GEM 10C ellipsoid)", \
+   "GEM_10C", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_GEM_10C_ellipsoid", \
+   "GEM_10C", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_GEM_10C_ellipsoid", \
+   "GEM_10C", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_GEM_10C_ellipsoid", \
+   "GEM_10C", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on GEM 10C ellipsoid) (EPSG ID 6031)", \
+   "GEM_10C", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on GRS 1967 ellipsoid)", \
+   "GRS_1967", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_GRS_1967_ellipsoid", \
+   "GRS_1967", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_GRS_1967_ellipsoid", \
+   "GRS_1967", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_GRS_1967_ellipsoid", \
+   "GRS_1967", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on GRS 1967 ellipsoid) (EPSG ID 6036)", \
+   "GRS_1967", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on GRS 1980 Authalic Sphere)", \
+   "Sphere_GRS_1980_Authalic", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_GRS_1980_Authalic_Sphere", \
+   "Sphere_GRS_1980_Authalic", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_GRS_1980_Authalic_Sphere", \
+   "Sphere_GRS_1980_Authalic", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_GRS_1980_Authalic_Sphere", \
+   "Sphere_GRS_1980_Authalic", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on GRS 1980 Authalic Sphere) (EPSG ID 6047)", \
+   "Sphere_GRS_1980_Authalic", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on GRS 1980 ellipsoid)", \
+   "GRS_1980", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_GRS_1980_ellipsoid", \
+   "GRS_1980", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_GRS_1980_ellipsoid", \
+   "GRS_1980", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_GRS_1980_ellipsoid", \
+   "GRS_1980", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on GRS 1980 ellipsoid) (EPSG ID 6019)", \
+   "GRS_1980", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Helmert 1906 ellipsoid)", \
+   "Helmert_1906", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Helmert_1906_ellipsoid", \
+   "Helmert_1906", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Helmert_1906_ellipsoid", \
+   "Helmert_1906", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Helmert_1906_ellipsoid", \
+   "Helmert_1906", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Helmert 1906 ellipsoid) (EPSG ID 6020)", \
+   "Helmert_1906", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Hughes 1980 ellipsoid)", \
+   "Hughes_1980", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Hughes_1980_ellipsoid", \
+   "Hughes_1980", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Hughes_1980_ellipsoid", \
+   "Hughes_1980", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not specified (based on Indonesian National Spheroid)", \
+   "Indonesian", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Indonesian_National_Spheroid", \
+   "Indonesian", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Indonesian_National_Spheroid", \
+   "Indonesian", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Indonesian_National_Spheroid", \
+   "Indonesian", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Indonesian National Spheroid) (EPSG ID 6021)", \
+   "Indonesian", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on International 1924 Authalic Sphere)", \
+   "Sphere_International_1924_Authalic", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_International_1924_Authalic_Sphere", \
+   "Sphere_International_1924_Authalic", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_International_1924_Authalic_Sphere", \
+   "Sphere_International_1924_Authalic", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not specified (based on International 1924 ellipsoid)", \
+   "International_1924", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_International_1924_ellipsoid", \
+   "International_1924", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_International_1924_ellipsoid", \
+   "International_1924", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_International_1924_ellipsoid", \
+   "International_1924", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on International 1924 ellipsoid) (EPSG ID 6022)", \
+   "Sphere_International_1924_Authalic", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Krassowsky 1940 ellipsoid)", \
+   "Krasovsky_1940", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Krassowsky_1940_ellipsoid", \
+   "Krasovsky_1940", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Krassowsky_1940_ellipsoid", \
+   "Krasovsky_1940", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Krassowsky_1940_ellipsoid", \
+   "Krasovsky_1940", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Krassowsky 1940 ellipsoid) (EPSG ID 6024)", \
+   "Krasovsky_1940", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on NWL 9D ellipsoid)", \
+   "NWL_9D", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_NWL_9D_ellipsoid", \
+   "NWL_9D", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_NWL_9D_ellipsoid", \
+   "NWL_9D", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_NWL_9D_ellipsoid", \
+   "NWL_9D", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on NWL 9D ellipsoid) (EPSG ID 6025)", \
+   "NWL_9D", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on OSU86F ellipsoid)", \
+   "OSU_86F", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_OSU86F_ellipsoid", \
+   "OSU_86F", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_OSU86F_ellipsoid", \
+   "OSU_86F", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_OSU86F_ellipsoid", \
+   "OSU_86F", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on OSU86F ellipsoid) (EPSG ID 6032)", \
+   "OSU_86F", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on OSU91A ellipsoid)", \
+   "OSU_91A", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_OSU91A_ellipsoid", \
+   "OSU_91A", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_OSU91A_ellipsoid", \
+   "OSU_91A", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_OSU91A_ellipsoid", \
+   "OSU_91A", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on OSU91A ellipsoid) (EPSG ID 6033)", \
+   "OSU_91A", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Plessis 1817 ellipsoid)", \
+   "Plessis_1817", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Plessis_1817_ellipsoid", \
+   "Plessis_1817", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Plessis_1817_ellipsoid", \
+   "Plessis_1817", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Plessis_1817_ellipsoid", \
+   "Plessis_1817", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Plessis 1817 ellipsoid) (EPSG ID 6027)", \
+   "Plessis_1817", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on Struve 1860 ellipsoid)", \
+   "Struve_1860", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_Struve_1860_ellipsoid", \
+   "Struve_1860", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_Struve_1860_ellipsoid", \
+   "Struve_1860", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_Struve_1860_ellipsoid", \
+   "Struve_1860", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on Struve 1860 ellipsoid) (EPSG ID 6028)", \
+   "Struve_1860", \
+   FALSE, \
+   "Oracle"
+
+"Not specified (based on War Office ellipsoid)", \
+   "War_Office", \
+   FALSE, \
+   "EPSG"
+
+"Not_specified_based_on_War_Office_ellipsoid", \
+   "War_Office", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_War_Office_ellipsoid", \
+   "War_Office", \
+   FALSE, \
+   "SpatiaLite"
+
+"Not_specified_based_on_War_Office_ellipsoid", \
+   "War_Office", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on War Office ellipsoid) (EPSG ID 6029)", \
+   "War_Office", \
+   FALSE, \
+   "Oracle"
+
+"Not_specified_based_on_WGS_72_ellipsoid", \
+   "WGS_1972", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_WGS_72_ellipsoid", \
+   "WGS_1972", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on WGS 72 ellipsoid) (EPSG ID 6043)", \
+   "WGS_1972", \
+   FALSE, \
+   "Oracle"
+
+"Not_specified_based_on_WGS_84_ellipsoid", \
+   "WGS_1984", \
+   FALSE, \
+   "PostGIS"
+
+"Not_specified_based_on_WGS_84_ellipsoid", \
+   "WGS_1984", \
+   FALSE, \
+   "Teradata"
+
+"Not specified (based on WGS 84 ellipsoid) (EPSG ID 6030)", \
+   "WGS_1984", \
+   FALSE, \
+   "Oracle"
+
+"Not specifiee (based on Everest 1830 1962 Definition ellipsoid) (EPSG ID 6044)", \
+   "Everest_Def_1962", \
+   FALSE, \
+   "Oracle"
+
+"Nouvelle Triangulation Francaise", \
+   "NTF", \
+   FALSE, \
+   "EPSG"
+
+"Nouvelle_Triangulation_Francaise", \
+   "NTF", \
+   FALSE, \
+   "PostGIS"
+
+"Nouvelle_Triangulation_Francaise", \
+   "NTF", \
+   FALSE, \
+   "SpatiaLite"
+
+"Nouvelle Triangulation Francaise", \
+   "NTF", \
+   FALSE, \
+   "SQLserver"
+
+"Nouvelle_Triangulation_Francaise", \
+   "NTF", \
+   FALSE, \
+   "Teradata"
+
+"Nouvelle Triangulation Francaise (EPSG ID 6275)", \
+   "NTF", \
+   FALSE, \
+   "Oracle"
+
+"Nouvelle_Triangulation_Francaise_Paris", \
+   "NTF", \
+   FALSE, \
+   "PostGIS"
+
+"Nouvelle_Triangulation_Francaise_Paris", \
+   "NTF", \
+   FALSE, \
+   "SpatiaLite"
+
+"Nouvelle Triangulation Francaise (Paris)", \
+   "NTF", \
+   FALSE, \
+   "SQLserver"
+
+"Nouvelle_Triangulation_Francaise_Paris", \
+   "NTF", \
+   FALSE, \
+   "Teradata"
+
+"Nouvelle Triangulation Francaise (Paris) (EPSG ID 6807)", \
+   "NTF", \
+   FALSE, \
+   "Oracle"
+
+"NSWC 9Z-2 (EPSG ID 6276)", \
+   "NSWC_9Z_2", \
+   FALSE, \
+   "Oracle"
+
+"NTF (Paris meridian)", \
+   "NTF", \
+   FALSE, \
+   "Oracle"
+
+"Observatario (EPSG ID 6129)", \
+   "Observatario", \
+   FALSE, \
+   "Oracle"
+
+"Observatorio 1966", \
+   "Observatario", \
+   FALSE, \
+   "Oracle"
+
+"Old Hawaiian (EPSG ID 6135)", \
+   "Old_Hawaiian", \
+   FALSE, \
+   "Oracle"
+
+"Ordnance Survey Great Brit", \
+   "OSGB_1936", \
+   FALSE, \
+   "Oracle"
+
+"OSGB 1936 (EPSG ID 6277)", \
+   "OSGB_1936", \
+   FALSE, \
+   "Oracle"
+
+"OSGB 1970 (SN) (EPSG ID 6278)", \
+   "OSGB_1970_SN", \
+   FALSE, \
+   "Oracle"
+
+"OSNI 1952 (EPSG ID 6188)", \
+   "OSNI_1952", \
+   FALSE, \
+   "Oracle"
+
+"OS (SN) 1980 (EPSG ID 6279)", \
+   "OS_SN_1980", \
+   FALSE, \
+   "Oracle"
+
+"Padang 1884 (EPSG ID 6280)", \
+   "Padang_1884", \
+   FALSE, \
+   "Oracle"
+
+"Padang_1884_Jakarta", \
+   "Padang_1884", \
+   FALSE, \
+   "PostGIS"
+
+"Padang_1884_Jakarta", \
+   "Padang_1884", \
+   FALSE, \
+   "SpatiaLite"
+
+"Padang 1884 (Jakarta)", \
+   "Padang_1884", \
+   FALSE, \
+   "SQLserver"
+
+"Padang_1884_Jakarta", \
+   "Padang_1884", \
+   FALSE, \
+   "Teradata"
+
+"Padang 1884 (Jakarta) (EPSG ID 6808)", \
+   "Padang_1884", \
+   FALSE, \
+   "Oracle"
+
+"Palestine 1923 (EPSG ID 6281)", \
+   "Palestine_1923", \
+   FALSE, \
+   "Oracle"
+
+"Pampa del Castillo (EPSG ID 6161)", \
+   "Pampa_del_Castillo", \
+   FALSE, \
+   "Oracle"
+
+"Parametry Zemli 1990", \
+   "Parametrop_Zemp_1990", \
+   FALSE, \
+   "EPSG"
+
+"PDO Survey Datum 1993", \
+   "PDO_1993", \
+   FALSE, \
+   "EPSG"
+
+"PDO_Survey_Datum_1993", \
+   "PDO_1993", \
+   FALSE, \
+   "PostGIS"
+
+"PDO_Survey_Datum_1993", \
+   "PDO_1993", \
+   FALSE, \
+   "SpatiaLite"
+
+"PDO Survey Datum 1993", \
+   "PDO_1993", \
+   FALSE, \
+   "SQLserver"
+
+"PDO_Survey_Datum_1993", \
+   "PDO_1993", \
+   FALSE, \
+   "Teradata"
+
+"PDO Survey Datum 1993 (EPSG ID 6134)", \
+   "PDO_1993", \
+   FALSE, \
+   "Oracle"
+
+"Petrels 1972 (EPSG ID 6636)", \
+   "Petrels_1972", \
+   FALSE, \
+   "Oracle"
+
+"Phoenix Islands 1966", \
+   "Canton_1966", \
+   FALSE, \
+   "EPSG"
+
+"Phoenix_Islands_1966", \
+   "Canton_1966", \
+   FALSE, \
+   "PostGIS"
+
+"Phoenix_Islands_1966", \
+   "Canton_1966", \
+   FALSE, \
+   "SpatiaLite"
+
+"Phoenix Islands 1966", \
+   "Canton_1966", \
+   FALSE, \
+   "SQLserver"
+
+"Phoenix_Islands_1966", \
+   "Canton_1966", \
+   FALSE, \
+   "Teradata"
+
+"Pico de la Nieves", \
+   "Pico_de_las_Nieves", \
+   FALSE, \
+   "SQLserver"
+
+"Pico_de_la_Nieves", \
+   "Pico_de_las_Nieves", \
+   FALSE, \
+   "Teradata"
+
+"Pico de las Nieves 1984", \
+   "Pico_de_Las_Nieves", \
+   FALSE, \
+   "EPSG"
+
+"Pico_de_las_Nieves_1984", \
+   "Pico_de_Las_Nieves", \
+   FALSE, \
+   "PostGIS"
+
+"Pico_de_las_Nieves_1984", \
+   "Pico_de_Las_Nieves", \
+   FALSE, \
+   "SpatiaLite"
+
+"Pitcairn Astro 1967", \
+   "Pitcairn_1967", \
+   FALSE, \
+   "Oracle"
+
+"Piton des Neiges (EPSG ID 6626)", \
+   "Reunion_1947", \
+   FALSE, \
+   "Oracle"
+
+"Point 58 (EPSG ID 6620)", \
+   "Point_58", \
+   FALSE, \
+   "Oracle"
+
+"Pointe Geologie Perroud 1950 (EPSG ID 6637)", \
+   "Pointe_Geologie_Perroud_1950", \
+   FALSE, \
+   "Oracle"
+
+"Popular_Visualisation_Datum", \
+   "WGS_1984_Major_Auxiliary_Sphere", \
+   FALSE, \
+   "PostGIS"
+
+"Popular_Visualisation_Datum", \
+   "WGS_1984_Major_Auxiliary_Sphere", \
+   FALSE, \
+   "SpatiaLite"
+
+"Popular Visualisation Datum (EPSG ID 6055)", \
+   "WGS_1984_Major_Auxiliary_Sphere", \
+   FALSE, \
+   "Oracle"
+
+"Porto Santo 1936 (EPSG ID 6615)", \
+   "Porto_Santo_1936", \
+   FALSE, \
+   "Oracle"
+
+"Porto Santo 1995 (EPSG ID 6663)", \
+   "Porto_Santo_1995", \
+   FALSE, \
+   "Oracle"
+
+"Posiciones_Geodesicas_Argentinas", \
+   "POSGAR", \
+   FALSE, \
+   "PostGIS"
+
+"Posiciones_Geodesicas_Argentinas", \
+   "POSGAR", \
+   FALSE, \
+   "SpatiaLite"
+
+"Posiciones_Geodesicas_Argentinas", \
+   "POSGAR", \
+   FALSE, \
+   "Teradata"
+
+"Posiciones Geodesicas Argentinas 1994", \
+   "POSGAR_1994", \
+   FALSE, \
+   "EPSG"
+
+"Posiciones_Geodesicas_Argentinas_1994", \
+   "POSGAR_1994", \
+   FALSE, \
+   "PostGIS"
+
+"Posiciones_Geodesicas_Argentinas_1994", \
+   "POSGAR_1994", \
+   FALSE, \
+   "SpatiaLite"
+
+"Posiciones Geodesicas Argentinas 1994", \
+   "POSGAR_1994", \
+   FALSE, \
+   "SQLserver"
+
+"Posiciones_Geodesicas_Argentinas_1994", \
+   "POSGAR_1994", \
+   FALSE, \
+   "Teradata"
+
+"Posiciones Geodesicas Argentinas 1998", \
+   "POSGAR_1998", \
+   FALSE, \
+   "EPSG"
+
+"Posiciones_Geodesicas_Argentinas_1998", \
+   "POSGAR_1998", \
+   FALSE, \
+   "PostGIS"
+
+"Posiciones_Geodesicas_Argentinas_1998", \
+   "POSGAR_1998", \
+   FALSE, \
+   "SpatiaLite"
+
+"Posiciones Geodesicas Argentinas 1998", \
+   "POSGAR_1998", \
+   FALSE, \
+   "SQLserver"
+
+"Posiciones_Geodesicas_Argentinas_1998", \
+   "POSGAR_1998", \
+   FALSE, \
+   "Teradata"
+
+"Posiciones Geodesicas Argentinas 1998 (EPSG ID 6172)", \
+   "POSGAR_1998", \
+   FALSE, \
+   "Oracle"
+
+"Posiciones Geodesicas Argentinas 1998 (EPSG ID 6190)", \
+   "POSGAR", \
+   FALSE, \
+   "Oracle"
+
+"Posiciones Geodesicas Argentinas 2007", \
+   "POSGAR_2007", \
+   FALSE, \
+   "EPSG"
+
+"Potsdam Datum/83", \
+   "Potsdam_1983", \
+   FALSE, \
+   "EPSG"
+
+"Potsdam_Datum_83", \
+   "Potsdam_1983", \
+   FALSE, \
+   "PostGIS"
+
+"Potsdam_Datum_83", \
+   "Potsdam_1983", \
+   FALSE, \
+   "SpatiaLite"
+
+"Potsdam Datum/83", \
+   "Potsdam_1983", \
+   FALSE, \
+   "SQLserver"
+
+"Potsdam_Datum_83", \
+   "Potsdam_1983", \
+   FALSE, \
+   "Teradata"
+
+"Provisional South American", \
+   "Provisional_S_American_1956", \
+   FALSE, \
+   "Oracle"
+
+"Provisional South American Datum 1956", \
+   "Provisional_S_American_1956", \
+   FALSE, \
+   "EPSG"
+
+"Provisional_South_American_Datum_1956", \
+   "Provisional_S_American_1956", \
+   FALSE, \
+   "PostGIS"
+
+"Provisional_South_American_Datum_1956", \
+   "Provisional_S_American_1956", \
+   FALSE, \
+   "SpatiaLite"
+
+"Provisional South American Datum 1956", \
+   "Provisional_S_American_1956", \
+   FALSE, \
+   "SQLserver"
+
+"Provisional_South_American_Datum_1956", \
+   "Provisional_S_American_1956", \
+   FALSE, \
+   "Teradata"
+
+"Provisional South American Datum 1956 (EPSG ID 6248)", \
+   "Provisional_S_American_1956", \
+   FALSE, \
+   "Oracle"
+
+"Puerto Rico (EPSG ID 6139)", \
+   "Puerto_Rico", \
+   FALSE, \
+   "Oracle"
+
+"Pulkovo 1942(58)", \
+   "Pulkovo_1942_Adj_1958", \
+   FALSE, \
+   "EPSG"
+
+"Pulkovo_1942_58", \
+   "Pulkovo_1942_Adj_1958", \
+   FALSE, \
+   "PostGIS"
+
+"Pulkovo_1942_58", \
+   "Pulkovo_1942_Adj_1958", \
+   FALSE, \
+   "SpatiaLite"
+
+"Pulkovo 1942/58", \
+   "Pulkovo_1942_Adj_1958", \
+   FALSE, \
+   "SQLserver"
+
+"Pulkovo_1942_58", \
+   "Pulkovo_1942_Adj_1958", \
+   FALSE, \
+   "Teradata"
+
+"Pulkovo 1942/58 (EPSG ID 6179)", \
+   "Pulkovo_1942_Adj_1958", \
+   FALSE, \
+   "Oracle"
+
+"Pulkovo 1942(83)", \
+   "Pulkovo_1942_Adj_1983", \
+   FALSE, \
+   "EPSG"
+
+"Pulkovo_1942_83", \
+   "Pulkovo_1942_Adj_1983", \
+   FALSE, \
+   "PostGIS"
+
+"Pulkovo_1942_83", \
+   "Pulkovo_1942_Adj_1983", \
+   FALSE, \
+   "SpatiaLite"
+
+"Pulkovo 1942/83", \
+   "Pulkovo_1942_Adj_1983", \
+   FALSE, \
+   "SQLserver"
+
+"Pulkovo_1942_83", \
+   "Pulkovo_1942_Adj_1983", \
+   FALSE, \
+   "Teradata"
+
+"Pulkovo 1942/83 (EPSG ID 6178)", \
+   "Pulkovo_1942_Adj_1983", \
+   FALSE, \
+   "Oracle"
+
+"Pulkovo 1942 (EPSG ID 6284)", \
+   "Pulkovo_1942", \
+   FALSE, \
+   "Oracle"
+
+"Pulkovo 1995 (EPSG ID 6200)", \
+   "Pulkovo_1995", \
+   FALSE, \
+   "Oracle"
+
+"Qatar 1948 (EPSG ID 6286)", \
+   "Qatar_1948", \
+   FALSE, \
+   "Oracle"
+
+"Qatar 1974", \
+   "Qatar", \
+   FALSE, \
+   "EPSG"
+
+"Qatar_1974", \
+   "Qatar", \
+   FALSE, \
+   "PostGIS"
+
+"Qatar_1974", \
+   "Qatar", \
+   FALSE, \
+   "SpatiaLite"
+
+"Qatar 1974", \
+   "Qatar", \
+   FALSE, \
+   "SQLserver"
+
+"Qatar_1974", \
+   "Qatar", \
+   FALSE, \
+   "Teradata"
+
+"Qatar 1974 (EPSG ID 6285)", \
+   "Qatar", \
+   FALSE, \
+   "Oracle"
+
+"Qatar National", \
+   "QND_1995", \
+   FALSE, \
+   "Oracle"
+
+"Qatar National Datum 1995", \
+   "QND_1995", \
+   FALSE, \
+   "EPSG"
+
+"Qatar_National_Datum_1995", \
+   "QND_1995", \
+   FALSE, \
+   "PostGIS"
+
+"Qatar_National_Datum_1995", \
+   "QND_1995", \
+   FALSE, \
+   "SpatiaLite"
+
+"Qatar National Datum 1995", \
+   "QND_1995", \
+   FALSE, \
+   "SQLserver"
+
+"Qatar_National_Datum_1995", \
+   "QND_1995", \
+   FALSE, \
+   "Teradata"
+
+"Qatar National Datum 1995 (EPSG ID 6614)", \
+   "QND_1995", \
+   FALSE, \
+   "Oracle"
+
+"Qornoq 1927 (EPSG ID 6194)", \
+   "Qornoq_1927", \
+   FALSE, \
+   "Oracle"
+
+"Qornoq (EPSG ID 6287)", \
+   "Qornoq", \
+   FALSE, \
+   "Oracle"
+
+"Rassadiran (EPSG ID 6153)", \
+   "Rassadiran", \
+   FALSE, \
+   "Oracle"
+
+"Rauenberg Datum/83", \
+   "Rauenberg_1983", \
+   FALSE, \
+   "EPSG"
+
+"Rauenberg_Datum_83", \
+   "Rauenberg_1983", \
+   FALSE, \
+   "PostGIS"
+
+"Rauenberg_Datum_83", \
+   "Rauenberg_1983", \
+   FALSE, \
+   "SpatiaLite"
+
+"Rauenberg Datum/83", \
+   "Rauenberg_1983", \
+   FALSE, \
+   "SQLserver"
+
+"Rauenberg_Datum_83", \
+   "Rauenberg_1983", \
+   FALSE, \
+   "Teradata"
+
+"Red Geodesica Venezolana", \
+   "REGVEN", \
+   FALSE, \
+   "EPSG"
+
+"Red_Geodesica_Venezolana", \
+   "REGVEN", \
+   FALSE, \
+   "PostGIS"
+
+"Red_Geodesica_Venezolana", \
+   "REGVEN", \
+   FALSE, \
+   "SpatiaLite"
+
+"Red Geodesica Venezolana", \
+   "REGVEN", \
+   FALSE, \
+   "SQLserver"
+
+"Red_Geodesica_Venezolana", \
+   "REGVEN", \
+   FALSE, \
+   "Teradata"
+
+"Red Geodesica Venezolana (EPSG ID 6189)", \
+   "REGVEN", \
+   FALSE, \
+   "Oracle"
+
+"Reseau de Reference des Antilles Francaises 1991", \
+   "RRAF_1991", \
+   FALSE, \
+   "EPSG"
+
+"Reseau_de_Reference_des_Antilles_Francaises_1991", \
+   "RRAF_1991", \
+   FALSE, \
+   "PostGIS"
+
+"Reseau_de_Reference_des_Antilles_Francaises_1991", \
+   "RRAF_1991", \
+   FALSE, \
+   "SpatiaLite"
+
+"Reseau de Reference des Antilles Francaises 1991", \
+   "RRAF_1991", \
+   FALSE, \
+   "SQLserver"
+
+"Reseau_de_Reference_des_Antilles_Francaises_1991", \
+   "RRAF_1991", \
+   FALSE, \
+   "Teradata"
+
+"Reseau de Reference des Antilles Francaises 1991 (EPSG ID 6640)", \
+   "RRAF_1991", \
+   FALSE, \
+   "Oracle"
+
+"Reseau Geodesique de la Reunion 1992", \
+   "RGR_1992", \
+   FALSE, \
+   "EPSG"
+
+"Reseau_Geodesique_de_la_Reunion_1992", \
+   "RGR_1992", \
+   FALSE, \
+   "PostGIS"
+
+"Reseau_Geodesique_de_la_Reunion_1992", \
+   "RGR_1992", \
+   FALSE, \
+   "SpatiaLite"
+
+"Reseau Geodesique de la Reunion 1992", \
+   "RGR_1992", \
+   FALSE, \
+   "SQLserver"
+
+"Reseau_Geodesique_de_la_Reunion_1992", \
+   "RGR_1992", \
+   FALSE, \
+   "Teradata"
+
+"Reseau Geodesique de la Reunion 1992 (EPSG ID 6627)", \
+   "RGR_1992", \
+   FALSE, \
+   "Oracle"
+
+"Reseau Geodesique de Nouvelle Caledonie 91-93", \
+   "Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93", \
+   FALSE, \
+   "EPSG"
+
+"Reseau_Geodesique_de_Nouvelle_Caledonie_91_93", \
+   "Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93", \
+   FALSE, \
+   "PostGIS"
+
+"Reseau_Geodesique_de_Nouvelle_Caledonie_91_93", \
+   "Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93", \
+   FALSE, \
+   "SpatiaLite"
+
+"Reseau Geodesique de Nouvelle Caledonie 91-93", \
+   "Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93", \
+   FALSE, \
+   "SQLserver"
+
+"Reseau_Geodesique_de_Nouvelle_Caledonie_91_93", \
+   "Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93", \
+   FALSE, \
+   "Teradata"
+
+"Reseau Geodesique de Saint Pierre et Miquelon 2006", \
+   "Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006", \
+   FALSE, \
+   "EPSG"
+
+"Reseau Geodesique Francais 1993", \
+   "RGF_1993", \
+   FALSE, \
+   "EPSG"
+
+"Reseau_Geodesique_Francais_1993", \
+   "RGF_1993", \
+   FALSE, \
+   "PostGIS"
+
+"Reseau_Geodesique_Francais_1993", \
+   "RGF_1993", \
+   FALSE, \
+   "SpatiaLite"
+
+"Reseau Geodesique Francais 1993", \
+   "RGF_1993", \
+   FALSE, \
+   "SQLserver"
+
+"Reseau_Geodesique_Francais_1993", \
+   "RGF_1993", \
+   FALSE, \
+   "Teradata"
+
+"Reseau Geodesique Francais 1993 (EPSG ID 6171)", \
+   "RGF_1993", \
+   FALSE, \
+   "Oracle"
+
+"Reseau Geodesique Francais Guyane 1995", \
+   "RGFG_1995", \
+   FALSE, \
+   "EPSG"
+
+"Reseau_Geodesique_Francais_Guyane_1995", \
+   "RGFG_1995", \
+   FALSE, \
+   "PostGIS"
+
+"Reseau_Geodesique_Francais_Guyane_1995", \
+   "RGFG_1995", \
+   FALSE, \
+   "SpatiaLite"
+
+"Reseau Geodesique Francais Guyane 1995", \
+   "RGFG_1995", \
+   FALSE, \
+   "SQLserver"
+
+"Reseau_Geodesique_Francais_Guyane_1995", \
+   "RGFG_1995", \
+   FALSE, \
+   "Teradata"
+
+"Reseau Geodesique Francais Guyane 1995 (EPSG ID 6624)", \
+   "RGFG_1995", \
+   FALSE, \
+   "Oracle"
+
+"Reseau_Geodesique_Nouvelle_Caledonie_1991", \
+   "RGNC_1991", \
+   FALSE, \
+   "PostGIS"
+
+"Reseau_Geodesique_Nouvelle_Caledonie_1991", \
+   "RGNC_1991", \
+   FALSE, \
+   "SpatiaLite"
+
+"Reseau_Geodesique_Nouvelle_Caledonie_1991", \
+   "RGNC_1991", \
+   FALSE, \
+   "Teradata"
+
+"Reseau Geodesique Nouvelle Caledonie 1991 (EPSG ID 6645)", \
+   "Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93", \
+   FALSE, \
+   "Oracle"
+
+"Reseau National Belge 1950", \
+   "Belge_1950", \
+   FALSE, \
+   "EPSG"
+
+"Reseau_National_Belge_1950", \
+   "Belge_1950", \
+   FALSE, \
+   "PostGIS"
+
+"Reseau_National_Belge_1950", \
+   "Belge_1950", \
+   FALSE, \
+   "SpatiaLite"
+
+"Reseau National Belge 1950", \
+   "Belge_1950", \
+   FALSE, \
+   "SQLserver"
+
+"Reseau_National_Belge_1950", \
+   "Belge_1950", \
+   FALSE, \
+   "Teradata"
+
+"Reseau_National_Belge_1950_Brussels", \
+   "Belge_1950", \
+   FALSE, \
+   "PostGIS"
+
+"Reseau_National_Belge_1950_Brussels", \
+   "Belge_1950", \
+   FALSE, \
+   "SpatiaLite"
+
+"Reseau National Belge 1950 (Brussels)", \
+   "Belge_1950", \
+   FALSE, \
+   "SQLserver"
+
+"Reseau_National_Belge_1950_Brussels", \
+   "Belge_1950", \
+   FALSE, \
+   "Teradata"
+
+"Reseau National Belge 1950 (Brussels) (EPSG ID 6809)", \
+   "Belge_1950", \
+   FALSE, \
+   "Oracle"
+
+"Reseau National Belge 1950 (EPSG ID 6215)", \
+   "Belge_1950", \
+   FALSE, \
+   "Oracle"
+
+"Reseau National Belge 1972", \
+   "Belge_1972", \
+   FALSE, \
+   "EPSG"
+
+"Reseau_National_Belge_1972", \
+   "Belge_1972", \
+   FALSE, \
+   "PostGIS"
+
+"Reseau_National_Belge_1972", \
+   "Belge_1972", \
+   FALSE, \
+   "SpatiaLite"
+
+"Reseau National Belge 1972", \
+   "Belge_1972", \
+   FALSE, \
+   "SQLserver"
+
+"Reseau_National_Belge_1972", \
+   "Belge_1972", \
+   FALSE, \
+   "Teradata"
+
+"Reseau National Belge 1972 (EPSG ID 6313)", \
+   "Belge_1972", \
+   FALSE, \
+   "Oracle"
+
+"Reunion", \
+   "Reunion_1947", \
+   FALSE, \
+   "Oracle"
+
+"Reykjavik 1900 (EPSG ID 6657)", \
+   "Reykjavik_1900", \
+   FALSE, \
+   "Oracle"
+
+"Rikets koordinatsystem 1990", \
+   "RT_1990", \
+   FALSE, \
+   "EPSG"
+
+"Rikets_koordinatsystem_1990", \
+   "RT_1990", \
+   FALSE, \
+   "PostGIS"
+
+"Rikets_koordinatsystem_1990", \
+   "RT_1990", \
+   FALSE, \
+   "SpatiaLite"
+
+"Rikets koordinatsystem 1990", \
+   "RT_1990", \
+   FALSE, \
+   "SQLserver"
+
+"Rikets_koordinatsystem_1990", \
+   "RT_1990", \
+   FALSE, \
+   "Teradata"
+
+"Rikets koordinatsystem 1990 (EPSG ID 6124)", \
+   "RT_1990", \
+   FALSE, \
+   "Oracle"
+
+"Rome 1940", \
+   "Roma_1940", \
+   FALSE, \
+   "Oracle"
+
+"RT 90 (Sweden)", \
+   "RT_1990", \
+   FALSE, \
+   "Oracle"
+
+"Sainte Anne (EPSG ID 6622)", \
+   "Sainte_Anne", \
+   FALSE, \
+   "Oracle"
+
+"Saint Pierre et Miquelon 1950 (EPSG ID 6638)", \
+   "Saint_Pierre_et_Miquelon_1950", \
+   FALSE, \
+   "Oracle"
+
+"Samboja (EPSG ID 6125)", \
+   "Samboja", \
+   FALSE, \
+   "Oracle"
+
+"Santo 1965", \
+   "Santo_DOS_1965", \
+   FALSE, \
+   "EPSG"
+
+"Santo_1965", \
+   "Santo_DOS_1965", \
+   FALSE, \
+   "PostGIS"
+
+"Santo_1965", \
+   "Santo_DOS_1965", \
+   FALSE, \
+   "SpatiaLite"
+
+"Santo 1965", \
+   "Santo_DOS_1965", \
+   FALSE, \
+   "SQLserver"
+
+"Santo_1965", \
+   "Santo_DOS_1965", \
+   FALSE, \
+   "Teradata"
+
+"Santo (DOS)", \
+   "Santo_DOS_1965", \
+   FALSE, \
+   "Oracle"
+
+"Sapper Hill 1943 (EPSG ID 6292)", \
+   "Sapper_Hill_1943", \
+   FALSE, \
+   "Oracle"
+
+"Schwarzeck (EPSG ID 6293)", \
+   "Schwarzeck", \
+   FALSE, \
+   "Oracle"
+
+"Scoresbysund 1952 (EPSG ID 6195)", \
+   "Scoresbysund_1952", \
+   FALSE, \
+   "Oracle"
+
+"Segora (EPSG ID 6294)", \
+   "Segora", \
+   FALSE, \
+   "Oracle"
+
+"Selvagem Grande", \
+   "Selvagem_Grande_1938", \
+   FALSE, \
+   "EPSG"
+
+"Selvagem_Grande", \
+   "Selvagem_Grande_1938", \
+   FALSE, \
+   "PostGIS"
+
+"Selvagem_Grande", \
+   "Selvagem_Grande_1938", \
+   FALSE, \
+   "SpatiaLite"
+
+"Selvagem Grande", \
+   "Selvagem_Grande_1938", \
+   FALSE, \
+   "SQLserver"
+
+"Selvagem_Grande", \
+   "Selvagem_Grande_1938", \
+   FALSE, \
+   "Teradata"
+
+"Selvagem Grande (EPSG ID 6616)", \
+   "Selvagem_Grande_1938", \
+   FALSE, \
+   "Oracle"
+
+"Serindung (EPSG ID 6295)", \
+   "Serindung", \
+   FALSE, \
+   "Oracle"
+
+"Sierra Leone 1968 (EPSG ID 6175)", \
+   "Sierra_Leone_1968", \
+   FALSE, \
+   "Oracle"
+
+"Sierra Leone Colony 1924", \
+   "Sierra_Leone_1924", \
+   FALSE, \
+   "EPSG"
+
+"Sierra_Leone_Colony_1924", \
+   "Sierra_Leone_1924", \
+   FALSE, \
+   "PostGIS"
+
+"Sierra_Leone_Colony_1924", \
+   "Sierra_Leone_1924", \
+   FALSE, \
+   "SpatiaLite"
+
+"Sierra Leone Colony 1924", \
+   "Sierra_Leone_1924", \
+   FALSE, \
+   "SQLserver"
+
+"Sierra_Leone_Colony_1924", \
+   "Sierra_Leone_1924", \
+   FALSE, \
+   "Teradata"
+
+"Sierra Leone Colony 1924 (EPSG ID 6174)", \
+   "Sierra_Leone_1924", \
+   FALSE, \
+   "Oracle"
+
+"Sistema de Referencia Geocentrico para America del Sur 1995", \
+   "SIRGAS", \
+   FALSE, \
+   "EPSG"
+
+"Sistema_de_Referencia_Geocentrico_para_America_del_Sur_1995", \
+   "SIRGAS", \
+   FALSE, \
+   "PostGIS"
+
+"Sistema_de_Referencia_Geocentrico_para_America_del_Sur_1995", \
+   "SIRGAS", \
+   FALSE, \
+   "SpatiaLite"
+
+"Sistema de Referencia Geocentrico para America del Sur 1995", \
+   "SIRGAS", \
+   FALSE, \
+   "SQLserver"
+
+"Sistema_de_Referencia_Geocentrico_para_America_del_Sur_1995", \
+   "SIRGAS", \
+   FALSE, \
+   "Teradata"
+
+"Sistema_de_Referencia_Geocentrico_para_America_del_Sur_2000", \
+   "SIRGAS_2000", \
+   FALSE, \
+   "PostGIS"
+
+"Sistema_de_Referencia_Geocentrico_para_America_del_Sur_2000", \
+   "SIRGAS_2000", \
+   FALSE, \
+   "SpatiaLite"
+
+"Sistema de Referencia Geocentrico para America del Sur 2000", \
+   "SIRGAS_2000", \
+   FALSE, \
+   "SQLserver"
+
+"Sistema_de_Referencia_Geocentrico_para_America_del_Sur_2000", \
+   "SIRGAS_2000", \
+   FALSE, \
+   "Teradata"
+
+"Sistema de Referencia Geocentrico para America del Sur (EPSG ID 6170)", \
+   "SIRGAS", \
+   FALSE, \
+   "Oracle"
+
+"Sistema de Referencia Geocentrico para las AmericaS 2000", \
+   "SIRGAS_2000", \
+   FALSE, \
+   "EPSG"
+
+"Sistema Geodesico Nacional de Panama MACARIO SOLIS", \
+   "SGNP_MARCARIO_SOLIS", \
+   FALSE, \
+   "EPSG"
+
+"Sister Islands Geodetic Datum 1961", \
+   "Little_Cayman_1961", \
+   FALSE, \
+   "EPSG"
+
+"S_JTSK_Ferro", \
+   "S_JTSK", \
+   FALSE, \
+   "PostGIS"
+
+"S_JTSK_Ferro", \
+   "S_JTSK", \
+   FALSE, \
+   "SpatiaLite"
+
+"S-JTSK (Ferro)", \
+   "S_JTSK", \
+   FALSE, \
+   "SQLserver"
+
+"S_JTSK_Ferro", \
+   "S_JTSK", \
+   FALSE, \
+   "Teradata"
+
+"S-JTSK (Ferro) (EPSG ID 6818)", \
+   "S_JTSK", \
+   FALSE, \
+   "Oracle"
+
+"South American Datum 1969", \
+   "South_American_1969", \
+   FALSE, \
+   "EPSG"
+
+"South_American_Datum_1969", \
+   "South_American_1969", \
+   FALSE, \
+   "PostGIS"
+
+"South_American_Datum_1969", \
+   "South_American_1969", \
+   FALSE, \
+   "SpatiaLite"
+
+"South American Datum 1969", \
+   "South_American_1969", \
+   FALSE, \
+   "SQLserver"
+
+"South_American_Datum_1969", \
+   "South_American_1969", \
+   FALSE, \
+   "Teradata"
+
+"South American Datum 1969 (EPSG ID 6291)", \
+   "South_American_1969", \
+   FALSE, \
+   "Oracle"
+
+"South American Datum 1969 (EPSG ID 6618)", \
+   "South_American_1969", \
+   FALSE, \
+   "Oracle"
+
+"South Asia", \
+   "South_Asia_Singapore", \
+   FALSE, \
+   "Oracle"
+
+"South Georgia 1968", \
+   "ISTS_061_1968", \
+   FALSE, \
+   "EPSG"
+
+"South_Georgia_1968", \
+   "ISTS_061_1968", \
+   FALSE, \
+   "PostGIS"
+
+"South_Georgia_1968", \
+   "ISTS_061_1968", \
+   FALSE, \
+   "SpatiaLite"
+
+"South Georgia 1968", \
+   "ISTS_061_1968", \
+   FALSE, \
+   "SQLserver"
+
+"South_Georgia_1968", \
+   "ISTS_061_1968", \
+   FALSE, \
+   "Teradata"
+
+"South Yemen (EPSG ID 6164)", \
+   "South_Yemen", \
+   FALSE, \
+   "Oracle"
+
+"St. George Island", \
+   "St_George_Island", \
+   FALSE, \
+   "EPSG"
+
+"St. George Island", \
+   "St_George_Island", \
+   FALSE, \
+   "SQLserver"
+
+"St. George Island (EPSG ID 6138)", \
+   "St_George_Island", \
+   FALSE, \
+   "Oracle"
+
+"St. Helena 1971", \
+   "DOS_71_4", \
+   FALSE, \
+   "SQLserver"
+
+"St. Helena Geodetic Datum 2015", \
+   "St_Helena_Geodetic_Datum_2015", \
+   FALSE, \
+   "EPSG"
+
+"St. Helena Tritan", \
+   "St_Helena_Tritan", \
+   FALSE, \
+   "EPSG"
+
+"St. Kitts 1955", \
+   "St_Kitts_1955", \
+   FALSE, \
+   "EPSG"
+
+"St. Kitts 1955", \
+   "St_Kitts_1955", \
+   FALSE, \
+   "SQLserver"
+
+"St. Kitts 1955 (EPSG ID 6605)", \
+   "St_Kitts_1955", \
+   FALSE, \
+   "Oracle"
+
+"St. Lawrence Island", \
+   "St_Lawrence_Island", \
+   FALSE, \
+   "EPSG"
+
+"St. Lawrence Island", \
+   "St_Lawrence_Island", \
+   FALSE, \
+   "SQLserver"
+
+"St. Lawrence Island (EPSG ID 6136)", \
+   "St_Lawrence_Island", \
+   FALSE, \
+   "Oracle"
+
+"St. Lucia 1955", \
+   "St_Lucia_1955", \
+   FALSE, \
+   "EPSG"
+
+"St. Lucia 1955", \
+   "St_Lucia_1955", \
+   FALSE, \
+   "SQLserver"
+
+"St. Lucia 1955 (EPSG ID 6606)", \
+   "St_Lucia_1955", \
+   FALSE, \
+   "Oracle"
+
+"St. Paul Island", \
+   "St_Paul_Island", \
+   FALSE, \
+   "EPSG"
+
+"St. Paul Island", \
+   "St_Paul_Island", \
+   FALSE, \
+   "SQLserver"
+
+"St. Paul Island (EPSG ID 6137)", \
+   "St_Paul_Island", \
+   FALSE, \
+   "Oracle"
+
+"St. Vincent 1945", \
+   "St_Vincent_1945", \
+   FALSE, \
+   "EPSG"
+
+"St. Vincent 1945", \
+   "St_Vincent_1945", \
+   FALSE, \
+   "SQLserver"
+
+"St. Vincent 1945 (EPSG ID 6607)", \
+   "St_Vincent_1945", \
+   FALSE, \
+   "Oracle"
+
+"ST71 Belep (EPSG ID 6643)", \
+   "ST71_Belep", \
+   FALSE, \
+   "Oracle"
+
+"ST84 Ile des Pins (EPSG ID 6642)", \
+   "ST84_Ile_des_Pins", \
+   FALSE, \
+   "Oracle"
+
+"ST87 Ouvea (EPSG ID 6635)", \
+   "ST87_Ouvea", \
+   FALSE, \
+   "Oracle"
+
+"St_Helena_1971", \
+   "DOS_71_4", \
+   FALSE, \
+   "PostGIS"
+
+"St_Helena_1971", \
+   "DOS_71_4", \
+   FALSE, \
+   "SpatiaLite"
+
+"St_Helena_1971", \
+   "DOS_71_4", \
+   FALSE, \
+   "Teradata"
+
+"Stockholm 1938 (EPSG ID 6308)", \
+   "Stockholm_1938", \
+   FALSE, \
+   "Oracle"
+
+"Stockholm_1938_Stockholm", \
+   "Stockholm_1938", \
+   FALSE, \
+   "PostGIS"
+
+"Stockholm_1938_Stockholm", \
+   "Stockholm_1938", \
+   FALSE, \
+   "SpatiaLite"
+
+"Stockholm 1938 (Stockholm)", \
+   "Stockholm_1938", \
+   FALSE, \
+   "SQLserver"
+
+"Stockholm_1938_Stockholm", \
+   "Stockholm_1938", \
+   FALSE, \
+   "Teradata"
+
+"Stockholm 1938 (Stockholm) (EPSG ID 6814)", \
+   "Stockholm_1938", \
+   FALSE, \
+   "Oracle"
+
+"Sudan (EPSG ID 6296)", \
+   "Sudan", \
+   FALSE, \
+   "Oracle"
+
+"SWEREF99 (EPSG ID 6619)", \
+   "SWEREF99", \
+   FALSE, \
+   "Oracle"
+
+"Swiss Terrestrial Reference Frame 1995", \
+   "Swiss_TRF_1995", \
+   FALSE, \
+   "EPSG"
+
+"Swiss_Terrestrial_Reference_Frame_1995", \
+   "Swiss_TRF_1995", \
+   FALSE, \
+   "PostGIS"
+
+"Swiss_Terrestrial_Reference_Frame_1995", \
+   "Swiss_TRF_1995", \
+   FALSE, \
+   "SpatiaLite"
+
+"Swiss Terrestrial Reference Frame 1995", \
+   "Swiss_TRF_1995", \
+   FALSE, \
+   "SQLserver"
+
+"Swiss_Terrestrial_Reference_Frame_1995", \
+   "Swiss_TRF_1995", \
+   FALSE, \
+   "Teradata"
+
+"Swiss Terrestrial Reference Frame 1995 (EPSG ID 6151)", \
+   "Swiss_TRF_1995", \
+   FALSE, \
+   "Oracle"
+
+"System Jednotne Trigonometricke Site Katastralni", \
+   "S_JTSK", \
+   FALSE, \
+   "EPSG"
+
+"System Jednotne Trigonometricke Site Katastralni/05", \
+   "S_JTSK_05", \
+   FALSE, \
+   "EPSG"
+
+"System Jednotne Trigonometricke Site Katastralni/05 (Ferro)", \
+   "S_JTSK_05_Ferro", \
+   FALSE, \
+   "EPSG"
+
+"Tahaa 54", \
+   "Tahaa_1954", \
+   FALSE, \
+   "EPSG"
+
+"Tahaa_54", \
+   "Tahaa_1954", \
+   FALSE, \
+   "PostGIS"
+
+"Tahaa_54", \
+   "Tahaa_1954", \
+   FALSE, \
+   "SpatiaLite"
+
+"Tahaa 54", \
+   "Tahaa_1954", \
+   FALSE, \
+   "SQLserver"
+
+"Tahaa_54", \
+   "Tahaa_1954", \
+   FALSE, \
+   "Teradata"
+
+"Tahaa (EPSG ID 6629)", \
+   "Tahaa_1954", \
+   FALSE, \
+   "Oracle"
+
+"Tahiti 52", \
+   "Tahiti_1952", \
+   FALSE, \
+   "EPSG"
+
+"Tahiti_52", \
+   "Tahiti_1952", \
+   FALSE, \
+   "PostGIS"
+
+"Tahiti_52", \
+   "Tahiti_1952", \
+   FALSE, \
+   "SpatiaLite"
+
+"Tahiti 52", \
+   "Tahiti_1952", \
+   FALSE, \
+   "SQLserver"
+
+"Tahiti_52", \
+   "Tahiti_1952", \
+   FALSE, \
+   "Teradata"
+
+"Tahiti 79", \
+   "Tahiti_1979", \
+   FALSE, \
+   "EPSG"
+
+"Tahiti_79", \
+   "Tahiti_1979", \
+   FALSE, \
+   "PostGIS"
+
+"Tahiti_79", \
+   "Tahiti_1979", \
+   FALSE, \
+   "SpatiaLite"
+
+"Tahiti 79", \
+   "Tahiti_1979", \
+   FALSE, \
+   "SQLserver"
+
+"Tahiti_79", \
+   "Tahiti_1979", \
+   FALSE, \
+   "Teradata"
+
+"Tahiti (EPSG ID 6628)", \
+   "Tahiti_1952", \
+   FALSE, \
+   "Oracle"
+
+"Taiwan Datum 1967", \
+   "TWD_1967", \
+   FALSE, \
+   "EPSG"
+
+"Taiwan_Datum_1967", \
+   "TWD_1967", \
+   FALSE, \
+   "PostGIS"
+
+"Taiwan_Datum_1967", \
+   "TWD_1967", \
+   FALSE, \
+   "SpatiaLite"
+
+"Taiwan Datum 1967 (EPSG ID 1025)", \
+   "TWD_1967", \
+   FALSE, \
+   "Oracle"
+
+"Taiwan Datum 1997", \
+   "TWD_1997", \
+   FALSE, \
+   "EPSG"
+
+"Taiwan_Datum_1997", \
+   "TWD_1997", \
+   FALSE, \
+   "PostGIS"
+
+"Taiwan_Datum_1997", \
+   "TWD_1997", \
+   FALSE, \
+   "SpatiaLite"
+
+"Taiwan Datum 1997 (EPSG ID 1026)", \
+   "TWD_1997", \
+   FALSE, \
+   "Oracle"
+
+"Tananarive 1925 (EPSG ID 6297)", \
+   "Tananarive_1925", \
+   FALSE, \
+   "Oracle"
+
+"Tananarive_1925_Paris", \
+   "Tananarive_1925", \
+   FALSE, \
+   "PostGIS"
+
+"Tananarive_1925_Paris", \
+   "Tananarive_1925", \
+   FALSE, \
+   "SpatiaLite"
+
+"Tananarive 1925 (Paris)", \
+   "Tananarive_1925", \
+   FALSE, \
+   "SQLserver"
+
+"Tananarive_1925_Paris", \
+   "Tananarive_1925", \
+   FALSE, \
+   "Teradata"
+
+"Tananarive 1925 (Paris) (EPSG ID 6810)", \
+   "Tananarive_1925", \
+   FALSE, \
+   "Oracle"
+
+"Tete (EPSG ID 6127)", \
+   "Tete", \
+   FALSE, \
+   "Oracle"
+
+"Timbalai 1948 (EPSG ID 6298)", \
+   "Timbalai_1948", \
+   FALSE, \
+   "Oracle"
+
+"TM65", \
+   "TM75", \
+   FALSE, \
+   "Oracle"
+
+"TM65 (EPSG ID 6299)", \
+   "TM65", \
+   FALSE, \
+   "Oracle"
+
+"Tokyo (EPSG ID 6301)", \
+   "Tokyo", \
+   FALSE, \
+   "Oracle"
+
+"Trinidad 1903 (EPSG ID 6302)", \
+   "Trinidad_1903", \
+   FALSE, \
+   "Oracle"
+
+"Tristan Astro 1968", \
+   "Tristan_1968", \
+   FALSE, \
+   "Oracle"
+
+"Trucial Coast 1948 (EPSG ID 6303)", \
+   "Trucial_Coast_1948", \
+   FALSE, \
+   "Oracle"
+
+"Voirol 1875 (EPSG ID 6304)", \
+   "Voirol_1875", \
+   FALSE, \
+   "Oracle"
+
+"Voirol_1875_Paris", \
+   "Voirol_1875", \
+   FALSE, \
+   "PostGIS"
+
+"Voirol_1875_Paris", \
+   "Voirol_1875", \
+   FALSE, \
+   "SpatiaLite"
+
+"Voirol 1875 (Paris)", \
+   "Voirol_1875", \
+   FALSE, \
+   "SQLserver"
+
+"Voirol_1875_Paris", \
+   "Voirol_1875", \
+   FALSE, \
+   "Teradata"
+
+"Voirol 1875 (Paris) (EPSG ID 6811)", \
+   "Voirol_1875", \
+   FALSE, \
+   "Oracle"
+
+"Voirol 1879 (EPSG ID 6671)", \
+   "Voirol_1879", \
+   FALSE, \
+   "Oracle"
+
+"Voirol_1879_Paris", \
+   "Voirol_1879", \
+   FALSE, \
+   "PostGIS"
+
+"Voirol_1879_Paris", \
+   "Voirol_1879", \
+   FALSE, \
+   "SpatiaLite"
+
+"Voirol 1879 (Paris)", \
+   "Voirol_1879", \
+   FALSE, \
+   "SQLserver"
+
+"Voirol_1879_Paris", \
+   "Voirol_1879", \
+   FALSE, \
+   "Teradata"
+
+"Voirol 1879 (Paris) (EPSG ID 6821)", \
+   "Voirol_1879", \
+   FALSE, \
+   "Oracle"
+
+"WGS_1972_Transit_Broadcast_Ephemeris", \
+   "WGS_1972_BE", \
+   FALSE, \
+   "PostGIS"
+
+"WGS_1972_Transit_Broadcast_Ephemeris", \
+   "WGS_1972_BE", \
+   FALSE, \
+   "SpatiaLite"
+
+"WGS_1972_Transit_Broadcast_Ephemeris", \
+   "WGS_1972_BE", \
+   FALSE, \
+   "Teradata"
+
+"WGS 66", \
+   "WGS_1966", \
+   FALSE, \
+   "Oracle"
+
+"WGS 72", \
+   "WGS_1972", \
+   FALSE, \
+   "Oracle"
+
+"WGS 72 Transit Broadcast Ephemeris", \
+   "WGS_1972_BE", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72 Transit Broadcast Ephemeris", \
+   "WGS_1972_BE", \
+   FALSE, \
+   "SQLserver"
+
+"WGS 72 Transit Broadcast Ephemeris (EPSG ID 6324)", \
+   "WGS_1972_BE", \
+   FALSE, \
+   "Oracle"
+
+"WGS 84", \
+   "WGS_1984", \
+   FALSE, \
+   "Oracle"
+
+"World Geodetic System 1966", \
+   "WGS_1966", \
+   FALSE, \
+   "EPSG"
+
+"World_Geodetic_System_1966", \
+   "WGS_1966", \
+   FALSE, \
+   "PostGIS"
+
+"World_Geodetic_System_1966", \
+   "WGS_1966", \
+   FALSE, \
+   "SpatiaLite"
+
+"World Geodetic System 1972", \
+   "WGS_1972", \
+   FALSE, \
+   "EPSG"
+
+"World Geodetic System 1972", \
+   "WGS_1972", \
+   FALSE, \
+   "SQLserver"
+
+"World Geodetic System 1972 (EPSG ID 6322)", \
+   "WGS_1972", \
+   FALSE, \
+   "Oracle"
+
+"World Geodetic System 1984", \
+   "WGS_1984", \
+   FALSE, \
+   "EPSG"
+
+"World Geodetic System 1984", \
+   "WGS_1984", \
+   FALSE, \
+   "SQLserver"
+
+"World Geodetic System 1984 (EPSG ID 6326)", \
+   "WGS_1984", \
+   FALSE, \
+   "Oracle"
+
+"Xian 1980 (EPSG ID 6610)", \
+   "Xian_1980", \
+   FALSE, \
+   "Oracle"
+
+"Yacare (EPSG ID 6309)", \
+   "Yacare", \
+   FALSE, \
+   "Oracle"
+
+"Yemen National Geodetic Network 1996", \
+   "Yemen_NGN_1996", \
+   FALSE, \
+   "EPSG"
+
+"Yemen_National_Geodetic_Network_1996", \
+   "Yemen_NGN_1996", \
+   FALSE, \
+   "PostGIS"
+
+"Yemen_National_Geodetic_Network_1996", \
+   "Yemen_NGN_1996", \
+   FALSE, \
+   "SpatiaLite"
+
+"Yemen National Geodetic Network 1996", \
+   "Yemen_NGN_1996", \
+   FALSE, \
+   "SQLserver"
+
+"Yemen_National_Geodetic_Network_1996", \
+   "Yemen_NGN_1996", \
+   FALSE, \
+   "Teradata"
+
+"Yemen National Geodetic Network 1996 (EPSG ID 6163)", \
+   "Yemen_NGN_1996", \
+   FALSE, \
+   "Oracle"
+
+"Yoff (EPSG ID 6310)", \
+   "Yoff", \
+   FALSE, \
+   "Oracle"
+
+"Zanderij (EPSG ID 6311)", \
+   "Zanderij", \
+   FALSE, \
+   "Oracle"
+

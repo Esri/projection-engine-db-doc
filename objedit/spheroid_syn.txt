@@ -1,0 +1,796 @@
+#------------------------------------------------------------------------------------------------------
+# SPHEROID synonym table
+#
+# syntax: [SPHEROID,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
+#------------------------------------------------------------------------------------------------------
+
+"Airy 1830 (EPSG ID 7001)", \
+   "Airy_1830", \
+   FALSE, \
+   "Oracle"
+
+"Airy 1830(Ireland 1965)", \
+   "Airy_Modified", \
+   FALSE, \
+   "Oracle"
+
+"Airy Modified 1849", \
+   "Airy_Modified", \
+   FALSE, \
+   "EPSG"
+
+"Airy Modified 1849", \
+   "Airy_Modified", \
+   FALSE, \
+   "PostGIS"
+
+"Airy Modified 1849", \
+   "Airy_Modified", \
+   FALSE, \
+   "SpatiaLite"
+
+"Airy Modified 1849", \
+   "Airy_Modified", \
+   FALSE, \
+   "SQLserver"
+
+"Airy Modified 1849", \
+   "Airy_Modified", \
+   FALSE, \
+   "Teradata"
+
+"Airy Modified 1849 (EPSG ID 7002)", \
+   "Airy_Modified", \
+   FALSE, \
+   "Oracle"
+
+"Australian National Spheroid", \
+   "Australian", \
+   FALSE, \
+   "EPSG"
+
+"Australian National Spheroid", \
+   "Australian", \
+   FALSE, \
+   "PostGIS"
+
+"Australian National Spheroid", \
+   "Australian", \
+   FALSE, \
+   "SpatiaLite"
+
+"Australian National Spheroid", \
+   "Australian", \
+   FALSE, \
+   "SQLserver"
+
+"Australian National Spheroid", \
+   "Australian", \
+   FALSE, \
+   "Teradata"
+
+"Australian National Spheroid (EPSG ID 7003)", \
+   "Australian", \
+   FALSE, \
+   "Oracle"
+
+"Average Terrestrial System 1977", \
+   "ATS_1977", \
+   FALSE, \
+   "EPSG"
+
+"Average Terrestrial System 1977", \
+   "ATS_1977", \
+   FALSE, \
+   "PostGIS"
+
+"Average Terrestrial System 1977", \
+   "ATS_1977", \
+   FALSE, \
+   "SpatiaLite"
+
+"Average Terrestrial System 1977", \
+   "ATS_1977", \
+   FALSE, \
+   "SQLserver"
+
+"Average Terrestrial System 1977", \
+   "ATS_1977", \
+   FALSE, \
+   "Teradata"
+
+"Average Terrestrial System 1977 (EPSG ID 7041)", \
+   "ATS_1977", \
+   FALSE, \
+   "Oracle"
+
+"Bessel 1841 (EPSG ID 7004)", \
+   "Bessel_1841", \
+   FALSE, \
+   "Oracle"
+
+"Bessel 1841 (Schwarzeck)", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "Oracle"
+
+"Bessel Modified (EPSG ID 7005)", \
+   "Bessel_Modified", \
+   FALSE, \
+   "Oracle"
+
+"Bessel Namibia (GLM)", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "PostGIS"
+
+"Bessel Namibia (GLM)", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "SpatiaLite"
+
+"Bessel Namibia (GLM)", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "SQLserver"
+
+"Bessel Namibia (GLM)", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "Teradata"
+
+"Bessel Namibia (GLM) (EPSG ID 7046)", \
+   "Bessel_Namibia", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1858 (EPSG ID 7007)", \
+   "Clarke_1858", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1866 Authalic Sphere", \
+   "Sphere_Clarke_1866_Authalic", \
+   FALSE, \
+   "EPSG"
+
+"Clarke 1866 Authalic Sphere", \
+   "Sphere_Clarke_1866_Authalic", \
+   FALSE, \
+   "PostGIS"
+
+"Clarke 1866 Authalic Sphere", \
+   "Sphere_Clarke_1866_Authalic", \
+   FALSE, \
+   "SpatiaLite"
+
+"Clarke 1866 Authalic Sphere", \
+   "Sphere_Clarke_1866_Authalic", \
+   FALSE, \
+   "Teradata"
+
+"Clarke 1866 (EPSG ID 7008)", \
+   "Clarke_1866", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1866 Michigan (EPSG ID 7009)", \
+   "Clarke_1866_Michigan", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1880 (Arc 1950)", \
+   "Clarke_1880_Arc", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1880 (Arc) (EPSG ID 7013)", \
+   "Clarke_1880_Arc", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1880 (Benoit) (EPSG ID 7010)", \
+   "Clarke_1880_Benoit", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1880 (EPSG ID 7034)", \
+   "Clarke_1880", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1880 (IGN) (EPSG ID 7011)", \
+   "Clarke_1880_IGN", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1880 (international foot)", \
+   "Clarke_1880_Intl_Ft", \
+   FALSE, \
+   "EPSG"
+
+"Clarke 1880 (international foot)", \
+   "Clarke_1880_Intl_Ft", \
+   FALSE, \
+   "PostGIS"
+
+"Clarke 1880 (international foot)", \
+   "Clarke_1880_Intl_Ft", \
+   FALSE, \
+   "SpatiaLite"
+
+"Clarke 1880 (international foot)", \
+   "Clarke_1880_Intl_Ft", \
+   FALSE, \
+   "SQLserver"
+
+"Clarke 1880 (international foot)", \
+   "Clarke_1880_Intl_Ft", \
+   FALSE, \
+   "Teradata"
+
+"Clarke 1880 (Merchich)", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1880 (RGS) (EPSG ID 7012)", \
+   "Clarke_1880_RGS", \
+   FALSE, \
+   "Oracle"
+
+"Clarke 1880 (SGA 1922)", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "EPSG"
+
+"Clarke 1880 (SGA 1922)", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "PostGIS"
+
+"Clarke 1880 (SGA 1922)", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "SpatiaLite"
+
+"Clarke 1880 (SGA 1922)", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "Teradata"
+
+"Clarke 1880 (SGA 1922) (EPSG ID 7014)", \
+   "Clarke_1880_SGA", \
+   FALSE, \
+   "Oracle"
+
+"Danish 1876 (EPSG ID 7051)", \
+   "Danish_1876", \
+   FALSE, \
+   "Oracle"
+
+"Everest", \
+   "Everest_Adjustment_1937", \
+   FALSE, \
+   "Oracle"
+
+"Everest 1830 (1937 Adjustment)", \
+   "Everest_Adjustment_1937", \
+   FALSE, \
+   "EPSG"
+
+"Everest 1830 (1937 Adjustment)", \
+   "Everest_Adjustment_1937", \
+   FALSE, \
+   "PostGIS"
+
+"Everest 1830 (1937 Adjustment)", \
+   "Everest_Adjustment_1937", \
+   FALSE, \
+   "SpatiaLite"
+
+"Everest 1830 (1937 Adjustment)", \
+   "Everest_Adjustment_1937", \
+   FALSE, \
+   "SQLserver"
+
+"Everest 1830 (1937 Adjustment)", \
+   "Everest_Adjustment_1937", \
+   FALSE, \
+   "Teradata"
+
+"Everest 1830 (1937 Adjustment) (EPSG ID 7015)", \
+   "Everest_Adjustment_1937", \
+   FALSE, \
+   "Oracle"
+
+"Everest 1830 (1962 Definition)", \
+   "Everest_Definition_1962", \
+   FALSE, \
+   "EPSG"
+
+"Everest 1830 (1962 Definition)", \
+   "Everest_Definition_1962", \
+   FALSE, \
+   "PostGIS"
+
+"Everest 1830 (1962 Definition)", \
+   "Everest_Definition_1962", \
+   FALSE, \
+   "SpatiaLite"
+
+"Everest 1830 (1962 Definition)", \
+   "Everest_Definition_1962", \
+   FALSE, \
+   "SQLserver"
+
+"Everest 1830 (1962 Definition)", \
+   "Everest_Definition_1962", \
+   FALSE, \
+   "Teradata"
+
+"Everest 1830 (1962 Definition) (EPSG ID 7044)", \
+   "Everest_Definition_1962", \
+   FALSE, \
+   "Oracle"
+
+"Everest 1830 (1967 Definition)", \
+   "Everest_Definition_1967", \
+   FALSE, \
+   "EPSG"
+
+"Everest 1830 (1967 Definition)", \
+   "Everest_Definition_1967", \
+   FALSE, \
+   "PostGIS"
+
+"Everest 1830 (1967 Definition)", \
+   "Everest_Definition_1967", \
+   FALSE, \
+   "SpatiaLite"
+
+"Everest 1830 (1967 Definition)", \
+   "Everest_Definition_1967", \
+   FALSE, \
+   "SQLserver"
+
+"Everest 1830 (1967 Definition)", \
+   "Everest_Definition_1967", \
+   FALSE, \
+   "Teradata"
+
+"Everest 1830 (1967 Definition) (EPSG ID 7016)", \
+   "Everest_Definition_1967", \
+   FALSE, \
+   "Oracle"
+
+"Everest 1830 (1975 Definition)", \
+   "Everest_Definition_1975", \
+   FALSE, \
+   "EPSG"
+
+"Everest 1830 (1975 Definition)", \
+   "Everest_Definition_1975", \
+   FALSE, \
+   "PostGIS"
+
+"Everest 1830 (1975 Definition)", \
+   "Everest_Definition_1975", \
+   FALSE, \
+   "SpatiaLite"
+
+"Everest 1830 (1975 Definition)", \
+   "Everest_Definition_1975", \
+   FALSE, \
+   "SQLserver"
+
+"Everest 1830 (1975 Definition)", \
+   "Everest_Definition_1975", \
+   FALSE, \
+   "Teradata"
+
+"Everest 1830 (1975 Definition) (EPSG ID 7045)", \
+   "Everest_Definition_1975", \
+   FALSE, \
+   "Oracle"
+
+"Everest (1830 Definition)", \
+   "Everest_1830", \
+   FALSE, \
+   "EPSG"
+
+"Everest (1830 Definition)", \
+   "Everest_1830", \
+   FALSE, \
+   "PostGIS"
+
+"Everest (1830 Definition)", \
+   "Everest_1830", \
+   FALSE, \
+   "SpatiaLite"
+
+"Everest (1830 Definition)", \
+   "Everest_1830", \
+   FALSE, \
+   "SQLserver"
+
+"Everest (1830 Definition)", \
+   "Everest_1830", \
+   FALSE, \
+   "Teradata"
+
+"Everest (1830 Definition) (EPSG ID 7042)", \
+   "Everest_1830", \
+   FALSE, \
+   "Oracle"
+
+"Everest 1830 Modified (EPSG ID 7018)", \
+   "Everest_1830_Modified", \
+   FALSE, \
+   "Oracle"
+
+"Everest 1830 (RSO 1969)", \
+   "Everest_Modified_1969", \
+   FALSE, \
+   "EPSG"
+
+"Everest 1830 (RSO 1969)", \
+   "Everest_Modified_1969", \
+   FALSE, \
+   "PostGIS"
+
+"Everest 1830 (RSO 1969)", \
+   "Everest_Modified_1969", \
+   FALSE, \
+   "SpatiaLite"
+
+"Everest 1830 (RSO 1969)", \
+   "Everest_Modified_1969", \
+   FALSE, \
+   "SQLserver"
+
+"Everest 1830 (RSO 1969)", \
+   "Everest_Modified_1969", \
+   FALSE, \
+   "Teradata"
+
+"Everest (Kertau)", \
+   "Everest_1830_Modified", \
+   FALSE, \
+   "Oracle"
+
+"Fischer 1960 (South Asia)", \
+   "Fischer_1960", \
+   FALSE, \
+   "Oracle"
+
+"GEM 10C (EPSG ID 7031)", \
+   "GEM_10C", \
+   FALSE, \
+   "Oracle"
+
+"GRS 1967 (EPSG ID 7036)", \
+   "GRS_1967", \
+   FALSE, \
+   "Oracle"
+
+"GRS 1967 Modified", \
+   "GRS_1967_Truncated", \
+   FALSE, \
+   "EPSG"
+
+"GRS 1967 Modified", \
+   "GRS_1967_Truncated", \
+   FALSE, \
+   "PostGIS"
+
+"GRS 1967 Modified", \
+   "GRS_1967_Truncated", \
+   FALSE, \
+   "SpatiaLite"
+
+"GRS 1967 (SAD69)", \
+   "GRS_1967_Truncated", \
+   FALSE, \
+   "SQLserver"
+
+"GRS 1967 (SAD69)", \
+   "GRS_1967_Truncated", \
+   FALSE, \
+   "Teradata"
+
+"GRS 1967 (SAD69) (EPSG ID 7050)", \
+   "GRS_1967_Truncated", \
+   FALSE, \
+   "Oracle"
+
+"GRS 1980 Authalic Sphere", \
+   "Sphere_GRS_1980_Authalic", \
+   FALSE, \
+   "EPSG"
+
+"GRS 1980 Authalic Sphere", \
+   "Sphere_GRS_1980_Authalic", \
+   FALSE, \
+   "PostGIS"
+
+"GRS 1980 Authalic Sphere", \
+   "Sphere_GRS_1980_Authalic", \
+   FALSE, \
+   "SpatiaLite"
+
+"GRS 1980 Authalic Sphere", \
+   "Sphere_GRS_1980_Authalic", \
+   FALSE, \
+   "Teradata"
+
+"GRS 1980 Authalic Sphere (EPSG ID 7047)", \
+   "Sphere_GRS_1980_Authalic", \
+   FALSE, \
+   "Oracle"
+
+"GRS 1980 (EPSG ID 7019)", \
+   "GRS_1980", \
+   FALSE, \
+   "Oracle"
+
+"GRS 80", \
+   "GRS_1980", \
+   FALSE, \
+   "Oracle"
+
+"GRS 80 (EPSG ID 8024)", \
+   "GRS_1980", \
+   FALSE, \
+   "Oracle"
+
+"Helmert 1906 (EPSG ID 7020)", \
+   "Helmert_1906", \
+   FALSE, \
+   "Oracle"
+
+"Hough", \
+   "Hough_1960", \
+   FALSE, \
+   "Oracle"
+
+"IAG 1975", \
+   "Xian_1980", \
+   FALSE, \
+   "EPSG"
+
+"Indonesian National Spheroid", \
+   "Indonesian", \
+   FALSE, \
+   "EPSG"
+
+"Indonesian National Spheroid", \
+   "Indonesian", \
+   FALSE, \
+   "PostGIS"
+
+"Indonesian National Spheroid", \
+   "Indonesian", \
+   FALSE, \
+   "SpatiaLite"
+
+"Indonesian National Spheroid", \
+   "Indonesian", \
+   FALSE, \
+   "SQLserver"
+
+"Indonesian National Spheroid", \
+   "Indonesian", \
+   FALSE, \
+   "Teradata"
+
+"Indonesian National Spheroid (EPSG ID 7021)", \
+   "Indonesian", \
+   FALSE, \
+   "Oracle"
+
+"International 1924 Authalic Sphere", \
+   "Sphere_International_1924_Authalic", \
+   FALSE, \
+   "EPSG"
+
+"International 1924 Authalic Sphere", \
+   "Sphere_International_1924_Authalic", \
+   FALSE, \
+   "PostGIS"
+
+"International 1924 Authalic Sphere", \
+   "Sphere_International_1924_Authalic", \
+   FALSE, \
+   "SpatiaLite"
+
+"International 1924 (EPSG ID 7022)", \
+   "International_1924", \
+   FALSE, \
+   "Oracle"
+
+"Krassovsky", \
+   "Krasovsky_1940", \
+   FALSE, \
+   "Oracle"
+
+"Krassowsky 1940", \
+   "Krasovsky_1940", \
+   FALSE, \
+   "EPSG"
+
+"Krassowsky 1940 (EPSG ID 7024)", \
+   "Krasovsky_1940", \
+   FALSE, \
+   "Oracle"
+
+"NWL 9D (EPSG ID 7025)", \
+   "NWL_9D", \
+   FALSE, \
+   "Oracle"
+
+"OSU86F (EPSG ID 7032)", \
+   "OSU_86F", \
+   FALSE, \
+   "Oracle"
+
+"OSU91A (EPSG ID 7033)", \
+   "OSU_91A", \
+   FALSE, \
+   "Oracle"
+
+"Plessis 1817 (EPSG ID 7027)", \
+   "Plessis_1817", \
+   FALSE, \
+   "Oracle"
+
+"Popular Visualisation Sphere", \
+   "WGS_1984_Major_Auxiliary_Sphere", \
+   FALSE, \
+   "PostGIS"
+
+"Popular Visualisation Sphere", \
+   "WGS_1984_Major_Auxiliary_Sphere", \
+   FALSE, \
+   "SpatiaLite"
+
+"Popular Visualisation Sphere (EPSG ID 7059)", \
+   "WGS_1984_Major_Auxiliary_Sphere", \
+   FALSE, \
+   "Oracle"
+
+"PZ-90", \
+   "PZ_1990", \
+   FALSE, \
+   "EPSG"
+
+"PZ-90", \
+   "PZ_1990", \
+   FALSE, \
+   "PostGIS"
+
+"PZ-90", \
+   "PZ_1990", \
+   FALSE, \
+   "SpatiaLite"
+
+"PZ-90", \
+   "PZ_1990", \
+   FALSE, \
+   "SQLserver"
+
+"PZ-90", \
+   "PZ_1990", \
+   FALSE, \
+   "Teradata"
+
+"South American 1969", \
+   "GRS_1967_Truncated", \
+   FALSE, \
+   "Oracle"
+
+"Sphere (EPSG ID 53004)", \
+   "Sphere", \
+   FALSE, \
+   "Oracle"
+
+"Sphere (EPSG ID 7035)", \
+   "Sphere", \
+   FALSE, \
+   "Oracle"
+
+"Struve 1860 (EPSG ID 7028)", \
+   "Struve_1860", \
+   FALSE, \
+   "Oracle"
+
+"War Office (EPSG ID 7029)", \
+   "War_Office", \
+   FALSE, \
+   "Oracle"
+
+"WGS 60", \
+   "WGS_1966", \
+   FALSE, \
+   "Oracle"
+
+"WGS 66", \
+   "WGS_1966", \
+   FALSE, \
+   "Oracle"
+
+"WGS 72", \
+   "WGS_1972", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72", \
+   "WGS_1972", \
+   FALSE, \
+   "Oracle"
+
+"WGS 72", \
+   "WGS_1972", \
+   FALSE, \
+   "PostGIS"
+
+"WGS 72", \
+   "WGS_1972", \
+   FALSE, \
+   "SpatiaLite"
+
+"WGS 72", \
+   "WGS_1972", \
+   FALSE, \
+   "SQLserver"
+
+"WGS 72", \
+   "WGS_1972", \
+   FALSE, \
+   "Teradata"
+
+"WGS 72 (EPSG ID 7043)", \
+   "WGS_1972", \
+   FALSE, \
+   "Oracle"
+
+"WGS 84", \
+   "WGS_1984", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84", \
+   "WGS_1984", \
+   FALSE, \
+   "Oracle"
+
+"WGS 84", \
+   "WGS_1984", \
+   FALSE, \
+   "PostGIS"
+
+"WGS 84", \
+   "WGS_1984", \
+   FALSE, \
+   "SpatiaLite"
+
+"WGS 84", \
+   "WGS_1984", \
+   FALSE, \
+   "SQLserver"
+
+"WGS 84", \
+   "WGS_1984", \
+   FALSE, \
+   "Teradata"
+
+"WGS 84 (EPSG ID 7030)", \
+   "WGS_1984", \
+   FALSE, \
+   "Oracle"
+
+"Xian 1980 (EPSG ID 7049)", \
+   "Xian_1980", \
+   FALSE, \
+   "Oracle"
+

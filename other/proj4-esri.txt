@@ -1,0 +1,633 @@
+# ------------------------------------------------------------------------- #
+#  Copyright 1999-2018 Esri Inc.                                            #
+#                                                                           #
+#  Licensed under the Apache License, Version 2.0 (the "License");          #
+#  you may not use this file except in compliance with the License.         #
+#  You may obtain a copy of the License at                                  #
+#                                                                           #
+#      http://www.apache.org/licenses/LICENSE-2.0                           #
+#                                                                           #
+#  Unless required by applicable law or agreed to in writing, software      #
+#  distributed under the License is distributed on an "AS IS" BASIS,        #
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #
+#  See the License for the specific language governing permissions and      #
+#  limitations under the License.                                           #
+# ------------------------------------------------------------------------- #
+
+# ------------------------------------------------------------------------- #
+# Table of PROJ4 - ESRI projection mapping                                  #
+# ------------------------------------------------------------------------- #
+
+Names marked with a * are only in the libproject distribution
+Names marked with a @ are only in the PROJ4      distribution
+
+Parameter types:
+   A    Angular unit   values in DMS
+   L    Linear unit    values in meters
+   S    Scale factor   floating point number
+   I    Integer        integer number
+   B    Boolean        boolean (present)
+   O    Other          other
+
+abbrev        PROJ4 name/parameters                        ESRI name/parameters
+----------    ---------------------------------------      -----------------------------------
+adams_hemi   *Adams Hemisphere in a Square                 -
+adams_wsI    *Adams World in a Square I                    -
+adams_wsII   *Adams World in a Square II                   -
+
+aea           Albers Equal Area                            Albers
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_1                                     Standard_Parallel_1
+                A +lat_2                                     Standard_Parallel_2
+                A +lat_0                                     Latitude_Of_Origin
+                A +lon_0                                     Central_Meridian
+
+aeqd          Azimuthal Equidistant                        Azimuthal_Equidistant
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_0                                     Latitude_Of_Origin
+                A +lon_0                                     Central_Meridian
+                B +guam                                      ?
+
+airy          Airy                                         -
+
+aitoff        Aitoff                                       Aitoff
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +lat_1
+
+alsk          Mod. Stererographics of Alaska               -
+apian         Apian Globular I                             -
+apian1       *Apian Globular I                             -
+apian2       *Apian Globular II                            -
+ardn_cls     *Arden-Close                                  -
+arma         *Armadillo                                    -
+august        August Epicycloidal                          -
+bacon         Bacon Globular                               -
+baker        *Baker Dinomic                                -
+baranyi4     *Baranyi IV                                   -
+barth        *Bartholomew                                  -
+bipc          Bipolar conic of western hemisphere          -
+boggs         Boggs Eumorphic                              -
+
+bonne         Bonne (Werner lat_1=90)                      Bonne
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_1                                     Standard_Parallel_1
+                A +lon_0                                     Central_Meridian
+
+braun2       *Braun's 2nd (Perspective)                    -
+brny_1       *Baranyi 1                                    -
+brny_2       *Baranyi 2                                    -
+brny_3       *Baranyi 3                                    -
+brny_4       *Baranyi 4                                    -
+brny_5       *Baranyi 5                                    -
+brny_6       *Baranyi 6                                    -
+brny_7       *Baranyi 7                                    -
+bromley      *Bromley                                      -
+calcofi      @Cal Coop Ocean Fish Invest Lines/Stations    -
+
+cass          Cassini                                      Cassini
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_0                                     Latitude_Of_Origin
+                A +lon_0                                     Central_Meridian
+                S +k_0                                       Scale_Factor
+
+cc            Central Cylindrical                          -
+
+cea           Equal Area Cylindrical                       Cylindrical_Equal_Area
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +lat_ts                                    Standard_Parallel_1
+
+chamb        @Chamberlin Trimetric                         -
+collg         Collignon                                    -
+
+comill       @Compact Miller                               Compact_Miller
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+crast         Craster Parabolic (Putnins P4)               Craster_Parabolic
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+cyl_stere    *Cylindrical Stereographic                    -
+denoy         Denoyer Semi-Elliptical                      -
+dummy        *Dummy projection                             -
+
+eck1          Eckert I                                     Eckert_I
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+eck2          Eckert II                                    Eckert_II
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+eck3          Eckert III                                   Eckert_III
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+eck4          Eckert IV                                    Eckert_IV
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+eck5          Eckert V                                     Eckert_V
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+eck6          Eckert VI                                    Eckert_VI
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+eck_greif    *Eckert-Greifendorff                          Eckert_Greifendorff
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +lat_0                                     Latitude_Of_Origin
+
+eq_moll      *Equidistant Mollweide                        -
+
+eqc           Equidistant Cylindrical (Plate-Caree)        Equidistant_Cylindrical
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +lat_ts                                    Standard_Parallel_1
+
+eqdc          Equidistant Conic                            Equidistant_Conic
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_1                                     Standard_Parallel_1
+                A +lat_2                                     Standard_Parallel_2
+                A +lat_0                                     Latitude_Of_Origin
+                A +lon_0                                     Central_Meridian
+
+erdi_krusz   *Erdi-Krausz                                  -
+etmerc        Extended Transverse Mercator                 -
+euler         Euler                                        -
+fahey         Fahey                                        -
+fc_ar        *Canters low_error, correct axis ratio        -
+fc_gen       *General optimization                         -
+fc_pe        *Canters low_error, 1/2 pole length           -
+fc_pp        *Canters low_error, pointed pole              -
+fouc          Foucaut                                      -
+fouc_s        Foucat Sinusoidal                            -
+four1        *Fournier Globular I                          -
+four2        *Fournier II                                  -
+ftmerc       *French Transverse Mercator                   -
+
+gall         @Gall (Gall Stereographic)                    Gall_Stereographic
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+geocent       Geocentric                                   -
+
+gbtmerc      *Gauss-Boaga Transverse Mercator              -
+gen_ts       *General Sine-Tangent                         -
+geos          Geostationary Satellite View                 Geostationary_Satellite
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                L +h                                         Height
+                A +lon_0                                     Longitude_Of_Center
+                O +sweep                                     Option (0=y or 1=x)
+
+gilbert      *Gilbert Two World Perspective                -
+gins8        *Ginsburg VIII (TsNIIGAiK)                    -
+gn_sinu      *General Sinusoidal Series                    -
+
+gnom          Gnomonic                                     Gnomonic_Ellipsoidal
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_0                                     Latitude_Of_Center
+                A +lon_0                                     Longitude_Of_Center
+
+goode         Goode Homolosine                             Goode_Homolosine
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                O ---                                        Option (0)
+
+gs48          Mod. Stererographics of 48 U.S.              -
+gs50          Mod. Stererographics of 50 U.S.              -
+gstmer c      Gauss-Schreiber Transverse Mercator          -
+guyou        *Guyou                                        -
+
+hammer        Hammer                                       Hammer_Ellipsoidal
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +lat_0                                     Latitude_Of_Origin
+                B +M                                         ?
+                B +W                                         ?
+
+hatano        Hatano Asymmetrical Equal Area               -
+healpix      @HEALPix                                      -
+hill         *Hill Eucyclic                                -
+holzel       *Holzel                                       -
+
+igh          @Interrupted Goode Homolosine                 Goode_Homolosine
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                O ---                                        Option (1=land or 2=ocean)
+
+imw_p         International Map of the World Polyconic     -
+isea         @Icosahedral Snyder Equal Area                -
+kav5          Kavraisky V                                  -
+kav7          Kavraisky VII                                -
+kh_sh        *Kharchenko-Shabanaova                        -
+kocc         *Krovak Oblique Conformal Conic               -
+
+krovak       @Krovak Oblique Conic Conformal               Krovak
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_0                                     Latitude_Of_Center
+                A +lon_0                                     Longitude_Of_Center
+                A +k_0                                       Scale_Factor
+                A ---                                        Pseudo_Standard_Parallel_1 (78.5)
+                A ---                                        Azimuth (30.28813972222222)
+                S ---                                        X_Scale
+                S ---                                        Y_Scale
+                A ---                                        XY_Plane_Rotation
+                B +czech
+
+ktmerc       *Kruger Transverse Mercator                   -
+
+labrd         Laborde                                      Laborde_Oblique_Mercator
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +k_0                                       Scale_Factor
+                A +lon_0                                     Longitude_Of_Center
+                A +lat_0                                     Latitude_Of_Center
+                A +azi                                       Azimuth
+
+laea          Lambert Azimuthal Equal Area                 Lambert_Azimuthal_Equal_Area
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_0                                     Latitude_Of_Origin
+                A +lon_0                                     Central_Meridian
+
+lagrng        Lagrange                                     -
+larr          Larrivee                                     -
+lask          Laskowski                                    -
+
+lonlat        Lat/long (Geodetic)                          GEOGCS
+latlon        Lat/long (Geodetic alias)                    GEOGCS
+longlat       Lat/long (Geodetic alias)                    GEOGCS
+latlong       Lat/long (Geodetic alias)                    GEOGCS
+
+lcc           Lambert Conic Conformal (1SP)                Lambert_Conformal_Conic
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_1                                     Standard_Parallel_1
+                A +lon_0                                     Central_Meridian
+                S +k_0                                       Scale_Factor
+                A ---                                        Latitude_Of_Origin
+                A ---                                        Standard_Parallel_2
+
+lcc           Lambert Conic Conformal (2SP)                Lambert_Conformal_Conic
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_1                                     Standard_Parallel_1
+                A +lat_2                                     Standard_Parallel_2
+                A +lat_0                                     Latitude_Of_Origin
+                A +lon_0                                     Central_Meridian
+                S ---                                        Scale_Factor
+
+lcca          Lambert Conic Conformal Alternative          -
+leac         *Lambert Equal Area Conic                     -
+lee_os        Lee Oblated Stereographic                    -
+
+loxim         Loximuthal                                   Loximuthal
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +lat_1                                     Central_Parallel
+
+lsat          Space oblique for LANDSAT                    -
+maurer       *Maurer                                       -
+mayr         *Mayr (Tobler Meridian  Geometric Mean)       -
+mb_P3        *McBryde P3                                   -
+mb_Q3        *McBryde Q3                                   -
+mb_S2        *McBryde S2                                   -
+mb_S3        *McBryde S3                                   -
+mbt_fps       McBryde-Thomas Flat-Polar Sine (No. 2)       -
+mbt_s         McBryde-Thomas Sine (No. 1)                  -
+mbtfpp        McBryde-Thomas Flat-Polar Parabolic          -
+
+mbtfpq        McBryde-Thomas Flat-Polar Quartic            Flat_Polar_Quartic
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+mbtfps        McBryde-Thomas Flat-Polar Sinusoidal         -
+
+merc          Mercator (1SP)                               Mercator_Variant_A
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +k_0                                       Scale_Factor
+
+merc          Mercator (1SP)                               Mercator
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +lat_ts                                    Standard_Parallel_1
+
+merc          Mercator (2SP)                               Mercator_Variant_C
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +lat_ts                                    Standard_Parallel_1
+                A ---                                        Latitude_Of_Origin (0)
+
+mil_os        Miller Oblated Stereographic                 -
+
+mill          Miller Cylindrical                           Miller_Cylindrical
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+mill_2       *Miller's 2 or Mod. Mercator                  -
+mill_per     *Miller's Perspective Compromise              -
+
+moll          Mollweide                                    Mollweide
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+murd1         Murdoch I                                    -
+murd2         Murdoch II                                   -
+murd3         Murdoch III                                  -
+
+natearth     @Natural Earth                                Natural_Earth
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+natearth2    @Natural Earth 2                              Natural_Earth_II
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+near_con     *Semiconformal Pseudocylindrical              -
+nell          Nell                                         -
+nell_h        Nell-Hammer                                  -
+nicol         Nicolosi Globular                            -
+no_name      *No_name                                      -
+
+nsper         Near-sided perspective                       Vertical_Near_Side_Perspective
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Longitude_Of_Center
+                A +lat_0                                     Latitude_Of_Center
+                L +h                                         Height
+
+nzmg          New Zealand Map Grid                         New_Zealand_Map_Grid
+                A ---                                        False_Easting       (2510000.0)
+                A ---                                        False_Northing      (6023150.0)
+                A ---                                        Latitude_Of_Origin  (    173.0)
+                A ---                                        Longitude_Of_Origin (    -41.0)
+
+ob_tran       General Oblique Transformation               -
+ocea          Oblique Cylindrical Equal Area               -
+oea           Oblated Equal Area                           -
+
+omerc         Oblique Mercator                             Hotine_Oblique_Mercator_Azimuth_Center
+                                                           Hotine_Oblique_Mercator_Azimuth_Natural_Origin
+                                                           Hotine_Oblique_Mercator_Two_Point_Center
+                                                           Hotine_Oblique_Mercator_Two_Point_Natural_Origin
+                                                           Rectified_Skew_Orthomorphic_Center
+                                                           Rectified_Skew_Orthomorphic_Natural_Origin
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_0                                     Latitude_Of_Center
+                A +lat_1                                     Latitude_Of_1st_Point
+                A +lat_2                                     Latitude_Of_2nd_Point
+                A +lonc                                      Longitude_Of_Center
+                A +lon_1                                     Longitude_Of_1st_Point
+                A +lon_2                                     Longitude_Of_2nd_Point
+                A +alpha                                     Azimuth
+                A +gamma                                     XY_Plane_Rotation
+                B +no_uoff
+                B +rot_conv
+
+ortel         Ortelius Oval                                -
+
+ortho         Orthographic                                 Orthographic
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_0                                     Latitude_Of_Center
+                A +lon_0                                     Longitude_Of_Center
+
+oxford       *Oxford Atlas                                 -
+
+patterson    *Patterson Cylindrical                        Patterson
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+pav_cyl      *Pavlov's                                     -
+pconic        Perspective Conic                            -
+peirce_q     *Pierce Quincuncial                           -
+
+poly          Polyconic (American)                         Polyconic
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_0                                     Latitude_Of_Origin
+                A +lon_0                                     Central_Meridian
+
+putp1         Putnins P1                                   -
+putp1p       *Putnins P1'                                  -
+putp2         Putnins P2                                   -
+putp3         Putnins P3                                   -
+putp3p       *Putnins P3'                                  -
+putp4        @Putnins P4                                   -
+putp4p       *Putnins P4'                                  -
+putp5         Putnins P5                                   -
+putp5p        Putnins P5'                                  -
+putp6         Putnins P6                                   -
+putp6p        Putnins P6'                                  -
+
+qsc          @Quadrilateralized Spherical Cube             Cube
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                O ---                                        Option (0)
+
+qua_aut       Quartic Authalic                             Quartic_Authalic
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+rhealpix     @rHEALPix                                     -
+
+robin        @Robinson                                     Robinson
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+rouss         Roussilhe Stereographic                      -
+rpoly         Rectangular Polyconic                        -
+s_min_err    *Snyder Minimum Error Pseudocylindrical       -
+siemon4      *Siemon IV                                    -
+
+sinu          Sinusoidal (Sanson-Flamsteed)                Sinusoidal
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                B +n                                         ?
+
+somerc        Swiss. Obl. Mercator                         Hotine_Oblique_Mercator_Azimuth_Center
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                S +k_0                                       Scale_Factor
+                A +lat_0                                     Latitude_Of_Center
+                A +lon_0                                     Longitude_Of_Center
+                A +alpha                                     Azimuth (90 if not specified)
+
+stere         Stereographic                                Stereographic
+                                                           Stereographic_North_Pole
+                                                           Stereographic_South_Pole
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                S +k_0                                       Scale_factor
+                A +lon_0                                     Central_Meridian
+                A +lat_0                                     Latitude_Of_Origin   (Stereographic)
+                A +lat_ts                                    Standard_Parallel_1  (Stereographic_NP|SP)
+
+sterea        Oblique Stereographic Alternative            Double_Stereographic
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_0                                     Latitude_Of_Origin
+                A +lon_0                                     Central_Meridian
+                S +k_0                                       Scale_Factor
+
+tcc           Transverse Central Cylindrical               -
+
+tcea          Transverse Cylindrical Equal Area            Transverse_Cylindrical_Equal_Area
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                S +k_0                                       Scale_Factor
+                A +lat_0                                     Latitude_Of_Origin
+
+times        *Times                                        Times
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+tissot        Tissot                                       -
+
+tmerc         Transverse Mercator                          Transverse_Mercator
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_0                                     Latitude_Of_Origin
+                A +lon_0                                     Central_Meridian
+                S +k_0                                       Scale_Factor
+
+tob_g1       *Tobler G1                                    -
+tob_sqr      *Tobler's World in a Square                   -
+tobler_1     *Tobler's alternate 1                         -
+tobler_2     *Tobler's alternate 2                         -
+
+tpeqd         Two Point Equidistant                        Two_Point_Equidistant
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_1                                     Latitude_Of_1st_Point
+                A +lat_2                                     Latitude_Of_2nd_Point
+                A +lon_1                                     Longitude_Of_1st_Point
+                A +lon_2                                     Longitude_Of_2nd_Point
+
+tpers         Tilted perspective                           -
+trapez       *Trapezoidal                                  -
+
+ups           Universal Polar Stereographic                Polar_Stereographic_Variant_A
+                L ---                                        False_Easting       (2000000.0)
+                L ---                                        False_Northing      (2000000.0)
+                A ---                                        Latitude_Of_Origin  (south ? -90 : +90)
+                A ---                                        Longitude_of_Origin (0.0)
+                S ---                                        Scale_Factor        (0.994)
+                B +south                                     * determines Latitude_Of_Origin
+
+urm5          Urmaev V                                     -
+urm_2        *Urmayev II                                   -
+urm_3        *Urmayev III                                  -
+urmfps        Urmaev Flat-Polar Sinusoidal                 -
+
+utm          @Universal Transverse Mercator                Transverse_Mercator_NGA_2014
+                L ---                                        False_Easting       (500000.0)
+                L ---                                        False_Northing      (south ? 100000000.0 : 0.0)
+                A ---                                        Latitude_Of_Origin  (0.0)
+                S ---                                        Scale_Factor        (0.9996)
+                A ---                                        Central_Meridian    (-180 + (zone-1)*6 + 3)
+                I +zone                                      * determines Central_Meridian
+                B +south                                     * determines False_Easting
+
+vandg         Van der Grinten (I)                          Van_der_Grinten_I
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+vandg2        Van der Grinten II                           -
+vandg3        Van der Grinten III                          -
+vandg4        Van der Grinten IV                           -
+vitk1         Vitkovsky I                                  -
+wag1          Wagner I (Kavraisky VI)                      -
+wag2          Wagner II                                    -
+wag3          Wagner III                                   -
+wag4          Wagner IV                                    -
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +lat_0                                     Latitude_Of_Origin
+
+wag5          Wagner V                                     -
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+
+wag6          Wagner VI                                    -
+
+wag7          Wagner VII                                   -
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A +lat_0                                     Latitude_Of_Origin
+
+wag8         *Wagner VIII                                  -
+wag9         *Wagner IX                                    -
+weren         Werenskiold I                                -
+weren2       *Werenskiold II                               -
+weren3       *Werenskiold III                              -
+
+wink1         Winkel I                                     Winkel I
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_ts                                    Standard_Parallel_1
+                A +lon_0                                     Central_Meridian
+
+wink2         Winkel II                                    Winkel II
+                L +x_0                                        False_Easting
+                L +y_0                                        False_Northing
+                A +lat_1                                      Standard_Parallel_1
+                A +lon_0                                      Central_Meridian
+
+wintri        Winkel Tripel                                Winkel_Tripel
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lat_1                                     Standard_Parallel_1
+                A +lon_0                                     Central_Meridian
+

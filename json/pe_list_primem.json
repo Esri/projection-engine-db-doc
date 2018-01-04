@@ -1,0 +1,169 @@
+{ "PrimeMeridians": [
+  { "wkid": 8901,
+    "latestWkid": 8901,
+    "macro": "PE_PM_GREENWICH",
+    "name": "Greenwich",
+    "wkt": "PRIMEM[\"Greenwich\",0.0]",
+    "description": "0~ 00' 00'' E",
+    "authority": "EPSG",
+    "version": "9.0(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8902,
+    "latestWkid": 8902,
+    "macro": "PE_PM_LISBON",
+    "name": "Lisbon",
+    "wkt": "PRIMEM[\"Lisbon\",-9.131906111111112]",
+    "description": "9~ 07' 54''.862 W",
+    "authority": "EPSG",
+    "version": "8.5(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8903,
+    "latestWkid": 8903,
+    "macro": "PE_PM_PARIS",
+    "name": "Paris",
+    "wkt": "PRIMEM[\"Paris\",2.337229166666667]",
+    "description": "2~ 20' 14''.025 E",
+    "authority": "EPSG",
+    "version": "6.16(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8904,
+    "latestWkid": 8904,
+    "macro": "PE_PM_BOGOTA",
+    "name": "Bogota",
+    "wkt": "PRIMEM[\"Bogota\",-74.08091666666667]",
+    "description": "74~ 04' 51''.3 W",
+    "authority": "EPSG",
+    "version": "8.5(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8905,
+    "latestWkid": 8905,
+    "macro": "PE_PM_MADRID",
+    "name": "Madrid",
+    "wkt": "PRIMEM[\"Madrid\",-3.687938888888889]",
+    "description": "3~ 41' 16''.58 W",
+    "authority": "EPSG",
+    "version": "8.5(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8906,
+    "latestWkid": 8906,
+    "macro": "PE_PM_ROME",
+    "name": "Rome",
+    "wkt": "PRIMEM[\"Rome\",12.45233333333333]",
+    "description": "12~ 27' 08''.4 E",
+    "authority": "EPSG",
+    "version": "2.1(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8907,
+    "latestWkid": 8907,
+    "macro": "PE_PM_BERN",
+    "name": "Bern",
+    "wkt": "PRIMEM[\"Bern\",7.439583333333333]",
+    "description": "7~ 26' 22''.5 E",
+    "authority": "EPSG",
+    "version": "6.16(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8908,
+    "latestWkid": 8908,
+    "macro": "PE_PM_JAKARTA",
+    "name": "Jakarta",
+    "wkt": "PRIMEM[\"Jakarta\",106.8077194444444]",
+    "description": "106~ 48' 27''.79 E",
+    "authority": "EPSG",
+    "version": "2.1(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8909,
+    "latestWkid": 8909,
+    "macro": "PE_PM_FERRO",
+    "name": "Ferro",
+    "wkt": "PRIMEM[\"Ferro\",-17.66666666666667]",
+    "description": "17~ 40' 00'' W",
+    "authority": "EPSG",
+    "version": "8.5(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8910,
+    "latestWkid": 8910,
+    "macro": "PE_PM_BRUSSELS",
+    "name": "Brussels",
+    "wkt": "PRIMEM[\"Brussels\",4.367975]",
+    "description": "4~ 22' 04''.71 E",
+    "authority": "EPSG",
+    "version": "2.1(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8911,
+    "latestWkid": 8911,
+    "macro": "PE_PM_STOCKHOLM",
+    "name": "Stockholm",
+    "wkt": "PRIMEM[\"Stockholm\",18.05827777777778]",
+    "description": "18~ 03' 29''.8 E",
+    "authority": "EPSG",
+    "version": "2.1(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 8912,
+    "latestWkid": 8912,
+    "macro": "PE_PM_ATHENS",
+    "name": "Athens",
+    "wkt": "PRIMEM[\"Athens\",23.7163375]",
+    "description": "23~ 42' 58''.815 E",
+    "authority": "EPSG",
+    "version": "3.2(4.0.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 8913,
+    "latestWkid": 8913,
+    "macro": "PE_PM_OSLO",
+    "name": "Oslo",
+    "wkt": "PRIMEM[\"Oslo\",10.72291666666667]",
+    "description": "10~ 43' 22''.5 E",
+    "authority": "EPSG",
+    "version": "4.4(8.1.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 8914,
+    "latestWkid": 8914,
+    "macro": "PE_PM_PARIS_RGS",
+    "name": "Paris_RGS",
+    "wkt": "PRIMEM[\"Paris_RGS\",2.337208333333333]",
+    "description": "2~ 20' 13''.95 E",
+    "authority": "EPSG",
+    "version": "6.15(10.0.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 108900,
+    "latestWkid": 108900,
+    "macro": "PE_PM_REFERENCE",
+    "name": "Reference_Meridian",
+    "wkt": "PRIMEM[\"Reference_Meridian\",0.0]",
+    "description": "Generic meridian origin",
+    "authority": "Esri",
+    "version": "9.0.0",
+    "deprecated": "no"
+  }
+] }
+
+/* ------------------------------------------------------------------------- */
+/*  Copyright 1999-2018 Esri Inc.                                            */
+/*                                                                           */
+/*  Licensed under the Apache License, Version 2.0 (the "License");          */
+/*  you may not use this file except in compliance with the License.         */
+/*  You may obtain a copy of the License at                                  */
+/*                                                                           */
+/*      http://www.apache.org/licenses/LICENSE-2.0                           */
+/*                                                                           */
+/*  Unless required by applicable law or agreed to in writing, software      */
+/*  distributed under the License is distributed on an "AS IS" BASIS,        */
+/*  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. */
+/*  See the License for the specific language governing permissions and      */
+/*  limitations under the License.                                           */
+/* ------------------------------------------------------------------------- */
+

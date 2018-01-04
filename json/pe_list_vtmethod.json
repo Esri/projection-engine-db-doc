@@ -1,0 +1,119 @@
+{ "VerticalTransformationMethods": [
+  { "wkid": 129600,
+    "latestWkid": 129600,
+    "macro": "PE_VTMTH_VTGRIDFILE",
+    "name": "VTGridFile",
+    "wkt": "VTMETHOD[\"VTGridFile\"]",
+    "description": "Generic vertical transform grid file",
+    "authority": "Esri",
+    "version": "10.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 129601,
+    "latestWkid": 129601,
+    "macro": "PE_VTMTH_VDATUM",
+    "name": "VDATUM",
+    "wkt": "VTMETHOD[\"VDATUM\"]",
+    "description": "New NOAA transformation grid file format",
+    "authority": "Esri",
+    "version": "10.4.0",
+    "deprecated": "no"
+  },
+  { "wkid": 129616,
+    "latestWkid": 129616,
+    "macro": "PE_VTMTH_VERTICAL_OFFSET",
+    "name": "Vertical_Offset",
+    "wkt": "VTMETHOD[\"Vertical_Offset\"]",
+    "description": "Vertical Offset",
+    "authority": "Esri",
+    "version": "9.3.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 129657,
+    "latestWkid": 129657,
+    "macro": "PE_VTMTH_VERTICAL_OFFSET_SLOPE",
+    "name": "Vertical_Offset_and_Slope",
+    "wkt": "VTMETHOD[\"Vertical_Offset_and_Slope\"]",
+    "description": "Vertical Offset and Slope",
+    "authority": "Esri",
+    "version": "9.3.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 129658,
+    "latestWkid": 129658,
+    "macro": "PE_VTMTH_VERTCON",
+    "name": "VERTCON",
+    "wkt": "VTMETHOD[\"VERTCON\"]",
+    "description": "VERTCON",
+    "authority": "Esri",
+    "version": "9.3.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 129661,
+    "latestWkid": 129661,
+    "macro": "PE_VTMTH_EGM96",
+    "name": "EGM96",
+    "wkt": "VTMETHOD[\"EGM96\"]",
+    "description": "EGM96 bilinear interpolation",
+    "authority": "Esri",
+    "version": "9.3.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 129665,
+    "latestWkid": 129665,
+    "macro": "PE_VTMTH_GEOID",
+    "name": "GEOID",
+    "wkt": "VTMETHOD[\"GEOID\"]",
+    "description": "GEOID99, GEOID03, and GEOID06",
+    "authority": "Esri",
+    "version": "9.3.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 129761,
+    "latestWkid": 129761,
+    "macro": "PE_VTMTH_EGM96_NS",
+    "name": "EGM96_Natural_Spline",
+    "wkt": "VTMETHOD[\"EGM96_Natural_Spline\"]",
+    "description": "EGM96 natural spline interpolation",
+    "authority": "Esri",
+    "version": "9.3.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 129861,
+    "latestWkid": 129861,
+    "macro": "PE_VTMTH_EGM84",
+    "name": "EGM84",
+    "wkt": "VTMETHOD[\"EGM84\"]",
+    "description": "EGM84 bilinear interpolation",
+    "authority": "Esri",
+    "version": "9.3.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 129961,
+    "latestWkid": 129961,
+    "macro": "PE_VTMTH_EGM84_NS",
+    "name": "EGM84_Natural_Spline",
+    "wkt": "VTMETHOD[\"EGM84_Natural_Spline\"]",
+    "description": "EGM84 natural spline interpolation",
+    "authority": "Esri",
+    "version": "9.3.0.0",
+    "deprecated": "no"
+  }
+] }
+
+/* ------------------------------------------------------------------------- */
+/*  Copyright 1999-2018 Esri Inc.                                            */
+/*                                                                           */
+/*  Licensed under the Apache License, Version 2.0 (the "License");          */
+/*  you may not use this file except in compliance with the License.         */
+/*  You may obtain a copy of the License at                                  */
+/*                                                                           */
+/*      http://www.apache.org/licenses/LICENSE-2.0                           */
+/*                                                                           */
+/*  Unless required by applicable law or agreed to in writing, software      */
+/*  distributed under the License is distributed on an "AS IS" BASIS,        */
+/*  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. */
+/*  See the License for the specific language governing permissions and      */
+/*  limitations under the License.                                           */
+/* ------------------------------------------------------------------------- */
+

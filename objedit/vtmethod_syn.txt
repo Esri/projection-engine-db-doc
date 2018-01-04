@@ -1,0 +1,41 @@
+#------------------------------------------------------------------------------------------------------
+# VTMETHOD synonym table
+#
+# syntax: [VTMETHOD,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
+#------------------------------------------------------------------------------------------------------
+
+"EGM08_bl", \
+   "EGM08_Bilinear", \
+   FALSE, \
+   ""
+
+"EGM08_ns", \
+   "EGM08_Natural_Spline", \
+   FALSE, \
+   ""
+
+"EGM84_Bilinear", \
+   "EGM84", \
+   FALSE, \
+   ""
+
+"EGM84_bl", \
+   "EGM84", \
+   FALSE, \
+   ""
+
+"EGM84_ns", \
+   "EGM84_Natural_Spline", \
+   FALSE, \
+   ""
+
+"EGM96_bl", \
+   "EGM96", \
+   FALSE, \
+   ""
+
+"EGM96_ns", \
+   "EGM96_Natural_Spline", \
+   FALSE, \
+   ""
+

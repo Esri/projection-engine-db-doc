@@ -1,0 +1,146 @@
+#------------------------------------------------------------------------------------------------------
+# VDATUM synonym table
+#
+# syntax: [VDATUM,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
+#------------------------------------------------------------------------------------------------------
+
+"Auckland 1946", \
+   "Auckland", \
+   FALSE, \
+   "EPSG"
+
+"Belfast Lough", \
+   "Belfast", \
+   FALSE, \
+   "EPSG"
+
+"Bluff 1955", \
+   "Bluff", \
+   FALSE, \
+   "EPSG"
+
+"Deutsches Haupthoehennetz 1985", \
+   "Deutches_Haupthoehennetz_1985", \
+   FALSE, \
+   "EPSG"
+
+"Deutsches Haupthoehennetz 1992", \
+   "Deutches_Haupthoehennetz_1992", \
+   FALSE, \
+   "EPSG"
+
+"Dunedin 1958", \
+   "Dunedin", \
+   FALSE, \
+   "EPSG"
+
+"Gisborne 1926", \
+   "Gisborne", \
+   FALSE, \
+   "EPSG"
+
+"Guadeloupe 1988", \
+   "IGN_1988", \
+   FALSE, \
+   "EPSG"
+
+"Instantaneous Water Level", \
+   "Sea_Level", \
+   FALSE, \
+   "EPSG"
+
+"Japanese_Standard_Levelling_Datum_1949", \
+   "Japanese_Standard_Levelling_Datum_1969", \
+   TRUE, \
+   ""
+
+"Lyttelton 1937", \
+   "Lyttelton", \
+   FALSE, \
+   "EPSG"
+
+"Lyttleton", \
+   "Lyttelton", \
+   TRUE, \
+   ""
+
+"Martinique 1987", \
+   "IGN_1987", \
+   FALSE, \
+   "EPSG"
+
+"Moturiki 1953", \
+   "Moturiki", \
+   FALSE, \
+   "EPSG"
+
+"Napier 1962", \
+   "Napier", \
+   FALSE, \
+   "EPSG"
+
+"Nelson 1955", \
+   "Nelson", \
+   FALSE, \
+   "EPSG"
+
+"One Tree Point 1964", \
+   "One_Tree_Point", \
+   FALSE, \
+   "EPSG"
+
+"Ostend", \
+   "Oostende", \
+   FALSE, \
+   "EPSG"
+
+"PNG08", \
+   "Papua_New_Guinea_2008", \
+   FALSE, \
+   "EPSG"
+
+"Reunion 1989", \
+   "IGN_1989", \
+   FALSE, \
+   "EPSG"
+
+"St. Helena Tritan Vertical Datum 2011", \
+   "St_Helena_Tritan_Vertical_Datum_2011", \
+   FALSE, \
+   "EPSG"
+
+"St. Helena Vertical Datum 2015", \
+   "St_Helena_Vertical_Datum_2015", \
+   FALSE, \
+   "EPSG"
+
+"Staatlichen Nivellementnetzes 1976", \
+   "SNN76", \
+   FALSE, \
+   "EPSG"
+
+"Stewart Island 1977", \
+   "Stewart_Island", \
+   FALSE, \
+   "EPSG"
+
+"Taranaki 1970", \
+   "Taranaki", \
+   FALSE, \
+   "EPSG"
+
+"Tararu 1952", \
+   "Tararu", \
+   FALSE, \
+   "EPSG"
+
+"Waitangi (Chatham Island) 1959", \
+   "Chatham_Island", \
+   FALSE, \
+   "EPSG"
+
+"Wellington 1953", \
+   "Wellington", \
+   FALSE, \
+   "EPSG"
+

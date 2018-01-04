@@ -1,0 +1,21 @@
+#------------------------------------------------------------------------------------------------------
+# METHOD description table
+#
+# syntax: [METHOD,] code, "utf8-description"
+#------------------------------------------------------------------------------------------------------
+
+PE_MTH_LONGITUDE_ROTATION, "Longitude Rotation"
+PE_MTH_GEOCENTRIC_TRANSLATION, "Geocentric Translation (3-parameter)"
+PE_MTH_MOLODENSKY, "Molodensky"
+PE_MTH_MOLODENSKY_ABRIDGED, "Abridged Molodensky"
+PE_MTH_POSITION_VECTOR, "Position Vector (7-parameter)"
+PE_MTH_COORDINATE_FRAME, "Coordinate Frame (7-parameter)"
+PE_MTH_NADCON, "NADCON"
+PE_MTH_NTV2, "NTv2"
+PE_MTH_GEOGRAPHIC_2D_OFFSET, "Geographic 2D Offset"
+PE_MTH_MOLODENSKY_BADEKAS, "Molodensky-Badekas"
+PE_MTH_NULL, "NULL transformation"
+PE_MTH_UNIT_CHANGE, "Units change only"
+PE_MTH_BURSA_WOLF, "Bursa-Wolf"
+PE_MTH_HARN, "HARN (HPGN)"
+PE_MTH_GEOCON, "GEOCON transformation for NAD83"

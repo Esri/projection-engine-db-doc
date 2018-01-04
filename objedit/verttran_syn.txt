@@ -1,0 +1,261 @@
+#------------------------------------------------------------------------------------------------------
+# VERTTRAN synonym table
+#
+# syntax: [VERTTRAN,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
+#------------------------------------------------------------------------------------------------------
+
+"AIOC95 depth to Caspian depth (1)", \
+   "AIOC95_Depth_To_Caspian_1", \
+   FALSE, \
+   "EPSG"
+
+"Alicante height to EVRF2000 height (1)", \
+   "Alicante_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"Baltic 1982 height to EVRF2000 height (1)", \
+   "Baltic_1982_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"Baltic height to AIOC95 depth (1)", \
+   "Baltic_To_AIOC95_Depth_1", \
+   FALSE, \
+   "EPSG"
+
+"Baltic height to Caspian depth (1)", \
+   "Baltic_To_Caspian_1", \
+   FALSE, \
+   "EPSG"
+
+"Baltic height to EVRF2000 height (1)", \
+   "Baltic_Height_To_EVRS_2000_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"Baltic height to EVRF2000 height (2)", \
+   "Baltic_To_EVRS_2000_2", \
+   FALSE, \
+   "EPSG"
+
+"Baltic height to EVRF2000 height (3)", \
+   "Baltic_To_EVRS_2000_3", \
+   FALSE, \
+   "EPSG"
+
+"Baltic height to EVRF2000 height (4)", \
+   "Baltic_Height_To_EVRS_2000_Height_4", \
+   FALSE, \
+   "EPSG"
+
+"Baltic height to EVRF2000 height (5)", \
+   "Baltic_Height_To_EVRS_2000_Height_5", \
+   FALSE, \
+   "EPSG"
+
+"Cascais height to EVRF2000 height (1)", \
+   "Cascais_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"Constanta height to EVRF2000 height (1)", \
+   "Constanta_Height_To_EVRS_2000_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"DHHN85 height to EVRF2000 height (1)", \
+   "DHHN85_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"DHHN92 height to EVRF2000 height (1)", \
+   "DHHN92_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"DNN height to EVRF2000 height (1)", \
+   "DNN_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"EOMA height 1980 to EVRF2000 height (1)", \
+   "EOMA_1980_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"Genoa height to EVRF2000 height (1)", \
+   "Genoa_Height_To_EVRS_2000_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"Genoa height to EVRF2000 height (2)", \
+   "Genoa_Height_To_EVRS_2000_Height_2", \
+   FALSE, \
+   "EPSG"
+
+"GHA height to EVRF2000 height (1)", \
+   "GHA_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"GHA height to EVRF2007 height (1)", \
+   "GHA_To_EVRF_2007_height_1", \
+   FALSE, \
+   "EPSG"
+
+"HVRS71 height to EVRF2000 height (1)", \
+   "HVRS_1971_Height_To_EVRS_2000_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"HVRS71 height to EVRF2007 height (1)", \
+   "HVRS_1971_Height_To_EVRF_2007_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"KOC CD height to KOC WD depth (1)", \
+   "KOC_CD_To_KOC_WD_1", \
+   FALSE, \
+   "EPSG"
+
+"KOC CD height to KOC WD depth (ft) (1)", \
+   "KOC_CD_Height_To_Kuwait_WD_Depth_Ft_Intl_1", \
+   FALSE, \
+   "EPSG"
+
+"LN02 height to EVRF2000 height (1)", \
+   "LN02_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"LN02 height to EVRF2007 height (1)", \
+   "LN_1902_Height_To_EVRF_2007_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"N60 height to EVRF2000 height (1)", \
+   "N60_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"NAP height to EVRF2000 height (1)", \
+   "NAP_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"NGF IGN69 height to EVRF2000 height (1)", \
+   "NGF_IGN69_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"NGVD29 height to NAVD88 height (1)", \
+   "NGVD29_To_NAVD88_NAD27_1_West", \
+   FALSE, \
+   "EPSG"
+
+"NGVD29 height to NAVD88 height (2)", \
+   "NGVD29_To_NAVD88_NAD27_2_Central", \
+   FALSE, \
+   "EPSG"
+
+"NGVD29 height to NAVD88 height (3)", \
+   "NGVD29_To_NAVD88_NAD27_3_East", \
+   FALSE, \
+   "EPSG"
+
+"NN54 height to EVRF2000 height (1)", \
+   "NN54_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"NVN99 height to EVRF2000 height (1)", \
+   "NVN99_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Auckland 1946 height (1)", \
+   "NZVD2009_To_Auckland_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Bluff 1955 height (1)", \
+   "NZVD2009_To_Bluff_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Dunedin 1958 height (1)", \
+   "NZVD2009_To_Dunedin_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Dunedin-Bluff 1960 height (1)", \
+   "NZVD2009_To_Dunedin_Bluff_1960_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Gisborne 1926 height (1)", \
+   "NZVD2009_To_Gisborne_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Lyttelton 1937 height (1)", \
+   "NZVD2009_To_Lyttelton_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Moturiki 1953 height  (1)", \
+   "NZVD2009_To_Moturiki_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Napier 1962 height (1)", \
+   "NZVD2009_To_Napier_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Nelson 1955 height (1)", \
+   "NZVD2009_To_Nelson_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to One Tree Point 1964 height (1)", \
+   "NZVD2009_To_One_Tree_Point_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Stewart Island 1977 height (1)", \
+   "NZVD2009_To_Stewart_Island_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Taranaki 1970 height (1)", \
+   "NZVD2009_To_Taranaki_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009 height to Wellington 1953 height (1)", \
+   "NZVD2009_To_Wellington_1", \
+   FALSE, \
+   "EPSG"
+
+"NZVD2009_To_Lyttleton_1", \
+   "NZVD2009_To_Lyttelton_1", \
+   FALSE, \
+   ""
+
+"Oostende height to EVRF2000 height (1)", \
+   "Oostende_Height_To_EVRS_2000_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"RH70 height to EVRF2000 height (1)", \
+   "RH70_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"SNN76 height to EVRF2000 height (1)", \
+   "SNN76_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+

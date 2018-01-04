@@ -1,0 +1,534 @@
+#------------------------------------------------------------------------------------------------------
+# AREAUNIT data table
+#
+# syntax: [AREAUNIT,] areaunit-code, "name", factor [, "display", "plural", "abbr", linunit-refcode (or 0)]
+#------------------------------------------------------------------------------------------------------
+
+PE_AU_HECTARE, \
+   "Hectare", \
+   10000.0, \
+   "Hectare", \
+   "Hectares", \
+   "ha", \
+   0
+
+PE_AU_ACRE, \
+   "Acre", \
+   4046.8564224, \
+   "Acre", \
+   "Acres", \
+   "ac", \
+   0
+
+PE_AU_ACRE_US, \
+   "Acre_US", \
+   4046.872609874252, \
+   "US Acre", \
+   "US Acres", \
+   "acUS", \
+   0
+
+PE_AU_SQUARE_METER, \
+   "Square_Meter", \
+   1.0, \
+   "Square Meter", \
+   "Square Meters", \
+   "sq m", \
+   PE_U_METER
+
+PE_AU_SQUARE_FOOT, \
+   "Square_Foot", \
+   0.09290304, \
+   "Square Foot", \
+   "Square Feet", \
+   "sq ft", \
+   PE_U_FOOT
+
+PE_AU_SQUARE_FOOT_US, \
+   "Square_Foot_US", \
+   0.09290341161327487, \
+   "Square US Survey Foot", \
+   "Square US Survey Feet", \
+   "sq ftUS", \
+   PE_U_FOOT_US
+
+PE_AU_SQUARE_FOOT_CLARKE, \
+   "Square_Foot_Clarke", \
+   0.09290137299531805, \
+   "Square Clarke Foot", \
+   "Square Clarke Feet", \
+   "sq ftCla", \
+   PE_U_FOOT_CLARKE
+
+PE_AU_SQUARE_FATHOM, \
+   "Square_Fathom", \
+   3.34450944, \
+   "Square Fathom", \
+   "Square Fathoms", \
+   "sq f", \
+   PE_U_FATHOM
+
+PE_AU_SQUARE_NAUTICAL_MILE, \
+   "Square_Nautical_Mile", \
+   3429904.0, \
+   "Square Nautical Mile", \
+   "Square Nautical Miles", \
+   "sq NM", \
+   PE_U_NAUTICAL_MILE
+
+PE_AU_SQUARE_METER_GERMAN, \
+   "Square_Meter_German", \
+   1.000027193184865, \
+   "Square German Meter", \
+   "Square German Meters", \
+   "sq GLM", \
+   PE_U_METER_GERMAN
+
+PE_AU_SQUARE_CHAIN_US, \
+   "Square_Chain_US", \
+   404.6872609874253, \
+   "Square US Survey Chain", \
+   "Square US Survey Chains", \
+   "sq chUS", \
+   PE_U_CHAIN_US
+
+PE_AU_SQUARE_LINK_US, \
+   "Square_Link_US", \
+   0.04046872609874252, \
+   "Square US Survey Link", \
+   "Square US Survey Links", \
+   "sq lkUS", \
+   PE_U_LINK_US
+
+PE_AU_SQUARE_MILE_US, \
+   "Square_Mile_US", \
+   2589998.470319522, \
+   "Square US Survey Mile", \
+   "Square US Survey Miles", \
+   "sq miUS", \
+   PE_U_MILE_US
+
+PE_AU_SQUARE_KILOMETER, \
+   "Square_Kilometer", \
+   1000000.0, \
+   "Square Kilometer", \
+   "Square Kilometers", \
+   "sq km", \
+   PE_U_KILOMETER
+
+PE_AU_SQUARE_YARD_CLARKE, \
+   "Square_Yard_Clarke", \
+   0.8361123569578626, \
+   "Square Clarke Yard", \
+   "Square Clarke Yards", \
+   "sq ydCla", \
+   PE_U_YARD_CLARKE
+
+PE_AU_SQUARE_CHAIN_CLARKE, \
+   "Square_Chain_Clarke", \
+   404.6783807676053, \
+   "Square Clarke Chain", \
+   "Square Clarke Chains", \
+   "sq chCla", \
+   PE_U_CHAIN_CLARKE
+
+PE_AU_SQUARE_LINK_CLARKE, \
+   "Square_Link_Clarke", \
+   0.04046783807676053, \
+   "Square Clarke Link", \
+   "Square Clarke Links", \
+   "sq lkCla", \
+   PE_U_LINK_CLARKE
+
+PE_AU_SQUARE_YARD_SEARS, \
+   "Square_Yard_Sears", \
+   0.8361244606523066, \
+   "Square Sears Yard", \
+   "Square Sears Yards", \
+   "sq ydSe", \
+   PE_U_YARD_SEARS
+
+PE_AU_SQUARE_FOOT_SEARS, \
+   "Square_Foot_Sears", \
+   0.09290271785025629, \
+   "Square Sears Foot", \
+   "Square Sears Feet", \
+   "sq ftSe", \
+   PE_U_FOOT_SEARS
+
+PE_AU_SQUARE_CHAIN_SEARS, \
+   "Square_Chain_Sears", \
+   404.6842389557165, \
+   "Square Sears Chain", \
+   "Square Sears Chains", \
+   "sq chSe", \
+   PE_U_CHAIN_SEARS
+
+PE_AU_SQUARE_LINK_SEARS, \
+   "Square_Link_Sears", \
+   0.04046842389557164, \
+   "Square Sears Link", \
+   "Square Sears Links", \
+   "sq lkSe", \
+   PE_U_LINK_SEARS
+
+PE_AU_SQUARE_YARD_BENOIT_A, \
+   "Square_Yard_Benoit_1895_A", \
+   0.83612589696064, \
+   "Square Benoit 1895 A Yard", \
+   "Square Benoit 1895 A Yards", \
+   "sq ydBnA", \
+   PE_U_YARD_BENOIT_A
+
+PE_AU_SQUARE_FOOT_BENOIT_A, \
+   "Square_Foot_Benoit_1895_A", \
+   0.0929028774400711, \
+   "Square Benoit 1895 A Foot", \
+   "Square Benoit 1895 A Feet", \
+   "sq ftBnA", \
+   PE_U_FOOT_BENOIT_A
+
+PE_AU_SQUARE_CHAIN_BENOIT_A, \
+   "Square_Chain_Benoit_1895_A", \
+   404.6849341289498, \
+   "Square Benoit 1895 A Chain", \
+   "Square Benoit 1895 A Chains", \
+   "sq chBnA", \
+   PE_U_CHAIN_BENOIT_A
+
+PE_AU_SQUARE_LINK_BENOIT_A, \
+   "Square_Link_Benoit_1895_A", \
+   0.04046849341289498, \
+   "Square Benoit 1895 A Link", \
+   "Square Benoit 1895 A Links", \
+   "sq lkBnA", \
+   PE_U_LINK_BENOIT_A
+
+PE_AU_SQUARE_YARD_BENOIT_B, \
+   "Square_Yard_Benoit_1895_B", \
+   0.836125904805842, \
+   "Square Benoit 1895 B Yard", \
+   "Square Benoit 1895 B Yards", \
+   "sq ydBnB", \
+   PE_U_YARD_BENOIT_B
+
+PE_AU_SQUARE_FOOT_BENOIT_B, \
+   "Square_Foot_Benoit_1895_B", \
+   0.09290287831176021, \
+   "Square Benoit 1895 B Foot", \
+   "Square Benoit 1895 B Feet", \
+   "sq ftBnB", \
+   PE_U_FOOT_BENOIT_B
+
+PE_AU_SQUARE_CHAIN_BENOIT_B, \
+   "Square_Chain_Benoit_1895_B", \
+   404.6849379260275, \
+   "Square Benoit 1895 B Chain", \
+   "Square Benoit 1895 B Chains", \
+   "sq chBnB", \
+   PE_U_CHAIN_BENOIT_B
+
+PE_AU_SQUARE_LINK_BENOIT_B, \
+   "Square_Link_Benoit_1895_B", \
+   0.04046849379260275, \
+   "Square Benoit 1895 B Link", \
+   "Square Benoit 1895 B Links", \
+   "sq lkBnB", \
+   PE_U_LINK_BENOIT_B
+
+PE_AU_SQUARE_FOOT_1865, \
+   "Square_Foot_1865", \
+   0.09290354800069446, \
+   "Square British 1865 Foot", \
+   "Square British 1865 Feet", \
+   "sq ftBr(65)", \
+   PE_U_FOOT_1865
+
+PE_AU_SQUARE_FOOT_INDIAN, \
+   "Square_Foot_Indian", \
+   0.09290274144751023, \
+   "Square Indian Foot", \
+   "Square Indian Feet", \
+   "sq ftInd", \
+   PE_U_FOOT_INDIAN
+
+PE_AU_SQUARE_FOOT_INDIAN_1937, \
+   "Square_Foot_Indian_1937", \
+   0.09290207073852812, \
+   "Square Indian Foot (1937)", \
+   "Square Indian Feet (1937)", \
+   "sq ftInd(37)", \
+   PE_U_FOOT_INDIAN_1937
+
+PE_AU_SQUARE_FOOT_INDIAN_1962, \
+   "Square_Foot_Indian_1962", \
+   0.09290279616016, \
+   "Square Indian Foot (1962)", \
+   "Square Indian Feet (1962)", \
+   "sq ftInd(62)", \
+   PE_U_FOOT_INDIAN_1962
+
+PE_AU_SQUARE_FOOT_INDIAN_1975, \
+   "Square_Foot_Indian_1975", \
+   0.09290273520025, \
+   "Square Indian Foot (1975)", \
+   "Square Indian Feet (1975)", \
+   "sq ftInd(75)", \
+   PE_U_FOOT_INDIAN_1975
+
+PE_AU_SQUARE_YARD_INDIAN, \
+   "Square_Yard_Indian", \
+   0.836124673027592, \
+   "Square Indian Yard", \
+   "Square Indian Yards", \
+   "sq ydInd", \
+   PE_U_YARD_INDIAN
+
+PE_AU_SQUARE_YARD_INDIAN_1937, \
+   "Square_Yard_Indian_1937", \
+   0.8361186366467529, \
+   "Square Indian Yard (1937)", \
+   "Square Indian Yards (1937)", \
+   "sq ydInd(37)", \
+   PE_U_YARD_INDIAN_1937
+
+PE_AU_SQUARE_YARD_INDIAN_1962, \
+   "Square_Yard_Indian_1962", \
+   0.8361251654414399, \
+   "Square Indian Yard (1962)", \
+   "Square Indian Yards (1962)", \
+   "sq ydInd(62)", \
+   PE_U_YARD_INDIAN_1962
+
+PE_AU_SQUARE_YARD_INDIAN_1975, \
+   "Square_Yard_Indian_1975", \
+   0.83612461680225, \
+   "Square Indian Yard (1975)", \
+   "Square Indian Yards (1975)", \
+   "sq ydInd(75)", \
+   PE_U_YARD_INDIAN_1975
+
+PE_AU_SQUARE_MILE_STATUTE, \
+   "Square_Statute_Mile", \
+   2589988.110336, \
+   "Square Statute Mile", \
+   "Square Statute Miles", \
+   "sq mi", \
+   PE_U_MILE_STATUTE
+
+PE_AU_SQUARE_FOOT_GOLD_COAST, \
+   "Square_Foot_Gold_Coast", \
+   0.09290286332673177, \
+   "Square Gold Coast Foot", \
+   "Square Gold Coast Feet", \
+   "sq ftGC", \
+   PE_U_FOOT_GOLD_COAST
+
+PE_AU_SQUARE_FOOT_BRITISH_1936, \
+   "Square_Foot_British_1936", \
+   0.09290349665192114, \
+   "Square British 1936 Foot", \
+   "Square British 1936 Feet", \
+   "sq ftBr(36)", \
+   PE_U_FOOT_BRITISH_1936
+
+PE_AU_SQUARE_YARD, \
+   "Square_Yard", \
+   0.83612736, \
+   "Square Yard", \
+   "Square Yards", \
+   "sq yd", \
+   PE_U_YARD
+
+PE_AU_SQUARE_YARD_US, \
+   "Square_Yard_US", \
+   0.8361307045194736, \
+   "Square US Survey Yard", \
+   "Square US Survey Yards", \
+   "sq ydUS", \
+   PE_U_YARD_US
+
+PE_AU_SQUARE_CHAIN, \
+   "Square_Chain", \
+   404.68564224, \
+   "Square Chain", \
+   "Square Chains", \
+   "sq ch", \
+   PE_U_CHAIN
+
+PE_AU_SQUARE_LINK, \
+   "Square_Link", \
+   0.040468564224, \
+   "Square Link", \
+   "Square Links", \
+   "sq lk", \
+   PE_U_LINK
+
+PE_AU_SQUARE_YARD_SEARS_1922_TRUNC, \
+   "Square_Yard_Sears_1922_Truncated", \
+   0.836123702404, \
+   "Square Sears 1922 Truncated Yard", \
+   "Square Sears 1922 Truncated Yards", \
+   "sq ydSe(T)", \
+   PE_U_YARD_SEARS_1922_TRUNC
+
+PE_AU_SQUARE_FOOT_SEARS_1922_TRUNC, \
+   "Square_Foot_Sears_1922_Truncated", \
+   0.09290263360044447, \
+   "Square Sears 1922 Truncated Foot", \
+   "Square Sears 1922 Truncated Feet", \
+   "sq ftSe(T)", \
+   PE_U_FOOT_SEARS_1922_TRUNC
+
+PE_AU_SQUARE_CHAIN_SEARS_1922_TRUNC, \
+   "Square_Chain_Sears_1922_Truncated", \
+   404.683871963536, \
+   "Square Sears 1922 Truncated Chain", \
+   "Square Sears 1922 Truncated Chains", \
+   "sq chSe(T)", \
+   PE_U_CHAIN_SEARS_1922_TRUNC
+
+PE_AU_SQUARE_LINK_SEARS_1922_TRUNC, \
+   "Square_Link_Sears_1922_Truncated", \
+   0.0404683871963536, \
+   "Square Sears 1922 Truncated Link", \
+   "Square Sears 1922 Truncated Links", \
+   "sq lkSe(T)", \
+   PE_U_LINK_SEARS_1922_TRUNC
+
+PE_AU_SQUARE_DECIMETER, \
+   "Square_Decimeter", \
+   0.01, \
+   "Square Decimeter", \
+   "Square Decimeters", \
+   "sq dm", \
+   PE_U_DECIMETER
+
+PE_AU_SQUARE_CENTIMETER, \
+   "Square_Centimeter", \
+   0.0001, \
+   "Square Centimeter", \
+   "Square Centimeters", \
+   "sq cm", \
+   PE_U_CENTIMETER
+
+PE_AU_SQUARE_MILLIMETER, \
+   "Square_Millimeter", \
+   0.000001, \
+   "Square Millimeter", \
+   "Square Millimeters", \
+   "sq mm", \
+   PE_U_MILLIMETER
+
+PE_AU_SQUARE_INCH, \
+   "Square_Inch", \
+   0.00064516, \
+   "Square Inch", \
+   "Square Inches", \
+   "sq in", \
+   PE_U_INCH
+
+PE_AU_SQUARE_INCH_US, \
+   "Square_Inch_US", \
+   0.0006451625806477421, \
+   "Square US Survey Inch", \
+   "Square US Survey Inches", \
+   "sq inUS", \
+   PE_U_INCH_US
+
+PE_AU_SQUARE_ROD, \
+   "Square_Rod", \
+   25.29285264, \
+   "Square Rod", \
+   "Square Rods", \
+   "sq rd", \
+   PE_U_ROD
+
+PE_AU_SQUARE_ROD_US, \
+   "Square_Rod_US", \
+   25.29295381171408, \
+   "Square US Survey Rod", \
+   "Square US Survey Rods", \
+   "sq rdUS", \
+   PE_U_ROD_US
+
+PE_AU_SQUARE_NAUTICAL_MILE_US, \
+   "Square_Nautical_Mile_US", \
+   3434528.149504, \
+   "Square US Nautical Mile", \
+   "Square US Nautical Miles", \
+   "sq NM(US)", \
+   PE_U_NAUTICAL_MILE_US
+
+PE_AU_SQUARE_NAUTICAL_MILE_UK, \
+   "Square_Nautical_Mile_UK", \
+   3434290.937856, \
+   "Square UK Nautical Mile", \
+   "Square UK Nautical Miles", \
+   "sq NM(UK)", \
+   PE_U_NAUTICAL_MILE_UK
+
+PE_AU_SQUARE_SMOOT, \
+   "Square_Smoot", \
+   2.89612324, \
+   "Square Smoot", \
+   "Square Smoots", \
+   "sq sm", \
+   PE_U_SMOOT
+
+PE_AU_SQUARE_KM50, \
+   "Square_50_Kilometers", \
+   2500000000.0, \
+   "Square 50-Kilometer", \
+   "Square 50-Kilometers", \
+   "sq 50km", \
+   PE_U_KM50
+
+PE_AU_SQUARE_KM150, \
+   "Square_150_Kilometers", \
+   22500000000.0, \
+   "Square 150-Kilometer", \
+   "Square 150-Kilometers", \
+   "sq 150km", \
+   PE_U_KM150
+
+PE_AU_SQUARE_VARA_TX, \
+   "Square_Vara_TX", \
+   0.7168473118308245, \
+   "Square Texas Vara", \
+   "Square Texas Varas", \
+   "sq varTX", \
+   PE_U_VARA_TX
+
+PE_AU_ARE, \
+   "Are", \
+   100.0, \
+   "Are", \
+   "Ares", \
+   "a", \
+   0
+
+PE_AU_SQUARE_DTP_POINT, \
+   "Square_Point", \
+   1.244521604938271e-07, \
+   "Square Point", \
+   "Square Points", \
+   "sq pt", \
+   PE_U_DTP_POINT
+
+PE_AU_SQUARE_MICROMETER, \
+   "Square_Micrometer", \
+   1e-12, \
+   "Square Micrometer", \
+   "Square micrometers", \
+   "sq um", \
+   PE_U_MICROMETER
+
+PE_AU_SQUARE_NANOMETER, \
+   "Square_Nanometer", \
+   1e-18, \
+   "Square Nanometer", \
+   "Square Nanometers", \
+   "sq nm", \
+   PE_U_NANOMETER
+

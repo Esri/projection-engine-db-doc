@@ -1,0 +1,129 @@
+{ "AngularUnitsOfMeasure": [
+  { "wkid": 1031,
+    "latestWkid": 1031,
+    "macro": "PE_U_MILLIARCSECOND",
+    "name": "Milliarcsecond",
+    "wkt": "UNIT[\"Milliarcsecond\",4.84813681109536e-09]",
+    "description": "1/1000 Arc-second",
+    "authority": "EPSG",
+    "version": "8.8(10.2.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 9101,
+    "latestWkid": 9101,
+    "macro": "PE_U_RADIAN",
+    "name": "Radian",
+    "wkt": "UNIT[\"Radian\",1.0]",
+    "description": "Radian",
+    "authority": "EPSG",
+    "version": "8.8(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 9102,
+    "latestWkid": 9102,
+    "macro": "PE_U_DEGREE",
+    "name": "Degree",
+    "wkt": "UNIT[\"Degree\",0.0174532925199433]",
+    "description": "Degree",
+    "authority": "EPSG",
+    "version": "8.8(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 9103,
+    "latestWkid": 9103,
+    "macro": "PE_U_ARCMINUTE",
+    "name": "Arcminute",
+    "wkt": "UNIT[\"Arcminute\",0.0002908882086657216]",
+    "description": "Arc-minute",
+    "authority": "EPSG",
+    "version": "8.8(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 9104,
+    "latestWkid": 9104,
+    "macro": "PE_U_ARCSECOND",
+    "name": "Arcsecond",
+    "wkt": "UNIT[\"Arcsecond\",0.00000484813681109536]",
+    "description": "Arc-second",
+    "authority": "EPSG",
+    "version": "8.8(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 9105,
+    "latestWkid": 9105,
+    "macro": "PE_U_GRAD",
+    "name": "Grad",
+    "wkt": "UNIT[\"Grad\",0.01570796326794897]",
+    "description": "Grad (angle subtended by 1/400 circle)",
+    "authority": "EPSG",
+    "version": "8.8(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 9106,
+    "latestWkid": 9106,
+    "macro": "PE_U_GON",
+    "name": "Gon",
+    "wkt": "UNIT[\"Gon\",0.01570796326794897]",
+    "description": "Gon (angle subtended by 1/400 circle)",
+    "authority": "EPSG",
+    "version": "6.3(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 9109,
+    "latestWkid": 9109,
+    "macro": "PE_U_MICRORADIAN",
+    "name": "Microradian",
+    "wkt": "UNIT[\"Microradian\",0.000001]",
+    "description": "Microradian ( 1e-6 radian )",
+    "authority": "EPSG",
+    "version": "3.0(3.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 9112,
+    "latestWkid": 9112,
+    "macro": "PE_U_MINUTE_CENTESIMAL",
+    "name": "Minute_Centesimal",
+    "wkt": "UNIT[\"Minute_Centesimal\",0.0001570796326794897]",
+    "description": "Centesimal minute (1/100th Gon (Grad))",
+    "authority": "EPSG",
+    "version": "8.8(8.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 9113,
+    "latestWkid": 9113,
+    "macro": "PE_U_SECOND_CENTESIMAL",
+    "name": "Second_Centesimal",
+    "wkt": "UNIT[\"Second_Centesimal\",0.000001570796326794897]",
+    "description": "Centesimal second (1/10000th Gon (Grad))",
+    "authority": "EPSG",
+    "version": "8.8(8.0.1)",
+    "deprecated": "no"
+  },
+  { "wkid": 9114,
+    "latestWkid": 9114,
+    "macro": "PE_U_MIL_6400",
+    "name": "Mil_6400",
+    "wkt": "UNIT[\"Mil_6400\",0.0009817477042468104]",
+    "description": "Mil (angle subtended by 1/6400 circle)",
+    "authority": "EPSG",
+    "version": "8.8(8.0.1)",
+    "deprecated": "no"
+  }
+] }
+
+/* ------------------------------------------------------------------------- */
+/*  Copyright 1999-2018 Esri Inc.                                            */
+/*                                                                           */
+/*  Licensed under the Apache License, Version 2.0 (the "License");          */
+/*  you may not use this file except in compliance with the License.         */
+/*  You may obtain a copy of the License at                                  */
+/*                                                                           */
+/*      http://www.apache.org/licenses/LICENSE-2.0                           */
+/*                                                                           */
+/*  Unless required by applicable law or agreed to in writing, software      */
+/*  distributed under the License is distributed on an "AS IS" BASIS,        */
+/*  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. */
+/*  See the License for the specific language governing permissions and      */
+/*  limitations under the License.                                           */
+/* ------------------------------------------------------------------------- */
+

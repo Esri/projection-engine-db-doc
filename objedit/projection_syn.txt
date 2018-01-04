@@ -1,0 +1,211 @@
+#------------------------------------------------------------------------------------------------------
+# PROJECTION synonym table
+#
+# syntax: [PROJECTION,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
+#------------------------------------------------------------------------------------------------------
+
+"Albers_Conical_Equal_Area", \
+   "Albers", \
+   FALSE, \
+   ""
+
+"Albers_Conic_Equal_Area", \
+   "Albers", \
+   FALSE, \
+   ""
+
+"Albers_Equal_Area", \
+   "Albers", \
+   FALSE, \
+   ""
+
+"Albers_Equal_Area_Conic", \
+   "Albers", \
+   FALSE, \
+   ""
+
+"American Polyconic", \
+   "Polyconic", \
+   FALSE, \
+   ""
+
+"Cassini-Soldner", \
+   "Cassini", \
+   FALSE, \
+   ""
+
+"Columbia Urban", \
+   "IGAC_Plano_Cartesiano", \
+   FALSE, \
+   ""
+
+"Equidistant Cylindrical (Spherical)", \
+   "Equidistant_Cylindrical_Auxiliary_Sphere", \
+   FALSE, \
+   ""
+
+"Equirectangular", \
+   "Plate_Carree", \
+   FALSE, \
+   ""
+
+"Gall", \
+   "Gall_Stereographic", \
+   FALSE, \
+   ""
+
+"Guam Projection", \
+   "Polyconic", \
+   FALSE, \
+   ""
+
+"Hotine_Oblique_Mercator", \
+   "Hotine_Oblique_Mercator_Azimuth_Natural_Origin", \
+   FALSE, \
+   ""
+
+"Hotine Oblique Mercator (variant A)", \
+   "Hotine_Oblique_Mercator_Azimuth_Natural_Origin", \
+   FALSE, \
+   ""
+
+"Hotine Oblique Mercator (variant B)", \
+   "Hotine_Oblique_Mercator_Azimuth_Center", \
+   FALSE, \
+   ""
+
+"Krovak (EPSG OP 19952)", \
+   "Krovak", \
+   FALSE, \
+   "Oracle"
+
+"Krovak (North Orientated)", \
+   "Krovak", \
+   FALSE, \
+   ""
+
+"Krovak Oblique Conic Conformal", \
+   "Krovak", \
+   FALSE, \
+   ""
+
+"Laborde Grid (EPSG OP 19911)", \
+   "Laborde_Oblique_Mercator", \
+   FALSE, \
+   "Oracle"
+
+"Laborde Madagascar", \
+   "Laborde_Oblique_Mercator", \
+   FALSE, \
+   ""
+
+"Lambert Azimuthal Equal Area (Spherical)", \
+   "Lambert_Azimuthal_Equal_Area_Auxiliary_Sphere", \
+   FALSE, \
+   ""
+
+"Lambert_Conformal_Conic_1SP", \
+   "Lambert_Conformal_Conic", \
+   FALSE, \
+   ""
+
+"Lambert_Conformal_Conic_2SP", \
+   "Lambert_Conformal_Conic", \
+   FALSE, \
+   ""
+
+"Lambert Conic Conformal (1SP)", \
+   "Lambert_Conformal_Conic", \
+   FALSE, \
+   ""
+
+"Lambert Conic Conformal (2SP)", \
+   "Lambert_Conformal_Conic", \
+   FALSE, \
+   ""
+
+"Mercator_1SP", \
+   "Mercator_Variant_A", \
+   FALSE, \
+   ""
+
+"Mercator_2SP", \
+   "Mercator", \
+   FALSE, \
+   ""
+
+"Mercator_Auxiliary_Sphere", \
+   "Mercator_Auxiliary_Sphere", \
+   FALSE, \
+   ""
+
+"Mercator_Variant_B", \
+   "Mercator", \
+   FALSE, \
+   ""
+
+"New Zealand Map Grid (EPSG OP 19917)", \
+   "New_Zealand_Map_Grid", \
+   FALSE, \
+   "Oracle"
+
+"Oblique Mercator", \
+   "Hotine_Oblique_Mercator_Azimuth_Center", \
+   FALSE, \
+   ""
+
+"Oblique Stereographic", \
+   "Double_Stereographic", \
+   FALSE, \
+   ""
+
+"Plate Carree (EPSG OP 19968)", \
+   "Plate_Carree", \
+   FALSE, \
+   "Oracle"
+
+"Popular Visualisation Mercator", \
+   "Mercator", \
+   FALSE, \
+   "Oracle"
+
+"Popular Visualisation Pseudo Mercator", \
+   "Mercator_Auxiliary_Sphere", \
+   FALSE, \
+   ""
+
+"Popular Visualization Pseudo Mercator", \
+   "Mercator_Auxiliary_Sphere", \
+   FALSE, \
+   ""
+
+"Rectified Skew Orthomorphic Borneo Grid (chains) (EPSG OP 19956)", \
+   "Rectified_Skew_Orthomorphic_Natural_Origin", \
+   FALSE, \
+   "Oracle"
+
+"Rectified Skew Orthomorphic Borneo Grid (feet) (EPSG OP 19957)", \
+   "Rectified_Skew_Orthomorphic_Natural_Origin", \
+   FALSE, \
+   "Oracle"
+
+"Rectified Skew Orthomorphic Borneo Grid (metres) (EPSG OP 19958)", \
+   "Rectified_Skew_Orthomorphic_Natural_Origin", \
+   FALSE, \
+   "Oracle"
+
+"Rectified Skew Orthomorphic Malaya Grid (EPSG OP 19935)", \
+   "Rectified_Skew_Orthomorphic_Natural_Origin", \
+   FALSE, \
+   "Oracle"
+
+"Winkel III", \
+   "Winkel_Tripel", \
+   FALSE, \
+   ""
+
+"World Mercator", \
+   "Mercator", \
+   FALSE, \
+   ""
+

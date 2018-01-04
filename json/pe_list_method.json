@@ -1,0 +1,169 @@
+{ "GeographicTransformationMethods": [
+  { "wkid": 9601,
+    "latestWkid": 9601,
+    "macro": "PE_MTH_LONGITUDE_ROTATION",
+    "name": "Longitude_Rotation",
+    "wkt": "METHOD[\"Longitude_Rotation\"]",
+    "description": "Longitude Rotation",
+    "authority": "Esri",
+    "version": "4.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 9603,
+    "latestWkid": 9603,
+    "macro": "PE_MTH_GEOCENTRIC_TRANSLATION",
+    "name": "Geocentric_Translation",
+    "wkt": "METHOD[\"Geocentric_Translation\"]",
+    "description": "Geocentric Translation (3-parameter)",
+    "authority": "Esri",
+    "version": "3.0.1",
+    "deprecated": "no"
+  },
+  { "wkid": 9604,
+    "latestWkid": 9604,
+    "macro": "PE_MTH_MOLODENSKY",
+    "name": "Molodensky",
+    "wkt": "METHOD[\"Molodensky\"]",
+    "description": "Molodensky",
+    "authority": "Esri",
+    "version": "3.0.1",
+    "deprecated": "no"
+  },
+  { "wkid": 9605,
+    "latestWkid": 9605,
+    "macro": "PE_MTH_MOLODENSKY_ABRIDGED",
+    "name": "Molodensky_Abridged",
+    "wkt": "METHOD[\"Molodensky_Abridged\"]",
+    "description": "Abridged Molodensky",
+    "authority": "Esri",
+    "version": "3.0.1",
+    "deprecated": "no"
+  },
+  { "wkid": 9606,
+    "latestWkid": 9606,
+    "macro": "PE_MTH_POSITION_VECTOR",
+    "name": "Position_Vector",
+    "wkt": "METHOD[\"Position_Vector\"]",
+    "description": "Position Vector (7-parameter)",
+    "authority": "Esri",
+    "version": "3.0.1",
+    "deprecated": "no"
+  },
+  { "wkid": 9607,
+    "latestWkid": 9607,
+    "macro": "PE_MTH_COORDINATE_FRAME",
+    "name": "Coordinate_Frame",
+    "wkt": "METHOD[\"Coordinate_Frame\"]",
+    "description": "Coordinate Frame (7-parameter)",
+    "authority": "Esri",
+    "version": "3.0.1",
+    "deprecated": "no"
+  },
+  { "wkid": 9613,
+    "latestWkid": 9613,
+    "macro": "PE_MTH_NADCON",
+    "name": "NADCON",
+    "wkt": "METHOD[\"NADCON\"]",
+    "description": "NADCON",
+    "authority": "Esri",
+    "version": "4.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 9615,
+    "latestWkid": 9615,
+    "macro": "PE_MTH_NTV2",
+    "name": "NTv2",
+    "wkt": "METHOD[\"NTv2\"]",
+    "description": "NTv2",
+    "authority": "Esri",
+    "version": "8.1.0",
+    "deprecated": "no"
+  },
+  { "wkid": 9619,
+    "latestWkid": 9619,
+    "macro": "PE_MTH_GEOGRAPHIC_2D_OFFSET",
+    "name": "Geographic_2D_Offset",
+    "wkt": "METHOD[\"Geographic_2D_Offset\"]",
+    "description": "Geographic 2D Offset",
+    "authority": "Esri",
+    "version": "10.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 9636,
+    "latestWkid": 9636,
+    "macro": "PE_MTH_MOLODENSKY_BADEKAS",
+    "name": "Molodensky_Badekas",
+    "wkt": "METHOD[\"Molodensky_Badekas\"]",
+    "description": "Molodensky-Badekas",
+    "authority": "Esri",
+    "version": "9.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 109600,
+    "latestWkid": 109600,
+    "macro": "PE_MTH_NULL",
+    "name": "Null",
+    "wkt": "METHOD[\"Null\"]",
+    "description": "NULL transformation",
+    "authority": "Esri",
+    "version": "10.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 109601,
+    "latestWkid": 109601,
+    "macro": "PE_MTH_UNIT_CHANGE",
+    "name": "Unit_Change",
+    "wkt": "METHOD[\"Unit_Change\"]",
+    "description": "Units change only",
+    "authority": "Esri",
+    "version": "10.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 109607,
+    "latestWkid": 109607,
+    "macro": "PE_MTH_BURSA_WOLF",
+    "name": "Bursa_Wolf",
+    "wkt": "METHOD[\"Bursa_Wolf\"]",
+    "description": "Bursa-Wolf",
+    "authority": "Esri",
+    "version": "3.0.1",
+    "deprecated": "no"
+  },
+  { "wkid": 109613,
+    "latestWkid": 109613,
+    "macro": "PE_MTH_HARN",
+    "name": "HARN",
+    "wkt": "METHOD[\"HARN\"]",
+    "description": "HARN (HPGN)",
+    "authority": "Esri",
+    "version": "4.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 109614,
+    "latestWkid": 109614,
+    "macro": "PE_MTH_GEOCON",
+    "name": "GEOCON",
+    "wkt": "METHOD[\"GEOCON\"]",
+    "description": "GEOCON transformation for NAD83",
+    "authority": "Esri",
+    "version": "10.4.0",
+    "deprecated": "no"
+  }
+] }
+
+/* ------------------------------------------------------------------------- */
+/*  Copyright 1999-2018 Esri Inc.                                            */
+/*                                                                           */
+/*  Licensed under the Apache License, Version 2.0 (the "License");          */
+/*  you may not use this file except in compliance with the License.         */
+/*  You may obtain a copy of the License at                                  */
+/*                                                                           */
+/*      http://www.apache.org/licenses/LICENSE-2.0                           */
+/*                                                                           */
+/*  Unless required by applicable law or agreed to in writing, software      */
+/*  distributed under the License is distributed on an "AS IS" BASIS,        */
+/*  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. */
+/*  See the License for the specific language governing permissions and      */
+/*  limitations under the License.                                           */
+/* ------------------------------------------------------------------------- */
+

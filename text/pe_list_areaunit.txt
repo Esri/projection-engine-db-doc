@@ -1,0 +1,678 @@
+# ------------------------------------------------------------------------- #
+#  Copyright 1999-2018 Esri Inc.                                            #
+#                                                                           #
+#  Licensed under the Apache License, Version 2.0 (the "License");          #
+#  you may not use this file except in compliance with the License.         #
+#  You may obtain a copy of the License at                                  #
+#                                                                           #
+#      http://www.apache.org/licenses/LICENSE-2.0                           #
+#                                                                           #
+#  Unless required by applicable law or agreed to in writing, software      #
+#  distributed under the License is distributed on an "AS IS" BASIS,        #
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #
+#  See the License for the specific language governing permissions and      #
+#  limitations under the License.                                           #
+# ------------------------------------------------------------------------- #
+
+Area Units of Measure:
+
+WKID        : 109401
+Latest-WKID : 109401
+Macro       : PE_AU_HECTARE
+Name        : Hectare
+WKT         : AREAUNIT["Hectare", 10000.0]
+Description : Hectare (100 x 100 square meters)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109402
+Latest-WKID : 109402
+Macro       : PE_AU_ACRE
+Name        : Acre
+WKT         : AREAUNIT["Acre", 4046.8564224]
+Description : Acre (43560 square Intl Feet)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109403
+Latest-WKID : 109403
+Macro       : PE_AU_ACRE_US
+Name        : Acre_US
+WKT         : AREAUNIT["Acre_US", 4046.872609874252]
+Description : Acre (43560 square US Feet)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109404
+Latest-WKID : 109404
+Macro       : PE_AU_SQUARE_METER
+Name        : Square_Meter
+WKT         : AREAUNIT["Square_Meter", 1.0]
+Description : Square International meter
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109405
+Latest-WKID : 109405
+Macro       : PE_AU_SQUARE_FOOT
+Name        : Square_Foot
+WKT         : AREAUNIT["Square_Foot", 0.09290304]
+Description : Square International foot
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109406
+Latest-WKID : 109406
+Macro       : PE_AU_SQUARE_FOOT_US
+Name        : Square_Foot_US
+WKT         : AREAUNIT["Square_Foot_US", 0.09290341161327487]
+Description : Square US survey foot
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109407
+Latest-WKID : 109407
+Macro       : PE_AU_SQUARE_FOOT_CLARKE
+Name        : Square_Foot_Clarke
+WKT         : AREAUNIT["Square_Foot_Clarke", 0.09290137299531805]
+Description : Square Clarke's foot
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109408
+Latest-WKID : 109408
+Macro       : PE_AU_SQUARE_FATHOM
+Name        : Square_Fathom
+WKT         : AREAUNIT["Square_Fathom", 3.34450944]
+Description : Square Fathom
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109409
+Latest-WKID : 109409
+Macro       : PE_AU_SQUARE_NAUTICAL_MILE
+Name        : Square_Nautical_Mile
+WKT         : AREAUNIT["Square_Nautical_Mile", 3429904.0]
+Description : Square International nautical mile
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109410
+Latest-WKID : 109410
+Macro       : PE_AU_SQUARE_METER_GERMAN
+Name        : Square_Meter_German
+WKT         : AREAUNIT["Square_Meter_German", 1.000027193184865]
+Description : Square German legal meter
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109411
+Latest-WKID : 109411
+Macro       : PE_AU_SQUARE_CHAIN_US
+Name        : Square_Chain_US
+WKT         : AREAUNIT["Square_Chain_US", 404.6872609874253]
+Description : Square US survey chain
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109412
+Latest-WKID : 109412
+Macro       : PE_AU_SQUARE_LINK_US
+Name        : Square_Link_US
+WKT         : AREAUNIT["Square_Link_US", 0.04046872609874252]
+Description : Square US survey link
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109413
+Latest-WKID : 109413
+Macro       : PE_AU_SQUARE_MILE_US
+Name        : Square_Mile_US
+WKT         : AREAUNIT["Square_Mile_US", 2589998.470319522]
+Description : Square US survey mile
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109414
+Latest-WKID : 109414
+Macro       : PE_AU_SQUARE_KILOMETER
+Name        : Square_Kilometer
+WKT         : AREAUNIT["Square_Kilometer", 1000000.0]
+Description : Square Kilometer
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109415
+Latest-WKID : 109415
+Macro       : PE_AU_SQUARE_YARD_CLARKE
+Name        : Square_Yard_Clarke
+WKT         : AREAUNIT["Square_Yard_Clarke", 0.8361123569578626]
+Description : Square Yard (Clarke)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109416
+Latest-WKID : 109416
+Macro       : PE_AU_SQUARE_CHAIN_CLARKE
+Name        : Square_Chain_Clarke
+WKT         : AREAUNIT["Square_Chain_Clarke", 404.6783807676053]
+Description : Square Chain (Clarke)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109417
+Latest-WKID : 109417
+Macro       : PE_AU_SQUARE_LINK_CLARKE
+Name        : Square_Link_Clarke
+WKT         : AREAUNIT["Square_Link_Clarke", 0.04046783807676053]
+Description : Square Link (Clarke's ratio)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109418
+Latest-WKID : 109418
+Macro       : PE_AU_SQUARE_YARD_SEARS
+Name        : Square_Yard_Sears
+WKT         : AREAUNIT["Square_Yard_Sears", 0.8361244606523066]
+Description : Square Yard (Sears)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109419
+Latest-WKID : 109419
+Macro       : PE_AU_SQUARE_FOOT_SEARS
+Name        : Square_Foot_Sears
+WKT         : AREAUNIT["Square_Foot_Sears", 0.09290271785025629]
+Description : Square Sears' foot
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109420
+Latest-WKID : 109420
+Macro       : PE_AU_SQUARE_CHAIN_SEARS
+Name        : Square_Chain_Sears
+WKT         : AREAUNIT["Square_Chain_Sears", 404.6842389557165]
+Description : Square Chain (Sears)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109421
+Latest-WKID : 109421
+Macro       : PE_AU_SQUARE_LINK_SEARS
+Name        : Square_Link_Sears
+WKT         : AREAUNIT["Square_Link_Sears", 0.04046842389557164]
+Description : Square Link (Sears)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109422
+Latest-WKID : 109422
+Macro       : PE_AU_SQUARE_YARD_BENOIT_A
+Name        : Square_Yard_Benoit_1895_A
+WKT         : AREAUNIT["Square_Yard_Benoit_1895_A", 0.83612589696064]
+Description : Square Yard (Benoit 1895 A)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109423
+Latest-WKID : 109423
+Macro       : PE_AU_SQUARE_FOOT_BENOIT_A
+Name        : Square_Foot_Benoit_1895_A
+WKT         : AREAUNIT["Square_Foot_Benoit_1895_A", 0.0929028774400711]
+Description : Square Foot (Benoit 1895 A)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109424
+Latest-WKID : 109424
+Macro       : PE_AU_SQUARE_CHAIN_BENOIT_A
+Name        : Square_Chain_Benoit_1895_A
+WKT         : AREAUNIT["Square_Chain_Benoit_1895_A", 404.6849341289498]
+Description : Square Chain (Benoit 1895 A)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109425
+Latest-WKID : 109425
+Macro       : PE_AU_SQUARE_LINK_BENOIT_A
+Name        : Square_Link_Benoit_1895_A
+WKT         : AREAUNIT["Square_Link_Benoit_1895_A", 0.04046849341289498]
+Description : Square Link (Benoit 1895 A)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109426
+Latest-WKID : 109426
+Macro       : PE_AU_SQUARE_YARD_BENOIT_B
+Name        : Square_Yard_Benoit_1895_B
+WKT         : AREAUNIT["Square_Yard_Benoit_1895_B", 0.836125904805842]
+Description : Square Yard (Benoit 1895 B)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109427
+Latest-WKID : 109427
+Macro       : PE_AU_SQUARE_FOOT_BENOIT_B
+Name        : Square_Foot_Benoit_1895_B
+WKT         : AREAUNIT["Square_Foot_Benoit_1895_B", 0.09290287831176021]
+Description : Square Foot (Benoit 1895 B)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109428
+Latest-WKID : 109428
+Macro       : PE_AU_SQUARE_CHAIN_BENOIT_B
+Name        : Square_Chain_Benoit_1895_B
+WKT         : AREAUNIT["Square_Chain_Benoit_1895_B", 404.6849379260275]
+Description : Square Chain (Benoit 1895 B)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109429
+Latest-WKID : 109429
+Macro       : PE_AU_SQUARE_LINK_BENOIT_B
+Name        : Square_Link_Benoit_1895_B
+WKT         : AREAUNIT["Square_Link_Benoit_1895_B", 0.04046849379260275]
+Description : Square Link (Benoit 1895 B)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109430
+Latest-WKID : 109430
+Macro       : PE_AU_SQUARE_FOOT_1865
+Name        : Square_Foot_1865
+WKT         : AREAUNIT["Square_Foot_1865", 0.09290354800069446]
+Description : Square Foot (1865)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109431
+Latest-WKID : 109431
+Macro       : PE_AU_SQUARE_FOOT_INDIAN
+Name        : Square_Foot_Indian
+WKT         : AREAUNIT["Square_Foot_Indian", 0.09290274144751023]
+Description : Square Indian geodetic foot
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109432
+Latest-WKID : 109432
+Macro       : PE_AU_SQUARE_FOOT_INDIAN_1937
+Name        : Square_Foot_Indian_1937
+WKT         : AREAUNIT["Square_Foot_Indian_1937", 0.09290207073852812]
+Description : Square Indian foot (1937)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109433
+Latest-WKID : 109433
+Macro       : PE_AU_SQUARE_FOOT_INDIAN_1962
+Name        : Square_Foot_Indian_1962
+WKT         : AREAUNIT["Square_Foot_Indian_1962", 0.09290279616016]
+Description : Square Indian foot (1962)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109434
+Latest-WKID : 109434
+Macro       : PE_AU_SQUARE_FOOT_INDIAN_1975
+Name        : Square_Foot_Indian_1975
+WKT         : AREAUNIT["Square_Foot_Indian_1975", 0.09290273520025]
+Description : Square Indian foot (1975)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109435
+Latest-WKID : 109435
+Macro       : PE_AU_SQUARE_YARD_INDIAN
+Name        : Square_Yard_Indian
+WKT         : AREAUNIT["Square_Yard_Indian", 0.836124673027592]
+Description : Square Indian yard
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109436
+Latest-WKID : 109436
+Macro       : PE_AU_SQUARE_YARD_INDIAN_1937
+Name        : Square_Yard_Indian_1937
+WKT         : AREAUNIT["Square_Yard_Indian_1937", 0.8361186366467529]
+Description : Square Indian yard (1937)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109437
+Latest-WKID : 109437
+Macro       : PE_AU_SQUARE_YARD_INDIAN_1962
+Name        : Square_Yard_Indian_1962
+WKT         : AREAUNIT["Square_Yard_Indian_1962", 0.8361251654414399]
+Description : Square Indian yard (1962)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109438
+Latest-WKID : 109438
+Macro       : PE_AU_SQUARE_YARD_INDIAN_1975
+Name        : Square_Yard_Indian_1975
+WKT         : AREAUNIT["Square_Yard_Indian_1975", 0.83612461680225]
+Description : Square Indian yard (1975)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109439
+Latest-WKID : 109439
+Macro       : PE_AU_SQUARE_MILE_STATUTE
+Name        : Square_Statute_Mile
+WKT         : AREAUNIT["Square_Statute_Mile", 2589988.110336]
+Description : Square Statute mile
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109440
+Latest-WKID : 109440
+Macro       : PE_AU_SQUARE_FOOT_GOLD_COAST
+Name        : Square_Foot_Gold_Coast
+WKT         : AREAUNIT["Square_Foot_Gold_Coast", 0.09290286332673177]
+Description : Square Gold Coast Foot
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109441
+Latest-WKID : 109441
+Macro       : PE_AU_SQUARE_FOOT_BRITISH_1936
+Name        : Square_Foot_British_1936
+WKT         : AREAUNIT["Square_Foot_British_1936", 0.09290349665192114]
+Description : Square British Foot (1936)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109442
+Latest-WKID : 109442
+Macro       : PE_AU_SQUARE_YARD
+Name        : Square_Yard
+WKT         : AREAUNIT["Square_Yard", 0.83612736]
+Description : Square International Yard
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109443
+Latest-WKID : 109443
+Macro       : PE_AU_SQUARE_YARD_US
+Name        : Square_Yard_US
+WKT         : AREAUNIT["Square_Yard_US", 0.8361307045194736]
+Description : Square US survey yard
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109444
+Latest-WKID : 109444
+Macro       : PE_AU_SQUARE_CHAIN
+Name        : Square_Chain
+WKT         : AREAUNIT["Square_Chain", 404.68564224]
+Description : Square International Chain
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109445
+Latest-WKID : 109445
+Macro       : PE_AU_SQUARE_LINK
+Name        : Square_Link
+WKT         : AREAUNIT["Square_Link", 0.040468564224]
+Description : Square International Link
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109446
+Latest-WKID : 109446
+Macro       : PE_AU_SQUARE_YARD_SEARS_1922_TRUNC
+Name        : Square_Yard_Sears_1922_Truncated
+WKT         : AREAUNIT["Square_Yard_Sears_1922_Truncated", 0.836123702404]
+Description : Square Yard (Sears 1922 Truncated)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109447
+Latest-WKID : 109447
+Macro       : PE_AU_SQUARE_FOOT_SEARS_1922_TRUNC
+Name        : Square_Foot_Sears_1922_Truncated
+WKT         : AREAUNIT["Square_Foot_Sears_1922_Truncated", 0.09290263360044447]
+Description : Square Foot (Sears 1922 Truncated)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109448
+Latest-WKID : 109448
+Macro       : PE_AU_SQUARE_CHAIN_SEARS_1922_TRUNC
+Name        : Square_Chain_Sears_1922_Truncated
+WKT         : AREAUNIT["Square_Chain_Sears_1922_Truncated", 404.683871963536]
+Description : Square Chain (Sears 1922 Truncated)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109449
+Latest-WKID : 109449
+Macro       : PE_AU_SQUARE_LINK_SEARS_1922_TRUNC
+Name        : Square_Link_Sears_1922_Truncated
+WKT         : AREAUNIT["Square_Link_Sears_1922_Truncated", 0.0404683871963536]
+Description : Square Link (Sears 1922 Truncated)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109450
+Latest-WKID : 109450
+Macro       : PE_AU_SQUARE_DECIMETER
+Name        : Square_Decimeter
+WKT         : AREAUNIT["Square_Decimeter", 0.01]
+Description : Square Decimeter
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109451
+Latest-WKID : 109451
+Macro       : PE_AU_SQUARE_CENTIMETER
+Name        : Square_Centimeter
+WKT         : AREAUNIT["Square_Centimeter", 0.0001]
+Description : Square Centimeter
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109452
+Latest-WKID : 109452
+Macro       : PE_AU_SQUARE_MILLIMETER
+Name        : Square_Millimeter
+WKT         : AREAUNIT["Square_Millimeter", 0.000001]
+Description : Square Millimeter
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109453
+Latest-WKID : 109453
+Macro       : PE_AU_SQUARE_INCH
+Name        : Square_Inch
+WKT         : AREAUNIT["Square_Inch", 0.00064516]
+Description : Square International inch
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109454
+Latest-WKID : 109454
+Macro       : PE_AU_SQUARE_INCH_US
+Name        : Square_Inch_US
+WKT         : AREAUNIT["Square_Inch_US", 0.0006451625806477421]
+Description : Square US survey inch
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109455
+Latest-WKID : 109455
+Macro       : PE_AU_SQUARE_ROD
+Name        : Square_Rod
+WKT         : AREAUNIT["Square_Rod", 25.29285264]
+Description : Square International rod
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109456
+Latest-WKID : 109456
+Macro       : PE_AU_SQUARE_ROD_US
+Name        : Square_Rod_US
+WKT         : AREAUNIT["Square_Rod_US", 25.29295381171408]
+Description : Square US survey rod
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109457
+Latest-WKID : 109457
+Macro       : PE_AU_SQUARE_NAUTICAL_MILE_US
+Name        : Square_Nautical_Mile_US
+WKT         : AREAUNIT["Square_Nautical_Mile_US", 3434528.149504]
+Description : Square US nautical mile (pre-1954)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109458
+Latest-WKID : 109458
+Macro       : PE_AU_SQUARE_NAUTICAL_MILE_UK
+Name        : Square_Nautical_Mile_UK
+WKT         : AREAUNIT["Square_Nautical_Mile_UK", 3434290.937856]
+Description : Square UK nautical mile (pre-1970)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109459
+Latest-WKID : 109459
+Macro       : PE_AU_SQUARE_SMOOT
+Name        : Square_Smoot
+WKT         : AREAUNIT["Square_Smoot", 2.89612324]
+Description : Square Height of Oliver Smoot, used to measure the Harvard
+              Bridge
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109460
+Latest-WKID : 109460
+Macro       : PE_AU_SQUARE_KM50
+Name        : Square_50_Kilometers
+WKT         : AREAUNIT["Square_50_Kilometers", 2500000000.0]
+Description : Square 50 kilometer length
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109461
+Latest-WKID : 109461
+Macro       : PE_AU_SQUARE_KM150
+Name        : Square_150_Kilometers
+WKT         : AREAUNIT["Square_150_Kilometers", 22500000000.0]
+Description : Square 150 kilometer length
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109462
+Latest-WKID : 109462
+Macro       : PE_AU_SQUARE_VARA_TX
+Name        : Square_Vara_TX
+WKT         : AREAUNIT["Square_Vara_TX", 0.7168473118308245]
+Description : Square Texas vara
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109463
+Latest-WKID : 109463
+Macro       : PE_AU_ARE
+Name        : Are
+WKT         : AREAUNIT["Are", 100.0]
+Description : Are (100 square meters)
+Authority   : Esri
+Version     : 10.1.1
+Deprecated  : no
+
+WKID        : 109464
+Latest-WKID : 109464
+Macro       : PE_AU_SQUARE_DTP_POINT
+Name        : Square_Point
+WKT         : AREAUNIT["Square_Point", 1.244521604938271e-07]
+Description : Square Desktop Publishing Point
+Authority   : Esri
+Version     : 10.2.0
+Deprecated  : no
+
+WKID        : 109465
+Latest-WKID : 109465
+Macro       : PE_AU_SQUARE_MICROMETER
+Name        : Square_Micrometer
+WKT         : AREAUNIT["Square_Micrometer", 1e-12]
+Description : Square micrometer
+Authority   : Esri
+Version     : 10.3.1
+Deprecated  : no
+
+WKID        : 109466
+Latest-WKID : 109466
+Macro       : PE_AU_SQUARE_NANOMETER
+Name        : Square_Nanometer
+WKT         : AREAUNIT["Square_Nanometer", 1e-18]
+Description : Square nanometer
+Authority   : Esri
+Version     : 10.3.1
+Deprecated  : no

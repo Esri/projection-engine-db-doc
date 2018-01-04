@@ -1,0 +1,151 @@
+#------------------------------------------------------------------------------------------------------
+# HVCOORDSYS synonym table
+#
+# syntax: [HVCOORDSYS,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
+#------------------------------------------------------------------------------------------------------
+
+"Amersfoort / RD New + NAP height", \
+   "HVC_Amersfoort_RD_New_and_NAP_Height", \
+   FALSE, \
+   "EPSG"
+
+"DB_REF / 3-degree Gauss-Kruger zone 2 (E-N) + DHHN92 height", \
+   "HVC_DB_REF_3_Degree_GK_Zone_2_E-N_and_DHHN92", \
+   FALSE, \
+   "EPSG"
+
+"DB_REF / 3-degree Gauss-Kruger zone 3 (E-N) + DHHN92 height", \
+   "HVC_DB_REF_3_Degree_GK_Zone_3_E-N_and_DHHN92", \
+   FALSE, \
+   "EPSG"
+
+"DB_REF / 3-degree Gauss-Kruger zone 4 (E-N) + DHHN92 height", \
+   "HVC_DB_REF_3_Degree_GK_Zone_4_E-N_and_DHHN92", \
+   FALSE, \
+   "EPSG"
+
+"DB_REF / 3-degree Gauss-Kruger zone 5 (E-N) + DHHN92 height", \
+   "HVC_DB_REF_3_Degree_GK_Zone_5_E-N_and_DHHN92", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + EVRF2000 height", \
+   "HVC_ETRF89_and_EVRF2000_Height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / Kp2000 Bornholm + DVR90 height", \
+   "HVC_ETRF89_KP2000_Bornholm_and_DVR90_Height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / Kp2000 Jutland + DVR90 height", \
+   "HVC_ETRF89_KP2000_Jutland_and_DVR90_Height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / Kp2000 Zealand + DVR90 height", \
+   "HVC_ETRF89_KP2000_Zealand_and_DVR90_Height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / UTM zone 31N + DHHN92 height", \
+   "HVC_ETRS_1989_UTM_Zone_31N_and_DHHN92_Height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / UTM zone 32N + DHHN92 height", \
+   "HVC_ETRS_1989_UTM_Zone_32N_and_DHHN92_Height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / UTM zone 32N + DVR90 height", \
+   "HVC_ETRF89_UTM_Zone_32N_and_DVR90_Height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / UTM zone 33N + DHHN92 height", \
+   "HVC_ETRS_1989_UTM_Zone_33N_and_DHHN92_Height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / UTM zone 33N + DVR90 height", \
+   "HVC_ETRF89_UTM_Zone_33N_and_DVR90_Height", \
+   FALSE, \
+   "EPSG"
+
+"FEH2010 / Fehmarnbelt TM + FCSVR10 height", \
+   "HVC_FEH2010_Fehmarnbelt_TM_and_FCSVR10_Height", \
+   FALSE, \
+   "EPSG"
+
+"NAD27 + NGVD29 height", \
+   "HVC_NAD27_and_NGVD29_Height", \
+   FALSE, \
+   "EPSG"
+
+"NAD27 / Texas North + NGVD29 height", \
+   "HVC_NAD27_Texas_North_and_NGVD29_Height", \
+   FALSE, \
+   "EPSG"
+
+"NTF (Paris) + NGF IGN69 height", \
+   "HVC_NTF_Paris_and_NGF_IGN69_Height", \
+   FALSE, \
+   "EPSG"
+
+"NTF (Paris) / Lambert zone I + NGF-IGN69 height", \
+   "HVC_NTF_Paris_Lambert_Zone_I_and_NGF_IGN69_Height", \
+   FALSE, \
+   "EPSG"
+
+"NTF (Paris) / Lambert zone II + NGF-IGN69 height", \
+   "HVC_NTF_Paris_Lambert_Zone_II_and_NGF_IGN69_Height", \
+   FALSE, \
+   "EPSG"
+
+"NTF (Paris) / Lambert zone II + NGF Lallemand height", \
+   "HVC_NTF_Paris_Lambert_Zone_II_and_NGF_Lallemand_Height", \
+   FALSE, \
+   "EPSG"
+
+"NTF (Paris) / Lambert zone III + NGF-IGN69 height", \
+   "HVC_NTF_Paris_Lambert_Zone_III_and_NGF_IGN69_Height", \
+   FALSE, \
+   "EPSG"
+
+"NTF (Paris) / Lambert zone IV + NGF-IGN78 height", \
+   "HVC_NTF_Paris_Lambert_Zone_IV_and_NGF_IGN78_Height", \
+   FALSE, \
+   "EPSG"
+
+"OSGB 1936 / British National Grid + ODN height", \
+   "HVC_OSGB36_British_National_Grid_and_ODN_Height", \
+   FALSE, \
+   "EPSG"
+
+"PSHD93", \
+   "HVC_PSD93_and_PHD93", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 / Lambert-93 + NGF-IGN69 height", \
+   "HVC_RGF_1993_Lambert_93_and_NGF_IGN69_Height", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 / Lambert-93 + NGF-IGN78 height", \
+   "HVC_RGF_1993_Lambert_93_and_NGF_IGN78_Height", \
+   FALSE, \
+   "EPSG"
+
+"RT90 + RH70 height", \
+   "HVC_RT90_and_RH70_Height", \
+   FALSE, \
+   "EPSG"
+
+"Tokyo + JSLD69 height", \
+   "HVC_Tokyo_and_JSLD_Height", \
+   FALSE, \
+   "EPSG"
+

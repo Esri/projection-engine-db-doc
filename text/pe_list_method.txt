@@ -1,0 +1,167 @@
+# ------------------------------------------------------------------------- #
+#  Copyright 1999-2018 Esri Inc.                                            #
+#                                                                           #
+#  Licensed under the Apache License, Version 2.0 (the "License");          #
+#  you may not use this file except in compliance with the License.         #
+#  You may obtain a copy of the License at                                  #
+#                                                                           #
+#      http://www.apache.org/licenses/LICENSE-2.0                           #
+#                                                                           #
+#  Unless required by applicable law or agreed to in writing, software      #
+#  distributed under the License is distributed on an "AS IS" BASIS,        #
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #
+#  See the License for the specific language governing permissions and      #
+#  limitations under the License.                                           #
+# ------------------------------------------------------------------------- #
+
+Geographic Transformation Methods:
+
+WKID        : 9601
+Latest-WKID : 9601
+Macro       : PE_MTH_LONGITUDE_ROTATION
+Name        : Longitude_Rotation
+WKT         : METHOD["Longitude_Rotation"]
+Description : Longitude Rotation
+Authority   : Esri
+Version     : 4.0.0
+Deprecated  : no
+
+WKID        : 9603
+Latest-WKID : 9603
+Macro       : PE_MTH_GEOCENTRIC_TRANSLATION
+Name        : Geocentric_Translation
+WKT         : METHOD["Geocentric_Translation"]
+Description : Geocentric Translation (3-parameter)
+Authority   : Esri
+Version     : 3.0.1
+Deprecated  : no
+
+WKID        : 9604
+Latest-WKID : 9604
+Macro       : PE_MTH_MOLODENSKY
+Name        : Molodensky
+WKT         : METHOD["Molodensky"]
+Description : Molodensky
+Authority   : Esri
+Version     : 3.0.1
+Deprecated  : no
+
+WKID        : 9605
+Latest-WKID : 9605
+Macro       : PE_MTH_MOLODENSKY_ABRIDGED
+Name        : Molodensky_Abridged
+WKT         : METHOD["Molodensky_Abridged"]
+Description : Abridged Molodensky
+Authority   : Esri
+Version     : 3.0.1
+Deprecated  : no
+
+WKID        : 9606
+Latest-WKID : 9606
+Macro       : PE_MTH_POSITION_VECTOR
+Name        : Position_Vector
+WKT         : METHOD["Position_Vector"]
+Description : Position Vector (7-parameter)
+Authority   : Esri
+Version     : 3.0.1
+Deprecated  : no
+
+WKID        : 9607
+Latest-WKID : 9607
+Macro       : PE_MTH_COORDINATE_FRAME
+Name        : Coordinate_Frame
+WKT         : METHOD["Coordinate_Frame"]
+Description : Coordinate Frame (7-parameter)
+Authority   : Esri
+Version     : 3.0.1
+Deprecated  : no
+
+WKID        : 9613
+Latest-WKID : 9613
+Macro       : PE_MTH_NADCON
+Name        : NADCON
+WKT         : METHOD["NADCON"]
+Description : NADCON
+Authority   : Esri
+Version     : 4.0.0
+Deprecated  : no
+
+WKID        : 9615
+Latest-WKID : 9615
+Macro       : PE_MTH_NTV2
+Name        : NTv2
+WKT         : METHOD["NTv2"]
+Description : NTv2
+Authority   : Esri
+Version     : 8.1.0
+Deprecated  : no
+
+WKID        : 9619
+Latest-WKID : 9619
+Macro       : PE_MTH_GEOGRAPHIC_2D_OFFSET
+Name        : Geographic_2D_Offset
+WKT         : METHOD["Geographic_2D_Offset"]
+Description : Geographic 2D Offset
+Authority   : Esri
+Version     : 10.0.0
+Deprecated  : no
+
+WKID        : 9636
+Latest-WKID : 9636
+Macro       : PE_MTH_MOLODENSKY_BADEKAS
+Name        : Molodensky_Badekas
+WKT         : METHOD["Molodensky_Badekas"]
+Description : Molodensky-Badekas
+Authority   : Esri
+Version     : 9.0.0
+Deprecated  : no
+
+WKID        : 109600
+Latest-WKID : 109600
+Macro       : PE_MTH_NULL
+Name        : Null
+WKT         : METHOD["Null"]
+Description : NULL transformation
+Authority   : Esri
+Version     : 10.0.0
+Deprecated  : no
+
+WKID        : 109601
+Latest-WKID : 109601
+Macro       : PE_MTH_UNIT_CHANGE
+Name        : Unit_Change
+WKT         : METHOD["Unit_Change"]
+Description : Units change only
+Authority   : Esri
+Version     : 10.0.0
+Deprecated  : no
+
+WKID        : 109607
+Latest-WKID : 109607
+Macro       : PE_MTH_BURSA_WOLF
+Name        : Bursa_Wolf
+WKT         : METHOD["Bursa_Wolf"]
+Description : Bursa-Wolf
+Authority   : Esri
+Version     : 3.0.1
+Deprecated  : no
+
+WKID        : 109613
+Latest-WKID : 109613
+Macro       : PE_MTH_HARN
+Name        : HARN
+WKT         : METHOD["HARN"]
+Description : HARN (HPGN)
+Authority   : Esri
+Version     : 4.0.0
+Deprecated  : no
+
+WKID        : 109614
+Latest-WKID : 109614
+Macro       : PE_MTH_GEOCON
+Name        : GEOCON
+WKT         : METHOD["GEOCON"]
+Description : GEOCON transformation for NAD83
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no

@@ -1,0 +1,687 @@
+# ------------------------------------------------------------------------- #
+#  Copyright 1999-2018 Esri Inc.                                            #
+#                                                                           #
+#  Licensed under the Apache License, Version 2.0 (the "License");          #
+#  you may not use this file except in compliance with the License.         #
+#  You may obtain a copy of the License at                                  #
+#                                                                           #
+#      http://www.apache.org/licenses/LICENSE-2.0                           #
+#                                                                           #
+#  Unless required by applicable law or agreed to in writing, software      #
+#  distributed under the License is distributed on an "AS IS" BASIS,        #
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #
+#  See the License for the specific language governing permissions and      #
+#  limitations under the License.                                           #
+# ------------------------------------------------------------------------- #
+
+Linear Units of Measure:
+
+WKID        : 1025
+Latest-WKID : 1025
+Macro       : PE_U_MILLIMETER
+Name        : Millimeter
+WKT         : UNIT["Millimeter", 0.001]
+Description : Millimeter
+Authority   : EPSG
+Version     : 8.8(10.2.1)
+Deprecated  : no
+
+WKID        : 1033
+Latest-WKID : 1033
+Macro       : PE_U_CENTIMETER
+Name        : Centimeter
+WKT         : UNIT["Centimeter", 0.01]
+Description : Centimeter
+Authority   : EPSG
+Version     : 8.8(10.2.1)
+Deprecated  : no
+
+WKID        : 9001
+Latest-WKID : 9001
+Macro       : PE_U_METER
+Name        : Meter
+WKT         : UNIT["Meter", 1.0]
+Description : International meter
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9002
+Latest-WKID : 9002
+Macro       : PE_U_FOOT
+Name        : Foot
+WKT         : UNIT["Foot", 0.3048]
+Description : International foot
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9003
+Latest-WKID : 9003
+Macro       : PE_U_FOOT_US
+Name        : Foot_US
+WKT         : UNIT["Foot_US", 0.3048006096012192]
+Description : US survey foot
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9005
+Latest-WKID : 9005
+Macro       : PE_U_FOOT_CLARKE
+Name        : Foot_Clarke
+WKT         : UNIT["Foot_Clarke", 0.3047972654]
+Description : Clarke's foot
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9014
+Latest-WKID : 9014
+Macro       : PE_U_FATHOM
+Name        : Fathom
+WKT         : UNIT["Fathom", 1.8288]
+Description : Fathom
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9030
+Latest-WKID : 9030
+Macro       : PE_U_NAUTICAL_MILE
+Name        : Nautical_Mile
+WKT         : UNIT["Nautical_Mile", 1852.0]
+Description : International nautical mile
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9031
+Latest-WKID : 9031
+Macro       : PE_U_METER_GERMAN
+Name        : Meter_German
+WKT         : UNIT["Meter_German", 1.0000135965]
+Description : German legal meter
+Authority   : EPSG
+Version     : 8.8(4.0.0)
+Deprecated  : no
+
+WKID        : 9033
+Latest-WKID : 9033
+Macro       : PE_U_CHAIN_US
+Name        : Chain_US
+WKT         : UNIT["Chain_US", 20.11684023368047]
+Description : US survey chain
+Authority   : EPSG
+Version     : 8.8(8.0.1)
+Deprecated  : no
+
+WKID        : 9034
+Latest-WKID : 9034
+Macro       : PE_U_LINK_US
+Name        : Link_US
+WKT         : UNIT["Link_US", 0.2011684023368047]
+Description : US survey link
+Authority   : EPSG
+Version     : 8.8(8.0.1)
+Deprecated  : no
+
+WKID        : 9035
+Latest-WKID : 9035
+Macro       : PE_U_MILE_US
+Name        : Mile_US
+WKT         : UNIT["Mile_US", 1609.347218694438]
+Description : US survey mile
+Authority   : EPSG
+Version     : 8.8(8.0.1)
+Deprecated  : no
+
+WKID        : 9036
+Latest-WKID : 9036
+Macro       : PE_U_KILOMETER
+Name        : Kilometer
+WKT         : UNIT["Kilometer", 1000.0]
+Description : Kilometer
+Authority   : EPSG
+Version     : 8.8(8.0.1)
+Deprecated  : no
+
+WKID        : 9037
+Latest-WKID : 9037
+Macro       : PE_U_YARD_CLARKE
+Name        : Yard_Clarke
+WKT         : UNIT["Yard_Clarke", 0.9143917962]
+Description : Yard (Clarke)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9038
+Latest-WKID : 9038
+Macro       : PE_U_CHAIN_CLARKE
+Name        : Chain_Clarke
+WKT         : UNIT["Chain_Clarke", 20.1166195164]
+Description : Chain (Clarke)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9039
+Latest-WKID : 9039
+Macro       : PE_U_LINK_CLARKE
+Name        : Link_Clarke
+WKT         : UNIT["Link_Clarke", 0.201166195164]
+Description : Link (Clarke's ratio)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9040
+Latest-WKID : 9040
+Macro       : PE_U_YARD_SEARS
+Name        : Yard_Sears
+WKT         : UNIT["Yard_Sears", 0.9143984146160287]
+Description : Yard (Sears)
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9041
+Latest-WKID : 9041
+Macro       : PE_U_FOOT_SEARS
+Name        : Foot_Sears
+WKT         : UNIT["Foot_Sears", 0.3047994715386762]
+Description : Sears' foot
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9042
+Latest-WKID : 9042
+Macro       : PE_U_CHAIN_SEARS
+Name        : Chain_Sears
+WKT         : UNIT["Chain_Sears", 20.11676512155263]
+Description : Chain (Sears)
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9043
+Latest-WKID : 9043
+Macro       : PE_U_LINK_SEARS
+Name        : Link_Sears
+WKT         : UNIT["Link_Sears", 0.2011676512155263]
+Description : Link (Sears)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9050
+Latest-WKID : 9050
+Macro       : PE_U_YARD_BENOIT_A
+Name        : Yard_Benoit_1895_A
+WKT         : UNIT["Yard_Benoit_1895_A", 0.9143992]
+Description : Yard (Benoit 1895 A)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9051
+Latest-WKID : 9051
+Macro       : PE_U_FOOT_BENOIT_A
+Name        : Foot_Benoit_1895_A
+WKT         : UNIT["Foot_Benoit_1895_A", 0.3047997333333333]
+Description : Foot (Benoit 1895 A)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9052
+Latest-WKID : 9052
+Macro       : PE_U_CHAIN_BENOIT_A
+Name        : Chain_Benoit_1895_A
+WKT         : UNIT["Chain_Benoit_1895_A", 20.1167824]
+Description : Chain (Benoit 1895 A)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9053
+Latest-WKID : 9053
+Macro       : PE_U_LINK_BENOIT_A
+Name        : Link_Benoit_1895_A
+WKT         : UNIT["Link_Benoit_1895_A", 0.201167824]
+Description : Link (Benoit 1895 A)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9060
+Latest-WKID : 9060
+Macro       : PE_U_YARD_BENOIT_B
+Name        : Yard_Benoit_1895_B
+WKT         : UNIT["Yard_Benoit_1895_B", 0.9143992042898124]
+Description : Yard (Benoit 1895 B)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9061
+Latest-WKID : 9061
+Macro       : PE_U_FOOT_BENOIT_B
+Name        : Foot_Benoit_1895_B
+WKT         : UNIT["Foot_Benoit_1895_B", 0.3047997347632708]
+Description : Foot (Benoit 1895 B)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9062
+Latest-WKID : 9062
+Macro       : PE_U_CHAIN_BENOIT_B
+Name        : Chain_Benoit_1895_B
+WKT         : UNIT["Chain_Benoit_1895_B", 20.11678249437587]
+Description : Chain (Benoit 1895 B)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9063
+Latest-WKID : 9063
+Macro       : PE_U_LINK_BENOIT_B
+Name        : Link_Benoit_1895_B
+WKT         : UNIT["Link_Benoit_1895_B", 0.2011678249437587]
+Description : Link (Benoit 1895 B)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9070
+Latest-WKID : 9070
+Macro       : PE_U_FOOT_1865
+Name        : Foot_1865
+WKT         : UNIT["Foot_1865", 0.3048008333333334]
+Description : Foot (1865)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9080
+Latest-WKID : 9080
+Macro       : PE_U_FOOT_INDIAN
+Name        : Foot_Indian
+WKT         : UNIT["Foot_Indian", 0.3047995102481469]
+Description : Indian geodetic foot
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9081
+Latest-WKID : 9081
+Macro       : PE_U_FOOT_INDIAN_1937
+Name        : Foot_Indian_1937
+WKT         : UNIT["Foot_Indian_1937", 0.30479841]
+Description : Indian foot (1937)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9082
+Latest-WKID : 9082
+Macro       : PE_U_FOOT_INDIAN_1962
+Name        : Foot_Indian_1962
+WKT         : UNIT["Foot_Indian_1962", 0.3047996]
+Description : Indian foot (1962)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9083
+Latest-WKID : 9083
+Macro       : PE_U_FOOT_INDIAN_1975
+Name        : Foot_Indian_1975
+WKT         : UNIT["Foot_Indian_1975", 0.3047995]
+Description : Indian foot (1975)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9084
+Latest-WKID : 9084
+Macro       : PE_U_YARD_INDIAN
+Name        : Yard_Indian
+WKT         : UNIT["Yard_Indian", 0.9143985307444408]
+Description : Indian yard
+Authority   : EPSG
+Version     : 8.8(3.0.1)
+Deprecated  : no
+
+WKID        : 9085
+Latest-WKID : 9085
+Macro       : PE_U_YARD_INDIAN_1937
+Name        : Yard_Indian_1937
+WKT         : UNIT["Yard_Indian_1937", 0.91439523]
+Description : Indian yard (1937)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9086
+Latest-WKID : 9086
+Macro       : PE_U_YARD_INDIAN_1962
+Name        : Yard_Indian_1962
+WKT         : UNIT["Yard_Indian_1962", 0.9143988]
+Description : Indian yard (1962)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9087
+Latest-WKID : 9087
+Macro       : PE_U_YARD_INDIAN_1975
+Name        : Yard_Indian_1975
+WKT         : UNIT["Yard_Indian_1975", 0.9143985]
+Description : Indian yard (1975)
+Authority   : EPSG
+Version     : 8.8(8.1.0)
+Deprecated  : no
+
+WKID        : 9093
+Latest-WKID : 9093
+Macro       : PE_U_MILE_STATUTE
+Name        : Statute_Mile
+WKT         : UNIT["Statute_Mile", 1609.344]
+Description : Statute mile
+Authority   : EPSG
+Version     : 8.8(8.1.2)
+Deprecated  : no
+
+WKID        : 9094
+Latest-WKID : 9094
+Macro       : PE_U_FOOT_GOLD_COAST
+Name        : Foot_Gold_Coast
+WKT         : UNIT["Foot_Gold_Coast", 0.3047997101815088]
+Description : Gold Coast Foot
+Authority   : EPSG
+Version     : 8.8(8.1.2)
+Deprecated  : no
+
+WKID        : 9095
+Latest-WKID : 9095
+Macro       : PE_U_FOOT_BRITISH_1936
+Name        : Foot_British_1936
+WKT         : UNIT["Foot_British_1936", 0.3048007491]
+Description : British Foot (1936)
+Authority   : EPSG
+Version     : 8.8(9.0.0)
+Deprecated  : no
+
+WKID        : 9096
+Latest-WKID : 9096
+Macro       : PE_U_YARD
+Name        : Yard
+WKT         : UNIT["Yard", 0.9144]
+Description : International Yard
+Authority   : EPSG
+Version     : 8.8(10.0.0)
+Deprecated  : no
+
+WKID        : 9097
+Latest-WKID : 9097
+Macro       : PE_U_CHAIN
+Name        : Chain
+WKT         : UNIT["Chain", 20.1168]
+Description : International Chain
+Authority   : EPSG
+Version     : 8.8(10.0.0)
+Deprecated  : no
+
+WKID        : 9098
+Latest-WKID : 9098
+Macro       : PE_U_LINK
+Name        : Link
+WKT         : UNIT["Link", 0.201168]
+Description : International Link
+Authority   : EPSG
+Version     : 8.8(10.0.0)
+Deprecated  : no
+
+WKID        : 9099
+Latest-WKID : 9099
+Macro       : PE_U_YARD_SEARS_1922_TRUNC
+Name        : Yard_Sears_1922_Truncated
+WKT         : UNIT["Yard_Sears_1922_Truncated", 0.914398]
+Description : Yard (Sears 1922 Truncated)
+Authority   : EPSG
+Version     : 8.8(10.0.0)
+Deprecated  : no
+
+WKID        : 9300
+Latest-WKID : 9300
+Macro       : PE_U_FOOT_SEARS_1922_TRUNC
+Name        : Foot_Sears_1922_Truncated
+WKT         : UNIT["Foot_Sears_1922_Truncated", 0.3047993333333334]
+Description : Foot (Sears 1922 Truncated)
+Authority   : EPSG
+Version     : 8.8(10.0.0)
+Deprecated  : no
+
+WKID        : 9301
+Latest-WKID : 9301
+Macro       : PE_U_CHAIN_SEARS_1922_TRUNC
+Name        : Chain_Sears_1922_Truncated
+WKT         : UNIT["Chain_Sears_1922_Truncated", 20.116756]
+Description : Chain (Sears 1922 Truncated)
+Authority   : EPSG
+Version     : 8.8(10.0.0)
+Deprecated  : no
+
+WKID        : 9302
+Latest-WKID : 9302
+Macro       : PE_U_LINK_SEARS_1922_TRUNC
+Name        : Link_Sears_1922_Truncated
+WKT         : UNIT["Link_Sears_1922_Truncated", 0.20116756]
+Description : Link (Sears 1922 Truncated)
+Authority   : EPSG
+Version     : 8.8(10.0.0)
+Deprecated  : no
+
+WKID        : 109001
+Latest-WKID : 9096
+Macro       : PE_U_YARD
+Name        : Yard
+WKT         : UNIT["Yard", 0.9144]
+Description : International Yard
+Authority   : Esri
+Version     : 9.0.0
+Deprecated  : yes
+
+WKID        : 109002
+Latest-WKID : 109002
+Macro       : PE_U_YARD_US
+Name        : Yard_US
+WKT         : UNIT["Yard_US", 0.9144018288036576]
+Description : US survey yard
+Authority   : Esri
+Version     : 9.0.0
+Deprecated  : no
+
+WKID        : 109003
+Latest-WKID : 9097
+Macro       : PE_U_CHAIN
+Name        : Chain
+WKT         : UNIT["Chain", 20.1168]
+Description : International Chain
+Authority   : Esri
+Version     : 9.0.0
+Deprecated  : yes
+
+WKID        : 109004
+Latest-WKID : 9098
+Macro       : PE_U_LINK
+Name        : Link
+WKT         : UNIT["Link", 0.201168]
+Description : International Link
+Authority   : Esri
+Version     : 3.0.1
+Deprecated  : yes
+
+WKID        : 109005
+Latest-WKID : 109005
+Macro       : PE_U_DECIMETER
+Name        : Decimeter
+WKT         : UNIT["Decimeter", 0.1]
+Description : Decimeter
+Authority   : Esri
+Version     : 9.2.0
+Deprecated  : no
+
+WKID        : 109006
+Latest-WKID : 1033
+Macro       : PE_U_CENTIMETER
+Name        : Centimeter
+WKT         : UNIT["Centimeter", 0.01]
+Description : Centimeter
+Authority   : Esri
+Version     : 9.0.0
+Deprecated  : yes
+
+WKID        : 109007
+Latest-WKID : 1025
+Macro       : PE_U_MILLIMETER
+Name        : Millimeter
+WKT         : UNIT["Millimeter", 0.001]
+Description : Millimeter
+Authority   : Esri
+Version     : 9.0.0
+Deprecated  : yes
+
+WKID        : 109008
+Latest-WKID : 109008
+Macro       : PE_U_INCH
+Name        : Inch
+WKT         : UNIT["Inch", 0.0254]
+Description : International inch
+Authority   : Esri
+Version     : 9.2.0
+Deprecated  : no
+
+WKID        : 109009
+Latest-WKID : 109009
+Macro       : PE_U_INCH_US
+Name        : Inch_US
+WKT         : UNIT["Inch_US", 0.0254000508001016]
+Description : US survey inch
+Authority   : Esri
+Version     : 9.2.0
+Deprecated  : no
+
+WKID        : 109010
+Latest-WKID : 109010
+Macro       : PE_U_ROD
+Name        : Rod
+WKT         : UNIT["Rod", 5.0292]
+Description : International rod
+Authority   : Esri
+Version     : 9.2.0
+Deprecated  : no
+
+WKID        : 109011
+Latest-WKID : 109011
+Macro       : PE_U_ROD_US
+Name        : Rod_US
+WKT         : UNIT["Rod_US", 5.029210058420118]
+Description : US survey rod
+Authority   : Esri
+Version     : 9.2.0
+Deprecated  : no
+
+WKID        : 109012
+Latest-WKID : 109012
+Macro       : PE_U_NAUTICAL_MILE_US
+Name        : Nautical_Mile_US
+WKT         : UNIT["Nautical_Mile_US", 1853.248]
+Description : US nautical mile (pre-1954)
+Authority   : Esri
+Version     : 9.2.0
+Deprecated  : no
+
+WKID        : 109013
+Latest-WKID : 109013
+Macro       : PE_U_NAUTICAL_MILE_UK
+Name        : Nautical_Mile_UK
+WKT         : UNIT["Nautical_Mile_UK", 1853.184]
+Description : UK nautical mile (pre-1970)
+Authority   : Esri
+Version     : 9.2.0
+Deprecated  : no
+
+WKID        : 109014
+Latest-WKID : 109014
+Macro       : PE_U_SMOOT
+Name        : Smoot
+WKT         : UNIT["Smoot", 1.7018]
+Description : Height of Oliver Smoot, used to measure the Harvard Bridge
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109015
+Latest-WKID : 109015
+Macro       : PE_U_VARA_TX
+Name        : Vara_TX
+WKT         : UNIT["Vara_TX", 0.8466683600033867]
+Description : Old Spanish unit of distance used in Texas (33 1/3 US inches)
+Authority   : Esri
+Version     : 10.1.0
+Deprecated  : no
+
+WKID        : 109016
+Latest-WKID : 109016
+Macro       : PE_U_DTP_POINT
+Name        : Point
+WKT         : UNIT["Point", 0.0003527777777777778]
+Description : Desktop Publishing Point (1/72 of an international inch)
+Authority   : Esri
+Version     : 10.2.0
+Deprecated  : no
+
+WKID        : 109017
+Latest-WKID : 109017
+Macro       : PE_U_MICROMETER
+Name        : Micrometer
+WKT         : UNIT["Micrometer", 0.000001]
+Description : Micrometer
+Authority   : Esri
+Version     : 10.3.1
+Deprecated  : no
+
+WKID        : 109018
+Latest-WKID : 109018
+Macro       : PE_U_NANOMETER
+Name        : Nanometer
+WKT         : UNIT["Nanometer", 0.000000001]
+Description : Nanometer
+Authority   : Esri
+Version     : 10.3.1
+Deprecated  : no
+
+WKID        : 109030
+Latest-WKID : 109030
+Macro       : PE_U_KM50
+Name        : 50_Kilometers
+WKT         : UNIT["50_Kilometers", 50000.0]
+Description : 50 kilometer length
+Authority   : Esri
+Version     : 9.0.0
+Deprecated  : no
+
+WKID        : 109031
+Latest-WKID : 109031
+Macro       : PE_U_KM150
+Name        : 150_Kilometers
+WKT         : UNIT["150_Kilometers", 150000.0]
+Description : 150 kilometer length
+Authority   : Esri
+Version     : 9.0.0
+Deprecated  : no

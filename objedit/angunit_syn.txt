@@ -1,0 +1,61 @@
+#------------------------------------------------------------------------------------------------------
+# ANGUNIT synonym table
+#
+# syntax: [ANGUNIT,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
+#------------------------------------------------------------------------------------------------------
+
+"centesimal minute", \
+   "Minute_Centesimal", \
+   FALSE, \
+   ""
+
+"centesimal second", \
+   "Second_Centesimal", \
+   FALSE, \
+   ""
+
+"Decimal_Degree", \
+   "Degree", \
+   FALSE, \
+   ""
+
+"Decimal_Degrees", \
+   "Degree", \
+   FALSE, \
+   ""
+
+"Degrees", \
+   "Degree", \
+   FALSE, \
+   ""
+
+"Grads", \
+   "Grad", \
+   FALSE, \
+   ""
+
+"Minute", \
+   "Arcminute", \
+   FALSE, \
+   ""
+
+"Minutes", \
+   "Arcminute", \
+   FALSE, \
+   ""
+
+"Radians", \
+   "Radian", \
+   FALSE, \
+   ""
+
+"Second", \
+   "Arcsecond", \
+   FALSE, \
+   ""
+
+"Seconds", \
+   "Arcsecond", \
+   FALSE, \
+   ""
+

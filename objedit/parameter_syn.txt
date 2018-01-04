@@ -1,0 +1,156 @@
+#------------------------------------------------------------------------------------------------------
+# PARAMETER synonym table
+#
+# syntax: [PARAMETER,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
+#------------------------------------------------------------------------------------------------------
+
+"Angle from Rectified to Skew Grid", \
+   "XY_Plane_Rotation", \
+   FALSE, \
+   ""
+
+"Azimuth of initial line", \
+   "Azimuth", \
+   FALSE, \
+   ""
+
+"Co-latitude of cone axis", \
+   "Azimuth", \
+   FALSE, \
+   ""
+
+"Easting at false origin", \
+   "False_Easting", \
+   FALSE, \
+   ""
+
+"Easting at projection centre", \
+   "False_Easting", \
+   FALSE, \
+   ""
+
+"Inclination in latitude", \
+   "Inclination_North", \
+   FALSE, \
+   ""
+
+"Inclination in longitude", \
+   "Inclination_East", \
+   FALSE, \
+   ""
+
+"Latitude of 1st standard parallel", \
+   "Standard_Parallel_1", \
+   FALSE, \
+   ""
+
+"Latitude of 2nd standard parallel", \
+   "Standard_Parallel_2", \
+   FALSE, \
+   ""
+
+"Latitude of false origin", \
+   "Latitude_Of_Origin", \
+   FALSE, \
+   ""
+
+"Latitude of natural origin", \
+   "Latitude_Of_Origin", \
+   FALSE, \
+   ""
+
+"Latitude of projection centre", \
+   "Latitude_Of_Center", \
+   FALSE, \
+   ""
+
+"Latitude of pseudo standard parallel", \
+   "Pseudo_Standard_Parallel_1", \
+   FALSE, \
+   ""
+
+"Latitude of standard parallel", \
+   "Standard_Parallel_1", \
+   FALSE, \
+   ""
+
+"Longitude of false origin", \
+   "Longitude_Of_Origin", \
+   FALSE, \
+   ""
+
+"Longitude of natural origin", \
+   "Longitude_Of_Origin", \
+   FALSE, \
+   ""
+
+"Longitude of projection centre", \
+   "Longitude_Of_Center", \
+   FALSE, \
+   ""
+
+"Northing at false origin", \
+   "False_Northing", \
+   FALSE, \
+   ""
+
+"Northing at projection centre", \
+   "False_Northing", \
+   FALSE, \
+   ""
+
+"Ordinate 1 of evaluation point", \
+   "X_Coordinate_Of_Rotation_Origin", \
+   FALSE, \
+   ""
+
+"Ordinate 2 of evaluation point", \
+   "Y_Coordinate_Of_Rotation_Origin", \
+   FALSE, \
+   ""
+
+"Ordinate 3 of evaluation point", \
+   "Z_Coordinate_Of_Rotation_Origin", \
+   FALSE, \
+   ""
+
+"Projection plane origin height", \
+   "Height", \
+   FALSE, \
+   ""
+
+"rectified_grid_angle", \
+   "XY_Plane_Rotation", \
+   FALSE, \
+   ""
+
+"Scale factor at natural origin", \
+   "Scale_Factor", \
+   FALSE, \
+   ""
+
+"Scale factor on initial line", \
+   "Scale_Factor", \
+   FALSE, \
+   ""
+
+"Scale factor on pseudo standard parallel", \
+   "Scale_Factor", \
+   FALSE, \
+   ""
+
+"Spherical latitude of origin", \
+   "Latitude_Of_Origin", \
+   FALSE, \
+   ""
+
+"Spherical longitude of origin", \
+   "Longitude_Of_Origin", \
+   FALSE, \
+   ""
+
+"Standard Parallel", \
+   "Standard_Parallel_1", \
+   FALSE, \
+   ""
+

@@ -1,0 +1,16 @@
+#------------------------------------------------------------------------------------------------------
+# VTMETHOD description table
+#
+# syntax: [VTMETHOD,] code, "utf8-description"
+#------------------------------------------------------------------------------------------------------
+
+PE_VTMTH_VTGRIDFILE, "Generic vertical transform grid file"
+PE_VTMTH_VDATUM, "New NOAA transformation grid file format"
+PE_VTMTH_VERTICAL_OFFSET, "Vertical Offset"
+PE_VTMTH_VERTICAL_OFFSET_SLOPE, "Vertical Offset and Slope"
+PE_VTMTH_VERTCON, "VERTCON"
+PE_VTMTH_EGM96, "EGM96 bilinear interpolation"
+PE_VTMTH_GEOID, "GEOID99, GEOID03, and GEOID06"
+PE_VTMTH_EGM96_NS, "EGM96 natural spline interpolation"
+PE_VTMTH_EGM84, "EGM84 bilinear interpolation"
+PE_VTMTH_EGM84_NS, "EGM84 natural spline interpolation"
