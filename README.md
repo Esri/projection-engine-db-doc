@@ -103,6 +103,6 @@ The contents of this repository are copyrighted under the Apache2 license, as fo
 > limitations under the License.
 
 A copy of the license is available in the repository's [license.txt](
-https://raw.github.com/Esri/projection-engine-db-doc/master/license.txt) file.
+https://raw.github.com/ArcGIS/projection-engine-db-doc/master/license.txt) file.
 
 [](Esri Tags: publishing-sharing)
