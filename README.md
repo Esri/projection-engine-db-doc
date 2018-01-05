@@ -10,9 +10,6 @@ To perform WKID conversion, the PE contains a comprehensive database of
 known coordinate systems, datums, ellipsoids, units, etc. This database is
 regularly updated and kept in sync with the EPSG database.
 
-This repository documents the contents of the factory database in the PE
-and describes how to add user-provided entries to it.
-
 This documentation is based on ArcGIS Desktop version 10.6.0 (ArcGIS Pro version 2.1).
 Entries taken from EPSG are from the 9.1.2 version of the EPSG database.
 
@@ -20,42 +17,16 @@ Entries taken from EPSG are from the 9.1.2 version of the EPSG database.
 
 Documentation files are found in the following directories:
 
-       json          Descriptions of all factory objects in JSON format:
-                        pe_list_<objtype>.json
-
-       csv           Descriptions of all factory objects in CSV format:
-                        pe_list_<objtype>.csv
-
-       text          Descriptions of all factory objects in TXT format:
-                        pe_list_<objtype>.txt
-
-       objedit       The entire PE factory in objedit format:
-                        <objtype>_<rectype>.txt
-
-       gdal          An updated version of the file "esri_extra.wkt" distributed by
-                     GDAL (Geospatial Data Abstraction Library) (http://www.gdal.org).
-
-                     This file should replace the following files in the GDAL
-                     distribution:
-                        data/esri_extra.wkt             (based on ArcGIS 8.1 - 11/01)
-                        data/esri_StatePlane_extra.wkt  (based on ArcGIS 8.1 - 11/01)
-                        data/esri_Wisconsin_extra.wkt   (based on ArcGIS 9.2 - 11/06)
-
-       proj4         An updated version of the file "esri" distributed by PROJ4
-                     (http://proj4.org).
-
-                     This file should replace the following files in the PROJ4
-                     distribution:
-                        nad/esri                        (based on ArcGIS 9.3 - 05/08)
-                        nad/esri.extra                  (based on ArcGIS 8.1 - 11/01)
-
-       other         Other files:
-
-                     Documentation on how to add user-defined objects:
-                        PE_user_defined_objects.pdf
-
-                     Documentation on how the PE maps PROJ4 strings:
-                        proj4-esri.txt
+| Directory | Contents | Filenames |
+|:----------|:---------|:----------|
+| json      | All factory objects in JSON format      | pe_list_\<objtype\>.json    |
+| csv       | All factory objects in CSV format       | pe_list_\<objtype\>.csv     |
+| text      | All factory objects in TXT format       | pe_list_\<objtype\>.txt     |
+| objedit   | The entire PE factory in objedit format | \<objtype\>_\<rectype\>.txt |
+| gdal      | Updated GDAL files                      | esri_extra.txt              |
+| proj4     | Update PROJ4 files                      | esri                        |
+| other     | Other files                             | PE_user_defined_objects.pdf |
+|           |                                         | proj4-esri.txt              |
 
 ### Notes
 
@@ -69,6 +40,21 @@ Documentation files are found in the following directories:
        <p>The "Esri-version" is always the Esri version in which the entry was
           added.</p>
 
+   <li> The GDAL file "esri_extra.wkt" should replace the following files in the GDAL distribution
+        (http://www.gdal.org):
+        <ul>
+           <li> data/esri_extra.wkt
+           <li> data/esri_StatePlane_extra.wkt
+           <li> data/esri_Wisconsin_extra.wkt
+        </ul>
+
+   <li> The PROJ4 file "esri" should replace the following files in the PROJ4 distribution
+        (http://proj4.org):
+        <ul>
+           <li> nad/esri
+           <li> nad/esri_extra
+        </ul>
+       
    <li>Area extents are specified in degrees (from Greenwich).
 
    <li>Accuracy values in transformation entries are specified in meters.
