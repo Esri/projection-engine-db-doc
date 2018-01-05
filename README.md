@@ -60,14 +60,14 @@ Documentation files are found in the following directories:
 ### Notes
 
 <ul>
-   <li>If an entry comes from the EPSG database, then the authority name
-       is "EPSG" and the version value is in the form
-       "EPSG-version(Esri-version)".
-       The "EPSG-version" is either the EPSG version in which the entry was
-       added or the EPSG version in which the entry was last updated
-       (with no way to tell which one it is).
-       The "Esri-version" is always the Esri version in which the entry was
-       added.
+   <li><p>If an entry comes from the EPSG database, then the authority name
+          is "EPSG" and the version value is in the form
+          "EPSG-version(Esri-version)".</p>
+       <p>The "EPSG-version" is either the EPSG version in which the entry was
+          added or the EPSG version in which the entry was last updated
+          (with no way to tell which one it is).</p>
+       <p>The "Esri-version" is always the Esri version in which the entry was
+          added.</p>
 
    <li>Area extents are specified in degrees (from Greenwich).
 
@@ -84,23 +84,19 @@ an issue.
 
 ### Licensing
 
-The contents of this repository are copyrighted under the Apache2 license, as follows:
+Copyright 2010-2018 Esri
 
->  Copyright 2010-2018 Esri
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-> Licensed under the Apache License, Version 2.0 (the "License");
-> you may not use this file except in compliance with the License.
-> You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
 
->    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
-> Unless required by applicable law or agreed to in writing, software
-> distributed under the License is distributed on an "AS IS" BASIS,
-> WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-> See the License for the specific language governing permissions and
-> limitations under the License.
-
-A copy of the license is available in the repository's [license.txt](
-https://raw.github.com/ArcGIS/projection-engine-db-doc/master/license.txt) file.
-
-[](Esri Tags: publishing-sharing)
+A copy of the license is available in the repository's
+[license.txt](license.txt) file.
