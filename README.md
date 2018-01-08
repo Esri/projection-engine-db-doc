@@ -24,12 +24,24 @@ Documentation files are found in the following directories:
 | text      | All factory objects in TXT format       | pe_list_\<objtype\>.txt     |
 | objedit   | The entire PE factory in objedit format | \<objtype\>_\<rectype\>.txt |
 | gdal      | Updated GDAL files                      | esri_extra.txt              |
-| proj4     | Update PROJ4 files                      | esri                        |
+| proj4     | Updated PROJ4 files                     | esri                        |
 | other     | Other files                             | <p>PE_user_defined_objects.pdf</p>proj4-esri.txt |
 
 ### Notes
 
 <ul>
+   <li> Each object has a well-known ID (WKID), also called a code or factory code.
+        WKIDs are unique within an object type, like a unit of measure, or a set of objects,
+        like the coordinate reference systems.
+
+   <li> Some entries have undergone a "code change". A code change can occur because an
+        entry was added to the Esri software first and was given an Esri WKID.
+        Most Esri WKIDs are in the 1xxxxx range.
+        If EPSG adds the entry, we will change the WKID to the EPSG code (range is 1024 - 32767).
+        Another reason for a code change is because of an error in the original definition.
+        In the tables, the WKID field contains the original code while latest-WKID field
+        is the new code.
+
    <li><p>If an entry comes from the EPSG database, then the authority name
           is "EPSG" and the version value is in the form
           "EPSG-version(Esri-version)".</p>
@@ -39,8 +51,8 @@ Documentation files are found in the following directories:
        <p>The "Esri-version" is always the Esri version in which the entry was
           added.</p>
 
-   <li> The GDAL file "esri_extra.wkt" should replace the following files in the GDAL distribution
-        (http://www.gdal.org):
+   <li> The GDAL file "esri_extra.wkt" should replace the following files in the GDAL
+        distribution (http://www.gdal.org):
         <ul>
            <li> data/esri_extra.wkt
            <li> data/esri_StatePlane_extra.wkt
