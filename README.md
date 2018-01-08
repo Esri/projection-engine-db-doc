@@ -25,7 +25,7 @@ Documentation files are found in the following directories:
 | objedit   | The entire PE factory in objedit format | \<objtype\>_\<rectype\>.txt |
 | proj4     | Updated PROJ4 files                     | esri                        |
 | gdal      | Updated GDAL files                      | <p>esri_extra.wkt</p>esri_epsg.wkt |
-| other     | Other files                             | <p>PE_user_defined_objects.pdf</p>proj4-esri.wkt |
+| other     | Other files                             | <p>PE_user_defined_objects.pdf</p>proj4-esri.txt |
 
 ### Notes
 
