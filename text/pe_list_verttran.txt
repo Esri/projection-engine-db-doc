@@ -5672,6 +5672,40 @@ Area-llon   : 174.52
 Area-rlon   : 176.56
 Accuracy    : 0.12
 
+WKID        : 110076
+Latest-WKID : 110076
+Macro       : PE_VT_CHTRF95_TO_LHN95
+Name        : CHTRF95_To_LHN95_Height
+WKT         : VERTTRAN["CHTRF95_To_LHN95_Height",
+               GEOGCS["GCS_Swiss_TRF_1995",
+                DATUM["D_Swiss_TRF_1995",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Swiss_TRF_1995",
+                DATUM["D_Swiss_TRF_1995",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["LHN95",
+                VDATUM["Landeshohennetz_1995"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_chgeo2004_ETRS", 0.0]]
+Description : Liechtenstein, Switzerland
+Authority   : Esri
+Version     : 10.6.1
+Deprecated  : no
+Area-name   : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.82
+Area-nlat   : 47.81
+Area-llon   : 5.96
+Area-rlon   : 10.49
+Accuracy    : 0.05
+
 WKID        : 110083
 Latest-WKID : 110083
 Macro       : PE_VT_NEWLYN_TO_EVRS_2000_1

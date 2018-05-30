@@ -3095,6 +3095,24 @@
     },
     "accuracy": 0.12
   },
+  { "wkid": 110076,
+    "latestWkid": 110076,
+    "macro": "PE_VT_CHTRF95_TO_LHN95",
+    "name": "CHTRF95_To_LHN95_Height",
+    "wkt": "VERTTRAN[\"CHTRF95_To_LHN95_Height\",GEOGCS[\"GCS_Swiss_TRF_1995\",DATUM[\"D_Swiss_TRF_1995\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"Swiss_TRF_1995\",DATUM[\"D_Swiss_TRF_1995\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"LHN95\",VDATUM[\"Landeshohennetz_1995\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Dataset_chgeo2004_ETRS\",0.0]]",
+    "description": "Liechtenstein, Switzerland",
+    "authority": "Esri",
+    "version": "10.6.1",
+    "deprecated": "no",
+    "areaname": "Europe - Liechtenstein and Switzerland",
+    "extent":
+    { "slat": 45.82,
+      "nlat": 47.81,
+      "llon": 5.96,
+      "rlon": 10.49
+    },
+    "accuracy": 0.05
+  },
   { "wkid": 110083,
     "latestWkid": 110083,
     "macro": "PE_VT_NEWLYN_TO_EVRS_2000_1",
