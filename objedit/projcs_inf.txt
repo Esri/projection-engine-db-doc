@@ -17084,10 +17084,6 @@ PE_PCS_NAD_1927_MICHIGAN_GEOREF, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1927 Michigan GeoRef (US Feet)"
 
-PE_PCS_NAD_1927_TEXAS_STATEWIDE, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1927 Texas Statewide Mapping System (Intl Feet)"
-
 PE_PCS_NAD_1927_WISCONSIN_TM, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1927 Wisconsin TM (Meters)"
@@ -17119,14 +17115,6 @@ PE_PCS_NAD_1983_2011_MICHIGAN_GEOREF_M, \
 PE_PCS_NAD_1983_2011_MISSISSIPPI_TM, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1983 (2011) Mississippi TM (Meters)"
-
-PE_PCS_NAD_1983_2011_TEXAS_CENTRIC_ALBERS, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 (2011) Texas Centric Mapping System Albers (Meters)"
-
-PE_PCS_NAD_1983_2011_TEXAS_CENTRIC_LAMBERT, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 (2011) Texas Centric Mapping System Lambert (Meters)"
 
 PE_PCS_NAD_1983_2011_VIRGINIA_LAMBERT, \
    "Projected Coordinate Systems/State Systems", \
@@ -17179,14 +17167,6 @@ PE_PCS_NAD_1983_HARN_MICHIGAN_GEOREF_M, \
 PE_PCS_NAD_1983_HARN_MISSISSIPPI_TM, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1983 HARN Mississippi TM (Meters)"
-
-PE_PCS_NAD_1983_HARN_TEXAS_CENTRIC_ALBERS, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 HARN Texas Centric Mapping System Albers (Meters)"
-
-PE_PCS_NAD_1983_HARN_TEXAS_CENTRIC_LAMBERT, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 HARN Texas Centric Mapping System Lambert (Meters)"
 
 PE_PCS_NAD_1983_HARN_VIRGINIA_LAMBERT, \
    "Projected Coordinate Systems/State Systems", \
@@ -17244,14 +17224,6 @@ PE_PCS_NAD_1983_NSRS2007_MISSISSIPPI_TM, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1983 NSRS2007 Mississippi TM (Meters)"
 
-PE_PCS_NAD_1983_NSRS2007_TEXAS_CENTRIC_ALBERS, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 NSRS2007 Texas Centric Mapping System Albers (Meters)"
-
-PE_PCS_NAD_1983_NSRS2007_TEXAS_CENTRIC_LAMBERT, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 NSRS2007 Texas Centric Mapping System Lambert (Meters)"
-
 PE_PCS_NAD_1983_NSRS2007_VIRGINIA_LAMBERT, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1983 NSRS2007 Virginia Lambert (Meters)"
@@ -17263,18 +17235,6 @@ PE_PCS_NAD_1983_NSRS2007_WISCONSIN_TM, \
 PE_PCS_NAD_1983_NSRS2007_WISCONSIN_TM_FT_US, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1983 NSRS2007 Wisconsin TM (US Feet)"
-
-PE_PCS_NAD_1983_TEXAS_CENTRIC_ALBERS, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 Texas Centric Mapping System Albers (Meters)"
-
-PE_PCS_NAD_1983_TEXAS_CENTRIC_LAMBERT, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 Texas Centric Mapping System Lambert (Meters)"
-
-PE_PCS_NAD_1983_TEXAS_STATEWIDE, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 Texas Statewide Mapping System (Meters)"
 
 PE_PCS_NAD_1983_USFS_R6_ALBERS, \
    "Projected Coordinate Systems/State Systems", \
@@ -17815,6 +17775,46 @@ PE_PCS_NAD_1983_2011_OR_WILLAMETTE_PASS_FT, \
 PE_PCS_NAD_1983_2011_OR_WILLAMETTE_PASS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
    "OCRS Willamette Pass NAD 1983 2011 TM (Meters)"
+
+PE_PCS_NAD_1927_TEXAS_STATEWIDE, \
+   "Projected Coordinate Systems/State Systems/Texas", \
+   "NAD 1927 Texas Statewide Mapping System (Intl Feet)"
+
+PE_PCS_NAD_1983_2011_TEXAS_CENTRIC_ALBERS, \
+   "Projected Coordinate Systems/State Systems/Texas", \
+   "NAD 1983 (2011) Texas Centric Mapping System Albers (Meters)"
+
+PE_PCS_NAD_1983_2011_TEXAS_CENTRIC_LAMBERT, \
+   "Projected Coordinate Systems/State Systems/Texas", \
+   "NAD 1983 (2011) Texas Centric Mapping System Lambert (Meters)"
+
+PE_PCS_NAD_1983_HARN_TEXAS_CENTRIC_ALBERS, \
+   "Projected Coordinate Systems/State Systems/Texas", \
+   "NAD 1983 HARN Texas Centric Mapping System Albers (Meters)"
+
+PE_PCS_NAD_1983_HARN_TEXAS_CENTRIC_LAMBERT, \
+   "Projected Coordinate Systems/State Systems/Texas", \
+   "NAD 1983 HARN Texas Centric Mapping System Lambert (Meters)"
+
+PE_PCS_NAD_1983_NSRS2007_TEXAS_CENTRIC_ALBERS, \
+   "Projected Coordinate Systems/State Systems/Texas", \
+   "NAD 1983 NSRS2007 Texas Centric Mapping System Albers (Meters)"
+
+PE_PCS_NAD_1983_NSRS2007_TEXAS_CENTRIC_LAMBERT, \
+   "Projected Coordinate Systems/State Systems/Texas", \
+   "NAD 1983 NSRS2007 Texas Centric Mapping System Lambert (Meters)"
+
+PE_PCS_NAD_1983_TEXAS_CENTRIC_ALBERS, \
+   "Projected Coordinate Systems/State Systems/Texas", \
+   "NAD 1983 Texas Centric Mapping System Albers (Meters)"
+
+PE_PCS_NAD_1983_TEXAS_CENTRIC_LAMBERT, \
+   "Projected Coordinate Systems/State Systems/Texas", \
+   "NAD 1983 Texas Centric Mapping System Lambert (Meters)"
+
+PE_PCS_NAD_1983_TEXAS_STATEWIDE, \
+   "Projected Coordinate Systems/State Systems/Texas", \
+   "NAD 1983 Texas Statewide Mapping System (Meters)"
 
 PE_PCS_NAD_1983_2011_RMTCRS_BILLINGS_FT, \
    "Projected Coordinate Systems/Tribal/Montana", \
@@ -20017,7 +20017,7 @@ PE_PCS_SOUTH_EAST_ISLAND_1943_UTM_40N, \
    "South East Island 1943 UTM Zone 40N"
 
 PE_PCS_SAMOA_1962_UTM_2S, \
-   "Projected Coordinate Systems/UTM/Oceans/PAcific Ocean", \
+   "Projected Coordinate Systems/UTM/Oceans/Pacific Ocean", \
    "American Samoa 1962 UTM Zone 2S"
 
 PE_PCS_FATU_IVA_1972_UTM_7S, \
@@ -20340,18 +20340,6 @@ PE_PCS_RGFG_1995_UTM_22N, \
    "Projected Coordinate Systems/UTM/South America", \
    "RGFG 1995 UTM Zone 22N"
 
-PE_PCS_SIRGAS_2000_UTM_23N, \
-   "Projected Coordinate Systems/UTM/South America", \
-   "SIRGAS 2000 UTM Zone 23N"
-
-PE_PCS_SIRGAS_2000_UTM_24N, \
-   "Projected Coordinate Systems/UTM/South America", \
-   "SIRGAS 2000 UTM Zone 24N"
-
-PE_PCS_SIRGAS_2000_UTM_26S, \
-   "Projected Coordinate Systems/UTM/South America", \
-   "SIRGAS 2000 UTM Zone 26S"
-
 PE_PCS_SIRGAS_CHILE_UTM_18S, \
    "Projected Coordinate Systems/UTM/South America", \
    "SIRGAS-Chile UTM Zone 18S"
@@ -20408,13 +20396,13 @@ PE_PCS_SAD_1969_96_UTM_25S, \
    "Projected Coordinate Systems/UTM/South America", \
    "South American 1969 (96) UTM Zone 25S"
 
-PE_PCS_SAD_1969_UTM_17N, \
-   "Projected Coordinate Systems/UTM/South America", \
-   "South American 1969 UTM Zone 17N"
-
 PE_PCS_ZANDERIJ_1972_UTM_21N, \
    "Projected Coordinate Systems/UTM/South America", \
    "Zanderij 1972 UTM Zone 21N"
+
+PE_PCS_SAD_1969_UTM_17N, \
+   "Projected Coordinate Systems/UTM/South America/SAD 1969", \
+   "South American 1969 UTM Zone 17N"
 
 PE_PCS_SAD_1969_UTM_17S, \
    "Projected Coordinate Systems/UTM/South America/SAD 1969", \
@@ -20604,9 +20592,17 @@ PE_PCS_SIRGAS_2000_UTM_22S, \
    "Projected Coordinate Systems/UTM/South America/SIRGAS 2000", \
    "SIRGAS 2000 UTM Zone 22S"
 
+PE_PCS_SIRGAS_2000_UTM_23N, \
+   "Projected Coordinate Systems/UTM/South America/SIRGAS 2000", \
+   "SIRGAS 2000 UTM Zone 23N"
+
 PE_PCS_SIRGAS_2000_UTM_23S, \
    "Projected Coordinate Systems/UTM/South America/SIRGAS 2000", \
    "SIRGAS 2000 UTM Zone 23S"
+
+PE_PCS_SIRGAS_2000_UTM_24N, \
+   "Projected Coordinate Systems/UTM/South America/SIRGAS 2000", \
+   "SIRGAS 2000 UTM Zone 24N"
 
 PE_PCS_SIRGAS_2000_UTM_24S, \
    "Projected Coordinate Systems/UTM/South America/SIRGAS 2000", \
@@ -20615,6 +20611,10 @@ PE_PCS_SIRGAS_2000_UTM_24S, \
 PE_PCS_SIRGAS_2000_UTM_25S, \
    "Projected Coordinate Systems/UTM/South America/SIRGAS 2000", \
    "SIRGAS 2000 UTM Zone 25S"
+
+PE_PCS_SIRGAS_2000_UTM_26S, \
+   "Projected Coordinate Systems/UTM/South America/SIRGAS 2000", \
+   "SIRGAS 2000 UTM Zone 26S"
 
 PE_PCS_WGS_1972_UTM_1N, \
    "Projected Coordinate Systems/UTM/WGS 1972/Northern Hemisphere", \
@@ -21699,6 +21699,10 @@ PE_PCS_WORLD_FLAT_POLAR_QUARTIC, \
 PE_PCS_WORLD_FULLER, \
    "Projected Coordinate Systems/World", \
    "Fuller (world)"
+
+PE_PCS_GOES_16_EAST_ITRF2000, \
+   "Projected Coordinate Systems/World", \
+   "GOES-16 East ABI Fixed Grid ITRF2000"
 
 PE_PCS_WORLD_GALL_STEREOGRAPHIC, \
    "Projected Coordinate Systems/World", \

@@ -30604,10 +30604,10 @@
     "macro": "PE_GT_GDA_1994_TO_GDA2020_NTV2_C",
     "name": "GDA_1994_To_GDA2020_NTv2_C",
     "wkt": "GEOGTRAN[\"GDA_1994_To_GDA2020_NTv2_C\",GEOGCS[\"GCS_GDA_1994\",DATUM[\"D_GDA_1994\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GDA2020\",DATUM[\"GDA2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_australia/AUS942020_C\",0.0]]",
-    "description": "Australia NTv2 conformal",
+    "description": "",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Australia - GDA",
     "extent":
     { "slat": -60.56,
@@ -30622,10 +30622,10 @@
     "macro": "PE_GT_GDA_1994_TO_GDA2020_NTV2_CD",
     "name": "GDA_1994_To_GDA2020_NTv2_CD",
     "wkt": "GEOGTRAN[\"GDA_1994_To_GDA2020_NTv2_CD\",GEOGCS[\"GCS_GDA_1994\",DATUM[\"D_GDA_1994\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GDA2020\",DATUM[\"GDA2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_australia/AUS942020_CD\",0.0]]",
-    "description": "Australia NTv2 conformal with distortion",
+    "description": "",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Australia - GDA",
     "extent":
     { "slat": -60.56,
@@ -35890,6 +35890,42 @@
       "rlon": -151.27
     },
     "accuracy": 1.0
+  },
+  { "wkid": 108446,
+    "latestWkid": 108446,
+    "macro": "PE_GT_GDA_1994_TO_GDA2020_NTV2_3",
+    "name": "GDA_1994_To_GDA2020_NTv2_3_Conformal",
+    "wkt": "GEOGTRAN[\"GDA_1994_To_GDA2020_NTv2_3_Conformal\",GEOGCS[\"GCS_GDA_1994\",DATUM[\"D_GDA_1994\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GDA2020\",DATUM[\"GDA2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_australia/GDA94_GDA2020_conformal\",0.0]]",
+    "description": "Australia NTv2 conformal",
+    "authority": "Esri",
+    "version": "10.6.1",
+    "deprecated": "no",
+    "areaname": "Australia - onshore",
+    "extent":
+    { "slat": -43.7,
+      "nlat": -9.86,
+      "llon": 112.85,
+      "rlon": 153.69
+    },
+    "accuracy": 0.05
+  },
+  { "wkid": 108447,
+    "latestWkid": 108447,
+    "macro": "PE_GT_GDA_1994_TO_GDA2020_NTV2_2",
+    "name": "GDA_1994_To_GDA2020_NTv2_2_Conformal_and_Distortion",
+    "wkt": "GEOGTRAN[\"GDA_1994_To_GDA2020_NTv2_2_Conformal_and_Distortion\",GEOGCS[\"GCS_GDA_1994\",DATUM[\"D_GDA_1994\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GDA2020\",DATUM[\"GDA2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_australia/GDA94_GDA2020_conformal_and_distortion\",0.0]]",
+    "description": "Australia NTv2 conformal with distortion",
+    "authority": "Esri",
+    "version": "10.6.1",
+    "deprecated": "no",
+    "areaname": "Australia - onshore",
+    "extent":
+    { "slat": -43.7,
+      "nlat": -9.86,
+      "llon": 112.85,
+      "rlon": 153.69
+    },
+    "accuracy": 0.05
   },
   { "wkid": 108453,
     "latestWkid": 108453,

@@ -52430,10 +52430,10 @@ WKT         : GEOGTRAN["GDA_1994_To_GDA2020_NTv2_C",
                 UNIT["Degree", 0.0174532925199433]],
                METHOD["NTv2"],
                PARAMETER["Dataset_australia/AUS942020_C", 0.0]]
-Description : Australia NTv2 conformal
+Description : 
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Australia - GDA
 Area-slat   : -60.56
 Area-nlat   : -8.47
@@ -52458,10 +52458,10 @@ WKT         : GEOGTRAN["GDA_1994_To_GDA2020_NTv2_CD",
                 UNIT["Degree", 0.0174532925199433]],
                METHOD["NTv2"],
                PARAMETER["Dataset_australia/AUS942020_CD", 0.0]]
-Description : Australia NTv2 conformal with distortion
+Description : 
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Australia - GDA
 Area-slat   : -60.56
 Area-nlat   : -8.47
@@ -61744,6 +61744,62 @@ Area-nlat   : 31.8
 Area-llon   : 157.47
 Area-rlon   : -151.27
 Accuracy    : 1.0
+
+WKID        : 108446
+Latest-WKID : 108446
+Macro       : PE_GT_GDA_1994_TO_GDA2020_NTV2_3
+Name        : GDA_1994_To_GDA2020_NTv2_3_Conformal
+WKT         : GEOGTRAN["GDA_1994_To_GDA2020_NTv2_3_Conformal",
+               GEOGCS["GCS_GDA_1994",
+                DATUM["D_GDA_1994",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GDA2020",
+                DATUM["GDA2020",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["NTv2"],
+               PARAMETER["Dataset_australia/GDA94_GDA2020_conformal", 0.0]]
+Description : Australia NTv2 conformal
+Authority   : Esri
+Version     : 10.6.1
+Deprecated  : no
+Area-name   : Australia - onshore
+Area-slat   : -43.7
+Area-nlat   : -9.86
+Area-llon   : 112.85
+Area-rlon   : 153.69
+Accuracy    : 0.05
+
+WKID        : 108447
+Latest-WKID : 108447
+Macro       : PE_GT_GDA_1994_TO_GDA2020_NTV2_2
+Name        : GDA_1994_To_GDA2020_NTv2_2_Conformal_and_Distortion
+WKT         : GEOGTRAN["GDA_1994_To_GDA2020_NTv2_2_Conformal_and_Distortion",
+               GEOGCS["GCS_GDA_1994",
+                DATUM["D_GDA_1994",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GDA2020",
+                DATUM["GDA2020",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["NTv2"],
+               PARAMETER["Dataset_australia/GDA94_GDA2020_conformal_and_distortion", 0.0]]
+Description : Australia NTv2 conformal with distortion
+Authority   : Esri
+Version     : 10.6.1
+Deprecated  : no
+Area-name   : Australia - onshore
+Area-slat   : -43.7
+Area-nlat   : -9.86
+Area-llon   : 112.85
+Area-rlon   : 153.69
+Accuracy    : 0.05
 
 WKID        : 108453
 Latest-WKID : 108453
