@@ -3,12 +3,17 @@
   "version": "2.2.0",
   "description": "Get WKT and other metadata associated with an Esri/EPSG factory code.",
   "main": "index.js",
+  "files": [
+    "pe_list_projcs.json",
+    "pe_list_geogcs.json",
+    "test/index.js"
+  ],
   "scripts": {
     "test": "standard && node test | tap-spec"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Esri/projection-engine-db-doc/json"
+    "url": "https://github.com/Esri/projection-engine-db-doc"
   },
   "keywords": [
     "esri",
@@ -19,6 +24,7 @@
   ],
   "author": "Chris Helm",
   "contributors": [
+    "Rob Juergens",
     "John Gravois <john@esri.com>",
     "Daniel Fenton <dfenton@esri.com>",
     "Rich Gwozdz <rgwozdz@esri.com>"

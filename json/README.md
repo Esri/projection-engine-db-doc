@@ -56,6 +56,8 @@ Find a bug or want to request a new feature? Please let us know by submitting an
 
 Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/Esri/contributing).
 
+## [Changelog](../CHANGELOG.md)
+
 ## Licensing
 
 Copyright &copy; 2010-2018 Esri
