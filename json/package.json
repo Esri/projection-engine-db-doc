@@ -1,0 +1,33 @@
+{
+  "name": "@esri/proj-codes",
+  "version": "2.2.0",
+  "description": "Get WKT and other metadata associated with an Esri/EPSG factory code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Esri/projection-engine-db-doc/json"
+  },
+  "keywords": [
+    "esri",
+    "arcgis",
+    "projections",
+    "wkid",
+    "wkt"
+  ],
+  "author": "Chris Helm",
+  "contributors": [
+    "John Gravois <john@esri.com>",
+    "Daniel Fenton <dfenton@esri.com>",
+    "Rich Gwozdz <rgwozdz@esri.com>"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "gh-release": "^3.2.1",
+    "standard": "^11.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
