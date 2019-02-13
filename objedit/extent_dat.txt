@@ -754,8 +754,8 @@
   1276, "Africa - Botswana, Malawi, Zambia, Zimbabwe", \
    -26.88, -8.19, 19.99, 35.93
 
-  1277, "Africa - Kenya, Tanzania and Uganda", \
-   -11.75, 4.63, 29.34, 41.91
+  1277, "Africa - Burundi, Kenya, Rwanda, Tanzania and Uganda", \
+   -11.75, 4.63, 28.85, 41.91
 
   1278, "Antarctica - Australian sector", \
    -90.0, -60.0, 45.0, 160.0
@@ -812,7 +812,7 @@
    25.71, 84.17, -16.1, 48.61
 
   1297, "Europe - west", \
-   34.88, 71.21, -10.56, 31.59
+   34.88, 84.17, -10.56, 39.65
 
   1298, "Europe - ETRS89", \
    32.88, 84.17, -16.1, 40.18
@@ -821,7 +821,7 @@
    35.95, 71.21, -9.56, 31.59
 
   1300, "Iran - FD58", \
-   26.74, 33.22, 47.13, 53.61
+   26.21, 33.22, 47.13, 53.61
 
   1301, "Portugal - Azores C - onshore", \
    38.32, 39.14, -28.9, -26.97
@@ -830,7 +830,7 @@
    8.5, 23.33, 102.14, 109.52
 
   1303, "South America - Tierra del Fuego", \
-   -55.96, -51.99, -74.83, -65.05
+   -55.96, -51.99, -74.83, -63.73
 
   1304, "Asia - Myanmar and Thailand onshore", \
    5.63, 28.55, 92.2, 105.64
@@ -844,8 +844,8 @@
   1307, "Asia - Bangladesh; India; Myanmar; Pakistan - onshore", \
    8.02, 37.07, 60.86, 101.17
 
-  1308, "Asia - Bangladesh; India; Pakistan - onshore", \
-   8.02, 37.07, 60.86, 97.42
+  1308, "Asia - Bangladesh; India; Myanmar; Pakistan - onshore", \
+   8.02, 37.07, 60.86, 101.17
 
   1309, "Asia - Malaysia (west) and Singapore", \
    1.13, 6.72, 99.59, 104.6
@@ -932,7 +932,7 @@
    44.61, 62.56, -120.0, -57.1
 
   1337, "USA - HARN", \
-   -14.59, 49.38, 144.58, -64.51
+   -14.59, 71.4, 144.58, -64.51
 
   1338, "Iran - Taheri refinery", \
    27.39, 27.61, 52.5, 52.71
@@ -965,7 +965,7 @@
    -43.5, 12.68, -81.41, -47.99
 
   1349, "North America - NAD27", \
-   7.98, 83.17, 167.65, -47.74
+   7.15, 83.17, 167.65, -47.74
 
   1350, "North America - NAD83", \
    14.92, 86.46, 167.65, -47.74
@@ -986,7 +986,7 @@
    29.18, 33.38, 34.17, 39.31
 
   1358, "South America - SAD69 by country", \
-   -55.96, 12.52, -81.41, -25.28
+   -55.96, 12.52, -91.72, -25.28
 
   1359, "Indonesia - Kalimantan SE", \
    -4.24, 0.0, 114.55, 117.99
@@ -1037,7 +1037,7 @@
    32.53, 42.01, -124.45, -114.12
 
   1376, "USA - Colorado", \
-   36.98, 41.01, -109.06, -102.03
+   36.98, 41.01, -109.06, -102.04
 
   1377, "USA - Connecticut", \
    40.98, 42.05, -73.73, -71.78
@@ -1064,7 +1064,7 @@
    40.37, 43.51, -96.65, -90.14
 
   1385, "USA - Kansas", \
-   36.98, 40.01, -102.06, -94.6
+   36.99, 40.01, -102.06, -94.58
 
   1386, "USA - Kentucky", \
    36.49, 39.15, -89.57, -81.95
@@ -1597,7 +1597,7 @@
   1568, "Australasia - Australia and PNG - 144~E to 150~E", \
    -47.2, -1.3, 144.0, 150.01
 
-  1569, "Saudi Arabia - 36~E to 42~E", \
+  1569, "Saudi Arabia - onshore 36~E to 42~E", \
    16.59, 32.16, 36.0, 42.0
 
   1570, "Asia - Middle East - Kuwait and Saudi - 48~E to 54~E", \
@@ -2002,10 +2002,10 @@
   1710, "Europe - former Yugoslavia onshore 16.5~E to 19.5~E", \
    41.79, 46.55, 16.5, 19.51
 
-  1711, "Europe - former Yugoslavia onshore - 19.5~E to 22.5~E", \
+  1711, "Europe - former Yugoslavia onshore 19.5~E to 22.5~E", \
    40.85, 46.19, 19.5, 22.51
 
-  1712, "Europe - former Yugoslavia onshore - east of 22.5~E", \
+  1712, "Europe - former Yugoslavia onshore east of 22.5~E", \
    41.11, 44.7, 22.5, 23.04
 
   1713, "Nigeria - east of 10.5~E", \
@@ -3383,7 +3383,7 @@
    39.56, 41.01, -109.06, -102.04
 
   2185, "USA - Colorado - SPCS - S", \
-   36.98, 38.68, -109.06, -102.03
+   36.98, 38.68, -109.06, -102.04
 
   2186, "USA - Florida - SPCS - E", \
    24.41, 30.83, -82.33, -79.97
@@ -3428,10 +3428,10 @@
    40.37, 42.04, -96.14, -90.14
 
   2200, "USA - Kansas - SPCS - N", \
-   38.51, 40.01, -102.06, -94.6
+   38.52, 40.01, -102.06, -94.58
 
   2201, "USA - Kansas - SPCS - S", \
-   36.98, 38.87, -102.05, -94.61
+   36.99, 38.88, -102.05, -94.6
 
   2202, "USA - Kentucky - SPCS - N", \
    37.71, 39.15, -85.96, -82.47
@@ -3532,7 +3532,7 @@
   2234, "USA - New York - SPCS - E", \
    40.88, 45.02, -75.87, -73.23
 
-  2235, "USA - New York - SPCS - Long island", \
+  2235, "USA - New York - SPCS - Long Island", \
    40.47, 41.3, -74.26, -71.8
 
   2236, "USA - New York - SPCS - W", \
@@ -4013,7 +4013,7 @@
    51.28, 53.48, -5.34, -2.65
 
   2399, "South America - Bolivia; Chile; Ecuador; Guyana; Peru; Venezuela", \
-   -45.0, 12.52, -81.41, -56.47
+   -43.5, 12.25, -81.41, -56.47
 
   2400, "Bolivia - Madidi", \
    -14.43, -13.56, -68.96, -67.79
@@ -4024,8 +4024,8 @@
   2402, "Chile - onshore north of 21~30'S", \
    -21.51, -17.5, -70.49, -68.18
 
-  2403, "Chile - onshore 39~S to 45~S", \
-   -45.0, -38.99, -75.22, -71.1
+  2403, "Chile - onshore 39~S to 43~30'S", \
+   -43.5, -38.99, -74.48, -71.38
 
   2404, "Oman - block 4", \
    19.58, 21.17, 56.5, 59.02
@@ -5161,9 +5161,6 @@
   2783, "Iran - South Pars blocks 2 and 3", \
    26.58, 26.71, 52.07, 52.28
 
-  2784, "Canada - south of 60~N", \
-   41.68, 60.0, -139.05, -52.62
-
   2785, "Libya - Murzuq and En Naga", \
    27.32, 27.67, 18.37, 18.72
 
@@ -5492,7 +5489,7 @@
    -16.0, -12.0, 132.0, 137.28
 
   2905, "Australia - 138~E to 144~E, 12~S to 16~S (SD54) onshore", \
-   -16.0, -12.0, 141.34, 144.0
+   -16.0, -12.0, 141.34, 144.01
 
   2906, "Australia - 144~E to 150~E, 12~S to 16~S (SD55) onshore", \
    -16.0, -14.01, 144.0, 145.49
@@ -6094,7 +6091,7 @@
   3106, "Saudi Arabia - east of 54~E", \
    19.66, 22.77, 54.0, 55.67
 
-  3107, "Saudi Arabia - west of 36~E", \
+  3107, "Saudi Arabia - onshore west of 36~E", \
    26.82, 29.38, 34.51, 36.0
 
   3108, "Micronesia - Yap Islands", \
@@ -6569,7 +6566,7 @@
    4.29, 8.52, -11.52, -7.36
 
   3271, "Libya - onshore", \
-   19.49, 33.23, 9.31, 25.21
+   19.5, 33.23, 9.31, 25.21
 
   3272, "Lithuania - onshore", \
    53.89, 56.45, 20.86, 26.82
@@ -7433,7 +7430,7 @@
    45.91, 46.31, 14.21, 15.28
 
   3574, "Europe - onshore - eastern - S-42(58)", \
-   39.64, 54.89, 9.92, 29.74
+   39.63, 54.89, 9.92, 31.41
 
   3575, "Germany - East Germany - west of 12~E", \
    50.2, 54.23, 9.92, 12.0
@@ -7775,7 +7772,7 @@
    -36.14, -25.99, 132.0, 138.0
 
   3689, "Australia - SA and Qld 138~E to 144~E", \
-   -38.13, -9.86, 138.0, 144.0
+   -38.13, -9.86, 138.0, 144.01
 
   3690, "Australia - Qld 144~E to 150~E", \
    -29.01, -14.01, 144.0, 150.0
@@ -10027,6 +10024,9 @@
   4445, "Australia - Western Australia - Esperance", \
    -34.5, -33.33, 121.56, 122.2
 
+  4446, "Albania - north of 41~18'N and east of 19~09'E", \
+   41.3, 42.67, 19.14, 20.63
+
   4447, "DR Congo (Zaire) - offshore", \
    -6.04, -5.79, 11.79, 12.37
 
@@ -10048,7 +10048,10 @@
   4453, "Australia - Western Australia - Lancelin", \
    -31.49, -30.71, 115.15, 115.62
 
-  4455, "Europe - Upper Austria, Salzberg and Bohemia", \
+  4454, "Greenland - 58~N to 85~N", \
+   58.0, 85.01, -75.0, -6.99
+
+  4455, "Europe - Upper Austria, Salzburg and Bohemia", \
    46.93, 51.06, 12.07, 16.83
 
   4456, "Europe - Lower Austria and Moravia", \
@@ -10066,11 +10069,17 @@
   4460, "USA - Arizona - Pima county central", \
    31.5, 32.51, -112.52, -111.56
 
+  4461, "Greenland - 59~N to 84~N", \
+   59.0, 84.01, -75.0, -10.0
+
   4462, "Australia - Western Australia - Perth", \
    -33.42, -31.33, 115.44, 116.09
 
   4463, "USA - Oregon - Siskiyou Pass", \
    41.95, 42.46, -122.71, -121.96
+
+  4464, "USA - onshore - AZ MI MT ND OR SC", \
+   31.33, 49.01, -124.6, -78.52
 
   4465, "USA - Oregon - Canyon City-Burns", \
    43.52, 44.36, -119.22, -118.52
@@ -10083,6 +10092,9 @@
 
   4468, "Trinidad and Tobago - offshore east of 60~W", \
    9.95, 12.19, -60.0, -57.28
+
+  4469, "Angola - onshore", \
+   -18.02, -4.38, 11.67, 24.09
 
   4470, "USA - Oregon - Ukiah-Fox", \
    44.52, 45.21, -119.35, -118.64
@@ -10129,11 +10141,137 @@
   4484, "USA - Oregon - Prairie City-Brogan", \
    44.16, 45.02, -118.77, -117.48
 
+  4485, "USA - Nevada - Las Vegas", \
+   35.89, 36.42, -115.5, -114.72
+
   4486, "USA - Oregon - Warner Highway", \
    41.95, 42.43, -120.42, -119.3
 
+  4487, "USA - Nevada - Las Vegas high elevation", \
+   35.89, 36.42, -115.5, -114.72
+
   4488, "USA - Oregon - Willamette Pass", \
    42.99, 44.18, -122.26, -121.48
+
+  4489, "Antarctica - Adelie Land coastal area west of 138~E", \
+   -66.73, -65.61, 136.0, 138.01
+
+  4490, "Germany - Hamburg", \
+   53.36, 53.99, 8.33, 10.41
+
+  4491, "Australia - Queensland - Weipa", \
+   -13.5, -11.49, 141.5, 142.51
+
+  4492, "Antarctica - Adelie Land coastal area east of 138~E", \
+   -67.13, -66.1, 138.0, 142.0
+
+  4493, "Australia Christmas and Cocos - onshore", \
+   -43.7, -9.86, 96.76, 153.69
+
+  4494, "USA - Kansas - Hays", \
+   38.69, 40.01, -100.19, -99.03
+
+  4495, "USA - Kansas - Goodland", \
+   38.69, 40.01, -102.06, -101.38
+
+  4496, "USA - Kansas - Colby", \
+   38.69, 40.01, -101.49, -100.71
+
+  4497, "USA - Kansas - Oberlin", \
+   38.69, 40.01, -100.82, -100.14
+
+  4498, "USA - Kansas - Great Bend", \
+   38.26, 40.01, -99.07, -98.47
+
+  4499, "USA - Kansas - Beloit", \
+   38.15, 40.01, -98.51, -97.92
+
+  4500, "USA - Kansas - Salina", \
+   38.08, 40.01, -97.94, -96.8
+
+  4501, "USA - Kansas - Manhattan", \
+   38.73, 39.57, -96.97, -95.94
+
+  4502, "USA - Kansas - Emporia", \
+   38.08, 38.88, -96.94, -95.94
+
+  4503, "USA - Kansas - Atchison", \
+   39.21, 40.01, -96.81, -94.85
+
+  4504, "USA - Kansas - Kansas City", \
+   38.73, 39.43, -96.04, -94.58
+
+  4505, "USA - Kansas - Ulysses", \
+   36.99, 38.71, -102.05, -101.06
+
+  4506, "USA - Kansas - Garden City", \
+   36.99, 38.71, -101.13, -100.08
+
+  4507, "USA - Kansas - Dodge City", \
+   36.99, 38.7, -100.25, -99.54
+
+  4508, "USA - Kansas - Larned", \
+   36.99, 38.7, -99.59, -98.91
+
+  4509, "USA - Kansas - Pratt", \
+   36.99, 38.27, -99.03, -98.34
+
+  4510, "USA - Kansas - Wichita", \
+   37.38, 38.18, -98.48, -96.52
+
+  4511, "USA - Kansas - Arkansas City", \
+   36.99, 37.48, -98.35, -96.52
+
+  4512, "USA - Kansas - Coffeyville", \
+   36.99, 38.88, -96.53, -95.5
+
+  4513, "USA - Kansas - Pittsburg", \
+   36.99, 38.74, -95.53, -94.6
+
+  4514, "Pacific - Guam and NMI west of 144~E", \
+   10.95, 23.9, 141.19, 144.01
+
+  4515, "USA - FBN", \
+   -14.59, 49.38, 144.58, -64.51
+
+  4516, "USA - CONUS and GoM", \
+   23.82, 49.38, -124.79, -66.91
+
+  4517, "Canada - NAD27", \
+   40.04, 83.17, -141.01, -47.74
+
+  4518, "Pacific - Guam and NMI east of 144~E", \
+   11.05, 23.9, 144.0, 149.55
+
+  4519, "Algeria - 32~N to 34~39'N", \
+   31.99, 34.66, -2.95, 9.09
+
+  4520, "World centred on 90~W", \
+   -90.0, 90.0, -180.0, 180.0
+
+  4521, "Northern Mariana Islands - onshore", \
+   14.06, 20.61, 144.83, 146.12
+
+  4522, "Finland - mainland south of 66~N", \
+   59.75, 66.73, 20.95, 31.59
+
+  4523, "World centred on 150~E", \
+   -90.0, 90.0, -180.0, 180.0
+
+  4524, "Saudi Arabia - west of 36~E", \
+   24.92, 29.38, 34.44, 36.01
+
+  4525, "Pacific - Guam and NMI - onshore", \
+   13.18, 20.61, 144.58, 146.12
+
+  4526, "Saudi Arabia - 36~E to 42~E", \
+   16.29, 32.16, 36.0, 42.0
+
+  4527, "Saudi Arabia - 42~E to 48~E", \
+   15.61, 31.15, 41.99, 48.0
+
+  4528, "Saudi Arabia - 48~E to 54~E", \
+   17.43, 28.94, 48.0, 54.01
 
 180001, "Australia - Queensland", \
    -29.5, -9.0, 137.5, 154.0
@@ -10268,7 +10406,7 @@
    32.39, 39.75, -31.3, -16.25
 
 180045, "USA - Idaho and Montana", \
-   41.0, 50.0, -119.0, -104.0
+   41.0, 49.38, -119.0, -104.0
 
 180046, "USA - Contiguous US", \
    20.0, 50.0, -125.0, -65.0
@@ -10469,7 +10607,7 @@
    41.0, 52.0, -5.5, 10.0
 
 180121, "Israel, Palestine Territory, and Jordan", \
-   29.19, 33.52, 32.99, 39.3
+   29.19, 33.53, 32.99, 39.3
 
 180122, "USA - North Dakota - Fargo", \
    46.7, 47.0, -96.93, -96.75
@@ -10683,4 +10821,22 @@
 
 180205, "GOES-16 East Full disk", \
    -81.3282, 81.3282, -156.2995, 6.2995
+
+180206, "USA - California and borders of NV, AZ, OR and MX", \
+   32.25, 42.53, -124.44, -113.6
+
+180207, "Mongolia - west of 96~E", \
+   43.01, 50.89, 87.76, 96.0
+
+180208, "Mongolia - between 96~E and 102~E", \
+   42.14, 52.15, 96.0, 102.0
+
+180209, "Mongolia - between 102~E and 108~E", \
+   41.58, 51.42, 102.0, 108.0
+
+180210, "Mongolia - between 108~E and 114~E", \
+   42.35, 50.23, 108.0, 114.0
+
+180211, "Mongolia - east of 114~E", \
+   44.9, 50.32, 114.0, 119.94
 

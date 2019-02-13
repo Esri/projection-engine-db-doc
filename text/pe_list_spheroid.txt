@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2018 Esri Inc.                                            #
+#  Copyright 1999-2019 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -2907,4 +2907,14 @@ WKT         : SPHEROID["Mercury_2015", 2439400.0, 0.0]
 Description : Mercury 2015
 Authority   : Esri
 Version     : 10.5.1
+Deprecated  : no
+
+WKID        : 107975
+Latest-WKID : 107975
+Macro       : PE_S_XT_SUN_2015
+Name        : Sun_2015
+WKT         : SPHEROID["Sun_2015", 695700000.0, 0.0]
+Description : Sun IAU 2015
+Authority   : Esri
+Version     : 10.7.0
 Deprecated  : no

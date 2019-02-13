@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2018 Esri Inc.                                            #
+#  Copyright 1999-2019 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -859,6 +859,26 @@ WKT         : PROJECTION["Geostationary_Satellite"]
 Description : Geostationary Satellite
 Authority   : Esri
 Version     : 10.6.0
+Deprecated  : no
+
+WKID        : 43085
+Latest-WKID : 43085
+Macro       : PE_PRJ_EQUAL_EARTH
+Name        : Equal_Earth
+WKT         : PROJECTION["Equal_Earth"]
+Description : Equal Earth
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+
+WKID        : 43086
+Latest-WKID : 43086
+Macro       : PE_PRJ_PEIRCE_QUINCUNCIAL
+Name        : Peirce_Quincuncial
+WKT         : PROJECTION["Peirce_Quincuncial"]
+Description : Peirce Quincuncial
+Authority   : Esri
+Version     : 10.7.0
 Deprecated  : no
 
 WKID        : 43102

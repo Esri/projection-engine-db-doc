@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2018 Esri Inc.                                            #
+#  Copyright 1999-2019 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -1189,7 +1189,7 @@ Authority   : EPSG
 Version     : 6.5(8.0.1)
 Deprecated  : no
 Area-name   : Iran - FD58
-Area-slat   : 26.74
+Area-slat   : 26.21
 Area-nlat   : 33.22
 Area-llon   : 47.13
 Area-rlon   : 53.61
@@ -1361,7 +1361,7 @@ Version     : 8.6(8.1.0)
 Deprecated  : no
 Area-name   : Israel, Palestine Territory, and Jordan
 Area-slat   : 29.19
-Area-nlat   : 33.52
+Area-nlat   : 33.53
 Area-llon   : 32.99
 Area-rlon   : 39.3
 
@@ -1416,11 +1416,11 @@ Description : Kalianpur 1937
 Authority   : EPSG
 Version     : 6.5(8.1.0)
 Deprecated  : no
-Area-name   : Asia - Bangladesh; India; Pakistan - onshore
+Area-name   : Asia - Bangladesh; India; Myanmar; Pakistan - onshore
 Area-slat   : 8.02
 Area-nlat   : 37.07
 Area-llon   : 60.86
-Area-rlon   : 97.42
+Area-rlon   : 101.17
 
 WKID        : 4145
 Latest-WKID : 4145
@@ -1435,8 +1435,8 @@ Description : Kalianpur 1962
 Authority   : EPSG
 Version     : 6.5(8.1.0)
 Deprecated  : no
-Area-name   : Pakistan - onshore
-Area-slat   : 23.64
+Area-name   : Pakistan
+Area-slat   : 21.05
 Area-nlat   : 37.07
 Area-llon   : 60.86
 Area-rlon   : 77.83
@@ -1570,7 +1570,7 @@ Version     : 8.4.1(8.1.0)
 Deprecated  : no
 Area-name   : USA - HARN
 Area-slat   : -14.59
-Area-nlat   : 49.38
+Area-nlat   : 71.4
 Area-llon   : 144.58
 Area-rlon   : -64.51
 
@@ -2063,10 +2063,10 @@ Authority   : EPSG
 Version     : 6.18(9.0.0)
 Deprecated  : no
 Area-name   : Europe - onshore - eastern - S-42(58)
-Area-slat   : 39.64
+Area-slat   : 39.63
 Area-nlat   : 54.89
 Area-llon   : 9.92
-Area-rlon   : 29.74
+Area-rlon   : 31.41
 
 WKID        : 4180
 Latest-WKID : 4180
@@ -2613,10 +2613,10 @@ Description : Arc 1960
 Authority   : EPSG
 Version     : 6.5(3.0.1)
 Deprecated  : no
-Area-name   : Africa - Kenya, Tanzania and Uganda
+Area-name   : Africa - Burundi, Kenya, Rwanda, Tanzania and Uganda
 Area-slat   : -11.75
 Area-nlat   : 4.63
-Area-llon   : 29.34
+Area-llon   : 28.85
 Area-rlon   : 41.91
 
 WKID        : 4211
@@ -2689,8 +2689,8 @@ Description : Beijing 1954
 Authority   : EPSG
 Version     : 7.2(3.0.1)
 Deprecated  : no
-Area-name   : China - onshore
-Area-slat   : 18.11
+Area-name   : China
+Area-slat   : 16.7
 Area-nlat   : 53.56
 Area-llon   : 73.62
 Area-rlon   : 134.77
@@ -2996,9 +2996,9 @@ Version     : 6.5(3.0.1)
 Deprecated  : no
 Area-name   : Europe - west
 Area-slat   : 34.88
-Area-nlat   : 71.21
+Area-nlat   : 84.17
 Area-llon   : -10.56
-Area-rlon   : 31.59
+Area-rlon   : 39.65
 
 WKID        : 4232
 Latest-WKID : 4232
@@ -3028,7 +3028,7 @@ WKT         : GEOGCS["GCS_Gandajika_1970",
                 SPHEROID["International_1924", 6378388.0, 297.0]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
-Description : Gandajika 1970
+Description : Gandajika 1970 (DEPRECATED - use PE_GCS_GAN_1970)
 Authority   : EPSG
 Version     : 6.5(3.0.1)
 Deprecated  : yes
@@ -3435,7 +3435,7 @@ Area-name   : South America - Tierra del Fuego
 Area-slat   : -55.96
 Area-nlat   : -51.99
 Area-llon   : -74.83
-Area-rlon   : -65.05
+Area-rlon   : -63.73
 
 WKID        : 4255
 Latest-WKID : 4255
@@ -3617,7 +3617,7 @@ WKT         : GEOGCS["GCS_Mhast",
                 SPHEROID["International_1924", 6378388.0, 297.0]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
-Description : Mhast
+Description : Mhast (DEPRECATED - use PE_GCS_MALONGO_1987)
 Authority   : EPSG
 Version     : 6.5(3.0.1)
 Deprecated  : yes
@@ -3679,7 +3679,7 @@ Authority   : EPSG
 Version     : 8.4.1(3.0.1)
 Deprecated  : no
 Area-name   : North America - NAD27
-Area-slat   : 7.98
+Area-slat   : 7.15
 Area-nlat   : 83.17
 Area-llon   : 167.65
 Area-rlon   : -47.74
@@ -4020,11 +4020,11 @@ Description : Qatar 1974
 Authority   : EPSG
 Version     : 6.5(3.0.1)
 Deprecated  : no
-Area-name   : Qatar - onshore
+Area-name   : Qatar
 Area-slat   : 24.55
-Area-nlat   : 26.2
-Area-llon   : 50.69
-Area-rlon   : 51.68
+Area-nlat   : 27.05
+Area-llon   : 50.55
+Area-rlon   : 53.04
 
 WKID        : 4286
 Latest-WKID : 4286
@@ -4118,7 +4118,7 @@ Deprecated  : yes
 Area-name   : South America - SAD69 by country
 Area-slat   : -55.96
 Area-nlat   : 12.52
-Area-llon   : -81.41
+Area-llon   : -91.72
 Area-rlon   : -25.28
 
 WKID        : 4292
@@ -4369,7 +4369,7 @@ Area-llon   : -2.95
 Area-rlon   : 9.09
 
 WKID        : 4305
-Latest-WKID : 4305
+Latest-WKID : 104026
 Macro       : PE_GCS_VOIROL_UNIFIE_1960
 Name        : GCS_Voirol_Unifie_1960
 WKT         : GEOGCS["GCS_Voirol_Unifie_1960",
@@ -4380,12 +4380,12 @@ WKT         : GEOGCS["GCS_Voirol_Unifie_1960",
 Description : Voirol Unifie 1960
 Authority   : Esri
 Version     : 3.0.1
-Deprecated  : no
-Area-name   : China - 130.5~E to 133.5~E
-Area-slat   : 42.42
-Area-nlat   : 48.88
-Area-llon   : 130.5
-Area-rlon   : 133.5
+Deprecated  : yes
+Area-name   : Algeria - north of 32~N
+Area-slat   : 31.99
+Area-nlat   : 37.14
+Area-llon   : -2.95
+Area-rlon   : 9.09
 
 WKID        : 4306
 Latest-WKID : 4306
@@ -5239,7 +5239,7 @@ Deprecated  : no
 Area-name   : South America - SAD69 by country
 Area-slat   : -55.96
 Area-nlat   : 12.52
-Area-llon   : -81.41
+Area-llon   : -91.72
 Area-rlon   : -25.28
 
 WKID        : 4619
@@ -5943,9 +5943,9 @@ Version     : 6.7(9.0.0)
 Deprecated  : no
 Area-name   : Europe - west
 Area-slat   : 34.88
-Area-nlat   : 71.21
+Area-nlat   : 84.17
 Area-llon   : -10.56
-Area-rlon   : 31.59
+Area-rlon   : 39.65
 
 WKID        : 4669
 Latest-WKID : 4669
@@ -7962,7 +7962,7 @@ Area-llon   : -2.95
 Area-rlon   : 9.09
 
 WKID        : 4812
-Latest-WKID : 4812
+Latest-WKID : 104025
 Macro       : PE_GCS_VOIROL_UNIFIE_1960_PARIS
 Name        : GCS_Voirol_Unifie_1960_Paris
 WKT         : GEOGCS["GCS_Voirol_Unifie_1960_Paris",
@@ -7973,12 +7973,12 @@ WKT         : GEOGCS["GCS_Voirol_Unifie_1960_Paris",
 Description : Voirol Unifie 1960 (Paris)
 Authority   : Esri
 Version     : 3.0.1
-Deprecated  : no
-Area-name   : China - 130.5~E to 133.5~E
-Area-slat   : 42.42
-Area-nlat   : 48.88
-Area-llon   : 130.5
-Area-rlon   : 133.5
+Deprecated  : yes
+Area-name   : Algeria - north of 32~N
+Area-slat   : 31.99
+Area-nlat   : 37.14
+Area-llon   : -2.95
+Area-rlon   : 9.09
 
 WKID        : 4813
 Latest-WKID : 4813
@@ -8103,10 +8103,10 @@ WKT         : GEOGCS["GCS_Nord_Sahara_1959_Paris",
                 SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]],
                PRIMEM["Paris", 2.337229166666667],
                UNIT["Grad", 0.01570796326794897]]
-Description : Nord Sahara 1959 Paris
+Description : Nord Sahara 1959 Paris - deprecated, use 4307
 Authority   : EPSG
 Version     : 5.1(9.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Africa - Algeria, Morocco and Tunisia
 Area-slat   : 18.98
 Area-nlat   : 37.34
@@ -9456,7 +9456,7 @@ Description : Gusterberg (Ferro)
 Authority   : EPSG
 Version     : 9.0.1(10.6.0)
 Deprecated  : no
-Area-name   : Europe - Upper Austria, Salzberg and Bohemia
+Area-name   : Europe - Upper Austria, Salzburg and Bohemia
 Area-slat   : 46.93
 Area-nlat   : 51.06
 Area-llon   : 12.07
@@ -9633,6 +9633,101 @@ Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -47.74
 
+WKID        : 8427
+Latest-WKID : 8427
+Macro       : PE_GCS_HK_GEODETIC_CS
+Name        : Hong_Kong_Geodetic_CS
+WKT         : GEOGCS["Hong_Kong_Geodetic_CS",
+               DATUM["Hong_Kong_Geodetic",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : Hong Kong Geodetic CS
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : China - Hong Kong
+Area-slat   : 22.13
+Area-nlat   : 22.58
+Area-llon   : 113.76
+Area-rlon   : 114.51
+
+WKID        : 8449
+Latest-WKID : 8449
+Macro       : PE_GCS_NAD_1983_FBN
+Name        : NAD_1983_(FBN)
+WKT         : GEOGCS["NAD_1983_(FBN)",
+               DATUM["NAD_1983_(Federal_Base_Network)",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : NAD83(FBN)
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : USA - FBN
+Area-slat   : -14.59
+Area-nlat   : 49.38
+Area-llon   : 144.58
+Area-rlon   : -64.51
+
+WKID        : 8545
+Latest-WKID : 8545
+Macro       : PE_GCS_NAD_1983_HARN_CORRECTED
+Name        : NAD_1983_(HARN_Corrected)
+WKT         : GEOGCS["NAD_1983_(HARN_Corrected)",
+               DATUM["NAD_1983_(High_Accuracy_Reference_Network-Corrected)",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : NAD83(HARN Corrected)
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Caribbean - Puerto Rico and US Virgin Islands - onshore
+Area-slat   : 17.62
+Area-nlat   : 18.57
+Area-llon   : -67.97
+Area-rlon   : -64.51
+
+WKID        : 8685
+Latest-WKID : 8685
+Macro       : PE_GCS_SRB_ETRS89
+Name        : SRB_ETRS89
+WKT         : GEOGCS["SRB_ETRS89",
+               DATUM["Serbian_Spatial_Reference_System_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SRB_ETRS89
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Serbia
+Area-slat   : 41.85
+Area-nlat   : 46.19
+Area-llon   : 18.81
+Area-rlon   : 23.01
+
+WKID        : 8818
+Latest-WKID : 8818
+Macro       : PE_GCS_MTRF_2000
+Name        : MTRF-2000
+WKT         : GEOGCS["MTRF-2000",
+               DATUM["MOMRA_Terrestrial_Reference_Frame_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : MTRF-2000
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Saudi Arabia
+Area-slat   : 15.61
+Area-nlat   : 32.16
+Area-llon   : 34.44
+Area-rlon   : 55.67
+
 WKID        : 37001
 Latest-WKID : 4760
 Macro       : PE_GCS_WGS_1966
@@ -9800,9 +9895,9 @@ Version     : 4.0.0
 Deprecated  : yes
 Area-name   : Europe - west
 Area-slat   : 34.88
-Area-nlat   : 71.21
+Area-nlat   : 84.17
 Area-llon   : -10.56
-Area-rlon   : 31.59
+Area-rlon   : 39.65
 
 WKID        : 37202
 Latest-WKID : 37202
@@ -10539,10 +10634,10 @@ Description : L.C. 5 Astro 1961
 Authority   : Esri
 Version     : 4.0.0
 Deprecated  : no
-Area-name   : Cayman Islands - Cayman Brac
-Area-slat   : 19.66
+Area-name   : Cayman Islands - Little Cayman and Cayman Brac
+Area-slat   : 19.63
 Area-nlat   : 19.78
-Area-llon   : -79.92
+Area-llon   : -80.14
 Area-rlon   : -79.69
 
 WKID        : 37245
@@ -11058,6 +11153,25 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 
+WKID        : 104022
+Latest-WKID : 104022
+Macro       : PE_GCS_GGD
+Name        : GGD
+WKT         : GEOGCS["GGD",
+               DATUM["Georgia_Geodetic_Datum",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : Georgia Geodetic Datum
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Georgia - onshore
+Area-slat   : 41.04
+Area-nlat   : 43.59
+Area-llon   : 39.99
+Area-rlon   : 46.72
+
 WKID        : 104023
 Latest-WKID : 104023
 Macro       : PE_GCS_INTERNATIONAL_1967
@@ -11076,6 +11190,63 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+
+WKID        : 104024
+Latest-WKID : 104024
+Macro       : PE_GCS_CSRS_EPOCH_2017_5_NAD83
+Name        : California_SRS_Epoch_2017.50_(NAD83)
+WKT         : GEOGCS["California_SRS_Epoch_2017.50_(NAD83)",
+               DATUM["California_SRS_Epoch_2017.50_(NAD83)",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : California SRS Epoch 2017.50 (NAD83)
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : USA - California and borders of NV, AZ, OR and MX
+Area-slat   : 32.25
+Area-nlat   : 42.53
+Area-llon   : -124.44
+Area-rlon   : -113.6
+
+WKID        : 104025
+Latest-WKID : 104025
+Macro       : PE_GCS_VOIROL_UNIFIE_1960_PARIS
+Name        : GCS_Voirol_Unifie_1960_Paris
+WKT         : GEOGCS["GCS_Voirol_Unifie_1960_Paris",
+               DATUM["D_Voirol_Unifie_1960",
+                SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]],
+               PRIMEM["Paris", 2.337229166666667],
+               UNIT["Grad", 0.01570796326794897]]
+Description : Voirol Unifie 1960 (Paris)
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : yes
+Area-name   : Algeria - north of 32~N
+Area-slat   : 31.99
+Area-nlat   : 37.14
+Area-llon   : -2.95
+Area-rlon   : 9.09
+
+WKID        : 104026
+Latest-WKID : 104026
+Macro       : PE_GCS_VOIROL_UNIFIE_1960
+Name        : GCS_Voirol_Unifie_1960
+WKT         : GEOGCS["GCS_Voirol_Unifie_1960",
+               DATUM["D_Voirol_Unifie_1960",
+                SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Grad", 0.01570796326794897]]
+Description : Voirol Unifie 1960
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : yes
+Area-name   : Algeria - north of 32~N
+Area-slat   : 31.99
+Area-nlat   : 37.14
+Area-llon   : -2.95
+Area-rlon   : 9.09
 
 WKID        : 104047
 Latest-WKID : 104047
@@ -12381,12 +12552,12 @@ WKT         : GEOGCS["GCS_Voirol_Unifie_1960_Degree",
 Description : Voirol Unifie 1960 (degrees)
 Authority   : Esri
 Version     : 8.0.1
-Deprecated  : no
-Area-name   : Canada - south of 60~N
-Area-slat   : 41.68
-Area-nlat   : 60.0
-Area-llon   : -139.05
-Area-rlon   : -52.62
+Deprecated  : yes
+Area-name   : Algeria - north of 32~N
+Area-slat   : 31.99
+Area-nlat   : 37.14
+Area-llon   : -2.95
+Area-rlon   : 9.09
 
 WKID        : 104700
 Latest-WKID : 104700
@@ -16846,6 +17017,25 @@ WKT         : GEOGCS["Mercury_2015",
 Description : Mercury 2015
 Authority   : Esri
 Version     : 10.5.1
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104975
+Latest-WKID : 104975
+Macro       : PE_GCS_XT_SUN
+Name        : Sun_2015
+WKT         : GEOGCS["Sun_2015",
+               DATUM["Sun_2015",
+                SPHEROID["Sun_2015", 695700000.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : Sun IAU 2015
+Authority   : Esri
+Version     : 10.7.0
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0

@@ -232,6 +232,14 @@ PE_VCS_GDM_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "GDM 2000"
 
+PE_VCS_GGD, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "GGD"
+
+PE_VCS_HK_GEODETIC_CS, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "Hong Kong Geodetic CS"
+
 PE_VCS_IG05_INTERM_CRS, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "IG05 Intermediate CRS"
@@ -280,6 +288,10 @@ PE_VCS_MONREF_1997, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "MONREF 1997"
 
+PE_VCS_MTRF_2000, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "MTRF-2000"
+
 PE_VCS_NEPAL_NAGARKOT, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "Nepal Nagarkot"
@@ -324,6 +336,38 @@ PE_VCS_DB_REF, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "DB-REF"
 
+PE_VCS_ETRF_2000, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF2000"
+
+PE_VCS_ETRF_1990, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF90"
+
+PE_VCS_ETRF_1991, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF91"
+
+PE_VCS_ETRF_1992, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF92"
+
+PE_VCS_ETRF_1993, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF93"
+
+PE_VCS_ETRF_1994, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF94"
+
+PE_VCS_ETRF_1996, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF96"
+
+PE_VCS_ETRF_1997, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF97"
+
 PE_VCS_ETRS_1989, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "ETRS 1989"
@@ -340,6 +384,10 @@ PE_VCS_FEH2010, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "FEH2010"
 
+PE_VCS_GSK_2011, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "GSK-2011"
+
 PE_VCS_IRENET95, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "IRENET95"
@@ -351,6 +399,10 @@ PE_VCS_ISN_1993, \
 PE_VCS_ISN_2004, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "ISN 2004"
+
+PE_VCS_ISN2016, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ISN2016"
 
 PE_VCS_LKS_1992, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
@@ -368,6 +420,14 @@ PE_VCS_PZ_1990, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "PZ 1990"
 
+PE_VCS_PZ_1990_02, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "PZ-90.02"
+
+PE_VCS_PZ_1990_11, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "PZ-90.11"
+
 PE_VCS_RDN2008, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "RDN2008"
@@ -383,6 +443,10 @@ PE_VCS_S_JTSK_05, \
 PE_VCS_S_JTSK_05_FERRO, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "S-JTSK-05 (Ferro)"
+
+PE_VCS_SRB_ETRS89, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "SRB ETRS89"
 
 PE_VCS_SREF98, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
@@ -412,6 +476,10 @@ PE_VCS_CR05, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
    "CR05"
 
+PE_VCS_CSRS_EPOCH_2017_5_NAD83, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "California SRS Epoch 2017.50 (NAD83)"
+
 PE_VCS_GREENLAND_1996, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
    "Greenland 1996"
@@ -432,6 +500,14 @@ PE_VCS_NAD_1983_CSRS, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
    "NAD 1983 (CSRS)"
 
+PE_VCS_NAD_1983_FBN, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "NAD 1983 (FBN)"
+
+PE_VCS_NAD_1983_HARN_CORRECTED, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "NAD 1983 (HARN Corrected)"
+
 PE_VCS_NAD_1983_NSRS2007, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
    "NAD 1983 (NSRS2007)"
@@ -443,6 +519,34 @@ PE_VCS_NAD_1983_CORS96, \
 PE_VCS_NAD_1983_HARN, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
    "NAD 1983 HARN"
+
+PE_VCS_NAD_1983_CSRS_V2, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "NAD83(CSRS)v2"
+
+PE_VCS_NAD_1983_CSRS_V3, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "NAD83(CSRS)v3"
+
+PE_VCS_NAD_1983_CSRS_V4, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "NAD83(CSRS)v4"
+
+PE_VCS_NAD_1983_CSRS_V5, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "NAD83(CSRS)v5"
+
+PE_VCS_NAD_1983_CSRS_V6, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "NAD83(CSRS)v6"
+
+PE_VCS_NAD_1983_CSRS_V7, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "NAD83(CSRS)v7"
+
+PE_VCS_NAD_1983_CSRS96, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "NAD83(CSRS96)"
 
 PE_VCS_CIGD11, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans", \
@@ -516,6 +620,14 @@ PE_VCS_RRAF_1991, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans", \
    "RRAF 1991"
 
+PE_VCS_SHGD2015, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans", \
+   "SHGD2015"
+
+PE_VCS_ST_HELENA_TRITAN, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans", \
+   "St. Helena Tritan"
+
 PE_VCS_TGD2005, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans", \
    "TGD2005"
@@ -576,6 +688,10 @@ PE_VCS_SIRGAS_ROU98, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
    "SIRGAS-ROU98"
 
+PE_VCS_IGS14, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "IGS14"
+
 PE_VCS_ITRF_1988, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "ITRF 1988"
@@ -620,9 +736,37 @@ PE_VCS_ITRF_2008, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "ITRF 2008"
 
+PE_VCS_ITRF2014, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "ITRF2014"
+
 PE_VCS_WGS_1984, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "WGS 1984"
+
+PE_VCS_WGS_1984_G1150, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "WGS 1984 (G1150)"
+
+PE_VCS_WGS_1984_G1674, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "WGS 1984 (G1674)"
+
+PE_VCS_WGS_1984_G1762, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "WGS 1984 (G1762)"
+
+PE_VCS_WGS_1984_G730, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "WGS 1984 (G730)"
+
+PE_VCS_WGS_1984_G873, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "WGS 1984 (G873)"
+
+PE_VCS_WGS_1984_TRANSIT, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "WGS 1984 (Transit)"
 
 PE_VCS_ALICANTE, \
    "Vertical Coordinate Systems/Europe", \

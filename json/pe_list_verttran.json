@@ -1498,10 +1498,10 @@
     "macro": "PE_VT_HKPD_HT_TO_HKCD_D_1",
     "name": "HKPD_Height_To_HKCD_Depth_1",
     "wkt": "VERTTRAN[\"HKPD_Height_To_HKCD_Depth_1\",VERTCS[\"Hong_Kong_Principal_Datum\",VDATUM[\"Hong_Kong_Principal_Datum\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"Hong_Kong_Chart_Datum\",VDATUM[\"Hong_Kong_Chart_Datum\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",-1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"Vertical_Offset\"],PARAMETER[\"Vertical_Offset\",-0.146]]",
-    "description": "China - Hong Kong",
+    "description": "China - Hong Kong - deprecated",
     "authority": "EPSG",
     "version": "6.15(10.2.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "China - Hong Kong",
     "extent":
     { "slat": 22.13,
@@ -2006,12 +2006,12 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "Puerto Rico",
+    "areaname": "Puerto Rico - onshore",
     "extent":
-    { "slat": 14.92,
-      "nlat": 21.86,
-      "llon": -68.49,
-      "rlon": -65.04
+    { "slat": 17.87,
+      "nlat": 18.57,
+      "llon": -67.97,
+      "rlon": -65.19
     },
     "accuracy": 2.0
   },
@@ -2024,12 +2024,12 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "American Samoa",
+    "areaname": "American Samoa - Tutuila island",
     "extent":
-    { "slat": -17.56,
-      "nlat": -10.02,
-      "llon": -173.75,
-      "rlon": -165.2
+    { "slat": -14.43,
+      "nlat": -14.2,
+      "llon": -170.88,
+      "rlon": -170.51
     },
     "accuracy": 1.6
   },
@@ -2042,12 +2042,12 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "Guam",
+    "areaname": "Guam - onshore",
     "extent":
-    { "slat": 10.95,
-      "nlat": 15.91,
-      "llon": 141.19,
-      "rlon": 148.18
+    { "slat": 13.18,
+      "nlat": 13.7,
+      "llon": 144.58,
+      "rlon": 145.01
     },
     "accuracy": 1.6
   },
@@ -2060,12 +2060,12 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "Virgin Islands, US",
+    "areaname": "Virgin Islands, US - onshore",
     "extent":
-    { "slat": 16.22,
-      "nlat": 21.83,
-      "llon": -66.05,
-      "rlon": -63.88
+    { "slat": 17.62,
+      "nlat": 18.44,
+      "llon": -65.09,
+      "rlon": -64.51
     },
     "accuracy": 2.0
   },
@@ -2283,7 +2283,7 @@
       "llon": -180.0,
       "rlon": 180.0
     },
-    "accuracy": 0.5
+    "accuracy": 0.15
   },
   { "wkid": 110019,
     "latestWkid": 110019,
@@ -2366,12 +2366,12 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "Puerto Rico",
+    "areaname": "Puerto Rico - onshore",
     "extent":
-    { "slat": 14.92,
-      "nlat": 21.86,
-      "llon": -68.49,
-      "rlon": -65.04
+    { "slat": 17.87,
+      "nlat": 18.57,
+      "llon": -67.97,
+      "rlon": -65.19
     },
     "accuracy": 2.0
   },
@@ -2384,12 +2384,12 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "Virgin Islands, US",
+    "areaname": "Virgin Islands, US - onshore",
     "extent":
-    { "slat": 16.22,
-      "nlat": 21.83,
-      "llon": -66.05,
-      "rlon": -63.88
+    { "slat": 17.62,
+      "nlat": 18.44,
+      "llon": -65.09,
+      "rlon": -64.51
     },
     "accuracy": 2.0
   },
@@ -2402,12 +2402,12 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "Northern Mariana Islands",
+    "areaname": "Northern Mariana Islands - Rota, Saipan and Tinian",
     "extent":
-    { "slat": 12.38,
-      "nlat": 23.9,
-      "llon": 141.33,
-      "rlon": 149.55
+    { "slat": 14.06,
+      "nlat": 15.35,
+      "llon": 145.06,
+      "rlon": 145.89
     },
     "accuracy": 1.6
   },
@@ -2811,17 +2811,17 @@
     "latestWkid": 110059,
     "macro": "PE_VT_JGD2000_TO_JGD2000_V_HT_1",
     "name": "JGD_2000_To_JGD_2000_Vertical_Height_1",
-    "wkt": "VERTTRAN[\"JGD_2000_To_JGD_2000_Vertical_Height_1\",GEOGCS[\"GCS_JGD_2000\",DATUM[\"D_JGD_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"JGD_2000\",DATUM[\"D_JGD_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"JGD2000_vertical_height\",VDATUM[\"Japanese_Geodetic_Datum_2000_vertical\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Dataset_jgeoid2008\",0.0]]",
+    "wkt": "VERTTRAN[\"JGD_2000_To_JGD_2000_Vertical_Height_1\",GEOGCS[\"GCS_JGD_2000\",DATUM[\"D_JGD_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"JGD_2000\",DATUM[\"D_JGD_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"JGD2000_vertical_height\",VDATUM[\"Japanese_Geodetic_Datum_2000_vertical\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Dataset_JGEOID2008\",0.0]]",
     "description": "Japan - JGEOID2008 model",
     "authority": "Esri",
     "version": "10.6.0",
     "deprecated": "no",
-    "areaname": "Japan - onshore",
+    "areaname": "Japan - onshore mainland",
     "extent":
-    { "slat": 20.37,
+    { "slat": 30.94,
       "nlat": 45.54,
-      "llon": 122.83,
-      "rlon": 154.05
+      "llon": 129.3,
+      "rlon": 145.87
     },
     "accuracy": 10.0
   },
@@ -2829,17 +2829,17 @@
     "latestWkid": 110060,
     "macro": "PE_VT_JGD2011_TO_JGD2011_V_HT_1",
     "name": "JGD_2011_To_JGD_2011_Vertical_Height_1",
-    "wkt": "VERTTRAN[\"JGD_2011_To_JGD_2011_Vertical_Height_1\",GEOGCS[\"GCS_JGD_2011\",DATUM[\"D_JGD_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"JGD_2011\",DATUM[\"D_JGD_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"JGD2011_vertical_height\",VDATUM[\"Japanese_Geodetic_Datum_2011_vertical\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Dataset_gsigeoid2011\",0.0]]",
+    "wkt": "VERTTRAN[\"JGD_2011_To_JGD_2011_Vertical_Height_1\",GEOGCS[\"GCS_JGD_2011\",DATUM[\"D_JGD_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"JGD_2011\",DATUM[\"D_JGD_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"JGD2011_vertical_height\",VDATUM[\"Japanese_Geodetic_Datum_2011_vertical\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Dataset_GSIGEOID2011\",0.0]]",
     "description": "Japan - GSIGEOID2011 model",
     "authority": "Esri",
     "version": "10.6.0",
     "deprecated": "no",
-    "areaname": "Japan - onshore",
+    "areaname": "Japan - onshore mainland",
     "extent":
-    { "slat": 20.37,
+    { "slat": 30.94,
       "nlat": 45.54,
-      "llon": 122.83,
-      "rlon": 154.05
+      "llon": 129.3,
+      "rlon": 145.87
     },
     "accuracy": 2.0
   },

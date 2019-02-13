@@ -412,6 +412,26 @@ PE_D_NAD_1983_CSRS_V7, \
    "North_American_Datum_of_1983_(CSRS)_version_7", \
    PE_S_GRS_1980
 
+PE_D_HK_GEODETIC, \
+   "Hong_Kong_Geodetic", \
+   PE_S_GRS_1980
+
+PE_D_NAD_1983_FBN, \
+   "NAD_1983_(Federal_Base_Network)", \
+   PE_S_GRS_1980
+
+PE_D_NAD_1983_HARN_CORRECTED, \
+   "NAD_1983_(High_Accuracy_Reference_Network-Corrected)", \
+   PE_S_GRS_1980
+
+PE_D_SSRS_2000, \
+   "Serbian_Spatial_Reference_System_2000", \
+   PE_S_GRS_1980
+
+PE_D_MTRF_2000, \
+   "MOMRA_Terrestrial_Reference_Frame_2000", \
+   PE_S_GRS_1980
+
 PE_D_AIRY_1830, \
    "D_Airy_1830", \
    PE_S_AIRY_1830
@@ -1292,10 +1312,6 @@ PE_D_VOIROL_1875, \
    "D_Voirol_1875", \
    PE_S_CLARKE_1880_IGN
 
-PE_D_VOIROL_UNIFIE_1960, \
-   "D_Voirol_Unifie_1960", \
-   PE_S_CLARKE_1880_RGS
-
 PE_D_BERN_1938, \
    "D_Bern_1938", \
    PE_S_BESSEL_1841
@@ -2050,6 +2066,18 @@ PE_D_SPHERE_AI, \
 
 PE_D_KYRG_06, \
    "D_Kyrgyz_Republic_2006", \
+   PE_S_GRS_1980
+
+PE_D_GEORGIA_GEODETIC_DATUM, \
+   "Georgia_Geodetic_Datum", \
+   PE_S_GRS_1980
+
+PE_D_VOIROL_UNIFIE_1960, \
+   "D_Voirol_Unifie_1960", \
+   PE_S_CLARKE_1880_RGS
+
+PE_D_CSRS_EPOCH_2017_5_NAD83, \
+   "California_SRS_Epoch_2017.50_(NAD83)", \
    PE_S_GRS_1980
 
 PE_D_SPHERE_GRS_1980_MEAN_RADIUS, \
@@ -3063,4 +3091,8 @@ PE_D_XT_4_VESTA_2015, \
 PE_D_XT_MERCURY_2015, \
    "Mercury_2015", \
    PE_S_MERCURY_2015
+
+PE_D_XT_SUN_2015, \
+   "Sun_2015", \
+   PE_S_XT_SUN_2015
 

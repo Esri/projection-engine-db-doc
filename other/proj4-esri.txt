@@ -1,17 +1,17 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2018 Esri Inc.                                            #
+#  Copyright 1999-2019 Esri                                                 #
 #                                                                           #
-#  Licensed under the Apache License, Version 2.0 (the "License");          #
-#  you may not use this file except in compliance with the License.         #
-#  You may obtain a copy of the License at                                  #
+#  TRADE SECRETS: ESRI PROPRIETARY AND CONFIDENTIAL                         #
+#  Unpublished material - all rights reserved under the                     #
+#  Copyright Laws of the United States.                                     #
 #                                                                           #
-#      http://www.apache.org/licenses/LICENSE-2.0                           #
+#  For additional information, contact:                                     #
+#  Environmental Systems Research Institute, Inc.                           #
+#  Attn: Contracts Dept                                                     #
+#  380 New York Street                                                      #
+#  Redlands, California, USA 92373                                          #
 #                                                                           #
-#  Unless required by applicable law or agreed to in writing, software      #
-#  distributed under the License is distributed on an "AS IS" BASIS,        #
-#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #
-#  See the License for the specific language governing permissions and      #
-#  limitations under the License.                                           #
+#  email: contracts@esri.com                                                #
 # ------------------------------------------------------------------------- #
 
 # ------------------------------------------------------------------------- #
@@ -171,6 +171,11 @@ eqdc          Equidistant Conic                            Equidistant_Conic
                 A +lat_1                                     Standard_Parallel_1
                 A +lat_2                                     Standard_Parallel_2
                 A +lat_0                                     Latitude_Of_Origin
+                A +lon_0                                     Central_Meridian
+
+eqearth       Equal Earth                                  Equal_Earth
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
                 A +lon_0                                     Central_Meridian
 
 erdi_krusz   *Erdi-Krausz                                  -
@@ -441,7 +446,7 @@ patterson    *Patterson Cylindrical                        Patterson
 
 pav_cyl      *Pavlov's                                     -
 pconic        Perspective Conic                            -
-peirce_q     *Pierce Quincuncial                           -
+peirce_q     *Peirce Quincuncial                           -
 
 poly          Polyconic (American)                         Polyconic
                 L +x_0                                       False_Easting
@@ -631,3 +636,187 @@ wintri        Winkel Tripel                                Winkel_Tripel
                 A +lat_1                                     Standard_Parallel_1
                 A +lon_0                                     Central_Meridian
 
+# ------------------------------------------------------------------------- #
+# PE projections not supported by PROJ4                                     #
+# ------------------------------------------------------------------------- #
+
+   Behrmann
+   Berghaus_Star
+   Compact_Miller
+   Equidistant_Cylindrical_Ellipsoidal
+   Fuller
+   Gnomonic_Ellipsoidal
+   Hammer_Aitoff
+   IGAC_Plano_Cartesiano
+   Local
+   Ney_Modified_Conic
+   Peirce_Quincuncial
+   Plate_Carree
+   Polar_Stereographic_Variant_B
+   Polar_Stereographic_Variant_C
+   Robinson_ARC_INFO
+   Transverse_Mercator_Complex
+
+   Azimuthal_Equidistant_Auxiliary_Sphere
+   Eckert_IV_Auxiliary_Sphere
+   Eckert_VI_Auxiliary_Sphere
+   Equidistant_Cylindrical_Auxiliary_Sphere
+   Gnomonic_Auxiliary_Sphere
+   Lambert_Azimuthal_Equal_Area_Auxiliary_Sphere
+   Mercator_Auxiliary_Sphere
+   Miller_Cylindrical_Auxiliary_Sphere
+   Mollweide_Auxiliary_Sphere
+   Orthographic_Auxiliary_Sphere
+   Stereographic_Auxiliary_Sphere
+   Van_der_Grinten_I_Auxiliary_Sphere
+
+# ------------------------------------------------------------------------- #
+# PROJ4 projections not supported by the PE                                 #
+# ------------------------------------------------------------------------- #
+
+   abbrev       PROJ4 name
+   ----------   ---------------------------------------------
+   adams_hemi  *Adams Hemisphere in a Square
+   adams_wsI   *Adams World in a Square I
+   adams_wsII  *Adams World in a Square II
+   airy         Airy
+   alsk         Mod. Stererographics of Alaska
+   apian        Apian Globular I
+   apian1      *Apian Globular I
+   apian2      *Apian Globular II
+   ardn_cls    *Arden-Close
+   arma        *Armadillo
+   august       August Epicycloidal
+   bacon        Bacon Globular
+   baker       *Baker Dinomic
+   baranyi4    *Baranyi IV
+   barth       *Bartholomew
+   bipc         Bipolar conic of western hemisphere
+   boggs        Boggs Eumorphic
+   braun2      *Braun's 2nd (Perspective)
+   brny_1      *Baranyi 1
+   brny_2      *Baranyi 2
+   brny_3      *Baranyi 3
+   brny_4      *Baranyi 4
+   brny_5      *Baranyi 5
+   brny_6      *Baranyi 6
+   brny_7      *Baranyi 7
+   bromley     *Bromley
+   calcofi     @Cal Coop Ocean Fish Invest Lines/Stations
+   cc           Central Cylindrical
+   chamb       @Chamberlin Trimetric
+   collg        Collignon
+   cyl_stere   *Cylindrical Stereographic
+   denoy        Denoyer Semi-Elliptical
+   dummy       *Dummy projection
+   eisen       *Eisenlohr
+   eq_moll     *Equidistant Mollweide
+   erdi_krusz  *Erdi-Krausz
+   etmerc       Extended Transverse Mercator
+   euler        Euler
+   fahey        Fahey
+   fc_ar       *Canters low_error, correct axis ratio
+   fc_gen      *General optimization
+   fc_pe       *Canters low_error, 1/2 pole length
+   fc_pp       *Canters low_error, pointed pole
+   fouc         Foucaut
+   fouc_s       Foucat Sinusoidal
+   four1       *Fournier Globular I
+   four2       *Fournier II
+   ftmerc      *French Transverse Mercator
+   gbtmerc     *Gauss-Boaga Transverse Mercator
+   gen_ts      *General Sine-Tangent
+   gilbert     *Gilbert Two World Perspective
+   gins8       *Ginsburg VIII (TsNIIGAiK)
+   gn_sinu     *General Sinusoidal Series
+   gs48         Mod. Stererographics of 48 U.S.
+   gs50         Mod. Stererographics of 50 U.S.
+   gstmerc      Gauss-Schreiber Transverse Mercator
+   guyou       *Guyou
+   hatano       Hatano Asymmetrical Equal Area
+   healpix     @HEALPix
+   hill        *Hill Eucyclic
+   holzel      *Holzel
+   imw_p        International Map of the World Polyconic
+   isea        @Icosahedral Snyder Equal Area
+   kav5         Kavraisky V
+   kav7         Kavraisky VII
+   kh_sh       *Kharchenko-Shabanaova
+   kocc        *Krovak Oblique Conformal Conic
+   ktmerc      *Kruger Transverse Mercator
+   lagrng       Lagrange
+   larr         Larrivee
+   lask         Laskowski
+   lcca         Lambert Conic Conformal Alternative
+   lee_os       Lee Oblated Stereographic
+   lsat         Space oblique for LANDSAT
+   maurer      *Maurer
+   mayr        *Mayr (Tobler Meridian  Geometric Mean)
+   mb_P3       *McBryde P3
+   mb_Q3       *McBryde Q3
+   mb_S2       *McBryde S2
+   mb_S3       *McBryde S3
+   mbt_fps      McBryde-Thomas Flat-Polar Sine (No. 2)
+   mbt_s        McBryde-Thomas Sine (No. 1)
+   mbtfpp       McBryde-Thomas Flat-Polar Parabolic
+   mbtfps       McBryde-Thomas Flat-Polar Sinusoidal
+   mil_os       Miller Oblated Stereographic
+   mill_2      *Miller's 2 or Mod. Mercator
+   mill_per    *Miller's Perspective Compromise
+   murd1        Murdoch I
+   murd2        Murdoch II
+   murd3        Murdoch III
+   near_con    *Semiconformal Pseudocylindrical
+   nell         Nell
+   nell_h       Nell-Hammer
+   nicol        Nicolosi Globular
+   no_name     *No_name
+   ob_tran      General Oblique Transformation
+   ocea         Oblique Cylindrical Equal Area
+   oea          Oblated Equal Area
+   ortel        Ortelius Oval
+   oxford      *Oxford Atlas
+   pav_cyl     *Pavlov's
+   pconic       Perspective Conic
+   peirce_q    *Peirce Quincuncial
+   putp1        Putnins P1
+   putp1p      *Putnins P1'
+   putp2        Putnins P2
+   putp3        Putnins P3
+   putp3p      *Putnins P3'
+   putp4       @Putnins P4
+   putp4p      *Putnins P4'
+   putp5        Putnins P5
+   putp5p       Putnins P5'
+   putp6        Putnins P6
+   putp6p       Putnins P6'
+   rhealpix    @rHEALPix
+   rouss        Roussilhe Stereographic
+   rpoly        Rectangular Polyconic
+   s_min_err   *Snyder Minimum Error Pseudocylindrical
+   siemon4     *Siemon IV
+   tcc          Transverse Central Cylindrical
+   tissot       Tissot
+   tob_g1      *Tobler G1
+   tob_sqr     *Tobler's World in a Square
+   tobler_1    *Tobler's alternate 1
+   tobler_2    *Tobler's alternate 2
+   tpers        Tilted perspective
+   trapez      *Trapezoidal
+   urm5         Urmaev V
+   urm_2       *Urmayev II
+   urm_3       *Urmayev III
+   urmfps       Urmaev Flat-Polar Sinusoidal
+   vandg2       Van der Grinten II
+   vandg3       Van der Grinten III
+   vandg4       Van der Grinten IV
+   vitk1        Vitkovsky I
+   wag1         Wagner I (Kavraisky VI)
+   wag2         Wagner II
+   wag3         Wagner III
+   wag6         Wagner VI
+   wag8        *Wagner VIII
+   wag9        *Wagner IX
+   weren        Werenskiold I
+   weren2      *Werenskiold II
+   weren3      *Werenskiold III
