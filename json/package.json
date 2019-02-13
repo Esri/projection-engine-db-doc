@@ -1,6 +1,6 @@
 {
   "name": "@esri/proj-codes",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Get WKT and other metadata associated with an Esri/EPSG factory code.",
   "main": "index.js",
   "files": [
@@ -31,7 +31,6 @@
   ],
   "license": "Apache-2.0",
   "devDependencies": {
-    "gh-release": "^3.4.0",
     "standard": "^11.0.1",
     "tap-spec": "^5.0.0",
     "tape": "^4.9.1"
