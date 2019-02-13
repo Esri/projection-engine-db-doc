@@ -256,10 +256,6 @@ PE_GCS_NORD_SAHARA_1959, \
    "Geographic Coordinate Systems/Africa", \
    "Nord Sahara 1959"
 
-PE_GCS_NORD_SAHARA_1959_PARIS, \
-   "Geographic Coordinate Systems/Africa", \
-   "Nord Sahara 1959 (Paris)"
-
 PE_GCS_NOUAKCHOTT_1965, \
    "Geographic Coordinate Systems/Africa", \
    "Nouakchott 1965"
@@ -355,18 +351,6 @@ PE_GCS_VOIROL_1879, \
 PE_GCS_VOIROL_1879_GRAD, \
    "Geographic Coordinate Systems/Africa", \
    "Voirol 1879 (grads)"
-
-PE_GCS_VOIROL_UNIFIE_1960, \
-   "Geographic Coordinate Systems/Africa", \
-   "Voirol Unifie 1960"
-
-PE_GCS_VOIROL_UNIFIE_1960_PARIS, \
-   "Geographic Coordinate Systems/Africa", \
-   "Voirol Unifie 1960 (Paris)"
-
-PE_GCS_VOIROL_UNIFIE_1960_DEGREE, \
-   "Geographic Coordinate Systems/Africa", \
-   "Voirol Unifie 1960 (degrees)"
 
 PE_GCS_YEMEN_NGN_1996, \
    "Geographic Coordinate Systems/Africa", \
@@ -484,6 +468,10 @@ PE_GCS_GDM_2000, \
    "Geographic Coordinate Systems/Asia", \
    "GDM 2000"
 
+PE_GCS_GGD, \
+   "Geographic Coordinate Systems/Asia", \
+   "GGD"
+
 PE_GCS_GULSHAN_303, \
    "Geographic Coordinate Systems/Asia", \
    "Gulshan 303"
@@ -515,6 +503,10 @@ PE_GCS_HONG_KONG_1963_67, \
 PE_GCS_HONG_KONG_1980, \
    "Geographic Coordinate Systems/Asia", \
    "Hong Kong 1980"
+
+PE_GCS_HK_GEODETIC_CS, \
+   "Geographic Coordinate Systems/Asia", \
+   "Hong Kong Geodetic CS"
 
 PE_GCS_HU_TZU_SHAN, \
    "Geographic Coordinate Systems/Asia", \
@@ -655,6 +647,10 @@ PE_GCS_MONREF_1997, \
 PE_GCS_MSK_1942, \
    "Geographic Coordinate Systems/Asia", \
    "MSK 1942"
+
+PE_GCS_MTRF_2000, \
+   "Geographic Coordinate Systems/Asia", \
+   "MTRF-2000"
 
 PE_GCS_MACAO_2008, \
    "Geographic Coordinate Systems/Asia", \
@@ -1788,6 +1784,10 @@ PE_GCS_S_JTSK_05_FERRO, \
    "Geographic Coordinate Systems/Europe", \
    "S-JTSK-05 (Ferro)"
 
+PE_GCS_SRB_ETRS89, \
+   "Geographic Coordinate Systems/Europe", \
+   "SRB_ETRS89"
+
 PE_GCS_SREF98, \
    "Geographic Coordinate Systems/Europe", \
    "SREF98"
@@ -2028,6 +2028,10 @@ PE_GCS_SAMOA_1962, \
    "Geographic Coordinate Systems/North America/USA and territories", \
    "American Samoa 1962"
 
+PE_GCS_CSRS_EPOCH_2017_5_NAD83, \
+   "Geographic Coordinate Systems/North America/USA and territories", \
+   "California SRS Epoch 2017.50 (NAD83)"
+
 PE_GCS_CAPE_CANAVERAL, \
    "Geographic Coordinate Systems/North America/USA and territories", \
    "Cape Canaveral"
@@ -2051,6 +2055,14 @@ PE_GCS_NAD_1983_2011, \
 PE_GCS_NAD_1983_CORS96, \
    "Geographic Coordinate Systems/North America/USA and territories", \
    "NAD 1983 (CORS96)"
+
+PE_GCS_NAD_1983_FBN, \
+   "Geographic Coordinate Systems/North America/USA and territories", \
+   "NAD 1983 (FBN)"
+
+PE_GCS_NAD_1983_HARN_CORRECTED, \
+   "Geographic Coordinate Systems/North America/USA and territories", \
+   "NAD 1983 (HARN Corrected)"
 
 PE_GCS_NAD_1983_NSRS2007, \
    "Geographic Coordinate Systems/North America/USA and territories", \
@@ -2303,6 +2315,10 @@ PE_GCS_WAKE_ISLAND_1952, \
 PE_GCS_WAKE_ENIWETOK_1960, \
    "Geographic Coordinate Systems/Pacific Ocean", \
    "Wake-Eniwetok 1960"
+
+PE_GCS_XT_SUN, \
+   "Geographic Coordinate Systems/Solar System", \
+   "Sun 2015"
 
 PE_GCS_XT_1_CERES_2015, \
    "Geographic Coordinate Systems/Solar System/Asteroid Belt", \

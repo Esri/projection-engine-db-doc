@@ -1047,7 +1047,7 @@
     "deprecated": "no",
     "areaname": "Iran - FD58",
     "extent":
-    { "slat": 26.74,
+    { "slat": 26.21,
       "nlat": 33.22,
       "llon": 47.13,
       "rlon": 53.61
@@ -1201,7 +1201,7 @@
     "areaname": "Israel, Palestine Territory, and Jordan",
     "extent":
     { "slat": 29.19,
-      "nlat": 33.52,
+      "nlat": 33.53,
       "llon": 32.99,
       "rlon": 39.3
     }
@@ -1249,12 +1249,12 @@
     "authority": "EPSG",
     "version": "6.5(8.1.0)",
     "deprecated": "no",
-    "areaname": "Asia - Bangladesh; India; Pakistan - onshore",
+    "areaname": "Asia - Bangladesh; India; Myanmar; Pakistan - onshore",
     "extent":
     { "slat": 8.02,
       "nlat": 37.07,
       "llon": 60.86,
-      "rlon": 97.42
+      "rlon": 101.17
     }
   },
   { "wkid": 4145,
@@ -1266,9 +1266,9 @@
     "authority": "EPSG",
     "version": "6.5(8.1.0)",
     "deprecated": "no",
-    "areaname": "Pakistan - onshore",
+    "areaname": "Pakistan",
     "extent":
-    { "slat": 23.64,
+    { "slat": 21.05,
       "nlat": 37.07,
       "llon": 60.86,
       "rlon": 77.83
@@ -1388,7 +1388,7 @@
     "areaname": "USA - HARN",
     "extent":
     { "slat": -14.59,
-      "nlat": 49.38,
+      "nlat": 71.4,
       "llon": 144.58,
       "rlon": -64.51
     }
@@ -1829,10 +1829,10 @@
     "deprecated": "no",
     "areaname": "Europe - onshore - eastern - S-42(58)",
     "extent":
-    { "slat": 39.64,
+    { "slat": 39.63,
       "nlat": 54.89,
       "llon": 9.92,
-      "rlon": 29.74
+      "rlon": 31.41
     }
   },
   { "wkid": 4180,
@@ -2320,11 +2320,11 @@
     "authority": "EPSG",
     "version": "6.5(3.0.1)",
     "deprecated": "no",
-    "areaname": "Africa - Kenya, Tanzania and Uganda",
+    "areaname": "Africa - Burundi, Kenya, Rwanda, Tanzania and Uganda",
     "extent":
     { "slat": -11.75,
       "nlat": 4.63,
-      "llon": 29.34,
+      "llon": 28.85,
       "rlon": 41.91
     }
   },
@@ -2388,9 +2388,9 @@
     "authority": "EPSG",
     "version": "7.2(3.0.1)",
     "deprecated": "no",
-    "areaname": "China - onshore",
+    "areaname": "China",
     "extent":
-    { "slat": 18.11,
+    { "slat": 16.7,
       "nlat": 53.56,
       "llon": 73.62,
       "rlon": 134.77
@@ -2663,9 +2663,9 @@
     "areaname": "Europe - west",
     "extent":
     { "slat": 34.88,
-      "nlat": 71.21,
+      "nlat": 84.17,
       "llon": -10.56,
-      "rlon": 31.59
+      "rlon": 39.65
     }
   },
   { "wkid": 4232,
@@ -2690,7 +2690,7 @@
     "macro": "PE_GCS_GANDAJIKA_1970",
     "name": "GCS_Gandajika_1970",
     "wkt": "GEOGCS[\"GCS_Gandajika_1970\",DATUM[\"D_Gandajika_1970\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "description": "Gandajika 1970",
+    "description": "Gandajika 1970 (DEPRECATED - use PE_GCS_GAN_1970)",
     "authority": "EPSG",
     "version": "6.5(3.0.1)",
     "deprecated": "yes",
@@ -3056,7 +3056,7 @@
     { "slat": -55.96,
       "nlat": -51.99,
       "llon": -74.83,
-      "rlon": -65.05
+      "rlon": -63.73
     }
   },
   { "wkid": 4255,
@@ -3217,7 +3217,7 @@
     "macro": "PE_GCS_MHAST",
     "name": "GCS_Mhast",
     "wkt": "GEOGCS[\"GCS_Mhast\",DATUM[\"D_Mhast\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "description": "Mhast",
+    "description": "Mhast (DEPRECATED - use PE_GCS_MALONGO_1987)",
     "authority": "EPSG",
     "version": "6.5(3.0.1)",
     "deprecated": "yes",
@@ -3274,7 +3274,7 @@
     "deprecated": "no",
     "areaname": "North America - NAD27",
     "extent":
-    { "slat": 7.98,
+    { "slat": 7.15,
       "nlat": 83.17,
       "llon": 167.65,
       "rlon": -47.74
@@ -3578,12 +3578,12 @@
     "authority": "EPSG",
     "version": "6.5(3.0.1)",
     "deprecated": "no",
-    "areaname": "Qatar - onshore",
+    "areaname": "Qatar",
     "extent":
     { "slat": 24.55,
-      "nlat": 26.2,
-      "llon": 50.69,
-      "rlon": 51.68
+      "nlat": 27.05,
+      "llon": 50.55,
+      "rlon": 53.04
     }
   },
   { "wkid": 4286,
@@ -3667,7 +3667,7 @@
     "extent":
     { "slat": -55.96,
       "nlat": 12.52,
-      "llon": -81.41,
+      "llon": -91.72,
       "rlon": -25.28
     }
   },
@@ -3893,20 +3893,20 @@
     }
   },
   { "wkid": 4305,
-    "latestWkid": 4305,
+    "latestWkid": 104026,
     "macro": "PE_GCS_VOIROL_UNIFIE_1960",
     "name": "GCS_Voirol_Unifie_1960",
     "wkt": "GEOGCS[\"GCS_Voirol_Unifie_1960\",DATUM[\"D_Voirol_Unifie_1960\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Grad\",0.01570796326794897]]",
     "description": "Voirol Unifie 1960",
     "authority": "Esri",
     "version": "3.0.1",
-    "deprecated": "no",
-    "areaname": "China - 130.5~E to 133.5~E",
+    "deprecated": "yes",
+    "areaname": "Algeria - north of 32~N",
     "extent":
-    { "slat": 42.42,
-      "nlat": 48.88,
-      "llon": 130.5,
-      "rlon": 133.5
+    { "slat": 31.99,
+      "nlat": 37.14,
+      "llon": -2.95,
+      "rlon": 9.09
     }
   },
   { "wkid": 4306,
@@ -4670,7 +4670,7 @@
     "extent":
     { "slat": -55.96,
       "nlat": 12.52,
-      "llon": -81.41,
+      "llon": -91.72,
       "rlon": -25.28
     }
   },
@@ -5298,9 +5298,9 @@
     "areaname": "Europe - west",
     "extent":
     { "slat": 34.88,
-      "nlat": 71.21,
+      "nlat": 84.17,
       "llon": -10.56,
-      "rlon": 31.59
+      "rlon": 39.65
     }
   },
   { "wkid": 4669,
@@ -7106,20 +7106,20 @@
     }
   },
   { "wkid": 4812,
-    "latestWkid": 4812,
+    "latestWkid": 104025,
     "macro": "PE_GCS_VOIROL_UNIFIE_1960_PARIS",
     "name": "GCS_Voirol_Unifie_1960_Paris",
     "wkt": "GEOGCS[\"GCS_Voirol_Unifie_1960_Paris\",DATUM[\"D_Voirol_Unifie_1960\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Paris\",2.337229166666667],UNIT[\"Grad\",0.01570796326794897]]",
     "description": "Voirol Unifie 1960 (Paris)",
     "authority": "Esri",
     "version": "3.0.1",
-    "deprecated": "no",
-    "areaname": "China - 130.5~E to 133.5~E",
+    "deprecated": "yes",
+    "areaname": "Algeria - north of 32~N",
     "extent":
-    { "slat": 42.42,
-      "nlat": 48.88,
-      "llon": 130.5,
-      "rlon": 133.5
+    { "slat": 31.99,
+      "nlat": 37.14,
+      "llon": -2.95,
+      "rlon": 9.09
     }
   },
   { "wkid": 4813,
@@ -7229,10 +7229,10 @@
     "macro": "PE_GCS_NORD_SAHARA_1959_PARIS",
     "name": "GCS_Nord_Sahara_1959_Paris",
     "wkt": "GEOGCS[\"GCS_Nord_Sahara_1959_Paris\",DATUM[\"D_Nord_Sahara_1959\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Paris\",2.337229166666667],UNIT[\"Grad\",0.01570796326794897]]",
-    "description": "Nord Sahara 1959 Paris",
+    "description": "Nord Sahara 1959 Paris - deprecated, use 4307",
     "authority": "EPSG",
     "version": "5.1(9.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Africa - Algeria, Morocco and Tunisia",
     "extent":
     { "slat": 18.98,
@@ -8440,7 +8440,7 @@
     "authority": "EPSG",
     "version": "9.0.1(10.6.0)",
     "deprecated": "no",
-    "areaname": "Europe - Upper Austria, Salzberg and Bohemia",
+    "areaname": "Europe - Upper Austria, Salzburg and Bohemia",
     "extent":
     { "slat": 46.93,
       "nlat": 51.06,
@@ -8601,6 +8601,91 @@
       "rlon": -47.74
     }
   },
+  { "wkid": 8427,
+    "latestWkid": 8427,
+    "macro": "PE_GCS_HK_GEODETIC_CS",
+    "name": "Hong_Kong_Geodetic_CS",
+    "wkt": "GEOGCS[\"Hong_Kong_Geodetic_CS\",DATUM[\"Hong_Kong_Geodetic\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Hong Kong Geodetic CS",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "China - Hong Kong",
+    "extent":
+    { "slat": 22.13,
+      "nlat": 22.58,
+      "llon": 113.76,
+      "rlon": 114.51
+    }
+  },
+  { "wkid": 8449,
+    "latestWkid": 8449,
+    "macro": "PE_GCS_NAD_1983_FBN",
+    "name": "NAD_1983_(FBN)",
+    "wkt": "GEOGCS[\"NAD_1983_(FBN)\",DATUM[\"NAD_1983_(Federal_Base_Network)\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "NAD83(FBN)",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "USA - FBN",
+    "extent":
+    { "slat": -14.59,
+      "nlat": 49.38,
+      "llon": 144.58,
+      "rlon": -64.51
+    }
+  },
+  { "wkid": 8545,
+    "latestWkid": 8545,
+    "macro": "PE_GCS_NAD_1983_HARN_CORRECTED",
+    "name": "NAD_1983_(HARN_Corrected)",
+    "wkt": "GEOGCS[\"NAD_1983_(HARN_Corrected)\",DATUM[\"NAD_1983_(High_Accuracy_Reference_Network-Corrected)\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "NAD83(HARN Corrected)",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Caribbean - Puerto Rico and US Virgin Islands - onshore",
+    "extent":
+    { "slat": 17.62,
+      "nlat": 18.57,
+      "llon": -67.97,
+      "rlon": -64.51
+    }
+  },
+  { "wkid": 8685,
+    "latestWkid": 8685,
+    "macro": "PE_GCS_SRB_ETRS89",
+    "name": "SRB_ETRS89",
+    "wkt": "GEOGCS[\"SRB_ETRS89\",DATUM[\"Serbian_Spatial_Reference_System_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "SRB_ETRS89",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Serbia",
+    "extent":
+    { "slat": 41.85,
+      "nlat": 46.19,
+      "llon": 18.81,
+      "rlon": 23.01
+    }
+  },
+  { "wkid": 8818,
+    "latestWkid": 8818,
+    "macro": "PE_GCS_MTRF_2000",
+    "name": "MTRF-2000",
+    "wkt": "GEOGCS[\"MTRF-2000\",DATUM[\"MOMRA_Terrestrial_Reference_Frame_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "MTRF-2000",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Saudi Arabia",
+    "extent":
+    { "slat": 15.61,
+      "nlat": 32.16,
+      "llon": 34.44,
+      "rlon": 55.67
+    }
+  },
   { "wkid": 37001,
     "latestWkid": 4760,
     "macro": "PE_GCS_WGS_1966",
@@ -8749,9 +8834,9 @@
     "areaname": "Europe - west",
     "extent":
     { "slat": 34.88,
-      "nlat": 71.21,
+      "nlat": 84.17,
       "llon": -10.56,
-      "rlon": 31.59
+      "rlon": 39.65
     }
   },
   { "wkid": 37202,
@@ -9409,11 +9494,11 @@
     "authority": "Esri",
     "version": "4.0.0",
     "deprecated": "no",
-    "areaname": "Cayman Islands - Cayman Brac",
+    "areaname": "Cayman Islands - Little Cayman and Cayman Brac",
     "extent":
-    { "slat": 19.66,
+    { "slat": 19.63,
       "nlat": 19.78,
-      "llon": -79.92,
+      "llon": -80.14,
       "rlon": -79.69
     }
   },
@@ -9876,6 +9961,23 @@
       "rlon": 180.0
     }
   },
+  { "wkid": 104022,
+    "latestWkid": 104022,
+    "macro": "PE_GCS_GGD",
+    "name": "GGD",
+    "wkt": "GEOGCS[\"GGD\",DATUM[\"Georgia_Geodetic_Datum\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Georgia Geodetic Datum",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Georgia - onshore",
+    "extent":
+    { "slat": 41.04,
+      "nlat": 43.59,
+      "llon": 39.99,
+      "rlon": 46.72
+    }
+  },
   { "wkid": 104023,
     "latestWkid": 104023,
     "macro": "PE_GCS_INTERNATIONAL_1967",
@@ -9891,6 +9993,57 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
+    }
+  },
+  { "wkid": 104024,
+    "latestWkid": 104024,
+    "macro": "PE_GCS_CSRS_EPOCH_2017_5_NAD83",
+    "name": "California_SRS_Epoch_2017.50_(NAD83)",
+    "wkt": "GEOGCS[\"California_SRS_Epoch_2017.50_(NAD83)\",DATUM[\"California_SRS_Epoch_2017.50_(NAD83)\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "California SRS Epoch 2017.50 (NAD83)",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "USA - California and borders of NV, AZ, OR and MX",
+    "extent":
+    { "slat": 32.25,
+      "nlat": 42.53,
+      "llon": -124.44,
+      "rlon": -113.6
+    }
+  },
+  { "wkid": 104025,
+    "latestWkid": 104025,
+    "macro": "PE_GCS_VOIROL_UNIFIE_1960_PARIS",
+    "name": "GCS_Voirol_Unifie_1960_Paris",
+    "wkt": "GEOGCS[\"GCS_Voirol_Unifie_1960_Paris\",DATUM[\"D_Voirol_Unifie_1960\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Paris\",2.337229166666667],UNIT[\"Grad\",0.01570796326794897]]",
+    "description": "Voirol Unifie 1960 (Paris)",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "yes",
+    "areaname": "Algeria - north of 32~N",
+    "extent":
+    { "slat": 31.99,
+      "nlat": 37.14,
+      "llon": -2.95,
+      "rlon": 9.09
+    }
+  },
+  { "wkid": 104026,
+    "latestWkid": 104026,
+    "macro": "PE_GCS_VOIROL_UNIFIE_1960",
+    "name": "GCS_Voirol_Unifie_1960",
+    "wkt": "GEOGCS[\"GCS_Voirol_Unifie_1960\",DATUM[\"D_Voirol_Unifie_1960\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Grad\",0.01570796326794897]]",
+    "description": "Voirol Unifie 1960",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "yes",
+    "areaname": "Algeria - north of 32~N",
+    "extent":
+    { "slat": 31.99,
+      "nlat": 37.14,
+      "llon": -2.95,
+      "rlon": 9.09
     }
   },
   { "wkid": 104047,
@@ -11057,13 +11210,13 @@
     "description": "Voirol Unifie 1960 (degrees)",
     "authority": "Esri",
     "version": "8.0.1",
-    "deprecated": "no",
-    "areaname": "Canada - south of 60~N",
+    "deprecated": "yes",
+    "areaname": "Algeria - north of 32~N",
     "extent":
-    { "slat": 41.68,
-      "nlat": 60.0,
-      "llon": -139.05,
-      "rlon": -52.62
+    { "slat": 31.99,
+      "nlat": 37.14,
+      "llon": -2.95,
+      "rlon": 9.09
     }
   },
   { "wkid": 104700,
@@ -15052,6 +15205,23 @@
     "description": "Mercury 2015",
     "authority": "Esri",
     "version": "10.5.1",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104975,
+    "latestWkid": 104975,
+    "macro": "PE_GCS_XT_SUN",
+    "name": "Sun_2015",
+    "wkt": "GEOGCS[\"Sun_2015\",DATUM[\"Sun_2015\",SPHEROID[\"Sun_2015\",695700000.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Sun IAU 2015",
+    "authority": "Esri",
+    "version": "10.7.0",
     "deprecated": "no",
     "areaname": "World",
     "extent":

@@ -294,6 +294,11 @@
    FALSE, \
    "EPSG"
 
+"Ain el Abd to MTRF-2000 (1)", \
+   "Ain_el_Abd_1970_to_MTRF-2000_1", \
+   FALSE, \
+   "EPSG"
+
 "Ain el Abd to WGS 84 (1)", \
    "Ain_El_Abd_To_WGS_1984_1", \
    FALSE, \
@@ -811,11 +816,6 @@
 
 "Batavia (Jakarta) to WGS 84 (1)", \
    "Batavia_Jakarta_To_WGS_1984", \
-   FALSE, \
-   "EPSG"
-
-"Batavia to WGS 84 (1)", \
-   "Batavia_To_WGS_1984", \
    FALSE, \
    "EPSG"
 
@@ -1954,16 +1954,6 @@
    FALSE, \
    "EPSG"
 
-"Fatu Iva 72 to RGPF (1)", \
-   "Fatu_Iva_1972_To_RGPF_1", \
-   FALSE, \
-   "EPSG"
-
-"Fatu Iva 72 to WGS 84 (1)", \
-   "Fatu_Iva_1972_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
 "FD54 to ED50 (1)", \
    "FD_1954_To_ED_1950_1", \
    FALSE, \
@@ -2039,8 +2029,33 @@
    FALSE, \
    "EPSG"
 
+"GDA2020 to WGS 84 (2)", \
+   "Hartebeesthoek94_To_WGS_1984", \
+   FALSE, \
+   "EPSG"
+
 "GDA94 to GDA2020 (1)", \
    "Egypt_1907_To_WGS_1984", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 to GDA2020 (2)", \
+   "NAD_1983_To_HARN_Wisconsin", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 to GDA2020 (3)", \
+   "NAD_1983_To_HARN_WA_OR", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 to GDA2020 (4)", \
+   "NAD_1983_To_HARN_West_Texas", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 to GDA2020 (5)", \
+   "NAD_1983_To_HARN_Virginia", \
    FALSE, \
    "EPSG"
 
@@ -2199,8 +2214,18 @@
    FALSE, \
    "EPSG"
 
+"Hong Kong 1980 to Hong Kong Geodetic CS (1)", \
+   "NAD_1983_To_HARN_New_York", \
+   FALSE, \
+   "EPSG"
+
 "Hong Kong 1980 to WGS 84 (1)", \
    "Hong_Kong_1980_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"Hong Kong Geodetic CS to WGS 84 (1)", \
+   "NAD_1983_To_HARN_Oklahoma", \
    FALSE, \
    "EPSG"
 
@@ -2319,16 +2344,6 @@
    FALSE, \
    "EPSG"
 
-"IGN63 Hiva Oa to WGS 84 (1)", \
-   "IGN63_Hiva_Oa_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"IGN63 Hiva Oa to WGS 84 (2)", \
-   "IGN63_Hiva_Oa_To_WGS_1984_2", \
-   FALSE, \
-   "EPSG"
-
 "IGN72 Grande Terre to RGNC91-93 (1)", \
    "IGN72_Grande_Terre_To_RGNC_1991-93_1", \
    FALSE, \
@@ -2361,21 +2376,6 @@
 
 "IGN72 Nuku Hiva to WGS 84 (1)", \
    "IGN72_Nuku_Hiva_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"IGN72 Nuku Hiva to WGS 84 (2)", \
-   "IGN72_Nuku_Hiva_To_WGS_1984_2", \
-   FALSE, \
-   "EPSG"
-
-"IGN72 Nuku Hiva to WGS 84 (3)", \
-   "IGN72_Nuku_Hiva_To_WGS_1984_3", \
-   FALSE, \
-   "EPSG"
-
-"IGN72 Nuku Hiva to WGS 84 (4)", \
-   "IGN72_Nuku_Hiva_To_WGS_1984_4", \
    FALSE, \
    "EPSG"
 
@@ -2679,13 +2679,13 @@
    FALSE, \
    "EPSG"
 
-"La Canoa to WGS 84 (1)", \
-   "La_Canoa_To_WGS_1984", \
+"La Canoa to WGS 84 (13)", \
+   "La_Canoa_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
-"La Canoa to WGS 84 (2)", \
-   "La_Canoa_To_WGS_1984_2", \
+"La Canoa to WGS 84 (18)", \
+   "La_Canoa_To_WGS_1984", \
    FALSE, \
    "EPSG"
 
@@ -2859,6 +2859,21 @@
    FALSE, \
    "EPSG"
 
+"Macao 1920 to WGS 84 (1)", \
+   "NAD_1983_To_HARN_North_Dakota", \
+   FALSE, \
+   "EPSG"
+
+"Macao 2008 to Macao 1920 (1)", \
+   "NAD_1983_To_HARN_New_England", \
+   FALSE, \
+   "EPSG"
+
+"Macao 2008 to WGS 84 (1)", \
+   "NAD_1983_To_HARN_New_Mexico", \
+   FALSE, \
+   "EPSG"
+
 "MACARIO SOLIS to WGS 84 (1)", \
    "MARCARIO_SOLIS_To_WGS_1984_1", \
    FALSE, \
@@ -2946,11 +2961,6 @@
 
 "Maupiti 83 to RGPF (1)", \
    "Maupiti_1983_To_RGPF_1", \
-   FALSE, \
-   "EPSG"
-
-"Maupiti 83 to WGS 84 (1)", \
-   "Maupiti_1983_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -3254,16 +3264,6 @@
    FALSE, \
    "EPSG"
 
-"Moorea 87 to RGPF (1)", \
-   "Moorea_1987_To_RGPF_1", \
-   FALSE, \
-   "EPSG"
-
-"Moorea 87 to WGS 84 (1)", \
-   "Moorea_1987_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
 "MOP78 to WGS 84 (2)", \
    "MOP78_To_WGS_1984_2", \
    FALSE, \
@@ -3271,6 +3271,11 @@
 
 "Moznet to WGS 84 (1)", \
    "Moznet_To_WGS_1984", \
+   FALSE, \
+   "EPSG"
+
+"MTRF-2000 to WGS 84 (1)", \
+   "MTRF-2000_to_WGS_1984_(G1150)", \
    FALSE, \
    "EPSG"
 
@@ -4234,6 +4239,11 @@
    FALSE, \
    "EPSG"
 
+"NGO 1948 (Oslo) to WGS 84 (1)", \
+   "Belge_1972_To_ETRS_1989_3", \
+   FALSE, \
+   "EPSG"
+
 "NGO 1948 to ETRS89 (1)", \
    "NGO_1948_To_ETRS_1989_1", \
    FALSE, \
@@ -4511,6 +4521,11 @@
 
 "Padang (Jakarta) to Padang (1)", \
    "Padang_1884_Jakarta_To_Padang_1884", \
+   FALSE, \
+   "EPSG"
+
+"Padang to WGS 84 (1)", \
+   "AGD_1966_To_GDA_1994_NTv2_Northern_Territory", \
    FALSE, \
    "EPSG"
 
@@ -5039,6 +5054,11 @@
    FALSE, \
    "EPSG"
 
+"REGVEN to SIRGAS 1995 (1)", \
+   "REGVEN_To_SIRGAS_1", \
+   FALSE, \
+   "EPSG"
+
 "REGVEN to WGS 84 (1)", \
    "REGVEN_To_WGS_1984_1", \
    FALSE, \
@@ -5101,11 +5121,6 @@
 
 "RGNC91-93 to WGS 84 (1)", \
    "RGNC_1991-93_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"RGPF to WGS 84 (1)", \
-   "RGPF_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -5321,6 +5336,11 @@
 
 "Saint Pierre et Miquelon 1950 to WGS 84 (1)", \
    "Saint_Pierre_et_Miquelon_1950_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"Saint Pierre et Miquelon 1950 to WGS 84 (2)", \
+   "Saint_Pierre_et_Miquelon_1950_to_WGS_1984_(G1150)", \
    FALSE, \
    "EPSG"
 
@@ -5679,18 +5699,8 @@
    FALSE, \
    "EPSG"
 
-"Tahaa 54 to RGPF (1)", \
-   "Tahaa_1954_To_RGPF_1", \
-   FALSE, \
-   "EPSG"
-
 "Tahaa 54 to WGS 84 (1)", \
    "Tahaa_1954_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"Tahaa 54 to WGS 84 (2)", \
-   "Tahaa_1954_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
@@ -5701,16 +5711,6 @@
 
 "Tahiti 52 to WGS 84 (1)", \
    "Tahiti_1952_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"Tahiti 79 to RGPF (1)", \
-   "Tahiti_1979_To_RGPF_1", \
-   FALSE, \
-   "EPSG"
-
-"Tahiti 79 to WGS 84 (1)", \
-   "Tahiti_1979_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -5934,12 +5934,12 @@
    FALSE, \
    "EPSG"
 
-"VN2000 to WGS 84 (1)", \
+"VN-2000 to WGS 84 (1)", \
    "VN_2000_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
-"VN2000 to WGS 84 (2)", \
+"VN-2000 to WGS 84 (2)", \
    "VN_2000_To_WGS_1984_2", \
    FALSE, \
    "EPSG"

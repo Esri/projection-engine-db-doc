@@ -317,7 +317,7 @@
     "areaname": "Israel, Palestine Territory, and Jordan",
     "extent":
     { "slat": 29.19,
-      "nlat": 33.52,
+      "nlat": 33.53,
       "llon": 32.99,
       "rlon": 39.3
     },
@@ -335,7 +335,7 @@
     "areaname": "Israel, Palestine Territory, and Jordan",
     "extent":
     { "slat": 29.19,
-      "nlat": 33.52,
+      "nlat": 33.53,
       "llon": 32.99,
       "rlon": 39.3
     },
@@ -353,7 +353,7 @@
     "areaname": "Israel, Palestine Territory, and Jordan",
     "extent":
     { "slat": 29.19,
-      "nlat": 33.52,
+      "nlat": 33.53,
       "llon": 32.99,
       "rlon": 39.3
     },
@@ -674,12 +674,12 @@
     "authority": "EPSG",
     "version": "6.5.1(9.0.0)",
     "deprecated": "no",
-    "areaname": "Venezuela",
+    "areaname": "Venezuela - onshore",
     "extent":
     { "slat": 0.64,
-      "nlat": 16.75,
+      "nlat": 12.25,
       "llon": -73.38,
-      "rlon": -58.95
+      "rlon": -59.8
     },
     "accuracy": 15.0
   },
@@ -926,12 +926,12 @@
     "authority": "EPSG",
     "version": "8.5.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Australia - onshore",
+    "areaname": "Australia - AGD84",
     "extent":
-    { "slat": -43.7,
-      "nlat": -9.86,
-      "llon": 112.85,
-      "rlon": 153.69
+    { "slat": -38.53,
+      "nlat": -9.37,
+      "llon": 109.23,
+      "rlon": 153.61
     },
     "accuracy": 4.0
   },
@@ -1030,10 +1030,10 @@
     "macro": "PE_GT_ARC_1950_TO_WGS_1984_3",
     "name": "Arc_1950_To_WGS_1984_3",
     "wkt": "GEOGTRAN[\"Arc_1950_To_WGS_1984_3\",GEOGCS[\"GCS_Arc_1950\",DATUM[\"D_Arc_1950\",SPHEROID[\"Clarke_1880_Arc\",6378249.145,293.466307656]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-153.0],PARAMETER[\"Y_Axis_Translation\",-5.0],PARAMETER[\"Z_Axis_Translation\",-292.0]]",
-    "description": "Burundi",
+    "description": "Burundi - deprecated, see 3998",
     "authority": "EPSG",
     "version": "6.7(9.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Burundi",
     "extent":
     { "slat": -4.45,
@@ -1102,10 +1102,10 @@
     "macro": "PE_GT_ARC_1950_TO_WGS_1984_7",
     "name": "Arc_1950_To_WGS_1984_7",
     "wkt": "GEOGTRAN[\"Arc_1950_To_WGS_1984_7\",GEOGCS[\"GCS_Arc_1950\",DATUM[\"D_Arc_1950\",SPHEROID[\"Clarke_1880_Arc\",6378249.145,293.466307656]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-169.0],PARAMETER[\"Y_Axis_Translation\",-19.0],PARAMETER[\"Z_Axis_Translation\",-278.0]]",
-    "description": "Zaire",
+    "description": "Zaire - deprecated",
     "authority": "EPSG",
     "version": "6.8(9.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Congo DR (Zaire)",
     "extent":
     { "slat": -13.46,
@@ -1174,10 +1174,10 @@
     "macro": "PE_GT_BATAVIA_TO_WGS_1984",
     "name": "Batavia_To_WGS_1984",
     "wkt": "GEOGTRAN[\"Batavia_To_WGS_1984\",GEOGCS[\"GCS_Batavia\",DATUM[\"D_Batavia\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-377.0],PARAMETER[\"Y_Axis_Translation\",681.0],PARAMETER[\"Z_Axis_Translation\",-50.0]]",
-    "description": "Indonesia (Sumatra)",
+    "description": "Indonesia (Sumatra) - DEPRECATED in favor of 8452 Padang to WGS84",
     "authority": "EPSG",
     "version": "8.5.6(9.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Indonesia - Sumatra",
     "extent":
     { "slat": -5.99,
@@ -2060,10 +2060,10 @@
     "authority": "EPSG",
     "version": "8.5.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Canada",
+    "areaname": "Canada - NAD27",
     "extent":
     { "slat": 40.04,
-      "nlat": 86.46,
+      "nlat": 83.17,
       "llon": -141.01,
       "rlon": -47.74
     },
@@ -2584,8 +2584,8 @@
     "deprecated": "no",
     "areaname": "South America - Bolivia; Chile; Ecuador; Guyana; Peru; Venezuela",
     "extent":
-    { "slat": -45.0,
-      "nlat": 12.52,
+    { "slat": -43.5,
+      "nlat": 12.25,
       "llon": -81.41,
       "rlon": -56.47
     },
@@ -2636,12 +2636,12 @@
     "authority": "EPSG",
     "version": "8.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Chile - onshore 39~S to 45~S",
+    "areaname": "Chile - onshore 39~S to 43~30'S",
     "extent":
-    { "slat": -45.0,
+    { "slat": -43.5,
       "nlat": -38.99,
-      "llon": -75.22,
-      "rlon": -71.1
+      "llon": -74.48,
+      "rlon": -71.38
     },
     "accuracy": 35.0
   },
@@ -2708,11 +2708,11 @@
     "authority": "EPSG",
     "version": "8.5.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Peru",
+    "areaname": "Peru - onshore",
     "extent":
-    { "slat": -21.05,
+    { "slat": -18.35,
       "nlat": -0.03,
-      "llon": -84.68,
+      "llon": -81.41,
       "rlon": -68.67
     },
     "accuracy": 16.0
@@ -2726,12 +2726,12 @@
     "authority": "EPSG",
     "version": "8.5.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Venezuela",
+    "areaname": "Venezuela - onshore",
     "extent":
     { "slat": 0.64,
-      "nlat": 16.75,
+      "nlat": 12.25,
       "llon": -73.38,
-      "rlon": -58.95
+      "rlon": -59.8
     },
     "accuracy": 23.0
   },
@@ -2960,12 +2960,12 @@
     "authority": "EPSG",
     "version": "7.4.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Australia - onshore",
+    "areaname": "Australia - AGD84",
     "extent":
-    { "slat": -43.7,
-      "nlat": -9.86,
-      "llon": 112.85,
-      "rlon": 153.69
+    { "slat": -38.53,
+      "nlat": -9.37,
+      "llon": 109.23,
+      "rlon": 153.61
     },
     "accuracy": 5.0
   },
@@ -3284,11 +3284,11 @@
     "authority": "EPSG",
     "version": "8.5.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Russia",
+    "areaname": "Russia - onshore",
     "extent":
-    { "slat": 39.87,
-      "nlat": 85.2,
-      "llon": 18.92,
+    { "slat": 41.19,
+      "nlat": 81.91,
+      "llon": 19.58,
       "rlon": -168.97
     },
     "accuracy": 999.0
@@ -3442,15 +3442,15 @@
     "macro": "PE_GT_PULKOVO_1942_TO_WGS_1984_17",
     "name": "Pulkovo_1942_To_WGS_1984_17",
     "wkt": "GEOGTRAN[\"Pulkovo_1942_To_WGS_1984_17\",GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",23.92],PARAMETER[\"Y_Axis_Translation\",-141.27],PARAMETER[\"Z_Axis_Translation\",-80.9],PARAMETER[\"X_Axis_Rotation\",0.0],PARAMETER[\"Y_Axis_Rotation\",-0.35],PARAMETER[\"Z_Axis_Rotation\",-0.82],PARAMETER[\"Scale_Difference\",-0.12]]",
-    "description": "Russian Federation - onshore and offshore",
+    "description": "Russian Federation - onshore",
     "authority": "EPSG",
     "version": "7.4.6(10.0.0)",
     "deprecated": "no",
-    "areaname": "Russia",
+    "areaname": "Russia - onshore",
     "extent":
-    { "slat": 39.87,
-      "nlat": 85.2,
-      "llon": 18.92,
+    { "slat": 41.19,
+      "nlat": 81.91,
+      "llon": 19.58,
       "rlon": -168.97
     },
     "accuracy": 4.0
@@ -3500,11 +3500,11 @@
     "authority": "EPSG",
     "version": "7.9.7(9.0.0)",
     "deprecated": "no",
-    "areaname": "Lithuania",
+    "areaname": "Lithuania - onshore",
     "extent":
     { "slat": 53.89,
       "nlat": 56.45,
-      "llon": 19.02,
+      "llon": 20.86,
       "rlon": 26.82
     },
     "accuracy": 9.0
@@ -3590,12 +3590,12 @@
     "authority": "EPSG",
     "version": "7.4.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Australia - onshore",
+    "areaname": "Australia - AGD84",
     "extent":
-    { "slat": -43.7,
-      "nlat": -9.86,
-      "llon": 112.85,
-      "rlon": 153.69
+    { "slat": -38.53,
+      "nlat": -9.37,
+      "llon": 109.23,
+      "rlon": 153.61
     },
     "accuracy": 5.0
   },
@@ -3608,12 +3608,12 @@
     "authority": "EPSG",
     "version": "7.4.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Australia - onshore",
+    "areaname": "Australia - AGD84",
     "extent":
-    { "slat": -43.7,
-      "nlat": -9.86,
-      "llon": 112.85,
-      "rlon": 153.69
+    { "slat": -38.53,
+      "nlat": -9.37,
+      "llon": 109.23,
+      "rlon": 153.61
     },
     "accuracy": 1.0
   },
@@ -3712,10 +3712,10 @@
     "macro": "PE_GT_SEGORA_TO_WGS_1984",
     "name": "Segora_To_WGS_1984",
     "wkt": "GEOGTRAN[\"Segora_To_WGS_1984\",GEOGCS[\"GCS_Segora\",DATUM[\"D_Segora\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-403.0],PARAMETER[\"Y_Axis_Translation\",684.0],PARAMETER[\"Z_Axis_Translation\",41.0]]",
-    "description": "Indonesia - Kalimantan",
+    "description": "Indonesia - Kalimantan - deprecated, see 1834",
     "authority": "EPSG",
     "version": "4.0(9.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Indonesia - Kalimantan",
     "extent":
     { "slat": -4.24,
@@ -3730,10 +3730,10 @@
     "macro": "PE_GT_PULKOVO_1942_TO_WGS_1984_3",
     "name": "Pulkovo_1942_To_WGS_1984_3",
     "wkt": "GEOGTRAN[\"Pulkovo_1942_To_WGS_1984_3\",GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",28.0],PARAMETER[\"Y_Axis_Translation\",-121.0],PARAMETER[\"Z_Axis_Translation\",-77.0]]",
-    "description": "Hungary",
+    "description": "Hungary - deprecated, use 15996",
     "authority": "EPSG",
     "version": "6.7(9.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Hungary",
     "extent":
     { "slat": 45.74,
@@ -3748,10 +3748,10 @@
     "macro": "PE_GT_PULKOVO_1942_TO_WGS_1984_4",
     "name": "Pulkovo_1942_To_WGS_1984_4",
     "wkt": "GEOGTRAN[\"Pulkovo_1942_To_WGS_1984_4\",GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",23.0],PARAMETER[\"Y_Axis_Translation\",-124.0],PARAMETER[\"Z_Axis_Translation\",-82.0]]",
-    "description": "Poland",
+    "description": "Poland - deprecated, use 15997",
     "authority": "EPSG",
     "version": "6.7(9.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Poland",
     "extent":
     { "slat": 49.0,
@@ -3766,10 +3766,10 @@
     "macro": "PE_GT_PULKOVO_1942_TO_WGS_1984_5",
     "name": "Pulkovo_1942_To_WGS_1984_5",
     "wkt": "GEOGTRAN[\"Pulkovo_1942_To_WGS_1984_5\",GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",26.0],PARAMETER[\"Y_Axis_Translation\",-121.0],PARAMETER[\"Z_Axis_Translation\",-78.0]]",
-    "description": "Czech Republic",
+    "description": "Czech Republic - deprecated, use 15998",
     "authority": "EPSG",
     "version": "6.15(9.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Europe - Czechoslovakia",
     "extent":
     { "slat": 47.73,
@@ -3788,11 +3788,11 @@
     "authority": "EPSG",
     "version": "8.5.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Latvia",
+    "areaname": "Latvia - onshore",
     "extent":
     { "slat": 55.67,
       "nlat": 58.09,
-      "llon": 19.06,
+      "llon": 20.87,
       "rlon": 28.24
     },
     "accuracy": 4.0
@@ -3820,10 +3820,10 @@
     "macro": "PE_GT_PULKOVO_1942_TO_WGS_1984_8",
     "name": "Pulkovo_1942_To_WGS_1984_8",
     "wkt": "GEOGTRAN[\"Pulkovo_1942_To_WGS_1984_8\",GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",24.0],PARAMETER[\"Y_Axis_Translation\",-130.0],PARAMETER[\"Z_Axis_Translation\",-92.0]]",
-    "description": "Albania",
+    "description": "Albania - deprecated, use 15999",
     "authority": "EPSG",
     "version": "6.7(9.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Albania",
     "extent":
     { "slat": 39.63,
@@ -4090,7 +4090,7 @@
     "macro": "PE_GT_NAPARIMA_1972_TO_WGS_1984_3",
     "name": "Naparima_1972_To_WGS_1984_3",
     "wkt": "GEOGTRAN[\"Naparima_1972_To_WGS_1984_3\",GEOGCS[\"GCS_Naparima_1972\",DATUM[\"D_Naparima_1972\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-2.0],PARAMETER[\"Y_Axis_Translation\",374.0],PARAMETER[\"Z_Axis_Translation\",172.0]]",
-    "description": "Trinidad and Tobago",
+    "description": "Trinidad and Tobago - Tobago",
     "authority": "EPSG",
     "version": "9.1(9.0.0)",
     "deprecated": "no",
@@ -4184,10 +4184,10 @@
     "authority": "EPSG",
     "version": "6.12(9.0.0)",
     "deprecated": "no",
-    "areaname": "Canada",
+    "areaname": "Canada - NAD27",
     "extent":
     { "slat": 40.04,
-      "nlat": 86.46,
+      "nlat": 83.17,
       "llon": -141.01,
       "rlon": -47.74
     },
@@ -5143,7 +5143,7 @@
     { "slat": 36.98,
       "nlat": 41.01,
       "llon": -109.06,
-      "rlon": -102.03
+      "rlon": -102.04
     },
     "accuracy": 0.05
   },
@@ -5932,10 +5932,10 @@
     "deprecated": "no",
     "areaname": "USA - Kansas",
     "extent":
-    { "slat": 36.98,
+    { "slat": 36.99,
       "nlat": 40.01,
       "llon": -102.06,
-      "rlon": -94.6
+      "rlon": -94.58
     },
     "accuracy": 0.05
   },
@@ -6941,7 +6941,7 @@
     "areaname": "USA - HARN",
     "extent":
     { "slat": -14.59,
-      "nlat": 49.38,
+      "nlat": 71.4,
       "llon": 144.58,
       "rlon": -64.51
     },
@@ -8342,12 +8342,12 @@
     "authority": "EPSG",
     "version": "7.4.6(9.0.0)",
     "deprecated": "no",
-    "areaname": "Australia - onshore",
+    "areaname": "Australia - AGD84",
     "extent":
-    { "slat": -43.7,
-      "nlat": -9.86,
-      "llon": 112.85,
-      "rlon": 153.69
+    { "slat": -38.53,
+      "nlat": -9.37,
+      "llon": 109.23,
+      "rlon": 153.61
     },
     "accuracy": 1.0
   },
@@ -8504,11 +8504,11 @@
     "authority": "EPSG",
     "version": "7.9.7(9.0.0)",
     "deprecated": "no",
-    "areaname": "Lithuania",
+    "areaname": "Lithuania - onshore",
     "extent":
     { "slat": 53.89,
       "nlat": 56.45,
-      "llon": 19.02,
+      "llon": 20.86,
       "rlon": 26.82
     },
     "accuracy": 9.0
@@ -8738,10 +8738,10 @@
     "authority": "EPSG",
     "version": "6.02(9.2.0)",
     "deprecated": "no",
-    "areaname": "Canada",
+    "areaname": "Canada - NAD27",
     "extent":
     { "slat": 40.04,
-      "nlat": 86.46,
+      "nlat": 83.17,
       "llon": -141.01,
       "rlon": -47.74
     },
@@ -9085,7 +9085,7 @@
     { "slat": 36.98,
       "nlat": 41.01,
       "llon": -109.06,
-      "rlon": -102.03
+      "rlon": -102.04
     },
     "accuracy": 1.0
   },
@@ -9640,10 +9640,10 @@
     "deprecated": "no",
     "areaname": "USA - Kansas",
     "extent":
-    { "slat": 36.98,
+    { "slat": 36.99,
       "nlat": 40.01,
       "llon": -102.06,
-      "rlon": -94.6
+      "rlon": -94.58
     },
     "accuracy": 1.0
   },
@@ -10088,12 +10088,12 @@
     "authority": "EPSG",
     "version": "6.12(9.0.0)",
     "deprecated": "no",
-    "areaname": "Venezuela",
+    "areaname": "Venezuela - onshore",
     "extent":
     { "slat": 0.64,
-      "nlat": 16.75,
+      "nlat": 12.25,
       "llon": -73.38,
-      "rlon": -58.95
+      "rlon": -59.8
     },
     "accuracy": 15.0
   },
@@ -11884,10 +11884,10 @@
     "macro": "PE_GT_NORD_SAHARA_1959_PARIS_TO_NORD_SAHARA_1959",
     "name": "Nord_Sahara_1959_Paris_To_Nord_Sahara_1959",
     "wkt": "GEOGTRAN[\"Nord_Sahara_1959_Paris_To_Nord_Sahara_1959\",GEOGCS[\"GCS_Nord_Sahara_1959_Paris\",DATUM[\"D_Nord_Sahara_1959\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Paris\",2.337229166666667],UNIT[\"Grad\",0.01570796326794897]],GEOGCS[\"GCS_Nord_Sahara_1959\",DATUM[\"D_Nord_Sahara_1959\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Longitude_Rotation\"]]",
-    "description": "Nord Sahara 1959 (Paris) to Nord Sahara 1959",
+    "description": "Nord Sahara 1959 (Paris) to Nord Sahara 1959 - deprecated",
     "authority": "EPSG",
     "version": "6.11.2(9.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Algeria",
     "extent":
     { "slat": 18.97,
@@ -12082,7 +12082,7 @@
     "macro": "PE_GT_GANDAJIKA_1970_TO_WGS_1984_1",
     "name": "Gandajika_1970_To_WGS_1984_1",
     "wkt": "GEOGTRAN[\"Gandajika_1970_To_WGS_1984_1\",GEOGCS[\"GCS_Gandajika_1970\",DATUM[\"D_Gandajika_1970\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-133.0],PARAMETER[\"Y_Axis_Translation\",-321.0],PARAMETER[\"Z_Axis_Translation\",50.0]]",
-    "description": "Maldives",
+    "description": "Maldives (DEPRECATED - use PE_GT_GAN_1970_TO_WGS_1984_1)",
     "authority": "EPSG",
     "version": "6.3(9.0.0)",
     "deprecated": "yes",
@@ -12388,7 +12388,7 @@
     "macro": "PE_GT_PITON_DES_NEIGES_TO_WGS_1984_1",
     "name": "Reunion_1947_To_WGS_1984_1",
     "wkt": "GEOGTRAN[\"Reunion_1947_To_WGS_1984_1\",GEOGCS[\"GCS_Reunion_1947\",DATUM[\"D_Reunion_1947\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",94.0],PARAMETER[\"Y_Axis_Translation\",-948.0],PARAMETER[\"Z_Axis_Translation\",-1292.0]]",
-    "description": "Reunion",
+    "description": "Reunion (DEPRECATED)",
     "authority": "EPSG",
     "version": "6.6(9.0.0)",
     "deprecated": "yes",
@@ -13889,9 +13889,9 @@
     "areaname": "Europe - west",
     "extent":
     { "slat": 34.88,
-      "nlat": 71.21,
+      "nlat": 84.17,
       "llon": -10.56,
-      "rlon": 31.59
+      "rlon": 39.65
     },
     "accuracy": 1.0
   },
@@ -13922,14 +13922,14 @@
     "authority": "EPSG",
     "version": "7.1(10.1.0)",
     "deprecated": "no",
-    "areaname": "Slovenia",
+    "areaname": "Slovenia - onshore",
     "extent":
     { "slat": 45.42,
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
     },
-    "accuracy": 1.0
+    "accuracy": 3.0
   },
   { "wkid": 3915,
     "latestWkid": 3915,
@@ -13940,14 +13940,14 @@
     "authority": "EPSG",
     "version": "7.1(10.1.0)",
     "deprecated": "no",
-    "areaname": "Slovenia",
+    "areaname": "Slovenia - onshore",
     "extent":
     { "slat": 45.42,
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
     },
-    "accuracy": 1.0
+    "accuracy": 3.0
   },
   { "wkid": 3916,
     "latestWkid": 3916,
@@ -13958,14 +13958,14 @@
     "authority": "EPSG",
     "version": "7.1(10.1.0)",
     "deprecated": "no",
-    "areaname": "Slovenia",
+    "areaname": "Slovenia - onshore",
     "extent":
     { "slat": 45.42,
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
     },
-    "accuracy": 1.0
+    "accuracy": 1.25
   },
   { "wkid": 3917,
     "latestWkid": 3917,
@@ -13976,14 +13976,14 @@
     "authority": "EPSG",
     "version": "7.1(10.1.0)",
     "deprecated": "no",
-    "areaname": "Slovenia",
+    "areaname": "Slovenia - onshore",
     "extent":
     { "slat": 45.42,
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
     },
-    "accuracy": 1.0
+    "accuracy": 1.5
   },
   { "wkid": 3918,
     "latestWkid": 3918,
@@ -14483,9 +14483,9 @@
     "areaname": "Europe - west",
     "extent":
     { "slat": 34.88,
-      "nlat": 71.21,
+      "nlat": 84.17,
       "llon": -10.56,
-      "rlon": 31.59
+      "rlon": 39.65
     },
     "accuracy": 0.3
   },
@@ -15196,15 +15196,15 @@
     "macro": "PE_GT_PULKOVO_1942_TO_WGS_1984_20",
     "name": "Pulkovo_1942_To_WGS_1984_20",
     "wkt": "GEOGTRAN[\"Pulkovo_1942_To_WGS_1984_20\",GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",23.57],PARAMETER[\"Y_Axis_Translation\",-140.95],PARAMETER[\"Z_Axis_Translation\",-79.8],PARAMETER[\"X_Axis_Rotation\",0.0],PARAMETER[\"Y_Axis_Rotation\",-0.35],PARAMETER[\"Z_Axis_Rotation\",-0.79],PARAMETER[\"Scale_Difference\",-0.22]]",
-    "description": "Russian Federation - onshore and offshore",
+    "description": "Russian Federation - onshore",
     "authority": "EPSG",
     "version": "7.4.6(10.1.0)",
     "deprecated": "no",
-    "areaname": "Russia",
+    "areaname": "Russia - onshore",
     "extent":
-    { "slat": 39.87,
-      "nlat": 85.2,
-      "llon": 18.92,
+    { "slat": 41.19,
+      "nlat": 81.91,
+      "llon": 19.58,
       "rlon": -168.97
     },
     "accuracy": 3.0
@@ -15938,12 +15938,12 @@
     "authority": "EPSG",
     "version": "7.6.9(10.2.0)",
     "deprecated": "no",
-    "areaname": "Argentina",
+    "areaname": "Argentina - mainland onshore",
     "extent":
-    { "slat": -58.41,
+    { "slat": -52.43,
       "nlat": -21.78,
       "llon": -73.59,
-      "rlon": -52.63
+      "rlon": -53.65
     },
     "accuracy": 5.0
   },
@@ -17504,14 +17504,14 @@
     "authority": "EPSG",
     "version": "8.5.4(10.3.1)",
     "deprecated": "no",
-    "areaname": "Costa Rica",
+    "areaname": "Costa Rica - onshore",
     "extent":
-    { "slat": 2.15,
-      "nlat": 11.77,
-      "llon": -90.45,
-      "rlon": -81.43
+    { "slat": 7.98,
+      "nlat": 11.22,
+      "llon": -85.97,
+      "rlon": -82.53
     },
-    "accuracy": 1.0
+    "accuracy": 8.0
   },
   { "wkid": 6891,
     "latestWkid": 6891,
@@ -17522,14 +17522,14 @@
     "authority": "EPSG",
     "version": "8.5.4(10.3.1)",
     "deprecated": "no",
-    "areaname": "Costa Rica",
+    "areaname": "Central America - Guatemala to Costa Rica",
     "extent":
-    { "slat": 2.15,
-      "nlat": 11.77,
-      "llon": -90.45,
-      "rlon": -81.43
+    { "slat": 7.98,
+      "nlat": 17.83,
+      "llon": -92.29,
+      "rlon": -82.53
     },
-    "accuracy": 999.0
+    "accuracy": 14.0
   },
   { "wkid": 6895,
     "latestWkid": 6895,
@@ -18476,11 +18476,11 @@
     "authority": "EPSG",
     "version": "8.6.3(10.5.0)",
     "deprecated": "no",
-    "areaname": "Netherlands",
+    "areaname": "Netherlands - onshore",
     "extent":
     { "slat": 50.75,
-      "nlat": 55.77,
-      "llon": 2.53,
+      "nlat": 53.7,
+      "llon": 3.2,
       "rlon": 7.22
     },
     "accuracy": 0.1
@@ -18687,7 +18687,7 @@
     "latestWkid": 7673,
     "macro": "PE_GT_CH1903_TO_CHTRF95_1_NTV2",
     "name": "CH1903_To_CHTRF95_1_NTv2",
-    "wkt": "GEOGTRAN[\"CH1903_To_CHTRF95_1_NTv2\",GEOGCS[\"GCS_CH1903\",DATUM[\"D_CH1903\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_Swiss_TRF_1995\",DATUM[\"D_Swiss_TRF_1995\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_switzerland/CHENyx06_ETRS\",0.0]]",
+    "wkt": "GEOGTRAN[\"CH1903_To_CHTRF95_1_NTv2\",GEOGCS[\"GCS_CH1903\",DATUM[\"D_CH1903\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_Swiss_TRF_1995\",DATUM[\"D_Swiss_TRF_1995\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_switzerland/CHENYX06_etrs\",0.0]]",
     "description": "Switzerland, Liechtenstein - CHENyx06_ETRS",
     "authority": "EPSG",
     "version": "8.8(10.5.0)",
@@ -18705,7 +18705,7 @@
     "latestWkid": 7674,
     "macro": "PE_GT_CH1903_TO_ETRS_1989_2_NTV2",
     "name": "CH1903_To_ETRS_1989_2_NTv2",
-    "wkt": "GEOGTRAN[\"CH1903_To_ETRS_1989_2_NTv2\",GEOGCS[\"GCS_CH1903\",DATUM[\"D_CH1903\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_switzerland/CHENyx06_ETRS\",0.0]]",
+    "wkt": "GEOGTRAN[\"CH1903_To_ETRS_1989_2_NTv2\",GEOGCS[\"GCS_CH1903\",DATUM[\"D_CH1903\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_switzerland/CHENYX06_etrs\",0.0]]",
     "description": "Switzerland, Liechtenstein - CHENyx06_ETRS",
     "authority": "EPSG",
     "version": "8.9.1(10.5.0)",
@@ -18831,7 +18831,7 @@
     "latestWkid": 7788,
     "macro": "PE_GT_CH1903_TO_WGS_1984_3_NTV2",
     "name": "CH1903_To_WGS_1984_3_NTv2",
-    "wkt": "GEOGTRAN[\"CH1903_To_WGS_1984_3_NTv2\",GEOGCS[\"GCS_CH1903\",DATUM[\"D_CH1903\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_switzerland/CHENyx06_ETRS\",0.0]]",
+    "wkt": "GEOGTRAN[\"CH1903_To_WGS_1984_3_NTv2\",GEOGCS[\"GCS_CH1903\",DATUM[\"D_CH1903\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_switzerland/CHENYX06_etrs\",0.0]]",
     "description": "Switzerland, Liechtenstein",
     "authority": "EPSG",
     "version": "8.9.1(10.5.0)",
@@ -19178,12 +19178,12 @@
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
-    "areaname": "Australia - onshore",
+    "areaname": "Australia - AGD84",
     "extent":
-    { "slat": -43.7,
-      "nlat": -9.86,
-      "llon": 112.85,
-      "rlon": 153.69
+    { "slat": -38.53,
+      "nlat": -9.37,
+      "llon": 109.23,
+      "rlon": 153.61
     },
     "accuracy": 4.0
   },
@@ -19282,7 +19282,7 @@
     "macro": "PE_GT_ARC_1950_TO_WGS_1984_3",
     "name": "Arc_1950_To_WGS_1984_3",
     "wkt": "GEOGTRAN[\"Arc_1950_To_WGS_1984_3\",GEOGCS[\"GCS_Arc_1950\",DATUM[\"D_Arc_1950\",SPHEROID[\"Clarke_1880_Arc\",6378249.145,293.466307656]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-153.0],PARAMETER[\"Y_Axis_Translation\",-5.0],PARAMETER[\"Z_Axis_Translation\",-292.0]]",
-    "description": "Burundi",
+    "description": "Burundi - deprecated, see 3998",
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
@@ -19354,7 +19354,7 @@
     "macro": "PE_GT_ARC_1950_TO_WGS_1984_7",
     "name": "Arc_1950_To_WGS_1984_7",
     "wkt": "GEOGTRAN[\"Arc_1950_To_WGS_1984_7\",GEOGCS[\"GCS_Arc_1950\",DATUM[\"D_Arc_1950\",SPHEROID[\"Clarke_1880_Arc\",6378249.145,293.466307656]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-169.0],PARAMETER[\"Y_Axis_Translation\",-19.0],PARAMETER[\"Z_Axis_Translation\",-278.0]]",
-    "description": "Zaire",
+    "description": "Zaire - deprecated",
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
@@ -19426,7 +19426,7 @@
     "macro": "PE_GT_BATAVIA_TO_WGS_1984",
     "name": "Batavia_To_WGS_1984",
     "wkt": "GEOGTRAN[\"Batavia_To_WGS_1984\",GEOGCS[\"GCS_Batavia\",DATUM[\"D_Batavia\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-377.0],PARAMETER[\"Y_Axis_Translation\",681.0],PARAMETER[\"Z_Axis_Translation\",-50.0]]",
-    "description": "Indonesia (Sumatra)",
+    "description": "Indonesia (Sumatra) - DEPRECATED in favor of 8452 Padang to WGS84",
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
@@ -19750,7 +19750,7 @@
     "macro": "PE_GT_ED_1950_TO_WGS_1984_9",
     "name": "ED_1950_To_WGS_1984_9",
     "wkt": "GEOGTRAN[\"ED_1950_To_WGS_1984_9\",GEOGCS[\"GCS_European_1950\",DATUM[\"D_European_1950\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-117.0],PARAMETER[\"Y_Axis_Translation\",-132.0],PARAMETER[\"Z_Axis_Translation\",-164.0]]",
-    "description": "Iran",
+    "description": "Iran - deprecated, use 1141",
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
@@ -20276,10 +20276,10 @@
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
-    "areaname": "Canada",
+    "areaname": "Canada - NAD27",
     "extent":
     { "slat": 40.04,
-      "nlat": 86.46,
+      "nlat": 83.17,
       "llon": -141.01,
       "rlon": -47.74
     },
@@ -20800,8 +20800,8 @@
     "deprecated": "yes",
     "areaname": "South America - Bolivia; Chile; Ecuador; Guyana; Peru; Venezuela",
     "extent":
-    { "slat": -45.0,
-      "nlat": 12.52,
+    { "slat": -43.5,
+      "nlat": 12.25,
       "llon": -81.41,
       "rlon": -56.47
     },
@@ -20852,12 +20852,12 @@
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
-    "areaname": "Chile - onshore 39~S to 45~S",
+    "areaname": "Chile - onshore 39~S to 43~30'S",
     "extent":
-    { "slat": -45.0,
+    { "slat": -43.5,
       "nlat": -38.99,
-      "llon": -75.22,
-      "rlon": -71.1
+      "llon": -74.48,
+      "rlon": -71.38
     },
     "accuracy": 35.0
   },
@@ -20924,11 +20924,11 @@
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
-    "areaname": "Peru",
+    "areaname": "Peru - onshore",
     "extent":
-    { "slat": -21.05,
+    { "slat": -18.35,
       "nlat": -0.03,
-      "llon": -84.68,
+      "llon": -81.41,
       "rlon": -68.67
     },
     "accuracy": 16.0
@@ -20942,12 +20942,12 @@
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
-    "areaname": "Venezuela",
+    "areaname": "Venezuela - onshore",
     "extent":
     { "slat": 0.64,
-      "nlat": 16.75,
+      "nlat": 12.25,
       "llon": -73.38,
-      "rlon": -58.95
+      "rlon": -59.8
     },
     "accuracy": 23.0
   },
@@ -21464,12 +21464,12 @@
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
-    "areaname": "Australia - onshore",
+    "areaname": "Australia - AGD84",
     "extent":
-    { "slat": -43.7,
-      "nlat": -9.86,
-      "llon": 112.85,
-      "rlon": 153.69
+    { "slat": -38.53,
+      "nlat": -9.37,
+      "llon": 109.23,
+      "rlon": 153.61
     },
     "accuracy": 5.0
   },
@@ -21680,11 +21680,11 @@
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "yes",
-    "areaname": "Russia",
+    "areaname": "Russia - onshore",
     "extent":
-    { "slat": 39.87,
-      "nlat": 85.2,
-      "llon": 18.92,
+    { "slat": 41.19,
+      "nlat": 81.91,
+      "llon": 19.58,
       "rlon": -168.97
     },
     "accuracy": 999.0
@@ -22036,10 +22036,10 @@
     "macro": "PE_GT_BATAVIA_JAKARTA_TO_WGS_1984",
     "name": "Batavia_Jakarta_To_WGS_1984",
     "wkt": "GEOGTRAN[\"Batavia_Jakarta_To_WGS_1984\",GEOGCS[\"GCS_Batavia_Jakarta\",DATUM[\"D_Batavia\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Jakarta\",106.8077194444444],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-377.0],PARAMETER[\"Y_Axis_Translation\",681.0],PARAMETER[\"Z_Axis_Translation\",-50.0]]",
-    "description": "Batavia(Jakarta) to WGS84",
+    "description": "Batavia(Jakarta) to WGS84 - deprecated",
     "authority": "EPSG",
     "version": "3.1(8.0.1)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Indonesia - Sumatra",
     "extent":
     { "slat": -5.99,
@@ -22202,12 +22202,12 @@
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
-    "areaname": "Australia - onshore",
+    "areaname": "Australia - AGD84",
     "extent":
-    { "slat": -43.7,
-      "nlat": -9.86,
-      "llon": 112.85,
-      "rlon": 153.69
+    { "slat": -38.53,
+      "nlat": -9.37,
+      "llon": 109.23,
+      "rlon": 153.61
     },
     "accuracy": 5.0
   },
@@ -22220,12 +22220,12 @@
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
-    "areaname": "Australia - onshore",
+    "areaname": "Australia - AGD84",
     "extent":
-    { "slat": -43.7,
-      "nlat": -9.86,
-      "llon": 112.85,
-      "rlon": 153.69
+    { "slat": -38.53,
+      "nlat": -9.37,
+      "llon": 109.23,
+      "rlon": 153.61
     },
     "accuracy": 1.0
   },
@@ -22274,11 +22274,11 @@
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
-    "areaname": "Lithuania",
+    "areaname": "Lithuania - onshore",
     "extent":
     { "slat": 53.89,
       "nlat": 56.45,
-      "llon": 19.02,
+      "llon": 20.86,
       "rlon": 26.82
     },
     "accuracy": 9.0
@@ -22306,7 +22306,7 @@
     "macro": "PE_GT_PULKOVO_1942_TO_WGS_1984_3",
     "name": "Pulkovo_1942_To_WGS_1984_3",
     "wkt": "GEOGTRAN[\"Pulkovo_1942_To_WGS_1984_3\",GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",28.0],PARAMETER[\"Y_Axis_Translation\",-121.0],PARAMETER[\"Z_Axis_Translation\",-77.0]]",
-    "description": "Hungary",
+    "description": "Hungary - deprecated, use 15996",
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
@@ -22324,7 +22324,7 @@
     "macro": "PE_GT_PULKOVO_1942_TO_WGS_1984_4",
     "name": "Pulkovo_1942_To_WGS_1984_4",
     "wkt": "GEOGTRAN[\"Pulkovo_1942_To_WGS_1984_4\",GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",23.0],PARAMETER[\"Y_Axis_Translation\",-124.0],PARAMETER[\"Z_Axis_Translation\",-82.0]]",
-    "description": "Poland",
+    "description": "Poland - deprecated, use 15997",
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
@@ -22342,7 +22342,7 @@
     "macro": "PE_GT_PULKOVO_1942_TO_WGS_1984_5",
     "name": "Pulkovo_1942_To_WGS_1984_5",
     "wkt": "GEOGTRAN[\"Pulkovo_1942_To_WGS_1984_5\",GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",26.0],PARAMETER[\"Y_Axis_Translation\",-121.0],PARAMETER[\"Z_Axis_Translation\",-78.0]]",
-    "description": "Czech Republic",
+    "description": "Czech Republic - deprecated, use 15998",
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
@@ -22364,11 +22364,11 @@
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
-    "areaname": "Latvia",
+    "areaname": "Latvia - onshore",
     "extent":
     { "slat": 55.67,
       "nlat": 58.09,
-      "llon": 19.06,
+      "llon": 20.87,
       "rlon": 28.24
     },
     "accuracy": 4.0
@@ -22396,7 +22396,7 @@
     "macro": "PE_GT_PULKOVO_1942_TO_WGS_1984_8",
     "name": "Pulkovo_1942_To_WGS_1984_8",
     "wkt": "GEOGTRAN[\"Pulkovo_1942_To_WGS_1984_8\",GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",24.0],PARAMETER[\"Y_Axis_Translation\",-130.0],PARAMETER[\"Z_Axis_Translation\",-92.0]]",
-    "description": "Albania",
+    "description": "Albania - deprecated, use 15999",
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
@@ -22468,7 +22468,7 @@
     "macro": "PE_GT_SEGORA_TO_WGS_1984",
     "name": "Segora_To_WGS_1984",
     "wkt": "GEOGTRAN[\"Segora_To_WGS_1984\",GEOGCS[\"GCS_Segora\",DATUM[\"D_Segora\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-403.0],PARAMETER[\"Y_Axis_Translation\",684.0],PARAMETER[\"Z_Axis_Translation\",41.0]]",
-    "description": "Indonesia - Kalimantan",
+    "description": "Indonesia - Kalimantan - deprecated, see 1834",
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
@@ -22522,16 +22522,16 @@
     "macro": "PE_GT_NAPARIMA_1972_TO_WGS_1984_2",
     "name": "Naparima_1972_To_WGS_1984_2",
     "wkt": "GEOGTRAN[\"Naparima_1972_To_WGS_1984_2\",GEOGCS[\"GCS_Naparima_1972\",DATUM[\"D_Naparima_1972\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-0.465],PARAMETER[\"Y_Axis_Translation\",372.095],PARAMETER[\"Z_Axis_Translation\",171.736]]",
-    "description": "Trinidad and Tobago",
+    "description": "Tobago",
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
-    "areaname": "Trinidad and Tobago - Trinidad - onshore",
+    "areaname": "Trinidad and Tobago - Tobago - onshore",
     "extent":
-    { "slat": 9.99,
-      "nlat": 10.9,
-      "llon": -61.98,
-      "rlon": -60.85
+    { "slat": 11.08,
+      "nlat": 11.41,
+      "llon": -60.9,
+      "rlon": -60.44
     },
     "accuracy": 1.0
   },
@@ -22738,7 +22738,7 @@
     "macro": "PE_GT_NAPARIMA_1972_TO_WGS_1984_3",
     "name": "Naparima_1972_To_WGS_1984_3",
     "wkt": "GEOGTRAN[\"Naparima_1972_To_WGS_1984_3\",GEOGCS[\"GCS_Naparima_1972\",DATUM[\"D_Naparima_1972\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-2.0],PARAMETER[\"Y_Axis_Translation\",374.0],PARAMETER[\"Z_Axis_Translation\",172.0]]",
-    "description": "Trinidad and Tobago",
+    "description": "Trinidad and Tobago - Tobago",
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
@@ -22832,10 +22832,10 @@
     "authority": "Esri",
     "version": "8.1.0",
     "deprecated": "yes",
-    "areaname": "Canada",
+    "areaname": "Canada - NAD27",
     "extent":
     { "slat": 40.04,
-      "nlat": 86.46,
+      "nlat": 83.17,
       "llon": -141.01,
       "rlon": -47.74
     },
@@ -23174,11 +23174,11 @@
     "authority": "Esri",
     "version": "8.0.1",
     "deprecated": "yes",
-    "areaname": "Estonia",
+    "areaname": "Estonia - onshore",
     "extent":
     { "slat": 57.52,
-      "nlat": 60.0,
-      "llon": 20.37,
+      "nlat": 59.75,
+      "llon": 21.74,
       "rlon": 28.2
     },
     "accuracy": 0.1
@@ -23236,6 +23236,24 @@
       "rlon": 28.2
     },
     "accuracy": 9.0
+  },
+  { "wkid": 8270,
+    "latestWkid": 8270,
+    "macro": "PE_GT_SPEM_1950_TO_WGS_1984_G1150",
+    "name": "Saint_Pierre_et_Miquelon_1950_to_WGS_1984_(G1150)",
+    "wkt": "GEOGTRAN[\"Saint_Pierre_et_Miquelon_1950_to_WGS_1984_(G1150)\",GEOGCS[\"GCS_Saint_Pierre_et_Miquelon_1950\",DATUM[\"D_Saint_Pierre_et_Miquelon_1950\",SPHEROID[\"Clarke_1866\",6378206.4,294.9786982]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"WGS_1984_(G1150)\",DATUM[\"World_Geodetic_System_1984_(G1150)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",11.363],PARAMETER[\"Y_Axis_Translation\",424.148],PARAMETER[\"Z_Axis_Translation\",373.13]]",
+    "description": "Saint Pierre et Miquelon 1950 to WGS 1984 (G1150)",
+    "authority": "EPSG",
+    "version": "9.1.2(10.7.0)",
+    "deprecated": "no",
+    "areaname": "St Pierre and Miquelon - onshore",
+    "extent":
+    { "slat": 46.69,
+      "nlat": 47.19,
+      "llon": -56.48,
+      "rlon": -56.07
+    },
+    "accuracy": 1.0
   },
   { "wkid": 8278,
     "latestWkid": 1446,
@@ -23665,7 +23683,7 @@
     { "slat": 36.98,
       "nlat": 41.01,
       "llon": -109.06,
-      "rlon": -102.03
+      "rlon": -102.04
     },
     "accuracy": 0.05
   },
@@ -24400,10 +24418,10 @@
     "deprecated": "yes",
     "areaname": "USA - Kansas",
     "extent":
-    { "slat": 36.98,
+    { "slat": 36.99,
       "nlat": 40.01,
       "llon": -102.06,
-      "rlon": -94.6
+      "rlon": -94.58
     },
     "accuracy": 0.05
   },
@@ -24570,13 +24588,13 @@
     "accuracy": 0.05
   },
   { "wkid": 8562,
-    "latestWkid": 108098,
+    "latestWkid": 108087,
     "macro": "PE_GT_NORD_SAHARA_1959_TO_WGS_1984_3",
     "name": "Nord_Sahara_1959_To_WGS_1984_3",
-    "wkt": "GEOGTRAN[\"Nord_Sahara_1959_To_WGS_1984_3\",GEOGCS[\"GCS_Nord_Sahara_1959\",DATUM[\"D_Nord_Sahara_1959\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-156.0],PARAMETER[\"Y_Axis_Translation\",-87.2],PARAMETER[\"Z_Axis_Translation\",287.8],PARAMETER[\"X_Axis_Rotation\",0.0],PARAMETER[\"Y_Axis_Rotation\",0.0],PARAMETER[\"Z_Axis_Rotation\",0.814],PARAMETER[\"Scale_Difference\",-0.38]]",
+    "wkt": "GEOGTRAN[\"Nord_Sahara_1959_To_WGS_1984_3\",GEOGCS[\"GCS_Nord_Sahara_1959\",DATUM[\"D_Nord_Sahara_1959\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-156.5],PARAMETER[\"Y_Axis_Translation\",-87.2],PARAMETER[\"Z_Axis_Translation\",287.8],PARAMETER[\"X_Axis_Rotation\",0.0],PARAMETER[\"Y_Axis_Rotation\",0.0],PARAMETER[\"Z_Axis_Rotation\",0.814],PARAMETER[\"Scale_Difference\",-0.38]]",
     "description": "Algeria - Hassi Messaoud",
     "authority": "EPSG",
-    "version": "7.11(8.1.2)",
+    "version": "7.11(10.7.0)",
     "deprecated": "yes",
     "areaname": "Algeria - Hassi Messaoud",
     "extent":
@@ -24586,6 +24604,24 @@
       "rlon": 6.5
     },
     "accuracy": 10.0
+  },
+  { "wkid": 8639,
+    "latestWkid": 8639,
+    "macro": "PE_GT_BELGE_1972_TO_ETRS_1989_3",
+    "name": "Belge_1972_To_ETRS_1989_3",
+    "wkt": "GEOGTRAN[\"Belge_1972_To_ETRS_1989_3\",GEOGCS[\"GCS_Belge_1972\",DATUM[\"D_Belge_1972\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_belgium/BD72LB72_ETRS89LB08\",0.0]]",
+    "description": "Belge 1972 to ETRS 1989 (3)",
+    "authority": "EPSG",
+    "version": "7.4.6(10.7.0)",
+    "deprecated": "no",
+    "areaname": "Belgium - onshore",
+    "extent":
+    { "slat": 49.5,
+      "nlat": 51.51,
+      "llon": 2.5,
+      "rlon": 6.4
+    },
+    "accuracy": 0.01
   },
   { "wkid": 8650,
     "latestWkid": 108099,
@@ -24604,6 +24640,78 @@
       "rlon": 35.69
     },
     "accuracy": 3.5
+  },
+  { "wkid": 8688,
+    "latestWkid": 8688,
+    "macro": "PE_GT_MGI_1901_TO_WGS_1984_12",
+    "name": "MGI_1901_To_WGS_1984_12",
+    "wkt": "GEOGTRAN[\"MGI_1901_To_WGS_1984_12\",GEOGCS[\"GCS_MGI_1901\",DATUM[\"D_MGI_1901\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",476.08],PARAMETER[\"Y_Axis_Translation\",125.947],PARAMETER[\"Z_Axis_Translation\",417.81],PARAMETER[\"X_Axis_Rotation\",-4.610862],PARAMETER[\"Y_Axis_Rotation\",-2.388137],PARAMETER[\"Z_Axis_Rotation\",11.942335],PARAMETER[\"Scale_Difference\",9.896638]]",
+    "description": "Slovenia - Country (GI)",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - onshore",
+    "extent":
+    { "slat": 45.42,
+      "nlat": 46.88,
+      "llon": 13.38,
+      "rlon": 16.61
+    },
+    "accuracy": 1.3
+  },
+  { "wkid": 8689,
+    "latestWkid": 8689,
+    "macro": "PE_GT_MGI_1901_TO_SLOVENIA_1996_12",
+    "name": "MGI_1901_To_Slovenia_1996_12",
+    "wkt": "GEOGTRAN[\"MGI_1901_To_Slovenia_1996_12\",GEOGCS[\"GCS_MGI_1901\",DATUM[\"D_MGI_1901\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",476.08],PARAMETER[\"Y_Axis_Translation\",125.947],PARAMETER[\"Z_Axis_Translation\",417.81],PARAMETER[\"X_Axis_Rotation\",-4.610862],PARAMETER[\"Y_Axis_Rotation\",-2.388137],PARAMETER[\"Z_Axis_Rotation\",11.942335],PARAMETER[\"Scale_Difference\",9.896638]]",
+    "description": "Slovenia - Country (GI)",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - onshore",
+    "extent":
+    { "slat": 45.42,
+      "nlat": 46.88,
+      "llon": 13.38,
+      "rlon": 16.61
+    },
+    "accuracy": 1.07
+  },
+  { "wkid": 8822,
+    "latestWkid": 8822,
+    "macro": "PE_GT_MTRF_2000_TO_WGS_1984_G1150",
+    "name": "MTRF-2000_to_WGS_1984_(G1150)",
+    "wkt": "GEOGTRAN[\"MTRF-2000_to_WGS_1984_(G1150)\",GEOGCS[\"MTRF-2000\",DATUM[\"MOMRA_Terrestrial_Reference_Frame_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"WGS_1984_(G1150)\",DATUM[\"World_Geodetic_System_1984_(G1150)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",0.0],PARAMETER[\"Y_Axis_Translation\",0.0],PARAMETER[\"Z_Axis_Translation\",0.0]]",
+    "description": "MTRF-2000 to WGS 1984 (G1150)",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Saudi Arabia",
+    "extent":
+    { "slat": 15.61,
+      "nlat": 32.16,
+      "llon": 34.44,
+      "rlon": 55.67
+    },
+    "accuracy": 1.0
+  },
+  { "wkid": 8824,
+    "latestWkid": 8824,
+    "macro": "PE_GT_AIN_EL_ABD_1970_TO_MTRF_2000_1",
+    "name": "Ain_el_Abd_1970_to_MTRF-2000_1",
+    "wkt": "GEOGTRAN[\"Ain_el_Abd_1970_to_MTRF-2000_1\",GEOGCS[\"GCS_Ain_el_Abd_1970\",DATUM[\"D_Ain_el_Abd_1970\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"MTRF-2000\",DATUM[\"MOMRA_Terrestrial_Reference_Frame_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-61.65],PARAMETER[\"Y_Axis_Translation\",-315.86],PARAMETER[\"Z_Axis_Translation\",-3.51],PARAMETER[\"X_Axis_Rotation\",0.41],PARAMETER[\"Y_Axis_Rotation\",0.74],PARAMETER[\"Z_Axis_Rotation\",-3.52],PARAMETER[\"Scale_Difference\",1.36]]",
+    "description": "Ain el Abd 1970 to MTRF-2000 (1)",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Saudi Arabia - onshore",
+    "extent":
+    { "slat": 15.61,
+      "nlat": 32.16,
+      "llon": 34.51,
+      "rlon": 55.67
+    },
+    "accuracy": 5.0
   },
   { "wkid": 10085,
     "latestWkid": 10085,
@@ -25859,9 +25967,9 @@
     "areaname": "Europe - west",
     "extent":
     { "slat": 34.88,
-      "nlat": 71.21,
+      "nlat": 84.17,
       "llon": -10.56,
-      "rlon": 31.59
+      "rlon": 39.65
     },
     "accuracy": 6.0
   },
@@ -26450,12 +26558,12 @@
     "authority": "EPSG",
     "version": "7.4.6(9.2.0)",
     "deprecated": "no",
-    "areaname": "Australia - onshore",
+    "areaname": "Australia - AGD84",
     "extent":
-    { "slat": -43.7,
-      "nlat": -9.86,
-      "llon": 112.85,
-      "rlon": 153.69
+    { "slat": -38.53,
+      "nlat": -9.37,
+      "llon": 109.23,
+      "rlon": 153.61
     },
     "accuracy": 5.0
   },
@@ -27814,10 +27922,10 @@
     "macro": "PE_GT_NAHRWAN_1967_TO_WGS_1984_6",
     "name": "Nahrwan_1967_To_WGS_1984_6",
     "wkt": "GEOGTRAN[\"Nahrwan_1967_To_WGS_1984_6\",GEOGCS[\"GCS_Nahrwan_1967\",DATUM[\"D_Nahrwan_1967\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-242.2],PARAMETER[\"Y_Axis_Translation\",-144.9],PARAMETER[\"Z_Axis_Translation\",370.3]]",
-    "description": "Iraq - onshore and offshore",
+    "description": "Iraq - onshore and offshore - deprecated, use 7033",
     "authority": "EPSG",
     "version": "7.9.4(9.3.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Iraq - onshore",
     "extent":
     { "slat": 29.06,
@@ -28414,7 +28522,7 @@
     "deprecated": "no",
     "areaname": "Libya - onshore",
     "extent":
-    { "slat": 19.49,
+    { "slat": 19.5,
       "nlat": 33.23,
       "llon": 9.31,
       "rlon": 25.21
@@ -28576,7 +28684,7 @@
     "deprecated": "no",
     "areaname": "Libya - onshore",
     "extent":
-    { "slat": 19.49,
+    { "slat": 19.5,
       "nlat": 33.23,
       "llon": 9.31,
       "rlon": 25.21
@@ -29038,10 +29146,10 @@
     "macro": "PE_GT_YACARE_TO_SIRGAS_1",
     "name": "Yacare_To_SIRGAS_1",
     "wkt": "GEOGTRAN[\"Yacare_To_SIRGAS_1\",GEOGCS[\"GCS_Yacare\",DATUM[\"D_Yacare\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_SIRGAS\",DATUM[\"D_SIRGAS\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-124.45],PARAMETER[\"Y_Axis_Translation\",183.74],PARAMETER[\"Z_Axis_Translation\",44.64],PARAMETER[\"X_Axis_Rotation\",-0.4384],PARAMETER[\"Y_Axis_Rotation\",0.5446],PARAMETER[\"Z_Axis_Rotation\",-0.9706],PARAMETER[\"Scale_Difference\",-2.1365]]",
-    "description": "Uruguay - onshore and offshore",
+    "description": "Uruguay - onshore and offshore - deprecated",
     "authority": "EPSG",
     "version": "6.15(10.0.0)",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Uruguay",
     "extent":
     { "slat": -37.77,
@@ -29690,12 +29798,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Costa Rica",
+    "areaname": "Costa Rica - onshore",
     "extent":
-    { "slat": 2.15,
-      "nlat": 11.77,
-      "llon": -90.45,
-      "rlon": -81.43
+    { "slat": 7.98,
+      "nlat": 11.22,
+      "llon": -85.97,
+      "rlon": -82.53
     },
     "accuracy": 0.5
   },
@@ -29708,12 +29816,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Costa Rica",
+    "areaname": "Costa Rica - onshore",
     "extent":
-    { "slat": 2.15,
-      "nlat": 11.77,
-      "llon": -90.45,
-      "rlon": -81.43
+    { "slat": 7.98,
+      "nlat": 11.22,
+      "llon": -85.97,
+      "rlon": -82.53
     },
     "accuracy": 0.5
   },
@@ -29834,12 +29942,12 @@
     "authority": "Esri",
     "version": "10.1.1",
     "deprecated": "no",
-    "areaname": "Israel",
+    "areaname": "Israel, Palestine Territory, and Jordan",
     "extent":
-    { "slat": 29.45,
+    { "slat": 29.19,
       "nlat": 33.53,
       "llon": 32.99,
-      "rlon": 35.69
+      "rlon": 39.3
     },
     "accuracy": 1.0
   },
@@ -30194,11 +30302,11 @@
     "authority": "Esri",
     "version": "10.3.1",
     "deprecated": "yes",
-    "areaname": "Netherlands",
+    "areaname": "Netherlands - onshore",
     "extent":
     { "slat": 50.75,
-      "nlat": 55.77,
-      "llon": 2.53,
+      "nlat": 53.7,
+      "llon": 3.2,
       "rlon": 7.22
     },
     "accuracy": 0.1
@@ -30212,11 +30320,11 @@
     "authority": "Esri",
     "version": "10.3.1",
     "deprecated": "no",
-    "areaname": "Netherlands",
+    "areaname": "Netherlands - onshore",
     "extent":
     { "slat": 50.75,
-      "nlat": 55.77,
-      "llon": 2.53,
+      "nlat": 53.7,
+      "llon": 3.2,
       "rlon": 7.22
     },
     "accuracy": 0.2
@@ -30284,12 +30392,12 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "Caribbean - Puerto Rico and US Virgin Islands",
+    "areaname": "Caribbean - Puerto Rico and US Virgin Islands - onshore",
     "extent":
-    { "slat": 14.92,
-      "nlat": 21.86,
-      "llon": -68.49,
-      "rlon": -63.88
+    { "slat": 17.62,
+      "nlat": 18.57,
+      "llon": -67.97,
+      "rlon": -64.51
     },
     "accuracy": 0.05
   },
@@ -30604,7 +30712,7 @@
     "macro": "PE_GT_GDA_1994_TO_GDA2020_NTV2_C",
     "name": "GDA_1994_To_GDA2020_NTv2_C",
     "wkt": "GEOGTRAN[\"GDA_1994_To_GDA2020_NTv2_C\",GEOGCS[\"GCS_GDA_1994\",DATUM[\"D_GDA_1994\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GDA2020\",DATUM[\"GDA2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_australia/AUS942020_C\",0.0]]",
-    "description": "",
+    "description": "Australia NTv2 conformal (DEPRECATED - use 108446)",
     "authority": "Esri",
     "version": "10.5.1",
     "deprecated": "yes",
@@ -30622,7 +30730,7 @@
     "macro": "PE_GT_GDA_1994_TO_GDA2020_NTV2_CD",
     "name": "GDA_1994_To_GDA2020_NTv2_CD",
     "wkt": "GEOGTRAN[\"GDA_1994_To_GDA2020_NTv2_CD\",GEOGCS[\"GCS_GDA_1994\",DATUM[\"D_GDA_1994\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GDA2020\",DATUM[\"GDA2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_australia/AUS942020_CD\",0.0]]",
-    "description": "",
+    "description": "Australia NTv2 conformal with distortion (DEPRECATED - use 108447)",
     "authority": "Esri",
     "version": "10.5.1",
     "deprecated": "yes",
@@ -30815,6 +30923,240 @@
     },
     "accuracy": 0.0
   },
+  { "wkid": 108076,
+    "latestWkid": 108076,
+    "macro": "PE_GT_D48_TO_D96_2010",
+    "name": "D48_To_D96_2010_GI",
+    "wkt": "GEOGTRAN[\"D48_To_D96_2010_GI\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",476.08],PARAMETER[\"Y_Axis_Translation\",125.947],PARAMETER[\"Z_Axis_Translation\",417.81],PARAMETER[\"X_Axis_Rotation\",-4.610862],PARAMETER[\"Y_Axis_Rotation\",-2.388137],PARAMETER[\"Z_Axis_Rotation\",11.942335],PARAMETER[\"Scale_Difference\",9.896638]]",
+    "description": "Slovenia - Country (GI)",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - onshore",
+    "extent":
+    { "slat": 45.42,
+      "nlat": 46.88,
+      "llon": 13.38,
+      "rlon": 16.61
+    },
+    "accuracy": 1.07
+  },
+  { "wkid": 108077,
+    "latestWkid": 108077,
+    "macro": "PE_GT_D96_TO_D48_ZAH_SLO",
+    "name": "D96_To_D48_Zahodna_Slovenija",
+    "wkt": "GEOGTRAN[\"D96_To_D48_Zahodna_Slovenija\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-453.674],PARAMETER[\"Y_Axis_Translation\",-112.561],PARAMETER[\"Z_Axis_Translation\",-388.287],PARAMETER[\"X_Axis_Rotation\",5.343297],PARAMETER[\"Y_Axis_Rotation\",2.485394],PARAMETER[\"Z_Axis_Rotation\",-10.836743],PARAMETER[\"Scale_Difference\",-15.958238]]",
+    "description": "Slovenia - Zahodna Slovenija",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - west of 14~30'E onshore",
+    "extent":
+    { "slat": 45.44,
+      "nlat": 46.53,
+      "llon": 13.38,
+      "rlon": 14.58
+    },
+    "accuracy": 0.357
+  },
+  { "wkid": 108078,
+    "latestWkid": 108078,
+    "macro": "PE_GT_D96_TO_D48_SV_SLO",
+    "name": "D96_To_D48_Severovzhodna_Slovenija",
+    "wkt": "GEOGTRAN[\"D96_To_D48_Severovzhodna_Slovenija\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-491.556],PARAMETER[\"Y_Axis_Translation\",-135.972],PARAMETER[\"Z_Axis_Translation\",-440.4],PARAMETER[\"X_Axis_Rotation\",3.683681],PARAMETER[\"Y_Axis_Rotation\",2.232141],PARAMETER[\"Z_Axis_Rotation\",-13.171698],PARAMETER[\"Scale_Difference\",-5.421926]]",
+    "description": "Slovenia - Severovzhodna Slovenija",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - NE",
+    "extent":
+    { "slat": 46.14,
+      "nlat": 46.88,
+      "llon": 14.54,
+      "rlon": 16.61
+    },
+    "accuracy": 0.504
+  },
+  { "wkid": 108079,
+    "latestWkid": 108079,
+    "macro": "PE_GT_D96_TO_D48_JV_SLO",
+    "name": "D96_To_D48_Jugovzhodna_Slovenija",
+    "wkt": "GEOGTRAN[\"D96_To_D48_Jugovzhodna_Slovenija\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-485.018],PARAMETER[\"Y_Axis_Translation\",-129.747],PARAMETER[\"Z_Axis_Translation\",-423.199],PARAMETER[\"X_Axis_Rotation\",4.880531],PARAMETER[\"Y_Axis_Rotation\",2.348721],PARAMETER[\"Z_Axis_Rotation\",-11.745346],PARAMETER[\"Scale_Difference\",-8.231637]]",
+    "description": "Slovenia - Jugovzhodna Slovenija",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - SE",
+    "extent":
+    { "slat": 45.42,
+      "nlat": 46.22,
+      "llon": 14.55,
+      "rlon": 15.73
+    },
+    "accuracy": 0.388
+  },
+  { "wkid": 108080,
+    "latestWkid": 108080,
+    "macro": "PE_GT_D96_TO_D48_JUZ_SLO",
+    "name": "D96_To_D48_Juzna_Slovenija",
+    "wkt": "GEOGTRAN[\"D96_To_D48_Juzna_Slovenija\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-502.101],PARAMETER[\"Y_Axis_Translation\",-131.516],PARAMETER[\"Z_Axis_Translation\",-433.704],PARAMETER[\"X_Axis_Rotation\",6.054862],PARAMETER[\"Y_Axis_Rotation\",2.498236],PARAMETER[\"Z_Axis_Rotation\",-10.429331],PARAMETER[\"Scale_Difference\",-5.188197]]",
+    "description": "Slovenia - Juzna Slovenija",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - southeastern",
+    "extent":
+    { "slat": 45.42,
+      "nlat": 45.77,
+      "llon": 14.53,
+      "rlon": 15.36
+    },
+    "accuracy": 0.137
+  },
+  { "wkid": 108081,
+    "latestWkid": 108081,
+    "macro": "PE_GT_D96_TO_D48_DOLENJSKA",
+    "name": "D96_To_D48_Dolenjska",
+    "wkt": "GEOGTRAN[\"D96_To_D48_Dolenjska\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-481.871],PARAMETER[\"Y_Axis_Translation\",-129.173],PARAMETER[\"Z_Axis_Translation\",-420.608],PARAMETER[\"X_Axis_Rotation\",5.096868],PARAMETER[\"Y_Axis_Rotation\",2.423927],PARAMETER[\"Z_Axis_Rotation\",-11.524756],PARAMETER[\"Scale_Difference\",-8.872387]]",
+    "description": "Slovenia - Dolenjska",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - Dolenjska",
+    "extent":
+    { "slat": 45.7,
+      "nlat": 46.12,
+      "llon": 14.47,
+      "rlon": 15.73
+    },
+    "accuracy": 0.308
+  },
+  { "wkid": 108082,
+    "latestWkid": 108082,
+    "macro": "PE_GT_D96_TO_D48_STAJERSKA",
+    "name": "D96_To_D48_Stajerska",
+    "wkt": "GEOGTRAN[\"D96_To_D48_Stajerska\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-477.73],PARAMETER[\"Y_Axis_Translation\",-130.719],PARAMETER[\"Z_Axis_Translation\",-424.46],PARAMETER[\"X_Axis_Rotation\",3.790572],PARAMETER[\"Y_Axis_Rotation\",2.246488],PARAMETER[\"Z_Axis_Rotation\",-12.99207],PARAMETER[\"Scale_Difference\",-8.828735]]",
+    "description": "Slovenia - Stajerska",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - Stajerska",
+    "extent":
+    { "slat": 46.1,
+      "nlat": 46.76,
+      "llon": 14.74,
+      "rlon": 16.27
+    },
+    "accuracy": 0.368
+  },
+  { "wkid": 108083,
+    "latestWkid": 108083,
+    "macro": "PE_GT_D96_TO_D48_POMURJE",
+    "name": "D96_To_D48_Pomurje",
+    "wkt": "GEOGTRAN[\"D96_To_D48_Pomurje\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-523.882],PARAMETER[\"Y_Axis_Translation\",-151.289],PARAMETER[\"Z_Axis_Translation\",-480.592],PARAMETER[\"X_Axis_Rotation\",3.706371],PARAMETER[\"Y_Axis_Rotation\",2.315828],PARAMETER[\"Z_Axis_Rotation\",-13.400341],PARAMETER[\"Scale_Difference\",2.972511]]",
+    "description": "Slovenia - Pomurje",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - Pomurje",
+    "extent":
+    { "slat": 46.47,
+      "nlat": 46.88,
+      "llon": 15.96,
+      "rlon": 16.61
+    },
+    "accuracy": 0.21
+  },
+  { "wkid": 108084,
+    "latestWkid": 108084,
+    "macro": "PE_GT_D96_TO_D48_GORENJSKA",
+    "name": "D96_To_D48_Gorenjska",
+    "wkt": "GEOGTRAN[\"D96_To_D48_Gorenjska\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-438.775],PARAMETER[\"Y_Axis_Translation\",-109.403],PARAMETER[\"Z_Axis_Translation\",-377.696],PARAMETER[\"X_Axis_Rotation\",4.933923],PARAMETER[\"Y_Axis_Rotation\",2.503267],PARAMETER[\"Z_Axis_Rotation\",-11.26993],PARAMETER[\"Scale_Difference\",-18.814763]]",
+    "description": "Slovenia - Gorenjska",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - Gorenjska and N Primorsko",
+    "extent":
+    { "slat": 46.05,
+      "nlat": 46.53,
+      "llon": 13.38,
+      "rlon": 14.82
+    },
+    "accuracy": 0.249
+  },
+  { "wkid": 108085,
+    "latestWkid": 108085,
+    "macro": "PE_GT_D96_TO_D48_PRIMORSKA",
+    "name": "D96_To_D48_Primorska",
+    "wkt": "GEOGTRAN[\"D96_To_D48_Primorska\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-465.715],PARAMETER[\"Y_Axis_Translation\",-115.127],PARAMETER[\"Z_Axis_Translation\",-397.622],PARAMETER[\"X_Axis_Rotation\",5.743906],PARAMETER[\"Y_Axis_Rotation\",2.510737],PARAMETER[\"Z_Axis_Rotation\",-10.415817],PARAMETER[\"Scale_Difference\",-13.558204]]",
+    "description": "Slovenia - Primorska",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - Primorska and Notranjska onshore",
+    "extent":
+    { "slat": 45.44,
+      "nlat": 46.08,
+      "llon": 13.47,
+      "rlon": 14.58
+    },
+    "accuracy": 0.27
+  },
+  { "wkid": 108086,
+    "latestWkid": 108086,
+    "macro": "PE_GT_D96_TO_D48_OSR_SLO",
+    "name": "D96_To_D48_Osrednja_Slovenija",
+    "wkt": "GEOGTRAN[\"D96_To_D48_Osrednja_Slovenija\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Coordinate_Frame\"],PARAMETER[\"X_Axis_Translation\",-465.328],PARAMETER[\"Y_Axis_Translation\",-122.305],PARAMETER[\"Z_Axis_Translation\",-403.609],PARAMETER[\"X_Axis_Rotation\",4.387757],PARAMETER[\"Y_Axis_Rotation\",2.265582],PARAMETER[\"Z_Axis_Rotation\",-12.157415],PARAMETER[\"Scale_Difference\",-12.73019]]",
+    "description": "Slovenia - Osrednja Slovenija",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - central",
+    "extent":
+    { "slat": 45.91,
+      "nlat": 46.31,
+      "llon": 14.21,
+      "rlon": 15.28
+    },
+    "accuracy": 0.185
+  },
+  { "wkid": 108087,
+    "latestWkid": 108087,
+    "macro": "PE_GT_NORD_SAHARA_1959_TO_WGS_1984_3",
+    "name": "Nord_Sahara_1959_To_WGS_1984_3",
+    "wkt": "GEOGTRAN[\"Nord_Sahara_1959_To_WGS_1984_3\",GEOGCS[\"GCS_Nord_Sahara_1959\",DATUM[\"D_Nord_Sahara_1959\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-156.5],PARAMETER[\"Y_Axis_Translation\",-87.2],PARAMETER[\"Z_Axis_Translation\",287.8],PARAMETER[\"X_Axis_Rotation\",0.0],PARAMETER[\"Y_Axis_Rotation\",0.0],PARAMETER[\"Z_Axis_Rotation\",0.814],PARAMETER[\"Scale_Difference\",-0.38]]",
+    "description": "Algeria - Hassi Messaoud",
+    "authority": "Esri",
+    "version": "10.4.0",
+    "deprecated": "no",
+    "areaname": "Algeria - Hassi Messaoud",
+    "extent":
+    { "slat": 31.48,
+      "nlat": 32.09,
+      "llon": 5.59,
+      "rlon": 6.5
+    },
+    "accuracy": 10.0
+  },
+  { "wkid": 108088,
+    "latestWkid": 108088,
+    "macro": "PE_GT_SPEM_1950_TO_RGSPM_2006",
+    "name": "Saint_Pierre_et_Miquelon_1950_to_RGSPM_2006",
+    "wkt": "GEOGTRAN[\"Saint_Pierre_et_Miquelon_1950_to_RGSPM_2006\",GEOGCS[\"GCS_Saint_Pierre_et_Miquelon_1950\",DATUM[\"D_Saint_Pierre_et_Miquelon_1950\",SPHEROID[\"Clarke_1866\",6378206.4,294.9786982]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_RGSPM_2006\",DATUM[\"D_Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-95.593],PARAMETER[\"Y_Axis_Translation\",573.763],PARAMETER[\"Z_Axis_Translation\",173.442],PARAMETER[\"X_Axis_Rotation\",-0.9602],PARAMETER[\"Y_Axis_Rotation\",1.251],PARAMETER[\"Z_Axis_Rotation\",-1.3918],PARAMETER[\"Scale_Difference\",42.6265]]",
+    "description": "Saint Pierre et Miquelon 1950 to RGSPM06",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "St Pierre and Miquelon - onshore",
+    "extent":
+    { "slat": 46.69,
+      "nlat": 47.19,
+      "llon": -56.48,
+      "rlon": -56.07
+    },
+    "accuracy": 1.0
+  },
   { "wkid": 108090,
     "latestWkid": 108090,
     "macro": "PE_GT_VOIROL_UNIFIE_1960_PARIS_TO_WGS_1984",
@@ -30823,7 +31165,7 @@
     "description": "Voirol Unifie (Paris) to WGS84",
     "authority": "Esri",
     "version": "10.4.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Algeria - north of 32~N",
     "extent":
     { "slat": 31.99,
@@ -30841,7 +31183,7 @@
     "description": "Algeria",
     "authority": "Esri",
     "version": "10.4.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Algeria - north of 32~N",
     "extent":
     { "slat": 31.99,
@@ -30874,16 +31216,16 @@
     "macro": "PE_GT_NAPARIMA_1972_TO_WGS_1984_2",
     "name": "Naparima_1972_To_WGS_1984_2",
     "wkt": "GEOGTRAN[\"Naparima_1972_To_WGS_1984_2\",GEOGCS[\"GCS_Naparima_1972\",DATUM[\"D_Naparima_1972\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-0.465],PARAMETER[\"Y_Axis_Translation\",372.095],PARAMETER[\"Z_Axis_Translation\",171.736]]",
-    "description": "Trinidad and Tobago",
+    "description": "Tobago",
     "authority": "Esri",
     "version": "10.4.0",
-    "deprecated": "no",
-    "areaname": "Trinidad and Tobago - Trinidad - onshore",
+    "deprecated": "yes",
+    "areaname": "Trinidad and Tobago - Tobago - onshore",
     "extent":
-    { "slat": 9.99,
-      "nlat": 10.9,
-      "llon": -61.98,
-      "rlon": -60.85
+    { "slat": 11.08,
+      "nlat": 11.41,
+      "llon": -60.9,
+      "rlon": -60.44
     },
     "accuracy": 1.0
   },
@@ -30959,24 +31301,6 @@
     },
     "accuracy": 27.0
   },
-  { "wkid": 108098,
-    "latestWkid": 108098,
-    "macro": "PE_GT_NORD_SAHARA_1959_TO_WGS_1984_3",
-    "name": "Nord_Sahara_1959_To_WGS_1984_3",
-    "wkt": "GEOGTRAN[\"Nord_Sahara_1959_To_WGS_1984_3\",GEOGCS[\"GCS_Nord_Sahara_1959\",DATUM[\"D_Nord_Sahara_1959\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-156.0],PARAMETER[\"Y_Axis_Translation\",-87.2],PARAMETER[\"Z_Axis_Translation\",287.8],PARAMETER[\"X_Axis_Rotation\",0.0],PARAMETER[\"Y_Axis_Rotation\",0.0],PARAMETER[\"Z_Axis_Rotation\",0.814],PARAMETER[\"Scale_Difference\",-0.38]]",
-    "description": "Algeria - Hassi Messaoud",
-    "authority": "Esri",
-    "version": "10.4.0",
-    "deprecated": "no",
-    "areaname": "Algeria - Hassi Messaoud",
-    "extent":
-    { "slat": 31.48,
-      "nlat": 32.09,
-      "llon": 5.59,
-      "rlon": 6.5
-    },
-    "accuracy": 10.0
-  },
   { "wkid": 108099,
     "latestWkid": 108099,
     "macro": "PE_GT_PALESTINE_1923_TO_WGS_1984_2",
@@ -31040,12 +31364,12 @@
     "authority": "Esri",
     "version": "4.0.0",
     "deprecated": "no",
-    "areaname": "France",
+    "areaname": "France - onshore - mainland and Corsica",
     "extent":
-    { "slat": 41.15,
-      "nlat": 51.56,
-      "llon": -9.86,
-      "rlon": 10.38
+    { "slat": 41.31,
+      "nlat": 51.14,
+      "llon": -4.87,
+      "rlon": 9.63
     },
     "accuracy": 2.0
   },
@@ -31112,12 +31436,12 @@
     "authority": "Esri",
     "version": "3.0.1",
     "deprecated": "no",
-    "areaname": "Korea, Republic of (South Korea)",
+    "areaname": "Japan - onshore",
     "extent":
-    { "slat": 28.6,
-      "nlat": 40.27,
-      "llon": 122.71,
-      "rlon": 134.28
+    { "slat": 20.37,
+      "nlat": 45.54,
+      "llon": 122.83,
+      "rlon": 154.05
     },
     "accuracy": 4.0
   },
@@ -31202,11 +31526,11 @@
     "authority": "Esri",
     "version": "4.0.0",
     "deprecated": "no",
-    "areaname": "Portugal",
+    "areaname": "Portugal - mainland - onshore",
     "extent":
-    { "slat": 29.24,
-      "nlat": 43.07,
-      "llon": -35.58,
+    { "slat": 36.95,
+      "nlat": 42.16,
+      "llon": -9.56,
       "rlon": -6.19
     },
     "accuracy": 999.0
@@ -31382,11 +31706,11 @@
     "authority": "Esri",
     "version": "4.0.0",
     "deprecated": "no",
-    "areaname": "Portugal",
+    "areaname": "Portugal - mainland - onshore",
     "extent":
-    { "slat": 29.24,
-      "nlat": 43.07,
-      "llon": -35.58,
+    { "slat": 36.95,
+      "nlat": 42.16,
+      "llon": -9.56,
       "rlon": -6.19
     },
     "accuracy": 999.0
@@ -31544,12 +31868,12 @@
     "authority": "Esri",
     "version": "4.0.0",
     "deprecated": "no",
-    "areaname": "France",
+    "areaname": "France - onshore - mainland and Corsica",
     "extent":
-    { "slat": 41.15,
-      "nlat": 51.56,
-      "llon": -9.86,
-      "rlon": 10.38
+    { "slat": 41.31,
+      "nlat": 51.14,
+      "llon": -4.87,
+      "rlon": 9.63
     },
     "accuracy": 2.0
   },
@@ -31594,10 +31918,10 @@
     "macro": "PE_GT_POHNPEI_TO_NAD_1983",
     "name": "Pohnpei_To_NAD_1983",
     "wkt": "GEOGTRAN[\"Pohnpei_To_NAD_1983\",GEOGCS[\"GCS_Pohnpei\",DATUM[\"D_Pohnpei\",SPHEROID[\"Clarke_1866\",6378206.4,294.9786982]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-89.121],PARAMETER[\"Y_Axis_Translation\",-348.182],PARAMETER[\"Z_Axis_Translation\",260.871]]",
-    "description": "Pohnpei - Fed. States of Micronesia",
+    "description": "Pohnpei - Fed. States of Micronesia - deprecated, use 108303",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Micronesia",
     "extent":
     { "slat": -1.19,
@@ -31612,10 +31936,10 @@
     "macro": "PE_GT_BAB_SOUTH_TO_NAD_1983",
     "name": "Bab_South_To_NAD_1983",
     "wkt": "GEOGTRAN[\"Bab_South_To_NAD_1983\",GEOGCS[\"GCS_Bab_South\",DATUM[\"D_Bab_South\",SPHEROID[\"Clarke_1866\",6378206.4,294.9786982]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-185.583],PARAMETER[\"Y_Axis_Translation\",-230.096],PARAMETER[\"Z_Axis_Translation\",281.361]]",
-    "description": "Bablethuap Island - Republic of Palau",
+    "description": "Bablethuap Island - Republic of Palau - deprecated, use 108454",
     "authority": "Esri",
     "version": "8.0.1",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Palau",
     "extent":
     { "slat": 1.64,
@@ -31630,10 +31954,10 @@
     "macro": "PE_GT_MAJURO_TO_NAD_1983",
     "name": "Majuro_To_NAD_1983",
     "wkt": "GEOGTRAN[\"Majuro_To_NAD_1983\",GEOGCS[\"GCS_Majuro\",DATUM[\"D_Majuro\",SPHEROID[\"Clarke_1866\",6378206.4,294.9786982]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",25.1],PARAMETER[\"Y_Axis_Translation\",-275.6],PARAMETER[\"Z_Axis_Translation\",222.6]]",
-    "description": "Majuro - Republic of Marshall Islands",
+    "description": "Majuro - Republic of Marshall Islands - deprecated, use 108455",
     "authority": "Esri",
     "version": "8.0.1",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Marshall Islands",
     "extent":
     { "slat": 1.77,
@@ -32102,12 +32426,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Madeira Archipelago - Madeira Island",
+    "areaname": "Portugal - Madeira island onshore",
     "extent":
-    { "slat": 32.5833333333333,
-      "nlat": 32.9166666666667,
-      "llon": -17.3333333333333,
-      "rlon": -16.5833333333333
+    { "slat": 32.58,
+      "nlat": 32.93,
+      "llon": -17.31,
+      "rlon": -16.66
     },
     "accuracy": 0.05
   },
@@ -32120,12 +32444,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Madeira Archipelago - Porto Santo Island",
+    "areaname": "Portugal - Porto Santo island onshore",
     "extent":
-    { "slat": 32.9166666666667,
-      "nlat": 33.1666666666667,
-      "llon": -16.4333333333333,
-      "rlon": -16.25
+    { "slat": 32.96,
+      "nlat": 33.15,
+      "llon": -16.44,
+      "rlon": -16.23
     },
     "accuracy": 0.002
   },
@@ -32156,12 +32480,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Madeira Archipelago - Madeira Island",
+    "areaname": "Portugal - Madeira island onshore",
     "extent":
-    { "slat": 32.5833333333333,
-      "nlat": 32.9166666666667,
-      "llon": -17.3333333333333,
-      "rlon": -16.5833333333333
+    { "slat": 32.58,
+      "nlat": 32.93,
+      "llon": -17.31,
+      "rlon": -16.66
     },
     "accuracy": 0.14
   },
@@ -32174,12 +32498,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Madeira Archipelago - Porto Santo Island",
+    "areaname": "Portugal - Porto Santo island onshore",
     "extent":
-    { "slat": 32.9166666666667,
-      "nlat": 33.1666666666667,
-      "llon": -16.4333333333333,
-      "rlon": -16.25
+    { "slat": 32.96,
+      "nlat": 33.15,
+      "llon": -16.44,
+      "rlon": -16.23
     },
     "accuracy": 0.12
   },
@@ -32210,12 +32534,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Madeira Archipelago - Madeira Island",
+    "areaname": "Portugal - Madeira island onshore",
     "extent":
-    { "slat": 32.5833333333333,
-      "nlat": 32.9166666666667,
-      "llon": -17.3333333333333,
-      "rlon": -16.5833333333333
+    { "slat": 32.58,
+      "nlat": 32.93,
+      "llon": -17.31,
+      "rlon": -16.66
     },
     "accuracy": 0.1
   },
@@ -32228,12 +32552,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Madeira Archipelago - Porto Santo Island",
+    "areaname": "Portugal - Porto Santo island onshore",
     "extent":
-    { "slat": 32.9166666666667,
-      "nlat": 33.1666666666667,
-      "llon": -16.4333333333333,
-      "rlon": -16.25
+    { "slat": 32.96,
+      "nlat": 33.15,
+      "llon": -16.44,
+      "rlon": -16.23
     },
     "accuracy": 0.01
   },
@@ -32264,12 +32588,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Madeira Archipelago - Madeira Island",
+    "areaname": "Portugal - Madeira island onshore",
     "extent":
-    { "slat": 32.5833333333333,
-      "nlat": 32.9166666666667,
-      "llon": -17.3333333333333,
-      "rlon": -16.5833333333333
+    { "slat": 32.58,
+      "nlat": 32.93,
+      "llon": -17.31,
+      "rlon": -16.66
     },
     "accuracy": 0.3
   },
@@ -32282,12 +32606,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Madeira Archipelago - Porto Santo Island",
+    "areaname": "Portugal - Porto Santo island onshore",
     "extent":
-    { "slat": 32.9166666666667,
-      "nlat": 33.1666666666667,
-      "llon": -16.4333333333333,
-      "rlon": -16.25
+    { "slat": 32.96,
+      "nlat": 33.15,
+      "llon": -16.44,
+      "rlon": -16.23
     },
     "accuracy": 0.3
   },
@@ -32552,12 +32876,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Azores - Graciosa Island",
+    "areaname": "Portugal - Azores C - Graciosa onshore",
     "extent":
-    { "slat": 39.0,
-      "nlat": 39.15,
-      "llon": -28.15,
-      "rlon": -27.9
+    { "slat": 38.97,
+      "nlat": 39.14,
+      "llon": -28.13,
+      "rlon": -27.88
     },
     "accuracy": 0.004
   },
@@ -32696,11 +33020,11 @@
     "authority": "Esri",
     "version": "9.0.0",
     "deprecated": "no",
-    "areaname": "Estonia",
+    "areaname": "Estonia - onshore",
     "extent":
     { "slat": 57.52,
-      "nlat": 60.0,
-      "llon": 20.37,
+      "nlat": 59.75,
+      "llon": 21.74,
       "rlon": 28.2
     },
     "accuracy": 0.1
@@ -32804,14 +33128,14 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "yes",
-    "areaname": "Costa Rica",
+    "areaname": "Costa Rica - onshore",
     "extent":
-    { "slat": 2.15,
-      "nlat": 11.77,
-      "llon": -90.45,
-      "rlon": -81.43
+    { "slat": 7.98,
+      "nlat": 11.22,
+      "llon": -85.97,
+      "rlon": -82.53
     },
-    "accuracy": 1.0
+    "accuracy": 8.0
   },
   { "wkid": 108201,
     "latestWkid": 108201,
@@ -33077,7 +33401,7 @@
     "areaname": "Israel, Palestine Territory, and Jordan",
     "extent":
     { "slat": 29.19,
-      "nlat": 33.52,
+      "nlat": 33.53,
       "llon": 32.99,
       "rlon": 39.3
     },
@@ -33110,12 +33434,12 @@
     "authority": "Esri",
     "version": "9.0.0",
     "deprecated": "no",
-    "areaname": "Venezuela",
+    "areaname": "Venezuela - onshore",
     "extent":
     { "slat": 0.64,
-      "nlat": 16.75,
+      "nlat": 12.25,
       "llon": -73.38,
-      "rlon": -58.95
+      "rlon": -59.8
     },
     "accuracy": 15.0
   },
@@ -33326,11 +33650,11 @@
     "authority": "Esri",
     "version": "9.0.0",
     "deprecated": "no",
-    "areaname": "Finland",
+    "areaname": "Finland - onshore",
     "extent":
-    { "slat": 58.84,
+    { "slat": 59.75,
       "nlat": 70.09,
-      "llon": 19.08,
+      "llon": 19.24,
       "rlon": 31.59
     },
     "accuracy": 1.0
@@ -33560,12 +33884,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Azores - Graciosa Island",
+    "areaname": "Portugal - Azores C - Graciosa onshore",
     "extent":
-    { "slat": 39.0,
-      "nlat": 39.15,
-      "llon": -28.15,
-      "rlon": -27.9
+    { "slat": 38.97,
+      "nlat": 39.14,
+      "llon": -28.13,
+      "rlon": -27.88
     },
     "accuracy": 0.064
   },
@@ -33668,12 +33992,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Azores - Graciosa Island",
+    "areaname": "Portugal - Azores C - Graciosa onshore",
     "extent":
-    { "slat": 39.0,
-      "nlat": 39.15,
-      "llon": -28.15,
-      "rlon": -27.9
+    { "slat": 38.97,
+      "nlat": 39.14,
+      "llon": -28.13,
+      "rlon": -27.88
     },
     "accuracy": 0.01
   },
@@ -34024,10 +34348,10 @@
     "macro": "PE_GT_LC5_1961_TO_WGS_1984",
     "name": "LC5_1961_To_WGS_1984",
     "wkt": "GEOGTRAN[\"LC5_1961_To_WGS_1984\",GEOGCS[\"GCS_LC5_1961\",DATUM[\"D_LC5_1961\",SPHEROID[\"Clarke_1866\",6378206.4,294.9786982]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",42.0],PARAMETER[\"Y_Axis_Translation\",124.0],PARAMETER[\"Z_Axis_Translation\",147.0]]",
-    "description": "Cayman Brac Island",
+    "description": "Little Cayman and Cayman Brac Island - deprecated - use 15814 instead",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Cayman Islands - Little Cayman and Cayman Brac",
     "extent":
     { "slat": 19.63,
@@ -34150,10 +34474,10 @@
     "macro": "PE_GT_ED_1950_TO_WGS_1984_9",
     "name": "ED_1950_To_WGS_1984_9",
     "wkt": "GEOGTRAN[\"ED_1950_To_WGS_1984_9\",GEOGCS[\"GCS_European_1950\",DATUM[\"D_European_1950\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-117.0],PARAMETER[\"Y_Axis_Translation\",-132.0],PARAMETER[\"Z_Axis_Translation\",-164.0]]",
-    "description": "Iran",
+    "description": "Iran - deprecated, use 1141",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Iran",
     "extent":
     { "slat": 23.34,
@@ -34179,7 +34503,7 @@
       "llon": 13.38,
       "rlon": 16.61
     },
-    "accuracy": 1.0
+    "accuracy": 3.0
   },
   { "wkid": 108277,
     "latestWkid": 108277,
@@ -34197,7 +34521,7 @@
       "llon": 13.38,
       "rlon": 16.61
     },
-    "accuracy": 1.0
+    "accuracy": 3.0
   },
   { "wkid": 108278,
     "latestWkid": 108278,
@@ -34208,12 +34532,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Algeria - north of 31.5~N",
+    "areaname": "Algeria - north of 32~N",
     "extent":
-    { "slat": 31.5,
+    { "slat": 31.99,
       "nlat": 37.14,
-      "llon": -3.85,
-      "rlon": 9.22
+      "llon": -2.95,
+      "rlon": 9.09
     },
     "accuracy": 44.0
   },
@@ -34226,11 +34550,11 @@
     "authority": "Esri",
     "version": "9.2.0",
     "deprecated": "no",
-    "areaname": "Morocco",
+    "areaname": "Morocco - onshore",
     "extent":
     { "slat": 27.66,
-      "nlat": 36.0,
-      "llon": -13.86,
+      "nlat": 35.97,
+      "llon": -13.24,
       "rlon": -1.01
     },
     "accuracy": 7.0
@@ -34298,12 +34622,12 @@
     "authority": "Esri",
     "version": "9.2.0",
     "deprecated": "no",
-    "areaname": "Costa Rica",
+    "areaname": "Costa Rica - onshore",
     "extent":
-    { "slat": 2.15,
-      "nlat": 11.77,
-      "llon": -90.45,
-      "rlon": -81.43
+    { "slat": 7.98,
+      "nlat": 11.22,
+      "llon": -85.97,
+      "rlon": -82.53
     },
     "accuracy": 999.0
   },
@@ -34316,14 +34640,14 @@
     "authority": "Esri",
     "version": "9.2.0",
     "deprecated": "yes",
-    "areaname": "Costa Rica",
+    "areaname": "Central America - Guatemala to Costa Rica",
     "extent":
-    { "slat": 2.15,
-      "nlat": 11.77,
-      "llon": -90.45,
-      "rlon": -81.43
+    { "slat": 7.98,
+      "nlat": 17.83,
+      "llon": -92.29,
+      "rlon": -82.53
     },
-    "accuracy": 999.0
+    "accuracy": 14.0
   },
   { "wkid": 108285,
     "latestWkid": 15925,
@@ -34496,12 +34820,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Azores - Graciosa Island",
+    "areaname": "Portugal - Azores C - Graciosa onshore",
     "extent":
-    { "slat": 39.0,
-      "nlat": 39.15,
-      "llon": -28.15,
-      "rlon": -27.9
+    { "slat": 38.97,
+      "nlat": 39.14,
+      "llon": -28.13,
+      "rlon": -27.88
     },
     "accuracy": 0.1
   },
@@ -34571,7 +34895,7 @@
     "areaname": "USA - Idaho and Montana",
     "extent":
     { "slat": 41.0,
-      "nlat": 50.0,
+      "nlat": 49.38,
       "llon": -119.0,
       "rlon": -104.0
     },
@@ -34742,12 +35066,12 @@
   { "wkid": 108308,
     "latestWkid": 108308,
     "macro": "PE_GT_D48_TO_ETRS_1989_2007",
-    "name": "D48_To_ETRS_1989_2007",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_2007\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-409.520465],PARAMETER[\"Y_Axis_Translation\",-72.191827],PARAMETER[\"Z_Axis_Translation\",-486.872387],PARAMETER[\"X_Axis_Rotation\",3.08625],PARAMETER[\"Y_Axis_Rotation\",5.468945],PARAMETER[\"Z_Axis_Rotation\",-11.02037],PARAMETER[\"Scale_Difference\",-17.919456]]",
-    "description": "Slovenia - up to 1m accuracy",
+    "name": "D48_To_ETRS_1989_2007_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_2007_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-409.520465],PARAMETER[\"Y_Axis_Translation\",-72.191827],PARAMETER[\"Z_Axis_Translation\",-486.872387],PARAMETER[\"X_Axis_Rotation\",3.08625],PARAMETER[\"Y_Axis_Rotation\",5.468945],PARAMETER[\"Z_Axis_Rotation\",-11.02037],PARAMETER[\"Scale_Difference\",-17.919456]]",
+    "description": "Slovenia - up to 1m accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia",
     "extent":
     { "slat": 45.42,
@@ -34760,12 +35084,12 @@
   { "wkid": 108309,
     "latestWkid": 108309,
     "macro": "PE_GT_D48_TO_WGS_1984_2007",
-    "name": "D48_To_WGS_1984_2007",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_2007\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-409.520465],PARAMETER[\"Y_Axis_Translation\",-72.191827],PARAMETER[\"Z_Axis_Translation\",-486.872387],PARAMETER[\"X_Axis_Rotation\",3.08625],PARAMETER[\"Y_Axis_Rotation\",5.468945],PARAMETER[\"Z_Axis_Rotation\",-11.02037],PARAMETER[\"Scale_Difference\",-17.919456]]",
-    "description": "Slovenia - up to 1m accuracy",
+    "name": "D48_To_WGS_1984_2007_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_2007_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-409.520465],PARAMETER[\"Y_Axis_Translation\",-72.191827],PARAMETER[\"Z_Axis_Translation\",-486.872387],PARAMETER[\"X_Axis_Rotation\",3.08625],PARAMETER[\"Y_Axis_Rotation\",5.468945],PARAMETER[\"Z_Axis_Rotation\",-11.02037],PARAMETER[\"Scale_Difference\",-17.919456]]",
+    "description": "Slovenia - up to 1m accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia",
     "extent":
     { "slat": 45.42,
@@ -34778,12 +35102,12 @@
   { "wkid": 108310,
     "latestWkid": 108310,
     "macro": "PE_GT_D48_TO_ETRS_1989_ZAH_SLO",
-    "name": "D48_To_ETRS_1989_Zahodna_Slovenia",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Zahodna_Slovenia\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-315.352931],PARAMETER[\"Y_Axis_Translation\",-186.253842],PARAMETER[\"Z_Axis_Translation\",-499.603434],PARAMETER[\"X_Axis_Rotation\",6.446475],PARAMETER[\"Y_Axis_Rotation\",8.131219],PARAMETER[\"Z_Axis_Rotation\",-13.208894],PARAMETER[\"Scale_Difference\",-23.448627]]",
-    "description": "Slovenia - Zahodna Slovenia up to 50cm accuracy",
+    "name": "D48_To_ETRS_1989_Zahodna_Slovenia_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Zahodna_Slovenia_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-315.352931],PARAMETER[\"Y_Axis_Translation\",-186.253842],PARAMETER[\"Z_Axis_Translation\",-499.603434],PARAMETER[\"X_Axis_Rotation\",6.446475],PARAMETER[\"Y_Axis_Rotation\",8.131219],PARAMETER[\"Z_Axis_Rotation\",-13.208894],PARAMETER[\"Scale_Difference\",-23.448627]]",
+    "description": "Slovenia - Zahodna Slovenia up to 50cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - west of 14~30'E onshore",
     "extent":
     { "slat": 45.44,
@@ -34796,12 +35120,12 @@
   { "wkid": 108311,
     "latestWkid": 108311,
     "macro": "PE_GT_D48_TO_WGS_1984_ZAH_SLO",
-    "name": "D48_To_WGS_1984_Zahodna_Slovenia",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Zahodna_Slovenia\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-315.352931],PARAMETER[\"Y_Axis_Translation\",-186.253842],PARAMETER[\"Z_Axis_Translation\",-499.603434],PARAMETER[\"X_Axis_Rotation\",6.446475],PARAMETER[\"Y_Axis_Rotation\",8.131219],PARAMETER[\"Z_Axis_Rotation\",-13.208894],PARAMETER[\"Scale_Difference\",-23.448627]]",
-    "description": "Slovenia - Zahodna Slovenia up to 50cm accuracy",
+    "name": "D48_To_WGS_1984_Zahodna_Slovenia_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Zahodna_Slovenia_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-315.352931],PARAMETER[\"Y_Axis_Translation\",-186.253842],PARAMETER[\"Z_Axis_Translation\",-499.603434],PARAMETER[\"X_Axis_Rotation\",6.446475],PARAMETER[\"Y_Axis_Rotation\",8.131219],PARAMETER[\"Z_Axis_Rotation\",-13.208894],PARAMETER[\"Scale_Difference\",-23.448627]]",
+    "description": "Slovenia - Zahodna Slovenia up to 50cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - west of 14~30'E onshore",
     "extent":
     { "slat": 45.44,
@@ -34814,12 +35138,12 @@
   { "wkid": 108312,
     "latestWkid": 108312,
     "macro": "PE_GT_D48_TO_ETRS_1989_SV_SLO",
-    "name": "D48_To_ETRS_1989_Severovzhodna_Slovenia",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Severovzhodna_Slovenia\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-464.923389],PARAMETER[\"Y_Axis_Translation\",21.456739],PARAMETER[\"Z_Axis_Translation\",-504.499613],PARAMETER[\"X_Axis_Rotation\",-0.402796],PARAMETER[\"Y_Axis_Rotation\",4.228767],PARAMETER[\"Z_Axis_Rotation\",-9.954933],PARAMETER[\"Scale_Difference\",-12.795283]]",
-    "description": "Slovenia - Severovzhodna Slovenia up to 50cm accuracy",
+    "name": "D48_To_ETRS_1989_Severovzhodna_Slovenia_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Severovzhodna_Slovenia_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-464.923389],PARAMETER[\"Y_Axis_Translation\",21.456739],PARAMETER[\"Z_Axis_Translation\",-504.499613],PARAMETER[\"X_Axis_Rotation\",-0.402796],PARAMETER[\"Y_Axis_Rotation\",4.228767],PARAMETER[\"Z_Axis_Rotation\",-9.954933],PARAMETER[\"Scale_Difference\",-12.795283]]",
+    "description": "Slovenia - Severovzhodna Slovenia up to 50cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - NE",
     "extent":
     { "slat": 46.14,
@@ -34832,12 +35156,12 @@
   { "wkid": 108313,
     "latestWkid": 108313,
     "macro": "PE_GT_D48_TO_WGS_1984_SV_SLO",
-    "name": "D48_To_WGS_1984_Severovzhodna_Slovenia",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Severovzhodna_Slovenia\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-464.923389],PARAMETER[\"Y_Axis_Translation\",21.456739],PARAMETER[\"Z_Axis_Translation\",-504.499613],PARAMETER[\"X_Axis_Rotation\",-0.402796],PARAMETER[\"Y_Axis_Rotation\",4.228767],PARAMETER[\"Z_Axis_Rotation\",-9.954933],PARAMETER[\"Scale_Difference\",-12.795283]]",
-    "description": "Slovenia - Severovzhodna Slovenia up to 50cm accuracy",
+    "name": "D48_To_WGS_1984_Severovzhodna_Slovenia_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Severovzhodna_Slovenia_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-464.923389],PARAMETER[\"Y_Axis_Translation\",21.456739],PARAMETER[\"Z_Axis_Translation\",-504.499613],PARAMETER[\"X_Axis_Rotation\",-0.402796],PARAMETER[\"Y_Axis_Rotation\",4.228767],PARAMETER[\"Z_Axis_Rotation\",-9.954933],PARAMETER[\"Scale_Difference\",-12.795283]]",
+    "description": "Slovenia - Severovzhodna Slovenia up to 50cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - NE",
     "extent":
     { "slat": 46.14,
@@ -34850,12 +35174,12 @@
   { "wkid": 108314,
     "latestWkid": 108314,
     "macro": "PE_GT_D48_TO_ETRS_1989_JV_SLO",
-    "name": "D48_To_ETRS_1989_Jugovzhodna_Slovenia",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Jugovzhodna_Slovenia\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-459.947808],PARAMETER[\"Y_Axis_Translation\",-82.224279],PARAMETER[\"Z_Axis_Translation\",-458.755555],PARAMETER[\"X_Axis_Rotation\",3.565429],PARAMETER[\"Y_Axis_Rotation\",3.700405],PARAMETER[\"Z_Axis_Rotation\",-10.860587],PARAMETER[\"Scale_Difference\",-15.507373]]",
-    "description": "Slovenia - Jugovzhodna Slovenia up to 50cm accuracy",
+    "name": "D48_To_ETRS_1989_Jugovzhodna_Slovenia_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Jugovzhodna_Slovenia_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-459.947808],PARAMETER[\"Y_Axis_Translation\",-82.224279],PARAMETER[\"Z_Axis_Translation\",-458.755555],PARAMETER[\"X_Axis_Rotation\",3.565429],PARAMETER[\"Y_Axis_Rotation\",3.700405],PARAMETER[\"Z_Axis_Rotation\",-10.860587],PARAMETER[\"Scale_Difference\",-15.507373]]",
+    "description": "Slovenia - Jugovzhodna Slovenia up to 50cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - SE",
     "extent":
     { "slat": 45.42,
@@ -34868,12 +35192,12 @@
   { "wkid": 108315,
     "latestWkid": 108315,
     "macro": "PE_GT_D48_TO_WGS_1984_JV_SLO",
-    "name": "D48_To_WGS_1984_Jugovzhodna_Slovenia",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Jugovzhodna_Slovenia\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-459.947808],PARAMETER[\"Y_Axis_Translation\",-82.224279],PARAMETER[\"Z_Axis_Translation\",-458.755555],PARAMETER[\"X_Axis_Rotation\",3.565429],PARAMETER[\"Y_Axis_Rotation\",3.700405],PARAMETER[\"Z_Axis_Rotation\",-10.860587],PARAMETER[\"Scale_Difference\",-15.507373]]",
-    "description": "Slovenia - Jugovzhodna Slovenia up to 50cm accuracy",
+    "name": "D48_To_WGS_1984_Jugovzhodna_Slovenia_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Jugovzhodna_Slovenia_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-459.947808],PARAMETER[\"Y_Axis_Translation\",-82.224279],PARAMETER[\"Z_Axis_Translation\",-458.755555],PARAMETER[\"X_Axis_Rotation\",3.565429],PARAMETER[\"Y_Axis_Rotation\",3.700405],PARAMETER[\"Z_Axis_Rotation\",-10.860587],PARAMETER[\"Scale_Difference\",-15.507373]]",
+    "description": "Slovenia - Jugovzhodna Slovenia up to 50cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - SE",
     "extent":
     { "slat": 45.42,
@@ -34886,12 +35210,12 @@
   { "wkid": 108316,
     "latestWkid": 108316,
     "macro": "PE_GT_D48_TO_ETRS_1989_STAJERSKA",
-    "name": "D48_To_ETRS_1989_Stajerska",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Stajerska\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-439.481548],PARAMETER[\"Y_Axis_Translation\",11.748185],PARAMETER[\"Z_Axis_Translation\",-494.977936],PARAMETER[\"X_Axis_Rotation\",0.026815],PARAMETER[\"Y_Axis_Rotation\",4.656409],PARAMETER[\"Z_Axis_Rotation\",-10.155824],PARAMETER[\"Scale_Difference\",-16.269825]]",
-    "description": "Slovenia - Stajerska up to 30cm accuracy",
+    "name": "D48_To_ETRS_1989_Stajerska_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Stajerska_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-439.481548],PARAMETER[\"Y_Axis_Translation\",11.748185],PARAMETER[\"Z_Axis_Translation\",-494.977936],PARAMETER[\"X_Axis_Rotation\",0.026815],PARAMETER[\"Y_Axis_Rotation\",4.656409],PARAMETER[\"Z_Axis_Rotation\",-10.155824],PARAMETER[\"Scale_Difference\",-16.269825]]",
+    "description": "Slovenia - Stajerska up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - Stajerska",
     "extent":
     { "slat": 46.1,
@@ -34904,12 +35228,12 @@
   { "wkid": 108317,
     "latestWkid": 108317,
     "macro": "PE_GT_D48_TO_WGS_1984_STAJERSKA",
-    "name": "D48_To_WGS_1984_Stajerska",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Stajerska\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-439.481548],PARAMETER[\"Y_Axis_Translation\",11.748185],PARAMETER[\"Z_Axis_Translation\",-494.977936],PARAMETER[\"X_Axis_Rotation\",0.026815],PARAMETER[\"Y_Axis_Rotation\",4.656409],PARAMETER[\"Z_Axis_Rotation\",-10.155824],PARAMETER[\"Scale_Difference\",-16.269825]]",
-    "description": "Slovenia - Stajerska up to 30cm accuracy",
+    "name": "D48_To_WGS_1984_Stajerska_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Stajerska_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-439.481548],PARAMETER[\"Y_Axis_Translation\",11.748185],PARAMETER[\"Z_Axis_Translation\",-494.977936],PARAMETER[\"X_Axis_Rotation\",0.026815],PARAMETER[\"Y_Axis_Rotation\",4.656409],PARAMETER[\"Z_Axis_Rotation\",-10.155824],PARAMETER[\"Scale_Difference\",-16.269825]]",
+    "description": "Slovenia - Stajerska up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - Stajerska",
     "extent":
     { "slat": 46.1,
@@ -34922,12 +35246,12 @@
   { "wkid": 108318,
     "latestWkid": 108318,
     "macro": "PE_GT_D48_TO_ETRS_1989_GORENJSKA",
-    "name": "D48_To_ETRS_1989_Gorenjska",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Gorenjska\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-281.493395],PARAMETER[\"Y_Axis_Translation\",-45.98263],PARAMETER[\"Z_Axis_Translation\",-537.512746],PARAMETER[\"X_Axis_Rotation\",2.57094],PARAMETER[\"Y_Axis_Rotation\",9.648137],PARAMETER[\"Z_Axis_Rotation\",-10.759628],PARAMETER[\"Scale_Difference\",-26.464974]]",
-    "description": "Slovenia - Gorenjska up to 30cm accuracy",
+    "name": "D48_To_ETRS_1989_Gorenjska_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Gorenjska_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-281.493395],PARAMETER[\"Y_Axis_Translation\",-45.98263],PARAMETER[\"Z_Axis_Translation\",-537.512746],PARAMETER[\"X_Axis_Rotation\",2.57094],PARAMETER[\"Y_Axis_Rotation\",9.648137],PARAMETER[\"Z_Axis_Rotation\",-10.759628],PARAMETER[\"Scale_Difference\",-26.464974]]",
+    "description": "Slovenia - Gorenjska up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - Gorenjska and N Primorsko",
     "extent":
     { "slat": 46.05,
@@ -34940,12 +35264,12 @@
   { "wkid": 108319,
     "latestWkid": 108319,
     "macro": "PE_GT_D48_TO_WGS_1984_GORENJSKA",
-    "name": "D48_To_WGS_1984_Gorenjska",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Gorenjska\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-281.493395],PARAMETER[\"Y_Axis_Translation\",-45.98263],PARAMETER[\"Z_Axis_Translation\",-537.512746],PARAMETER[\"X_Axis_Rotation\",2.57094],PARAMETER[\"Y_Axis_Rotation\",9.648137],PARAMETER[\"Z_Axis_Rotation\",-10.759628],PARAMETER[\"Scale_Difference\",-26.464974]]",
-    "description": "Slovenia - Gorenjska up to 30cm accuracy",
+    "name": "D48_To_WGS_1984_Gorenjska_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Gorenjska_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-281.493395],PARAMETER[\"Y_Axis_Translation\",-45.98263],PARAMETER[\"Z_Axis_Translation\",-537.512746],PARAMETER[\"X_Axis_Rotation\",2.57094],PARAMETER[\"Y_Axis_Rotation\",9.648137],PARAMETER[\"Z_Axis_Rotation\",-10.759628],PARAMETER[\"Scale_Difference\",-26.464974]]",
+    "description": "Slovenia - Gorenjska up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - Gorenjska and N Primorsko",
     "extent":
     { "slat": 46.05,
@@ -34958,12 +35282,12 @@
   { "wkid": 108320,
     "latestWkid": 108320,
     "macro": "PE_GT_D48_TO_ETRS_1989_OSR_SLO",
-    "name": "D48_To_ETRS_1989_Osrednja_Slovenia",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Osrednja_Slovenia\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-400.603839],PARAMETER[\"Y_Axis_Translation\",-90.679824],PARAMETER[\"Z_Axis_Translation\",-472.247864],PARAMETER[\"X_Axis_Rotation\",3.26144],PARAMETER[\"Y_Axis_Rotation\",5.263217],PARAMETER[\"Z_Axis_Rotation\",-11.837473],PARAMETER[\"Scale_Difference\",-20.022307]]",
-    "description": "Slovenia - Osrednja Slovenia up to 30cm accuracy",
+    "name": "D48_To_ETRS_1989_Osrednja_Slovenia_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Osrednja_Slovenia_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-400.603839],PARAMETER[\"Y_Axis_Translation\",-90.679824],PARAMETER[\"Z_Axis_Translation\",-472.247864],PARAMETER[\"X_Axis_Rotation\",3.26144],PARAMETER[\"Y_Axis_Rotation\",5.263217],PARAMETER[\"Z_Axis_Rotation\",-11.837473],PARAMETER[\"Scale_Difference\",-20.022307]]",
+    "description": "Slovenia - Osrednja Slovenia up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - central",
     "extent":
     { "slat": 45.91,
@@ -34976,12 +35300,12 @@
   { "wkid": 108321,
     "latestWkid": 108321,
     "macro": "PE_GT_D48_TO_WGS_1984_OSR_SLO",
-    "name": "D48_To_WGS_1984_Osrednja_Slovenia",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Osrednja_Slovenia\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-400.603839],PARAMETER[\"Y_Axis_Translation\",-90.679824],PARAMETER[\"Z_Axis_Translation\",-472.247864],PARAMETER[\"X_Axis_Rotation\",3.26144],PARAMETER[\"Y_Axis_Rotation\",5.263217],PARAMETER[\"Z_Axis_Rotation\",-11.837473],PARAMETER[\"Scale_Difference\",-20.022307]]",
-    "description": "Slovenia - Osrednja Slovenia up to 30cm accuracy",
+    "name": "D48_To_WGS_1984_Osrednja_Slovenia_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Osrednja_Slovenia_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-400.603839],PARAMETER[\"Y_Axis_Translation\",-90.679824],PARAMETER[\"Z_Axis_Translation\",-472.247864],PARAMETER[\"X_Axis_Rotation\",3.26144],PARAMETER[\"Y_Axis_Rotation\",5.263217],PARAMETER[\"Z_Axis_Rotation\",-11.837473],PARAMETER[\"Scale_Difference\",-20.022307]]",
+    "description": "Slovenia - Osrednja Slovenia up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - central",
     "extent":
     { "slat": 45.91,
@@ -34994,12 +35318,12 @@
   { "wkid": 108322,
     "latestWkid": 108322,
     "macro": "PE_GT_D48_TO_ETRS_1989_DOLENJSKA",
-    "name": "D48_To_ETRS_1989_Dolenjska",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Dolenjska\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-468.611644],PARAMETER[\"Y_Axis_Translation\",-81.420064],PARAMETER[\"Z_Axis_Translation\",-445.219731],PARAMETER[\"X_Axis_Rotation\",3.83941],PARAMETER[\"Y_Axis_Rotation\",3.262328],PARAMETER[\"Z_Axis_Rotation\",-10.566926],PARAMETER[\"Scale_Difference\",-16.132504]]",
-    "description": "Slovenia - Dolenjska up to 30cm accuracy",
+    "name": "D48_To_ETRS_1989_Dolenjska_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Dolenjska_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-468.611644],PARAMETER[\"Y_Axis_Translation\",-81.420064],PARAMETER[\"Z_Axis_Translation\",-445.219731],PARAMETER[\"X_Axis_Rotation\",3.83941],PARAMETER[\"Y_Axis_Rotation\",3.262328],PARAMETER[\"Z_Axis_Rotation\",-10.566926],PARAMETER[\"Scale_Difference\",-16.132504]]",
+    "description": "Slovenia - Dolenjska up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - Dolenjska",
     "extent":
     { "slat": 45.7,
@@ -35012,12 +35336,12 @@
   { "wkid": 108323,
     "latestWkid": 108323,
     "macro": "PE_GT_D48_TO_WGS_1984_DOLENJSKA",
-    "name": "D48_To_WGS_1984_Dolenjska",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Dolenjska\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-468.611644],PARAMETER[\"Y_Axis_Translation\",-81.420064],PARAMETER[\"Z_Axis_Translation\",-445.219731],PARAMETER[\"X_Axis_Rotation\",3.83941],PARAMETER[\"Y_Axis_Rotation\",3.262328],PARAMETER[\"Z_Axis_Rotation\",-10.566926],PARAMETER[\"Scale_Difference\",-16.132504]]",
-    "description": "Slovenia - Dolenjska up to 30cm accuracy",
+    "name": "D48_To_WGS_1984_Dolenjska_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Dolenjska_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-468.611644],PARAMETER[\"Y_Axis_Translation\",-81.420064],PARAMETER[\"Z_Axis_Translation\",-445.219731],PARAMETER[\"X_Axis_Rotation\",3.83941],PARAMETER[\"Y_Axis_Rotation\",3.262328],PARAMETER[\"Z_Axis_Rotation\",-10.566926],PARAMETER[\"Scale_Difference\",-16.132504]]",
+    "description": "Slovenia - Dolenjska up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - Dolenjska",
     "extent":
     { "slat": 45.7,
@@ -35030,12 +35354,12 @@
   { "wkid": 108324,
     "latestWkid": 108324,
     "macro": "PE_GT_D48_TO_ETRS_1989_JUZ_SLO",
-    "name": "D48_To_ETRS_1989_Juzna_Slovenia",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Juzna_Slovenia\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-427.888553],PARAMETER[\"Y_Axis_Translation\",-105.559998],PARAMETER[\"Z_Axis_Translation\",-510.911367],PARAMETER[\"X_Axis_Rotation\",4.992818],PARAMETER[\"Y_Axis_Rotation\",5.898563],PARAMETER[\"Z_Axis_Rotation\",-10.306816],PARAMETER[\"Scale_Difference\",-12.431354]]",
-    "description": "Slovenia - Juzna Slovenia up to 30cm accuracy",
+    "name": "D48_To_ETRS_1989_Juzna_Slovenia_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Juzna_Slovenia_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-427.888553],PARAMETER[\"Y_Axis_Translation\",-105.559998],PARAMETER[\"Z_Axis_Translation\",-510.911367],PARAMETER[\"X_Axis_Rotation\",4.992818],PARAMETER[\"Y_Axis_Rotation\",5.898563],PARAMETER[\"Z_Axis_Rotation\",-10.306816],PARAMETER[\"Scale_Difference\",-12.431354]]",
+    "description": "Slovenia - Juzna Slovenia up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - southeastern",
     "extent":
     { "slat": 45.42,
@@ -35048,12 +35372,12 @@
   { "wkid": 108325,
     "latestWkid": 108325,
     "macro": "PE_GT_D48_TO_WGS_1984_JUZ_SLO",
-    "name": "D48_To_WGS_1984_Juzna_Slovenia",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Juzna_Slovenia\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-427.888553],PARAMETER[\"Y_Axis_Translation\",-105.559998],PARAMETER[\"Z_Axis_Translation\",-510.911367],PARAMETER[\"X_Axis_Rotation\",4.992818],PARAMETER[\"Y_Axis_Rotation\",5.898563],PARAMETER[\"Z_Axis_Rotation\",-10.306816],PARAMETER[\"Scale_Difference\",-12.431354]]",
-    "description": "Slovenia - Juzna Slovenia up to 30cm accuracy",
+    "name": "D48_To_WGS_1984_Juzna_Slovenia_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Juzna_Slovenia_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-427.888553],PARAMETER[\"Y_Axis_Translation\",-105.559998],PARAMETER[\"Z_Axis_Translation\",-510.911367],PARAMETER[\"X_Axis_Rotation\",4.992818],PARAMETER[\"Y_Axis_Rotation\",5.898563],PARAMETER[\"Z_Axis_Rotation\",-10.306816],PARAMETER[\"Scale_Difference\",-12.431354]]",
+    "description": "Slovenia - Juzna Slovenia up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - southeastern",
     "extent":
     { "slat": 45.42,
@@ -35066,12 +35390,12 @@
   { "wkid": 108326,
     "latestWkid": 108326,
     "macro": "PE_GT_D48_TO_ETRS_1989_PRIMORSKA",
-    "name": "D48_To_ETRS_1989_Primorska",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Primorska\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-355.803451],PARAMETER[\"Y_Axis_Translation\",-274.321338],PARAMETER[\"Z_Axis_Translation\",-462.96856],PARAMETER[\"X_Axis_Rotation\",9.087389],PARAMETER[\"Y_Axis_Rotation\",6.490416],PARAMETER[\"Z_Axis_Rotation\",-14.502467],PARAMETER[\"Scale_Difference\",-20.888271]]",
-    "description": "Slovenia - Primorska up to 30cm accuracy",
+    "name": "D48_To_ETRS_1989_Primorska_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Primorska_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-355.803451],PARAMETER[\"Y_Axis_Translation\",-274.321338],PARAMETER[\"Z_Axis_Translation\",-462.96856],PARAMETER[\"X_Axis_Rotation\",9.087389],PARAMETER[\"Y_Axis_Rotation\",6.490416],PARAMETER[\"Z_Axis_Rotation\",-14.502467],PARAMETER[\"Scale_Difference\",-20.888271]]",
+    "description": "Slovenia - Primorska up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - Primorska and Notranjska onshore",
     "extent":
     { "slat": 45.44,
@@ -35084,12 +35408,12 @@
   { "wkid": 108327,
     "latestWkid": 108327,
     "macro": "PE_GT_D48_TO_WGS_1984_PRIMORSKA",
-    "name": "D48_To_WGS_1984_Primorska",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Primorska\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-355.803451],PARAMETER[\"Y_Axis_Translation\",-274.321338],PARAMETER[\"Z_Axis_Translation\",-462.96856],PARAMETER[\"X_Axis_Rotation\",9.087389],PARAMETER[\"Y_Axis_Rotation\",6.490416],PARAMETER[\"Z_Axis_Rotation\",-14.502467],PARAMETER[\"Scale_Difference\",-20.888271]]",
-    "description": "Slovenia - Primorska up to 30cm accuracy",
+    "name": "D48_To_WGS_1984_Primorska_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Primorska_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-355.803451],PARAMETER[\"Y_Axis_Translation\",-274.321338],PARAMETER[\"Z_Axis_Translation\",-462.96856],PARAMETER[\"X_Axis_Rotation\",9.087389],PARAMETER[\"Y_Axis_Rotation\",6.490416],PARAMETER[\"Z_Axis_Rotation\",-14.502467],PARAMETER[\"Scale_Difference\",-20.888271]]",
+    "description": "Slovenia - Primorska up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - Primorska and Notranjska onshore",
     "extent":
     { "slat": 45.44,
@@ -35102,12 +35426,12 @@
   { "wkid": 108328,
     "latestWkid": 108328,
     "macro": "PE_GT_D48_TO_ETRS_1989_POMURJE",
-    "name": "D48_To_ETRS_1989_Pomurje",
-    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Pomurje\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-524.43125],PARAMETER[\"Y_Axis_Translation\",-3.301198],PARAMETER[\"Z_Axis_Translation\",-519.006791],PARAMETER[\"X_Axis_Rotation\",-0.013132],PARAMETER[\"Y_Axis_Rotation\",3.119715],PARAMETER[\"Z_Axis_Rotation\",-10.232694],PARAMETER[\"Scale_Difference\",-4.185096]]",
-    "description": "Slovenia - Pomurje up to 30cm accuracy",
+    "name": "D48_To_ETRS_1989_Pomurje_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_ETRS_1989_Pomurje_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-524.43125],PARAMETER[\"Y_Axis_Translation\",-3.301198],PARAMETER[\"Z_Axis_Translation\",-519.006791],PARAMETER[\"X_Axis_Rotation\",-0.013132],PARAMETER[\"Y_Axis_Rotation\",3.119715],PARAMETER[\"Z_Axis_Rotation\",-10.232694],PARAMETER[\"Scale_Difference\",-4.185096]]",
+    "description": "Slovenia - Pomurje up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - Pomurje",
     "extent":
     { "slat": 46.47,
@@ -35120,12 +35444,12 @@
   { "wkid": 108329,
     "latestWkid": 108329,
     "macro": "PE_GT_D48_TO_WGS_1984_POMURJE",
-    "name": "D48_To_WGS_1984_Pomurje",
-    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Pomurje\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-524.43125],PARAMETER[\"Y_Axis_Translation\",-3.301198],PARAMETER[\"Z_Axis_Translation\",-519.006791],PARAMETER[\"X_Axis_Rotation\",-0.013132],PARAMETER[\"Y_Axis_Rotation\",3.119715],PARAMETER[\"Z_Axis_Rotation\",-10.232694],PARAMETER[\"Scale_Difference\",-4.185096]]",
-    "description": "Slovenia - Pomurje up to 30cm accuracy",
+    "name": "D48_To_WGS_1984_Pomurje_ukinjena",
+    "wkt": "GEOGTRAN[\"D48_To_WGS_1984_Pomurje_ukinjena\",GEOGCS[\"GCS_D48\",DATUM[\"D_D48\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Position_Vector\"],PARAMETER[\"X_Axis_Translation\",-524.43125],PARAMETER[\"Y_Axis_Translation\",-3.301198],PARAMETER[\"Z_Axis_Translation\",-519.006791],PARAMETER[\"X_Axis_Rotation\",-0.013132],PARAMETER[\"Y_Axis_Rotation\",3.119715],PARAMETER[\"Z_Axis_Rotation\",-10.232694],PARAMETER[\"Scale_Difference\",-4.185096]]",
+    "description": "Slovenia - Pomurje up to 30cm accuracy (DEPRECATED)",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Slovenia - Pomurje",
     "extent":
     { "slat": 46.47,
@@ -35306,12 +35630,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Algeria - north of 31.5~N",
+    "areaname": "Algeria - north of 32~N",
     "extent":
-    { "slat": 31.5,
+    { "slat": 31.99,
       "nlat": 37.14,
-      "llon": -3.85,
-      "rlon": 9.22
+      "llon": -2.95,
+      "rlon": 9.09
     },
     "accuracy": 999.0
   },
@@ -35324,12 +35648,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Africa - Algeria, Morocco and Tunisia",
+    "areaname": "Algeria - north of 32~N",
     "extent":
-    { "slat": 18.98,
-      "nlat": 37.34,
-      "llon": -13.17,
-      "rlon": 11.99
+    { "slat": 31.99,
+      "nlat": 37.14,
+      "llon": -2.95,
+      "rlon": 9.09
     },
     "accuracy": 0.0
   },
@@ -35378,12 +35702,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Azores - Corvo Island",
+    "areaname": "Portugal - Azores W - Corvo onshore",
     "extent":
-    { "slat": 39.5,
-      "nlat": 39.75,
-      "llon": -31.2,
-      "rlon": -31.0
+    { "slat": 39.63,
+      "nlat": 39.77,
+      "llon": -31.18,
+      "rlon": -31.02
     },
     "accuracy": 0.07
   },
@@ -35432,12 +35756,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Azores - Corvo Island",
+    "areaname": "Portugal - Azores W - Corvo onshore",
     "extent":
-    { "slat": 39.5,
-      "nlat": 39.75,
-      "llon": -31.2,
-      "rlon": -31.0
+    { "slat": 39.63,
+      "nlat": 39.77,
+      "llon": -31.18,
+      "rlon": -31.02
     },
     "accuracy": 0.064
   },
@@ -35486,12 +35810,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Azores - Corvo Island",
+    "areaname": "Portugal - Azores W - Corvo onshore",
     "extent":
-    { "slat": 39.5,
-      "nlat": 39.75,
-      "llon": -31.2,
-      "rlon": -31.0
+    { "slat": 39.63,
+      "nlat": 39.77,
+      "llon": -31.18,
+      "rlon": -31.02
     },
     "accuracy": 0.1
   },
@@ -35540,12 +35864,12 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "no",
-    "areaname": "Azores - Corvo Island",
+    "areaname": "Portugal - Azores W - Corvo onshore",
     "extent":
-    { "slat": 39.5,
-      "nlat": 39.75,
-      "llon": -31.2,
-      "rlon": -31.0
+    { "slat": 39.63,
+      "nlat": 39.77,
+      "llon": -31.18,
+      "rlon": -31.02
     },
     "accuracy": 0.085
   },
@@ -35801,6 +36125,78 @@
     },
     "accuracy": 0.1
   },
+  { "wkid": 108367,
+    "latestWkid": 108367,
+    "macro": "PE_GT_GGD_TO_PULKOVO_1942",
+    "name": "GGD_To_Pulkovo_1942",
+    "wkt": "GEOGTRAN[\"GGD_To_Pulkovo_1942\",GEOGCS[\"GGD\",DATUM[\"Georgia_Geodetic_Datum\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_Pulkovo_1942\",DATUM[\"D_Pulkovo_1942\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Molodensky_Badekas\"],PARAMETER[\"X_Axis_Translation\",-15.626],PARAMETER[\"Y_Axis_Translation\",126.0343],PARAMETER[\"Z_Axis_Translation\",79.3775],PARAMETER[\"X_Axis_Rotation\",-1.2753],PARAMETER[\"Y_Axis_Rotation\",-1.42112],PARAMETER[\"Z_Axis_Rotation\",2.69445],PARAMETER[\"Scale_Difference\",4.5284],PARAMETER[\"X_Coordinate_of_Rotation_Origin\",3445619.6689],PARAMETER[\"Y_Coordinate_of_Rotation_Origin\",3275369.7555],PARAMETER[\"Z_Coordinate_of_Rotation_Origin\",4236015.9558]]",
+    "description": "GGD to Pulkovo 1942",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Georgia - onshore",
+    "extent":
+    { "slat": 41.04,
+      "nlat": 43.59,
+      "llon": 39.99,
+      "rlon": 46.72
+    },
+    "accuracy": 0.11
+  },
+  { "wkid": 108368,
+    "latestWkid": 108368,
+    "macro": "PE_GT_GGD_TO_ITRF93",
+    "name": "GGD_To_ITRF_1993",
+    "wkt": "GEOGTRAN[\"GGD_To_ITRF_1993\",GEOGCS[\"GGD\",DATUM[\"Georgia_Geodetic_Datum\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ITRF_1993\",DATUM[\"D_ITRF_1993\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Molodensky_Badekas\"],PARAMETER[\"X_Axis_Translation\",0.3452],PARAMETER[\"Y_Axis_Translation\",-0.1805],PARAMETER[\"Z_Axis_Translation\",-0.206],PARAMETER[\"X_Axis_Rotation\",-0.05465],PARAMETER[\"Y_Axis_Rotation\",0.06718],PARAMETER[\"Z_Axis_Rotation\",-0.06143],PARAMETER[\"Scale_Difference\",0.0181],PARAMETER[\"X_Coordinate_of_Rotation_Origin\",3419202.2774],PARAMETER[\"Y_Coordinate_of_Rotation_Origin\",3284301.1262],PARAMETER[\"Z_Coordinate_of_Rotation_Origin\",4251887.7897]]",
+    "description": "GGD to ITRF93",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Georgia - onshore",
+    "extent":
+    { "slat": 41.04,
+      "nlat": 43.59,
+      "llon": 39.99,
+      "rlon": 46.72
+    },
+    "accuracy": 0.03
+  },
+  { "wkid": 108369,
+    "latestWkid": 108369,
+    "macro": "PE_GT_CH1903_PLUS_TO_ETRS_1989_NTV2",
+    "name": "CH1903+_To_ETRS_1989_NTv2",
+    "wkt": "GEOGTRAN[\"CH1903+_To_ETRS_1989_NTv2\",GEOGCS[\"GCS_CH1903+\",DATUM[\"D_CH1903+\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_switzerland/ntv2-ch03p-etrs\",0.0]]",
+    "description": "CH1903+ to ETRS 1989 NTv2",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Europe - Liechtenstein and Switzerland",
+    "extent":
+    { "slat": 45.82,
+      "nlat": 47.81,
+      "llon": 5.96,
+      "rlon": 10.49
+    },
+    "accuracy": 0.1
+  },
+  { "wkid": 108370,
+    "latestWkid": 108370,
+    "macro": "PE_GT_CH1903_PLUS_TO_CHTRF95_NTV2",
+    "name": "CH1903+_To_CHTRF95_NTv2",
+    "wkt": "GEOGTRAN[\"CH1903+_To_CHTRF95_NTv2\",GEOGCS[\"GCS_CH1903+\",DATUM[\"D_CH1903+\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_Swiss_TRF_1995\",DATUM[\"D_Swiss_TRF_1995\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"NTv2\"],PARAMETER[\"Dataset_switzerland/ntv2-ch03p-etrs\",0.0]]",
+    "description": "CH1903+ to CHTRF95 NTv2",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Europe - Liechtenstein and Switzerland",
+    "extent":
+    { "slat": 45.82,
+      "nlat": 47.81,
+      "llon": 5.96,
+      "rlon": 10.49
+    },
+    "accuracy": 0.1
+  },
   { "wkid": 108374,
     "latestWkid": 108374,
     "macro": "PE_GT_DEALUL_PISCULUI_1970_TO_WGS_1984_3X",
@@ -35876,12 +36272,12 @@
   { "wkid": 108378,
     "latestWkid": 108378,
     "macro": "PE_GT_NAD_1983_HARN_TO_NAD_1983_PA11",
-    "name": "NAD_1983_HARN_To_NAD_1983_PA11",
-    "wkt": "GEOGTRAN[\"NAD_1983_HARN_To_NAD_1983_PA11\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"D_North_American_1983_HARN\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_NAD_1983_MA11\",DATUM[\"D_NAD_1983_MA11\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",0.0],PARAMETER[\"Y_Axis_Translation\",0.0],PARAMETER[\"Z_Axis_Translation\",0.0]]",
-    "description": "Hawaii",
+    "name": "NAD_1983_HARN_To_NAD_1983_PA11_bad_GCS",
+    "wkt": "GEOGTRAN[\"NAD_1983_HARN_To_NAD_1983_PA11_bad_GCS\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"D_North_American_1983_HARN\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_NAD_1983_MA11\",DATUM[\"D_NAD_1983_MA11\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",0.0],PARAMETER[\"Y_Axis_Translation\",0.0],PARAMETER[\"Z_Axis_Translation\",0.0]]",
+    "description": "Hawaii - Deprecated, use 108450",
     "authority": "Esri",
     "version": "10.2.1",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Pacific - US interests Pacific plate",
     "extent":
     { "slat": -17.56,
@@ -35927,6 +36323,78 @@
     },
     "accuracy": 0.05
   },
+  { "wkid": 108448,
+    "latestWkid": 108448,
+    "macro": "PE_GT_BAB_SOUTH_TO_WGS_1984",
+    "name": "Bab_South_To_WGS_1984",
+    "wkt": "GEOGTRAN[\"Bab_South_To_WGS_1984\",GEOGCS[\"GCS_Bab_South\",DATUM[\"D_Bab_South\",SPHEROID[\"Clarke_1866\",6378206.4,294.9786982]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-185.583],PARAMETER[\"Y_Axis_Translation\",-230.096],PARAMETER[\"Z_Axis_Translation\",281.361]]",
+    "description": "Bablethuap Island - Republic of Palau",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Palau",
+    "extent":
+    { "slat": 1.64,
+      "nlat": 11.45,
+      "llon": 129.48,
+      "rlon": 136.98
+    },
+    "accuracy": 999.0
+  },
+  { "wkid": 108449,
+    "latestWkid": 108449,
+    "macro": "PE_GT_MAJURO_TO_WGS_1984",
+    "name": "Majuro_To_WGS_1984",
+    "wkt": "GEOGTRAN[\"Majuro_To_WGS_1984\",GEOGCS[\"GCS_Majuro\",DATUM[\"D_Majuro\",SPHEROID[\"Clarke_1866\",6378206.4,294.9786982]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",25.1],PARAMETER[\"Y_Axis_Translation\",-275.6],PARAMETER[\"Z_Axis_Translation\",222.6]]",
+    "description": "Majuro - Republic of Marshall Islands",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Marshall Islands",
+    "extent":
+    { "slat": 1.77,
+      "nlat": 17.88,
+      "llon": 157.47,
+      "rlon": 175.52
+    },
+    "accuracy": 999.0
+  },
+  { "wkid": 108450,
+    "latestWkid": 108450,
+    "macro": "PE_GT_NAD_1983_HARN_TO_NAD_1983_PA11_1",
+    "name": "NAD_1983_HARN_To_NAD_1983_PA11_1",
+    "wkt": "GEOGTRAN[\"NAD_1983_HARN_To_NAD_1983_PA11_1\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"D_North_American_1983_HARN\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_NAD_1983_PA11\",DATUM[\"D_NAD_1983_PA11\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",0.0],PARAMETER[\"Y_Axis_Translation\",0.0],PARAMETER[\"Z_Axis_Translation\",0.0]]",
+    "description": "USA Pacific plate interests - replaces 108378 which had an incorrect GCS",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Pacific - US interests Pacific plate",
+    "extent":
+    { "slat": -17.56,
+      "nlat": 31.8,
+      "llon": 157.47,
+      "rlon": -151.27
+    },
+    "accuracy": 1.0
+  },
+  { "wkid": 108452,
+    "latestWkid": 108452,
+    "macro": "PE_GT_PADANG_TO_WGS_1984_1",
+    "name": "Padang_To_WGS_1984_1",
+    "wkt": "GEOGTRAN[\"Padang_To_WGS_1984_1\",GEOGCS[\"GCS_Padang_1884\",DATUM[\"D_Padang_1884\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Geocentric_Translation\"],PARAMETER[\"X_Axis_Translation\",-377.0],PARAMETER[\"Y_Axis_Translation\",681.0],PARAMETER[\"Z_Axis_Translation\",-50.0]]",
+    "description": "Padang to WGS 1984 (1) should be 8452",
+    "authority": "Esri",
+    "version": "10.7.0",
+    "deprecated": "no",
+    "areaname": "Indonesia - Sumatra",
+    "extent":
+    { "slat": -5.99,
+      "nlat": 5.97,
+      "llon": 95.16,
+      "rlon": 106.13
+    },
+    "accuracy": 6.0
+  },
   { "wkid": 108453,
     "latestWkid": 108453,
     "macro": "PE_GT_AGD_1984_TO_GDA_1994_NTV2_QUEENSLAND",
@@ -35936,14 +36404,14 @@
     "authority": "Esri",
     "version": "8.1.0",
     "deprecated": "no",
-    "areaname": "Australia - Queensland",
+    "areaname": "Australia - Queensland mainland",
     "extent":
-    { "slat": -29.5,
-      "nlat": -9.0,
-      "llon": 137.5,
-      "rlon": 154.0
+    { "slat": -29.19,
+      "nlat": -10.65,
+      "llon": 137.99,
+      "rlon": 153.61
     },
-    "accuracy": 999.0
+    "accuracy": 0.1
   },
   { "wkid": 108454,
     "latestWkid": 1593,
@@ -36281,9 +36749,9 @@
     "areaname": "Europe - west",
     "extent":
     { "slat": 34.88,
-      "nlat": 71.21,
+      "nlat": 84.17,
       "llon": -10.56,
-      "rlon": 31.59
+      "rlon": 39.65
     },
     "accuracy": 1.0
   },
@@ -36314,14 +36782,14 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "yes",
-    "areaname": "Slovenia",
+    "areaname": "Slovenia - onshore",
     "extent":
     { "slat": 45.42,
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
     },
-    "accuracy": 1.0
+    "accuracy": 3.0
   },
   { "wkid": 108859,
     "latestWkid": 3915,
@@ -36332,14 +36800,14 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "yes",
-    "areaname": "Slovenia",
+    "areaname": "Slovenia - onshore",
     "extent":
     { "slat": 45.42,
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
     },
-    "accuracy": 1.0
+    "accuracy": 3.0
   },
   { "wkid": 108860,
     "latestWkid": 3916,
@@ -36350,14 +36818,14 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "yes",
-    "areaname": "Slovenia",
+    "areaname": "Slovenia - onshore",
     "extent":
     { "slat": 45.42,
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
     },
-    "accuracy": 1.0
+    "accuracy": 1.25
   },
   { "wkid": 108861,
     "latestWkid": 3917,
@@ -36368,14 +36836,14 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "yes",
-    "areaname": "Slovenia",
+    "areaname": "Slovenia - onshore",
     "extent":
     { "slat": 45.42,
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
     },
-    "accuracy": 1.0
+    "accuracy": 1.5
   },
   { "wkid": 108862,
     "latestWkid": 3918,
@@ -36875,9 +37343,9 @@
     "areaname": "Europe - west",
     "extent":
     { "slat": 34.88,
-      "nlat": 71.21,
+      "nlat": 84.17,
       "llon": -10.56,
-      "rlon": 31.59
+      "rlon": 39.65
     },
     "accuracy": 0.3
   },

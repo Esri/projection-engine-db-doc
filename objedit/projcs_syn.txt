@@ -2597,11 +2597,6 @@
 "Bogota 1975 / Colombia East", \
    "Colombia_East_Zone", \
    FALSE, \
-   "EPSG"
-
-"Bogota 1975 / Colombia East", \
-   "Colombia_East_Zone", \
-   FALSE, \
    "Oracle"
 
 "Bogota 1975 / Colombia East", \
@@ -2673,6 +2668,11 @@
    "Colombia_East_Zone", \
    FALSE, \
    "Teradata"
+
+"Bogota 1975 / Colombia East zone", \
+   "Colombia_East_Zone", \
+   FALSE, \
+   "EPSG"
 
 "Bogota 1975 / Colombia West zone", \
    "Colombia_West_Zone", \
@@ -7844,6 +7844,11 @@
    FALSE, \
    "Teradata"
 
+"GDA94 / WEIPA94", \
+   "GDA_1994_WEIPA94", \
+   FALSE, \
+   "EPSG"
+
 "GDBD2009 / Brunei BRSO", \
    "GDBD2009_GEORSO", \
    FALSE, \
@@ -11047,17 +11052,7 @@
 "MGI 1901 / Balkans zone 5", \
    "MGI_1901_Balkans_5", \
    FALSE, \
-   "EPSG"
-
-"MGI 1901 / Balkans zone 5", \
-   "MGI_1901_Balkans_5", \
-   FALSE, \
    "SpatiaLite"
-
-"MGI 1901 / Balkans zone 6", \
-   "MGI_1901_Balkans_6", \
-   FALSE, \
-   "EPSG"
 
 "MGI 1901 / Balkans zone 6", \
    "MGI_1901_Balkans_6", \
@@ -11065,19 +11060,14 @@
    "SpatiaLite"
 
 "MGI 1901 / Balkans zone 7", \
-   "MGI_1901_Balkans_7", \
+   "Macedonia_State_Coordinate_System_zone_7", \
    FALSE, \
    "EPSG"
 
 "MGI 1901 / Balkans zone 7", \
-   "MGI_1901_Balkans_7", \
+   "Macedonia_State_Coordinate_System_zone_7", \
    FALSE, \
    "SpatiaLite"
-
-"MGI 1901 / Balkans zone 8", \
-   "MGI_1901_Balkans_8", \
-   FALSE, \
-   "EPSG"
 
 "MGI 1901 / Balkans zone 8", \
    "MGI_1901_Balkans_8", \
@@ -18164,6 +18154,26 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) / NCRS Las Vegas (ftUS)", \
+   "NAD_1983_(2011)_NCRS_Las_Vegas_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / NCRS Las Vegas high (ftUS)", \
+   "NAD_1983_(2011)_NCRS_Las_Vegas_high_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / NCRS Las Vegas high (m)", \
+   "NAD_1983_(2011)_NCRS_Las_Vegas_high_(m)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / NCRS Las Vegas (m)", \
+   "NAD_1983_(2011)_NCRS_Las_Vegas_(m)", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(2011) / Nebraska", \
    "NAD_1983_2011_StatePlane_Nebraska_FIPS_2600", \
    FALSE, \
@@ -18781,6 +18791,26 @@
 
 "NAD83(2011) / Oregon Willamette Pass zone (m)", \
    "OCRS_Willamette_Pass_NAD_1983_2011_TM_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / PCCS zone 1 (ft)", \
+   "NAD_1983_(2011)_PCCS_zone_1_(ft)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / PCCS zone 2 (ft)", \
+   "NAD_1983_(2011)_PCCS_zone_2_(ft)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / PCCS zone 3 (ft)", \
+   "NAD_1983_(2011)_PCCS_zone_3_(ft)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / PCCS zone 4 (ft)", \
+   "NAD_1983_(2011)_PCCS_zone_4_(ft)", \
    FALSE, \
    "EPSG"
 
@@ -22958,6 +22988,16 @@
    "NAD_1983_CSRS_UTM_Zone_9N", \
    FALSE, \
    "Teradata"
+
+"NAD83(CSRS)v6 / MTM Nova Scotia zone 4", \
+   "NAD_1983_(CSRS)_v6_MTM_Nova_Scotia_zone_4", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 / MTM Nova Scotia zone 5", \
+   "NAD_1983_(CSRS)_v6_MTM_Nova_Scotia_zone_5", \
+   FALSE, \
+   "EPSG"
 
 "NAD83(CSRS) / Yukon Albers", \
    "NAD_1983_CSRS_Yukon_Albers", \
@@ -28709,6 +28749,596 @@
    FALSE, \
    "Teradata"
 
+"NAD83(HARN) / WISCRS Adams and Juneau (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Adams_and_Juneau_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Adams and Juneau (m)", \
+   "NAD_1983_HARN_WISCRS_Adams_and_Juneau_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Ashland (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Ashland_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Ashland (m)", \
+   "NAD_1983_HARN_WISCRS_Ashland_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Barron (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Barron_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Barron (m)", \
+   "NAD_1983_HARN_WISCRS_Barron_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Bayfield (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Bayfield_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Bayfield (m)", \
+   "NAD_1983_HARN_WISCRS_Bayfield_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Brown (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Brown_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Brown (m)", \
+   "NAD_1983_HARN_WISCRS_Brown_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Buffalo (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Buffalo_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Buffalo (m)", \
+   "NAD_1983_HARN_WISCRS_Buffalo_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Burnett (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Burnett_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Burnett (m)", \
+   "NAD_1983_HARN_WISCRS_Burnett_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Calumet, Fond du Lac, Outagamie and Winnebago (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Calumet_Fond_du_Lac_Outagamie_and_Winnebago_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Calumet, Fond du Lac, Outagamie and Winnebago (m)", \
+   "NAD_1983_HARN_WISCRS_Calumet_Fond_du_Lac_Outagamie_and_Winnebago_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Chippewa (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Chippewa_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Chippewa (m)", \
+   "NAD_1983_HARN_WISCRS_Chippewa_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Clark (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Clark_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Clark (m)", \
+   "NAD_1983_HARN_WISCRS_Clark_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Columbia (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Columbia_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Columbia (m)", \
+   "NAD_1983_HARN_WISCRS_Columbia_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Crawford (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Crawford_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Crawford (m)", \
+   "NAD_1983_HARN_WISCRS_Crawford_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Dane (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Dane_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Dane (m)", \
+   "NAD_1983_HARN_WISCRS_Dane_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Dodge and Jefferson (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Dodge_and_Jefferson_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Dodge and Jefferson (m)", \
+   "NAD_1983_HARN_WISCRS_Dodge_and_Jefferson_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Door (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Door_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Door (m)", \
+   "NAD_1983_HARN_WISCRS_Door_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Douglas (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Douglas_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Douglas (m)", \
+   "NAD_1983_HARN_WISCRS_Douglas_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Dunn (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Dunn_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Dunn (m)", \
+   "NAD_1983_HARN_WISCRS_Dunn_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Eau Claire (ftUS)", \
+   "NAD_1983_HARN_WISCRS_EauClaire_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Eau Claire (m)", \
+   "NAD_1983_HARN_WISCRS_EauClaire_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Florence (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Florence_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Florence (m)", \
+   "NAD_1983_HARN_WISCRS_Florence_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Forest (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Forest_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Forest (m)", \
+   "NAD_1983_HARN_WISCRS_Forest_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Grant (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Grant_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Grant (m)", \
+   "NAD_1983_HARN_WISCRS_Grant_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Green and Lafayette (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Green_and_Lafayette_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Green and Lafayette (m)", \
+   "NAD_1983_HARN_WISCRS_Green_and_Lafayette_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Green Lake and Marquette (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Green_Lake_and_Marquette_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Green Lake and Marquette (m)", \
+   "NAD_1983_HARN_WISCRS_Green_Lake_and_Marquette_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Iowa (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Iowa_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Iowa (m)", \
+   "NAD_1983_HARN_WISCRS_Iowa_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Iron (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Iron_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Iron (m)", \
+   "NAD_1983_HARN_WISCRS_Iron_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Jackson (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Jackson_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Jackson (m)", \
+   "NAD_1983_HARN_WISCRS_Jackson_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Kenosha, Milwaukee, Ozaukee and Racine (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Kenosha_Milwaukee_Ozaukee_and_Racine_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Kenosha, Milwaukee, Ozaukee and Racine (m)", \
+   "NAD_1983_HARN_WISCRS_Kenosha_Milwaukee_Ozaukee_and_Racine_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Kewaunee, Manitowoc and Sheboygan (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Kewaunee_Manitowoc_and_Sheboygan_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Kewaunee, Manitowoc and Sheboygan (m)", \
+   "NAD_1983_HARN_WISCRS_Kewaunee_Manitowoc_and_Sheboygan_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS La Crosse (ftUS)", \
+   "NAD_1983_HARN_WISCRS_LaCrosse_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS La Crosse (m)", \
+   "NAD_1983_HARN_WISCRS_LaCrosse_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Langlade (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Langlade_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Langlade (m)", \
+   "NAD_1983_HARN_WISCRS_Langlade_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Lincoln (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Lincoln_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Lincoln (m)", \
+   "NAD_1983_HARN_WISCRS_Lincoln_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Marathon (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Marathon_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Marathon (m)", \
+   "NAD_1983_HARN_WISCRS_Marathon_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Marinette (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Marinette_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Marinette (m)", \
+   "NAD_1983_HARN_WISCRS_Marinette_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Menominee (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Menominee_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Menominee (m)", \
+   "NAD_1983_HARN_WISCRS_Menominee_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Monroe (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Monroe_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Monroe (m)", \
+   "NAD_1983_HARN_WISCRS_Monroe_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Oconto (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Oconto_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Oconto (m)", \
+   "NAD_1983_HARN_WISCRS_Oconto_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Oneida (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Oneida_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Oneida (m)", \
+   "NAD_1983_HARN_WISCRS_Oneida_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Pepin and Pierce (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Pepin_and_Pierce_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Pepin and Pierce (m)", \
+   "NAD_1983_HARN_WISCRS_Pepin_and_Pierce_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Polk (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Polk_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Polk (m)", \
+   "NAD_1983_HARN_WISCRS_Polk_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Portage (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Portage_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Portage (m)", \
+   "NAD_1983_HARN_WISCRS_Portage_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Price (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Price_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Price (m)", \
+   "NAD_1983_HARN_WISCRS_Price_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Richland (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Richland_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Richland (m)", \
+   "NAD_1983_HARN_WISCRS_Richland_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Rock (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Rock_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Rock (m)", \
+   "NAD_1983_HARN_WISCRS_Rock_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Rusk (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Rusk_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Rusk (m)", \
+   "NAD_1983_HARN_WISCRS_Rusk_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Sauk (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Sauk_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Sauk (m)", \
+   "NAD_1983_HARN_WISCRS_Sauk_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Sawyer (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Sawyer_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Sawyer (m)", \
+   "NAD_1983_HARN_WISCRS_Sawyer_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Shawano (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Shawano_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Shawano (m)", \
+   "NAD_1983_HARN_WISCRS_Shawano_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS St. Croix (ftUS)", \
+   "NAD_1983_HARN_WISCRS_St_Croix_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS St. Croix (m)", \
+   "NAD_1983_HARN_WISCRS_St_Croix_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Taylor (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Taylor_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Taylor (m)", \
+   "NAD_1983_HARN_WISCRS_Taylor_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Trempealeau (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Trempealeau_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Trempealeau (m)", \
+   "NAD_1983_HARN_WISCRS_Trempealeau_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Vernon (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Vernon_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Vernon (m)", \
+   "NAD_1983_HARN_WISCRS_Vernon_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Vilas (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Vilas_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Vilas (m)", \
+   "NAD_1983_HARN_WISCRS_Vilas_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Walworth (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Walworth_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Walworth (m)", \
+   "NAD_1983_HARN_WISCRS_Walworth_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Washburn (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Washburn_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Washburn (m)", \
+   "NAD_1983_HARN_WISCRS_Washburn_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Washington (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Washington_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Washington (m)", \
+   "NAD_1983_HARN_WISCRS_Washington_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Waukesha (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Waukesha_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Waukesha (m)", \
+   "NAD_1983_HARN_WISCRS_Waukesha_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Waupaca (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Waupaca_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Waupaca (m)", \
+   "NAD_1983_HARN_WISCRS_Waupaca_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Waushara (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Waushara_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Waushara (m)", \
+   "NAD_1983_HARN_WISCRS_Waushara_County_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Wood (ftUS)", \
+   "NAD_1983_HARN_WISCRS_Wood_County_Feet", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) / WISCRS Wood (m)", \
+   "NAD_1983_HARN_WISCRS_Wood_County_Meters", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(HARN) / Wyoming East", \
    "NAD_1983_HARN_StatePlane_Wyoming_East_FIPS_4901", \
    FALSE, \
@@ -31088,6 +31718,26 @@
    "NAD_1983_MTQ_Lambert", \
    FALSE, \
    "SpatiaLite"
+
+"NAD83 / NCRS Las Vegas (ftUS)", \
+   "NAD_1983_NCRS_Las_Vegas_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 / NCRS Las Vegas high (ftUS)", \
+   "NAD_1983_NCRS_Las_Vegas_high_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 / NCRS Las Vegas high (m)", \
+   "NAD_1983_NCRS_Las_Vegas_high_(m)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 / NCRS Las Vegas (m)", \
+   "NAD_1983_NCRS_Las_Vegas_(m)", \
+   FALSE, \
+   "EPSG"
 
 "NAD83 / Nebraska", \
    "NAD_1983_StatePlane_Nebraska_FIPS_2600", \
@@ -57234,6 +57884,21 @@
    FALSE, \
    "EPSG"
 
+"WGS 84 / Equal Earth Americas", \
+   "WGS_1984_Equal_Earth_Americas", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / Equal Earth Asia-Pacific", \
+   "WGS_1984_Equal_Earth_Asia_Pacific", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / Equal Earth Greenwich", \
+   "WGS_1984_Equal_Earth_Greenwich", \
+   FALSE, \
+   "EPSG"
+
 "WGS 84 / Gabon TM", \
    "WGS_1984_UTM_Gabon_TM", \
    FALSE, \
@@ -57295,7 +57960,7 @@
    "EPSG"
 
 "WGS 84 / Jharkhand", \
-   "WGS_1984_JHARKHAND", \
+   "WGS_1984_Jharkhand", \
    FALSE, \
    "EPSG"
 

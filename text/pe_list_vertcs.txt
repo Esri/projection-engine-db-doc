@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2018 Esri Inc.                                            #
+#  Copyright 1999-2019 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -5070,7 +5070,7 @@ Version     : 10.4.0
 Deprecated  : no
 Area-name   : USA - HARN
 Area-slat   : -14.59
-Area-nlat   : 49.38
+Area-nlat   : 71.4
 Area-llon   : 144.58
 Area-rlon   : -64.51
 
@@ -6090,3 +6090,723 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+
+WKID        : 115810
+Latest-WKID : 115810
+Macro       : PE_VCS_ITRF2014
+Name        : ITRF2014
+WKT         : VERTCS["ITRF2014",
+               DATUM["International_Terrestrial_Reference_Frame_2014",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ITRF2014 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115811
+Latest-WKID : 115811
+Macro       : PE_VCS_SHGD2015
+Name        : SHGD2015
+WKT         : VERTCS["SHGD2015",
+               DATUM["St_Helena_Geodetic_Datum_2015",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SHGD2015 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : St Helena - St Helena Island
+Area-slat   : -16.08
+Area-nlat   : -15.85
+Area-llon   : -5.85
+Area-rlon   : -5.58
+
+WKID        : 115812
+Latest-WKID : 115812
+Macro       : PE_VCS_ST_HELENA_TRITAN
+Name        : St_Helena_Tritan
+WKT         : VERTCS["St_Helena_Tritan",
+               DATUM["St_Helena_Tritan",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : St. Helena Tritan ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : St Helena - St Helena Island
+Area-slat   : -16.08
+Area-nlat   : -15.85
+Area-llon   : -5.85
+Area-rlon   : -5.58
+
+WKID        : 115813
+Latest-WKID : 115813
+Macro       : PE_VCS_GSK_2011
+Name        : GSK-2011
+WKT         : VERTCS["GSK-2011",
+               DATUM["Geodezicheskaya_Sistema_Koordinat_2011",
+                SPHEROID["GSK-2011", 6378136.5, 298.2564151]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : GSK-2011 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Russia
+Area-slat   : 39.87
+Area-nlat   : 85.2
+Area-llon   : 18.92
+Area-rlon   : -168.97
+
+WKID        : 115814
+Latest-WKID : 115814
+Macro       : PE_VCS_PZ_1990_11
+Name        : PZ-90.11
+WKT         : VERTCS["PZ-90.11",
+               DATUM["Parametry_Zemli_1990.11",
+                SPHEROID["PZ_1990", 6378136.0, 298.257839303]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Parametry Zemli 1990.11 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115815
+Latest-WKID : 115815
+Macro       : PE_VCS_PZ_1990_02
+Name        : PZ-90.02
+WKT         : VERTCS["PZ-90.02",
+               DATUM["Parametry_Zemli_1990.02",
+                SPHEROID["PZ_1990", 6378136.0, 298.257839303]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Parametry Zemli 1990.02 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115816
+Latest-WKID : 115816
+Macro       : PE_VCS_WGS_1984_TRANSIT
+Name        : WGS_1984_(Transit)
+WKT         : VERTCS["WGS_1984_(Transit)",
+               DATUM["World_Geodetic_System_1984_(Transit)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : World Geodetic System 1984 (Transit) ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115817
+Latest-WKID : 115817
+Macro       : PE_VCS_WGS_1984_G1762
+Name        : WGS_1984_(G1762)
+WKT         : VERTCS["WGS_1984_(G1762)",
+               DATUM["World_Geodetic_System_1984_(G1762)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : World Geodetic System 1984 (G1762) ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115818
+Latest-WKID : 115818
+Macro       : PE_VCS_WGS_1984_G1674
+Name        : WGS_1984_(G1674)
+WKT         : VERTCS["WGS_1984_(G1674)",
+               DATUM["World_Geodetic_System_1984_(G1674)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : World Geodetic System 1984 (G1674) ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115819
+Latest-WKID : 115819
+Macro       : PE_VCS_WGS_1984_G1150
+Name        : WGS_1984_(G1150)
+WKT         : VERTCS["WGS_1984_(G1150)",
+               DATUM["World_Geodetic_System_1984_(G1150)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : World Geodetic System 1984 (G1150) ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115820
+Latest-WKID : 115820
+Macro       : PE_VCS_WGS_1984_G873
+Name        : WGS_1984_(G873)
+WKT         : VERTCS["WGS_1984_(G873)",
+               DATUM["World_Geodetic_System_1984_(G873)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : World Geodetic System 1984 (G873) ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115821
+Latest-WKID : 115821
+Macro       : PE_VCS_WGS_1984_G730
+Name        : WGS_1984_(G730)
+WKT         : VERTCS["WGS_1984_(G730)",
+               DATUM["World_Geodetic_System_1984_(G730)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : World Geodetic System 1984 (G730) ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115822
+Latest-WKID : 115822
+Macro       : PE_VCS_ETRF_1990
+Name        : ETRF90
+WKT         : VERTCS["ETRF90",
+               DATUM["European_Terrestrial_Reference_Frame_1990",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRF 1990 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115823
+Latest-WKID : 115823
+Macro       : PE_VCS_ETRF_1991
+Name        : ETRF91
+WKT         : VERTCS["ETRF91",
+               DATUM["European_Terrestrial_Reference_Frame_1991",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRF 1991 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115824
+Latest-WKID : 115824
+Macro       : PE_VCS_ETRF_1992
+Name        : ETRF92
+WKT         : VERTCS["ETRF92",
+               DATUM["European_Terrestrial_Reference_Frame_1992",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRF 1992 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115825
+Latest-WKID : 115825
+Macro       : PE_VCS_ETRF_1993
+Name        : ETRF93
+WKT         : VERTCS["ETRF93",
+               DATUM["European_Terrestrial_Reference_Frame_1993",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRF 1993 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115826
+Latest-WKID : 115826
+Macro       : PE_VCS_ETRF_1994
+Name        : ETRF94
+WKT         : VERTCS["ETRF94",
+               DATUM["European_Terrestrial_Reference_Frame_1994",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRF 1994 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115827
+Latest-WKID : 115827
+Macro       : PE_VCS_ETRF_1996
+Name        : ETRF96
+WKT         : VERTCS["ETRF96",
+               DATUM["European_Terrestrial_Reference_Frame_1996",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRF 1996 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115828
+Latest-WKID : 115828
+Macro       : PE_VCS_ETRF_1997
+Name        : ETRF97
+WKT         : VERTCS["ETRF97",
+               DATUM["European_Terrestrial_Reference_Frame_1997",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRF 1997 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115829
+Latest-WKID : 115829
+Macro       : PE_VCS_ETRF_2000
+Name        : ETRF2000
+WKT         : VERTCS["ETRF2000",
+               DATUM["European_Terrestrial_Reference_Frame_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRF 2000 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115830
+Latest-WKID : 115830
+Macro       : PE_VCS_NAD_1983_CSRS96
+Name        : NAD83(CSRS96)
+WKT         : VERTCS["NAD83(CSRS96)",
+               DATUM["North_American_Datum_of_1983_(CSRS96)",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD83(CSRS96) ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 40.04
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -47.74
+
+WKID        : 115831
+Latest-WKID : 115831
+Macro       : PE_VCS_NAD_1983_CSRS_V2
+Name        : NAD83(CSRS)V2
+WKT         : VERTCS["NAD83(CSRS)V2",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_2",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD83 (CSRS) v2 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 40.04
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -47.74
+
+WKID        : 115832
+Latest-WKID : 115832
+Macro       : PE_VCS_NAD_1983_CSRS_V3
+Name        : NAD83(CSRS)V3
+WKT         : VERTCS["NAD83(CSRS)V3",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_3",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD83 (CSRS) v3 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 40.04
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -47.74
+
+WKID        : 115833
+Latest-WKID : 115833
+Macro       : PE_VCS_NAD_1983_CSRS_V4
+Name        : NAD83(CSRS)V4
+WKT         : VERTCS["NAD83(CSRS)V4",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_4",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD83 (CSRS) v4 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 40.04
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -47.74
+
+WKID        : 115834
+Latest-WKID : 115834
+Macro       : PE_VCS_NAD_1983_CSRS_V5
+Name        : NAD83(CSRS)V5
+WKT         : VERTCS["NAD83(CSRS)V5",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_5",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD83 (CSRS) v5 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 40.04
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -47.74
+
+WKID        : 115835
+Latest-WKID : 115835
+Macro       : PE_VCS_NAD_1983_CSRS_V6
+Name        : NAD83(CSRS)V6
+WKT         : VERTCS["NAD83(CSRS)V6",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_6",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD83 (CSRS) v6 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 40.04
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -47.74
+
+WKID        : 115836
+Latest-WKID : 115836
+Macro       : PE_VCS_NAD_1983_CSRS_V7
+Name        : NAD83(CSRS)V7
+WKT         : VERTCS["NAD83(CSRS)V7",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_7",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD83 (CSRS) v7 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 40.04
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -47.74
+
+WKID        : 115837
+Latest-WKID : 115837
+Macro       : PE_VCS_IGS14
+Name        : IGS14
+WKT         : VERTCS["IGS14",
+               DATUM["IGS14",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGS14 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115838
+Latest-WKID : 115838
+Macro       : PE_VCS_ISN2016
+Name        : ISN2016
+WKT         : VERTCS["ISN2016",
+               DATUM["Islands_Net_2016",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ISN2016 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Iceland
+Area-slat   : 59.96
+Area-nlat   : 69.59
+Area-llon   : -30.87
+Area-rlon   : -5.55
+
+WKID        : 115839
+Latest-WKID : 115839
+Macro       : PE_VCS_HK_GEODETIC_CS
+Name        : Hong_Kong_Geodetic_CS
+WKT         : VERTCS["Hong_Kong_Geodetic_CS",
+               DATUM["Hong_Kong_Geodetic",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : HK Geodetic CS ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : China - Hong Kong
+Area-slat   : 22.13
+Area-nlat   : 22.58
+Area-llon   : 113.76
+Area-rlon   : 114.51
+
+WKID        : 115840
+Latest-WKID : 115840
+Macro       : PE_VCS_NAD_1983_FBN
+Name        : NAD_1983_(FBN)
+WKT         : VERTCS["NAD_1983_(FBN)",
+               DATUM["NAD_1983_(Federal_Base_Network)",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 FBN ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : USA - FBN
+Area-slat   : -14.59
+Area-nlat   : 49.38
+Area-llon   : 144.58
+Area-rlon   : -64.51
+
+WKID        : 115841
+Latest-WKID : 115841
+Macro       : PE_VCS_NAD_1983_HARN_CORRECTED
+Name        : NAD_1983_(HARN_Corrected)
+WKT         : VERTCS["NAD_1983_(HARN_Corrected)",
+               DATUM["NAD_1983_(High_Accuracy_Reference_Network-Corrected)",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NAD 1983 HARN Corrected ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Caribbean - Puerto Rico and US Virgin Islands - onshore
+Area-slat   : 17.62
+Area-nlat   : 18.57
+Area-llon   : -67.97
+Area-rlon   : -64.51
+
+WKID        : 115842
+Latest-WKID : 115842
+Macro       : PE_VCS_SRB_ETRS89
+Name        : SRB_ETRS89
+WKT         : VERTCS["SRB_ETRS89",
+               DATUM["Serbian_Spatial_Reference_System_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SRB ETRS89 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Serbia
+Area-slat   : 41.85
+Area-nlat   : 46.19
+Area-llon   : 18.81
+Area-rlon   : 23.01
+
+WKID        : 115843
+Latest-WKID : 115843
+Macro       : PE_VCS_MTRF_2000
+Name        : MTRF-2000
+WKT         : VERTCS["MTRF-2000",
+               DATUM["MOMRA_Terrestrial_Reference_Frame_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MTRF-2000 ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Saudi Arabia
+Area-slat   : 15.61
+Area-nlat   : 32.16
+Area-llon   : 34.44
+Area-rlon   : 55.67
+
+WKID        : 115844
+Latest-WKID : 115844
+Macro       : PE_VCS_CSRS_EPOCH_2017_5_NAD83
+Name        : California_SRS_Epoch_2017.50_(NAD83)
+WKT         : VERTCS["California_SRS_Epoch_2017.50_(NAD83)",
+               DATUM["California_SRS_Epoch_2017.50_(NAD83)",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : California SRS EPOCH 2017.5 (NAD83) ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : USA - California and borders of NV, AZ, OR and MX
+Area-slat   : 32.25
+Area-nlat   : 42.53
+Area-llon   : -124.44
+Area-rlon   : -113.6
+
+WKID        : 115845
+Latest-WKID : 115845
+Macro       : PE_VCS_GGD
+Name        : GGD
+WKT         : VERTCS["GGD",
+               DATUM["Georgia_Geodetic_Datum",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : GGD ellipsoid height
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Georgia - onshore
+Area-slat   : 41.04
+Area-nlat   : 43.59
+Area-llon   : 39.99
+Area-rlon   : 46.72

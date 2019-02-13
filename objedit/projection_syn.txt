@@ -125,9 +125,24 @@
    ""
 
 "Mercator_1SP", \
-   "Mercator_Variant_A", \
+   "Mercator_Auxiliary_Sphere", \
    FALSE, \
-   ""
+   "EPSG"
+
+"Mercator_1SP", \
+   "Mercator", \
+   FALSE, \
+   "PostGIS"
+
+"Mercator_1SP", \
+   "Mercator", \
+   FALSE, \
+   "SpatiaLite"
+
+"Mercator_1SP", \
+   "Mercator", \
+   FALSE, \
+   "Teradata"
 
 "Mercator_2SP", \
    "Mercator", \

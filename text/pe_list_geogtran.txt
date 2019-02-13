@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2018 Esri Inc.                                            #
+#  Copyright 1999-2019 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -576,7 +576,7 @@ Version     : 7.6.4(9.2.0)
 Deprecated  : no
 Area-name   : Israel, Palestine Territory, and Jordan
 Area-slat   : 29.19
-Area-nlat   : 33.52
+Area-nlat   : 33.53
 Area-llon   : 32.99
 Area-rlon   : 39.3
 Accuracy    : 1.5
@@ -606,7 +606,7 @@ Version     : 7.6.4(9.2.0)
 Deprecated  : no
 Area-name   : Israel, Palestine Territory, and Jordan
 Area-slat   : 29.19
-Area-nlat   : 33.52
+Area-nlat   : 33.53
 Area-llon   : 32.99
 Area-rlon   : 39.3
 Accuracy    : 2.0
@@ -640,7 +640,7 @@ Version     : 7.6.4(9.2.0)
 Deprecated  : no
 Area-name   : Israel, Palestine Territory, and Jordan
 Area-slat   : 29.19
-Area-nlat   : 33.52
+Area-nlat   : 33.53
 Area-llon   : 32.99
 Area-rlon   : 39.3
 Accuracy    : 2.0
@@ -1208,11 +1208,11 @@ Description : Venezuela
 Authority   : EPSG
 Version     : 6.5.1(9.0.0)
 Deprecated  : no
-Area-name   : Venezuela
+Area-name   : Venezuela - onshore
 Area-slat   : 0.64
-Area-nlat   : 16.75
+Area-nlat   : 12.25
 Area-llon   : -73.38
-Area-rlon   : -58.95
+Area-rlon   : -59.8
 Accuracy    : 15.0
 
 WKID        : 1096
@@ -1635,11 +1635,11 @@ Description : Australia
 Authority   : EPSG
 Version     : 8.5.6(9.0.0)
 Deprecated  : no
-Area-name   : Australia - onshore
-Area-slat   : -43.7
-Area-nlat   : -9.86
-Area-llon   : 112.85
-Area-rlon   : 153.69
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
 Accuracy    : 4.0
 
 WKID        : 1110
@@ -1816,10 +1816,10 @@ WKT         : GEOGTRAN["Arc_1950_To_WGS_1984_3",
                PARAMETER["X_Axis_Translation", -153.0],
                PARAMETER["Y_Axis_Translation", -5.0],
                PARAMETER["Z_Axis_Translation", -292.0]]
-Description : Burundi
+Description : Burundi - deprecated, see 3998
 Authority   : EPSG
 Version     : 6.7(9.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Burundi
 Area-slat   : -4.45
 Area-nlat   : -2.3
@@ -1936,10 +1936,10 @@ WKT         : GEOGTRAN["Arc_1950_To_WGS_1984_7",
                PARAMETER["X_Axis_Translation", -169.0],
                PARAMETER["Y_Axis_Translation", -19.0],
                PARAMETER["Z_Axis_Translation", -278.0]]
-Description : Zaire
+Description : Zaire - deprecated
 Authority   : EPSG
 Version     : 6.8(9.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Congo DR (Zaire)
 Area-slat   : -13.46
 Area-nlat   : 5.39
@@ -2056,10 +2056,11 @@ WKT         : GEOGTRAN["Batavia_To_WGS_1984",
                PARAMETER["X_Axis_Translation", -377.0],
                PARAMETER["Y_Axis_Translation", 681.0],
                PARAMETER["Z_Axis_Translation", -50.0]]
-Description : Indonesia (Sumatra)
+Description : Indonesia (Sumatra) - DEPRECATED in favor of 8452 Padang to
+              WGS84
 Authority   : EPSG
 Version     : 8.5.6(9.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Indonesia - Sumatra
 Area-slat   : -5.99
 Area-nlat   : 5.97
@@ -3554,9 +3555,9 @@ Description : Mean for Canada
 Authority   : EPSG
 Version     : 8.5.6(9.0.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name   : Canada - NAD27
 Area-slat   : 40.04
-Area-nlat   : 86.46
+Area-nlat   : 83.17
 Area-llon   : -141.01
 Area-rlon   : -47.74
 Accuracy    : 20.0
@@ -4432,8 +4433,8 @@ Authority   : EPSG
 Version     : 8.5.6(9.0.0)
 Deprecated  : no
 Area-name   : South America - Bolivia; Chile; Ecuador; Guyana; Peru; Venezuela
-Area-slat   : -45.0
-Area-nlat   : 12.52
+Area-slat   : -43.5
+Area-nlat   : 12.25
 Area-llon   : -81.41
 Area-rlon   : -56.47
 Accuracy    : 42.0
@@ -4521,11 +4522,11 @@ Description : Chile (Southern, near 43 deg S
 Authority   : EPSG
 Version     : 8.6(9.0.0)
 Deprecated  : no
-Area-name   : Chile - onshore 39~S to 45~S
-Area-slat   : -45.0
+Area-name   : Chile - onshore 39~S to 43~30'S
+Area-slat   : -43.5
 Area-nlat   : -38.99
-Area-llon   : -75.22
-Area-rlon   : -71.1
+Area-llon   : -74.48
+Area-rlon   : -71.38
 Accuracy    : 35.0
 
 WKID        : 1205
@@ -4641,10 +4642,10 @@ Description : Peru
 Authority   : EPSG
 Version     : 8.5.6(9.0.0)
 Deprecated  : no
-Area-name   : Peru
-Area-slat   : -21.05
+Area-name   : Peru - onshore
+Area-slat   : -18.35
 Area-nlat   : -0.03
-Area-llon   : -84.68
+Area-llon   : -81.41
 Area-rlon   : -68.67
 Accuracy    : 16.0
 
@@ -4671,11 +4672,11 @@ Description : Venezuela
 Authority   : EPSG
 Version     : 8.5.6(9.0.0)
 Deprecated  : no
-Area-name   : Venezuela
+Area-name   : Venezuela - onshore
 Area-slat   : 0.64
-Area-nlat   : 16.75
+Area-nlat   : 12.25
 Area-llon   : -73.38
-Area-rlon   : -58.95
+Area-rlon   : -59.8
 Accuracy    : 23.0
 
 WKID        : 1210
@@ -5065,11 +5066,11 @@ Description : Australia
 Authority   : EPSG
 Version     : 7.4.6(9.0.0)
 Deprecated  : no
-Area-name   : Australia - onshore
-Area-slat   : -43.7
-Area-nlat   : -9.86
-Area-llon   : 112.85
-Area-rlon   : 153.69
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
 Accuracy    : 5.0
 
 WKID        : 1237
@@ -5621,10 +5622,10 @@ Description : Russia
 Authority   : EPSG
 Version     : 8.5.6(9.0.0)
 Deprecated  : no
-Area-name   : Russia
-Area-slat   : 39.87
-Area-nlat   : 85.2
-Area-llon   : 18.92
+Area-name   : Russia - onshore
+Area-slat   : 41.19
+Area-nlat   : 81.91
+Area-llon   : 19.58
 Area-rlon   : -168.97
 Accuracy    : 999.0
 
@@ -5876,14 +5877,14 @@ WKT         : GEOGTRAN["Pulkovo_1942_To_WGS_1984_17",
                PARAMETER["Y_Axis_Rotation", -0.35],
                PARAMETER["Z_Axis_Rotation", -0.82],
                PARAMETER["Scale_Difference", -0.12]]
-Description : Russian Federation - onshore and offshore
+Description : Russian Federation - onshore
 Authority   : EPSG
 Version     : 7.4.6(10.0.0)
 Deprecated  : no
-Area-name   : Russia
-Area-slat   : 39.87
-Area-nlat   : 85.2
-Area-llon   : 18.92
+Area-name   : Russia - onshore
+Area-slat   : 41.19
+Area-nlat   : 81.91
+Area-llon   : 19.58
 Area-rlon   : -168.97
 Accuracy    : 4.0
 
@@ -5974,10 +5975,10 @@ Description : Lithuania
 Authority   : EPSG
 Version     : 7.9.7(9.0.0)
 Deprecated  : no
-Area-name   : Lithuania
+Area-name   : Lithuania - onshore
 Area-slat   : 53.89
 Area-nlat   : 56.45
-Area-llon   : 19.02
+Area-llon   : 20.86
 Area-rlon   : 26.82
 Accuracy    : 9.0
 
@@ -6124,11 +6125,11 @@ Description : Australia
 Authority   : EPSG
 Version     : 7.4.6(9.0.0)
 Deprecated  : no
-Area-name   : Australia - onshore
-Area-slat   : -43.7
-Area-nlat   : -9.86
-Area-llon   : 112.85
-Area-rlon   : 153.69
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
 Accuracy    : 5.0
 
 WKID        : 1280
@@ -6158,11 +6159,11 @@ Description : Australia
 Authority   : EPSG
 Version     : 7.4.6(9.0.0)
 Deprecated  : no
-Area-name   : Australia - onshore
-Area-slat   : -43.7
-Area-nlat   : -9.86
-Area-llon   : 112.85
-Area-rlon   : 153.69
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
 Accuracy    : 1.0
 
 WKID        : 1281
@@ -6338,10 +6339,10 @@ WKT         : GEOGTRAN["Segora_To_WGS_1984",
                PARAMETER["X_Axis_Translation", -403.0],
                PARAMETER["Y_Axis_Translation", 684.0],
                PARAMETER["Z_Axis_Translation", 41.0]]
-Description : Indonesia - Kalimantan
+Description : Indonesia - Kalimantan - deprecated, see 1834
 Authority   : EPSG
 Version     : 4.0(9.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Indonesia - Kalimantan
 Area-slat   : -4.24
 Area-nlat   : 4.37
@@ -6368,10 +6369,10 @@ WKT         : GEOGTRAN["Pulkovo_1942_To_WGS_1984_3",
                PARAMETER["X_Axis_Translation", 28.0],
                PARAMETER["Y_Axis_Translation", -121.0],
                PARAMETER["Z_Axis_Translation", -77.0]]
-Description : Hungary
+Description : Hungary - deprecated, use 15996
 Authority   : EPSG
 Version     : 6.7(9.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Hungary
 Area-slat   : 45.74
 Area-nlat   : 48.58
@@ -6398,10 +6399,10 @@ WKT         : GEOGTRAN["Pulkovo_1942_To_WGS_1984_4",
                PARAMETER["X_Axis_Translation", 23.0],
                PARAMETER["Y_Axis_Translation", -124.0],
                PARAMETER["Z_Axis_Translation", -82.0]]
-Description : Poland
+Description : Poland - deprecated, use 15997
 Authority   : EPSG
 Version     : 6.7(9.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Poland
 Area-slat   : 49.0
 Area-nlat   : 55.93
@@ -6428,10 +6429,10 @@ WKT         : GEOGTRAN["Pulkovo_1942_To_WGS_1984_5",
                PARAMETER["X_Axis_Translation", 26.0],
                PARAMETER["Y_Axis_Translation", -121.0],
                PARAMETER["Z_Axis_Translation", -78.0]]
-Description : Czech Republic
+Description : Czech Republic - deprecated, use 15998
 Authority   : EPSG
 Version     : 6.15(9.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - Czechoslovakia
 Area-slat   : 47.73
 Area-nlat   : 51.06
@@ -6462,10 +6463,10 @@ Description : Latvia
 Authority   : EPSG
 Version     : 8.5.6(9.0.0)
 Deprecated  : no
-Area-name   : Latvia
+Area-name   : Latvia - onshore
 Area-slat   : 55.67
 Area-nlat   : 58.09
-Area-llon   : 19.06
+Area-llon   : 20.87
 Area-rlon   : 28.24
 Accuracy    : 4.0
 
@@ -6518,10 +6519,10 @@ WKT         : GEOGTRAN["Pulkovo_1942_To_WGS_1984_8",
                PARAMETER["X_Axis_Translation", 24.0],
                PARAMETER["Y_Axis_Translation", -130.0],
                PARAMETER["Z_Axis_Translation", -92.0]]
-Description : Albania
+Description : Albania - deprecated, use 15999
 Authority   : EPSG
 Version     : 6.7(9.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Albania
 Area-slat   : 39.63
 Area-nlat   : 42.67
@@ -6996,7 +6997,7 @@ WKT         : GEOGTRAN["Naparima_1972_To_WGS_1984_3",
                PARAMETER["X_Axis_Translation", -2.0],
                PARAMETER["Y_Axis_Translation", 374.0],
                PARAMETER["Z_Axis_Translation", 172.0]]
-Description : Trinidad and Tobago
+Description : Trinidad and Tobago - Tobago
 Authority   : EPSG
 Version     : 9.1(9.0.0)
 Deprecated  : no
@@ -7164,9 +7165,9 @@ Description : NAD27 to NAD83 Canada
 Authority   : EPSG
 Version     : 6.12(9.0.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name   : Canada - NAD27
 Area-slat   : 40.04
-Area-nlat   : 86.46
+Area-nlat   : 83.17
 Area-llon   : -141.01
 Area-rlon   : -47.74
 Accuracy    : 1.5
@@ -8795,7 +8796,7 @@ Area-name   : USA - Colorado
 Area-slat   : 36.98
 Area-nlat   : 41.01
 Area-llon   : -109.06
-Area-rlon   : -102.03
+Area-rlon   : -102.04
 Accuracy    : 0.05
 
 WKID        : 1479
@@ -10062,10 +10063,10 @@ Authority   : EPSG
 Version     : 6.5.2(9.0.0)
 Deprecated  : no
 Area-name   : USA - Kansas
-Area-slat   : 36.98
+Area-slat   : 36.99
 Area-nlat   : 40.01
 Area-llon   : -102.06
-Area-rlon   : -94.6
+Area-rlon   : -94.58
 Accuracy    : 0.05
 
 WKID        : 1523
@@ -11731,7 +11732,7 @@ Version     : 6.7(8.1.2)
 Deprecated  : no
 Area-name   : USA - HARN
 Area-slat   : -14.59
-Area-nlat   : 49.38
+Area-nlat   : 71.4
 Area-llon   : 144.58
 Area-rlon   : -64.51
 Accuracy    : 1.0
@@ -14261,11 +14262,11 @@ Description : Australia
 Authority   : EPSG
 Version     : 7.4.6(9.0.0)
 Deprecated  : no
-Area-name   : Australia - onshore
-Area-slat   : -43.7
-Area-nlat   : -9.86
-Area-llon   : 112.85
-Area-rlon   : 153.69
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
 Accuracy    : 1.0
 
 WKID        : 1670
@@ -14551,10 +14552,10 @@ Description : Lithuania
 Authority   : EPSG
 Version     : 7.9.7(9.0.0)
 Deprecated  : no
-Area-name   : Lithuania
+Area-name   : Lithuania - onshore
 Area-slat   : 53.89
 Area-nlat   : 56.45
-Area-llon   : 19.02
+Area-llon   : 20.86
 Area-rlon   : 26.82
 Accuracy    : 9.0
 
@@ -14955,9 +14956,9 @@ Description : Canada
 Authority   : EPSG
 Version     : 6.02(9.2.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name   : Canada - NAD27
 Area-slat   : 40.04
-Area-nlat   : 86.46
+Area-nlat   : 83.17
 Area-llon   : -141.01
 Area-rlon   : -47.74
 Accuracy    : 1.0
@@ -15497,7 +15498,7 @@ Area-name   : USA - Colorado
 Area-slat   : 36.98
 Area-nlat   : 41.01
 Area-llon   : -109.06
-Area-rlon   : -102.03
+Area-rlon   : -102.04
 Accuracy    : 1.0
 
 WKID        : 1713
@@ -16363,10 +16364,10 @@ Authority   : EPSG
 Version     : 6.5.2(10.5.0)
 Deprecated  : no
 Area-name   : USA - Kansas
-Area-slat   : 36.98
+Area-slat   : 36.99
 Area-nlat   : 40.01
 Area-llon   : -102.06
-Area-rlon   : -94.6
+Area-rlon   : -94.58
 Accuracy    : 1.0
 
 WKID        : 1744
@@ -17084,11 +17085,11 @@ Description : Venezuela
 Authority   : EPSG
 Version     : 6.12(9.0.0)
 Deprecated  : no
-Area-name   : Venezuela
+Area-name   : Venezuela - onshore
 Area-slat   : 0.64
-Area-nlat   : 16.75
+Area-nlat   : 12.25
 Area-llon   : -73.38
-Area-rlon   : -58.95
+Area-rlon   : -59.8
 Accuracy    : 15.0
 
 WKID        : 1771
@@ -20198,10 +20199,10 @@ WKT         : GEOGTRAN["Nord_Sahara_1959_Paris_To_Nord_Sahara_1959",
                 PRIMEM["Greenwich", 0.0],
                 UNIT["Degree", 0.0174532925199433]],
                METHOD["Longitude_Rotation"]]
-Description : Nord Sahara 1959 (Paris) to Nord Sahara 1959
+Description : Nord Sahara 1959 (Paris) to Nord Sahara 1959 - deprecated
 Authority   : EPSG
 Version     : 6.11.2(9.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Algeria
 Area-slat   : 18.97
 Area-nlat   : 38.8
@@ -20521,7 +20522,7 @@ WKT         : GEOGTRAN["Gandajika_1970_To_WGS_1984_1",
                PARAMETER["X_Axis_Translation", -133.0],
                PARAMETER["Y_Axis_Translation", -321.0],
                PARAMETER["Z_Axis_Translation", 50.0]]
-Description : Maldives
+Description : Maldives (DEPRECATED - use PE_GT_GAN_1970_TO_WGS_1984_1)
 Authority   : EPSG
 Version     : 6.3(9.0.0)
 Deprecated  : yes
@@ -21061,7 +21062,7 @@ WKT         : GEOGTRAN["Reunion_1947_To_WGS_1984_1",
                PARAMETER["X_Axis_Translation", 94.0],
                PARAMETER["Y_Axis_Translation", -948.0],
                PARAMETER["Z_Axis_Translation", -1292.0]]
-Description : Reunion
+Description : Reunion (DEPRECATED)
 Authority   : EPSG
 Version     : 6.6(9.0.0)
 Deprecated  : yes
@@ -23722,9 +23723,9 @@ Version     : 7.1(10.2.0)
 Deprecated  : no
 Area-name   : Europe - west
 Area-slat   : 34.88
-Area-nlat   : 71.21
+Area-nlat   : 84.17
 Area-llon   : -10.56
-Area-rlon   : 31.59
+Area-rlon   : 39.65
 Accuracy    : 1.0
 
 WKID        : 3913
@@ -23783,12 +23784,12 @@ Description : Slovenia - onshore and offshore
 Authority   : EPSG
 Version     : 7.1(10.1.0)
 Deprecated  : no
-Area-name   : Slovenia
+Area-name   : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-Accuracy    : 1.0
+Accuracy    : 3.0
 
 WKID        : 3915
 Latest-WKID : 3915
@@ -23817,12 +23818,12 @@ Description : Slovenia - onshore and offshore
 Authority   : EPSG
 Version     : 7.1(10.1.0)
 Deprecated  : no
-Area-name   : Slovenia
+Area-name   : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-Accuracy    : 1.0
+Accuracy    : 3.0
 
 WKID        : 3916
 Latest-WKID : 3916
@@ -23851,12 +23852,12 @@ Description : Slovenia - onshore and offshore
 Authority   : EPSG
 Version     : 7.1(10.1.0)
 Deprecated  : no
-Area-name   : Slovenia
+Area-name   : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-Accuracy    : 1.0
+Accuracy    : 1.25
 
 WKID        : 3917
 Latest-WKID : 3917
@@ -23885,12 +23886,12 @@ Description : Slovenia - onshore and offshore
 Authority   : EPSG
 Version     : 7.1(10.1.0)
 Deprecated  : no
-Area-name   : Slovenia
+Area-name   : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-Accuracy    : 1.0
+Accuracy    : 1.5
 
 WKID        : 3918
 Latest-WKID : 3918
@@ -24807,9 +24808,9 @@ Version     : 7.1(10.1.0)
 Deprecated  : no
 Area-name   : Europe - west
 Area-slat   : 34.88
-Area-nlat   : 71.21
+Area-nlat   : 84.17
 Area-llon   : -10.56
-Area-rlon   : 31.59
+Area-rlon   : 39.65
 Accuracy    : 0.3
 
 WKID        : 4084
@@ -26053,14 +26054,14 @@ WKT         : GEOGTRAN["Pulkovo_1942_To_WGS_1984_20",
                PARAMETER["Y_Axis_Rotation", -0.35],
                PARAMETER["Z_Axis_Rotation", -0.79],
                PARAMETER["Scale_Difference", -0.22]]
-Description : Russian Federation - onshore and offshore
+Description : Russian Federation - onshore
 Authority   : EPSG
 Version     : 7.4.6(10.1.0)
 Deprecated  : no
-Area-name   : Russia
-Area-slat   : 39.87
-Area-nlat   : 85.2
-Area-llon   : 18.92
+Area-name   : Russia - onshore
+Area-slat   : 41.19
+Area-nlat   : 81.91
+Area-llon   : 19.58
 Area-rlon   : -168.97
 Accuracy    : 3.0
 
@@ -27337,11 +27338,11 @@ Description : Argentina - onshore and offshore
 Authority   : EPSG
 Version     : 7.6.9(10.2.0)
 Deprecated  : no
-Area-name   : Argentina
-Area-slat   : -58.41
+Area-name   : Argentina - mainland onshore
+Area-slat   : -52.43
 Area-nlat   : -21.78
 Area-llon   : -73.59
-Area-rlon   : -52.63
+Area-rlon   : -53.65
 Accuracy    : 5.0
 
 WKID        : 5351
@@ -30026,12 +30027,12 @@ Description : Costa Rica
 Authority   : EPSG
 Version     : 8.5.4(10.3.1)
 Deprecated  : no
-Area-name   : Costa Rica
-Area-slat   : 2.15
-Area-nlat   : 11.77
-Area-llon   : -90.45
-Area-rlon   : -81.43
-Accuracy    : 1.0
+Area-name   : Costa Rica - onshore
+Area-slat   : 7.98
+Area-nlat   : 11.22
+Area-llon   : -85.97
+Area-rlon   : -82.53
+Accuracy    : 8.0
 
 WKID        : 6891
 Latest-WKID : 6891
@@ -30056,12 +30057,12 @@ Description : Costa Rica 3 param (Stentz, NIMA)
 Authority   : EPSG
 Version     : 8.5.4(10.3.1)
 Deprecated  : no
-Area-name   : Costa Rica
-Area-slat   : 2.15
-Area-nlat   : 11.77
-Area-llon   : -90.45
-Area-rlon   : -81.43
-Accuracy    : 999.0
+Area-name   : Central America - Guatemala to Costa Rica
+Area-slat   : 7.98
+Area-nlat   : 17.83
+Area-llon   : -92.29
+Area-rlon   : -82.53
+Accuracy    : 14.0
 
 WKID        : 6895
 Latest-WKID : 6895
@@ -31674,10 +31675,10 @@ Description : Netherlands
 Authority   : EPSG
 Version     : 8.6.3(10.5.0)
 Deprecated  : no
-Area-name   : Netherlands
+Area-name   : Netherlands - onshore
 Area-slat   : 50.75
-Area-nlat   : 55.77
-Area-llon   : 2.53
+Area-nlat   : 53.7
+Area-llon   : 3.2
 Area-rlon   : 7.22
 Accuracy    : 0.1
 
@@ -32047,7 +32048,7 @@ WKT         : GEOGTRAN["CH1903_To_CHTRF95_1_NTv2",
                 PRIMEM["Greenwich", 0.0],
                 UNIT["Degree", 0.0174532925199433]],
                METHOD["NTv2"],
-               PARAMETER["Dataset_switzerland/CHENyx06_ETRS", 0.0]]
+               PARAMETER["Dataset_switzerland/CHENYX06_etrs", 0.0]]
 Description : Switzerland, Liechtenstein - CHENyx06_ETRS
 Authority   : EPSG
 Version     : 8.8(10.5.0)
@@ -32075,7 +32076,7 @@ WKT         : GEOGTRAN["CH1903_To_ETRS_1989_2_NTv2",
                 PRIMEM["Greenwich", 0.0],
                 UNIT["Degree", 0.0174532925199433]],
                METHOD["NTv2"],
-               PARAMETER["Dataset_switzerland/CHENyx06_ETRS", 0.0]]
+               PARAMETER["Dataset_switzerland/CHENYX06_etrs", 0.0]]
 Description : Switzerland, Liechtenstein - CHENyx06_ETRS
 Authority   : EPSG
 Version     : 8.9.1(10.5.0)
@@ -32310,7 +32311,7 @@ WKT         : GEOGTRAN["CH1903_To_WGS_1984_3_NTv2",
                 PRIMEM["Greenwich", 0.0],
                 UNIT["Degree", 0.0174532925199433]],
                METHOD["NTv2"],
-               PARAMETER["Dataset_switzerland/CHENyx06_ETRS", 0.0]]
+               PARAMETER["Dataset_switzerland/CHENYX06_etrs", 0.0]]
 Description : Switzerland, Liechtenstein
 Authority   : EPSG
 Version     : 8.9.1(10.5.0)
@@ -32901,11 +32902,11 @@ Description : Australia
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
-Area-name   : Australia - onshore
-Area-slat   : -43.7
-Area-nlat   : -9.86
-Area-llon   : 112.85
-Area-rlon   : 153.69
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
 Accuracy    : 4.0
 
 WKID        : 8010
@@ -33082,7 +33083,7 @@ WKT         : GEOGTRAN["Arc_1950_To_WGS_1984_3",
                PARAMETER["X_Axis_Translation", -153.0],
                PARAMETER["Y_Axis_Translation", -5.0],
                PARAMETER["Z_Axis_Translation", -292.0]]
-Description : Burundi
+Description : Burundi - deprecated, see 3998
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
@@ -33202,7 +33203,7 @@ WKT         : GEOGTRAN["Arc_1950_To_WGS_1984_7",
                PARAMETER["X_Axis_Translation", -169.0],
                PARAMETER["Y_Axis_Translation", -19.0],
                PARAMETER["Z_Axis_Translation", -278.0]]
-Description : Zaire
+Description : Zaire - deprecated
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
@@ -33322,7 +33323,8 @@ WKT         : GEOGTRAN["Batavia_To_WGS_1984",
                PARAMETER["X_Axis_Translation", -377.0],
                PARAMETER["Y_Axis_Translation", 681.0],
                PARAMETER["Z_Axis_Translation", -50.0]]
-Description : Indonesia (Sumatra)
+Description : Indonesia (Sumatra) - DEPRECATED in favor of 8452 Padang to
+              WGS84
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
@@ -33867,7 +33869,7 @@ WKT         : GEOGTRAN["ED_1950_To_WGS_1984_9",
                PARAMETER["X_Axis_Translation", -117.0],
                PARAMETER["Y_Axis_Translation", -132.0],
                PARAMETER["Z_Axis_Translation", -164.0]]
-Description : Iran
+Description : Iran - deprecated, use 1141
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
@@ -34751,9 +34753,9 @@ Description : Mean for Canada
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
-Area-name   : Canada
+Area-name   : Canada - NAD27
 Area-slat   : 40.04
-Area-nlat   : 86.46
+Area-nlat   : 83.17
 Area-llon   : -141.01
 Area-rlon   : -47.74
 Accuracy    : 20.0
@@ -35625,8 +35627,8 @@ Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
 Area-name   : South America - Bolivia; Chile; Ecuador; Guyana; Peru; Venezuela
-Area-slat   : -45.0
-Area-nlat   : 12.52
+Area-slat   : -43.5
+Area-nlat   : 12.25
 Area-llon   : -81.41
 Area-rlon   : -56.47
 Accuracy    : 42.0
@@ -35714,11 +35716,11 @@ Description : Chile (Southern, near 43 deg S
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
-Area-name   : Chile - onshore 39~S to 45~S
-Area-slat   : -45.0
+Area-name   : Chile - onshore 39~S to 43~30'S
+Area-slat   : -43.5
 Area-nlat   : -38.99
-Area-llon   : -75.22
-Area-rlon   : -71.1
+Area-llon   : -74.48
+Area-rlon   : -71.38
 Accuracy    : 35.0
 
 WKID        : 8105
@@ -35834,10 +35836,10 @@ Description : Peru
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
-Area-name   : Peru
-Area-slat   : -21.05
+Area-name   : Peru - onshore
+Area-slat   : -18.35
 Area-nlat   : -0.03
-Area-llon   : -84.68
+Area-llon   : -81.41
 Area-rlon   : -68.67
 Accuracy    : 16.0
 
@@ -35864,11 +35866,11 @@ Description : Venezuela
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
-Area-name   : Venezuela
+Area-name   : Venezuela - onshore
 Area-slat   : 0.64
-Area-nlat   : 16.75
+Area-nlat   : 12.25
 Area-llon   : -73.38
-Area-rlon   : -58.95
+Area-rlon   : -59.8
 Accuracy    : 23.0
 
 WKID        : 8110
@@ -36748,11 +36750,11 @@ Description : Australia
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
-Area-name   : Australia - onshore
-Area-slat   : -43.7
-Area-nlat   : -9.86
-Area-llon   : 112.85
-Area-rlon   : 153.69
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
 Accuracy    : 5.0
 
 WKID        : 8140
@@ -37116,10 +37118,10 @@ Description : Russia
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : yes
-Area-name   : Russia
-Area-slat   : 39.87
-Area-nlat   : 85.2
-Area-llon   : 18.92
+Area-name   : Russia - onshore
+Area-slat   : 41.19
+Area-nlat   : 81.91
+Area-llon   : 19.58
 Area-rlon   : -168.97
 Accuracy    : 999.0
 
@@ -37673,10 +37675,10 @@ WKT         : GEOGTRAN["Batavia_Jakarta_To_WGS_1984",
                PARAMETER["X_Axis_Translation", -377.0],
                PARAMETER["Y_Axis_Translation", 681.0],
                PARAMETER["Z_Axis_Translation", -50.0]]
-Description : Batavia(Jakarta) to WGS84
+Description : Batavia(Jakarta) to WGS84 - deprecated
 Authority   : EPSG
 Version     : 3.1(8.0.1)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Indonesia - Sumatra
 Area-slat   : -5.99
 Area-nlat   : 5.97
@@ -37947,11 +37949,11 @@ Description : Australia
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
-Area-name   : Australia - onshore
-Area-slat   : -43.7
-Area-nlat   : -9.86
-Area-llon   : 112.85
-Area-rlon   : 153.69
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
 Accuracy    : 5.0
 
 WKID        : 8193
@@ -37981,11 +37983,11 @@ Description : Australia
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
-Area-name   : Australia - onshore
-Area-slat   : -43.7
-Area-nlat   : -9.86
-Area-llon   : 112.85
-Area-rlon   : 153.69
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
 Accuracy    : 1.0
 
 WKID        : 8195
@@ -38079,10 +38081,10 @@ Description : Lithuania
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
-Area-name   : Lithuania
+Area-name   : Lithuania - onshore
 Area-slat   : 53.89
 Area-nlat   : 56.45
-Area-llon   : 19.02
+Area-llon   : 20.86
 Area-rlon   : 26.82
 Accuracy    : 9.0
 
@@ -38135,7 +38137,7 @@ WKT         : GEOGTRAN["Pulkovo_1942_To_WGS_1984_3",
                PARAMETER["X_Axis_Translation", 28.0],
                PARAMETER["Y_Axis_Translation", -121.0],
                PARAMETER["Z_Axis_Translation", -77.0]]
-Description : Hungary
+Description : Hungary - deprecated, use 15996
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
@@ -38165,7 +38167,7 @@ WKT         : GEOGTRAN["Pulkovo_1942_To_WGS_1984_4",
                PARAMETER["X_Axis_Translation", 23.0],
                PARAMETER["Y_Axis_Translation", -124.0],
                PARAMETER["Z_Axis_Translation", -82.0]]
-Description : Poland
+Description : Poland - deprecated, use 15997
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
@@ -38195,7 +38197,7 @@ WKT         : GEOGTRAN["Pulkovo_1942_To_WGS_1984_5",
                PARAMETER["X_Axis_Translation", 26.0],
                PARAMETER["Y_Axis_Translation", -121.0],
                PARAMETER["Z_Axis_Translation", -78.0]]
-Description : Czech Republic
+Description : Czech Republic - deprecated, use 15998
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
@@ -38229,10 +38231,10 @@ Description : Latvia
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
-Area-name   : Latvia
+Area-name   : Latvia - onshore
 Area-slat   : 55.67
 Area-nlat   : 58.09
-Area-llon   : 19.06
+Area-llon   : 20.87
 Area-rlon   : 28.24
 Accuracy    : 4.0
 
@@ -38285,7 +38287,7 @@ WKT         : GEOGTRAN["Pulkovo_1942_To_WGS_1984_8",
                PARAMETER["X_Axis_Translation", 24.0],
                PARAMETER["Y_Axis_Translation", -130.0],
                PARAMETER["Z_Axis_Translation", -92.0]]
-Description : Albania
+Description : Albania - deprecated, use 15999
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
@@ -38405,7 +38407,7 @@ WKT         : GEOGTRAN["Segora_To_WGS_1984",
                PARAMETER["X_Axis_Translation", -403.0],
                PARAMETER["Y_Axis_Translation", 684.0],
                PARAMETER["Z_Axis_Translation", 41.0]]
-Description : Indonesia - Kalimantan
+Description : Indonesia - Kalimantan - deprecated, see 1834
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
@@ -38495,15 +38497,15 @@ WKT         : GEOGTRAN["Naparima_1972_To_WGS_1984_2",
                PARAMETER["X_Axis_Translation", -0.465],
                PARAMETER["Y_Axis_Translation", 372.095],
                PARAMETER["Z_Axis_Translation", 171.736]]
-Description : Trinidad and Tobago
+Description : Tobago
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
-Area-name   : Trinidad and Tobago - Trinidad - onshore
-Area-slat   : 9.99
-Area-nlat   : 10.9
-Area-llon   : -61.98
-Area-rlon   : -60.85
+Area-name   : Trinidad and Tobago - Tobago - onshore
+Area-slat   : 11.08
+Area-nlat   : 11.41
+Area-llon   : -60.9
+Area-rlon   : -60.44
 Accuracy    : 1.0
 
 WKID        : 8213
@@ -38885,7 +38887,7 @@ WKT         : GEOGTRAN["Naparima_1972_To_WGS_1984_3",
                PARAMETER["X_Axis_Translation", -2.0],
                PARAMETER["Y_Axis_Translation", 374.0],
                PARAMETER["Z_Axis_Translation", 172.0]]
-Description : Trinidad and Tobago
+Description : Trinidad and Tobago - Tobago
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
@@ -39053,9 +39055,9 @@ Description : NAD27 to NAD83 Canada
 Authority   : Esri
 Version     : 8.1.0
 Deprecated  : yes
-Area-name   : Canada
+Area-name   : Canada - NAD27
 Area-slat   : 40.04
-Area-nlat   : 86.46
+Area-nlat   : 83.17
 Area-llon   : -141.01
 Area-rlon   : -47.74
 Accuracy    : 1.5
@@ -39643,10 +39645,10 @@ Description : Estonia
 Authority   : Esri
 Version     : 8.0.1
 Deprecated  : yes
-Area-name   : Estonia
+Area-name   : Estonia - onshore
 Area-slat   : 57.52
-Area-nlat   : 60.0
-Area-llon   : 20.37
+Area-nlat   : 59.75
+Area-llon   : 21.74
 Area-rlon   : 28.2
 Accuracy    : 0.1
 
@@ -39751,6 +39753,36 @@ Area-nlat   : 59.75
 Area-llon   : 21.74
 Area-rlon   : 28.2
 Accuracy    : 9.0
+
+WKID        : 8270
+Latest-WKID : 8270
+Macro       : PE_GT_SPEM_1950_TO_WGS_1984_G1150
+Name        : Saint_Pierre_et_Miquelon_1950_to_WGS_1984_(G1150)
+WKT         : GEOGTRAN["Saint_Pierre_et_Miquelon_1950_to_WGS_1984_(G1150)",
+               GEOGCS["GCS_Saint_Pierre_et_Miquelon_1950",
+                DATUM["D_Saint_Pierre_et_Miquelon_1950",
+                 SPHEROID["Clarke_1866", 6378206.4, 294.9786982]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["WGS_1984_(G1150)",
+                DATUM["World_Geodetic_System_1984_(G1150)",
+                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Geocentric_Translation"],
+               PARAMETER["X_Axis_Translation", 11.363],
+               PARAMETER["Y_Axis_Translation", 424.148],
+               PARAMETER["Z_Axis_Translation", 373.13]]
+Description : Saint Pierre et Miquelon 1950 to WGS 1984 (G1150)
+Authority   : EPSG
+Version     : 9.1.2(10.7.0)
+Deprecated  : no
+Area-name   : St Pierre and Miquelon - onshore
+Area-slat   : 46.69
+Area-nlat   : 47.19
+Area-llon   : -56.48
+Area-rlon   : -56.07
+Accuracy    : 1.0
 
 WKID        : 8278
 Latest-WKID : 1446
@@ -40476,7 +40508,7 @@ Area-name   : USA - Colorado
 Area-slat   : 36.98
 Area-nlat   : 41.01
 Area-llon   : -109.06
-Area-rlon   : -102.03
+Area-rlon   : -102.04
 Accuracy    : 0.05
 
 WKID        : 8424
@@ -41656,10 +41688,10 @@ Authority   : Esri
 Version     : 8.1.0
 Deprecated  : yes
 Area-name   : USA - Kansas
-Area-slat   : 36.98
+Area-slat   : 36.99
 Area-nlat   : 40.01
 Area-llon   : -102.06
-Area-rlon   : -94.6
+Area-rlon   : -94.58
 Accuracy    : 0.05
 
 WKID        : 8504
@@ -41929,7 +41961,7 @@ Area-rlon   : -73.88
 Accuracy    : 0.05
 
 WKID        : 8562
-Latest-WKID : 108098
+Latest-WKID : 108087
 Macro       : PE_GT_NORD_SAHARA_1959_TO_WGS_1984_3
 Name        : Nord_Sahara_1959_To_WGS_1984_3
 WKT         : GEOGTRAN["Nord_Sahara_1959_To_WGS_1984_3",
@@ -41944,7 +41976,7 @@ WKT         : GEOGTRAN["Nord_Sahara_1959_To_WGS_1984_3",
                 PRIMEM["Greenwich", 0.0],
                 UNIT["Degree", 0.0174532925199433]],
                METHOD["Position_Vector"],
-               PARAMETER["X_Axis_Translation", -156.0],
+               PARAMETER["X_Axis_Translation", -156.5],
                PARAMETER["Y_Axis_Translation", -87.2],
                PARAMETER["Z_Axis_Translation", 287.8],
                PARAMETER["X_Axis_Rotation", 0.0],
@@ -41953,7 +41985,7 @@ WKT         : GEOGTRAN["Nord_Sahara_1959_To_WGS_1984_3",
                PARAMETER["Scale_Difference", -0.38]]
 Description : Algeria - Hassi Messaoud
 Authority   : EPSG
-Version     : 7.11(8.1.2)
+Version     : 7.11(10.7.0)
 Deprecated  : yes
 Area-name   : Algeria - Hassi Messaoud
 Area-slat   : 31.48
@@ -41961,6 +41993,34 @@ Area-nlat   : 32.09
 Area-llon   : 5.59
 Area-rlon   : 6.5
 Accuracy    : 10.0
+
+WKID        : 8639
+Latest-WKID : 8639
+Macro       : PE_GT_BELGE_1972_TO_ETRS_1989_3
+Name        : Belge_1972_To_ETRS_1989_3
+WKT         : GEOGTRAN["Belge_1972_To_ETRS_1989_3",
+               GEOGCS["GCS_Belge_1972",
+                DATUM["D_Belge_1972",
+                 SPHEROID["International_1924", 6378388.0, 297.0]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["NTv2"],
+               PARAMETER["Dataset_belgium/BD72LB72_ETRS89LB08", 0.0]]
+Description : Belge 1972 to ETRS 1989 (3)
+Authority   : EPSG
+Version     : 7.4.6(10.7.0)
+Deprecated  : no
+Area-name   : Belgium - onshore
+Area-slat   : 49.5
+Area-nlat   : 51.51
+Area-llon   : 2.5
+Area-rlon   : 6.4
+Accuracy    : 0.01
 
 WKID        : 8650
 Latest-WKID : 108099
@@ -41991,6 +42051,138 @@ Area-nlat   : 33.28
 Area-llon   : 34.17
 Area-rlon   : 35.69
 Accuracy    : 3.5
+
+WKID        : 8688
+Latest-WKID : 8688
+Macro       : PE_GT_MGI_1901_TO_WGS_1984_12
+Name        : MGI_1901_To_WGS_1984_12
+WKT         : GEOGTRAN["MGI_1901_To_WGS_1984_12",
+               GEOGCS["GCS_MGI_1901",
+                DATUM["D_MGI_1901",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_WGS_1984",
+                DATUM["D_WGS_1984",
+                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", 476.08],
+               PARAMETER["Y_Axis_Translation", 125.947],
+               PARAMETER["Z_Axis_Translation", 417.81],
+               PARAMETER["X_Axis_Rotation", -4.610862],
+               PARAMETER["Y_Axis_Rotation", -2.388137],
+               PARAMETER["Z_Axis_Rotation", 11.942335],
+               PARAMETER["Scale_Difference", 9.896638]]
+Description : Slovenia - Country (GI)
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - onshore
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
+Accuracy    : 1.3
+
+WKID        : 8689
+Latest-WKID : 8689
+Macro       : PE_GT_MGI_1901_TO_SLOVENIA_1996_12
+Name        : MGI_1901_To_Slovenia_1996_12
+WKT         : GEOGTRAN["MGI_1901_To_Slovenia_1996_12",
+               GEOGCS["GCS_MGI_1901",
+                DATUM["D_MGI_1901",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", 476.08],
+               PARAMETER["Y_Axis_Translation", 125.947],
+               PARAMETER["Z_Axis_Translation", 417.81],
+               PARAMETER["X_Axis_Rotation", -4.610862],
+               PARAMETER["Y_Axis_Rotation", -2.388137],
+               PARAMETER["Z_Axis_Rotation", 11.942335],
+               PARAMETER["Scale_Difference", 9.896638]]
+Description : Slovenia - Country (GI)
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - onshore
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
+Accuracy    : 1.07
+
+WKID        : 8822
+Latest-WKID : 8822
+Macro       : PE_GT_MTRF_2000_TO_WGS_1984_G1150
+Name        : MTRF-2000_to_WGS_1984_(G1150)
+WKT         : GEOGTRAN["MTRF-2000_to_WGS_1984_(G1150)",
+               GEOGCS["MTRF-2000",
+                DATUM["MOMRA_Terrestrial_Reference_Frame_2000",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["WGS_1984_(G1150)",
+                DATUM["World_Geodetic_System_1984_(G1150)",
+                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Geocentric_Translation"],
+               PARAMETER["X_Axis_Translation", 0.0],
+               PARAMETER["Y_Axis_Translation", 0.0],
+               PARAMETER["Z_Axis_Translation", 0.0]]
+Description : MTRF-2000 to WGS 1984 (G1150)
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Saudi Arabia
+Area-slat   : 15.61
+Area-nlat   : 32.16
+Area-llon   : 34.44
+Area-rlon   : 55.67
+Accuracy    : 1.0
+
+WKID        : 8824
+Latest-WKID : 8824
+Macro       : PE_GT_AIN_EL_ABD_1970_TO_MTRF_2000_1
+Name        : Ain_el_Abd_1970_to_MTRF-2000_1
+WKT         : GEOGTRAN["Ain_el_Abd_1970_to_MTRF-2000_1",
+               GEOGCS["GCS_Ain_el_Abd_1970",
+                DATUM["D_Ain_el_Abd_1970",
+                 SPHEROID["International_1924", 6378388.0, 297.0]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["MTRF-2000",
+                DATUM["MOMRA_Terrestrial_Reference_Frame_2000",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -61.65],
+               PARAMETER["Y_Axis_Translation", -315.86],
+               PARAMETER["Z_Axis_Translation", -3.51],
+               PARAMETER["X_Axis_Rotation", 0.41],
+               PARAMETER["Y_Axis_Rotation", 0.74],
+               PARAMETER["Z_Axis_Rotation", -3.52],
+               PARAMETER["Scale_Difference", 1.36]]
+Description : Ain el Abd 1970 to MTRF-2000 (1)
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Saudi Arabia - onshore
+Area-slat   : 15.61
+Area-nlat   : 32.16
+Area-llon   : 34.51
+Area-rlon   : 55.67
+Accuracy    : 5.0
 
 WKID        : 10085
 Latest-WKID : 10085
@@ -44261,9 +44453,9 @@ Version     : 8.5.6(9.2.0)
 Deprecated  : no
 Area-name   : Europe - west
 Area-slat   : 34.88
-Area-nlat   : 71.21
+Area-nlat   : 84.17
 Area-llon   : -10.56
-Area-rlon   : 31.59
+Area-rlon   : 39.65
 Accuracy    : 6.0
 
 WKID        : 15754
@@ -45326,11 +45518,11 @@ Description : Australia - Australian Capital Territory, New South Wales,
 Authority   : EPSG
 Version     : 7.4.6(9.2.0)
 Deprecated  : no
-Area-name   : Australia - onshore
-Area-slat   : -43.7
-Area-nlat   : -9.86
-Area-llon   : 112.85
-Area-rlon   : 153.69
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
 Accuracy    : 5.0
 
 WKID        : 15790
@@ -47622,10 +47814,10 @@ WKT         : GEOGTRAN["Nahrwan_1967_To_WGS_1984_6",
                PARAMETER["X_Axis_Translation", -242.2],
                PARAMETER["Y_Axis_Translation", -144.9],
                PARAMETER["Z_Axis_Translation", 370.3]]
-Description : Iraq - onshore and offshore
+Description : Iraq - onshore and offshore - deprecated, use 7033
 Authority   : EPSG
 Version     : 7.9.4(9.3.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Iraq - onshore
 Area-slat   : 29.06
 Area-nlat   : 37.39
@@ -48667,7 +48859,7 @@ Authority   : EPSG
 Version     : 6.12(9.3.0.0)
 Deprecated  : no
 Area-name   : Libya - onshore
-Area-slat   : 19.49
+Area-slat   : 19.5
 Area-nlat   : 33.23
 Area-llon   : 9.31
 Area-rlon   : 25.21
@@ -48949,7 +49141,7 @@ Authority   : EPSG
 Version     : 6.12(9.3.0.0)
 Deprecated  : no
 Area-name   : Libya - onshore
-Area-slat   : 19.49
+Area-slat   : 19.5
 Area-nlat   : 33.23
 Area-llon   : 9.31
 Area-rlon   : 25.21
@@ -49741,10 +49933,10 @@ WKT         : GEOGTRAN["Yacare_To_SIRGAS_1",
                PARAMETER["Y_Axis_Rotation", 0.5446],
                PARAMETER["Z_Axis_Rotation", -0.9706],
                PARAMETER["Scale_Difference", -2.1365]]
-Description : Uruguay - onshore and offshore
+Description : Uruguay - onshore and offshore - deprecated
 Authority   : EPSG
 Version     : 6.15(10.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Uruguay
 Area-slat   : -37.77
 Area-nlat   : -30.09
@@ -50849,11 +51041,11 @@ Description : Costa Rica
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Costa Rica
-Area-slat   : 2.15
-Area-nlat   : 11.77
-Area-llon   : -90.45
-Area-rlon   : -81.43
+Area-name   : Costa Rica - onshore
+Area-slat   : 7.98
+Area-nlat   : 11.22
+Area-llon   : -85.97
+Area-rlon   : -82.53
 Accuracy    : 0.5
 
 WKID        : 108014
@@ -50886,11 +51078,11 @@ Description : Costa Rica
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Costa Rica
-Area-slat   : 2.15
-Area-nlat   : 11.77
-Area-llon   : -90.45
-Area-rlon   : -81.43
+Area-name   : Costa Rica - onshore
+Area-slat   : 7.98
+Area-nlat   : 11.22
+Area-llon   : -85.97
+Area-rlon   : -82.53
 Accuracy    : 0.5
 
 WKID        : 108015
@@ -51110,11 +51302,11 @@ Description : Israel
 Authority   : Esri
 Version     : 10.1.1
 Deprecated  : no
-Area-name   : Israel
-Area-slat   : 29.45
+Area-name   : Israel, Palestine Territory, and Jordan
+Area-slat   : 29.19
 Area-nlat   : 33.53
 Area-llon   : 32.99
-Area-rlon   : 35.69
+Area-rlon   : 39.3
 Accuracy    : 1.0
 
 WKID        : 108022
@@ -51746,10 +51938,10 @@ Description : Netherlands
 Authority   : Esri
 Version     : 10.3.1
 Deprecated  : yes
-Area-name   : Netherlands
+Area-name   : Netherlands - onshore
 Area-slat   : 50.75
-Area-nlat   : 55.77
-Area-llon   : 2.53
+Area-nlat   : 53.7
+Area-llon   : 3.2
 Area-rlon   : 7.22
 Accuracy    : 0.1
 
@@ -51774,10 +51966,10 @@ Description : Netherlands
 Authority   : Esri
 Version     : 10.3.1
 Deprecated  : no
-Area-name   : Netherlands
+Area-name   : Netherlands - onshore
 Area-slat   : 50.75
-Area-nlat   : 55.77
-Area-llon   : 2.53
+Area-nlat   : 53.7
+Area-llon   : 3.2
 Area-rlon   : 7.22
 Accuracy    : 0.2
 
@@ -51892,11 +52084,11 @@ Description : NAD 1983 HARN To 2007 GEOCON Puerto Rico Virgin Islands
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Caribbean - Puerto Rico and US Virgin Islands
-Area-slat   : 14.92
-Area-nlat   : 21.86
-Area-llon   : -68.49
-Area-rlon   : -63.88
+Area-name   : Caribbean - Puerto Rico and US Virgin Islands - onshore
+Area-slat   : 17.62
+Area-nlat   : 18.57
+Area-llon   : -67.97
+Area-rlon   : -64.51
 Accuracy    : 0.05
 
 WKID        : 108047
@@ -52430,7 +52622,7 @@ WKT         : GEOGTRAN["GDA_1994_To_GDA2020_NTv2_C",
                 UNIT["Degree", 0.0174532925199433]],
                METHOD["NTv2"],
                PARAMETER["Dataset_australia/AUS942020_C", 0.0]]
-Description : 
+Description : Australia NTv2 conformal (DEPRECATED - use 108446)
 Authority   : Esri
 Version     : 10.5.1
 Deprecated  : yes
@@ -52458,7 +52650,8 @@ WKT         : GEOGTRAN["GDA_1994_To_GDA2020_NTv2_CD",
                 UNIT["Degree", 0.0174532925199433]],
                METHOD["NTv2"],
                PARAMETER["Dataset_australia/AUS942020_CD", 0.0]]
-Description : 
+Description : Australia NTv2 conformal with distortion (DEPRECATED - use
+              108447)
 Authority   : Esri
 Version     : 10.5.1
 Deprecated  : yes
@@ -52785,6 +52978,448 @@ Area-llon   : -141.01
 Area-rlon   : -47.74
 Accuracy    : 0.0
 
+WKID        : 108076
+Latest-WKID : 108076
+Macro       : PE_GT_D48_TO_D96_2010
+Name        : D48_To_D96_2010_GI
+WKT         : GEOGTRAN["D48_To_D96_2010_GI",
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", 476.08],
+               PARAMETER["Y_Axis_Translation", 125.947],
+               PARAMETER["Z_Axis_Translation", 417.81],
+               PARAMETER["X_Axis_Rotation", -4.610862],
+               PARAMETER["Y_Axis_Rotation", -2.388137],
+               PARAMETER["Z_Axis_Rotation", 11.942335],
+               PARAMETER["Scale_Difference", 9.896638]]
+Description : Slovenia - Country (GI)
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - onshore
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
+Accuracy    : 1.07
+
+WKID        : 108077
+Latest-WKID : 108077
+Macro       : PE_GT_D96_TO_D48_ZAH_SLO
+Name        : D96_To_D48_Zahodna_Slovenija
+WKT         : GEOGTRAN["D96_To_D48_Zahodna_Slovenija",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -453.674],
+               PARAMETER["Y_Axis_Translation", -112.561],
+               PARAMETER["Z_Axis_Translation", -388.287],
+               PARAMETER["X_Axis_Rotation", 5.343297],
+               PARAMETER["Y_Axis_Rotation", 2.485394],
+               PARAMETER["Z_Axis_Rotation", -10.836743],
+               PARAMETER["Scale_Difference", -15.958238]]
+Description : Slovenia - Zahodna Slovenija
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - west of 14~30'E onshore
+Area-slat   : 45.44
+Area-nlat   : 46.53
+Area-llon   : 13.38
+Area-rlon   : 14.58
+Accuracy    : 0.357
+
+WKID        : 108078
+Latest-WKID : 108078
+Macro       : PE_GT_D96_TO_D48_SV_SLO
+Name        : D96_To_D48_Severovzhodna_Slovenija
+WKT         : GEOGTRAN["D96_To_D48_Severovzhodna_Slovenija",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -491.556],
+               PARAMETER["Y_Axis_Translation", -135.972],
+               PARAMETER["Z_Axis_Translation", -440.4],
+               PARAMETER["X_Axis_Rotation", 3.683681],
+               PARAMETER["Y_Axis_Rotation", 2.232141],
+               PARAMETER["Z_Axis_Rotation", -13.171698],
+               PARAMETER["Scale_Difference", -5.421926]]
+Description : Slovenia - Severovzhodna Slovenija
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - NE
+Area-slat   : 46.14
+Area-nlat   : 46.88
+Area-llon   : 14.54
+Area-rlon   : 16.61
+Accuracy    : 0.504
+
+WKID        : 108079
+Latest-WKID : 108079
+Macro       : PE_GT_D96_TO_D48_JV_SLO
+Name        : D96_To_D48_Jugovzhodna_Slovenija
+WKT         : GEOGTRAN["D96_To_D48_Jugovzhodna_Slovenija",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -485.018],
+               PARAMETER["Y_Axis_Translation", -129.747],
+               PARAMETER["Z_Axis_Translation", -423.199],
+               PARAMETER["X_Axis_Rotation", 4.880531],
+               PARAMETER["Y_Axis_Rotation", 2.348721],
+               PARAMETER["Z_Axis_Rotation", -11.745346],
+               PARAMETER["Scale_Difference", -8.231637]]
+Description : Slovenia - Jugovzhodna Slovenija
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - SE
+Area-slat   : 45.42
+Area-nlat   : 46.22
+Area-llon   : 14.55
+Area-rlon   : 15.73
+Accuracy    : 0.388
+
+WKID        : 108080
+Latest-WKID : 108080
+Macro       : PE_GT_D96_TO_D48_JUZ_SLO
+Name        : D96_To_D48_Juzna_Slovenija
+WKT         : GEOGTRAN["D96_To_D48_Juzna_Slovenija",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -502.101],
+               PARAMETER["Y_Axis_Translation", -131.516],
+               PARAMETER["Z_Axis_Translation", -433.704],
+               PARAMETER["X_Axis_Rotation", 6.054862],
+               PARAMETER["Y_Axis_Rotation", 2.498236],
+               PARAMETER["Z_Axis_Rotation", -10.429331],
+               PARAMETER["Scale_Difference", -5.188197]]
+Description : Slovenia - Juzna Slovenija
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - southeastern
+Area-slat   : 45.42
+Area-nlat   : 45.77
+Area-llon   : 14.53
+Area-rlon   : 15.36
+Accuracy    : 0.137
+
+WKID        : 108081
+Latest-WKID : 108081
+Macro       : PE_GT_D96_TO_D48_DOLENJSKA
+Name        : D96_To_D48_Dolenjska
+WKT         : GEOGTRAN["D96_To_D48_Dolenjska",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -481.871],
+               PARAMETER["Y_Axis_Translation", -129.173],
+               PARAMETER["Z_Axis_Translation", -420.608],
+               PARAMETER["X_Axis_Rotation", 5.096868],
+               PARAMETER["Y_Axis_Rotation", 2.423927],
+               PARAMETER["Z_Axis_Rotation", -11.524756],
+               PARAMETER["Scale_Difference", -8.872387]]
+Description : Slovenia - Dolenjska
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - Dolenjska
+Area-slat   : 45.7
+Area-nlat   : 46.12
+Area-llon   : 14.47
+Area-rlon   : 15.73
+Accuracy    : 0.308
+
+WKID        : 108082
+Latest-WKID : 108082
+Macro       : PE_GT_D96_TO_D48_STAJERSKA
+Name        : D96_To_D48_Stajerska
+WKT         : GEOGTRAN["D96_To_D48_Stajerska",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -477.73],
+               PARAMETER["Y_Axis_Translation", -130.719],
+               PARAMETER["Z_Axis_Translation", -424.46],
+               PARAMETER["X_Axis_Rotation", 3.790572],
+               PARAMETER["Y_Axis_Rotation", 2.246488],
+               PARAMETER["Z_Axis_Rotation", -12.99207],
+               PARAMETER["Scale_Difference", -8.828735]]
+Description : Slovenia - Stajerska
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - Stajerska
+Area-slat   : 46.1
+Area-nlat   : 46.76
+Area-llon   : 14.74
+Area-rlon   : 16.27
+Accuracy    : 0.368
+
+WKID        : 108083
+Latest-WKID : 108083
+Macro       : PE_GT_D96_TO_D48_POMURJE
+Name        : D96_To_D48_Pomurje
+WKT         : GEOGTRAN["D96_To_D48_Pomurje",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -523.882],
+               PARAMETER["Y_Axis_Translation", -151.289],
+               PARAMETER["Z_Axis_Translation", -480.592],
+               PARAMETER["X_Axis_Rotation", 3.706371],
+               PARAMETER["Y_Axis_Rotation", 2.315828],
+               PARAMETER["Z_Axis_Rotation", -13.400341],
+               PARAMETER["Scale_Difference", 2.972511]]
+Description : Slovenia - Pomurje
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - Pomurje
+Area-slat   : 46.47
+Area-nlat   : 46.88
+Area-llon   : 15.96
+Area-rlon   : 16.61
+Accuracy    : 0.21
+
+WKID        : 108084
+Latest-WKID : 108084
+Macro       : PE_GT_D96_TO_D48_GORENJSKA
+Name        : D96_To_D48_Gorenjska
+WKT         : GEOGTRAN["D96_To_D48_Gorenjska",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -438.775],
+               PARAMETER["Y_Axis_Translation", -109.403],
+               PARAMETER["Z_Axis_Translation", -377.696],
+               PARAMETER["X_Axis_Rotation", 4.933923],
+               PARAMETER["Y_Axis_Rotation", 2.503267],
+               PARAMETER["Z_Axis_Rotation", -11.26993],
+               PARAMETER["Scale_Difference", -18.814763]]
+Description : Slovenia - Gorenjska
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - Gorenjska and N Primorsko
+Area-slat   : 46.05
+Area-nlat   : 46.53
+Area-llon   : 13.38
+Area-rlon   : 14.82
+Accuracy    : 0.249
+
+WKID        : 108085
+Latest-WKID : 108085
+Macro       : PE_GT_D96_TO_D48_PRIMORSKA
+Name        : D96_To_D48_Primorska
+WKT         : GEOGTRAN["D96_To_D48_Primorska",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -465.715],
+               PARAMETER["Y_Axis_Translation", -115.127],
+               PARAMETER["Z_Axis_Translation", -397.622],
+               PARAMETER["X_Axis_Rotation", 5.743906],
+               PARAMETER["Y_Axis_Rotation", 2.510737],
+               PARAMETER["Z_Axis_Rotation", -10.415817],
+               PARAMETER["Scale_Difference", -13.558204]]
+Description : Slovenia - Primorska
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - Primorska and Notranjska onshore
+Area-slat   : 45.44
+Area-nlat   : 46.08
+Area-llon   : 13.47
+Area-rlon   : 14.58
+Accuracy    : 0.27
+
+WKID        : 108086
+Latest-WKID : 108086
+Macro       : PE_GT_D96_TO_D48_OSR_SLO
+Name        : D96_To_D48_Osrednja_Slovenija
+WKT         : GEOGTRAN["D96_To_D48_Osrednja_Slovenija",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_D48",
+                DATUM["D_D48",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -465.328],
+               PARAMETER["Y_Axis_Translation", -122.305],
+               PARAMETER["Z_Axis_Translation", -403.609],
+               PARAMETER["X_Axis_Rotation", 4.387757],
+               PARAMETER["Y_Axis_Rotation", 2.265582],
+               PARAMETER["Z_Axis_Rotation", -12.157415],
+               PARAMETER["Scale_Difference", -12.73019]]
+Description : Slovenia - Osrednja Slovenija
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Slovenia - central
+Area-slat   : 45.91
+Area-nlat   : 46.31
+Area-llon   : 14.21
+Area-rlon   : 15.28
+Accuracy    : 0.185
+
+WKID        : 108087
+Latest-WKID : 108087
+Macro       : PE_GT_NORD_SAHARA_1959_TO_WGS_1984_3
+Name        : Nord_Sahara_1959_To_WGS_1984_3
+WKT         : GEOGTRAN["Nord_Sahara_1959_To_WGS_1984_3",
+               GEOGCS["GCS_Nord_Sahara_1959",
+                DATUM["D_Nord_Sahara_1959",
+                 SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_WGS_1984",
+                DATUM["D_WGS_1984",
+                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Position_Vector"],
+               PARAMETER["X_Axis_Translation", -156.5],
+               PARAMETER["Y_Axis_Translation", -87.2],
+               PARAMETER["Z_Axis_Translation", 287.8],
+               PARAMETER["X_Axis_Rotation", 0.0],
+               PARAMETER["Y_Axis_Rotation", 0.0],
+               PARAMETER["Z_Axis_Rotation", 0.814],
+               PARAMETER["Scale_Difference", -0.38]]
+Description : Algeria - Hassi Messaoud
+Authority   : Esri
+Version     : 10.4.0
+Deprecated  : no
+Area-name   : Algeria - Hassi Messaoud
+Area-slat   : 31.48
+Area-nlat   : 32.09
+Area-llon   : 5.59
+Area-rlon   : 6.5
+Accuracy    : 10.0
+
+WKID        : 108088
+Latest-WKID : 108088
+Macro       : PE_GT_SPEM_1950_TO_RGSPM_2006
+Name        : Saint_Pierre_et_Miquelon_1950_to_RGSPM_2006
+WKT         : GEOGTRAN["Saint_Pierre_et_Miquelon_1950_to_RGSPM_2006",
+               GEOGCS["GCS_Saint_Pierre_et_Miquelon_1950",
+                DATUM["D_Saint_Pierre_et_Miquelon_1950",
+                 SPHEROID["Clarke_1866", 6378206.4, 294.9786982]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_RGSPM_2006",
+                DATUM["D_Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Position_Vector"],
+               PARAMETER["X_Axis_Translation", -95.593],
+               PARAMETER["Y_Axis_Translation", 573.763],
+               PARAMETER["Z_Axis_Translation", 173.442],
+               PARAMETER["X_Axis_Rotation", -0.9602],
+               PARAMETER["Y_Axis_Rotation", 1.251],
+               PARAMETER["Z_Axis_Rotation", -1.3918],
+               PARAMETER["Scale_Difference", 42.6265]]
+Description : Saint Pierre et Miquelon 1950 to RGSPM06
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : St Pierre and Miquelon - onshore
+Area-slat   : 46.69
+Area-nlat   : 47.19
+Area-llon   : -56.48
+Area-rlon   : -56.07
+Accuracy    : 1.0
+
 WKID        : 108090
 Latest-WKID : 108090
 Macro       : PE_GT_VOIROL_UNIFIE_1960_PARIS_TO_WGS_1984
@@ -52807,7 +53442,7 @@ WKT         : GEOGTRAN["Voirol_Unifie_1960_Paris_To_WGS_1984",
 Description : Voirol Unifie (Paris) to WGS84
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Algeria - north of 32~N
 Area-slat   : 31.99
 Area-nlat   : 37.14
@@ -52837,7 +53472,7 @@ WKT         : GEOGTRAN["Voirol_Unifie_1960_To_WGS_1984",
 Description : Algeria
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Algeria - north of 32~N
 Area-slat   : 31.99
 Area-nlat   : 37.14
@@ -52891,15 +53526,15 @@ WKT         : GEOGTRAN["Naparima_1972_To_WGS_1984_2",
                PARAMETER["X_Axis_Translation", -0.465],
                PARAMETER["Y_Axis_Translation", 372.095],
                PARAMETER["Z_Axis_Translation", 171.736]]
-Description : Trinidad and Tobago
+Description : Tobago
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : no
-Area-name   : Trinidad and Tobago - Trinidad - onshore
-Area-slat   : 9.99
-Area-nlat   : 10.9
-Area-llon   : -61.98
-Area-rlon   : -60.85
+Deprecated  : yes
+Area-name   : Trinidad and Tobago - Tobago - onshore
+Area-slat   : 11.08
+Area-nlat   : 11.41
+Area-llon   : -60.9
+Area-rlon   : -60.44
 Accuracy    : 1.0
 
 WKID        : 108094
@@ -53030,40 +53665,6 @@ Area-llon   : 106.54
 Area-rlon   : 110.0
 Accuracy    : 27.0
 
-WKID        : 108098
-Latest-WKID : 108098
-Macro       : PE_GT_NORD_SAHARA_1959_TO_WGS_1984_3
-Name        : Nord_Sahara_1959_To_WGS_1984_3
-WKT         : GEOGTRAN["Nord_Sahara_1959_To_WGS_1984_3",
-               GEOGCS["GCS_Nord_Sahara_1959",
-                DATUM["D_Nord_Sahara_1959",
-                 SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]],
-                PRIMEM["Greenwich", 0.0],
-                UNIT["Degree", 0.0174532925199433]],
-               GEOGCS["GCS_WGS_1984",
-                DATUM["D_WGS_1984",
-                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
-                PRIMEM["Greenwich", 0.0],
-                UNIT["Degree", 0.0174532925199433]],
-               METHOD["Position_Vector"],
-               PARAMETER["X_Axis_Translation", -156.0],
-               PARAMETER["Y_Axis_Translation", -87.2],
-               PARAMETER["Z_Axis_Translation", 287.8],
-               PARAMETER["X_Axis_Rotation", 0.0],
-               PARAMETER["Y_Axis_Rotation", 0.0],
-               PARAMETER["Z_Axis_Rotation", 0.814],
-               PARAMETER["Scale_Difference", -0.38]]
-Description : Algeria - Hassi Messaoud
-Authority   : Esri
-Version     : 10.4.0
-Deprecated  : no
-Area-name   : Algeria - Hassi Messaoud
-Area-slat   : 31.48
-Area-nlat   : 32.09
-Area-llon   : 5.59
-Area-rlon   : 6.5
-Accuracy    : 10.0
-
 WKID        : 108099
 Latest-WKID : 108099
 Macro       : PE_GT_PALESTINE_1923_TO_WGS_1984_2
@@ -53174,11 +53775,11 @@ Description : France
 Authority   : Esri
 Version     : 4.0.0
 Deprecated  : no
-Area-name   : France
-Area-slat   : 41.15
-Area-nlat   : 51.56
-Area-llon   : -9.86
-Area-rlon   : 10.38
+Area-name   : France - onshore - mainland and Corsica
+Area-slat   : 41.31
+Area-nlat   : 51.14
+Area-llon   : -4.87
+Area-rlon   : 9.63
 Accuracy    : 2.0
 
 WKID        : 108103
@@ -53294,11 +53895,11 @@ Description : Japan
 Authority   : Esri
 Version     : 3.0.1
 Deprecated  : no
-Area-name   : Korea, Republic of (South Korea)
-Area-slat   : 28.6
-Area-nlat   : 40.27
-Area-llon   : 122.71
-Area-rlon   : 134.28
+Area-name   : Japan - onshore
+Area-slat   : 20.37
+Area-nlat   : 45.54
+Area-llon   : 122.83
+Area-rlon   : 154.05
 Accuracy    : 4.0
 
 WKID        : 108107
@@ -53440,10 +54041,10 @@ Description : Portugal
 Authority   : Esri
 Version     : 4.0.0
 Deprecated  : no
-Area-name   : Portugal
-Area-slat   : 29.24
-Area-nlat   : 43.07
-Area-llon   : -35.58
+Area-name   : Portugal - mainland - onshore
+Area-slat   : 36.95
+Area-nlat   : 42.16
+Area-llon   : -9.56
 Area-rlon   : -6.19
 Accuracy    : 999.0
 
@@ -53744,10 +54345,10 @@ Description : Portugal
 Authority   : Esri
 Version     : 4.0.0
 Deprecated  : no
-Area-name   : Portugal
-Area-slat   : 29.24
-Area-nlat   : 43.07
-Area-llon   : -35.58
+Area-name   : Portugal - mainland - onshore
+Area-slat   : 36.95
+Area-nlat   : 42.16
+Area-llon   : -9.56
 Area-rlon   : -6.19
 Accuracy    : 999.0
 
@@ -54040,11 +54641,11 @@ Description : France
 Authority   : Esri
 Version     : 4.0.0
 Deprecated  : no
-Area-name   : France
-Area-slat   : 41.15
-Area-nlat   : 51.56
-Area-llon   : -9.86
-Area-rlon   : 10.38
+Area-name   : France - onshore - mainland and Corsica
+Area-slat   : 41.31
+Area-nlat   : 51.14
+Area-llon   : -4.87
+Area-rlon   : 9.63
 Accuracy    : 2.0
 
 WKID        : 108131
@@ -54130,10 +54731,10 @@ WKT         : GEOGTRAN["Pohnpei_To_NAD_1983",
                PARAMETER["X_Axis_Translation", -89.121],
                PARAMETER["Y_Axis_Translation", -348.182],
                PARAMETER["Z_Axis_Translation", 260.871]]
-Description : Pohnpei - Fed. States of Micronesia
+Description : Pohnpei - Fed. States of Micronesia - deprecated, use 108303
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Micronesia
 Area-slat   : -1.19
 Area-nlat   : 13.43
@@ -54160,10 +54761,10 @@ WKT         : GEOGTRAN["Bab_South_To_NAD_1983",
                PARAMETER["X_Axis_Translation", -185.583],
                PARAMETER["Y_Axis_Translation", -230.096],
                PARAMETER["Z_Axis_Translation", 281.361]]
-Description : Bablethuap Island - Republic of Palau
+Description : Bablethuap Island - Republic of Palau - deprecated, use 108454
 Authority   : Esri
 Version     : 8.0.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Palau
 Area-slat   : 1.64
 Area-nlat   : 11.45
@@ -54190,10 +54791,10 @@ WKT         : GEOGTRAN["Majuro_To_NAD_1983",
                PARAMETER["X_Axis_Translation", 25.1],
                PARAMETER["Y_Axis_Translation", -275.6],
                PARAMETER["Z_Axis_Translation", 222.6]]
-Description : Majuro - Republic of Marshall Islands
+Description : Majuro - Republic of Marshall Islands - deprecated, use 108455
 Authority   : Esri
 Version     : 8.0.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Marshall Islands
 Area-slat   : 1.77
 Area-nlat   : 17.88
@@ -55006,11 +55607,11 @@ Description : Madeira Island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Madeira Archipelago - Madeira Island
-Area-slat   : 32.5833333333333
-Area-nlat   : 32.9166666666667
-Area-llon   : -17.3333333333333
-Area-rlon   : -16.5833333333333
+Area-name   : Portugal - Madeira island onshore
+Area-slat   : 32.58
+Area-nlat   : 32.93
+Area-llon   : -17.31
+Area-rlon   : -16.66
 Accuracy    : 0.05
 
 WKID        : 108162
@@ -55040,11 +55641,11 @@ Description : Porto Santo Island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Madeira Archipelago - Porto Santo Island
-Area-slat   : 32.9166666666667
-Area-nlat   : 33.1666666666667
-Area-llon   : -16.4333333333333
-Area-rlon   : -16.25
+Area-name   : Portugal - Porto Santo island onshore
+Area-slat   : 32.96
+Area-nlat   : 33.15
+Area-llon   : -16.44
+Area-rlon   : -16.23
 Accuracy    : 0.002
 
 WKID        : 108163
@@ -55100,11 +55701,11 @@ Description : Madeira Island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Madeira Archipelago - Madeira Island
-Area-slat   : 32.5833333333333
-Area-nlat   : 32.9166666666667
-Area-llon   : -17.3333333333333
-Area-rlon   : -16.5833333333333
+Area-name   : Portugal - Madeira island onshore
+Area-slat   : 32.58
+Area-nlat   : 32.93
+Area-llon   : -17.31
+Area-rlon   : -16.66
 Accuracy    : 0.14
 
 WKID        : 108165
@@ -55130,11 +55731,11 @@ Description : Porto Santo Island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Madeira Archipelago - Porto Santo Island
-Area-slat   : 32.9166666666667
-Area-nlat   : 33.1666666666667
-Area-llon   : -16.4333333333333
-Area-rlon   : -16.25
+Area-name   : Portugal - Porto Santo island onshore
+Area-slat   : 32.96
+Area-nlat   : 33.15
+Area-llon   : -16.44
+Area-rlon   : -16.23
 Accuracy    : 0.12
 
 WKID        : 108166
@@ -55198,11 +55799,11 @@ Description : Madeira Island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Madeira Archipelago - Madeira Island
-Area-slat   : 32.5833333333333
-Area-nlat   : 32.9166666666667
-Area-llon   : -17.3333333333333
-Area-rlon   : -16.5833333333333
+Area-name   : Portugal - Madeira island onshore
+Area-slat   : 32.58
+Area-nlat   : 32.93
+Area-llon   : -17.31
+Area-rlon   : -16.66
 Accuracy    : 0.1
 
 WKID        : 108168
@@ -55232,11 +55833,11 @@ Description : Porto Santo Island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Madeira Archipelago - Porto Santo Island
-Area-slat   : 32.9166666666667
-Area-nlat   : 33.1666666666667
-Area-llon   : -16.4333333333333
-Area-rlon   : -16.25
+Area-name   : Portugal - Porto Santo island onshore
+Area-slat   : 32.96
+Area-nlat   : 33.15
+Area-llon   : -16.44
+Area-rlon   : -16.23
 Accuracy    : 0.01
 
 WKID        : 108169
@@ -55292,11 +55893,11 @@ Description : Madeira Island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Madeira Archipelago - Madeira Island
-Area-slat   : 32.5833333333333
-Area-nlat   : 32.9166666666667
-Area-llon   : -17.3333333333333
-Area-rlon   : -16.5833333333333
+Area-name   : Portugal - Madeira island onshore
+Area-slat   : 32.58
+Area-nlat   : 32.93
+Area-llon   : -17.31
+Area-rlon   : -16.66
 Accuracy    : 0.3
 
 WKID        : 108171
@@ -55322,11 +55923,11 @@ Description : Porto Santo Island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Madeira Archipelago - Porto Santo Island
-Area-slat   : 32.9166666666667
-Area-nlat   : 33.1666666666667
-Area-llon   : -16.4333333333333
-Area-rlon   : -16.25
+Area-name   : Portugal - Porto Santo island onshore
+Area-slat   : 32.96
+Area-nlat   : 33.15
+Area-llon   : -16.44
+Area-rlon   : -16.23
 Accuracy    : 0.3
 
 WKID        : 108172
@@ -55809,11 +56410,11 @@ Description : Azores - Graciosa island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Azores - Graciosa Island
-Area-slat   : 39.0
-Area-nlat   : 39.15
-Area-llon   : -28.15
-Area-rlon   : -27.9
+Area-name   : Portugal - Azores C - Graciosa onshore
+Area-slat   : 38.97
+Area-nlat   : 39.14
+Area-llon   : -28.13
+Area-rlon   : -27.88
 Accuracy    : 0.004
 
 WKID        : 108187
@@ -56081,10 +56682,10 @@ Description : Estonia
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : Estonia
+Area-name   : Estonia - onshore
 Area-slat   : 57.52
-Area-nlat   : 60.0
-Area-llon   : 20.37
+Area-nlat   : 59.75
+Area-llon   : 21.74
 Area-rlon   : 28.2
 Accuracy    : 0.1
 
@@ -56273,12 +56874,12 @@ Description : Costa Rica
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : yes
-Area-name   : Costa Rica
-Area-slat   : 2.15
-Area-nlat   : 11.77
-Area-llon   : -90.45
-Area-rlon   : -81.43
-Accuracy    : 1.0
+Area-name   : Costa Rica - onshore
+Area-slat   : 7.98
+Area-nlat   : 11.22
+Area-llon   : -85.97
+Area-rlon   : -82.53
+Accuracy    : 8.0
 
 WKID        : 108201
 Latest-WKID : 108201
@@ -56771,7 +57372,7 @@ Version     : 9.0.0
 Deprecated  : yes
 Area-name   : Israel, Palestine Territory, and Jordan
 Area-slat   : 29.19
-Area-nlat   : 33.52
+Area-nlat   : 33.53
 Area-llon   : 32.99
 Area-rlon   : 39.3
 Accuracy    : 2.0
@@ -56834,11 +57435,11 @@ Description : Venezuela
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : Venezuela
+Area-name   : Venezuela - onshore
 Area-slat   : 0.64
-Area-nlat   : 16.75
+Area-nlat   : 12.25
 Area-llon   : -73.38
-Area-rlon   : -58.95
+Area-rlon   : -59.8
 Accuracy    : 15.0
 
 WKID        : 108218
@@ -57218,10 +57819,10 @@ Description : Finland
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : Finland
-Area-slat   : 58.84
+Area-name   : Finland - onshore
+Area-slat   : 59.75
 Area-nlat   : 70.09
-Area-llon   : 19.08
+Area-llon   : 19.24
 Area-rlon   : 31.59
 Accuracy    : 1.0
 
@@ -57649,11 +58250,11 @@ Description : Azores - Graciosa island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Azores - Graciosa Island
-Area-slat   : 39.0
-Area-nlat   : 39.15
-Area-llon   : -28.15
-Area-rlon   : -27.9
+Area-name   : Portugal - Azores C - Graciosa onshore
+Area-slat   : 38.97
+Area-nlat   : 39.14
+Area-llon   : -28.13
+Area-rlon   : -27.88
 Accuracy    : 0.064
 
 WKID        : 108243
@@ -57842,11 +58443,11 @@ Description : Azores - Graciosa island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Azores - Graciosa Island
-Area-slat   : 39.0
-Area-nlat   : 39.15
-Area-llon   : -28.15
-Area-rlon   : -27.9
+Area-name   : Portugal - Azores C - Graciosa onshore
+Area-slat   : 38.97
+Area-nlat   : 39.14
+Area-llon   : -28.13
+Area-rlon   : -27.88
 Accuracy    : 0.01
 
 WKID        : 108249
@@ -58466,10 +59067,11 @@ WKT         : GEOGTRAN["LC5_1961_To_WGS_1984",
                PARAMETER["X_Axis_Translation", 42.0],
                PARAMETER["Y_Axis_Translation", 124.0],
                PARAMETER["Z_Axis_Translation", 147.0]]
-Description : Cayman Brac Island
+Description : Little Cayman and Cayman Brac Island - deprecated - use 15814
+              instead
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Cayman Islands - Little Cayman and Cayman Brac
 Area-slat   : 19.63
 Area-nlat   : 19.78
@@ -58673,10 +59275,10 @@ WKT         : GEOGTRAN["ED_1950_To_WGS_1984_9",
                PARAMETER["X_Axis_Translation", -117.0],
                PARAMETER["Y_Axis_Translation", -132.0],
                PARAMETER["Z_Axis_Translation", -164.0]]
-Description : Iran
+Description : Iran - deprecated, use 1141
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Iran
 Area-slat   : 23.34
 Area-nlat   : 39.78
@@ -58716,7 +59318,7 @@ Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-Accuracy    : 1.0
+Accuracy    : 3.0
 
 WKID        : 108277
 Latest-WKID : 108277
@@ -58750,7 +59352,7 @@ Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-Accuracy    : 1.0
+Accuracy    : 3.0
 
 WKID        : 108278
 Latest-WKID : 108278
@@ -58775,11 +59377,11 @@ Description : Algerie
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Algeria - north of 31.5~N
-Area-slat   : 31.5
+Area-name   : Algeria - north of 32~N
+Area-slat   : 31.99
 Area-nlat   : 37.14
-Area-llon   : -3.85
-Area-rlon   : 9.22
+Area-llon   : -2.95
+Area-rlon   : 9.09
 Accuracy    : 44.0
 
 WKID        : 108279
@@ -58805,10 +59407,10 @@ Description : Morocco
 Authority   : Esri
 Version     : 9.2.0
 Deprecated  : no
-Area-name   : Morocco
+Area-name   : Morocco - onshore
 Area-slat   : 27.66
-Area-nlat   : 36.0
-Area-llon   : -13.86
+Area-nlat   : 35.97
+Area-llon   : -13.24
 Area-rlon   : -1.01
 Accuracy    : 7.0
 
@@ -58937,11 +59539,11 @@ Description : Costa Rica (Registro Nacional)
 Authority   : Esri
 Version     : 9.2.0
 Deprecated  : no
-Area-name   : Costa Rica
-Area-slat   : 2.15
-Area-nlat   : 11.77
-Area-llon   : -90.45
-Area-rlon   : -81.43
+Area-name   : Costa Rica - onshore
+Area-slat   : 7.98
+Area-nlat   : 11.22
+Area-llon   : -85.97
+Area-rlon   : -82.53
 Accuracy    : 999.0
 
 WKID        : 108284
@@ -58967,12 +59569,12 @@ Description : Costa Rica 3 param (Stentz, NIMA)
 Authority   : Esri
 Version     : 9.2.0
 Deprecated  : yes
-Area-name   : Costa Rica
-Area-slat   : 2.15
-Area-nlat   : 11.77
-Area-llon   : -90.45
-Area-rlon   : -81.43
-Accuracy    : 999.0
+Area-name   : Central America - Guatemala to Costa Rica
+Area-slat   : 7.98
+Area-nlat   : 17.83
+Area-llon   : -92.29
+Area-rlon   : -82.53
+Accuracy    : 14.0
 
 WKID        : 108285
 Latest-WKID : 15925
@@ -59274,11 +59876,11 @@ Description : Azores - Graciosa island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Azores - Graciosa Island
-Area-slat   : 39.0
-Area-nlat   : 39.15
-Area-llon   : -28.15
-Area-rlon   : -27.9
+Area-name   : Portugal - Azores C - Graciosa onshore
+Area-slat   : 38.97
+Area-nlat   : 39.14
+Area-llon   : -28.13
+Area-rlon   : -27.88
 Accuracy    : 0.1
 
 WKID        : 108295
@@ -59394,7 +59996,7 @@ Version     : 10.0.0
 Deprecated  : no
 Area-name   : USA - Idaho and Montana
 Area-slat   : 41.0
-Area-nlat   : 50.0
+Area-nlat   : 49.38
 Area-llon   : -119.0
 Area-rlon   : -104.0
 Accuracy    : 0.05
@@ -59666,8 +60268,8 @@ Accuracy    : 999.0
 WKID        : 108308
 Latest-WKID : 108308
 Macro       : PE_GT_D48_TO_ETRS_1989_2007
-Name        : D48_To_ETRS_1989_2007
-WKT         : GEOGTRAN["D48_To_ETRS_1989_2007",
+Name        : D48_To_ETRS_1989_2007_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_2007_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -59686,10 +60288,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_2007",
                PARAMETER["Y_Axis_Rotation", 5.468945],
                PARAMETER["Z_Axis_Rotation", -11.02037],
                PARAMETER["Scale_Difference", -17.919456]]
-Description : Slovenia - up to 1m accuracy
+Description : Slovenia - up to 1m accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia
 Area-slat   : 45.42
 Area-nlat   : 46.88
@@ -59700,8 +60302,8 @@ Accuracy    : 1.0
 WKID        : 108309
 Latest-WKID : 108309
 Macro       : PE_GT_D48_TO_WGS_1984_2007
-Name        : D48_To_WGS_1984_2007
-WKT         : GEOGTRAN["D48_To_WGS_1984_2007",
+Name        : D48_To_WGS_1984_2007_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_2007_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -59720,10 +60322,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_2007",
                PARAMETER["Y_Axis_Rotation", 5.468945],
                PARAMETER["Z_Axis_Rotation", -11.02037],
                PARAMETER["Scale_Difference", -17.919456]]
-Description : Slovenia - up to 1m accuracy
+Description : Slovenia - up to 1m accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia
 Area-slat   : 45.42
 Area-nlat   : 46.88
@@ -59734,8 +60336,8 @@ Accuracy    : 1.0
 WKID        : 108310
 Latest-WKID : 108310
 Macro       : PE_GT_D48_TO_ETRS_1989_ZAH_SLO
-Name        : D48_To_ETRS_1989_Zahodna_Slovenia
-WKT         : GEOGTRAN["D48_To_ETRS_1989_Zahodna_Slovenia",
+Name        : D48_To_ETRS_1989_Zahodna_Slovenia_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_Zahodna_Slovenia_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -59754,10 +60356,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_Zahodna_Slovenia",
                PARAMETER["Y_Axis_Rotation", 8.131219],
                PARAMETER["Z_Axis_Rotation", -13.208894],
                PARAMETER["Scale_Difference", -23.448627]]
-Description : Slovenia - Zahodna Slovenia up to 50cm accuracy
+Description : Slovenia - Zahodna Slovenia up to 50cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - west of 14~30'E onshore
 Area-slat   : 45.44
 Area-nlat   : 46.53
@@ -59768,8 +60370,8 @@ Accuracy    : 0.5
 WKID        : 108311
 Latest-WKID : 108311
 Macro       : PE_GT_D48_TO_WGS_1984_ZAH_SLO
-Name        : D48_To_WGS_1984_Zahodna_Slovenia
-WKT         : GEOGTRAN["D48_To_WGS_1984_Zahodna_Slovenia",
+Name        : D48_To_WGS_1984_Zahodna_Slovenia_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_Zahodna_Slovenia_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -59788,10 +60390,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_Zahodna_Slovenia",
                PARAMETER["Y_Axis_Rotation", 8.131219],
                PARAMETER["Z_Axis_Rotation", -13.208894],
                PARAMETER["Scale_Difference", -23.448627]]
-Description : Slovenia - Zahodna Slovenia up to 50cm accuracy
+Description : Slovenia - Zahodna Slovenia up to 50cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - west of 14~30'E onshore
 Area-slat   : 45.44
 Area-nlat   : 46.53
@@ -59802,8 +60404,8 @@ Accuracy    : 0.5
 WKID        : 108312
 Latest-WKID : 108312
 Macro       : PE_GT_D48_TO_ETRS_1989_SV_SLO
-Name        : D48_To_ETRS_1989_Severovzhodna_Slovenia
-WKT         : GEOGTRAN["D48_To_ETRS_1989_Severovzhodna_Slovenia",
+Name        : D48_To_ETRS_1989_Severovzhodna_Slovenia_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_Severovzhodna_Slovenia_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -59823,9 +60425,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_Severovzhodna_Slovenia",
                PARAMETER["Z_Axis_Rotation", -9.954933],
                PARAMETER["Scale_Difference", -12.795283]]
 Description : Slovenia - Severovzhodna Slovenia up to 50cm accuracy
+              (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - NE
 Area-slat   : 46.14
 Area-nlat   : 46.88
@@ -59836,8 +60439,8 @@ Accuracy    : 0.5
 WKID        : 108313
 Latest-WKID : 108313
 Macro       : PE_GT_D48_TO_WGS_1984_SV_SLO
-Name        : D48_To_WGS_1984_Severovzhodna_Slovenia
-WKT         : GEOGTRAN["D48_To_WGS_1984_Severovzhodna_Slovenia",
+Name        : D48_To_WGS_1984_Severovzhodna_Slovenia_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_Severovzhodna_Slovenia_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -59857,9 +60460,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_Severovzhodna_Slovenia",
                PARAMETER["Z_Axis_Rotation", -9.954933],
                PARAMETER["Scale_Difference", -12.795283]]
 Description : Slovenia - Severovzhodna Slovenia up to 50cm accuracy
+              (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - NE
 Area-slat   : 46.14
 Area-nlat   : 46.88
@@ -59870,8 +60474,8 @@ Accuracy    : 0.5
 WKID        : 108314
 Latest-WKID : 108314
 Macro       : PE_GT_D48_TO_ETRS_1989_JV_SLO
-Name        : D48_To_ETRS_1989_Jugovzhodna_Slovenia
-WKT         : GEOGTRAN["D48_To_ETRS_1989_Jugovzhodna_Slovenia",
+Name        : D48_To_ETRS_1989_Jugovzhodna_Slovenia_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_Jugovzhodna_Slovenia_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -59890,10 +60494,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_Jugovzhodna_Slovenia",
                PARAMETER["Y_Axis_Rotation", 3.700405],
                PARAMETER["Z_Axis_Rotation", -10.860587],
                PARAMETER["Scale_Difference", -15.507373]]
-Description : Slovenia - Jugovzhodna Slovenia up to 50cm accuracy
+Description : Slovenia - Jugovzhodna Slovenia up to 50cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - SE
 Area-slat   : 45.42
 Area-nlat   : 46.22
@@ -59904,8 +60508,8 @@ Accuracy    : 0.5
 WKID        : 108315
 Latest-WKID : 108315
 Macro       : PE_GT_D48_TO_WGS_1984_JV_SLO
-Name        : D48_To_WGS_1984_Jugovzhodna_Slovenia
-WKT         : GEOGTRAN["D48_To_WGS_1984_Jugovzhodna_Slovenia",
+Name        : D48_To_WGS_1984_Jugovzhodna_Slovenia_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_Jugovzhodna_Slovenia_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -59924,10 +60528,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_Jugovzhodna_Slovenia",
                PARAMETER["Y_Axis_Rotation", 3.700405],
                PARAMETER["Z_Axis_Rotation", -10.860587],
                PARAMETER["Scale_Difference", -15.507373]]
-Description : Slovenia - Jugovzhodna Slovenia up to 50cm accuracy
+Description : Slovenia - Jugovzhodna Slovenia up to 50cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - SE
 Area-slat   : 45.42
 Area-nlat   : 46.22
@@ -59938,8 +60542,8 @@ Accuracy    : 0.5
 WKID        : 108316
 Latest-WKID : 108316
 Macro       : PE_GT_D48_TO_ETRS_1989_STAJERSKA
-Name        : D48_To_ETRS_1989_Stajerska
-WKT         : GEOGTRAN["D48_To_ETRS_1989_Stajerska",
+Name        : D48_To_ETRS_1989_Stajerska_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_Stajerska_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -59958,10 +60562,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_Stajerska",
                PARAMETER["Y_Axis_Rotation", 4.656409],
                PARAMETER["Z_Axis_Rotation", -10.155824],
                PARAMETER["Scale_Difference", -16.269825]]
-Description : Slovenia - Stajerska up to 30cm accuracy
+Description : Slovenia - Stajerska up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - Stajerska
 Area-slat   : 46.1
 Area-nlat   : 46.76
@@ -59972,8 +60576,8 @@ Accuracy    : 0.3
 WKID        : 108317
 Latest-WKID : 108317
 Macro       : PE_GT_D48_TO_WGS_1984_STAJERSKA
-Name        : D48_To_WGS_1984_Stajerska
-WKT         : GEOGTRAN["D48_To_WGS_1984_Stajerska",
+Name        : D48_To_WGS_1984_Stajerska_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_Stajerska_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -59992,10 +60596,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_Stajerska",
                PARAMETER["Y_Axis_Rotation", 4.656409],
                PARAMETER["Z_Axis_Rotation", -10.155824],
                PARAMETER["Scale_Difference", -16.269825]]
-Description : Slovenia - Stajerska up to 30cm accuracy
+Description : Slovenia - Stajerska up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - Stajerska
 Area-slat   : 46.1
 Area-nlat   : 46.76
@@ -60006,8 +60610,8 @@ Accuracy    : 0.3
 WKID        : 108318
 Latest-WKID : 108318
 Macro       : PE_GT_D48_TO_ETRS_1989_GORENJSKA
-Name        : D48_To_ETRS_1989_Gorenjska
-WKT         : GEOGTRAN["D48_To_ETRS_1989_Gorenjska",
+Name        : D48_To_ETRS_1989_Gorenjska_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_Gorenjska_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60026,10 +60630,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_Gorenjska",
                PARAMETER["Y_Axis_Rotation", 9.648137],
                PARAMETER["Z_Axis_Rotation", -10.759628],
                PARAMETER["Scale_Difference", -26.464974]]
-Description : Slovenia - Gorenjska up to 30cm accuracy
+Description : Slovenia - Gorenjska up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - Gorenjska and N Primorsko
 Area-slat   : 46.05
 Area-nlat   : 46.53
@@ -60040,8 +60644,8 @@ Accuracy    : 0.3
 WKID        : 108319
 Latest-WKID : 108319
 Macro       : PE_GT_D48_TO_WGS_1984_GORENJSKA
-Name        : D48_To_WGS_1984_Gorenjska
-WKT         : GEOGTRAN["D48_To_WGS_1984_Gorenjska",
+Name        : D48_To_WGS_1984_Gorenjska_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_Gorenjska_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60060,10 +60664,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_Gorenjska",
                PARAMETER["Y_Axis_Rotation", 9.648137],
                PARAMETER["Z_Axis_Rotation", -10.759628],
                PARAMETER["Scale_Difference", -26.464974]]
-Description : Slovenia - Gorenjska up to 30cm accuracy
+Description : Slovenia - Gorenjska up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - Gorenjska and N Primorsko
 Area-slat   : 46.05
 Area-nlat   : 46.53
@@ -60074,8 +60678,8 @@ Accuracy    : 0.3
 WKID        : 108320
 Latest-WKID : 108320
 Macro       : PE_GT_D48_TO_ETRS_1989_OSR_SLO
-Name        : D48_To_ETRS_1989_Osrednja_Slovenia
-WKT         : GEOGTRAN["D48_To_ETRS_1989_Osrednja_Slovenia",
+Name        : D48_To_ETRS_1989_Osrednja_Slovenia_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_Osrednja_Slovenia_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60094,10 +60698,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_Osrednja_Slovenia",
                PARAMETER["Y_Axis_Rotation", 5.263217],
                PARAMETER["Z_Axis_Rotation", -11.837473],
                PARAMETER["Scale_Difference", -20.022307]]
-Description : Slovenia - Osrednja Slovenia up to 30cm accuracy
+Description : Slovenia - Osrednja Slovenia up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - central
 Area-slat   : 45.91
 Area-nlat   : 46.31
@@ -60108,8 +60712,8 @@ Accuracy    : 0.3
 WKID        : 108321
 Latest-WKID : 108321
 Macro       : PE_GT_D48_TO_WGS_1984_OSR_SLO
-Name        : D48_To_WGS_1984_Osrednja_Slovenia
-WKT         : GEOGTRAN["D48_To_WGS_1984_Osrednja_Slovenia",
+Name        : D48_To_WGS_1984_Osrednja_Slovenia_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_Osrednja_Slovenia_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60128,10 +60732,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_Osrednja_Slovenia",
                PARAMETER["Y_Axis_Rotation", 5.263217],
                PARAMETER["Z_Axis_Rotation", -11.837473],
                PARAMETER["Scale_Difference", -20.022307]]
-Description : Slovenia - Osrednja Slovenia up to 30cm accuracy
+Description : Slovenia - Osrednja Slovenia up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - central
 Area-slat   : 45.91
 Area-nlat   : 46.31
@@ -60142,8 +60746,8 @@ Accuracy    : 0.3
 WKID        : 108322
 Latest-WKID : 108322
 Macro       : PE_GT_D48_TO_ETRS_1989_DOLENJSKA
-Name        : D48_To_ETRS_1989_Dolenjska
-WKT         : GEOGTRAN["D48_To_ETRS_1989_Dolenjska",
+Name        : D48_To_ETRS_1989_Dolenjska_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_Dolenjska_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60162,10 +60766,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_Dolenjska",
                PARAMETER["Y_Axis_Rotation", 3.262328],
                PARAMETER["Z_Axis_Rotation", -10.566926],
                PARAMETER["Scale_Difference", -16.132504]]
-Description : Slovenia - Dolenjska up to 30cm accuracy
+Description : Slovenia - Dolenjska up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - Dolenjska
 Area-slat   : 45.7
 Area-nlat   : 46.12
@@ -60176,8 +60780,8 @@ Accuracy    : 0.3
 WKID        : 108323
 Latest-WKID : 108323
 Macro       : PE_GT_D48_TO_WGS_1984_DOLENJSKA
-Name        : D48_To_WGS_1984_Dolenjska
-WKT         : GEOGTRAN["D48_To_WGS_1984_Dolenjska",
+Name        : D48_To_WGS_1984_Dolenjska_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_Dolenjska_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60196,10 +60800,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_Dolenjska",
                PARAMETER["Y_Axis_Rotation", 3.262328],
                PARAMETER["Z_Axis_Rotation", -10.566926],
                PARAMETER["Scale_Difference", -16.132504]]
-Description : Slovenia - Dolenjska up to 30cm accuracy
+Description : Slovenia - Dolenjska up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - Dolenjska
 Area-slat   : 45.7
 Area-nlat   : 46.12
@@ -60210,8 +60814,8 @@ Accuracy    : 0.3
 WKID        : 108324
 Latest-WKID : 108324
 Macro       : PE_GT_D48_TO_ETRS_1989_JUZ_SLO
-Name        : D48_To_ETRS_1989_Juzna_Slovenia
-WKT         : GEOGTRAN["D48_To_ETRS_1989_Juzna_Slovenia",
+Name        : D48_To_ETRS_1989_Juzna_Slovenia_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_Juzna_Slovenia_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60230,10 +60834,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_Juzna_Slovenia",
                PARAMETER["Y_Axis_Rotation", 5.898563],
                PARAMETER["Z_Axis_Rotation", -10.306816],
                PARAMETER["Scale_Difference", -12.431354]]
-Description : Slovenia - Juzna Slovenia up to 30cm accuracy
+Description : Slovenia - Juzna Slovenia up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - southeastern
 Area-slat   : 45.42
 Area-nlat   : 45.77
@@ -60244,8 +60848,8 @@ Accuracy    : 0.3
 WKID        : 108325
 Latest-WKID : 108325
 Macro       : PE_GT_D48_TO_WGS_1984_JUZ_SLO
-Name        : D48_To_WGS_1984_Juzna_Slovenia
-WKT         : GEOGTRAN["D48_To_WGS_1984_Juzna_Slovenia",
+Name        : D48_To_WGS_1984_Juzna_Slovenia_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_Juzna_Slovenia_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60264,10 +60868,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_Juzna_Slovenia",
                PARAMETER["Y_Axis_Rotation", 5.898563],
                PARAMETER["Z_Axis_Rotation", -10.306816],
                PARAMETER["Scale_Difference", -12.431354]]
-Description : Slovenia - Juzna Slovenia up to 30cm accuracy
+Description : Slovenia - Juzna Slovenia up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - southeastern
 Area-slat   : 45.42
 Area-nlat   : 45.77
@@ -60278,8 +60882,8 @@ Accuracy    : 0.3
 WKID        : 108326
 Latest-WKID : 108326
 Macro       : PE_GT_D48_TO_ETRS_1989_PRIMORSKA
-Name        : D48_To_ETRS_1989_Primorska
-WKT         : GEOGTRAN["D48_To_ETRS_1989_Primorska",
+Name        : D48_To_ETRS_1989_Primorska_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_Primorska_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60298,10 +60902,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_Primorska",
                PARAMETER["Y_Axis_Rotation", 6.490416],
                PARAMETER["Z_Axis_Rotation", -14.502467],
                PARAMETER["Scale_Difference", -20.888271]]
-Description : Slovenia - Primorska up to 30cm accuracy
+Description : Slovenia - Primorska up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - Primorska and Notranjska onshore
 Area-slat   : 45.44
 Area-nlat   : 46.08
@@ -60312,8 +60916,8 @@ Accuracy    : 0.3
 WKID        : 108327
 Latest-WKID : 108327
 Macro       : PE_GT_D48_TO_WGS_1984_PRIMORSKA
-Name        : D48_To_WGS_1984_Primorska
-WKT         : GEOGTRAN["D48_To_WGS_1984_Primorska",
+Name        : D48_To_WGS_1984_Primorska_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_Primorska_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60332,10 +60936,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_Primorska",
                PARAMETER["Y_Axis_Rotation", 6.490416],
                PARAMETER["Z_Axis_Rotation", -14.502467],
                PARAMETER["Scale_Difference", -20.888271]]
-Description : Slovenia - Primorska up to 30cm accuracy
+Description : Slovenia - Primorska up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - Primorska and Notranjska onshore
 Area-slat   : 45.44
 Area-nlat   : 46.08
@@ -60346,8 +60950,8 @@ Accuracy    : 0.3
 WKID        : 108328
 Latest-WKID : 108328
 Macro       : PE_GT_D48_TO_ETRS_1989_POMURJE
-Name        : D48_To_ETRS_1989_Pomurje
-WKT         : GEOGTRAN["D48_To_ETRS_1989_Pomurje",
+Name        : D48_To_ETRS_1989_Pomurje_ukinjena
+WKT         : GEOGTRAN["D48_To_ETRS_1989_Pomurje_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60366,10 +60970,10 @@ WKT         : GEOGTRAN["D48_To_ETRS_1989_Pomurje",
                PARAMETER["Y_Axis_Rotation", 3.119715],
                PARAMETER["Z_Axis_Rotation", -10.232694],
                PARAMETER["Scale_Difference", -4.185096]]
-Description : Slovenia - Pomurje up to 30cm accuracy
+Description : Slovenia - Pomurje up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - Pomurje
 Area-slat   : 46.47
 Area-nlat   : 46.88
@@ -60380,8 +60984,8 @@ Accuracy    : 0.3
 WKID        : 108329
 Latest-WKID : 108329
 Macro       : PE_GT_D48_TO_WGS_1984_POMURJE
-Name        : D48_To_WGS_1984_Pomurje
-WKT         : GEOGTRAN["D48_To_WGS_1984_Pomurje",
+Name        : D48_To_WGS_1984_Pomurje_ukinjena
+WKT         : GEOGTRAN["D48_To_WGS_1984_Pomurje_ukinjena",
                GEOGCS["GCS_D48",
                 DATUM["D_D48",
                  SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
@@ -60400,10 +61004,10 @@ WKT         : GEOGTRAN["D48_To_WGS_1984_Pomurje",
                PARAMETER["Y_Axis_Rotation", 3.119715],
                PARAMETER["Z_Axis_Rotation", -10.232694],
                PARAMETER["Scale_Difference", -4.185096]]
-Description : Slovenia - Pomurje up to 30cm accuracy
+Description : Slovenia - Pomurje up to 30cm accuracy (DEPRECATED)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Slovenia - Pomurje
 Area-slat   : 46.47
 Area-nlat   : 46.88
@@ -60710,11 +61314,11 @@ Description : Voirol 1875 in grads to Voirol 1875 in degrees
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Algeria - north of 31.5~N
-Area-slat   : 31.5
+Area-name   : Algeria - north of 32~N
+Area-slat   : 31.99
 Area-nlat   : 37.14
-Area-llon   : -3.85
-Area-rlon   : 9.22
+Area-llon   : -2.95
+Area-rlon   : 9.09
 Accuracy    : 999.0
 
 WKID        : 108340
@@ -60737,11 +61341,11 @@ Description : Voirol 1879 in grads to Voirol 1879 in degrees
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Africa - Algeria, Morocco and Tunisia
-Area-slat   : 18.98
-Area-nlat   : 37.34
-Area-llon   : -13.17
-Area-rlon   : 11.99
+Area-name   : Algeria - north of 32~N
+Area-slat   : 31.99
+Area-nlat   : 37.14
+Area-llon   : -2.95
+Area-rlon   : 9.09
 Accuracy    : 0.0
 
 WKID        : 108341
@@ -60839,11 +61443,11 @@ Description : Azores - Corvo island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Azores - Corvo Island
-Area-slat   : 39.5
-Area-nlat   : 39.75
-Area-llon   : -31.2
-Area-rlon   : -31.0
+Area-name   : Portugal - Azores W - Corvo onshore
+Area-slat   : 39.63
+Area-nlat   : 39.77
+Area-llon   : -31.18
+Area-rlon   : -31.02
 Accuracy    : 0.07
 
 WKID        : 108344
@@ -60929,11 +61533,11 @@ Description : Azores - Corvo island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Azores - Corvo Island
-Area-slat   : 39.5
-Area-nlat   : 39.75
-Area-llon   : -31.2
-Area-rlon   : -31.0
+Area-name   : Portugal - Azores W - Corvo onshore
+Area-slat   : 39.63
+Area-nlat   : 39.77
+Area-llon   : -31.18
+Area-rlon   : -31.02
 Accuracy    : 0.064
 
 WKID        : 108347
@@ -61031,11 +61635,11 @@ Description : Azores - Corvo island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Azores - Corvo Island
-Area-slat   : 39.5
-Area-nlat   : 39.75
-Area-llon   : -31.2
-Area-rlon   : -31.0
+Area-name   : Portugal - Azores W - Corvo onshore
+Area-slat   : 39.63
+Area-nlat   : 39.77
+Area-llon   : -31.18
+Area-rlon   : -31.02
 Accuracy    : 0.1
 
 WKID        : 108350
@@ -61121,11 +61725,11 @@ Description : Azores - Corvo island
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : no
-Area-name   : Azores - Corvo Island
-Area-slat   : 39.5
-Area-nlat   : 39.75
-Area-llon   : -31.2
-Area-rlon   : -31.0
+Area-name   : Portugal - Azores W - Corvo onshore
+Area-slat   : 39.63
+Area-nlat   : 39.77
+Area-llon   : -31.18
+Area-rlon   : -31.02
 Accuracy    : 0.085
 
 WKID        : 108353
@@ -61583,6 +62187,136 @@ Area-llon   : 50.26
 Area-rlon   : 51.13
 Accuracy    : 0.1
 
+WKID        : 108367
+Latest-WKID : 108367
+Macro       : PE_GT_GGD_TO_PULKOVO_1942
+Name        : GGD_To_Pulkovo_1942
+WKT         : GEOGTRAN["GGD_To_Pulkovo_1942",
+               GEOGCS["GGD",
+                DATUM["Georgia_Geodetic_Datum",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_Pulkovo_1942",
+                DATUM["D_Pulkovo_1942",
+                 SPHEROID["Krasovsky_1940", 6378245.0, 298.3]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Molodensky_Badekas"],
+               PARAMETER["X_Axis_Translation", -15.626],
+               PARAMETER["Y_Axis_Translation", 126.0343],
+               PARAMETER["Z_Axis_Translation", 79.3775],
+               PARAMETER["X_Axis_Rotation", -1.2753],
+               PARAMETER["Y_Axis_Rotation", -1.42112],
+               PARAMETER["Z_Axis_Rotation", 2.69445],
+               PARAMETER["Scale_Difference", 4.5284],
+               PARAMETER["X_Coordinate_of_Rotation_Origin", 3445619.6689],
+               PARAMETER["Y_Coordinate_of_Rotation_Origin", 3275369.7555],
+               PARAMETER["Z_Coordinate_of_Rotation_Origin", 4236015.9558]]
+Description : GGD to Pulkovo 1942
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Georgia - onshore
+Area-slat   : 41.04
+Area-nlat   : 43.59
+Area-llon   : 39.99
+Area-rlon   : 46.72
+Accuracy    : 0.11
+
+WKID        : 108368
+Latest-WKID : 108368
+Macro       : PE_GT_GGD_TO_ITRF93
+Name        : GGD_To_ITRF_1993
+WKT         : GEOGTRAN["GGD_To_ITRF_1993",
+               GEOGCS["GGD",
+                DATUM["Georgia_Geodetic_Datum",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_ITRF_1993",
+                DATUM["D_ITRF_1993",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Molodensky_Badekas"],
+               PARAMETER["X_Axis_Translation", 0.3452],
+               PARAMETER["Y_Axis_Translation", -0.1805],
+               PARAMETER["Z_Axis_Translation", -0.206],
+               PARAMETER["X_Axis_Rotation", -0.05465],
+               PARAMETER["Y_Axis_Rotation", 0.06718],
+               PARAMETER["Z_Axis_Rotation", -0.06143],
+               PARAMETER["Scale_Difference", 0.0181],
+               PARAMETER["X_Coordinate_of_Rotation_Origin", 3419202.2774],
+               PARAMETER["Y_Coordinate_of_Rotation_Origin", 3284301.1262],
+               PARAMETER["Z_Coordinate_of_Rotation_Origin", 4251887.7897]]
+Description : GGD to ITRF93
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Georgia - onshore
+Area-slat   : 41.04
+Area-nlat   : 43.59
+Area-llon   : 39.99
+Area-rlon   : 46.72
+Accuracy    : 0.03
+
+WKID        : 108369
+Latest-WKID : 108369
+Macro       : PE_GT_CH1903_PLUS_TO_ETRS_1989_NTV2
+Name        : CH1903+_To_ETRS_1989_NTv2
+WKT         : GEOGTRAN["CH1903+_To_ETRS_1989_NTv2",
+               GEOGCS["GCS_CH1903+",
+                DATUM["D_CH1903+",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["NTv2"],
+               PARAMETER["Dataset_switzerland/ntv2-ch03p-etrs", 0.0]]
+Description : CH1903+ to ETRS 1989 NTv2
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.82
+Area-nlat   : 47.81
+Area-llon   : 5.96
+Area-rlon   : 10.49
+Accuracy    : 0.1
+
+WKID        : 108370
+Latest-WKID : 108370
+Macro       : PE_GT_CH1903_PLUS_TO_CHTRF95_NTV2
+Name        : CH1903+_To_CHTRF95_NTv2
+WKT         : GEOGTRAN["CH1903+_To_CHTRF95_NTv2",
+               GEOGCS["GCS_CH1903+",
+                DATUM["D_CH1903+",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_Swiss_TRF_1995",
+                DATUM["D_Swiss_TRF_1995",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["NTv2"],
+               PARAMETER["Dataset_switzerland/ntv2-ch03p-etrs", 0.0]]
+Description : CH1903+ to CHTRF95 NTv2
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.82
+Area-nlat   : 47.81
+Area-llon   : 5.96
+Area-rlon   : 10.49
+Accuracy    : 0.1
+
 WKID        : 108374
 Latest-WKID : 108374
 Macro       : PE_GT_DEALUL_PISCULUI_1970_TO_WGS_1984_3X
@@ -61718,8 +62452,8 @@ Accuracy    : 1.0
 WKID        : 108378
 Latest-WKID : 108378
 Macro       : PE_GT_NAD_1983_HARN_TO_NAD_1983_PA11
-Name        : NAD_1983_HARN_To_NAD_1983_PA11
-WKT         : GEOGTRAN["NAD_1983_HARN_To_NAD_1983_PA11",
+Name        : NAD_1983_HARN_To_NAD_1983_PA11_bad_GCS
+WKT         : GEOGTRAN["NAD_1983_HARN_To_NAD_1983_PA11_bad_GCS",
                GEOGCS["GCS_North_American_1983_HARN",
                 DATUM["D_North_American_1983_HARN",
                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
@@ -61734,10 +62468,10 @@ WKT         : GEOGTRAN["NAD_1983_HARN_To_NAD_1983_PA11",
                PARAMETER["X_Axis_Translation", 0.0],
                PARAMETER["Y_Axis_Translation", 0.0],
                PARAMETER["Z_Axis_Translation", 0.0]]
-Description : Hawaii
+Description : Hawaii - Deprecated, use 108450
 Authority   : Esri
 Version     : 10.2.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Pacific - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
@@ -61801,6 +62535,127 @@ Area-llon   : 112.85
 Area-rlon   : 153.69
 Accuracy    : 0.05
 
+WKID        : 108448
+Latest-WKID : 108448
+Macro       : PE_GT_BAB_SOUTH_TO_WGS_1984
+Name        : Bab_South_To_WGS_1984
+WKT         : GEOGTRAN["Bab_South_To_WGS_1984",
+               GEOGCS["GCS_Bab_South",
+                DATUM["D_Bab_South",
+                 SPHEROID["Clarke_1866", 6378206.4, 294.9786982]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_WGS_1984",
+                DATUM["D_WGS_1984",
+                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Geocentric_Translation"],
+               PARAMETER["X_Axis_Translation", -185.583],
+               PARAMETER["Y_Axis_Translation", -230.096],
+               PARAMETER["Z_Axis_Translation", 281.361]]
+Description : Bablethuap Island - Republic of Palau
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Palau
+Area-slat   : 1.64
+Area-nlat   : 11.45
+Area-llon   : 129.48
+Area-rlon   : 136.98
+Accuracy    : 999.0
+
+WKID        : 108449
+Latest-WKID : 108449
+Macro       : PE_GT_MAJURO_TO_WGS_1984
+Name        : Majuro_To_WGS_1984
+WKT         : GEOGTRAN["Majuro_To_WGS_1984",
+               GEOGCS["GCS_Majuro",
+                DATUM["D_Majuro",
+                 SPHEROID["Clarke_1866", 6378206.4, 294.9786982]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_WGS_1984",
+                DATUM["D_WGS_1984",
+                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Geocentric_Translation"],
+               PARAMETER["X_Axis_Translation", 25.1],
+               PARAMETER["Y_Axis_Translation", -275.6],
+               PARAMETER["Z_Axis_Translation", 222.6]]
+Description : Majuro - Republic of Marshall Islands
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Marshall Islands
+Area-slat   : 1.77
+Area-nlat   : 17.88
+Area-llon   : 157.47
+Area-rlon   : 175.52
+Accuracy    : 999.0
+
+WKID        : 108450
+Latest-WKID : 108450
+Macro       : PE_GT_NAD_1983_HARN_TO_NAD_1983_PA11_1
+Name        : NAD_1983_HARN_To_NAD_1983_PA11_1
+WKT         : GEOGTRAN["NAD_1983_HARN_To_NAD_1983_PA11_1",
+               GEOGCS["GCS_North_American_1983_HARN",
+                DATUM["D_North_American_1983_HARN",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_NAD_1983_PA11",
+                DATUM["D_NAD_1983_PA11",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Geocentric_Translation"],
+               PARAMETER["X_Axis_Translation", 0.0],
+               PARAMETER["Y_Axis_Translation", 0.0],
+               PARAMETER["Z_Axis_Translation", 0.0]]
+Description : USA Pacific plate interests - replaces 108378 which had an
+              incorrect GCS
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Pacific - US interests Pacific plate
+Area-slat   : -17.56
+Area-nlat   : 31.8
+Area-llon   : 157.47
+Area-rlon   : -151.27
+Accuracy    : 1.0
+
+WKID        : 108452
+Latest-WKID : 108452
+Macro       : PE_GT_PADANG_TO_WGS_1984_1
+Name        : Padang_To_WGS_1984_1
+WKT         : GEOGTRAN["Padang_To_WGS_1984_1",
+               GEOGCS["GCS_Padang_1884",
+                DATUM["D_Padang_1884",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_WGS_1984",
+                DATUM["D_WGS_1984",
+                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Geocentric_Translation"],
+               PARAMETER["X_Axis_Translation", -377.0],
+               PARAMETER["Y_Axis_Translation", 681.0],
+               PARAMETER["Z_Axis_Translation", -50.0]]
+Description : Padang to WGS 1984 (1) should be 8452
+Authority   : Esri
+Version     : 10.7.0
+Deprecated  : no
+Area-name   : Indonesia - Sumatra
+Area-slat   : -5.99
+Area-nlat   : 5.97
+Area-llon   : 95.16
+Area-rlon   : 106.13
+Accuracy    : 6.0
+
 WKID        : 108453
 Latest-WKID : 108453
 Macro       : PE_GT_AGD_1984_TO_GDA_1994_NTV2_QUEENSLAND
@@ -61822,12 +62677,12 @@ Description : Queensland
 Authority   : Esri
 Version     : 8.1.0
 Deprecated  : no
-Area-name   : Australia - Queensland
-Area-slat   : -29.5
-Area-nlat   : -9.0
-Area-llon   : 137.5
-Area-rlon   : 154.0
-Accuracy    : 999.0
+Area-name   : Australia - Queensland mainland
+Area-slat   : -29.19
+Area-nlat   : -10.65
+Area-llon   : 137.99
+Area-rlon   : 153.61
+Accuracy    : 0.1
 
 WKID        : 108454
 Latest-WKID : 1593
@@ -62411,9 +63266,9 @@ Version     : 10.0.0
 Deprecated  : yes
 Area-name   : Europe - west
 Area-slat   : 34.88
-Area-nlat   : 71.21
+Area-nlat   : 84.17
 Area-llon   : -10.56
-Area-rlon   : 31.59
+Area-rlon   : 39.65
 Accuracy    : 1.0
 
 WKID        : 108857
@@ -62477,12 +63332,12 @@ Description : Slovenia - onshore and offshore
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : yes
-Area-name   : Slovenia
+Area-name   : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-Accuracy    : 1.0
+Accuracy    : 3.0
 
 WKID        : 108859
 Latest-WKID : 3915
@@ -62511,12 +63366,12 @@ Description : Slovenia - onshore and offshore
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : yes
-Area-name   : Slovenia
+Area-name   : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-Accuracy    : 1.0
+Accuracy    : 3.0
 
 WKID        : 108860
 Latest-WKID : 3916
@@ -62545,12 +63400,12 @@ Description : Slovenia - onshore and offshore
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : yes
-Area-name   : Slovenia
+Area-name   : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-Accuracy    : 1.0
+Accuracy    : 1.25
 
 WKID        : 108861
 Latest-WKID : 3917
@@ -62579,12 +63434,12 @@ Description : Slovenia - onshore and offshore
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : yes
-Area-name   : Slovenia
+Area-name   : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-Accuracy    : 1.0
+Accuracy    : 1.5
 
 WKID        : 108862
 Latest-WKID : 3918
@@ -63503,9 +64358,9 @@ Version     : 10.0.0
 Deprecated  : yes
 Area-name   : Europe - west
 Area-slat   : 34.88
-Area-nlat   : 71.21
+Area-nlat   : 84.17
 Area-llon   : -10.56
-Area-rlon   : 31.59
+Area-rlon   : 39.65
 Accuracy    : 0.3
 
 WKID        : 108890

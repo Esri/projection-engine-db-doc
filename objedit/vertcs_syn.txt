@@ -29,13 +29,18 @@
    FALSE, \
    "EPSG"
 
-"Baltic 1982 height", \
-   "Baltic_1982", \
+"Baltic 1977 depth", \
+   "Baltic_depth", \
    FALSE, \
    "EPSG"
 
-"Baltic height", \
+"Baltic 1977 height", \
    "Baltic", \
+   FALSE, \
+   "EPSG"
+
+"Baltic 1982 height", \
+   "Baltic_1982", \
    FALSE, \
    "EPSG"
 
@@ -71,6 +76,11 @@
 
 "Caspian depth", \
    "Caspian", \
+   FALSE, \
+   "EPSG"
+
+"CBVD61 height (ft)", \
+   "CBVD61_height", \
    FALSE, \
    "EPSG"
 
@@ -186,6 +196,11 @@
 
 "Foula height", \
    "Foula", \
+   FALSE, \
+   "EPSG"
+
+"GCVD54 height (ft)", \
+   "GCVD54_height", \
    FALSE, \
    "EPSG"
 
@@ -306,6 +321,11 @@
 
 "Lagos 1955 height", \
    "Lagos_1955", \
+   FALSE, \
+   "EPSG"
+
+"LCVD61 height (ft)", \
+   "LCVD61_height", \
    FALSE, \
    "EPSG"
 
@@ -444,7 +464,12 @@
    FALSE, \
    "EPSG"
 
-"NGVD29 height", \
+"NGVD29 depth (ftUS)", \
+   "NGVD29_depth", \
+   FALSE, \
+   "EPSG"
+
+"NGVD29 height (ftUS)", \
    "NGVD_1929", \
    FALSE, \
    "EPSG"
@@ -456,11 +481,6 @@
 
 "North Rona height", \
    "North_Rona", \
-   FALSE, \
-   "EPSG"
-
-"NVN99 height", \
-   "NVN99", \
    FALSE, \
    "EPSG"
 
@@ -494,7 +514,7 @@
    FALSE, \
    "EPSG"
 
-"Poolbeg height", \
+"Poolbeg height (ft(Br36))", \
    "Poolbeg", \
    FALSE, \
    "EPSG"
@@ -556,6 +576,11 @@
 
 "Sule Skerry height", \
    "Sule_Skerry", \
+   FALSE, \
+   "EPSG"
+
+"SVS2000 height", \
+   "NVN99", \
    FALSE, \
    "EPSG"
 

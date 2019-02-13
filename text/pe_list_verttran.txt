@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2018 Esri Inc.                                            #
+#  Copyright 1999-2019 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -2723,10 +2723,10 @@ WKT         : VERTTRAN["HKPD_Height_To_HKCD_Depth_1",
                 UNIT["Meter", 1.0]],
                VTMETHOD["Vertical_Offset"],
                PARAMETER["Vertical_Offset", -0.146]]
-Description : China - Hong Kong
+Description : China - Hong Kong - deprecated
 Authority   : EPSG
 Version     : 6.15(10.2.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : China - Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
@@ -3641,11 +3641,11 @@ Description : NAD 1983 (2011) To PRVD02 (Height)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Puerto Rico
-Area-slat   : 14.92
-Area-nlat   : 21.86
-Area-llon   : -68.49
-Area-rlon   : -65.04
+Area-name   : Puerto Rico - onshore
+Area-slat   : 17.87
+Area-nlat   : 18.57
+Area-llon   : -67.97
+Area-rlon   : -65.19
 Accuracy    : 2.0
 
 WKID        : 110004
@@ -3675,11 +3675,11 @@ Description : NAD 1983 (PA11) To ASVD02 (Height)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : American Samoa
-Area-slat   : -17.56
-Area-nlat   : -10.02
-Area-llon   : -173.75
-Area-rlon   : -165.2
+Area-name   : American Samoa - Tutuila island
+Area-slat   : -14.43
+Area-nlat   : -14.2
+Area-llon   : -170.88
+Area-rlon   : -170.51
 Accuracy    : 1.6
 
 WKID        : 110005
@@ -3709,11 +3709,11 @@ Description : NAD 1983 (MA11) To GUVD04 (Height)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Guam
-Area-slat   : 10.95
-Area-nlat   : 15.91
-Area-llon   : 141.19
-Area-rlon   : 148.18
+Area-name   : Guam - onshore
+Area-slat   : 13.18
+Area-nlat   : 13.7
+Area-llon   : 144.58
+Area-rlon   : 145.01
 Accuracy    : 1.6
 
 WKID        : 110006
@@ -3743,11 +3743,11 @@ Description : NAD 1983 To VIVD09 (Height)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Virgin Islands, US
-Area-slat   : 16.22
-Area-nlat   : 21.83
-Area-llon   : -66.05
-Area-rlon   : -63.88
+Area-name   : Virgin Islands, US - onshore
+Area-slat   : 17.62
+Area-nlat   : 18.44
+Area-llon   : -65.09
+Area-rlon   : -64.51
 Accuracy    : 2.0
 
 WKID        : 110007
@@ -4147,7 +4147,7 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-Accuracy    : 0.5
+Accuracy    : 0.15
 
 WKID        : 110019
 Latest-WKID : 110019
@@ -4312,11 +4312,11 @@ Description : NAD 1983 To PRVD02 (Height)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Puerto Rico
-Area-slat   : 14.92
-Area-nlat   : 21.86
-Area-llon   : -68.49
-Area-rlon   : -65.04
+Area-name   : Puerto Rico - onshore
+Area-slat   : 17.87
+Area-nlat   : 18.57
+Area-llon   : -67.97
+Area-rlon   : -65.19
 Accuracy    : 2.0
 
 WKID        : 110035
@@ -4346,11 +4346,11 @@ Description : NAD 1983 (2011) To VIVD09 (Height)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Virgin Islands, US
-Area-slat   : 16.22
-Area-nlat   : 21.83
-Area-llon   : -66.05
-Area-rlon   : -63.88
+Area-name   : Virgin Islands, US - onshore
+Area-slat   : 17.62
+Area-nlat   : 18.44
+Area-llon   : -65.09
+Area-rlon   : -64.51
 Accuracy    : 2.0
 
 WKID        : 110036
@@ -4380,11 +4380,11 @@ Description : NAD 1983 (MA11) To NMVD03 (Height)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Northern Mariana Islands
-Area-slat   : 12.38
-Area-nlat   : 23.9
-Area-llon   : 141.33
-Area-rlon   : 149.55
+Area-name   : Northern Mariana Islands - Rota, Saipan and Tinian
+Area-slat   : 14.06
+Area-nlat   : 15.35
+Area-llon   : 145.06
+Area-rlon   : 145.89
 Accuracy    : 1.6
 
 WKID        : 110037
@@ -5150,16 +5150,16 @@ WKT         : VERTTRAN["JGD_2000_To_JGD_2000_Vertical_Height_1",
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_jgeoid2008", 0.0]]
+               PARAMETER["Dataset_JGEOID2008", 0.0]]
 Description : Japan - JGEOID2008 model
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : no
-Area-name   : Japan - onshore
-Area-slat   : 20.37
+Area-name   : Japan - onshore mainland
+Area-slat   : 30.94
 Area-nlat   : 45.54
-Area-llon   : 122.83
-Area-rlon   : 154.05
+Area-llon   : 129.3
+Area-rlon   : 145.87
 Accuracy    : 10.0
 
 WKID        : 110060
@@ -5184,16 +5184,16 @@ WKT         : VERTTRAN["JGD_2011_To_JGD_2011_Vertical_Height_1",
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_gsigeoid2011", 0.0]]
+               PARAMETER["Dataset_GSIGEOID2011", 0.0]]
 Description : Japan - GSIGEOID2011 model
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : no
-Area-name   : Japan - onshore
-Area-slat   : 20.37
+Area-name   : Japan - onshore mainland
+Area-slat   : 30.94
 Area-nlat   : 45.54
-Area-llon   : 122.83
-Area-rlon   : 154.05
+Area-llon   : 129.3
+Area-rlon   : 145.87
 Accuracy    : 2.0
 
 WKID        : 110062
