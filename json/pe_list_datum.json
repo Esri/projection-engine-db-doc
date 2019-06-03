@@ -786,7 +786,7 @@
     "wkt": "DATUM[\"International_Terrestrial_Reference_Frame_2014\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
     "description": "International Terrestrial Reference Frame 2014",
     "authority": "EPSG",
-    "version": "9.1.1(10.5.1)(10.5.0)",
+    "version": "9.1.1(10.5.0)(10.5.1)",
     "deprecated": "no"
   },
   { "wkid": 1166,
@@ -1037,6 +1037,16 @@
     "description": "NAD 1983 (CSRS) version 7",
     "authority": "EPSG",
     "version": "9.1.1(10.6.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1201,
+    "latestWkid": 1201,
+    "macro": "PE_D_S_JTSK_JTSK03",
+    "name": "S-JTSK_[JTSK03]",
+    "wkt": "DATUM[\"S-JTSK_[JTSK03]\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]]",
+    "description": "System Jednotne Trigonometricke Site Katastralni [JTSK03]",
+    "authority": "Esri",
+    "version": "10.7.1",
     "deprecated": "no"
   },
   { "wkid": 1209,
@@ -5248,6 +5258,16 @@
     "authority": "Esri",
     "version": "10.1.1",
     "deprecated": "yes"
+  },
+  { "wkid": 106027,
+    "latestWkid": 106027,
+    "macro": "PE_D_OMAN_2017",
+    "name": "Oman_National_Geodetic_Datum_2017",
+    "wkt": "DATUM[\"Oman_National_Geodetic_Datum_2017\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
+    "description": "Oman National Geodetic Datum 2017",
+    "authority": "Esri",
+    "version": "10.7.1",
+    "deprecated": "no"
   },
   { "wkid": 106047,
     "latestWkid": 106047,

@@ -6516,14 +6516,6 @@ PE_PCS_GDA_1994_CIG94, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA 1994 CIG94"
 
-PE_PCS_GDA_1994_CIG94, \
-   "Projected Coordinate Systems/National Grids/Australia", \
-   "GDA 1994 CIG94"
-
-PE_PCS_GDA_1994_CKIG94, \
-   "Projected Coordinate Systems/National Grids/Australia", \
-   "GDA 1994 CKIG94"
-
 PE_PCS_GDA_1994_CKIG94, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA 1994 CKIG94"
@@ -6779,10 +6771,6 @@ PE_PCS_GDA2020_VICGRID, \
 PE_PCS_WGS_1984_AUSTRALIAN_CRS_LAMBERT, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "WGS 1984 Austalian Centre for Remote Sensing Lambert"
-
-PE_PCS_WGS_1984_CIG92, \
-   "Projected Coordinate Systems/National Grids/Australia", \
-   "WGS 1984 CIG92"
 
 PE_PCS_WGS_1984_CIG92, \
    "Projected Coordinate Systems/National Grids/Australia", \
@@ -7151,6 +7139,18 @@ PE_PCS_NAD_1983_CSRS_V6_MTM_NS_4, \
 PE_PCS_NAD_1983_CSRS_V6_MTM_NS_5, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (2011) CSRS v6 MTM Nova Scotia zone 5"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_19N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 19N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_20N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 20N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_21N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 21N"
 
 PE_PCS_NAD_1983_10TM_AEP_FOREST, \
    "Projected Coordinate Systems/National Grids/Canada", \
@@ -7796,6 +7796,10 @@ PE_PCS_MGI_1901_BALKANS_8, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "MGI 1901 Balkans 8"
 
+PE_PCS_MGI_1901_BALKANS_ZONE_7, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "MGI 1901 Balkans zone 7"
+
 PE_PCS_MGI_1901_SLOVENE_NATIONAL_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "MGI 1901 Slovene National Grid"
@@ -7843,10 +7847,6 @@ PE_PCS_MGI_SLOVENIA_GRID, \
 PE_PCS_MOLDREF99_MOLDOVA_TM, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "MOLDREF99 Moldova TM"
-
-PE_PCS_MACEDONIA_STATE_CS_7, \
-   "Projected Coordinate Systems/National Grids/Europe", \
-   "Macedonia State Coordinate System zone 7"
 
 PE_PCS_MACEDONIAN_STATE_CS, \
    "Projected Coordinate Systems/National Grids/Europe", \
@@ -7931,6 +7931,14 @@ PE_PCS_S_JTSK_KROVAK, \
 PE_PCS_S_JTSK_KROVAK_EN, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "S-JTSK Krovak EastNorth"
+
+PE_PCS_S_JTSK_JTSK03_KROVAK, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "S-JTSK [JTSK03] Krovak"
+
+PE_PCS_S_JTSK_JTSK03_KROVAK_EN, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "S-JTSK [JTSK03] Krovak EastNorth"
 
 PE_PCS_SRB_ETRS89_UTM_34N, \
    "Projected Coordinate Systems/National Grids/Europe", \
@@ -8387,34 +8395,6 @@ PE_PCS_OSGB_1936_HWY_ENG_C19H1, \
 PE_PCS_OSGB_1936_HWY_ENG_C19H2, \
    "Projected Coordinate Systems/National Grids/Europe/Highways England", \
    "OSGB36 Highways England C19H2"
-
-PE_PCS_PULKOVO_1942_CS63_X1, \
-   "Projected Coordinate Systems/National Grids/Europe/Ukraine", \
-   "Pulkovo 1942 CS63 zone X1"
-
-PE_PCS_PULKOVO_1942_CS63_X2, \
-   "Projected Coordinate Systems/National Grids/Europe/Ukraine", \
-   "Pulkovo 1942 CS63 zone X2"
-
-PE_PCS_PULKOVO_1942_CS63_X3, \
-   "Projected Coordinate Systems/National Grids/Europe/Ukraine", \
-   "Pulkovo 1942 CS63 zone X3"
-
-PE_PCS_PULKOVO_1942_CS63_X4, \
-   "Projected Coordinate Systems/National Grids/Europe/Ukraine", \
-   "Pulkovo 1942 CS63 zone X4"
-
-PE_PCS_PULKOVO_1942_CS63_X5, \
-   "Projected Coordinate Systems/National Grids/Europe/Ukraine", \
-   "Pulkovo 1942 CS63 zone X5"
-
-PE_PCS_PULKOVO_1942_CS63_X6, \
-   "Projected Coordinate Systems/National Grids/Europe/Ukraine", \
-   "Pulkovo 1942 CS63 zone X6"
-
-PE_PCS_PULKOVO_1942_CS63_X7, \
-   "Projected Coordinate Systems/National Grids/Europe/Ukraine", \
-   "Pulkovo 1942 CS63 zone X7"
 
 PE_PCS_ETRS_1989_GK19FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
@@ -11151,6 +11131,34 @@ PE_PCS_TUREF_TM42, \
 PE_PCS_TUREF_TM45, \
    "Projected Coordinate Systems/National Grids/Turkey", \
    "TUREF TM45"
+
+PE_PCS_PULKOVO_1942_CS63_X1, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "Pulkovo 1942 CS63 zone X1"
+
+PE_PCS_PULKOVO_1942_CS63_X2, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "Pulkovo 1942 CS63 zone X2"
+
+PE_PCS_PULKOVO_1942_CS63_X3, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "Pulkovo 1942 CS63 zone X3"
+
+PE_PCS_PULKOVO_1942_CS63_X4, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "Pulkovo 1942 CS63 zone X4"
+
+PE_PCS_PULKOVO_1942_CS63_X5, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "Pulkovo 1942 CS63 zone X5"
+
+PE_PCS_PULKOVO_1942_CS63_X6, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "Pulkovo 1942 CS63 zone X6"
+
+PE_PCS_PULKOVO_1942_CS63_X7, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "Pulkovo 1942 CS63 zone X7"
 
 PE_PCS_UKRAINE_2000_3_DEG_GK_21E, \
    "Projected Coordinate Systems/National Grids/Ukraine", \
@@ -18004,6 +18012,42 @@ PE_PCS_NAD_1983_2011_RMTCRS_ST_MARY_M, \
    "Projected Coordinate Systems/Tribal/Montana", \
    "NAD 1983 (2011) RMTCRS St Mary (Meters)"
 
+PE_PCS_NAD_1983_2011_NNCS_FT, \
+   "Projected Coordinate Systems/Tribal/Navajo", \
+   "NAD 1983 (2011) Navajo Nation Coordinate System (Intl Feet)"
+
+PE_PCS_NAD_1983_2011_NNCS_M, \
+   "Projected Coordinate Systems/Tribal/Navajo", \
+   "NAD 1983 (2011) Navajo Nation Coordinate System (Meters)"
+
+PE_PCS_NAD_1983_2011_NNCS_FTUS, \
+   "Projected Coordinate Systems/Tribal/Navajo", \
+   "NAD 1983 (2011) Navajo Nation Coordinate System (US Feet)"
+
+PE_PCS_NAD_1983_HARN_NNCS_FT, \
+   "Projected Coordinate Systems/Tribal/Navajo", \
+   "NAD 1983 HARN Navajo Nation Coordinate System (Intl Feet)"
+
+PE_PCS_NAD_1983_HARN_NNCS_M, \
+   "Projected Coordinate Systems/Tribal/Navajo", \
+   "NAD 1983 HARN Navajo Nation Coordinate System (Meters)"
+
+PE_PCS_NAD_1983_HARN_NNCS_FTUS, \
+   "Projected Coordinate Systems/Tribal/Navajo", \
+   "NAD 1983 HARN Navajo Nation Coordinate System (US Feet)"
+
+PE_PCS_NAD_1983_NSRS2007_NNCS_FT, \
+   "Projected Coordinate Systems/Tribal/Navajo", \
+   "NAD 1983 NSRS2007 Navajo Nation Coordinate System (Intl Feet)"
+
+PE_PCS_NAD_1983_NSRS2007_NNCS_M, \
+   "Projected Coordinate Systems/Tribal/Navajo", \
+   "NAD 1983 NSRS2007 Navajo Nation Coordinate System (Meters)"
+
+PE_PCS_NAD_1983_NSRS2007_NNCS_FTUS, \
+   "Projected Coordinate Systems/Tribal/Navajo", \
+   "NAD 1983 NSRS2007 Navajo Nation Coordinate System (US Feet)"
+
 PE_PCS_NAD_1983_2011_RMTCRS_WIND_RIVER_M, \
    "Projected Coordinate Systems/Tribal/Wyoming", \
    "NAD 1983 (2011) RMTCRS Wind River (Meters)"
@@ -18571,6 +18615,18 @@ PE_PCS_ONGD14_UTM_40N, \
 PE_PCS_ONGD14_UTM_41N, \
    "Projected Coordinate Systems/UTM/Asia", \
    "ONGD14 UTM Zone 41N"
+
+PE_PCS_ONGD17_UTM_39N, \
+   "Projected Coordinate Systems/UTM/Asia", \
+   "ONGD17 UTM Zone 39N"
+
+PE_PCS_ONGD17_UTM_40N, \
+   "Projected Coordinate Systems/UTM/Asia", \
+   "ONGD17 UTM Zone 40N"
+
+PE_PCS_ONGD17_UTM_41N, \
+   "Projected Coordinate Systems/UTM/Asia", \
+   "ONGD17 UTM Zone 41N"
 
 PE_PCS_PDO_1993_UTM_39N, \
    "Projected Coordinate Systems/UTM/Asia", \

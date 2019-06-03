@@ -412,6 +412,10 @@ PE_D_NAD_1983_CSRS_V7, \
    "North_American_Datum_of_1983_(CSRS)_version_7", \
    PE_S_GRS_1980
 
+PE_D_S_JTSK_JTSK03, \
+   "S-JTSK_[JTSK03]", \
+   PE_S_BESSEL_1841
+
 PE_D_HK_GEODETIC, \
    "Hong_Kong_Geodetic", \
    PE_S_GRS_1980
@@ -2078,6 +2082,10 @@ PE_D_VOIROL_UNIFIE_1960, \
 
 PE_D_CSRS_EPOCH_2017_5_NAD83, \
    "California_SRS_Epoch_2017.50_(NAD83)", \
+   PE_S_GRS_1980
+
+PE_D_OMAN_2017, \
+   "Oman_National_Geodetic_Datum_2017", \
    PE_S_GRS_1980
 
 PE_D_SPHERE_GRS_1980_MEAN_RADIUS, \

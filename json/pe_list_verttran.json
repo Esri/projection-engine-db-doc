@@ -1101,7 +1101,7 @@
     "latestWkid": 5428,
     "macro": "PE_VT_NVN99_TO_EVRS_2000_1",
     "name": "NVN99_To_EVRS_2000_1",
-    "wkt": "VERTTRAN[\"NVN99_To_EVRS_2000_1\",GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"NVN99\",VDATUM[\"National_Vertical_Network_1999\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"EVRS_2000\",VDATUM[\"European_Vertical_Reference_Frame_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"Vertical_Offset_and_Slope\"],PARAMETER[\"Vertical_Offset\",-0.411],PARAMETER[\"Longitude_Of_Evaluation\",15.0],PARAMETER[\"Latitude_Of_Evaluation\",46.0],PARAMETER[\"Inclination_North\",-0.033],PARAMETER[\"Inclination_East\",0.008]]",
+    "wkt": "VERTTRAN[\"NVN99_To_EVRS_2000_1\",GEOGCS[\"GCS_ETRS_1989\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"SVS2000\",VDATUM[\"Slovenian_Vertical_System_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"EVRS_2000\",VDATUM[\"European_Vertical_Reference_Frame_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"Vertical_Offset_and_Slope\"],PARAMETER[\"Vertical_Offset\",-0.411],PARAMETER[\"Longitude_Of_Evaluation\",15.0],PARAMETER[\"Latitude_Of_Evaluation\",46.0],PARAMETER[\"Inclination_North\",-0.033],PARAMETER[\"Inclination_East\",0.008]]",
     "description": "NVN99 to EVRS 2000 (1)",
     "authority": "EPSG",
     "version": "7.9.4(9.3.0.0)",

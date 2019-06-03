@@ -484,6 +484,16 @@
    FALSE, \
    "EPSG"
 
+"NVN99", \
+   "SVS2000", \
+   TRUE, \
+   "EPSG"
+
+"NVN99 height", \
+   "SVS2000", \
+   TRUE, \
+   "EPSG"
+
 "ODN height", \
    "Newlyn", \
    FALSE, \
@@ -580,7 +590,7 @@
    "EPSG"
 
 "SVS2000 height", \
-   "NVN99", \
+   "SVS2000", \
    FALSE, \
    "EPSG"
 

@@ -882,7 +882,7 @@ WKT         : DATUM["International_Terrestrial_Reference_Frame_2014",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : International Terrestrial Reference Frame 2014
 Authority   : EPSG
-Version     : 9.1.1(10.5.1)(10.5.0)
+Version     : 9.1.1(10.5.0)(10.5.1)
 Deprecated  : no
 
 WKID        : 1166
@@ -1158,6 +1158,17 @@ WKT         : DATUM["North_American_Datum_of_1983_(CSRS)_version_7",
 Description : NAD 1983 (CSRS) version 7
 Authority   : EPSG
 Version     : 9.1.1(10.6.0)
+Deprecated  : no
+
+WKID        : 1201
+Latest-WKID : 1201
+Macro       : PE_D_S_JTSK_JTSK03
+Name        : S-JTSK_[JTSK03]
+WKT         : DATUM["S-JTSK_[JTSK03]",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+Description : System Jednotne Trigonometricke Site Katastralni [JTSK03]
+Authority   : Esri
+Version     : 10.7.1
 Deprecated  : no
 
 WKID        : 1209
@@ -5790,6 +5801,17 @@ Description : Japan Geodetic Datum 2011
 Authority   : Esri
 Version     : 10.1.1
 Deprecated  : yes
+
+WKID        : 106027
+Latest-WKID : 106027
+Macro       : PE_D_OMAN_2017
+Name        : Oman_National_Geodetic_Datum_2017
+WKT         : DATUM["Oman_National_Geodetic_Datum_2017",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : Oman National Geodetic Datum 2017
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
 
 WKID        : 106047
 Latest-WKID : 106047

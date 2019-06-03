@@ -2108,14 +2108,14 @@ Area-rlon   : 17.17
 
 WKID        : 5779
 Latest-WKID : 5779
-Macro       : PE_VCS_NVN99
-Name        : NVN99
-WKT         : VERTCS["NVN99",
-               VDATUM["National_Vertical_Network_1999"],
+Macro       : PE_VCS_SVS2000
+Name        : SVS2000
+WKT         : VERTCS["SVS2000",
+               VDATUM["Slovenian_Vertical_System_2000"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-Description : NVN99 -- National Vertical Network 1999 (Slovenia)
+Description : SVS2000 -- Slovenian Vertical System 2000
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
@@ -3684,6 +3684,25 @@ Area-slat   : 63.34
 Area-nlat   : 66.59
 Area-llon   : -24.66
 Area-rlon   : -13.38
+
+WKID        : 8690
+Latest-WKID : 8690
+Macro       : PE_VCS_SVS2010
+Name        : SVS2010
+WKT         : VERTCS["SVS2010",
+               VDATUM["Slovenian_Vertical_System_2010"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SVS2010 -- Slovenian Vertical System 2010
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Slovenia - onshore
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
 
 WKID        : 105603
 Latest-WKID : 105603
@@ -6810,3 +6829,63 @@ Area-slat   : 41.04
 Area-nlat   : 43.59
 Area-llon   : 39.99
 Area-rlon   : 46.72
+
+WKID        : 115846
+Latest-WKID : 115846
+Macro       : PE_VCS_ONGD14
+Name        : ONGD14
+WKT         : VERTCS["ONGD14",
+               DATUM["Oman_National_Geodetic_Datum_2014",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ONGD14 ellipsoid height
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Oman
+Area-slat   : 14.33
+Area-nlat   : 26.74
+Area-llon   : 51.99
+Area-rlon   : 63.38
+
+WKID        : 115847
+Latest-WKID : 115847
+Macro       : PE_VCS_ONGD17
+Name        : ONGD17
+WKT         : VERTCS["ONGD17",
+               DATUM["Oman_National_Geodetic_Datum_2017",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ONGD17 ellipsoid height
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Oman
+Area-slat   : 14.33
+Area-nlat   : 26.74
+Area-llon   : 51.99
+Area-rlon   : 63.38
+
+WKID        : 115848
+Latest-WKID : 115848
+Macro       : PE_VCS_S_JTSK_JTSK03
+Name        : S-JTSK_[JTSK03]
+WKT         : VERTCS["S-JTSK_[JTSK03]",
+               DATUM["S-JTSK_[JTSK03]",
+                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : S-JTSK [JTSK03]
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Slovakia
+Area-slat   : 47.73
+Area-nlat   : 49.61
+Area-llon   : 16.84
+Area-rlon   : 22.56

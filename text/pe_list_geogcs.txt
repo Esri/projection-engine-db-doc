@@ -4647,11 +4647,11 @@ Description : Kuwait Utility
 Authority   : EPSG
 Version     : 6.5(3.0.1)
 Deprecated  : no
-Area-name   : Kuwait - Kuwait City
-Area-slat   : 29.17
-Area-nlat   : 29.45
-Area-llon   : 47.78
-Area-rlon   : 48.16
+Area-name   : Kuwait
+Area-slat   : 28.53
+Area-nlat   : 30.09
+Area-llon   : 46.54
+Area-rlon   : 49.53
 
 WKID        : 4322
 Latest-WKID : 4322
@@ -9633,6 +9633,25 @@ Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -47.74
 
+WKID        : 8351
+Latest-WKID : 8351
+Macro       : PE_GCS_S_JTSK_JTSK03
+Name        : S-JTSK_[JTSK03]
+WKT         : GEOGCS["S-JTSK_[JTSK03]",
+               DATUM["S-JTSK_[JTSK03]",
+                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : S-JTSK [JTSK03]
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Slovakia
+Area-slat   : 47.73
+Area-nlat   : 49.61
+Area-llon   : 16.84
+Area-rlon   : 22.56
+
 WKID        : 8427
 Latest-WKID : 8427
 Macro       : PE_GCS_HK_GEODETIC_CS
@@ -11247,6 +11266,25 @@ Area-slat   : 31.99
 Area-nlat   : 37.14
 Area-llon   : -2.95
 Area-rlon   : 9.09
+
+WKID        : 104027
+Latest-WKID : 104027
+Macro       : PE_GCS_ONGD17
+Name        : ONGD17
+WKT         : GEOGCS["ONGD17",
+               DATUM["Oman_National_Geodetic_Datum_2017",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ONGD17
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Oman
+Area-slat   : 14.33
+Area-nlat   : 26.74
+Area-llon   : 51.99
+Area-rlon   : 63.38
 
 WKID        : 104047
 Latest-WKID : 104047
