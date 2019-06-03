@@ -4139,12 +4139,12 @@
     "authority": "EPSG",
     "version": "6.5(3.0.1)",
     "deprecated": "no",
-    "areaname": "Kuwait - Kuwait City",
+    "areaname": "Kuwait",
     "extent":
-    { "slat": 29.17,
-      "nlat": 29.45,
-      "llon": 47.78,
-      "rlon": 48.16
+    { "slat": 28.53,
+      "nlat": 30.09,
+      "llon": 46.54,
+      "rlon": 49.53
     }
   },
   { "wkid": 4322,
@@ -8601,6 +8601,23 @@
       "rlon": -47.74
     }
   },
+  { "wkid": 8351,
+    "latestWkid": 8351,
+    "macro": "PE_GCS_S_JTSK_JTSK03",
+    "name": "S-JTSK_[JTSK03]",
+    "wkt": "GEOGCS[\"S-JTSK_[JTSK03]\",DATUM[\"S-JTSK_[JTSK03]\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "S-JTSK [JTSK03]",
+    "authority": "Esri",
+    "version": "10.7.1",
+    "deprecated": "no",
+    "areaname": "Slovakia",
+    "extent":
+    { "slat": 47.73,
+      "nlat": 49.61,
+      "llon": 16.84,
+      "rlon": 22.56
+    }
+  },
   { "wkid": 8427,
     "latestWkid": 8427,
     "macro": "PE_GCS_HK_GEODETIC_CS",
@@ -10044,6 +10061,23 @@
       "nlat": 37.14,
       "llon": -2.95,
       "rlon": 9.09
+    }
+  },
+  { "wkid": 104027,
+    "latestWkid": 104027,
+    "macro": "PE_GCS_ONGD17",
+    "name": "ONGD17",
+    "wkt": "GEOGCS[\"ONGD17\",DATUM[\"Oman_National_Geodetic_Datum_2017\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "ONGD17",
+    "authority": "Esri",
+    "version": "10.7.1",
+    "deprecated": "no",
+    "areaname": "Oman",
+    "extent":
+    { "slat": 14.33,
+      "nlat": 26.74,
+      "llon": 51.99,
+      "rlon": 63.38
     }
   },
   { "wkid": 104047,

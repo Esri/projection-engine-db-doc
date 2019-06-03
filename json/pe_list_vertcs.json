@@ -1871,10 +1871,10 @@
   },
   { "wkid": 5779,
     "latestWkid": 5779,
-    "macro": "PE_VCS_NVN99",
-    "name": "NVN99",
-    "wkt": "VERTCS[\"NVN99\",VDATUM[\"National_Vertical_Network_1999\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "description": "NVN99 -- National Vertical Network 1999 (Slovenia)",
+    "macro": "PE_VCS_SVS2000",
+    "name": "SVS2000",
+    "wkt": "VERTCS[\"SVS2000\",VDATUM[\"Slovenian_Vertical_System_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "description": "SVS2000 -- Slovenian Vertical System 2000",
     "authority": "EPSG",
     "version": "6.15(9.3.0.0)",
     "deprecated": "no",
@@ -3278,6 +3278,23 @@
       "nlat": 66.59,
       "llon": -24.66,
       "rlon": -13.38
+    }
+  },
+  { "wkid": 8690,
+    "latestWkid": 8690,
+    "macro": "PE_VCS_SVS2010",
+    "name": "SVS2010",
+    "wkt": "VERTCS[\"SVS2010\",VDATUM[\"Slovenian_Vertical_System_2010\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "description": "SVS2010 -- Slovenian Vertical System 2010",
+    "authority": "Esri",
+    "version": "10.7.1",
+    "deprecated": "no",
+    "areaname": "Slovenia - onshore",
+    "extent":
+    { "slat": 45.42,
+      "nlat": 46.88,
+      "llon": 13.38,
+      "rlon": 16.61
     }
   },
   { "wkid": 105603,
@@ -5947,6 +5964,57 @@
       "nlat": 43.59,
       "llon": 39.99,
       "rlon": 46.72
+    }
+  },
+  { "wkid": 115846,
+    "latestWkid": 115846,
+    "macro": "PE_VCS_ONGD14",
+    "name": "ONGD14",
+    "wkt": "VERTCS[\"ONGD14\",DATUM[\"Oman_National_Geodetic_Datum_2014\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "description": "ONGD14 ellipsoid height",
+    "authority": "Esri",
+    "version": "10.7.1",
+    "deprecated": "no",
+    "areaname": "Oman",
+    "extent":
+    { "slat": 14.33,
+      "nlat": 26.74,
+      "llon": 51.99,
+      "rlon": 63.38
+    }
+  },
+  { "wkid": 115847,
+    "latestWkid": 115847,
+    "macro": "PE_VCS_ONGD17",
+    "name": "ONGD17",
+    "wkt": "VERTCS[\"ONGD17\",DATUM[\"Oman_National_Geodetic_Datum_2017\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "description": "ONGD17 ellipsoid height",
+    "authority": "Esri",
+    "version": "10.7.1",
+    "deprecated": "no",
+    "areaname": "Oman",
+    "extent":
+    { "slat": 14.33,
+      "nlat": 26.74,
+      "llon": 51.99,
+      "rlon": 63.38
+    }
+  },
+  { "wkid": 115848,
+    "latestWkid": 115848,
+    "macro": "PE_VCS_S_JTSK_JTSK03",
+    "name": "S-JTSK_[JTSK03]",
+    "wkt": "VERTCS[\"S-JTSK_[JTSK03]\",DATUM[\"S-JTSK_[JTSK03]\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "description": "S-JTSK [JTSK03]",
+    "authority": "Esri",
+    "version": "10.7.1",
+    "deprecated": "no",
+    "areaname": "Slovakia",
+    "extent":
+    { "slat": 47.73,
+      "nlat": 49.61,
+      "llon": 16.84,
+      "rlon": 22.56
     }
   }
 ] }

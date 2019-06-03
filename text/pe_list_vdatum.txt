@@ -686,6 +686,16 @@ Authority   : EPSG
 Version     : 9.1(10.6.0)
 Deprecated  : no
 
+WKID        : 1215
+Latest-WKID : 1215
+Macro       : PE_VERTD_SVS2010
+Name        : Slovenian_Vertical_System_2010
+WKT         : VDATUM["Slovenian_Vertical_System_2010"]
+Description : Slovenian Vertical System 2010, datum Koper
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+
 WKID        : 5100
 Latest-WKID : 5100
 Macro       : PE_VERTD_MSL
@@ -1438,10 +1448,10 @@ Deprecated  : no
 
 WKID        : 5177
 Latest-WKID : 5177
-Macro       : PE_VERTD_NVN99
-Name        : National_Vertical_Network_1999
-WKT         : VDATUM["National_Vertical_Network_1999"]
-Description : National Vertical Network 1999 (Slovenia)
+Macro       : PE_VERTD_SVS2000
+Name        : Slovenian_Vertical_System_2000
+WKT         : VDATUM["Slovenian_Vertical_System_2000"]
+Description : Slovenian Vertical System 2000, datum Trieste
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
 Deprecated  : no

@@ -39814,6 +39814,136 @@ Area-llon   : -61.13
 Area-rlon   : -60.82
 Accuracy    : 10.0
 
+WKID        : 8364
+Latest-WKID : 8364
+Macro       : PE_GT_S_JTSK_JTSK03_TO_S_JTSK_1
+Name        : S-JTSK_[JTSK03]_To_S-JTSK_1
+WKT         : GEOGTRAN["S-JTSK_[JTSK03]_To_S-JTSK_1",
+               GEOGCS["S-JTSK_[JTSK03]",
+                DATUM["S-JTSK_[JTSK03]",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_S_JTSK",
+                DATUM["D_S_JTSK",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["NADCON"],
+               PARAMETER["Dataset_Slovakia_JTSK03_to_JTSK", 0.0]]
+Description : S-JTSK [JTSK03] To S-JTSK (1)
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Slovakia
+Area-slat   : 47.73
+Area-nlat   : 49.61
+Area-llon   : 16.84
+Area-rlon   : 22.56
+Accuracy    : 0.05
+
+WKID        : 8365
+Latest-WKID : 8365
+Macro       : PE_GT_ETRS_1989_TO_S_JTSK_JTSK03_1
+Name        : ETRS_1989_To_S-JTSK_[JTSK03]_1
+WKT         : GEOGTRAN["ETRS_1989_To_S-JTSK_[JTSK03]_1",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["S-JTSK_[JTSK03]",
+                DATUM["S-JTSK_[JTSK03]",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -485.014055],
+               PARAMETER["Y_Axis_Translation", -169.473618],
+               PARAMETER["Z_Axis_Translation", -483.842943],
+               PARAMETER["X_Axis_Rotation", 7.78625453],
+               PARAMETER["Y_Axis_Rotation", 4.39770887],
+               PARAMETER["Z_Axis_Rotation", 4.10248899],
+               PARAMETER["Scale_Difference", 0.0]]
+Description : ETRS 1989 To S-JTSK [JTSK03] (1)
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Slovakia
+Area-slat   : 47.73
+Area-nlat   : 49.61
+Area-llon   : 16.84
+Area-rlon   : 22.56
+Accuracy    : 0.001
+
+WKID        : 8367
+Latest-WKID : 8367
+Macro       : PE_GT_S_JTSK_JTSK03_TO_ETRS_1989_1
+Name        : S-JTSK_[JTSK03]_To_ETRS_1989_1
+WKT         : GEOGTRAN["S-JTSK_[JTSK03]_To_ETRS_1989_1",
+               GEOGCS["S-JTSK_[JTSK03]",
+                DATUM["S-JTSK_[JTSK03]",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", 485.021],
+               PARAMETER["Y_Axis_Translation", 169.465],
+               PARAMETER["Z_Axis_Translation", 483.839],
+               PARAMETER["X_Axis_Rotation", -7.786342],
+               PARAMETER["Y_Axis_Rotation", -4.397554],
+               PARAMETER["Z_Axis_Rotation", -4.102655],
+               PARAMETER["Scale_Difference", 0.0]]
+Description : S-JTSK [JTSK03] To ETRS 1989 (1)
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Slovakia
+Area-slat   : 47.73
+Area-nlat   : 49.61
+Area-llon   : 16.84
+Area-rlon   : 22.56
+Accuracy    : 0.001
+
+WKID        : 8368
+Latest-WKID : 8368
+Macro       : PE_GT_S_JTSK_JTSK03_TO_WGS_1984_1
+Name        : S-JTSK_[JTSK03]_To_WGS_1984_1
+WKT         : GEOGTRAN["S-JTSK_[JTSK03]_To_WGS_1984_1",
+               GEOGCS["S-JTSK_[JTSK03]",
+                DATUM["S-JTSK_[JTSK03]",
+                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_WGS_1984",
+                DATUM["D_WGS_1984",
+                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", 485.021],
+               PARAMETER["Y_Axis_Translation", 169.465],
+               PARAMETER["Z_Axis_Translation", 483.839],
+               PARAMETER["X_Axis_Rotation", -7.786342],
+               PARAMETER["Y_Axis_Rotation", -4.397554],
+               PARAMETER["Z_Axis_Rotation", -4.102655],
+               PARAMETER["Scale_Difference", 0.0]]
+Description : S-JTSK [JTSK03] To WGS 1984 (1)
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Slovakia
+Area-slat   : 47.73
+Area-nlat   : 49.61
+Area-llon   : 16.84
+Area-rlon   : 22.56
+Accuracy    : 1.0
+
 WKID        : 8370
 Latest-WKID : 1438
 Macro       : PE_GT_FAHUD_TO_WGS_1984_2
@@ -62317,6 +62447,74 @@ Area-llon   : 5.96
 Area-rlon   : 10.49
 Accuracy    : 0.1
 
+WKID        : 108371
+Latest-WKID : 108371
+Macro       : PE_GT_ONGD17_TO_ITRF_1989
+Name        : ONGD17_To_ITRF_1989
+WKT         : GEOGTRAN["ONGD17_To_ITRF_1989",
+               GEOGCS["ONGD17",
+                DATUM["Oman_National_Geodetic_Datum_2017",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_ITRF_1989",
+                DATUM["D_ITRF_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", 1.16835],
+               PARAMETER["Y_Axis_Translation", -1.42001],
+               PARAMETER["Z_Axis_Translation", -2.24431],
+               PARAMETER["X_Axis_Rotation", 0.00822],
+               PARAMETER["Y_Axis_Rotation", 0.05508],
+               PARAMETER["Z_Axis_Rotation", -0.01818],
+               PARAMETER["Scale_Difference", 0.23388]]
+Description : ONGD17 To ITRF 1989
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Oman
+Area-slat   : 14.33
+Area-nlat   : 26.74
+Area-llon   : 51.99
+Area-rlon   : 63.38
+Accuracy    : 0.1
+
+WKID        : 108372
+Latest-WKID : 108372
+Macro       : PE_GT_ONGD17_TO_WGS_1984
+Name        : ONGD17_To_WGS_1984
+WKT         : GEOGTRAN["ONGD17_To_WGS_1984",
+               GEOGCS["ONGD17",
+                DATUM["Oman_National_Geodetic_Datum_2017",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_WGS_1984",
+                DATUM["D_WGS_1984",
+                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", 1.16835],
+               PARAMETER["Y_Axis_Translation", -1.42001],
+               PARAMETER["Z_Axis_Translation", -2.24431],
+               PARAMETER["X_Axis_Rotation", 0.00822],
+               PARAMETER["Y_Axis_Rotation", 0.05508],
+               PARAMETER["Z_Axis_Rotation", -0.01818],
+               PARAMETER["Scale_Difference", 0.23388]]
+Description : ONGD17 To WGS 1984
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Oman
+Area-slat   : 14.33
+Area-nlat   : 26.74
+Area-llon   : 51.99
+Area-rlon   : 63.38
+Accuracy    : 0.1
+
 WKID        : 108374
 Latest-WKID : 108374
 Macro       : PE_GT_DEALUL_PISCULUI_1970_TO_WGS_1984_3X
@@ -62479,6 +62677,62 @@ Area-llon   : 157.47
 Area-rlon   : -151.27
 Accuracy    : 1.0
 
+WKID        : 108444
+Latest-WKID : 108444
+Macro       : PE_GT_GDA_1994_TO_GDA2020_NTV2_4
+Name        : GDA_1994_To_GDA2020_NTv2_4_Christmas
+WKT         : GEOGTRAN["GDA_1994_To_GDA2020_NTv2_4_Christmas",
+               GEOGCS["GCS_GDA_1994",
+                DATUM["D_GDA_1994",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GDA2020",
+                DATUM["GDA2020",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["NTv2"],
+               PARAMETER["Dataset_australia/GDA94_GDA2020_conformal_christmas_island", 0.0]]
+Description : Australia - Christmas Island (WKID should be 8444)
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Christmas Island - onshore
+Area-slat   : -10.63
+Area-nlat   : -10.36
+Area-llon   : 105.48
+Area-rlon   : 105.77
+Accuracy    : 0.05
+
+WKID        : 108445
+Latest-WKID : 108445
+Macro       : PE_GT_GDA_1994_TO_GDA2020_NTV2_5
+Name        : GDA_1994_To_GDA2020_NTv2_5_Cocos_Keeling
+WKT         : GEOGTRAN["GDA_1994_To_GDA2020_NTv2_5_Cocos_Keeling",
+               GEOGCS["GCS_GDA_1994",
+                DATUM["D_GDA_1994",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GDA2020",
+                DATUM["GDA2020",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["NTv2"],
+               PARAMETER["Dataset_australia/GDA94_GDA2020_conformal_cocos_island", 0.0]]
+Description : Australia - Cocos (Keeling) Islands (WKID should be 8445)
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Cocos (Keeling) Islands - onshore
+Area-slat   : -12.27
+Area-nlat   : -11.76
+Area-llon   : 96.76
+Area-rlon   : 96.99
+Accuracy    : 0.05
+
 WKID        : 108446
 Latest-WKID : 108446
 Macro       : PE_GT_GDA_1994_TO_GDA2020_NTV2_3
@@ -62625,6 +62879,40 @@ Area-nlat   : 31.8
 Area-llon   : 157.47
 Area-rlon   : -151.27
 Accuracy    : 1.0
+
+WKID        : 108451
+Latest-WKID : 108451
+Macro       : PE_GT_WGS_1984_TO_KUDAMS_KM_2019
+Name        : WGS_1984_To_KUDAMS_KM_2019
+WKT         : GEOGTRAN["WGS_1984_To_KUDAMS_KM_2019",
+               GEOGCS["GCS_WGS_1984",
+                DATUM["D_WGS_1984",
+                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               GEOGCS["GCS_KUDAMS",
+                DATUM["D_Kuwait_Utility",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               METHOD["Coordinate_Frame"],
+               PARAMETER["X_Axis_Translation", -6.1075],
+               PARAMETER["Y_Axis_Translation", -6.4151],
+               PARAMETER["Z_Axis_Translation", -4.9032],
+               PARAMETER["X_Axis_Rotation", 1.16158],
+               PARAMETER["Y_Axis_Rotation", 1.29682],
+               PARAMETER["Z_Axis_Rotation", 1.91627],
+               PARAMETER["Scale_Difference", 0.0]]
+Description : Kuwait
+Authority   : Esri
+Version     : 10.7.1
+Deprecated  : no
+Area-name   : Kuwait
+Area-slat   : 28.53
+Area-nlat   : 30.09
+Area-llon   : 46.54
+Area-rlon   : 49.53
+Accuracy    : 0.3
 
 WKID        : 108452
 Latest-WKID : 108452
