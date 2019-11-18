@@ -43,7 +43,7 @@ Name        : N2000
 WKT         : VDATUM["N2000"]
 Description : N2000
 Authority   : EPSG
-Version     : 7.1(10.1.0)
+Version     : 9.4(10.1.0)
 Deprecated  : no
 
 WKID        : 1039
@@ -686,14 +686,114 @@ Authority   : EPSG
 Version     : 9.1(10.6.0)
 Deprecated  : no
 
+WKID        : 1199
+Latest-WKID : 1199
+Macro       : PE_VERTD_GVR2000
+Name        : Greenland_Vertical_Reference_2000
+WKT         : VDATUM["Greenland_Vertical_Reference_2000"]
+Description : Greenland Vertical Reference 2000
+Authority   : EPSG
+Version     : 9.1.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1200
+Latest-WKID : 1200
+Macro       : PE_VERTD_GVR2016
+Name        : Greenland_Vertical_Reference_2016
+WKT         : VDATUM["Greenland_Vertical_Reference_2016"]
+Description : Greenland Vertical Reference 2016
+Authority   : EPSG
+Version     : 9.1.1(10.8.0)
+Deprecated  : no
+
+WKID        : 1202
+Latest-WKID : 1202
+Macro       : PE_VERTD_BALTIC_1957
+Name        : Baltic_1957
+WKT         : VDATUM["Baltic_1957"]
+Description : Baltic 1957
+Authority   : EPSG
+Version     : 9.2.1(10.8.0)
+Deprecated  : no
+
+WKID        : 1210
+Latest-WKID : 1210
+Macro       : PE_VERTD_MACAO_HT_DATUM
+Name        : Macao_Height_Datum
+WKT         : VDATUM["Macao_Height_Datum"]
+Description : Macao Height Datum
+Authority   : EPSG
+Version     : 9.2.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1213
+Latest-WKID : 1213
+Macro       : PE_VERTD_HELSINKI_1943
+Name        : Helsinki_1943
+WKT         : VDATUM["Helsinki_1943"]
+Description : Helsinki 1943
+Authority   : EPSG
+Version     : 9.4(10.8.0)
+Deprecated  : no
+
 WKID        : 1215
 Latest-WKID : 1215
 Macro       : PE_VERTD_SVS2010
 Name        : Slovenian_Vertical_System_2010
 WKT         : VDATUM["Slovenian_Vertical_System_2010"]
 Description : Slovenian Vertical System 2010, datum Koper
-Authority   : Esri
-Version     : 10.7.1
+Authority   : EPSG
+Version     : 9.4.2(10.7.1)
+Deprecated  : no
+
+WKID        : 1216
+Latest-WKID : 1216
+Macro       : PE_VERTD_SERBIAN_VRS_2012
+Name        : Serbian_Vertical_Reference_System_2012
+WKT         : VDATUM["Serbian_Vertical_Reference_System_2012"]
+Description : Serbian Vertical Reference System 2012
+Authority   : EPSG
+Version     : 9.7(10.8.0)
+Deprecated  : no
+
+WKID        : 1219
+Latest-WKID : 1219
+Macro       : PE_VERTD_MOMRA_VERT_GEODETIC_CONTROL
+Name        : MOMRA_Vertical_Geodetic_Control
+WKT         : VDATUM["MOMRA_Vertical_Geodetic_Control"]
+Description : MOMRA Vertical Geodetic Control
+Authority   : EPSG
+Version     : 9.5(10.8.0)
+Deprecated  : no
+
+WKID        : 1224
+Latest-WKID : 1224
+Macro       : PE_VERTD_TAIWAN_VERTICAL_DATUM_2001
+Name        : Taiwan_Vertical_Datum_2001
+WKT         : VDATUM["Taiwan_Vertical_Datum_2001"]
+Description : Taiwan Vertical Datum 2001
+Authority   : EPSG
+Version     : 9.6.1(10.8.0)
+Deprecated  : no
+
+WKID        : 1226
+Latest-WKID : 1226
+Macro       : PE_VERTD_DACR52
+Name        : Datum_Altimetrico_de_Costa_Rica_1952
+WKT         : VDATUM["Datum_Altimetrico_de_Costa_Rica_1952"]
+Description : Datum Altimetrico de Costa Rica 1952
+Authority   : EPSG
+Version     : 9.6.1(10.8.0)
+Deprecated  : no
+
+WKID        : 1250
+Latest-WKID : 1250
+Macro       : PE_VERTD_IGN_2008_LD
+Name        : IGN_2008_LD
+WKT         : VDATUM["IGN_2008_LD"]
+Description : IGN 2008 LD
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
 Deprecated  : no
 
 WKID        : 5100
@@ -753,7 +853,7 @@ Name        : Baltic_Sea
 WKT         : VDATUM["Baltic_Sea"]
 Description : Baltic Sea
 Authority   : EPSG
-Version     : 6.7(9.3.0.0)
+Version     : 9.2.2(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5106
@@ -793,7 +893,7 @@ Name        : Australian_Height_Datum
 WKT         : VDATUM["Australian_Height_Datum"]
 Description : Australian Height Datum
 Authority   : EPSG
-Version     : 6.8(9.3.0.0)
+Version     : 9.3(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5112
@@ -803,7 +903,7 @@ Name        : Australian_Height_Datum_Tasmania
 WKT         : VDATUM["Australian_Height_Datum_Tasmania"]
 Description : Australian Height Datum (Tasmania)
 Authority   : EPSG
-Version     : 7.9.4(9.3.0.0)
+Version     : 9.3(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5113
@@ -843,7 +943,7 @@ Name        : Helsinki_1960
 WKT         : VDATUM["Helsinki_1960"]
 Description : Helsinki 1960
 Authority   : EPSG
-Version     : 7.5.1(9.3.0.0)
+Version     : 9.1.3(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5117
@@ -1453,7 +1553,7 @@ Name        : Slovenian_Vertical_System_2000
 WKT         : VDATUM["Slovenian_Vertical_System_2000"]
 Description : Slovenian Vertical System 2000, datum Trieste
 Authority   : EPSG
-Version     : 6.5.1(9.3.0.0)
+Version     : 9.5(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5178
@@ -1803,7 +1903,7 @@ Name        : IGN_1992_LD
 WKT         : VDATUM["IGN_1992_LD"]
 Description : IGN 1992 LD
 Authority   : EPSG
-Version     : 6.18(10.0.0)
+Version     : 9.7(10.0.0)
 Deprecated  : no
 
 WKID        : 5213

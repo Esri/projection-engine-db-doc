@@ -394,6 +394,16 @@
    FALSE, \
    "EPSG"
 
+"MSL depth (ft)", \
+   "MSL_depth_(ftIntl)", \
+   FALSE, \
+   "EPSG"
+
+"MSL height (ft)", \
+   "MSL_height_(ftIntl)", \
+   FALSE, \
+   "EPSG"
+
 "N60 height", \
    "N60", \
    FALSE, \
@@ -414,10 +424,25 @@
    FALSE, \
    ""
 
+"NAVD88_depth_Ft_US", \
+   "NAVD88_depth_(ftUS)", \
+   FALSE, \
+   ""
+
 "NAVD88 height", \
    "NAVD_1988", \
    FALSE, \
    "EPSG"
+
+"NAVD88 height (ft)", \
+   "NAVD88_height_(ftIntl)", \
+   FALSE, \
+   "EPSG"
+
+"NAVD88_height_Ft_US", \
+   "NAVD88_height_(ftUS)", \
+   FALSE, \
+   ""
 
 "Nelson 1955 height", \
    "Nelson", \
@@ -471,6 +496,11 @@
 
 "NGVD29 height (ftUS)", \
    "NGVD_1929", \
+   FALSE, \
+   "EPSG"
+
+"NGVD29 height (m)", \
+   "NGVD_1929_height_(m)", \
    FALSE, \
    "EPSG"
 
@@ -591,6 +621,11 @@
 
 "SVS2000 height", \
    "SVS2000", \
+   FALSE, \
+   "EPSG"
+
+"SVS2010 height", \
+   "SVS2010", \
    FALSE, \
    "EPSG"
 

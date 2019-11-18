@@ -101,7 +101,7 @@ WKT         : DATUM["D_Serbian_Reference_Network_1998",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : Serbian Reference Network 1998
 Authority   : EPSG
-Version     : 8.9.4(10.1.0)
+Version     : 9.7(10.1.0)
 Deprecated  : no
 
 WKID        : 1035
@@ -233,7 +233,7 @@ WKT         : DATUM["D_S_JTSK_05",
                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
 Description : System Jednotne Trigonometricke Site Katastralni/05
 Authority   : EPSG
-Version     : 7.6(10.1.0)
+Version     : 9.4(10.1.0)
 Deprecated  : no
 
 WKID        : 1053
@@ -255,7 +255,7 @@ WKT         : DATUM["D_S_JTSK_05_Ferro",
                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
 Description : System Jednotne Trigonometricke Site Katastralni/05 (Ferro)
 Authority   : EPSG
-Version     : 7.6(10.1.0)
+Version     : 9.4(10.1.0)
 Deprecated  : no
 
 WKID        : 1056
@@ -343,7 +343,7 @@ WKT         : DATUM["D_SIRGAS-Chile",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : SIRGAS-Chile
 Authority   : EPSG
-Version     : 8.9.4(10.1.0)
+Version     : 9.8(10.1.0)
 Deprecated  : no
 
 WKID        : 1065
@@ -376,7 +376,7 @@ WKT         : DATUM["D_Peru96",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : Peru96
 Authority   : EPSG
-Version     : 8.9.4(10.1.0)
+Version     : 9.4(10.1.0)
 Deprecated  : no
 
 WKID        : 1068
@@ -387,7 +387,7 @@ WKT         : DATUM["D_SIRGAS-ROU98",
                SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
 Description : SIRGAS-ROU98
 Authority   : EPSG
-Version     : 8.9.4(10.1.0)
+Version     : 9.4(10.1.0)
 Deprecated  : no
 
 WKID        : 1069
@@ -607,7 +607,7 @@ WKT         : DATUM["D_NAD_1983_PA11",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : NAD 1983 (PA11) - Pacific Plate 2011
 Authority   : EPSG
-Version     : 8.2.2(10.2.1)
+Version     : 9.5(10.2.1)
 Deprecated  : no
 
 WKID        : 1118
@@ -618,7 +618,7 @@ WKT         : DATUM["D_NAD_1983_MA11",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : NAD 1983 (MA11) - Marianas Plate 2011
 Authority   : EPSG
-Version     : 8.2.2(10.2.1)
+Version     : 9.5(10.2.1)
 Deprecated  : no
 
 WKID        : 1120
@@ -728,7 +728,7 @@ WKT         : DATUM["IGS08",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : IGS08
 Authority   : EPSG
-Version     : 9.1.1(10.4.0)
+Version     : 9.6.3(10.4.0)
 Deprecated  : no
 
 WKID        : 1142
@@ -838,7 +838,7 @@ WKT         : DATUM["World_Geodetic_System_1984_(G1762)",
                SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
 Description : World Geodetic System 1984 (G1762)
 Authority   : EPSG
-Version     : 9.0(10.5.1)
+Version     : 9.3(10.5.1)
 Deprecated  : no
 
 WKID        : 1157
@@ -948,7 +948,7 @@ WKT         : DATUM["D_ETRF_1989",
                SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
 Description : European Terrestrial Ref. Frame 1989
 Authority   : EPSG
-Version     : 9.1(10.6.0)
+Version     : 9.2.2(10.6.0)
 Deprecated  : no
 
 WKID        : 1179
@@ -992,7 +992,7 @@ WKT         : DATUM["European_Terrestrial_Reference_Frame_1993",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : European terrestrial reference Frame 1993
 Authority   : EPSG
-Version     : 9.0(10.6.0)
+Version     : 9.2.2(10.6.0)
 Deprecated  : no
 
 WKID        : 1183
@@ -1036,7 +1036,7 @@ WKT         : DATUM["European_Terrestrial_Reference_Frame_2000",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : European terrestrial reference Frame 2000
 Authority   : EPSG
-Version     : 9.1(10.6.0)
+Version     : 9.2.2(10.6.0)
 Deprecated  : no
 
 WKID        : 1187
@@ -1080,7 +1080,7 @@ WKT         : DATUM["IGS14",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : IGS14
 Authority   : EPSG
-Version     : 9.1(10.6.0)
+Version     : 9.6.3(10.6.0)
 Deprecated  : no
 
 WKID        : 1192
@@ -1167,8 +1167,41 @@ Name        : S-JTSK_[JTSK03]
 WKT         : DATUM["S-JTSK_[JTSK03]",
                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
 Description : System Jednotne Trigonometricke Site Katastralni [JTSK03]
-Authority   : Esri
-Version     : 10.7.1
+Authority   : EPSG
+Version     : 9.2.2(10.7.1)
+Deprecated  : no
+
+WKID        : 1204
+Latest-WKID : 1204
+Macro       : PE_D_ETRF_2005
+Name        : European_Terrestrial_Reference_Frame_2005
+WKT         : DATUM["European_Terrestrial_Reference_Frame_2005",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : European Terrestrial Reference Frame 2005
+Authority   : EPSG
+Version     : 9.2.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1206
+Latest-WKID : 1206
+Macro       : PE_D_ETRF_2014
+Name        : European_Terrestrial_Reference_Frame_2014
+WKT         : DATUM["European_Terrestrial_Reference_Frame_2014",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : European Terrestrial Reference Frame 2014
+Authority   : EPSG
+Version     : 9.2.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1207
+Latest-WKID : 1207
+Macro       : PE_D_MACAO_1920
+Name        : Macao_1920
+WKT         : DATUM["Macao_1920",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+Description : Macao 1920
+Authority   : EPSG
+Version     : 9.2.2(10.8.0)
 Deprecated  : no
 
 WKID        : 1209
@@ -1178,8 +1211,8 @@ Name        : Hong_Kong_Geodetic
 WKT         : DATUM["Hong_Kong_Geodetic",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : Hong Kong Geodetic
-Authority   : Esri
-Version     : 10.7.0
+Authority   : EPSG
+Version     : 9.2.2(10.7.0)
 Deprecated  : no
 
 WKID        : 1211
@@ -1189,8 +1222,8 @@ Name        : NAD_1983_(Federal_Base_Network)
 WKT         : DATUM["NAD_1983_(Federal_Base_Network)",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : NAD83 (Federal Base Network)
-Authority   : Esri
-Version     : 10.7.0
+Authority   : EPSG
+Version     : 9.3(10.7.0)
 Deprecated  : no
 
 WKID        : 1212
@@ -1200,8 +1233,8 @@ Name        : NAD_1983_(High_Accuracy_Reference_Network-Corrected)
 WKT         : DATUM["NAD_1983_(High_Accuracy_Reference_Network-Corrected)",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : NAD83 (High Accuracy Reference Network - Corrected)
-Authority   : Esri
-Version     : 10.7.0
+Authority   : EPSG
+Version     : 9.3(10.7.0)
 Deprecated  : no
 
 WKID        : 1214
@@ -1211,8 +1244,19 @@ Name        : Serbian_Spatial_Reference_System_2000
 WKT         : DATUM["Serbian_Spatial_Reference_System_2000",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : Serbian Spatial Reference System 2000
-Authority   : Esri
-Version     : 10.7.0
+Authority   : EPSG
+Version     : 9.7(10.7.0)
+Deprecated  : no
+
+WKID        : 1217
+Latest-WKID : 1217
+Macro       : PE_D_CAMACUPA_2015
+Name        : Camacupa_2015
+WKT         : DATUM["Camacupa_2015",
+               SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]]
+Description : Camacupa 2015
+Authority   : EPSG
+Version     : 9.5.5(10.8.0)
 Deprecated  : no
 
 WKID        : 1218
@@ -1222,8 +1266,338 @@ Name        : MOMRA_Terrestrial_Reference_Frame_2000
 WKT         : DATUM["MOMRA_Terrestrial_Reference_Frame_2000",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : MOMRA Terrestrial Reference Frame 2000
-Authority   : Esri
-Version     : 10.7.0
+Authority   : EPSG
+Version     : 9.5(10.7.0)
+Deprecated  : no
+
+WKID        : 1220
+Latest-WKID : 1220
+Macro       : PE_D_RSA_2013
+Name        : Reference_System_de_Angola_2013
+WKT         : DATUM["Reference_System_de_Angola_2013",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : Reference System de Angola 2013
+Authority   : EPSG
+Version     : 9.5.5(10.8.0)
+Deprecated  : no
+
+WKID        : 1221
+Latest-WKID : 1221
+Macro       : PE_D_NAD_1983_MARP00
+Name        : D_NAD_1983_MARP00
+WKT         : DATUM["D_NAD_1983_MARP00",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : NAD 1983 MARP00
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+
+WKID        : 1223
+Latest-WKID : 1223
+Macro       : PE_D_RGWF_1996
+Name        : Reseau_Geodesique_de_Wallis_et_Futuna_1996
+WKT         : DATUM["Reseau_Geodesique_de_Wallis_et_Futuna_1996",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : Reseau Geodesique de Wallis et Futuna 1996
+Authority   : EPSG
+Version     : 9.6.1(10.8.0)
+Deprecated  : no
+
+WKID        : 1225
+Latest-WKID : 1225
+Macro       : PE_D_CR_SIRGAS
+Name        : CR-SIRGAS
+WKT         : DATUM["CR-SIRGAS",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : Costa Rica - SIRGAS
+Authority   : EPSG
+Version     : 9.6.1(10.8.0)
+Deprecated  : no
+
+WKID        : 1227
+Latest-WKID : 1227
+Macro       : PE_D_SIRGAS_CON_DGF00P01
+Name        : SIRGAS_Continuously_Operating_Network_DGF00P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_DGF00P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network DGF00P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1228
+Latest-WKID : 1228
+Macro       : PE_D_SIRGAS_CON_DGF01P01
+Name        : SIRGAS_Continuously_Operating_Network_DGF01P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_DGF01P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network DGF01P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1229
+Latest-WKID : 1229
+Macro       : PE_D_SIRGAS_CON_DGF01P02
+Name        : SIRGAS_Continuously_Operating_Network_DGF01P02
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_DGF01P02",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network DGF01P02
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1230
+Latest-WKID : 1230
+Macro       : PE_D_SIRGAS_CON_DGF02P01
+Name        : SIRGAS_Continuously_Operating_Network_DGF02P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_DGF02P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network DGF02P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1231
+Latest-WKID : 1231
+Macro       : PE_D_SIRGAS_CON_DGF04P01
+Name        : SIRGAS_Continuously_Operating_Network_DGF04P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_DGF04P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network DGF04P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1232
+Latest-WKID : 1232
+Macro       : PE_D_SIRGAS_CON_DGF05P01
+Name        : SIRGAS_Continuously_Operating_Network_DGF05P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_DGF05P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network DGF05P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1233
+Latest-WKID : 1233
+Macro       : PE_D_SIRGAS_CON_DGF06P01
+Name        : SIRGAS_Continuously_Operating_Network_DGF06P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_DGF06P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network DGF06P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1234
+Latest-WKID : 1234
+Macro       : PE_D_SIRGAS_CON_DGF07P01
+Name        : SIRGAS_Continuously_Operating_Network_DGF07P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_DGF07P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network DGF07P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1235
+Latest-WKID : 1235
+Macro       : PE_D_SIRGAS_CON_DGF08P01
+Name        : SIRGAS_Continuously_Operating_Network_DGF08P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_DGF08P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network DGF08P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1236
+Latest-WKID : 1236
+Macro       : PE_D_SIRGAS_CON_SIR09P01
+Name        : SIRGAS_Continuously_Operating_Network_SIR09P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_SIR09P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network SIR09P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1237
+Latest-WKID : 1237
+Macro       : PE_D_SIRGAS_CON_SIR10P01
+Name        : SIRGAS_Continuously_Operating_Network_SIR10P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_SIR10P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network SIR10P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1238
+Latest-WKID : 1238
+Macro       : PE_D_SIRGAS_CON_SIR11P01
+Name        : SIRGAS_Continuously_Operating_Network_SIR11P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_SIR11P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network SIR11P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1239
+Latest-WKID : 1239
+Macro       : PE_D_SIRGAS_CON_SIR13P01
+Name        : SIRGAS_Continuously_Operating_Network_SIR13P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_SIR13P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network SIR13P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1240
+Latest-WKID : 1240
+Macro       : PE_D_SIRGAS_CON_SIR14P01
+Name        : SIRGAS_Continuously_Operating_Network_SIR14P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_SIR14P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network SIR14P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1241
+Latest-WKID : 1241
+Macro       : PE_D_SIRGAS_CON_SIR15P01
+Name        : SIRGAS_Continuously_Operating_Network_SIR15P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_SIR15P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network SIR15P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1242
+Latest-WKID : 1242
+Macro       : PE_D_SIRGAS_CON_SIR17P01
+Name        : SIRGAS_Continuously_Operating_Network_SIR17P01
+WKT         : DATUM["SIRGAS_Continuously_Operating_Network_SIR17P01",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS Continuously Operating Network SIR17P01
+Authority   : EPSG
+Version     : 9.6.2(10.8.0)
+Deprecated  : no
+
+WKID        : 1243
+Latest-WKID : 1243
+Macro       : PE_D_SIRGAS_CHILE_REAL_2_2010
+Name        : SIRGAS-Chile_realization_2_epoch_2010
+WKT         : DATUM["SIRGAS-Chile_realization_2_epoch_2010",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS-Chile realization 2 epoch 2010.00
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+
+WKID        : 1244
+Latest-WKID : 1244
+Macro       : PE_D_IGS97
+Name        : IGS97
+WKT         : DATUM["IGS97",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : IGS97
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+
+WKID        : 1245
+Latest-WKID : 1245
+Macro       : PE_D_IGS00
+Name        : IGS00
+WKT         : DATUM["IGS00",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : IGS00
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+
+WKID        : 1246
+Latest-WKID : 1246
+Macro       : PE_D_IGB00
+Name        : IGb00
+WKT         : DATUM["IGb00",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : IGb00
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+
+WKID        : 1247
+Latest-WKID : 1247
+Macro       : PE_D_IGS05
+Name        : IGS05
+WKT         : DATUM["IGS05",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : IGS05
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+
+WKID        : 1248
+Latest-WKID : 1248
+Macro       : PE_D_IGB08
+Name        : IGb08
+WKT         : DATUM["IGb08",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : IGb08
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+
+WKID        : 1249
+Latest-WKID : 1249
+Macro       : PE_D_NAD_1983_PACP00
+Name        : D_NAD_1983_PACP00
+WKT         : DATUM["D_NAD_1983_PACP00",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : NAD 1983 PACP00
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+
+WKID        : 1251
+Latest-WKID : 1251
+Macro       : PE_D_KOSOVO_REF_SYS_2001
+Name        : Kosovo_Reference_System_2001
+WKT         : DATUM["Kosovo_Reference_System_2001",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : Kosovo Reference System 2001
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+
+WKID        : 1252
+Latest-WKID : 1252
+Macro       : PE_D_SIRGAS_CHILE_REAL_3_2013
+Name        : SIRGAS-Chile_realization_3_epoch_2013
+WKT         : DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS-Chile realization 3 epoch 2013.00
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+
+WKID        : 1253
+Latest-WKID : 1253
+Macro       : PE_D_SIRGAS_CHILE_REAL_4_2016
+Name        : SIRGAS-Chile_realization_4_epoch_2016
+WKT         : DATUM["SIRGAS-Chile_realization_4_epoch_2016",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS-Chile realization 4 epoch 2016.00
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
 Deprecated  : no
 
 WKID        : 6001
@@ -1960,7 +2334,7 @@ WKT         : DATUM["D_Kalianpur_1962",
                SPHEROID["Everest_Definition_1962", 6377301.243, 300.8017255]]
 Description : Kalianpur 1962
 Authority   : EPSG
-Version     : 6.16(8.1.0)
+Version     : 9.3(8.1.0)
 Deprecated  : no
 
 WKID        : 6146
@@ -1993,7 +2367,7 @@ WKT         : DATUM["D_Hartebeesthoek_1994",
                SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
 Description : Hartebeesthoek 1994
 Authority   : EPSG
-Version     : 6.11.1(8.1.0)
+Version     : 9.5.5(8.1.0)
 Deprecated  : no
 
 WKID        : 6149
@@ -2037,7 +2411,7 @@ WKT         : DATUM["D_North_American_1983_HARN",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : NAD 1983 (HARN)
 Authority   : EPSG
-Version     : 8.2.2(8.1.0)
+Version     : 9.5(8.1.0)
 Deprecated  : no
 
 WKID        : 6153
@@ -2081,7 +2455,7 @@ WKT         : DATUM["D_S_JTSK",
                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
 Description : S-JTSK
 Authority   : EPSG
-Version     : 7.6(8.1.0)
+Version     : 9.2.2(8.1.0)
 Deprecated  : no
 
 WKID        : 6157
@@ -2235,7 +2609,7 @@ WKT         : DATUM["D_SIRGAS",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : Sistema de Referencia Geocentrico para America del Sur
 Authority   : EPSG
-Version     : 9.1.1(8.1.2)
+Version     : 9.4(8.1.2)
 Deprecated  : no
 
 WKID        : 6171
@@ -2411,7 +2785,7 @@ WKT         : DATUM["D_REGVEN",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : REGVEN
 Authority   : EPSG
-Version     : 8.9.4(9.0.0)
+Version     : 9.4(9.0.0)
 Deprecated  : no
 
 WKID        : 6190
@@ -2422,7 +2796,7 @@ WKT         : DATUM["D_POSGAR_1998",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : POSGAR 1998
 Authority   : EPSG
-Version     : 8.9.4(9.0.0)
+Version     : 9.4(9.0.0)
 Deprecated  : no
 
 WKID        : 6191
@@ -2686,7 +3060,7 @@ WKT         : DATUM["D_Beijing_1954",
                SPHEROID["Krasovsky_1940", 6378245.0, 298.3]]
 Description : Beijing 1954
 Authority   : EPSG
-Version     : 7.2(3.0.1)
+Version     : 9.3(3.0.1)
 Deprecated  : no
 
 WKID        : 6215
@@ -2752,7 +3126,7 @@ WKT         : DATUM["D_Camacupa",
                SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]]
 Description : Camacupa
 Authority   : EPSG
-Version     : 6.16(3.0.1)
+Version     : 9.8(3.0.1)
 Deprecated  : no
 
 WKID        : 6221
@@ -3170,7 +3544,7 @@ WKT         : DATUM["D_ETRS_1989",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : European Terrestrial Ref. System 1989
 Authority   : EPSG
-Version     : 9.1.1(4.0.0)
+Version     : 9.2.2(4.0.0)
 Deprecated  : no
 
 WKID        : 6259
@@ -3291,7 +3665,7 @@ WKT         : DATUM["D_North_American_1983",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : North American Datum 1983
 Authority   : EPSG
-Version     : 6.15(3.0.1)
+Version     : 9.8(3.0.1)
 Deprecated  : no
 
 WKID        : 6270
@@ -3302,7 +3676,7 @@ WKT         : DATUM["D_Nahrwan_1967",
                SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]]
 Description : Nahrwan 1967
 Authority   : EPSG
-Version     : 6.16(3.0.1)
+Version     : 9.4.2(3.0.1)
 Deprecated  : no
 
 WKID        : 6271
@@ -3467,7 +3841,7 @@ WKT         : DATUM["D_Qatar",
                SPHEROID["International_1924", 6378388.0, 297.0]]
 Description : Qatar
 Authority   : EPSG
-Version     : 6.02(3.0.1)
+Version     : 9.3(3.0.1)
 Deprecated  : no
 
 WKID        : 6286
@@ -3995,7 +4369,7 @@ WKT         : DATUM["D_Hong_Kong_1980",
                SPHEROID["International_1924", 6378388.0, 297.0]]
 Description : Hong Kong 1980
 Authority   : EPSG
-Version     : 6.16(9.0.0)
+Version     : 9.2.2(9.0.0)
 Deprecated  : no
 
 WKID        : 6612
@@ -4138,7 +4512,7 @@ WKT         : DATUM["D_Fort_Desaix",
                SPHEROID["International_1924", 6378388.0, 297.0]]
 Description : Fort Desaix
 Authority   : EPSG
-Version     : 7.2(9.0.0)
+Version     : 9.1.3(9.0.0)
 Deprecated  : no
 
 WKID        : 6626
@@ -4644,7 +5018,7 @@ WKT         : DATUM["D_Guam_1963",
                SPHEROID["Clarke_1866", 6378206.4, 294.9786982]]
 Description : Guam 1963
 Authority   : EPSG
-Version     : 6.16(9.2.0)
+Version     : 9.5(9.2.0)
 Deprecated  : no
 
 WKID        : 6676
@@ -4743,7 +5117,7 @@ WKT         : DATUM["D_MAGNA",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : Colombia - Marco Geocentrico Nacional de Referencia
 Authority   : EPSG
-Version     : 8.9.4(9.2.0)
+Version     : 9.4(9.2.0)
 Deprecated  : no
 
 WKID        : 6687
@@ -5979,7 +6353,7 @@ Version     : 8.1.0
 Deprecated  : yes
 
 WKID        : 106209
-Latest-WKID : 106209
+Latest-WKID : 1249
 Macro       : PE_D_NAD_1983_PACP00
 Name        : D_NAD_1983_PACP00
 WKT         : DATUM["D_NAD_1983_PACP00",
@@ -5987,10 +6361,10 @@ WKT         : DATUM["D_NAD_1983_PACP00",
 Description : NAD 1983 PACP00
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : no
+Deprecated  : yes
 
 WKID        : 106210
-Latest-WKID : 106210
+Latest-WKID : 1221
 Macro       : PE_D_NAD_1983_MARP00
 Name        : D_NAD_1983_MARP00
 WKT         : DATUM["D_NAD_1983_MARP00",
@@ -5998,7 +6372,7 @@ WKT         : DATUM["D_NAD_1983_MARP00",
 Description : NAD 1983 MARP00
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : no
+Deprecated  : yes
 
 WKID        : 106211
 Latest-WKID : 6620

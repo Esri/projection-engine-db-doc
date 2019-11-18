@@ -304,6 +304,11 @@
    FALSE, \
    "Teradata"
 
+"Camacupa 1948", \
+   "Camacupa", \
+   FALSE, \
+   "EPSG"
+
 "Camp Area Astro", \
    "Camp_Area", \
    FALSE, \
@@ -788,6 +793,11 @@
    "Estonia_1997", \
    FALSE, \
    "Teradata"
+
+"ETRF89", \
+   "ETRF_1989", \
+   FALSE, \
+   "EPSG"
 
 "ETRS89", \
    "ETRS_1989", \
@@ -1357,7 +1367,17 @@
 "ITRF88", \
    "ITRF_1988", \
    FALSE, \
+   "EPSG"
+
+"ITRF88", \
+   "ITRF_1988", \
+   FALSE, \
    "Oracle"
+
+"ITRF89", \
+   "ITRF_1989", \
+   FALSE, \
+   "EPSG"
 
 "ITRF89", \
    "ITRF_1989", \
@@ -1367,7 +1387,17 @@
 "ITRF90", \
    "ITRF_1990", \
    FALSE, \
+   "EPSG"
+
+"ITRF90", \
+   "ITRF_1990", \
+   FALSE, \
    "Oracle"
+
+"ITRF91", \
+   "ITRF_1991", \
+   FALSE, \
+   "EPSG"
 
 "ITRF91", \
    "ITRF_1991", \
@@ -1377,7 +1407,17 @@
 "ITRF92", \
    "ITRF_1992", \
    FALSE, \
+   "EPSG"
+
+"ITRF92", \
+   "ITRF_1992", \
+   FALSE, \
    "Oracle"
+
+"ITRF93", \
+   "ITRF_1993", \
+   FALSE, \
+   "EPSG"
 
 "ITRF93", \
    "ITRF_1993", \
@@ -1387,12 +1427,27 @@
 "ITRF94", \
    "ITRF_1994", \
    FALSE, \
+   "EPSG"
+
+"ITRF94", \
+   "ITRF_1994", \
+   FALSE, \
    "Oracle"
 
 "ITRF96", \
    "ITRF_1996", \
    FALSE, \
+   "EPSG"
+
+"ITRF96", \
+   "ITRF_1996", \
+   FALSE, \
    "Oracle"
+
+"ITRF97", \
+   "ITRF_1997", \
+   FALSE, \
+   "EPSG"
 
 "ITRF97", \
    "ITRF_1997", \
@@ -2554,6 +2609,11 @@
    FALSE, \
    "Teradata"
 
+"NAD83(FBN)", \
+   "NAD_1983_(FBN)", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(HARN)", \
    "North_American_1983_HARN", \
    FALSE, \
@@ -3524,6 +3584,11 @@
    FALSE, \
    "SpatiaLite"
 
+"SIRGAS-Chile 2002", \
+   "SIRGAS-Chile", \
+   FALSE, \
+   "EPSG"
+
 "South Georgia 1968", \
    "ISTS_061_1968", \
    FALSE, \
@@ -3753,11 +3818,6 @@
    "St_Vincent_1945", \
    FALSE, \
    "Teradata"
-
-"ST87 Ouvea", \
-   "ST87_Ouvea_incorrect_spheroid", \
-   FALSE, \
-   "Oracle"
 
 "Tahaa", \
    "Tahaa_1954", \
@@ -5068,6 +5128,36 @@
    "WGS_1984", \
    FALSE, \
    "Teradata"
+
+"WGS 84 (G1150)", \
+   "WGS_1984_(G1150)", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 (G1674)", \
+   "WGS_1984_(G1674)", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 (G1762)", \
+   "WGS_1984_(G1762)", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 (G730)", \
+   "WGS_1984_(G730)", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 (G873)", \
+   "WGS_1984_(G873)", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 (Transit)", \
+   "WGS_1984_(Transit)", \
+   FALSE, \
+   "EPSG"
 
 "Yemen NGN96", \
    "Yemen_NGN_1996", \

@@ -84,6 +84,11 @@
    TRUE, \
    ""
 
+"AGD66 to GDA2020 (1)", \
+   "AGD_1966_To_GDA2020_1", \
+   FALSE, \
+   "EPSG"
+
 "AGD66 to GDA94 (1)", \
    "AGD_1966_To_GDA_1994", \
    FALSE, \
@@ -669,6 +674,11 @@
    TRUE, \
    ""
 
+"ATS77 to NAD83 (1)", \
+   "ATS_1977_To_NAD_1983_1_Nova_Scotia", \
+   FALSE, \
+   "EPSG"
+
 "ATS77 to NAD83(CSRS) (1)", \
    "ATS_1977_To_NAD_1983_CSRS_NTv2_New_Brunswick", \
    FALSE, \
@@ -681,6 +691,11 @@
 
 "ATS77 to NAD83(CSRS) (3)", \
    "ATS_1977_To_NAD_1983_CSRS_NTv2_Nova_Scotia", \
+   FALSE, \
+   "EPSG"
+
+"ATS77 to NAD83(CSRS)v6 (4)", \
+   "ATS_1977_To_NAD_1983_CSRS_v6_4_Nova_Scotia", \
    FALSE, \
    "EPSG"
 
@@ -934,6 +949,16 @@
    FALSE, \
    "EPSG"
 
+"BGS2005 to ETRS89 (1)", \
+   "BGS2005_To_ETRS_1989_1", \
+   FALSE, \
+   "EPSG"
+
+"BGS2005 to WGS 84 (1)", \
+   "BGS2005_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "Bioko to WGS 84 (1)", \
    "Bioko_To_WGS_1984_1", \
    FALSE, \
@@ -1099,58 +1124,83 @@
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 72BE (1)", \
+"Camacupa 1948 to Camacupa 2015 (1)", \
+   "Camacupa_To_Camacupa_2015_1", \
+   FALSE, \
+   "EPSG"
+
+"Camacupa 1948 to Camacupa 2015 (2)", \
+   "Camacupa_To_Camacupa_2015_2", \
+   FALSE, \
+   "EPSG"
+
+"Camacupa 1948 to RSAO13 (1)", \
+   "Camacupa_To_RSAO13_1", \
+   FALSE, \
+   "EPSG"
+
+"Camacupa 1948 to RSAO13 (2)", \
+   "Camacupa_To_RSAO13_2", \
+   FALSE, \
+   "EPSG"
+
+"Camacupa 1948 to WGS 72BE (1)", \
    "Camacupa_To_WGS_1972_BE_1", \
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 84 (1)", \
+"Camacupa 1948 to WGS 84 (1)", \
    "Camacupa_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 84 (10)", \
+"Camacupa 1948 to WGS 84 (10)", \
    "Camacupa_To_WGS_1984_10", \
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 84 (2)", \
+"Camacupa 1948 to WGS 84 (2)", \
    "Camacupa_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 84 (3)", \
+"Camacupa 1948 to WGS 84 (3)", \
    "Camacupa_To_WGS_1984_3", \
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 84 (4)", \
+"Camacupa 1948 to WGS 84 (4)", \
    "Camacupa_To_WGS_1984_4", \
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 84 (5)", \
+"Camacupa 1948 to WGS 84 (5)", \
    "Camacupa_To_WGS_1984_5", \
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 84 (6)", \
+"Camacupa 1948 to WGS 84 (6)", \
    "Camacupa_To_WGS_1984_6", \
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 84 (7)", \
+"Camacupa 1948 to WGS 84 (7)", \
    "Camacupa_To_WGS_1984_7", \
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 84 (8)", \
+"Camacupa 1948 to WGS 84 (8)", \
    "Camacupa_To_WGS_1984_8", \
    FALSE, \
    "EPSG"
 
-"Camacupa to WGS 84 (9)", \
+"Camacupa 1948 to WGS 84 (9)", \
    "Camacupa_To_WGS_1984_9", \
+   FALSE, \
+   "EPSG"
+
+"Camacupa 2015 to WGS 84 (11)", \
+   "Camacupa_2015_To_WGS_1984_11", \
    FALSE, \
    "EPSG"
 
@@ -1274,6 +1324,11 @@
    FALSE, \
    "EPSG"
 
+"CHTRF95 to ETRS89 (1)", \
+   "CHTRF95_To_ETRS_1989_1", \
+   FALSE, \
+   "EPSG"
+
 "CHTRF95 to WGS 84 (1)", \
    "CHTRF_1995_To_WGS_1984", \
    FALSE, \
@@ -1376,6 +1431,11 @@
 
 "CR05 to WGS 84 (1)", \
    "CR05_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"CR05 to WGS 84 (2)", \
+   "CR05_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
@@ -1611,6 +1671,11 @@
 
 "ED50 to ETRS89 (14)", \
    "ED_1950_To_ETRS_1989_NTv2_Catalonia", \
+   FALSE, \
+   "EPSG"
+
+"ED50 to ETRS89 (15)", \
+   "ED_1950_To_ETRS_1989_15", \
    FALSE, \
    "EPSG"
 
@@ -1934,6 +1999,11 @@
    FALSE, \
    "EPSG"
 
+"ETRS89 to S-JTSK [JTSK03] (1)", \
+   "ETRS_1989_To_S-JTSK_[JTSK03]_1", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 to WGS 84 (1)", \
    "ETRS_1989_To_WGS_1984", \
    FALSE, \
@@ -1951,6 +2021,16 @@
 
 "Fahud to WGS 84 (3)", \
    "Fahud_To_WGS_1984_3", \
+   FALSE, \
+   "EPSG"
+
+"Fatu Iva 72 to RGPF (1)", \
+   "Fatu_Iva_1972_To_RGPF_1", \
+   FALSE, \
+   "EPSG"
+
+"Fatu Iva 72 to WGS 84 (2)", \
+   "Fatu_Iva_1972_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
@@ -2344,6 +2424,16 @@
    FALSE, \
    "EPSG"
 
+"IGN63 Hiva Oa to WGS 84 (3)", \
+   "IGN63_Hiva_Oa_To_WGS_1984_3", \
+   FALSE, \
+   "EPSG"
+
+"IGN63 Hiva Oa to WGS 84 (4)", \
+   "IGN63_Hiva_Oa_To_WGS_1984_4", \
+   FALSE, \
+   "EPSG"
+
 "IGN72 Grande Terre to RGNC91-93 (1)", \
    "IGN72_Grande_Terre_To_RGNC_1991-93_1", \
    FALSE, \
@@ -2376,6 +2466,21 @@
 
 "IGN72 Nuku Hiva to WGS 84 (1)", \
    "IGN72_Nuku_Hiva_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"IGN72 Nuku Hiva to WGS 84 (5)", \
+   "IGN72_Nuku_Hiva_To_WGS_1984_5", \
+   FALSE, \
+   "EPSG"
+
+"IGN72 Nuku Hiva to WGS 84 (6)", \
+   "IGN72_Nuku_Hiva_To_WGS_1984_6", \
+   FALSE, \
+   "EPSG"
+
+"IGN72 Nuku Hiva to WGS 84 (7)", \
+   "IGN72_Nuku_Hiva_To_WGS_1984_7", \
    FALSE, \
    "EPSG"
 
@@ -2451,6 +2556,11 @@
 
 "Israel to WGS 84 (1)", \
    "Israel_To_WGS_1984", \
+   FALSE, \
+   "EPSG"
+
+"ITRF2008 to IG05/12 Intermediate CRS", \
+   "ITRF_2008_To_IG05(2012)_Intermediate_CRS", \
    FALSE, \
    "EPSG"
 
@@ -2659,6 +2769,11 @@
    FALSE, \
    "EPSG"
 
+"KOSOVAREF01 to WGS 84 (1)", \
+   "KOSOVAREF01_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "Kousseri to WGS 72BE (1)", \
    "Kousseri_To_WGS_1972_BE_1", \
    FALSE, \
@@ -2784,8 +2899,18 @@
    FALSE, \
    "EPSG"
 
+"LKS92 to ETRS89 (1)", \
+   "LKS_1992_To_ETRS_1989_1", \
+   FALSE, \
+   "EPSG"
+
 "LKS92 to WGS 84 (1)", \
    "LKS_1992_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"LKS94 to ETRS89 (1)", \
+   "LKS_1994_To_ETRS_1989_1", \
    FALSE, \
    "EPSG"
 
@@ -2964,6 +3089,11 @@
    FALSE, \
    "EPSG"
 
+"Maupiti 83 to WGS 84 (2)", \
+   "Maupiti_1983_To_WGS_1984_2", \
+   FALSE, \
+   "EPSG"
+
 "Mauritania 1999 to WGS 84 (1)", \
    "Mauritania_1999_To_WGS_1984_1", \
    FALSE, \
@@ -3004,6 +3134,11 @@
    FALSE, \
    "EPSG"
 
+"MGI 1901 to ETRS89 (7)", \
+   "MGI_1901_To_ETRS_1989_7", \
+   FALSE, \
+   "EPSG"
+
 "MGI 1901 to WGS 84 (1)", \
    "MGI_1901_To_WGS_1984_1", \
    FALSE, \
@@ -3016,6 +3151,21 @@
 
 "MGI 1901 to WGS 84 (11)", \
    "MGI_1901_To_WGS_1984_11", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to WGS 84 (12)", \
+   "MGI_1901_To_WGS_1984_12", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to WGS 84 (13)", \
+   "MGI_1901_To_WGS_1984_13", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to WGS 84 (14)", \
+   "MGI_1901_To_WGS_1984_14", \
    FALSE, \
    "EPSG"
 
@@ -3264,6 +3414,16 @@
    FALSE, \
    "EPSG"
 
+"Moorea 87 to RGPF (2)", \
+   "Moorea_1987_To_RGPF_2", \
+   FALSE, \
+   "EPSG"
+
+"Moorea 87 to WGS 84 (2)", \
+   "Moorea_1987_To_WGS_1984_2", \
+   FALSE, \
+   "EPSG"
+
 "MOP78 to WGS 84 (2)", \
    "MOP78_To_WGS_1984_2", \
    FALSE, \
@@ -3334,6 +3494,11 @@
    FALSE, \
    "EPSG"
 
+"NAD27(76) to NAD83(CSRS)v3 (1)", \
+   "NAD_1927_Def76_To_NAD_1983_CSRS_v3_1_Ontario", \
+   FALSE, \
+   "EPSG"
+
 "NAD27(76) to WGS 84 (1)", \
    "NAD_1927_DEF_1976_To_WGS_1984_1", \
    FALSE, \
@@ -3374,6 +3539,11 @@
    FALSE, \
    "EPSG"
 
+"NAD27 to NAD83 (9)", \
+   "NAD_1927_To_NAD_1983_9_Saskatchewan", \
+   FALSE, \
+   "EPSG"
+
 "NAD27 to NAD83(CSRS) (1)", \
    "NAD_1927_To_NAD_1983_CSRS_1", \
    FALSE, \
@@ -3386,6 +3556,36 @@
 
 "NAD27 to NAD83(CSRS) (4)", \
    "NAD_1927_To_NAD_1983_CSRS_4", \
+   FALSE, \
+   "EPSG"
+
+"NAD27 to NAD83(CSRS)v2 (7)", \
+   "NAD_1927_To_NAD_1983_CSRS_v2_7_British_Columbia", \
+   FALSE, \
+   "EPSG"
+
+"NAD27 to NAD83(CSRS)v3 (5)", \
+   "NAD_1927_To_NAD_1983_CSRS_v3_5_Ontario", \
+   FALSE, \
+   "EPSG"
+
+"NAD27 to NAD83(CSRS)v3 (6)", \
+   "NAD_1927_To_NAD_1983_CSRS_v3_6_Toronto", \
+   FALSE, \
+   "EPSG"
+
+"NAD27 to NAD83(CSRS)v3 (8)", \
+   "NAD_1927_To_NAD_1983_CSRS_v3_8_BC_CRD", \
+   FALSE, \
+   "EPSG"
+
+"NAD27 to NAD83(CSRS)v3 (9)", \
+   "NAD_1927_To_NAD_1983_CSRS_v3_9_BC_NVI", \
+   FALSE, \
+   "EPSG"
+
+"NAD27 to NAD83(CSRS)v4 (10)", \
+   "NAD_1927_To_NAD_1983_CSRS_v4_10_BC_mainland", \
    FALSE, \
    "EPSG"
 
@@ -3574,6 +3774,21 @@
    FALSE, \
    "EPSG"
 
+"NAD83(CSRS)v2 to NAD83(CSRS)v3 (1)", \
+   "NAD_1983_CSRS_v2_To_NAD_1983_CSRS_v3_1_BC_CRD", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v2 to NAD83(CSRS)v3 (2)", \
+   "NAD_1983_CSRS_v2_To_NAD_1983_CSRS_v3_2_BC_NVI", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v2 to NAD83(CSRS)v4 (1)", \
+   "NAD_1983_CSRS_v2_To_NAD_1983_CSRS_v4_1_BC_mainland", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(HARN) to NAD83(NSRS2007) (1)", \
    "NAD_1983_HARN_To_NAD_1983_NSRS2007_1", \
    FALSE, \
@@ -3616,6 +3831,31 @@
 
 "NAD83 to NAD83(CSRS) (4)", \
    "NAD_1983_To_NAD_1983_CSRS_4", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 to NAD83(CSRS)v2 (6)", \
+   "NAD_1983_To_NAD_1983_CSRS_v2_6_BC", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 to NAD83(CSRS)v3 (5)", \
+   "NAD_1983_To_NAD_1983_CSRS_v3_5_Ontario", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 to NAD83(CSRS)v3 (7)", \
+   "NAD_1983_To_NAD_1983_CSRS_v3_7_BC_CRD", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 to NAD83(CSRS)v3 (8)", \
+   "NAD_1983_To_NAD_1983_CSRS_v3_8_BC_NVI", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 to NAD83(CSRS)v4 (9)", \
+   "NAD_1983_To_NAD_1983_CSRS_v4_9_BC_mainland", \
    FALSE, \
    "EPSG"
 
@@ -4804,6 +5044,11 @@
    FALSE, \
    "EPSG"
 
+"Pulkovo 1942(58) to Albanian 1987 (1)", \
+   "Pulkovo_1942_Adj_1958_To_Albanian_1987_1", \
+   FALSE, \
+   "EPSG"
+
 "Pulkovo 1942(58) to ETRS89 (1)", \
    "Pulkovo_1942_Adj_1958_To_ETRS_1989_1", \
    FALSE, \
@@ -4831,6 +5076,11 @@
 
 "Pulkovo 1942(58) to WGS 84 (19)", \
    "Pulkovo_1942_Adj_1958_To_WGS_1984_19", \
+   FALSE, \
+   "EPSG"
+
+"Pulkovo 1942(58) to WGS 84 (22)", \
+   "Pulkovo_1942_Adj_1958_To_WGS_1984_22", \
    FALSE, \
    "EPSG"
 
@@ -5124,6 +5374,11 @@
    FALSE, \
    "EPSG"
 
+"RGPF to WGS 84 (1)", \
+   "RGPF_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "RGPF to WGS 84 (2)", \
    "RGPF_To_WGS_1984_2", \
    FALSE, \
@@ -5156,6 +5411,11 @@
 
 "RRAF 1991 to WGS 84 (1)", \
    "RRAF_1991_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"RSAO13 to WGS 84 (1)", \
+   "RSAO13_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -5479,6 +5739,16 @@
    FALSE, \
    "EPSG"
 
+"S-JTSK [JTSK03] to ETRS89 (1)", \
+   "S-JTSK_[JTSK03]_To_ETRS_1989_1", \
+   FALSE, \
+   "EPSG"
+
+"S-JTSK [JTSK03] to WGS 84 (1)", \
+   "S-JTSK_[JTSK03]_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "S-JTSK (Ferro) to S-JTSK (1)", \
    "S_JTSK_Ferro_To_S_JTSK", \
    FALSE, \
@@ -5581,6 +5851,16 @@
 
 "South Yemen to Yemen NGN96 (1)", \
    "South_Yemen_To_Yemen_NGN_1996", \
+   FALSE, \
+   "EPSG"
+
+"SRB_ETRS89 to ETRS89 (1)", \
+   "SRB_ETRS89_To_ETRS_1989_1", \
+   FALSE, \
+   "EPSG"
+
+"SRB_ETRS89 to WGS 84 (1)", \
+   "SRB_ETRS89_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -5689,6 +5969,11 @@
    FALSE, \
    "EPSG"
 
+"SVY21 to WGS 84 (1)", \
+   "SVY21_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "SWEREF99 to ETRS89 (1)", \
    "SWEREF99_To_ETRS_1989_1", \
    FALSE, \
@@ -5699,8 +5984,18 @@
    FALSE, \
    "EPSG"
 
+"Tahaa 54 to RGPF (1)", \
+   "Tahaa_1954_To_RGPF_1", \
+   FALSE, \
+   "EPSG"
+
 "Tahaa 54 to WGS 84 (1)", \
    "Tahaa_1954_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"Tahaa 54 to WGS 84 (3)", \
+   "Tahaa_1954_To_WGS_1984_3", \
    FALSE, \
    "EPSG"
 
@@ -5711,6 +6006,16 @@
 
 "Tahiti 52 to WGS 84 (1)", \
    "Tahiti_1952_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"Tahiti 79 to RGPF (1)", \
+   "Tahiti_1979_To_RGPF_1", \
+   FALSE, \
+   "EPSG"
+
+"Tahiti 79 to WGS 84 (2)", \
+   "Tahiti_1979_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
@@ -5986,6 +6291,11 @@
 
 "WGS 72 to WGS 84 (2)", \
    "WGS_1972_To_WGS_1984_2", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 to IG05/12 Intermediate CRS", \
+   "WGS_1984_To_IG05(2012)_Intermediate_CRS", \
    FALSE, \
    "EPSG"
 

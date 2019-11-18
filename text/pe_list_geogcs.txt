@@ -48,7 +48,7 @@ Description : Taiwan 1967
 Authority   : EPSG
 Version     : 6.18(10.1.0)
 Deprecated  : no
-Area-name   : Taiwan - onshore
+Area-name   : Taiwan - onshore - mainland and Penghu
 Area-slat   : 21.87
 Area-nlat   : 25.34
 Area-llon   : 119.25
@@ -103,7 +103,7 @@ WKT         : GEOGCS["GCS_MGI_1901",
                UNIT["Degree", 0.0174532925199433]]
 Description : MGI 1901
 Authority   : EPSG
-Version     : 7.1(10.1.0)
+Version     : 9.5(10.1.0)
 Deprecated  : no
 Area-name   : Europe - former Yugoslavia onshore
 Area-slat   : 40.85
@@ -920,9 +920,9 @@ WKT         : GEOGCS["GCS_SREF98",
                UNIT["Degree", 0.0174532925199433]]
 Description : Serbian Reference Network 1998
 Authority   : EPSG
-Version     : 7.1(10.0.0)
+Version     : 9.7(10.0.0)
 Deprecated  : no
-Area-name   : Serbia
+Area-name   : Serbia and Kosovo
 Area-slat   : 41.85
 Area-nlat   : 46.19
 Area-llon   : 18.81
@@ -996,7 +996,7 @@ WKT         : GEOGCS["GCS_ATS_1977",
                UNIT["Degree", 0.0174532925199433]]
 Description : Average Terrestrial System 1977
 Authority   : EPSG
-Version     : 6.5(4.0.0)
+Version     : 9.8(4.0.0)
 Deprecated  : no
 Area-name   : Canada - Maritime Provinces
 Area-slat   : 43.41
@@ -1433,7 +1433,7 @@ WKT         : GEOGCS["GCS_Kalianpur_1962",
                UNIT["Degree", 0.0174532925199433]]
 Description : Kalianpur 1962
 Authority   : EPSG
-Version     : 6.5(8.1.0)
+Version     : 9.3(8.1.0)
 Deprecated  : no
 Area-name   : Pakistan
 Area-slat   : 21.05
@@ -1490,7 +1490,7 @@ WKT         : GEOGCS["GCS_Hartebeesthoek_1994",
                UNIT["Degree", 0.0174532925199433]]
 Description : Hartebeesthoek 1994
 Authority   : EPSG
-Version     : 6.14(8.1.0)
+Version     : 9.5.5(8.1.0)
 Deprecated  : no
 Area-name   : South Africa
 Area-slat   : -50.32
@@ -1566,7 +1566,7 @@ WKT         : GEOGCS["GCS_North_American_1983_HARN",
                UNIT["Degree", 0.0174532925199433]]
 Description : North American Datum 1983 (HARN)
 Authority   : EPSG
-Version     : 8.4.1(8.1.0)
+Version     : 9.8(8.1.0)
 Deprecated  : no
 Area-name   : USA - HARN
 Area-slat   : -14.59
@@ -1642,7 +1642,7 @@ WKT         : GEOGCS["GCS_S_JTSK",
                UNIT["Degree", 0.0174532925199433]]
 Description : S-JTSK
 Authority   : EPSG
-Version     : 7.6(8.1.0)
+Version     : 9.2.2(8.1.0)
 Deprecated  : no
 Area-name   : Europe - Czechoslovakia
 Area-slat   : 47.73
@@ -1851,7 +1851,7 @@ WKT         : GEOGCS["GCS_NZGD_2000",
                UNIT["Degree", 0.0174532925199433]]
 Description : New Zealand Geodetic Datum 2000
 Authority   : EPSG
-Version     : 6.15(9.0.0)
+Version     : 9.6.4(9.0.0)
 Deprecated  : no
 Area-name   : New Zealand
 Area-slat   : -55.95
@@ -1908,7 +1908,7 @@ WKT         : GEOGCS["GCS_SIRGAS",
                UNIT["Degree", 0.0174532925199433]]
 Description : SIRGAS
 Authority   : EPSG
-Version     : 6.14(8.1.2)
+Version     : 9.7(8.1.2)
 Deprecated  : no
 Area-name   : South America - SIRGAS 1995 by country
 Area-slat   : -59.87
@@ -2459,7 +2459,7 @@ WKT         : GEOGCS["GCS_Australian_1966",
                UNIT["Degree", 0.0174532925199433]]
 Description : Australian Geodetic Datum 1966
 Authority   : EPSG
-Version     : 6.5(3.0.1)
+Version     : 9.8(3.0.1)
 Deprecated  : no
 Area-name   : Australasia - Australia and PNG - AGD66
 Area-slat   : -47.2
@@ -2478,7 +2478,7 @@ WKT         : GEOGCS["GCS_Australian_1984",
                UNIT["Degree", 0.0174532925199433]]
 Description : Australian Geodetic Datum 1984
 Authority   : EPSG
-Version     : 7.4.6(3.0.1)
+Version     : 9.8(3.0.1)
 Deprecated  : no
 Area-name   : Australia - AGD84
 Area-slat   : -38.53
@@ -2687,7 +2687,7 @@ WKT         : GEOGCS["GCS_Beijing_1954",
                UNIT["Degree", 0.0174532925199433]]
 Description : Beijing 1954
 Authority   : EPSG
-Version     : 7.2(3.0.1)
+Version     : 9.3(3.0.1)
 Deprecated  : no
 Area-name   : China
 Area-slat   : 16.7
@@ -2782,7 +2782,7 @@ WKT         : GEOGCS["GCS_Camacupa",
                UNIT["Degree", 0.0174532925199433]]
 Description : Camacupa
 Authority   : EPSG
-Version     : 6.5(3.0.1)
+Version     : 9.8(3.0.1)
 Deprecated  : no
 Area-name   : Angola - Angola proper
 Area-slat   : -18.02
@@ -2822,7 +2822,7 @@ Description : Cape
 Authority   : EPSG
 Version     : 6.5(3.0.1)
 Deprecated  : no
-Area-name   : Africa - Botswana, Lesotho, South Africa and Swaziland
+Area-name   : Africa - Botswana, Eswatini, Lesotho and South Africa
 Area-slat   : -34.88
 Area-nlat   : -17.78
 Area-llon   : 16.45
@@ -3089,7 +3089,7 @@ Description : Hu Tzu Shan
 Authority   : EPSG
 Version     : 6.18(3.0.1)
 Deprecated  : no
-Area-name   : Taiwan - onshore
+Area-name   : Taiwan - onshore - mainland and Penghu
 Area-slat   : 21.87
 Area-nlat   : 25.34
 Area-llon   : 119.25
@@ -3505,7 +3505,7 @@ WKT         : GEOGCS["GCS_ETRS_1989",
                UNIT["Degree", 0.0174532925199433]]
 Description : European Terrestrial Ref. System 1989
 Authority   : EPSG
-Version     : 9.1.1(4.0.0)
+Version     : 9.2.2(4.0.0)
 Deprecated  : no
 Area-name   : Europe - ETRS89
 Area-slat   : 32.88
@@ -3676,7 +3676,7 @@ WKT         : GEOGCS["GCS_North_American_1927",
                UNIT["Degree", 0.0174532925199433]]
 Description : North American Datum 1927
 Authority   : EPSG
-Version     : 8.4.1(3.0.1)
+Version     : 9.8(3.0.1)
 Deprecated  : no
 Area-name   : North America - NAD27
 Area-slat   : 7.15
@@ -3714,7 +3714,7 @@ WKT         : GEOGCS["GCS_North_American_1983",
                UNIT["Degree", 0.0174532925199433]]
 Description : North American Datum 1983
 Authority   : EPSG
-Version     : 6.12(3.0.1)
+Version     : 9.8(3.0.1)
 Deprecated  : no
 Area-name   : North America - NAD83
 Area-slat   : 14.92
@@ -3733,7 +3733,7 @@ WKT         : GEOGCS["GCS_Nahrwan_1967",
                UNIT["Degree", 0.0174532925199433]]
 Description : Nahrwan 1967
 Authority   : EPSG
-Version     : 6.10.2(3.0.1)
+Version     : 9.4.2(3.0.1)
 Deprecated  : no
 Area-name   : Asia - Middle East - Qatar offshore and UAE
 Area-slat   : 22.63
@@ -3771,7 +3771,7 @@ WKT         : GEOGCS["GCS_New_Zealand_1949",
                UNIT["Degree", 0.0174532925199433]]
 Description : New Zealand Geodetic Datum 1949
 Authority   : EPSG
-Version     : 7.4.4(3.0.1)
+Version     : 9.6.4(3.0.1)
 Deprecated  : no
 Area-name   : New Zealand - onshore and nearshore
 Area-slat   : -47.65
@@ -3980,7 +3980,7 @@ WKT         : GEOGCS["GCS_GDA_1994",
                UNIT["Degree", 0.0174532925199433]]
 Description : Geocentric Datum of Australia 1994
 Authority   : EPSG
-Version     : 8.3.4(3.0.1)
+Version     : 9.8(3.0.1)
 Deprecated  : no
 Area-name   : Australia - GDA
 Area-slat   : -60.56
@@ -4018,7 +4018,7 @@ WKT         : GEOGCS["GCS_Qatar_1974",
                UNIT["Degree", 0.0174532925199433]]
 Description : Qatar 1974
 Authority   : EPSG
-Version     : 6.5(3.0.1)
+Version     : 9.3(3.0.1)
 Deprecated  : no
 Area-name   : Qatar
 Area-slat   : 24.55
@@ -5044,7 +5044,7 @@ WKT         : GEOGCS["GCS_NAD_1927_Definition_1976",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD 1927 (1976)
 Authority   : EPSG
-Version     : 8.4.1(8.0.1)
+Version     : 9.8(8.0.1)
 Deprecated  : no
 Area-name   : Canada - Ontario
 Area-slat   : 41.67
@@ -5063,7 +5063,7 @@ WKT         : GEOGCS["GCS_NAD_1927_CGQ77",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD_1927 CGQ77
 Authority   : EPSG
-Version     : 8.4.1(8.0.1)
+Version     : 9.8(8.0.1)
 Deprecated  : no
 Area-name   : Canada - Quebec
 Area-slat   : 44.99
@@ -5120,7 +5120,7 @@ WKT         : GEOGCS["GCS_JGD_2000",
                UNIT["Degree", 0.0174532925199433]]
 Description : Japan Geodetic Datum 2000
 Authority   : EPSG
-Version     : 8.4(9.0.0)
+Version     : 9.7(9.0.0)
 Deprecated  : no
 Area-name   : Japan
 Area-slat   : 17.09
@@ -5597,7 +5597,7 @@ WKT         : GEOGCS["GCS_MOP78",
                UNIT["Degree", 0.0174532925199433]]
 Description : MOP78
 Authority   : EPSG
-Version     : 6.5(9.0.0)
+Version     : 9.6.1(9.0.0)
 Deprecated  : no
 Area-name   : Wallis and Futuna - Wallis
 Area-slat   : -13.41
@@ -6053,7 +6053,7 @@ WKT         : GEOGCS["GCS_SIRGAS_2000",
                UNIT["Degree", 0.0174532925199433]]
 Description : SIRGAS 2000
 Authority   : EPSG
-Version     : 7.8.3(9.2.0)
+Version     : 9.7(9.2.0)
 Deprecated  : no
 Area-name   : Latin America - SIRGAS 2000 by country
 Area-slat   : -59.87
@@ -6072,7 +6072,7 @@ WKT         : GEOGCS["GCS_Guam_1963",
                UNIT["Degree", 0.0174532925199433]]
 Description : Guam 1963
 Authority   : EPSG
-Version     : 7.1.7(9.2.0)
+Version     : 9.5(9.2.0)
 Deprecated  : no
 Area-name   : Pacific - US interests Mariana plate
 Area-slat   : 1.64
@@ -7592,7 +7592,7 @@ WKT         : GEOGCS["GCS_SVY21",
                UNIT["Degree", 0.0174532925199433]]
 Description : SVY21 (Singapore)
 Authority   : EPSG
-Version     : 6.11.2(9.3.0.0)
+Version     : 9.5.5(9.3.0.0)
 Deprecated  : no
 Area-name   : Singapore
 Area-slat   : 1.13
@@ -7630,7 +7630,7 @@ WKT         : GEOGCS["GCS_NAD_1983_NSRS2007",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD 1983 (NSRS2007)
 Authority   : EPSG
-Version     : 8.4.1(9.3.0.0)
+Version     : 9.8(9.3.0.0)
 Deprecated  : no
 Area-name   : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
@@ -8086,7 +8086,7 @@ WKT         : GEOGCS["GCS_S_JTSK_Ferro",
                UNIT["Degree", 0.0174532925199433]]
 Description : S-JTSK (Ferro)
 Authority   : EPSG
-Version     : 7.6(8.1.0)
+Version     : 9.2.2(8.1.0)
 Deprecated  : no
 Area-name   : Europe - Czechoslovakia
 Area-slat   : 47.73
@@ -8295,9 +8295,9 @@ WKT         : GEOGCS["GCS_S_JTSK/05",
                UNIT["Degree", 0.0174532925199433]]
 Description : S-JTSK/05
 Authority   : EPSG
-Version     : 9.1.1(10.1.0)
+Version     : 9.2.2(10.1.0)
 Deprecated  : no
-Area-name   : Czech Republic
+Area-name   : Czechia
 Area-slat   : 48.58
 Area-nlat   : 51.06
 Area-llon   : 12.09
@@ -8314,9 +8314,9 @@ WKT         : GEOGCS["GCS_S_JTSK/05_Ferro",
                UNIT["Degree", 0.0174532925199433]]
 Description : S-JTSK/05 (Ferro)
 Authority   : EPSG
-Version     : 9.1.1(10.1.0)
+Version     : 9.2.2(10.1.0)
 Deprecated  : no
-Area-name   : Czech Republic
+Area-name   : Czechia
 Area-slat   : 48.58
 Area-nlat   : 51.06
 Area-llon   : 12.09
@@ -8466,7 +8466,7 @@ WKT         : GEOGCS["GCS_SIRGAS-Chile",
                UNIT["Degree", 0.0174532925199433]]
 Description : SIRGAS-Chile
 Authority   : EPSG
-Version     : 7.6.8(10.1.0)
+Version     : 9.8(10.1.0)
 Deprecated  : no
 Area-name   : Chile
 Area-slat   : -59.87
@@ -8485,7 +8485,7 @@ WKT         : GEOGCS["GCS_CR05",
                UNIT["Degree", 0.0174532925199433]]
 Description : CR05 (Costa Rica 2005)
 Authority   : EPSG
-Version     : 7.6.8(10.1.0)
+Version     : 9.6.1(10.1.0)
 Deprecated  : no
 Area-name   : Costa Rica
 Area-slat   : 2.15
@@ -8846,7 +8846,7 @@ WKT         : GEOGCS["GCS_NAD_1983_2011",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD 1983 (2011)
 Authority   : EPSG
-Version     : 8.5(10.2.1)
+Version     : 9.8(10.2.1)
 Deprecated  : no
 Area-name   : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
@@ -8865,7 +8865,7 @@ WKT         : GEOGCS["GCS_NAD_1983_PA11",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD 1983 (PA11) - Pacific Plate 2011
 Authority   : EPSG
-Version     : 8.4.1(10.2.1)
+Version     : 9.8(10.2.1)
 Deprecated  : no
 Area-name   : Pacific - US interests Pacific plate
 Area-slat   : -17.56
@@ -8884,7 +8884,7 @@ WKT         : GEOGCS["GCS_NAD_1983_MA11",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD 1983 (MA11) - Marianas Plate 2011
 Authority   : EPSG
-Version     : 8.4.1(10.2.1)
+Version     : 9.8(10.2.1)
 Deprecated  : no
 Area-name   : Pacific - US interests Mariana plate
 Area-slat   : 1.64
@@ -8922,7 +8922,7 @@ WKT         : GEOGCS["GCS_JGD_2011",
                UNIT["Degree", 0.0174532925199433]]
 Description : JGD 2011 touhokutaiheiyouoki - was 104020
 Authority   : EPSG
-Version     : 8.3.2(10.3.1)
+Version     : 9.7(10.3.1)
 Deprecated  : no
 Area-name   : Japan
 Area-slat   : 17.09
@@ -8960,7 +8960,7 @@ WKT         : GEOGCS["GCS_NAD_1983_CORS96",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD 1983 (CORS96)
 Authority   : EPSG
-Version     : 8.5(10.3.1)
+Version     : 9.8(10.3.1)
 Deprecated  : no
 Area-name   : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
@@ -9397,7 +9397,7 @@ WKT         : GEOGCS["GDA2020",
                UNIT["Degree", 0.0174532925199433]]
 Description : GDA2020
 Authority   : EPSG
-Version     : 8.9.4(10.5.0)
+Version     : 9.8(10.5.0)
 Deprecated  : no
 Area-name   : Australia - GDA
 Area-slat   : -60.56
@@ -9511,7 +9511,7 @@ WKT         : GEOGCS["NAD83(CSRS96)",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD83(CSRS96)
 Authority   : EPSG
-Version     : 9.1.1(10.6.0)
+Version     : 9.8(10.6.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -9530,7 +9530,7 @@ WKT         : GEOGCS["NAD83(CSRS)v2",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD83 (CSRS) v2
 Authority   : EPSG
-Version     : 9.1.1(10.6.0)
+Version     : 9.8(10.6.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -9549,7 +9549,7 @@ WKT         : GEOGCS["NAD83(CSRS)v3",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD83 (CSRS) v3
 Authority   : EPSG
-Version     : 9.1.1(10.6.0)
+Version     : 9.8(10.6.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -9568,7 +9568,7 @@ WKT         : GEOGCS["NAD83(CSRS)v4",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD83 (CSRS) v4
 Authority   : EPSG
-Version     : 9.1.1(10.6.0)
+Version     : 9.8(10.6.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -9587,7 +9587,7 @@ WKT         : GEOGCS["NAD83(CSRS)v5",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD83 (CSRS) v5
 Authority   : EPSG
-Version     : 9.1.1(10.6.0)
+Version     : 9.8(10.6.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -9606,7 +9606,7 @@ WKT         : GEOGCS["NAD83(CSRS)v6",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD83 (CSRS) v6
 Authority   : EPSG
-Version     : 9.1.1(10.6.0)
+Version     : 9.8(10.6.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -9625,7 +9625,7 @@ WKT         : GEOGCS["NAD83(CSRS)v7",
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD83 (CSRS) v7
 Authority   : EPSG
-Version     : 9.1.1(10.6.0)
+Version     : 9.8(10.6.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -9643,8 +9643,8 @@ WKT         : GEOGCS["S-JTSK_[JTSK03]",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 Description : S-JTSK [JTSK03]
-Authority   : Esri
-Version     : 10.7.1
+Authority   : EPSG
+Version     : 9.2.2(10.7.1)
 Deprecated  : no
 Area-name   : Slovakia
 Area-slat   : 47.73
@@ -9662,8 +9662,8 @@ WKT         : GEOGCS["Hong_Kong_Geodetic_CS",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 Description : Hong Kong Geodetic CS
-Authority   : Esri
-Version     : 10.7.0
+Authority   : EPSG
+Version     : 9.2.2(10.7.0)
 Deprecated  : no
 Area-name   : China - Hong Kong
 Area-slat   : 22.13
@@ -9671,8 +9671,46 @@ Area-nlat   : 22.58
 Area-llon   : 113.76
 Area-rlon   : 114.51
 
+WKID        : 8428
+Latest-WKID : 8428
+Macro       : PE_GCS_MACAO_1920
+Name        : Macao_1920
+WKT         : GEOGCS["Macao_1920",
+               DATUM["Macao_1920",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : Macao 1920
+Authority   : EPSG
+Version     : 9.2.2(10.8.0)
+Deprecated  : no
+Area-name   : China - Macao
+Area-slat   : 22.06
+Area-nlat   : 22.23
+Area-llon   : 113.52
+Area-rlon   : 113.68
+
+WKID        : 8431
+Latest-WKID : 8431
+Macro       : PE_GCS_MACAO_2008
+Name        : GCS_MACAO_2008
+WKT         : GEOGCS["GCS_MACAO_2008",
+               DATUM["D_MACAO_2008",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : Macao 2008 (ITRF 2005)
+Authority   : EPSG
+Version     : 9.2.2(10.8.0)
+Deprecated  : no
+Area-name   : China - Macao
+Area-slat   : 22.06
+Area-nlat   : 22.23
+Area-llon   : 113.52
+Area-rlon   : 113.68
+
 WKID        : 8449
-Latest-WKID : 8449
+Latest-WKID : 8860
 Macro       : PE_GCS_NAD_1983_FBN
 Name        : NAD_1983_(FBN)
 WKT         : GEOGCS["NAD_1983_(FBN)",
@@ -9681,9 +9719,9 @@ WKT         : GEOGCS["NAD_1983_(FBN)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD83(FBN)
-Authority   : Esri
-Version     : 10.7.0
-Deprecated  : no
+Authority   : EPSG
+Version     : 9.4.2(10.7.0)
+Deprecated  : yes
 Area-name   : USA - FBN
 Area-slat   : -14.59
 Area-nlat   : 49.38
@@ -9700,8 +9738,8 @@ WKT         : GEOGCS["NAD_1983_(HARN_Corrected)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 Description : NAD83(HARN Corrected)
-Authority   : Esri
-Version     : 10.7.0
+Authority   : EPSG
+Version     : 9.8(10.7.0)
 Deprecated  : no
 Area-name   : Caribbean - Puerto Rico and US Virgin Islands - onshore
 Area-slat   : 17.62
@@ -9719,14 +9757,52 @@ WKT         : GEOGCS["SRB_ETRS89",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 Description : SRB_ETRS89
-Authority   : Esri
-Version     : 10.7.0
+Authority   : EPSG
+Version     : 9.7(10.7.0)
 Deprecated  : no
-Area-name   : Serbia
+Area-name   : Serbia and Kosovo
 Area-slat   : 41.85
 Area-nlat   : 46.19
 Area-llon   : 18.81
 Area-rlon   : 23.01
+
+WKID        : 8694
+Latest-WKID : 8694
+Macro       : PE_GCS_CAMACUPA_2015
+Name        : Camacupa_2015
+WKT         : GEOGCS["Camacupa_2015",
+               DATUM["Camacupa_2015",
+                SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : Camacupa 2015
+Authority   : EPSG
+Version     : 9.5.5(10.8.0)
+Deprecated  : no
+Area-name   : Angola
+Area-slat   : -18.02
+Area-nlat   : -4.38
+Area-llon   : 8.2
+Area-rlon   : 24.09
+
+WKID        : 8699
+Latest-WKID : 8699
+Macro       : PE_GCS_RSAO13
+Name        : RSAO13
+WKT         : GEOGCS["RSAO13",
+               DATUM["Reference_System_de_Angola_2013",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : RSAO13
+Authority   : EPSG
+Version     : 9.5.5(10.8.0)
+Deprecated  : no
+Area-name   : Angola
+Area-slat   : -18.02
+Area-nlat   : -4.38
+Area-llon   : 8.2
+Area-rlon   : 24.09
 
 WKID        : 8818
 Latest-WKID : 8818
@@ -9738,14 +9814,1173 @@ WKT         : GEOGCS["MTRF-2000",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 Description : MTRF-2000
-Authority   : Esri
-Version     : 10.7.0
+Authority   : EPSG
+Version     : 9.5(10.7.0)
 Deprecated  : no
 Area-name   : Saudi Arabia
 Area-slat   : 15.61
 Area-nlat   : 32.16
 Area-llon   : 34.44
 Area-rlon   : 55.67
+
+WKID        : 8860
+Latest-WKID : 8860
+Macro       : PE_GCS_NAD_1983_FBN
+Name        : NAD_1983_(FBN)
+WKT         : GEOGCS["NAD_1983_(FBN)",
+               DATUM["NAD_1983_(Federal_Base_Network)",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : NAD83(FBN)
+Authority   : EPSG
+Version     : 9.8(10.8.0)
+Deprecated  : no
+Area-name   : USA - FBN
+Area-slat   : -14.59
+Area-nlat   : 49.38
+Area-llon   : 144.58
+Area-rlon   : -64.51
+
+WKID        : 8888
+Latest-WKID : 8888
+Macro       : PE_GCS_WGS_1984_TRANSIT
+Name        : WGS_1984_(Transit)
+WKT         : GEOGCS["WGS_1984_(Transit)",
+               DATUM["World_Geodetic_System_1984_(Transit)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : World Geodetic System 1984 (Transit)
+Authority   : EPSG
+Version     : 9.6.4(10.5.1)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8900
+Latest-WKID : 8900
+Macro       : PE_GCS_RGWF96
+Name        : RGWF96
+WKT         : GEOGCS["RGWF96",
+               DATUM["Reseau_Geodesique_de_Wallis_et_Futuna_1996",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : RGWF96
+Authority   : EPSG
+Version     : 9.6.1(10.8.0)
+Deprecated  : no
+Area-name   : Wallis and Futuna
+Area-slat   : -15.94
+Area-nlat   : -9.84
+Area-llon   : 179.49
+Area-rlon   : -174.27
+
+WKID        : 8902
+Latest-WKID : 8902
+Macro       : PE_GCS_RGWF96_LON_LAT
+Name        : RGWF96_(lon-lat)
+WKT         : GEOGCS["RGWF96_(lon-lat)",
+               DATUM["Reseau_Geodesique_de_Wallis_et_Futuna_1996",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : RGWF96 (lon-lat)
+Authority   : EPSG
+Version     : 9.6.1(10.8.0)
+Deprecated  : no
+Area-name   : Wallis and Futuna
+Area-slat   : -15.94
+Area-nlat   : -9.84
+Area-llon   : 179.49
+Area-rlon   : -174.27
+
+WKID        : 8907
+Latest-WKID : 8907
+Macro       : PE_GCS_CR_SIRGAS
+Name        : CR-SIRGAS
+WKT         : GEOGCS["CR-SIRGAS",
+               DATUM["CR-SIRGAS",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : CR-SIRGAS
+Authority   : EPSG
+Version     : 9.6.1(10.8.0)
+Deprecated  : no
+Area-name   : Costa Rica
+Area-slat   : 2.15
+Area-nlat   : 11.77
+Area-llon   : -90.45
+Area-rlon   : -81.43
+
+WKID        : 8949
+Latest-WKID : 8949
+Macro       : PE_GCS_SIRGAS_CHILE_2010
+Name        : SIRGAS-Chile_2010
+WKT         : GEOGCS["SIRGAS-Chile_2010",
+               DATUM["SIRGAS-Chile_realization_2_epoch_2010",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS-Chile 2010
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 8972
+Latest-WKID : 8972
+Macro       : PE_GCS_SIRGAS_CON_DGF00P01
+Name        : SIRGAS-CON_DGF00P01
+WKT         : GEOGCS["SIRGAS-CON_DGF00P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF00P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network DGF00P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8973
+Latest-WKID : 8973
+Macro       : PE_GCS_SIRGAS_CON_DGF01P01
+Name        : SIRGAS-CON_DGF01P01
+WKT         : GEOGCS["SIRGAS-CON_DGF01P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF01P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network DGF01P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8974
+Latest-WKID : 8974
+Macro       : PE_GCS_SIRGAS_CON_DGF01P02
+Name        : SIRGAS-CON_DGF01P02
+WKT         : GEOGCS["SIRGAS-CON_DGF01P02",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF01P02",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network DGF01P02
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8975
+Latest-WKID : 8975
+Macro       : PE_GCS_SIRGAS_CON_DGF02P01
+Name        : SIRGAS-CON_DGF02P01
+WKT         : GEOGCS["SIRGAS-CON_DGF02P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF02P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network DGF02P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8976
+Latest-WKID : 8976
+Macro       : PE_GCS_SIRGAS_CON_DGF04P01
+Name        : SIRGAS-CON_DGF04P01
+WKT         : GEOGCS["SIRGAS-CON_DGF04P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF04P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network DGF04P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8977
+Latest-WKID : 8977
+Macro       : PE_GCS_SIRGAS_CON_DGF05P01
+Name        : SIRGAS-CON_DGF05P01
+WKT         : GEOGCS["SIRGAS-CON_DGF05P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF05P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network DGF05P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8978
+Latest-WKID : 8978
+Macro       : PE_GCS_SIRGAS_CON_DGF06P01
+Name        : SIRGAS-CON_DGF06P01
+WKT         : GEOGCS["SIRGAS-CON_DGF06P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF06P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network DGF06P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8979
+Latest-WKID : 8979
+Macro       : PE_GCS_SIRGAS_CON_DGF07P01
+Name        : SIRGAS-CON_DGF07P01
+WKT         : GEOGCS["SIRGAS-CON_DGF07P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF07P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network DGF07P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8980
+Latest-WKID : 8980
+Macro       : PE_GCS_SIRGAS_CON_DGF08P01
+Name        : SIRGAS-CON_DGF08P01
+WKT         : GEOGCS["SIRGAS-CON_DGF08P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF08P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network DGF08P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8981
+Latest-WKID : 8981
+Macro       : PE_GCS_SIRGAS_CON_SIR09P01
+Name        : SIRGAS-CON_SIR09P01
+WKT         : GEOGCS["SIRGAS-CON_SIR09P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR09P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network SIR09P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8982
+Latest-WKID : 8982
+Macro       : PE_GCS_SIRGAS_CON_SIR10P01
+Name        : SIRGAS-CON_SIR10P01
+WKT         : GEOGCS["SIRGAS-CON_SIR10P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR10P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network SIR10P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8983
+Latest-WKID : 8983
+Macro       : PE_GCS_SIRGAS_CON_SIR11P01
+Name        : SIRGAS-CON_SIR11P01
+WKT         : GEOGCS["SIRGAS-CON_SIR11P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR11P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network SIR11P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8984
+Latest-WKID : 8984
+Macro       : PE_GCS_SIRGAS_CON_SIR13P01
+Name        : SIRGAS-CON_SIR13P01
+WKT         : GEOGCS["SIRGAS-CON_SIR13P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR13P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network SIR13P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8985
+Latest-WKID : 8985
+Macro       : PE_GCS_SIRGAS_CON_SIR14P01
+Name        : SIRGAS-CON_SIR14P01
+WKT         : GEOGCS["SIRGAS-CON_SIR14P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR14P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network SIR14P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8986
+Latest-WKID : 8986
+Macro       : PE_GCS_SIRGAS_CON_SIR15P01
+Name        : SIRGAS-CON_SIR15P01
+WKT         : GEOGCS["SIRGAS-CON_SIR15P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR15P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network SIR15P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8987
+Latest-WKID : 8987
+Macro       : PE_GCS_SIRGAS_CON_SIR17P01
+Name        : SIRGAS-CON_SIR17P01
+WKT         : GEOGCS["SIRGAS-CON_SIR17P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR17P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS Continuously Operating Network SIR17P01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 8988
+Latest-WKID : 8988
+Macro       : PE_GCS_ITRF_1988
+Name        : GCS_ITRF_1988
+WKT         : GEOGCS["GCS_ITRF_1988",
+               DATUM["D_ITRF_1988",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IERS Terrestrial Reference Frame 1988
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8989
+Latest-WKID : 8989
+Macro       : PE_GCS_ITRF_1989
+Name        : GCS_ITRF_1989
+WKT         : GEOGCS["GCS_ITRF_1989",
+               DATUM["D_ITRF_1989",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IERS Terrestrial Reference Frame 1989
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8990
+Latest-WKID : 8990
+Macro       : PE_GCS_ITRF_1990
+Name        : GCS_ITRF_1990
+WKT         : GEOGCS["GCS_ITRF_1990",
+               DATUM["D_ITRF_1990",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IERS Terrestrial Reference Frame 1990
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8991
+Latest-WKID : 8991
+Macro       : PE_GCS_ITRF_1991
+Name        : GCS_ITRF_1991
+WKT         : GEOGCS["GCS_ITRF_1991",
+               DATUM["D_ITRF_1991",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IERS Terrestrial Reference Frame 1991
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8992
+Latest-WKID : 8992
+Macro       : PE_GCS_ITRF_1992
+Name        : GCS_ITRF_1992
+WKT         : GEOGCS["GCS_ITRF_1992",
+               DATUM["D_ITRF_1992",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IERS Terrestrial Reference Frame 1992
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8993
+Latest-WKID : 8993
+Macro       : PE_GCS_ITRF_1993
+Name        : GCS_ITRF_1993
+WKT         : GEOGCS["GCS_ITRF_1993",
+               DATUM["D_ITRF_1993",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IERS Terrestrial Reference Frame 1993
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8994
+Latest-WKID : 8994
+Macro       : PE_GCS_ITRF_1994
+Name        : GCS_ITRF_1994
+WKT         : GEOGCS["GCS_ITRF_1994",
+               DATUM["D_ITRF_1994",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IERS Terrestrial Reference Frame 1994
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8995
+Latest-WKID : 8995
+Macro       : PE_GCS_ITRF_1996
+Name        : GCS_ITRF_1996
+WKT         : GEOGCS["GCS_ITRF_1996",
+               DATUM["D_ITRF_1996",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IERS Terrestrial Reference Frame 1996
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8996
+Latest-WKID : 8996
+Macro       : PE_GCS_ITRF_1997
+Name        : GCS_ITRF_1997
+WKT         : GEOGCS["GCS_ITRF_1997",
+               DATUM["D_ITRF_1997",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IERS Terrestrial Reference Frame 1997
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8997
+Latest-WKID : 8997
+Macro       : PE_GCS_ITRF_2000
+Name        : GCS_ITRF_2000
+WKT         : GEOGCS["GCS_ITRF_2000",
+               DATUM["D_ITRF_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IERS Terrestrial Reference Frame 2000
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8998
+Latest-WKID : 8998
+Macro       : PE_GCS_ITRF_2005
+Name        : GCS_ITRF_2005
+WKT         : GEOGCS["GCS_ITRF_2005",
+               DATUM["D_ITRF_2005",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ITRF 2005
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8999
+Latest-WKID : 8999
+Macro       : PE_GCS_ITRF_2008
+Name        : GCS_ITRF_2008
+WKT         : GEOGCS["GCS_ITRF_2008",
+               DATUM["D_ITRF_2008",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ITRF 2008 (104257)
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World (by country)
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9000
+Latest-WKID : 9000
+Macro       : PE_GCS_ITRF2014
+Name        : ITRF2014
+WKT         : GEOGCS["ITRF2014",
+               DATUM["International_Terrestrial_Reference_Frame_2014",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ITRF2014
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9003
+Latest-WKID : 9003
+Macro       : PE_GCS_IGS97
+Name        : IGS97
+WKT         : GEOGCS["IGS97",
+               DATUM["IGS97",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IGS97
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9006
+Latest-WKID : 9006
+Macro       : PE_GCS_IGS00
+Name        : IGS00
+WKT         : GEOGCS["IGS00",
+               DATUM["IGS00",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IGS00
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9009
+Latest-WKID : 9009
+Macro       : PE_GCS_IGB00
+Name        : IGb00
+WKT         : GEOGCS["IGb00",
+               DATUM["IGb00",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IGb00
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9012
+Latest-WKID : 9012
+Macro       : PE_GCS_IGS05
+Name        : IGS05
+WKT         : GEOGCS["IGS05",
+               DATUM["IGS05",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IGS05
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9014
+Latest-WKID : 9014
+Macro       : PE_GCS_IGS08
+Name        : GCS_IGS08
+WKT         : GEOGCS["GCS_IGS08",
+               DATUM["IGS08",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IGS08
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World (by country)
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9017
+Latest-WKID : 9017
+Macro       : PE_GCS_IGB08
+Name        : IGb08
+WKT         : GEOGCS["IGb08",
+               DATUM["IGb08",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IGb08
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9019
+Latest-WKID : 9019
+Macro       : PE_GCS_IGS14
+Name        : IGS14
+WKT         : GEOGCS["IGS14",
+               DATUM["IGS14",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IGS14
+Authority   : EPSG
+Version     : 9.6.3(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9053
+Latest-WKID : 9053
+Macro       : PE_GCS_WGS_1984_G730
+Name        : WGS_1984_(G730)
+WKT         : GEOGCS["WGS_1984_(G730)",
+               DATUM["World_Geodetic_System_1984_(G730)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : World Geodetic System 1984 (G730)
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9054
+Latest-WKID : 9054
+Macro       : PE_GCS_WGS_1984_G873
+Name        : WGS_1984_(G873)
+WKT         : GEOGCS["WGS_1984_(G873)",
+               DATUM["World_Geodetic_System_1984_(G873)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : World Geodetic System 1984 (G873)
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9055
+Latest-WKID : 9055
+Macro       : PE_GCS_WGS_1984_G1150
+Name        : WGS_1984_(G1150)
+WKT         : GEOGCS["WGS_1984_(G1150)",
+               DATUM["World_Geodetic_System_1984_(G1150)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : World Geodetic System 1984 (G1150)
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9056
+Latest-WKID : 9056
+Macro       : PE_GCS_WGS_1984_G1674
+Name        : WGS_1984_(G1674)
+WKT         : GEOGCS["WGS_1984_(G1674)",
+               DATUM["World_Geodetic_System_1984_(G1674)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : World Geodetic System 1984 (G1674)
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9057
+Latest-WKID : 9057
+Macro       : PE_GCS_WGS_1984_G1762
+Name        : WGS_1984_(G1762)
+WKT         : GEOGCS["WGS_1984_(G1762)",
+               DATUM["World_Geodetic_System_1984_(G1762)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : World Geodetic System 1984 (G1762)
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9059
+Latest-WKID : 9059
+Macro       : PE_GCS_ETRF_1989
+Name        : GCS_ETRF_1989
+WKT         : GEOGCS["GCS_ETRF_1989",
+               DATUM["D_ETRF_1989",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : European Terrestrial Ref.Frame 1989
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9060
+Latest-WKID : 9060
+Macro       : PE_GCS_ETRF_1990
+Name        : ETRF90
+WKT         : GEOGCS["ETRF90",
+               DATUM["European_Terrestrial_Reference_Frame_1990",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ETRF90
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9061
+Latest-WKID : 9061
+Macro       : PE_GCS_ETRF_1991
+Name        : ETRF91
+WKT         : GEOGCS["ETRF91",
+               DATUM["European_Terrestrial_Reference_Frame_1991",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ETRF91
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9062
+Latest-WKID : 9062
+Macro       : PE_GCS_ETRF_1992
+Name        : ETRF92
+WKT         : GEOGCS["ETRF92",
+               DATUM["European_Terrestrial_Reference_Frame_1992",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ETRF92
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9063
+Latest-WKID : 9063
+Macro       : PE_GCS_ETRF_1993
+Name        : ETRF93
+WKT         : GEOGCS["ETRF93",
+               DATUM["European_Terrestrial_Reference_Frame_1993",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ETRF93
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9064
+Latest-WKID : 9064
+Macro       : PE_GCS_ETRF_1994
+Name        : ETRF94
+WKT         : GEOGCS["ETRF94",
+               DATUM["European_Terrestrial_Reference_Frame_1994",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ETRF94
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9065
+Latest-WKID : 9065
+Macro       : PE_GCS_ETRF_1996
+Name        : ETRF96
+WKT         : GEOGCS["ETRF96",
+               DATUM["European_Terrestrial_Reference_Frame_1996",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ETRF96
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9066
+Latest-WKID : 9066
+Macro       : PE_GCS_ETRF_1997
+Name        : ETRF97
+WKT         : GEOGCS["ETRF97",
+               DATUM["European_Terrestrial_Reference_Frame_1997",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ETRF97
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9067
+Latest-WKID : 9067
+Macro       : PE_GCS_ETRF_2000
+Name        : ETRF2000
+WKT         : GEOGCS["ETRF2000",
+               DATUM["European_Terrestrial_Reference_Frame_2000",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ETRF2000
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9068
+Latest-WKID : 9068
+Macro       : PE_GCS_ETRF_2005
+Name        : ETRF2005
+WKT         : GEOGCS["ETRF2005",
+               DATUM["European_Terrestrial_Reference_Frame_2005",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ETRF 2005
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9069
+Latest-WKID : 9069
+Macro       : PE_GCS_ETRF_2014
+Name        : ETRF2014
+WKT         : GEOGCS["ETRF2014",
+               DATUM["European_Terrestrial_Reference_Frame_2014",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ETRF 2014
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 9140
+Latest-WKID : 9140
+Macro       : PE_GCS_KOSOVAREF01
+Name        : KOSOVAREF01
+WKT         : GEOGCS["KOSOVAREF01",
+               DATUM["Kosovo_Reference_System_2001",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : KOSOVAREF01
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Kosovo
+Area-slat   : 41.85
+Area-nlat   : 43.25
+Area-llon   : 19.97
+Area-rlon   : 21.8
+
+WKID        : 9148
+Latest-WKID : 9148
+Macro       : PE_GCS_SIRGAS_CHILE_2013
+Name        : SIRGAS-Chile_2013
+WKT         : GEOGCS["SIRGAS-Chile_2013",
+               DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS-Chile 2013
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 9153
+Latest-WKID : 9153
+Macro       : PE_GCS_SIRGAS_CHILE_2016
+Name        : SIRGAS-Chile_2016
+WKT         : GEOGCS["SIRGAS-Chile_2016",
+               DATUM["SIRGAS-Chile_realization_4_epoch_2016",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS-Chile 2016
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
 
 WKID        : 37001
 Latest-WKID : 4760
@@ -10945,7 +12180,7 @@ Area-llon   : 69.24
 Area-rlon   : 80.29
 
 WKID        : 104010
-Latest-WKID : 104010
+Latest-WKID : 9014
 Macro       : PE_GCS_IGS08
 Name        : GCS_IGS08
 WKT         : GEOGCS["GCS_IGS08",
@@ -10956,7 +12191,7 @@ WKT         : GEOGCS["GCS_IGS08",
 Description : IGS08
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World (by country)
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -10964,7 +12199,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104011
-Latest-WKID : 104011
+Latest-WKID : 9053
 Macro       : PE_GCS_WGS_1984_G730
 Name        : WGS_1984_(G730)
 WKT         : GEOGCS["WGS_1984_(G730)",
@@ -10975,7 +12210,7 @@ WKT         : GEOGCS["WGS_1984_(G730)",
 Description : World Geodetic System 1984 (G730)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -10983,7 +12218,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104012
-Latest-WKID : 104012
+Latest-WKID : 9054
 Macro       : PE_GCS_WGS_1984_G873
 Name        : WGS_1984_(G873)
 WKT         : GEOGCS["WGS_1984_(G873)",
@@ -10994,7 +12229,7 @@ WKT         : GEOGCS["WGS_1984_(G873)",
 Description : World Geodetic System 1984 (G873)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11002,7 +12237,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104013
-Latest-WKID : 104013
+Latest-WKID : 9055
 Macro       : PE_GCS_WGS_1984_G1150
 Name        : WGS_1984_(G1150)
 WKT         : GEOGCS["WGS_1984_(G1150)",
@@ -11013,7 +12248,7 @@ WKT         : GEOGCS["WGS_1984_(G1150)",
 Description : World Geodetic System 1984 (G1150)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11021,7 +12256,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104014
-Latest-WKID : 104014
+Latest-WKID : 9056
 Macro       : PE_GCS_WGS_1984_G1674
 Name        : WGS_1984_(G1674)
 WKT         : GEOGCS["WGS_1984_(G1674)",
@@ -11032,7 +12267,7 @@ WKT         : GEOGCS["WGS_1984_(G1674)",
 Description : World Geodetic System 1984 (G1674)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11040,7 +12275,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104015
-Latest-WKID : 104015
+Latest-WKID : 9057
 Macro       : PE_GCS_WGS_1984_G1762
 Name        : WGS_1984_(G1762)
 WKT         : GEOGCS["WGS_1984_(G1762)",
@@ -11051,26 +12286,7 @@ WKT         : GEOGCS["WGS_1984_(G1762)",
 Description : World Geodetic System 1984 (G1762)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : no
-Area-name   : World
-Area-slat   : -90.0
-Area-nlat   : 90.0
-Area-llon   : -180.0
-Area-rlon   : 180.0
-
-WKID        : 104016
-Latest-WKID : 104016
-Macro       : PE_GCS_WGS_1984_TRANSIT
-Name        : WGS_1984_(Transit)
-WKT         : GEOGCS["WGS_1984_(Transit)",
-               DATUM["World_Geodetic_System_1984_(Transit)",
-                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
-               PRIMEM["Greenwich", 0.0],
-               UNIT["Degree", 0.0174532925199433]]
-Description : World Geodetic System 1984 (Transit)
-Authority   : Esri
-Version     : 10.5.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11116,7 +12332,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104019
-Latest-WKID : 104019
+Latest-WKID : 9000
 Macro       : PE_GCS_ITRF2014
 Name        : ITRF2014
 WKT         : GEOGCS["ITRF2014",
@@ -11127,7 +12343,7 @@ WKT         : GEOGCS["ITRF2014",
 Description : ITRF2014
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11154,7 +12370,7 @@ Area-llon   : 122.38
 Area-rlon   : 157.65
 
 WKID        : 104021
-Latest-WKID : 104021
+Latest-WKID : 9019
 Macro       : PE_GCS_IGS14
 Name        : IGS14
 WKT         : GEOGCS["IGS14",
@@ -11165,7 +12381,7 @@ WKT         : GEOGCS["IGS14",
 Description : IGS14
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11610,7 +12826,7 @@ Area-llon   : -68.83
 Area-rlon   : -60.7
 
 WKID        : 104115
-Latest-WKID : 104115
+Latest-WKID : 8988
 Macro       : PE_GCS_ITRF_1988
 Name        : GCS_ITRF_1988
 WKT         : GEOGCS["GCS_ITRF_1988",
@@ -11621,7 +12837,7 @@ WKT         : GEOGCS["GCS_ITRF_1988",
 Description : IERS Terrestrial Reference Frame 1988
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11629,7 +12845,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104116
-Latest-WKID : 104116
+Latest-WKID : 8989
 Macro       : PE_GCS_ITRF_1989
 Name        : GCS_ITRF_1989
 WKT         : GEOGCS["GCS_ITRF_1989",
@@ -11640,7 +12856,7 @@ WKT         : GEOGCS["GCS_ITRF_1989",
 Description : IERS Terrestrial Reference Frame 1989
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11648,7 +12864,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104117
-Latest-WKID : 104117
+Latest-WKID : 8990
 Macro       : PE_GCS_ITRF_1990
 Name        : GCS_ITRF_1990
 WKT         : GEOGCS["GCS_ITRF_1990",
@@ -11659,7 +12875,7 @@ WKT         : GEOGCS["GCS_ITRF_1990",
 Description : IERS Terrestrial Reference Frame 1990
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11667,7 +12883,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104118
-Latest-WKID : 104118
+Latest-WKID : 8991
 Macro       : PE_GCS_ITRF_1991
 Name        : GCS_ITRF_1991
 WKT         : GEOGCS["GCS_ITRF_1991",
@@ -11678,7 +12894,7 @@ WKT         : GEOGCS["GCS_ITRF_1991",
 Description : IERS Terrestrial Reference Frame 1991
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11686,7 +12902,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104119
-Latest-WKID : 104119
+Latest-WKID : 8992
 Macro       : PE_GCS_ITRF_1992
 Name        : GCS_ITRF_1992
 WKT         : GEOGCS["GCS_ITRF_1992",
@@ -11697,7 +12913,7 @@ WKT         : GEOGCS["GCS_ITRF_1992",
 Description : IERS Terrestrial Reference Frame 1992
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11705,7 +12921,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104120
-Latest-WKID : 104120
+Latest-WKID : 8993
 Macro       : PE_GCS_ITRF_1993
 Name        : GCS_ITRF_1993
 WKT         : GEOGCS["GCS_ITRF_1993",
@@ -11716,7 +12932,7 @@ WKT         : GEOGCS["GCS_ITRF_1993",
 Description : IERS Terrestrial Reference Frame 1993
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11724,7 +12940,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104121
-Latest-WKID : 104121
+Latest-WKID : 8994
 Macro       : PE_GCS_ITRF_1994
 Name        : GCS_ITRF_1994
 WKT         : GEOGCS["GCS_ITRF_1994",
@@ -11735,7 +12951,7 @@ WKT         : GEOGCS["GCS_ITRF_1994",
 Description : IERS Terrestrial Reference Frame 1994
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11743,7 +12959,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104122
-Latest-WKID : 104122
+Latest-WKID : 8995
 Macro       : PE_GCS_ITRF_1996
 Name        : GCS_ITRF_1996
 WKT         : GEOGCS["GCS_ITRF_1996",
@@ -11754,7 +12970,7 @@ WKT         : GEOGCS["GCS_ITRF_1996",
 Description : IERS Terrestrial Reference Frame 1996
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11762,7 +12978,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104123
-Latest-WKID : 104123
+Latest-WKID : 8996
 Macro       : PE_GCS_ITRF_1997
 Name        : GCS_ITRF_1997
 WKT         : GEOGCS["GCS_ITRF_1997",
@@ -11773,7 +12989,7 @@ WKT         : GEOGCS["GCS_ITRF_1997",
 Description : IERS Terrestrial Reference Frame 1997
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -11781,7 +12997,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104124
-Latest-WKID : 104124
+Latest-WKID : 8997
 Macro       : PE_GCS_ITRF_2000
 Name        : GCS_ITRF_2000
 WKT         : GEOGCS["GCS_ITRF_2000",
@@ -11792,7 +13008,7 @@ WKT         : GEOGCS["GCS_ITRF_2000",
 Description : IERS Terrestrial Reference Frame 2000
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -12021,7 +13237,7 @@ Description : Taiwan 1967
 Authority   : Esri
 Version     : 9.2.0
 Deprecated  : yes
-Area-name   : Taiwan - onshore
+Area-name   : Taiwan - onshore - mainland and Penghu
 Area-slat   : 21.87
 Area-nlat   : 25.34
 Area-llon   : 119.25
@@ -12199,7 +13415,7 @@ Area-llon   : 167.65
 Area-rlon   : -63.88
 
 WKID        : 104179
-Latest-WKID : 104179
+Latest-WKID : 9060
 Macro       : PE_GCS_ETRF_1990
 Name        : ETRF90
 WKT         : GEOGCS["ETRF90",
@@ -12210,7 +13426,7 @@ WKT         : GEOGCS["ETRF90",
 Description : ETRF90
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - ETRS89
 Area-slat   : 32.88
 Area-nlat   : 84.17
@@ -12218,7 +13434,7 @@ Area-llon   : -16.1
 Area-rlon   : 40.18
 
 WKID        : 104180
-Latest-WKID : 104180
+Latest-WKID : 9061
 Macro       : PE_GCS_ETRF_1991
 Name        : ETRF91
 WKT         : GEOGCS["ETRF91",
@@ -12229,7 +13445,7 @@ WKT         : GEOGCS["ETRF91",
 Description : ETRF91
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - ETRS89
 Area-slat   : 32.88
 Area-nlat   : 84.17
@@ -12237,7 +13453,7 @@ Area-llon   : -16.1
 Area-rlon   : 40.18
 
 WKID        : 104181
-Latest-WKID : 104181
+Latest-WKID : 9062
 Macro       : PE_GCS_ETRF_1992
 Name        : ETRF92
 WKT         : GEOGCS["ETRF92",
@@ -12248,7 +13464,7 @@ WKT         : GEOGCS["ETRF92",
 Description : ETRF92
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - ETRS89
 Area-slat   : 32.88
 Area-nlat   : 84.17
@@ -12256,7 +13472,7 @@ Area-llon   : -16.1
 Area-rlon   : 40.18
 
 WKID        : 104182
-Latest-WKID : 104182
+Latest-WKID : 9063
 Macro       : PE_GCS_ETRF_1993
 Name        : ETRF93
 WKT         : GEOGCS["ETRF93",
@@ -12267,7 +13483,7 @@ WKT         : GEOGCS["ETRF93",
 Description : ETRF93
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - ETRS89
 Area-slat   : 32.88
 Area-nlat   : 84.17
@@ -12275,7 +13491,7 @@ Area-llon   : -16.1
 Area-rlon   : 40.18
 
 WKID        : 104183
-Latest-WKID : 104183
+Latest-WKID : 9064
 Macro       : PE_GCS_ETRF_1994
 Name        : ETRF94
 WKT         : GEOGCS["ETRF94",
@@ -12286,7 +13502,7 @@ WKT         : GEOGCS["ETRF94",
 Description : ETRF94
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - ETRS89
 Area-slat   : 32.88
 Area-nlat   : 84.17
@@ -12294,7 +13510,7 @@ Area-llon   : -16.1
 Area-rlon   : 40.18
 
 WKID        : 104184
-Latest-WKID : 104184
+Latest-WKID : 9065
 Macro       : PE_GCS_ETRF_1996
 Name        : ETRF96
 WKT         : GEOGCS["ETRF96",
@@ -12305,7 +13521,7 @@ WKT         : GEOGCS["ETRF96",
 Description : ETRF96
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - ETRS89
 Area-slat   : 32.88
 Area-nlat   : 84.17
@@ -12313,7 +13529,7 @@ Area-llon   : -16.1
 Area-rlon   : 40.18
 
 WKID        : 104185
-Latest-WKID : 104185
+Latest-WKID : 9066
 Macro       : PE_GCS_ETRF_1997
 Name        : ETRF97
 WKT         : GEOGCS["ETRF97",
@@ -12324,7 +13540,7 @@ WKT         : GEOGCS["ETRF97",
 Description : ETRF97
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - ETRS89
 Area-slat   : 32.88
 Area-nlat   : 84.17
@@ -12332,7 +13548,7 @@ Area-llon   : -16.1
 Area-rlon   : 40.18
 
 WKID        : 104186
-Latest-WKID : 104186
+Latest-WKID : 9067
 Macro       : PE_GCS_ETRF_2000
 Name        : ETRF2000
 WKT         : GEOGCS["ETRF2000",
@@ -12343,7 +13559,7 @@ WKT         : GEOGCS["ETRF2000",
 Description : ETRF2000
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - ETRS89
 Area-slat   : 32.88
 Area-nlat   : 84.17
@@ -12389,7 +13605,7 @@ Area-llon   : 167.65
 Area-rlon   : -63.88
 
 WKID        : 104248
-Latest-WKID : 104248
+Latest-WKID : 8431
 Macro       : PE_GCS_MACAO_2008
 Name        : GCS_MACAO_2008
 WKT         : GEOGCS["GCS_MACAO_2008",
@@ -12400,7 +13616,7 @@ WKT         : GEOGCS["GCS_MACAO_2008",
 Description : Macao 2008 (ITRF 2005)
 Authority   : Esri
 Version     : 10.3.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : China - Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
@@ -12427,7 +13643,7 @@ Area-llon   : 80.06
 Area-rlon   : 88.21
 
 WKID        : 104257
-Latest-WKID : 104257
+Latest-WKID : 8999
 Macro       : PE_GCS_ITRF_2008
 Name        : GCS_ITRF_2008
 WKT         : GEOGCS["GCS_ITRF_2008",
@@ -12435,10 +13651,10 @@ WKT         : GEOGCS["GCS_ITRF_2008",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
-Description : ITRF 2008
+Description : ITRF 2008 (104257)
 Authority   : Esri
 Version     : 10.1.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World (by country)
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -12446,7 +13662,7 @@ Area-llon   : -180.0
 Area-rlon   : 180.0
 
 WKID        : 104258
-Latest-WKID : 104258
+Latest-WKID : 9059
 Macro       : PE_GCS_ETRF_1989
 Name        : GCS_ETRF_1989
 WKT         : GEOGCS["GCS_ETRF_1989",
@@ -12457,7 +13673,7 @@ WKT         : GEOGCS["GCS_ETRF_1989",
 Description : European Terrestrial Ref.Frame 1989
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - ETRS89
 Area-slat   : 32.88
 Area-nlat   : 84.17
@@ -15619,7 +16835,7 @@ Area-llon   : -92.89
 Area-rlon   : -86.25
 
 WKID        : 104896
-Latest-WKID : 104896
+Latest-WKID : 8998
 Macro       : PE_GCS_ITRF_2005
 Name        : GCS_ITRF_2005
 WKT         : GEOGCS["GCS_ITRF_2005",
@@ -15630,7 +16846,7 @@ WKT         : GEOGCS["GCS_ITRF_2005",
 Description : ITRF 2005
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
