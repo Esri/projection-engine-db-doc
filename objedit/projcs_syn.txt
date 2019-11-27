@@ -2759,8 +2759,23 @@
    FALSE, \
    "Teradata"
 
-"Camacupa / TM 11.30 SE", \
+"Camacupa 1948 / TM 11.30 SE", \
    "Camacupa_TM_11_30_SE", \
+   FALSE, \
+   "EPSG"
+
+"Camacupa 1948 / TM 12 SE", \
+   "Camacupa_TM_12_SE", \
+   FALSE, \
+   "EPSG"
+
+"Camacupa 1948 / UTM zone 32S", \
+   "Camacupa_UTM_Zone_32S", \
+   FALSE, \
+   "EPSG"
+
+"Camacupa 1948 / UTM zone 33S", \
+   "Camacupa_UTM_Zone_33S", \
    FALSE, \
    "EPSG"
 
@@ -6434,8 +6449,23 @@
    FALSE, \
    "Teradata"
 
+"ETRS89-extended / LAEA Europe", \
+   "ETRS_1989_LAEA", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-extended / LCC Europe", \
+   "ETRS_1989_LCC", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 / Faroe TM", \
    "ETRS_1989_FAROE_TM", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / Gauss-Kruger CM 9E", \
+   "ETRS_1989_GK_CM_9E", \
    FALSE, \
    "EPSG"
 
@@ -6618,16 +6648,6 @@
    "ETRS_1989_Kp2000_Zealand", \
    FALSE, \
    "Teradata"
-
-"ETRS89 / LAEA Europe", \
-   "ETRS_1989_LAEA", \
-   FALSE, \
-   "EPSG"
-
-"ETRS89 / LCC Europe", \
-   "ETRS_1989_LCC", \
-   FALSE, \
-   "EPSG"
 
 "ETRS89 / LCC Germany (E-N)", \
    "ETRS_1989_LCC_Germany_E-N", \
@@ -10324,6 +10344,31 @@
    FALSE, \
    "Teradata"
 
+"Kyrg-06 / zone 1", \
+   "Kyrg-06_TM_Zone_1", \
+   FALSE, \
+   "EPSG"
+
+"Kyrg-06 / zone 2", \
+   "Kyrg-06_TM_Zone_2", \
+   FALSE, \
+   "EPSG"
+
+"Kyrg-06 / zone 3", \
+   "Kyrg-06_TM_Zone_3", \
+   FALSE, \
+   "EPSG"
+
+"Kyrg-06 / zone 4", \
+   "Kyrg-06_TM_Zone_4", \
+   FALSE, \
+   "EPSG"
+
+"Kyrg-06 / zone 5", \
+   "Kyrg-06_TM_Zone_5", \
+   FALSE, \
+   "EPSG"
+
 "Leigon / Ghana Metre Grid", \
    "Ghana_Metre_Grid", \
    FALSE, \
@@ -11053,6 +11098,26 @@
    "Mexican_Datum_1993_UTM_Zone_16N", \
    FALSE, \
    "EPSG"
+
+"MGI_1901_Balkans_5", \
+   "MGI_1901_Balkans_zone_5", \
+   TRUE, \
+   ""
+
+"MGI_1901_Balkans_6", \
+   "MGI_1901_Balkans_zone_6", \
+   TRUE, \
+   ""
+
+"MGI_1901_Balkans_7", \
+   "MGI_1901_Balkans_zone_7", \
+   TRUE, \
+   ""
+
+"MGI_1901_Balkans_8", \
+   "MGI_1901_Balkans_zone_8", \
+   TRUE, \
+   ""
 
 "MGI 1901 / Balkans zone 5", \
    "MGI_1901_Balkans_5", \
@@ -17946,6 +18011,106 @@
 
 "NAD83(2011) / Kentucky South (ftUS)", \
    "NAD_1983_2011_StatePlane_Kentucky_South_FIPS_1602_Ft_US", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 1", \
+   "NAD_1983_2011_KS_RCS_Zone_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 10", \
+   "NAD_1983_2011_KS_RCS_Zone_10", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 11", \
+   "NAD_1983_2011_KS_RCS_Zone_11", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 12", \
+   "NAD_1983_2011_KS_RCS_Zone_12", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 13", \
+   "NAD_1983_2011_KS_RCS_Zone_13", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 14", \
+   "NAD_1983_2011_KS_RCS_Zone_14", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 15", \
+   "NAD_1983_2011_KS_RCS_Zone_15", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 16", \
+   "NAD_1983_2011_KS_RCS_Zone_16", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 17", \
+   "NAD_1983_2011_KS_RCS_Zone_17", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 18", \
+   "NAD_1983_2011_KS_RCS_Zone_18", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 19", \
+   "NAD_1983_2011_KS_RCS_Zone_19", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 2", \
+   "NAD_1983_2011_KS_RCS_Zone_2", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 20", \
+   "NAD_1983_2011_KS_RCS_Zone_20", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 3", \
+   "NAD_1983_2011_KS_RCS_Zone_3", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 4", \
+   "NAD_1983_2011_KS_RCS_Zone_4", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 5", \
+   "NAD_1983_2011_KS_RCS_Zone_5", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 6", \
+   "NAD_1983_2011_KS_RCS_Zone_6", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 7", \
+   "NAD_1983_2011_KS_RCS_Zone_7", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 8", \
+   "NAD_1983_2011_KS_RCS_Zone_8", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / KS RCS zone 9", \
+   "NAD_1983_2011_KS_RCS_Zone_9", \
    FALSE, \
    "EPSG"
 
@@ -29734,6 +29899,11 @@
    FALSE, \
    "Teradata"
 
+"NAD83 / Idaho Transverse Mercator", \
+   "NAD_1983_Idaho_TM", \
+   FALSE, \
+   "EPSG"
+
 "NAD83 / Idaho West", \
    "NAD_1983_StatePlane_Idaho_West_FIPS_1103", \
    FALSE, \
@@ -30436,6 +30606,16 @@
 
 "NAD83(MA11) / Guam Map Grid", \
    "NAD_1983_MA11_Guam_Map_Grid", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(MA11) / UTM zone 54N", \
+   "NAD_1983_MA11_UTM_Zone_54N", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(MA11) / UTM zone 55N", \
+   "NAD_1983_MA11_UTM_Zone_55N", \
    FALSE, \
    "EPSG"
 
@@ -53109,6 +53289,16 @@
    FALSE, \
    "SpatiaLite"
 
+"SIRGAS-Chile 2002 / UTM zone 18S", \
+   "SIRGAS-Chile_UTM_Zone_18S", \
+   FALSE, \
+   "EPSG"
+
+"SIRGAS-Chile 2002 / UTM zone 19S", \
+   "SIRGAS-Chile_UTM_Zone_19S", \
+   FALSE, \
+   "EPSG"
+
 "South Yemen / Gauss-Kruger zone 8", \
    "South_Yemen_GK_Zone_8", \
    FALSE, \
@@ -53453,6 +53643,11 @@
    "Tahiti_1952_UTM_6S", \
    FALSE, \
    "Oracle"
+
+"Tananarive / Laborde Grid", \
+   "Tananarive_1925_Laborde_Grid", \
+   FALSE, \
+   "EPSG"
 
 "Tananarive (Paris) / Laborde Grid", \
    "Tananarive_1925_Paris_Laborde_Grid", \
@@ -58019,6 +58214,11 @@
    FALSE, \
    "EPSG"
 
+"WGS 84 / NIWA Albers", \
+   "WGS_1984_NIWA_Albers", \
+   FALSE, \
+   "EPSG"
+
 "WGS 84 / North Pole LAEA Alaska", \
    "WGS_1984_North_Pole_LAEA_Alaska", \
    FALSE, \
@@ -58393,6 +58593,16 @@
    "WGS_1984_TMzn36N", \
    FALSE, \
    "SpatiaLite"
+
+"WGS 84 / TM Zone 20N (ftUS)", \
+   "WGS_1984_TM_Zone_20N_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / TM Zone 21N (ftUS)", \
+   "WGS_1984_TM_Zone_21N_(US_Feet)", \
+   FALSE, \
+   "EPSG"
 
 "WGS 84 / Tripura", \
    "WGS_1984_Tripura", \

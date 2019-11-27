@@ -27,7 +27,7 @@ WKT         : VERTCS["EGM2008_Geoid",
                UNIT["Meter", 1.0]]
 Description : EGM2008 Geoid
 Authority   : EPSG
-Version     : 8.8(10.1.0)
+Version     : 9.7(10.1.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -65,7 +65,7 @@ WKT         : VERTCS["N2000_height",
                UNIT["Meter", 1.0]]
 Description : N2000
 Authority   : EPSG
-Version     : 7.5.1(10.1.0)
+Version     : 9.4(10.1.0)
 Deprecated  : no
 Area-name   : Finland - onshore
 Area-slat   : 59.75
@@ -84,7 +84,7 @@ WKT         : VERTCS["NZVD2009_height",
                UNIT["Meter", 1.0]]
 Description : NZVD2009
 Authority   : EPSG
-Version     : 9.0(10.1.0)
+Version     : 9.6.4(10.1.0)
 Deprecated  : no
 Area-name   : New Zealand
 Area-slat   : -55.95
@@ -141,7 +141,7 @@ WKT         : VERTCS["Trieste_height",
                UNIT["Meter", 1.0]]
 Description : Trieste (Height)
 Authority   : EPSG
-Version     : 7.5.8(10.1.0)
+Version     : 9.5(10.1.0)
 Deprecated  : no
 Area-name   : Europe - former Yugoslavia onshore
 Area-slat   : 40.85
@@ -483,7 +483,7 @@ WKT         : VERTCS["Baltic_depth",
                UNIT["Meter", 1.0]]
 Description : Baltic (depth)
 Authority   : EPSG
-Version     : 6.15(10.0.0)
+Version     : 9.2.2(10.0.0)
 Deprecated  : no
 Area-name   : Europe - FSU, Czechoslovakia - onshore
 Area-slat   : 35.14
@@ -597,7 +597,7 @@ WKT         : VERTCS["IGN_1992_LD",
                UNIT["Meter", 1.0]]
 Description : IGN 1992 LD
 Authority   : EPSG
-Version     : 6.18(10.0.0)
+Version     : 9.7(10.0.0)
 Deprecated  : no
 Area-name   : Guadeloupe - La Desirade - onshore
 Area-slat   : 16.26
@@ -654,7 +654,7 @@ WKT         : VERTCS["EVRF_2007",
                UNIT["Meter", 1.0]]
 Description : European Vertical Reference Frame 2007
 Authority   : EPSG
-Version     : 8.6.3(10.0.0)
+Version     : 9.7(10.0.0)
 Deprecated  : no
 Area-name   : Europe - EVRF2007
 Area-slat   : 35.95
@@ -692,7 +692,7 @@ WKT         : VERTCS["NGVD_1929",
                UNIT["Foot_US", 0.3048006096012192]]
 Description : NGVD_1929 -- National Geodetic Vertical Datum of 1929
 Authority   : EPSG
-Version     : 8.2.7(9.3.0.0)
+Version     : 9.8(9.3.0.0)
 Deprecated  : no
 Area-name   : USA - CONUS - onshore
 Area-slat   : 24.41
@@ -711,7 +711,7 @@ WKT         : VERTCS["NAVD_1988",
                UNIT["Meter", 1.0]]
 Description : NAVD_1988 -- North American Vertical Datum of 1988
 Authority   : EPSG
-Version     : 8.2.7(9.3.0.0)
+Version     : 9.8(9.3.0.0)
 Deprecated  : no
 Area-name   : North America - Mexico and USA - onshore
 Area-slat   : 14.51
@@ -749,7 +749,7 @@ WKT         : VERTCS["Baltic",
                UNIT["Meter", 1.0]]
 Description : Baltic
 Authority   : EPSG
-Version     : 7.5.8(9.3.0.0)
+Version     : 9.2.2(9.3.0.0)
 Deprecated  : no
 Area-name   : Europe - FSU, Czechoslovakia - onshore
 Area-slat   : 35.14
@@ -825,7 +825,7 @@ WKT         : VERTCS["AHD",
                UNIT["Meter", 1.0]]
 Description : AHD -- Australian Height Datum
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 9.8(9.3.0.0)
 Deprecated  : no
 Area-name   : Australia - mainland
 Area-slat   : -39.2
@@ -844,7 +844,7 @@ WKT         : VERTCS["AHD_Tasmania",
                UNIT["Meter", 1.0]]
 Description : AHD_Tasmania -- Australian Height Datum (Tasmania)
 Authority   : EPSG
-Version     : 7.9.4(9.3.0.0)
+Version     : 9.3(9.3.0.0)
 Deprecated  : no
 Area-name   : Australia - Tasmania mainland onshore
 Area-slat   : -43.7
@@ -863,7 +863,7 @@ WKT         : VERTCS["CGVD_1928",
                UNIT["Meter", 1.0]]
 Description : CGVD_1928 -- Canadian Geodetic Vertical Datum of 1928
 Authority   : EPSG
-Version     : 8.3.3(9.3.0.0)
+Version     : 9.8(9.3.0.0)
 Deprecated  : no
 Area-name   : Canada - CGVD28
 Area-slat   : 41.67
@@ -1186,7 +1186,7 @@ WKT         : VERTCS["EVRS_2000",
                UNIT["Meter", 1.0]]
 Description : EVRS_2000 -- European Vertical Reference System 2000
 Authority   : EPSG
-Version     : 6.18.1(9.3.0.0)
+Version     : 9.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Europe - EVRF2000
 Area-slat   : 35.95
@@ -1642,7 +1642,7 @@ WKT         : VERTCS["Poolbeg",
                UNIT["Foot_British_1936", 0.3048007491]]
 Description : Poolbeg
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 9.2(9.3.0.0)
 Deprecated  : no
 Area-name   : Europe - Ireland (Republic and Ulster) - onshore
 Area-slat   : 51.39
@@ -2003,7 +2003,7 @@ WKT         : VERTCS["EGM96_Geoid",
                UNIT["Meter", 1.0]]
 Description : EGM96 Geoid
 Authority   : EPSG
-Version     : 8.8(9.3.0.0)
+Version     : 9.7(9.3.0.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -2117,7 +2117,7 @@ WKT         : VERTCS["SVS2000",
                UNIT["Meter", 1.0]]
 Description : SVS2000 -- Slovenian Vertical System 2000
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 9.5(9.3.0.0)
 Deprecated  : no
 Area-name   : Slovenia - onshore
 Area-slat   : 45.42
@@ -2478,7 +2478,7 @@ WKT         : VERTCS["EGM84_Geoid",
                UNIT["Meter", 1.0]]
 Description : EGM84 Geoid
 Authority   : EPSG
-Version     : 8.8(9.3.0.0)
+Version     : 9.7(9.3.0.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -2858,7 +2858,7 @@ WKT         : VERTCS["GCVD54_height",
                UNIT["Foot", 0.3048]]
 Description : Grand Cayman Vertical Datum 1954 (height)
 Authority   : EPSG
-Version     : 8.1.2(10.2.1)
+Version     : 9.2(10.2.1)
 Deprecated  : no
 Area-name   : Cayman Islands - Grand Cayman
 Area-slat   : 19.21
@@ -2877,7 +2877,7 @@ WKT         : VERTCS["LCVD61_height",
                UNIT["Foot", 0.3048]]
 Description : Little Cayman Vertical Datum 1961 (height)
 Authority   : EPSG
-Version     : 8.1.3(10.2.1)
+Version     : 9.2(10.2.1)
 Deprecated  : no
 Area-name   : Cayman Islands - Little Cayman
 Area-slat   : 19.63
@@ -2896,7 +2896,7 @@ WKT         : VERTCS["CBVD61_height",
                UNIT["Foot", 0.3048]]
 Description : Cayman Brac Vertical Datum 1961 (height)
 Authority   : EPSG
-Version     : 8.1.2(10.2.1)
+Version     : 9.2(10.2.1)
 Deprecated  : no
 Area-name   : Cayman Islands - Cayman Brac
 Area-slat   : 19.66
@@ -3124,7 +3124,7 @@ WKT         : VERTCS["NAVD88_depth_(ftUS)",
                UNIT["Foot_US", 0.3048006096012192]]
 Description : NAVD88 depth (ftUS)
 Authority   : EPSG
-Version     : 8.2.10(10.3.1)
+Version     : 9.2(10.3.1)
 Deprecated  : no
 Area-name   : USA - CONUS and Alaska - onshore
 Area-slat   : 24.41
@@ -3143,7 +3143,7 @@ WKT         : VERTCS["NGVD29_depth",
                UNIT["Foot_US", 0.3048006096012192]]
 Description : NGVD29 depth
 Authority   : EPSG
-Version     : 8.2.10(10.3.1)
+Version     : 9.2(10.3.1)
 Deprecated  : no
 Area-name   : USA - CONUS - onshore
 Area-slat   : 24.41
@@ -3162,7 +3162,7 @@ WKT         : VERTCS["NAVD88_height_(ftUS)",
                UNIT["Foot_US", 0.3048006096012192]]
 Description : NAVD88 height (ftUS) - aliased to 105703
 Authority   : EPSG
-Version     : 8.2.4(10.5.1)
+Version     : 9.2(10.5.1)
 Deprecated  : no
 Area-name   : USA - CONUS and Alaska - onshore
 Area-slat   : 24.41
@@ -3219,7 +3219,7 @@ WKT         : VERTCS["NMVD03_height",
                UNIT["Meter", 1.0]]
 Description : NMVD03 height
 Authority   : EPSG
-Version     : 8.2.10(10.3.1)
+Version     : 9.8(10.3.1)
 Deprecated  : no
 Area-name   : Northern Mariana Islands - Rota, Saipan and Tinian
 Area-slat   : 14.06
@@ -3238,7 +3238,7 @@ WKT         : VERTCS["PRVD02_height",
                UNIT["Meter", 1.0]]
 Description : PRVD02 height
 Authority   : EPSG
-Version     : 8.2.10(10.3.1)
+Version     : 9.8(10.3.1)
 Deprecated  : no
 Area-name   : Puerto Rico - onshore
 Area-slat   : 17.87
@@ -3257,7 +3257,7 @@ WKT         : VERTCS["VIVD09_height",
                UNIT["Meter", 1.0]]
 Description : VIVD09 height
 Authority   : EPSG
-Version     : 8.2.10(10.3.1)
+Version     : 9.8(10.3.1)
 Deprecated  : no
 Area-name   : Virgin Islands, US - onshore
 Area-slat   : 17.62
@@ -3276,7 +3276,7 @@ WKT         : VERTCS["ASVD02_height",
                UNIT["Meter", 1.0]]
 Description : ASVD02 height
 Authority   : EPSG
-Version     : 8.2.10(10.3.1)
+Version     : 9.8(10.3.1)
 Deprecated  : no
 Area-name   : American Samoa - Tutuila island
 Area-slat   : -14.43
@@ -3295,7 +3295,7 @@ WKT         : VERTCS["GUVD04_height",
                UNIT["Meter", 1.0]]
 Description : GUVD04 height
 Authority   : EPSG
-Version     : 8.2.10(10.3.1)
+Version     : 9.8(10.3.1)
 Deprecated  : no
 Area-name   : Guam - onshore
 Area-slat   : 13.18
@@ -3314,7 +3314,7 @@ WKT         : VERTCS["CGVD2013_height",
                UNIT["Meter", 1.0]]
 Description : CGVD2013 height
 Authority   : EPSG
-Version     : 9.1.1(10.3.1)
+Version     : 9.8(10.3.1)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -3352,7 +3352,7 @@ WKT         : VERTCS["JGD2000_vertical_height",
                UNIT["Meter", 1.0]]
 Description : Japanese Geodetic Datum 2000 (vertical) height
 Authority   : EPSG
-Version     : 8.3.2(10.3.1)
+Version     : 9.7(10.3.1)
 Deprecated  : no
 Area-name   : Japan - onshore mainland
 Area-slat   : 30.94
@@ -3371,7 +3371,7 @@ WKT         : VERTCS["JGD2011_vertical_height",
                UNIT["Meter", 1.0]]
 Description : Japanese Geodetic Datum 2011 (vertical) height
 Authority   : EPSG
-Version     : 8.3.2(10.3.1)
+Version     : 9.7(10.3.1)
 Deprecated  : no
 Area-name   : Japan - onshore mainland
 Area-slat   : 30.94
@@ -3581,7 +3581,7 @@ WKT         : VERTCS["NZVD2016_height",
                UNIT["Meter", 1.0]]
 Description : New Zealand Vertical Datum 2016 (height)
 Authority   : EPSG
-Version     : 8.9.4(10.6.0)
+Version     : 9.6.4(10.6.0)
 Deprecated  : no
 Area-name   : New Zealand
 Area-slat   : -55.95
@@ -3666,6 +3666,158 @@ Area-nlat   : -15.85
 Area-llon   : -5.85
 Area-rlon   : -5.58
 
+WKID        : 7962
+Latest-WKID : 7962
+Macro       : PE_VCS_POOLBEG_HT_M
+Name        : Poolbeg_height_(m)
+WKT         : VERTCS["Poolbeg_height_(m)",
+               VDATUM["Poolbeg"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Poolbeg height (m)
+Authority   : EPSG
+Version     : 9.1(10.8.0)
+Deprecated  : no
+Area-name   : Europe - Ireland (Republic and Ulster) - onshore
+Area-slat   : 51.39
+Area-nlat   : 55.43
+Area-llon   : -10.56
+Area-rlon   : -5.34
+
+WKID        : 7968
+Latest-WKID : 7968
+Macro       : PE_VCS_NGVD29_HT_M
+Name        : NGVD_1929_height_(m)
+WKT         : VERTCS["NGVD_1929_height_(m)",
+               VDATUM["National_Geodetic_Vertical_Datum_1929"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NGVD 1929 height (m)
+Authority   : EPSG
+Version     : 9.2(10.8.0)
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+
+WKID        : 7976
+Latest-WKID : 7976
+Macro       : PE_VCS_HKPD_D
+Name        : HKPD_depth
+WKT         : VERTCS["HKPD_depth",
+               VDATUM["Hong_Kong_Principal_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : HKPD depth
+Authority   : EPSG
+Version     : 9.2(10.8.0)
+Deprecated  : no
+Area-name   : China - Hong Kong - onshore
+Area-slat   : 22.19
+Area-nlat   : 22.56
+Area-llon   : 113.82
+Area-rlon   : 114.39
+
+WKID        : 7979
+Latest-WKID : 7979
+Macro       : PE_VCS_KOC_WD_HT
+Name        : KOC_WD_height
+WKT         : VERTCS["KOC_WD_height",
+               VDATUM["KOC_Well_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : KOC WD height
+Authority   : EPSG
+Version     : 9.0.1(10.8.0)
+Deprecated  : no
+Area-name   : Kuwait - onshore
+Area-slat   : 28.53
+Area-nlat   : 30.09
+Area-llon   : 46.54
+Area-rlon   : 48.48
+
+WKID        : 8050
+Latest-WKID : 8050
+Macro       : PE_VCS_MSL_HT_FT
+Name        : MSL_height_(ftIntl)
+WKT         : VERTCS["MSL_height_(ftIntl)",
+               VDATUM["Mean_Sea_Level"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot", 0.3048]]
+Description : MSL height (ft)
+Authority   : EPSG
+Version     : 9.1(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8051
+Latest-WKID : 8051
+Macro       : PE_VCS_MSL_D_FT
+Name        : MSL_depth_(ftIntl)
+WKT         : VERTCS["MSL_depth_(ftIntl)",
+               VDATUM["Mean_Sea_Level"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Foot", 0.3048]]
+Description : MSL depth (ft)
+Authority   : EPSG
+Version     : 9.2(10.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 8052
+Latest-WKID : 8052
+Macro       : PE_VCS_MSL_HT_FTUS
+Name        : MSL_height_(ftUS)
+WKT         : VERTCS["MSL_height_(ftUS)",
+               VDATUM["Mean_Sea_Level"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot_US", 0.3048006096012192]]
+Description : MSL height (ftUS)
+Authority   : EPSG
+Version     : 9.1(10.8.0)
+Deprecated  : no
+Area-name   : USA
+Area-slat   : 15.56
+Area-nlat   : 74.71
+Area-llon   : 167.65
+Area-rlon   : -65.69
+
+WKID        : 8053
+Latest-WKID : 8053
+Macro       : PE_VCS_MSL_D_FTUS
+Name        : MSL_depth_(ftUS)
+WKT         : VERTCS["MSL_depth_(ftUS)",
+               VDATUM["Mean_Sea_Level"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Foot_US", 0.3048006096012192]]
+Description : MSL depth (ftUS)
+Authority   : EPSG
+Version     : 9.1(10.8.0)
+Deprecated  : no
+Area-name   : USA
+Area-slat   : 15.56
+Area-nlat   : 74.71
+Area-llon   : 167.65
+Area-rlon   : -65.69
+
 WKID        : 8089
 Latest-WKID : 8089
 Macro       : PE_VCS_ISH2004_HT
@@ -3685,6 +3837,139 @@ Area-nlat   : 66.59
 Area-llon   : -24.66
 Area-rlon   : -13.38
 
+WKID        : 8228
+Latest-WKID : 8228
+Macro       : PE_VCS_NAVD88_HT_IFT
+Name        : NAVD88_height_(ftIntl)
+WKT         : VERTCS["NAVD88_height_(ftIntl)",
+               VDATUM["North_American_Vertical_Datum_1988"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot_US", 0.3048006096012192]]
+Description : NAVD88 height (ftIntl)
+Authority   : EPSG
+Version     : 9.2(10.8.0)
+Deprecated  : no
+Area-name   : USA - onshore - AZ MI MT ND OR SC
+Area-slat   : 31.33
+Area-nlat   : 49.01
+Area-llon   : -124.6
+Area-rlon   : -78.52
+
+WKID        : 8266
+Latest-WKID : 8266
+Macro       : PE_VCS_GVR2000_HT
+Name        : GVR2000_height
+WKT         : VERTCS["GVR2000_height",
+               VDATUM["Greenland_Vertical_Reference_2000"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : GVR2000 height
+Authority   : EPSG
+Version     : 9.1.2(10.8.0)
+Deprecated  : no
+Area-name   : Greenland - 59~N to 84~N
+Area-slat   : 59.0
+Area-nlat   : 84.01
+Area-llon   : -75.0
+Area-rlon   : -10.0
+
+WKID        : 8267
+Latest-WKID : 8267
+Macro       : PE_VCS_GVR2016_HT
+Name        : GVR2016_height
+WKT         : VERTCS["GVR2016_height",
+               VDATUM["Greenland_Vertical_Reference_2016"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : GVR2016 height
+Authority   : EPSG
+Version     : 9.1.2(10.8.0)
+Deprecated  : no
+Area-name   : Greenland - 58~N to 85~N
+Area-slat   : 58.0
+Area-nlat   : 85.01
+Area-llon   : -75.0
+Area-rlon   : -6.99
+
+WKID        : 8357
+Latest-WKID : 8357
+Macro       : PE_VCS_BALTIC_1957_HT
+Name        : Baltic_1957_height
+WKT         : VERTCS["Baltic_1957_height",
+               VDATUM["Baltic_1957"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Baltic 1957 height
+Authority   : EPSG
+Version     : 9.2.2(10.8.0)
+Deprecated  : no
+Area-name   : Europe - Czechoslovakia
+Area-slat   : 47.73
+Area-nlat   : 51.06
+Area-llon   : 12.09
+Area-rlon   : 22.56
+
+WKID        : 8358
+Latest-WKID : 8358
+Macro       : PE_VCS_BALTIC_1957_D
+Name        : Baltic_1957_depth
+WKT         : VERTCS["Baltic_1957_depth",
+               VDATUM["Baltic_1957"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+Description : Baltic 1957 depth
+Authority   : EPSG
+Version     : 9.2.2(10.8.0)
+Deprecated  : no
+Area-name   : Europe - Czechoslovakia
+Area-slat   : 47.73
+Area-nlat   : 51.06
+Area-llon   : 12.09
+Area-rlon   : 22.56
+
+WKID        : 8434
+Latest-WKID : 8434
+Macro       : PE_VCS_MACAO_HT
+Name        : Macao_height
+WKT         : VERTCS["Macao_height",
+               VDATUM["Macao_Height_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Macao height
+Authority   : EPSG
+Version     : 9.2.2(10.8.0)
+Deprecated  : no
+Area-name   : China - Macao
+Area-slat   : 22.06
+Area-nlat   : 22.23
+Area-llon   : 113.52
+Area-rlon   : 113.68
+
+WKID        : 8675
+Latest-WKID : 8675
+Macro       : PE_VCS_N43_HT
+Name        : N43_height
+WKT         : VERTCS["N43_height",
+               VDATUM["Helsinki_1943"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : N43 height
+Authority   : EPSG
+Version     : 9.4(10.8.0)
+Deprecated  : no
+Area-name   : Finland - mainland south of 66~N
+Area-slat   : 59.75
+Area-nlat   : 66.73
+Area-llon   : 20.95
+Area-rlon   : 31.59
+
 WKID        : 8690
 Latest-WKID : 8690
 Macro       : PE_VCS_SVS2010
@@ -3695,14 +3980,109 @@ WKT         : VERTCS["SVS2010",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 Description : SVS2010 -- Slovenian Vertical System 2010
-Authority   : Esri
-Version     : 10.7.1
+Authority   : EPSG
+Version     : 9.4.2(10.7.1)
 Deprecated  : no
 Area-name   : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
+
+WKID        : 8691
+Latest-WKID : 8691
+Macro       : PE_VCS_SRB_VRS12_HT
+Name        : SRB_VRS12_height
+WKT         : VERTCS["SRB_VRS12_height",
+               VDATUM["Serbian_Vertical_Reference_System_2012"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SRB_VRS12 height
+Authority   : EPSG
+Version     : 9.7(10.8.0)
+Deprecated  : no
+Area-name   : Serbia
+Area-slat   : 42.23
+Area-nlat   : 46.19
+Area-llon   : 18.81
+Area-rlon   : 23.01
+
+WKID        : 8841
+Latest-WKID : 8841
+Macro       : PE_VCS_MVGC_HT
+Name        : MVGC_height
+WKT         : VERTCS["MVGC_height",
+               VDATUM["MOMRA_Vertical_Geodetic_Control"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : MVGC height
+Authority   : EPSG
+Version     : 9.5(10.8.0)
+Deprecated  : no
+Area-name   : Saudi Arabia - onshore
+Area-slat   : 15.61
+Area-nlat   : 32.16
+Area-llon   : 34.51
+Area-rlon   : 55.67
+
+WKID        : 8904
+Latest-WKID : 8904
+Macro       : PE_VCS_TWVD_2001_HT
+Name        : TWVD_2001_height
+WKT         : VERTCS["TWVD_2001_height",
+               VDATUM["Taiwan_Vertical_Datum_2001"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : TWVD 2001 height
+Authority   : EPSG
+Version     : 9.6.1(10.8.0)
+Deprecated  : no
+Area-name   : Taiwan - onshore - mainland
+Area-slat   : 21.87
+Area-nlat   : 25.34
+Area-llon   : 119.99
+Area-rlon   : 122.06
+
+WKID        : 8911
+Latest-WKID : 8911
+Macro       : PE_VCS_DACR52_HT
+Name        : DACR52_height
+WKT         : VERTCS["DACR52_height",
+               VDATUM["Datum_Altimetrico_de_Costa_Rica_1952"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : DACR52 height
+Authority   : EPSG
+Version     : 9.6.1(10.8.0)
+Deprecated  : no
+Area-name   : Costa Rica - onshore
+Area-slat   : 7.98
+Area-nlat   : 11.22
+Area-llon   : -85.97
+Area-rlon   : -82.53
+
+WKID        : 9130
+Latest-WKID : 9130
+Macro       : PE_VCS_IGN_2008_LD_HT
+Name        : IGN_2008_LD_height
+WKT         : VERTCS["IGN_2008_LD_height",
+               VDATUM["IGN_2008_LD"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGN 2008 LD height
+Authority   : EPSG
+Version     : 9.6.4(10.8.0)
+Deprecated  : no
+Area-name   : Guadeloupe - La Desirade - onshore
+Area-slat   : 16.26
+Area-nlat   : 16.38
+Area-llon   : -61.13
+Area-rlon   : -60.97
 
 WKID        : 105603
 Latest-WKID : 105603
@@ -5827,7 +6207,7 @@ Description : SREF98 ellipsoid height
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Serbia
+Area-name   : Serbia and Kosovo
 Area-slat   : 41.85
 Area-nlat   : 46.19
 Area-llon   : 18.81
@@ -5847,7 +6227,7 @@ Description : S_JTSK/05 ellipsoid height
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Czech Republic
+Area-name   : Czechia
 Area-slat   : 48.58
 Area-nlat   : 51.06
 Area-llon   : 12.09
@@ -5867,7 +6247,7 @@ Description : S JTSK/05 (Ferro) ellipsoid height
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Czech Republic
+Area-name   : Czechia
 Area-slat   : 48.58
 Area-nlat   : 51.06
 Area-llon   : 12.09
@@ -6764,7 +7144,7 @@ Description : SRB ETRS89 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Serbia
+Area-name   : Serbia and Kosovo
 Area-slat   : 41.85
 Area-nlat   : 46.19
 Area-llon   : 18.81
@@ -6889,3 +7269,523 @@ Area-slat   : 47.73
 Area-nlat   : 49.61
 Area-llon   : 16.84
 Area-rlon   : 22.56
+
+WKID        : 115849
+Latest-WKID : 115849
+Macro       : PE_VCS_CR_SIRGAS
+Name        : CR-SIRGAS
+WKT         : VERTCS["CR-SIRGAS",
+               DATUM["CR-SIRGAS",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : CR-SIRGAS ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Costa Rica
+Area-slat   : 2.15
+Area-nlat   : 11.77
+Area-llon   : -90.45
+Area-rlon   : -81.43
+
+WKID        : 115850
+Latest-WKID : 115850
+Macro       : PE_VCS_RGWF96
+Name        : RGWF96
+WKT         : VERTCS["RGWF96",
+               DATUM["Reseau_Geodesique_de_Wallis_et_Futuna_1996",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : RGWF96 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Wallis and Futuna
+Area-slat   : -15.94
+Area-nlat   : -9.84
+Area-llon   : 179.49
+Area-rlon   : -174.27
+
+WKID        : 115851
+Latest-WKID : 115851
+Macro       : PE_VCS_SIRGAS_CON_DGF00P01
+Name        : SIRGAS-CON_DGF00P01
+WKT         : VERTCS["SIRGAS-CON_DGF00P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF00P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network DGF00P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115852
+Latest-WKID : 115852
+Macro       : PE_VCS_SIRGAS_CON_DGF01P01
+Name        : SIRGAS-CON_DGF01P01
+WKT         : VERTCS["SIRGAS-CON_DGF01P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF01P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network DGF01P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115853
+Latest-WKID : 115853
+Macro       : PE_VCS_SIRGAS_CON_DGF01P02
+Name        : SIRGAS-CON_DGF01P02
+WKT         : VERTCS["SIRGAS-CON_DGF01P02",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF01P02",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network DGF01P02 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115854
+Latest-WKID : 115854
+Macro       : PE_VCS_SIRGAS_CON_DGF02P01
+Name        : SIRGAS-CON_DGF02P01
+WKT         : VERTCS["SIRGAS-CON_DGF02P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF02P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network DGF02P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115855
+Latest-WKID : 115855
+Macro       : PE_VCS_SIRGAS_CON_DGF04P01
+Name        : SIRGAS-CON_DGF04P01
+WKT         : VERTCS["SIRGAS-CON_DGF04P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF04P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network DGF04P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115856
+Latest-WKID : 115856
+Macro       : PE_VCS_SIRGAS_CON_DGF05P01
+Name        : SIRGAS-CON_DGF05P01
+WKT         : VERTCS["SIRGAS-CON_DGF05P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF05P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network DGF05P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115857
+Latest-WKID : 115857
+Macro       : PE_VCS_SIRGAS_CON_DGF06P01
+Name        : SIRGAS-CON_DGF06P01
+WKT         : VERTCS["SIRGAS-CON_DGF06P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF06P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network DGF06P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115858
+Latest-WKID : 115858
+Macro       : PE_VCS_SIRGAS_CON_DGF07P01
+Name        : SIRGAS-CON_DGF07P01
+WKT         : VERTCS["SIRGAS-CON_DGF07P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF07P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network DGF07P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115859
+Latest-WKID : 115859
+Macro       : PE_VCS_SIRGAS_CON_DGF08P01
+Name        : SIRGAS-CON_DGF08P01
+WKT         : VERTCS["SIRGAS-CON_DGF08P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_DGF08P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network DGF08P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115860
+Latest-WKID : 115860
+Macro       : PE_VCS_SIRGAS_CON_SIR09P01
+Name        : SIRGAS-CON_SIR09P01
+WKT         : VERTCS["SIRGAS-CON_SIR09P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR09P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network SIR09P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115861
+Latest-WKID : 115861
+Macro       : PE_VCS_SIRGAS_CON_SIR10P01
+Name        : SIRGAS-CON_SIR10P01
+WKT         : VERTCS["SIRGAS-CON_SIR10P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR10P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network SIR10P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115862
+Latest-WKID : 115862
+Macro       : PE_VCS_SIRGAS_CON_SIR11P01
+Name        : SIRGAS-CON_SIR11P01
+WKT         : VERTCS["SIRGAS-CON_SIR11P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR11P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network SIR11P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115863
+Latest-WKID : 115863
+Macro       : PE_VCS_SIRGAS_CON_SIR13P01
+Name        : SIRGAS-CON_SIR13P01
+WKT         : VERTCS["SIRGAS-CON_SIR13P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR13P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network SIR13P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115864
+Latest-WKID : 115864
+Macro       : PE_VCS_SIRGAS_CON_SIR14P01
+Name        : SIRGAS-CON_SIR14P01
+WKT         : VERTCS["SIRGAS-CON_SIR14P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR14P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network SIR14P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115865
+Latest-WKID : 115865
+Macro       : PE_VCS_SIRGAS_CON_SIR15P01
+Name        : SIRGAS-CON_SIR15P01
+WKT         : VERTCS["SIRGAS-CON_SIR15P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR15P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network SIR15P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115866
+Latest-WKID : 115866
+Macro       : PE_VCS_SIRGAS_CON_SIR17P01
+Name        : SIRGAS-CON_SIR17P01
+WKT         : VERTCS["SIRGAS-CON_SIR17P01",
+               DATUM["SIRGAS_Continuously_Operating_Network_SIR17P01",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SIRGAS Continuously Operating Network SIR17P01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Latin America - Central America and South America
+Area-slat   : -59.87
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -25.28
+
+WKID        : 115867
+Latest-WKID : 115867
+Macro       : PE_VCS_IGS97
+Name        : IGS97
+WKT         : VERTCS["IGS97",
+               DATUM["IGS97",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGS97 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115868
+Latest-WKID : 115868
+Macro       : PE_VCS_IGS00
+Name        : IGS00
+WKT         : VERTCS["IGS00",
+               DATUM["IGS00",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGS00 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115869
+Latest-WKID : 115869
+Macro       : PE_VCS_IGB00
+Name        : IGb00
+WKT         : VERTCS["IGb00",
+               DATUM["IGb00",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGb00 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115870
+Latest-WKID : 115870
+Macro       : PE_VCS_IGS05
+Name        : IGS05
+WKT         : VERTCS["IGS05",
+               DATUM["IGS05",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGS05 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115871
+Latest-WKID : 115871
+Macro       : PE_VCS_IGB08
+Name        : IGb08
+WKT         : VERTCS["IGb08",
+               DATUM["IGb08",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : IGb08 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115872
+Latest-WKID : 115872
+Macro       : PE_VCS_KOSOVAREF01
+Name        : KOSOVAREF01
+WKT         : VERTCS["KOSOVAREF01",
+               DATUM["Kosovo_Reference_System_2001",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : KOSOVAREF01 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Kosovo
+Area-slat   : 41.85
+Area-nlat   : 43.25
+Area-llon   : 19.97
+Area-rlon   : 21.8
+
+WKID        : 115873
+Latest-WKID : 115873
+Macro       : PE_VCS_ETRF_2005
+Name        : ETRF2005
+WKT         : VERTCS["ETRF2005",
+               DATUM["European_Terrestrial_Reference_Frame_2005",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRF 2005 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115874
+Latest-WKID : 115874
+Macro       : PE_VCS_ETRF_2014
+Name        : ETRF2014
+WKT         : VERTCS["ETRF2014",
+               DATUM["European_Terrestrial_Reference_Frame_2014",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : ETRF 2014 ellipsoid height
+Authority   : Esri
+Version     : 10.8.0
+Deprecated  : no
+Area-name   : Europe - ETRS89
+Area-slat   : 32.88
+Area-nlat   : 84.17
+Area-llon   : -16.1
+Area-rlon   : 40.18
