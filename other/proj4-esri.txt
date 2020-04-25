@@ -15,7 +15,7 @@
 # ------------------------------------------------------------------------- #
 
 Names marked with a * are only in the libproject distribution
-Names marked with a @ are only in the PROJ4      distribution
+Names marked with a @ are only in the PROJ       distribution
 
 Parameter types:
    A    Angular unit   values in DMS
@@ -27,9 +27,11 @@ Parameter types:
 
 abbrev        PROJ4 name/parameters                        ESRI name/parameters
 ----------    ---------------------------------------      -----------------------------------
-adams_hemi   *Adams Hemisphere in a Square                 -
+adams_hemi    Adams Hemisphere in a Square                 -
 adams_wsI    *Adams World in a Square I                    -
+adams_ws1    @Adams World in a Square I                    -
 adams_wsII   *Adams World in a Square II                   -
+adams_ws2    @Adams World in a Square II                   -
 
 aea           Albers Equal Area                            Albers
                 L +x_0                                       False_Easting
@@ -223,7 +225,7 @@ goode         Goode Homolosine                             Goode_Homolosine
 gs48          Mod. Stererographics of 48 U.S.              -
 gs50          Mod. Stererographics of 50 U.S.              -
 gstmer c      Gauss-Schreiber Transverse Mercator          -
-guyou        *Guyou                                        -
+guyou         Guyou                                        -
 
 hammer        Hammer                                       Hammer_Ellipsoidal
                 L +x_0                                       False_Easting
@@ -442,7 +444,7 @@ patterson    *Patterson Cylindrical                        Patterson
 
 pav_cyl      *Pavlov's                                     -
 pconic        Perspective Conic                            -
-peirce_q     *Peirce Quincuncial                           -
+peirce_q      Peirce Quincuncial                           -
 
 poly          Polyconic (American)                         Polyconic
                 L +x_0                                       False_Easting
