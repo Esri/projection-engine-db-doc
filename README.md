@@ -65,7 +65,7 @@ Documentation files are found in the following directories:
            <li> nad/esri
            <li> nad/esri_extra
         </ul>
-       
+
    <li>Area extents are specified in degrees (from Greenwich).
 
    <li>Accuracy values in transformation entries are specified in meters.
@@ -81,7 +81,7 @@ an issue.
 
 ### Licensing
 
-Copyright &copy; 2010-2019 Esri
+Copyright &copy; 2010-2020 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
