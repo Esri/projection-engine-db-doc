@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2019 Esri Inc.                                            #
+#  Copyright 1999-2020 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -1739,11 +1739,11 @@ Description : Pampa del Castillo
 Authority   : EPSG
 Version     : 7.4.8(8.1.2)
 Deprecated  : no
-Area-name   : Argentina - Comodoro Rivadavia
-Area-slat   : -46.7
-Area-nlat   : -45.19
-Area-llon   : -69.5
-Area-rlon   : -67.1
+Area-name   : Argentina -  42.5~S to 50.3~S
+Area-slat   : -50.34
+Area-nlat   : -42.49
+Area-llon   : -73.59
+Area-rlon   : -65.47
 
 WKID        : 4162
 Latest-WKID : 4162
@@ -9853,7 +9853,7 @@ WKT         : GEOGCS["WGS_1984_(Transit)",
                UNIT["Degree", 0.0174532925199433]]
 Description : World Geodetic System 1984 (Transit)
 Authority   : EPSG
-Version     : 9.6.4(10.5.1)
+Version     : 9.6.4(12.6.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -10925,6 +10925,44 @@ Area-nlat   : 84.17
 Area-llon   : -16.1
 Area-rlon   : 40.18
 
+WKID        : 9072
+Latest-WKID : 9072
+Macro       : PE_GCS_NAD_1983_MARP00
+Name        : GCS_NAD_1983_MARP00
+WKT         : GEOGCS["GCS_NAD_1983_MARP00",
+               DATUM["D_NAD_1983_MARP00",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : NAD 1983 MARP00
+Authority   : EPSG
+Version     : 9.6.4(12.6.0)
+Deprecated  : no
+Area-name   : Pacific - US interests Mariana plate
+Area-slat   : 1.64
+Area-nlat   : 23.9
+Area-llon   : 129.48
+Area-rlon   : 149.55
+
+WKID        : 9075
+Latest-WKID : 9075
+Macro       : PE_GCS_NAD_1983_PACP00
+Name        : GCS_NAD_1983_PACP00
+WKT         : GEOGCS["GCS_NAD_1983_PACP00",
+               DATUM["D_NAD_1983_PACP00",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : NAD 1983 PACP00
+Authority   : EPSG
+Version     : 9.6.4(12.6.0)
+Deprecated  : no
+Area-name   : Pacific - US interests Pacific plate
+Area-slat   : -17.56
+Area-nlat   : 31.8
+Area-llon   : 157.47
+Area-rlon   : -151.27
+
 WKID        : 9140
 Latest-WKID : 9140
 Macro       : PE_GCS_KOSOVAREF01
@@ -10981,6 +11019,82 @@ Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
 Area-rlon   : -65.72
+
+WKID        : 9248
+Latest-WKID : 9248
+Macro       : PE_GCS_TAPI_AIKE
+Name        : Tapi_Aike
+WKT         : GEOGCS["Tapi_Aike",
+               DATUM["Tapi_Aike",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : Tapi Aike
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Argentina - south Santa Cruz
+Area-slat   : -52.43
+Area-nlat   : -50.33
+Area-llon   : -73.28
+Area-rlon   : -68.3
+
+WKID        : 9251
+Latest-WKID : 9251
+Macro       : PE_GCS_MMN
+Name        : MMN
+WKT         : GEOGCS["MMN",
+               DATUM["Ministerio_de_Marina_Norte",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : MMN
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Argentina - Tierra del Fuego onshore
+Area-slat   : -55.11
+Area-nlat   : -52.59
+Area-llon   : -68.64
+Area-rlon   : -63.73
+
+WKID        : 9253
+Latest-WKID : 9253
+Macro       : PE_GCS_MMS
+Name        : MMS
+WKT         : GEOGCS["MMS",
+               DATUM["Ministerio_de_Marina_Sur",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : MMS
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Argentina - Tierra del Fuego onshore
+Area-slat   : -55.11
+Area-nlat   : -52.59
+Area-llon   : -68.64
+Area-rlon   : -63.73
+
+WKID        : 9333
+Latest-WKID : 9333
+Macro       : PE_GCS_KSA_GRF17
+Name        : KSA-GRF17
+WKT         : GEOGCS["KSA-GRF17",
+               DATUM["Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : KSA-GRF17
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Saudi Arabia
+Area-slat   : 15.61
+Area-nlat   : 32.16
+Area-llon   : 34.44
+Area-rlon   : 55.67
 
 WKID        : 37001
 Latest-WKID : 4760
@@ -12284,6 +12398,25 @@ WKT         : GEOGCS["WGS_1984_(G1762)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 Description : World Geodetic System 1984 (G1762)
+Authority   : Esri
+Version     : 10.5.1
+Deprecated  : yes
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104016
+Latest-WKID : 8888
+Macro       : PE_GCS_WGS_1984_TRANSIT
+Name        : WGS_1984_(Transit)
+WKT         : GEOGCS["WGS_1984_(Transit)",
+               DATUM["World_Geodetic_System_1984_(Transit)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : World Geodetic System 1984 (Transit)
 Authority   : Esri
 Version     : 10.5.1
 Deprecated  : yes
@@ -13681,7 +13814,7 @@ Area-llon   : -16.1
 Area-rlon   : 40.18
 
 WKID        : 104259
-Latest-WKID : 104259
+Latest-WKID : 9075
 Macro       : PE_GCS_NAD_1983_PACP00
 Name        : GCS_NAD_1983_PACP00
 WKT         : GEOGCS["GCS_NAD_1983_PACP00",
@@ -13692,7 +13825,7 @@ WKT         : GEOGCS["GCS_NAD_1983_PACP00",
 Description : NAD 1983 PACP00
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Pacific - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
@@ -13700,7 +13833,7 @@ Area-llon   : 157.47
 Area-rlon   : -151.27
 
 WKID        : 104260
-Latest-WKID : 104260
+Latest-WKID : 9072
 Macro       : PE_GCS_NAD_1983_MARP00
 Name        : GCS_NAD_1983_MARP00
 WKT         : GEOGCS["GCS_NAD_1983_MARP00",
@@ -13711,7 +13844,7 @@ WKT         : GEOGCS["GCS_NAD_1983_MARP00",
 Description : NAD 1983 MARP00
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Pacific - US interests Mariana plate
 Area-slat   : 1.64
 Area-nlat   : 23.9

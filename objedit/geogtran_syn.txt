@@ -300,7 +300,7 @@
    "EPSG"
 
 "Ain el Abd to MTRF-2000 (1)", \
-   "Ain_el_Abd_1970_to_MTRF-2000_1", \
+   "Ain_el_Abd_1970_To_MTRF-2000_1", \
    FALSE, \
    "EPSG"
 
@@ -351,6 +351,11 @@
 
 "American Samoa 1962 to NAD83(HARN) (2)", \
    "American_Samoa_1962_To_HARN_American_Samoa_East", \
+   FALSE, \
+   "EPSG"
+
+"American Samoa 1962 to NAD83(HARN) (3)", \
+   "American_Samoa_1962_To_NAD_1983_HARN_3", \
    FALSE, \
    "EPSG"
 
@@ -406,6 +411,16 @@
 
 "Amersfoort to ETRS89 (7)", \
    "Amersfoort_To_ETRS_1989_NTv2", \
+   FALSE, \
+   "EPSG"
+
+"Amersfoort to ETRS89 (8)", \
+   "Amersfoort_To_ETRS_1989_8", \
+   FALSE, \
+   "EPSG"
+
+"Amersfoort to ETRS89 (9)", \
+   "Amersfoort_To_ETRS_1989_9", \
    FALSE, \
    "EPSG"
 
@@ -679,18 +694,18 @@
    FALSE, \
    "EPSG"
 
-"ATS77 to NAD83(CSRS) (1)", \
-   "ATS_1977_To_NAD_1983_CSRS_NTv2_New_Brunswick", \
+"ATS77 to NAD83(CSRS)v2 (1)", \
+   "ATS_1977_To_NAD_1983_CSRS_v2_1", \
    FALSE, \
    "EPSG"
 
-"ATS77 to NAD83(CSRS) (2)", \
-   "ATS_1977_To_NAD_1983_CSRS_2_NTv2_Prince_Edward_Is", \
+"ATS77 to NAD83(CSRS)v2 (2)", \
+   "ATS_1977_To_NAD_1983_CSRS_v2_2", \
    FALSE, \
    "EPSG"
 
-"ATS77 to NAD83(CSRS) (3)", \
-   "ATS_1977_To_NAD_1983_CSRS_NTv2_Nova_Scotia", \
+"ATS77 to NAD83(CSRS)v3 (3)", \
+   "ATS_1977_To_NAD_1983_CSRS_v3_3", \
    FALSE, \
    "EPSG"
 
@@ -834,6 +849,11 @@
    FALSE, \
    "EPSG"
 
+"Batavia to WGS 84 (1)", \
+   "AGD_1966_To_GDA_1994_NTv2_Northern_Territory", \
+   FALSE, \
+   "EPSG"
+
 "Batavia to WGS 84 (2)", \
    "Batavia_To_WGS_1984_2", \
    FALSE, \
@@ -851,6 +871,11 @@
 
 "BD72 to ETRS89 (2)", \
    "Belge_1972_To_ETRS_1989_2", \
+   FALSE, \
+   "EPSG"
+
+"BD72 to ETRS89 (3)", \
+   "Belge_1972_To_ETRS_1989_3", \
    FALSE, \
    "EPSG"
 
@@ -1321,6 +1346,16 @@
 
 "Chos Malal 1914 to Campo Inchauspe (1)", \
    "Chos_Malal_1914_To_Campo_Inchauspe", \
+   FALSE, \
+   "EPSG"
+
+"Chos Malal 1914 to WGS 84 (2)", \
+   "Chos_Malal_1914_To_WGS_1984_2", \
+   FALSE, \
+   "EPSG"
+
+"Chos Malal 1914 to WGS 84 (3)", \
+   "Chos_Malal_1914_To_WGS_1984_3", \
    FALSE, \
    "EPSG"
 
@@ -2199,6 +2234,11 @@
    FALSE, \
    "EPSG"
 
+"Guam 1963 to NAD83(HARN) (2)", \
+   "Guam_1963_To_NAD_1983_HARN_2", \
+   FALSE, \
+   "EPSG"
+
 "Guam 1963 to WGS 84 (1)", \
    "Guam_1963_To_WGS_1984_1", \
    FALSE, \
@@ -2271,6 +2311,11 @@
 
 "Hito XVIII 1963 to WGS 84 (2)", \
    "Hito_XVIII_1963_To_WGS_1984_2", \
+   FALSE, \
+   "EPSG"
+
+"Hito XVIII 1963 to WGS 84 (3)", \
+   "Hito_XVIII_1963_To_WGS_1984_3", \
    FALSE, \
    "EPSG"
 
@@ -3319,6 +3364,16 @@
    FALSE, \
    "EPSG"
 
+"MMN to WGS 84 (1)", \
+   "MMN_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"MMS to WGS 84 (1)", \
+   "MMS_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "MOLDREF99 to ETRS89 (1)", \
    "MOLDREF99_To_ETRS_1989_1", \
    FALSE, \
@@ -3435,7 +3490,7 @@
    "EPSG"
 
 "MTRF-2000 to WGS 84 (1)", \
-   "MTRF-2000_to_WGS_1984_(G1150)", \
+   "MTRF-2000_To_WGS_1984_(G1150)", \
    FALSE, \
    "EPSG"
 
@@ -3509,8 +3564,8 @@
    FALSE, \
    "EPSG"
 
-"NAD27(CGQ77) to NAD83(CSRS) (1)", \
-   "NAD_1927_CGQ77_To_NAD_1983_CSRS", \
+"NAD27(CGQ77) to NAD83(CSRS)v2 (1)", \
+   "NAD_1927_CGQ77_To_NAD_1983_CSRS_v2_1", \
    FALSE, \
    "EPSG"
 
@@ -3539,28 +3594,38 @@
    FALSE, \
    "EPSG"
 
+"NAD27 to NAD83 (7)", \
+   "NAD_1927_To_NAD_1983_7", \
+   FALSE, \
+   "EPSG"
+
+"NAD27 to NAD83 (8)", \
+   "NAD_1927_To_NAD_1983_8", \
+   FALSE, \
+   "EPSG"
+
 "NAD27 to NAD83 (9)", \
    "NAD_1927_To_NAD_1983_9_Saskatchewan", \
    FALSE, \
    "EPSG"
 
-"NAD27 to NAD83(CSRS) (1)", \
-   "NAD_1927_To_NAD_1983_CSRS_1", \
+"NAD27 to NAD83(CSRS)v2 (1)", \
+   "NAD_1927_To_NAD_1983_CSRS_v2_1", \
    FALSE, \
    "EPSG"
 
-"NAD27 to NAD83(CSRS) (2)", \
-   "NAD_1927_To_NAD_1983_CSRS_2", \
-   FALSE, \
-   "EPSG"
-
-"NAD27 to NAD83(CSRS) (4)", \
-   "NAD_1927_To_NAD_1983_CSRS_4", \
+"NAD27 to NAD83(CSRS)v2 (4)", \
+   "NAD_1927_To_NAD_1983_CSRS_v2_4", \
    FALSE, \
    "EPSG"
 
 "NAD27 to NAD83(CSRS)v2 (7)", \
    "NAD_1927_To_NAD_1983_CSRS_v2_7_British_Columbia", \
+   FALSE, \
+   "EPSG"
+
+"NAD27 to NAD83(CSRS)v3 (2)", \
+   "NAD_1927_To_NAD_1983_CSRS_v3_2", \
    FALSE, \
    "EPSG"
 
@@ -3789,8 +3854,63 @@
    FALSE, \
    "EPSG"
 
+"NAD83(FBN) to NAD83(MA11) (1)", \
+   "NAD_1983_FBN_To_MA11_NADCON5_3D_Guam_CNMI_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(FBN) to NAD83(NSRS2007) (1)", \
+   "NAD_1983_FBN_To_NSRS2007_NADCON5_3D_CONUS_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(FBN) to NAD83(NSRS2007) (2)", \
+   "NAD_1983_FBN_To_NSRS2007_NADCON5_3D_PRVI_2", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(FBN) to NAD83(PA11) (1)", \
+   "NAD_1983_FBN_To_PA11_NADCON5_3D_American_Samoa_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN Corrected) to NAD83(FBN) (1)", \
+   "NAD_1983_HARN_Corrected_To_FBN_NADCON5_3D_PRVI_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAD83(FBN) (1)", \
+   "NAD_1983_HARN_To_FBN_NADCON5_3D_CONUS_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAD83(FBN) (2)", \
+   "NAD_1983_HARN_To_FBN_NADCON5_3D_American_Samoa_2", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAD83(FBN) (3)", \
+   "NAD_1983_HARN_To_FBN_NADCON5_3D_Guam_CNMI_3", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAD83(HARN Corrected) (1)", \
+   "NAD_1983_HARN_To_HARN_Corrected_NADCON5_3D_PRVI_1", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(HARN) to NAD83(NSRS2007) (1)", \
    "NAD_1983_HARN_To_NAD_1983_NSRS2007_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAD83(NSRS2007) (2)", \
+   "NAD_1983_HARN_TO_NAD_1983_NSRS2007_2", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAD83(PA11) (1)", \
+   "NAD_1983_HARN_To_PA11_NADCON5_3D_Hawaii_1", \
    FALSE, \
    "EPSG"
 
@@ -3809,23 +3929,23 @@
    FALSE, \
    "EPSG"
 
+"NAD83(NSRS2007) to NAD83(2011) (1)", \
+   "NAD_1983_NSRS2007_To_2011_NADCON5_3D_CONUS_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(NSRS2007) to NAD83(2011) (2)", \
+   "NAD_1983_NSRS2007_TO_NAD_1983_2011_2", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(NSRS2007) to NAD83(2011) (3)", \
+   "NAD_1983_NSRS2007_To_2011_NADCON5_3D_PRVI_3", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(NSRS2007) to WGS 84 (1)", \
    "NAD_1983_NSRS2007_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 to NAD83(CSRS) (1)", \
-   "NAD_1983_To_NAD_1983_CSRS_1", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 to NAD83(CSRS) (2)", \
-   "NAD_1983_To_NAD_1983_CSRS_2", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 to NAD83(CSRS) (3)", \
-   "NAD_1983_To_NAD_1983_CSRS_3", \
    FALSE, \
    "EPSG"
 
@@ -3834,8 +3954,18 @@
    FALSE, \
    "EPSG"
 
+"NAD83 to NAD83(CSRS)v2 (1)", \
+   "NAD_1983_To_NAD_1983_CSRS_v2_1", \
+   FALSE, \
+   "EPSG"
+
 "NAD83 to NAD83(CSRS)v2 (6)", \
    "NAD_1983_To_NAD_1983_CSRS_v2_6_BC", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 to NAD83(CSRS)v3 (2)", \
+   "NAD_1983_To_NAD_1983_CSRS_v3_2", \
    FALSE, \
    "EPSG"
 
@@ -3851,6 +3981,11 @@
 
 "NAD83 to NAD83(CSRS)v3 (8)", \
    "NAD_1983_To_NAD_1983_CSRS_v3_8_BC_NVI", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 to NAD83(CSRS)v4 (3)", \
+   "NAD_1983_To_NAD_1983_CSRS_v4_3", \
    FALSE, \
    "EPSG"
 
@@ -4064,8 +4199,28 @@
    FALSE, \
    "EPSG"
 
+"NAD83 to NAD83(HARN) (47)", \
+   "NAD_1983_To_NAD_1983_HARN_47", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 to NAD83(HARN) (48)", \
+   "NAD_1983_To_NAD_1983_HARN_48", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 to NAD83(HARN) (49)", \
+   "NAD_1983_To_NAD_1983_HARN_49", \
+   FALSE, \
+   "EPSG"
+
 "NAD83 to NAD83(HARN) (5)", \
    "NAD_1983_To_HARN_Colorado", \
+   FALSE, \
+   "EPSG"
+
+"NAD83 to NAD83(HARN) (50)", \
+   "NAD_1983_To_NAD_1983_HARN_50", \
    FALSE, \
    "EPSG"
 
@@ -4669,6 +4824,11 @@
    FALSE, \
    "EPSG"
 
+"Old Hawaiian to NAD83 (2)", \
+   "Old_Hawaiian_To_NAD_1983_2", \
+   FALSE, \
+   "EPSG"
+
 "Old Hawaiian to WGS 84 (3)", \
    "Old_Hawaiian_To_WGS_1984_1", \
    FALSE, \
@@ -4759,23 +4919,13 @@
    FALSE, \
    "EPSG"
 
-"Padang (Jakarta) to Padang (1)", \
-   "Padang_1884_Jakarta_To_Padang_1884", \
-   FALSE, \
-   "EPSG"
-
-"Padang to WGS 84 (1)", \
-   "AGD_1966_To_GDA_1994_NTv2_Northern_Territory", \
-   FALSE, \
-   "EPSG"
-
 "Palestine 1923 to WGS 84 (1)", \
    "Palestine_1923_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
-"Pampa del Castillo to WGS 84 (1)", \
-   "Pampa_del_Castillo_To_WGS_1984_1", \
+"Pampa del Castillo to WGS 84 (2)", \
+   "Pampa_del_Castillo_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
@@ -4876,6 +5026,11 @@
 
 "POSGAR 2007 to WGS 84 (1)", \
    "POSGAR_2007_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"POSGAR 2007 to WGS 84 (2)", \
+   "POSGAR_2007_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
@@ -5031,6 +5186,11 @@
 
 "Puerto Rico to NAD83 (1)", \
    "Puerto_Rico_To_NAD_1983", \
+   FALSE, \
+   "EPSG"
+
+"Puerto Rico to NAD83 (2)", \
+   "Puerto_Rico_To_NAD_1983_2", \
    FALSE, \
    "EPSG"
 
@@ -5600,7 +5760,7 @@
    "EPSG"
 
 "Saint Pierre et Miquelon 1950 to WGS 84 (2)", \
-   "Saint_Pierre_et_Miquelon_1950_to_WGS_1984_(G1150)", \
+   "Saint_Pierre_et_Miquelon_1950_To_WGS_1984_(G1150)", \
    FALSE, \
    "EPSG"
 
@@ -5879,6 +6039,11 @@
    FALSE, \
    "EPSG"
 
+"St. George Island to NAD83 (2)", \
+   "St_George_Island_To_NAD_1983_2", \
+   FALSE, \
+   "EPSG"
+
 "St. George Island to WGS 84 (1)", \
    "St_George_To_WGS_1984_1", \
    FALSE, \
@@ -5909,6 +6074,11 @@
    FALSE, \
    "EPSG"
 
+"St. Lawrence Island to NAD83 (2)", \
+   "St_Lawrence_Island_To_NAD_1983_2", \
+   FALSE, \
+   "EPSG"
+
 "St. Lawrence Island to WGS 84 (1)", \
    "St_Lawrence_To_WGS_1984_1", \
    FALSE, \
@@ -5926,6 +6096,11 @@
 
 "St. Paul Island to NAD83 (1)", \
    "St_Paul_To_NAD_1983", \
+   FALSE, \
+   "EPSG"
+
+"St. Paul Island to NAD83 (2)", \
+   "St_Paul_Island_To_NAD_1983_2", \
    FALSE, \
    "EPSG"
 
@@ -6046,6 +6221,11 @@
 
 "Tananarive to WGS 84 (2)", \
    "Tananarive_To_WGS_1984_2", \
+   FALSE, \
+   "EPSG"
+
+"Tapi Aike to WGS 84 (1)", \
+   "Tapi_Aike_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 

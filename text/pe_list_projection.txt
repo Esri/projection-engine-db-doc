@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2019 Esri Inc.                                            #
+#  Copyright 1999-2020 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -909,6 +909,36 @@ WKT         : PROJECTION["Tobler_Cylindrical_II"]
 Description : Tobler Cylindrical II
 Authority   : Esri
 Version     : 10.8.0
+Deprecated  : no
+
+WKID        : 43090
+Latest-WKID : 43090
+Macro       : PE_PRJ_PERSPECTIVE_CYLINDRICAL
+Name        : Perspective_Cylindrical
+WKT         : PROJECTION["Perspective_Cylindrical"]
+Description : Perspective Cylindrical
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 43091
+Latest-WKID : 43091
+Macro       : PE_PRJ_LAMBERT_CONFORMAL_CONIC_1SP
+Name        : Lambert_Conformal_Conic_1SP
+WKT         : PROJECTION["Lambert_Conformal_Conic_1SP"]
+Description : Lambert Conformal Conic 1SP
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 43092
+Latest-WKID : 43092
+Macro       : PE_PRJ_LAMBERT_CONFORMAL_CONIC_2SP
+Name        : Lambert_Conformal_Conic_2SP
+WKT         : PROJECTION["Lambert_Conformal_Conic_2SP"]
+Description : Lambert Conformal Conic 2SP
+Authority   : Esri
+Version     : 12.6.0
 Deprecated  : no
 
 WKID        : 43102

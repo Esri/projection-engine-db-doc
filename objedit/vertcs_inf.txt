@@ -726,7 +726,7 @@ PE_VCS_ITRF_2008, \
 
 PE_VCS_ITRF2014, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
-   "ITRF2014"
+   "ITRF 2014"
 
 PE_VCS_WGS_1984, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
@@ -763,6 +763,10 @@ PE_VCS_LAGOS_1955, \
 PE_VCS_MAPUTO, \
    "Vertical Coordinate Systems/Gravity-related/Africa", \
    "Maputo"
+
+PE_VCS_SA_LLD_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Africa", \
+   "SA LLD height"
 
 PE_VCS_AIOC95_DEPTH, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -851,6 +855,10 @@ PE_VCS_KOC_WELL_DATUM, \
 PE_VCS_KOC_WD_DEPTH_FT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "KOC Well Datum (depth in IFt)"
+
+PE_VCS_KSA_VRF14_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Asia", \
+   "KSA-VRF14 height"
 
 PE_VCS_KUWAIT_PWD, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -1047,6 +1055,10 @@ PE_VCS_EOMA_1980, \
 PE_VCS_EVRF_2007, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "EVRF 2007"
+
+PE_VCS_EVRF2000_AUSTRIA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "EVRF2000 Austria height"
 
 PE_VCS_EVRS_2000, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1255,6 +1267,10 @@ PE_VCS_SULE_SKERRY, \
 PE_VCS_CGVD_1928, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
    "CGVD 1928"
+
+PE_VCS_CGVD2013_CGG2013A_HT, \
+   "Vertical Coordinate Systems/Gravity-related/North America", \
+   "CGVD2013 (CGG2013a) height"
 
 PE_VCS_CGVD2013_HT, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
@@ -1523,6 +1539,10 @@ PE_VCS_SANTA_CRUZ_DAS_FLORES_HT, \
 PE_VCS_NGG_1977, \
    "Vertical Coordinate Systems/Gravity-related/South America", \
    "NGG 1977"
+
+PE_VCS_SRVN16_HT, \
+   "Vertical Coordinate Systems/Gravity-related/South America", \
+   "SRVN16 height"
 
 PE_VCS_EGM2008_GEOID, \
    "Vertical Coordinate Systems/Gravity-related/World", \

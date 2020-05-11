@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2019 Esri Inc.                                            #
+#  Copyright 1999-2020 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -2799,6 +2799,40 @@ Area-llon   : 9.53
 Area-rlon   : 17.17
 Accuracy    : 0.1
 
+WKID        : 5656
+Latest-WKID : 5656
+Macro       : PE_VT_GDA94_HT_TO_AHD_HT_AUSGEOID09_49
+Name        : GDA94_Height_To_AHD_Height_AUSGeoid09_49
+WKT         : VERTTRAN["GDA94_Height_To_AHD_Height_AUSGeoid09_49",
+               GEOGCS["GCS_GDA_1994",
+                DATUM["D_GDA_1994",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["GDA_1994",
+                DATUM["D_GDA_1994",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["AHD",
+                VDATUM["Australian_Height_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_AUSGeoid09_GDA94_V1.01_DOV_windows", 0.0]]
+Description : GDA 1994 height to AHD height AUSGeoid09 (49)
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Australia - mainland
+Area-slat   : -39.2
+Area-nlat   : -10.65
+Area-llon   : 112.85
+Area-rlon   : 153.69
+Accuracy    : 0.03
+
 WKID        : 6699
 Latest-WKID : 6699
 Macro       : PE_VT_JGD2000_V_HT_TO_JGD2011_V_HT_1
@@ -3584,6 +3618,74 @@ Area-llon   : 46.54
 Area-rlon   : 48.48
 Accuracy    : 0.1
 
+WKID        : 9229
+Latest-WKID : 9229
+Macro       : PE_VT_NAD83_2011_HT_TO_NAVD88_CONUS_GEOID18_HT_3
+Name        : NAD_1983_2011_Height_To_NAVD88_CONUS_GEOID18_Height_3
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_CONUS_GEOID18_Height_3",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["NAVD_1988",
+                VDATUM["North_American_Vertical_Datum_1988"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2018u0", 0.0]]
+Description : NAD 1983 (2011) height to NAVD88 CONUS GEOID18 height (3)
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+Accuracy    : 0.015
+
+WKID        : 9230
+Latest-WKID : 9230
+Macro       : PE_VT_NAD83_2011_HT_TO_PRVD02_GEOID18_HT_2
+Name        : NAD_1983_2011_Height_To_PRVD02_GEOID18_Height_2
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_PRVD02_GEOID18_Height_2",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["PRVD02_height",
+                VDATUM["Puerto_Rico_Vertical_Datum_of_2002"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2018p0", 0.0]]
+Description : NAD 1983 (2011) height to PRVD02 GEOID18 height (2)
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Puerto Rico - onshore
+Area-slat   : 17.87
+Area-nlat   : 18.57
+Area-llon   : -67.97
+Area-rlon   : -65.19
+Accuracy    : 0.015
+
 WKID        : 10084
 Latest-WKID : 110007
 Macro       : PE_VT_WGS_1984_TO_EGM_1996_GEOID_1
@@ -4322,6 +4424,110 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 Accuracy    : 0.5
+
+WKID        : 110020
+Latest-WKID : 110020
+Macro       : PE_VT_GDA2020_HT_TO_AHD_HT_AUSGEOID2020_1
+Name        : GDA2020_Height_To_AHD_Height_AUSGeoid2020_1
+WKT         : VERTTRAN["GDA2020_Height_To_AHD_Height_AUSGeoid2020_1",
+               GEOGCS["GDA2020",
+                DATUM["GDA2020",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["GDA2020",
+                DATUM["GDA2020",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["AHD",
+                VDATUM["Australian_Height_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_AUSGeoid2020_windows_binary", 0.0]]
+Description : GDA2020 height to AHD height AUSGeoid2020 (1) (should be 8451)
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Australia Christmas and Cocos - onshore
+Area-slat   : -43.7
+Area-nlat   : -9.86
+Area-llon   : 96.76
+Area-rlon   : 153.69
+Accuracy    : 0.03
+
+WKID        : 110022
+Latest-WKID : 110022
+Macro       : PE_VT_D96_TO_SVS2010
+Name        : D96_to_SVS2010_ht_SLO_VRP2016_Koper
+WKT         : VERTTRAN["D96_to_SVS2010_ht_SLO_VRP2016_Koper",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["SVS2010",
+                VDATUM["Slovenian_Vertical_System_2010"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 5.0],
+               PARAMETER["Dataset_SLO_VRP2016-Koper", 0.0]]
+Description : Slovenia 1996 (ht) to SVS2010 (ht) SLO_VRP2016-Koper quasi-geoid
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Slovenia - onshore
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
+Accuracy    : 0.1
+
+WKID        : 110023
+Latest-WKID : 110023
+Macro       : PE_VT_D96_TO_SVS2000
+Name        : D96_to_SVS2000_ht_SLO_AMG2000E_Trst
+WKT         : VERTTRAN["D96_to_SVS2000_ht_SLO_AMG2000E_Trst",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["SVS2000",
+                VDATUM["Slovenian_Vertical_System_2000"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 5.0],
+               PARAMETER["Dataset_SLO_AMG2000E-Trst", 0.0]]
+Description : Slovenia 1996 (ht) to SVS2000 (ht) SLO_AMG2000E-Trst geoid
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Slovenia - onshore
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
+Accuracy    : 0.2
 
 WKID        : 110031
 Latest-WKID : 110031
@@ -5964,7 +6170,7 @@ WKT         : VERTTRAN["NGVD29_ht_To_NAVD88_ht_IntlFt_NAD83_ECW",
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]],
+                UNIT["Foot", 0.3048]],
                VTMETHOD["VERTCON"],
                PARAMETER["Dataset_vertconecw.94", 0.0]]
 Description : USA - CONUS - onshore
@@ -5997,7 +6203,7 @@ WKT         : VERTTRAN["NGVD29_ht_To_NAVD88_ht_IntlFt_2011_ECW",
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]],
+                UNIT["Foot", 0.3048]],
                VTMETHOD["VERTCON"],
                PARAMETER["Dataset_vertconecw.94", 0.0]]
 Description : USA - CONUS - onshore
@@ -6080,7 +6286,7 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-Accuracy    : 1.0
+Accuracy    : 1.05
 
 WKID        : 110085
 Latest-WKID : 110085
