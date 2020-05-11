@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2019 Esri Inc.                                            #
+#  Copyright 1999-2020 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -4692,7 +4692,7 @@ WKT         : HVCOORDSYS["NAD_1983_Arizona_East_Ft_Intl_and_NAVD88_height_Ft_Int
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - Arizona - SPCS - E
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -4725,7 +4725,7 @@ WKT         : HVCOORDSYS["NAD_1983_Arizona_Central_Ft_Intl_and_NAVD88_height_Ft_
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - Arizona - SPCS - C
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -4758,7 +4758,7 @@ WKT         : HVCOORDSYS["NAD_1983_Arizona_West_Ft_Intl_and_NAVD88_height_Ft_Int
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - Arizona - SPCS - W
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -4792,7 +4792,7 @@ WKT         : HVCOORDSYS["NAD_1983_Michigan_North_Ft_Intl_and_NAVD88_height_Ft_I
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - Michigan - SPCS - N
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -4826,7 +4826,7 @@ WKT         : HVCOORDSYS["NAD_1983_Michigan_Central_Ft_Intl_and_NAVD88_height_Ft
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - Michigan - SPCS - C
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -4860,7 +4860,7 @@ WKT         : HVCOORDSYS["NAD_1983_Michigan_South_Ft_Intl_and_NAVD88_height_Ft_I
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - Michigan - SPCS - S
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -4894,7 +4894,7 @@ WKT         : HVCOORDSYS["NAD_1983_Montana_Ft_Intl_and_NAVD88_height_Ft_Intl",
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - Montana
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -4928,7 +4928,7 @@ WKT         : HVCOORDSYS["NAD_1983_North_Dakota_North_Ft_Intl_and_NAVD88_height_
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - North Dakota - SPCS - N
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -4962,7 +4962,7 @@ WKT         : HVCOORDSYS["NAD_1983_North_Dakota_South_Ft_Intl_and_NAVD88_height_
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - North Dakota - SPCS - S
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -4996,7 +4996,7 @@ WKT         : HVCOORDSYS["NAD_1983_Oregon_North_Ft_Intl_and_NAVD88_height_Ft_Int
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - Oregon - SPCS - N
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -5030,7 +5030,7 @@ WKT         : HVCOORDSYS["NAD_1983_Oregon_South_Ft_Intl_and_NAVD88_height_Ft_Int
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - Oregon - SPCS - S
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -5064,7 +5064,7 @@ WKT         : HVCOORDSYS["NAD_1983_South_Carolina_Ft_Intl_and_NAVD88_height_Ft_I
                 VDATUM["North_American_Vertical_Datum_1988"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
-                UNIT["Foot_US", 0.3048006096012192]]]
+                UNIT["Foot", 0.3048]]]
 Description : USA - South Carolina
 Authority   : EPSG
 Version     : 9.4(10.8.0)

@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2019 Esri Inc.                                            #
+#  Copyright 1999-2020 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -882,7 +882,7 @@ WKT         : DATUM["International_Terrestrial_Reference_Frame_2014",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 Description : International Terrestrial Reference Frame 2014
 Authority   : EPSG
-Version     : 9.1.1(10.5.0)(10.5.1)
+Version     : 9.1.1(10.5.0)
 Deprecated  : no
 
 WKID        : 1166
@@ -1598,6 +1598,50 @@ WKT         : DATUM["SIRGAS-Chile_realization_4_epoch_2016",
 Description : SIRGAS-Chile realization 4 epoch 2016.00
 Authority   : EPSG
 Version     : 9.6.4(10.8.0)
+Deprecated  : no
+
+WKID        : 1257
+Latest-WKID : 1257
+Macro       : PE_D_TAPI_AIKE
+Name        : Tapi_Aike
+WKT         : DATUM["Tapi_Aike",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+Description : Tapi Aike
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 1258
+Latest-WKID : 1258
+Macro       : PE_D_MINISTERIO_DE_MARINA_NORTE
+Name        : Ministerio_de_Marina_Norte
+WKT         : DATUM["Ministerio_de_Marina_Norte",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+Description : Ministerio de Marina Norte
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 1259
+Latest-WKID : 1259
+Macro       : PE_D_MINISTERIO_DE_MARINA_SUR
+Name        : Ministerio_de_Marina_Sur
+WKT         : DATUM["Ministerio_de_Marina_Sur",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+Description : Ministerio de Marina Sur
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 1268
+Latest-WKID : 1268
+Macro       : PE_D_KSA_GRF_2017
+Name        : Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017
+WKT         : DATUM["Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : Kingdom of Saudi Arabia Geodetic Reference Frame 2017
+Authority   : Esri
+Version     : 12.6.0
 Deprecated  : no
 
 WKID        : 6001

@@ -816,11 +816,11 @@ PE_PCS_NAD_1983_2011_IARCS_9, \
    "Projected Coordinate Systems/County Systems/Iowa", \
    "NAD 1983 (2011) IaRCS zone 9"
 
-PE_PCS_NAD_1983_2011_KS_RCS_4, \
+PE_PCS_NAD_1983_2011_KS_RCS_1, \
    "Projected Coordinate Systems/County Systems/Kansas", \
    "NAD 1983 (2011) KS RCS Zone 1"
 
-PE_PCS_NAD_1983_2011_KS_RCS_1, \
+PE_PCS_NAD_1983_2011_KS_RCS_4, \
    "Projected Coordinate Systems/County Systems/Kansas", \
    "NAD 1983 (2011) KS RCS Zone 1"
 
@@ -2991,6 +2991,50 @@ PE_PCS_BEIJING_1954_3_DEGREE_GK_44, \
 PE_PCS_BEIJING_1954_3_DEGREE_GK_45, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 3 Degree GK Zone 45"
+
+PE_PCS_BEIJING_1954_GK_105E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 105E"
+
+PE_PCS_BEIJING_1954_GK_111E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 111E"
+
+PE_PCS_BEIJING_1954_GK_117E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 117E"
+
+PE_PCS_BEIJING_1954_GK_123E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 123E"
+
+PE_PCS_BEIJING_1954_GK_129E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 129E"
+
+PE_PCS_BEIJING_1954_GK_135E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 135E"
+
+PE_PCS_BEIJING_1954_GK_75E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 75E"
+
+PE_PCS_BEIJING_1954_GK_81E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 81E"
+
+PE_PCS_BEIJING_1954_GK_87E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 87E"
+
+PE_PCS_BEIJING_1954_GK_93E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 93E"
+
+PE_PCS_BEIJING_1954_GK_99E, \
+   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
+   "Beijing 1954 GK CM 99E"
 
 PE_PCS_BEIJING_1954_GK_13, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
@@ -6012,6 +6056,14 @@ PE_PCS_HITO_XVIII_1963_ARGENTINA_2, \
    "Projected Coordinate Systems/National Grids/Argentina", \
    "Hito XVIII 1963 Argentina 2"
 
+PE_PCS_MMN_ARGENTINA_2, \
+   "Projected Coordinate Systems/National Grids/Argentina", \
+   "MMN Argentina 2"
+
+PE_PCS_MMS_ARGENTINA_2, \
+   "Projected Coordinate Systems/National Grids/Argentina", \
+   "MMS Argentina 2"
+
 PE_PCS_POSGAR_1994_ARGENTINA_1, \
    "Projected Coordinate Systems/National Grids/Argentina", \
    "POSGAR 1994 Argentina Zone 1"
@@ -6096,9 +6148,25 @@ PE_PCS_POSGAR_2007_ARGENTINA_7, \
    "Projected Coordinate Systems/National Grids/Argentina", \
    "POSGAR 2007 Argentina Zone 7"
 
+PE_PCS_PAMPA_DEL_CASTILLO_ARGENTINA_1, \
+   "Projected Coordinate Systems/National Grids/Argentina", \
+   "Pampa del Castillo Argentina 1"
+
 PE_PCS_PAMPA_DEL_CASTILLO_ARGENTINA_2, \
    "Projected Coordinate Systems/National Grids/Argentina", \
    "Pampa del Castillo Argentina 2"
+
+PE_PCS_PAMPA_DEL_CASTILLO_ARGENTINA_3, \
+   "Projected Coordinate Systems/National Grids/Argentina", \
+   "Pampa del Castillo Argentina 3"
+
+PE_PCS_TAPI_AIKE_ARGENTINA_1, \
+   "Projected Coordinate Systems/National Grids/Argentina", \
+   "Tapi Aike Argentina 1"
+
+PE_PCS_TAPI_AIKE_ARGENTINA_2, \
+   "Projected Coordinate Systems/National Grids/Argentina", \
+   "Tapi Aike Argentina 2"
 
 PE_PCS_AIN_EL_ABD_1970_ARAMCO_LAMBERT_2, \
    "Projected Coordinate Systems/National Grids/Asia", \
@@ -6291,6 +6359,10 @@ PE_PCS_PALESTINE_1923_PALESTINE_GRID, \
 PE_PCS_PALESTINE_1923_PALESTINE_GRID_TM, \
    "Projected Coordinate Systems/National Grids/Asia", \
    "Palestine 1923 Palestine Grid TM"
+
+PE_PCS_PALESTINE_GRID_1923_MOD_TM, \
+   "Projected Coordinate Systems/National Grids/Asia", \
+   "Palestine Grid 1923 Modified TM"
 
 PE_PCS_LUZON_PHILIPPINES_I, \
    "Projected Coordinate Systems/National Grids/Asia", \
@@ -6811,6 +6883,18 @@ PE_PCS_MGI_FERRO_M31, \
 PE_PCS_MGI_FERRO_M34, \
    "Projected Coordinate Systems/National Grids/Austria", \
    "MGI (Ferro) M34"
+
+PE_PCS_MGI_AUSTRIA_CENTRAL, \
+   "Projected Coordinate Systems/National Grids/Austria", \
+   "MGI (Greenwich) Austria Central"
+
+PE_PCS_MGI_AUSTRIA_EAST, \
+   "Projected Coordinate Systems/National Grids/Austria", \
+   "MGI (Greenwich) Austria East"
+
+PE_PCS_MGI_AUSTRIA_WEST, \
+   "Projected Coordinate Systems/National Grids/Austria", \
+   "MGI (Greenwich) Austria West"
 
 PE_PCS_MGI_AUSTRIA_GK_CENTRAL, \
    "Projected Coordinate Systems/National Grids/Austria", \
@@ -7499,6 +7583,10 @@ PE_PCS_CR_SIRGAS_UTM_17N, \
 PE_PCS_CRTM05, \
    "Projected Coordinate Systems/National Grids/Central and North America", \
    "CRTM05"
+
+PE_PCS_WGS_1984_GTM, \
+   "Projected Coordinate Systems/National Grids/Central and North America", \
+   "GTM"
 
 PE_PCS_MEXICAN_DATUM_1993_UTM_11N, \
    "Projected Coordinate Systems/National Grids/Central and North America", \
@@ -20699,6 +20787,10 @@ PE_PCS_NAPARIMA_1955_UTM_20N, \
 PE_PCS_NAPARIMA_1972_UTM_20N, \
    "Projected Coordinate Systems/UTM/South America", \
    "Naparima 1972 UTM Zone 20N"
+
+PE_PCS_POSGAR_2007_UTM_19S, \
+   "Projected Coordinate Systems/UTM/South America", \
+   "POSGAR 2007 UTM Zone 19S"
 
 PE_PCS_PSAD_1956_UTM_17N, \
    "Projected Coordinate Systems/UTM/South America", \

@@ -156,7 +156,27 @@
     "wkt": "METHOD[\"NADCON5\"]",
     "description": "NADCON5 transformation",
     "authority": "Esri",
-    "version": "10.7.1",
+    "version": "10.8.0",
+    "deprecated": "no"
+  },
+  { "wkid": 109616,
+    "latestWkid": 109616,
+    "macro": "PE_MTH_TIME_BASED_HELMERT_POSITION_VECTOR",
+    "name": "Time_Based_Helmert_Position_Vector",
+    "wkt": "METHOD[\"Time_Based_Helmert_Position_Vector\"]",
+    "description": "Position Vector (14-parameter)",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no"
+  },
+  { "wkid": 109617,
+    "latestWkid": 109617,
+    "macro": "PE_MTH_TIME_BASED_HELMERT_COORDINATE_FRAME",
+    "name": "Time_Based_Helmert_Coordinate_Frame",
+    "wkt": "METHOD[\"Time_Based_Helmert_Coordinate_Frame\"]",
+    "description": "Coordinate Frame (14-parameter)",
+    "authority": "Esri",
+    "version": "12.6.0",
     "deprecated": "no"
   }
 ] }

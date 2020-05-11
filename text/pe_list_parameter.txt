@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2019 Esri Inc.                                            #
+#  Copyright 1999-2020 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -463,5 +463,95 @@ Name        : Aspect_Ratio
 WKT         : PARAMETER["Aspect_Ratio", 0.6]
 Description : ASPECT - Aspect Ratio
 Authority   : Esri
-Version     : 10.6.0
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 100071
+Latest-WKID : 100071
+Macro       : PE_PAR_PERSPECTIVE_RATIO
+Name        : Perspective_Ratio
+WKT         : PARAMETER["Perspective_Ratio", 1.0]
+Description : RATIO - Perspective Ratio
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 100072
+Latest-WKID : 100072
+Macro       : PE_PAR_X_AXIS_TRANS_RATE
+Name        : X_Axis_Translation_Rate
+WKT         : PARAMETER["X_Axis_Translation_Rate", 0.0]
+Description : DXRATE - X Axis Translation Rate
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 100073
+Latest-WKID : 100073
+Macro       : PE_PAR_Y_AXIS_TRANS_RATE
+Name        : Y_Axis_Translation_Rate
+WKT         : PARAMETER["Y_Axis_Translation_Rate", 0.0]
+Description : DYRATE - Y Axis Translation Rate
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 100074
+Latest-WKID : 100074
+Macro       : PE_PAR_Z_AXIS_TRANS_RATE
+Name        : Z_Axis_Translation_Rate
+WKT         : PARAMETER["Z_Axis_Translation_Rate", 0.0]
+Description : DZRATE - Z Axis Translation Rate
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 100075
+Latest-WKID : 100075
+Macro       : PE_PAR_X_AXIS_ROT_RATE
+Name        : X_Axis_Rotation_Rate
+WKT         : PARAMETER["X_Axis_Rotation_Rate", 0.0]
+Description : RXRATE - X Axis of Rotation Rate
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 100076
+Latest-WKID : 100076
+Macro       : PE_PAR_Y_AXIS_ROT_RATE
+Name        : Y_Axis_Rotation_Rate
+WKT         : PARAMETER["Y_Axis_Rotation_Rate", 0.0]
+Description : RYRATE - Y Axis of Rotation Rate
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 100077
+Latest-WKID : 100077
+Macro       : PE_PAR_Z_AXIS_ROT_RATE
+Name        : Z_Axis_Rotation_Rate
+WKT         : PARAMETER["Z_Axis_Rotation_Rate", 0.0]
+Description : RZRATE - Z Axis of Rotation Rate
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 100078
+Latest-WKID : 100078
+Macro       : PE_PAR_SCALE_DIFF_RATE
+Name        : Scale_Difference_Rate
+WKT         : PARAMETER["Scale_Difference_Rate", 0.0]
+Description : DSRATE - Scale Difference Rate
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 100079
+Latest-WKID : 100079
+Macro       : PE_PAR_REF_TIME
+Name        : Reference_Time
+WKT         : PARAMETER["Reference_Time", 0.0]
+Description : REFT - Reference Time
+Authority   : Esri
+Version     : 12.6.0
 Deprecated  : no

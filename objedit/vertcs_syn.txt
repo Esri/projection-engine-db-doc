@@ -84,6 +84,11 @@
    FALSE, \
    "EPSG"
 
+"CGVD2013(CGG2013) height", \
+   "CGVD2013_height", \
+   FALSE, \
+   "EPSG"
+
 "CGVD28 height", \
    "CGVD_1928", \
    FALSE, \
@@ -517,12 +522,12 @@
 "NVN99", \
    "SVS2000", \
    TRUE, \
-   "EPSG"
+   ""
 
 "NVN99 height", \
    "SVS2000", \
    TRUE, \
-   "EPSG"
+   ""
 
 "ODN height", \
    "Newlyn", \

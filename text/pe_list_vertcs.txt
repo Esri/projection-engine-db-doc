@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2019 Esri Inc.                                            #
+#  Copyright 1999-2020 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -3845,7 +3845,7 @@ WKT         : VERTCS["NAVD88_height_(ftIntl)",
                VDATUM["North_American_Vertical_Datum_1988"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
-               UNIT["Foot_US", 0.3048006096012192]]
+               UNIT["Foot", 0.3048]]
 Description : NAVD88 height (ftIntl)
 Authority   : EPSG
 Version     : 9.2(10.8.0)
@@ -4083,6 +4083,101 @@ Area-slat   : 16.26
 Area-nlat   : 16.38
 Area-llon   : -61.13
 Area-rlon   : -60.97
+
+WKID        : 9245
+Latest-WKID : 9245
+Macro       : PE_VCS_CGVD2013_CGG2013A_HT
+Name        : CGVD2013_CGG2013a_height
+WKT         : VERTCS["CGVD2013_CGG2013a_height",
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : CGVD2013(CGG2013a) height
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 40.04
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -47.74
+
+WKID        : 9255
+Latest-WKID : 9255
+Macro       : PE_VCS_SRVN16_HT
+Name        : SRVN16_height
+WKT         : VERTCS["SRVN16_height",
+               VDATUM["Sistema_de_Referencia_Vertical_Nacional_2016"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SRVN16 height
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Argentina - onshore
+Area-slat   : -55.11
+Area-nlat   : -21.78
+Area-llon   : -73.59
+Area-rlon   : -53.65
+
+WKID        : 9274
+Latest-WKID : 9274
+Macro       : PE_VCS_EVRF2000_AUSTRIA_HT
+Name        : EVRF2000_Austria_height
+WKT         : VERTCS["EVRF2000_Austria_height",
+               VDATUM["European_Vertical_Reference_Frame_2000_Austria"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : EVRF2000 Austria height
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Austria
+Area-slat   : 46.4
+Area-nlat   : 49.02
+Area-llon   : 9.53
+Area-rlon   : 17.17
+
+WKID        : 9279
+Latest-WKID : 9279
+Macro       : PE_VCS_SA_LLD_HT
+Name        : SA_LLD_height
+WKT         : VERTCS["SA_LLD_height",
+               VDATUM["South_Africa_Land_Levelling_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : SA LLD height
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : South Africa - onshore
+Area-slat   : -34.88
+Area-nlat   : -22.13
+Area-llon   : 16.45
+Area-rlon   : 32.95
+
+WKID        : 9335
+Latest-WKID : 9335
+Macro       : PE_VCS_KSA_VRF14_HT
+Name        : KSA-VRF14_height
+WKT         : VERTCS["KSA-VRF14_height",
+               VDATUM["Kingdom_of_Saudi_Arabia_Vertical_Reference_Frame_Jeddah_2014"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : KSA-VRF14 height
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+Area-name   : Saudi Arabia - onshore
+Area-slat   : 15.61
+Area-nlat   : 32.16
+Area-llon   : 34.51
+Area-rlon   : 55.67
 
 WKID        : 105603
 Latest-WKID : 105603
@@ -6500,7 +6595,7 @@ WKT         : VERTCS["ITRF2014",
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-Description : ITRF2014 ellipsoid height
+Description : ITRF 2014 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no

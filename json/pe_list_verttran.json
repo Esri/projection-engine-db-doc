@@ -1547,6 +1547,24 @@
     },
     "accuracy": 0.1
   },
+  { "wkid": 5656,
+    "latestWkid": 5656,
+    "macro": "PE_VT_GDA94_HT_TO_AHD_HT_AUSGEOID09_49",
+    "name": "GDA94_Height_To_AHD_Height_AUSGeoid09_49",
+    "wkt": "VERTTRAN[\"GDA94_Height_To_AHD_Height_AUSGeoid09_49\",GEOGCS[\"GCS_GDA_1994\",DATUM[\"D_GDA_1994\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"GDA_1994\",DATUM[\"D_GDA_1994\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"AHD\",VDATUM[\"Australian_Height_Datum\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Dataset_AUSGeoid09_GDA94_V1.01_DOV_windows\",0.0]]",
+    "description": "GDA 1994 height to AHD height AUSGeoid09 (49)",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no",
+    "areaname": "Australia - mainland",
+    "extent":
+    { "slat": -39.2,
+      "nlat": -10.65,
+      "llon": 112.85,
+      "rlon": 153.69
+    },
+    "accuracy": 0.03
+  },
   { "wkid": 6699,
     "latestWkid": 6699,
     "macro": "PE_VT_JGD2000_V_HT_TO_JGD2011_V_HT_1",
@@ -1997,6 +2015,42 @@
     },
     "accuracy": 0.1
   },
+  { "wkid": 9229,
+    "latestWkid": 9229,
+    "macro": "PE_VT_NAD83_2011_HT_TO_NAVD88_CONUS_GEOID18_HT_3",
+    "name": "NAD_1983_2011_Height_To_NAVD88_CONUS_GEOID18_Height_3",
+    "wkt": "VERTTRAN[\"NAD_1983_2011_Height_To_NAVD88_CONUS_GEOID18_Height_3\",GEOGCS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"NAVD_1988\",VDATUM[\"North_American_Vertical_Datum_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Dataset_g2018u0\",0.0]]",
+    "description": "NAD 1983 (2011) height to NAVD88 CONUS GEOID18 height (3)",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no",
+    "areaname": "USA - CONUS - onshore",
+    "extent":
+    { "slat": 24.41,
+      "nlat": 49.38,
+      "llon": -124.79,
+      "rlon": -66.91
+    },
+    "accuracy": 0.015
+  },
+  { "wkid": 9230,
+    "latestWkid": 9230,
+    "macro": "PE_VT_NAD83_2011_HT_TO_PRVD02_GEOID18_HT_2",
+    "name": "NAD_1983_2011_Height_To_PRVD02_GEOID18_Height_2",
+    "wkt": "VERTTRAN[\"NAD_1983_2011_Height_To_PRVD02_GEOID18_Height_2\",GEOGCS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"PRVD02_height\",VDATUM[\"Puerto_Rico_Vertical_Datum_of_2002\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Dataset_g2018p0\",0.0]]",
+    "description": "NAD 1983 (2011) height to PRVD02 GEOID18 height (2)",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no",
+    "areaname": "Puerto Rico - onshore",
+    "extent":
+    { "slat": 17.87,
+      "nlat": 18.57,
+      "llon": -67.97,
+      "rlon": -65.19
+    },
+    "accuracy": 0.015
+  },
   { "wkid": 10084,
     "latestWkid": 110007,
     "macro": "PE_VT_WGS_1984_TO_EGM_1996_GEOID_1",
@@ -2392,6 +2446,60 @@
       "rlon": 180.0
     },
     "accuracy": 0.5
+  },
+  { "wkid": 110020,
+    "latestWkid": 110020,
+    "macro": "PE_VT_GDA2020_HT_TO_AHD_HT_AUSGEOID2020_1",
+    "name": "GDA2020_Height_To_AHD_Height_AUSGeoid2020_1",
+    "wkt": "VERTTRAN[\"GDA2020_Height_To_AHD_Height_AUSGeoid2020_1\",GEOGCS[\"GDA2020\",DATUM[\"GDA2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"GDA2020\",DATUM[\"GDA2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"AHD\",VDATUM[\"Australian_Height_Datum\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Dataset_AUSGeoid2020_windows_binary\",0.0]]",
+    "description": "GDA2020 height to AHD height AUSGeoid2020 (1) (should be 8451)",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no",
+    "areaname": "Australia Christmas and Cocos - onshore",
+    "extent":
+    { "slat": -43.7,
+      "nlat": -9.86,
+      "llon": 96.76,
+      "rlon": 153.69
+    },
+    "accuracy": 0.03
+  },
+  { "wkid": 110022,
+    "latestWkid": 110022,
+    "macro": "PE_VT_D96_TO_SVS2010",
+    "name": "D96_to_SVS2010_ht_SLO_VRP2016_Koper",
+    "wkt": "VERTTRAN[\"D96_to_SVS2010_ht_SLO_VRP2016_Koper\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"SVS2010\",VDATUM[\"Slovenian_Vertical_System_2010\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Interpolation_Type\",5.0],PARAMETER[\"Dataset_SLO_VRP2016-Koper\",0.0]]",
+    "description": "Slovenia 1996 (ht) to SVS2010 (ht) SLO_VRP2016-Koper quasi-geoid",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - onshore",
+    "extent":
+    { "slat": 45.42,
+      "nlat": 46.88,
+      "llon": 13.38,
+      "rlon": 16.61
+    },
+    "accuracy": 0.1
+  },
+  { "wkid": 110023,
+    "latestWkid": 110023,
+    "macro": "PE_VT_D96_TO_SVS2000",
+    "name": "D96_to_SVS2000_ht_SLO_AMG2000E_Trst",
+    "wkt": "VERTTRAN[\"D96_to_SVS2000_ht_SLO_AMG2000E_Trst\",GEOGCS[\"GCS_Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VERTCS[\"SVS2000\",VDATUM[\"Slovenian_Vertical_System_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],VTMETHOD[\"GEOID\"],PARAMETER[\"Interpolation_Type\",5.0],PARAMETER[\"Dataset_SLO_AMG2000E-Trst\",0.0]]",
+    "description": "Slovenia 1996 (ht) to SVS2000 (ht) SLO_AMG2000E-Trst geoid",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no",
+    "areaname": "Slovenia - onshore",
+    "extent":
+    { "slat": 45.42,
+      "nlat": 46.88,
+      "llon": 13.38,
+      "rlon": 16.61
+    },
+    "accuracy": 0.2
   },
   { "wkid": 110031,
     "latestWkid": 110031,
@@ -3261,7 +3369,7 @@
     "latestWkid": 110080,
     "macro": "PE_VT_NGVD29_HT_TO_NAVD88_HT_IFT_NAD83_ECW",
     "name": "NGVD29_ht_To_NAVD88_ht_IntlFt_NAD83_ECW",
-    "wkt": "VERTTRAN[\"NGVD29_ht_To_NAVD88_ht_IntlFt_NAD83_ECW\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"NGVD_1929\",VDATUM[\"National_Geodetic_Vertical_Datum_1929\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]],VERTCS[\"NAVD88_height_(ftIntl)\",VDATUM[\"North_American_Vertical_Datum_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]],VTMETHOD[\"VERTCON\"],PARAMETER[\"Dataset_vertconecw.94\",0.0]]",
+    "wkt": "VERTTRAN[\"NGVD29_ht_To_NAVD88_ht_IntlFt_NAD83_ECW\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"NGVD_1929\",VDATUM[\"National_Geodetic_Vertical_Datum_1929\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]],VERTCS[\"NAVD88_height_(ftIntl)\",VDATUM[\"North_American_Vertical_Datum_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot\",0.3048]],VTMETHOD[\"VERTCON\"],PARAMETER[\"Dataset_vertconecw.94\",0.0]]",
     "description": "USA - CONUS - onshore",
     "authority": "Esri",
     "version": "10.8.0",
@@ -3279,7 +3387,7 @@
     "latestWkid": 110081,
     "macro": "PE_VT_NGVD29_HT_TO_NAVD88_HT_IFT_2011_ECW",
     "name": "NGVD29_ht_To_NAVD88_ht_IntlFt_2011_ECW",
-    "wkt": "VERTTRAN[\"NGVD29_ht_To_NAVD88_ht_IntlFt_2011_ECW\",GEOGCS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"NGVD_1929\",VDATUM[\"National_Geodetic_Vertical_Datum_1929\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]],VERTCS[\"NAVD88_height_(ftIntl)\",VDATUM[\"North_American_Vertical_Datum_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]],VTMETHOD[\"VERTCON\"],PARAMETER[\"Dataset_vertconecw.94\",0.0]]",
+    "wkt": "VERTTRAN[\"NGVD29_ht_To_NAVD88_ht_IntlFt_2011_ECW\",GEOGCS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],VERTCS[\"NGVD_1929\",VDATUM[\"National_Geodetic_Vertical_Datum_1929\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]],VERTCS[\"NAVD88_height_(ftIntl)\",VDATUM[\"North_American_Vertical_Datum_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot\",0.3048]],VTMETHOD[\"VERTCON\"],PARAMETER[\"Dataset_vertconecw.94\",0.0]]",
     "description": "USA - CONUS - onshore",
     "authority": "Esri",
     "version": "10.8.0",
@@ -3327,7 +3435,7 @@
       "llon": -180.0,
       "rlon": 180.0
     },
-    "accuracy": 1.0
+    "accuracy": 1.05
   },
   { "wkid": 110085,
     "latestWkid": 110085,

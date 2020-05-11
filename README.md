@@ -10,8 +10,8 @@ To perform WKID conversion, the PE contains a comprehensive database of
 known coordinate systems, datums, ellipsoids, units, etc. This database is
 regularly updated and kept in sync with the EPSG database.
 
-This documentation is based on ArcGIS Desktop version 10.8.0 (ArcGIS Pro version 2.5).
-Entries taken from EPSG are from the 9.8.2 version of the EPSG database.
+This documentation is based on ArcGIS Desktop version 10.8.1 (ArcGIS Pro version 2.6).
+Entries taken from EPSG are from the 9.8.6 version of the EPSG database.
 
 ### Contents
 

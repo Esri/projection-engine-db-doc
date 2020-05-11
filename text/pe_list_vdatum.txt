@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2019 Esri Inc.                                            #
+#  Copyright 1999-2020 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -794,6 +794,56 @@ WKT         : VDATUM["IGN_2008_LD"]
 Description : IGN 2008 LD
 Authority   : EPSG
 Version     : 9.6.4(10.8.0)
+Deprecated  : no
+
+WKID        : 1256
+Latest-WKID : 1256
+Macro       : PE_VERTD_CGVD2013_CGG2013A
+Name        : Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a
+WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a"]
+Description : Canadian Geodetic Vertical Datum of 2013 (CGG2013a)
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 1260
+Latest-WKID : 1260
+Macro       : PE_VERTD_SRVN2016
+Name        : Sistema_de_Referencia_Vertical_Nacional_2016
+WKT         : VDATUM["Sistema_de_Referencia_Vertical_Nacional_2016"]
+Description : Sistema de Referencia Vertical Nacional 2016
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 1261
+Latest-WKID : 1261
+Macro       : PE_VERTD_EVRF2000_AUSTRIA
+Name        : European_Vertical_Reference_Frame_2000_Austria
+WKT         : VDATUM["European_Vertical_Reference_Frame_2000_Austria"]
+Description : European Vertical Reference Frame 2000 Austria
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 1262
+Latest-WKID : 1262
+Macro       : PE_VERTD_SA_LLD
+Name        : South_Africa_Land_Levelling_Datum
+WKT         : VDATUM["South_Africa_Land_Levelling_Datum"]
+Description : South Africa Land Levelling Datum
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 1269
+Latest-WKID : 1269
+Macro       : PE_VERTD_KSA_VRF_JEDDAH_2014
+Name        : Kingdom_of_Saudi_Arabia_Vertical_Reference_Frame_Jeddah_2014
+WKT         : VDATUM["Kingdom_of_Saudi_Arabia_Vertical_Reference_Frame_Jeddah_2014"]
+Description : Kingdom of Saudi Arabia Vertical Reference Frame Jeddah 2014
+Authority   : Esri
+Version     : 12.6.0
 Deprecated  : no
 
 WKID        : 5100

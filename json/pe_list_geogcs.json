@@ -1538,12 +1538,12 @@
     "authority": "EPSG",
     "version": "7.4.8(8.1.2)",
     "deprecated": "no",
-    "areaname": "Argentina - Comodoro Rivadavia",
+    "areaname": "Argentina -  42.5~S to 50.3~S",
     "extent":
-    { "slat": -46.7,
-      "nlat": -45.19,
-      "llon": -69.5,
-      "rlon": -67.1
+    { "slat": -50.34,
+      "nlat": -42.49,
+      "llon": -73.59,
+      "rlon": -65.47
     }
   },
   { "wkid": 4162,
@@ -8795,7 +8795,7 @@
     "wkt": "GEOGCS[\"WGS_1984_(Transit)\",DATUM[\"World_Geodetic_System_1984_(Transit)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
     "description": "World Geodetic System 1984 (Transit)",
     "authority": "EPSG",
-    "version": "9.6.4(10.5.1)",
+    "version": "9.6.4(12.6.0)",
     "deprecated": "no",
     "areaname": "World",
     "extent":
@@ -9757,6 +9757,40 @@
       "rlon": 40.18
     }
   },
+  { "wkid": 9072,
+    "latestWkid": 9072,
+    "macro": "PE_GCS_NAD_1983_MARP00",
+    "name": "GCS_NAD_1983_MARP00",
+    "wkt": "GEOGCS[\"GCS_NAD_1983_MARP00\",DATUM[\"D_NAD_1983_MARP00\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "NAD 1983 MARP00",
+    "authority": "EPSG",
+    "version": "9.6.4(12.6.0)",
+    "deprecated": "no",
+    "areaname": "Pacific - US interests Mariana plate",
+    "extent":
+    { "slat": 1.64,
+      "nlat": 23.9,
+      "llon": 129.48,
+      "rlon": 149.55
+    }
+  },
+  { "wkid": 9075,
+    "latestWkid": 9075,
+    "macro": "PE_GCS_NAD_1983_PACP00",
+    "name": "GCS_NAD_1983_PACP00",
+    "wkt": "GEOGCS[\"GCS_NAD_1983_PACP00\",DATUM[\"D_NAD_1983_PACP00\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "NAD 1983 PACP00",
+    "authority": "EPSG",
+    "version": "9.6.4(12.6.0)",
+    "deprecated": "no",
+    "areaname": "Pacific - US interests Pacific plate",
+    "extent":
+    { "slat": -17.56,
+      "nlat": 31.8,
+      "llon": 157.47,
+      "rlon": -151.27
+    }
+  },
   { "wkid": 9140,
     "latestWkid": 9140,
     "macro": "PE_GCS_KOSOVAREF01",
@@ -9806,6 +9840,74 @@
       "nlat": -17.5,
       "llon": -113.21,
       "rlon": -65.72
+    }
+  },
+  { "wkid": 9248,
+    "latestWkid": 9248,
+    "macro": "PE_GCS_TAPI_AIKE",
+    "name": "Tapi_Aike",
+    "wkt": "GEOGCS[\"Tapi_Aike\",DATUM[\"Tapi_Aike\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Tapi Aike",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no",
+    "areaname": "Argentina - south Santa Cruz",
+    "extent":
+    { "slat": -52.43,
+      "nlat": -50.33,
+      "llon": -73.28,
+      "rlon": -68.3
+    }
+  },
+  { "wkid": 9251,
+    "latestWkid": 9251,
+    "macro": "PE_GCS_MMN",
+    "name": "MMN",
+    "wkt": "GEOGCS[\"MMN\",DATUM[\"Ministerio_de_Marina_Norte\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "MMN",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no",
+    "areaname": "Argentina - Tierra del Fuego onshore",
+    "extent":
+    { "slat": -55.11,
+      "nlat": -52.59,
+      "llon": -68.64,
+      "rlon": -63.73
+    }
+  },
+  { "wkid": 9253,
+    "latestWkid": 9253,
+    "macro": "PE_GCS_MMS",
+    "name": "MMS",
+    "wkt": "GEOGCS[\"MMS\",DATUM[\"Ministerio_de_Marina_Sur\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "MMS",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no",
+    "areaname": "Argentina - Tierra del Fuego onshore",
+    "extent":
+    { "slat": -55.11,
+      "nlat": -52.59,
+      "llon": -68.64,
+      "rlon": -63.73
+    }
+  },
+  { "wkid": 9333,
+    "latestWkid": 9333,
+    "macro": "PE_GCS_KSA_GRF17",
+    "name": "KSA-GRF17",
+    "wkt": "GEOGCS[\"KSA-GRF17\",DATUM[\"Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "KSA-GRF17",
+    "authority": "Esri",
+    "version": "12.6.0",
+    "deprecated": "no",
+    "areaname": "Saudi Arabia",
+    "extent":
+    { "slat": 15.61,
+      "nlat": 32.16,
+      "llon": 34.44,
+      "rlon": 55.67
     }
   },
   { "wkid": 37001,
@@ -10970,6 +11072,23 @@
     "name": "WGS_1984_(G1762)",
     "wkt": "GEOGCS[\"WGS_1984_(G1762)\",DATUM[\"World_Geodetic_System_1984_(G1762)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
     "description": "World Geodetic System 1984 (G1762)",
+    "authority": "Esri",
+    "version": "10.5.1",
+    "deprecated": "yes",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104016,
+    "latestWkid": 8888,
+    "macro": "PE_GCS_WGS_1984_TRANSIT",
+    "name": "WGS_1984_(Transit)",
+    "wkt": "GEOGCS[\"WGS_1984_(Transit)\",DATUM[\"World_Geodetic_System_1984_(Transit)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "World Geodetic System 1984 (Transit)",
     "authority": "Esri",
     "version": "10.5.1",
     "deprecated": "yes",
@@ -12223,14 +12342,14 @@
     }
   },
   { "wkid": 104259,
-    "latestWkid": 104259,
+    "latestWkid": 9075,
     "macro": "PE_GCS_NAD_1983_PACP00",
     "name": "GCS_NAD_1983_PACP00",
     "wkt": "GEOGCS[\"GCS_NAD_1983_PACP00\",DATUM[\"D_NAD_1983_PACP00\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
     "description": "NAD 1983 PACP00",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Pacific - US interests Pacific plate",
     "extent":
     { "slat": -17.56,
@@ -12240,14 +12359,14 @@
     }
   },
   { "wkid": 104260,
-    "latestWkid": 104260,
+    "latestWkid": 9072,
     "macro": "PE_GCS_NAD_1983_MARP00",
     "name": "GCS_NAD_1983_MARP00",
     "wkt": "GEOGCS[\"GCS_NAD_1983_MARP00\",DATUM[\"D_NAD_1983_MARP00\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
     "description": "NAD 1983 MARP00",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Pacific - US interests Mariana plate",
     "extent":
     { "slat": 1.64,

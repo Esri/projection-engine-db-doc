@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2019 Esri Inc.                                            #
+#  Copyright 1999-2020 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -173,5 +173,25 @@ Name        : NADCON5
 WKT         : METHOD["NADCON5"]
 Description : NADCON5 transformation
 Authority   : Esri
-Version     : 10.7.1
+Version     : 10.8.0
+Deprecated  : no
+
+WKID        : 109616
+Latest-WKID : 109616
+Macro       : PE_MTH_TIME_BASED_HELMERT_POSITION_VECTOR
+Name        : Time_Based_Helmert_Position_Vector
+WKT         : METHOD["Time_Based_Helmert_Position_Vector"]
+Description : Position Vector (14-parameter)
+Authority   : Esri
+Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 109617
+Latest-WKID : 109617
+Macro       : PE_MTH_TIME_BASED_HELMERT_COORDINATE_FRAME
+Name        : Time_Based_Helmert_Coordinate_Frame
+WKT         : METHOD["Time_Based_Helmert_Coordinate_Frame"]
+Description : Coordinate Frame (14-parameter)
+Authority   : Esri
+Version     : 12.6.0
 Deprecated  : no
