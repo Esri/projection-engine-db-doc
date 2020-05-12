@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.6.0] - 2020-05-12
+
+### Added
+
+* ArcGIS 2.6 / 10.8.1 codes
+
 ## [2.5.0] - 2019-11-18
 
 ### Added
@@ -25,6 +31,7 @@ All notable changes to this project will be documented in this file.
 
 * ArcGIS 2.1 / 10.6.0 codes
 
+[2.6.0]: https://github.com/Esri/projection-engine-db-doc/compare/v2.5.0...v2.6.0
 [2.5.0]: https://github.com/Esri/projection-engine-db-doc/compare/v2.3.0...v2.5.0
 [2.3.0]: https://github.com/Esri/projection-engine-db-doc/compare/v2.2.0...v2.3.0
 [2.2.0]: https://github.com/Esri/projection-engine-db-doc/compare/v2.1.0...v2.2.0

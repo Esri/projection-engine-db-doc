@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2019 Esri Inc.                                            #
+#  Copyright 1999-2020 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -25,13 +25,29 @@ Parameter types:
    B    Boolean        boolean (present)
    O    Other          other
 
-abbrev        PROJ4 name/parameters                        ESRI name/parameters
+abbrev        PROJ name/parameters                         ESRI name/parameters
 ----------    ---------------------------------------      -----------------------------------
 adams_hemi    Adams Hemisphere in a Square                 -
-adams_wsI    *Adams World in a Square I                    -
 adams_ws1    @Adams World in a Square I                    -
-adams_wsII   *Adams World in a Square II                   -
-adams_ws2    @Adams World in a Square II                   -
+adams_wsI    *Adams World in a Square I                    -
+
+adams_ws2    @Adams World in a Square II                   Adams_Square_II
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Longitude_Of_Center
+                A ---                                        Latitude_Of_Center (0.0)
+                S ---                                        Scale_Factor (1.0)
+                A ---                                        Azimuth (0.0)
+                A ---                                        XY_Plane_Rotation (0.0)
+
+adams_wsII   *Adams World in a Square II                   Adams_Square_II
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Longitude_Of_Center
+                A ---                                        Latitude_Of_Center (0.0)
+                S ---                                        Scale_Factor (1.0)
+                A ---                                        Azimuth (0.0)
+                A ---                                        XY_Plane_Rotation (0.0)
 
 aea           Albers Equal Area                            Albers
                 L +x_0                                       False_Easting
@@ -199,6 +215,7 @@ geocent       Geocentric                                   -
 
 gbtmerc      *Gauss-Boaga Transverse Mercator              -
 gen_ts       *General Sine-Tangent                         -
+
 geos          Geostationary Satellite View                 Geostationary_Satellite
                 L +x_0                                       False_Easting
                 L +y_0                                       False_Northing
@@ -258,7 +275,7 @@ krovak       @Krovak Oblique Conic Conformal               Krovak
                 L +y_0                                       False_Northing
                 A +lat_0                                     Latitude_Of_Center
                 A +lon_0                                     Longitude_Of_Center
-                A +k_0                                       Scale_Factor
+                S +k_0                                       Scale_Factor
                 A ---                                        Pseudo_Standard_Parallel_1 (78.5)
                 A ---                                        Azimuth (30.28813972222222)
                 S ---                                        X_Scale
@@ -271,7 +288,7 @@ ktmerc       *Kruger Transverse Mercator                   -
 labrd         Laborde                                      Laborde_Oblique_Mercator
                 L +x_0                                       False_Easting
                 L +y_0                                       False_Northing
-                A +k_0                                       Scale_Factor
+                S +k_0                                       Scale_Factor
                 A +lon_0                                     Longitude_Of_Center
                 A +lat_0                                     Latitude_Of_Center
                 A +azi                                       Azimuth
@@ -341,7 +358,7 @@ merc          Mercator (1SP)                               Mercator_Variant_A
                 L +x_0                                       False_Easting
                 L +y_0                                       False_Northing
                 A +lon_0                                     Central_Meridian
-                A +k_0                                       Scale_Factor
+                S +k_0                                       Scale_Factor
 
 merc          Mercator (1SP)                               Mercator
                 L +x_0                                       False_Easting
@@ -437,14 +454,21 @@ ortho         Orthographic                                 Orthographic
 
 oxford       *Oxford Atlas                                 -
 
-patterson    *Patterson Cylindrical                        Patterson
+patterson    @Patterson Cylindrical                        Patterson
                 L +x_0                                       False_Easting
                 L +y_0                                       False_Northing
                 A +lon_0                                     Central_Meridian
 
 pav_cyl      *Pavlov's                                     -
 pconic        Perspective Conic                            -
-peirce_q      Peirce Quincuncial                           -
+
+peirce_q      Peirce Quincuncial                           Peirce_Quincuncial
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+                A ---                                        Latitude_Of_Origin (90.0)
+                S ---                                        Scale_Factor (1.0)
+                O ---                                        Option (0)
 
 poly          Polyconic (American)                         Polyconic
                 L +x_0                                       False_Easting
@@ -543,8 +567,16 @@ tmerc         Transverse Mercator                          Transverse_Mercator
 
 tob_g1       *Tobler G1                                    -
 tob_sqr      *Tobler's World in a Square                   -
-tobler_1     *Tobler's alternate 1                         -
-tobler_2     *Tobler's alternate 2                         -
+
+tobler_1     *Tobler's alternate 1                         Tobler_Cylindrical_I
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
+				
+tobler_2     *Tobler's alternate 2                         Tobler_Cylindrical_II
+                L +x_0                                       False_Easting
+                L +y_0                                       False_Northing
+                A +lon_0                                     Central_Meridian
 
 tpeqd         Two Point Equidistant                        Two_Point_Equidistant
                 L +x_0                                       False_Easting
@@ -591,20 +623,21 @@ vitk1         Vitkovsky I                                  -
 wag1          Wagner I (Kavraisky VI)                      -
 wag2          Wagner II                                    -
 wag3          Wagner III                                   -
-wag4          Wagner IV                                    -
+
+wag4          Wagner IV                                    Wagner_IV
                 L +x_0                                       False_Easting
                 L +y_0                                       False_Northing
                 A +lon_0                                     Central_Meridian
                 A +lat_0                                     Latitude_Of_Origin
 
-wag5          Wagner V                                     -
+wag5          Wagner V                                     Wagner_V
                 L +x_0                                       False_Easting
                 L +y_0                                       False_Northing
                 A +lon_0                                     Central_Meridian
 
 wag6          Wagner VI                                    -
 
-wag7          Wagner VII                                   -
+wag7          Wagner VII                                   Wagner_VII
                 L +x_0                                       False_Easting
                 L +y_0                                       False_Northing
                 A +lon_0                                     Central_Meridian
@@ -635,12 +668,12 @@ wintri        Winkel Tripel                                Winkel_Tripel
                 A +lon_0                                     Central_Meridian
 
 # ------------------------------------------------------------------------- #
-# PE projections not supported by PROJ4                                     #
+# PE projections not supported by PROJ                                      #
 # ------------------------------------------------------------------------- #
 
+   Aspect_Adaptive_Cylindrical
    Behrmann
    Berghaus_Star
-   Compact_Miller
    Equidistant_Cylindrical_Ellipsoidal
    Fuller
    Gnomonic_Ellipsoidal
@@ -648,7 +681,7 @@ wintri        Winkel Tripel                                Winkel_Tripel
    IGAC_Plano_Cartesiano
    Local
    Ney_Modified_Conic
-   Peirce_Quincuncial
+   Perspective_Cylindrical
    Plate_Carree
    Polar_Stereographic_Variant_B
    Polar_Stereographic_Variant_C
@@ -669,14 +702,14 @@ wintri        Winkel Tripel                                Winkel_Tripel
    Van_der_Grinten_I_Auxiliary_Sphere
 
 # ------------------------------------------------------------------------- #
-# PROJ4 projections not supported by the PE                                 #
+# PROJ projections not supported by the PE                                  #
 # ------------------------------------------------------------------------- #
 
-   abbrev       PROJ4 name
+   abbrev       PROJ name
    ----------   ---------------------------------------------
    adams_hemi  *Adams Hemisphere in a Square
+   adams_ws1   @Adams World in a Square I
    adams_wsI   *Adams World in a Square I
-   adams_wsII  *Adams World in a Square II
    airy         Airy
    alsk         Mod. Stererographics of Alaska
    apian        Apian Globular I
@@ -776,7 +809,6 @@ wintri        Winkel Tripel                                Winkel_Tripel
    oxford      *Oxford Atlas
    pav_cyl     *Pavlov's
    pconic       Perspective Conic
-   peirce_q    *Peirce Quincuncial
    putp1        Putnins P1
    putp1p      *Putnins P1'
    putp2        Putnins P2
@@ -797,8 +829,6 @@ wintri        Winkel Tripel                                Winkel_Tripel
    tissot       Tissot
    tob_g1      *Tobler G1
    tob_sqr     *Tobler's World in a Square
-   tobler_1    *Tobler's alternate 1
-   tobler_2    *Tobler's alternate 2
    tpers        Tilted perspective
    trapez      *Trapezoidal
    urm5         Urmaev V
