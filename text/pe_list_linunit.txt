@@ -23,7 +23,7 @@ Name        : Millimeter
 WKT         : UNIT["Millimeter", 0.001]
 Description : Millimeter
 Authority   : EPSG
-Version     : 8.8(10.2.1)
+Version     : 8.2.4(10.2.1)
 Deprecated  : no
 
 WKID        : 1033
@@ -33,7 +33,7 @@ Name        : Centimeter
 WKT         : UNIT["Centimeter", 0.01]
 Description : Centimeter
 Authority   : EPSG
-Version     : 8.8(10.2.1)
+Version     : 8.2.4(10.2.1)
 Deprecated  : no
 
 WKID        : 9001
@@ -43,7 +43,7 @@ Name        : Meter
 WKT         : UNIT["Meter", 1.0]
 Description : International meter
 Authority   : EPSG
-Version     : 9.4(3.0.1)
+Version     : 8.8(3.0.1)
 Deprecated  : no
 
 WKID        : 9002
@@ -63,7 +63,7 @@ Name        : Foot_US
 WKT         : UNIT["Foot_US", 0.3048006096012192]
 Description : US survey foot
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 4.5(3.0.1)
 Deprecated  : no
 
 WKID        : 9005
@@ -73,7 +73,7 @@ Name        : Foot_Clarke
 WKT         : UNIT["Foot_Clarke", 0.3047972654]
 Description : Clarke's foot
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 4.4(3.0.1)
 Deprecated  : no
 
 WKID        : 9014
@@ -93,7 +93,7 @@ Name        : Nautical_Mile
 WKT         : UNIT["Nautical_Mile", 1852.0]
 Description : International nautical mile
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 3.0(3.0.1)
 Deprecated  : no
 
 WKID        : 9031
@@ -113,7 +113,7 @@ Name        : Chain_US
 WKT         : UNIT["Chain_US", 20.11684023368047]
 Description : US survey chain
 Authority   : EPSG
-Version     : 8.8(8.0.1)
+Version     : 4.5(8.0.1)
 Deprecated  : no
 
 WKID        : 9034
@@ -123,7 +123,7 @@ Name        : Link_US
 WKT         : UNIT["Link_US", 0.2011684023368047]
 Description : US survey link
 Authority   : EPSG
-Version     : 8.8(8.0.1)
+Version     : 4.5(8.0.1)
 Deprecated  : no
 
 WKID        : 9035
@@ -133,7 +133,7 @@ Name        : Mile_US
 WKT         : UNIT["Mile_US", 1609.347218694438]
 Description : US survey mile
 Authority   : EPSG
-Version     : 8.8(8.0.1)
+Version     : 4.5(8.0.1)
 Deprecated  : no
 
 WKID        : 9036
@@ -153,7 +153,7 @@ Name        : Yard_Clarke
 WKT         : UNIT["Yard_Clarke", 0.9143917962]
 Description : Yard (Clarke)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9038
@@ -163,7 +163,7 @@ Name        : Chain_Clarke
 WKT         : UNIT["Chain_Clarke", 20.1166195164]
 Description : Chain (Clarke)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9039
@@ -173,7 +173,7 @@ Name        : Link_Clarke
 WKT         : UNIT["Link_Clarke", 0.201166195164]
 Description : Link (Clarke's ratio)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9040
@@ -183,7 +183,7 @@ Name        : Yard_Sears
 WKT         : UNIT["Yard_Sears", 0.9143984146160287]
 Description : Yard (Sears)
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 4.4(3.0.1)
 Deprecated  : no
 
 WKID        : 9041
@@ -193,7 +193,7 @@ Name        : Foot_Sears
 WKT         : UNIT["Foot_Sears", 0.3047994715386762]
 Description : Sears' foot
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 4.4(3.0.1)
 Deprecated  : no
 
 WKID        : 9042
@@ -203,7 +203,7 @@ Name        : Chain_Sears
 WKT         : UNIT["Chain_Sears", 20.11676512155263]
 Description : Chain (Sears)
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 4.4(3.0.1)
 Deprecated  : no
 
 WKID        : 9043
@@ -213,7 +213,7 @@ Name        : Link_Sears
 WKT         : UNIT["Link_Sears", 0.2011676512155263]
 Description : Link (Sears)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9050
@@ -223,7 +223,7 @@ Name        : Yard_Benoit_1895_A
 WKT         : UNIT["Yard_Benoit_1895_A", 0.9143992]
 Description : Yard (Benoit 1895 A)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9051
@@ -233,7 +233,7 @@ Name        : Foot_Benoit_1895_A
 WKT         : UNIT["Foot_Benoit_1895_A", 0.3047997333333333]
 Description : Foot (Benoit 1895 A)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9052
@@ -243,7 +243,7 @@ Name        : Chain_Benoit_1895_A
 WKT         : UNIT["Chain_Benoit_1895_A", 20.1167824]
 Description : Chain (Benoit 1895 A)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9053
@@ -253,7 +253,7 @@ Name        : Link_Benoit_1895_A
 WKT         : UNIT["Link_Benoit_1895_A", 0.201167824]
 Description : Link (Benoit 1895 A)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9060
@@ -263,7 +263,7 @@ Name        : Yard_Benoit_1895_B
 WKT         : UNIT["Yard_Benoit_1895_B", 0.9143992042898124]
 Description : Yard (Benoit 1895 B)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9061
@@ -273,7 +273,7 @@ Name        : Foot_Benoit_1895_B
 WKT         : UNIT["Foot_Benoit_1895_B", 0.3047997347632708]
 Description : Foot (Benoit 1895 B)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9062
@@ -283,7 +283,7 @@ Name        : Chain_Benoit_1895_B
 WKT         : UNIT["Chain_Benoit_1895_B", 20.11678249437587]
 Description : Chain (Benoit 1895 B)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9063
@@ -293,7 +293,7 @@ Name        : Link_Benoit_1895_B
 WKT         : UNIT["Link_Benoit_1895_B", 0.2011678249437587]
 Description : Link (Benoit 1895 B)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9070
@@ -303,7 +303,7 @@ Name        : Foot_1865
 WKT         : UNIT["Foot_1865", 0.3048008333333334]
 Description : Foot (1865)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9080
@@ -313,7 +313,7 @@ Name        : Foot_Indian
 WKT         : UNIT["Foot_Indian", 0.3047995102481469]
 Description : Indian geodetic foot
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 4.4(3.0.1)
 Deprecated  : no
 
 WKID        : 9081
@@ -323,7 +323,7 @@ Name        : Foot_Indian_1937
 WKT         : UNIT["Foot_Indian_1937", 0.30479841]
 Description : Indian foot (1937)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9082
@@ -333,7 +333,7 @@ Name        : Foot_Indian_1962
 WKT         : UNIT["Foot_Indian_1962", 0.3047996]
 Description : Indian foot (1962)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9083
@@ -343,7 +343,7 @@ Name        : Foot_Indian_1975
 WKT         : UNIT["Foot_Indian_1975", 0.3047995]
 Description : Indian foot (1975)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9084
@@ -353,7 +353,7 @@ Name        : Yard_Indian
 WKT         : UNIT["Yard_Indian", 0.9143985307444408]
 Description : Indian yard
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 4.4(3.0.1)
 Deprecated  : no
 
 WKID        : 9085
@@ -363,7 +363,7 @@ Name        : Yard_Indian_1937
 WKT         : UNIT["Yard_Indian_1937", 0.91439523]
 Description : Indian yard (1937)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9086
@@ -373,7 +373,7 @@ Name        : Yard_Indian_1962
 WKT         : UNIT["Yard_Indian_1962", 0.9143988]
 Description : Indian yard (1962)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9087
@@ -383,7 +383,7 @@ Name        : Yard_Indian_1975
 WKT         : UNIT["Yard_Indian_1975", 0.9143985]
 Description : Indian yard (1975)
 Authority   : EPSG
-Version     : 8.8(8.1.0)
+Version     : 4.4(8.1.0)
 Deprecated  : no
 
 WKID        : 9093
@@ -403,7 +403,7 @@ Name        : Foot_Gold_Coast
 WKT         : UNIT["Foot_Gold_Coast", 0.3047997101815088]
 Description : Gold Coast Foot
 Authority   : EPSG
-Version     : 8.8(8.1.2)
+Version     : 5.2(8.1.2)
 Deprecated  : no
 
 WKID        : 9095
@@ -413,7 +413,7 @@ Name        : Foot_British_1936
 WKT         : UNIT["Foot_British_1936", 0.3048007491]
 Description : British Foot (1936)
 Authority   : EPSG
-Version     : 8.8(9.0.0)
+Version     : 6.4(9.0.0)
 Deprecated  : no
 
 WKID        : 9096
@@ -453,7 +453,7 @@ Name        : Yard_Sears_1922_Truncated
 WKT         : UNIT["Yard_Sears_1922_Truncated", 0.914398]
 Description : Yard (Sears 1922 Truncated)
 Authority   : EPSG
-Version     : 8.8(10.0.0)
+Version     : 6.11.2(10.0.0)
 Deprecated  : no
 
 WKID        : 9300
@@ -463,7 +463,7 @@ Name        : Foot_Sears_1922_Truncated
 WKT         : UNIT["Foot_Sears_1922_Truncated", 0.3047993333333334]
 Description : Foot (Sears 1922 Truncated)
 Authority   : EPSG
-Version     : 8.8(10.0.0)
+Version     : 6.11.2(10.0.0)
 Deprecated  : no
 
 WKID        : 9301
@@ -473,7 +473,7 @@ Name        : Chain_Sears_1922_Truncated
 WKT         : UNIT["Chain_Sears_1922_Truncated", 20.116756]
 Description : Chain (Sears 1922 Truncated)
 Authority   : EPSG
-Version     : 8.8(10.0.0)
+Version     : 6.11.2(10.0.0)
 Deprecated  : no
 
 WKID        : 9302
@@ -483,7 +483,7 @@ Name        : Link_Sears_1922_Truncated
 WKT         : UNIT["Link_Sears_1922_Truncated", 0.20116756]
 Description : Link (Sears 1922 Truncated)
 Authority   : EPSG
-Version     : 8.8(10.0.0)
+Version     : 6.11.2(10.0.0)
 Deprecated  : no
 
 WKID        : 109001

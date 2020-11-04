@@ -23,7 +23,7 @@ Name        : CGCS2000
 WKT         : SPHEROID["CGCS2000", 6378137.0, 298.257222101]
 Description : China Geodetic Coordinate System 2000
 Authority   : EPSG
-Version     : 7.1.12(10.2.0)
+Version     : 7.2(10.2.0)
 Deprecated  : no
 
 WKID        : 1025
@@ -33,7 +33,7 @@ Name        : GSK-2011
 WKT         : SPHEROID["GSK-2011", 6378136.5, 298.2564151]
 Description : GSK-2011
 Authority   : EPSG
-Version     : 8.9(10.5.1)
+Version     : 9.0(10.5.1)
 Deprecated  : no
 
 WKID        : 1026
@@ -53,7 +53,7 @@ Name        : Airy_1830
 WKT         : SPHEROID["Airy_1830", 6377563.396, 299.3249646]
 Description : Airy 1830
 Authority   : EPSG
-Version     : 6.12(3.0.1)
+Version     : 4.3(3.0.1)
 Deprecated  : no
 
 WKID        : 7002
@@ -63,7 +63,7 @@ Name        : Airy_Modified
 WKT         : SPHEROID["Airy_Modified", 6377340.189, 299.3249646]
 Description : Airy modified
 Authority   : EPSG
-Version     : 6.4(3.0.1)
+Version     : 4.3(3.0.1)
 Deprecated  : no
 
 WKID        : 7003
@@ -73,7 +73,7 @@ Name        : Australian
 WKT         : SPHEROID["Australian", 6378160.0, 298.25]
 Description : Australian National
 Authority   : EPSG
-Version     : 6.18(3.0.1)
+Version     : 6.3(3.0.1)
 Deprecated  : no
 
 WKID        : 7004
@@ -103,7 +103,7 @@ Name        : Bessel_Namibia
 WKT         : SPHEROID["Bessel_Namibia", 6377483.865280418, 299.1528128]
 Description : Bessel Namibia
 Authority   : EPSG
-Version     : 4.3(3.0.1)
+Version     : 3.2(3.0.1)
 Deprecated  : no
 
 WKID        : 7007
@@ -113,7 +113,7 @@ Name        : Clarke_1858
 WKT         : SPHEROID["Clarke_1858", 6378293.645208759, 294.260676369]
 Description : Clarke 1858
 Authority   : EPSG
-Version     : 6.8(3.0.1)
+Version     : 4.4(3.0.1)
 Deprecated  : no
 
 WKID        : 7008
@@ -123,7 +123,7 @@ Name        : Clarke_1866
 WKT         : SPHEROID["Clarke_1866", 6378206.4, 294.9786982]
 Description : Clarke 1866
 Authority   : EPSG
-Version     : 8.1.2(3.0.1)
+Version     : 4.3(3.0.1)
 Deprecated  : no
 
 WKID        : 7009
@@ -133,7 +133,7 @@ Name        : Clarke_1866_Michigan
 WKT         : SPHEROID["Clarke_1866_Michigan", 6378450.047, 294.978684677]
 Description : Clarke 1866 Michigan
 Authority   : EPSG
-Version     : 2.1(3.0.1)
+Version     : 4.2(3.0.1)
 Deprecated  : no
 
 WKID        : 7010
@@ -223,7 +223,7 @@ Name        : GRS_1980
 WKT         : SPHEROID["GRS_1980", 6378137.0, 298.257222101]
 Description : GRS 1980
 Authority   : EPSG
-Version     : 8.2.6(3.0.1)
+Version     : 4.1(3.0.1)
 Deprecated  : no
 
 WKID        : 7020
@@ -333,7 +333,7 @@ Name        : WGS_1984
 WKT         : SPHEROID["WGS_1984", 6378137.0, 298.257223563]
 Description : WGS 1984
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 4.2(3.0.1)
 Deprecated  : no
 
 WKID        : 7031
@@ -343,7 +343,7 @@ Name        : GEM_10C
 WKT         : SPHEROID["GEM_10C", 6378137.0, 298.257223563]
 Description : GEM gravity potential model
 Authority   : EPSG
-Version     : 2.1(3.0.1)
+Version     : 4.2(3.0.1)
 Deprecated  : no
 
 WKID        : 7032
@@ -353,7 +353,7 @@ Name        : OSU_86F
 WKT         : SPHEROID["OSU_86F", 6378136.2, 298.257223563]
 Description : OSU 1986 geoidal model
 Authority   : EPSG
-Version     : 2.1(3.0.1)
+Version     : 4.2(3.0.1)
 Deprecated  : no
 
 WKID        : 7033
@@ -363,7 +363,7 @@ Name        : OSU_91A
 WKT         : SPHEROID["OSU_91A", 6378136.3, 298.257223563]
 Description : OSU 1991 geoidal model
 Authority   : EPSG
-Version     : 2.1(3.0.1)
+Version     : 4.2(3.0.1)
 Deprecated  : no
 
 WKID        : 7034
@@ -393,7 +393,7 @@ Name        : GRS_1967
 WKT         : SPHEROID["GRS_1967", 6378160.0, 298.247167427]
 Description : GRS 1967 = International 1967
 Authority   : EPSG
-Version     : 7.6.6(3.0.1)
+Version     : 3.0(3.0.1)
 Deprecated  : no
 
 WKID        : 7041
@@ -403,7 +403,7 @@ Name        : ATS_1977
 WKT         : SPHEROID["ATS_1977", 6378135.0, 298.257]
 Description : Average Terrestrial System 1977
 Authority   : EPSG
-Version     : 3.2(4.0.0)
+Version     : 4.3(4.0.0)
 Deprecated  : no
 
 WKID        : 7042
@@ -413,7 +413,7 @@ Name        : Everest_1830
 WKT         : SPHEROID["Everest_1830", 6377299.36, 300.8017]
 Description : Everest 1830 (definition)
 Authority   : EPSG
-Version     : 6.16(3.0.1)
+Version     : 4.4(3.0.1)
 Deprecated  : no
 
 WKID        : 7043
@@ -564,7 +564,7 @@ Name        : WGS_1984_Major_Auxiliary_Sphere
 WKT         : SPHEROID["WGS_1984_Major_Auxiliary_Sphere", 6378137.0, 0.0]
 Description : Major auxiliary sphere based on WGS 1984
 Authority   : EPSG
-Version     : 6.15(10.2.0)
+Version     : 6.18.3(10.2.0)
 Deprecated  : yes
 
 WKID        : 107001

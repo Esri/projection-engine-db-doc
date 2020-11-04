@@ -27,7 +27,7 @@ WKT         : VERTCS["EGM2008_Geoid",
                UNIT["Meter", 1.0]]
 Description : EGM2008 Geoid
 Authority   : EPSG
-Version     : 9.7(10.1.0)
+Version     : 6.18.3(10.1.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -46,7 +46,7 @@ WKT         : VERTCS["Fao_1979",
                UNIT["Meter", 1.0]]
 Description : Fao 1979
 Authority   : EPSG
-Version     : 7.4.4(10.1.0)
+Version     : 7.1(10.1.0)
 Deprecated  : no
 Area-name   : Iraq - onshore
 Area-slat   : 29.06
@@ -65,7 +65,7 @@ WKT         : VERTCS["N2000_height",
                UNIT["Meter", 1.0]]
 Description : N2000
 Authority   : EPSG
-Version     : 9.4(10.1.0)
+Version     : 7.5.1(10.1.0)
 Deprecated  : no
 Area-name   : Finland - onshore
 Area-slat   : 59.75
@@ -84,7 +84,7 @@ WKT         : VERTCS["NZVD2009_height",
                UNIT["Meter", 1.0]]
 Description : NZVD2009
 Authority   : EPSG
-Version     : 9.6.4(10.1.0)
+Version     : 7.1.9(10.1.0)
 Deprecated  : no
 Area-name   : New Zealand
 Area-slat   : -55.95
@@ -103,7 +103,7 @@ WKT         : VERTCS["Dunedin_Bluff_1960_height",
                UNIT["Meter", 1.0]]
 Description : Dunedin-Bluff 1960
 Authority   : EPSG
-Version     : 7.6.4(10.1.0)
+Version     : 7.1.9(10.1.0)
 Deprecated  : no
 Area-name   : New Zealand - South Island - Dunedin-Bluff vcrs
 Area-slat   : -46.73
@@ -141,7 +141,7 @@ WKT         : VERTCS["Trieste_height",
                UNIT["Meter", 1.0]]
 Description : Trieste (Height)
 Authority   : EPSG
-Version     : 9.5(10.1.0)
+Version     : 7.5.8(10.1.0)
 Deprecated  : no
 Area-name   : Europe - former Yugoslavia onshore
 Area-slat   : 40.85
@@ -217,7 +217,7 @@ WKT         : VERTCS["Black_Sea_Depth",
                UNIT["Meter", 1.0]]
 Description : Black Sea Depth
 Authority   : EPSG
-Version     : 7.8.2(10.2.0)
+Version     : 7.6.4(10.2.0)
 Deprecated  : no
 Area-name   : Georgia - onshore
 Area-slat   : 41.04
@@ -445,7 +445,7 @@ WKT         : VERTCS["HVRS_1971",
                UNIT["Meter", 1.0]]
 Description : Croatian Vertical Reference System 1971
 Authority   : EPSG
-Version     : 7.5.8(10.0.0)
+Version     : 6.15(10.0.0)
 Deprecated  : no
 Area-name   : Croatia - onshore
 Area-slat   : 42.34
@@ -654,7 +654,7 @@ WKT         : VERTCS["EVRF_2007",
                UNIT["Meter", 1.0]]
 Description : European Vertical Reference Frame 2007
 Authority   : EPSG
-Version     : 9.7(10.0.0)
+Version     : 8.6.3(10.0.0)
 Deprecated  : no
 Area-name   : Europe - EVRF2007
 Area-slat   : 35.95
@@ -673,7 +673,7 @@ WKT         : VERTCS["Newlyn",
                UNIT["Meter", 1.0]]
 Description : Newlyn
 Authority   : EPSG
-Version     : 8.9.3(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : UK - Great Britain mainland onshore
 Area-slat   : 49.93
@@ -692,7 +692,7 @@ WKT         : VERTCS["NGVD_1929",
                UNIT["Foot_US", 0.3048006096012192]]
 Description : NGVD_1929 -- National Geodetic Vertical Datum of 1929
 Authority   : EPSG
-Version     : 9.8(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : USA - CONUS - onshore
 Area-slat   : 24.41
@@ -711,7 +711,7 @@ WKT         : VERTCS["NAVD_1988",
                UNIT["Meter", 1.0]]
 Description : NAVD_1988 -- North American Vertical Datum of 1988
 Authority   : EPSG
-Version     : 9.8(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : North America - Mexico and USA - onshore
 Area-slat   : 14.51
@@ -749,7 +749,7 @@ WKT         : VERTCS["Baltic",
                UNIT["Meter", 1.0]]
 Description : Baltic
 Authority   : EPSG
-Version     : 9.2.2(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Europe - FSU, Czechoslovakia - onshore
 Area-slat   : 35.14
@@ -787,7 +787,7 @@ WKT         : VERTCS["NAP",
                UNIT["Meter", 1.0]]
 Description : NAP -- Normaal Amsterdams Peil
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 4.5(9.3.0.0)
 Deprecated  : no
 Area-name   : Netherlands - onshore
 Area-slat   : 50.75
@@ -806,7 +806,7 @@ WKT         : VERTCS["Oostende",
                UNIT["Meter", 1.0]]
 Description : Oostende
 Authority   : EPSG
-Version     : 8.2(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Belgium - onshore
 Area-slat   : 49.5
@@ -825,7 +825,7 @@ WKT         : VERTCS["AHD",
                UNIT["Meter", 1.0]]
 Description : AHD -- Australian Height Datum
 Authority   : EPSG
-Version     : 9.8(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Australia - mainland
 Area-slat   : -39.2
@@ -844,7 +844,7 @@ WKT         : VERTCS["AHD_Tasmania",
                UNIT["Meter", 1.0]]
 Description : AHD_Tasmania -- Australian Height Datum (Tasmania)
 Authority   : EPSG
-Version     : 9.3(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Australia - Tasmania mainland onshore
 Area-slat   : -43.7
@@ -863,7 +863,7 @@ WKT         : VERTCS["CGVD_1928",
                UNIT["Meter", 1.0]]
 Description : CGVD_1928 -- Canadian Geodetic Vertical Datum of 1928
 Authority   : EPSG
-Version     : 9.8(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Canada - CGVD28
 Area-slat   : 41.67
@@ -939,7 +939,7 @@ WKT         : VERTCS["N60",
                UNIT["Meter", 1.0]]
 Description : N60
 Authority   : EPSG
-Version     : 7.5.1(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Finland - onshore
 Area-slat   : 59.75
@@ -958,7 +958,7 @@ WKT         : VERTCS["RH70",
                UNIT["Meter", 1.0]]
 Description : RH70 -- Rikets Hojdsystem 1970
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Sweden - onshore
 Area-slat   : 55.28
@@ -996,7 +996,7 @@ WKT         : VERTCS["NGF_IGN69",
                UNIT["Meter", 1.0]]
 Description : NGF IGN69
 Authority   : EPSG
-Version     : 7.9.4(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : France - mainland onshore
 Area-slat   : 42.33
@@ -1015,7 +1015,7 @@ WKT         : VERTCS["NGF_IGN78",
                UNIT["Meter", 1.0]]
 Description : NGF IGN78
 Authority   : EPSG
-Version     : 7.9.4(9.3.0.0)
+Version     : 6.6(9.3.0.0)
 Deprecated  : no
 Area-name   : France - Corsica onshore
 Area-slat   : 41.31
@@ -1053,7 +1053,7 @@ WKT         : VERTCS["Japanese_Standard_Levelling_Datum_1969",
                UNIT["Meter", 1.0]]
 Description : Japanese Standard Levelling Datum 1969
 Authority   : EPSG
-Version     : 8.4(9.3.0.0)
+Version     : 6.2(9.3.0.0)
 Deprecated  : no
 Area-name   : Japan - onshore mainland
 Area-slat   : 30.94
@@ -1072,7 +1072,7 @@ WKT         : VERTCS["PDO_Height_Datum_1993",
                UNIT["Meter", 1.0]]
 Description : PDO Height Datum 1993
 Authority   : EPSG
-Version     : 6.18(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Oman - onshore
 Area-slat   : 16.59
@@ -1091,7 +1091,7 @@ WKT         : VERTCS["Fahud_Height_Datum_1993",
                UNIT["Meter", 1.0]]
 Description : Fahud Height Datum 1993
 Authority   : EPSG
-Version     : 7.9.5(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Oman - mainland
 Area-slat   : 16.59
@@ -1113,10 +1113,10 @@ Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Asia - Cambodia and Vietnam - mainland
-Area-slat   : 8.5
-Area-nlat   : 23.33
+Area-slat   : 8.33
+Area-nlat   : 23.4
 Area-llon   : 102.14
-Area-rlon   : 109.52
+Area-rlon   : 109.53
 
 WKID        : 5727
 Latest-WKID : 5727
@@ -1129,13 +1129,13 @@ WKT         : VERTCS["Hon_Dau_1992",
                UNIT["Meter", 1.0]]
 Description : Hon Dau 1992
 Authority   : EPSG
-Version     : 7.11.1(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Vietnam - mainland
-Area-slat   : 8.5
-Area-nlat   : 23.33
+Area-slat   : 8.33
+Area-nlat   : 23.4
 Area-llon   : 102.14
-Area-rlon   : 109.52
+Area-rlon   : 109.53
 
 WKID        : 5728
 Latest-WKID : 5728
@@ -1148,7 +1148,7 @@ WKT         : VERTCS["LN_1902",
                UNIT["Meter", 1.0]]
 Description : LN_1902 -- Landesnivellement 1902
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Europe - Liechtenstein and Switzerland
 Area-slat   : 45.82
@@ -1167,7 +1167,7 @@ WKT         : VERTCS["LHN95",
                UNIT["Meter", 1.0]]
 Description : LHN95 -- Landeshohennetz 1995
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Europe - Liechtenstein and Switzerland
 Area-slat   : 45.82
@@ -1186,7 +1186,7 @@ WKT         : VERTCS["EVRS_2000",
                UNIT["Meter", 1.0]]
 Description : EVRS_2000 -- European Vertical Reference System 2000
 Authority   : EPSG
-Version     : 9.7(9.3.0.0)
+Version     : 6.6(9.3.0.0)
 Deprecated  : no
 Area-name   : Europe - EVRF2000
 Area-slat   : 35.95
@@ -1205,7 +1205,7 @@ WKT         : VERTCS["Malin_Head",
                UNIT["Meter", 1.0]]
 Description : Malin Head
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Europe - Ireland (Republic and Ulster) - onshore
 Area-slat   : 51.39
@@ -1243,13 +1243,13 @@ WKT         : VERTCS["Dansk_Normal_Nul",
                UNIT["Meter", 1.0]]
 Description : Dansk Normal Nul
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.24
+Area-rlon   : 15.25
 
 WKID        : 5734
 Latest-WKID : 5734
@@ -1262,7 +1262,7 @@ WKT         : VERTCS["AIOC95_Depth",
                UNIT["Meter", 1.0]]
 Description : AIOC95 depth
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Azerbaijan - offshore and Sangachal
 Area-slat   : 37.89
@@ -1281,7 +1281,7 @@ WKT         : VERTCS["Black_Sea",
                UNIT["Meter", 1.0]]
 Description : Black Sea
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Georgia - onshore
 Area-slat   : 41.04
@@ -1395,7 +1395,7 @@ WKT         : VERTCS["Fair_Isle",
                UNIT["Meter", 1.0]]
 Description : Fair Isle
 Authority   : EPSG
-Version     : 8.9.3(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : UK - Fair Isle onshore
 Area-slat   : 59.45
@@ -1433,7 +1433,7 @@ WKT         : VERTCS["Foula",
                UNIT["Meter", 1.0]]
 Description : Foula
 Authority   : EPSG
-Version     : 8.9.3(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : UK - Foula onshore
 Area-slat   : 60.06
@@ -1452,7 +1452,7 @@ WKT         : VERTCS["Sule_Skerry",
                UNIT["Meter", 1.0]]
 Description : Sule Skerry
 Authority   : EPSG
-Version     : 8.9.3(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : UK - Sule Skerry onshore
 Area-slat   : 59.05
@@ -1471,7 +1471,7 @@ WKT         : VERTCS["North_Rona",
                UNIT["Meter", 1.0]]
 Description : North Rona
 Authority   : EPSG
-Version     : 8.9.3(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : UK - North Rona onshore
 Area-slat   : 59.07
@@ -1509,7 +1509,7 @@ WKT         : VERTCS["St_Kilda",
                UNIT["Meter", 1.0]]
 Description : St. Kilda
 Authority   : EPSG
-Version     : 8.9.3(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : UK - St. Kilda onshore
 Area-slat   : 57.74
@@ -1528,7 +1528,7 @@ WKT         : VERTCS["Flannan_Isles",
                UNIT["Meter", 1.0]]
 Description : Flannan Isles
 Authority   : EPSG
-Version     : 8.9.3(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : UK - Flannan Isles onshore
 Area-slat   : 58.21
@@ -1585,7 +1585,7 @@ WKT         : VERTCS["Fao",
                UNIT["Meter", 1.0]]
 Description : Fao
 Authority   : EPSG
-Version     : 7.4.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Asia - Middle East -SE Iraq and SW Iran
 Area-slat   : 29.06
@@ -1604,7 +1604,7 @@ WKT         : VERTCS["Bandar_Abbas",
                UNIT["Meter", 1.0]]
 Description : Bandar Abbas
 Authority   : EPSG
-Version     : 7.4.4(9.3.0.0)
+Version     : 6.5.1(9.3.0.0)
 Deprecated  : no
 Area-name   : Iran - onshore
 Area-slat   : 25.02
@@ -1642,7 +1642,7 @@ WKT         : VERTCS["Poolbeg",
                UNIT["Foot_British_1936", 0.3048007491]]
 Description : Poolbeg
 Authority   : EPSG
-Version     : 9.2(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Europe - Ireland (Republic and Ulster) - onshore
 Area-slat   : 51.39
@@ -1680,7 +1680,7 @@ WKT         : VERTCS["IGN_1987",
                UNIT["Meter", 1.0]]
 Description : IGN 1987
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.6(9.3.0.0)
 Deprecated  : no
 Area-name   : Martinique - onshore
 Area-slat   : 14.35
@@ -1699,7 +1699,7 @@ WKT         : VERTCS["IGN_1988",
                UNIT["Meter", 1.0]]
 Description : IGN 1988
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.6(9.3.0.0)
 Deprecated  : no
 Area-name   : Guadeloupe - Grande-Terre and Basse-Terre - onshore
 Area-slat   : 15.88
@@ -1718,7 +1718,7 @@ WKT         : VERTCS["IGN_1989",
                UNIT["Meter", 1.0]]
 Description : IGN 1989
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.6(9.3.0.0)
 Deprecated  : no
 Area-name   : Reunion - onshore
 Area-slat   : -21.42
@@ -1737,7 +1737,7 @@ WKT         : VERTCS["Auckland",
                UNIT["Meter", 1.0]]
 Description : Auckland
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - North Island - Auckland vcrs
 Area-slat   : -37.67
@@ -1756,7 +1756,7 @@ WKT         : VERTCS["Bluff",
                UNIT["Meter", 1.0]]
 Description : Bluff
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - South Island - Bluff vcrs
 Area-slat   : -46.71
@@ -1775,7 +1775,7 @@ WKT         : VERTCS["Dunedin",
                UNIT["Meter", 1.0]]
 Description : Dunedin
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - South Island - Dunedin vcrs
 Area-slat   : -46.4
@@ -1794,7 +1794,7 @@ WKT         : VERTCS["Gisborne",
                UNIT["Meter", 1.0]]
 Description : Gisborne
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - North Island - Gisborne vcrs
 Area-slat   : -39.04
@@ -1813,7 +1813,7 @@ WKT         : VERTCS["Lyttelton",
                UNIT["Meter", 1.0]]
 Description : Lyttelton
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - South Island - Lyttleton vcrs
 Area-slat   : -44.92
@@ -1832,7 +1832,7 @@ WKT         : VERTCS["Moturiki",
                UNIT["Meter", 1.0]]
 Description : Moturiki
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - North Island - Moturiki vcrs
 Area-slat   : -40.59
@@ -1851,7 +1851,7 @@ WKT         : VERTCS["Napier",
                UNIT["Meter", 1.0]]
 Description : Napier
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - North Island - Hawkes Bay mc Napier vcrs
 Area-slat   : -40.57
@@ -1870,7 +1870,7 @@ WKT         : VERTCS["Nelson",
                UNIT["Meter", 1.0]]
 Description : Nelson
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - South Island - Nelson vcrs
 Area-slat   : -42.44
@@ -1889,7 +1889,7 @@ WKT         : VERTCS["One_Tree_Point",
                UNIT["Meter", 1.0]]
 Description : One Tree Point
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - North Island - One Tree vcrs
 Area-slat   : -36.41
@@ -1908,7 +1908,7 @@ WKT         : VERTCS["Tararu",
                UNIT["Meter", 1.0]]
 Description : Tararu
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - North Island - Tararu vcrs
 Area-slat   : -37.21
@@ -1927,7 +1927,7 @@ WKT         : VERTCS["Taranaki",
                UNIT["Meter", 1.0]]
 Description : Taranaki
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - North Island - Taranaki vcrs
 Area-slat   : -39.92
@@ -1946,7 +1946,7 @@ WKT         : VERTCS["Wellington",
                UNIT["Meter", 1.0]]
 Description : Wellington
 Authority   : EPSG
-Version     : 7.6.4(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - North Island - Wellington vcrs
 Area-slat   : -41.67
@@ -1965,7 +1965,7 @@ WKT         : VERTCS["Chatham_Island",
                UNIT["Meter", 1.0]]
 Description : Chatham Island
 Authority   : EPSG
-Version     : 7.7.1(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : New Zealand - Chatham Island onshore
 Area-slat   : -44.18
@@ -2003,7 +2003,7 @@ WKT         : VERTCS["EGM96_Geoid",
                UNIT["Meter", 1.0]]
 Description : EGM96 Geoid
 Authority   : EPSG
-Version     : 9.7(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -2022,7 +2022,7 @@ WKT         : VERTCS["NG_L",
                UNIT["Meter", 1.0]]
 Description : NG_L -- Nivellement General du Luxembourg
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Luxembourg
 Area-slat   : 49.44
@@ -2041,7 +2041,7 @@ WKT         : VERTCS["Antalya",
                UNIT["Meter", 1.0]]
 Description : Antalya
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Turkey - onshore
 Area-slat   : 35.81
@@ -2060,7 +2060,7 @@ WKT         : VERTCS["NN54",
                UNIT["Meter", 1.0]]
 Description : NN54 -- Norway Normal Nul 1954
 Authority   : EPSG
-Version     : 8.1.1(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Norway - onshore
 Area-slat   : 57.93
@@ -2079,7 +2079,7 @@ WKT         : VERTCS["Durres",
                UNIT["Meter", 1.0]]
 Description : Durres
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Albania - onshore
 Area-slat   : 39.64
@@ -2098,7 +2098,7 @@ WKT         : VERTCS["GHA",
                UNIT["Meter", 1.0]]
 Description : GHA -- Gebrauchshohen ADRIA
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Austria
 Area-slat   : 46.4
@@ -2117,7 +2117,7 @@ WKT         : VERTCS["SVS2000",
                UNIT["Meter", 1.0]]
 Description : SVS2000 -- Slovenian Vertical System 2000
 Authority   : EPSG
-Version     : 9.5(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Slovenia - onshore
 Area-slat   : 45.42
@@ -2136,7 +2136,7 @@ WKT         : VERTCS["Cascais",
                UNIT["Meter", 1.0]]
 Description : Cascais
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Portugal - mainland - onshore
 Area-slat   : 36.95
@@ -2155,7 +2155,7 @@ WKT         : VERTCS["Constanta",
                UNIT["Meter", 1.0]]
 Description : Constanta
 Authority   : EPSG
-Version     : 7.5.8(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Romania - onshore
 Area-slat   : 43.62
@@ -2174,7 +2174,7 @@ WKT         : VERTCS["Alicante",
                UNIT["Meter", 1.0]]
 Description : Alicante
 Authority   : EPSG
-Version     : 8.6.2(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Spain and Gibraltar - onshore
 Area-slat   : 35.95
@@ -2193,7 +2193,7 @@ WKT         : VERTCS["DHHN92",
                UNIT["Meter", 1.0]]
 Description : DHHN92 -- Deutches Haupthohennetz 1992
 Authority   : EPSG
-Version     : 8.9.4(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Germany - onshore
 Area-slat   : 47.27
@@ -2212,7 +2212,7 @@ WKT         : VERTCS["DHHN85",
                UNIT["Meter", 1.0]]
 Description : DHHN85 -- Deutches Haupthohennetz 1985
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Germany - West Germany all states
 Area-slat   : 47.27
@@ -2231,7 +2231,7 @@ WKT         : VERTCS["SNN76",
                UNIT["Meter", 1.0]]
 Description : SNN76
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Germany - East Germany all states
 Area-slat   : 50.2
@@ -2250,7 +2250,7 @@ WKT         : VERTCS["Baltic_1982",
                UNIT["Meter", 1.0]]
 Description : Baltic 1982
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Bulgaria - onshore
 Area-slat   : 41.24
@@ -2269,7 +2269,7 @@ WKT         : VERTCS["EOMA_1980",
                UNIT["Meter", 1.0]]
 Description : EOMA_1980 -- Baltic 1980
 Authority   : EPSG
-Version     : 6.15(9.3.0.0)
+Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Hungary
 Area-slat   : 45.74
@@ -2478,7 +2478,7 @@ WKT         : VERTCS["EGM84_Geoid",
                UNIT["Meter", 1.0]]
 Description : EGM84 Geoid
 Authority   : EPSG
-Version     : 9.7(9.3.0.0)
+Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -2503,7 +2503,7 @@ Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.24
+Area-rlon   : 15.25
 
 WKID        : 5829
 Latest-WKID : 5829
@@ -2554,7 +2554,7 @@ WKT         : VERTCS["Ras_Ghumays_height",
                UNIT["Meter", 1.0]]
 Description : Ras Ghumays (height)
 Authority   : EPSG
-Version     : 8.6.2(10.4.0)
+Version     : 8.6.3(10.4.0)
 Deprecated  : no
 Area-name   : UAE - Abu Dhabi - onshore
 Area-slat   : 22.63
@@ -2858,7 +2858,7 @@ WKT         : VERTCS["GCVD54_height",
                UNIT["Foot", 0.3048]]
 Description : Grand Cayman Vertical Datum 1954 (height)
 Authority   : EPSG
-Version     : 9.2(10.2.1)
+Version     : 8.1.2(10.2.1)
 Deprecated  : no
 Area-name   : Cayman Islands - Grand Cayman
 Area-slat   : 19.21
@@ -2877,7 +2877,7 @@ WKT         : VERTCS["LCVD61_height",
                UNIT["Foot", 0.3048]]
 Description : Little Cayman Vertical Datum 1961 (height)
 Authority   : EPSG
-Version     : 9.2(10.2.1)
+Version     : 8.1.2(10.2.1)
 Deprecated  : no
 Area-name   : Cayman Islands - Little Cayman
 Area-slat   : 19.63
@@ -2896,7 +2896,7 @@ WKT         : VERTCS["CBVD61_height",
                UNIT["Foot", 0.3048]]
 Description : Cayman Brac Vertical Datum 1961 (height)
 Authority   : EPSG
-Version     : 9.2(10.2.1)
+Version     : 8.1.2(10.2.1)
 Deprecated  : no
 Area-name   : Cayman Islands - Cayman Brac
 Area-slat   : 19.66
@@ -3029,7 +3029,7 @@ WKT         : VERTCS["Cais_da_Figueirinha-Angra_do_Heroismo_height",
                UNIT["Meter", 1.0]]
 Description : Cais da Figueirinha - Angra do Heroismo (height)
 Authority   : EPSG
-Version     : 8.5.4(10.2.1)
+Version     : 8.2(10.2.1)
 Deprecated  : no
 Area-name   : Portugal - Azores C - Terceira onshore
 Area-slat   : 38.57
@@ -3105,7 +3105,7 @@ WKT         : VERTCS["NAVD88_depth",
                UNIT["Meter", 1.0]]
 Description : NAVD88 depth
 Authority   : EPSG
-Version     : 8.2.4(10.3.1)
+Version     : 8.2.7(10.3.1)
 Deprecated  : no
 Area-name   : North America - Mexico and USA - onshore
 Area-slat   : 14.51
@@ -3124,7 +3124,7 @@ WKT         : VERTCS["NAVD88_depth_(ftUS)",
                UNIT["Foot_US", 0.3048006096012192]]
 Description : NAVD88 depth (ftUS)
 Authority   : EPSG
-Version     : 9.2(10.3.1)
+Version     : 8.2.7(10.3.1)
 Deprecated  : no
 Area-name   : USA - CONUS and Alaska - onshore
 Area-slat   : 24.41
@@ -3143,7 +3143,7 @@ WKT         : VERTCS["NGVD29_depth",
                UNIT["Foot_US", 0.3048006096012192]]
 Description : NGVD29 depth
 Authority   : EPSG
-Version     : 9.2(10.3.1)
+Version     : 8.2.7(10.3.1)
 Deprecated  : no
 Area-name   : USA - CONUS - onshore
 Area-slat   : 24.41
@@ -3162,7 +3162,7 @@ WKT         : VERTCS["NAVD88_height_(ftUS)",
                UNIT["Foot_US", 0.3048006096012192]]
 Description : NAVD88 height (ftUS) - aliased to 105703
 Authority   : EPSG
-Version     : 9.2(10.5.1)
+Version     : 8.2.7(10.5.1)
 Deprecated  : no
 Area-name   : USA - CONUS and Alaska - onshore
 Area-slat   : 24.41
@@ -3219,7 +3219,7 @@ WKT         : VERTCS["NMVD03_height",
                UNIT["Meter", 1.0]]
 Description : NMVD03 height
 Authority   : EPSG
-Version     : 9.8(10.3.1)
+Version     : 8.2.10(10.3.1)
 Deprecated  : no
 Area-name   : Northern Mariana Islands - Rota, Saipan and Tinian
 Area-slat   : 14.06
@@ -3238,7 +3238,7 @@ WKT         : VERTCS["PRVD02_height",
                UNIT["Meter", 1.0]]
 Description : PRVD02 height
 Authority   : EPSG
-Version     : 9.8(10.3.1)
+Version     : 8.2.10(10.3.1)
 Deprecated  : no
 Area-name   : Puerto Rico - onshore
 Area-slat   : 17.87
@@ -3257,7 +3257,7 @@ WKT         : VERTCS["VIVD09_height",
                UNIT["Meter", 1.0]]
 Description : VIVD09 height
 Authority   : EPSG
-Version     : 9.8(10.3.1)
+Version     : 8.2.10(10.3.1)
 Deprecated  : no
 Area-name   : Virgin Islands, US - onshore
 Area-slat   : 17.62
@@ -3276,7 +3276,7 @@ WKT         : VERTCS["ASVD02_height",
                UNIT["Meter", 1.0]]
 Description : ASVD02 height
 Authority   : EPSG
-Version     : 9.8(10.3.1)
+Version     : 8.2.10(10.3.1)
 Deprecated  : no
 Area-name   : American Samoa - Tutuila island
 Area-slat   : -14.43
@@ -3295,7 +3295,7 @@ WKT         : VERTCS["GUVD04_height",
                UNIT["Meter", 1.0]]
 Description : GUVD04 height
 Authority   : EPSG
-Version     : 9.8(10.3.1)
+Version     : 8.2.10(10.3.1)
 Deprecated  : no
 Area-name   : Guam - onshore
 Area-slat   : 13.18
@@ -3314,7 +3314,7 @@ WKT         : VERTCS["CGVD2013_height",
                UNIT["Meter", 1.0]]
 Description : CGVD2013 height
 Authority   : EPSG
-Version     : 9.8(10.3.1)
+Version     : 8.3.3(10.3.1)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -3333,7 +3333,7 @@ WKT         : VERTCS["JSLD72_height",
                UNIT["Meter", 1.0]]
 Description : JSLD72 height
 Authority   : EPSG
-Version     : 8.3.2(10.3.1)
+Version     : 8.4(10.3.1)
 Deprecated  : no
 Area-name   : Japan - onshore - Hokkaido
 Area-slat   : 41.34
@@ -3352,7 +3352,7 @@ WKT         : VERTCS["JGD2000_vertical_height",
                UNIT["Meter", 1.0]]
 Description : Japanese Geodetic Datum 2000 (vertical) height
 Authority   : EPSG
-Version     : 9.7(10.3.1)
+Version     : 8.4(10.3.1)
 Deprecated  : no
 Area-name   : Japan - onshore mainland
 Area-slat   : 30.94
@@ -3371,7 +3371,7 @@ WKT         : VERTCS["JGD2011_vertical_height",
                UNIT["Meter", 1.0]]
 Description : Japanese Geodetic Datum 2011 (vertical) height
 Authority   : EPSG
-Version     : 9.7(10.3.1)
+Version     : 8.4(10.3.1)
 Deprecated  : no
 Area-name   : Japan - onshore mainland
 Area-slat   : 30.94
@@ -3428,7 +3428,7 @@ WKT         : VERTCS["PNG08_(height)",
                UNIT["Meter", 1.0]]
 Description : Papua New Guinea 2008 (height)
 Authority   : EPSG
-Version     : 9.0.1(10.5.0)
+Version     : 8.8(10.5.0)
 Deprecated  : no
 Area-name   : Papua New Guinea - 0~N to 12~S and 140~E to 158~E
 Area-slat   : -12.0
@@ -3447,7 +3447,7 @@ WKT         : VERTCS["Kumul_34_(height)",
                UNIT["Meter", 1.0]]
 Description : PNG - Kumul 34 (height)
 Authority   : EPSG
-Version     : 9.0(10.5.0)
+Version     : 8.8(10.5.0)
 Deprecated  : no
 Area-name   : Papua New Guinea - PFTB
 Area-slat   : -8.28
@@ -3523,7 +3523,7 @@ WKT         : VERTCS["ODN_(Offshore)_(height)",
                UNIT["Meter", 1.0]]
 Description : ODN (Offshore) (height)
 Authority   : EPSG
-Version     : 8.9(10.5.0)
+Version     : 8.9.3(10.5.0)
 Deprecated  : no
 Area-name   : UK - offshore 49~46'N to 61~01'N, 7~33'W to 3~33'E
 Area-slat   : 49.75
@@ -3581,7 +3581,7 @@ WKT         : VERTCS["NZVD2016_height",
                UNIT["Meter", 1.0]]
 Description : New Zealand Vertical Datum 2016 (height)
 Authority   : EPSG
-Version     : 9.6.4(10.6.0)
+Version     : 9.0(10.6.0)
 Deprecated  : no
 Area-name   : New Zealand
 Area-slat   : -55.95
@@ -3677,7 +3677,7 @@ WKT         : VERTCS["Poolbeg_height_(m)",
                UNIT["Meter", 1.0]]
 Description : Poolbeg height (m)
 Authority   : EPSG
-Version     : 9.1(10.8.0)
+Version     : 9.2(10.8.0)
 Deprecated  : no
 Area-name   : Europe - Ireland (Republic and Ulster) - onshore
 Area-slat   : 51.39
@@ -3734,7 +3734,7 @@ WKT         : VERTCS["KOC_WD_height",
                UNIT["Meter", 1.0]]
 Description : KOC WD height
 Authority   : EPSG
-Version     : 9.0.1(10.8.0)
+Version     : 9.2(10.8.0)
 Deprecated  : no
 Area-name   : Kuwait - onshore
 Area-slat   : 28.53
@@ -3753,7 +3753,7 @@ WKT         : VERTCS["MSL_height_(ftIntl)",
                UNIT["Foot", 0.3048]]
 Description : MSL height (ft)
 Authority   : EPSG
-Version     : 9.1(10.8.0)
+Version     : 9.2(10.8.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -3791,7 +3791,7 @@ WKT         : VERTCS["MSL_height_(ftUS)",
                UNIT["Foot_US", 0.3048006096012192]]
 Description : MSL height (ftUS)
 Authority   : EPSG
-Version     : 9.1(10.8.0)
+Version     : 9.2(10.8.0)
 Deprecated  : no
 Area-name   : USA
 Area-slat   : 15.56
@@ -3810,7 +3810,7 @@ WKT         : VERTCS["MSL_depth_(ftUS)",
                UNIT["Foot_US", 0.3048006096012192]]
 Description : MSL depth (ftUS)
 Authority   : EPSG
-Version     : 9.1(10.8.0)
+Version     : 9.2(10.8.0)
 Deprecated  : no
 Area-name   : USA
 Area-slat   : 15.56
@@ -3867,7 +3867,7 @@ WKT         : VERTCS["GVR2000_height",
                UNIT["Meter", 1.0]]
 Description : GVR2000 height
 Authority   : EPSG
-Version     : 9.1.2(10.8.0)
+Version     : 9.2(10.8.0)
 Deprecated  : no
 Area-name   : Greenland - 59~N to 84~N
 Area-slat   : 59.0
@@ -3886,7 +3886,7 @@ WKT         : VERTCS["GVR2016_height",
                UNIT["Meter", 1.0]]
 Description : GVR2016 height
 Authority   : EPSG
-Version     : 9.1.2(10.8.0)
+Version     : 9.2(10.8.0)
 Deprecated  : no
 Area-name   : Greenland - 58~N to 85~N
 Area-slat   : 58.0
@@ -3981,7 +3981,7 @@ WKT         : VERTCS["SVS2010",
                UNIT["Meter", 1.0]]
 Description : SVS2010 -- Slovenian Vertical System 2010
 Authority   : EPSG
-Version     : 9.4.2(10.7.1)
+Version     : 9.5(10.7.1)
 Deprecated  : no
 Area-name   : Slovenia - onshore
 Area-slat   : 45.42
@@ -4000,7 +4000,7 @@ WKT         : VERTCS["SRB_VRS12_height",
                UNIT["Meter", 1.0]]
 Description : SRB_VRS12 height
 Authority   : EPSG
-Version     : 9.7(10.8.0)
+Version     : 9.5(10.8.0)
 Deprecated  : no
 Area-name   : Serbia
 Area-slat   : 42.23
@@ -4022,10 +4022,29 @@ Authority   : EPSG
 Version     : 9.5(10.8.0)
 Deprecated  : no
 Area-name   : Saudi Arabia - onshore
-Area-slat   : 15.61
+Area-slat   : 16.37
 Area-nlat   : 32.16
 Area-llon   : 34.51
 Area-rlon   : 55.67
+
+WKID        : 8881
+Latest-WKID : 8881
+Macro       : PE_VCS_VIENNA_HT
+Name        : Vienna_height
+WKT         : VERTCS["Vienna_height",
+               VDATUM["Wiener_Null"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : Vienna height
+Authority   : EPSG
+Version     : 9.8.11(12.7.0)
+Deprecated  : no
+Area-name   : Austria - Vienna
+Area-slat   : 48.12
+Area-nlat   : 48.34
+Area-llon   : 16.18
+Area-rlon   : 16.59
 
 WKID        : 8904
 Latest-WKID : 8904
@@ -4076,7 +4095,7 @@ WKT         : VERTCS["IGN_2008_LD_height",
                UNIT["Meter", 1.0]]
 Description : IGN 2008 LD height
 Authority   : EPSG
-Version     : 9.6.4(10.8.0)
+Version     : 9.7(10.8.0)
 Deprecated  : no
 Area-name   : Guadeloupe - La Desirade - onshore
 Area-slat   : 16.26
@@ -4094,8 +4113,8 @@ WKT         : VERTCS["CGVD2013_CGG2013a_height",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 Description : CGVD2013(CGG2013a) height
-Authority   : Esri
-Version     : 12.6.0
+Authority   : EPSG
+Version     : 9.8.4(12.6.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -4113,8 +4132,8 @@ WKT         : VERTCS["SRVN16_height",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 Description : SRVN16 height
-Authority   : Esri
-Version     : 12.6.0
+Authority   : EPSG
+Version     : 9.8.5(12.6.0)
 Deprecated  : no
 Area-name   : Argentina - onshore
 Area-slat   : -55.11
@@ -4132,8 +4151,8 @@ WKT         : VERTCS["EVRF2000_Austria_height",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 Description : EVRF2000 Austria height
-Authority   : Esri
-Version     : 12.6.0
+Authority   : EPSG
+Version     : 9.8.5(12.6.0)
 Deprecated  : no
 Area-name   : Austria
 Area-slat   : 46.4
@@ -4151,8 +4170,8 @@ WKT         : VERTCS["SA_LLD_height",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 Description : SA LLD height
-Authority   : Esri
-Version     : 12.6.0
+Authority   : EPSG
+Version     : 9.8.5(12.6.0)
 Deprecated  : no
 Area-name   : South Africa - onshore
 Area-slat   : -34.88
@@ -4170,14 +4189,34 @@ WKT         : VERTCS["KSA-VRF14_height",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 Description : KSA-VRF14 height
-Authority   : Esri
-Version     : 12.6.0
+Authority   : EPSG
+Version     : 9.8.5(12.6.0)
 Deprecated  : no
 Area-name   : Saudi Arabia - onshore
-Area-slat   : 15.61
+Area-slat   : 16.37
 Area-nlat   : 32.16
 Area-llon   : 34.51
 Area-rlon   : 55.67
+
+WKID        : 9351
+Latest-WKID : 9351
+Macro       : PE_VCS_NGNC08_HT
+Name        : NGNC08_height
+WKT         : VERTCS["NGNC08_height",
+               VDATUM["Nivellement_General_de_Nouvelle_Caledonie_2008"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : NGNC08 height
+Authority   : EPSG
+Version     : 9.8.11(12.7.0)
+Deprecated  : no
+Area-name   : New Caledonia - Belep, Grande Terre, Ile des Pins, Loyalty
+              Islands
+Area-slat   : -22.73
+Area-nlat   : -19.5
+Area-llon   : 163.54
+Area-rlon   : 168.19
 
 WKID        : 105603
 Latest-WKID : 105603
@@ -4234,7 +4273,7 @@ Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.24
+Area-rlon   : 15.25
 
 WKID        : 105702
 Latest-WKID : 5613
@@ -4422,7 +4461,7 @@ Description : ETRS 1989 ellipsoid height
 Authority   : Esri
 Version     : 9.3.0.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1
@@ -5266,7 +5305,7 @@ Area-name   : Laos
 Area-slat   : 13.92
 Area-nlat   : 22.5
 Area-llon   : 100.09
-Area-rlon   : 107.7
+Area-rlon   : 107.64
 
 WKID        : 115744
 Latest-WKID : 115744
@@ -5985,8 +6024,8 @@ Deprecated  : no
 Area-name   : French Guiana
 Area-slat   : 2.11
 Area-nlat   : 8.88
-Area-llon   : -54.6
-Area-rlon   : -49.46
+Area-llon   : -54.61
+Area-rlon   : -49.45
 
 WKID        : 115780
 Latest-WKID : 115780
@@ -6839,7 +6878,7 @@ Description : ETRF 1990 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1
@@ -6859,7 +6898,7 @@ Description : ETRF 1991 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1
@@ -6879,7 +6918,7 @@ Description : ETRF 1992 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1
@@ -6899,7 +6938,7 @@ Description : ETRF 1993 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1
@@ -6919,7 +6958,7 @@ Description : ETRF 1994 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1
@@ -6939,7 +6978,7 @@ Description : ETRF 1996 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1
@@ -6959,7 +6998,7 @@ Description : ETRF 1997 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1
@@ -6979,7 +7018,7 @@ Description : ETRF 2000 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1
@@ -7008,8 +7047,8 @@ Area-rlon   : -47.74
 WKID        : 115831
 Latest-WKID : 115831
 Macro       : PE_VCS_NAD_1983_CSRS_V2
-Name        : NAD83(CSRS)V2
-WKT         : VERTCS["NAD83(CSRS)V2",
+Name        : NAD83(CSRS)v2
+WKT         : VERTCS["NAD83(CSRS)v2",
                DATUM["North_American_Datum_of_1983_(CSRS)_version_2",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
@@ -7028,8 +7067,8 @@ Area-rlon   : -47.74
 WKID        : 115832
 Latest-WKID : 115832
 Macro       : PE_VCS_NAD_1983_CSRS_V3
-Name        : NAD83(CSRS)V3
-WKT         : VERTCS["NAD83(CSRS)V3",
+Name        : NAD83(CSRS)v3
+WKT         : VERTCS["NAD83(CSRS)v3",
                DATUM["North_American_Datum_of_1983_(CSRS)_version_3",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
@@ -7048,8 +7087,8 @@ Area-rlon   : -47.74
 WKID        : 115833
 Latest-WKID : 115833
 Macro       : PE_VCS_NAD_1983_CSRS_V4
-Name        : NAD83(CSRS)V4
-WKT         : VERTCS["NAD83(CSRS)V4",
+Name        : NAD83(CSRS)v4
+WKT         : VERTCS["NAD83(CSRS)v4",
                DATUM["North_American_Datum_of_1983_(CSRS)_version_4",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
@@ -7068,8 +7107,8 @@ Area-rlon   : -47.74
 WKID        : 115834
 Latest-WKID : 115834
 Macro       : PE_VCS_NAD_1983_CSRS_V5
-Name        : NAD83(CSRS)V5
-WKT         : VERTCS["NAD83(CSRS)V5",
+Name        : NAD83(CSRS)v5
+WKT         : VERTCS["NAD83(CSRS)v5",
                DATUM["North_American_Datum_of_1983_(CSRS)_version_5",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
@@ -7088,8 +7127,8 @@ Area-rlon   : -47.74
 WKID        : 115835
 Latest-WKID : 115835
 Macro       : PE_VCS_NAD_1983_CSRS_V6
-Name        : NAD83(CSRS)V6
-WKT         : VERTCS["NAD83(CSRS)V6",
+Name        : NAD83(CSRS)v6
+WKT         : VERTCS["NAD83(CSRS)v6",
                DATUM["North_American_Datum_of_1983_(CSRS)_version_6",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
@@ -7108,8 +7147,8 @@ Area-rlon   : -47.74
 WKID        : 115836
 Latest-WKID : 115836
 Macro       : PE_VCS_NAD_1983_CSRS_V7
-Name        : NAD83(CSRS)V7
-WKT         : VERTCS["NAD83(CSRS)V7",
+Name        : NAD83(CSRS)v7
+WKT         : VERTCS["NAD83(CSRS)v7",
                DATUM["North_American_Datum_of_1983_(CSRS)_version_7",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
@@ -7260,7 +7299,7 @@ Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
 Area-name   : Saudi Arabia
-Area-slat   : 15.61
+Area-slat   : 16.29
 Area-nlat   : 32.16
 Area-llon   : 34.44
 Area-rlon   : 55.67
@@ -7859,7 +7898,7 @@ Description : ETRF 2005 ellipsoid height
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1
@@ -7879,7 +7918,7 @@ Description : ETRF 2014 ellipsoid height
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Europe - ETRS89
+Area-name   : Europe - ETRF by country
 Area-slat   : 32.88
 Area-nlat   : 84.17
 Area-llon   : -16.1

@@ -120,10 +120,6 @@ PE_D_MARCO_GEODESICO_NACIONAL, \
    "D_Marco_Geodesico_Nacional", \
    PE_S_GRS_1980
 
-PE_D_SIRGAS_CHILE, \
-   "D_SIRGAS-Chile", \
-   PE_S_GRS_1980
-
 PE_D_COSTA_RICA_2005, \
    "D_Costa_Rica_2005", \
    PE_S_WGS_1984
@@ -428,6 +424,10 @@ PE_D_MACAO_1920, \
    "Macao_1920", \
    PE_S_INTERNATIONAL_1924
 
+PE_D_MACAO_2008, \
+   "D_MACAO_2008", \
+   PE_S_INTERNATIONAL_1924
+
 PE_D_HK_GEODETIC, \
    "Hong_Kong_Geodetic", \
    PE_S_GRS_1980
@@ -572,6 +572,10 @@ PE_D_SIRGAS_CHILE_REAL_4_2016, \
    "SIRGAS-Chile_realization_4_epoch_2016", \
    PE_S_GRS_1980
 
+PE_D_SIRGAS_CHILE, \
+   "D_SIRGAS-Chile", \
+   PE_S_GRS_1980
+
 PE_D_TAPI_AIKE, \
    "Tapi_Aike", \
    PE_S_INTERNATIONAL_1924
@@ -583,6 +587,14 @@ PE_D_MINISTERIO_DE_MARINA_NORTE, \
 PE_D_MINISTERIO_DE_MARINA_SUR, \
    "Ministerio_de_Marina_Sur", \
    PE_S_INTERNATIONAL_1924
+
+PE_D_OMAN_2017, \
+   "Oman_National_Geodetic_Datum_2017", \
+   PE_S_GRS_1980
+
+PE_D_TPEN11_INTER_RF, \
+   "TPEN11_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980
 
 PE_D_KSA_GRF_2017, \
    "Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017", \
@@ -2236,8 +2248,8 @@ PE_D_CSRS_EPOCH_2017_5_NAD83, \
    "California_SRS_Epoch_2017.50_(NAD83)", \
    PE_S_GRS_1980
 
-PE_D_OMAN_2017, \
-   "Oman_National_Geodetic_Datum_2017", \
+PE_D_GDM2008, \
+   "Geocentric_Datum_of_Mauritius_2008", \
    PE_S_GRS_1980
 
 PE_D_SPHERE_GRS_1980_MEAN_RADIUS, \
@@ -2298,10 +2310,6 @@ PE_D_LC5_1961, \
 
 PE_D_OBSERV_METEOR_1939, \
    "D_Observatorio_Meteorologico_1939", \
-   PE_S_INTERNATIONAL_1924
-
-PE_D_MACAO_2008, \
-   "D_MACAO_2008", \
    PE_S_INTERNATIONAL_1924
 
 PE_D_SAO_BRAZ, \
