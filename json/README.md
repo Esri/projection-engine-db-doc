@@ -50,7 +50,7 @@ codes.lookup(3857).name
 
 ## Issues
 
-Find a bug or want to request a new feature? Please let us know by submitting an [issue](https://github.com/Esri/projections-engine-db-doc/issues).
+Find a bug or want to request a new feature? Please let us know by submitting an [issue](https://github.com/Esri/projection-engine-db-doc/issues).
 
 ## Contributing
 
