@@ -4,6 +4,41 @@
 # syntax: [HVCOORDSYS,] hvcoordsys-code, "name", coordsys-code (or 0), vertcs-code (or 0)
 #------------------------------------------------------------------------------------------------------
 
+PE_HVC_KKJ_FINLAND_UCS_N60_HT, \
+   "KKJ_Finland_Uniform_Coordinate_System_and_N60_height", \
+   PE_PCS_KKJ_FINLAND_3, \
+   PE_VCS_N60
+
+PE_HVC_ETRS89_TM35FIN_N60_HT, \
+   "ETRS_1989_TM35FIN_and_N60_height", \
+   PE_PCS_ETRS_1989_TM35FIN_NE, \
+   PE_VCS_N60
+
+PE_HVC_ETRS89_TM35FIN_N2000_HT, \
+   "ETRS_1989_TM35FIN_and_N2000_height", \
+   PE_PCS_ETRS_1989_TM35FIN_NE, \
+   PE_VCS_N2000
+
+PE_HVC_ETRS89_DKTM1_DVR90_HT, \
+   "ETRS_1989_DKTM1_and_DVR90_height", \
+   PE_PCS_ETRS_1989_DKTM1, \
+   PE_VCS_DANSK_VERT_REF_1990
+
+PE_HVC_ETRS89_DKTM2_DVR90_HT, \
+   "ETRS_1989_DKTM2_and_DVR90_height", \
+   PE_PCS_ETRS_1989_DKTM2, \
+   PE_VCS_DANSK_VERT_REF_1990
+
+PE_HVC_ETRS89_DKTM3_DVR90_HT, \
+   "ETRS_1989_DKTM3_and_DVR90_height", \
+   PE_PCS_ETRS_1989_DKTM3, \
+   PE_VCS_DANSK_VERT_REF_1990
+
+PE_HVC_ETRS89_DKTM4_DVR90_HT, \
+   "ETRS_1989_DKTM4_and_DVR90_height", \
+   PE_PCS_ETRS_1989_DKTM4, \
+   PE_VCS_DANSK_VERT_REF_1990
+
 PE_HVC_ETRS89_FAROE_TM_FVR09_HT, \
    "HVC_ETRS_1989_Faroe_TM_and_FVR09_height", \
    PE_PCS_ETRS_1989_FAROE_TM, \
@@ -1318,4 +1353,9 @@ PE_HVC_CR_SIRGAS_CRTM05_DACR52_HT, \
    "CR-SIRGAS_CRTM05_and_DACR52_height", \
    PE_PCS_CR_SIRGAS_CRTM05, \
    PE_VCS_DACR52_HT
+
+PE_HVC_TPEN11_ODN_HT, \
+   "TPEN11_Grid_and_ODN_height", \
+   PE_PCS_TPEN11_GRID, \
+   PE_VCS_NEWLYN
 

@@ -6,7 +6,7 @@
     "wkt": "VERTCS[\"EGM2008_Geoid\",VDATUM[\"EGM2008_Geoid\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "EGM2008 Geoid",
     "authority": "EPSG",
-    "version": "9.7(10.1.0)",
+    "version": "6.18.3(10.1.0)",
     "deprecated": "no",
     "areaname": "World",
     "extent":
@@ -23,7 +23,7 @@
     "wkt": "VERTCS[\"Fao_1979\",VDATUM[\"Fao_1979\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Fao 1979",
     "authority": "EPSG",
-    "version": "7.4.4(10.1.0)",
+    "version": "7.1(10.1.0)",
     "deprecated": "no",
     "areaname": "Iraq - onshore",
     "extent":
@@ -40,7 +40,7 @@
     "wkt": "VERTCS[\"N2000_height\",VDATUM[\"N2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "N2000",
     "authority": "EPSG",
-    "version": "9.4(10.1.0)",
+    "version": "7.5.1(10.1.0)",
     "deprecated": "no",
     "areaname": "Finland - onshore",
     "extent":
@@ -57,7 +57,7 @@
     "wkt": "VERTCS[\"NZVD2009_height\",VDATUM[\"New_Zealand_Vertical_Datum_2009\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NZVD2009",
     "authority": "EPSG",
-    "version": "9.6.4(10.1.0)",
+    "version": "7.1.9(10.1.0)",
     "deprecated": "no",
     "areaname": "New Zealand",
     "extent":
@@ -74,7 +74,7 @@
     "wkt": "VERTCS[\"Dunedin_Bluff_1960_height\",VDATUM[\"Dunedin_Bluff_1960\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Dunedin-Bluff 1960",
     "authority": "EPSG",
-    "version": "7.6.4(10.1.0)",
+    "version": "7.1.9(10.1.0)",
     "deprecated": "no",
     "areaname": "New Zealand - South Island - Dunedin-Bluff vcrs",
     "extent":
@@ -108,7 +108,7 @@
     "wkt": "VERTCS[\"Trieste_height\",VDATUM[\"Trieste\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Trieste (Height)",
     "authority": "EPSG",
-    "version": "9.5(10.1.0)",
+    "version": "7.5.8(10.1.0)",
     "deprecated": "no",
     "areaname": "Europe - former Yugoslavia onshore",
     "extent":
@@ -176,7 +176,7 @@
     "wkt": "VERTCS[\"Black_Sea_Depth\",VDATUM[\"Black_Sea\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",-1.0],UNIT[\"Meter\",1.0]]",
     "description": "Black Sea Depth",
     "authority": "EPSG",
-    "version": "7.8.2(10.2.0)",
+    "version": "7.6.4(10.2.0)",
     "deprecated": "no",
     "areaname": "Georgia - onshore",
     "extent":
@@ -380,7 +380,7 @@
     "wkt": "VERTCS[\"HVRS_1971\",VDATUM[\"Croatian_Vertical_Reference_System_1971\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Croatian Vertical Reference System 1971",
     "authority": "EPSG",
-    "version": "7.5.8(10.0.0)",
+    "version": "6.15(10.0.0)",
     "deprecated": "no",
     "areaname": "Croatia - onshore",
     "extent":
@@ -567,7 +567,7 @@
     "wkt": "VERTCS[\"EVRF_2007\",VDATUM[\"European_Vertical_Reference_Frame_2007\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "European Vertical Reference Frame 2007",
     "authority": "EPSG",
-    "version": "9.7(10.0.0)",
+    "version": "8.6.3(10.0.0)",
     "deprecated": "no",
     "areaname": "Europe - EVRF2007",
     "extent":
@@ -584,7 +584,7 @@
     "wkt": "VERTCS[\"Newlyn\",VDATUM[\"Ordnance_Datum_Newlyn\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Newlyn",
     "authority": "EPSG",
-    "version": "8.9.3(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "UK - Great Britain mainland onshore",
     "extent":
@@ -601,7 +601,7 @@
     "wkt": "VERTCS[\"NGVD_1929\",VDATUM[\"National_Geodetic_Vertical_Datum_1929\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]]",
     "description": "NGVD_1929 -- National Geodetic Vertical Datum of 1929",
     "authority": "EPSG",
-    "version": "9.8(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "USA - CONUS - onshore",
     "extent":
@@ -618,7 +618,7 @@
     "wkt": "VERTCS[\"NAVD_1988\",VDATUM[\"North_American_Vertical_Datum_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NAVD_1988 -- North American Vertical Datum of 1988",
     "authority": "EPSG",
-    "version": "9.8(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "North America - Mexico and USA - onshore",
     "extent":
@@ -652,7 +652,7 @@
     "wkt": "VERTCS[\"Baltic\",VDATUM[\"Baltic_Sea\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Baltic",
     "authority": "EPSG",
-    "version": "9.2.2(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Europe - FSU, Czechoslovakia - onshore",
     "extent":
@@ -686,7 +686,7 @@
     "wkt": "VERTCS[\"NAP\",VDATUM[\"Normaal_Amsterdams_Peil\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NAP -- Normaal Amsterdams Peil",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "4.5(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Netherlands - onshore",
     "extent":
@@ -703,7 +703,7 @@
     "wkt": "VERTCS[\"Oostende\",VDATUM[\"Oostende\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Oostende",
     "authority": "EPSG",
-    "version": "8.2(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Belgium - onshore",
     "extent":
@@ -720,7 +720,7 @@
     "wkt": "VERTCS[\"AHD\",VDATUM[\"Australian_Height_Datum\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "AHD -- Australian Height Datum",
     "authority": "EPSG",
-    "version": "9.8(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Australia - mainland",
     "extent":
@@ -737,7 +737,7 @@
     "wkt": "VERTCS[\"AHD_Tasmania\",VDATUM[\"Australian_Height_Datum_Tasmania\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "AHD_Tasmania -- Australian Height Datum (Tasmania)",
     "authority": "EPSG",
-    "version": "9.3(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Australia - Tasmania mainland onshore",
     "extent":
@@ -754,7 +754,7 @@
     "wkt": "VERTCS[\"CGVD_1928\",VDATUM[\"Canadian_Geodetic_Vertical_Datum_of_1928\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "CGVD_1928 -- Canadian Geodetic Vertical Datum of 1928",
     "authority": "EPSG",
-    "version": "9.8(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Canada - CGVD28",
     "extent":
@@ -822,7 +822,7 @@
     "wkt": "VERTCS[\"N60\",VDATUM[\"Helsinki_1960\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "N60",
     "authority": "EPSG",
-    "version": "7.5.1(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Finland - onshore",
     "extent":
@@ -839,7 +839,7 @@
     "wkt": "VERTCS[\"RH70\",VDATUM[\"Rikets_Hojdsystem_1970\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "RH70 -- Rikets Hojdsystem 1970",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Sweden - onshore",
     "extent":
@@ -873,7 +873,7 @@
     "wkt": "VERTCS[\"NGF_IGN69\",VDATUM[\"Nivellement_General_de_la_France_IGN69\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NGF IGN69",
     "authority": "EPSG",
-    "version": "7.9.4(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "France - mainland onshore",
     "extent":
@@ -890,7 +890,7 @@
     "wkt": "VERTCS[\"NGF_IGN78\",VDATUM[\"Nivellement_General_de_la_France_IGN78\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NGF IGN78",
     "authority": "EPSG",
-    "version": "7.9.4(9.3.0.0)",
+    "version": "6.6(9.3.0.0)",
     "deprecated": "no",
     "areaname": "France - Corsica onshore",
     "extent":
@@ -924,7 +924,7 @@
     "wkt": "VERTCS[\"Japanese_Standard_Levelling_Datum_1969\",VDATUM[\"Japanese_Standard_Levelling_Datum_1969\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Japanese Standard Levelling Datum 1969",
     "authority": "EPSG",
-    "version": "8.4(9.3.0.0)",
+    "version": "6.2(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Japan - onshore mainland",
     "extent":
@@ -941,7 +941,7 @@
     "wkt": "VERTCS[\"PDO_Height_Datum_1993\",VDATUM[\"PDO_Height_Datum_1993\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "PDO Height Datum 1993",
     "authority": "EPSG",
-    "version": "6.18(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Oman - onshore",
     "extent":
@@ -958,7 +958,7 @@
     "wkt": "VERTCS[\"Fahud_Height_Datum_1993\",VDATUM[\"Fahud_Height_Datum\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Fahud Height Datum 1993",
     "authority": "EPSG",
-    "version": "7.9.5(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Oman - mainland",
     "extent":
@@ -979,10 +979,10 @@
     "deprecated": "no",
     "areaname": "Asia - Cambodia and Vietnam - mainland",
     "extent":
-    { "slat": 8.5,
-      "nlat": 23.33,
+    { "slat": 8.33,
+      "nlat": 23.4,
       "llon": 102.14,
-      "rlon": 109.52
+      "rlon": 109.53
     }
   },
   { "wkid": 5727,
@@ -992,14 +992,14 @@
     "wkt": "VERTCS[\"Hon_Dau_1992\",VDATUM[\"Hon_Dau_1992\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Hon Dau 1992",
     "authority": "EPSG",
-    "version": "7.11.1(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Vietnam - mainland",
     "extent":
-    { "slat": 8.5,
-      "nlat": 23.33,
+    { "slat": 8.33,
+      "nlat": 23.4,
       "llon": 102.14,
-      "rlon": 109.52
+      "rlon": 109.53
     }
   },
   { "wkid": 5728,
@@ -1009,7 +1009,7 @@
     "wkt": "VERTCS[\"LN_1902\",VDATUM[\"Landesnivellement_1902\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "LN_1902 -- Landesnivellement 1902",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Europe - Liechtenstein and Switzerland",
     "extent":
@@ -1026,7 +1026,7 @@
     "wkt": "VERTCS[\"LHN95\",VDATUM[\"Landeshohennetz_1995\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "LHN95 -- Landeshohennetz 1995",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Europe - Liechtenstein and Switzerland",
     "extent":
@@ -1043,7 +1043,7 @@
     "wkt": "VERTCS[\"EVRS_2000\",VDATUM[\"European_Vertical_Reference_Frame_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "EVRS_2000 -- European Vertical Reference System 2000",
     "authority": "EPSG",
-    "version": "9.7(9.3.0.0)",
+    "version": "6.6(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Europe - EVRF2000",
     "extent":
@@ -1060,7 +1060,7 @@
     "wkt": "VERTCS[\"Malin_Head\",VDATUM[\"Malin_Head\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Malin Head",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Europe - Ireland (Republic and Ulster) - onshore",
     "extent":
@@ -1094,14 +1094,14 @@
     "wkt": "VERTCS[\"Dansk_Normal_Nul\",VDATUM[\"Dansk_Normal_Nul\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Dansk Normal Nul",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Denmark - onshore",
     "extent":
     { "slat": 54.51,
       "nlat": 57.8,
       "llon": 8.0,
-      "rlon": 15.24
+      "rlon": 15.25
     }
   },
   { "wkid": 5734,
@@ -1111,7 +1111,7 @@
     "wkt": "VERTCS[\"AIOC95_Depth\",VDATUM[\"AIOC_1995\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",-1.0],UNIT[\"Meter\",1.0]]",
     "description": "AIOC95 depth",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Azerbaijan - offshore and Sangachal",
     "extent":
@@ -1128,7 +1128,7 @@
     "wkt": "VERTCS[\"Black_Sea\",VDATUM[\"Black_Sea\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Black Sea",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Georgia - onshore",
     "extent":
@@ -1230,7 +1230,7 @@
     "wkt": "VERTCS[\"Fair_Isle\",VDATUM[\"Fair_Isle\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Fair Isle",
     "authority": "EPSG",
-    "version": "8.9.3(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "UK - Fair Isle onshore",
     "extent":
@@ -1264,7 +1264,7 @@
     "wkt": "VERTCS[\"Foula\",VDATUM[\"Foula\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Foula",
     "authority": "EPSG",
-    "version": "8.9.3(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "UK - Foula onshore",
     "extent":
@@ -1281,7 +1281,7 @@
     "wkt": "VERTCS[\"Sule_Skerry\",VDATUM[\"Sule_Skerry\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Sule Skerry",
     "authority": "EPSG",
-    "version": "8.9.3(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "UK - Sule Skerry onshore",
     "extent":
@@ -1298,7 +1298,7 @@
     "wkt": "VERTCS[\"North_Rona\",VDATUM[\"North_Rona\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "North Rona",
     "authority": "EPSG",
-    "version": "8.9.3(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "UK - North Rona onshore",
     "extent":
@@ -1332,7 +1332,7 @@
     "wkt": "VERTCS[\"St_Kilda\",VDATUM[\"St_Kilda\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "St. Kilda",
     "authority": "EPSG",
-    "version": "8.9.3(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "UK - St. Kilda onshore",
     "extent":
@@ -1349,7 +1349,7 @@
     "wkt": "VERTCS[\"Flannan_Isles\",VDATUM[\"Flannan_Isles\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Flannan Isles",
     "authority": "EPSG",
-    "version": "8.9.3(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "UK - Flannan Isles onshore",
     "extent":
@@ -1400,7 +1400,7 @@
     "wkt": "VERTCS[\"Fao\",VDATUM[\"Fao\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Fao",
     "authority": "EPSG",
-    "version": "7.4.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Asia - Middle East -SE Iraq and SW Iran",
     "extent":
@@ -1417,7 +1417,7 @@
     "wkt": "VERTCS[\"Bandar_Abbas\",VDATUM[\"Bandar_Abbas\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Bandar Abbas",
     "authority": "EPSG",
-    "version": "7.4.4(9.3.0.0)",
+    "version": "6.5.1(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Iran - onshore",
     "extent":
@@ -1451,7 +1451,7 @@
     "wkt": "VERTCS[\"Poolbeg\",VDATUM[\"Poolbeg\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_British_1936\",0.3048007491]]",
     "description": "Poolbeg",
     "authority": "EPSG",
-    "version": "9.2(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Europe - Ireland (Republic and Ulster) - onshore",
     "extent":
@@ -1485,7 +1485,7 @@
     "wkt": "VERTCS[\"IGN_1987\",VDATUM[\"IGN_1987\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "IGN 1987",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.6(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Martinique - onshore",
     "extent":
@@ -1502,7 +1502,7 @@
     "wkt": "VERTCS[\"IGN_1988\",VDATUM[\"IGN_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "IGN 1988",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.6(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Guadeloupe - Grande-Terre and Basse-Terre - onshore",
     "extent":
@@ -1519,7 +1519,7 @@
     "wkt": "VERTCS[\"IGN_1989\",VDATUM[\"IGN_1989\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "IGN 1989",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.6(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Reunion - onshore",
     "extent":
@@ -1536,7 +1536,7 @@
     "wkt": "VERTCS[\"Auckland\",VDATUM[\"Auckland\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Auckland",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - North Island - Auckland vcrs",
     "extent":
@@ -1553,7 +1553,7 @@
     "wkt": "VERTCS[\"Bluff\",VDATUM[\"Bluff\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Bluff",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - South Island - Bluff vcrs",
     "extent":
@@ -1570,7 +1570,7 @@
     "wkt": "VERTCS[\"Dunedin\",VDATUM[\"Dunedin\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Dunedin",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - South Island - Dunedin vcrs",
     "extent":
@@ -1587,7 +1587,7 @@
     "wkt": "VERTCS[\"Gisborne\",VDATUM[\"Gisborne\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Gisborne",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - North Island - Gisborne vcrs",
     "extent":
@@ -1604,7 +1604,7 @@
     "wkt": "VERTCS[\"Lyttelton\",VDATUM[\"Lyttelton\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Lyttelton",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - South Island - Lyttleton vcrs",
     "extent":
@@ -1621,7 +1621,7 @@
     "wkt": "VERTCS[\"Moturiki\",VDATUM[\"Moturiki\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Moturiki",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - North Island - Moturiki vcrs",
     "extent":
@@ -1638,7 +1638,7 @@
     "wkt": "VERTCS[\"Napier\",VDATUM[\"Napier\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Napier",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - North Island - Hawkes Bay mc Napier vcrs",
     "extent":
@@ -1655,7 +1655,7 @@
     "wkt": "VERTCS[\"Nelson\",VDATUM[\"Nelson\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Nelson",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - South Island - Nelson vcrs",
     "extent":
@@ -1672,7 +1672,7 @@
     "wkt": "VERTCS[\"One_Tree_Point\",VDATUM[\"One_Tree_Point\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "One Tree Point",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - North Island - One Tree vcrs",
     "extent":
@@ -1689,7 +1689,7 @@
     "wkt": "VERTCS[\"Tararu\",VDATUM[\"Tararu\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Tararu",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - North Island - Tararu vcrs",
     "extent":
@@ -1706,7 +1706,7 @@
     "wkt": "VERTCS[\"Taranaki\",VDATUM[\"Taranaki\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Taranaki",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - North Island - Taranaki vcrs",
     "extent":
@@ -1723,7 +1723,7 @@
     "wkt": "VERTCS[\"Wellington\",VDATUM[\"Wellington\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Wellington",
     "authority": "EPSG",
-    "version": "7.6.4(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - North Island - Wellington vcrs",
     "extent":
@@ -1740,7 +1740,7 @@
     "wkt": "VERTCS[\"Chatham_Island\",VDATUM[\"Chatham_Island\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Chatham Island",
     "authority": "EPSG",
-    "version": "7.7.1(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "New Zealand - Chatham Island onshore",
     "extent":
@@ -1774,7 +1774,7 @@
     "wkt": "VERTCS[\"EGM96_Geoid\",VDATUM[\"EGM96_Geoid\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "EGM96 Geoid",
     "authority": "EPSG",
-    "version": "9.7(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "World",
     "extent":
@@ -1791,7 +1791,7 @@
     "wkt": "VERTCS[\"NG_L\",VDATUM[\"Nivellement_General_du_Luxembourg\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NG_L -- Nivellement General du Luxembourg",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Luxembourg",
     "extent":
@@ -1808,7 +1808,7 @@
     "wkt": "VERTCS[\"Antalya\",VDATUM[\"Antalya\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Antalya",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Turkey - onshore",
     "extent":
@@ -1825,7 +1825,7 @@
     "wkt": "VERTCS[\"NN54\",VDATUM[\"Norway_Normal_Null_1954\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NN54 -- Norway Normal Nul 1954",
     "authority": "EPSG",
-    "version": "8.1.1(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Norway - onshore",
     "extent":
@@ -1842,7 +1842,7 @@
     "wkt": "VERTCS[\"Durres\",VDATUM[\"Durres\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Durres",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Albania - onshore",
     "extent":
@@ -1859,7 +1859,7 @@
     "wkt": "VERTCS[\"GHA\",VDATUM[\"Gebrauchshohen_Adria\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "GHA -- Gebrauchshohen ADRIA",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Austria",
     "extent":
@@ -1876,7 +1876,7 @@
     "wkt": "VERTCS[\"SVS2000\",VDATUM[\"Slovenian_Vertical_System_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "SVS2000 -- Slovenian Vertical System 2000",
     "authority": "EPSG",
-    "version": "9.5(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Slovenia - onshore",
     "extent":
@@ -1893,7 +1893,7 @@
     "wkt": "VERTCS[\"Cascais\",VDATUM[\"Cascais\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Cascais",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Portugal - mainland - onshore",
     "extent":
@@ -1910,7 +1910,7 @@
     "wkt": "VERTCS[\"Constanta\",VDATUM[\"Constanta\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Constanta",
     "authority": "EPSG",
-    "version": "7.5.8(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Romania - onshore",
     "extent":
@@ -1927,7 +1927,7 @@
     "wkt": "VERTCS[\"Alicante\",VDATUM[\"Alicante\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Alicante",
     "authority": "EPSG",
-    "version": "8.6.2(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Spain and Gibraltar - onshore",
     "extent":
@@ -1944,7 +1944,7 @@
     "wkt": "VERTCS[\"DHHN92\",VDATUM[\"Deutches_Haupthoehennetz_1992\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "DHHN92 -- Deutches Haupthohennetz 1992",
     "authority": "EPSG",
-    "version": "8.9.4(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Germany - onshore",
     "extent":
@@ -1961,7 +1961,7 @@
     "wkt": "VERTCS[\"DHHN85\",VDATUM[\"Deutches_Haupthoehennetz_1985\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "DHHN85 -- Deutches Haupthohennetz 1985",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Germany - West Germany all states",
     "extent":
@@ -1978,7 +1978,7 @@
     "wkt": "VERTCS[\"SNN76\",VDATUM[\"SNN76\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "SNN76",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Germany - East Germany all states",
     "extent":
@@ -1995,7 +1995,7 @@
     "wkt": "VERTCS[\"Baltic_1982\",VDATUM[\"Baltic_1982\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Baltic 1982",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Bulgaria - onshore",
     "extent":
@@ -2012,7 +2012,7 @@
     "wkt": "VERTCS[\"EOMA_1980\",VDATUM[\"Baltic_1980\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "EOMA_1980 -- Baltic 1980",
     "authority": "EPSG",
-    "version": "6.15(9.3.0.0)",
+    "version": "6.7(9.3.0.0)",
     "deprecated": "no",
     "areaname": "Hungary",
     "extent":
@@ -2199,7 +2199,7 @@
     "wkt": "VERTCS[\"EGM84_Geoid\",VDATUM[\"EGM84_Geoid\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "EGM84 Geoid",
     "authority": "EPSG",
-    "version": "9.7(9.3.0.0)",
+    "version": "6.15(9.3.0.0)",
     "deprecated": "no",
     "areaname": "World",
     "extent":
@@ -2223,7 +2223,7 @@
     { "slat": 54.51,
       "nlat": 57.8,
       "llon": 8.0,
-      "rlon": 15.24
+      "rlon": 15.25
     }
   },
   { "wkid": 5829,
@@ -2267,7 +2267,7 @@
     "wkt": "VERTCS[\"Ras_Ghumays_height\",VDATUM[\"Ras_Ghumays\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Ras Ghumays (height)",
     "authority": "EPSG",
-    "version": "8.6.2(10.4.0)",
+    "version": "8.6.3(10.4.0)",
     "deprecated": "no",
     "areaname": "UAE - Abu Dhabi - onshore",
     "extent":
@@ -2539,7 +2539,7 @@
     "wkt": "VERTCS[\"GCVD54_height\",VDATUM[\"Grand_Cayman_Vertical_Datum_1954\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot\",0.3048]]",
     "description": "Grand Cayman Vertical Datum 1954 (height)",
     "authority": "EPSG",
-    "version": "9.2(10.2.1)",
+    "version": "8.1.2(10.2.1)",
     "deprecated": "no",
     "areaname": "Cayman Islands - Grand Cayman",
     "extent":
@@ -2556,7 +2556,7 @@
     "wkt": "VERTCS[\"LCVD61_height\",VDATUM[\"Little_Cayman_Vertical_Datum_1961\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot\",0.3048]]",
     "description": "Little Cayman Vertical Datum 1961 (height)",
     "authority": "EPSG",
-    "version": "9.2(10.2.1)",
+    "version": "8.1.2(10.2.1)",
     "deprecated": "no",
     "areaname": "Cayman Islands - Little Cayman",
     "extent":
@@ -2573,7 +2573,7 @@
     "wkt": "VERTCS[\"CBVD61_height\",VDATUM[\"Cayman_Brac_Vertical_Datum_1961\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot\",0.3048]]",
     "description": "Cayman Brac Vertical Datum 1961 (height)",
     "authority": "EPSG",
-    "version": "9.2(10.2.1)",
+    "version": "8.1.2(10.2.1)",
     "deprecated": "no",
     "areaname": "Cayman Islands - Cayman Brac",
     "extent":
@@ -2692,7 +2692,7 @@
     "wkt": "VERTCS[\"Cais_da_Figueirinha-Angra_do_Heroismo_height\",VDATUM[\"Cais_da_Figueirinha-Angra_do_Heroismo\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Cais da Figueirinha - Angra do Heroismo (height)",
     "authority": "EPSG",
-    "version": "8.5.4(10.2.1)",
+    "version": "8.2(10.2.1)",
     "deprecated": "no",
     "areaname": "Portugal - Azores C - Terceira onshore",
     "extent":
@@ -2760,7 +2760,7 @@
     "wkt": "VERTCS[\"NAVD88_depth\",VDATUM[\"North_American_Vertical_Datum_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",-1.0],UNIT[\"Meter\",1.0]]",
     "description": "NAVD88 depth",
     "authority": "EPSG",
-    "version": "8.2.4(10.3.1)",
+    "version": "8.2.7(10.3.1)",
     "deprecated": "no",
     "areaname": "North America - Mexico and USA - onshore",
     "extent":
@@ -2777,7 +2777,7 @@
     "wkt": "VERTCS[\"NAVD88_depth_(ftUS)\",VDATUM[\"North_American_Vertical_Datum_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",-1.0],UNIT[\"Foot_US\",0.3048006096012192]]",
     "description": "NAVD88 depth (ftUS)",
     "authority": "EPSG",
-    "version": "9.2(10.3.1)",
+    "version": "8.2.7(10.3.1)",
     "deprecated": "no",
     "areaname": "USA - CONUS and Alaska - onshore",
     "extent":
@@ -2794,7 +2794,7 @@
     "wkt": "VERTCS[\"NGVD29_depth\",VDATUM[\"National_Geodetic_Vertical_Datum_1929\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",-1.0],UNIT[\"Foot_US\",0.3048006096012192]]",
     "description": "NGVD29 depth",
     "authority": "EPSG",
-    "version": "9.2(10.3.1)",
+    "version": "8.2.7(10.3.1)",
     "deprecated": "no",
     "areaname": "USA - CONUS - onshore",
     "extent":
@@ -2811,7 +2811,7 @@
     "wkt": "VERTCS[\"NAVD88_height_(ftUS)\",VDATUM[\"North_American_Vertical_Datum_1988\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]]",
     "description": "NAVD88 height (ftUS) - aliased to 105703",
     "authority": "EPSG",
-    "version": "9.2(10.5.1)",
+    "version": "8.2.7(10.5.1)",
     "deprecated": "no",
     "areaname": "USA - CONUS and Alaska - onshore",
     "extent":
@@ -2862,7 +2862,7 @@
     "wkt": "VERTCS[\"NMVD03_height\",VDATUM[\"Northern_Marianas_Vertical_Datum_of_2003\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NMVD03 height",
     "authority": "EPSG",
-    "version": "9.8(10.3.1)",
+    "version": "8.2.10(10.3.1)",
     "deprecated": "no",
     "areaname": "Northern Mariana Islands - Rota, Saipan and Tinian",
     "extent":
@@ -2879,7 +2879,7 @@
     "wkt": "VERTCS[\"PRVD02_height\",VDATUM[\"Puerto_Rico_Vertical_Datum_of_2002\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "PRVD02 height",
     "authority": "EPSG",
-    "version": "9.8(10.3.1)",
+    "version": "8.2.10(10.3.1)",
     "deprecated": "no",
     "areaname": "Puerto Rico - onshore",
     "extent":
@@ -2896,7 +2896,7 @@
     "wkt": "VERTCS[\"VIVD09_height\",VDATUM[\"Virgin_Islands_Vertical_Datum_of_2009\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "VIVD09 height",
     "authority": "EPSG",
-    "version": "9.8(10.3.1)",
+    "version": "8.2.10(10.3.1)",
     "deprecated": "no",
     "areaname": "Virgin Islands, US - onshore",
     "extent":
@@ -2913,7 +2913,7 @@
     "wkt": "VERTCS[\"ASVD02_height\",VDATUM[\"American_Samoa_Vertical_Datum_of_2002\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "ASVD02 height",
     "authority": "EPSG",
-    "version": "9.8(10.3.1)",
+    "version": "8.2.10(10.3.1)",
     "deprecated": "no",
     "areaname": "American Samoa - Tutuila island",
     "extent":
@@ -2930,7 +2930,7 @@
     "wkt": "VERTCS[\"GUVD04_height\",VDATUM[\"Guam_Vertical_Datum_of_2004\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "GUVD04 height",
     "authority": "EPSG",
-    "version": "9.8(10.3.1)",
+    "version": "8.2.10(10.3.1)",
     "deprecated": "no",
     "areaname": "Guam - onshore",
     "extent":
@@ -2947,7 +2947,7 @@
     "wkt": "VERTCS[\"CGVD2013_height\",VDATUM[\"Canadian_Geodetic_Vertical_Datum_of_2013\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "CGVD2013 height",
     "authority": "EPSG",
-    "version": "9.8(10.3.1)",
+    "version": "8.3.3(10.3.1)",
     "deprecated": "no",
     "areaname": "Canada",
     "extent":
@@ -2964,7 +2964,7 @@
     "wkt": "VERTCS[\"JSLD72_height\",VDATUM[\"Japanese_Standard_Levelling_Datum_1972\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "JSLD72 height",
     "authority": "EPSG",
-    "version": "8.3.2(10.3.1)",
+    "version": "8.4(10.3.1)",
     "deprecated": "no",
     "areaname": "Japan - onshore - Hokkaido",
     "extent":
@@ -2981,7 +2981,7 @@
     "wkt": "VERTCS[\"JGD2000_vertical_height\",VDATUM[\"Japanese_Geodetic_Datum_2000_vertical\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Japanese Geodetic Datum 2000 (vertical) height",
     "authority": "EPSG",
-    "version": "9.7(10.3.1)",
+    "version": "8.4(10.3.1)",
     "deprecated": "no",
     "areaname": "Japan - onshore mainland",
     "extent":
@@ -2998,7 +2998,7 @@
     "wkt": "VERTCS[\"JGD2011_vertical_height\",VDATUM[\"Japanese_Geodetic_Datum_2011_vertical\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Japanese Geodetic Datum 2011 (vertical) height",
     "authority": "EPSG",
-    "version": "9.7(10.3.1)",
+    "version": "8.4(10.3.1)",
     "deprecated": "no",
     "areaname": "Japan - onshore mainland",
     "extent":
@@ -3049,7 +3049,7 @@
     "wkt": "VERTCS[\"PNG08_(height)\",VDATUM[\"Papua_New_Guinea_2008\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Papua New Guinea 2008 (height)",
     "authority": "EPSG",
-    "version": "9.0.1(10.5.0)",
+    "version": "8.8(10.5.0)",
     "deprecated": "no",
     "areaname": "Papua New Guinea - 0~N to 12~S and 140~E to 158~E",
     "extent":
@@ -3066,7 +3066,7 @@
     "wkt": "VERTCS[\"Kumul_34_(height)\",VDATUM[\"Kumul_34\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "PNG - Kumul 34 (height)",
     "authority": "EPSG",
-    "version": "9.0(10.5.0)",
+    "version": "8.8(10.5.0)",
     "deprecated": "no",
     "areaname": "Papua New Guinea - PFTB",
     "extent":
@@ -3134,7 +3134,7 @@
     "wkt": "VERTCS[\"ODN_(Offshore)_(height)\",VDATUM[\"Ordnance_Datum_Newlyn_(Offshore)\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "ODN (Offshore) (height)",
     "authority": "EPSG",
-    "version": "8.9(10.5.0)",
+    "version": "8.9.3(10.5.0)",
     "deprecated": "no",
     "areaname": "UK - offshore 49~46'N to 61~01'N, 7~33'W to 3~33'E",
     "extent":
@@ -3185,7 +3185,7 @@
     "wkt": "VERTCS[\"NZVD2016_height\",VDATUM[\"New_Zealand_Vertical_Datum_2016\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "New Zealand Vertical Datum 2016 (height)",
     "authority": "EPSG",
-    "version": "9.6.4(10.6.0)",
+    "version": "9.0(10.6.0)",
     "deprecated": "no",
     "areaname": "New Zealand",
     "extent":
@@ -3270,7 +3270,7 @@
     "wkt": "VERTCS[\"Poolbeg_height_(m)\",VDATUM[\"Poolbeg\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Poolbeg height (m)",
     "authority": "EPSG",
-    "version": "9.1(10.8.0)",
+    "version": "9.2(10.8.0)",
     "deprecated": "no",
     "areaname": "Europe - Ireland (Republic and Ulster) - onshore",
     "extent":
@@ -3321,7 +3321,7 @@
     "wkt": "VERTCS[\"KOC_WD_height\",VDATUM[\"KOC_Well_Datum\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "KOC WD height",
     "authority": "EPSG",
-    "version": "9.0.1(10.8.0)",
+    "version": "9.2(10.8.0)",
     "deprecated": "no",
     "areaname": "Kuwait - onshore",
     "extent":
@@ -3338,7 +3338,7 @@
     "wkt": "VERTCS[\"MSL_height_(ftIntl)\",VDATUM[\"Mean_Sea_Level\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot\",0.3048]]",
     "description": "MSL height (ft)",
     "authority": "EPSG",
-    "version": "9.1(10.8.0)",
+    "version": "9.2(10.8.0)",
     "deprecated": "no",
     "areaname": "World",
     "extent":
@@ -3372,7 +3372,7 @@
     "wkt": "VERTCS[\"MSL_height_(ftUS)\",VDATUM[\"Mean_Sea_Level\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]]",
     "description": "MSL height (ftUS)",
     "authority": "EPSG",
-    "version": "9.1(10.8.0)",
+    "version": "9.2(10.8.0)",
     "deprecated": "no",
     "areaname": "USA",
     "extent":
@@ -3389,7 +3389,7 @@
     "wkt": "VERTCS[\"MSL_depth_(ftUS)\",VDATUM[\"Mean_Sea_Level\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",-1.0],UNIT[\"Foot_US\",0.3048006096012192]]",
     "description": "MSL depth (ftUS)",
     "authority": "EPSG",
-    "version": "9.1(10.8.0)",
+    "version": "9.2(10.8.0)",
     "deprecated": "no",
     "areaname": "USA",
     "extent":
@@ -3440,7 +3440,7 @@
     "wkt": "VERTCS[\"GVR2000_height\",VDATUM[\"Greenland_Vertical_Reference_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "GVR2000 height",
     "authority": "EPSG",
-    "version": "9.1.2(10.8.0)",
+    "version": "9.2(10.8.0)",
     "deprecated": "no",
     "areaname": "Greenland - 59~N to 84~N",
     "extent":
@@ -3457,7 +3457,7 @@
     "wkt": "VERTCS[\"GVR2016_height\",VDATUM[\"Greenland_Vertical_Reference_2016\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "GVR2016 height",
     "authority": "EPSG",
-    "version": "9.1.2(10.8.0)",
+    "version": "9.2(10.8.0)",
     "deprecated": "no",
     "areaname": "Greenland - 58~N to 85~N",
     "extent":
@@ -3542,7 +3542,7 @@
     "wkt": "VERTCS[\"SVS2010\",VDATUM[\"Slovenian_Vertical_System_2010\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "SVS2010 -- Slovenian Vertical System 2010",
     "authority": "EPSG",
-    "version": "9.4.2(10.7.1)",
+    "version": "9.5(10.7.1)",
     "deprecated": "no",
     "areaname": "Slovenia - onshore",
     "extent":
@@ -3559,7 +3559,7 @@
     "wkt": "VERTCS[\"SRB_VRS12_height\",VDATUM[\"Serbian_Vertical_Reference_System_2012\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "SRB_VRS12 height",
     "authority": "EPSG",
-    "version": "9.7(10.8.0)",
+    "version": "9.5(10.8.0)",
     "deprecated": "no",
     "areaname": "Serbia",
     "extent":
@@ -3580,10 +3580,27 @@
     "deprecated": "no",
     "areaname": "Saudi Arabia - onshore",
     "extent":
-    { "slat": 15.61,
+    { "slat": 16.37,
       "nlat": 32.16,
       "llon": 34.51,
       "rlon": 55.67
+    }
+  },
+  { "wkid": 8881,
+    "latestWkid": 8881,
+    "macro": "PE_VCS_VIENNA_HT",
+    "name": "Vienna_height",
+    "wkt": "VERTCS[\"Vienna_height\",VDATUM[\"Wiener_Null\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "description": "Vienna height",
+    "authority": "EPSG",
+    "version": "9.8.11(12.7.0)",
+    "deprecated": "no",
+    "areaname": "Austria - Vienna",
+    "extent":
+    { "slat": 48.12,
+      "nlat": 48.34,
+      "llon": 16.18,
+      "rlon": 16.59
     }
   },
   { "wkid": 8904,
@@ -3627,7 +3644,7 @@
     "wkt": "VERTCS[\"IGN_2008_LD_height\",VDATUM[\"IGN_2008_LD\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "IGN 2008 LD height",
     "authority": "EPSG",
-    "version": "9.6.4(10.8.0)",
+    "version": "9.7(10.8.0)",
     "deprecated": "no",
     "areaname": "Guadeloupe - La Desirade - onshore",
     "extent":
@@ -3643,8 +3660,8 @@
     "name": "CGVD2013_CGG2013a_height",
     "wkt": "VERTCS[\"CGVD2013_CGG2013a_height\",VDATUM[\"Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "CGVD2013(CGG2013a) height",
-    "authority": "Esri",
-    "version": "12.6.0",
+    "authority": "EPSG",
+    "version": "9.8.4(12.6.0)",
     "deprecated": "no",
     "areaname": "Canada",
     "extent":
@@ -3660,8 +3677,8 @@
     "name": "SRVN16_height",
     "wkt": "VERTCS[\"SRVN16_height\",VDATUM[\"Sistema_de_Referencia_Vertical_Nacional_2016\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "SRVN16 height",
-    "authority": "Esri",
-    "version": "12.6.0",
+    "authority": "EPSG",
+    "version": "9.8.5(12.6.0)",
     "deprecated": "no",
     "areaname": "Argentina - onshore",
     "extent":
@@ -3677,8 +3694,8 @@
     "name": "EVRF2000_Austria_height",
     "wkt": "VERTCS[\"EVRF2000_Austria_height\",VDATUM[\"European_Vertical_Reference_Frame_2000_Austria\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "EVRF2000 Austria height",
-    "authority": "Esri",
-    "version": "12.6.0",
+    "authority": "EPSG",
+    "version": "9.8.5(12.6.0)",
     "deprecated": "no",
     "areaname": "Austria",
     "extent":
@@ -3694,8 +3711,8 @@
     "name": "SA_LLD_height",
     "wkt": "VERTCS[\"SA_LLD_height\",VDATUM[\"South_Africa_Land_Levelling_Datum\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "SA LLD height",
-    "authority": "Esri",
-    "version": "12.6.0",
+    "authority": "EPSG",
+    "version": "9.8.5(12.6.0)",
     "deprecated": "no",
     "areaname": "South Africa - onshore",
     "extent":
@@ -3711,15 +3728,32 @@
     "name": "KSA-VRF14_height",
     "wkt": "VERTCS[\"KSA-VRF14_height\",VDATUM[\"Kingdom_of_Saudi_Arabia_Vertical_Reference_Frame_Jeddah_2014\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "KSA-VRF14 height",
-    "authority": "Esri",
-    "version": "12.6.0",
+    "authority": "EPSG",
+    "version": "9.8.5(12.6.0)",
     "deprecated": "no",
     "areaname": "Saudi Arabia - onshore",
     "extent":
-    { "slat": 15.61,
+    { "slat": 16.37,
       "nlat": 32.16,
       "llon": 34.51,
       "rlon": 55.67
+    }
+  },
+  { "wkid": 9351,
+    "latestWkid": 9351,
+    "macro": "PE_VCS_NGNC08_HT",
+    "name": "NGNC08_height",
+    "wkt": "VERTCS[\"NGNC08_height\",VDATUM[\"Nivellement_General_de_Nouvelle_Caledonie_2008\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "description": "NGNC08 height",
+    "authority": "EPSG",
+    "version": "9.8.11(12.7.0)",
+    "deprecated": "no",
+    "areaname": "New Caledonia - Belep, Grande Terre, Ile des Pins, Loyalty Islands",
+    "extent":
+    { "slat": -22.73,
+      "nlat": -19.5,
+      "llon": 163.54,
+      "rlon": 168.19
     }
   },
   { "wkid": 105603,
@@ -3770,7 +3804,7 @@
     { "slat": 54.51,
       "nlat": 57.8,
       "llon": 8.0,
-      "rlon": 15.24
+      "rlon": 15.25
     }
   },
   { "wkid": 105702,
@@ -3935,7 +3969,7 @@
     "authority": "Esri",
     "version": "9.3.0.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,
@@ -4654,7 +4688,7 @@
     { "slat": 13.92,
       "nlat": 22.5,
       "llon": 100.09,
-      "rlon": 107.7
+      "rlon": 107.64
     }
   },
   { "wkid": 115744,
@@ -5265,8 +5299,8 @@
     "extent":
     { "slat": 2.11,
       "nlat": 8.88,
-      "llon": -54.6,
-      "rlon": -49.46
+      "llon": -54.61,
+      "rlon": -49.45
     }
   },
   { "wkid": 115780,
@@ -5992,7 +6026,7 @@
     "authority": "Esri",
     "version": "10.7.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,
@@ -6009,7 +6043,7 @@
     "authority": "Esri",
     "version": "10.7.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,
@@ -6026,7 +6060,7 @@
     "authority": "Esri",
     "version": "10.7.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,
@@ -6043,7 +6077,7 @@
     "authority": "Esri",
     "version": "10.7.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,
@@ -6060,7 +6094,7 @@
     "authority": "Esri",
     "version": "10.7.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,
@@ -6077,7 +6111,7 @@
     "authority": "Esri",
     "version": "10.7.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,
@@ -6094,7 +6128,7 @@
     "authority": "Esri",
     "version": "10.7.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,
@@ -6111,7 +6145,7 @@
     "authority": "Esri",
     "version": "10.7.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,
@@ -6139,8 +6173,8 @@
   { "wkid": 115831,
     "latestWkid": 115831,
     "macro": "PE_VCS_NAD_1983_CSRS_V2",
-    "name": "NAD83(CSRS)V2",
-    "wkt": "VERTCS[\"NAD83(CSRS)V2\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_2\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "name": "NAD83(CSRS)v2",
+    "wkt": "VERTCS[\"NAD83(CSRS)v2\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_2\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NAD83 (CSRS) v2 ellipsoid height",
     "authority": "Esri",
     "version": "10.7.0",
@@ -6156,8 +6190,8 @@
   { "wkid": 115832,
     "latestWkid": 115832,
     "macro": "PE_VCS_NAD_1983_CSRS_V3",
-    "name": "NAD83(CSRS)V3",
-    "wkt": "VERTCS[\"NAD83(CSRS)V3\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_3\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "name": "NAD83(CSRS)v3",
+    "wkt": "VERTCS[\"NAD83(CSRS)v3\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_3\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NAD83 (CSRS) v3 ellipsoid height",
     "authority": "Esri",
     "version": "10.7.0",
@@ -6173,8 +6207,8 @@
   { "wkid": 115833,
     "latestWkid": 115833,
     "macro": "PE_VCS_NAD_1983_CSRS_V4",
-    "name": "NAD83(CSRS)V4",
-    "wkt": "VERTCS[\"NAD83(CSRS)V4\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_4\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "name": "NAD83(CSRS)v4",
+    "wkt": "VERTCS[\"NAD83(CSRS)v4\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_4\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NAD83 (CSRS) v4 ellipsoid height",
     "authority": "Esri",
     "version": "10.7.0",
@@ -6190,8 +6224,8 @@
   { "wkid": 115834,
     "latestWkid": 115834,
     "macro": "PE_VCS_NAD_1983_CSRS_V5",
-    "name": "NAD83(CSRS)V5",
-    "wkt": "VERTCS[\"NAD83(CSRS)V5\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_5\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "name": "NAD83(CSRS)v5",
+    "wkt": "VERTCS[\"NAD83(CSRS)v5\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_5\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NAD83 (CSRS) v5 ellipsoid height",
     "authority": "Esri",
     "version": "10.7.0",
@@ -6207,8 +6241,8 @@
   { "wkid": 115835,
     "latestWkid": 115835,
     "macro": "PE_VCS_NAD_1983_CSRS_V6",
-    "name": "NAD83(CSRS)V6",
-    "wkt": "VERTCS[\"NAD83(CSRS)V6\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_6\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "name": "NAD83(CSRS)v6",
+    "wkt": "VERTCS[\"NAD83(CSRS)v6\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_6\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NAD83 (CSRS) v6 ellipsoid height",
     "authority": "Esri",
     "version": "10.7.0",
@@ -6224,8 +6258,8 @@
   { "wkid": 115836,
     "latestWkid": 115836,
     "macro": "PE_VCS_NAD_1983_CSRS_V7",
-    "name": "NAD83(CSRS)V7",
-    "wkt": "VERTCS[\"NAD83(CSRS)V7\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_7\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "name": "NAD83(CSRS)v7",
+    "wkt": "VERTCS[\"NAD83(CSRS)v7\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_7\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "NAD83 (CSRS) v7 ellipsoid height",
     "authority": "Esri",
     "version": "10.7.0",
@@ -6351,7 +6385,7 @@
     "deprecated": "no",
     "areaname": "Saudi Arabia",
     "extent":
-    { "slat": 15.61,
+    { "slat": 16.29,
       "nlat": 32.16,
       "llon": 34.44,
       "rlon": 55.67
@@ -6859,7 +6893,7 @@
     "authority": "Esri",
     "version": "10.8.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,
@@ -6876,7 +6910,7 @@
     "authority": "Esri",
     "version": "10.8.0",
     "deprecated": "no",
-    "areaname": "Europe - ETRS89",
+    "areaname": "Europe - ETRF by country",
     "extent":
     { "slat": 32.88,
       "nlat": 84.17,

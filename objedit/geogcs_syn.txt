@@ -159,6 +159,11 @@
    FALSE, \
    "Teradata"
 
+"Australian Antarctic (3D)", \
+   "Australian_Antarctic_1998_3D", \
+   FALSE, \
+   "EPSG"
+
 "Australian Geodetic 1966", \
    "Australian_1966", \
    FALSE, \
@@ -213,6 +218,11 @@
    "Bermuda_2000", \
    FALSE, \
    "SpatiaLite"
+
+"BDA2000 (3D)", \
+   "Bermuda_2000_3D", \
+   FALSE, \
+   "EPSG"
 
 "Belgium Hayford", \
    "Datum_Lisboa_Hayford", \
@@ -339,6 +349,11 @@
    FALSE, \
    "EPSG"
 
+"CGRS93 (3D)", \
+   "CGRS_1993_3D", \
+   FALSE, \
+   "EPSG"
+
 "CH 1903 (Switzerland)", \
    "CH1903", \
    FALSE, \
@@ -388,6 +403,11 @@
    "Swiss_TRF_1995", \
    FALSE, \
    "Teradata"
+
+"CHTRF95 (3D)", \
+   "Swiss_TRF_1995_3D", \
+   FALSE, \
+   "EPSG"
 
 "CI1971", \
    "Chatham_Island_1971", \
@@ -529,6 +549,11 @@
    FALSE, \
    "Teradata"
 
+"DGN95 (3D)", \
+   "DGN_1995_3D", \
+   FALSE, \
+   "EPSG"
+
 "DHDN", \
    "Deutsches_Hauptdreiecksnetz", \
    FALSE, \
@@ -793,12 +818,22 @@
    "Estonia_1997", \
    FALSE, \
    "Teradata"
+
+"EST97 (3D)", \
+   "Estonia_1997_3D", \
+   FALSE, \
+   "EPSG"
 
 "ETRF89", \
    "ETRF_1989", \
    FALSE, \
    "EPSG"
 
+"ETRF89 (3D)", \
+   "ETRF_1989_3D", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89", \
    "ETRS_1989", \
    FALSE, \
@@ -828,6 +863,11 @@
    "ETRS_1989", \
    FALSE, \
    "Teradata"
+
+"ETRS89 (3D)", \
+   "ETRS_1989_3D", \
+   FALSE, \
+   "EPSG"
 
 "Fatu Iva 72", \
    "Fatu_Iva_1972", \
@@ -1014,6 +1054,11 @@
    FALSE, \
    "Teradata"
 
+"GDA94 (3D)", \
+   "GDA_1994_3D", \
+   FALSE, \
+   "EPSG"
+
 "Geodetic Datum 1949", \
    "New_Zealand_1949", \
    FALSE, \
@@ -1079,6 +1124,11 @@
    FALSE, \
    "Teradata"
 
+"GR96 (3D)", \
+   "Greenland_1996_3D", \
+   FALSE, \
+   "EPSG"
+
 "Guadeloupe 1948", \
    "Sainte_Anne", \
    FALSE, \
@@ -1133,6 +1183,11 @@
    "Hartebeesthoek_1994", \
    FALSE, \
    "Teradata"
+
+"Hartebeesthoek94 (3D)", \
+   "Hartebeesthoek_1994_3D", \
+   FALSE, \
+   "EPSG"
 
 "HD72", \
    "Hungarian_1972", \
@@ -1214,8 +1269,18 @@
    FALSE, \
    "EPSG"
 
+"IG05/12 Intermediate CRS (3D)", \
+   "IG05(2012)_Intermediate_CRS_3D", \
+   FALSE, \
+   "EPSG"
+
 "IGD05/12", \
    "IGD05(2012)", \
+   FALSE, \
+   "EPSG"
+
+"IGD05/12 (3D)", \
+   "IGD05(2012)_3D", \
    FALSE, \
    "EPSG"
 
@@ -1248,6 +1313,11 @@
    "IGM_1995", \
    FALSE, \
    "Teradata"
+
+"IGM95 (3D)", \
+   "IGM_1995_3D", \
+   FALSE, \
+   "EPSG"
 
 "IGN 1962 Kerguelen", \
    "Kerguelen_Island_1949", \
@@ -1359,6 +1429,11 @@
    FALSE, \
    "Teradata"
 
+"ISN93 (3D)", \
+   "ISN_1993_3D", \
+   FALSE, \
+   "EPSG"
+
 "Israel 1993", \
    "Israel", \
    FALSE, \
@@ -1374,6 +1449,11 @@
    FALSE, \
    "Oracle"
 
+"ITRF88 (3D)", \
+   "ITRF_1988_3D", \
+   FALSE, \
+   "EPSG"
+
 "ITRF89", \
    "ITRF_1989", \
    FALSE, \
@@ -1383,6 +1463,11 @@
    "ITRF_1989", \
    FALSE, \
    "Oracle"
+
+"ITRF89 (3D)", \
+   "ITRF_1989_3D", \
+   FALSE, \
+   "EPSG"
 
 "ITRF90", \
    "ITRF_1990", \
@@ -1394,6 +1479,11 @@
    FALSE, \
    "Oracle"
 
+"ITRF90 (3D)", \
+   "ITRF_1990_3D", \
+   FALSE, \
+   "EPSG"
+
 "ITRF91", \
    "ITRF_1991", \
    FALSE, \
@@ -1403,6 +1493,11 @@
    "ITRF_1991", \
    FALSE, \
    "Oracle"
+
+"ITRF91 (3D)", \
+   "ITRF_1991_3D", \
+   FALSE, \
+   "EPSG"
 
 "ITRF92", \
    "ITRF_1992", \
@@ -1414,6 +1509,11 @@
    FALSE, \
    "Oracle"
 
+"ITRF92 (3D)", \
+   "ITRF_1992_3D", \
+   FALSE, \
+   "EPSG"
+
 "ITRF93", \
    "ITRF_1993", \
    FALSE, \
@@ -1423,6 +1523,11 @@
    "ITRF_1993", \
    FALSE, \
    "Oracle"
+
+"ITRF93 (3D)", \
+   "ITRF_1993_3D", \
+   FALSE, \
+   "EPSG"
 
 "ITRF94", \
    "ITRF_1994", \
@@ -1434,6 +1539,11 @@
    FALSE, \
    "Oracle"
 
+"ITRF94 (3D)", \
+   "ITRF_1994_3D", \
+   FALSE, \
+   "EPSG"
+
 "ITRF96", \
    "ITRF_1996", \
    FALSE, \
@@ -1444,6 +1554,11 @@
    FALSE, \
    "Oracle"
 
+"ITRF96 (3D)", \
+   "ITRF_1996_3D", \
+   FALSE, \
+   "EPSG"
+
 "ITRF97", \
    "ITRF_1997", \
    FALSE, \
@@ -1453,6 +1568,11 @@
    "ITRF_1997", \
    FALSE, \
    "Oracle"
+
+"ITRF97 (3D)", \
+   "ITRF_1997_3D", \
+   FALSE, \
+   "EPSG"
 
 "Iwo Jima 1945", \
    "Beacon_E_1945", \
@@ -1699,6 +1819,11 @@
    FALSE, \
    "Teradata"
 
+"LKS92 (3D)", \
+   "LKS_1992_3D", \
+   FALSE, \
+   "EPSG"
+
 "LKS94", \
    "LKS_1994", \
    FALSE, \
@@ -1728,6 +1853,11 @@
    "LKS_1994", \
    FALSE, \
    "Teradata"
+
+"LKS94 (3D)", \
+   "LKS_1994_3D", \
+   FALSE, \
+   "EPSG"
 
 "LKS94 (ETRS89)", \
    "LKS_1994", \
@@ -2244,6 +2374,11 @@
    FALSE, \
    "EPSG"
 
+"MACARIO SOLIS (3D)", \
+   "MARCARIO_SOLIS_3D", \
+   FALSE, \
+   "EPSG"
+
 "MAGNA-SIRGAS", \
    "MAGNA", \
    FALSE, \
@@ -2268,6 +2403,11 @@
    "MAGNA", \
    FALSE, \
    "Teradata"
+
+"MAGNA-SIRGAS (3D)", \
+   "MAGNA_3D", \
+   FALSE, \
+   "EPSG"
 
 "Marcus Island 1952", \
    "Astro_1952", \
@@ -2376,6 +2516,11 @@
 
 "Mexico ITRF92", \
    "Mexican_Datum_of_1993", \
+   FALSE, \
+   "EPSG"
+
+"Mexico ITRF92 (3D)", \
+   "Mexican_Datum_of_1993_3D", \
    FALSE, \
    "EPSG"
 
@@ -2554,8 +2699,18 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) (3D)", \
+   "NAD_1983_2011_3D", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(CORS96)", \
    "NAD_1983_CORS96", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CORS96) (3D)", \
+   "NAD_1983_CORS96_3D", \
    FALSE, \
    "EPSG"
 
@@ -2588,6 +2743,11 @@
    "North_American_1983_CSRS", \
    FALSE, \
    "Teradata"
+
+"NAD83(CSRS) (3D)", \
+   "North_American_1983_CSRS_3D", \
+   FALSE, \
+   "EPSG"
 
 "NAD83(CSRS98)", \
    "North_American_1983_CSRS", \
@@ -2614,6 +2774,11 @@
    FALSE, \
    "EPSG"
 
+"NAD83(FBN) (3D)", \
+   "NAD_1983_(FBN)_3D", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(HARN)", \
    "North_American_1983_HARN", \
    FALSE, \
@@ -2644,8 +2809,18 @@
    FALSE, \
    "Teradata"
 
+"NAD83(HARN) (3D)", \
+   "North_American_1983_HARN_3D", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(HARN Corrected)", \
    "NAD_1983_(HARN_Corrected)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN Corrected) (3D)", \
+   "NAD_1983_(HARN_Corrected)_3D", \
    FALSE, \
    "EPSG"
 
@@ -2654,8 +2829,18 @@
    FALSE, \
    "EPSG"
 
+"NAD83(MA11) (3D)", \
+   "NAD_1983_MA11_3D", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(MARP00)", \
    "NAD_1983_MARP00", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(MARP00) (3D)", \
+   "NAD_1983_MARP00_3D", \
    FALSE, \
    "EPSG"
 
@@ -2674,13 +2859,28 @@
    FALSE, \
    "SpatiaLite"
 
+"NAD83(NSRS2007) (3D)", \
+   "NAD_1983_NSRS2007_3D", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(PA11)", \
    "NAD_1983_PA11", \
    FALSE, \
    "EPSG"
 
+"NAD83(PA11) (3D)", \
+   "NAD_1983_PA11_3D", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(PACP00)", \
    "NAD_1983_PACP00", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(PACP00) (3D)", \
+   "NAD_1983_PACP00_3D", \
    FALSE, \
    "EPSG"
 
@@ -3009,6 +3209,11 @@
    FALSE, \
    "Teradata"
 
+"POSGAR 2007 (3D)", \
+   "POSGAR_3D", \
+   FALSE, \
+   "EPSG"
+
 "POSGAR 94", \
    "POSGAR_1994", \
    FALSE, \
@@ -3033,6 +3238,11 @@
    "POSGAR_1994", \
    FALSE, \
    "Teradata"
+
+"POSGAR 94 (3D)", \
+   "POSGAR_1994_3D", \
+   FALSE, \
+   "EPSG"
 
 "POSGAR 98", \
    "POSGAR_1998", \
@@ -3064,6 +3274,11 @@
    FALSE, \
    "Teradata"
 
+"POSGAR 98 (3D)", \
+   "POSGAR_1998_3D", \
+   FALSE, \
+   "EPSG"
+
 "PRS92", \
    "PRS_1992", \
    FALSE, \
@@ -3088,6 +3303,11 @@
    "PRS_1992", \
    FALSE, \
    "Teradata"
+
+"PRS92 (3D)", \
+   "PRS_1992_3D", \
+   FALSE, \
+   "EPSG"
 
 "PSAD56", \
    "Provisional_S_American_1956", \
@@ -3219,6 +3439,11 @@
    FALSE, \
    "Teradata"
 
+"PZ-90 (3D)", \
+   "PZ_1990_3D", \
+   FALSE, \
+   "EPSG"
+
 "QND95", \
    "QND_1995", \
    FALSE, \
@@ -3279,6 +3504,11 @@
    FALSE, \
    "Teradata"
 
+"RGF93 (3D)", \
+   "RGF_1993_3D", \
+   FALSE, \
+   "EPSG"
+
 "RGFG95", \
    "RGFG_1995", \
    FALSE, \
@@ -3308,12 +3538,22 @@
    "RGFG_1995", \
    FALSE, \
    "Teradata"
+
+"RGFG95 (3D)", \
+   "RGFG_1995_3D", \
+   FALSE, \
+   "EPSG"
 
 "RGM04", \
    "RGM_2004", \
    FALSE, \
    "EPSG"
 
+"RGM04 (3D)", \
+   "RGM_2004_3D", \
+   FALSE, \
+   "EPSG"
+
 "RGNC91-93", \
    "RGNC_1991-93", \
    FALSE, \
@@ -3338,6 +3578,11 @@
    "RGNC_1991-93", \
    FALSE, \
    "Teradata"
+
+"RGNC91-93 (3D)", \
+   "RGNC_1991-93_3D", \
+   FALSE, \
+   "EPSG"
 
 "RGR92", \
    "RGR_1992", \
@@ -3369,8 +3614,18 @@
    FALSE, \
    "Teradata"
 
+"RGR92 (3D)", \
+   "RGR_1992_3D", \
+   FALSE, \
+   "EPSG"
+
 "RGSPM06", \
    "RGSPM_2006", \
+   FALSE, \
+   "EPSG"
+
+"RGSPM06 (3D)", \
+   "RGSPM_2006_3D", \
    FALSE, \
    "EPSG"
 
@@ -3584,6 +3839,11 @@
    FALSE, \
    "SpatiaLite"
 
+"SIRGAS 1995 (3D)", \
+   "SIRGAS_3D", \
+   FALSE, \
+   "EPSG"
+
 "SIRGAS-Chile 2002", \
    "SIRGAS-Chile", \
    FALSE, \
@@ -3666,6 +3926,11 @@
 
 "St. Helena Tritan", \
    "St_Helena_Tritan", \
+   FALSE, \
+   "EPSG"
+
+"St. Helena Tritan (3D)", \
+   "St_Helena_Tritan_3D", \
    FALSE, \
    "EPSG"
 
@@ -4034,11 +4299,21 @@
    FALSE, \
    "SpatiaLite"
 
+"TWD97 (3D)", \
+   "TWD_1997_3D", \
+   FALSE, \
+   "EPSG"
+
 "UCS-2000", \
    "Ukraine_2000", \
    FALSE, \
    "EPSG"
 
+"UCS-2000 (3D)", \
+   "Ukraine_2000_3D", \
+   FALSE, \
+   "EPSG"
+
 "Unknown datum based upon the Airy 1830 ellipsoid", \
    "Airy_1830", \
    FALSE, \
@@ -5039,6 +5314,11 @@
    FALSE, \
    "SpatiaLite"
 
+"WGS 66 (3D)", \
+   "WGS_1966_3D", \
+   FALSE, \
+   "EPSG"
+
 "WGS 72", \
    "WGS_1972", \
    FALSE, \
@@ -5069,6 +5349,11 @@
    FALSE, \
    "Teradata"
 
+"WGS 72 (3D)", \
+   "WGS_1972_3D", \
+   FALSE, \
+   "EPSG"
+
 "WGS 72BE", \
    "WGS_1972_BE", \
    FALSE, \
@@ -5099,6 +5384,11 @@
    FALSE, \
    "Teradata"
 
+"WGS 72BE (3D)", \
+   "WGS_1972_BE_3D", \
+   FALSE, \
+   "EPSG"
+
 "WGS 84", \
    "WGS_1984", \
    FALSE, \
@@ -5128,9 +5418,19 @@
    "WGS_1984", \
    FALSE, \
    "Teradata"
+
+"WGS 84 (3D)", \
+   "WGS_1984_3D", \
+   FALSE, \
+   "EPSG"
 
 "WGS 84 (G1150)", \
    "WGS_1984_(G1150)", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 (G1150) (3D)", \
+   "WGS_1984_(G1150)_3D", \
    FALSE, \
    "EPSG"
 
@@ -5139,8 +5439,18 @@
    FALSE, \
    "EPSG"
 
+"WGS 84 (G1674) (3D)", \
+   "WGS_1984_(G1674)_3D", \
+   FALSE, \
+   "EPSG"
+
 "WGS 84 (G1762)", \
    "WGS_1984_(G1762)", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 (G1762) (3D)", \
+   "WGS_1984_(G1762)_3D", \
    FALSE, \
    "EPSG"
 
@@ -5149,13 +5459,28 @@
    FALSE, \
    "EPSG"
 
+"WGS 84 (G730) (3D)", \
+   "WGS_1984_(G730)_3D", \
+   FALSE, \
+   "EPSG"
+
 "WGS 84 (G873)", \
    "WGS_1984_(G873)", \
    FALSE, \
    "EPSG"
 
+"WGS 84 (G873) (3D)", \
+   "WGS_1984_(G873)_3D", \
+   FALSE, \
+   "EPSG"
+
 "WGS 84 (Transit)", \
    "WGS_1984_(Transit)", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 (Transit) (3D)", \
+   "WGS_1984_(Transit)_3D", \
    FALSE, \
    "EPSG"
 
@@ -5188,4 +5513,9 @@
    "Yemen_NGN_1996", \
    FALSE, \
    "Teradata"
+
+"Yemen NGN96 (3D)", \
+   "Yemen_NGN_1996_3D", \
+   FALSE, \
+   "EPSG"
 

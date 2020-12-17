@@ -23,7 +23,7 @@ Name        : Milliarcsecond
 WKT         : UNIT["Milliarcsecond", 4.84813681109536e-09]
 Description : 1/1000 Arc-second
 Authority   : EPSG
-Version     : 8.8(10.2.1)
+Version     : 8.2.4(10.2.1)
 Deprecated  : no
 
 WKID        : 9101
@@ -33,7 +33,7 @@ Name        : Radian
 WKT         : UNIT["Radian", 1.0]
 Description : Radian
 Authority   : EPSG
-Version     : 9.4(3.0.1)
+Version     : 8.8(3.0.1)
 Deprecated  : no
 
 WKID        : 9102
@@ -43,7 +43,7 @@ Name        : Degree
 WKT         : UNIT["Degree", 0.0174532925199433]
 Description : Degree
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 3.0(3.0.1)
 Deprecated  : no
 
 WKID        : 9103
@@ -53,7 +53,7 @@ Name        : Arcminute
 WKT         : UNIT["Arcminute", 0.0002908882086657216]
 Description : Arc-minute
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 3.0(3.0.1)
 Deprecated  : no
 
 WKID        : 9104
@@ -63,7 +63,7 @@ Name        : Arcsecond
 WKT         : UNIT["Arcsecond", 0.00000484813681109536]
 Description : Arc-second
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 3.0(3.0.1)
 Deprecated  : no
 
 WKID        : 9105
@@ -73,7 +73,7 @@ Name        : Grad
 WKT         : UNIT["Grad", 0.01570796326794897]
 Description : Grad (angle subtended by 1/400 circle)
 Authority   : EPSG
-Version     : 8.8(3.0.1)
+Version     : 3.0(3.0.1)
 Deprecated  : no
 
 WKID        : 9106
@@ -83,7 +83,7 @@ Name        : Gon
 WKT         : UNIT["Gon", 0.01570796326794897]
 Description : Gon (angle subtended by 1/400 circle)
 Authority   : EPSG
-Version     : 6.3(3.0.1)
+Version     : 3.0(3.0.1)
 Deprecated  : no
 
 WKID        : 9109
@@ -93,7 +93,7 @@ Name        : Microradian
 WKT         : UNIT["Microradian", 0.000001]
 Description : Microradian ( 1e-6 radian )
 Authority   : EPSG
-Version     : 3.0(3.0.1)
+Version     : 4.3(3.0.1)
 Deprecated  : no
 
 WKID        : 9112
@@ -103,7 +103,7 @@ Name        : Minute_Centesimal
 WKT         : UNIT["Minute_Centesimal", 0.0001570796326794897]
 Description : Centesimal minute (1/100th Gon (Grad))
 Authority   : EPSG
-Version     : 8.8(8.0.1)
+Version     : 4.4(8.0.1)
 Deprecated  : no
 
 WKID        : 9113
@@ -113,7 +113,7 @@ Name        : Second_Centesimal
 WKT         : UNIT["Second_Centesimal", 0.000001570796326794897]
 Description : Centesimal second (1/10000th Gon (Grad))
 Authority   : EPSG
-Version     : 8.8(8.0.1)
+Version     : 4.4(8.0.1)
 Deprecated  : no
 
 WKID        : 9114
@@ -123,5 +123,5 @@ Name        : Mil_6400
 WKT         : UNIT["Mil_6400", 0.0009817477042468104]
 Description : Mil (angle subtended by 1/6400 circle)
 Authority   : EPSG
-Version     : 8.8(8.0.1)
+Version     : 4.4(8.0.1)
 Deprecated  : no

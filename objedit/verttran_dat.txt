@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------------------------------
 # VERTTRAN data table
 #
-# syntax: [VERTTRAN,]  verttran-code, "name", coordsys-code (or 0), vertcs1-code, vertcs2-code, method-code [, parameter-code, value] ...
+# syntax: [VERTTRAN,]  verttran-code, "name", coordsys-code (or 0), cs1-code, cs2-code, method-code [, parameter-code, value] ...
 #------------------------------------------------------------------------------------------------------
 
 PE_VT_NZVD2009_TO_ONE_TREE_POINT_1, \
@@ -1083,6 +1083,14 @@ PE_VT_NAD83_2011_HT_TO_PRVD02_GEOID18_HT_2, \
    PE_VCS_PRVD02_HT, \
    PE_VTMTH_GEOID, \
    PE_PAR_NAME_DATASET, "Dataset_g2018p0"
+
+PE_VT_VIENNA_HT_TO_GHA_HT_1, \
+   "Vienna_height_To_GHA_height_1", \
+   0, \
+   PE_VCS_VIENNA_HT, \
+   PE_VCS_GHA, \
+   PE_VTMTH_VERTICAL_OFFSET, \
+   PE_PAR_VERTICAL_OFFSET, 156.68:PE_U_METER
 
 PE_VT_NAD_1983_2011_TO_NAVD88_CONUS_GEOID12B_HT, \
    "NAD_1983_2011_To_NAVD88_CONUS_GEOID12B_Height", \

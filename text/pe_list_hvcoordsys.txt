@@ -16,6 +16,237 @@
 
 HV Coordinate Systems:
 
+WKID        : 3901
+Latest-WKID : 3901
+Macro       : PE_HVC_KKJ_FINLAND_UCS_N60_HT
+Name        : KKJ_Finland_Uniform_Coordinate_System_and_N60_height
+WKT         : HVCOORDSYS["KKJ_Finland_Uniform_Coordinate_System_and_N60_height",
+               PROJCS["Finland_Zone_3",
+                GEOGCS["GCS_KKJ",
+                 DATUM["D_KKJ",
+                  SPHEROID["International_1924", 6378388.0, 297.0]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Gauss_Kruger"],
+                PARAMETER["False_Easting", 3500000.0],
+                PARAMETER["False_Northing", 0.0],
+                PARAMETER["Central_Meridian", 27.0],
+                PARAMETER["Scale_Factor", 1.0],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["N60",
+                VDATUM["Helsinki_1960"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+Description : Finland - onshore
+Authority   : EPSG
+Version     : 7.5.1(12.7.0)
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+
+WKID        : 3902
+Latest-WKID : 3902
+Macro       : PE_HVC_ETRS89_TM35FIN_N60_HT
+Name        : ETRS_1989_TM35FIN_and_N60_height
+WKT         : HVCOORDSYS["ETRS_1989_TM35FIN_and_N60_height",
+               PROJCS["ETRS_1989_TM35FIN_NE",
+                GEOGCS["GCS_ETRS_1989",
+                 DATUM["D_ETRS_1989",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 500000.0],
+                PARAMETER["False_Northing", 0.0],
+                PARAMETER["Central_Meridian", 27.0],
+                PARAMETER["Scale_Factor", 0.9996],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["N60",
+                VDATUM["Helsinki_1960"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+Description : ETRS 1989 TM35FIN + N60 (Height)
+Authority   : EPSG
+Version     : 7.5.1(12.7.0)
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+
+WKID        : 3903
+Latest-WKID : 3903
+Macro       : PE_HVC_ETRS89_TM35FIN_N2000_HT
+Name        : ETRS_1989_TM35FIN_and_N2000_height
+WKT         : HVCOORDSYS["ETRS_1989_TM35FIN_and_N2000_height",
+               PROJCS["ETRS_1989_TM35FIN_NE",
+                GEOGCS["GCS_ETRS_1989",
+                 DATUM["D_ETRS_1989",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 500000.0],
+                PARAMETER["False_Northing", 0.0],
+                PARAMETER["Central_Meridian", 27.0],
+                PARAMETER["Scale_Factor", 0.9996],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["N2000_height",
+                VDATUM["N2000"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+Description : ETRS 1989 TM35FIN + N2000 (Height)
+Authority   : EPSG
+Version     : 7.5.1(12.7.0)
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+
+WKID        : 4097
+Latest-WKID : 4097
+Macro       : PE_HVC_ETRS89_DKTM1_DVR90_HT
+Name        : ETRS_1989_DKTM1_and_DVR90_height
+WKT         : HVCOORDSYS["ETRS_1989_DKTM1_and_DVR90_height",
+               PROJCS["ETRS_1989_DKTM1",
+                GEOGCS["GCS_ETRS_1989",
+                 DATUM["D_ETRS_1989",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 200000.0],
+                PARAMETER["False_Northing", -5000000.0],
+                PARAMETER["Central_Meridian", 9.0],
+                PARAMETER["Scale_Factor", 0.99998],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["DVR90",
+                VDATUM["Dansk_Vertikal_Reference_1990"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+Description : ETRS 1989 DKTM1 + DVR90 (Height)
+Authority   : EPSG
+Version     : 7.1.2(12.7.0)
+Deprecated  : no
+Area-name   : Denmark - onshore Jutland west of 10~E
+Area-slat   : 54.8
+Area-nlat   : 57.64
+Area-llon   : 8.0
+Area-rlon   : 10.0
+
+WKID        : 4098
+Latest-WKID : 4098
+Macro       : PE_HVC_ETRS89_DKTM2_DVR90_HT
+Name        : ETRS_1989_DKTM2_and_DVR90_height
+WKT         : HVCOORDSYS["ETRS_1989_DKTM2_and_DVR90_height",
+               PROJCS["ETRS_1989_DKTM2",
+                GEOGCS["GCS_ETRS_1989",
+                 DATUM["D_ETRS_1989",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 400000.0],
+                PARAMETER["False_Northing", -5000000.0],
+                PARAMETER["Central_Meridian", 10.0],
+                PARAMETER["Scale_Factor", 0.99998],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["DVR90",
+                VDATUM["Dansk_Vertikal_Reference_1990"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+Description : ETRS 1989 DKTM2 + DVR90 (Height)
+Authority   : EPSG
+Version     : 7.1.2(12.7.0)
+Deprecated  : no
+Area-name   : Denmark - onshore Jutland east of 9~E and Funen
+Area-slat   : 54.67
+Area-nlat   : 57.8
+Area-llon   : 9.0
+Area-rlon   : 11.29
+
+WKID        : 4099
+Latest-WKID : 4099
+Macro       : PE_HVC_ETRS89_DKTM3_DVR90_HT
+Name        : ETRS_1989_DKTM3_and_DVR90_height
+WKT         : HVCOORDSYS["ETRS_1989_DKTM3_and_DVR90_height",
+               PROJCS["ETRS_1989_DKTM3",
+                GEOGCS["GCS_ETRS_1989",
+                 DATUM["D_ETRS_1989",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 600000.0],
+                PARAMETER["False_Northing", -5000000.0],
+                PARAMETER["Central_Meridian", 11.75],
+                PARAMETER["Scale_Factor", 0.99998],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["DVR90",
+                VDATUM["Dansk_Vertikal_Reference_1990"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+Description : ETRS 1989 DKTM3 + DVR90 (Height)
+Authority   : EPSG
+Version     : 7.1.2(12.7.0)
+Deprecated  : no
+Area-name   : Denmark - onshore Zealand and Lolland
+Area-slat   : 54.51
+Area-nlat   : 56.79
+Area-llon   : 10.79
+Area-rlon   : 12.69
+
+WKID        : 4100
+Latest-WKID : 4100
+Macro       : PE_HVC_ETRS89_DKTM4_DVR90_HT
+Name        : ETRS_1989_DKTM4_and_DVR90_height
+WKT         : HVCOORDSYS["ETRS_1989_DKTM4_and_DVR90_height",
+               PROJCS["ETRS_1989_DKTM4",
+                GEOGCS["GCS_ETRS_1989",
+                 DATUM["D_ETRS_1989",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 800000.0],
+                PARAMETER["False_Northing", -5000000.0],
+                PARAMETER["Central_Meridian", 15.0],
+                PARAMETER["Scale_Factor", 1.0],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["DVR90",
+                VDATUM["Dansk_Vertikal_Reference_1990"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+Description : ETRS 1989 DKTM4 + DVR90 (Height)
+Authority   : EPSG
+Version     : 7.1.2(12.7.0)
+Deprecated  : no
+Area-name   : Denmark - onshore Bornholm
+Area-slat   : 54.94
+Area-nlat   : 55.38
+Area-llon   : 14.59
+Area-rlon   : 15.25
+
 WKID        : 5318
 Latest-WKID : 5318
 Macro       : PE_HVC_ETRS89_FAROE_TM_FVR09_HT
@@ -116,7 +347,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_NSRS2007_and_NAVD88_height",
                 UNIT["Meter", 1.0]]]
 Description : USA - CONUS - onshore
 Authority   : EPSG
-Version     : 7.6.9(10.8.0)
+Version     : 7.7(10.8.0)
 Deprecated  : no
 Area-name   : USA - CONUS - onshore
 Area-slat   : 24.41
@@ -442,7 +673,7 @@ WKT         : HVCOORDSYS["HVC_DB_REF_3_Degree_GK_Zone_2_E-N_and_DHHN92",
                 UNIT["Meter", 1.0]]]
 Description : Germany - West Germany - west of 7.5~E
 Authority   : EPSG
-Version     : 7.9.8(10.1.1)
+Version     : 7.9.5(10.1.1)
 Deprecated  : no
 Area-name   : Germany - West Germany - west of 7.5~E
 Area-slat   : 49.11
@@ -475,7 +706,7 @@ WKT         : HVCOORDSYS["HVC_DB_REF_3_Degree_GK_Zone_3_E-N_and_DHHN92",
                 UNIT["Meter", 1.0]]]
 Description : Germany - onshore 7.5~E to 10.5~E
 Authority   : EPSG
-Version     : 7.9.8(10.1.1)
+Version     : 7.9.5(10.1.1)
 Deprecated  : no
 Area-name   : Germany - onshore 7.5~E to 10.5~E
 Area-slat   : 47.27
@@ -508,7 +739,7 @@ WKT         : HVCOORDSYS["HVC_DB_REF_3_Degree_GK_Zone_4_E-N_and_DHHN92",
                 UNIT["Meter", 1.0]]]
 Description : Germany - onshore 10.5~E to 13.5~E
 Authority   : EPSG
-Version     : 7.9.8(10.1.1)
+Version     : 7.9.5(10.1.1)
 Deprecated  : no
 Area-name   : Germany - onshore 10.5~E to 13.5~E
 Area-slat   : 47.39
@@ -541,7 +772,7 @@ WKT         : HVCOORDSYS["HVC_DB_REF_3_Degree_GK_Zone_5_E-N_and_DHHN92",
                 UNIT["Meter", 1.0]]]
 Description : Germany - onshore east of 13.5~E
 Authority   : EPSG
-Version     : 7.9.8(10.1.1)
+Version     : 7.9.5(10.1.1)
 Deprecated  : no
 Area-name   : Germany - onshore east of 13.5~E
 Area-slat   : 48.51
@@ -995,7 +1226,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_and_NN2000_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore
 Authority   : EPSG
-Version     : 8.1.4(10.8.0)
+Version     : 8.1.1(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore
 Area-slat   : 57.93
@@ -2076,7 +2307,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore
 Area-slat   : 57.93
@@ -2109,7 +2340,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_5_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - west of 6~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - west of 6~E
 Area-slat   : 58.32
@@ -2142,7 +2373,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_6_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 6~E to 7~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 6~E to 7~E
 Area-slat   : 57.93
@@ -2175,7 +2406,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_7_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 7~E to 8~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 7~E to 8~E
 Area-slat   : 57.93
@@ -2208,7 +2439,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_8_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 8~E to 9~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 8~E to 9~E
 Area-slat   : 58.03
@@ -2241,7 +2472,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_9_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 9~E to 10~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 9~E to 10~E
 Area-slat   : 58.52
@@ -2274,7 +2505,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_10_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 10~E to 11~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 10~E to 11~E
 Area-slat   : 58.9
@@ -2307,7 +2538,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_11_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 11~E to 12~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 11~E to 12~E
 Area-slat   : 58.88
@@ -2340,7 +2571,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_12_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 12~E to 13~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 12~E to 13~E
 Area-slat   : 59.88
@@ -2373,7 +2604,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_13_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 13~E to 14~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 13~E to 14~E
 Area-slat   : 64.01
@@ -2406,7 +2637,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_14_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 14~E to 15~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 14~E to 15~E
 Area-slat   : 64.03
@@ -2439,7 +2670,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_15_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 15~E to 16~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 15~E to 16~E
 Area-slat   : 66.14
@@ -2472,7 +2703,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_16_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 16~E to 17~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 16~E to 17~E
 Area-slat   : 66.88
@@ -2505,7 +2736,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_17_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 17~E to 18~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 17~E to 18~E
 Area-slat   : 67.94
@@ -2538,7 +2769,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_18_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 18~E to 19~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 18~E to 19~E
 Area-slat   : 68.04
@@ -2571,7 +2802,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_19_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 19~E to 20~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 19~E to 20~E
 Area-slat   : 68.33
@@ -2604,7 +2835,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_20_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 20~E to 21~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 20~E to 21~E
 Area-slat   : 68.37
@@ -2637,7 +2868,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_21_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 21~E to 22~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 21~E to 22~E
 Area-slat   : 69.03
@@ -2670,7 +2901,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_22_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 22~E to 23~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 22~E to 23~E
 Area-slat   : 68.69
@@ -2703,7 +2934,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_23_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 23~E to 24~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 23~E to 24~E
 Area-slat   : 68.62
@@ -2736,7 +2967,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_24_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 24~E to 25~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 24~E to 25~E
 Area-slat   : 68.58
@@ -2769,7 +3000,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_25_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 25~E to 26~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 25~E to 26~E
 Area-slat   : 68.59
@@ -2802,7 +3033,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_26_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 26~E to 27~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 26~E to 27~E
 Area-slat   : 69.71
@@ -2835,7 +3066,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_27_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 27~E to 28~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 27~E to 28~E
 Area-slat   : 69.9
@@ -2868,7 +3099,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_28_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 28~E to 29~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 28~E to 29~E
 Area-slat   : 69.03
@@ -2901,7 +3132,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_29_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 29~E to 30~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 29~E to 30~E
 Area-slat   : 69.02
@@ -2934,7 +3165,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_30_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - East of 30~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - east of 30~E
 Area-slat   : 69.46
@@ -2967,7 +3198,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_31_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - West of 6~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - west of 6~E
 Area-slat   : 58.32
@@ -3000,7 +3231,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_32_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 6~E to 12~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 6~E to 12~E
 Area-slat   : 57.93
@@ -3033,7 +3264,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_33_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 12~E to 18~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 12~E to 18~E
 Area-slat   : 59.88
@@ -3066,7 +3297,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_34_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 18~E to 24~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 18~E to 24~E
 Area-slat   : 68.04
@@ -3099,7 +3330,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_35_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - 24~E to 30~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - 24~E to 30~E
 Area-slat   : 68.58
@@ -3132,7 +3363,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_36_and_NN54_height",
                 UNIT["Meter", 1.0]]]
 Description : Norway - onshore - East of 30~E
 Authority   : EPSG
-Version     : 8.1.3(10.8.0)
+Version     : 8.1.4(10.8.0)
 Deprecated  : no
 Area-name   : Norway - onshore - east of 30~E
 Area-slat   : 69.46
@@ -3216,7 +3447,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 40.04
@@ -3249,7 +3480,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_7N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 144~W to 138~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 144~W to 138~W
 Area-slat   : 52.05
@@ -3282,7 +3513,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_8N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 138~W to 132~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 138~W to 132~W
 Area-slat   : 48.06
@@ -3315,7 +3546,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_9N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 132~W to 126~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 132~W to 126~W
 Area-slat   : 46.52
@@ -3348,7 +3579,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_10N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 126~W to 120~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 126~W to 120~W
 Area-slat   : 48.13
@@ -3381,7 +3612,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_11N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 120~W to 114~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 120~W to 114~W
 Area-slat   : 48.99
@@ -3414,7 +3645,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_12N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 114~W to 108~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 114~W to 108~W
 Area-slat   : 48.99
@@ -3447,7 +3678,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_13N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 108~W to 102~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 108~W to 102~W
 Area-slat   : 48.99
@@ -3480,7 +3711,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_14N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 102~W to 96~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 102~W to 96~W
 Area-slat   : 48.99
@@ -3513,7 +3744,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_15N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 96~W to 90~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 96~W to 90~W
 Area-slat   : 48.03
@@ -3546,7 +3777,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_16N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 90~W to 84~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 90~W to 84~W
 Area-slat   : 46.11
@@ -3579,7 +3810,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_17N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 84~W to 78~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 84~W to 78~W
 Area-slat   : 41.67
@@ -3612,7 +3843,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_18N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 78~W to 72~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 78~W to 72~W
 Area-slat   : 43.63
@@ -3645,7 +3876,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_19N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 72~W to 66~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 72~W to 66~W
 Area-slat   : 40.8
@@ -3678,7 +3909,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_20N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 66~W to 60~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 66~W to 60~W
 Area-slat   : 40.04
@@ -3711,7 +3942,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_21N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 60~W to 54~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 60~W to 54~W
 Area-slat   : 40.57
@@ -3744,7 +3975,7 @@ WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_22N_and_CGVD2013_height",
                 UNIT["Meter", 1.0]]]
 Description : Canada - 54~W to 48~W
 Authority   : EPSG
-Version     : 8.3.1(10.8.0)
+Version     : 8.3.3(10.8.0)
 Deprecated  : no
 Area-name   : Canada - 54~W to 48~W
 Area-slat   : 43.27
@@ -3769,7 +4000,7 @@ WKT         : HVCOORDSYS["HVC_JGD2000_and_JGD2000_vertical_height",
                 UNIT["Meter", 1.0]]]
 Description : Japan - onshore mainland
 Authority   : EPSG
-Version     : 8.5.4(10.8.0)
+Version     : 8.4(10.8.0)
 Deprecated  : no
 Area-name   : Japan - onshore mainland
 Area-slat   : 30.94
@@ -3794,7 +4025,7 @@ WKT         : HVCOORDSYS["HVC_JGD2011_and_JGD2011_vertical_height",
                 UNIT["Meter", 1.0]]]
 Description : Japan - onshore mainland
 Authority   : EPSG
-Version     : 8.5.4(10.8.0)
+Version     : 8.4(10.8.0)
 Deprecated  : no
 Area-name   : Japan - onshore mainland
 Area-slat   : 30.94
@@ -3819,7 +4050,7 @@ WKT         : HVCOORDSYS["HVC_Tokyo_and_JSLD72_height",
                 UNIT["Meter", 1.0]]]
 Description : Japan - onshore - Hokkaido
 Authority   : EPSG
-Version     : 8.3.2(10.8.0)
+Version     : 8.4(10.8.0)
 Deprecated  : no
 Area-name   : Japan - onshore - Hokkaido
 Area-slat   : 41.34
@@ -3851,7 +4082,7 @@ WKT         : HVCOORDSYS["HVC_WGS_1984_World_Mercator_and_EGM2008_height",
                 UNIT["Meter", 1.0]]]
 Description : World
 Authority   : EPSG
-Version     : 8.8(10.8.0)
+Version     : 8.5.1(10.8.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -3959,7 +4190,7 @@ WKT         : HVCOORDSYS["HVC_RT90_and_RH70_Height",
                 UNIT["Meter", 1.0]]]
 Description : Sweden - onshore and offshore
 Authority   : EPSG
-Version     : 8.4.1(10.0.0)
+Version     : 6.15(10.0.0)
 Deprecated  : no
 Area-name   : Sweden - onshore
 Area-slat   : 55.28
@@ -3993,7 +4224,7 @@ WKT         : HVCOORDSYS["HVC_OSGB36_British_National_Grid_and_ODN_Height",
 Description : United Kingdom - Great Britain - England and Wales - mainland;
               Scotland - mainland and Inner Hebrides
 Authority   : EPSG
-Version     : 7.5.1(10.0.0)
+Version     : 6.9(10.0.0)
 Deprecated  : no
 Area-name   : UK - Great Britain mainland onshore
 Area-slat   : 49.93
@@ -4018,7 +4249,7 @@ WKT         : HVCOORDSYS["HVC_NAD27_and_NGVD29_Height",
                 UNIT["Foot_US", 0.3048006096012192]]]
 Description : USA - conus
 Authority   : EPSG
-Version     : 9.4(10.0.0)
+Version     : 6.15(10.0.0)
 Deprecated  : no
 Area-name   : USA - CONUS - onshore
 Area-slat   : 24.41
@@ -4052,7 +4283,7 @@ WKT         : HVCOORDSYS["HVC_NAD27_Texas_North_and_NGVD29_Height",
                 UNIT["Foot_US", 0.3048006096012192]]]
 Description : USA - Texas north of approx 34~20'N
 Authority   : EPSG
-Version     : 9.4(10.0.0)
+Version     : 6.15(10.0.0)
 Deprecated  : no
 Area-name   : USA - Texas - SPCS - N
 Area-slat   : 34.3
@@ -4077,7 +4308,7 @@ WKT         : HVCOORDSYS["HVC_ETRF89_and_EVRF2000_Height",
                 UNIT["Meter", 1.0]]]
 Description : Europe
 Authority   : EPSG
-Version     : 6.18.1(10.0.0)
+Version     : 6.7(10.0.0)
 Deprecated  : no
 Area-name   : Europe - EVRF2000
 Area-slat   : 35.95
@@ -4161,7 +4392,7 @@ WKT         : HVCOORDSYS["HVC_Tokyo_and_JSLD_Height",
                 UNIT["Meter", 1.0]]]
 Description : Japan - onshore and offshore
 Authority   : EPSG
-Version     : 8.4(10.0.0)
+Version     : 6.15(10.0.0)
 Deprecated  : no
 Area-name   : Japan - onshore mainland
 Area-slat   : 30.94
@@ -4268,7 +4499,7 @@ Area-name   : Denmark - onshore east of 12~E
 Area-slat   : 54.51
 Area-nlat   : 56.18
 Area-llon   : 12.0
-Area-rlon   : 15.24
+Area-rlon   : 15.25
 
 WKID        : 7418
 Latest-WKID : 7418
@@ -4295,7 +4526,7 @@ WKT         : HVCOORDSYS["HVC_ETRF89_KP2000_Jutland_and_DVR90_Height",
                 UNIT["Meter", 1.0]]]
 Description : Denmark - Jutland and Fuen
 Authority   : EPSG
-Version     : 7.1.2(10.0.0)
+Version     : 6.15(10.0.0)
 Deprecated  : no
 Area-name   : Denmark - onshore Jutland and Funen
 Area-slat   : 54.67
@@ -4328,11 +4559,11 @@ WKT         : HVCOORDSYS["HVC_ETRF89_KP2000_Zealand_and_DVR90_Height",
                 UNIT["Meter", 1.0]]]
 Description : Denmark - Zealand and Lolland
 Authority   : EPSG
-Version     : 7.1.2(10.0.0)
+Version     : 6.15(10.0.0)
 Deprecated  : no
 Area-name   : Denmark - onshore Zealand and Lolland
 Area-slat   : 54.51
-Area-nlat   : 56.18
+Area-nlat   : 56.79
 Area-llon   : 10.79
 Area-rlon   : 12.69
 
@@ -4361,13 +4592,13 @@ WKT         : HVCOORDSYS["HVC_ETRF89_KP2000_Bornholm_and_DVR90_Height",
                 UNIT["Meter", 1.0]]]
 Description : Denmark - Bornholm
 Authority   : EPSG
-Version     : 7.1.2(10.0.0)
+Version     : 6.15(10.0.0)
 Deprecated  : no
 Area-name   : Denmark - onshore Bornholm
 Area-slat   : 54.94
-Area-nlat   : 55.36
+Area-nlat   : 55.38
 Area-llon   : 14.59
-Area-rlon   : 15.24
+Area-rlon   : 15.25
 
 WKID        : 7421
 Latest-WKID : 7421
@@ -4433,7 +4664,7 @@ Version     : 7.9.4(10.0.0)
 Deprecated  : no
 Area-name   : France - mainland south of 45.45~N
 Area-slat   : 42.33
-Area-nlat   : 45.45
+Area-nlat   : 45.46
 Area-llon   : -1.79
 Area-rlon   : 7.71
 
@@ -4454,7 +4685,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_and_EVRF2007_height",
                 UNIT["Meter", 1.0]]]
 Description : Europe - EVRF2007
 Authority   : EPSG
-Version     : 6.18.1(10.8.0)
+Version     : 9.8.9(10.8.0)
 Deprecated  : no
 Area-name   : Europe - EVRF2007
 Area-slat   : 35.95
@@ -4578,7 +4809,7 @@ WKT         : HVCOORDSYS["GR96_and_GVR2000_height",
                 UNIT["Meter", 1.0]]]
 Description : Greenland - 59~N to 84~N
 Authority   : EPSG
-Version     : 9.1.3(10.8.0)
+Version     : 9.2(10.8.0)
 Deprecated  : no
 Area-name   : Greenland - 59~N to 84~N
 Area-slat   : 59.0
@@ -4603,7 +4834,7 @@ WKT         : HVCOORDSYS["GR96_and_GVR2016_height",
                 UNIT["Meter", 1.0]]]
 Description : Greenland - 58~N to 85~N
 Authority   : EPSG
-Version     : 9.1.3(10.8.0)
+Version     : 9.2(10.8.0)
 Deprecated  : no
 Area-name   : Greenland - 58~N to 85~N
 Area-slat   : 58.0
@@ -5058,7 +5289,7 @@ WKT         : HVCOORDSYS["NAD_1983_South_Carolina_Ft_Intl_and_NAVD88_height_Ft_I
                 PARAMETER["Central_Meridian", -81.0],
                 PARAMETER["Standard_Parallel_1", 32.5],
                 PARAMETER["Standard_Parallel_2", 34.83333333333334],
-                PARAMETER["Latitude_Of_Origin", 31.83333333333333],
+                PARAMETER["Latitude_Of_Origin", 31.83333333333334],
                 UNIT["Foot", 0.3048]],
                VERTCS["NAVD88_height_(ftIntl)",
                 VDATUM["North_American_Vertical_Datum_1988"],
@@ -5531,7 +5762,7 @@ WKT         : HVCOORDSYS["NAD_1983_Florida_North_Ft_US_and_NAVD88_height_Ft_US",
                 PARAMETER["False_Easting", 1968500.0],
                 PARAMETER["False_Northing", 0.0],
                 PARAMETER["Central_Meridian", -84.5],
-                PARAMETER["Standard_Parallel_1", 29.58333333333333],
+                PARAMETER["Standard_Parallel_1", 29.58333333333334],
                 PARAMETER["Standard_Parallel_2", 30.75],
                 PARAMETER["Latitude_Of_Origin", 29.0],
                 UNIT["Foot_US", 0.3048006096012192]],
@@ -7408,7 +7639,7 @@ WKT         : HVCOORDSYS["NAD_1983_Texas_Central_Ft_US_and_NAVD88_height_Ft_US",
                 PARAMETER["False_Easting", 2296583.333333333],
                 PARAMETER["False_Northing", 9842500.0],
                 PARAMETER["Central_Meridian", -100.3333333333333],
-                PARAMETER["Standard_Parallel_1", 30.11666666666667],
+                PARAMETER["Standard_Parallel_1", 30.11666666666666],
                 PARAMETER["Standard_Parallel_2", 31.88333333333333],
                 PARAMETER["Latitude_Of_Origin", 29.66666666666667],
                 UNIT["Foot_US", 0.3048006096012192]],
@@ -8597,3 +8828,36 @@ Area-slat   : 7.98
 Area-nlat   : 11.22
 Area-llon   : -85.97
 Area-rlon   : -82.53
+
+WKID        : 9368
+Latest-WKID : 9368
+Macro       : PE_HVC_TPEN11_ODN_HT
+Name        : TPEN11_Grid_and_ODN_height
+WKT         : HVCOORDSYS["TPEN11_Grid_and_ODN_height",
+               PROJCS["TPEN11_Grid",
+                GEOGCS["TPEN11-IRF",
+                 DATUM["TPEN11_Intermediate_Reference_Frame",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 203252.175],
+                PARAMETER["False_Northing", 407512.765],
+                PARAMETER["Central_Meridian", -2.25],
+                PARAMETER["Scale_Factor", 1.0],
+                PARAMETER["Latitude_Of_Origin", 53.5],
+                UNIT["Meter", 1.0]],
+               VERTCS["Newlyn",
+                VDATUM["Ordnance_Datum_Newlyn"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+Description : TPEN11 Grid + ODN (Height)
+Authority   : EPSG
+Version     : 9.8.11(12.7.0)
+Deprecated  : no
+Area-name   : UK - Liverpool to Leeds
+Area-slat   : 53.32
+Area-nlat   : 53.9
+Area-llon   : -3.14
+Area-rlon   : -1.34
