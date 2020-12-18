@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.7.0] - 2020-12-17
+
+### Added
+
+* ArcGIS 2.7 codes
+
 ## [2.6.0] - 2020-05-12
 
 ### Added
@@ -25,7 +31,7 @@ All notable changes to this project will be documented in this file.
 
 * ArcGIS 2.2 / 10.6.1 codes
 
-## 2.1.0 - 2018-01-09
+## [2.1.0] - 2018-01-09
 
 ### Added
 
