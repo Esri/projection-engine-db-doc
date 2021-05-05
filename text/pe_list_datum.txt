@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2020 Esri Inc.                                            #
+#  Copyright 1999-2021 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -1666,6 +1666,17 @@ Authority   : EPSG
 Version     : 9.8.9(12.7.0)
 Deprecated  : no
 
+WKID        : 1264
+Latest-WKID : 1264
+Macro       : PE_D_HS2_INTERMEDIATE_REFERENCE_FRAME
+Name        : HS2_Intermediate_Reference_Frame
+WKT         : DATUM["HS2_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : HS2 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 9.8.13(12.8.0)
+Deprecated  : no
+
 WKID        : 1266
 Latest-WKID : 1266
 Macro       : PE_D_TPEN11_INTER_RF
@@ -1686,6 +1697,105 @@ WKT         : DATUM["Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017",
 Description : Kingdom of Saudi Arabia Geodetic Reference Frame 2017
 Authority   : EPSG
 Version     : 9.8.5(12.6.0)
+Deprecated  : no
+
+WKID        : 1271
+Latest-WKID : 1271
+Macro       : PE_D_MML07_INTERMEDIATE_REFERENCE_FRAME
+Name        : MML07_Intermediate_Reference_Frame
+WKT         : DATUM["MML07_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : MML07 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 9.8.12(12.8.0)
+Deprecated  : no
+
+WKID        : 1272
+Latest-WKID : 1272
+Macro       : PE_D_IGB14
+Name        : IGb14
+WKT         : DATUM["IGb14",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : IGb14
+Authority   : EPSG
+Version     : 9.8.12(12.8.0)
+Deprecated  : no
+
+WKID        : 1273
+Latest-WKID : 1273
+Macro       : PE_D_ABINVA96_2020_INTERMEDIATE_REFERENCE_FRAME
+Name        : AbInvA96_2020_Intermediate_Reference_Frame
+WKT         : DATUM["AbInvA96_2020_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : AbInvA96_2020 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 9.8.13(12.8.0)
+Deprecated  : no
+
+WKID        : 1286
+Latest-WKID : 1286
+Macro       : PE_D_PICO_DE_LAS_NIEVES_1968
+Name        : Pico_de_las_Nieves_1968
+WKT         : DATUM["Pico_de_las_Nieves_1968",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+Description : Pico de las Nieves 1968
+Authority   : EPSG
+Version     : 9.8.13(12.8.0)
+Deprecated  : no
+
+WKID        : 1289
+Latest-WKID : 1289
+Macro       : PE_D_GBK19_INTERMEDIATE_REFERENCE_FRAME
+Name        : GBK19_Intermediate_Reference_Frame
+WKT         : DATUM["GBK19_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : GBK19 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 9.9(12.8.0)
+Deprecated  : no
+
+WKID        : 1291
+Latest-WKID : 1291
+Macro       : PE_D_AUSTRALIAN_TERRESTRIAL_REFERENCE_FRAME_2014
+Name        : Australian_Terrestrial_Reference_Frame_2014
+WKT         : DATUM["Australian_Terrestrial_Reference_Frame_2014",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : Australian Terrestrial Reference Frame 2014
+Authority   : EPSG
+Version     : 9.9(12.8.0)
+Deprecated  : no
+
+WKID        : 1293
+Latest-WKID : 1293
+Macro       : PE_D_SISTEM_REFERENSI_GEOSPASIAL_INDONESIA_2013
+Name        : Sistem_Referensi_Geospasial_Indonesia_2013
+WKT         : DATUM["Sistem_Referensi_Geospasial_Indonesia_2013",
+               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
+Description : Sistem Referensi Geospasial Indonesia 2013
+Authority   : EPSG
+Version     : 9.9(12.8.0)
+Deprecated  : no
+
+WKID        : 1295
+Latest-WKID : 1295
+Macro       : PE_D_LYON_TURIN_FERROVIAIRE_2004
+Name        : Lyon_Turin_Ferroviaire_2004
+WKT         : DATUM["Lyon_Turin_Ferroviaire_2004",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : Lyon Turin Ferroviaire 2004
+Authority   : EPSG
+Version     : 10.009(12.8.0)
+Deprecated  : no
+
+WKID        : 1304
+Latest-WKID : 1304
+Macro       : PE_D_RED_GEODESICA_PARA_MINERIA_EN_CHILE
+Name        : Red_Geodesica_Para_Mineria_en_Chile
+WKT         : DATUM["Red_Geodesica_Para_Mineria_en_Chile",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+Description : Red Geodesica Para Mineria en Chile
+Authority   : EPSG
+Version     : 10.013(12.8.0)
 Deprecated  : no
 
 WKID        : 6001
@@ -6019,7 +6129,7 @@ WKT         : DATUM["D_WGS_1966",
                SPHEROID["WGS_1966", 6378145.0, 298.25]]
 Description : WGS 1966
 Authority   : EPSG
-Version     : 6.13(9.3.0.0)
+Version     : 9.9(9.3.0.0)
 Deprecated  : no
 
 WKID        : 6761
@@ -6118,7 +6228,7 @@ WKT         : DATUM["D_Madrid_1870",
                SPHEROID["Struve_1860", 6378298.3, 294.73]]
 Description : Madrid 1870
 Authority   : EPSG
-Version     : 4.2(8.0.1)
+Version     : 9.8.13(8.0.1)
 Deprecated  : no
 
 WKID        : 106001

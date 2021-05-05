@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2020 Esri Inc.                                            #
+#  Copyright 1999-2021 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -464,7 +464,7 @@ WKT         : VERTCS["Caspian_height",
                UNIT["Meter", 1.0]]
 Description : Caspian (height)
 Authority   : EPSG
-Version     : 6.15(10.0.0)
+Version     : 9.8.12(10.0.0)
 Deprecated  : no
 Area-name   : Asia - FSU - Caspian Sea
 Area-slat   : 37.35
@@ -1249,7 +1249,7 @@ Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.25
+Area-rlon   : 15.24
 
 WKID        : 5734
 Latest-WKID : 5734
@@ -2503,7 +2503,7 @@ Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.25
+Area-rlon   : 15.24
 
 WKID        : 5829
 Latest-WKID : 5829
@@ -3525,11 +3525,11 @@ Description : ODN (Offshore) (height)
 Authority   : EPSG
 Version     : 8.9.3(10.5.0)
 Deprecated  : no
-Area-name   : UK - offshore 49~46'N to 61~01'N, 7~33'W to 3~33'E
+Area-name   : UK - offshore 49~45'N to 61~N, 9~W to 2~E
 Area-slat   : 49.75
-Area-nlat   : 61.14
-Area-llon   : -9.2
-Area-rlon   : 2.88
+Area-nlat   : 61.01
+Area-llon   : -9.0
+Area-rlon   : 2.01
 
 WKID        : 7832
 Latest-WKID : 7832
@@ -4218,6 +4218,25 @@ Area-nlat   : -19.5
 Area-llon   : 163.54
 Area-rlon   : 168.19
 
+WKID        : 9663
+Latest-WKID : 9663
+Macro       : PE_VCS_EH2000_HEIGHT
+Name        : EH2000_height
+WKT         : VERTCS["EH2000_height",
+               VDATUM["Estonian_Height_System_2000"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+Description : EH2000 height
+Authority   : EPSG
+Version     : 10.013(12.8.0)
+Deprecated  : no
+Area-name   : Estonia - onshore
+Area-slat   : 57.52
+Area-nlat   : 59.75
+Area-llon   : 21.74
+Area-rlon   : 28.2
+
 WKID        : 105603
 Latest-WKID : 105603
 Macro       : PE_VCS_REDNAP
@@ -4273,7 +4292,7 @@ Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.25
+Area-rlon   : 15.24
 
 WKID        : 105702
 Latest-WKID : 5613

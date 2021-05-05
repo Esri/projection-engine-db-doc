@@ -300,10 +300,6 @@
 # area: (lat: 41.04, 43.59) - (lon: 39.99, 46.72) [Georgia - onshore]
 <104645> +proj=lonlat +ellps=GRS80 +no_defs <>
 
-# ONGD17_3D [ONGD17 (3D)]
-# area: (lat: 14.33, 26.74) - (lon: 51.99, 63.38) [Oman]
-<104647> +proj=lonlat +a=6378249.145 +rf=293.465 +no_defs <>
-
 # S-JTSK_[JTSK03]_3D [S-JTSK [JTSK03] (3D)]
 # area: (lat: 47.73, 49.61) - (lon: 16.84, 22.56) [Slovakia]
 <104648> +proj=lonlat +ellps=bessel +no_defs <>
@@ -2463,18 +2459,13 @@
 
 # GDA_1994_Perth_Coastal_Grid_1994 [GDA 1994 Perth Coastal Grid 1994]
 # area: (lat: -33.41666666666666, -31.33333333333333) - (lon: 115.4416666666667, 116.0833333333333) [Australia - Perth Coast]
-# transformation: 1150: GDA_1994_To_WGS_1984
-<102216> +proj=tmerc +ellps=GRS80 +x_0=50000.0 +y_0=3800000.0 +lon_0=115d49'E +lat_0=0dN +k_0=0.99999906 +towgs84=0.0,0.0,0.0,0.0,0.0,0.0,0.0 +no_defs <>
+# transformation: 9688: GDA_1994_To_WGS_1984_2
+<102216> +proj=tmerc +ellps=GRS80 +x_0=50000.0 +y_0=3800000.0 +lon_0=115d49'E +lat_0=0dN +k_0=0.99999906 +towgs84=0.06155,-0.01087,-0.04019,0.0394924,0.0327221,0.0328979,-0.009994 +no_defs <>
 
 # NAD_1983_NSRS2007_Wisconsin_TM_US_Ft [NAD 1983 NSRS2007 Wisconsin Transverse Mercator - US Ft]
 # area: (lat: 42.48, 47.31) - (lon: -92.89, -86.25) [USA - Wisconsin]
 # transformation: 15931: NAD_1983_NSRS2007_To_WGS_1984_1
 <102217> +proj=tmerc +ellps=GRS80 +units=us-ft +x_0=520000.0 +y_0=-4480000.0 +lon_0=90dW +lat_0=0dN +k_0=0.9996 +towgs84=0.0,0.0,0.0 +no_defs <>
-
-# NAD_1983_USFS_R6_Albers [NAD 1983 USFS R6 Albers]
-# area: (lat: 41.98, 49.05) - (lon: -124.79, -116.47) [USA - Oregon and Washington]
-# transformation: 108190: WGS_1984_(ITRF00)_To_NAD_1983 (reversed)
-<102218> +proj=aea +datum=NAD83 +x_0=600000.0 +y_0=0.0 +lon_0=120dW +lat_0=34dN +lat_1=43dN +lat_2=48dN +towgs84=-0.9956000824677655,1.901299877314078,0.5215002840524426,0.02591500053005733,0.009425998542707753,0.01159900118427752,-0.00062000005129903 +no_defs <>
 
 # NAD_1983_Wisconsin_TM_US_Ft [NAD 1983 Wisconsin Transverse Mercator - US Ft]
 # area: (lat: 42.48, 47.31) - (lon: -92.89, -86.25) [USA - Wisconsin]

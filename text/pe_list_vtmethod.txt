@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2020 Esri Inc.                                            #
+#  Copyright 1999-2021 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -34,6 +34,36 @@ WKT         : VTMETHOD["VDATUM"]
 Description : New NOAA transformation grid file format
 Authority   : Esri
 Version     : 10.4.0
+Deprecated  : no
+
+WKID        : 129602
+Latest-WKID : 129602
+Macro       : PE_VTMTH_HEIGHT_DEPTH_REVERSAL
+Name        : Height_Depth_Reversal
+WKT         : VTMETHOD["Height_Depth_Reversal"]
+Description : Height Depth Reversal
+Authority   : Esri
+Version     : 12.6.8
+Deprecated  : no
+
+WKID        : 129603
+Latest-WKID : 129603
+Macro       : PE_VTMTH_NULL
+Name        : Null
+WKT         : VTMETHOD["Null"]
+Description : Null transformation
+Authority   : Esri
+Version     : 12.6.8
+Deprecated  : no
+
+WKID        : 129604
+Latest-WKID : 129604
+Macro       : PE_VTMTH_UNIT_CHANGE
+Name        : Unit_Change
+WKT         : VTMETHOD["Unit_Change"]
+Description : Unit change transformation
+Authority   : Esri
+Version     : 12.6.8
 Deprecated  : no
 
 WKID        : 129616

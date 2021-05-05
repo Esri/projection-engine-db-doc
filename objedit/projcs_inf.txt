@@ -816,11 +816,11 @@ PE_PCS_NAD_1983_2011_IARCS_9, \
    "Projected Coordinate Systems/County Systems/Iowa", \
    "NAD 1983 (2011) IaRCS zone 9"
 
-PE_PCS_NAD_1983_2011_KS_RCS_1, \
+PE_PCS_NAD_1983_2011_KS_RCS_4, \
    "Projected Coordinate Systems/County Systems/Kansas", \
    "NAD 1983 (2011) KS RCS Zone 1"
 
-PE_PCS_NAD_1983_2011_KS_RCS_4, \
+PE_PCS_NAD_1983_2011_KS_RCS_1, \
    "Projected Coordinate Systems/County Systems/Kansas", \
    "NAD 1983 (2011) KS RCS Zone 1"
 
@@ -5796,10 +5796,6 @@ PE_PCS_XIAN_1980_GK_23, \
    "Projected Coordinate Systems/Gauss Kruger/Xian 1980", \
    "Xian 1980 GK Zone 23"
 
-PE_PCS_MAGNA_SIRGAS_CMT12, \
-   "Projected Coordinate Systems/National Grid/South America/Colombia", \
-   "MAGNA-SIRGAS_CMT12"
-
 PE_PCS_ABIDJAN_1987_TM_5_NW, \
    "Projected Coordinate Systems/National Grids/Africa", \
    "Abidjan 1987 TM 5 NW"
@@ -6152,6 +6148,10 @@ PE_PCS_POSGAR_2007_ARGENTINA_7, \
    "Projected Coordinate Systems/National Grids/Argentina", \
    "POSGAR 2007 Argentina Zone 7"
 
+PE_PCS_POSGAR_2007_CABA_2019, \
+   "Projected Coordinate Systems/National Grids/Argentina", \
+   "POSGAR 2007 CABA 2019"
+
 PE_PCS_PAMPA_DEL_CASTILLO_ARGENTINA_1, \
    "Projected Coordinate Systems/National Grids/Argentina", \
    "Pampa del Castillo Argentina 1"
@@ -6215,10 +6215,6 @@ PE_PCS_EVEREST_MOD_1969_RSO_MALAYA_M, \
 PE_PCS_FD_1958_IRAQ, \
    "Projected Coordinate Systems/National Grids/Asia", \
    "FD 1958 Iraq"
-
-PE_PCS_GULSHAN_303_BANGLADESH_TM, \
-   "Projected Coordinate Systems/National Grids/Asia", \
-   "Gulshan 303 Bangladesh TM"
 
 PE_PCS_HANOI_1972_GK_106_NE, \
    "Projected Coordinate Systems/National Grids/Asia", \
@@ -6688,6 +6684,10 @@ PE_PCS_GDA2020_ALB2020, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA2020 ALB2020"
 
+PE_PCS_GDA2020_AUSTRALIAN_ALBERS, \
+   "Projected Coordinate Systems/National Grids/Australia", \
+   "GDA2020 Australian Albers"
+
 PE_PCS_GDA2020_BCG2020, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA2020 BCG2020"
@@ -6939,6 +6939,26 @@ PE_PCS_MGI_M31, \
 PE_PCS_MGI_M34, \
    "Projected Coordinate Systems/National Grids/Austria", \
    "MGI M34"
+
+PE_PCS_GULSHAN_303_BANGLADESH_TM, \
+   "Projected Coordinate Systems/National Grids/Bangladesh", \
+   "Gulshan 303 Bangladesh TM 90 NE"
+
+PE_PCS_GULSHAN_303_BANGLADESH_TRANSVERSE_MERCATOR, \
+   "Projected Coordinate Systems/National Grids/Bangladesh", \
+   "Gulshan 303 Bangladesh Transverse Mercator"
+
+PE_PCS_KALIANPUR_1937_UTM_45N, \
+   "Projected Coordinate Systems/National Grids/Bangladesh", \
+   "Kalianpur 1937 UTM Zone 45N"
+
+PE_PCS_KALIANPUR_1937_UTM_46N, \
+   "Projected Coordinate Systems/National Grids/Bangladesh", \
+   "Kalianpur 1937 UTM Zone 46N"
+
+PE_PCS_WGS_84_TM_90_NE, \
+   "Projected Coordinate Systems/National Grids/Bangladesh", \
+   "WGS 84 TM 90 NE"
 
 PE_PCS_DRUKREF_03_BUMTHANG_TM, \
    "Projected Coordinate Systems/National Grids/Bhutan", \
@@ -7780,6 +7800,10 @@ PE_PCS_RGRDC_2005_CONGO_TM_28, \
    "Projected Coordinate Systems/National Grids/Democratic Republic of the Congo", \
    "RGRDC 2005 Congo TM Zone 28"
 
+PE_PCS_ABINVA96_2020_GRID, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "AbInvA96 2020 Grid"
+
 PE_PCS_BGS2005_CCS2005, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "BGS2005 - CCS2005"
@@ -7980,6 +8004,10 @@ PE_PCS_FEH2010_FEHMARNBELT_TM, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "FEH2010 Fehmarnbelt TM"
 
+PE_PCS_GBK19_GRID, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "GBK19 Grid"
+
 PE_PCS_GGRS_1987_GREEK_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "Greek Grid"
@@ -7991,6 +8019,10 @@ PE_PCS_GUERNSEY_GRID, \
 PE_PCS_HUNGARIAN_1972_EOV, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "HD 1972 Egyseges Orszagos Vetuleti"
+
+PE_PCS_HS2_SURVEY_GRID, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "HS2 Survey Grid"
 
 PE_PCS_HTRS96_CROATIA_LCC, \
    "Projected Coordinate Systems/National Grids/Europe", \
@@ -8147,6 +8179,10 @@ PE_PCS_MGI_BALKANS_8, \
 PE_PCS_MGI_SLOVENIA_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "MGI Slovenia Grid"
+
+PE_PCS_MML07_GRID, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "MML07 Grid"
 
 PE_PCS_MOLDREF99_MOLDOVA_TM, \
    "Projected Coordinate Systems/National Grids/Europe", \
@@ -9472,6 +9508,66 @@ PE_PCS_MAKASSAR_NEIEZ, \
    "Projected Coordinate Systems/National Grids/Indonesia", \
    "Makassar NEIEZ"
 
+PE_PCS_SRGI2013_UTM_ZONE_46N, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 46N"
+
+PE_PCS_SRGI2013_UTM_ZONE_47N, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 47N"
+
+PE_PCS_SRGI2013_UTM_ZONE_47S, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 47S"
+
+PE_PCS_SRGI2013_UTM_ZONE_48N, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 48N"
+
+PE_PCS_SRGI2013_UTM_ZONE_48S, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 48S"
+
+PE_PCS_SRGI2013_UTM_ZONE_49N, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 49N"
+
+PE_PCS_SRGI2013_UTM_ZONE_49S, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 49S"
+
+PE_PCS_SRGI2013_UTM_ZONE_50N, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 50N"
+
+PE_PCS_SRGI2013_UTM_ZONE_50S, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 50S"
+
+PE_PCS_SRGI2013_UTM_ZONE_51N, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 51N"
+
+PE_PCS_SRGI2013_UTM_ZONE_51S, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 51S"
+
+PE_PCS_SRGI2013_UTM_ZONE_52N, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 52N"
+
+PE_PCS_SRGI2013_UTM_ZONE_52S, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 52S"
+
+PE_PCS_SRGI2013_UTM_ZONE_53S, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 53S"
+
+PE_PCS_SRGI2013_UTM_ZONE_54S, \
+   "Projected Coordinate Systems/National Grids/Indonesia", \
+   "SRGI2013 UTM zone 54S"
+
 PE_PCS_SEGARA_JAKARTA_NEIEZ, \
    "Projected Coordinate Systems/National Grids/Indonesia", \
    "Segara (Jakarta) NEIEZ"
@@ -9979,6 +10075,10 @@ PE_PCS_TIMBALAI_1948_RSO_BORNEO_CH, \
 PE_PCS_TIMBALAI_1948_RSO_BORNEO_FT, \
    "Projected Coordinate Systems/National Grids/Malaysia and Singapore", \
    "Timbalai 1948 RSO Borneo (Sears Feet)"
+
+PE_PCS_TIMBALAI_1948_RSO_SARAWAK_LSD_M, \
+   "Projected Coordinate Systems/National Grids/Malaysia and Singapore", \
+   "Timbalai 1948 RSO Sarawak LSD (Meters)"
 
 PE_PCS_CHATHAM_ISLAND_1971_MAP_GRID, \
    "Projected Coordinate Systems/National Grids/New Zealand", \
@@ -11044,6 +11144,14 @@ PE_PCS_MAGNA_YOPAL_2006, \
    "Projected Coordinate Systems/National Grids/South America/Colombia", \
    "MAGNA Yopal Casanare 2006"
 
+PE_PCS_MAGNA_SIRGAS_CMT12, \
+   "Projected Coordinate Systems/National Grids/South America/Colombia", \
+   "MAGNA-SIRGAS CMT12"
+
+PE_PCS_MAGNA_SIRGAS_ORIGEN_NACIONAL, \
+   "Projected Coordinate Systems/National Grids/South America/Colombia", \
+   "MAGNA-SIRGAS Origen-Nacional"
+
 PE_PCS_KOREA_2000_CENTRAL_BELT, \
    "Projected Coordinate Systems/National Grids/South Korea", \
    "Korea 2000 Korea Central Belt"
@@ -11739,6 +11847,10 @@ PE_PCS_WGS_1984_EASE_GRID_SOUTH, \
 PE_PCS_WGS_1984_IBCAO_POLAR_STEREO, \
    "Projected Coordinate Systems/Polar", \
    "WGS 1984 IBCAO Polar Stereographic"
+
+PE_PCS_WGS_84_IBCSO_POLAR_STEREOGRAPHIC, \
+   "Projected Coordinate Systems/Polar", \
+   "WGS 1984 IBCSO Polar Stereographic"
 
 PE_PCS_WGS_1984_NSIDC_EASE_2_0_N, \
    "Projected Coordinate Systems/Polar", \
@@ -18840,6 +18952,26 @@ PE_PCS_JGD_2011_UTM_56N, \
    "Projected Coordinate Systems/UTM/Asia", \
    "JGD 2011 UTM Zone 56N"
 
+PE_PCS_KSA_GRF17_UTM_ZONE_36N, \
+   "Projected Coordinate Systems/UTM/Asia", \
+   "KSA-GRF17 UTM zone 36N"
+
+PE_PCS_KSA_GRF17_UTM_ZONE_37N, \
+   "Projected Coordinate Systems/UTM/Asia", \
+   "KSA-GRF17 UTM zone 37N"
+
+PE_PCS_KSA_GRF17_UTM_ZONE_38N, \
+   "Projected Coordinate Systems/UTM/Asia", \
+   "KSA-GRF17 UTM zone 38N"
+
+PE_PCS_KSA_GRF17_UTM_ZONE_39N, \
+   "Projected Coordinate Systems/UTM/Asia", \
+   "KSA-GRF17 UTM zone 39N"
+
+PE_PCS_KSA_GRF17_UTM_ZONE_40N, \
+   "Projected Coordinate Systems/UTM/Asia", \
+   "KSA-GRF17 UTM zone 40N"
+
 PE_PCS_KARBALA_1979_POLSERVICE_UTM_37N, \
    "Projected Coordinate Systems/UTM/Asia", \
    "Karbala 1979 Polservice UTM Zone 37N"
@@ -19483,6 +19615,22 @@ PE_PCS_NGO_1948_UTM_34N, \
 PE_PCS_NGO_1948_UTM_35N, \
    "Projected Coordinate Systems/UTM/Europe", \
    "NGO 1948 UTM Zone 35N"
+
+PE_PCS_PN68_UTM_ZONE_27N, \
+   "Projected Coordinate Systems/UTM/Europe", \
+   "PN68 UTM zone 27N"
+
+PE_PCS_PN68_UTM_ZONE_28N, \
+   "Projected Coordinate Systems/UTM/Europe", \
+   "PN68 UTM zone 28N"
+
+PE_PCS_PN84_UTM_ZONE_27N, \
+   "Projected Coordinate Systems/UTM/Europe", \
+   "PN84 UTM zone 27N"
+
+PE_PCS_PN84_UTM_ZONE_28N, \
+   "Projected Coordinate Systems/UTM/Europe", \
+   "PN84 UTM zone 28N"
 
 PE_PCS_QORNOQ_1927_UTM_22N, \
    "Projected Coordinate Systems/UTM/Europe", \
@@ -20859,6 +21007,18 @@ PE_PCS_PERU96_UTM_18S, \
 PE_PCS_PERU96_UTM_19S, \
    "Projected Coordinate Systems/UTM/South America", \
    "Peru96 UTM Zone 19S"
+
+PE_PCS_REDGEOMIN_UTM_ZONE_12S, \
+   "Projected Coordinate Systems/UTM/South America", \
+   "REDGEOMIN UTM zone 12S"
+
+PE_PCS_REDGEOMIN_UTM_ZONE_18S, \
+   "Projected Coordinate Systems/UTM/South America", \
+   "REDGEOMIN UTM zone 18S"
+
+PE_PCS_REDGEOMIN_UTM_ZONE_19S, \
+   "Projected Coordinate Systems/UTM/South America", \
+   "REDGEOMIN UTM zone 19S"
 
 PE_PCS_REGVEN_UTM_18N, \
    "Projected Coordinate Systems/UTM/South America", \

@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2020 Esri Inc.                                            #
+#  Copyright 1999-2021 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -866,6 +866,16 @@ Authority   : EPSG
 Version     : 9.8.5(12.6.0)
 Deprecated  : no
 
+WKID        : 1298
+Latest-WKID : 1298
+Macro       : PE_VERTD_ESTONIAN_HEIGHT_SYSTEM_2000
+Name        : Estonian_Height_System_2000
+WKT         : VDATUM["Estonian_Height_System_2000"]
+Description : Estonian Height System 2000
+Authority   : EPSG
+Version     : 10.013(12.8.0)
+Deprecated  : no
+
 WKID        : 5100
 Latest-WKID : 5100
 Macro       : PE_VERTD_MSL
@@ -1243,7 +1253,7 @@ Name        : Fair_Isle
 WKT         : VDATUM["Fair_Isle"]
 Description : Fair Isle
 Authority   : EPSG
-Version     : 6.3(9.3.0.0)
+Version     : 9.8.12(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5140
@@ -1263,7 +1273,7 @@ Name        : Foula
 WKT         : VDATUM["Foula"]
 Description : Foula
 Authority   : EPSG
-Version     : 6.3(9.3.0.0)
+Version     : 9.8.12(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5142
@@ -1273,7 +1283,7 @@ Name        : Sule_Skerry
 WKT         : VDATUM["Sule_Skerry"]
 Description : Sule Skerry
 Authority   : EPSG
-Version     : 6.3(9.3.0.0)
+Version     : 9.8.12(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5143
@@ -1283,7 +1293,7 @@ Name        : North_Rona
 WKT         : VDATUM["North_Rona"]
 Description : North Rona
 Authority   : EPSG
-Version     : 6.3(9.3.0.0)
+Version     : 9.8.12(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5144

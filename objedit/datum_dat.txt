@@ -1,3258 +1,4121 @@
 #------------------------------------------------------------------------------------------------------
 # DATUM data table
 #
-# syntax: [DATUM,] datum-code, "name", spheroid-code
+# syntax: [DATUM,] datum-code, "name", spheroid-code [, "anchor"]
 #------------------------------------------------------------------------------------------------------
 
 PE_D_HUNGARIAN_DATUM_1909, \
    "D_Hungarian_Datum_1909", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_TWD_1967, \
    "D_TWD_1967", \
-   PE_S_GRS_1967_TRUNC
+   PE_S_GRS_1967_TRUNC,
+   ""
 
 PE_D_TWD_1997, \
    "D_TWD_1997", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_IRAQI_GEOSPATIAL_REFERENCE_SYSTEM, \
    "D_Iraqi_Geospatial_Reference_System", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_MGI_1901, \
    "D_MGI_1901", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_MOLDREF99, \
    "D_MOLDREF99", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_RESEAU_GEODESIQUE_DE_LA_RDC_2005, \
    "D_Reseau_Geodesique_de_la_RDC_2005", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SERBIAN_REFERENCE_NETWORK_1998, \
    "D_Serbian_Reference_Network_1998", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_RED_GEODESICA_DE_CANARIAS_1995, \
    "D_Red_Geodesica_de_Canarias_1995", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_RESEAU_GEODESIQUE_DE_MAYOTTE_2004, \
    "D_Reseau_Geodesique_de_Mayotte_2004", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_CADASTRE_1997, \
    "D_Cadastre_1997", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_RESEAU_GEODESIQUE_DE_ST_PIERRE_MIQUELON_2006, \
    "D_Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_PTRA08, \
    "D_PTRA08", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_MEXICAN_DATUM_1993, \
    "D_Mexican_Datum_of_1993", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_CHINA_2000, \
    "D_China_2000", \
-   PE_S_CGCS2000
+   PE_S_CGCS2000,
+   ""
 
 PE_D_SAO_TOME, \
    "D_Sao_Tome", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_NEW_BEIJING, \
    "D_New_Beijing", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_PRINCIPE, \
    "D_Principe", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_RRAF_1991, \
    "D_RRAF_1991", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_S_JTSK_05, \
    "D_S_JTSK_05", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_SRI_LANKA_DATUM_1999, \
    "D_Sri_Lanka_Datum_1999", \
-   PE_S_EVEREST_ADJ_1937
+   PE_S_EVEREST_ADJ_1937,
+   ""
 
 PE_D_S_JTSK_05_FERRO, \
    "D_S_JTSK_05_Ferro", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_GDBD2009, \
    "D_GDBD2009", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_TURKISH_NRF, \
    "D_Turkish_National_Reference_Frame", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_BHUTAN_NATIONAL_GEODETIC_DATUM, \
    "D_Bhutan_National_Geodetic_Datum", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ISLANDS_NETWORK_2004, \
    "D_Islands_Network_2004", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_2008, \
    "D_ITRF_2008", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_POSGAR_2007, \
    "D_POSGAR_2007", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_MARCO_GEODESICO_NACIONAL, \
    "D_Marco_Geodesico_Nacional", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_COSTA_RICA_2005, \
    "D_Costa_Rica_2005", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_SGNP_MARCARIO_SOLIS, \
    "D_SGNP_MARCARIO_SOLIS", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_PERU96, \
    "D_Peru96", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_ROU98, \
    "D_SIRGAS-ROU98", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_SIRGAS_ES2007_8, \
    "D_SIRGAS_ES2007.8", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_OCOTEPEQUE_1935, \
    "D_Ocotepeque_1935", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_SIBUN_GORGE_1922, \
    "D_Sibun_Gorge_1922", \
-   PE_S_CLARKE_1858
+   PE_S_CLARKE_1858,
+   ""
 
 PE_D_PANAMA_COLON_1911, \
    "D_Panama-Colon-1911", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_RESEAU_GEODESIQUE_DES_ANTILLES_FRANCAISES_2009, \
    "Reseau_Geodesique_des_Antilles_Francaises_2009", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_CORREGO_ALEGRE_1961, \
    "D_Corrego_Alegre_1961", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SAD_1969_96, \
    "D_South_American_Datum_1969_96", \
-   PE_S_GRS_1967_TRUNC
+   PE_S_GRS_1967_TRUNC,
+   ""
 
 PE_D_PAPUA_NEW_GUINEA_GEODETIC_DATUM_1994, \
    "D_Papua_New_Guinea_Geodetic_Datum_1994", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_UKRAINE_2000, \
    "D_Ukraine_2000", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_FEHMARNBELT_2010, \
    "D_Fehmarnbelt_Datum_2010", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_DB_REF, \
    "D_Deutsche_Bahn_Reference_System", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_TONGA_2005, \
    "D_Tonga_Geodetic_Datum_2005", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_CAYMAN_ISLANDS_GEODETIC_DATUM_2011, \
    "D_Cayman_Islands_Geodetic_Datum_2011", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NEPAL_NAGARKOT, \
    "D_Nepal_Nagarkot", \
-   PE_S_EVEREST_ADJ_1937
+   PE_S_EVEREST_ADJ_1937,
+   ""
 
 PE_D_CYPRUS_GRS_1993, \
    "D_Cyprus_Geodetic_Reference_System_1993", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_RGTAAF07, \
    "D_Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ISRAELI_GEODETIC_DATUM_2005, \
    "Israel_Geodetic_Datum_2005", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_ISRAELI_GEODETIC_DATUM_2005_2012, \
    "Israeli_Geodetic_Datum_2005(2012)", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_NAD_1983_2011, \
    "D_NAD_1983_2011", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_PA11, \
    "D_NAD_1983_PA11", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_MA11, \
    "D_NAD_1983_MA11", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_MEXICO_ITRF2008, \
    "D_Mexico_ITRF2008", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_JGD_2011, \
    "D_JGD_2011", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_RETE_DINAMICA_NAZIONALE_2008, \
    "D_Rete_Dinamica_Nazionale_2008", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_CORS96, \
    "D_NAD_1983_CORS96", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ADEN_1925, \
    "D_Aden_1925", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_BIOKO, \
    "D_Bioko", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_BEKAA_VALLEY_1920, \
    "D_Bekaa_Valley_1920", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_SOUTH_EAST_ISLAND_1943, \
    "D_South_East_Island_1943", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_GAMBIA, \
    "D_Gambia", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_IGS08, \
    "IGS08", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_IG05_INTERM_DATUM, \
    "IG05_Intermediate_Datum", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_IG05_12_INTERM_DATUM, \
    "IG05(2012)_Intermediate_Datum", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_OMAN_2014, \
    "Oman_National_Geodetic_Datum_2014", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_WGS_1984_G730, \
    "World_Geodetic_System_1984_(G730)", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_WGS_1984_G873, \
    "World_Geodetic_System_1984_(G873)", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_WGS_1984_G1150, \
    "World_Geodetic_System_1984_(G1150)", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_WGS_1984_G1674, \
    "World_Geodetic_System_1984_(G1674)", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_WGS_1984_G1762, \
    "World_Geodetic_System_1984_(G1762)", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_PZ_1990_02, \
    "Parametry_Zemli_1990.02", \
-   PE_S_PZ_1990
+   PE_S_PZ_1990,
+   ""
 
 PE_D_PZ_1990_11, \
    "Parametry_Zemli_1990.11", \
-   PE_S_PZ_1990
+   PE_S_PZ_1990,
+   ""
 
 PE_D_GSK_2011, \
    "Geodezicheskaya_Sistema_Koordinat_2011", \
-   PE_S_GSK_2011
+   PE_S_GSK_2011,
+   ""
 
 PE_D_ITRF2014, \
    "International_Terrestrial_Reference_Frame_2014", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_WGS_1984_TRANSIT, \
    "World_Geodetic_System_1984_(Transit)", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_BULGARIA_2005, \
    "Bulgaria_Geodetic_System_2005", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_GDA2020, \
    "GDA2020", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ST_HELENA_TRITAN, \
    "St_Helena_Tritan", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_ST_HELENA_GEODETIC_DATUM_2015, \
    "St_Helena_Geodetic_Datum_2015", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ETRF_1989, \
    "D_ETRF_1989", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_ETRF_1990, \
    "European_Terrestrial_Reference_Frame_1990", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ETRF_1991, \
    "European_Terrestrial_Reference_Frame_1991", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ETRF_1992, \
    "European_Terrestrial_Reference_Frame_1992", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ETRF_1993, \
    "European_Terrestrial_Reference_Frame_1993", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ETRF_1994, \
    "European_Terrestrial_Reference_Frame_1994", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ETRF_1996, \
    "European_Terrestrial_Reference_Frame_1996", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ETRF_1997, \
    "European_Terrestrial_Reference_Frame_1997", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ETRF_2000, \
    "European_Terrestrial_Reference_Frame_2000", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ISLANDS_NET_2016, \
    "Islands_Net_2016", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_GUSTERBERG_FERRO, \
    "Gusterberg_(Ferro)", \
-   PE_S_ZACH_1812
+   PE_S_ZACH_1812,
+   ""
 
 PE_D_ST_STEPHEN_FERRO, \
    "St._Stephen_(Ferro)", \
-   PE_S_ZACH_1812
+   PE_S_ZACH_1812,
+   ""
 
 PE_D_IGS14, \
    "IGS14", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_CSRS96, \
    "North_American_Datum_of_1983_(CSRS96)", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_CSRS_V2, \
    "North_American_Datum_of_1983_(CSRS)_version_2", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_CSRS_V3, \
    "North_American_Datum_of_1983_(CSRS)_version_3", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_CSRS_V4, \
    "North_American_Datum_of_1983_(CSRS)_version_4", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_CSRS_V5, \
    "North_American_Datum_of_1983_(CSRS)_version_5", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_CSRS_V6, \
    "North_American_Datum_of_1983_(CSRS)_version_6", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_CSRS_V7, \
    "North_American_Datum_of_1983_(CSRS)_version_7", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_S_JTSK_JTSK03, \
    "S-JTSK_[JTSK03]", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_ETRF_2005, \
    "European_Terrestrial_Reference_Frame_2005", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ETRF_2014, \
    "European_Terrestrial_Reference_Frame_2014", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_MACAO_1920, \
    "Macao_1920", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MACAO_2008, \
    "D_MACAO_2008", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_HK_GEODETIC, \
    "Hong_Kong_Geodetic", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_FBN, \
    "NAD_1983_(Federal_Base_Network)", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_HARN_CORRECTED, \
    "NAD_1983_(High_Accuracy_Reference_Network-Corrected)", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SSRS_2000, \
    "Serbian_Spatial_Reference_System_2000", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_CAMACUPA_2015, \
    "Camacupa_2015", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_MTRF_2000, \
    "MOMRA_Terrestrial_Reference_Frame_2000", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_RSA_2013, \
    "Reference_System_de_Angola_2013", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_MARP00, \
    "D_NAD_1983_MARP00", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_RGWF_1996, \
    "Reseau_Geodesique_de_Wallis_et_Futuna_1996", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_CR_SIRGAS, \
    "CR-SIRGAS", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_DGF00P01, \
    "SIRGAS_Continuously_Operating_Network_DGF00P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_DGF01P01, \
    "SIRGAS_Continuously_Operating_Network_DGF01P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_DGF01P02, \
    "SIRGAS_Continuously_Operating_Network_DGF01P02", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_DGF02P01, \
    "SIRGAS_Continuously_Operating_Network_DGF02P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_DGF04P01, \
    "SIRGAS_Continuously_Operating_Network_DGF04P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_DGF05P01, \
    "SIRGAS_Continuously_Operating_Network_DGF05P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_DGF06P01, \
    "SIRGAS_Continuously_Operating_Network_DGF06P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_DGF07P01, \
    "SIRGAS_Continuously_Operating_Network_DGF07P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_DGF08P01, \
    "SIRGAS_Continuously_Operating_Network_DGF08P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_SIR09P01, \
    "SIRGAS_Continuously_Operating_Network_SIR09P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_SIR10P01, \
    "SIRGAS_Continuously_Operating_Network_SIR10P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_SIR11P01, \
    "SIRGAS_Continuously_Operating_Network_SIR11P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_SIR13P01, \
    "SIRGAS_Continuously_Operating_Network_SIR13P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_SIR14P01, \
    "SIRGAS_Continuously_Operating_Network_SIR14P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_SIR15P01, \
    "SIRGAS_Continuously_Operating_Network_SIR15P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CON_SIR17P01, \
    "SIRGAS_Continuously_Operating_Network_SIR17P01", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CHILE_REAL_2_2010, \
    "SIRGAS-Chile_realization_2_epoch_2010", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_IGS97, \
    "IGS97", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_IGS00, \
    "IGS00", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_IGB00, \
    "IGb00", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_IGS05, \
    "IGS05", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_IGB08, \
    "IGb08", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_PACP00, \
    "D_NAD_1983_PACP00", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_KOSOVO_REF_SYS_2001, \
    "Kosovo_Reference_System_2001", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CHILE_REAL_3_2013, \
    "SIRGAS-Chile_realization_3_epoch_2013", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CHILE_REAL_4_2016, \
    "SIRGAS-Chile_realization_4_epoch_2016", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIRGAS_CHILE, \
    "D_SIRGAS-Chile", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_TAPI_AIKE, \
    "Tapi_Aike", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MINISTERIO_DE_MARINA_NORTE, \
    "Ministerio_de_Marina_Norte", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MINISTERIO_DE_MARINA_SUR, \
    "Ministerio_de_Marina_Sur", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_OMAN_2017, \
    "Oman_National_Geodetic_Datum_2017", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
+
+PE_D_HS2_INTERMEDIATE_REFERENCE_FRAME, \
+   "HS2_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
 
 PE_D_TPEN11_INTER_RF, \
    "TPEN11_Intermediate_Reference_Frame", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_KSA_GRF_2017, \
    "Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
+
+PE_D_MML07_INTERMEDIATE_REFERENCE_FRAME, \
+   "MML07_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_IGB14, \
+   "IGb14", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_ABINVA96_2020_INTERMEDIATE_REFERENCE_FRAME, \
+   "AbInvA96_2020_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_PICO_DE_LAS_NIEVES_1968, \
+   "Pico_de_las_Nieves_1968", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_GBK19_INTERMEDIATE_REFERENCE_FRAME, \
+   "GBK19_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_AUSTRALIAN_TERRESTRIAL_REFERENCE_FRAME_2014, \
+   "Australian_Terrestrial_Reference_Frame_2014", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SISTEM_REFERENSI_GEOSPASIAL_INDONESIA_2013, \
+   "Sistem_Referensi_Geospasial_Indonesia_2013", \
+   PE_S_WGS_1984,
+   ""
+
+PE_D_LYON_TURIN_FERROVIAIRE_2004, \
+   "Lyon_Turin_Ferroviaire_2004", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_RED_GEODESICA_PARA_MINERIA_EN_CHILE, \
+   "Red_Geodesica_Para_Mineria_en_Chile", \
+   PE_S_GRS_1980,
+   ""
 
 PE_D_AIRY_1830, \
    "D_Airy_1830", \
-   PE_S_AIRY_1830
+   PE_S_AIRY_1830,
+   ""
 
 PE_D_AIRY_MOD, \
    "D_Airy_Modified", \
-   PE_S_AIRY_MOD
+   PE_S_AIRY_MOD,
+   ""
 
 PE_D_AUSTRALIAN, \
    "D_Australian", \
-   PE_S_AUSTRALIAN
+   PE_S_AUSTRALIAN,
+   ""
 
 PE_D_BESSEL_1841, \
    "D_Bessel_1841", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_BESSEL_MOD, \
    "D_Bessel_Modified", \
-   PE_S_BESSEL_MOD
+   PE_S_BESSEL_MOD,
+   ""
 
 PE_D_BESSEL_NAMIBIA, \
    "D_Bessel_Namibia", \
-   PE_S_BESSEL_NAMIBIA
+   PE_S_BESSEL_NAMIBIA,
+   ""
 
 PE_D_CLARKE_1858, \
    "D_Clarke_1858", \
-   PE_S_CLARKE_1858
+   PE_S_CLARKE_1858,
+   ""
 
 PE_D_CLARKE_1866, \
    "D_Clarke_1866", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_CLARKE_1866_MICH, \
    "D_Clarke_1866_Michigan", \
-   PE_S_CLARKE_1866_MICH
+   PE_S_CLARKE_1866_MICH,
+   ""
 
 PE_D_CLARKE_1880_BENOIT, \
    "D_Clarke_1880_Benoit", \
-   PE_S_CLARKE_1880_BENOIT
+   PE_S_CLARKE_1880_BENOIT,
+   ""
 
 PE_D_CLARKE_1880_IGN, \
    "D_Clarke_1880_IGN", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_CLARKE_1880_RGS, \
    "D_Clarke_1880_RGS", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_CLARKE_1880_ARC, \
    "D_Clarke_1880_Arc", \
-   PE_S_CLARKE_1880_ARC
+   PE_S_CLARKE_1880_ARC,
+   ""
 
 PE_D_CLARKE_1880_SGA, \
    "D_Clarke_1880_SGA", \
-   PE_S_CLARKE_1880_SGA
+   PE_S_CLARKE_1880_SGA,
+   ""
 
 PE_D_EVEREST_ADJ_1937, \
    "D_Everest_Adj_1937", \
-   PE_S_EVEREST_ADJ_1937
+   PE_S_EVEREST_ADJ_1937,
+   ""
 
 PE_D_EVEREST_DEF_1967, \
    "D_Everest_Def_1967", \
-   PE_S_EVEREST_DEF_1967
+   PE_S_EVEREST_DEF_1967,
+   ""
 
 PE_D_EVEREST_MOD, \
    "D_Everest_Modified", \
-   PE_S_EVEREST_MOD
+   PE_S_EVEREST_MOD,
+   ""
 
 PE_D_GRS_1980, \
    "D_GRS_1980", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_HELMERT_1906, \
    "D_Helmert_1906", \
-   PE_S_HELMERT_1906
+   PE_S_HELMERT_1906,
+   ""
 
 PE_D_INDONESIAN, \
    "D_Indonesian", \
-   PE_S_INDONESIAN
+   PE_S_INDONESIAN,
+   ""
 
 PE_D_INTERNATIONAL_1924, \
    "D_International_1924", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_INTERNATIONAL_1967, \
    "D_International_1967", \
-   PE_S_INTERNATIONAL_1967
+   PE_S_INTERNATIONAL_1967,
+   ""
 
 PE_D_KRASOVSKY_1940, \
    "D_Krasovsky_1940", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_NWL_9D, \
    "D_NWL_9D", \
-   PE_S_NWL_9D
+   PE_S_NWL_9D,
+   ""
 
 PE_D_PLESSIS_1817, \
    "D_Plessis_1817", \
-   PE_S_PLESSIS_1817
+   PE_S_PLESSIS_1817,
+   ""
 
 PE_D_STRUVE_1860, \
    "D_Struve_1860", \
-   PE_S_STRUVE_1860
+   PE_S_STRUVE_1860,
+   ""
 
 PE_D_WAR_OFFICE, \
    "D_War_Office", \
-   PE_S_WAR_OFFICE
+   PE_S_WAR_OFFICE,
+   ""
 
 PE_D_GEM_10C, \
    "D_GEM_10C", \
-   PE_S_GEM_10C
+   PE_S_GEM_10C,
+   ""
 
 PE_D_OSU_86F, \
    "D_OSU_86F", \
-   PE_S_OSU_86F
+   PE_S_OSU_86F,
+   ""
 
 PE_D_OSU_91A, \
    "D_OSU_91A", \
-   PE_S_OSU_91A
+   PE_S_OSU_91A,
+   ""
 
 PE_D_CLARKE_1880, \
    "D_Clarke_1880", \
-   PE_S_CLARKE_1880
+   PE_S_CLARKE_1880,
+   ""
 
 PE_D_SPHERE, \
    "D_Sphere", \
-   PE_S_SPHERE
+   PE_S_SPHERE,
+   ""
 
 PE_D_GRS_1967, \
    "D_GRS_1967", \
-   PE_S_GRS_1967
+   PE_S_GRS_1967,
+   ""
 
 PE_D_EVEREST_1830, \
    "D_Everest_1830", \
-   PE_S_EVEREST_1830
+   PE_S_EVEREST_1830,
+   ""
 
 PE_D_EVEREST_DEF_1962, \
    "D_Everest_Def_1962", \
-   PE_S_EVEREST_DEF_1962
+   PE_S_EVEREST_DEF_1962,
+   ""
 
 PE_D_EVEREST_DEF_1975, \
    "D_Everest_Def_1975", \
-   PE_S_EVEREST_DEF_1975
+   PE_S_EVEREST_DEF_1975,
+   ""
 
 PE_D_SPHERE_GRS_1980_AUTHALIC, \
    "D_Sphere_GRS_1980_Authalic", \
-   PE_S_SPHERE_GRS_1980_AUTHALIC
+   PE_S_SPHERE_GRS_1980_AUTHALIC,
+   ""
 
 PE_D_SPHERE_CLARKE_1866_AUTHALIC, \
    "D_Sphere_Clarke_1866_Authalic", \
-   PE_S_SPHERE_CLARKE_1866_AUTHALIC
+   PE_S_SPHERE_CLARKE_1866_AUTHALIC,
+   ""
 
 PE_D_SPHERE_INTL_1924_AUTHALIC, \
    "D_Sphere_International_1924_Authalic", \
-   PE_S_SPHERE_INTL_1924_AUTHALIC
+   PE_S_SPHERE_INTL_1924_AUTHALIC,
+   ""
 
 PE_D_HUGHES_1980, \
    "D_Hughes_1980", \
-   PE_S_HUGHES_1980
+   PE_S_HUGHES_1980,
+   ""
 
 PE_D_SPHERE_WGS_1984_MAJOR_AUXILIARY, \
    "D_WGS_1984_Major_Auxiliary_Sphere", \
-   PE_S_SPHERE_WGS_1984_MAJOR_AUXILIARY
+   PE_S_SPHERE_WGS_1984_MAJOR_AUXILIARY,
+   ""
 
 PE_D_GREEK, \
    "D_Greek", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_GGRS_1987, \
    "D_GGRS_1987", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ATS_1977, \
    "D_ATS_1977", \
-   PE_S_ATS_1977
+   PE_S_ATS_1977,
+   ""
 
 PE_D_KKJ, \
    "D_KKJ", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_RT90, \
    "D_RT_1990", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_SAMBOJA, \
    "D_Samboja", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_LITHUANIA_1994, \
    "D_Lithuania_1994", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_TETE, \
    "D_Tete", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_MADZANSUA, \
    "D_Madzansua", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_OBSERVATARIO, \
    "D_Observatario", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_MOZNET, \
    "D_Moznet", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_INDIAN_1960, \
    "D_Indian_1960", \
-   PE_S_EVEREST_ADJ_1937
+   PE_S_EVEREST_ADJ_1937,
+   ""
 
 PE_D_FD_1958, \
    "D_FD_1958", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_ESTONIA_1992, \
    "D_Estonia_1992", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_PDO_1993, \
    "D_PDO_1993", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_OLD_HAWAIIAN, \
    "D_Old_Hawaiian", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_ST_LAWRENCE_ISLAND, \
    "D_St_Lawrence_Island", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_ST_PAUL_ISLAND, \
    "D_St_Paul_Island", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_ST_GEORGE_ISLAND, \
    "D_St_George_Island", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_PUERTO_RICO, \
    "D_Puerto_Rico", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_NAD_1983_CSRS, \
    "D_North_American_1983_CSRS", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ISRAEL, \
    "D_Israel", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_LOCODJO_1965, \
    "D_Locodjo_1965", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_ABIDJAN_1987, \
    "D_Abidjan_1987", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_KALIANPUR_1937, \
    "D_Kalianpur_1937", \
-   PE_S_EVEREST_ADJ_1937
+   PE_S_EVEREST_ADJ_1937,
+   ""
 
 PE_D_KALIANPUR_1962, \
    "D_Kalianpur_1962", \
-   PE_S_EVEREST_DEF_1962
+   PE_S_EVEREST_DEF_1962,
+   ""
 
 PE_D_KALIANPUR_1975, \
    "D_Kalianpur_1975", \
-   PE_S_EVEREST_DEF_1975
+   PE_S_EVEREST_DEF_1975,
+   ""
 
 PE_D_HANOI_1972, \
    "D_Hanoi_1972", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_HARTEBEESTHOEK94, \
    "D_Hartebeesthoek_1994", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_CH1903, \
    "D_CH1903", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_CH1903_PLUS, \
    "D_CH1903+", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_CHTRF_1995, \
    "D_Swiss_TRF_1995", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAD_1983_HARN, \
    "D_North_American_1983_HARN", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_RASSADIRAN, \
    "D_Rassadiran", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ED_1950_ED77, \
    "D_European_1950_ED77", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_DABOLA_1981, \
    "D_Dabola_1981", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_S_JTSK, \
    "D_S_JTSK", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_MOUNT_DILLON, \
    "D_Mount_Dillon", \
-   PE_S_CLARKE_1858
+   PE_S_CLARKE_1858,
+   ""
 
 PE_D_NAPARIMA_1955, \
    "D_Naparima_1955", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_EUROPEAN_LIBYAN_1979, \
    "D_European_Libyan_1979", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_CHOS_MALAL_1914, \
    "D_Chos_Malal_1914", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_PAMPA_DEL_CASTILLO, \
    "D_Pampa_del_Castillo", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_KOREAN_1985, \
    "D_Korean_Datum_1985", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_YEMEN_NGN_1996, \
    "D_Yemen_NGN_1996", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_SOUTH_YEMEN, \
    "D_South_Yemen", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_BISSAU, \
    "D_Bissau", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_KOREAN_1995, \
    "D_Korean_Datum_1995", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_NZGD_2000, \
    "D_NZGD_2000", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ACCRA, \
    "D_Accra", \
-   PE_S_WAR_OFFICE
+   PE_S_WAR_OFFICE,
+   ""
 
 PE_D_SAMOA_1962, \
    "D_American_Samoa_1962", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_SIRGAS, \
    "D_SIRGAS", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_RGF_1993, \
    "D_RGF_1993", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_POSGAR, \
    "D_POSGAR", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_IRENET95, \
    "D_IRENET95", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SIERRA_LEONE_1924, \
    "D_Sierra_Leone_1924", \
-   PE_S_WAR_OFFICE
+   PE_S_WAR_OFFICE,
+   ""
 
 PE_D_SIERRA_LEONE_1968, \
    "D_Sierra_Leone_1968", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_AUSTRALIAN_ANTARCTIC_1998, \
    "D_Australian_Antarctic_1998", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_PULKOVO_1942_ADJ_1983, \
    "D_Pulkovo_1942_Adj_1983", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_PULKOVO_1942_ADJ_1958, \
    "D_Pulkovo_1942_Adj_1958", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_ESTONIA_1997, \
    "D_Estonia_1997", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_LUXEMBOURG_1930, \
    "D_Luxembourg_1930", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_AZORES_OCCIDENTAL_ISLANDS_1939, \
    "D_Azores_Occidental_Islands_1939", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_AZORES_CENTRAL_ISLANDS_1948, \
    "D_Azores_Central_Islands_1948", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_AZORES_ORIENTAL_ISLANDS_1940, \
    "D_Azores_Oriental_Islands_1940", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MADEIRA_1936, \
    "D_Madeira_1936", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_OSNI_1952, \
    "D_OSNI_1952", \
-   PE_S_AIRY_1830
+   PE_S_AIRY_1830,
+   ""
 
 PE_D_REGVEN, \
    "D_REGVEN", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_POSGAR_1998, \
    "D_POSGAR_1998", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ALBANIAN_1987, \
    "D_Albanian_1987", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_DOUALA_1948, \
    "D_Douala_1948", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MANOCA_1962, \
    "D_Manoca_1962", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_QORNOQ_1927, \
    "D_Qornoq_1927", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SCORESBYSUND_1952, \
    "D_Scoresbysund_1952", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_AMMASSALIK_1958, \
    "D_Ammassalik_1958", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_GAROUA, \
    "D_Garoua", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_KOUSSERI, \
    "D_Kousseri", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_EGYPT_1930, \
    "D_Egypt_1930", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_PULKOVO_1995, \
    "D_Pulkovo_1995", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_ADINDAN, \
    "D_Adindan", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_AGD_1966, \
    "D_Australian_1966", \
-   PE_S_AUSTRALIAN
+   PE_S_AUSTRALIAN,
+   ""
 
 PE_D_AGD_1984, \
    "D_Australian_1984", \
-   PE_S_AUSTRALIAN
+   PE_S_AUSTRALIAN,
+   ""
 
 PE_D_AIN_EL_ABD_1970, \
    "D_Ain_el_Abd_1970", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_AFGOOYE, \
    "D_Afgooye", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_AGADEZ, \
    "D_Agadez", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_LISBON, \
    "D_Lisbon", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ARATU, \
    "D_Aratu", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ARC_1950, \
    "D_Arc_1950", \
-   PE_S_CLARKE_1880_ARC
+   PE_S_CLARKE_1880_ARC,
+   ""
 
 PE_D_ARC_1960, \
    "D_Arc_1960", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_BATAVIA, \
    "D_Batavia", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_BARBADOS_1938, \
    "D_Barbados_1938", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_BEDUARAM, \
    "D_Beduaram", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_BEIJING_1954, \
    "D_Beijing_1954", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_BELGE_1950, \
    "D_Belge_1950", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_BERMUDA_1957, \
    "D_Bermuda_1957", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_BERN_1898, \
    "D_Bern_1898", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_BOGOTA, \
    "D_Bogota", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_BUKIT_RIMPAH, \
    "D_Bukit_Rimpah", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_CAMACUPA, \
    "D_Camacupa", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_CAMPO_INCHAUSPE, \
    "D_Campo_Inchauspe", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_CAPE, \
    "D_Cape", \
-   PE_S_CLARKE_1880_ARC
+   PE_S_CLARKE_1880_ARC,
+   ""
 
 PE_D_CARTHAGE, \
    "D_Carthage", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_CHUA, \
    "D_Chua", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_CORREGO_ALEGRE, \
    "D_Corrego_Alegre", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_COTE_D_IVOIRE, \
    "D_Cote_d_Ivoire", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_DEIR_EZ_ZOR, \
    "D_Deir_ez_Zor", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_DOUALA, \
    "D_Douala", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_EGYPT_1907, \
    "D_Egypt_1907", \
-   PE_S_HELMERT_1906
+   PE_S_HELMERT_1906,
+   ""
 
 PE_D_ED_1950, \
    "D_European_1950", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ED_1987, \
    "D_European_1987", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_FAHUD, \
    "D_Fahud", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_GANDAJIKA_1970, \
    "D_Gandajika_1970", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_GUYANE_FRANCAISE, \
    "D_Guyane_Francaise", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_HU_TZU_SHAN, \
    "D_Hu_Tzu_Shan", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_HUNGARIAN_1972, \
    "D_Hungarian_1972", \
-   PE_S_GRS_1967
+   PE_S_GRS_1967,
+   ""
 
 PE_D_INDONESIAN_1974, \
    "D_Indonesian_1974", \
-   PE_S_INDONESIAN
+   PE_S_INDONESIAN,
+   ""
 
 PE_D_INDIAN_1954, \
    "D_Indian_1954", \
-   PE_S_EVEREST_ADJ_1937
+   PE_S_EVEREST_ADJ_1937,
+   ""
 
 PE_D_INDIAN_1975, \
    "D_Indian_1975", \
-   PE_S_EVEREST_ADJ_1937
+   PE_S_EVEREST_ADJ_1937,
+   ""
 
 PE_D_JAMAICA_1875, \
    "D_Jamaica_1875", \
-   PE_S_CLARKE_1880
+   PE_S_CLARKE_1880,
+   ""
 
 PE_D_JAMAICA_1969, \
    "D_Jamaica_1969", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_KALIANPUR_1880, \
    "D_Kalianpur_1880", \
-   PE_S_EVEREST_1830
+   PE_S_EVEREST_1830,
+   ""
 
 PE_D_KANDAWALA, \
    "D_Kandawala", \
-   PE_S_EVEREST_ADJ_1937
+   PE_S_EVEREST_ADJ_1937,
+   ""
 
 PE_D_KERTAU, \
    "D_Kertau", \
-   PE_S_EVEREST_MOD
+   PE_S_EVEREST_MOD,
+   ""
 
 PE_D_KOC, \
    "D_Kuwait_Oil_Company", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_LA_CANOA, \
    "D_La_Canoa", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_PSAD_1956, \
    "D_Provisional_S_American_1956", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_LAKE, \
    "D_Lake", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_LEIGON, \
    "D_Leigon", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_LIBERIA_1964, \
    "D_Liberia_1964", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_LOME, \
    "D_Lome", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_LUZON_1911, \
    "D_Luzon_1911", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_HITO_XVIII_1963, \
    "D_Hito_XVIII_1963", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_HERAT_NORTH, \
    "D_Herat_North", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MAHE_1971, \
    "D_Mahe_1971", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_MAKASSAR, \
    "D_Makassar", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_ETRS_1989, \
    "D_ETRS_1989", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_MALONGO_1987, \
    "D_Malongo_1987", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MANOCA, \
    "D_Manoca", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_MERCHICH, \
    "D_Merchich", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_MASSAWA, \
    "D_Massawa", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_MINNA, \
    "D_Minna", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_MHAST, \
    "D_Mhast", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MONTE_MARIO, \
    "D_Monte_Mario", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MPORALOKO, \
    "D_Mporaloko", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_NAD_1927, \
    "D_North_American_1927", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_NAD_MICH, \
    "D_North_American_Michigan", \
-   PE_S_CLARKE_1866_MICH
+   PE_S_CLARKE_1866_MICH,
+   ""
 
 PE_D_NAD_1983, \
    "D_North_American_1983", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_NAHRWAN_1967, \
    "D_Nahrwan_1967", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_NAPARIMA_1972, \
    "D_Naparima_1972", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_NZGD_1949, \
    "D_New_Zealand_1949", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_NGO_1948, \
    "D_NGO_1948", \
-   PE_S_BESSEL_MOD
+   PE_S_BESSEL_MOD,
+   ""
 
 PE_D_DATUM_73, \
    "D_Datum_73", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_NTF, \
    "D_NTF", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_NSWC_9Z_2, \
    "D_NSWC_9Z_2", \
-   PE_S_NWL_9D
+   PE_S_NWL_9D,
+   ""
 
 PE_D_OSGB_1936, \
    "D_OSGB_1936", \
-   PE_S_AIRY_1830
+   PE_S_AIRY_1830,
+   ""
 
 PE_D_OSGB_1970_SN, \
    "D_OSGB_1970_SN", \
-   PE_S_AIRY_1830
+   PE_S_AIRY_1830,
+   ""
 
 PE_D_OS_SN_1980, \
    "D_OS_SN_1980", \
-   PE_S_AIRY_1830
+   PE_S_AIRY_1830,
+   ""
 
 PE_D_PADANG_1884, \
    "D_Padang_1884", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_PALESTINE_1923, \
    "D_Palestine_1923", \
-   PE_S_CLARKE_1880_BENOIT
+   PE_S_CLARKE_1880_BENOIT,
+   ""
 
 PE_D_POINTE_NOIRE, \
    "D_Pointe_Noire", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_GDA_1994, \
    "D_GDA_1994", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_PULKOVO_1942, \
    "D_Pulkovo_1942", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_QATAR, \
    "D_Qatar", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_QATAR_1948, \
    "D_Qatar_1948", \
-   PE_S_HELMERT_1906
+   PE_S_HELMERT_1906,
+   ""
 
 PE_D_QORNOQ, \
    "D_Qornoq", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_LOMA_QUINTANA, \
    "D_Loma_Quintana", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_AMERSFOORT, \
    "D_Amersfoort", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_SAPPER_HILL_1943, \
    "D_Sapper_Hill_1943", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SCHWARZECK, \
    "D_Schwarzeck", \
-   PE_S_BESSEL_NAMIBIA
+   PE_S_BESSEL_NAMIBIA,
+   ""
 
 PE_D_SEGORA, \
    "D_Segora", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_SERINDUNG, \
    "D_Serindung", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_SUDAN, \
    "D_Sudan", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_TANANARIVE_1925, \
    "D_Tananarive_1925", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_TIMBALAI_1948, \
    "D_Timbalai_1948", \
-   PE_S_EVEREST_DEF_1967
+   PE_S_EVEREST_DEF_1967,
+   ""
 
 PE_D_TM65, \
    "D_TM65", \
-   PE_S_AIRY_MOD
+   PE_S_AIRY_MOD,
+   ""
 
 PE_D_TM75, \
    "D_TM75", \
-   PE_S_AIRY_MOD
+   PE_S_AIRY_MOD,
+   ""
 
 PE_D_TOKYO, \
    "D_Tokyo", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_TRINIDAD_1903, \
    "D_Trinidad_1903", \
-   PE_S_CLARKE_1858
+   PE_S_CLARKE_1858,
+   ""
 
 PE_D_TRUCIAL_COAST_1948, \
    "D_Trucial_Coast_1948", \
-   PE_S_HELMERT_1906
+   PE_S_HELMERT_1906,
+   ""
 
 PE_D_VOIROL_1875, \
    "D_Voirol_1875", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_BERN_1938, \
    "D_Bern_1938", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_NORD_SAHARA_1959, \
    "D_Nord_Sahara_1959", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_STOCKHOLM_1938, \
    "D_Stockholm_1938", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_YACARE, \
    "D_Yacare", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_YOFF, \
    "D_Yoff", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_ZANDERIJ, \
    "D_Zanderij", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MGI, \
    "D_MGI", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_BELGE_1972, \
    "D_Belge_1972", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_DHDN, \
    "D_Deutsches_Hauptdreiecksnetz", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_CONAKRY_1905, \
    "D_Conakry_1905", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_DEALUL_PISCULUI_1933, \
    "D_Dealul_Piscului_1933", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_DEALUL_PISCULUI_1970, \
    "D_Dealul_Piscului_1970", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_NGN, \
    "D_NGN", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_KUDAMS, \
    "D_Kuwait_Utility", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_WGS_1972, \
    "D_WGS_1972", \
-   PE_S_WGS_1972
+   PE_S_WGS_1972,
+   ""
 
 PE_D_WGS_1972_BE, \
    "D_WGS_1972_BE", \
-   PE_S_WGS_1972
+   PE_S_WGS_1972,
+   ""
 
 PE_D_WGS_1984, \
    "D_WGS_1984", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_ANGUILLA_1957, \
    "D_Anguilla_1957", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_ANTIGUA_1943, \
    "D_Antigua_1943", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_DOMINICA_1945, \
    "D_Dominica_1945", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_GRENADA_1953, \
    "D_Grenada_1953", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_MONTSERRAT_1958, \
    "D_Montserrat_1958", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_ST_KITTS_1955, \
    "D_St_Kitts_1955", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_ST_LUCIA_1955, \
    "D_St_Lucia_1955", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_ST_VINCENT_1945, \
    "D_St_Vincent_1945", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_NAD_1927_DEF_1976, \
    "D_NAD_1927_Definition_1976", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_NAD_1927_CGQ77, \
    "D_NAD_1927_CGQ77", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_XIAN_1980, \
    "D_Xian_1980", \
-   PE_S_XIAN_1980
+   PE_S_XIAN_1980,
+   ""
 
 PE_D_HONG_KONG_1980, \
    "D_Hong_Kong_1980", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_JGD_2000, \
    "D_JGD_2000", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_GUNUNG_SEGARA, \
    "D_Gunung_Segara", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_QND_1995, \
    "D_QND_1995", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_PORTO_SANTO_1936, \
    "D_Porto_Santo_1936", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SELVAGEM_GRANDE_1938, \
    "D_Selvagem_Grande_1938", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SAD_1969, \
    "D_South_American_1969", \
-   PE_S_GRS_1967_TRUNC
+   PE_S_GRS_1967_TRUNC,
+   ""
 
 PE_D_SWEREF99, \
    "D_SWEREF99", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_POINT58, \
    "D_Point_58", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_FORT_MARIGOT, \
    "D_Fort_Marigot", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SAINTE_ANNE, \
    "D_Sainte_Anne", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_CSG_1967, \
    "D_CSG_1967", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_RGFG_1995, \
    "D_RGFG_1995", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_FORT_DESAIX, \
    "D_Fort_Desaix", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_REUNION_1947, \
    "D_Reunion_1947", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_RGR_1992, \
    "D_RGR_1992", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_TAHITI_1952, \
    "D_Tahiti_1952", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_TAHAA_1954, \
    "D_Tahaa_1954", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_IGN72_NUKU_HIVA, \
    "D_IGN72_Nuku_Hiva", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_COMBANI_1950, \
    "D_Combani_1950", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_IGN56_LIFOU, \
    "D_IGN56_Lifou", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_IGN72_GRANDE_TERRE, \
    "D_IGN72_Grande_Terre", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
-  6635, \
+6635, \
    "D_ST87_Ouvea_incorrect_spheroid", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_PETRELS_1972, \
    "D_Petrels_1972", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_POINTE_GEOLOGIE_PERROUD_1950, \
    "D_Pointe_Geologie_Perroud_1950", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SAINT_PIERRE_ET_MIQUELON_1950, \
    "D_Saint_Pierre_et_Miquelon_1950", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_MOP78, \
    "D_MOP78", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
-  6640, \
+6640, \
    "D_RRAF_1991_incorrect_spheroid", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_IGN53_MARE, \
    "D_IGN53_Mare", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ST84_ILE_DES_PINS, \
    "D_ST84_Ile_des_Pins", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ST71_BELEP, \
    "D_ST71_Belep", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_NEA74_NOUMEA, \
    "D_NEA74_Noumea", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_RGNC_1991, \
    "D_RGNC_1991", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_GRAND_COMOROS, \
    "D_Grand_Comoros", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ITRF_1988, \
    "D_ITRF_1988", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_1989, \
    "D_ITRF_1989", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_1990, \
    "D_ITRF_1990", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_1991, \
    "D_ITRF_1991", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_1992, \
    "D_ITRF_1992", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_1993, \
    "D_ITRF_1993", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_1994, \
    "D_ITRF_1994", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_1996, \
    "D_ITRF_1996", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_1997, \
    "D_ITRF_1997", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_2000, \
    "D_ITRF_2000", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_REYKJAVIK_1900, \
    "D_Reykjavik_1900", \
-   PE_S_DANISH_1876
+   PE_S_DANISH_1876,
+   ""
 
 PE_D_HJORSEY_1955, \
    "D_Hjorsey_1955", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ISLANDS_NETWORK_1993, \
    "D_Islands_Network_1993", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_HELLE_1954, \
    "D_Helle_1954", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_LATVIA_1992, \
    "D_Latvia_1992", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_PORTO_SANTO_1995, \
    "D_Porto_Santo_1995", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_AZORES_ORIENTAL_ISLANDS_1995, \
    "D_Azores_Oriental_Islands_1995", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_AZORES_CENTRAL_ISLANDS_1995, \
    "D_Azores_Central_Islands_1995", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_LISBON_1890, \
    "D_Lisbon_1890", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_IRAQ_KUWAIT_BOUNDARY_1992, \
    "D_Iraq_Kuwait_Boundary_1992", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_EUROPEAN_1979, \
    "D_European_1979", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_IGM_1995, \
    "D_IGM_1995", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_VOIROL_1879, \
    "D_Voirol_1879", \
-   PE_S_CLARKE_1880_IGN
+   PE_S_CLARKE_1880_IGN,
+   ""
 
 PE_D_CHATHAM_ISLAND_1971, \
    "D_Chatham_Island_1971", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_CHATHAM_ISLANDS_1979, \
    "D_Chatham_Islands_1979", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SIRGAS_2000, \
    "D_SIRGAS_2000", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_GUAM_1963, \
    "D_Guam_1963", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_VIENTIANE_1982, \
    "D_Vientiane_1982", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_LAO_1993, \
    "D_Lao_1993", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_LAO_1997, \
    "D_Lao_National_Datum_1997", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_JOUIK_1961, \
    "D_Jouik_1961", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_NOUAKCHOTT_1965, \
    "D_Nouakchott_1965", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_GULSHAN_303, \
    "D_Gulshan_303", \
-   PE_S_EVEREST_ADJ_1937
+   PE_S_EVEREST_ADJ_1937,
+   ""
 
 PE_D_PRS_1992, \
    "D_Philippine_Reference_System_1992", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_GAN_1970, \
    "D_Gan_1970", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MAGNA, \
    "D_MAGNA", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_RGPF, \
    "D_Reseau_Geodesique_de_la_Polynesie_Francaise", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_FATU_IVA_1972, \
    "D_Fatu_Iva_1972", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_IGN63_HIVA_OA, \
    "D_IGN63_Hiva_Oa", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_TAHITI_1979, \
    "D_Tahiti_1979", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MOOREA_1987, \
    "D_Moorea_1987", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MAUPITI_1983, \
    "D_Maupiti_1983", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_NAKHL_E_GHANEM, \
    "D_Nakhl-e_Ghanem", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_POSGAR_1994, \
    "D_POSGAR_1994", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_KATANGA_1955, \
    "D_Katanga_1955", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_KASAI_1953, \
    "D_Kasai_1953", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_IGC_1962_6TH_PARALLEL_S, \
    "D_IGC_1962_Arc_of_the_6th_Parallel_South", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_KERGUELEN_ISLAND_1949, \
    "D_Kerguelen_Island_1949", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_LE_POUCE_1934, \
    "D_Le_Pouce_1934", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_IGN_ASTRO_1960, \
    "D_IGN_Astro_1960", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_IGCB_1955, \
    "D_Institut_Geographique_du_Congo_Belge_1955", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_MAURITANIA_1999, \
    "D_Mauritania_1999", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_MHAST_1951, \
    "D_Mhast_1951", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_MHAST_ONSHORE, \
    "D_Mhast_Onshore", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_MHAST_OFFSHORE, \
    "D_Mhast_Offshore", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_EGYPT_GULF_SUEZ_S_650_TL, \
    "D_Egypt_Gulf_of_Suez_S-650_TL", \
-   PE_S_HELMERT_1906
+   PE_S_HELMERT_1906,
+   ""
 
 PE_D_TERN_ISLAND_1961, \
    "D_Tern_Island_1961", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ANNA_1_1965, \
    "D_Anna_1_1965", \
-   PE_S_AUSTRALIAN
+   PE_S_AUSTRALIAN,
+   ""
 
 PE_D_BEACON_E_1945, \
    "D_Beacon_E_1945", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_DOS_71_4, \
    "D_DOS_71_4", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ASTRO_1952, \
    "D_Astro_1952", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ASCENSION_ISLAND_1958, \
    "D_Ascension_Island_1958", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_AYABELLE, \
    "D_Ayabelle", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_BELLEVUE, \
    "D_Bellevue_IGN", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_CAMP_AREA, \
    "D_Camp_Area", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_CANTON_1966, \
    "D_Canton_1966", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_CAPE_CANAVERAL, \
    "D_Cape_Canaveral", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_SOLOMON_1968, \
    "D_Solomon_1968", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_EASTER_ISLAND_1967, \
    "D_Easter_Island_1967", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_FIJI_1986, \
    "D_Fiji_1986", \
-   PE_S_WGS_1972
+   PE_S_WGS_1972,
+   ""
 
 PE_D_FIJI_1956, \
    "D_Fiji_1956", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ISTS_061_1968, \
    "D_ISTS_061_1968", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_GRAND_CAYMAN_1959, \
    "D_Grand_Cayman_1959", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_ISTS_073_1969, \
    "D_ISTS_073_1969", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_JOHNSTON_ISLAND_1961, \
    "D_Johnston_Island_1961", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_LITTLE_CAYMAN_1961, \
    "D_Little_Cayman_1961", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_MIDWAY_1961, \
    "D_Midway_1961", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_PICO_DE_LAS_NIEVES, \
    "D_Pico_de_Las_Nieves", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_PITCAIRN_1967, \
    "D_Pitcairn_1967", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SANTO_DOS_1965, \
    "D_Santo_DOS_1965", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_VITI_LEVU_1916, \
    "D_Viti_Levu_1916", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_WAKE_ENIWETOK_1960, \
    "D_Wake_Eniwetok_1960", \
-   PE_S_HOUGH_1960
+   PE_S_HOUGH_1960,
+   ""
 
 PE_D_WAKE_ISLAND_1952, \
    "D_Wake_Island_1952", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_TRISTAN_1968, \
    "D_Tristan_1968", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_KUSAIE_1951, \
    "D_Kusaie_1951", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_DECEPTION_ISLAND, \
    "D_Deception_Island", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_KOREA_2000, \
    "D_Korea_2000", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_HONG_KONG_1963, \
    "D_Hong_Kong_1963", \
-   PE_S_CLARKE_1858
+   PE_S_CLARKE_1858,
+   ""
 
 PE_D_HONG_KONG_1963_67, \
    "D_Hong_Kong_1963_67", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_PZ_1990, \
    "D_Parametrop_Zemp_1990", \
-   PE_S_PZ_1990
+   PE_S_PZ_1990,
+   ""
 
 PE_D_FAROE_DATUM_1954, \
    "D_Faroe_Datum_1954", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_GDM_2000, \
    "D_GDM_2000", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_KARBALA_1979_POLSERVICE, \
    "D_Karbala_1979_Polservice", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_NAHRWAN_1934, \
    "D_Nahrwan_1934", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_RAUENBERG_DATUM_1983, \
    "D_Rauenberg_1983", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_POTSDAM_DATUM_1983, \
    "D_Potsdam_1983", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_GREENLAND_1996, \
    "D_Greenland_1996", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_VANUA_LEVU_1915, \
    "D_Vanua_Levu_1915", \
-   PE_S_CLARKE_1880_IFT
+   PE_S_CLARKE_1880_IFT,
+   ""
 
 PE_D_RGNC_1991_93, \
    "D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ST87_OUVEA, \
    "D_ST87_Ouvea", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_KERTAU_RSO, \
    "D_Kertau_RSO", \
-   PE_S_EVEREST_MOD_1969
+   PE_S_EVEREST_MOD_1969,
+   ""
 
 PE_D_VITI_LEVU_1912, \
    "D_Viti_Levu_1912", \
-   PE_S_CLARKE_1880_IFT
+   PE_S_CLARKE_1880_IFT,
+   ""
 
 PE_D_FK_1989, \
    "D_fk89", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_LIBYAN_GEODETIC_DATUM_2006, \
    "D_Libyan_Geodetic_Datum_2006", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_DATUM_GEODESI_NASIONAL_1995, \
    "D_Datum_Geodesi_Nasional_1995", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_VIETNAM_2000, \
    "D_Vietnam_2000", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_SVY21, \
    "D_SVY21", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_JAMAICA_2001, \
    "D_Jamaica_2001", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_NAD_1983_NSRS2007, \
    "D_NAD_1983_NSRS2007", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_WGS_1966, \
    "D_WGS_1966", \
-   PE_S_WGS_1966
+   PE_S_WGS_1966,
+   ""
 
 PE_D_CROATIAN_TERRESTRIAL_REFERENCE_SYSTEM, \
    "D_Croatian_Terrestrial_Reference_System", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_BERMUDA_2000, \
    "D_Bermuda_2000", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_PITCAIRN_2006, \
    "D_Pitcairn_2006", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_ROSS_SEA_REGION_GEODETIC_DATUM_2000, \
    "D_Ross_Sea_Region_Geodetic_Datum_2000", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SLOVENIA_GEODETIC_DATUM_1996, \
    "D_Slovenia_Geodetic_Datum_1996", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ITRF_2005, \
    "D_ITRF_2005", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_ATF, \
    "D_ATF", \
-   PE_S_PLESSIS_1817
+   PE_S_PLESSIS_1817,
+   ""
 
 PE_D_NDG, \
    "D_Nord_de_Guerre", \
-   PE_S_PLESSIS_1817
+   PE_S_PLESSIS_1817,
+   ""
 
 PE_D_MADRID_1870, \
    "D_Madrid_1870", \
-   PE_S_STRUVE_1860
+   PE_S_STRUVE_1860,
+   ""
 
 PE_D_FISCHER_1960, \
    "D_Fischer_1960", \
-   PE_S_FISCHER_1960
+   PE_S_FISCHER_1960,
+   ""
 
 PE_D_FISCHER_1968, \
    "D_Fischer_1968", \
-   PE_S_FISCHER_1968
+   PE_S_FISCHER_1968,
+   ""
 
 PE_D_FISCHER_MOD, \
    "D_Fischer_Modified", \
-   PE_S_FISCHER_MOD
+   PE_S_FISCHER_MOD,
+   ""
 
 PE_D_HOUGH_1960, \
    "D_Hough_1960", \
-   PE_S_HOUGH_1960
+   PE_S_HOUGH_1960,
+   ""
 
 PE_D_EVEREST_MOD_1969, \
    "D_Everest_Modified_1969", \
-   PE_S_EVEREST_MOD_1969
+   PE_S_EVEREST_MOD_1969,
+   ""
 
 PE_D_WALBECK, \
    "D_Walbeck", \
-   PE_S_WALBECK
+   PE_S_WALBECK,
+   ""
 
 PE_D_SPHERE_AI, \
    "D_Sphere_ARC_INFO", \
-   PE_S_SPHERE_AI
+   PE_S_SPHERE_AI,
+   ""
 
 PE_D_KYRG_06, \
    "D_Kyrgyz_Republic_2006", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_GEORGIA_GEODETIC_DATUM, \
    "Georgia_Geodetic_Datum", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_VOIROL_UNIFIE_1960, \
    "D_Voirol_Unifie_1960", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_CSRS_EPOCH_2017_5_NAD83, \
    "California_SRS_Epoch_2017.50_(NAD83)", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_GDM2008, \
    "Geocentric_Datum_of_Mauritius_2008", \
-   PE_S_GRS_1980
+   PE_S_GRS_1980,
+   ""
 
 PE_D_SPHERE_GRS_1980_MEAN_RADIUS, \
    "D_Sphere_GRS_1980_Mean_Radius", \
-   PE_S_SPHERE_GRS_1980_MEAN_RADIUS
+   PE_S_SPHERE_GRS_1980_MEAN_RADIUS,
+   ""
 
 PE_D_XRAIL84, \
    "D_Xrail84", \
-   PE_S_WGS_1984
+   PE_S_WGS_1984,
+   ""
 
 PE_D_ESTONIA_1937, \
    "D_Estonia_1937", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_HERMANNSKOGEL, \
    "D_Hermannskogel", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_SIERRA_LEONE_1960, \
    "D_Sierra_Leone_1960", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_EVEREST_BANGLADESH, \
    "D_Everest_Bangladesh", \
-   PE_S_EVEREST_ADJ_1937
+   PE_S_EVEREST_ADJ_1937,
+   ""
 
 PE_D_EVEREST_INDIA_NEPAL, \
    "D_Everest_India_Nepal", \
-   PE_S_EVEREST_DEF_1962
+   PE_S_EVEREST_DEF_1962,
+   ""
 
 PE_D_OMAN, \
    "D_Oman", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_S_ASIA_SINGAPORE, \
    "D_South_Asia_Singapore", \
-   PE_S_FISCHER_MOD
+   PE_S_FISCHER_MOD,
+   ""
 
 PE_D_DOS_1968, \
    "D_DOS_1968", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_GUX_1, \
    "D_GUX_1", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_FORT_THOMAS_1955, \
    "D_Fort_Thomas_1955", \
-   PE_S_CLARKE_1880_RGS
+   PE_S_CLARKE_1880_RGS,
+   ""
 
 PE_D_GRACIOSA_1948, \
    "D_Graciosa_Base_SW_1948", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_LC5_1961, \
    "D_LC5_1961", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_OBSERV_METEOR_1939, \
    "D_Observatorio_Meteorologico_1939", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SAO_BRAZ, \
    "D_Sao_Braz", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_S42_HUNGARY, \
    "D_S42_Hungary", \
-   PE_S_KRASOVSKY_1940
+   PE_S_KRASOVSKY_1940,
+   ""
 
 PE_D_ALASKAN_ISLANDS, \
    "D_Alaskan_Islands", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_LISBOA_BESSEL, \
    "D_Datum_Lisboa_Bessel", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_LISBOA_HAYFORD, \
    "D_Datum_Lisboa_Hayford", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_POHNPEI, \
    "D_Pohnpei", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_BAB_SOUTH, \
    "D_Bab_South", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_MAJURO, \
    "D_Majuro", \
-   PE_S_CLARKE_1866
+   PE_S_CLARKE_1866,
+   ""
 
 PE_D_OBSERV_METEOR_1965, \
    "D_Observatorio_Meteorologico_1965", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_ROMA_1940, \
    "D_Roma_1940", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_SPHERE_EMEP, \
    "D_Sphere_EMEP", \
-   PE_S_SPHERE_EMEP
+   PE_S_SPHERE_EMEP,
+   ""
 
 PE_D_JORDAN, \
    "D_Jordan", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_D48, \
    "D_D48", \
-   PE_S_BESSEL_1841
+   PE_S_BESSEL_1841,
+   ""
 
 PE_D_OLD_HAWAIIAN_INTL_1924, \
    "D_Old_Hawaiian_Intl_1924", \
-   PE_S_INTERNATIONAL_1924
+   PE_S_INTERNATIONAL_1924,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_ANOKA, \
    "D_NAD_1983_HARN_Adj_MN_Anoka", \
-   PE_S_GRS_1980_ADJ_MN_ANOKA
+   PE_S_GRS_1980_ADJ_MN_ANOKA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_BECKER, \
    "D_NAD_1983_HARN_Adj_MN_Becker", \
-   PE_S_GRS_1980_ADJ_MN_BECKER
+   PE_S_GRS_1980_ADJ_MN_BECKER,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_BELTRAMI_N, \
    "D_NAD_1983_HARN_Adj_MN_Beltrami_North", \
-   PE_S_GRS_1980_ADJ_MN_BELTRAMI_N
+   PE_S_GRS_1980_ADJ_MN_BELTRAMI_N,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_BELTRAMI_S, \
    "D_NAD_1983_HARN_Adj_MN_Beltrami_South", \
-   PE_S_GRS_1980_ADJ_MN_BELTRAMI_S
+   PE_S_GRS_1980_ADJ_MN_BELTRAMI_S,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_BENTON, \
    "D_NAD_1983_HARN_Adj_MN_Benton", \
-   PE_S_GRS_1980_ADJ_MN_BENTON
+   PE_S_GRS_1980_ADJ_MN_BENTON,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_BIG_STONE, \
    "D_NAD_1983_HARN_Adj_MN_Big_Stone", \
-   PE_S_GRS_1980_ADJ_MN_BIG_STONE
+   PE_S_GRS_1980_ADJ_MN_BIG_STONE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_BLUE_EARTH, \
    "D_NAD_1983_HARN_Adj_MN_Blue_Earth", \
-   PE_S_GRS_1980_ADJ_MN_BLUE_EARTH
+   PE_S_GRS_1980_ADJ_MN_BLUE_EARTH,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_BROWN, \
    "D_NAD_1983_HARN_Adj_MN_Brown", \
-   PE_S_GRS_1980_ADJ_MN_BROWN
+   PE_S_GRS_1980_ADJ_MN_BROWN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_CARLTON, \
    "D_NAD_1983_HARN_Adj_MN_Carlton", \
-   PE_S_GRS_1980_ADJ_MN_CARLTON
+   PE_S_GRS_1980_ADJ_MN_CARLTON,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_CARVER, \
    "D_NAD_1983_HARN_Adj_MN_Carver", \
-   PE_S_GRS_1980_ADJ_MN_CARVER
+   PE_S_GRS_1980_ADJ_MN_CARVER,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_CASS_N, \
    "D_NAD_1983_HARN_Adj_MN_Cass_North", \
-   PE_S_GRS_1980_ADJ_MN_CASS_N
+   PE_S_GRS_1980_ADJ_MN_CASS_N,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_CASS_S, \
    "D_NAD_1983_HARN_Adj_MN_Cass_South", \
-   PE_S_GRS_1980_ADJ_MN_CASS_S
+   PE_S_GRS_1980_ADJ_MN_CASS_S,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_CHIPPEWA, \
    "D_NAD_1983_HARN_Adj_MN_Chippewa", \
-   PE_S_GRS_1980_ADJ_MN_CHIPPEWA
+   PE_S_GRS_1980_ADJ_MN_CHIPPEWA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_CHISAGO, \
    "D_NAD_1983_HARN_Adj_MN_Chisago", \
-   PE_S_GRS_1980_ADJ_MN_CHISAGO
+   PE_S_GRS_1980_ADJ_MN_CHISAGO,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_COOK_N, \
    "D_NAD_1983_HARN_Adj_MN_Cook_North", \
-   PE_S_GRS_1980_ADJ_MN_COOK_N
+   PE_S_GRS_1980_ADJ_MN_COOK_N,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_COOK_S, \
    "D_NAD_1983_HARN_Adj_MN_Cook_South", \
-   PE_S_GRS_1980_ADJ_MN_COOK_S
+   PE_S_GRS_1980_ADJ_MN_COOK_S,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_COTTONWOOD, \
    "D_NAD_1983_HARN_Adj_MN_Cottonwood", \
-   PE_S_GRS_1980_ADJ_MN_COTTONWOOD
+   PE_S_GRS_1980_ADJ_MN_COTTONWOOD,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_CROW_WING, \
    "D_NAD_1983_HARN_Adj_MN_Crow_Wing", \
-   PE_S_GRS_1980_ADJ_MN_CROW_WING
+   PE_S_GRS_1980_ADJ_MN_CROW_WING,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_DAKOTA, \
    "D_NAD_1983_HARN_Adj_MN_Dakota", \
-   PE_S_GRS_1980_ADJ_MN_DAKOTA
+   PE_S_GRS_1980_ADJ_MN_DAKOTA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_DODGE, \
    "D_NAD_1983_HARN_Adj_MN_Dodge", \
-   PE_S_GRS_1980_ADJ_MN_DODGE
+   PE_S_GRS_1980_ADJ_MN_DODGE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_DOUGLAS, \
    "D_NAD_1983_HARN_Adj_MN_Douglas", \
-   PE_S_GRS_1980_ADJ_MN_DOUGLAS
+   PE_S_GRS_1980_ADJ_MN_DOUGLAS,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_FARIBAULT, \
    "D_NAD_1983_HARN_Adj_MN_Faribault", \
-   PE_S_GRS_1980_ADJ_MN_FARIBAULT
+   PE_S_GRS_1980_ADJ_MN_FARIBAULT,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_FILLMORE, \
    "D_NAD_1983_HARN_Adj_MN_Fillmore", \
-   PE_S_GRS_1980_ADJ_MN_FILLMORE
+   PE_S_GRS_1980_ADJ_MN_FILLMORE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_FREEBORN, \
    "D_NAD_1983_HARN_Adj_MN_Freeborn", \
-   PE_S_GRS_1980_ADJ_MN_FREEBORN
+   PE_S_GRS_1980_ADJ_MN_FREEBORN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_GOODHUE, \
    "D_NAD_1983_HARN_Adj_MN_Goodhue", \
-   PE_S_GRS_1980_ADJ_MN_GOODHUE
+   PE_S_GRS_1980_ADJ_MN_GOODHUE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_GRANT, \
    "D_NAD_1983_HARN_Adj_MN_Grant", \
-   PE_S_GRS_1980_ADJ_MN_GRANT
+   PE_S_GRS_1980_ADJ_MN_GRANT,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_HENNEPIN, \
    "D_NAD_1983_HARN_Adj_MN_Hennepin", \
-   PE_S_GRS_1980_ADJ_MN_HENNEPIN
+   PE_S_GRS_1980_ADJ_MN_HENNEPIN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_HOUSTON, \
    "D_NAD_1983_HARN_Adj_MN_Houston", \
-   PE_S_GRS_1980_ADJ_MN_HOUSTON
+   PE_S_GRS_1980_ADJ_MN_HOUSTON,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_ISANTI, \
    "D_NAD_1983_HARN_Adj_MN_Isanti", \
-   PE_S_GRS_1980_ADJ_MN_ISANTI
+   PE_S_GRS_1980_ADJ_MN_ISANTI,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_ITASCA_N, \
    "D_NAD_1983_HARN_Adj_MN_Itasca_North", \
-   PE_S_GRS_1980_ADJ_MN_ITASCA_N
+   PE_S_GRS_1980_ADJ_MN_ITASCA_N,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_ITASCA_S, \
    "D_NAD_1983_HARN_Adj_MN_Itasca_South", \
-   PE_S_GRS_1980_ADJ_MN_ITASCA_S
+   PE_S_GRS_1980_ADJ_MN_ITASCA_S,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_JACKSON, \
    "D_NAD_1983_HARN_Adj_MN_Jackson", \
-   PE_S_GRS_1980_ADJ_MN_JACKSON
+   PE_S_GRS_1980_ADJ_MN_JACKSON,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_KANABEC, \
    "D_NAD_1983_HARN_Adj_MN_Kanabec", \
-   PE_S_GRS_1980_ADJ_MN_KANABEC
+   PE_S_GRS_1980_ADJ_MN_KANABEC,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_KANDIYOHI, \
    "D_NAD_1983_HARN_Adj_MN_Kandiyohi", \
-   PE_S_GRS_1980_ADJ_MN_KANDIYOHI
+   PE_S_GRS_1980_ADJ_MN_KANDIYOHI,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_KITTSON, \
    "D_NAD_1983_HARN_Adj_MN_Kittson", \
-   PE_S_GRS_1980_ADJ_MN_KITTSON
+   PE_S_GRS_1980_ADJ_MN_KITTSON,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_KOOCHICHING, \
    "D_NAD_1983_HARN_Adj_MN_Koochiching", \
-   PE_S_GRS_1980_ADJ_MN_KOOCHICHING
+   PE_S_GRS_1980_ADJ_MN_KOOCHICHING,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_LAC_QUI_PARLE, \
    "D_NAD_1983_HARN_Adj_MN_Lac_Qui_Parle", \
-   PE_S_GRS_1980_ADJ_MN_LAC_QUI_PARLE
+   PE_S_GRS_1980_ADJ_MN_LAC_QUI_PARLE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_LAKE_OF_THE_WOODS_N, \
    "D_NAD_1983_HARN_Adj_MN_Lake_of_the_Woods_North", \
-   PE_S_GRS_1980_ADJ_MN_LAKE_OF_THE_WOODS_N
+   PE_S_GRS_1980_ADJ_MN_LAKE_OF_THE_WOODS_N,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_LAKE_OF_THE_WOODS_S, \
    "D_NAD_1983_HARN_Adj_MN_Lake_of_the_Woods_South", \
-   PE_S_GRS_1980_ADJ_MN_LAKE_OF_THE_WOODS_S
+   PE_S_GRS_1980_ADJ_MN_LAKE_OF_THE_WOODS_S,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_LE_SUEUR, \
    "D_NAD_1983_HARN_Adj_MN_Le_Sueur", \
-   PE_S_GRS_1980_ADJ_MN_LE_SUEUR
+   PE_S_GRS_1980_ADJ_MN_LE_SUEUR,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_LINCOLN, \
    "D_NAD_1983_HARN_Adj_MN_Lincoln", \
-   PE_S_GRS_1980_ADJ_MN_LINCOLN
+   PE_S_GRS_1980_ADJ_MN_LINCOLN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_LYON, \
    "D_NAD_1983_HARN_Adj_MN_Lyon", \
-   PE_S_GRS_1980_ADJ_MN_LYON
+   PE_S_GRS_1980_ADJ_MN_LYON,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_MCLEOD, \
    "D_NAD_1983_HARN_Adj_MN_McLeod", \
-   PE_S_GRS_1980_ADJ_MN_MCLEOD
+   PE_S_GRS_1980_ADJ_MN_MCLEOD,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_MAHNOMEN, \
    "D_NAD_1983_HARN_Adj_MN_Mahnomen", \
-   PE_S_GRS_1980_ADJ_MN_MAHNOMEN
+   PE_S_GRS_1980_ADJ_MN_MAHNOMEN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_MARSHALL, \
    "D_NAD_1983_HARN_Adj_MN_Marshall", \
-   PE_S_GRS_1980_ADJ_MN_MARSHALL
+   PE_S_GRS_1980_ADJ_MN_MARSHALL,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_MARTIN, \
    "D_NAD_1983_HARN_Adj_MN_Martin", \
-   PE_S_GRS_1980_ADJ_MN_MARTIN
+   PE_S_GRS_1980_ADJ_MN_MARTIN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_MEEKER, \
    "D_NAD_1983_HARN_Adj_MN_Meeker", \
-   PE_S_GRS_1980_ADJ_MN_MEEKER
+   PE_S_GRS_1980_ADJ_MN_MEEKER,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_MORRISON, \
    "D_NAD_1983_HARN_Adj_MN_Morrison", \
-   PE_S_GRS_1980_ADJ_MN_MORRISON
+   PE_S_GRS_1980_ADJ_MN_MORRISON,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_MOWER, \
    "D_NAD_1983_HARN_Adj_MN_Mower", \
-   PE_S_GRS_1980_ADJ_MN_MOWER
+   PE_S_GRS_1980_ADJ_MN_MOWER,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_MURRAY, \
    "D_NAD_1983_HARN_Adj_MN_Murray", \
-   PE_S_GRS_1980_ADJ_MN_MURRAY
+   PE_S_GRS_1980_ADJ_MN_MURRAY,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_NICOLLET, \
    "D_NAD_1983_HARN_Adj_MN_Nicollet", \
-   PE_S_GRS_1980_ADJ_MN_NICOLLET
+   PE_S_GRS_1980_ADJ_MN_NICOLLET,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_NOBLES, \
    "D_NAD_1983_HARN_Adj_MN_Nobles", \
-   PE_S_GRS_1980_ADJ_MN_NOBLES
+   PE_S_GRS_1980_ADJ_MN_NOBLES,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_NORMAN, \
    "D_NAD_1983_HARN_Adj_MN_Norman", \
-   PE_S_GRS_1980_ADJ_MN_NORMAN
+   PE_S_GRS_1980_ADJ_MN_NORMAN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_OLMSTED, \
    "D_NAD_1983_HARN_Adj_MN_Olmsted", \
-   PE_S_GRS_1980_ADJ_MN_OLMSTED
+   PE_S_GRS_1980_ADJ_MN_OLMSTED,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_OTTERTAIL, \
    "D_NAD_1983_HARN_Adj_MN_Ottertail", \
-   PE_S_GRS_1980_ADJ_MN_OTTERTAIL
+   PE_S_GRS_1980_ADJ_MN_OTTERTAIL,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_PENNINGTON, \
    "D_NAD_1983_HARN_Adj_MN_Pennington", \
-   PE_S_GRS_1980_ADJ_MN_PENNINGTON
+   PE_S_GRS_1980_ADJ_MN_PENNINGTON,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_PINE, \
    "D_NAD_1983_HARN_Adj_MN_Pine", \
-   PE_S_GRS_1980_ADJ_MN_PINE
+   PE_S_GRS_1980_ADJ_MN_PINE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_PIPESTONE, \
    "D_NAD_1983_HARN_Adj_MN_Pipestone", \
-   PE_S_GRS_1980_ADJ_MN_PIPESTONE
+   PE_S_GRS_1980_ADJ_MN_PIPESTONE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_POLK, \
    "D_NAD_1983_HARN_Adj_MN_Polk", \
-   PE_S_GRS_1980_ADJ_MN_POLK
+   PE_S_GRS_1980_ADJ_MN_POLK,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_POPE, \
    "D_NAD_1983_HARN_Adj_MN_Pope", \
-   PE_S_GRS_1980_ADJ_MN_POPE
+   PE_S_GRS_1980_ADJ_MN_POPE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_RAMSEY, \
    "D_NAD_1983_HARN_Adj_MN_Ramsey", \
-   PE_S_GRS_1980_ADJ_MN_RAMSEY
+   PE_S_GRS_1980_ADJ_MN_RAMSEY,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_RED_LAKE, \
    "D_NAD_1983_HARN_Adj_MN_Red_Lake", \
-   PE_S_GRS_1980_ADJ_MN_RED_LAKE
+   PE_S_GRS_1980_ADJ_MN_RED_LAKE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_REDWOOD, \
    "D_NAD_1983_HARN_Adj_MN_Redwood", \
-   PE_S_GRS_1980_ADJ_MN_REDWOOD
+   PE_S_GRS_1980_ADJ_MN_REDWOOD,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_RENVILLE, \
    "D_NAD_1983_HARN_Adj_MN_Renville", \
-   PE_S_GRS_1980_ADJ_MN_RENVILLE
+   PE_S_GRS_1980_ADJ_MN_RENVILLE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_RICE, \
    "D_NAD_1983_HARN_Adj_MN_Rice", \
-   PE_S_GRS_1980_ADJ_MN_RICE
+   PE_S_GRS_1980_ADJ_MN_RICE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_ROCK, \
    "D_NAD_1983_HARN_Adj_MN_Rock", \
-   PE_S_GRS_1980_ADJ_MN_ROCK
+   PE_S_GRS_1980_ADJ_MN_ROCK,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_ROSEAU, \
    "D_NAD_1983_HARN_Adj_MN_Roseau", \
-   PE_S_GRS_1980_ADJ_MN_ROSEAU
+   PE_S_GRS_1980_ADJ_MN_ROSEAU,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_ST_LOUIS_N, \
    "D_NAD_1983_HARN_Adj_MN_St_Louis_North", \
-   PE_S_GRS_1980_ADJ_MN_ST_LOUIS_N
+   PE_S_GRS_1980_ADJ_MN_ST_LOUIS_N,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_ST_LOUIS_C, \
    "D_NAD_1983_HARN_Adj_MN_St_Louis_Central", \
-   PE_S_GRS_1980_ADJ_MN_ST_LOUIS_C
+   PE_S_GRS_1980_ADJ_MN_ST_LOUIS_C,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_ST_LOUIS_S, \
    "D_NAD_1983_HARN_Adj_MN_St_Louis_South", \
-   PE_S_GRS_1980_ADJ_MN_ST_LOUIS_S
+   PE_S_GRS_1980_ADJ_MN_ST_LOUIS_S,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_SCOTT, \
    "D_NAD_1983_HARN_Adj_MN_Scott", \
-   PE_S_GRS_1980_ADJ_MN_SCOTT
+   PE_S_GRS_1980_ADJ_MN_SCOTT,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_SHERBURNE, \
    "D_NAD_1983_HARN_Adj_MN_Sherburne", \
-   PE_S_GRS_1980_ADJ_MN_SHERBURNE
+   PE_S_GRS_1980_ADJ_MN_SHERBURNE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_SIBLEY, \
    "D_NAD_1983_HARN_Adj_MN_Sibley", \
-   PE_S_GRS_1980_ADJ_MN_SIBLEY
+   PE_S_GRS_1980_ADJ_MN_SIBLEY,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_STEARNS, \
    "D_NAD_1983_HARN_Adj_MN_Stearns", \
-   PE_S_GRS_1980_ADJ_MN_STEARNS
+   PE_S_GRS_1980_ADJ_MN_STEARNS,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_STEELE, \
    "D_NAD_1983_HARN_Adj_MN_Steele", \
-   PE_S_GRS_1980_ADJ_MN_STEELE
+   PE_S_GRS_1980_ADJ_MN_STEELE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_STEVENS, \
    "D_NAD_1983_HARN_Adj_MN_Stevens", \
-   PE_S_GRS_1980_ADJ_MN_STEVENS
+   PE_S_GRS_1980_ADJ_MN_STEVENS,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_SWIFT, \
    "D_NAD_1983_HARN_Adj_MN_Swift", \
-   PE_S_GRS_1980_ADJ_MN_SWIFT
+   PE_S_GRS_1980_ADJ_MN_SWIFT,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_TODD, \
    "D_NAD_1983_HARN_Adj_MN_Todd", \
-   PE_S_GRS_1980_ADJ_MN_TODD
+   PE_S_GRS_1980_ADJ_MN_TODD,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_TRAVERSE, \
    "D_NAD_1983_HARN_Adj_MN_Traverse", \
-   PE_S_GRS_1980_ADJ_MN_TRAVERSE
+   PE_S_GRS_1980_ADJ_MN_TRAVERSE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_WABASHA, \
    "D_NAD_1983_HARN_Adj_MN_Wabasha", \
-   PE_S_GRS_1980_ADJ_MN_WABASHA
+   PE_S_GRS_1980_ADJ_MN_WABASHA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_WADENA, \
    "D_NAD_1983_HARN_Adj_MN_Wadena", \
-   PE_S_GRS_1980_ADJ_MN_WADENA
+   PE_S_GRS_1980_ADJ_MN_WADENA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_WASECA, \
    "D_NAD_1983_HARN_Adj_MN_Waseca", \
-   PE_S_GRS_1980_ADJ_MN_WASECA
+   PE_S_GRS_1980_ADJ_MN_WASECA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_WATONWAN, \
    "D_NAD_1983_HARN_Adj_MN_Watonwan", \
-   PE_S_GRS_1980_ADJ_MN_WATONWAN
+   PE_S_GRS_1980_ADJ_MN_WATONWAN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_WINONA, \
    "D_NAD_1983_HARN_Adj_MN_Winona", \
-   PE_S_GRS_1980_ADJ_MN_WINONA
+   PE_S_GRS_1980_ADJ_MN_WINONA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_WRIGHT, \
    "D_NAD_1983_HARN_Adj_MN_Wright", \
-   PE_S_GRS_1980_ADJ_MN_WRIGHT
+   PE_S_GRS_1980_ADJ_MN_WRIGHT,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_YELLOW_MEDICINE, \
    "D_NAD_1983_HARN_Adj_MN_Yellow_Medicine", \
-   PE_S_GRS_1980_ADJ_MN_YELLOW_MEDICINE
+   PE_S_GRS_1980_ADJ_MN_YELLOW_MEDICINE,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_MN_ST_LOUIS, \
    "D_NAD_1983_HARN_Adj_MN_St_Louis", \
-   PE_S_GRS_1980_ADJ_MN_ST_LOUIS
+   PE_S_GRS_1980_ADJ_MN_ST_LOUIS,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_AL, \
    "D_NAD_1983_HARN_Adj_WI_AL", \
-   PE_S_GRS_1980_ADJ_WI_AL
+   PE_S_GRS_1980_ADJ_WI_AL,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_BA, \
    "D_NAD_1983_HARN_Adj_WI_BA", \
-   PE_S_GRS_1980_ADJ_WI_BA
+   PE_S_GRS_1980_ADJ_WI_BA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_BF, \
    "D_NAD_1983_HARN_Adj_WI_BF", \
-   PE_S_GRS_1980_ADJ_WI_BF
+   PE_S_GRS_1980_ADJ_WI_BF,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_BR, \
    "D_NAD_1983_HARN_Adj_WI_BR", \
-   PE_S_GRS_1980_ADJ_WI_BR
+   PE_S_GRS_1980_ADJ_WI_BR,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_BU, \
    "D_NAD_1983_HARN_Adj_WI_BU", \
-   PE_S_GRS_1980_ADJ_WI_BU
+   PE_S_GRS_1980_ADJ_WI_BU,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_BN, \
    "D_NAD_1983_HARN_Adj_WI_BN", \
-   PE_S_GRS_1980_ADJ_WI_BN
+   PE_S_GRS_1980_ADJ_WI_BN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_CP, \
    "D_NAD_1983_HARN_Adj_WI_CP", \
-   PE_S_GRS_1980_ADJ_WI_CP
+   PE_S_GRS_1980_ADJ_WI_CP,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_CK, \
    "D_NAD_1983_HARN_Adj_WI_CK", \
-   PE_S_GRS_1980_ADJ_WI_CK
+   PE_S_GRS_1980_ADJ_WI_CK,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_CO, \
    "D_NAD_1983_HARN_Adj_WI_CO", \
-   PE_S_GRS_1980_ADJ_WI_CO
+   PE_S_GRS_1980_ADJ_WI_CO,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_CR, \
    "D_NAD_1983_HARN_Adj_WI_CR", \
-   PE_S_GRS_1980_ADJ_WI_CR
+   PE_S_GRS_1980_ADJ_WI_CR,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_DN, \
    "D_NAD_1983_HARN_Adj_WI_DN", \
-   PE_S_GRS_1980_ADJ_WI_DN
+   PE_S_GRS_1980_ADJ_WI_DN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_DR, \
    "D_NAD_1983_HARN_Adj_WI_DR", \
-   PE_S_GRS_1980_ADJ_WI_DR
+   PE_S_GRS_1980_ADJ_WI_DR,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_DG, \
    "D_NAD_1983_HARN_Adj_WI_DG", \
-   PE_S_GRS_1980_ADJ_WI_DG
+   PE_S_GRS_1980_ADJ_WI_DG,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_DU, \
    "D_NAD_1983_HARN_Adj_WI_DU", \
-   PE_S_GRS_1980_ADJ_WI_DU
+   PE_S_GRS_1980_ADJ_WI_DU,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_EC, \
    "D_NAD_1983_HARN_Adj_WI_EC", \
-   PE_S_GRS_1980_ADJ_WI_EC
+   PE_S_GRS_1980_ADJ_WI_EC,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_FN, \
    "D_NAD_1983_HARN_Adj_WI_FN", \
-   PE_S_GRS_1980_ADJ_WI_FN
+   PE_S_GRS_1980_ADJ_WI_FN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_FR, \
    "D_NAD_1983_HARN_Adj_WI_FR", \
-   PE_S_GRS_1980_ADJ_WI_FR
+   PE_S_GRS_1980_ADJ_WI_FR,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_GT, \
    "D_NAD_1983_HARN_Adj_WI_GT", \
-   PE_S_GRS_1980_ADJ_WI_GT
+   PE_S_GRS_1980_ADJ_WI_GT,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_IA, \
    "D_NAD_1983_HARN_Adj_WI_IA", \
-   PE_S_GRS_1980_ADJ_WI_IA
+   PE_S_GRS_1980_ADJ_WI_IA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_IR, \
    "D_NAD_1983_HARN_Adj_WI_IR", \
-   PE_S_GRS_1980_ADJ_WI_IR
+   PE_S_GRS_1980_ADJ_WI_IR,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_JA, \
    "D_NAD_1983_HARN_Adj_WI_JA", \
-   PE_S_GRS_1980_ADJ_WI_JA
+   PE_S_GRS_1980_ADJ_WI_JA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_LC, \
    "D_NAD_1983_HARN_Adj_WI_LC", \
-   PE_S_GRS_1980_ADJ_WI_LC
+   PE_S_GRS_1980_ADJ_WI_LC,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_LG, \
    "D_NAD_1983_HARN_Adj_WI_LG", \
-   PE_S_GRS_1980_ADJ_WI_LG
+   PE_S_GRS_1980_ADJ_WI_LG,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_LN, \
    "D_NAD_1983_HARN_Adj_WI_LN", \
-   PE_S_GRS_1980_ADJ_WI_LN
+   PE_S_GRS_1980_ADJ_WI_LN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_MA, \
    "D_NAD_1983_HARN_Adj_WI_MA", \
-   PE_S_GRS_1980_ADJ_WI_MA
+   PE_S_GRS_1980_ADJ_WI_MA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_MN, \
    "D_NAD_1983_HARN_Adj_WI_MN", \
-   PE_S_GRS_1980_ADJ_WI_MN
+   PE_S_GRS_1980_ADJ_WI_MN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_ME, \
    "D_NAD_1983_HARN_Adj_WI_ME", \
-   PE_S_GRS_1980_ADJ_WI_ME
+   PE_S_GRS_1980_ADJ_WI_ME,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_MR, \
    "D_NAD_1983_HARN_Adj_WI_MR", \
-   PE_S_GRS_1980_ADJ_WI_MR
+   PE_S_GRS_1980_ADJ_WI_MR,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_OC, \
    "D_NAD_1983_HARN_Adj_WI_OC", \
-   PE_S_GRS_1980_ADJ_WI_OC
+   PE_S_GRS_1980_ADJ_WI_OC,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_ON, \
    "D_NAD_1983_HARN_Adj_WI_ON", \
-   PE_S_GRS_1980_ADJ_WI_ON
+   PE_S_GRS_1980_ADJ_WI_ON,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_PK, \
    "D_NAD_1983_HARN_Adj_WI_PK", \
-   PE_S_GRS_1980_ADJ_WI_PK
+   PE_S_GRS_1980_ADJ_WI_PK,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_PT, \
    "D_NAD_1983_HARN_Adj_WI_PT", \
-   PE_S_GRS_1980_ADJ_WI_PT
+   PE_S_GRS_1980_ADJ_WI_PT,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_PR, \
    "D_NAD_1983_HARN_Adj_WI_PR", \
-   PE_S_GRS_1980_ADJ_WI_PR
+   PE_S_GRS_1980_ADJ_WI_PR,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_RC, \
    "D_NAD_1983_HARN_Adj_WI_RC", \
-   PE_S_GRS_1980_ADJ_WI_RC
+   PE_S_GRS_1980_ADJ_WI_RC,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_RK, \
    "D_NAD_1983_HARN_Adj_WI_RK", \
-   PE_S_GRS_1980_ADJ_WI_RK
+   PE_S_GRS_1980_ADJ_WI_RK,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_RS, \
    "D_NAD_1983_HARN_Adj_WI_RS", \
-   PE_S_GRS_1980_ADJ_WI_RS
+   PE_S_GRS_1980_ADJ_WI_RS,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_SC, \
    "D_NAD_1983_HARN_Adj_WI_SC", \
-   PE_S_GRS_1980_ADJ_WI_SC
+   PE_S_GRS_1980_ADJ_WI_SC,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_SK, \
    "D_NAD_1983_HARN_Adj_WI_SK", \
-   PE_S_GRS_1980_ADJ_WI_SK
+   PE_S_GRS_1980_ADJ_WI_SK,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_SW, \
    "D_NAD_1983_HARN_Adj_WI_SW", \
-   PE_S_GRS_1980_ADJ_WI_SW
+   PE_S_GRS_1980_ADJ_WI_SW,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_SH, \
    "D_NAD_1983_HARN_Adj_WI_SH", \
-   PE_S_GRS_1980_ADJ_WI_SH
+   PE_S_GRS_1980_ADJ_WI_SH,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_TA, \
    "D_NAD_1983_HARN_Adj_WI_TA", \
-   PE_S_GRS_1980_ADJ_WI_TA
+   PE_S_GRS_1980_ADJ_WI_TA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_TR, \
    "D_NAD_1983_HARN_Adj_WI_TR", \
-   PE_S_GRS_1980_ADJ_WI_TR
+   PE_S_GRS_1980_ADJ_WI_TR,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_VR, \
    "D_NAD_1983_HARN_Adj_WI_VR", \
-   PE_S_GRS_1980_ADJ_WI_VR
+   PE_S_GRS_1980_ADJ_WI_VR,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_VI, \
    "D_NAD_1983_HARN_Adj_WI_VI", \
-   PE_S_GRS_1980_ADJ_WI_VI
+   PE_S_GRS_1980_ADJ_WI_VI,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_WW, \
    "D_NAD_1983_HARN_Adj_WI_WW", \
-   PE_S_GRS_1980_ADJ_WI_WW
+   PE_S_GRS_1980_ADJ_WI_WW,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_WB, \
    "D_NAD_1983_HARN_Adj_WI_WB", \
-   PE_S_GRS_1980_ADJ_WI_WB
+   PE_S_GRS_1980_ADJ_WI_WB,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_WA, \
    "D_NAD_1983_HARN_Adj_WI_WA", \
-   PE_S_GRS_1980_ADJ_WI_WA
+   PE_S_GRS_1980_ADJ_WI_WA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_WK, \
    "D_NAD_1983_HARN_Adj_WI_WK", \
-   PE_S_GRS_1980_ADJ_WI_WK
+   PE_S_GRS_1980_ADJ_WI_WK,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_WP, \
    "D_NAD_1983_HARN_Adj_WI_WP", \
-   PE_S_GRS_1980_ADJ_WI_WP
+   PE_S_GRS_1980_ADJ_WI_WP,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_WS, \
    "D_NAD_1983_HARN_Adj_WI_WS", \
-   PE_S_GRS_1980_ADJ_WI_WS
+   PE_S_GRS_1980_ADJ_WI_WS,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_WD, \
    "D_NAD_1983_HARN_Adj_WI_WD", \
-   PE_S_GRS_1980_ADJ_WI_WD
+   PE_S_GRS_1980_ADJ_WI_WD,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_AD_JN, \
    "D_NAD_1983_HARN_Adj_WI_AD_JN", \
-   PE_S_GRS_1980_ADJ_WI_AD_JN
+   PE_S_GRS_1980_ADJ_WI_AD_JN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_GR_LF, \
    "D_NAD_1983_HARN_Adj_WI_GR_LF", \
-   PE_S_GRS_1980_ADJ_WI_GR_LF
+   PE_S_GRS_1980_ADJ_WI_GR_LF,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_GL_MQ, \
    "D_NAD_1983_HARN_Adj_WI_GL_MQ", \
-   PE_S_GRS_1980_ADJ_WI_GL_MQ
+   PE_S_GRS_1980_ADJ_WI_GL_MQ,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_DD_JF, \
    "D_NAD_1983_HARN_Adj_WI_DD_JF", \
-   PE_S_GRS_1980_ADJ_WI_DD_JF
+   PE_S_GRS_1980_ADJ_WI_DD_JF,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_PP_PC, \
    "D_NAD_1983_HARN_Adj_WI_PP_PC", \
-   PE_S_GRS_1980_ADJ_WI_PP_PC
+   PE_S_GRS_1980_ADJ_WI_PP_PC,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_CL_FL_OG_WN, \
    "D_NAD_1983_HARN_Adj_WI_CL_FL_OG_WN", \
-   PE_S_GRS_1980_ADJ_WI_CL_FL_OG_WN
+   PE_S_GRS_1980_ADJ_WI_CL_FL_OG_WN,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_KN_MW_OZ_RA, \
    "D_NAD_1983_HARN_Adj_WI_KN_MW_OZ_RA", \
-   PE_S_GRS_1980_ADJ_WI_KN_MW_OZ_RA
+   PE_S_GRS_1980_ADJ_WI_KN_MW_OZ_RA,
+   ""
 
 PE_D_NAD_1983_HARN_ADJ_WI_KW_MT_SG, \
    "D_NAD_1983_HARN_Adj_WI_KW_MT_SG", \
-   PE_S_GRS_1980_ADJ_WI_KW_MT_SG
+   PE_S_GRS_1980_ADJ_WI_KW_MT_SG,
+   ""
 
 PE_D_XT_MERCURY_2000, \
    "D_Mercury_2000", \
-   PE_S_XT_MERCURY_2000
+   PE_S_XT_MERCURY_2000,
+   ""
 
 PE_D_XT_VENUS_1985, \
    "D_Venus_1985", \
-   PE_S_XT_VENUS_1985
+   PE_S_XT_VENUS_1985,
+   ""
 
 PE_D_XT_VENUS_2000, \
    "D_Venus_2000", \
-   PE_S_XT_VENUS_2000
+   PE_S_XT_VENUS_2000,
+   ""
 
 PE_D_XT_MOON_2000, \
    "D_Moon_2000", \
-   PE_S_XT_MOON_2000
+   PE_S_XT_MOON_2000,
+   ""
 
 PE_D_XT_MARS_1979, \
    "D_Mars_1979", \
-   PE_S_XT_MARS_1979
+   PE_S_XT_MARS_1979,
+   ""
 
 PE_D_XT_MARS_2000, \
    "D_Mars_2000", \
-   PE_S_XT_MARS_2000
+   PE_S_XT_MARS_2000,
+   ""
 
 PE_D_XT_DEIMOS_2000, \
    "D_Deimos_2000", \
-   PE_S_XT_DEIMOS_2000
+   PE_S_XT_DEIMOS_2000,
+   ""
 
 PE_D_XT_PHOBOS_2000, \
    "D_Phobos_2000", \
-   PE_S_XT_PHOBOS_2000
+   PE_S_XT_PHOBOS_2000,
+   ""
 
 PE_D_XT_JUPITER_2000, \
    "D_Jupiter_2000", \
-   PE_S_XT_JUPITER_2000
+   PE_S_XT_JUPITER_2000,
+   ""
 
 PE_D_XT_ADRASTEA_2000, \
    "D_Adrastea_2000", \
-   PE_S_XT_ADRASTEA_2000
+   PE_S_XT_ADRASTEA_2000,
+   ""
 
 PE_D_XT_AMALTHEA_2000, \
    "D_Amalthea_2000", \
-   PE_S_XT_AMALTHEA_2000
+   PE_S_XT_AMALTHEA_2000,
+   ""
 
 PE_D_XT_ANANKE_2000, \
    "D_Ananke_2000", \
-   PE_S_XT_ANANKE_2000
+   PE_S_XT_ANANKE_2000,
+   ""
 
 PE_D_XT_CALLISTO_2000, \
    "D_Callisto_2000", \
-   PE_S_XT_CALLISTO_2000
+   PE_S_XT_CALLISTO_2000,
+   ""
 
 PE_D_XT_CARME_2000, \
    "D_Carme_2000", \
-   PE_S_XT_CARME_2000
+   PE_S_XT_CARME_2000,
+   ""
 
 PE_D_XT_ELARA_2000, \
    "D_Elara_2000", \
-   PE_S_XT_ELARA_2000
+   PE_S_XT_ELARA_2000,
+   ""
 
 PE_D_XT_EUROPA_2000, \
    "D_Europa_2000", \
-   PE_S_XT_EUROPA_2000
+   PE_S_XT_EUROPA_2000,
+   ""
 
 PE_D_XT_GANYMEDE_2000, \
    "D_Ganymede_2000", \
-   PE_S_XT_GANYMEDE_2000
+   PE_S_XT_GANYMEDE_2000,
+   ""
 
 PE_D_XT_HIMALIA_2000, \
    "D_Himalia_2000", \
-   PE_S_XT_HIMALIA_2000
+   PE_S_XT_HIMALIA_2000,
+   ""
 
 PE_D_XT_IO_2000, \
    "D_Io_2000", \
-   PE_S_XT_IO_2000
+   PE_S_XT_IO_2000,
+   ""
 
 PE_D_XT_LEDA_2000, \
    "D_Leda_2000", \
-   PE_S_XT_LEDA_2000
+   PE_S_XT_LEDA_2000,
+   ""
 
 PE_D_XT_LYSITHEA_2000, \
    "D_Lysithea_2000", \
-   PE_S_XT_LYSITHEA_2000
+   PE_S_XT_LYSITHEA_2000,
+   ""
 
 PE_D_XT_METIS_2000, \
    "D_Metis_2000", \
-   PE_S_XT_METIS_2000
+   PE_S_XT_METIS_2000,
+   ""
 
 PE_D_XT_PASIPHAE_2000, \
    "D_Pasiphae_2000", \
-   PE_S_XT_PASIPHAE_2000
+   PE_S_XT_PASIPHAE_2000,
+   ""
 
 PE_D_XT_SINOPE_2000, \
    "D_Sinope_2000", \
-   PE_S_XT_SINOPE_2000
+   PE_S_XT_SINOPE_2000,
+   ""
 
 PE_D_XT_THEBE_2000, \
    "D_Thebe_2000", \
-   PE_S_XT_THEBE_2000
+   PE_S_XT_THEBE_2000,
+   ""
 
 PE_D_XT_SATURN_2000, \
    "D_Saturn_2000", \
-   PE_S_XT_SATURN_2000
+   PE_S_XT_SATURN_2000,
+   ""
 
 PE_D_XT_ATLAS_2000, \
    "D_Atlas_2000", \
-   PE_S_XT_ATLAS_2000
+   PE_S_XT_ATLAS_2000,
+   ""
 
 PE_D_XT_CALYPSO_2000, \
    "D_Calypso_2000", \
-   PE_S_XT_CALYPSO_2000
+   PE_S_XT_CALYPSO_2000,
+   ""
 
 PE_D_XT_DIONE_2000, \
    "D_Dione_2000", \
-   PE_S_XT_DIONE_2000
+   PE_S_XT_DIONE_2000,
+   ""
 
 PE_D_XT_ENCELADUS_2000, \
    "D_Enceladus_2000", \
-   PE_S_XT_ENCELADUS_2000
+   PE_S_XT_ENCELADUS_2000,
+   ""
 
 PE_D_XT_EPIMETHEUS_2000, \
    "D_Epimetheus_2000", \
-   PE_S_XT_EPIMETHEUS_2000
+   PE_S_XT_EPIMETHEUS_2000,
+   ""
 
 PE_D_XT_HELENE_2000, \
    "D_Helene_2000", \
-   PE_S_XT_HELENE_2000
+   PE_S_XT_HELENE_2000,
+   ""
 
 PE_D_XT_HYPERION_2000, \
    "D_Hyperion_2000", \
-   PE_S_XT_HYPERION_2000
+   PE_S_XT_HYPERION_2000,
+   ""
 
 PE_D_XT_IAPETUS_2000, \
    "D_Iapetus_2000", \
-   PE_S_XT_IAPETUS_2000
+   PE_S_XT_IAPETUS_2000,
+   ""
 
 PE_D_XT_JANUS_2000, \
    "D_Janus_2000", \
-   PE_S_XT_JANUS_2000
+   PE_S_XT_JANUS_2000,
+   ""
 
 PE_D_XT_MIMAS_2000, \
    "D_Mimas_2000", \
-   PE_S_XT_MIMAS_2000
+   PE_S_XT_MIMAS_2000,
+   ""
 
 PE_D_XT_PAN_2000, \
    "D_Pan_2000", \
-   PE_S_XT_PAN_2000
+   PE_S_XT_PAN_2000,
+   ""
 
 PE_D_XT_PANDORA_2000, \
    "D_Pandora_2000", \
-   PE_S_XT_PANDORA_2000
+   PE_S_XT_PANDORA_2000,
+   ""
 
 PE_D_XT_PHOEBE_2000, \
    "D_Phoebe_2000", \
-   PE_S_XT_PHOEBE_2000
+   PE_S_XT_PHOEBE_2000,
+   ""
 
 PE_D_XT_PROMETHEUS_2000, \
    "D_Prometheus_2000", \
-   PE_S_XT_PROMETHEUS_2000
+   PE_S_XT_PROMETHEUS_2000,
+   ""
 
 PE_D_XT_RHEA_2000, \
    "D_Rhea_2000", \
-   PE_S_XT_RHEA_2000
+   PE_S_XT_RHEA_2000,
+   ""
 
 PE_D_XT_TELESTO_2000, \
    "D_Telesto_2000", \
-   PE_S_XT_TELESTO_2000
+   PE_S_XT_TELESTO_2000,
+   ""
 
 PE_D_XT_TETHYS_2000, \
    "D_Tethys_2000", \
-   PE_S_XT_TETHYS_2000
+   PE_S_XT_TETHYS_2000,
+   ""
 
 PE_D_XT_TITAN_2000, \
    "D_Titan_2000", \
-   PE_S_XT_TITAN_2000
+   PE_S_XT_TITAN_2000,
+   ""
 
 PE_D_XT_URANUS_2000, \
    "D_Uranus_2000", \
-   PE_S_XT_URANUS_2000
+   PE_S_XT_URANUS_2000,
+   ""
 
 PE_D_XT_ARIEL_2000, \
    "D_Ariel_2000", \
-   PE_S_XT_ARIEL_2000
+   PE_S_XT_ARIEL_2000,
+   ""
 
 PE_D_XT_BELINDA_2000, \
    "D_Belinda_2000", \
-   PE_S_XT_BELINDA_2000
+   PE_S_XT_BELINDA_2000,
+   ""
 
 PE_D_XT_BIANCA_2000, \
    "D_Bianca_2000", \
-   PE_S_XT_BIANCA_2000
+   PE_S_XT_BIANCA_2000,
+   ""
 
 PE_D_XT_CORDELIA_2000, \
    "D_Cordelia_2000", \
-   PE_S_XT_CORDELIA_2000
+   PE_S_XT_CORDELIA_2000,
+   ""
 
 PE_D_XT_CRESSIDA_2000, \
    "D_Cressida_2000", \
-   PE_S_XT_CRESSIDA_2000
+   PE_S_XT_CRESSIDA_2000,
+   ""
 
 PE_D_XT_DESDEMONA_2000, \
    "D_Desdemona_2000", \
-   PE_S_XT_DESDEMONA_2000
+   PE_S_XT_DESDEMONA_2000,
+   ""
 
 PE_D_XT_JULIET_2000, \
    "D_Juliet_2000", \
-   PE_S_XT_JULIET_2000
+   PE_S_XT_JULIET_2000,
+   ""
 
 PE_D_XT_MIRANDA_2000, \
    "D_Miranda_2000", \
-   PE_S_XT_MIRANDA_2000
+   PE_S_XT_MIRANDA_2000,
+   ""
 
 PE_D_XT_OBERON_2000, \
    "D_Oberon_2000", \
-   PE_S_XT_OBERON_2000
+   PE_S_XT_OBERON_2000,
+   ""
 
 PE_D_XT_OPHELIA_2000, \
    "D_Ophelia_2000", \
-   PE_S_XT_OPHELIA_2000
+   PE_S_XT_OPHELIA_2000,
+   ""
 
 PE_D_XT_PORTIA_2000, \
    "D_Portia_2000", \
-   PE_S_XT_PORTIA_2000
+   PE_S_XT_PORTIA_2000,
+   ""
 
 PE_D_XT_PUCK_2000, \
    "D_Puck_2000", \
-   PE_S_XT_PUCK_2000
+   PE_S_XT_PUCK_2000,
+   ""
 
 PE_D_XT_ROSALIND_2000, \
    "D_Rosalind_2000", \
-   PE_S_XT_ROSALIND_2000
+   PE_S_XT_ROSALIND_2000,
+   ""
 
 PE_D_XT_TITANIA_2000, \
    "D_Titania_2000", \
-   PE_S_XT_TITANIA_2000
+   PE_S_XT_TITANIA_2000,
+   ""
 
 PE_D_XT_UMBRIEL_2000, \
    "D_Umbriel_2000", \
-   PE_S_XT_UMBRIEL_2000
+   PE_S_XT_UMBRIEL_2000,
+   ""
 
 PE_D_XT_NEPTUNE_2000, \
    "D_Neptune_2000", \
-   PE_S_XT_NEPTUNE_2000
+   PE_S_XT_NEPTUNE_2000,
+   ""
 
 PE_D_XT_DESPINA_2000, \
    "D_Despina_2000", \
-   PE_S_XT_DESPINA_2000
+   PE_S_XT_DESPINA_2000,
+   ""
 
 PE_D_XT_GALATEA_2000, \
    "D_Galatea_2000", \
-   PE_S_XT_GALATEA_2000
+   PE_S_XT_GALATEA_2000,
+   ""
 
 PE_D_XT_LARISSA_2000, \
    "D_Larissa_2000", \
-   PE_S_XT_LARISSA_2000
+   PE_S_XT_LARISSA_2000,
+   ""
 
 PE_D_XT_NAIAD_2000, \
    "D_Naiad_2000", \
-   PE_S_XT_NAIAD_2000
+   PE_S_XT_NAIAD_2000,
+   ""
 
 PE_D_XT_NEREID_2000, \
    "D_Nereid_2000", \
-   PE_S_XT_NEREID_2000
+   PE_S_XT_NEREID_2000,
+   ""
 
 PE_D_XT_PROTEUS_2000, \
    "D_Proteus_2000", \
-   PE_S_XT_PROTEUS_2000
+   PE_S_XT_PROTEUS_2000,
+   ""
 
 PE_D_XT_THALASSA_2000, \
    "D_Thalassa_2000", \
-   PE_S_XT_THALASSA_2000
+   PE_S_XT_THALASSA_2000,
+   ""
 
 PE_D_XT_TRITON_2000, \
    "D_Triton_2000", \
-   PE_S_XT_TRITON_2000
+   PE_S_XT_TRITON_2000,
+   ""
 
 PE_D_XT_PLUTO_2000, \
    "D_Pluto_2000", \
-   PE_S_XT_PLUTO_2000
+   PE_S_XT_PLUTO_2000,
+   ""
 
 PE_D_XT_CHARON_2000, \
    "D_Charon_2000", \
-   PE_S_XT_CHARON_2000
+   PE_S_XT_CHARON_2000,
+   ""
 
 PE_D_XT_MARS_2000_SPHERE, \
    "Mars_2000_(Sphere)", \
-   PE_S_MARS_2000_SPHERE
+   PE_S_MARS_2000_SPHERE,
+   ""
 
 PE_D_XT_1_CERES_2015, \
    "1_Ceres_2015", \
-   PE_S_1_CERES_2015
+   PE_S_1_CERES_2015,
+   ""
 
 PE_D_XT_4_VESTA_2015, \
    "4_Vesta_2015", \
-   PE_S_4_VESTA_2015
+   PE_S_4_VESTA_2015,
+   ""
 
 PE_D_XT_MERCURY_2015, \
    "Mercury_2015", \
-   PE_S_MERCURY_2015
+   PE_S_MERCURY_2015,
+   ""
 
 PE_D_XT_SUN_2015, \
    "Sun_2015", \
-   PE_S_XT_SUN_2015
+   PE_S_XT_SUN_2015,
+   ""
 

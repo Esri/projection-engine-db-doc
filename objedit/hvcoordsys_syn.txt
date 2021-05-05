@@ -74,6 +74,26 @@
    FALSE, \
    "EPSG"
 
+"ETRS89 / DKTM1 + DVR90 height", \
+   "ETRS_1989_DKTM1_and_DVR90_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / DKTM2 + DVR90 height", \
+   "ETRS_1989_DKTM2_and_DVR90_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / DKTM3 + DVR90 height", \
+   "ETRS_1989_DKTM3_and_DVR90_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / DKTM4 + DVR90 height", \
+   "ETRS_1989_DKTM4_and_DVR90_height", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 / Faroe TM + FVR09 height", \
    "HVC_ETRS_1989_Faroe_TM_and_FVR09_height", \
    FALSE, \
@@ -354,13 +374,13 @@
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 31 + NN2000 height", \
-   "HVC_ETRS_1989_UTM_Zone_31_and_NN2000_height", \
+"ETRS89 / TM35FIN(N,E) + N2000 height", \
+   "ETRS_1989_TM35FIN_and_N2000_height", \
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 31 + NN54 height", \
-   "HVC_ETRS_1989_NTM_Zone_31_and_NN54_height", \
+"ETRS89 / TM35FIN(N,E) + N60 height", \
+   "ETRS_1989_TM35FIN_and_N60_height", \
    FALSE, \
    "EPSG"
 
@@ -369,13 +389,13 @@
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 32 + NN2000 height", \
-   "HVC_ETRS_1989_UTM_Zone_32_and_NN2000_height", \
+"ETRS89 / UTM zone 31N + NN2000 height", \
+   "HVC_ETRS_1989_UTM_Zone_31_and_NN2000_height", \
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 32 + NN54 height", \
-   "HVC_ETRS_1989_NTM_Zone_32_and_NN54_height", \
+"ETRS89 / UTM zone 31N + NN54 height", \
+   "HVC_ETRS_1989_NTM_Zone_31_and_NN54_height", \
    FALSE, \
    "EPSG"
 
@@ -389,13 +409,13 @@
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 33 + NN2000 height", \
-   "HVC_ETRS_1989_UTM_Zone_33_and_NN2000_height", \
+"ETRS89 / UTM zone 32N + NN2000 height", \
+   "HVC_ETRS_1989_UTM_Zone_32_and_NN2000_height", \
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 33 + NN54 height", \
-   "HVC_ETRS_1989_NTM_Zone_33_and_NN54_height", \
+"ETRS89 / UTM zone 32N + NN54 height", \
+   "HVC_ETRS_1989_NTM_Zone_32_and_NN54_height", \
    FALSE, \
    "EPSG"
 
@@ -409,32 +429,42 @@
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 34 + NN2000 height", \
+"ETRS89 / UTM zone 33N + NN2000 height", \
+   "HVC_ETRS_1989_UTM_Zone_33_and_NN2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / UTM zone 33N + NN54 height", \
+   "HVC_ETRS_1989_NTM_Zone_33_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / UTM zone 34N + NN2000 height", \
    "HVC_ETRS_1989_UTM_Zone_34_and_NN2000_height", \
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 34 + NN54 height", \
+"ETRS89 / UTM zone 34N + NN54 height", \
    "HVC_ETRS_1989_NTM_Zone_34_and_NN54_height", \
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 35 + NN2000 height", \
+"ETRS89 / UTM zone 35N + NN2000 height", \
    "HVC_ETRS_1989_UTM_Zone_35_and_NN2000_height", \
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 35 + NN54 height", \
+"ETRS89 / UTM zone 35N + NN54 height", \
    "HVC_ETRS_1989_NTM_Zone_35_and_NN54_height", \
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 36 + NN2000 height", \
+"ETRS89 / UTM zone 36N + NN2000 height", \
    "HVC_ETRS_1989_UTM_Zone_36_and_NN2000_height", \
    FALSE, \
    "EPSG"
 
-"ETRS89 / UTM zone 36 + NN54 height", \
+"ETRS89 / UTM zone 36N + NN54 height", \
    "HVC_ETRS_1989_NTM_Zone_36_and_NN54_height", \
    FALSE, \
    "EPSG"
@@ -461,6 +491,11 @@
 
 "JGD2011 + JGD2011 (vertical) height", \
    "HVC_JGD2011_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"KKJ / Finland Uniform Coordinate System + N60 height", \
+   "KKJ_Finland_Uniform_Coordinate_System_and_N60_height", \
    FALSE, \
    "EPSG"
 
@@ -1214,12 +1249,12 @@
    FALSE, \
    "EPSG"
 
-"SHMG2015 +  SHVD2015 height", \
+"SHMG2015 + SHVD2015 height", \
    "SHMG2015_and_SHVD2015_height", \
    FALSE, \
    "EPSG"
 
-"St. Helena Tritan / UTM zone 30S +  Tritan 2011 height", \
+"St. Helena Tritan / UTM zone 30S + Tritan 2011 height", \
    "St_Helena_Tritan_UTM_Zone_30S_and_Tritan_2011_height", \
    FALSE, \
    "EPSG"
@@ -1314,7 +1349,12 @@
    FALSE, \
    "EPSG"
 
-"WGS 84 / World Mercator +  EGM2008 height", \
+"TPEN11 Grid + ODN height", \
+   "TPEN11_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / World Mercator + EGM2008 height", \
    "HVC_WGS_1984_World_Mercator_and_EGM2008_height", \
    FALSE, \
    "EPSG"

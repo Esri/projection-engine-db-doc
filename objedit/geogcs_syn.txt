@@ -3147,11 +3147,6 @@
 "Pico de las Nieves 1984", \
    "Pico_de_Las_Nieves", \
    FALSE, \
-   "EPSG"
-
-"Pico de las Nieves 1984", \
-   "Pico_de_Las_Nieves", \
-   FALSE, \
    "PostGIS"
 
 "Pico de las Nieves 1984", \
@@ -3163,6 +3158,11 @@
    "Reunion_1947", \
    FALSE, \
    "Oracle"
+
+"PN84", \
+   "Pico_de_Las_Nieves", \
+   FALSE, \
+   "EPSG"
 
 "Popular Visualisation CRS", \
    "WGS_1984_Major_Auxiliary_Sphere", \
@@ -4317,11 +4317,6 @@
 "Unknown datum based upon the Airy 1830 ellipsoid", \
    "Airy_1830", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Airy 1830 ellipsoid", \
-   "Airy_1830", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Airy 1830 ellipsoid", \
@@ -4342,11 +4337,6 @@
 "Unknown datum based upon the Airy Modified 1849 ellipsoid", \
    "Airy_Modified", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Airy Modified 1849 ellipsoid", \
-   "Airy_Modified", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Airy Modified 1849 ellipsoid", \
@@ -4363,11 +4353,6 @@
    "Airy_Modified", \
    FALSE, \
    "Teradata"
-
-"Unknown datum based upon the Australian National Spheroid", \
-   "Australian", \
-   FALSE, \
-   "EPSG"
 
 "Unknown datum based upon the Australian National Spheroid", \
    "Australian", \
@@ -4427,11 +4412,6 @@
 "Unknown datum based upon the Bessel 1841 ellipsoid", \
    "Bessel_1841", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Bessel 1841 ellipsoid", \
-   "Bessel_1841", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Bessel 1841 ellipsoid", \
@@ -4448,11 +4428,6 @@
    "Bessel_1841", \
    FALSE, \
    "Teradata"
-
-"Unknown datum based upon the Bessel Modified ellipsoid", \
-   "Bessel_Modified", \
-   FALSE, \
-   "EPSG"
 
 "Unknown datum based upon the Bessel Modified ellipsoid", \
    "Bessel_Modified", \
@@ -4477,11 +4452,6 @@
 "Unknown datum based upon the Bessel Namibia ellipsoid", \
    "Bessel_Namibia", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Bessel Namibia ellipsoid", \
-   "Bessel_Namibia", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Bessel Namibia ellipsoid", \
@@ -4502,11 +4472,6 @@
 "Unknown datum based upon the Clarke 1858 ellipsoid", \
    "Clarke_1858", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Clarke 1858 ellipsoid", \
-   "Clarke_1858", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Clarke 1858 ellipsoid", \
@@ -4523,11 +4488,6 @@
    "Clarke_1858", \
    FALSE, \
    "Teradata"
-
-"Unknown datum based upon the Clarke 1866 ellipsoid", \
-   "Clarke_1866", \
-   FALSE, \
-   "EPSG"
 
 "Unknown datum based upon the Clarke 1866 ellipsoid", \
    "Clarke_1866", \
@@ -4572,11 +4532,6 @@
 "Unknown datum based upon the Clarke 1880 (Arc) ellipsoid", \
    "Clarke_1880_Arc", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Clarke 1880 (Arc) ellipsoid", \
-   "Clarke_1880_Arc", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Clarke 1880 (Arc) ellipsoid", \
@@ -4597,11 +4552,6 @@
 "Unknown datum based upon the Clarke 1880 (Benoit) ellipsoid", \
    "Clarke_1880_Benoit", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Clarke 1880 (Benoit) ellipsoid", \
-   "Clarke_1880_Benoit", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Clarke 1880 (Benoit) ellipsoid", \
@@ -4622,11 +4572,6 @@
 "Unknown datum based upon the Clarke 1880 ellipsoid", \
    "Clarke_1880", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Clarke 1880 ellipsoid", \
-   "Clarke_1880", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Clarke 1880 ellipsoid", \
@@ -4647,11 +4592,6 @@
 "Unknown datum based upon the Clarke 1880 (IGN) ellipsoid", \
    "Clarke_1880_IGN", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Clarke 1880 (IGN) ellipsoid", \
-   "Clarke_1880_IGN", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Clarke 1880 (IGN) ellipsoid", \
@@ -4672,11 +4612,6 @@
 "Unknown datum based upon the Clarke 1880 (RGS) ellipsoid", \
    "Clarke_1880_RGS", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Clarke 1880 (RGS) ellipsoid", \
-   "Clarke_1880_RGS", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Clarke 1880 (RGS) ellipsoid", \
@@ -4697,11 +4632,6 @@
 "Unknown datum based upon the Clarke 1880 (SGA 1922) ellipsoid", \
    "Clarke_1880_SGA", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Clarke 1880 (SGA 1922) ellipsoid", \
-   "Clarke_1880_SGA", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Clarke 1880 (SGA 1922) ellipsoid", \
@@ -4722,11 +4652,6 @@
 "Unknown datum based upon the Everest 1830 (1937 Adjustment) ellipsoid", \
    "Everest_Adj_1937", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Everest 1830 (1937 Adjustment) ellipsoid", \
-   "Everest_Adj_1937", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Everest 1830 (1937 Adjustment) ellipsoid", \
@@ -4747,11 +4672,6 @@
 "Unknown datum based upon the Everest 1830 (1962 Definition) ellipsoid", \
    "Everest_def_1962", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Everest 1830 (1962 Definition) ellipsoid", \
-   "Everest_def_1962", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Everest 1830 (1962 Definition) ellipsoid", \
@@ -4772,11 +4692,6 @@
 "Unknown datum based upon the Everest 1830 (1967 Definition) ellipsoid", \
    "Everest_def_1967", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Everest 1830 (1967 Definition) ellipsoid", \
-   "Everest_def_1967", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Everest 1830 (1967 Definition) ellipsoid", \
@@ -4797,11 +4712,6 @@
 "Unknown datum based upon the Everest 1830 (1975 Definition) ellipsoid", \
    "Everest_def_1975", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Everest 1830 (1975 Definition) ellipsoid", \
-   "Everest_def_1975", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Everest 1830 (1975 Definition) ellipsoid", \
@@ -4822,11 +4732,6 @@
 "Unknown datum based upon the Everest (1830 Definition) ellipsoid", \
    "Everest_1830", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Everest (1830 Definition) ellipsoid", \
-   "Everest_1830", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Everest (1830 Definition) ellipsoid", \
@@ -4847,11 +4752,6 @@
 "Unknown datum based upon the Everest 1830 Modified ellipsoid", \
    "Everest_Modified", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Everest 1830 Modified ellipsoid", \
-   "Everest_Modified", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Everest 1830 Modified ellipsoid", \
@@ -4872,11 +4772,6 @@
 "Unknown datum based upon the GEM 10C ellipsoid", \
    "GEM_10C", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the GEM 10C ellipsoid", \
-   "GEM_10C", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the GEM 10C ellipsoid", \
@@ -4897,11 +4792,6 @@
 "Unknown datum based upon the GRS 1967 ellipsoid", \
    "GRS_1967", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the GRS 1967 ellipsoid", \
-   "GRS_1967", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the GRS 1967 ellipsoid", \
@@ -4922,11 +4812,6 @@
 "Unknown datum based upon the GRS 1980 ellipsoid", \
    "GRS_1980", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the GRS 1980 ellipsoid", \
-   "GRS_1980", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the GRS 1980 ellipsoid", \
@@ -4947,11 +4832,6 @@
 "Unknown datum based upon the Helmert 1906 ellipsoid", \
    "Helmert_1906", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Helmert 1906 ellipsoid", \
-   "Helmert_1906", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Helmert 1906 ellipsoid", \
@@ -4972,11 +4852,6 @@
 "Unknown datum based upon the Indonesian National Spheroid", \
    "Indonesian", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Indonesian National Spheroid", \
-   "Indonesian", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Indonesian National Spheroid", \
@@ -4997,11 +4872,6 @@
 "Unknown datum based upon the International 1924 ellipsoid", \
    "International_1924", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the International 1924 ellipsoid", \
-   "International_1924", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the International 1924 ellipsoid", \
@@ -5022,11 +4892,6 @@
 "Unknown datum based upon the Krassowsky 1940 ellipsoid", \
    "Krasovsky_1940", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Krassowsky 1940 ellipsoid", \
-   "Krasovsky_1940", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Krassowsky 1940 ellipsoid", \
@@ -5047,11 +4912,6 @@
 "Unknown datum based upon the NWL 9D ellipsoid", \
    "NWL_9D", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the NWL 9D ellipsoid", \
-   "NWL_9D", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the NWL 9D ellipsoid", \
@@ -5072,11 +4932,6 @@
 "Unknown datum based upon the OSU86F ellipsoid", \
    "OSU_86F", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the OSU86F ellipsoid", \
-   "OSU_86F", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the OSU86F ellipsoid", \
@@ -5093,11 +4948,6 @@
    "OSU_86F", \
    FALSE, \
    "Teradata"
-
-"Unknown datum based upon the OSU91A ellipsoid", \
-   "OSU_91A", \
-   FALSE, \
-   "EPSG"
 
 "Unknown datum based upon the OSU91A ellipsoid", \
    "OSU_91A", \
@@ -5122,11 +4972,6 @@
 "Unknown datum based upon the Plessis 1817 ellipsoid", \
    "Plessis_1817", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Plessis 1817 ellipsoid", \
-   "Plessis_1817", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Plessis 1817 ellipsoid", \
@@ -5147,11 +4992,6 @@
 "Unknown datum based upon the Struve 1860 ellipsoid", \
    "Struve_1860", \
    FALSE, \
-   "EPSG"
-
-"Unknown datum based upon the Struve 1860 ellipsoid", \
-   "Struve_1860", \
-   FALSE, \
    "Oracle"
 
 "Unknown datum based upon the Struve 1860 ellipsoid", \
@@ -5168,11 +5008,6 @@
    "Struve_1860", \
    FALSE, \
    "Teradata"
-
-"Unknown datum based upon the War Office ellipsoid", \
-   "War_Office", \
-   FALSE, \
-   "EPSG"
 
 "Unknown datum based upon the War Office ellipsoid", \
    "War_Office", \
@@ -5227,11 +5062,6 @@
 "Unspecified datum based upon the Clarke 1866 Authalic Sphere", \
    "Sphere_Clarke_1866_Authalic", \
    FALSE, \
-   "EPSG"
-
-"Unspecified datum based upon the Clarke 1866 Authalic Sphere", \
-   "Sphere_Clarke_1866_Authalic", \
-   FALSE, \
    "PostGIS"
 
 "Unspecified datum based upon the Clarke 1866 Authalic Sphere", \
@@ -5243,11 +5073,6 @@
    "Sphere_Clarke_1866_Authalic", \
    FALSE, \
    "Teradata"
-
-"Unspecified datum based upon the GRS 1980 Authalic Sphere", \
-   "Sphere_GRS_1980_Authalic", \
-   FALSE, \
-   "EPSG"
 
 "Unspecified datum based upon the GRS 1980 Authalic Sphere", \
    "Sphere_GRS_1980_Authalic", \
@@ -5272,22 +5097,12 @@
 "Unspecified datum based upon the Hughes 1980 ellipsoid", \
    "Hughes_1980", \
    FALSE, \
-   "EPSG"
-
-"Unspecified datum based upon the Hughes 1980 ellipsoid", \
-   "Hughes_1980", \
-   FALSE, \
    "PostGIS"
 
 "Unspecified datum based upon the Hughes 1980 ellipsoid", \
    "Hughes_1980", \
    FALSE, \
    "SpatiaLite"
-
-"Unspecified datum based upon the International 1924 Authalic Sphere", \
-   "Sphere_International_1924_Authalic", \
-   FALSE, \
-   "EPSG"
 
 "Unspecified datum based upon the International 1924 Authalic Sphere", \
    "Sphere_International_1924_Authalic", \
