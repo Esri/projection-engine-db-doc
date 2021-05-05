@@ -397,7 +397,7 @@
     "wkt": "VERTCS[\"Caspian_height\",VDATUM[\"Caspian_Sea\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "description": "Caspian (height)",
     "authority": "EPSG",
-    "version": "6.15(10.0.0)",
+    "version": "9.8.12(10.0.0)",
     "deprecated": "no",
     "areaname": "Asia - FSU - Caspian Sea",
     "extent":
@@ -1101,7 +1101,7 @@
     { "slat": 54.51,
       "nlat": 57.8,
       "llon": 8.0,
-      "rlon": 15.25
+      "rlon": 15.24
     }
   },
   { "wkid": 5734,
@@ -2223,7 +2223,7 @@
     { "slat": 54.51,
       "nlat": 57.8,
       "llon": 8.0,
-      "rlon": 15.25
+      "rlon": 15.24
     }
   },
   { "wkid": 5829,
@@ -3136,12 +3136,12 @@
     "authority": "EPSG",
     "version": "8.9.3(10.5.0)",
     "deprecated": "no",
-    "areaname": "UK - offshore 49~46'N to 61~01'N, 7~33'W to 3~33'E",
+    "areaname": "UK - offshore 49~45'N to 61~N, 9~W to 2~E",
     "extent":
     { "slat": 49.75,
-      "nlat": 61.14,
-      "llon": -9.2,
-      "rlon": 2.88
+      "nlat": 61.01,
+      "llon": -9.0,
+      "rlon": 2.01
     }
   },
   { "wkid": 7832,
@@ -3756,6 +3756,23 @@
       "rlon": 168.19
     }
   },
+  { "wkid": 9663,
+    "latestWkid": 9663,
+    "macro": "PE_VCS_EH2000_HEIGHT",
+    "name": "EH2000_height",
+    "wkt": "VERTCS[\"EH2000_height\",VDATUM[\"Estonian_Height_System_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "description": "EH2000 height",
+    "authority": "EPSG",
+    "version": "10.013(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Estonia - onshore",
+    "extent":
+    { "slat": 57.52,
+      "nlat": 59.75,
+      "llon": 21.74,
+      "rlon": 28.2
+    }
+  },
   { "wkid": 105603,
     "latestWkid": 105603,
     "macro": "PE_VCS_REDNAP",
@@ -3804,7 +3821,7 @@
     { "slat": 54.51,
       "nlat": 57.8,
       "llon": 8.0,
-      "rlon": 15.25
+      "rlon": 15.24
     }
   },
   { "wkid": 105702,

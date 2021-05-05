@@ -2179,6 +2179,16 @@
    FALSE, \
    "EPSG"
 
+"GDA94 to WGS 84 (2)", \
+   "GDA_1994_To_WGS_1984_2", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 to WGS 84 (3)", \
+   "GDA_1994_To_WGS_1984_3", \
+   FALSE, \
+   "EPSG"
+
 "GDBD2009 to WGS 84 (1)", \
    "GDBD2009_To_WGS_1984_1", \
    FALSE, \
@@ -2394,7 +2404,7 @@
    FALSE, \
    "EPSG"
 
-"IGD05/12 to  IG05/12 Intermediate CRS", \
+"IGD05/12 to IG05/12 Intermediate CRS", \
    "IGD05(2012)_To_IG05(2012)_Intermediate_CRS", \
    FALSE, \
    "EPSG"
@@ -2599,7 +2609,7 @@
    FALSE, \
    "EPSG"
 
-"Israel to WGS 84 (1)", \
+"Israel 1993 to WGS 84 (1)", \
    "Israel_To_WGS_1984", \
    FALSE, \
    "EPSG"
@@ -2821,6 +2831,11 @@
 
 "Kousseri to WGS 72BE (1)", \
    "Kousseri_To_WGS_1972_BE_1", \
+   FALSE, \
+   "EPSG"
+
+"KSA-GRF17 to WGS 84 (1)", \
+   "KSA-GRF17_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -4859,7 +4874,7 @@
    FALSE, \
    "EPSG"
 
-"ONGD14 to  WGS 84 (2)", \
+"ONGD14 to WGS 84 (2)", \
    "ONGD14_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
@@ -4919,6 +4934,11 @@
    FALSE, \
    "EPSG"
 
+"Palestine 1923 to Israel 1993 (1)", \
+   "Palestine_1923_To_Israel_1", \
+   FALSE, \
+   "EPSG"
+
 "Palestine 1923 to WGS 84 (1)", \
    "Palestine_1923_To_WGS_1984_1", \
    FALSE, \
@@ -4959,11 +4979,6 @@
    FALSE, \
    "EPSG"
 
-"Pico de las Nieves 1984 to WGS 84 (1)", \
-   "Pico_de_Las_Nieves_To_WGS_1984", \
-   FALSE, \
-   "EPSG"
-
 "Pitcairn 1967 to WGS 84 (1)", \
    "Pitcairn_1967_To_WGS_1984", \
    FALSE, \
@@ -4983,6 +4998,11 @@
    "Reunion_1947_To_WGS_1984_2", \
    TRUE, \
    ""
+
+"PN84 to WGS 84 (1)", \
+   "Pico_de_Las_Nieves_To_WGS_1984", \
+   FALSE, \
+   "EPSG"
 
 "PNG94 to WGS 84 (1)", \
    "PNG94_To_WGS_1984_1", \
@@ -5064,17 +5084,17 @@
    FALSE, \
    "EPSG"
 
-"PSAD56 to SIRGAS-Chile (1)", \
+"PSAD56 to SIRGAS-Chile 2002 (1)", \
    "PSAD_1956_To_SIRGAS-Chile_1", \
    FALSE, \
    "EPSG"
 
-"PSAD56 to SIRGAS-Chile (2)", \
+"PSAD56 to SIRGAS-Chile 2002 (2)", \
    "PSAD_1956_To_SIRGAS-Chile_2", \
    FALSE, \
    "EPSG"
 
-"PSAD56 to SIRGAS-Chile (3)", \
+"PSAD56 to SIRGAS-Chile 2002 (3)", \
    "PSAD_1956_To_SIRGAS-Chile_3", \
    FALSE, \
    "EPSG"
@@ -5634,22 +5654,22 @@
    FALSE, \
    "EPSG"
 
-"SAD69 to SIRGAS-Chile (1)", \
+"SAD69 to SIRGAS-Chile 2002 (1)", \
    "SAD_1969_To_SIRGAS-Chile_1", \
    FALSE, \
    "EPSG"
 
-"SAD69 to SIRGAS-Chile (2)", \
+"SAD69 to SIRGAS-Chile 2002 (2)", \
    "SAD_1969_To_SIRGAS-Chile_2", \
    FALSE, \
    "EPSG"
 
-"SAD69 to SIRGAS-Chile (3)", \
+"SAD69 to SIRGAS-Chile 2002 (3)", \
    "SAD_1969_To_SIRGAS-Chile_3", \
    FALSE, \
    "EPSG"
 
-"SAD69 to SIRGAS-Chile (4)", \
+"SAD69 to SIRGAS-Chile 2002 (4)", \
    "SAD_1969_To_SIRGAS-Chile_4", \
    FALSE, \
    "EPSG"
@@ -5861,11 +5881,6 @@
 
 "SIRGAS 2000 to WGS 84 (1)", \
    "SIRGAS_2000_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"SIRGAS-Chile to WGS 84 (1)", \
-   "SIRGAS-Chile_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -6471,6 +6486,16 @@
 
 "WGS 72 to WGS 84 (2)", \
    "WGS_1972_To_WGS_1984_2", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 to GDA2020 (3)", \
+   "WGS_1984_To_GDA2020_3", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 to GDA2020 (4)", \
+   "WGS_1984_To_GDA2020_4", \
    FALSE, \
    "EPSG"
 

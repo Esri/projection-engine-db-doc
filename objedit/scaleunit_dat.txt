@@ -4,6 +4,13 @@
 # syntax: [SCALEUNIT,] scaleunit-code, "name", factor [, "display", "plural", "abbr"]
 #------------------------------------------------------------------------------------------------------
 
+PE_SU_PPB, \
+   "Parts_Per_Billion", \
+   0.000000001, \
+   "Part Per Billion", \
+   "Parts Per Billion", \
+   "ppb"
+
 PE_SU_UNITY, \
    "Unity", \
    1.0, \
@@ -14,7 +21,7 @@ PE_SU_UNITY, \
 PE_SU_PPM, \
    "Parts_Per_Million", \
    0.000001, \
-   "", \
-   "", \
-   ""
+   "Part Per Million", \
+   "Parts Per Million", \
+   "ppm"
 

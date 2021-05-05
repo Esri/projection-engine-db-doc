@@ -1,6 +1,9 @@
 wkid,latestWkid,macro,name,wkt,description,authority,version,deprecated
 129600,129600,"PE_VTMTH_VTGRIDFILE","VTGridFile","VTMETHOD[""VTGridFile""]","Generic vertical transform grid file","Esri","10.0.0","no"
 129601,129601,"PE_VTMTH_VDATUM","VDATUM","VTMETHOD[""VDATUM""]","New NOAA transformation grid file format","Esri","10.4.0","no"
+129602,129602,"PE_VTMTH_HEIGHT_DEPTH_REVERSAL","Height_Depth_Reversal","VTMETHOD[""Height_Depth_Reversal""]","Height Depth Reversal","Esri","12.6.8","no"
+129603,129603,"PE_VTMTH_NULL","Null","VTMETHOD[""Null""]","Null transformation","Esri","12.6.8","no"
+129604,129604,"PE_VTMTH_UNIT_CHANGE","Unit_Change","VTMETHOD[""Unit_Change""]","Unit change transformation","Esri","12.6.8","no"
 129616,129616,"PE_VTMTH_VERTICAL_OFFSET","Vertical_Offset","VTMETHOD[""Vertical_Offset""]","Vertical Offset","Esri","9.3.0.0","no"
 129657,129657,"PE_VTMTH_VERTICAL_OFFSET_SLOPE","Vertical_Offset_and_Slope","VTMETHOD[""Vertical_Offset_and_Slope""]","Vertical Offset and Slope","Esri","9.3.0.0","no"
 129658,129658,"PE_VTMTH_VERTCON","VERTCON","VTMETHOD[""VERTCON""]","VERTCON","Esri","9.3.0.0","no"

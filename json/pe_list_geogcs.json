@@ -1623,12 +1623,12 @@
     "authority": "EPSG",
     "version": "6.5(8.1.2)",
     "deprecated": "no",
-    "areaname": "Argentina - Neuquen basin",
+    "areaname": "Argentina - Neuquen province",
     "extent":
-    { "slat": -40.17,
-      "nlat": -34.26,
-      "llon": -71.19,
-      "rlon": -66.52
+    { "slat": -41.1,
+      "nlat": -36.14,
+      "llon": -71.96,
+      "rlon": -68.01
     }
   },
   { "wkid": 4161,
@@ -3544,12 +3544,12 @@
     "authority": "EPSG",
     "version": "6.5(3.0.1)",
     "deprecated": "no",
-    "areaname": "UK - Britain and UKCS 49~46'N to 61~01'N, 7~33'W to 3~33'E",
+    "areaname": "UK - Britain and UKCS 49~45'N to 61~N, 9~W to 2~E",
     "extent":
     { "slat": 49.75,
-      "nlat": 61.14,
-      "llon": -9.2,
-      "rlon": 2.88
+      "nlat": 61.01,
+      "llon": -9.0,
+      "rlon": 2.01
     }
   },
   { "wkid": 4278,
@@ -6454,7 +6454,7 @@
     "areaname": "Spain - Canary Islands onshore",
     "extent":
     { "slat": 27.58,
-      "nlat": 29.3,
+      "nlat": 29.47,
       "llon": -18.22,
       "rlon": -13.37
     }
@@ -13072,6 +13072,23 @@
       "rlon": 23.04
     }
   },
+  { "wkid": 9293,
+    "latestWkid": 9293,
+    "macro": "PE_GCS_ONGD17_3D",
+    "name": "ONGD17_3D",
+    "wkt": "GEOGCS[\"ONGD17_3D\",DATUM[\"Oman_National_Geodetic_Datum_2017\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "description": "ONGD17 (3D)",
+    "authority": "EPSG",
+    "version": "9.8.9(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Oman",
+    "extent":
+    { "slat": 14.33,
+      "nlat": 26.74,
+      "llon": 51.99,
+      "rlon": 63.38
+    }
+  },
   { "wkid": 9294,
     "latestWkid": 9294,
     "macro": "PE_GCS_ONGD17",
@@ -13087,6 +13104,74 @@
       "nlat": 26.74,
       "llon": 51.99,
       "rlon": 63.38
+    }
+  },
+  { "wkid": 9299,
+    "latestWkid": 9299,
+    "macro": "PE_GCS_HS2_IRF",
+    "name": "HS2-IRF",
+    "wkt": "GEOGCS[\"HS2-IRF\",DATUM[\"HS2_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "HS2-IRF",
+    "authority": "EPSG",
+    "version": "9.8.13(12.8.0)",
+    "deprecated": "no",
+    "areaname": "UK - London to Birmingham and Crewe",
+    "extent":
+    { "slat": 51.45,
+      "nlat": 53.3,
+      "llon": -2.75,
+      "rlon": 0.0
+    }
+  },
+  { "wkid": 9308,
+    "latestWkid": 9308,
+    "macro": "PE_GCS_ATRF2014_3D",
+    "name": "ATRF2014_(3D)",
+    "wkt": "GEOGCS[\"ATRF2014_(3D)\",DATUM[\"Australian_Terrestrial_Reference_Frame_2014\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "description": "ATRF2014 (3D)",
+    "authority": "EPSG",
+    "version": "9.9(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Australia - GDA",
+    "extent":
+    { "slat": -60.56,
+      "nlat": -8.47,
+      "llon": 93.41,
+      "rlon": 173.35
+    }
+  },
+  { "wkid": 9309,
+    "latestWkid": 9309,
+    "macro": "PE_GCS_ATRF2014",
+    "name": "ATRF2014",
+    "wkt": "GEOGCS[\"ATRF2014\",DATUM[\"Australian_Terrestrial_Reference_Frame_2014\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "ATRF2014",
+    "authority": "EPSG",
+    "version": "9.9(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Australia - GDA",
+    "extent":
+    { "slat": -60.56,
+      "nlat": -8.47,
+      "llon": 93.41,
+      "rlon": 173.35
+    }
+  },
+  { "wkid": 9332,
+    "latestWkid": 9332,
+    "macro": "PE_GCS_KSA_GRF17_3D",
+    "name": "KSA-GRF17_(3D)",
+    "wkt": "GEOGCS[\"KSA-GRF17_(3D)\",DATUM[\"Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "description": "KSA-GRF17 (3D)",
+    "authority": "EPSG",
+    "version": "9.8.5(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Saudi Arabia",
+    "extent":
+    { "slat": 16.29,
+      "nlat": 32.16,
+      "llon": 34.44,
+      "rlon": 55.67
     }
   },
   { "wkid": 9333,
@@ -13121,6 +13206,210 @@
       "nlat": 53.9,
       "llon": -3.14,
       "rlon": -1.34
+    }
+  },
+  { "wkid": 9372,
+    "latestWkid": 9372,
+    "macro": "PE_GCS_MML07_IRF",
+    "name": "MML07-IRF",
+    "wkt": "GEOGCS[\"MML07-IRF\",DATUM[\"MML07_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "MML07-IRF",
+    "authority": "EPSG",
+    "version": "9.8.12(12.8.0)",
+    "deprecated": "no",
+    "areaname": "UK - London to Sheffield",
+    "extent":
+    { "slat": 51.46,
+      "nlat": 53.42,
+      "llon": -1.89,
+      "rlon": 0.16
+    }
+  },
+  { "wkid": 9379,
+    "latestWkid": 9379,
+    "macro": "PE_GCS_IGB14_3D",
+    "name": "IGb14_(3D)",
+    "wkt": "GEOGCS[\"IGb14_(3D)\",DATUM[\"IGb14\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "description": "IGb14 (3D)",
+    "authority": "EPSG",
+    "version": "9.8.12(12.8.0)",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 9380,
+    "latestWkid": 9380,
+    "macro": "PE_GCS_IGB14",
+    "name": "IGb14",
+    "wkt": "GEOGCS[\"IGb14\",DATUM[\"IGb14\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "IGb14",
+    "authority": "EPSG",
+    "version": "9.8.12(12.8.0)",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 9384,
+    "latestWkid": 9384,
+    "macro": "PE_GCS_ABINVA96_2020_IRF",
+    "name": "AbInvA96_2020-IRF",
+    "wkt": "GEOGCS[\"AbInvA96_2020-IRF\",DATUM[\"AbInvA96_2020_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "AbInvA96_2020-IRF",
+    "authority": "EPSG",
+    "version": "9.8.13(12.8.0)",
+    "deprecated": "no",
+    "areaname": "UK - Aberdeen to Inverness",
+    "extent":
+    { "slat": 57.1,
+      "nlat": 57.71,
+      "llon": -4.31,
+      "rlon": -2.1
+    }
+  },
+  { "wkid": 9403,
+    "latestWkid": 9403,
+    "macro": "PE_GCS_PN68",
+    "name": "PN68",
+    "wkt": "GEOGCS[\"PN68\",DATUM[\"Pico_de_las_Nieves_1968\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "PN68",
+    "authority": "EPSG",
+    "version": "9.8.13(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Spain - Canary Islands onshore",
+    "extent":
+    { "slat": 27.58,
+      "nlat": 29.47,
+      "llon": -18.22,
+      "rlon": -13.37
+    }
+  },
+  { "wkid": 9453,
+    "latestWkid": 9453,
+    "macro": "PE_GCS_GBK19_IRF",
+    "name": "GBK19-IRF",
+    "wkt": "GEOGCS[\"GBK19-IRF\",DATUM[\"GBK19_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "GBK19-IRF",
+    "authority": "EPSG",
+    "version": "9.9(12.8.0)",
+    "deprecated": "no",
+    "areaname": "UK - Glasgow to Kilmarnock",
+    "extent":
+    { "slat": 55.55,
+      "nlat": 55.95,
+      "llon": -4.65,
+      "rlon": -4.05
+    }
+  },
+  { "wkid": 9469,
+    "latestWkid": 9469,
+    "macro": "PE_GCS_SRGI2013_3D",
+    "name": "SRGI2013_(3D)",
+    "wkt": "GEOGCS[\"SRGI2013_(3D)\",DATUM[\"Sistem_Referensi_Geospasial_Indonesia_2013\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "description": "SRGI2013 (3D)",
+    "authority": "EPSG",
+    "version": "9.9(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Indonesia",
+    "extent":
+    { "slat": -13.95,
+      "nlat": 7.79,
+      "llon": 92.01,
+      "rlon": 141.46
+    }
+  },
+  { "wkid": 9470,
+    "latestWkid": 9470,
+    "macro": "PE_GCS_SRGI2013",
+    "name": "SRGI2013",
+    "wkt": "GEOGCS[\"SRGI2013\",DATUM[\"Sistem_Referensi_Geospasial_Indonesia_2013\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "SRGI2013",
+    "authority": "EPSG",
+    "version": "9.9(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Indonesia",
+    "extent":
+    { "slat": -13.95,
+      "nlat": 7.79,
+      "llon": 92.01,
+      "rlon": 141.46
+    }
+  },
+  { "wkid": 9546,
+    "latestWkid": 9546,
+    "macro": "PE_GCS_LTF2004G_3D",
+    "name": "LTF2004(G)_(3D)",
+    "wkt": "GEOGCS[\"LTF2004(G)_(3D)\",DATUM[\"Lyon_Turin_Ferroviaire_2004\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "description": "LTF2004(G) (3D)",
+    "authority": "EPSG",
+    "version": "10.009(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Europe - Lyon-Turin",
+    "extent":
+    { "slat": 44.87,
+      "nlat": 45.89,
+      "llon": 4.65,
+      "rlon": 7.88
+    }
+  },
+  { "wkid": 9547,
+    "latestWkid": 9547,
+    "macro": "PE_GCS_LTF2004G",
+    "name": "LTF2004(G)",
+    "wkt": "GEOGCS[\"LTF2004(G)\",DATUM[\"Lyon_Turin_Ferroviaire_2004\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "LTF2004(G)",
+    "authority": "EPSG",
+    "version": "10.009(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Europe - Lyon-Turin",
+    "extent":
+    { "slat": 44.87,
+      "nlat": 45.89,
+      "llon": 4.65,
+      "rlon": 7.88
+    }
+  },
+  { "wkid": 9695,
+    "latestWkid": 9695,
+    "macro": "PE_GCS_REDGEOMIN_3D",
+    "name": "REDGEOMIN_(3D)",
+    "wkt": "GEOGCS[\"REDGEOMIN_(3D)\",DATUM[\"Red_Geodesica_Para_Mineria_en_Chile\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "description": "REDGEOMIN (3D)",
+    "authority": "EPSG",
+    "version": "10.013(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Chile",
+    "extent":
+    { "slat": -59.87,
+      "nlat": -17.5,
+      "llon": -113.21,
+      "rlon": -65.72
+    }
+  },
+  { "wkid": 9696,
+    "latestWkid": 9696,
+    "macro": "PE_GCS_REDGEOMIN",
+    "name": "REDGEOMIN",
+    "wkt": "GEOGCS[\"REDGEOMIN\",DATUM[\"Red_Geodesica_Para_Mineria_en_Chile\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "description": "REDGEOMIN",
+    "authority": "EPSG",
+    "version": "10.013(12.8.0)",
+    "deprecated": "no",
+    "areaname": "Chile",
+    "extent":
+    { "slat": -59.87,
+      "nlat": -17.5,
+      "llon": -113.21,
+      "rlon": -65.72
     }
   },
   { "wkid": 37001,
@@ -13968,7 +14257,7 @@
     "areaname": "Spain - Canary Islands onshore",
     "extent":
     { "slat": 27.58,
-      "nlat": 29.3,
+      "nlat": 29.47,
       "llon": -18.22,
       "rlon": -13.37
     }
@@ -15759,14 +16048,14 @@
     }
   },
   { "wkid": 104647,
-    "latestWkid": 104647,
+    "latestWkid": 9293,
     "macro": "PE_GCS_ONGD17_3D",
     "name": "ONGD17_3D",
-    "wkt": "GEOGCS[\"ONGD17_3D\",DATUM[\"D_Oman\",SPHEROID[\"Clarke_1880_RGS\",6378249.145,293.465]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt": "GEOGCS[\"ONGD17_3D\",DATUM[\"Oman_National_Geodetic_Datum_2017\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
     "description": "ONGD17 (3D)",
     "authority": "Esri",
     "version": "12.7.0",
-    "deprecated": "no",
+    "deprecated": "yes",
     "areaname": "Oman",
     "extent":
     { "slat": 14.33,

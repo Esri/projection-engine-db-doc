@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2020 Esri Inc.                                            #
+#  Copyright 1999-2021 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -4685,7 +4685,7 @@ WKT         : HVCOORDSYS["HVC_ETRS_1989_and_EVRF2007_height",
                 UNIT["Meter", 1.0]]]
 Description : Europe - EVRF2007
 Authority   : EPSG
-Version     : 9.8.9(10.8.0)
+Version     : 9.8.8(10.8.0)
 Deprecated  : no
 Area-name   : Europe - EVRF2007
 Area-slat   : 35.95
@@ -5289,7 +5289,7 @@ WKT         : HVCOORDSYS["NAD_1983_South_Carolina_Ft_Intl_and_NAVD88_height_Ft_I
                 PARAMETER["Central_Meridian", -81.0],
                 PARAMETER["Standard_Parallel_1", 32.5],
                 PARAMETER["Standard_Parallel_2", 34.83333333333334],
-                PARAMETER["Latitude_Of_Origin", 31.83333333333334],
+                PARAMETER["Latitude_Of_Origin", 31.83333333333333],
                 UNIT["Foot", 0.3048]],
                VERTCS["NAVD88_height_(ftIntl)",
                 VDATUM["North_American_Vertical_Datum_1988"],
@@ -5762,7 +5762,7 @@ WKT         : HVCOORDSYS["NAD_1983_Florida_North_Ft_US_and_NAVD88_height_Ft_US",
                 PARAMETER["False_Easting", 1968500.0],
                 PARAMETER["False_Northing", 0.0],
                 PARAMETER["Central_Meridian", -84.5],
-                PARAMETER["Standard_Parallel_1", 29.58333333333334],
+                PARAMETER["Standard_Parallel_1", 29.58333333333333],
                 PARAMETER["Standard_Parallel_2", 30.75],
                 PARAMETER["Latitude_Of_Origin", 29.0],
                 UNIT["Foot_US", 0.3048006096012192]],
@@ -7639,7 +7639,7 @@ WKT         : HVCOORDSYS["NAD_1983_Texas_Central_Ft_US_and_NAVD88_height_Ft_US",
                 PARAMETER["False_Easting", 2296583.333333333],
                 PARAMETER["False_Northing", 9842500.0],
                 PARAMETER["Central_Meridian", -100.3333333333333],
-                PARAMETER["Standard_Parallel_1", 30.11666666666666],
+                PARAMETER["Standard_Parallel_1", 30.11666666666667],
                 PARAMETER["Standard_Parallel_2", 31.88333333333333],
                 PARAMETER["Latitude_Of_Origin", 29.66666666666667],
                 UNIT["Foot_US", 0.3048006096012192]],

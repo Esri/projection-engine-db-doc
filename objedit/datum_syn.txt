@@ -1100,9 +1100,9 @@
    "EPSG"
 
 "European Terrestrial Reference System 1989", \
-   "ETRS_1989", \
+   "D_ETRS_1989", \
    FALSE, \
-   "EPSG"
+   ""
 
 "European_Terrestrial_Reference_System_1989", \
    "ETRS_1989", \
@@ -1123,6 +1123,11 @@
    "ETRS_1989", \
    FALSE, \
    "Teradata"
+
+"European Terrestrial Reference System 1989 ensemble", \
+   "ETRS_1989", \
+   FALSE, \
+   "EPSG"
 
 "European Terrestrial Reference System 1989 (EPSG ID 6258)", \
    "ETRS_1989", \
@@ -2388,6 +2393,11 @@
    "Mporaloko", \
    FALSE, \
    "Oracle"
+
+"Macao Geodetic Datum 2008", \
+   "MACAO_2008", \
+   FALSE, \
+   "EPSG"
 
 "Madeira 1936 (EPSG ID 6185)", \
    "Madeira_1936", \
@@ -5359,21 +5369,6 @@
    FALSE, \
    "EPSG"
 
-"SIRGAS-Chile realization 2 epoch 2010.00", \
-   "SIRGAS-Chile_realization_2_epoch_2010", \
-   FALSE, \
-   "EPSG"
-
-"SIRGAS-Chile realization 3 epoch 2013.00", \
-   "SIRGAS-Chile_realization_3_epoch_2013", \
-   FALSE, \
-   "EPSG"
-
-"SIRGAS-Chile realization 4 epoch 2016.00", \
-   "SIRGAS-Chile_realization_4_epoch_2016", \
-   FALSE, \
-   "EPSG"
-
 "Sistema de Referencia Geocentrico para America del Sur 1995", \
    "SIRGAS", \
    FALSE, \
@@ -6085,14 +6080,19 @@
    "Oracle"
 
 "World Geodetic System 1984", \
-   "WGS_1984", \
+   "D_WGS_1984", \
    FALSE, \
-   "EPSG"
+   ""
 
 "World Geodetic System 1984", \
    "WGS_1984", \
    FALSE, \
    "SQLserver"
+
+"World Geodetic System 1984 ensemble", \
+   "WGS_1984", \
+   FALSE, \
+   "EPSG"
 
 "World Geodetic System 1984 (EPSG ID 6326)", \
    "WGS_1984", \

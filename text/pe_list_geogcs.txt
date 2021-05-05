@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2020 Esri Inc.                                            #
+#  Copyright 1999-2021 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -1840,11 +1840,11 @@ Description : Chos Malal 1914
 Authority   : EPSG
 Version     : 6.5(8.1.2)
 Deprecated  : no
-Area-name   : Argentina - Neuquen basin
-Area-slat   : -40.17
-Area-nlat   : -34.26
-Area-llon   : -71.19
-Area-rlon   : -66.52
+Area-name   : Argentina - Neuquen province
+Area-slat   : -41.1
+Area-nlat   : -36.14
+Area-llon   : -71.96
+Area-rlon   : -68.01
 
 WKID        : 4161
 Latest-WKID : 4161
@@ -3988,11 +3988,11 @@ Description : OSGB 1936
 Authority   : EPSG
 Version     : 6.5(3.0.1)
 Deprecated  : no
-Area-name   : UK - Britain and UKCS 49~46'N to 61~01'N, 7~33'W to 3~33'E
+Area-name   : UK - Britain and UKCS 49~45'N to 61~N, 9~W to 2~E
 Area-slat   : 49.75
-Area-nlat   : 61.14
-Area-llon   : -9.2
-Area-rlon   : 2.88
+Area-nlat   : 61.01
+Area-llon   : -9.0
+Area-rlon   : 2.01
 
 WKID        : 4278
 Latest-WKID : 4278
@@ -7247,7 +7247,7 @@ Version     : 7.1(9.2.0)
 Deprecated  : no
 Area-name   : Spain - Canary Islands onshore
 Area-slat   : 27.58
-Area-nlat   : 29.3
+Area-nlat   : 29.47
 Area-llon   : -18.22
 Area-rlon   : -13.37
 
@@ -14818,6 +14818,26 @@ Area-nlat   : 49.02
 Area-llon   : 9.53
 Area-rlon   : 23.04
 
+WKID        : 9293
+Latest-WKID : 9293
+Macro       : PE_GCS_ONGD17_3D
+Name        : ONGD17_3D
+WKT         : GEOGCS["ONGD17_3D",
+               DATUM["Oman_National_Geodetic_Datum_2017",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+Description : ONGD17 (3D)
+Authority   : EPSG
+Version     : 9.8.9(12.8.0)
+Deprecated  : no
+Area-name   : Oman
+Area-slat   : 14.33
+Area-nlat   : 26.74
+Area-llon   : 51.99
+Area-rlon   : 63.38
+
 WKID        : 9294
 Latest-WKID : 9294
 Macro       : PE_GCS_ONGD17
@@ -14836,6 +14856,84 @@ Area-slat   : 14.33
 Area-nlat   : 26.74
 Area-llon   : 51.99
 Area-rlon   : 63.38
+
+WKID        : 9299
+Latest-WKID : 9299
+Macro       : PE_GCS_HS2_IRF
+Name        : HS2-IRF
+WKT         : GEOGCS["HS2-IRF",
+               DATUM["HS2_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : HS2-IRF
+Authority   : EPSG
+Version     : 9.8.13(12.8.0)
+Deprecated  : no
+Area-name   : UK - London to Birmingham and Crewe
+Area-slat   : 51.45
+Area-nlat   : 53.3
+Area-llon   : -2.75
+Area-rlon   : 0.0
+
+WKID        : 9308
+Latest-WKID : 9308
+Macro       : PE_GCS_ATRF2014_3D
+Name        : ATRF2014_(3D)
+WKT         : GEOGCS["ATRF2014_(3D)",
+               DATUM["Australian_Terrestrial_Reference_Frame_2014",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+Description : ATRF2014 (3D)
+Authority   : EPSG
+Version     : 9.9(12.8.0)
+Deprecated  : no
+Area-name   : Australia - GDA
+Area-slat   : -60.56
+Area-nlat   : -8.47
+Area-llon   : 93.41
+Area-rlon   : 173.35
+
+WKID        : 9309
+Latest-WKID : 9309
+Macro       : PE_GCS_ATRF2014
+Name        : ATRF2014
+WKT         : GEOGCS["ATRF2014",
+               DATUM["Australian_Terrestrial_Reference_Frame_2014",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : ATRF2014
+Authority   : EPSG
+Version     : 9.9(12.8.0)
+Deprecated  : no
+Area-name   : Australia - GDA
+Area-slat   : -60.56
+Area-nlat   : -8.47
+Area-llon   : 93.41
+Area-rlon   : 173.35
+
+WKID        : 9332
+Latest-WKID : 9332
+Macro       : PE_GCS_KSA_GRF17_3D
+Name        : KSA-GRF17_(3D)
+WKT         : GEOGCS["KSA-GRF17_(3D)",
+               DATUM["Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+Description : KSA-GRF17 (3D)
+Authority   : EPSG
+Version     : 9.8.5(12.8.0)
+Deprecated  : no
+Area-name   : Saudi Arabia
+Area-slat   : 16.29
+Area-nlat   : 32.16
+Area-llon   : 34.44
+Area-rlon   : 55.67
 
 WKID        : 9333
 Latest-WKID : 9333
@@ -14874,6 +14972,238 @@ Area-slat   : 53.32
 Area-nlat   : 53.9
 Area-llon   : -3.14
 Area-rlon   : -1.34
+
+WKID        : 9372
+Latest-WKID : 9372
+Macro       : PE_GCS_MML07_IRF
+Name        : MML07-IRF
+WKT         : GEOGCS["MML07-IRF",
+               DATUM["MML07_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : MML07-IRF
+Authority   : EPSG
+Version     : 9.8.12(12.8.0)
+Deprecated  : no
+Area-name   : UK - London to Sheffield
+Area-slat   : 51.46
+Area-nlat   : 53.42
+Area-llon   : -1.89
+Area-rlon   : 0.16
+
+WKID        : 9379
+Latest-WKID : 9379
+Macro       : PE_GCS_IGB14_3D
+Name        : IGb14_(3D)
+WKT         : GEOGCS["IGb14_(3D)",
+               DATUM["IGb14",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+Description : IGb14 (3D)
+Authority   : EPSG
+Version     : 9.8.12(12.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9380
+Latest-WKID : 9380
+Macro       : PE_GCS_IGB14
+Name        : IGb14
+WKT         : GEOGCS["IGb14",
+               DATUM["IGb14",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : IGb14
+Authority   : EPSG
+Version     : 9.8.12(12.8.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9384
+Latest-WKID : 9384
+Macro       : PE_GCS_ABINVA96_2020_IRF
+Name        : AbInvA96_2020-IRF
+WKT         : GEOGCS["AbInvA96_2020-IRF",
+               DATUM["AbInvA96_2020_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : AbInvA96_2020-IRF
+Authority   : EPSG
+Version     : 9.8.13(12.8.0)
+Deprecated  : no
+Area-name   : UK - Aberdeen to Inverness
+Area-slat   : 57.1
+Area-nlat   : 57.71
+Area-llon   : -4.31
+Area-rlon   : -2.1
+
+WKID        : 9403
+Latest-WKID : 9403
+Macro       : PE_GCS_PN68
+Name        : PN68
+WKT         : GEOGCS["PN68",
+               DATUM["Pico_de_las_Nieves_1968",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : PN68
+Authority   : EPSG
+Version     : 9.8.13(12.8.0)
+Deprecated  : no
+Area-name   : Spain - Canary Islands onshore
+Area-slat   : 27.58
+Area-nlat   : 29.47
+Area-llon   : -18.22
+Area-rlon   : -13.37
+
+WKID        : 9453
+Latest-WKID : 9453
+Macro       : PE_GCS_GBK19_IRF
+Name        : GBK19-IRF
+WKT         : GEOGCS["GBK19-IRF",
+               DATUM["GBK19_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : GBK19-IRF
+Authority   : EPSG
+Version     : 9.9(12.8.0)
+Deprecated  : no
+Area-name   : UK - Glasgow to Kilmarnock
+Area-slat   : 55.55
+Area-nlat   : 55.95
+Area-llon   : -4.65
+Area-rlon   : -4.05
+
+WKID        : 9469
+Latest-WKID : 9469
+Macro       : PE_GCS_SRGI2013_3D
+Name        : SRGI2013_(3D)
+WKT         : GEOGCS["SRGI2013_(3D)",
+               DATUM["Sistem_Referensi_Geospasial_Indonesia_2013",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+Description : SRGI2013 (3D)
+Authority   : EPSG
+Version     : 9.9(12.8.0)
+Deprecated  : no
+Area-name   : Indonesia
+Area-slat   : -13.95
+Area-nlat   : 7.79
+Area-llon   : 92.01
+Area-rlon   : 141.46
+
+WKID        : 9470
+Latest-WKID : 9470
+Macro       : PE_GCS_SRGI2013
+Name        : SRGI2013
+WKT         : GEOGCS["SRGI2013",
+               DATUM["Sistem_Referensi_Geospasial_Indonesia_2013",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : SRGI2013
+Authority   : EPSG
+Version     : 9.9(12.8.0)
+Deprecated  : no
+Area-name   : Indonesia
+Area-slat   : -13.95
+Area-nlat   : 7.79
+Area-llon   : 92.01
+Area-rlon   : 141.46
+
+WKID        : 9546
+Latest-WKID : 9546
+Macro       : PE_GCS_LTF2004G_3D
+Name        : LTF2004(G)_(3D)
+WKT         : GEOGCS["LTF2004(G)_(3D)",
+               DATUM["Lyon_Turin_Ferroviaire_2004",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+Description : LTF2004(G) (3D)
+Authority   : EPSG
+Version     : 10.009(12.8.0)
+Deprecated  : no
+Area-name   : Europe - Lyon-Turin
+Area-slat   : 44.87
+Area-nlat   : 45.89
+Area-llon   : 4.65
+Area-rlon   : 7.88
+
+WKID        : 9547
+Latest-WKID : 9547
+Macro       : PE_GCS_LTF2004G
+Name        : LTF2004(G)
+WKT         : GEOGCS["LTF2004(G)",
+               DATUM["Lyon_Turin_Ferroviaire_2004",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : LTF2004(G)
+Authority   : EPSG
+Version     : 10.009(12.8.0)
+Deprecated  : no
+Area-name   : Europe - Lyon-Turin
+Area-slat   : 44.87
+Area-nlat   : 45.89
+Area-llon   : 4.65
+Area-rlon   : 7.88
+
+WKID        : 9695
+Latest-WKID : 9695
+Macro       : PE_GCS_REDGEOMIN_3D
+Name        : REDGEOMIN_(3D)
+WKT         : GEOGCS["REDGEOMIN_(3D)",
+               DATUM["Red_Geodesica_Para_Mineria_en_Chile",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+Description : REDGEOMIN (3D)
+Authority   : EPSG
+Version     : 10.013(12.8.0)
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 9696
+Latest-WKID : 9696
+Macro       : PE_GCS_REDGEOMIN
+Name        : REDGEOMIN
+WKT         : GEOGCS["REDGEOMIN",
+               DATUM["Red_Geodesica_Para_Mineria_en_Chile",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+Description : REDGEOMIN
+Authority   : EPSG
+Version     : 10.013(12.8.0)
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
 
 WKID        : 37001
 Latest-WKID : 4760
@@ -15821,7 +16151,7 @@ Version     : 4.0.0
 Deprecated  : yes
 Area-name   : Spain - Canary Islands onshore
 Area-slat   : 27.58
-Area-nlat   : 29.3
+Area-nlat   : 29.47
 Area-llon   : -18.22
 Area-rlon   : -13.37
 
@@ -17825,19 +18155,19 @@ Area-llon   : 39.99
 Area-rlon   : 46.72
 
 WKID        : 104647
-Latest-WKID : 104647
+Latest-WKID : 9293
 Macro       : PE_GCS_ONGD17_3D
 Name        : ONGD17_3D
 WKT         : GEOGCS["ONGD17_3D",
-               DATUM["D_Oman",
-                SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]],
+               DATUM["Oman_National_Geodetic_Datum_2017",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 Description : ONGD17 (3D)
 Authority   : Esri
 Version     : 12.7.0
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Oman
 Area-slat   : 14.33
 Area-nlat   : 26.74

@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2020 Esri Inc.                                            #
+#  Copyright 1999-2021 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -40,7 +40,8 @@ WKT         : VERTTRAN["NZVD2009_To_One_Tree_Point_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.06]]
+               PARAMETER["Vertical_Offset", 0.06],
+               OPERATIONACCURACY[0.03]]
 Description : NZVD2009 to One Tree Point 1964 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -76,7 +77,8 @@ WKT         : VERTTRAN["NZVD2009_To_Auckland_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.34]]
+               PARAMETER["Vertical_Offset", 0.34],
+               OPERATIONACCURACY[0.05]]
 Description : NZVD2009 to Auckland 1946 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -112,7 +114,8 @@ WKT         : VERTTRAN["NZVD2009_To_Moturiki_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.24]]
+               PARAMETER["Vertical_Offset", 0.24],
+               OPERATIONACCURACY[0.06]]
 Description : NZVD2009 to Moturiki 1953 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -148,7 +151,8 @@ WKT         : VERTTRAN["NZVD2009_To_Nelson_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.29]]
+               PARAMETER["Vertical_Offset", 0.29],
+               OPERATIONACCURACY[0.07]]
 Description : NZVD2009 to Nelson 1955 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -184,7 +188,8 @@ WKT         : VERTTRAN["NZVD2009_To_Gisborne_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.34]]
+               PARAMETER["Vertical_Offset", 0.34],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2009 to Gisborne 1926 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -220,7 +225,8 @@ WKT         : VERTTRAN["NZVD2009_To_Napier_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.2]]
+               PARAMETER["Vertical_Offset", 0.2],
+               OPERATIONACCURACY[0.05]]
 Description : NZVD2009 to Napier 1962 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -256,7 +262,8 @@ WKT         : VERTTRAN["NZVD2009_To_Taranaki_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.32]]
+               PARAMETER["Vertical_Offset", 0.32],
+               OPERATIONACCURACY[0.05]]
 Description : NZVD2009 to Taranaki 1970 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -292,7 +299,8 @@ WKT         : VERTTRAN["NZVD2009_To_Wellington_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.44]]
+               PARAMETER["Vertical_Offset", 0.44],
+               OPERATIONACCURACY[0.04]]
 Description : NZVD2009 to Wellington 1953 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -328,7 +336,8 @@ WKT         : VERTTRAN["NZVD2009_To_Lyttelton_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.47]]
+               PARAMETER["Vertical_Offset", 0.47],
+               OPERATIONACCURACY[0.09]]
 Description : NZVD2009 to Lyttelton 1937 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -364,7 +373,8 @@ WKT         : VERTTRAN["NZVD2009_To_Dunedin_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.49]]
+               PARAMETER["Vertical_Offset", 0.49],
+               OPERATIONACCURACY[0.07]]
 Description : NZVD2009 to Dunedin 1958 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -400,7 +410,8 @@ WKT         : VERTTRAN["NZVD2009_To_Bluff_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.36]]
+               PARAMETER["Vertical_Offset", 0.36],
+               OPERATIONACCURACY[0.05]]
 Description : NZVD2009 to Bluff 1955 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -436,7 +447,8 @@ WKT         : VERTTRAN["NZVD2009_To_Stewart_Island_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.39]]
+               PARAMETER["Vertical_Offset", 0.39],
+               OPERATIONACCURACY[0.15]]
 Description : NZVD2009 to Stewart ISland 1977 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -472,7 +484,8 @@ WKT         : VERTTRAN["NZVD2009_To_Dunedin_Bluff_1960_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.38]]
+               PARAMETER["Vertical_Offset", 0.38],
+               OPERATIONACCURACY[0.04]]
 Description : NZVD2009 to Dunedin-Bluff 1960 (height) (1)
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -517,7 +530,8 @@ WKT         : VERTTRAN["Newlyn_(height)_to_EVRF2000_(height)_(1)",
                PARAMETER["Longitude_Of_Evaluation", -2.25],
                PARAMETER["Latitude_Of_Evaluation", 54.58333333333334],
                PARAMETER["Inclination_North", 0.044],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Newlyn_height_to_EVRF2000_height_(1)
 Authority   : EPSG
 Version     : 7.2(10.5.0)
@@ -562,7 +576,8 @@ WKT         : VERTTRAN["HVRS_1971_Height_To_EVRS_2000_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 16.36666666666667],
                PARAMETER["Latitude_Of_Evaluation", 45.35],
                PARAMETER["Inclination_North", -0.007],
-               PARAMETER["Inclination_East", -0.016]]
+               PARAMETER["Inclination_East", -0.016],
+               OPERATIONACCURACY[0.1]]
 Description : Croatia - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -607,7 +622,8 @@ WKT         : VERTTRAN["HVRS_1971_Height_To_EVRF_2007_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 16.36666666666667],
                PARAMETER["Latitude_Of_Evaluation", 45.35],
                PARAMETER["Inclination_North", -0.016],
-               PARAMETER["Inclination_East", -0.018]]
+               PARAMETER["Inclination_East", -0.018],
+               OPERATIONACCURACY[0.1]]
 Description : Croatia - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -652,7 +668,8 @@ WKT         : VERTTRAN["Oostende_Height_To_EVRS_2000_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 4.766666666666667],
                PARAMETER["Latitude_Of_Evaluation", 50.71666666666667],
                PARAMETER["Inclination_North", -0.016],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Belgium - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -697,7 +714,8 @@ WKT         : VERTTRAN["Oostende_Height_To_EVRF_2007_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 4.766666666666667],
                PARAMETER["Latitude_Of_Evaluation", 50.71666666666667],
                PARAMETER["Inclination_North", -0.031],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Belgium - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -742,7 +760,8 @@ WKT         : VERTTRAN["Baltic_1982_Height_To_EVRF_2007_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 25.37666666666667],
                PARAMETER["Latitude_Of_Evaluation", 42.625],
                PARAMETER["Inclination_North", -0.009],
-               PARAMETER["Inclination_East", -0.003]]
+               PARAMETER["Inclination_East", -0.003],
+               OPERATIONACCURACY[0.1]]
 Description : Bulgaria - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -787,7 +806,8 @@ WKT         : VERTTRAN["Baltic_Height_To_EVRS_2000_Height_4",
                PARAMETER["Longitude_Of_Evaluation", 15.25],
                PARAMETER["Latitude_Of_Evaluation", 49.91666666666666],
                PARAMETER["Inclination_North", 0.036],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Czech Republic
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -832,7 +852,8 @@ WKT         : VERTTRAN["Baltic_Height_To_EVRF_2007_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 15.25],
                PARAMETER["Latitude_Of_Evaluation", 49.91666666666666],
                PARAMETER["Inclination_North", 0.026],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Czech Republic
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -877,7 +898,8 @@ WKT         : VERTTRAN["Baltic_Height_To_EVRF_2007_Height_2",
                PARAMETER["Longitude_Of_Evaluation", 25.86666666666667],
                PARAMETER["Latitude_Of_Evaluation", 58.7],
                PARAMETER["Inclination_North", 0.009],
-               PARAMETER["Inclination_East", -0.013]]
+               PARAMETER["Inclination_East", -0.013],
+               OPERATIONACCURACY[0.1]]
 Description : Estonia
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -922,7 +944,8 @@ WKT         : VERTTRAN["Baltic_Height_To_EVRF_2007_Height_3",
                PARAMETER["Longitude_Of_Evaluation", 24.01666666666667],
                PARAMETER["Latitude_Of_Evaluation", 55.3],
                PARAMETER["Inclination_North", 0.053],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Lithuania - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -967,7 +990,8 @@ WKT         : VERTTRAN["Constanta_Height_To_EVRS_2000_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 24.81666666666667],
                PARAMETER["Latitude_Of_Evaluation", 46.01666666666667],
                PARAMETER["Inclination_North", 0.002],
-               PARAMETER["Inclination_East", 0.002]]
+               PARAMETER["Inclination_East", 0.002],
+               OPERATIONACCURACY[0.1]]
 Description : Romania - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1012,7 +1036,8 @@ WKT         : VERTTRAN["Constanta_Height_To_EVRF_2007_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 24.81666666666667],
                PARAMETER["Latitude_Of_Evaluation", 46.01666666666667],
                PARAMETER["Inclination_North", -0.005],
-               PARAMETER["Inclination_East", 0.008]]
+               PARAMETER["Inclination_East", 0.008],
+               OPERATIONACCURACY[0.1]]
 Description : Romania - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1057,7 +1082,8 @@ WKT         : VERTTRAN["LN_1902_Height_To_EVRF_2007_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 8.183333333333334],
                PARAMETER["Latitude_Of_Evaluation", 46.91666666666666],
                PARAMETER["Inclination_North", -0.221],
-               PARAMETER["Inclination_East", -0.033]]
+               PARAMETER["Inclination_East", -0.033],
+               OPERATIONACCURACY[0.1]]
 Description : Europe - Liechtenstein and Switzerland
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1102,7 +1128,8 @@ WKT         : VERTTRAN["RH2000_Height_To_EVRF_2007_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 15.8],
                PARAMETER["Latitude_Of_Evaluation", 61.9],
                PARAMETER["Inclination_North", -0.0006],
-               PARAMETER["Inclination_East", -0.0003]]
+               PARAMETER["Inclination_East", -0.0003],
+               OPERATIONACCURACY[0.1]]
 Description : Sweden - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1147,7 +1174,8 @@ WKT         : VERTTRAN["Baltic_Height_To_EVRS_2000_Height_5",
                PARAMETER["Longitude_Of_Evaluation", 24.88333333333333],
                PARAMETER["Latitude_Of_Evaluation", 56.96666666666667],
                PARAMETER["Inclination_North", 0.0],
-               PARAMETER["Inclination_East", 0.004]]
+               PARAMETER["Inclination_East", 0.004],
+               OPERATIONACCURACY[0.1]]
 Description : Latvia - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1192,7 +1220,8 @@ WKT         : VERTTRAN["Baltic_Height_To_EVRF_2007_Height_4",
                PARAMETER["Longitude_Of_Evaluation", 24.88333333333333],
                PARAMETER["Latitude_Of_Evaluation", 56.96666666666667],
                PARAMETER["Inclination_North", 0.016],
-               PARAMETER["Inclination_East", -0.012]]
+               PARAMETER["Inclination_East", -0.012],
+               OPERATIONACCURACY[0.1]]
 Description : Latvia - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1237,7 +1266,8 @@ WKT         : VERTTRAN["DHHN92_Height_To_EVRF_2007_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 10.21666666666667],
                PARAMETER["Latitude_Of_Evaluation", 51.05],
                PARAMETER["Inclination_North", -0.01],
-               PARAMETER["Inclination_East", 0.002]]
+               PARAMETER["Inclination_East", 0.002],
+               OPERATIONACCURACY[0.1]]
 Description : Germany - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1282,7 +1312,8 @@ WKT         : VERTTRAN["DHHN85_Height_To_EVRF_2007_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 8.666666666666666],
                PARAMETER["Latitude_Of_Evaluation", 51.05],
                PARAMETER["Inclination_North", -0.011],
-               PARAMETER["Inclination_East", 0.005]]
+               PARAMETER["Inclination_East", 0.005],
+               OPERATIONACCURACY[0.1]]
 Description : Germany - onshore
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1327,7 +1358,8 @@ WKT         : VERTTRAN["Genoa_Height_To_EVRS_2000_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 12.96666666666667],
                PARAMETER["Latitude_Of_Evaluation", 42.58333333333334],
                PARAMETER["Inclination_North", -0.03],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Italy - mainland
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1372,7 +1404,8 @@ WKT         : VERTTRAN["Genoa_Height_To_EVRF_2007_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 12.96666666666667],
                PARAMETER["Latitude_Of_Evaluation", 42.58333333333334],
                PARAMETER["Inclination_North", -0.036],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Italy - mainland
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1417,7 +1450,8 @@ WKT         : VERTTRAN["Genoa_Height_To_EVRS_2000_Height_2",
                PARAMETER["Longitude_Of_Evaluation", 14.3],
                PARAMETER["Latitude_Of_Evaluation", 37.5],
                PARAMETER["Inclination_North", -0.079],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Italy - Sicily
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1462,7 +1496,8 @@ WKT         : VERTTRAN["Genoa_Height_To_EVRF_2007_Height_2",
                PARAMETER["Longitude_Of_Evaluation", 14.3],
                PARAMETER["Latitude_Of_Evaluation", 37.5],
                PARAMETER["Inclination_North", -0.051],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Italy - Sicily
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -1498,7 +1533,8 @@ WKT         : VERTTRAN["Baltic_To_Caspian_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -28.0]]
+               PARAMETER["Vertical_Offset", -28.0],
+               OPERATIONACCURACY[0.0]]
 Description : Baltic to Caspian (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -1534,7 +1570,8 @@ WKT         : VERTTRAN["Baltic_To_AIOC95_Depth_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -26.3]]
+               PARAMETER["Vertical_Offset", -26.3],
+               OPERATIONACCURACY[0.0]]
 Description : Baltic to AIOC95 (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -1570,7 +1607,8 @@ WKT         : VERTTRAN["AIOC95_Depth_To_Caspian_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -1.7]]
+               PARAMETER["Vertical_Offset", -1.7],
+               OPERATIONACCURACY[0.0]]
 Description : AIOC95 to Caspian (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -1606,7 +1644,8 @@ WKT         : VERTTRAN["Baltic_To_Black_Sea_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.4]]
+               PARAMETER["Vertical_Offset", 0.4],
+               OPERATIONACCURACY[0.0]]
 Description : Baltic to Black Sea (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -1642,7 +1681,8 @@ WKT         : VERTTRAN["Hong_Kong_Principal_Height_To_Hong_Kong_Chart_Depth_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.146]]
+               PARAMETER["Vertical_Offset", -0.146],
+               OPERATIONACCURACY[0.0]]
 Description : Hong Kong Principal height to Hong Kong Chart depth (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -1678,7 +1718,8 @@ WKT         : VERTTRAN["Belfast_To_Malin_Head_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.037]]
+               PARAMETER["Vertical_Offset", -0.037],
+               OPERATIONACCURACY[0.01]]
 Description : Belfast to Malin Head (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -1714,7 +1755,8 @@ WKT         : VERTTRAN["Poolbeg_To_Malin_Head_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -2.7]]
+               PARAMETER["Vertical_Offset", -2.7],
+               OPERATIONACCURACY[0.1]]
 Description : Poolbeg to Malin Head (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -1750,7 +1792,8 @@ WKT         : VERTTRAN["Poolbeg_To_Belfast_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -2.7]]
+               PARAMETER["Vertical_Offset", -2.7],
+               OPERATIONACCURACY[0.1]]
 Description : Poolbeg to Belfast (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -1791,7 +1834,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_NAD27_1_West",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconw.94", 0.0]]
+               PARAMETER["Dataset_vertconw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD27) West CON USA
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1832,7 +1876,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_NAD27_2_Central",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconc.94", 0.0]]
+               PARAMETER["Dataset_vertconc.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD27) Central CON USA
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1873,7 +1918,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_NAD27_3_East",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertcone.94", 0.0]]
+               PARAMETER["Dataset_vertcone.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD27) East CON USA
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1909,7 +1955,8 @@ WKT         : VERTTRAN["KOC_CD_To_Kuwait_PWD_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.49]]
+               PARAMETER["Vertical_Offset", -0.49],
+               OPERATIONACCURACY[0.1]]
 Description : KOC CD to Kuwait PWD (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -1945,7 +1992,8 @@ WKT         : VERTTRAN["KOC_CD_To_KOC_WD_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 4.74]]
+               PARAMETER["Vertical_Offset", 4.74],
+               OPERATIONACCURACY[0.1]]
 Description : KOC CD to KOC WD (1)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1981,7 +2029,8 @@ WKT         : VERTTRAN["KOC_WD_To_Kuwait_PWD_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 4.25]]
+               PARAMETER["Vertical_Offset", 4.25],
+               OPERATIONACCURACY[0.1]]
 Description : KOC WD to Kuwait PWD (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -2026,7 +2075,8 @@ WKT         : VERTTRAN["GHA_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 14.45],
                PARAMETER["Latitude_Of_Evaluation", 47.53333333333333],
                PARAMETER["Inclination_North", -0.057],
-               PARAMETER["Inclination_East", -0.058]]
+               PARAMETER["Inclination_East", -0.058],
+               OPERATIONACCURACY[0.1]]
 Description : GHA to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2071,7 +2121,8 @@ WKT         : VERTTRAN["Baltic_1982_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 25.37666666666667],
                PARAMETER["Latitude_Of_Evaluation", 42.625],
                PARAMETER["Inclination_North", 0.001],
-               PARAMETER["Inclination_East", -0.004]]
+               PARAMETER["Inclination_East", -0.004],
+               OPERATIONACCURACY[0.1]]
 Description : Baltic 1982 to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2116,7 +2167,8 @@ WKT         : VERTTRAN["DNN_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 9.233333333333333],
                PARAMETER["Latitude_Of_Evaluation", 56.03333333333333],
                PARAMETER["Inclination_North", 0.003],
-               PARAMETER["Inclination_East", 0.011]]
+               PARAMETER["Inclination_East", 0.011],
+               OPERATIONACCURACY[0.1]]
 Description : DNN to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -2125,7 +2177,7 @@ Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.25
+Area-rlon   : 15.24
 Accuracy    : 0.1
 
 WKID        : 5418
@@ -2161,7 +2213,8 @@ WKT         : VERTTRAN["Baltic_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 25.86666666666667],
                PARAMETER["Latitude_Of_Evaluation", 58.7],
                PARAMETER["Inclination_North", -0.013],
-               PARAMETER["Inclination_East", 0.005]]
+               PARAMETER["Inclination_East", 0.005],
+               OPERATIONACCURACY[0.1]]
 Description : Baltic to EVRS 2000 (1) - deprecated, bad value
 Authority   : EPSG
 Version     : 6.5.3(9.3.0.0)
@@ -2197,7 +2250,8 @@ WKT         : VERTTRAN["NGF_IGN69_To_EVRS_2000_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.486]]
+               PARAMETER["Vertical_Offset", -0.486],
+               OPERATIONACCURACY[0.1]]
 Description : NGF IGN69 to EVRS2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2242,7 +2296,8 @@ WKT         : VERTTRAN["DHHN92_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 10.21666666666667],
                PARAMETER["Latitude_Of_Evaluation", 51.05],
                PARAMETER["Inclination_North", -0.001],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : DHHN92 to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2287,7 +2342,8 @@ WKT         : VERTTRAN["DHHN85_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 8.666666666666666],
                PARAMETER["Latitude_Of_Evaluation", 51.05],
                PARAMETER["Inclination_North", -0.002],
-               PARAMETER["Inclination_East", 0.003]]
+               PARAMETER["Inclination_East", 0.003],
+               OPERATIONACCURACY[0.1]]
 Description : DHHN85 to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -2332,7 +2388,8 @@ WKT         : VERTTRAN["SNN76_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 13.16666666666667],
                PARAMETER["Latitude_Of_Evaluation", 52.53333333333333],
                PARAMETER["Inclination_North", 0.007],
-               PARAMETER["Inclination_East", 0.005]]
+               PARAMETER["Inclination_East", 0.005],
+               OPERATIONACCURACY[0.1]]
 Description : SNN76 to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2377,7 +2434,8 @@ WKT         : VERTTRAN["EOMA_1980_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 19.58333333333333],
                PARAMETER["Latitude_Of_Evaluation", 46.98333333333333],
                PARAMETER["Inclination_North", 0.008],
-               PARAMETER["Inclination_East", -0.002]]
+               PARAMETER["Inclination_East", -0.002],
+               OPERATIONACCURACY[0.1]]
 Description : EOMA 1980 to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2413,7 +2471,8 @@ WKT         : VERTTRAN["NAP_To_EVRS_2000_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.005]]
+               PARAMETER["Vertical_Offset", -0.005],
+               OPERATIONACCURACY[0.1]]
 Description : NAP to EVRS2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2458,7 +2517,8 @@ WKT         : VERTTRAN["NN54_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 11.16666666666667],
                PARAMETER["Latitude_Of_Evaluation", 62.93333333333333],
                PARAMETER["Inclination_North", -0.01],
-               PARAMETER["Inclination_East", 0.034]]
+               PARAMETER["Inclination_East", 0.034],
+               OPERATIONACCURACY[0.1]]
 Description : NN54 to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2494,7 +2554,8 @@ WKT         : VERTTRAN["Cascais_To_EVRS_2000_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.315]]
+               PARAMETER["Vertical_Offset", -0.315],
+               OPERATIONACCURACY[0.1]]
 Description : Cascais to EVRS2000 (1)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -2539,7 +2600,8 @@ WKT         : VERTTRAN["NVN99_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 15.0],
                PARAMETER["Latitude_Of_Evaluation", 46.0],
                PARAMETER["Inclination_North", -0.033],
-               PARAMETER["Inclination_East", 0.008]]
+               PARAMETER["Inclination_East", 0.008],
+               OPERATIONACCURACY[0.1]]
 Description : NVN99 to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2584,7 +2646,8 @@ WKT         : VERTTRAN["Alicante_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", -3.659722222222222],
                PARAMETER["Latitude_Of_Evaluation", 40.77222222222222],
                PARAMETER["Inclination_North", -0.003],
-               PARAMETER["Inclination_East", 0.006]]
+               PARAMETER["Inclination_East", 0.006],
+               OPERATIONACCURACY[0.1]]
 Description : Alicante to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2629,7 +2692,8 @@ WKT         : VERTTRAN["RH70_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 16.23333333333333],
                PARAMETER["Latitude_Of_Evaluation", 64.0],
                PARAMETER["Inclination_North", -0.012],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : RH70 to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -2674,7 +2738,8 @@ WKT         : VERTTRAN["LN02_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", 8.183333333333334],
                PARAMETER["Latitude_Of_Evaluation", 46.91666666666666],
                PARAMETER["Inclination_North", -0.21],
-               PARAMETER["Inclination_East", -0.032]]
+               PARAMETER["Inclination_East", -0.032],
+               OPERATIONACCURACY[0.1]]
 Description : LN02 to EVRS 2000 (1)
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2710,7 +2775,8 @@ WKT         : VERTTRAN["N60_To_EVRS_2000_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.213]]
+               PARAMETER["Vertical_Offset", 0.213],
+               OPERATIONACCURACY[0.1]]
 Description : N60 to EVRS2000 (1)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -2755,7 +2821,8 @@ WKT         : VERTTRAN["Baltic_To_EVRS_2000_2",
                PARAMETER["Longitude_Of_Evaluation", 24.01666666666667],
                PARAMETER["Latitude_Of_Evaluation", 55.3],
                PARAMETER["Inclination_North", 0.0],
-               PARAMETER["Inclination_East", 0.002]]
+               PARAMETER["Inclination_East", 0.002],
+               OPERATIONACCURACY[0.1]]
 Description : Lithuania - onshore
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -2800,7 +2867,8 @@ WKT         : VERTTRAN["Baltic_To_EVRS_2000_3",
                PARAMETER["Longitude_Of_Evaluation", 19.25],
                PARAMETER["Latitude_Of_Evaluation", 48.63333333333333],
                PARAMETER["Inclination_North", 0.02],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Baltic to EVRS 2000 (3)
 Authority   : EPSG
 Version     : 6.9(9.3.0.0)
@@ -2845,7 +2913,8 @@ WKT         : VERTTRAN["Baltic_Height_To_EVRS_2000_Height_1",
                PARAMETER["Longitude_Of_Evaluation", 25.86666666666667],
                PARAMETER["Latitude_Of_Evaluation", 58.7],
                PARAMETER["Inclination_North", -0.014],
-               PARAMETER["Inclination_East", 0.005]]
+               PARAMETER["Inclination_East", 0.005],
+               OPERATIONACCURACY[0.1]]
 Description : Estonia - onshore
 Authority   : EPSG
 Version     : 6.15(10.1.0)
@@ -2890,7 +2959,8 @@ WKT         : VERTTRAN["Baltic_To_EVRS_2000_2",
                PARAMETER["Longitude_Of_Evaluation", 24.01666666666667],
                PARAMETER["Latitude_Of_Evaluation", 55.3],
                PARAMETER["Inclination_North", 0.0],
-               PARAMETER["Inclination_East", 0.002]]
+               PARAMETER["Inclination_East", 0.002],
+               OPERATIONACCURACY[0.1]]
 Description : Lithuania - onshore
 Authority   : EPSG
 Version     : 6.15(10.1.0)
@@ -2926,7 +2996,8 @@ WKT         : VERTTRAN["Baltic_Height_To_Caspian_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 28.0]]
+               PARAMETER["Vertical_Offset", 28.0],
+               OPERATIONACCURACY[0.0]]
 Description : Asia - FSU - Caspian Sea
 Authority   : EPSG
 Version     : 7.4.6(10.2.0)
@@ -2962,7 +3033,8 @@ WKT         : VERTTRAN["Baltic_Depth_To_Caspian_Depth_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -28.0]]
+               PARAMETER["Vertical_Offset", -28.0],
+               OPERATIONACCURACY[0.0]]
 Description : Asia - FSU - Caspian Sea
 Authority   : EPSG
 Version     : 7.4.6(10.2.0)
@@ -2998,7 +3070,8 @@ WKT         : VERTTRAN["Baltic_Depth_To_Caspian_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 28.0]]
+               PARAMETER["Vertical_Offset", 28.0],
+               OPERATIONACCURACY[0.0]]
 Description : Asia - FSU - Caspian Sea
 Authority   : EPSG
 Version     : 7.4.6(10.2.0)
@@ -3034,7 +3107,8 @@ WKT         : VERTTRAN["Baltic_Height_To_Baltic_Depth_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.0]]
+               PARAMETER["Vertical_Offset", 0.0],
+               OPERATIONACCURACY[0.0]]
 Description : Europe - FSU, former Czechslovakia - onshore
 Authority   : EPSG
 Version     : 9.2(10.2.0)
@@ -3070,7 +3144,8 @@ WKT         : VERTTRAN["Baltic_Height_To_AIOC95_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 26.3]]
+               PARAMETER["Vertical_Offset", 26.3],
+               OPERATIONACCURACY[0.0]]
 Description : Azerbaijan - Caspian offshore and Sangachal
 Authority   : EPSG
 Version     : 9.2(10.2.0)
@@ -3106,7 +3181,8 @@ WKT         : VERTTRAN["Baltic_Depth_To_AIOC95_Depth_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -26.3]]
+               PARAMETER["Vertical_Offset", -26.3],
+               OPERATIONACCURACY[0.0]]
 Description : Azerbaijan - Caspian offshore and Sangachal
 Authority   : EPSG
 Version     : 9.2(10.2.0)
@@ -3142,7 +3218,8 @@ WKT         : VERTTRAN["Baltic_Depth_To_AIOC95_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 26.3]]
+               PARAMETER["Vertical_Offset", 26.3],
+               OPERATIONACCURACY[0.0]]
 Description : Azerbaijan - Caspian offshore and Sangachal
 Authority   : EPSG
 Version     : 9.2(10.2.0)
@@ -3178,7 +3255,8 @@ WKT         : VERTTRAN["Baltic_Height_To_Black_Sea_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.4]]
+               PARAMETER["Vertical_Offset", 0.4],
+               OPERATIONACCURACY[0.0]]
 Description : Georgia - onshore
 Authority   : EPSG
 Version     : 7.4.6(10.2.0)
@@ -3214,7 +3292,8 @@ WKT         : VERTTRAN["Poolbeg_Height_To_Malin_Head_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -2.7]]
+               PARAMETER["Vertical_Offset", -2.7],
+               OPERATIONACCURACY[0.1]]
 Description : Europe - Ireland (Republic and Ulster) - onshore
 Authority   : EPSG
 Version     : 6.12(10.2.0)
@@ -3250,7 +3329,8 @@ WKT         : VERTTRAN["Poolbeg_Height_To_Belfast_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -2.7]]
+               PARAMETER["Vertical_Offset", -2.7],
+               OPERATIONACCURACY[0.1]]
 Description : UK - Northern Ireland - onshore
 Authority   : EPSG
 Version     : 7.4.6(10.2.0)
@@ -3286,7 +3366,8 @@ WKT         : VERTTRAN["KOC_CD_Height_To_Kuwait_PWD_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.49]]
+               PARAMETER["Vertical_Offset", -0.49],
+               OPERATIONACCURACY[0.1]]
 Description : Kuwait - onshore
 Authority   : EPSG
 Version     : 9.2(10.2.0)
@@ -3322,7 +3403,8 @@ WKT         : VERTTRAN["Belfast_Height_To_Malin_Head_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.037]]
+               PARAMETER["Vertical_Offset", -0.037],
+               OPERATIONACCURACY[0.01]]
 Description : UK - Northern Ireland - onshore
 Authority   : EPSG
 Version     : 7.4.6(10.2.0)
@@ -3358,7 +3440,8 @@ WKT         : VERTTRAN["KOC_CD_Height_To_Kuwait_WD_Depth_Ft_Intl_1",
                 
                UNIT["Foot",  0.3048]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 15.55]]
+               PARAMETER["Vertical_Offset", 15.55],
+               OPERATIONACCURACY[0.1]]
 Description : Kuwait - onshore
 Authority   : EPSG
 Version     : 9.2(10.2.0)
@@ -3394,7 +3477,8 @@ WKT         : VERTTRAN["HKPD_Height_To_HKCD_Depth_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.146]]
+               PARAMETER["Vertical_Offset", -0.146],
+               OPERATIONACCURACY[0.0]]
 Description : China - Hong Kong - deprecated
 Authority   : EPSG
 Version     : 6.12(10.2.0)
@@ -3430,7 +3514,8 @@ WKT         : VERTTRAN["KOC_WD_Depth_To_Kuwait_PWD_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 4.25]]
+               PARAMETER["Vertical_Offset", 4.25],
+               OPERATIONACCURACY[0.1]]
 Description : Kuwait - onshore
 Authority   : EPSG
 Version     : 7.4.6(10.2.0)
@@ -3475,7 +3560,8 @@ WKT         : VERTTRAN["GHA_To_EVRF_2007_height_1",
                PARAMETER["Longitude_Of_Evaluation", 14.45],
                PARAMETER["Latitude_Of_Evaluation", 47.53333333333333],
                PARAMETER["Inclination_North", -0.065],
-               PARAMETER["Inclination_East", -0.06]]
+               PARAMETER["Inclination_East", -0.06],
+               OPERATIONACCURACY[0.1]]
 Description : GHA to EVRF 2007 height (1)
 Authority   : EPSG
 Version     : 7.9.3(10.1.0)
@@ -3518,7 +3604,8 @@ WKT         : VERTTRAN["GDA94_Height_To_AHD_Height_AUSGeoid09_49",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_AUSGeoid09_GDA94_V1.01_DOV_windows", 0.0]]
+               PARAMETER["Dataset_AUSGeoid09_GDA94_V1.01_DOV_windows", 0.0],
+               OPERATIONACCURACY[0.03]]
 Description : GDA 1994 height to AHD height AUSGeoid09 (49)
 Authority   : Esri
 Version     : 12.6.0
@@ -3554,7 +3641,8 @@ WKT         : VERTTRAN["JGD2000_vertical_(height)_to_JGD2011_(vertical)_height_1
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.0]]
+               PARAMETER["Vertical_Offset", 0.0],
+               OPERATIONACCURACY[0.01]]
 Description : JGD2000 vertical (height) to JGD2011 vertical (height) (1)
 Authority   : EPSG
 Version     : 8.4(10.5.0)
@@ -3590,7 +3678,8 @@ WKT         : VERTTRAN["EGM96_height_To_Kumul_34_height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.87]]
+               PARAMETER["Vertical_Offset", -0.87],
+               OPERATIONACCURACY[0.0]]
 Description : EGM96 height to KUMUL 34 height (1)
 Authority   : EPSG
 Version     : 8.8(10.5.0)
@@ -3626,7 +3715,8 @@ WKT         : VERTTRAN["EGM2008_height_To_Kiunga_height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -3.0]]
+               PARAMETER["Vertical_Offset", -3.0],
+               OPERATIONACCURACY[0.0]]
 Description : EGM2008 height to Kiunga height (1)
 Authority   : EPSG
 Version     : 8.8(10.5.0)
@@ -3671,7 +3761,8 @@ WKT         : VERTTRAN["Latvia_2000_height_To_EVRF2007_height_1",
                PARAMETER["Longitude_Of_Evaluation", 24.88333333333333],
                PARAMETER["Latitude_Of_Evaluation", 56.96666666666667],
                PARAMETER["Inclination_North", 0.0],
-               PARAMETER["Inclination_East", 0.00739999999999999]]
+               PARAMETER["Inclination_East", 0.00739999999999999],
+               OPERATIONACCURACY[0.1]]
 Description : Latvia 2000 height to EVRF2007 height (1)
 Authority   : EPSG
 Version     : 8.8.1(10.5.0)
@@ -3716,7 +3807,8 @@ WKT         : VERTTRAN["DHHN2016_(height)_To_EVRF_2007_(height)_1",
                PARAMETER["Longitude_Of_Evaluation", 10.21666666666667],
                PARAMETER["Latitude_Of_Evaluation", 51.05],
                PARAMETER["Inclination_North", -0.01],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Germany
 Authority   : EPSG
 Version     : 8.9.4(10.5.0)
@@ -3757,7 +3849,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Auckland_1946_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_auckland_1946_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_auckland_1946_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2016 (ht) to Auckland 1946 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -3798,7 +3891,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Bluff_1955_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_bluff_1955_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_bluff_1955_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2016 (ht) to Bluff 1955 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -3839,7 +3933,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Dunedin_1958_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_dunedin_1958_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_dunedin_1958_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2016 (ht) to Dunedin 1958 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -3880,7 +3975,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Dunedin-Bluff_1960_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_Dunedin-Bluff_1960_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_Dunedin-Bluff_1960_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2016 (ht) to Dunedin-Bluff 1960 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -3921,7 +4017,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Gisborne_1926_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_gisborne_1926_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_gisborne_1926_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2016 (ht) to Gisborne 1926 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -3962,7 +4059,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Lyttelton_1937_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_lyttelton_1937_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_lyttelton_1937_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.01]]
 Description : NZVD2016 (ht) to Lyttelton 1937 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -4003,7 +4101,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Moturiki_1953_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_moturiki_1953_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_moturiki_1953_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2016 (ht) to Moturiki 1953 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -4044,7 +4143,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Napier_1962_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_napier_1962_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_napier_1962_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2016 (ht) to Napier 1962 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -4085,7 +4185,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Nelson_1955_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_nelson_1955_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_nelson_1955_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2016 (ht) to Nelson 1955 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -4126,7 +4227,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_One_Tree_Point_1964_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_one_tree_point_1964_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_one_tree_point_1964_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.01]]
 Description : NZVD2016 (ht) to One Tree Point 1964 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -4167,7 +4269,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Stewart_Island_1977_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_stewart_island_1977_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_stewart_island_1977_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.18]]
 Description : NZVD2016 (ht) to Stewart Island 1977 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -4208,7 +4311,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Taranaki_1970_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_taranaki_1970_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_taranaki_1970_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2016 (ht) to Taranaki 1970 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -4249,7 +4353,8 @@ WKT         : VERTTRAN["NZVD2016_Height_To_Wellington_1953_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_wellington_1953_to_nzvd2016", 0.0]]
+               PARAMETER["Dataset_wellington_1953_to_nzvd2016", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2016 (ht) to Wellington 1953 (ht) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -4285,7 +4390,8 @@ WKT         : VERTTRAN["EGM96_height_to_POM96_height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -1.58]]
+               PARAMETER["Vertical_Offset", -1.58],
+               OPERATIONACCURACY[0.0]]
 Description : EGM96 (height) to POM96 (height) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -4322,7 +4428,8 @@ WKT         : VERTTRAN["EGM2008_height_to_POM08_height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.93]]
+               PARAMETER["Vertical_Offset", -0.93],
+               OPERATIONACCURACY[0.0]]
 Description : EGM2008 (height) to POM08 (height) (1)
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -4359,7 +4466,8 @@ WKT         : VERTTRAN["Poolbeg_height_(m)_To_Malin_Head_height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -2.7]]
+               PARAMETER["Vertical_Offset", -2.7],
+               OPERATIONACCURACY[0.1]]
 Description : Europe - Ireland (Republic and Ulster) - onshore
 Authority   : EPSG
 Version     : 9.2(10.8.0)
@@ -4395,7 +4503,8 @@ WKT         : VERTTRAN["Poolbeg_height_(m)_To_Belfast_height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -2.7]]
+               PARAMETER["Vertical_Offset", -2.7],
+               OPERATIONACCURACY[0.1]]
 Description : Europe - Ireland (Republic and Ulster) - onshore
 Authority   : EPSG
 Version     : 9.2(10.8.0)
@@ -4431,7 +4540,8 @@ WKT         : VERTTRAN["HKPD_depth_To_HKCD_depth_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -0.146]]
+               PARAMETER["Vertical_Offset", -0.146],
+               OPERATIONACCURACY[0.0]]
 Description : China - Hong Kong - offshore
 Authority   : EPSG
 Version     : 9.2(10.8.0)
@@ -4467,7 +4577,8 @@ WKT         : VERTTRAN["KOC_CD_height_To_KOC_WD_height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -4.74]]
+               PARAMETER["Vertical_Offset", -4.74],
+               OPERATIONACCURACY[0.1]]
 Description : Kuwait - onshore
 Authority   : EPSG
 Version     : 9.2(10.8.0)
@@ -4503,7 +4614,8 @@ WKT         : VERTTRAN["Kuwait_PWD_height_To_KOC_WD_height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", -4.25]]
+               PARAMETER["Vertical_Offset", -4.25],
+               OPERATIONACCURACY[0.1]]
 Description : Kuwait - onshore
 Authority   : EPSG
 Version     : 9.2(10.8.0)
@@ -4546,7 +4658,8 @@ WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_CONUS_GEOID18_Height_3",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2018u0", 0.0]]
+               PARAMETER["Dataset_g2018u0", 0.0],
+               OPERATIONACCURACY[0.015]]
 Description : NAD 1983 (2011) height to NAVD88 CONUS GEOID18 height (3)
 Authority   : Esri
 Version     : 12.6.0
@@ -4589,7 +4702,8 @@ WKT         : VERTTRAN["NAD_1983_2011_Height_To_PRVD02_GEOID18_Height_2",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2018p0", 0.0]]
+               PARAMETER["Dataset_g2018p0", 0.0],
+               OPERATIONACCURACY[0.015]]
 Description : NAD 1983 (2011) height to PRVD02 GEOID18 height (2)
 Authority   : Esri
 Version     : 12.6.0
@@ -4625,7 +4739,8 @@ WKT         : VERTTRAN["Vienna_height_To_GHA_height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 156.68]]
+               PARAMETER["Vertical_Offset", 156.68],
+               OPERATIONACCURACY[0.0]]
 Description : Vienna height to GHA height (1)
 Authority   : EPSG
 Version     : 9.8.11(12.7.0)
@@ -4668,7 +4783,8 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1996_Geoid_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["EGM96"],
-               PARAMETER["Dataset_egm96.grd", 0.0]]
+               PARAMETER["Dataset_egm96.grd", 0.0],
+               OPERATIONACCURACY[1.0]]
 Description : WGS84 EH to EGM96 GH Bilin
 Authority   : Esri
 Version     : 9.3.0.0
@@ -4711,7 +4827,8 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1984_Geoid_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["EGM84"],
-               PARAMETER["Dataset_egm84.grd", 0.0]]
+               PARAMETER["Dataset_egm84.grd", 0.0],
+               OPERATIONACCURACY[1.0]]
 Description : WGS84 EH to EGM84 GH Bilin
 Authority   : Esri
 Version     : 9.3.0.0
@@ -4754,7 +4871,8 @@ WKT         : VERTTRAN["NAD_1983_2011_To_NAVD88_CONUS_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bu0", 0.0]]
+               PARAMETER["Dataset_g2012bu0", 0.0],
+               OPERATIONACCURACY[0.05]]
 Description : NAD 1983 (2011) To NAVD88 CONUS (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -4797,7 +4915,8 @@ WKT         : VERTTRAN["NAD_1983_2011_To_NAVD88_Alaska_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012ba0", 0.0]]
+               PARAMETER["Dataset_g2012ba0", 0.0],
+               OPERATIONACCURACY[4.0]]
 Description : NAD 1983 (2011) To NAVD88 Alaska (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -4840,16 +4959,17 @@ WKT         : VERTTRAN["NAD_1983_PA11_To_NAVD88_Hawaii_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bh0", 0.0]]
+               PARAMETER["Dataset_g2012bh0", 0.0],
+               OPERATIONACCURACY[2.0]]
 Description : NAD 1983 (PA11) To NAVD88 Hawaii (Height)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : USA - Hawaii - main islands
-Area-slat   : 15.56
-Area-nlat   : 25.58
-Area-llon   : -163.74
-Area-rlon   : -151.27
+Area-name   : USA - Hawaii - onshore
+Area-slat   : 18.87
+Area-nlat   : 22.29
+Area-llon   : -160.3
+Area-rlon   : -154.74
 Accuracy    : 2.0
 
 WKID        : 110003
@@ -4883,7 +5003,8 @@ WKT         : VERTTRAN["NAD_1983_2011_To_PRVD02_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bp0", 0.0]]
+               PARAMETER["Dataset_g2012bp0", 0.0],
+               OPERATIONACCURACY[2.0]]
 Description : NAD 1983 (2011) To PRVD02 (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -4926,7 +5047,8 @@ WKT         : VERTTRAN["NAD_1983_PA11_To_ASVD02_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bs0", 0.0]]
+               PARAMETER["Dataset_g2012bs0", 0.0],
+               OPERATIONACCURACY[1.6]]
 Description : NAD 1983 (PA11) To ASVD02 (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -4969,7 +5091,8 @@ WKT         : VERTTRAN["NAD_1983_MA11_To_GUVD04_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bg0", 0.0]]
+               PARAMETER["Dataset_g2012bg0", 0.0],
+               OPERATIONACCURACY[1.6]]
 Description : NAD 1983 (MA11) To GUVD04 (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -5012,7 +5135,8 @@ WKT         : VERTTRAN["NAD_1983_To_VIVD09_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bp0", 0.0]]
+               PARAMETER["Dataset_g2012bp0", 0.0],
+               OPERATIONACCURACY[2.0]]
 Description : NAD 1983 To VIVD09 (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -5055,7 +5179,8 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1996_Geoid_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["EGM96"],
-               PARAMETER["Dataset_egm96.grd", 0.0]]
+               PARAMETER["Dataset_egm96.grd", 0.0],
+               OPERATIONACCURACY[1.0]]
 Description : WGS84 EH to EGM96 GH Bilin
 Authority   : Esri
 Version     : 10.2.1
@@ -5098,7 +5223,8 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1984_Geoid_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["EGM84"],
-               PARAMETER["Dataset_egm84.grd", 0.0]]
+               PARAMETER["Dataset_egm84.grd", 0.0],
+               OPERATIONACCURACY[1.0]]
 Description : WGS84 EH to EGM84 GH Bilin
 Authority   : Esri
 Version     : 10.2.1
@@ -5139,7 +5265,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_NAD27_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD27) East, Central, West CON USA
 Authority   : Esri
 Version     : 9.3.0.0
@@ -5180,7 +5307,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_NAD83_East",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertcone.94", 0.0]]
+               PARAMETER["Dataset_vertcone.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD83) East CON USA
 Authority   : Esri
 Version     : 10.0.0
@@ -5221,7 +5349,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_NAD83_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD83) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.0.0
@@ -5262,7 +5391,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_NAD83_Central",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconc.94", 0.0]]
+               PARAMETER["Dataset_vertconc.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD83) Central CON USA
 Authority   : Esri
 Version     : 10.0.0
@@ -5303,7 +5433,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_NAD83_West",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconw.94", 0.0]]
+               PARAMETER["Dataset_vertconw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD83) West CON USA
 Authority   : Esri
 Version     : 10.0.0
@@ -5344,7 +5475,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_HARN_East",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertcone.94", 0.0]]
+               PARAMETER["Dataset_vertcone.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (HARN) East CON USA
 Authority   : Esri
 Version     : 10.0.0
@@ -5385,7 +5517,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_HARN_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (HARN) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.0.0
@@ -5426,7 +5559,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_HARN_Central",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconc.94", 0.0]]
+               PARAMETER["Dataset_vertconc.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (HARN) Central CON USA
 Authority   : Esri
 Version     : 10.0.0
@@ -5467,7 +5601,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_HARN_West",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconw.94", 0.0]]
+               PARAMETER["Dataset_vertconw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (HARN) West CON USA
 Authority   : Esri
 Version     : 10.0.0
@@ -5510,7 +5645,8 @@ WKT         : VERTTRAN["WGS_1984_To_WGS_1984_EGM2008_1x1_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["EGM96"],
-               PARAMETER["Dataset_egm2008-1.grd", 1.0]]
+               PARAMETER["Dataset_egm2008-1.grd", 1.0],
+               OPERATIONACCURACY[0.15]]
 Description : WGS 1984 To WGS 1984 using EGM2008 1x1 (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -5553,7 +5689,8 @@ WKT         : VERTTRAN["WGS_1984_To_WGS_1984_EGM2008_2.5x2.5_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["EGM96"],
-               PARAMETER["Dataset_egm2008-25.grd", 0.0]]
+               PARAMETER["Dataset_egm2008-25.grd", 0.0],
+               OPERATIONACCURACY[0.5]]
 Description : WGS 1984 To WGS 1984 using EGM2008 2.5x2.5 (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -5596,7 +5733,8 @@ WKT         : VERTTRAN["GDA2020_Height_To_AHD_Height_AUSGeoid2020_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_AUSGeoid2020_windows_binary", 0.0]]
+               PARAMETER["Dataset_AUSGeoid2020_windows_binary", 0.0],
+               OPERATIONACCURACY[0.03]]
 Description : GDA2020 height to AHD height AUSGeoid2020 (1) (should be 8451)
 Authority   : Esri
 Version     : 12.6.0
@@ -5640,7 +5778,8 @@ WKT         : VERTTRAN["D96_to_SVS2010_ht_SLO_VRP2016_Koper",
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
                PARAMETER["Interpolation_Type", 5.0],
-               PARAMETER["Dataset_SLO_VRP2016-Koper", 0.0]]
+               PARAMETER["Dataset_SLO_VRP2016-Koper", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Slovenia 1996 (ht) to SVS2010 (ht) SLO_VRP2016-Koper quasi-geoid
 Authority   : Esri
 Version     : 12.6.0
@@ -5684,7 +5823,8 @@ WKT         : VERTTRAN["D96_to_SVS2000_ht_SLO_AMG2000E_Trst",
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
                PARAMETER["Interpolation_Type", 5.0],
-               PARAMETER["Dataset_SLO_AMG2000E-Trst", 0.0]]
+               PARAMETER["Dataset_SLO_AMG2000E-Trst", 0.0],
+               OPERATIONACCURACY[0.2]]
 Description : Slovenia 1996 (ht) to SVS2000 (ht) SLO_AMG2000E-Trst geoid
 Authority   : Esri
 Version     : 12.6.0
@@ -5695,6 +5835,258 @@ Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
 Accuracy    : 0.2
+
+WKID        : 110024
+Latest-WKID : 110024
+Macro       : PE_VT_NAVD88_HT_TO_NAVD88_D
+Name        : NAVD88_Height_To_Depth
+WKT         : VERTTRAN["NAVD88_Height_To_Depth",
+               VERTCS["NAVD_1988",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["Height_Depth_Reversal"],
+               OPERATIONACCURACY[0.0]]
+Description : NAVD88 height to NAVD88 depth
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : North America - Mexico and USA - onshore
+Area-slat   : 14.51
+Area-nlat   : 71.4
+Area-llon   : 172.42
+Area-rlon   : -66.91
+Accuracy    : 0.0
+
+WKID        : 110025
+Latest-WKID : 110025
+Macro       : PE_VT_NAVD88_HT_USFT_TO_NAVD88_D_USFT
+Name        : NAVD88_USFT_Height_To_Depth
+WKT         : VERTTRAN["NAVD88_USFT_Height_To_Depth",
+               VERTCS["NAVD88_height_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VERTCS["NAVD88_depth_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["Height_Depth_Reversal"],
+               OPERATIONACCURACY[0.0]]
+Description : NAVD88 height (USft) to NAVD88 depth (USft)
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS and Alaska - onshore
+Area-slat   : 24.41
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -66.91
+Accuracy    : 0.0
+
+WKID        : 110026
+Latest-WKID : 110026
+Macro       : PE_VT_NAVD88_HT_TO_NAVD88_HT_USFT
+Name        : NAVD88_Height_(m)_To_USFT
+WKT         : VERTTRAN["NAVD88_Height_(m)_To_USFT",
+               VERTCS["NAVD_1988",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_height_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["Unit_Change"],
+               OPERATIONACCURACY[0.0]]
+Description : NAVD88 height to NAVD88 height (USft)
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS and Alaska - onshore
+Area-slat   : 24.41
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -66.91
+Accuracy    : 0.0
+
+WKID        : 110027
+Latest-WKID : 110027
+Macro       : PE_VT_NAVD88_HT_TO_NAVD88_HT_IFT
+Name        : NAVD88_Height_(m)_To_IFT
+WKT         : VERTTRAN["NAVD88_Height_(m)_To_IFT",
+               VERTCS["NAVD_1988",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_height_(ftIntl)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot",  0.3048]],
+               VTMETHOD["Unit_Change"],
+               OPERATIONACCURACY[0.0]]
+Description : NAVD88 height to NAVD88 height (Ift)
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - onshore - AZ MI MT ND OR SC
+Area-slat   : 31.33
+Area-nlat   : 49.01
+Area-llon   : -124.6
+Area-rlon   : -78.52
+Accuracy    : 0.0
+
+WKID        : 110028
+Latest-WKID : 110028
+Macro       : PE_VT_NAVD88_HT_USFT_TO_NAVD88_HT_IFT
+Name        : NAVD88_Height_USFT_To_IFT
+WKT         : VERTTRAN["NAVD88_Height_USFT_To_IFT",
+               VERTCS["NAVD88_height_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VERTCS["NAVD88_height_(ftIntl)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot",  0.3048]],
+               VTMETHOD["Unit_Change"],
+               OPERATIONACCURACY[0.0]]
+Description : NAVD88 height (USft) to NAVD88 height (Ift)
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - onshore - AZ MI MT ND OR SC
+Area-slat   : 31.33
+Area-nlat   : 49.01
+Area-llon   : -124.6
+Area-rlon   : -78.52
+Accuracy    : 0.0
+
+WKID        : 110029
+Latest-WKID : 110029
+Macro       : PE_VT_NAVD88_D_TO_NAVD88_D_USFT
+Name        : NAVD88_Depth_(m)_To_USFT
+WKT         : VERTTRAN["NAVD88_Depth_(m)_To_USFT",
+               VERTCS["NAVD88_depth",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["Unit_Change"],
+               OPERATIONACCURACY[0.0]]
+Description : NAVD88 depth to NAVD88 depth (USft)
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS and Alaska - onshore
+Area-slat   : 24.41
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -66.91
+Accuracy    : 0.0
+
+WKID        : 110030
+Latest-WKID : 110030
+Macro       : PE_VT_NAVD88_HT_TO_NAVD88_D_USFT
+Name        : NAVD88_Height_(m)_To_Depth_USFT
+WKT         : VERTTRAN["NAVD88_Height_(m)_To_Depth_USFT",
+               VERTCS["NAVD_1988",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["Height_Depth_Reversal"],
+               OPERATIONACCURACY[0.0]]
+Description : NAVD88 height to NAVD88 depth (USft)
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS and Alaska - onshore
+Area-slat   : 24.41
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -66.91
+Accuracy    : 0.0
 
 WKID        : 110031
 Latest-WKID : 110031
@@ -5727,7 +6119,8 @@ WKT         : VERTTRAN["NAD_1983_To_NAVD88_CONUS_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bu0", 0.0]]
+               PARAMETER["Dataset_g2012bu0", 0.0],
+               OPERATIONACCURACY[0.05]]
 Description : NAD 1983 To NAVD88 CONUS (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -5770,7 +6163,8 @@ WKT         : VERTTRAN["NAD_1983_To_NAVD88_Alaska_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012ba0", 0.0]]
+               PARAMETER["Dataset_g2012ba0", 0.0],
+               OPERATIONACCURACY[4.0]]
 Description : NAD 1983 To NAVD88 Alaska (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -5813,16 +6207,17 @@ WKT         : VERTTRAN["NAD_1983_To_NAVD88_Hawaii_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bh0", 0.0]]
+               PARAMETER["Dataset_g2012bh0", 0.0],
+               OPERATIONACCURACY[2.0]]
 Description : NAD 1983 To NAVD88 Hawaii (Height)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : USA - Hawaii - main islands
-Area-slat   : 15.56
-Area-nlat   : 25.58
-Area-llon   : -163.74
-Area-rlon   : -151.27
+Area-name   : USA - Hawaii - onshore
+Area-slat   : 18.87
+Area-nlat   : 22.29
+Area-llon   : -160.3
+Area-rlon   : -154.74
 Accuracy    : 2.0
 
 WKID        : 110034
@@ -5856,7 +6251,8 @@ WKT         : VERTTRAN["NAD_1983_To_PRVD02_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bp0", 0.0]]
+               PARAMETER["Dataset_g2012bp0", 0.0],
+               OPERATIONACCURACY[2.0]]
 Description : NAD 1983 To PRVD02 (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -5899,7 +6295,8 @@ WKT         : VERTTRAN["NAD_1983_2011_To_VIVD09_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bp0", 0.0]]
+               PARAMETER["Dataset_g2012bp0", 0.0],
+               OPERATIONACCURACY[2.0]]
 Description : NAD 1983 (2011) To VIVD09 (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -5942,7 +6339,8 @@ WKT         : VERTTRAN["NAD_1983_MA11_To_NMVD03_GEOID12B_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_g2012bg0", 0.0]]
+               PARAMETER["Dataset_g2012bg0", 0.0],
+               OPERATIONACCURACY[1.6]]
 Description : NAD 1983 (MA11) To NMVD03 (Height)
 Authority   : Esri
 Version     : 10.4.0
@@ -5983,7 +6381,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_USFT_NAD27_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (USFT) (NAD27) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.5.1
@@ -6024,7 +6423,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_USFT_NAD27_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth, USFT) (NAD27) East, Central, West CON
               USA
 Authority   : Esri
@@ -6066,7 +6466,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_NAD83_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth) (NAD83) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.5.1
@@ -6107,7 +6508,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_USFT_NAD83_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (USFT) (NAD83) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.5.1
@@ -6148,7 +6550,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_USFT_NAD83_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth, USFT) (NAD83) East, Central, West CON
               USA
 Authority   : Esri
@@ -6190,7 +6593,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_HARN_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth) (HARN) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.5.1
@@ -6231,7 +6635,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_USFT_HARN_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (USFT) (HARN) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.5.1
@@ -6272,7 +6677,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_USFT_HARN_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth, USFT) (HARN) East, Central, West CON
               USA
 Authority   : Esri
@@ -6314,7 +6720,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_CORS96_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD83 CORS96) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.5.1
@@ -6355,7 +6762,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_CORS96_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth) (NAD83 CORS96) East, Central, West CON
               USA
 Authority   : Esri
@@ -6397,7 +6805,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_USFT_CORS96_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (USFT) (NAD83 CORS96) East, Central, West CON
               USA
 Authority   : Esri
@@ -6439,7 +6848,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_USFT_CORS96_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth, USFT) (NAD83 CORS96) East, Central,
               West CON USA
 Authority   : Esri
@@ -6481,7 +6891,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_NSRS2007_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD83 NSRS2007) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.5.1
@@ -6522,7 +6933,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_NSRS2007_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth) (NAD83 NSRS2007) East, Central, West
               CON USA
 Authority   : Esri
@@ -6564,7 +6976,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_USFT_NSRS2007_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (USFT) (NAD83 NSRS2007) East, Central, West
               CON USA
 Authority   : Esri
@@ -6606,7 +7019,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_USFT_NSRS2007_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth, USFT) (NAD83 NSRS2007) East, Central,
               West CON USA
 Authority   : Esri
@@ -6648,7 +7062,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_NAD83_2011_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (NAD83 2011) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.5.1
@@ -6689,7 +7104,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_NAD83_2011_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth) (NAD83 2011) East, Central, West CON
               USA
 Authority   : Esri
@@ -6731,7 +7147,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_USFT_NAD83_2011_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (USFT) (NAD83 2011) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.5.1
@@ -6772,7 +7189,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_USFT_NAD83_2011_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth, USFT) (NAD83 2011) East, Central, West
               CON USA
 Authority   : Esri
@@ -6814,7 +7232,8 @@ WKT         : VERTTRAN["NGVD29_To_NAVD88_Depth_NAD27_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : NGVD29 to NAVD88 (Depth) (NAD27) East, Central, West CON USA
 Authority   : Esri
 Version     : 10.5.1
@@ -6869,7 +7288,7 @@ Area-slat   : 53.89
 Area-nlat   : 56.45
 Area-llon   : 20.86
 Area-rlon   : 26.82
-Accuracy    : 0.5
+Accuracy    : 999.0
 
 WKID        : 110059
 Latest-WKID : 110059
@@ -6902,7 +7321,8 @@ WKT         : VERTTRAN["JGD_2000_To_JGD_2000_Vertical_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_JGEOID2008", 0.0]]
+               PARAMETER["Dataset_JGEOID2008", 0.0],
+               OPERATIONACCURACY[10.0]]
 Description : Japan - JGEOID2008 model
 Authority   : Esri
 Version     : 10.6.0
@@ -6945,7 +7365,8 @@ WKT         : VERTTRAN["JGD_2011_To_JGD_2011_Vertical_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_GSIGEOID2011", 0.0]]
+               PARAMETER["Dataset_GSIGEOID2011", 0.0],
+               OPERATIONACCURACY[2.0]]
 Description : Japan - GSIGEOID2011 model
 Authority   : Esri
 Version     : 10.6.0
@@ -6988,7 +7409,8 @@ WKT         : VERTTRAN["NZGD2000_To_NZGD2016_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_New_Zealand_Quasigeoid_2016", 0.0]]
+               PARAMETER["Dataset_New_Zealand_Quasigeoid_2016", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : New Zealand
 Authority   : Esri
 Version     : 10.6.0
@@ -7031,7 +7453,8 @@ WKT         : VERTTRAN["Auckland_1946_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_auckland_1946_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_auckland_1946_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.12]]
 Description : Auckland 1946 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7074,7 +7497,8 @@ WKT         : VERTTRAN["Bluff_1955_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_bluff_1955_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_bluff_1955_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.12]]
 Description : Bluff 1955 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7117,7 +7541,8 @@ WKT         : VERTTRAN["Dunedin_1958_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_dunedin_1958_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_dunedin_1958_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.12]]
 Description : Dunedin 1958 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7160,7 +7585,8 @@ WKT         : VERTTRAN["Dunedin-Bluff_1960_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_Dunedin-Bluff_1960_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_Dunedin-Bluff_1960_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.12]]
 Description : Dunedin-Bluff 1960 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7203,7 +7629,8 @@ WKT         : VERTTRAN["Gisborne_1926_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_gisborne_1926_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_gisborne_1926_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.12]]
 Description : Gisborne 1926 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7246,7 +7673,8 @@ WKT         : VERTTRAN["Lyttelton_1937_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_lyttelton_1937_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_lyttelton_1937_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.11]]
 Description : Lyttelton 1937 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7289,7 +7717,8 @@ WKT         : VERTTRAN["Moturiki_1953_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_moturiki_1953_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_moturiki_1953_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.12]]
 Description : Moturiki 1953 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7332,7 +7761,8 @@ WKT         : VERTTRAN["Napier_1962_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_napier_1962_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_napier_1962_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.12]]
 Description : Napier 1962 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7375,7 +7805,8 @@ WKT         : VERTTRAN["Nelson_1955_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_nelson_1955_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_nelson_1955_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.12]]
 Description : Nelson 1955 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7418,7 +7849,8 @@ WKT         : VERTTRAN["One_Tree_Point_1964_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_one_tree_point_1964_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_one_tree_point_1964_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.11]]
 Description : One Tree Point 1964 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7461,7 +7893,8 @@ WKT         : VERTTRAN["Stewart_Island_1977_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_stewart_island_1977_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_stewart_island_1977_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.28]]
 Description : Stewart Island 1977 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7504,7 +7937,8 @@ WKT         : VERTTRAN["Taranaki_1970_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_taranaki_1970_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_taranaki_1970_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.12]]
 Description : Taranaki 1970 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7547,7 +7981,8 @@ WKT         : VERTTRAN["Wellington_1953_Height_To_NZGD2000_Height_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_wellington_1953_to_nzgd2000", 0.0]]
+               PARAMETER["Dataset_wellington_1953_to_nzgd2000", 0.0],
+               OPERATIONACCURACY[0.12]]
 Description : Wellington 1953 (ht) to NZGD2000 (ht) (1)
 Authority   : Esri
 Version     : 10.6.0
@@ -7590,7 +8025,8 @@ WKT         : VERTTRAN["CHTRF95_To_LHN95_Height",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["GEOID"],
-               PARAMETER["Dataset_chgeo2004_ETRS", 0.0]]
+               PARAMETER["Dataset_chgeo2004_ETRS", 0.0],
+               OPERATIONACCURACY[0.05]]
 Description : Liechtenstein, Switzerland
 Authority   : Esri
 Version     : 10.6.1
@@ -7631,7 +8067,8 @@ WKT         : VERTTRAN["NGVD29_ht_(m)_To_NAVD88_ht_NAD83_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : USA - CONUS - onshore
 Authority   : Esri
 Version     : 10.8.0
@@ -7672,7 +8109,8 @@ WKT         : VERTTRAN["NGVD29_ht_(m)_To_NAVD88_ht_2011_ECW",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : USA - CONUS - onshore
 Authority   : Esri
 Version     : 10.8.0
@@ -7713,7 +8151,8 @@ WKT         : VERTTRAN["NGVD29_ht_(m)_To_NAVD88_ht_USFT_2011_ECW",
                 
                UNIT["Foot_US",  0.3048006096012192]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : USA - CONUS - onshore
 Authority   : Esri
 Version     : 10.8.0
@@ -7754,7 +8193,8 @@ WKT         : VERTTRAN["NGVD29_ht_To_NAVD88_ht_IntlFt_NAD83_ECW",
                 
                UNIT["Foot",  0.3048]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : USA - CONUS - onshore
 Authority   : Esri
 Version     : 10.8.0
@@ -7795,7 +8235,8 @@ WKT         : VERTTRAN["NGVD29_ht_To_NAVD88_ht_IntlFt_2011_ECW",
                 
                UNIT["Foot",  0.3048]],
                VTMETHOD["VERTCON"],
-               PARAMETER["Dataset_vertconecw.94", 0.0]]
+               PARAMETER["Dataset_vertconecw.94", 0.0],
+               OPERATIONACCURACY[0.02]]
 Description : USA - CONUS - onshore
 Authority   : Esri
 Version     : 10.8.0
@@ -7840,7 +8281,8 @@ WKT         : VERTTRAN["Newlyn_To_EVRS_2000_1",
                PARAMETER["Longitude_Of_Evaluation", -2.25],
                PARAMETER["Latitude_Of_Evaluation", 54.58333333333334],
                PARAMETER["Inclination_North", 0.044],
-               PARAMETER["Inclination_East", 0.0]]
+               PARAMETER["Inclination_East", 0.0],
+               OPERATIONACCURACY[0.1]]
 Description : Newlyn to EVRS 2000 (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -7883,7 +8325,8 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1996_Geoid_2",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["EGM96_Natural_Spline"],
-               PARAMETER["Dataset_egm96.grd", 0.0]]
+               PARAMETER["Dataset_egm96.grd", 0.0],
+               OPERATIONACCURACY[1.05]]
 Description : WGS84 EH to EGM96 GH Nat Spline
 Authority   : Esri
 Version     : 9.3.0.0
@@ -7926,7 +8369,8 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1984_Geoid_2",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["EGM84_Natural_Spline"],
-               PARAMETER["Dataset_egm84.grd", 0.0]]
+               PARAMETER["Dataset_egm84.grd", 0.0],
+               OPERATIONACCURACY[1.0]]
 Description : WGS84 EH to EGM84 GH Nat Spline
 Authority   : Esri
 Version     : 9.3.0.0
@@ -7962,7 +8406,8 @@ WKT         : VERTTRAN["NZVD2009_To_One_Tree_Point_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.06]]
+               PARAMETER["Vertical_Offset", 0.06],
+               OPERATIONACCURACY[0.03]]
 Description : NZVD2009 to One Tree Point 1964 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -7998,7 +8443,8 @@ WKT         : VERTTRAN["NZVD2009_To_Auckland_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.34]]
+               PARAMETER["Vertical_Offset", 0.34],
+               OPERATIONACCURACY[0.05]]
 Description : NZVD2009 to Auckland 1946 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8034,7 +8480,8 @@ WKT         : VERTTRAN["NZVD2009_To_Moturiki_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.24]]
+               PARAMETER["Vertical_Offset", 0.24],
+               OPERATIONACCURACY[0.06]]
 Description : NZVD2009 to Moturiki 1953 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8070,7 +8517,8 @@ WKT         : VERTTRAN["NZVD2009_To_Nelson_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.29]]
+               PARAMETER["Vertical_Offset", 0.29],
+               OPERATIONACCURACY[0.07]]
 Description : NZVD2009 to Nelson 1955 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8106,7 +8554,8 @@ WKT         : VERTTRAN["NZVD2009_To_Gisborne_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.34]]
+               PARAMETER["Vertical_Offset", 0.34],
+               OPERATIONACCURACY[0.02]]
 Description : NZVD2009 to Gisborne 1926 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8142,7 +8591,8 @@ WKT         : VERTTRAN["NZVD2009_To_Napier_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.2]]
+               PARAMETER["Vertical_Offset", 0.2],
+               OPERATIONACCURACY[0.05]]
 Description : NZVD2009 to Napier 1962 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8178,7 +8628,8 @@ WKT         : VERTTRAN["NZVD2009_To_Taranaki_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.32]]
+               PARAMETER["Vertical_Offset", 0.32],
+               OPERATIONACCURACY[0.05]]
 Description : NZVD2009 to Taranaki 1970 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8214,7 +8665,8 @@ WKT         : VERTTRAN["NZVD2009_To_Wellington_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.44]]
+               PARAMETER["Vertical_Offset", 0.44],
+               OPERATIONACCURACY[0.04]]
 Description : NZVD2009 to Wellington 1953 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8250,7 +8702,8 @@ WKT         : VERTTRAN["NZVD2009_To_Lyttelton_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.47]]
+               PARAMETER["Vertical_Offset", 0.47],
+               OPERATIONACCURACY[0.09]]
 Description : NZVD2009 to Lyttelton 1937 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8286,7 +8739,8 @@ WKT         : VERTTRAN["NZVD2009_To_Dunedin_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.49]]
+               PARAMETER["Vertical_Offset", 0.49],
+               OPERATIONACCURACY[0.07]]
 Description : NZVD2009 to Dunedin 1958 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8322,7 +8776,8 @@ WKT         : VERTTRAN["NZVD2009_To_Bluff_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.36]]
+               PARAMETER["Vertical_Offset", 0.36],
+               OPERATIONACCURACY[0.05]]
 Description : NZVD2009 to Bluff 1955 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8358,7 +8813,8 @@ WKT         : VERTTRAN["NZVD2009_To_Stewart_Island_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.39]]
+               PARAMETER["Vertical_Offset", 0.39],
+               OPERATIONACCURACY[0.15]]
 Description : NZVD2009 to Stewart ISland 1977 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8394,7 +8850,8 @@ WKT         : VERTTRAN["NZVD2009_To_Dunedin_Bluff_1960_1",
                 
                UNIT["Meter",  1.0]],
                VTMETHOD["Vertical_Offset"],
-               PARAMETER["Vertical_Offset", 0.38]]
+               PARAMETER["Vertical_Offset", 0.38],
+               OPERATIONACCURACY[0.04]]
 Description : NZVD2009 to Dunedin-Bluff 1960 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
@@ -8405,3 +8862,971 @@ Area-nlat   : -44.52
 Area-llon   : 166.37
 Area-rlon   : 169.95
 Accuracy    : 0.04
+
+WKID        : 110100
+Latest-WKID : 110100
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_D_CONUS_GEOID12B
+Name        : NAD_1983_2011_Height_To_NAVD88_Depth_CONUS_GEOID12B
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Depth_CONUS_GEOID12B",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012bu0", 0.0],
+               OPERATIONACCURACY[0.05]]
+Description : NAD 1983 (2011) height to NAVD88 depth CONUS GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+Accuracy    : 0.05
+
+WKID        : 110101
+Latest-WKID : 110101
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_D_AK_GEOID12B
+Name        : NAD_1983_2011_Height_To_NAVD88_Depth_Alaska_GEOID12B
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Depth_Alaska_GEOID12B",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012ba0", 0.0],
+               OPERATIONACCURACY[4.0]]
+Description : NAD 1983 (2011) height to NAVD88 depth Alaska GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - Alaska
+Area-slat   : 51.3
+Area-nlat   : 71.4
+Area-llon   : 172.42
+Area-rlon   : -129.99
+Accuracy    : 4.0
+
+WKID        : 110102
+Latest-WKID : 110102
+Macro       : PE_VT_NAD_1983_PA11_HT_TO_NAVD88_D_HI_GEOID12B
+Name        : NAD_1983_PA11_Height_To_NAVD88_Depth_Hawaii_GEOID12B
+WKT         : VERTTRAN["NAD_1983_PA11_Height_To_NAVD88_Depth_Hawaii_GEOID12B",
+               GEOGCS["GCS_NAD_1983_PA11",
+                DATUM["D_NAD_1983_PA11",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_PA11",
+                
+               DATUM["D_NAD_1983_PA11",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012bh0", 0.0],
+               OPERATIONACCURACY[2.0]]
+Description : NAD 1983 (PA11) height to NAVD88 depth Hawaii GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - Hawaii - onshore
+Area-slat   : 18.87
+Area-nlat   : 22.29
+Area-llon   : -160.3
+Area-rlon   : -154.74
+Accuracy    : 2.0
+
+WKID        : 110103
+Latest-WKID : 110103
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_HT_USFT_CONUS_GEOID12B
+Name        : NAD_1983_2011_Height_To_NAVD88_Height_USFT_CONUS_GEOID12B
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Height_USFT_CONUS_GEOID12B",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_height_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012bu0", 0.0],
+               OPERATIONACCURACY[0.05]]
+Description : NAD 1983 (2011) height to NAVD88 height (USft) CONUS GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+Accuracy    : 0.05
+
+WKID        : 110104
+Latest-WKID : 110104
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_HT_USFT_AK_GEOID12B
+Name        : NAD_1983_2011_Height_To_NAVD88_Height_USFT_Alaska_GEOID12B
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Height_USFT_Alaska_GEOID12B",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_height_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012ba0", 0.0],
+               OPERATIONACCURACY[4.0]]
+Description : NAD 1983 (2011) height to NAVD88 height (USft) Alaska GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - Alaska mainland
+Area-slat   : 54.34
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -129.99
+Accuracy    : 4.0
+
+WKID        : 110105
+Latest-WKID : 110105
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_D_USFT_CONUS_GEOID12B
+Name        : NAD_1983_2011_Height_To_NAVD88_Depth_USFT_CONUS_GEOID12B
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Depth_USFT_CONUS_GEOID12B",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012bu0", 0.0],
+               OPERATIONACCURACY[0.05]]
+Description : NAD 1983 (2011) height to NAVD88 depth (USft) CONUS GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+Accuracy    : 0.05
+
+WKID        : 110106
+Latest-WKID : 110106
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_D_USFT_AK_GEOID12B
+Name        : NAD_1983_2011_Height_To_NAVD88_Depth_USFT_Alaska_GEOID12B
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Depth_USFT_Alaska_GEOID12B",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012ba0", 0.0],
+               OPERATIONACCURACY[4.0]]
+Description : NAD 1983 (2011) height to NAVD88 depth (USft) Alaska GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - Alaska mainland
+Area-slat   : 54.34
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -129.99
+Accuracy    : 4.0
+
+WKID        : 110107
+Latest-WKID : 110107
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_HT_IFT_CONUS_GEOID12B
+Name        : NAD_1983_2011_Height_To_NAVD88_Height_IFT_CONUS_GEOID12B
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Height_IFT_CONUS_GEOID12B",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_height_(ftIntl)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot",  0.3048]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012bu0", 0.0],
+               OPERATIONACCURACY[0.05]]
+Description : NAD 1983 (2011) height to NAVD88 height (Ift) CONUS GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - onshore - AZ MI MT ND OR SC
+Area-slat   : 31.33
+Area-nlat   : 49.01
+Area-llon   : -124.6
+Area-rlon   : -78.52
+Accuracy    : 0.05
+
+WKID        : 110108
+Latest-WKID : 110108
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_D_CONUS_GEOID18
+Name        : NAD_1983_2011_Height_To_NAVD88_Depth_CONUS_GEOID18
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Depth_CONUS_GEOID18",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2018u0", 0.0],
+               OPERATIONACCURACY[0.015]]
+Description : NAD 1983 (2011) height to NAVD88 depth CONUS GEOID18
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+Accuracy    : 0.015
+
+WKID        : 110109
+Latest-WKID : 110109
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_HT_USFT_CONUS_GEOID18
+Name        : NAD_1983_2011_Height_To_NAVD88_Height_USFT_CONUS_GEOID18
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Height_USFT_CONUS_GEOID18",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_height_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2018u0", 0.0],
+               OPERATIONACCURACY[0.015]]
+Description : NAD 1983 (2011) height to NAVD88 height (USft) CONUS GEOID18
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+Accuracy    : 0.015
+
+WKID        : 110110
+Latest-WKID : 110110
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_D_USFT_CONUS_GEOID18
+Name        : NAD_1983_2011_Height_To_NAVD88_Depth_USFT_CONUS_GEOID18
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Depth_USFT_CONUS_GEOID18",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2018u0", 0.0],
+               OPERATIONACCURACY[0.015]]
+Description : NAD 1983 (2011) height to NAVD88 depth (USft) CONUS GEOID18
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+Accuracy    : 0.015
+
+WKID        : 110111
+Latest-WKID : 110111
+Macro       : PE_VT_NAD_1983_2011_HT_TO_NAVD88_HT_IFT_CONUS_GEOID18
+Name        : NAD_1983_2011_Height_To_NAVD88_Height_IFT_CONUS_GEOID18
+WKT         : VERTTRAN["NAD_1983_2011_Height_To_NAVD88_Height_IFT_CONUS_GEOID18",
+               GEOGCS["GCS_NAD_1983_2011",
+                DATUM["D_NAD_1983_2011",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983_2011",
+                
+               DATUM["D_NAD_1983_2011",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_height_(ftIntl)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot",  0.3048]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2018u0", 0.0],
+               OPERATIONACCURACY[0.015]]
+Description : NAD 1983 (2011) height to NAVD88 height (Ift) CONUS GEOID18
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - onshore - AZ MI MT ND OR SC
+Area-slat   : 31.33
+Area-nlat   : 49.01
+Area-llon   : -124.6
+Area-rlon   : -78.52
+Accuracy    : 0.015
+
+WKID        : 110131
+Latest-WKID : 110131
+Macro       : PE_VT_NAD_1983_HT_TO_NAVD88_D_CONUS_GEOID12B
+Name        : NAD_1983_Height_To_NAVD88_Depth_CONUS_GEOID12B
+WKT         : VERTTRAN["NAD_1983_Height_To_NAVD88_Depth_CONUS_GEOID12B",
+               GEOGCS["GCS_North_American_1983",
+                DATUM["D_North_American_1983",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983",
+                
+               DATUM["D_North_American_1983",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012bu0", 0.0],
+               OPERATIONACCURACY[0.05]]
+Description : NAD 1983 height to NAVD88 depth CONUS GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+Accuracy    : 0.05
+
+WKID        : 110132
+Latest-WKID : 110132
+Macro       : PE_VT_NAD_1983_HT_TO_NAVD88_D_AK_GEOID12B
+Name        : NAD_1983_Height_To_NAVD88_Depth_Alaska_GEOID12B_Height
+WKT         : VERTTRAN["NAD_1983_Height_To_NAVD88_Depth_Alaska_GEOID12B_Height",
+               GEOGCS["GCS_North_American_1983",
+                DATUM["D_North_American_1983",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983",
+                
+               DATUM["D_North_American_1983",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012ba0", 0.0],
+               OPERATIONACCURACY[4.0]]
+Description : NAD 1983 height to NAVD88 depth Alaska GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - Alaska
+Area-slat   : 51.3
+Area-nlat   : 71.4
+Area-llon   : 172.42
+Area-rlon   : -129.99
+Accuracy    : 4.0
+
+WKID        : 110133
+Latest-WKID : 110133
+Macro       : PE_VT_NAD_1983_HT_TO_NAVD88_D_HI_GEOID12B
+Name        : NAD_1983_Height_To_NAVD88_Depth_Hawaii_GEOID12B_Height
+WKT         : VERTTRAN["NAD_1983_Height_To_NAVD88_Depth_Hawaii_GEOID12B_Height",
+               GEOGCS["GCS_North_American_1983",
+                DATUM["D_North_American_1983",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983",
+                
+               DATUM["D_North_American_1983",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012bh0", 0.0],
+               OPERATIONACCURACY[2.0]]
+Description : NAD 1983 height to NAVD88 depth Hawaii GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - Hawaii - onshore
+Area-slat   : 18.87
+Area-nlat   : 22.29
+Area-llon   : -160.3
+Area-rlon   : -154.74
+Accuracy    : 2.0
+
+WKID        : 110134
+Latest-WKID : 110134
+Macro       : PE_VT_NAD_1983_HT_TO_NAVD88_HT_USFT_CONUS_GEOID12B
+Name        : NAD_1983_Height_To_NAVD88_Height_USFT_CONUS_GEOID12B
+WKT         : VERTTRAN["NAD_1983_Height_To_NAVD88_Height_USFT_CONUS_GEOID12B",
+               GEOGCS["GCS_North_American_1983",
+                DATUM["D_North_American_1983",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983",
+                
+               DATUM["D_North_American_1983",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_height_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012bu0", 0.0],
+               OPERATIONACCURACY[0.05]]
+Description : NAD 1983 height to NAVD88 height (USft) CONUS GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+Accuracy    : 0.05
+
+WKID        : 110135
+Latest-WKID : 110135
+Macro       : PE_VT_NAD_1983_HT_TO_NAVD88_HT_USFT_AK_GEOID12B
+Name        : NAD_1983_Height_To_NAVD88_Height_USFT_Alaska_GEOID12B_Height
+WKT         : VERTTRAN["NAD_1983_Height_To_NAVD88_Height_USFT_Alaska_GEOID12B_Height",
+               GEOGCS["GCS_North_American_1983",
+                DATUM["D_North_American_1983",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983",
+                
+               DATUM["D_North_American_1983",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_height_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012ba0", 0.0],
+               OPERATIONACCURACY[4.0]]
+Description : NAD 1983 height to NAVD88 height (USft) Alaska GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - Alaska mainland
+Area-slat   : 54.34
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -129.99
+Accuracy    : 4.0
+
+WKID        : 110136
+Latest-WKID : 110136
+Macro       : PE_VT_NAD_1983_HT_TO_NAVD88_D_USFT_CONUS_GEOID12B
+Name        : NAD_1983_Height_To_NAVD88_Depth_USFT_CONUS_GEOID12B
+WKT         : VERTTRAN["NAD_1983_Height_To_NAVD88_Depth_USFT_CONUS_GEOID12B",
+               GEOGCS["GCS_North_American_1983",
+                DATUM["D_North_American_1983",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983",
+                
+               DATUM["D_North_American_1983",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012bu0", 0.0],
+               OPERATIONACCURACY[0.05]]
+Description : NAD 1983 height to NAVD88 depth (USft) CONUS GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - CONUS - onshore
+Area-slat   : 24.41
+Area-nlat   : 49.38
+Area-llon   : -124.79
+Area-rlon   : -66.91
+Accuracy    : 0.05
+
+WKID        : 110137
+Latest-WKID : 110137
+Macro       : PE_VT_NAD_1983_HT_TO_NAVD88_D_USFT_AK_GEOID12B
+Name        : NAD_1983_Height_To_NAVD88_Depth_USFT_Alaska_GEOID12B_Height
+WKT         : VERTTRAN["NAD_1983_Height_To_NAVD88_Depth_USFT_Alaska_GEOID12B_Height",
+               GEOGCS["GCS_North_American_1983",
+                DATUM["D_North_American_1983",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983",
+                
+               DATUM["D_North_American_1983",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_depth_(ftUS)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  -1.0],
+                
+               UNIT["Foot_US",  0.3048006096012192]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012ba0", 0.0],
+               OPERATIONACCURACY[4.0]]
+Description : NAD 1983 height to NAVD88 depth (USft) Alaska GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - Alaska mainland
+Area-slat   : 54.34
+Area-nlat   : 71.4
+Area-llon   : -168.26
+Area-rlon   : -129.99
+Accuracy    : 4.0
+
+WKID        : 110138
+Latest-WKID : 110138
+Macro       : PE_VT_NAD_1983_HT_TO_NAVD88_HT_IFT_CONUS_GEOID12B
+Name        : NAD_1983_Height_To_NAVD88_Height_IFT_CONUS_GEOID12B
+WKT         : VERTTRAN["NAD_1983_Height_To_NAVD88_Height_IFT_CONUS_GEOID12B",
+               GEOGCS["GCS_North_American_1983",
+                DATUM["D_North_American_1983",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD_1983",
+                
+               DATUM["D_North_American_1983",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NAVD88_height_(ftIntl)",
+                
+               VDATUM["North_American_Vertical_Datum_1988"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Foot",  0.3048]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_g2012bu0", 0.0],
+               OPERATIONACCURACY[0.05]]
+Description : NAD 1983 height to NAVD88 height (Ift) CONUS GEOID12B
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : USA - onshore - AZ MI MT ND OR SC
+Area-slat   : 31.33
+Area-nlat   : 49.01
+Area-llon   : -124.6
+Area-rlon   : -78.52
+Accuracy    : 0.05
+
+WKID        : 110139
+Latest-WKID : 110139
+Macro       : PE_VT_ESTONIA_1997_HT_TO_EVRF2007_HT_EGM96
+Name        : Estonia_1997_height_To_EVRF2007_height_EGM96
+WKT         : VERTTRAN["Estonia_1997_height_To_EVRF2007_height_EGM96",
+               GEOGCS["GCS_Estonia_1997",
+                DATUM["D_Estonia_1997",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Estonia_1997",
+                
+               DATUM["D_Estonia_1997",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["EVRF_2007",
+                
+               VDATUM["European_Vertical_Reference_Frame_2007"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["EGM96"],
+               PARAMETER["Dataset_egm96.grd", 0.0],
+               OPERATIONACCURACY[1.5]]
+Description : Estonia 1997 height to EVRF2007 height EGM96
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : Estonia - onshore
+Area-slat   : 57.52
+Area-nlat   : 59.75
+Area-llon   : 21.74
+Area-rlon   : 28.2
+Accuracy    : 1.5
+
+WKID        : 110140
+Latest-WKID : 110140
+Macro       : PE_VT_ESTONIA_1997_HT_TO_EVRF2007_HT_EGM2008
+Name        : Estonia_1997_height_To_EVRF2007_height_EGM2008
+WKT         : VERTTRAN["Estonia_1997_height_To_EVRF2007_height_EGM2008",
+               GEOGCS["GCS_Estonia_1997",
+                DATUM["D_Estonia_1997",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Estonia_1997",
+                
+               DATUM["D_Estonia_1997",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["EVRF_2007",
+                
+               VDATUM["European_Vertical_Reference_Frame_2007"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["EGM96"],
+               PARAMETER["Dataset_egm2008-1.grd", 0.0],
+               OPERATIONACCURACY[1.0]]
+Description : Estonia 1997 height to EVRF2007 height EGM2008
+Authority   : Esri
+Version     : 12.8.0
+Deprecated  : no
+Area-name   : Estonia - onshore
+Area-slat   : 57.52
+Area-nlat   : 59.75
+Area-llon   : 21.74
+Area-rlon   : 28.2
+Accuracy    : 1.0
