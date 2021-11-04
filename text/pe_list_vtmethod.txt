@@ -21,6 +21,7 @@ Latest-WKID : 129600
 Macro       : PE_VTMTH_VTGRIDFILE
 Name        : VTGridFile
 WKT         : VTMETHOD["VTGridFile"]
+WKT2        : METHOD["VTGridFile"]
 Description : Generic vertical transform grid file
 Authority   : Esri
 Version     : 10.0.0
@@ -31,6 +32,7 @@ Latest-WKID : 129601
 Macro       : PE_VTMTH_VDATUM
 Name        : VDATUM
 WKT         : VTMETHOD["VDATUM"]
+WKT2        : METHOD["VDATUM"]
 Description : New NOAA transformation grid file format
 Authority   : Esri
 Version     : 10.4.0
@@ -41,9 +43,10 @@ Latest-WKID : 129602
 Macro       : PE_VTMTH_HEIGHT_DEPTH_REVERSAL
 Name        : Height_Depth_Reversal
 WKT         : VTMETHOD["Height_Depth_Reversal"]
+WKT2        : METHOD["Height_Depth_Reversal"]
 Description : Height Depth Reversal
 Authority   : Esri
-Version     : 12.6.8
+Version     : 12.8.0
 Deprecated  : no
 
 WKID        : 129603
@@ -51,9 +54,10 @@ Latest-WKID : 129603
 Macro       : PE_VTMTH_NULL
 Name        : Null
 WKT         : VTMETHOD["Null"]
+WKT2        : METHOD["Null"]
 Description : Null transformation
 Authority   : Esri
-Version     : 12.6.8
+Version     : 12.8.0
 Deprecated  : no
 
 WKID        : 129604
@@ -61,9 +65,21 @@ Latest-WKID : 129604
 Macro       : PE_VTMTH_UNIT_CHANGE
 Name        : Unit_Change
 WKT         : VTMETHOD["Unit_Change"]
+WKT2        : METHOD["Unit_Change"]
 Description : Unit change transformation
 Authority   : Esri
-Version     : 12.6.8
+Version     : 12.8.0
+Deprecated  : no
+
+WKID        : 129605
+Latest-WKID : 129605
+Macro       : PE_VTMTH_ZERO_TIDE_TO_MEAN_TIDE_EVRF2019
+Name        : Zero_Tide_to_Mean_Tide_EVRF2019
+WKT         : VTMETHOD["Zero_Tide_to_Mean_Tide_EVRF2019"]
+WKT2        : METHOD["Zero_Tide_to_Mean_Tide_EVRF2019"]
+Description : Zero-tide height to mean-tide height (EVRF2019)
+Authority   : Esri
+Version     : 12.9.0
 Deprecated  : no
 
 WKID        : 129616
@@ -71,9 +87,21 @@ Latest-WKID : 129616
 Macro       : PE_VTMTH_VERTICAL_OFFSET
 Name        : Vertical_Offset
 WKT         : VTMETHOD["Vertical_Offset"]
+WKT2        : METHOD["Vertical_Offset"]
 Description : Vertical Offset
 Authority   : Esri
 Version     : 9.3.0.0
+Deprecated  : no
+
+WKID        : 129617
+Latest-WKID : 129617
+Macro       : PE_VTMTH_VERTICAL_OFFSET_GRID
+Name        : Vertical_Offset_with_Grid
+WKT         : VTMETHOD["Vertical_Offset_with_Grid"]
+WKT2        : METHOD["Vertical_Offset_with_Grid"]
+Description : Vertical Offset with Grid interpolation
+Authority   : Esri
+Version     : 12.9.0
 Deprecated  : no
 
 WKID        : 129657
@@ -81,6 +109,7 @@ Latest-WKID : 129657
 Macro       : PE_VTMTH_VERTICAL_OFFSET_SLOPE
 Name        : Vertical_Offset_and_Slope
 WKT         : VTMETHOD["Vertical_Offset_and_Slope"]
+WKT2        : METHOD["Vertical_Offset_and_Slope"]
 Description : Vertical Offset and Slope
 Authority   : Esri
 Version     : 9.3.0.0
@@ -91,6 +120,7 @@ Latest-WKID : 129658
 Macro       : PE_VTMTH_VERTCON
 Name        : VERTCON
 WKT         : VTMETHOD["VERTCON"]
+WKT2        : METHOD["VERTCON"]
 Description : VERTCON
 Authority   : Esri
 Version     : 9.3.0.0
@@ -101,6 +131,7 @@ Latest-WKID : 129661
 Macro       : PE_VTMTH_EGM96
 Name        : EGM96
 WKT         : VTMETHOD["EGM96"]
+WKT2        : METHOD["EGM96"]
 Description : EGM96 bilinear interpolation
 Authority   : Esri
 Version     : 9.3.0.0
@@ -111,6 +142,7 @@ Latest-WKID : 129665
 Macro       : PE_VTMTH_GEOID
 Name        : GEOID
 WKT         : VTMETHOD["GEOID"]
+WKT2        : METHOD["GEOID"]
 Description : GEOID99, GEOID03, and GEOID06
 Authority   : Esri
 Version     : 9.3.0.0
@@ -121,6 +153,7 @@ Latest-WKID : 129761
 Macro       : PE_VTMTH_EGM96_NS
 Name        : EGM96_Natural_Spline
 WKT         : VTMETHOD["EGM96_Natural_Spline"]
+WKT2        : METHOD["EGM96_Natural_Spline"]
 Description : EGM96 natural spline interpolation
 Authority   : Esri
 Version     : 9.3.0.0
@@ -131,6 +164,7 @@ Latest-WKID : 129861
 Macro       : PE_VTMTH_EGM84
 Name        : EGM84
 WKT         : VTMETHOD["EGM84"]
+WKT2        : METHOD["EGM84"]
 Description : EGM84 bilinear interpolation
 Authority   : Esri
 Version     : 9.3.0.0
@@ -141,6 +175,7 @@ Latest-WKID : 129961
 Macro       : PE_VTMTH_EGM84_NS
 Name        : EGM84_Natural_Spline
 WKT         : VTMETHOD["EGM84_Natural_Spline"]
+WKT2        : METHOD["EGM84_Natural_Spline"]
 Description : EGM84 natural spline interpolation
 Authority   : Esri
 Version     : 9.3.0.0
