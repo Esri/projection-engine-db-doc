@@ -756,6 +756,10 @@ PE_VCS_WGS_1984_TRANSIT, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "WGS 1984 (Transit)"
 
+PE_VCS_CEUTA_2_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Africa", \
+   "Ceuta 2 height"
+
 PE_VCS_LAGOS_1955, \
    "Vertical Coordinate Systems/Gravity-related/Africa", \
    "Lagos 1955"
@@ -786,7 +790,7 @@ PE_VCS_CASPIAN, \
 
 PE_VCS_CASPIAN_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Caspian (height)"
+   "Caspian height"
 
 PE_VCS_FAHUD_HEIGHT_DATUM_1993, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -820,21 +824,25 @@ PE_VCS_HONG_KONG_PRINCIPAL_DATUM, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "Hong Kong Principal Datum"
 
+PE_VCS_INAGEOID2020_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Asia", \
+   "INAGeoid2020 height"
+
 PE_VCS_INCHEON_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "Incheon (Height)"
 
 PE_VCS_JSLD72_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "JSLD72 (height)"
+   "JSLD72 height"
 
 PE_VCS_JGD_2000_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Japanese Geodetic Datum 2000 (vertical) (height)"
+   "Japanese Geodetic Datum 2000 (vertical) height"
 
 PE_VCS_JGD_2011_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Japanese Geodetic Datum 2011 (vertical) (height)"
+   "Japanese Geodetic Datum 2011 (vertical) height"
 
 PE_VCS_JAPAN_STD_LEVEL_DATUM_1969, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -866,11 +874,15 @@ PE_VCS_KUWAIT_PWD, \
 
 PE_VCS_MVGC_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "MVGC (height)"
+   "MVGC height"
 
 PE_VCS_MACAO_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Macao (height)"
+   "Macao height"
+
+PE_VCS_NVD_1992_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Asia", \
+   "NVD 1992 height"
 
 PE_VCS_PDO_HEIGHT_DATUM_1993, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -882,7 +894,7 @@ PE_VCS_RAS_GHUMAYS_HT, \
 
 PE_VCS_SHD_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "SHD (height)"
+   "SHD height"
 
 PE_VCS_SLVD_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -890,7 +902,7 @@ PE_VCS_SLVD_HT, \
 
 PE_VCS_TWVD_2001_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "TWVD 2001 (height)"
+   "TWVD 2001 height"
 
 PE_VCS_YELLOW_SEA_1956, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -907,6 +919,10 @@ PE_VCS_AHD, \
 PE_VCS_AHD_TASMANIA, \
    "Vertical Coordinate Systems/Gravity-related/Australia and New Zealand", \
    "AHD (Tasmania)"
+
+PE_VCS_AVWS_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Australia and New Zealand", \
+   "AVWS height"
 
 PE_VCS_AUCKLAND, \
    "Vertical Coordinate Systems/Gravity-related/Australia and New Zealand", \
@@ -926,7 +942,7 @@ PE_VCS_DUNEDIN, \
 
 PE_VCS_DUNEDIN_BLUFF_1960, \
    "Vertical Coordinate Systems/Gravity-related/Australia and New Zealand", \
-   "Dunedin Bluff 1960 (height)"
+   "Dunedin Bluff 1960 height"
 
 PE_VCS_GISBORNE, \
    "Vertical Coordinate Systems/Gravity-related/Australia and New Zealand", \
@@ -942,11 +958,11 @@ PE_VCS_MOTURIKI, \
 
 PE_VCS_NZVD2009, \
    "Vertical Coordinate Systems/Gravity-related/Australia and New Zealand", \
-   "NZVD2009 (height)"
+   "NZVD2009 height"
 
 PE_VCS_NZVD2016_HT, \
    "Vertical Coordinate Systems/Gravity-related/Australia and New Zealand", \
-   "NZVD2016 (height)"
+   "NZVD2016 height"
 
 PE_VCS_NAPIER, \
    "Vertical Coordinate Systems/Gravity-related/Australia and New Zealand", \
@@ -978,7 +994,7 @@ PE_VCS_WELLINGTON, \
 
 PE_VCS_DACR52_HT, \
    "Vertical Coordinate Systems/Gravity-related/Central America", \
-   "DACR52 (height)"
+   "DACR52 height"
 
 PE_VCS_ALICANTE, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -988,25 +1004,33 @@ PE_VCS_ANTALYA, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Antalya"
 
+PE_VCS_BGS2005_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "BGS2005 height"
+
 PE_VCS_BALTIC, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Baltic"
 
-PE_VCS_BALTIC_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Baltic (depth)"
-
 PE_VCS_BALTIC_1957_D, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Baltic 1957 (depth)"
+   "Baltic 1957 depth"
 
 PE_VCS_BALTIC_1957_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Baltic 1957 (height)"
+   "Baltic 1957 height"
 
 PE_VCS_BALTIC_1982, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Baltic 1982"
+
+PE_VCS_BALTIC_1986_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "Baltic 1986 height"
+
+PE_VCS_BALTIC_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "Baltic depth"
 
 PE_VCS_BLACK_SEA, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1016,17 +1040,29 @@ PE_VCS_BLACK_SEA_D, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Black Sea (Depth)"
 
+PE_VCS_CD_NORWAY_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "CD Norway depth"
+
+PE_VCS_CAGLIARI_1956_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "Cagliari 1956 height"
+
+PE_VCS_CATANIA_1965_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "Catania 1965 height"
+
 PE_VCS_CONSTANTA, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Constanta"
 
 PE_VCS_DHHN12_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DHHN12 (height)"
+   "DHHN12 height"
 
 PE_VCS_DHHN2016_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DHHN2016 (height)"
+   "DHHN2016 height"
 
 PE_VCS_DHHN85, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1060,9 +1096,21 @@ PE_VCS_EVRF_2007, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "EVRF 2007"
 
+PE_VCS_EVRF_2019, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "EVRF 2019 height"
+
+PE_VCS_EVRF_2019_M_TIDE, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "EVRF 2019 mean-tide height"
+
 PE_VCS_EVRF2000_AUSTRIA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "EVRF2000 Austria height"
+
+PE_VCS_EVRF_2007_PL_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "EVRF2007-PL height"
 
 PE_VCS_EVRS_2000, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1078,7 +1126,7 @@ PE_VCS_FVR09_HT, \
 
 PE_VCS_FAMAGUSTA_1960_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Famagusta 1960 (height)"
+   "Famagusta 1960 height"
 
 PE_VCS_GHA, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1094,11 +1142,19 @@ PE_VCS_HVRS_1971, \
 
 PE_VCS_ISH2004_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "ISN2004 (height)"
+   "ISN2004 height"
+
+PE_VCS_IBIZA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "Ibiza height"
 
 PE_VCS_LAS07_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "LAS07 (height)"
+   "LAS07 height"
+
+PE_VCS_LAT_NL_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "LAT NL depth"
 
 PE_VCS_LHN95, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1110,15 +1166,27 @@ PE_VCS_LN_1902, \
 
 PE_VCS_LATVIA_2000_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Latvia 2000 (height)"
+   "Latvia 2000 height"
+
+PE_VCS_MSL_NL_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "MSL NL depth"
+
+PE_VCS_MALLORCA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "Mallorca height"
+
+PE_VCS_MENORCA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "Menorca height"
 
 PE_VCS_N2000, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "N2000 (height)"
+   "N2000 height"
 
 PE_VCS_N43_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "N43 (height)"
+   "N43 height"
 
 PE_VCS_N60, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1150,7 +1218,7 @@ PE_VCS_NGF_LALLEMAND, \
 
 PE_VCS_NN2000_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "NN2000 (height)"
+   "NN2000 height"
 
 PE_VCS_NN54, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1166,7 +1234,7 @@ PE_VCS_PIRAEUS, \
 
 PE_VCS_REDNAP, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "REDNAP (height)"
+   "REDNAP height"
 
 PE_VCS_RH1900, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1186,7 +1254,7 @@ PE_VCS_SNN76, \
 
 PE_VCS_SRB_VRS12_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "SRB_VRS12 (height)"
+   "SRB_VRS12 height"
 
 PE_VCS_SVS2000, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1208,6 +1276,10 @@ PE_VCS_BELFAST, \
    "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
    "Belfast"
 
+PE_VCS_BI_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "British Isles height (ensemble)"
+
 PE_VCS_DOUGLAS, \
    "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
    "Douglas"
@@ -1223,6 +1295,10 @@ PE_VCS_FLANNAN_ISLES, \
 PE_VCS_FOULA, \
    "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
    "Foula"
+
+PE_VCS_HS2_VRF_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "HS2-VRF height"
 
 PE_VCS_LERWICK, \
    "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
@@ -1246,7 +1322,7 @@ PE_VCS_NORTH_RONA, \
 
 PE_VCS_ODN_OFFSHORE_HT, \
    "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
-   "ODN (Offshore) (height)"
+   "ODN (Offshore) height"
 
 PE_VCS_POOLBEG, \
    "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
@@ -1282,15 +1358,15 @@ PE_VCS_CGVD2013_CGG2013A_HT, \
 
 PE_VCS_CGVD2013_HT, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "CGVD2013 (height)"
+   "CGVD2013 height"
 
 PE_VCS_GVR2000_HT, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "GVR2000 (height)"
+   "GVR2000 height"
 
 PE_VCS_GVR2016_HT, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "GVR2016 (height)"
+   "GVR2016 height"
 
 PE_VCS_IGLD_1955, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
@@ -1308,61 +1384,89 @@ PE_VCS_MSL_HT_FTUS, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
    "MSL height (ftUS)"
 
-PE_VCS_NAVD_1988, \
+PE_VCS_NAVD88_D_USFT, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NAVD 1988"
+   "NAVD88 depth (ftUS)"
 
 PE_VCS_NAVD88_D, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NAVD88 (depth)"
-
-PE_VCS_NAVD88_D_USFT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NAVD88 (depth) (ftUS)"
+   "NAVD88 depth (m)"
 
 PE_VCS_NAVD88_HT_IFT, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NAVD88 (height) (ftIntl)"
+   "NAVD88 height (ftIntl)"
 
 PE_VCS_NAVD88_HT_USFT, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NAVD88 (height) (ftUS)"
+   "NAVD88 height (ftUS)"
 
-PE_VCS_NGVD_1929, \
+PE_VCS_NAVD_1988, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NGVD 1929"
-
-PE_VCS_NGVD29_HT_M, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NGVD 1929 height (m)"
+   "NAVD88 height (m)"
 
 PE_VCS_NGVD29_D, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NGVD29 (depth)"
+   "NGVD29 depth (ftUS)"
+
+PE_VCS_NGVD_1929, \
+   "Vertical Coordinate Systems/Gravity-related/North America", \
+   "NGVD29 height (ftUS)"
+
+PE_VCS_NGVD29_HT_M, \
+   "Vertical Coordinate Systems/Gravity-related/North America", \
+   "NGVD29 height (m)"
 
 PE_VCS_DANGER_1950, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
    "Danger 1950"
 
+PE_VCS_EL_HIERRO_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
+   "El Hierro height"
+
+PE_VCS_FUERTEVENTURA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
+   "Fuerteventura height"
+
+PE_VCS_GRAN_CANARIA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
+   "Gran Canaria height"
+
 PE_VCS_JAMESTOWN_1971_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
-   "Jamestown 1971 (height)"
+   "Jamestown 1971 height"
+
+PE_VCS_LA_GOMERA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
+   "La Gomera height"
+
+PE_VCS_LA_PALMA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
+   "La Palma height"
+
+PE_VCS_LANZAROTE_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
+   "Lanzarote height"
 
 PE_VCS_SHVD2015_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
-   "SHVD2015 (height)"
+   "SHVD2015 height"
 
 PE_VCS_ST_HELENA_TRITAN_2011_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
-   "St. Helena Tritan 2011 (height)"
+   "St. Helena Tritan 2011 height"
+
+PE_VCS_TENERIFE_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
+   "Tenerife height"
 
 PE_VCS_CBVD61_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "CBVD61 (height)"
+   "CBVD61 height"
 
 PE_VCS_GCVD54_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "GCVD54 (height)"
+   "GCVD54 height"
 
 PE_VCS_GUADELOUPE_1951, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
@@ -1378,11 +1482,11 @@ PE_VCS_IGN_1988, \
 
 PE_VCS_IGN_2008_LD_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "IGN 2008 LD (height)"
+   "IGN 2008 LD height"
 
 PE_VCS_LCVD61_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "LCVD61 (height)"
+   "LCVD61 height"
 
 PE_VCS_MARTINIQUE_1955, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
@@ -1390,11 +1494,11 @@ PE_VCS_MARTINIQUE_1955, \
 
 PE_VCS_PRVD02_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "PRVD02 (height)"
+   "PRVD02 height"
 
 PE_VCS_VIVD09_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "VIVD09 (height)"
+   "VIVD09 height"
 
 PE_VCS_IGN_1989, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Indian Ocean", \
@@ -1406,7 +1510,7 @@ PE_VCS_MAYOTTE_1950, \
 
 PE_VCS_ASVD02_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "ASVD02 (height)"
+   "ASVD02 height"
 
 PE_VCS_BORA_BORA_SAU_2001, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
@@ -1414,11 +1518,11 @@ PE_VCS_BORA_BORA_SAU_2001, \
 
 PE_VCS_GUVD04_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "GUVD04 (height)"
+   "GUVD04 height"
 
 PE_VCS_GUAM_1963_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Guam 1963 (height)"
+   "Guam 1963 height"
 
 PE_VCS_HUAHINE_SAU_2001, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
@@ -1450,11 +1554,11 @@ PE_VCS_IGN_1992_LD, \
 
 PE_VCS_KIUNGA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Kiunga (height)"
+   "Kiunga height"
 
 PE_VCS_KUMUL_34_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Kumul 34 (height)"
+   "Kumul 34 height"
 
 PE_VCS_MAUPITI_SAU_2001, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
@@ -1478,19 +1582,23 @@ PE_VCS_NGPF, \
 
 PE_VCS_NMVD03_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "NMVD03 (height)"
+   "NMVD03 height"
 
 PE_VCS_PNG08_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "PNG08 (height)"
+   "PNG08 height"
 
 PE_VCS_POM08_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "POM08 (height)"
+   "POM08 height"
 
 PE_VCS_POM96_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "POM96 (height)"
+   "POM96 height"
+
+PE_VCS_PAGO_PAGO_2020_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
+   "Pago Pago 2020 height"
 
 PE_VCS_RAIATEA_SAU_2001, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
@@ -1502,31 +1610,31 @@ PE_VCS_TAHAA_SAU_2001, \
 
 PE_VCS_TUTUILA_1962_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Tutuila 1962 (height)"
+   "Tutuila 1962 height"
 
 PE_VCS_CAIS_DA_FIGUEIRINHA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais da Figueirinha - Angra do Heroismo (height)"
+   "Cais da Figueirinha - Angra do Heroismo height"
 
 PE_VCS_CAIS_DA_MADALENA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais da Madalena (height)"
+   "Cais da Madalena height"
 
 PE_VCS_CAIS_DA_PONTINHA_FUNCHAL_HT, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais da Pontinha - Funchal (height)"
+   "Cais da Pontinha - Funchal height"
 
 PE_VCS_CAIS_DA_VILA_PORTO_SANTO_HT, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais da Vila - Porto Santo (height)"
+   "Cais da Vila - Porto Santo height"
 
 PE_VCS_CAIS_DA_VILA_DO_PORTO_HT, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais da Vila do Porto (height)"
+   "Cais da Vila do Porto height"
 
 PE_VCS_CAIS_DAS_VELAS_HT, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais das Velas (height)"
+   "Cais das Velas height"
 
 PE_VCS_CASCAIS, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
@@ -1534,19 +1642,19 @@ PE_VCS_CASCAIS, \
 
 PE_VCS_HORTA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Horta (height)"
+   "Horta height"
 
 PE_VCS_PONTA_DELGADA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Ponta Delgada (height)"
+   "Ponta Delgada height"
 
 PE_VCS_SANTA_CRUZ_DA_GRACIOSA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Santa Cruz da Graciosa (height)"
+   "Santa Cruz da Graciosa height"
 
 PE_VCS_SANTA_CRUZ_DAS_FLORES_HT, \
    "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Santa Cruz das Flores (height)"
+   "Santa Cruz das Flores height"
 
 PE_VCS_NGG_1977, \
    "Vertical Coordinate Systems/Gravity-related/South America", \

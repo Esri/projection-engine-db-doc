@@ -21,6 +21,8 @@ Latest-WKID : 8901
 Macro       : PE_PM_GREENWICH
 Name        : Greenwich
 WKT         : PRIMEM["Greenwich", 0.0]
+WKT2        : PRIMEM["Greenwich", 0.0,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 0~ 00' 00'' E
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -31,6 +33,8 @@ Latest-WKID : 8902
 Macro       : PE_PM_LISBON
 Name        : Lisbon
 WKT         : PRIMEM["Lisbon", -9.131906111111112]
+WKT2        : PRIMEM["Lisbon", -9.131906111111112,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 9~ 07' 54''.862 W
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -41,6 +45,8 @@ Latest-WKID : 8903
 Macro       : PE_PM_PARIS
 Name        : Paris
 WKT         : PRIMEM["Paris", 2.337229166666667]
+WKT2        : PRIMEM["Paris", 2.337229166666667,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 2~ 20' 14''.025 E
 Authority   : EPSG
 Version     : 6.16(3.0.1)
@@ -51,6 +57,8 @@ Latest-WKID : 8904
 Macro       : PE_PM_BOGOTA
 Name        : Bogota
 WKT         : PRIMEM["Bogota", -74.08091666666667]
+WKT2        : PRIMEM["Bogota", -74.08091666666667,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 74~ 04' 51''.3 W
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -61,6 +69,8 @@ Latest-WKID : 8905
 Macro       : PE_PM_MADRID
 Name        : Madrid
 WKT         : PRIMEM["Madrid", -3.687938888888889]
+WKT2        : PRIMEM["Madrid", -3.687938888888889,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 3~ 41' 16''.58 W
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -71,6 +81,8 @@ Latest-WKID : 8906
 Macro       : PE_PM_ROME
 Name        : Rome
 WKT         : PRIMEM["Rome", 12.45233333333333]
+WKT2        : PRIMEM["Rome", 12.45233333333333,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 12~ 27' 08''.4 E
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -81,6 +93,8 @@ Latest-WKID : 8907
 Macro       : PE_PM_BERN
 Name        : Bern
 WKT         : PRIMEM["Bern", 7.439583333333333]
+WKT2        : PRIMEM["Bern", 7.439583333333333,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 7~ 26' 22''.5 E
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -91,6 +105,8 @@ Latest-WKID : 8908
 Macro       : PE_PM_JAKARTA
 Name        : Jakarta
 WKT         : PRIMEM["Jakarta", 106.8077194444444]
+WKT2        : PRIMEM["Jakarta", 106.8077194444444,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 106~ 48' 27''.79 E
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -101,6 +117,8 @@ Latest-WKID : 8909
 Macro       : PE_PM_FERRO
 Name        : Ferro
 WKT         : PRIMEM["Ferro", -17.66666666666667]
+WKT2        : PRIMEM["Ferro", -17.66666666666667,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 17~ 40' 00'' W
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -111,6 +129,8 @@ Latest-WKID : 8910
 Macro       : PE_PM_BRUSSELS
 Name        : Brussels
 WKT         : PRIMEM["Brussels", 4.367975]
+WKT2        : PRIMEM["Brussels", 4.367975,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 4~ 22' 04''.71 E
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -121,6 +141,8 @@ Latest-WKID : 8911
 Macro       : PE_PM_STOCKHOLM
 Name        : Stockholm
 WKT         : PRIMEM["Stockholm", 18.05827777777778]
+WKT2        : PRIMEM["Stockholm", 18.05827777777778,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 18~ 03' 29''.8 E
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -131,6 +153,8 @@ Latest-WKID : 8912
 Macro       : PE_PM_ATHENS
 Name        : Athens
 WKT         : PRIMEM["Athens", 23.7163375]
+WKT2        : PRIMEM["Athens", 23.7163375,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 23~ 42' 58''.815 E
 Authority   : EPSG
 Version     : 3.2(4.0.0)
@@ -141,6 +165,8 @@ Latest-WKID : 8913
 Macro       : PE_PM_OSLO
 Name        : Oslo
 WKT         : PRIMEM["Oslo", 10.72291666666667]
+WKT2        : PRIMEM["Oslo", 10.72291666666667,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 10~ 43' 22''.5 E
 Authority   : EPSG
 Version     : 4.4(8.1.0)
@@ -151,6 +177,8 @@ Latest-WKID : 8914
 Macro       : PE_PM_PARIS_RGS
 Name        : Paris_RGS
 WKT         : PRIMEM["Paris_RGS", 2.337208333333333]
+WKT2        : PRIMEM["Paris_RGS", 2.337208333333333,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 2~ 20' 13''.95 E
 Authority   : EPSG
 Version     : 6.15(10.0.0)
@@ -161,6 +189,8 @@ Latest-WKID : 108900
 Macro       : PE_PM_REFERENCE
 Name        : Reference_Meridian
 WKT         : PRIMEM["Reference_Meridian", 0.0]
+WKT2        : PRIMEM["Reference_Meridian", 0.0,
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : Generic meridian origin
 Authority   : Esri
 Version     : 9.0.0

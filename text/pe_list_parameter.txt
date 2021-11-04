@@ -21,6 +21,7 @@ Latest-WKID : 100001
 Macro       : PE_PAR_FALSE_EASTING
 Name        : False_Easting
 WKT         : PARAMETER["False_Easting", 0.0]
+WKT2        : PARAMETER["False_Easting", 0.0]
 Description : X0 - False Easting
 Authority   : Esri
 Version     : 3.0.1
@@ -31,6 +32,7 @@ Latest-WKID : 100002
 Macro       : PE_PAR_FALSE_NORTHING
 Name        : False_Northing
 WKT         : PARAMETER["False_Northing", 0.0]
+WKT2        : PARAMETER["False_Northing", 0.0]
 Description : Y0 - False Northing
 Authority   : Esri
 Version     : 3.0.1
@@ -41,6 +43,7 @@ Latest-WKID : 100003
 Macro       : PE_PAR_SCALE_FACTOR
 Name        : Scale_Factor
 WKT         : PARAMETER["Scale_Factor", 1.0]
+WKT2        : PARAMETER["Scale_Factor", 1.0]
 Description : K0 - Scale Factor
 Authority   : Esri
 Version     : 3.0.1
@@ -51,6 +54,7 @@ Latest-WKID : 100004
 Macro       : PE_PAR_AZIMUTH
 Name        : Azimuth
 WKT         : PARAMETER["Azimuth", 45.0]
+WKT2        : PARAMETER["Azimuth", 45.0]
 Description : ALPHA - Azimuth
 Authority   : Esri
 Version     : 3.0.1
@@ -61,6 +65,7 @@ Latest-WKID : 100005
 Macro       : PE_PAR_HEIGHT
 Name        : Height
 WKT         : PARAMETER["Height", 0.0]
+WKT2        : PARAMETER["Height", 0.0]
 Description : HEIGHT - Height
 Authority   : Esri
 Version     : 8.1.1
@@ -71,6 +76,7 @@ Latest-WKID : 100006
 Macro       : PE_PAR_VERTICAL_SHIFT
 Name        : Vertical_Shift
 WKT         : PARAMETER["Vertical_Shift", 0.0]
+WKT2        : PARAMETER["Vertical_Shift", 0.0]
 Description : Z0 - Vertical Shift
 Authority   : Esri
 Version     : 9.2.0
@@ -81,6 +87,7 @@ Latest-WKID : 100007
 Macro       : PE_PAR_DIRECTION
 Name        : Direction
 WKT         : PARAMETER["Direction", 1.0]
+WKT2        : PARAMETER["Direction", 1.0]
 Description : DIR - Direction (Height +, Depth -)
 Authority   : Esri
 Version     : 9.2.0
@@ -91,6 +98,7 @@ Latest-WKID : 100010
 Macro       : PE_PAR_CENTRAL_MERIDIAN
 Name        : Central_Meridian
 WKT         : PARAMETER["Central_Meridian", 0.0]
+WKT2        : PARAMETER["Central_Meridian", 0.0]
 Description : LAM0 - Central Meridian
 Authority   : Esri
 Version     : 3.0.1
@@ -101,6 +109,7 @@ Latest-WKID : 100011
 Macro       : PE_PAR_LONGITUDE_OF_ORIGIN
 Name        : Longitude_Of_Origin
 WKT         : PARAMETER["Longitude_Of_Origin", 0.0]
+WKT2        : PARAMETER["Longitude_Of_Origin", 0.0]
 Description : LAM0 - Longitude of Origin
 Authority   : Esri
 Version     : 3.0.1
@@ -111,6 +120,7 @@ Latest-WKID : 100012
 Macro       : PE_PAR_LONGITUDE_OF_CENTER
 Name        : Longitude_Of_Center
 WKT         : PARAMETER["Longitude_Of_Center", -75.0]
+WKT2        : PARAMETER["Longitude_Of_Center", -75.0]
 Description : LAMC - Longitude of Center
 Authority   : Esri
 Version     : 8.0.1
@@ -121,6 +131,7 @@ Latest-WKID : 100013
 Macro       : PE_PAR_LONGITUDE_OF_1ST
 Name        : Longitude_Of_1st_Point
 WKT         : PARAMETER["Longitude_Of_1st_Point", 0.0]
+WKT2        : PARAMETER["Longitude_Of_1st_Point", 0.0]
 Description : LAM1 - Longitude of 1st Point
 Authority   : Esri
 Version     : 3.0.1
@@ -131,6 +142,7 @@ Latest-WKID : 100014
 Macro       : PE_PAR_LONGITUDE_OF_2ND
 Name        : Longitude_Of_2nd_Point
 WKT         : PARAMETER["Longitude_Of_2nd_Point", 60.0]
+WKT2        : PARAMETER["Longitude_Of_2nd_Point", 60.0]
 Description : LAM2 - Longitude of 2nd Point
 Authority   : Esri
 Version     : 3.0.1
@@ -141,6 +153,7 @@ Latest-WKID : 100020
 Macro       : PE_PAR_CENTRAL_PARALLEL
 Name        : Central_Parallel
 WKT         : PARAMETER["Central_Parallel", 0.0]
+WKT2        : PARAMETER["Central_Parallel", 0.0]
 Description : PHI0 - Central Parallel
 Authority   : Esri
 Version     : 3.0.1
@@ -151,6 +164,7 @@ Latest-WKID : 100021
 Macro       : PE_PAR_LATITUDE_OF_ORIGIN
 Name        : Latitude_Of_Origin
 WKT         : PARAMETER["Latitude_Of_Origin", 0.0]
+WKT2        : PARAMETER["Latitude_Of_Origin", 0.0]
 Description : PHI0 - Latitude of Origin
 Authority   : Esri
 Version     : 3.0.1
@@ -161,6 +175,7 @@ Latest-WKID : 100022
 Macro       : PE_PAR_LATITUDE_OF_CENTER
 Name        : Latitude_Of_Center
 WKT         : PARAMETER["Latitude_Of_Center", 40.0]
+WKT2        : PARAMETER["Latitude_Of_Center", 40.0]
 Description : PHIC - Latitude of Center
 Authority   : Esri
 Version     : 8.0.1
@@ -171,6 +186,7 @@ Latest-WKID : 100023
 Macro       : PE_PAR_LATITUDE_OF_1ST
 Name        : Latitude_Of_1st_Point
 WKT         : PARAMETER["Latitude_Of_1st_Point", 0.0]
+WKT2        : PARAMETER["Latitude_Of_1st_Point", 0.0]
 Description : PHI1 - Latitude of 1st Point
 Authority   : Esri
 Version     : 3.0.1
@@ -181,6 +197,7 @@ Latest-WKID : 100024
 Macro       : PE_PAR_LATITUDE_OF_2ND
 Name        : Latitude_Of_2nd_Point
 WKT         : PARAMETER["Latitude_Of_2nd_Point", 60.0]
+WKT2        : PARAMETER["Latitude_Of_2nd_Point", 60.0]
 Description : PHI2 - Latitude of 2nd Point
 Authority   : Esri
 Version     : 3.0.1
@@ -191,6 +208,7 @@ Latest-WKID : 100025
 Macro       : PE_PAR_STANDARD_PARALLEL_1
 Name        : Standard_Parallel_1
 WKT         : PARAMETER["Standard_Parallel_1", 60.0]
+WKT2        : PARAMETER["Standard_Parallel_1", 60.0]
 Description : PHI1 - Standard Parallel 1
 Authority   : Esri
 Version     : 3.0.1
@@ -201,6 +219,7 @@ Latest-WKID : 100026
 Macro       : PE_PAR_STANDARD_PARALLEL_2
 Name        : Standard_Parallel_2
 WKT         : PARAMETER["Standard_Parallel_2", 60.0]
+WKT2        : PARAMETER["Standard_Parallel_2", 60.0]
 Description : PHI2 - Standard Parallel 2
 Authority   : Esri
 Version     : 3.0.1
@@ -211,6 +230,7 @@ Latest-WKID : 100027
 Macro       : PE_PAR_PSEUDO_STANDARD_PARALLEL_1
 Name        : Pseudo_Standard_Parallel_1
 WKT         : PARAMETER["Pseudo_Standard_Parallel_1", 60.0]
+WKT2        : PARAMETER["Pseudo_Standard_Parallel_1", 60.0]
 Description : PHI1 - Pseudo-standard Parallel 1
 Authority   : Esri
 Version     : 8.1.0
@@ -221,6 +241,7 @@ Latest-WKID : 100035
 Macro       : PE_PAR_AUXILIARY_SPHERE_TYPE
 Name        : Auxiliary_Sphere_Type
 WKT         : PARAMETER["Auxiliary_Sphere_Type", 0.0]
+WKT2        : PARAMETER["Auxiliary_Sphere_Type", 0.0]
 Description : AUXS - Auxiliary Sphere Type
 Authority   : Esri
 Version     : 9.3.0.0
@@ -231,6 +252,7 @@ Latest-WKID : 100036
 Macro       : PE_PAR_OPTION
 Name        : Option
 WKT         : PARAMETER["Option", 0.0]
+WKT2        : PARAMETER["Option", 0.0]
 Description : OPTION - Option
 Authority   : Esri
 Version     : 9.0.0
@@ -241,6 +263,7 @@ Latest-WKID : 100037
 Macro       : PE_PAR_X_SCALE
 Name        : X_Scale
 WKT         : PARAMETER["X_Scale", 1.0]
+WKT2        : PARAMETER["X_Scale", 1.0]
 Description : XS - X Scale
 Authority   : Esri
 Version     : 8.1.0
@@ -251,6 +274,7 @@ Latest-WKID : 100038
 Macro       : PE_PAR_Y_SCALE
 Name        : Y_Scale
 WKT         : PARAMETER["Y_Scale", 1.0]
+WKT2        : PARAMETER["Y_Scale", 1.0]
 Description : YS - Y Scale
 Authority   : Esri
 Version     : 8.1.0
@@ -261,6 +285,7 @@ Latest-WKID : 100039
 Macro       : PE_PAR_XY_PLANE_ROTATION
 Name        : XY_Plane_Rotation
 WKT         : PARAMETER["XY_Plane_Rotation", 0.0]
+WKT2        : PARAMETER["XY_Plane_Rotation", 0.0]
 Description : XYR - XY Plane Rotation
 Authority   : Esri
 Version     : 8.1.0
@@ -271,6 +296,7 @@ Latest-WKID : 100040
 Macro       : PE_PAR_X_AXIS_TRANSLATION
 Name        : X_Axis_Translation
 WKT         : PARAMETER["X_Axis_Translation", 0.0]
+WKT2        : PARAMETER["X_Axis_Translation", 0.0]
 Description : DX - X Axis Translation
 Authority   : Esri
 Version     : 3.0.1
@@ -281,6 +307,7 @@ Latest-WKID : 100041
 Macro       : PE_PAR_Y_AXIS_TRANSLATION
 Name        : Y_Axis_Translation
 WKT         : PARAMETER["Y_Axis_Translation", 0.0]
+WKT2        : PARAMETER["Y_Axis_Translation", 0.0]
 Description : DY - Y Axis Translation
 Authority   : Esri
 Version     : 3.0.1
@@ -291,6 +318,7 @@ Latest-WKID : 100042
 Macro       : PE_PAR_Z_AXIS_TRANSLATION
 Name        : Z_Axis_Translation
 WKT         : PARAMETER["Z_Axis_Translation", 0.0]
+WKT2        : PARAMETER["Z_Axis_Translation", 0.0]
 Description : DZ - Z Axis Translation
 Authority   : Esri
 Version     : 3.0.1
@@ -301,6 +329,7 @@ Latest-WKID : 100043
 Macro       : PE_PAR_X_AXIS_ROTATION
 Name        : X_Axis_Rotation
 WKT         : PARAMETER["X_Axis_Rotation", 0.0]
+WKT2        : PARAMETER["X_Axis_Rotation", 0.0]
 Description : RX - X Axis of Rotation
 Authority   : Esri
 Version     : 3.0.1
@@ -311,6 +340,7 @@ Latest-WKID : 100044
 Macro       : PE_PAR_Y_AXIS_ROTATION
 Name        : Y_Axis_Rotation
 WKT         : PARAMETER["Y_Axis_Rotation", 0.0]
+WKT2        : PARAMETER["Y_Axis_Rotation", 0.0]
 Description : RY - Y Axis of Rotation
 Authority   : Esri
 Version     : 3.0.1
@@ -321,6 +351,7 @@ Latest-WKID : 100045
 Macro       : PE_PAR_Z_AXIS_ROTATION
 Name        : Z_Axis_Rotation
 WKT         : PARAMETER["Z_Axis_Rotation", 0.0]
+WKT2        : PARAMETER["Z_Axis_Rotation", 0.0]
 Description : RZ - Z Axis of Rotation
 Authority   : Esri
 Version     : 3.0.1
@@ -331,6 +362,7 @@ Latest-WKID : 100046
 Macro       : PE_PAR_SCALE_DIFFERENCE
 Name        : Scale_Difference
 WKT         : PARAMETER["Scale_Difference", 0.0]
+WKT2        : PARAMETER["Scale_Difference", 0.0]
 Description : DS - Scale Difference
 Authority   : Esri
 Version     : 8.0.1
@@ -341,6 +373,7 @@ Latest-WKID : 100047
 Macro       : PE_PAR_NAME_DATASET
 Name        : Dataset_
 WKT         : PARAMETER["Dataset_", 0.0]
+WKT2        : PARAMETERFILE[""]
 Description : ND - Dataset Name
 Authority   : Esri
 Version     : 4.0.0
@@ -351,6 +384,7 @@ Latest-WKID : 100048
 Macro       : PE_PAR_X_COORD_OF_ROTATION_ORIGIN
 Name        : X_Coordinate_of_Rotation_Origin
 WKT         : PARAMETER["X_Coordinate_of_Rotation_Origin", 0.0]
+WKT2        : PARAMETER["X_Coordinate_of_Rotation_Origin", 0.0]
 Description : XCR - X Coordinate of Rotation Origin
 Authority   : Esri
 Version     : 9.0.0
@@ -361,6 +395,7 @@ Latest-WKID : 100049
 Macro       : PE_PAR_Y_COORD_OF_ROTATION_ORIGIN
 Name        : Y_Coordinate_of_Rotation_Origin
 WKT         : PARAMETER["Y_Coordinate_of_Rotation_Origin", 0.0]
+WKT2        : PARAMETER["Y_Coordinate_of_Rotation_Origin", 0.0]
 Description : YCR - Y Coordinate of Rotation Origin
 Authority   : Esri
 Version     : 9.0.0
@@ -371,6 +406,7 @@ Latest-WKID : 100050
 Macro       : PE_PAR_Z_COORD_OF_ROTATION_ORIGIN
 Name        : Z_Coordinate_of_Rotation_Origin
 WKT         : PARAMETER["Z_Coordinate_of_Rotation_Origin", 0.0]
+WKT2        : PARAMETER["Z_Coordinate_of_Rotation_Origin", 0.0]
 Description : ZCR - Z Coordinate of Rotation Origin
 Authority   : Esri
 Version     : 9.0.0
@@ -381,6 +417,7 @@ Latest-WKID : 100051
 Macro       : PE_PAR_LONGITUDE_OFFSET
 Name        : Longitude_Offset
 WKT         : PARAMETER["Longitude_Offset", 0.0]
+WKT2        : PARAMETER["Longitude_Offset", 0.0]
 Description : DLON - Longitude Offset
 Authority   : Esri
 Version     : 10.0.0
@@ -391,6 +428,7 @@ Latest-WKID : 100052
 Macro       : PE_PAR_LATITUDE_OFFSET
 Name        : Latitude_Offset
 WKT         : PARAMETER["Latitude_Offset", 0.0]
+WKT2        : PARAMETER["Latitude_Offset", 0.0]
 Description : DLAT - Latitude Offset
 Authority   : Esri
 Version     : 10.0.0
@@ -401,6 +439,7 @@ Latest-WKID : 100060
 Macro       : PE_PAR_VERTICAL_OFFSET
 Name        : Vertical_Offset
 WKT         : PARAMETER["Vertical_Offset", 0.0]
+WKT2        : PARAMETER["Vertical_Offset", 0.0]
 Description : VO - Vertical Offset
 Authority   : Esri
 Version     : 9.3.0.0
@@ -411,6 +450,7 @@ Latest-WKID : 100061
 Macro       : PE_PAR_LATITUDE_OF_EVALUATION
 Name        : Latitude_Of_Evaluation
 WKT         : PARAMETER["Latitude_Of_Evaluation", 0.0]
+WKT2        : PARAMETER["Latitude_Of_Evaluation", 0.0]
 Description : PHIE - Latitude of Evaluation
 Authority   : Esri
 Version     : 9.3.0.0
@@ -421,6 +461,7 @@ Latest-WKID : 100062
 Macro       : PE_PAR_LONGITUDE_OF_EVALUATION
 Name        : Longitude_Of_Evaluation
 WKT         : PARAMETER["Longitude_Of_Evaluation", 0.0]
+WKT2        : PARAMETER["Longitude_Of_Evaluation", 0.0]
 Description : LAME - Longitude of Evaluation
 Authority   : Esri
 Version     : 9.3.0.0
@@ -431,6 +472,7 @@ Latest-WKID : 100063
 Macro       : PE_PAR_INCLINATION_NORTH
 Name        : Inclination_North
 WKT         : PARAMETER["Inclination_North", 0.0]
+WKT2        : PARAMETER["Inclination_North", 0.0]
 Description : INCN - Inclination North
 Authority   : Esri
 Version     : 9.3.0.0
@@ -441,6 +483,7 @@ Latest-WKID : 100064
 Macro       : PE_PAR_INCLINATION_EAST
 Name        : Inclination_East
 WKT         : PARAMETER["Inclination_East", 0.0]
+WKT2        : PARAMETER["Inclination_East", 0.0]
 Description : INCE - Inclination East
 Authority   : Esri
 Version     : 9.3.0.0
@@ -451,6 +494,7 @@ Latest-WKID : 100065
 Macro       : PE_PAR_INTERPOLATION_TYPE
 Name        : Interpolation_Type
 WKT         : PARAMETER["Interpolation_Type", 0.0]
+WKT2        : PARAMETER["Interpolation_Type", 0.0]
 Description : INTERP - Interpolation Type
 Authority   : Esri
 Version     : 10.0.0
@@ -461,6 +505,7 @@ Latest-WKID : 100070
 Macro       : PE_PAR_ASPECT_RATIO
 Name        : Aspect_Ratio
 WKT         : PARAMETER["Aspect_Ratio", 0.6]
+WKT2        : PARAMETER["Aspect_Ratio", 0.6]
 Description : ASPECT - Aspect Ratio
 Authority   : Esri
 Version     : 12.6.0
@@ -471,6 +516,7 @@ Latest-WKID : 100071
 Macro       : PE_PAR_PERSPECTIVE_RATIO
 Name        : Perspective_Ratio
 WKT         : PARAMETER["Perspective_Ratio", 1.0]
+WKT2        : PARAMETER["Perspective_Ratio", 1.0]
 Description : RATIO - Perspective Ratio
 Authority   : Esri
 Version     : 12.6.0
@@ -481,6 +527,7 @@ Latest-WKID : 100072
 Macro       : PE_PAR_X_AXIS_TRANS_RATE
 Name        : X_Axis_Translation_Rate
 WKT         : PARAMETER["X_Axis_Translation_Rate", 0.0]
+WKT2        : PARAMETER["X_Axis_Translation_Rate", 0.0]
 Description : DXRATE - X Axis Translation Rate
 Authority   : Esri
 Version     : 12.6.0
@@ -491,6 +538,7 @@ Latest-WKID : 100073
 Macro       : PE_PAR_Y_AXIS_TRANS_RATE
 Name        : Y_Axis_Translation_Rate
 WKT         : PARAMETER["Y_Axis_Translation_Rate", 0.0]
+WKT2        : PARAMETER["Y_Axis_Translation_Rate", 0.0]
 Description : DYRATE - Y Axis Translation Rate
 Authority   : Esri
 Version     : 12.6.0
@@ -501,6 +549,7 @@ Latest-WKID : 100074
 Macro       : PE_PAR_Z_AXIS_TRANS_RATE
 Name        : Z_Axis_Translation_Rate
 WKT         : PARAMETER["Z_Axis_Translation_Rate", 0.0]
+WKT2        : PARAMETER["Z_Axis_Translation_Rate", 0.0]
 Description : DZRATE - Z Axis Translation Rate
 Authority   : Esri
 Version     : 12.6.0
@@ -511,6 +560,7 @@ Latest-WKID : 100075
 Macro       : PE_PAR_X_AXIS_ROT_RATE
 Name        : X_Axis_Rotation_Rate
 WKT         : PARAMETER["X_Axis_Rotation_Rate", 0.0]
+WKT2        : PARAMETER["X_Axis_Rotation_Rate", 0.0]
 Description : RXRATE - X Axis of Rotation Rate
 Authority   : Esri
 Version     : 12.6.0
@@ -521,6 +571,7 @@ Latest-WKID : 100076
 Macro       : PE_PAR_Y_AXIS_ROT_RATE
 Name        : Y_Axis_Rotation_Rate
 WKT         : PARAMETER["Y_Axis_Rotation_Rate", 0.0]
+WKT2        : PARAMETER["Y_Axis_Rotation_Rate", 0.0]
 Description : RYRATE - Y Axis of Rotation Rate
 Authority   : Esri
 Version     : 12.6.0
@@ -531,6 +582,7 @@ Latest-WKID : 100077
 Macro       : PE_PAR_Z_AXIS_ROT_RATE
 Name        : Z_Axis_Rotation_Rate
 WKT         : PARAMETER["Z_Axis_Rotation_Rate", 0.0]
+WKT2        : PARAMETER["Z_Axis_Rotation_Rate", 0.0]
 Description : RZRATE - Z Axis of Rotation Rate
 Authority   : Esri
 Version     : 12.6.0
@@ -541,6 +593,7 @@ Latest-WKID : 100078
 Macro       : PE_PAR_SCALE_DIFF_RATE
 Name        : Scale_Difference_Rate
 WKT         : PARAMETER["Scale_Difference_Rate", 0.0]
+WKT2        : PARAMETER["Scale_Difference_Rate", 0.0]
 Description : DSRATE - Scale Difference Rate
 Authority   : Esri
 Version     : 12.6.0
@@ -551,6 +604,7 @@ Latest-WKID : 100079
 Macro       : PE_PAR_REF_TIME
 Name        : Reference_Time
 WKT         : PARAMETER["Reference_Time", 0.0]
+WKT2        : PARAMETER["Reference_Time", 0.0]
 Description : REFT - Reference Time
 Authority   : Esri
 Version     : 12.6.0

@@ -21,6 +21,7 @@ Latest-WKID : 1027
 Macro       : PE_VERTD_EGM2008_GEOID
 Name        : EGM2008_Geoid
 WKT         : VDATUM["EGM2008_Geoid"]
+WKT2        : VDATUM["EGM2008_Geoid"]
 Description : EGM2008 Geoid
 Authority   : EPSG
 Version     : 6.18.3(10.1.0)
@@ -31,6 +32,7 @@ Latest-WKID : 1028
 Macro       : PE_VERTD_FAO_1979
 Name        : Fao_1979
 WKT         : VDATUM["Fao_1979"]
+WKT2        : VDATUM["Fao_1979"]
 Description : Fao 1979
 Authority   : EPSG
 Version     : 7.1(10.1.0)
@@ -41,6 +43,7 @@ Latest-WKID : 1030
 Macro       : PE_VERTD_N2000
 Name        : N2000
 WKT         : VDATUM["N2000"]
+WKT2        : VDATUM["N2000"]
 Description : N2000
 Authority   : EPSG
 Version     : 7.5.1(10.1.0)
@@ -51,6 +54,7 @@ Latest-WKID : 1039
 Macro       : PE_VERTD_NZVD_2009
 Name        : New_Zealand_Vertical_Datum_2009
 WKT         : VDATUM["New_Zealand_Vertical_Datum_2009"]
+WKT2        : VDATUM["New_Zealand_Vertical_Datum_2009"]
 Description : New Zealand Vertical Datum 2009
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -61,6 +65,7 @@ Latest-WKID : 1040
 Macro       : PE_VERTD_DUNEDIN_BLUFF_1960
 Name        : Dunedin_Bluff_1960
 WKT         : VDATUM["Dunedin_Bluff_1960"]
+WKT2        : VDATUM["Dunedin_Bluff_1960"]
 Description : Dunedin-Bluff 1960
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
@@ -71,6 +76,7 @@ Latest-WKID : 1049
 Macro       : PE_VERTD_INCHEON
 Name        : Incheon
 WKT         : VDATUM["Incheon"]
+WKT2        : VDATUM["Incheon"]
 Description : Incheon
 Authority   : EPSG
 Version     : 7.5.6(10.1.0)
@@ -81,6 +87,7 @@ Latest-WKID : 1050
 Macro       : PE_VERTD_TRIESTE
 Name        : Trieste
 WKT         : VDATUM["Trieste"]
+WKT2        : VDATUM["Trieste"]
 Description : Trieste
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -91,6 +98,7 @@ Latest-WKID : 1051
 Macro       : PE_VERTD_GENOA
 Name        : Genoa
 WKT         : VDATUM["Genoa"]
+WKT2        : VDATUM["Genoa"]
 Description : Genoa
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
@@ -101,6 +109,7 @@ Latest-WKID : 1054
 Macro       : PE_VERTD_SRI_LANKA_VERTICAL_DATUM
 Name        : Sri_Lanka_Vertical_Datum
 WKT         : VDATUM["Sri_Lanka_Vertical_Datum"]
+WKT2        : VDATUM["Sri_Lanka_Vertical_Datum"]
 Description : Sri Lanka Vertical Datum
 Authority   : EPSG
 Version     : 7.5.9(10.1.0)
@@ -111,6 +120,7 @@ Latest-WKID : 1059
 Macro       : PE_VERTD_FAROE_ISLANDS_VR_2009
 Name        : Faroe_Islands_Vertical_Reference_2009
 WKT         : VDATUM["Faroe_Islands_Vertical_Reference_2009"]
+WKT2        : VDATUM["Faroe_Islands_Vertical_Reference_2009"]
 Description : Faroe Islands Vertical Reference 2009
 Authority   : EPSG
 Version     : 7.6(10.1.0)
@@ -121,6 +131,7 @@ Latest-WKID : 1079
 Macro       : PE_VERTD_FEH_VR_2010
 Name        : Fehmarnbelt_Vertical_Reference_2010
 WKT         : VDATUM["Fehmarnbelt_Vertical_Reference_2010"]
+WKT2        : VDATUM["Fehmarnbelt_Vertical_Reference_2010"]
 Description : Fehmarnbelt Vertical Reference 2010
 Authority   : EPSG
 Version     : 7.9.1(10.1.1)
@@ -131,6 +142,7 @@ Latest-WKID : 1080
 Macro       : PE_VERTD_LAT
 Name        : Lowest_Astronomic_Tide
 WKT         : VDATUM["Lowest_Astronomic_Tide"]
+WKT2        : VDATUM["Lowest_Astronomic_Tide"]
 Description : Lowest Astronomical Tide
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -141,6 +153,7 @@ Latest-WKID : 1082
 Macro       : PE_VERTD_HAT
 Name        : Highest_Astronomic_Tide
 WKT         : VDATUM["Highest_Astronomic_Tide"]
+WKT2        : VDATUM["Highest_Astronomic_Tide"]
 Description : Highest Astronomical Tide
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -151,6 +164,7 @@ Latest-WKID : 1083
 Macro       : PE_VERTD_LLWLT
 Name        : Lower_Low_Water_Large_Tide
 WKT         : VDATUM["Lower_Low_Water_Large_Tide"]
+WKT2        : VDATUM["Lower_Low_Water_Large_Tide"]
 Description : Lower Low Water Large Tide
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -161,6 +175,7 @@ Latest-WKID : 1084
 Macro       : PE_VERTD_HHWLT
 Name        : Higher_High_Water_Large_Tide
 WKT         : VDATUM["Higher_High_Water_Large_Tide"]
+WKT2        : VDATUM["Higher_High_Water_Large_Tide"]
 Description : Higher High Water Large Tide
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -171,6 +186,7 @@ Latest-WKID : 1085
 Macro       : PE_VERTD_ISLW
 Name        : Indian_Spring_Low_Water
 WKT         : VDATUM["Indian_Spring_Low_Water"]
+WKT2        : VDATUM["Indian_Spring_Low_Water"]
 Description : Indian Spring Low Water
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -181,6 +197,7 @@ Latest-WKID : 1086
 Macro       : PE_VERTD_MLLWS
 Name        : Mean_Lower_Low_Water_Spring_Tides
 WKT         : VDATUM["Mean_Lower_Low_Water_Spring_Tides"]
+WKT2        : VDATUM["Mean_Lower_Low_Water_Spring_Tides"]
 Description : Mean Lower Low Water Spring Tides
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -191,6 +208,7 @@ Latest-WKID : 1087
 Macro       : PE_VERTD_MLWS
 Name        : Mean_Low_Water_Spring_Tides
 WKT         : VDATUM["Mean_Low_Water_Spring_Tides"]
+WKT2        : VDATUM["Mean_Low_Water_Spring_Tides"]
 Description : Mean Low Water Spring Tides
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -201,6 +219,7 @@ Latest-WKID : 1088
 Macro       : PE_VERTD_MHWS
 Name        : Mean_High_Water_Spring_Tides
 WKT         : VDATUM["Mean_High_Water_Spring_Tides"]
+WKT2        : VDATUM["Mean_High_Water_Spring_Tides"]
 Description : Mean High Water Spring Tides
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -211,6 +230,7 @@ Latest-WKID : 1089
 Macro       : PE_VERTD_MLLW
 Name        : Mean_Lower_Low_Water
 WKT         : VDATUM["Mean_Lower_Low_Water"]
+WKT2        : VDATUM["Mean_Lower_Low_Water"]
 Description : Mean Lower Low Water
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -221,6 +241,7 @@ Latest-WKID : 1090
 Macro       : PE_VERTD_MHHW
 Name        : Mean_Higher_High_Water
 WKT         : VDATUM["Mean_Higher_High_Water"]
+WKT2        : VDATUM["Mean_Higher_High_Water"]
 Description : Mean Higher High Water
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -231,6 +252,7 @@ Latest-WKID : 1091
 Macro       : PE_VERTD_MLW
 Name        : Mean_Low_Water
 WKT         : VDATUM["Mean_Low_Water"]
+WKT2        : VDATUM["Mean_Low_Water"]
 Description : Mean Low Water
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -241,6 +263,7 @@ Latest-WKID : 1092
 Macro       : PE_VERTD_MHW
 Name        : Mean_High_Water
 WKT         : VDATUM["Mean_High_Water"]
+WKT2        : VDATUM["Mean_High_Water"]
 Description : Mean High Water
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -251,6 +274,7 @@ Latest-WKID : 1093
 Macro       : PE_VERTD_LW
 Name        : Low_Water
 WKT         : VDATUM["Low_Water"]
+WKT2        : VDATUM["Low_Water"]
 Description : Low Water
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -261,6 +285,7 @@ Latest-WKID : 1094
 Macro       : PE_VERTD_HW
 Name        : High_Water
 WKT         : VDATUM["High_Water"]
+WKT2        : VDATUM["High_Water"]
 Description : High Water
 Authority   : EPSG
 Version     : 7.12(10.2.0)
@@ -271,6 +296,7 @@ Latest-WKID : 1096
 Macro       : PE_VERTD_NORWAY_NORMAL_NULL_2000
 Name        : Norway_Normal_Null_2000
 WKT         : VDATUM["Norway_Normal_Null_2000"]
+WKT2        : VDATUM["Norway_Normal_Null_2000"]
 Description : Norway Normal Null 2000
 Authority   : EPSG
 Version     : 8.1.1(10.2.0)
@@ -281,6 +307,7 @@ Latest-WKID : 1097
 Macro       : PE_VERTD_GRAND_CAYMAN_VERTICAL_DATUM_1954
 Name        : Grand_Cayman_Vertical_Datum_1954
 WKT         : VDATUM["Grand_Cayman_Vertical_Datum_1954"]
+WKT2        : VDATUM["Grand_Cayman_Vertical_Datum_1954"]
 Description : Grand Cayman Vertical Datum 1954
 Authority   : EPSG
 Version     : 8.1.2(10.2.1)
@@ -291,6 +318,7 @@ Latest-WKID : 1098
 Macro       : PE_VERTD_LITTLE_CAYMAN_VERTICAL_DATUM_1961
 Name        : Little_Cayman_Vertical_Datum_1961
 WKT         : VDATUM["Little_Cayman_Vertical_Datum_1961"]
+WKT2        : VDATUM["Little_Cayman_Vertical_Datum_1961"]
 Description : Little Cayman Vertical Datum 1961
 Authority   : EPSG
 Version     : 8.1.2(10.2.1)
@@ -301,6 +329,7 @@ Latest-WKID : 1099
 Macro       : PE_VERTD_CAYMAN_BRAC_VERTICAL_DATUM_1961
 Name        : Cayman_Brac_Vertical_Datum_1961
 WKT         : VDATUM["Cayman_Brac_Vertical_Datum_1961"]
+WKT2        : VDATUM["Cayman_Brac_Vertical_Datum_1961"]
 Description : Cayman Brac Vertical Datum 1961
 Authority   : EPSG
 Version     : 8.1.2(10.2.1)
@@ -311,6 +340,7 @@ Latest-WKID : 1101
 Macro       : PE_VERTD_CAIS_DA_PONTINHA_FUNCHAL
 Name        : Cais_da_Pontinha-Funchal
 WKT         : VDATUM["Cais_da_Pontinha-Funchal"]
+WKT2        : VDATUM["Cais_da_Pontinha-Funchal"]
 Description : Cais da Pontinha - Funchal
 Authority   : EPSG
 Version     : 8.2(10.2.1)
@@ -321,6 +351,7 @@ Latest-WKID : 1102
 Macro       : PE_VERTD_CAIS_DA_VILA_PORTO_SANTO
 Name        : Cais_da_Vila-Porto_Santo
 WKT         : VDATUM["Cais_da_Vila-Porto_Santo"]
+WKT2        : VDATUM["Cais_da_Vila-Porto_Santo"]
 Description : Cais da Vila - Porto Santo
 Authority   : EPSG
 Version     : 8.2(10.2.1)
@@ -331,6 +362,7 @@ Latest-WKID : 1103
 Macro       : PE_VERTD_CAIS_DAS_VELAS
 Name        : Cais_das_Velas
 WKT         : VDATUM["Cais_das_Velas"]
+WKT2        : VDATUM["Cais_das_Velas"]
 Description : Cais das Velas
 Authority   : EPSG
 Version     : 8.2(10.2.1)
@@ -341,6 +373,7 @@ Latest-WKID : 1104
 Macro       : PE_VERTD_HORTA
 Name        : Horta
 WKT         : VDATUM["Horta"]
+WKT2        : VDATUM["Horta"]
 Description : Horta
 Authority   : EPSG
 Version     : 8.2(10.2.1)
@@ -351,6 +384,7 @@ Latest-WKID : 1105
 Macro       : PE_VERTD_CAIS_DA_MADALENA
 Name        : Cais_da_Madalena
 WKT         : VDATUM["Cais_da_Madalena"]
+WKT2        : VDATUM["Cais_da_Madalena"]
 Description : Cais da Madalena
 Authority   : EPSG
 Version     : 8.2(10.2.1)
@@ -361,6 +395,7 @@ Latest-WKID : 1106
 Macro       : PE_VERTD_SANTA_CRUZ_DA_GRACIOSA
 Name        : Santa_Cruz_da_Graciosa
 WKT         : VDATUM["Santa_Cruz_da_Graciosa"]
+WKT2        : VDATUM["Santa_Cruz_da_Graciosa"]
 Description : Santa Cruz da Graciosa
 Authority   : EPSG
 Version     : 8.2(10.2.1)
@@ -371,6 +406,7 @@ Latest-WKID : 1107
 Macro       : PE_VERTD_CAIS_DA_FIGUEIRINHA
 Name        : Cais_da_Figueirinha-Angra_do_Heroismo
 WKT         : VDATUM["Cais_da_Figueirinha-Angra_do_Heroismo"]
+WKT2        : VDATUM["Cais_da_Figueirinha-Angra_do_Heroismo"]
 Description : Cais da Figueirinha - Angra do Heroismo
 Authority   : EPSG
 Version     : 8.2(10.2.1)
@@ -381,6 +417,7 @@ Latest-WKID : 1108
 Macro       : PE_VERTD_SANTA_CRUZ_DAS_FLORES
 Name        : Santa_Cruz_das_Flores
 WKT         : VDATUM["Santa_Cruz_das_Flores"]
+WKT2        : VDATUM["Santa_Cruz_das_Flores"]
 Description : Santa Cruz das Flores
 Authority   : EPSG
 Version     : 8.2(10.2.1)
@@ -391,6 +428,7 @@ Latest-WKID : 1109
 Macro       : PE_VERTD_CAIS_DA_VILA_DO_PORTO
 Name        : Cais_da_Vila_do_Porto
 WKT         : VDATUM["Cais_da_Vila_do_Porto"]
+WKT2        : VDATUM["Cais_da_Vila_do_Porto"]
 Description : Cais da Vila do Porto
 Authority   : EPSG
 Version     : 8.2(10.2.1)
@@ -401,6 +439,7 @@ Latest-WKID : 1110
 Macro       : PE_VERTD_PONTA_DELGADA
 Name        : Ponta_Delgada
 WKT         : VDATUM["Ponta_Delgada"]
+WKT2        : VDATUM["Ponta_Delgada"]
 Description : Ponta Delgada
 Authority   : EPSG
 Version     : 8.2(10.2.1)
@@ -411,6 +450,7 @@ Latest-WKID : 1119
 Macro       : PE_VERTD_NORTHERN_MARIANAS_2003
 Name        : Northern_Marianas_Vertical_Datum_of_2003
 WKT         : VDATUM["Northern_Marianas_Vertical_Datum_of_2003"]
+WKT2        : VDATUM["Northern_Marianas_Vertical_Datum_of_2003"]
 Description : Northern Marianas Vertical Datum of 2003
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
@@ -421,6 +461,7 @@ Latest-WKID : 1121
 Macro       : PE_VERTD_TUTUILA_1962
 Name        : Tutuila_Vertical_Datum_of_1962
 WKT         : VDATUM["Tutuila_Vertical_Datum_of_1962"]
+WKT2        : VDATUM["Tutuila_Vertical_Datum_of_1962"]
 Description : Tutuila Vertical Datum of 1962
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
@@ -431,6 +472,7 @@ Latest-WKID : 1122
 Macro       : PE_VERTD_GUAM_1963
 Name        : Guam_Vertical_Datum_of_1963
 WKT         : VDATUM["Guam_Vertical_Datum_of_1963"]
+WKT2        : VDATUM["Guam_Vertical_Datum_of_1963"]
 Description : Guam Vertical Datum of 1963
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
@@ -441,6 +483,7 @@ Latest-WKID : 1123
 Macro       : PE_VERTD_PUERTO_RICO_2002
 Name        : Puerto_Rico_Vertical_Datum_of_2002
 WKT         : VDATUM["Puerto_Rico_Vertical_Datum_of_2002"]
+WKT2        : VDATUM["Puerto_Rico_Vertical_Datum_of_2002"]
 Description : Puerto Rico Vertical Datum of 2002
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
@@ -451,6 +494,7 @@ Latest-WKID : 1124
 Macro       : PE_VERTD_VIRGIN_ISLANDS_2009
 Name        : Virgin_Islands_Vertical_Datum_of_2009
 WKT         : VDATUM["Virgin_Islands_Vertical_Datum_of_2009"]
+WKT2        : VDATUM["Virgin_Islands_Vertical_Datum_of_2009"]
 Description : Virgin Islands Vertical Datum of 2009
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
@@ -461,6 +505,7 @@ Latest-WKID : 1125
 Macro       : PE_VERTD_AMERICAN_SAMOA_2002
 Name        : American_Samoa_Vertical_Datum_of_2002
 WKT         : VDATUM["American_Samoa_Vertical_Datum_of_2002"]
+WKT2        : VDATUM["American_Samoa_Vertical_Datum_of_2002"]
 Description : American Samoa Vertical Datum of 2002
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
@@ -471,6 +516,7 @@ Latest-WKID : 1126
 Macro       : PE_VERTD_GUAM_2004
 Name        : Guam_Vertical_Datum_of_2004
 WKT         : VDATUM["Guam_Vertical_Datum_of_2004"]
+WKT2        : VDATUM["Guam_Vertical_Datum_of_2004"]
 Description : Guam Vertical Datum of 2004
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
@@ -481,6 +527,7 @@ Latest-WKID : 1127
 Macro       : PE_VERTD_CANADIAN_GEODETIC_VERTICAL_DATUM_2013
 Name        : Canadian_Geodetic_Vertical_Datum_of_2013
 WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013"]
+WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013"]
 Description : Canadian Geodetic Vertical Datum of 2013
 Authority   : EPSG
 Version     : 8.3.3(10.3.1)
@@ -491,6 +538,7 @@ Latest-WKID : 1129
 Macro       : PE_VERTD_JAPANESE_STANDARD_LEVELLING_DATUM_1972
 Name        : Japanese_Standard_Levelling_Datum_1972
 WKT         : VDATUM["Japanese_Standard_Levelling_Datum_1972"]
+WKT2        : VDATUM["Japanese_Standard_Levelling_Datum_1972"]
 Description : Japanese Standard Levelling Datum 1972
 Authority   : EPSG
 Version     : 8.4(10.3.1)
@@ -501,6 +549,7 @@ Latest-WKID : 1130
 Macro       : PE_VERTD_JAPANESE_GEODETIC_DATUM_2000
 Name        : Japanese_Geodetic_Datum_2000_vertical
 WKT         : VDATUM["Japanese_Geodetic_Datum_2000_vertical"]
+WKT2        : VDATUM["Japanese_Geodetic_Datum_2000_vertical"]
 Description : Japanese Geodetic Datum 2000 (vertical)
 Authority   : EPSG
 Version     : 8.4(10.3.1)
@@ -511,6 +560,7 @@ Latest-WKID : 1131
 Macro       : PE_VERTD_JAPANESE_GEODETIC_DATUM_2011
 Name        : Japanese_Geodetic_Datum_2011_vertical
 WKT         : VDATUM["Japanese_Geodetic_Datum_2011_vertical"]
+WKT2        : VDATUM["Japanese_Geodetic_Datum_2011_vertical"]
 Description : Japanese Geodetic Datum 2011 (vertical)
 Authority   : EPSG
 Version     : 8.4(10.3.1)
@@ -521,6 +571,7 @@ Latest-WKID : 1140
 Macro       : PE_VERTD_SINGAPORE_HEIGHT_DATUM
 Name        : Singapore_Height_Datum
 WKT         : VDATUM["Singapore_Height_Datum"]
+WKT2        : VDATUM["Singapore_Height_Datum"]
 Description : Singapore Height Datum
 Authority   : EPSG
 Version     : 8.5.1(10.3.1)
@@ -531,6 +582,7 @@ Latest-WKID : 1146
 Macro       : PE_VERTD_RAS_GHUMAYS
 Name        : Ras_Ghumays
 WKT         : VDATUM["Ras_Ghumays"]
+WKT2        : VDATUM["Ras_Ghumays"]
 Description : Ras Ghumays
 Authority   : EPSG
 Version     : 8.6.3(10.4.0)
@@ -541,6 +593,7 @@ Latest-WKID : 1148
 Macro       : PE_VERTD_FAMAGUSTA_1960
 Name        : Famagusta_1960
 WKT         : VDATUM["Famagusta_1960"]
+WKT2        : VDATUM["Famagusta_1960"]
 Description : Famagusta 1960
 Authority   : EPSG
 Version     : 8.8(10.5.0)
@@ -551,6 +604,7 @@ Latest-WKID : 1149
 Macro       : PE_VERTD_PNG08
 Name        : Papua_New_Guinea_2008
 WKT         : VDATUM["Papua_New_Guinea_2008"]
+WKT2        : VDATUM["Papua_New_Guinea_2008"]
 Description : Papua New Guinea 2008
 Authority   : EPSG
 Version     : 8.8(10.5.0)
@@ -561,6 +615,7 @@ Latest-WKID : 1150
 Macro       : PE_VERTD_KUMUL_34
 Name        : Kumul_34
 WKT         : VDATUM["Kumul_34"]
+WKT2        : VDATUM["Kumul_34"]
 Description : Kumul 34
 Authority   : EPSG
 Version     : 8.8(10.5.0)
@@ -571,6 +626,7 @@ Latest-WKID : 1151
 Macro       : PE_VERTD_KIUNGA
 Name        : Kiunga
 WKT         : VDATUM["Kiunga"]
+WKT2        : VDATUM["Kiunga"]
 Description : Kiunga
 Authority   : EPSG
 Version     : 8.8(10.5.0)
@@ -581,6 +637,7 @@ Latest-WKID : 1161
 Macro       : PE_VERTD_DHHN12
 Name        : Deutsches_Haupthoehennetz_1912
 WKT         : VDATUM["Deutsches_Haupthoehennetz_1912"]
+WKT2        : VDATUM["Deutsches_Haupthoehennetz_1912"]
 Description : Deutsches Haupthoehennetz 1912
 Authority   : EPSG
 Version     : 8.8.1(10.5.0)
@@ -591,6 +648,7 @@ Latest-WKID : 1162
 Macro       : PE_VERTD_LATVIA_2000
 Name        : Latvian_Height_System_2000
 WKT         : VDATUM["Latvian_Height_System_2000"]
+WKT2        : VDATUM["Latvian_Height_System_2000"]
 Description : Latvian Height System 2000
 Authority   : EPSG
 Version     : 8.8.1(10.5.0)
@@ -601,6 +659,7 @@ Latest-WKID : 1164
 Macro       : PE_VERTD_NEWLYN_OFFSHORE
 Name        : Ordnance_Datum_Newlyn_(Offshore)
 WKT         : VDATUM["Ordnance_Datum_Newlyn_(Offshore)"]
+WKT2        : VDATUM["Ordnance_Datum_Newlyn_(Offshore)"]
 Description : Ordnance Datum Newlyn (Offshore)
 Authority   : EPSG
 Version     : 8.9.3(10.5.0)
@@ -611,6 +670,7 @@ Latest-WKID : 1169
 Macro       : PE_VERTD_NZVD2016
 Name        : New_Zealand_Vertical_Datum_2016
 WKT         : VDATUM["New_Zealand_Vertical_Datum_2016"]
+WKT2        : VDATUM["New_Zealand_Vertical_Datum_2016"]
 Description : New Zealand Vertical Datum 2016
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -621,6 +681,7 @@ Latest-WKID : 1170
 Macro       : PE_VERTD_DHHN2016
 Name        : Deutsches_Haupthoehennetz_2016
 WKT         : VDATUM["Deutsches_Haupthoehennetz_2016"]
+WKT2        : VDATUM["Deutsches_Haupthoehennetz_2016"]
 Description : Deutsches Haupthoehennetz 2016
 Authority   : EPSG
 Version     : 8.9.4(10.5.0)
@@ -631,6 +692,7 @@ Latest-WKID : 1171
 Macro       : PE_VERTD_PORT_MORESBY_1996
 Name        : Port_Moresby_1996
 WKT         : VDATUM["Port_Moresby_1996"]
+WKT2        : VDATUM["Port_Moresby_1996"]
 Description : Port Moresby 1996
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -641,6 +703,7 @@ Latest-WKID : 1172
 Macro       : PE_VERTD_PORT_MORESBY_2008
 Name        : Port_Moresby_2008
 WKT         : VDATUM["Port_Moresby_2008"]
+WKT2        : VDATUM["Port_Moresby_2008"]
 Description : Port Moresby 2008
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -651,6 +714,7 @@ Latest-WKID : 1175
 Macro       : PE_VERTD_JAMESTOWN_1971
 Name        : Jamestown_1971
 WKT         : VDATUM["Jamestown_1971"]
+WKT2        : VDATUM["Jamestown_1971"]
 Description : Jamestown 1971
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -661,6 +725,7 @@ Latest-WKID : 1176
 Macro       : PE_VERTD_ST_HELENA_TRITAN_VERTD_2011
 Name        : St_Helena_Tritan_Vertical_Datum_2011
 WKT         : VDATUM["St_Helena_Tritan_Vertical_Datum_2011"]
+WKT2        : VDATUM["St_Helena_Tritan_Vertical_Datum_2011"]
 Description : St. Helena Tritan Vertical Datum 2011
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -671,6 +736,7 @@ Latest-WKID : 1177
 Macro       : PE_VERTD_ST_HELENA_VERTD_2015
 Name        : St_Helena_Vertical_Datum_2015
 WKT         : VDATUM["St_Helena_Vertical_Datum_2015"]
+WKT2        : VDATUM["St_Helena_Vertical_Datum_2015"]
 Description : St. Helena Vertical Datum 2015
 Authority   : EPSG
 Version     : 9.0(10.6.0)
@@ -681,6 +747,7 @@ Latest-WKID : 1190
 Macro       : PE_VERTD_LANDSHAEDARKERFI_ISLANDS_2004
 Name        : Landshaedarkerfi_Islands_2004
 WKT         : VDATUM["Landshaedarkerfi_Islands_2004"]
+WKT2        : VDATUM["Landshaedarkerfi_Islands_2004"]
 Description : Landshaedarkerfi Islands 2004
 Authority   : EPSG
 Version     : 9.1(10.6.0)
@@ -691,6 +758,7 @@ Latest-WKID : 1199
 Macro       : PE_VERTD_GVR2000
 Name        : Greenland_Vertical_Reference_2000
 WKT         : VDATUM["Greenland_Vertical_Reference_2000"]
+WKT2        : VDATUM["Greenland_Vertical_Reference_2000"]
 Description : Greenland Vertical Reference 2000
 Authority   : EPSG
 Version     : 9.2(10.8.0)
@@ -701,6 +769,7 @@ Latest-WKID : 1200
 Macro       : PE_VERTD_GVR2016
 Name        : Greenland_Vertical_Reference_2016
 WKT         : VDATUM["Greenland_Vertical_Reference_2016"]
+WKT2        : VDATUM["Greenland_Vertical_Reference_2016"]
 Description : Greenland Vertical Reference 2016
 Authority   : EPSG
 Version     : 9.2(10.8.0)
@@ -711,6 +780,7 @@ Latest-WKID : 1202
 Macro       : PE_VERTD_BALTIC_1957
 Name        : Baltic_1957
 WKT         : VDATUM["Baltic_1957"]
+WKT2        : VDATUM["Baltic_1957"]
 Description : Baltic 1957
 Authority   : EPSG
 Version     : 9.2.2(10.8.0)
@@ -721,6 +791,7 @@ Latest-WKID : 1210
 Macro       : PE_VERTD_MACAO_HT_DATUM
 Name        : Macao_Height_Datum
 WKT         : VDATUM["Macao_Height_Datum"]
+WKT2        : VDATUM["Macao_Height_Datum"]
 Description : Macao Height Datum
 Authority   : EPSG
 Version     : 9.2.2(10.8.0)
@@ -731,6 +802,7 @@ Latest-WKID : 1213
 Macro       : PE_VERTD_HELSINKI_1943
 Name        : Helsinki_1943
 WKT         : VDATUM["Helsinki_1943"]
+WKT2        : VDATUM["Helsinki_1943"]
 Description : Helsinki 1943
 Authority   : EPSG
 Version     : 9.4(10.8.0)
@@ -741,6 +813,7 @@ Latest-WKID : 1215
 Macro       : PE_VERTD_SVS2010
 Name        : Slovenian_Vertical_System_2010
 WKT         : VDATUM["Slovenian_Vertical_System_2010"]
+WKT2        : VDATUM["Slovenian_Vertical_System_2010"]
 Description : Slovenian Vertical System 2010, datum Koper
 Authority   : EPSG
 Version     : 9.5(10.7.1)
@@ -751,6 +824,7 @@ Latest-WKID : 1216
 Macro       : PE_VERTD_SERBIAN_VRS_2012
 Name        : Serbian_Vertical_Reference_System_2012
 WKT         : VDATUM["Serbian_Vertical_Reference_System_2012"]
+WKT2        : VDATUM["Serbian_Vertical_Reference_System_2012"]
 Description : Serbian Vertical Reference System 2012
 Authority   : EPSG
 Version     : 9.5(10.8.0)
@@ -761,6 +835,7 @@ Latest-WKID : 1219
 Macro       : PE_VERTD_MOMRA_VERT_GEODETIC_CONTROL
 Name        : MOMRA_Vertical_Geodetic_Control
 WKT         : VDATUM["MOMRA_Vertical_Geodetic_Control"]
+WKT2        : VDATUM["MOMRA_Vertical_Geodetic_Control"]
 Description : MOMRA Vertical Geodetic Control
 Authority   : EPSG
 Version     : 9.5(10.8.0)
@@ -771,6 +846,7 @@ Latest-WKID : 1224
 Macro       : PE_VERTD_TAIWAN_VERTICAL_DATUM_2001
 Name        : Taiwan_Vertical_Datum_2001
 WKT         : VDATUM["Taiwan_Vertical_Datum_2001"]
+WKT2        : VDATUM["Taiwan_Vertical_Datum_2001"]
 Description : Taiwan Vertical Datum 2001
 Authority   : EPSG
 Version     : 9.6.1(10.8.0)
@@ -781,6 +857,7 @@ Latest-WKID : 1226
 Macro       : PE_VERTD_DACR52
 Name        : Datum_Altimetrico_de_Costa_Rica_1952
 WKT         : VDATUM["Datum_Altimetrico_de_Costa_Rica_1952"]
+WKT2        : VDATUM["Datum_Altimetrico_de_Costa_Rica_1952"]
 Description : Datum Altimetrico de Costa Rica 1952
 Authority   : EPSG
 Version     : 9.6.1(10.8.0)
@@ -791,6 +868,7 @@ Latest-WKID : 1250
 Macro       : PE_VERTD_IGN_2008_LD
 Name        : IGN_2008_LD
 WKT         : VDATUM["IGN_2008_LD"]
+WKT2        : VDATUM["IGN_2008_LD"]
 Description : IGN 2008 LD
 Authority   : EPSG
 Version     : 9.7(10.8.0)
@@ -801,6 +879,7 @@ Latest-WKID : 1255
 Macro       : PE_VERTD_NGNC_2008
 Name        : Nivellement_General_de_Nouvelle_Caledonie_2008
 WKT         : VDATUM["Nivellement_General_de_Nouvelle_Caledonie_2008"]
+WKT2        : VDATUM["Nivellement_General_de_Nouvelle_Caledonie_2008"]
 Description : Nivellement General de Nouvelle Caledonie 2008
 Authority   : EPSG
 Version     : 9.8.11(12.7.0)
@@ -811,6 +890,7 @@ Latest-WKID : 1256
 Macro       : PE_VERTD_CGVD2013_CGG2013A
 Name        : Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a
 WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a"]
+WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a"]
 Description : Canadian Geodetic Vertical Datum of 2013 (CGG2013a)
 Authority   : EPSG
 Version     : 9.8.4(12.6.0)
@@ -821,6 +901,7 @@ Latest-WKID : 1260
 Macro       : PE_VERTD_SRVN2016
 Name        : Sistema_de_Referencia_Vertical_Nacional_2016
 WKT         : VDATUM["Sistema_de_Referencia_Vertical_Nacional_2016"]
+WKT2        : VDATUM["Sistema_de_Referencia_Vertical_Nacional_2016"]
 Description : Sistema de Referencia Vertical Nacional 2016
 Authority   : EPSG
 Version     : 9.8.5(12.6.0)
@@ -831,6 +912,7 @@ Latest-WKID : 1261
 Macro       : PE_VERTD_EVRF2000_AUSTRIA
 Name        : European_Vertical_Reference_Frame_2000_Austria
 WKT         : VDATUM["European_Vertical_Reference_Frame_2000_Austria"]
+WKT2        : VDATUM["European_Vertical_Reference_Frame_2000_Austria"]
 Description : European Vertical Reference Frame 2000 Austria
 Authority   : EPSG
 Version     : 9.8.5(12.6.0)
@@ -841,9 +923,21 @@ Latest-WKID : 1262
 Macro       : PE_VERTD_SA_LLD
 Name        : South_Africa_Land_Levelling_Datum
 WKT         : VDATUM["South_Africa_Land_Levelling_Datum"]
+WKT2        : VDATUM["South_Africa_Land_Levelling_Datum"]
 Description : South Africa Land Levelling Datum
 Authority   : EPSG
 Version     : 9.8.5(12.6.0)
+Deprecated  : no
+
+WKID        : 1265
+Latest-WKID : 1265
+Macro       : PE_VERTD_HS2_VERTICAL_REFERENCE_FRAME
+Name        : HS2_Vertical_Reference_Frame
+WKT         : VDATUM["HS2_Vertical_Reference_Frame"]
+WKT2        : VDATUM["HS2_Vertical_Reference_Frame"]
+Description : HS2 Vertical Reference Frame
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
 Deprecated  : no
 
 WKID        : 1267
@@ -851,6 +945,7 @@ Latest-WKID : 1267
 Macro       : PE_VERTD_WIENER_NULL
 Name        : Wiener_Null
 WKT         : VDATUM["Wiener_Null"]
+WKT2        : VDATUM["Wiener_Null"]
 Description : Wiener Null
 Authority   : EPSG
 Version     : 9.8.11(12.7.0)
@@ -861,9 +956,230 @@ Latest-WKID : 1269
 Macro       : PE_VERTD_KSA_VRF_JEDDAH_2014
 Name        : Kingdom_of_Saudi_Arabia_Vertical_Reference_Frame_Jeddah_2014
 WKT         : VDATUM["Kingdom_of_Saudi_Arabia_Vertical_Reference_Frame_Jeddah_2014"]
+WKT2        : VDATUM["Kingdom_of_Saudi_Arabia_Vertical_Reference_Frame_Jeddah_2014"]
 Description : Kingdom of Saudi Arabia Vertical Reference Frame Jeddah 2014
 Authority   : EPSG
 Version     : 9.8.5(12.6.0)
+Deprecated  : no
+
+WKID        : 1270
+Latest-WKID : 1270
+Macro       : PE_VERTD_MEAN_SEA_LEVEL_NETHERLANDS
+Name        : Mean_Sea_Level_Netherlands
+WKT         : VDATUM["Mean_Sea_Level_Netherlands"]
+WKT2        : VDATUM["Mean_Sea_Level_Netherlands"]
+Description : Mean Sea Level Netherlands
+Authority   : EPSG
+Version     : 9.9(12.9.0)
+Deprecated  : no
+
+WKID        : 1274
+Latest-WKID : 1274
+Macro       : PE_VERTD_EUROPEAN_VRF_2019
+Name        : European_Vertical_Reference_Frame_2019
+WKT         : VDATUM["European_Vertical_Reference_Frame_2019"]
+WKT2        : VDATUM["European_Vertical_Reference_Frame_2019"]
+Description : European Vertical Reference Frame 2019
+Authority   : EPSG
+Version     : 9.8.14(12.9.0)
+Deprecated  : no
+
+WKID        : 1275
+Latest-WKID : 1275
+Macro       : PE_VERTD_MALLORCA
+Name        : Mallorca
+WKT         : VDATUM["Mallorca"]
+WKT2        : VDATUM["Mallorca"]
+Description : Mallorca
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1276
+Latest-WKID : 1276
+Macro       : PE_VERTD_MENORCA
+Name        : Menorca
+WKT         : VDATUM["Menorca"]
+WKT2        : VDATUM["Menorca"]
+Description : Menorca
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1277
+Latest-WKID : 1277
+Macro       : PE_VERTD_IBIZA
+Name        : Ibiza
+WKT         : VDATUM["Ibiza"]
+WKT2        : VDATUM["Ibiza"]
+Description : Ibiza
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1278
+Latest-WKID : 1278
+Macro       : PE_VERTD_LANZAROTE
+Name        : Lanzarote
+WKT         : VDATUM["Lanzarote"]
+WKT2        : VDATUM["Lanzarote"]
+Description : Lanzarote
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1279
+Latest-WKID : 1279
+Macro       : PE_VERTD_FUERTEVENTURA
+Name        : Fuerteventura
+WKT         : VDATUM["Fuerteventura"]
+WKT2        : VDATUM["Fuerteventura"]
+Description : Fuerteventura
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1280
+Latest-WKID : 1280
+Macro       : PE_VERTD_GRAN_CANARIA
+Name        : Gran_Canaria
+WKT         : VDATUM["Gran_Canaria"]
+WKT2        : VDATUM["Gran_Canaria"]
+Description : Gran Canaria
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1281
+Latest-WKID : 1281
+Macro       : PE_VERTD_TENERIFE
+Name        : Tenerife
+WKT         : VDATUM["Tenerife"]
+WKT2        : VDATUM["Tenerife"]
+Description : Tenerife
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1282
+Latest-WKID : 1282
+Macro       : PE_VERTD_LA_GOMERA
+Name        : La_Gomera
+WKT         : VDATUM["La_Gomera"]
+WKT2        : VDATUM["La_Gomera"]
+Description : La Gomera
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1283
+Latest-WKID : 1283
+Macro       : PE_VERTD_LA_PALMA
+Name        : La_Palma
+WKT         : VDATUM["La_Palma"]
+WKT2        : VDATUM["La_Palma"]
+Description : La Palma
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1284
+Latest-WKID : 1284
+Macro       : PE_VERTD_EL_HIERRO
+Name        : El_Hierro
+WKT         : VDATUM["El_Hierro"]
+WKT2        : VDATUM["El_Hierro"]
+Description : El Hierro
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1285
+Latest-WKID : 1285
+Macro       : PE_VERTD_CEUTA_2
+Name        : Ceuta_2
+WKT         : VDATUM["Ceuta_2"]
+WKT2        : VDATUM["Ceuta_2"]
+Description : Ceuta 2
+Authority   : EPSG
+Version     : 9.8.13(12.9.0)
+Deprecated  : no
+
+WKID        : 1287
+Latest-WKID : 1287
+Macro       : PE_VERTD_EUROPEAN_VRF_2019_M_TIDE
+Name        : European_Vertical_Reference_Frame_2019_mean_tide
+WKT         : VDATUM["European_Vertical_Reference_Frame_2019_mean_tide"]
+WKT2        : VDATUM["European_Vertical_Reference_Frame_2019_mean_tide"]
+Description : European Vertical Reference Frame 2010 mean tide
+Authority   : EPSG
+Version     : 9.8.14(12.9.0)
+Deprecated  : no
+
+WKID        : 1288
+Latest-WKID : 1288
+Macro       : PE_VERTD_BRITISH_ISLES_HEIGHT_ENSEMBLE
+Name        : British_Isles_height_ensemble
+WKT         : VDATUM["British_Isles_height_ensemble"]
+WKT2        : VDATUM["British_Isles_height_ensemble"]
+Description : British Isles height ensemble
+Authority   : EPSG
+Version     : 9.9(12.9.0)
+Deprecated  : no
+
+WKID        : 1290
+Latest-WKID : 1290
+Macro       : PE_VERTD_LOWEST_ASTRONOMICAL_TIDE_NETHERLANDS
+Name        : Lowest_Astronomical_Tide_Netherlands
+WKT         : VDATUM["Lowest_Astronomical_Tide_Netherlands"]
+WKT2        : VDATUM["Lowest_Astronomical_Tide_Netherlands"]
+Description : Lowest Astronomical Tide Netherlands
+Authority   : EPSG
+Version     : 9.9(12.9.0)
+Deprecated  : no
+
+WKID        : 1292
+Latest-WKID : 1292
+Macro       : PE_VERTD_AUSTRALIAN_VERTICAL_WORKING_SURFACE
+Name        : Australian_Vertical_Working_Surface
+WKT         : VDATUM["Australian_Vertical_Working_Surface"]
+WKT2        : VDATUM["Australian_Vertical_Working_Surface"]
+Description : Australian Vertical Working Surface
+Authority   : EPSG
+Version     : 9.9(12.9.0)
+Deprecated  : no
+
+WKID        : 1294
+Latest-WKID : 1294
+Macro       : PE_VERTD_INDONESIAN_GEOID_2020
+Name        : Indonesian_Geoid_2020
+WKT         : VDATUM["Indonesian_Geoid_2020"]
+WKT2        : VDATUM["Indonesian_Geoid_2020"]
+Description : Indonesian Geoid 2020
+Authority   : EPSG
+Version     : 9.9(12.9.0)
+Deprecated  : no
+
+WKID        : 1296
+Latest-WKID : 1296
+Macro       : PE_VERTD_BALTIC_1986
+Name        : Baltic_1986
+WKT         : VDATUM["Baltic_1986"]
+WKT2        : VDATUM["Baltic_1986"]
+Description : Baltic 1986
+Authority   : Esri
+Version     : 12.9.0
+Deprecated  : no
+
+WKID        : 1297
+Latest-WKID : 1297
+Macro       : PE_VERTD_EUROPEAN_VRF_2007_PL
+Name        : European_Vertical_Reference_Frame_2007_Poland
+WKT         : VDATUM["European_Vertical_Reference_Frame_2007_Poland"]
+WKT2        : VDATUM["European_Vertical_Reference_Frame_2007_Poland"]
+Description : European Vertical Reference Frame 2007 Poland
+Authority   : Esri
+Version     : 12.9.0
 Deprecated  : no
 
 WKID        : 1298
@@ -871,9 +1187,87 @@ Latest-WKID : 1298
 Macro       : PE_VERTD_ESTONIAN_HEIGHT_SYSTEM_2000
 Name        : Estonian_Height_System_2000
 WKT         : VDATUM["Estonian_Height_System_2000"]
+WKT2        : VDATUM["Estonian_Height_System_2000"]
 Description : Estonian Height System 2000
 Authority   : EPSG
 Version     : 10.013(12.8.0)
+Deprecated  : no
+
+WKID        : 1299
+Latest-WKID : 1299
+Macro       : PE_VERTD_LAS07
+Name        : Lithuanian_Height_System_2007
+WKT         : VDATUM["Lithuanian_Height_System_2007"]
+WKT2        : VDATUM["Lithuanian_Height_System_2007"]
+Description : Lithuanian Height System 2007
+Authority   : EPSG
+Version     : 10.013(12.9.0)
+Deprecated  : no
+
+WKID        : 1300
+Latest-WKID : 1300
+Macro       : PE_VERTD_BULGARIA_2005
+Name        : Bulgarian_Height_System_2005
+WKT         : VDATUM["Bulgarian_Height_System_2005"]
+WKT2        : VDATUM["Bulgarian_Height_System_2005"]
+Description : Bulgarian Height System 2005
+Authority   : EPSG
+Version     : 10.013(12.9.0)
+Deprecated  : no
+
+WKID        : 1301
+Latest-WKID : 1301
+Macro       : PE_VERTD_NORWEGIAN_CHART_DATUM
+Name        : Norwegian_Chart_Datum
+WKT         : VDATUM["Norwegian_Chart_Datum"]
+WKT2        : VDATUM["Norwegian_Chart_Datum"]
+Description : Norwegian Chart Datum
+Authority   : EPSG
+Version     : 10.009(12.9.0)
+Deprecated  : no
+
+WKID        : 1302
+Latest-WKID : 1302
+Macro       : PE_VERTD_LOCAL_TIDAL_DATUM_AT_PAGO_PAGO_2020
+Name        : Local_Tidal_Datum_at_Pago_Pago_2020
+WKT         : VDATUM["Local_Tidal_Datum_at_Pago_Pago_2020"]
+WKT2        : VDATUM["Local_Tidal_Datum_at_Pago_Pago_2020"]
+Description : Local Tidal Datum at Pago Pago 2020
+Authority   : EPSG
+Version     : 10.008(12.9.0)
+Deprecated  : no
+
+WKID        : 1303
+Latest-WKID : 1303
+Macro       : PE_VERTD_NATIONAL_VERTICAL_DATUM_1992
+Name        : National_Vertical_Datum_1992
+WKT         : VDATUM["National_Vertical_Datum_1992"]
+WKT2        : VDATUM["National_Vertical_Datum_1992"]
+Description : National Vertical Datum 1992
+Authority   : EPSG
+Version     : 10.009(12.9.0)
+Deprecated  : no
+
+WKID        : 1306
+Latest-WKID : 1306
+Macro       : PE_VERTD_CATANIA_1965
+Name        : Catania_1965
+WKT         : VDATUM["Catania_1965"]
+WKT2        : VDATUM["Catania_1965"]
+Description : Catania 1965
+Authority   : Esri
+Version     : 12.9.0
+Deprecated  : no
+
+WKID        : 1307
+Latest-WKID : 1307
+Macro       : PE_VERTD_CAGLIARI_1956
+Name        : Cagliari_1956
+WKT         : VDATUM["Cagliari_1956"]
+WKT2        : VDATUM["Cagliari_1956"]
+Description : Cagliari 1956
+Authority   : Esri
+Version     : 12.9.0
 Deprecated  : no
 
 WKID        : 5100
@@ -881,6 +1275,7 @@ Latest-WKID : 5100
 Macro       : PE_VERTD_MSL
 Name        : Mean_Sea_Level
 WKT         : VDATUM["Mean_Sea_Level"]
+WKT2        : VDATUM["Mean_Sea_Level"]
 Description : Mean Sea Level
 Authority   : EPSG
 Version     : 7.12(9.3.0.0)
@@ -891,6 +1286,7 @@ Latest-WKID : 5101
 Macro       : PE_VERTD_OD_NEWLYN
 Name        : Ordnance_Datum_Newlyn
 WKT         : VDATUM["Ordnance_Datum_Newlyn"]
+WKT2        : VDATUM["Ordnance_Datum_Newlyn"]
 Description : Ordnance Datum Newlyn
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -901,6 +1297,7 @@ Latest-WKID : 5102
 Macro       : PE_VERTD_NGVD_1929
 Name        : National_Geodetic_Vertical_Datum_1929
 WKT         : VDATUM["National_Geodetic_Vertical_Datum_1929"]
+WKT2        : VDATUM["National_Geodetic_Vertical_Datum_1929"]
 Description : National Geodetic Vertical Datum 1929
 Authority   : EPSG
 Version     : 3.0(9.3.0.0)
@@ -911,6 +1308,7 @@ Latest-WKID : 5103
 Macro       : PE_VERTD_NAVD_1988
 Name        : North_American_Vertical_Datum_1988
 WKT         : VDATUM["North_American_Vertical_Datum_1988"]
+WKT2        : VDATUM["North_American_Vertical_Datum_1988"]
 Description : North American Vertical Datum 1988
 Authority   : EPSG
 Version     : 6.9(9.3.0.0)
@@ -921,6 +1319,7 @@ Latest-WKID : 5104
 Macro       : PE_VERTD_YELLOW_SEA_1956
 Name        : Yellow_Sea_1956
 WKT         : VDATUM["Yellow_Sea_1956"]
+WKT2        : VDATUM["Yellow_Sea_1956"]
 Description : Yellow Sea 1956
 Authority   : EPSG
 Version     : 6.2(9.3.0.0)
@@ -931,6 +1330,7 @@ Latest-WKID : 5105
 Macro       : PE_VERTD_BALTIC_SEA
 Name        : Baltic_Sea
 WKT         : VDATUM["Baltic_Sea"]
+WKT2        : VDATUM["Baltic_Sea"]
 Description : Baltic Sea
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -941,6 +1341,7 @@ Latest-WKID : 5106
 Macro       : PE_VERTD_CASPIAN_SEA
 Name        : Caspian_Sea
 WKT         : VDATUM["Caspian_Sea"]
+WKT2        : VDATUM["Caspian_Sea"]
 Description : Caspian Sea
 Authority   : EPSG
 Version     : 3.0(9.3.0.0)
@@ -951,6 +1352,7 @@ Latest-WKID : 5109
 Macro       : PE_VERTD_NAP
 Name        : Normaal_Amsterdams_Peil
 WKT         : VDATUM["Normaal_Amsterdams_Peil"]
+WKT2        : VDATUM["Normaal_Amsterdams_Peil"]
 Description : Normaal Amsterdams Peil
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -961,6 +1363,7 @@ Latest-WKID : 5110
 Macro       : PE_VERTD_OOSTENDE
 Name        : Oostende
 WKT         : VDATUM["Oostende"]
+WKT2        : VDATUM["Oostende"]
 Description : Oostende
 Authority   : EPSG
 Version     : 6.9(9.3.0.0)
@@ -971,6 +1374,7 @@ Latest-WKID : 5111
 Macro       : PE_VERTD_AHD
 Name        : Australian_Height_Datum
 WKT         : VDATUM["Australian_Height_Datum"]
+WKT2        : VDATUM["Australian_Height_Datum"]
 Description : Australian Height Datum
 Authority   : EPSG
 Version     : 6.8(9.3.0.0)
@@ -981,6 +1385,7 @@ Latest-WKID : 5112
 Macro       : PE_VERTD_AHD_TASMANIA
 Name        : Australian_Height_Datum_Tasmania
 WKT         : VDATUM["Australian_Height_Datum_Tasmania"]
+WKT2        : VDATUM["Australian_Height_Datum_Tasmania"]
 Description : Australian Height Datum (Tasmania)
 Authority   : EPSG
 Version     : 7.9.4(9.3.0.0)
@@ -991,6 +1396,7 @@ Latest-WKID : 5113
 Macro       : PE_VERTD_SEA_LEVEL
 Name        : Sea_Level
 WKT         : VDATUM["Sea_Level"]
+WKT2        : VDATUM["Sea_Level"]
 Description : Sea Level
 Authority   : EPSG
 Version     : 7.12(9.3.0.0)
@@ -1001,6 +1407,7 @@ Latest-WKID : 5114
 Macro       : PE_VERTD_CGVD_1928
 Name        : Canadian_Geodetic_Vertical_Datum_of_1928
 WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928"]
+WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928"]
 Description : Canadian Geodetic Vertical Datum of 1928
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -1011,6 +1418,7 @@ Latest-WKID : 5115
 Macro       : PE_VERTD_PIRAEUS_HARBOUR_1986
 Name        : Piraeus_Harbour_1986
 WKT         : VDATUM["Piraeus_Harbour_1986"]
+WKT2        : VDATUM["Piraeus_Harbour_1986"]
 Description : Piraeus Harbour 1986
 Authority   : EPSG
 Version     : 3.2(9.3.0.0)
@@ -1021,6 +1429,7 @@ Latest-WKID : 5116
 Macro       : PE_VERTD_HELSINKI_1960
 Name        : Helsinki_1960
 WKT         : VDATUM["Helsinki_1960"]
+WKT2        : VDATUM["Helsinki_1960"]
 Description : Helsinki 1960
 Authority   : EPSG
 Version     : 7.5.1(9.3.0.0)
@@ -1031,6 +1440,7 @@ Latest-WKID : 5117
 Macro       : PE_VERTD_RH70
 Name        : Rikets_Hojdsystem_1970
 WKT         : VDATUM["Rikets_Hojdsystem_1970"]
+WKT2        : VDATUM["Rikets_Hojdsystem_1970"]
 Description : Rikets Hojdsystem 1970
 Authority   : EPSG
 Version     : 6.3(9.3.0.0)
@@ -1041,6 +1451,7 @@ Latest-WKID : 5118
 Macro       : PE_VERTD_NGF_LALLEMAND
 Name        : Nivellement_General_de_la_France_Lallemand
 WKT         : VDATUM["Nivellement_General_de_la_France_Lallemand"]
+WKT2        : VDATUM["Nivellement_General_de_la_France_Lallemand"]
 Description : Nivellement General de la France - Lallemand
 Authority   : EPSG
 Version     : 5.3(9.3.0.0)
@@ -1051,6 +1462,7 @@ Latest-WKID : 5119
 Macro       : PE_VERTD_NGF_IGN69
 Name        : Nivellement_General_de_la_France_IGN69
 WKT         : VDATUM["Nivellement_General_de_la_France_IGN69"]
+WKT2        : VDATUM["Nivellement_General_de_la_France_IGN69"]
 Description : Nivellement General de la France - IGN69
 Authority   : EPSG
 Version     : 5.3(9.3.0.0)
@@ -1061,6 +1473,7 @@ Latest-WKID : 5120
 Macro       : PE_VERTD_NGF_IGN78
 Name        : Nivellement_General_de_la_France_IGN78
 WKT         : VDATUM["Nivellement_General_de_la_France_IGN78"]
+WKT2        : VDATUM["Nivellement_General_de_la_France_IGN78"]
 Description : Nivellement General de la France - IGN78
 Authority   : EPSG
 Version     : 5.3(9.3.0.0)
@@ -1071,6 +1484,7 @@ Latest-WKID : 5121
 Macro       : PE_VERTD_MAPUTO
 Name        : Maputo
 WKT         : VDATUM["Maputo"]
+WKT2        : VDATUM["Maputo"]
 Description : Maputo
 Authority   : EPSG
 Version     : 4.1(9.3.0.0)
@@ -1081,6 +1495,7 @@ Latest-WKID : 5122
 Macro       : PE_VERTD_JAPAN_STD_LEVEL_DATUM_1969
 Name        : Japanese_Standard_Levelling_Datum_1969
 WKT         : VDATUM["Japanese_Standard_Levelling_Datum_1969"]
+WKT2        : VDATUM["Japanese_Standard_Levelling_Datum_1969"]
 Description : Japanese Standard Levelling Datum 1969
 Authority   : EPSG
 Version     : 6.2(9.3.0.0)
@@ -1091,6 +1506,7 @@ Latest-WKID : 5123
 Macro       : PE_VERTD_PDO_HEIGHT_DATUM_1993
 Name        : PDO_Height_Datum_1993
 WKT         : VDATUM["PDO_Height_Datum_1993"]
+WKT2        : VDATUM["PDO_Height_Datum_1993"]
 Description : PDO Height Datum 1993
 Authority   : EPSG
 Version     : 4.3(9.3.0.0)
@@ -1101,6 +1517,7 @@ Latest-WKID : 5124
 Macro       : PE_VERTD_FAHUD_HEIGHT_DATUM
 Name        : Fahud_Height_Datum
 WKT         : VDATUM["Fahud_Height_Datum"]
+WKT2        : VDATUM["Fahud_Height_Datum"]
 Description : Fahud Height Datum
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
@@ -1111,6 +1528,7 @@ Latest-WKID : 5125
 Macro       : PE_VERTD_HA_TIEN_1960
 Name        : Ha_Tien_1960
 WKT         : VDATUM["Ha_Tien_1960"]
+WKT2        : VDATUM["Ha_Tien_1960"]
 Description : Ha Tien 1960
 Authority   : EPSG
 Version     : 4.4(9.3.0.0)
@@ -1121,6 +1539,7 @@ Latest-WKID : 5126
 Macro       : PE_VERTD_HON_DAU_1992
 Name        : Hon_Dau_1992
 WKT         : VDATUM["Hon_Dau_1992"]
+WKT2        : VDATUM["Hon_Dau_1992"]
 Description : Hon Dau 1992
 Authority   : EPSG
 Version     : 7.11.1(9.3.0.0)
@@ -1131,6 +1550,7 @@ Latest-WKID : 5127
 Macro       : PE_VERTD_LN_1902
 Name        : Landesnivellement_1902
 WKT         : VDATUM["Landesnivellement_1902"]
+WKT2        : VDATUM["Landesnivellement_1902"]
 Description : Landesnivellement 1902
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -1141,6 +1561,7 @@ Latest-WKID : 5128
 Macro       : PE_VERTD_LHN95
 Name        : Landeshohennetz_1995
 WKT         : VDATUM["Landeshohennetz_1995"]
+WKT2        : VDATUM["Landeshohennetz_1995"]
 Description : Landeshohennetz 1995
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -1151,6 +1572,7 @@ Latest-WKID : 5129
 Macro       : PE_VERTD_EVRF_2000
 Name        : European_Vertical_Reference_Frame_2000
 WKT         : VDATUM["European_Vertical_Reference_Frame_2000"]
+WKT2        : VDATUM["European_Vertical_Reference_Frame_2000"]
 Description : European Vertical Reference Frame 2000
 Authority   : EPSG
 Version     : 6.16(9.3.0.0)
@@ -1161,6 +1583,7 @@ Latest-WKID : 5130
 Macro       : PE_VERTD_MALIN_HEAD
 Name        : Malin_Head
 WKT         : VDATUM["Malin_Head"]
+WKT2        : VDATUM["Malin_Head"]
 Description : Malin Head
 Authority   : EPSG
 Version     : 8.9.3(9.3.0.0)
@@ -1171,6 +1594,7 @@ Latest-WKID : 5131
 Macro       : PE_VERTD_BELFAST
 Name        : Belfast
 WKT         : VDATUM["Belfast"]
+WKT2        : VDATUM["Belfast"]
 Description : Belfast
 Authority   : EPSG
 Version     : 6.3(9.3.0.0)
@@ -1181,6 +1605,7 @@ Latest-WKID : 5132
 Macro       : PE_VERTD_DANSK_NORMAL_NUL
 Name        : Dansk_Normal_Nul
 WKT         : VDATUM["Dansk_Normal_Nul"]
+WKT2        : VDATUM["Dansk_Normal_Nul"]
 Description : Dansk Normal Nul
 Authority   : EPSG
 Version     : 5.3(9.3.0.0)
@@ -1191,6 +1616,7 @@ Latest-WKID : 5133
 Macro       : PE_VERTD_AIOC_1995
 Name        : AIOC_1995
 WKT         : VDATUM["AIOC_1995"]
+WKT2        : VDATUM["AIOC_1995"]
 Description : AIOC 1995
 Authority   : EPSG
 Version     : 5.3(9.3.0.0)
@@ -1201,6 +1627,7 @@ Latest-WKID : 5134
 Macro       : PE_VERTD_BLACK_SEA
 Name        : Black_Sea
 WKT         : VDATUM["Black_Sea"]
+WKT2        : VDATUM["Black_Sea"]
 Description : Black Sea
 Authority   : EPSG
 Version     : 7.8.2(9.3.0.0)
@@ -1211,6 +1638,7 @@ Latest-WKID : 5135
 Macro       : PE_VERTD_HONG_KONG_PRINCIPAL_DATUM
 Name        : Hong_Kong_Principal_Datum
 WKT         : VDATUM["Hong_Kong_Principal_Datum"]
+WKT2        : VDATUM["Hong_Kong_Principal_Datum"]
 Description : Hong Kong Principal Datum
 Authority   : EPSG
 Version     : 6.2(9.3.0.0)
@@ -1221,6 +1649,7 @@ Latest-WKID : 5136
 Macro       : PE_VERTD_HONG_KONG_CHART_DATUM
 Name        : Hong_Kong_Chart_Datum
 WKT         : VDATUM["Hong_Kong_Chart_Datum"]
+WKT2        : VDATUM["Hong_Kong_Chart_Datum"]
 Description : Hong Kong Chart Datum
 Authority   : EPSG
 Version     : 7.1(9.3.0.0)
@@ -1231,6 +1660,7 @@ Latest-WKID : 5137
 Macro       : PE_VERTD_YELLOW_SEA_1985
 Name        : Yellow_Sea_1985
 WKT         : VDATUM["Yellow_Sea_1985"]
+WKT2        : VDATUM["Yellow_Sea_1985"]
 Description : Yellow Sea 1985
 Authority   : EPSG
 Version     : 6.2(9.3.0.0)
@@ -1241,6 +1671,7 @@ Latest-WKID : 5138
 Macro       : PE_VERTD_OD_NEWLYN_ORKNEY_ISLES
 Name        : Ordnance_Datum_Newlyn_Orkney_Isles
 WKT         : VDATUM["Ordnance_Datum_Newlyn_Orkney_Isles"]
+WKT2        : VDATUM["Ordnance_Datum_Newlyn_Orkney_Isles"]
 Description : Ordnance Datum Newlyn (Orkney Isles)
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -1251,6 +1682,7 @@ Latest-WKID : 5139
 Macro       : PE_VERTD_FAIR_ISLE
 Name        : Fair_Isle
 WKT         : VDATUM["Fair_Isle"]
+WKT2        : VDATUM["Fair_Isle"]
 Description : Fair Isle
 Authority   : EPSG
 Version     : 9.8.12(9.3.0.0)
@@ -1261,6 +1693,7 @@ Latest-WKID : 5140
 Macro       : PE_VERTD_LERWICK
 Name        : Lerwick
 WKT         : VDATUM["Lerwick"]
+WKT2        : VDATUM["Lerwick"]
 Description : Lerwick
 Authority   : EPSG
 Version     : 8.9.3(9.3.0.0)
@@ -1271,6 +1704,7 @@ Latest-WKID : 5141
 Macro       : PE_VERTD_FOULA
 Name        : Foula
 WKT         : VDATUM["Foula"]
+WKT2        : VDATUM["Foula"]
 Description : Foula
 Authority   : EPSG
 Version     : 9.8.12(9.3.0.0)
@@ -1281,6 +1715,7 @@ Latest-WKID : 5142
 Macro       : PE_VERTD_SULE_SKERRY
 Name        : Sule_Skerry
 WKT         : VDATUM["Sule_Skerry"]
+WKT2        : VDATUM["Sule_Skerry"]
 Description : Sule Skerry
 Authority   : EPSG
 Version     : 9.8.12(9.3.0.0)
@@ -1291,6 +1726,7 @@ Latest-WKID : 5143
 Macro       : PE_VERTD_NORTH_RONA
 Name        : North_Rona
 WKT         : VDATUM["North_Rona"]
+WKT2        : VDATUM["North_Rona"]
 Description : North Rona
 Authority   : EPSG
 Version     : 9.8.12(9.3.0.0)
@@ -1301,6 +1737,7 @@ Latest-WKID : 5144
 Macro       : PE_VERTD_STORNOWAY
 Name        : Stornoway
 WKT         : VDATUM["Stornoway"]
+WKT2        : VDATUM["Stornoway"]
 Description : Stornoway
 Authority   : EPSG
 Version     : 8.9.3(9.3.0.0)
@@ -1311,6 +1748,7 @@ Latest-WKID : 5145
 Macro       : PE_VERTD_ST_KILDA
 Name        : St_Kilda
 WKT         : VDATUM["St_Kilda"]
+WKT2        : VDATUM["St_Kilda"]
 Description : St. Kilda
 Authority   : EPSG
 Version     : 9.8.9(9.3.0.0)
@@ -1321,6 +1759,7 @@ Latest-WKID : 5146
 Macro       : PE_VERTD_FLANNAN_ISLES
 Name        : Flannan_Isles
 WKT         : VDATUM["Flannan_Isles"]
+WKT2        : VDATUM["Flannan_Isles"]
 Description : Flannan Isles
 Authority   : EPSG
 Version     : 6.9(9.3.0.0)
@@ -1331,6 +1770,7 @@ Latest-WKID : 5147
 Macro       : PE_VERTD_ST_MARYS
 Name        : St_Marys
 WKT         : VDATUM["St_Marys"]
+WKT2        : VDATUM["St_Marys"]
 Description : St. Marys
 Authority   : EPSG
 Version     : 8.9.3(9.3.0.0)
@@ -1341,6 +1781,7 @@ Latest-WKID : 5148
 Macro       : PE_VERTD_DOUGLAS
 Name        : Douglas
 WKT         : VDATUM["Douglas"]
+WKT2        : VDATUM["Douglas"]
 Description : Douglas
 Authority   : EPSG
 Version     : 8.9.3(9.3.0.0)
@@ -1351,6 +1792,7 @@ Latest-WKID : 5149
 Macro       : PE_VERTD_FAO
 Name        : Fao
 WKT         : VDATUM["Fao"]
+WKT2        : VDATUM["Fao"]
 Description : Fao
 Authority   : EPSG
 Version     : 7.1(9.3.0.0)
@@ -1361,6 +1803,7 @@ Latest-WKID : 5150
 Macro       : PE_VERTD_BANDAR_ABBAS
 Name        : Bandar_Abbas
 WKT         : VDATUM["Bandar_Abbas"]
+WKT2        : VDATUM["Bandar_Abbas"]
 Description : Bandar Abbas
 Authority   : EPSG
 Version     : 7.4.4(9.3.0.0)
@@ -1371,6 +1814,7 @@ Latest-WKID : 5151
 Macro       : PE_VERTD_NGNC
 Name        : Nivellement_General_de_Nouvelle_Caledonie
 WKT         : VDATUM["Nivellement_General_de_Nouvelle_Caledonie"]
+WKT2        : VDATUM["Nivellement_General_de_Nouvelle_Caledonie"]
 Description : Nivellement General de Nouvelle Caledonie
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
@@ -1381,6 +1825,7 @@ Latest-WKID : 5152
 Macro       : PE_VERTD_POOLBEG
 Name        : Poolbeg
 WKT         : VDATUM["Poolbeg"]
+WKT2        : VDATUM["Poolbeg"]
 Description : Poolbeg
 Authority   : EPSG
 Version     : 6.4(9.3.0.0)
@@ -1391,6 +1836,7 @@ Latest-WKID : 5153
 Macro       : PE_VERTD_NGG_1977
 Name        : Nivellement_General_Guyanais_1977
 WKT         : VDATUM["Nivellement_General_Guyanais_1977"]
+WKT2        : VDATUM["Nivellement_General_Guyanais_1977"]
 Description : Nivellement General Guyanais 1977
 Authority   : EPSG
 Version     : 6.18(9.3.0.0)
@@ -1401,6 +1847,7 @@ Latest-WKID : 5154
 Macro       : PE_VERTD_IGN_1987
 Name        : IGN_1987
 WKT         : VDATUM["IGN_1987"]
+WKT2        : VDATUM["IGN_1987"]
 Description : IGN 1987
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -1411,6 +1858,7 @@ Latest-WKID : 5155
 Macro       : PE_VERTD_IGN_1988
 Name        : IGN_1988
 WKT         : VDATUM["IGN_1988"]
+WKT2        : VDATUM["IGN_1988"]
 Description : IGN 1988
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -1421,6 +1869,7 @@ Latest-WKID : 5156
 Macro       : PE_VERTD_IGN_1989
 Name        : IGN_1989
 WKT         : VDATUM["IGN_1989"]
+WKT2        : VDATUM["IGN_1989"]
 Description : IGN 1989
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -1431,6 +1880,7 @@ Latest-WKID : 5157
 Macro       : PE_VERTD_AUCKLAND
 Name        : Auckland
 WKT         : VDATUM["Auckland"]
+WKT2        : VDATUM["Auckland"]
 Description : Auckland
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1441,6 +1891,7 @@ Latest-WKID : 5158
 Macro       : PE_VERTD_BLUFF
 Name        : Bluff
 WKT         : VDATUM["Bluff"]
+WKT2        : VDATUM["Bluff"]
 Description : Bluff
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1451,6 +1902,7 @@ Latest-WKID : 5159
 Macro       : PE_VERTD_DUNEDIN
 Name        : Dunedin
 WKT         : VDATUM["Dunedin"]
+WKT2        : VDATUM["Dunedin"]
 Description : Dunedin
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1461,6 +1913,7 @@ Latest-WKID : 5160
 Macro       : PE_VERTD_GISBORNE
 Name        : Gisborne
 WKT         : VDATUM["Gisborne"]
+WKT2        : VDATUM["Gisborne"]
 Description : Gisborne
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1471,6 +1924,7 @@ Latest-WKID : 5161
 Macro       : PE_VERTD_LYTTELTON
 Name        : Lyttelton
 WKT         : VDATUM["Lyttelton"]
+WKT2        : VDATUM["Lyttelton"]
 Description : Lyttelton
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1481,6 +1935,7 @@ Latest-WKID : 5162
 Macro       : PE_VERTD_MOTURIKI
 Name        : Moturiki
 WKT         : VDATUM["Moturiki"]
+WKT2        : VDATUM["Moturiki"]
 Description : Moturiki
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1491,6 +1946,7 @@ Latest-WKID : 5163
 Macro       : PE_VERTD_NAPIER
 Name        : Napier
 WKT         : VDATUM["Napier"]
+WKT2        : VDATUM["Napier"]
 Description : Napier
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1501,6 +1957,7 @@ Latest-WKID : 5164
 Macro       : PE_VERTD_NELSON
 Name        : Nelson
 WKT         : VDATUM["Nelson"]
+WKT2        : VDATUM["Nelson"]
 Description : Nelson
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1511,6 +1968,7 @@ Latest-WKID : 5165
 Macro       : PE_VERTD_ONE_TREE_POINT
 Name        : One_Tree_Point
 WKT         : VDATUM["One_Tree_Point"]
+WKT2        : VDATUM["One_Tree_Point"]
 Description : One Tree Point
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1521,6 +1979,7 @@ Latest-WKID : 5166
 Macro       : PE_VERTD_TARARU
 Name        : Tararu
 WKT         : VDATUM["Tararu"]
+WKT2        : VDATUM["Tararu"]
 Description : Tararu
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1531,6 +1990,7 @@ Latest-WKID : 5167
 Macro       : PE_VERTD_TARANAKI
 Name        : Taranaki
 WKT         : VDATUM["Taranaki"]
+WKT2        : VDATUM["Taranaki"]
 Description : Taranaki
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1541,6 +2001,7 @@ Latest-WKID : 5168
 Macro       : PE_VERTD_WELLINGTON
 Name        : Wellington
 WKT         : VDATUM["Wellington"]
+WKT2        : VDATUM["Wellington"]
 Description : Wellington
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1551,6 +2012,7 @@ Latest-WKID : 5169
 Macro       : PE_VERTD_CHATHAM_ISLAND
 Name        : Chatham_Island
 WKT         : VDATUM["Chatham_Island"]
+WKT2        : VDATUM["Chatham_Island"]
 Description : Chatham Island
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1561,6 +2023,7 @@ Latest-WKID : 5170
 Macro       : PE_VERTD_STEWART_ISLAND
 Name        : Stewart_Island
 WKT         : VDATUM["Stewart_Island"]
+WKT2        : VDATUM["Stewart_Island"]
 Description : Stewart Island
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
@@ -1571,6 +2034,7 @@ Latest-WKID : 5171
 Macro       : PE_VERTD_EGM96_GEOID
 Name        : EGM96_Geoid
 WKT         : VDATUM["EGM96_Geoid"]
+WKT2        : VDATUM["EGM96_Geoid"]
 Description : EGM96 Geoid
 Authority   : EPSG
 Version     : 8.8(9.3.0.0)
@@ -1581,6 +2045,7 @@ Latest-WKID : 5172
 Macro       : PE_VERTD_NG_L
 Name        : Nivellement_General_du_Luxembourg
 WKT         : VDATUM["Nivellement_General_du_Luxembourg"]
+WKT2        : VDATUM["Nivellement_General_du_Luxembourg"]
 Description : Nivellement General du Luxembourg
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
@@ -1591,6 +2056,7 @@ Latest-WKID : 5173
 Macro       : PE_VERTD_ANTALYA
 Name        : Antalya
 WKT         : VDATUM["Antalya"]
+WKT2        : VDATUM["Antalya"]
 Description : Antalya
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
@@ -1601,6 +2067,7 @@ Latest-WKID : 5174
 Macro       : PE_VERTD_NN54
 Name        : Norway_Normal_Null_1954
 WKT         : VDATUM["Norway_Normal_Null_1954"]
+WKT2        : VDATUM["Norway_Normal_Null_1954"]
 Description : Norway Normal Nul 1954
 Authority   : EPSG
 Version     : 8.1.1(9.3.0.0)
@@ -1611,6 +2078,7 @@ Latest-WKID : 5175
 Macro       : PE_VERTD_DURRES
 Name        : Durres
 WKT         : VDATUM["Durres"]
+WKT2        : VDATUM["Durres"]
 Description : Durres
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
@@ -1621,6 +2089,7 @@ Latest-WKID : 5176
 Macro       : PE_VERTD_GHA
 Name        : Gebrauchshohen_Adria
 WKT         : VDATUM["Gebrauchshohen_Adria"]
+WKT2        : VDATUM["Gebrauchshohen_Adria"]
 Description : Gebrauchshohen ADRIA
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
@@ -1631,6 +2100,7 @@ Latest-WKID : 5177
 Macro       : PE_VERTD_SVS2000
 Name        : Slovenian_Vertical_System_2000
 WKT         : VDATUM["Slovenian_Vertical_System_2000"]
+WKT2        : VDATUM["Slovenian_Vertical_System_2000"]
 Description : Slovenian Vertical System 2000, datum Trieste
 Authority   : EPSG
 Version     : 9.5(9.3.0.0)
@@ -1641,6 +2111,7 @@ Latest-WKID : 5178
 Macro       : PE_VERTD_CASCAIS
 Name        : Cascais
 WKT         : VDATUM["Cascais"]
+WKT2        : VDATUM["Cascais"]
 Description : Cascais
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
@@ -1651,6 +2122,7 @@ Latest-WKID : 5179
 Macro       : PE_VERTD_CONSTANTA
 Name        : Constanta
 WKT         : VDATUM["Constanta"]
+WKT2        : VDATUM["Constanta"]
 Description : Constanta
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
@@ -1661,6 +2133,7 @@ Latest-WKID : 5180
 Macro       : PE_VERTD_ALICANTE
 Name        : Alicante
 WKT         : VDATUM["Alicante"]
+WKT2        : VDATUM["Alicante"]
 Description : Alicante
 Authority   : EPSG
 Version     : 8.6.2(9.3.0.0)
@@ -1671,6 +2144,7 @@ Latest-WKID : 5181
 Macro       : PE_VERTD_DHHN92
 Name        : Deutches_Haupthoehennetz_1992
 WKT         : VDATUM["Deutches_Haupthoehennetz_1992"]
+WKT2        : VDATUM["Deutches_Haupthoehennetz_1992"]
 Description : Deutches Haupthohennetz 1992
 Authority   : EPSG
 Version     : 7.8.4(9.3.0.0)
@@ -1681,6 +2155,7 @@ Latest-WKID : 5182
 Macro       : PE_VERTD_DHHN85
 Name        : Deutches_Haupthoehennetz_1985
 WKT         : VDATUM["Deutches_Haupthoehennetz_1985"]
+WKT2        : VDATUM["Deutches_Haupthoehennetz_1985"]
 Description : Deutches Haupthohennetz 1985
 Authority   : EPSG
 Version     : 7.8.4(9.3.0.0)
@@ -1691,6 +2166,7 @@ Latest-WKID : 5183
 Macro       : PE_VERTD_SNN76
 Name        : SNN76
 WKT         : VDATUM["SNN76"]
+WKT2        : VDATUM["SNN76"]
 Description : SNN76
 Authority   : EPSG
 Version     : 8.8.1(9.3.0.0)
@@ -1701,6 +2177,7 @@ Latest-WKID : 5184
 Macro       : PE_VERTD_BALTIC_1982
 Name        : Baltic_1982
 WKT         : VDATUM["Baltic_1982"]
+WKT2        : VDATUM["Baltic_1982"]
 Description : Baltic 1982
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
@@ -1711,6 +2188,7 @@ Latest-WKID : 5185
 Macro       : PE_VERTD_BALTIC_1980
 Name        : Baltic_1980
 WKT         : VDATUM["Baltic_1980"]
+WKT2        : VDATUM["Baltic_1980"]
 Description : Baltic 1980
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
@@ -1721,6 +2199,7 @@ Latest-WKID : 5186
 Macro       : PE_VERTD_KUWAIT_PWD
 Name        : Kuwait_PWD
 WKT         : VDATUM["Kuwait_PWD"]
+WKT2        : VDATUM["Kuwait_PWD"]
 Description : Kuwait PWD
 Authority   : EPSG
 Version     : 6.5.3(9.3.0.0)
@@ -1731,6 +2210,7 @@ Latest-WKID : 5187
 Macro       : PE_VERTD_KOC_WELL_DATUM
 Name        : KOC_Well_Datum
 WKT         : VDATUM["KOC_Well_Datum"]
+WKT2        : VDATUM["KOC_Well_Datum"]
 Description : KOC Well Datum
 Authority   : EPSG
 Version     : 6.5.3(9.3.0.0)
@@ -1741,6 +2221,7 @@ Latest-WKID : 5188
 Macro       : PE_VERTD_KOC_CONSTRUCTION_DATUM
 Name        : KOC_Construction_Datum
 WKT         : VDATUM["KOC_Construction_Datum"]
+WKT2        : VDATUM["KOC_Construction_Datum"]
 Description : KOC Construction Datum
 Authority   : EPSG
 Version     : 6.5.3(9.3.0.0)
@@ -1751,6 +2232,7 @@ Latest-WKID : 5189
 Macro       : PE_VERTD_NGC_1948
 Name        : Nivellement_General_de_la_Corse_1948
 WKT         : VDATUM["Nivellement_General_de_la_Corse_1948"]
+WKT2        : VDATUM["Nivellement_General_de_la_Corse_1948"]
 Description : Nivellement General de la Corse 1948
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -1761,6 +2243,7 @@ Latest-WKID : 5190
 Macro       : PE_VERTD_DANGER_1950
 Name        : Danger_1950
 WKT         : VDATUM["Danger_1950"]
+WKT2        : VDATUM["Danger_1950"]
 Description : Danger 1950
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -1771,6 +2254,7 @@ Latest-WKID : 5191
 Macro       : PE_VERTD_MAYOTTE_1950
 Name        : Mayotte_1950
 WKT         : VDATUM["Mayotte_1950"]
+WKT2        : VDATUM["Mayotte_1950"]
 Description : Mayotte 1950
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -1781,6 +2265,7 @@ Latest-WKID : 5192
 Macro       : PE_VERTD_MARTINIQUE_1955
 Name        : Martinique_1955
 WKT         : VDATUM["Martinique_1955"]
+WKT2        : VDATUM["Martinique_1955"]
 Description : Martinique 1955
 Authority   : EPSG
 Version     : 6.18(9.3.0.0)
@@ -1791,6 +2276,7 @@ Latest-WKID : 5193
 Macro       : PE_VERTD_GUADELOUPE_1951
 Name        : Guadeloupe_1951
 WKT         : VDATUM["Guadeloupe_1951"]
+WKT2        : VDATUM["Guadeloupe_1951"]
 Description : Guadeloupe 1951
 Authority   : EPSG
 Version     : 6.18(9.3.0.0)
@@ -1801,6 +2287,7 @@ Latest-WKID : 5194
 Macro       : PE_VERTD_LAGOS_1955
 Name        : Lagos_1955
 WKT         : VDATUM["Lagos_1955"]
+WKT2        : VDATUM["Lagos_1955"]
 Description : Lagos 1955
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
@@ -1811,6 +2298,7 @@ Latest-WKID : 5195
 Macro       : PE_VERTD_NGPF
 Name        : Nivellement_General_de_Polynesie_Francaise
 WKT         : VDATUM["Nivellement_General_de_Polynesie_Francaise"]
+WKT2        : VDATUM["Nivellement_General_de_Polynesie_Francaise"]
 Description : Nivellement General de Polynesie Francaise
 Authority   : EPSG
 Version     : 6.8(9.3.0.0)
@@ -1821,6 +2309,7 @@ Latest-WKID : 5196
 Macro       : PE_VERTD_IGN_1966
 Name        : IGN_1966
 WKT         : VDATUM["IGN_1966"]
+WKT2        : VDATUM["IGN_1966"]
 Description : IGN 1966
 Authority   : EPSG
 Version     : 6.8(9.3.0.0)
@@ -1831,6 +2320,7 @@ Latest-WKID : 5197
 Macro       : PE_VERTD_MOOREA_SAU_1981
 Name        : Moorea_SAU_1981
 WKT         : VDATUM["Moorea_SAU_1981"]
+WKT2        : VDATUM["Moorea_SAU_1981"]
 Description : Moorea SAU 1981
 Authority   : EPSG
 Version     : 6.8(9.3.0.0)
@@ -1841,6 +2331,7 @@ Latest-WKID : 5198
 Macro       : PE_VERTD_RAIATEA_SAU_2001
 Name        : Raiatea_SAU_2001
 WKT         : VDATUM["Raiatea_SAU_2001"]
+WKT2        : VDATUM["Raiatea_SAU_2001"]
 Description : Raiatea SAU 2001
 Authority   : EPSG
 Version     : 6.8(9.3.0.0)
@@ -1851,6 +2342,7 @@ Latest-WKID : 5199
 Macro       : PE_VERTD_MAUPITI_SAU_2001
 Name        : Maupiti_SAU_2001
 WKT         : VDATUM["Maupiti_SAU_2001"]
+WKT2        : VDATUM["Maupiti_SAU_2001"]
 Description : Maupiti SAU 2001
 Authority   : EPSG
 Version     : 6.8(9.3.0.0)
@@ -1861,6 +2353,7 @@ Latest-WKID : 5200
 Macro       : PE_VERTD_HUAHINE_SAU_2001
 Name        : Huahine_SAU_2001
 WKT         : VDATUM["Huahine_SAU_2001"]
+WKT2        : VDATUM["Huahine_SAU_2001"]
 Description : Huahine SAU 2001
 Authority   : EPSG
 Version     : 6.8(9.3.0.0)
@@ -1871,6 +2364,7 @@ Latest-WKID : 5201
 Macro       : PE_VERTD_TAHAA_SAU_2001
 Name        : Tahaa_SAU_2001
 WKT         : VDATUM["Tahaa_SAU_2001"]
+WKT2        : VDATUM["Tahaa_SAU_2001"]
 Description : Tahaa SAU 2001
 Authority   : EPSG
 Version     : 6.8(9.3.0.0)
@@ -1881,6 +2375,7 @@ Latest-WKID : 5202
 Macro       : PE_VERTD_BORA_BORA_SAU_2001
 Name        : Bora_Bora_SAU_2001
 WKT         : VDATUM["Bora_Bora_SAU_2001"]
+WKT2        : VDATUM["Bora_Bora_SAU_2001"]
 Description : Bora Bora SAU 2001
 Authority   : EPSG
 Version     : 6.8(9.3.0.0)
@@ -1891,6 +2386,7 @@ Latest-WKID : 5203
 Macro       : PE_VERTD_EGM84_GEOID
 Name        : EGM84_Geoid
 WKT         : VDATUM["EGM84_Geoid"]
+WKT2        : VDATUM["EGM84_Geoid"]
 Description : EGM84 Geoid
 Authority   : EPSG
 Version     : 8.8(9.3.0.0)
@@ -1901,6 +2397,7 @@ Latest-WKID : 5204
 Macro       : PE_VERTD_IGLD_1955
 Name        : International_Great_Lakes_Datum_1955
 WKT         : VDATUM["International_Great_Lakes_Datum_1955"]
+WKT2        : VDATUM["International_Great_Lakes_Datum_1955"]
 Description : International Great Lakes Datum 1955
 Authority   : EPSG
 Version     : 7.12(9.3.0.0)
@@ -1911,6 +2408,7 @@ Latest-WKID : 5205
 Macro       : PE_VERTD_IGLD_1985
 Name        : International_Great_Lakes_Datum_1985
 WKT         : VDATUM["International_Great_Lakes_Datum_1985"]
+WKT2        : VDATUM["International_Great_Lakes_Datum_1985"]
 Description : International Great Lakes Datum 1985
 Authority   : EPSG
 Version     : 7.12(9.3.0.0)
@@ -1921,6 +2419,7 @@ Latest-WKID : 5206
 Macro       : PE_VERTD_DANSK_VERT_REF_1990
 Name        : Dansk_Vertikal_Reference_1990
 WKT         : VDATUM["Dansk_Vertikal_Reference_1990"]
+WKT2        : VDATUM["Dansk_Vertikal_Reference_1990"]
 Description : Dansk Vertical Reference 1990
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
@@ -1931,6 +2430,7 @@ Latest-WKID : 5207
 Macro       : PE_VERTD_CROATIAN_VRS_1971
 Name        : Croatian_Vertical_Reference_System_1971
 WKT         : VDATUM["Croatian_Vertical_Reference_System_1971"]
+WKT2        : VDATUM["Croatian_Vertical_Reference_System_1971"]
 Description : Croatian Vertical Reference System 1971
 Authority   : EPSG
 Version     : 6.16(10.0.0)
@@ -1941,6 +2441,7 @@ Latest-WKID : 5208
 Macro       : PE_VERTD_RH2000
 Name        : Rikets_Hojdsystem_2000
 WKT         : VDATUM["Rikets_Hojdsystem_2000"]
+WKT2        : VDATUM["Rikets_Hojdsystem_2000"]
 Description : Rikets Hojdsystem 2000
 Authority   : EPSG
 Version     : 9.1.1(10.0.0)
@@ -1951,6 +2452,7 @@ Latest-WKID : 5209
 Macro       : PE_VERTD_RH1900
 Name        : Rikets_Hojdsystem_1900
 WKT         : VDATUM["Rikets_Hojdsystem_1900"]
+WKT2        : VDATUM["Rikets_Hojdsystem_1900"]
 Description : Rikets hojdsystem 1900
 Authority   : EPSG
 Version     : 9.1.1(10.0.0)
@@ -1961,6 +2463,7 @@ Latest-WKID : 5210
 Macro       : PE_VERTD_IGN_1988_LS
 Name        : IGN_1988_LS
 WKT         : VDATUM["IGN_1988_LS"]
+WKT2        : VDATUM["IGN_1988_LS"]
 Description : IGN 1988 LS
 Authority   : EPSG
 Version     : 6.18(10.0.0)
@@ -1971,6 +2474,7 @@ Latest-WKID : 5211
 Macro       : PE_VERTD_IGN_1988_MG
 Name        : IGN_1988_MG
 WKT         : VDATUM["IGN_1988_MG"]
+WKT2        : VDATUM["IGN_1988_MG"]
 Description : IGN 1988 MG
 Authority   : EPSG
 Version     : 6.18(10.0.0)
@@ -1981,6 +2485,7 @@ Latest-WKID : 5212
 Macro       : PE_VERTD_IGN_1992_LD
 Name        : IGN_1992_LD
 WKT         : VDATUM["IGN_1992_LD"]
+WKT2        : VDATUM["IGN_1992_LD"]
 Description : IGN 1992 LD
 Authority   : EPSG
 Version     : 9.7(10.0.0)
@@ -1991,6 +2496,7 @@ Latest-WKID : 5213
 Macro       : PE_VERTD_IGN_1988_SB
 Name        : IGN_1988_SB
 WKT         : VDATUM["IGN_1988_SB"]
+WKT2        : VDATUM["IGN_1988_SB"]
 Description : IGN 1988 SB
 Authority   : EPSG
 Version     : 6.18(10.0.0)
@@ -2001,6 +2507,7 @@ Latest-WKID : 5214
 Macro       : PE_VERTD_IGN_1988_SM
 Name        : IGN_1988_SM
 WKT         : VDATUM["IGN_1988_SM"]
+WKT2        : VDATUM["IGN_1988_SM"]
 Description : IGN 1988 SM
 Authority   : EPSG
 Version     : 6.18(10.0.0)
@@ -2011,6 +2518,7 @@ Latest-WKID : 5215
 Macro       : PE_VERTD_EUROPEAN_VRF_2007
 Name        : European_Vertical_Reference_Frame_2007
 WKT         : VDATUM["European_Vertical_Reference_Frame_2007"]
+WKT2        : VDATUM["European_Vertical_Reference_Frame_2007"]
 Description : European Vertical Reference Frame 2007
 Authority   : EPSG
 Version     : 8.6.3(10.0.0)
@@ -2021,6 +2529,7 @@ Latest-WKID : 105100
 Macro       : PE_VERTD_WGS_1984_GEOID
 Name        : WGS_1984_Geoid
 WKT         : VDATUM["WGS_1984_Geoid"]
+WKT2        : VDATUM["WGS_1984_Geoid"]
 Description : Generic WGS 1984 Geoid
 Authority   : Esri
 Version     : 9.3.0.0
@@ -2031,6 +2540,7 @@ Latest-WKID : 5206
 Macro       : PE_VERTD_DANSK_VERT_REF_1990
 Name        : Dansk_Vertikal_Reference_1990
 WKT         : VDATUM["Dansk_Vertikal_Reference_1990"]
+WKT2        : VDATUM["Dansk_Vertikal_Reference_1990"]
 Description : Dansk Vertical Reference 1990
 Authority   : Esri
 Version     : 9.3.0.0
@@ -2041,6 +2551,7 @@ Latest-WKID : 5208
 Macro       : PE_VERTD_RH2000
 Name        : Rikets_Hojdsystem_2000
 WKT         : VDATUM["Rikets_Hojdsystem_2000"]
+WKT2        : VDATUM["Rikets_Hojdsystem_2000"]
 Description : Rikets Hojdsystem 2000
 Authority   : Esri
 Version     : 9.3.0.0
@@ -2051,26 +2562,29 @@ Latest-WKID : 105103
 Macro       : PE_VERTD_REDNAP
 Name        : Red_Espanola_de_Nivelacion_de_Alta_Precision
 WKT         : VDATUM["Red_Espanola_de_Nivelacion_de_Alta_Precision"]
+WKT2        : VDATUM["Red_Espanola_de_Nivelacion_de_Alta_Precision"]
 Description : Red Espanola de Nivelacion de Alta Precision
 Authority   : Esri
 Version     : 10.3.1
 Deprecated  : no
 
 WKID        : 105104
-Latest-WKID : 105104
+Latest-WKID : 1299
 Macro       : PE_VERTD_LAS07
-Name        : LAS07
-WKT         : VDATUM["LAS07"]
-Description : Lithuania State System 2007
+Name        : Lithuanian_Height_System_2007
+WKT         : VDATUM["Lithuanian_Height_System_2007"]
+WKT2        : VDATUM["Lithuanian_Height_System_2007"]
+Description : Lithuanian Height System 2007
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : no
+Deprecated  : yes
 
 WKID        : 105110
 Latest-WKID : 105110
 Macro       : PE_VERTD_UNKNOWN_HT_SYSTEM_M
 Name        : Unknown_height_system_(meters)
 WKT         : VDATUM["Unknown_height_system_(meters)"]
+WKT2        : VDATUM["Unknown_height_system_(meters)"]
 Description : Unknown height system (meters)
 Authority   : Esri
 Version     : 10.5.1
@@ -2081,6 +2595,7 @@ Latest-WKID : 105111
 Macro       : PE_VERTD_UNKNOWN_HT_SYSTEM_USFT
 Name        : Unknown_height_system_(US_survey_feet)
 WKT         : VDATUM["Unknown_height_system_(US_survey_feet)"]
+WKT2        : VDATUM["Unknown_height_system_(US_survey_feet)"]
 Description : Unknown height system (US survey feet)
 Authority   : Esri
 Version     : 10.5.1
@@ -2091,6 +2606,7 @@ Latest-WKID : 105112
 Macro       : PE_VERTD_UNKNOWN_HT_SYSTEM_FT
 Name        : Unknown_height_system_(Intl_feet)
 WKT         : VDATUM["Unknown_height_system_(Intl_feet)"]
+WKT2        : VDATUM["Unknown_height_system_(Intl_feet)"]
 Description : Unknown height system (Int'l feet)
 Authority   : Esri
 Version     : 10.5.1
@@ -2101,6 +2617,7 @@ Latest-WKID : 1027
 Macro       : PE_VERTD_EGM2008_GEOID
 Name        : EGM2008_Geoid
 WKT         : VDATUM["EGM2008_Geoid"]
+WKT2        : VDATUM["EGM2008_Geoid"]
 Description : EGM2008 Geoid
 Authority   : Esri
 Version     : 10.0.0
@@ -2111,6 +2628,7 @@ Latest-WKID : 1028
 Macro       : PE_VERTD_FAO_1979
 Name        : Fao_1979
 WKT         : VDATUM["Fao_1979"]
+WKT2        : VDATUM["Fao_1979"]
 Description : Fao 1979
 Authority   : Esri
 Version     : 10.0.0
@@ -2121,6 +2639,7 @@ Latest-WKID : 1039
 Macro       : PE_VERTD_NZVD_2009
 Name        : New_Zealand_Vertical_Datum_2009
 WKT         : VDATUM["New_Zealand_Vertical_Datum_2009"]
+WKT2        : VDATUM["New_Zealand_Vertical_Datum_2009"]
 Description : New Zealand Vertical Datum 2009
 Authority   : Esri
 Version     : 10.0.0
@@ -2131,6 +2650,7 @@ Latest-WKID : 1030
 Macro       : PE_VERTD_N2000
 Name        : N2000
 WKT         : VDATUM["N2000"]
+WKT2        : VDATUM["N2000"]
 Description : N2000
 Authority   : Esri
 Version     : 10.0.0
@@ -2141,6 +2661,7 @@ Latest-WKID : 1040
 Macro       : PE_VERTD_DUNEDIN_BLUFF_1960
 Name        : Dunedin_Bluff_1960
 WKT         : VDATUM["Dunedin_Bluff_1960"]
+WKT2        : VDATUM["Dunedin_Bluff_1960"]
 Description : Dunedin-Bluff 1960
 Authority   : Esri
 Version     : 10.0.0

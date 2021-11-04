@@ -21,6 +21,7 @@ Latest-WKID : 9601
 Macro       : PE_MTH_LONGITUDE_ROTATION
 Name        : Longitude_Rotation
 WKT         : METHOD["Longitude_Rotation"]
+WKT2        : METHOD["Longitude_Rotation"]
 Description : Longitude Rotation
 Authority   : Esri
 Version     : 4.0.0
@@ -31,6 +32,7 @@ Latest-WKID : 9603
 Macro       : PE_MTH_GEOCENTRIC_TRANSLATION
 Name        : Geocentric_Translation
 WKT         : METHOD["Geocentric_Translation"]
+WKT2        : METHOD["Geocentric_Translation"]
 Description : Geocentric Translation (3-parameter)
 Authority   : Esri
 Version     : 3.0.1
@@ -41,6 +43,7 @@ Latest-WKID : 9604
 Macro       : PE_MTH_MOLODENSKY
 Name        : Molodensky
 WKT         : METHOD["Molodensky"]
+WKT2        : METHOD["Molodensky"]
 Description : Molodensky
 Authority   : Esri
 Version     : 3.0.1
@@ -51,6 +54,7 @@ Latest-WKID : 9605
 Macro       : PE_MTH_MOLODENSKY_ABRIDGED
 Name        : Molodensky_Abridged
 WKT         : METHOD["Molodensky_Abridged"]
+WKT2        : METHOD["Molodensky_Abridged"]
 Description : Abridged Molodensky
 Authority   : Esri
 Version     : 3.0.1
@@ -61,6 +65,7 @@ Latest-WKID : 9606
 Macro       : PE_MTH_POSITION_VECTOR
 Name        : Position_Vector
 WKT         : METHOD["Position_Vector"]
+WKT2        : METHOD["Position_Vector"]
 Description : Position Vector (7-parameter)
 Authority   : Esri
 Version     : 3.0.1
@@ -71,6 +76,7 @@ Latest-WKID : 9607
 Macro       : PE_MTH_COORDINATE_FRAME
 Name        : Coordinate_Frame
 WKT         : METHOD["Coordinate_Frame"]
+WKT2        : METHOD["Coordinate_Frame"]
 Description : Coordinate Frame (7-parameter)
 Authority   : Esri
 Version     : 3.0.1
@@ -81,6 +87,7 @@ Latest-WKID : 9613
 Macro       : PE_MTH_NADCON
 Name        : NADCON
 WKT         : METHOD["NADCON"]
+WKT2        : METHOD["NADCON"]
 Description : NADCON
 Authority   : Esri
 Version     : 4.0.0
@@ -91,6 +98,7 @@ Latest-WKID : 9615
 Macro       : PE_MTH_NTV2
 Name        : NTv2
 WKT         : METHOD["NTv2"]
+WKT2        : METHOD["NTv2"]
 Description : NTv2
 Authority   : Esri
 Version     : 8.1.0
@@ -101,6 +109,7 @@ Latest-WKID : 9619
 Macro       : PE_MTH_GEOGRAPHIC_2D_OFFSET
 Name        : Geographic_2D_Offset
 WKT         : METHOD["Geographic_2D_Offset"]
+WKT2        : METHOD["Geographic_2D_Offset"]
 Description : Geographic 2D Offset
 Authority   : Esri
 Version     : 10.0.0
@@ -111,6 +120,7 @@ Latest-WKID : 9636
 Macro       : PE_MTH_MOLODENSKY_BADEKAS
 Name        : Molodensky_Badekas
 WKT         : METHOD["Molodensky_Badekas"]
+WKT2        : METHOD["Molodensky_Badekas"]
 Description : Molodensky-Badekas
 Authority   : Esri
 Version     : 9.0.0
@@ -121,6 +131,7 @@ Latest-WKID : 109600
 Macro       : PE_MTH_NULL
 Name        : Null
 WKT         : METHOD["Null"]
+WKT2        : METHOD["Null"]
 Description : NULL transformation
 Authority   : Esri
 Version     : 10.0.0
@@ -131,6 +142,7 @@ Latest-WKID : 109601
 Macro       : PE_MTH_UNIT_CHANGE
 Name        : Unit_Change
 WKT         : METHOD["Unit_Change"]
+WKT2        : METHOD["Unit_Change"]
 Description : Units change only
 Authority   : Esri
 Version     : 10.0.0
@@ -141,6 +153,7 @@ Latest-WKID : 109607
 Macro       : PE_MTH_BURSA_WOLF
 Name        : Bursa_Wolf
 WKT         : METHOD["Bursa_Wolf"]
+WKT2        : METHOD["Bursa_Wolf"]
 Description : Bursa-Wolf
 Authority   : Esri
 Version     : 3.0.1
@@ -151,6 +164,7 @@ Latest-WKID : 109613
 Macro       : PE_MTH_HARN
 Name        : HARN
 WKT         : METHOD["HARN"]
+WKT2        : METHOD["HARN"]
 Description : HARN (HPGN)
 Authority   : Esri
 Version     : 4.0.0
@@ -161,6 +175,7 @@ Latest-WKID : 109614
 Macro       : PE_MTH_GEOCON
 Name        : GEOCON
 WKT         : METHOD["GEOCON"]
+WKT2        : METHOD["GEOCON"]
 Description : GEOCON transformation for NAD83
 Authority   : Esri
 Version     : 10.4.0
@@ -171,6 +186,7 @@ Latest-WKID : 109615
 Macro       : PE_MTH_NADCON5
 Name        : NADCON5
 WKT         : METHOD["NADCON5"]
+WKT2        : METHOD["NADCON5"]
 Description : NADCON5 transformation
 Authority   : Esri
 Version     : 10.8.0
@@ -181,6 +197,7 @@ Latest-WKID : 109616
 Macro       : PE_MTH_TIME_BASED_HELMERT_POSITION_VECTOR
 Name        : Time_Based_Helmert_Position_Vector
 WKT         : METHOD["Time_Based_Helmert_Position_Vector"]
+WKT2        : METHOD["Time_Based_Helmert_Position_Vector"]
 Description : Position Vector (14-parameter)
 Authority   : Esri
 Version     : 12.6.0
@@ -191,6 +208,7 @@ Latest-WKID : 109617
 Macro       : PE_MTH_TIME_BASED_HELMERT_COORDINATE_FRAME
 Name        : Time_Based_Helmert_Coordinate_Frame
 WKT         : METHOD["Time_Based_Helmert_Coordinate_Frame"]
+WKT2        : METHOD["Time_Based_Helmert_Coordinate_Frame"]
 Description : Coordinate Frame (14-parameter)
 Authority   : Esri
 Version     : 12.6.0

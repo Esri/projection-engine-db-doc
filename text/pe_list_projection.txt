@@ -21,6 +21,7 @@ Latest-WKID : 43001
 Macro       : PE_PRJ_PLATE_CARREE
 Name        : Plate_Carree
 WKT         : PROJECTION["Plate_Carree"]
+WKT2        : METHOD["Plate_Carree"]
 Description : Plate Carree
 Authority   : Esri
 Version     : 3.0.1
@@ -31,6 +32,7 @@ Latest-WKID : 43002
 Macro       : PE_PRJ_EQUIDISTANT_CYLINDRICAL
 Name        : Equidistant_Cylindrical
 WKT         : PROJECTION["Equidistant_Cylindrical"]
+WKT2        : METHOD["Equidistant_Cylindrical"]
 Description : Equidistant Cylindrical
 Authority   : Esri
 Version     : 3.0.1
@@ -41,6 +43,7 @@ Latest-WKID : 43003
 Macro       : PE_PRJ_MILLER_CYLINDRICAL
 Name        : Miller_Cylindrical
 WKT         : PROJECTION["Miller_Cylindrical"]
+WKT2        : METHOD["Miller_Cylindrical"]
 Description : Miller Cylindrical
 Authority   : Esri
 Version     : 3.0.1
@@ -51,6 +54,7 @@ Latest-WKID : 43004
 Macro       : PE_PRJ_MERCATOR
 Name        : Mercator
 WKT         : PROJECTION["Mercator"]
+WKT2        : METHOD["Mercator"]
 Description : Mercator (also known as Mercator Variant B - standard parallel
               version)
 Authority   : Esri
@@ -62,6 +66,7 @@ Latest-WKID : 43005
 Macro       : PE_PRJ_GAUSS_KRUGER
 Name        : Gauss_Kruger
 WKT         : PROJECTION["Gauss_Kruger"]
+WKT2        : METHOD["Gauss_Kruger"]
 Description : Gauss-Kruger
 Authority   : Esri
 Version     : 3.0.1
@@ -72,6 +77,7 @@ Latest-WKID : 43006
 Macro       : PE_PRJ_TRANSVERSE_MERCATOR
 Name        : Transverse_Mercator
 WKT         : PROJECTION["Transverse_Mercator"]
+WKT2        : METHOD["Transverse_Mercator"]
 Description : Transverse Mercator = Gauss Kruger
 Authority   : Esri
 Version     : 3.0.1
@@ -82,6 +88,7 @@ Latest-WKID : 43007
 Macro       : PE_PRJ_ALBERS
 Name        : Albers
 WKT         : PROJECTION["Albers"]
+WKT2        : METHOD["Albers"]
 Description : Albers
 Authority   : Esri
 Version     : 3.0.1
@@ -92,6 +99,7 @@ Latest-WKID : 43008
 Macro       : PE_PRJ_SINUSOIDAL
 Name        : Sinusoidal
 WKT         : PROJECTION["Sinusoidal"]
+WKT2        : METHOD["Sinusoidal"]
 Description : Sinusoidal
 Authority   : Esri
 Version     : 3.0.1
@@ -102,6 +110,7 @@ Latest-WKID : 43009
 Macro       : PE_PRJ_MOLLWEIDE
 Name        : Mollweide
 WKT         : PROJECTION["Mollweide"]
+WKT2        : METHOD["Mollweide"]
 Description : Mollweide
 Authority   : Esri
 Version     : 3.0.1
@@ -112,6 +121,7 @@ Latest-WKID : 43010
 Macro       : PE_PRJ_ECKERT_VI
 Name        : Eckert_VI
 WKT         : PROJECTION["Eckert_VI"]
+WKT2        : METHOD["Eckert_VI"]
 Description : Eckert VI
 Authority   : Esri
 Version     : 3.0.1
@@ -122,6 +132,7 @@ Latest-WKID : 43011
 Macro       : PE_PRJ_ECKERT_V
 Name        : Eckert_V
 WKT         : PROJECTION["Eckert_V"]
+WKT2        : METHOD["Eckert_V"]
 Description : Eckert V
 Authority   : Esri
 Version     : 3.0.1
@@ -132,6 +143,7 @@ Latest-WKID : 43012
 Macro       : PE_PRJ_ECKERT_IV
 Name        : Eckert_IV
 WKT         : PROJECTION["Eckert_IV"]
+WKT2        : METHOD["Eckert_IV"]
 Description : Eckert IV
 Authority   : Esri
 Version     : 3.0.1
@@ -142,6 +154,7 @@ Latest-WKID : 43013
 Macro       : PE_PRJ_ECKERT_III
 Name        : Eckert_III
 WKT         : PROJECTION["Eckert_III"]
+WKT2        : METHOD["Eckert_III"]
 Description : Eckert III
 Authority   : Esri
 Version     : 3.0.1
@@ -152,6 +165,7 @@ Latest-WKID : 43014
 Macro       : PE_PRJ_ECKERT_II
 Name        : Eckert_II
 WKT         : PROJECTION["Eckert_II"]
+WKT2        : METHOD["Eckert_II"]
 Description : Eckert II
 Authority   : Esri
 Version     : 3.0.1
@@ -162,6 +176,7 @@ Latest-WKID : 43015
 Macro       : PE_PRJ_ECKERT_I
 Name        : Eckert_I
 WKT         : PROJECTION["Eckert_I"]
+WKT2        : METHOD["Eckert_I"]
 Description : Eckert I
 Authority   : Esri
 Version     : 3.0.1
@@ -172,6 +187,7 @@ Latest-WKID : 43016
 Macro       : PE_PRJ_GALL_STEREOGRAPHIC
 Name        : Gall_Stereographic
 WKT         : PROJECTION["Gall_Stereographic"]
+WKT2        : METHOD["Gall_Stereographic"]
 Description : Gall Stereographic
 Authority   : Esri
 Version     : 3.0.1
@@ -182,6 +198,7 @@ Latest-WKID : 43017
 Macro       : PE_PRJ_BEHRMANN
 Name        : Behrmann
 WKT         : PROJECTION["Behrmann"]
+WKT2        : METHOD["Behrmann"]
 Description : Behrmann
 Authority   : Esri
 Version     : 3.0.1
@@ -192,6 +209,7 @@ Latest-WKID : 43018
 Macro       : PE_PRJ_WINKEL_I
 Name        : Winkel_I
 WKT         : PROJECTION["Winkel_I"]
+WKT2        : METHOD["Winkel_I"]
 Description : Winkel I
 Authority   : Esri
 Version     : 3.0.1
@@ -202,6 +220,7 @@ Latest-WKID : 43019
 Macro       : PE_PRJ_WINKEL_II
 Name        : Winkel_II
 WKT         : PROJECTION["Winkel_II"]
+WKT2        : METHOD["Winkel_II"]
 Description : Winkel II
 Authority   : Esri
 Version     : 3.0.1
@@ -212,6 +231,7 @@ Latest-WKID : 43020
 Macro       : PE_PRJ_LAMBERT_CONFORMAL_CONIC
 Name        : Lambert_Conformal_Conic
 WKT         : PROJECTION["Lambert_Conformal_Conic"]
+WKT2        : METHOD["Lambert_Conformal_Conic"]
 Description : Lambert Conformal Conic
 Authority   : Esri
 Version     : 3.0.1
@@ -222,6 +242,7 @@ Latest-WKID : 43021
 Macro       : PE_PRJ_POLYCONIC
 Name        : Polyconic
 WKT         : PROJECTION["Polyconic"]
+WKT2        : METHOD["Polyconic"]
 Description : Polyconic
 Authority   : Esri
 Version     : 3.0.1
@@ -232,6 +253,7 @@ Latest-WKID : 43022
 Macro       : PE_PRJ_QUARTIC_AUTHALIC
 Name        : Quartic_Authalic
 WKT         : PROJECTION["Quartic_Authalic"]
+WKT2        : METHOD["Quartic_Authalic"]
 Description : Quartic Authalic
 Authority   : Esri
 Version     : 3.0.1
@@ -242,6 +264,7 @@ Latest-WKID : 43023
 Macro       : PE_PRJ_LOXIMUTHAL
 Name        : Loximuthal
 WKT         : PROJECTION["Loximuthal"]
+WKT2        : METHOD["Loximuthal"]
 Description : Loximuthal
 Authority   : Esri
 Version     : 3.0.1
@@ -252,6 +275,7 @@ Latest-WKID : 43024
 Macro       : PE_PRJ_BONNE
 Name        : Bonne
 WKT         : PROJECTION["Bonne"]
+WKT2        : METHOD["Bonne"]
 Description : Bonne
 Authority   : Esri
 Version     : 3.0.1
@@ -262,6 +286,7 @@ Latest-WKID : 43025
 Macro       : PE_PRJ_HOTINE_TWO_POINT_NATORIGIN
 Name        : Hotine_Oblique_Mercator_Two_Point_Natural_Origin
 WKT         : PROJECTION["Hotine_Oblique_Mercator_Two_Point_Natural_Origin"]
+WKT2        : METHOD["Hotine_Oblique_Mercator_Two_Point_Natural_Origin"]
 Description : Hotine 2 Point Natural Origin
 Authority   : Esri
 Version     : 3.0.1
@@ -272,6 +297,7 @@ Latest-WKID : 43026
 Macro       : PE_PRJ_STEREOGRAPHIC
 Name        : Stereographic
 WKT         : PROJECTION["Stereographic"]
+WKT2        : METHOD["Stereographic"]
 Description : Stereographic
 Authority   : Esri
 Version     : 3.0.1
@@ -282,6 +308,7 @@ Latest-WKID : 43027
 Macro       : PE_PRJ_EQUIDISTANT_CONIC
 Name        : Equidistant_Conic
 WKT         : PROJECTION["Equidistant_Conic"]
+WKT2        : METHOD["Equidistant_Conic"]
 Description : Equidistant Conic
 Authority   : Esri
 Version     : 3.0.1
@@ -292,6 +319,7 @@ Latest-WKID : 43028
 Macro       : PE_PRJ_CASSINI
 Name        : Cassini
 WKT         : PROJECTION["Cassini"]
+WKT2        : METHOD["Cassini"]
 Description : Cassini
 Authority   : Esri
 Version     : 3.0.1
@@ -302,6 +330,7 @@ Latest-WKID : 43029
 Macro       : PE_PRJ_VAN_DER_GRINTEN_I
 Name        : Van_der_Grinten_I
 WKT         : PROJECTION["Van_der_Grinten_I"]
+WKT2        : METHOD["Van_der_Grinten_I"]
 Description : Van der Grinten I
 Authority   : Esri
 Version     : 3.0.1
@@ -312,6 +341,7 @@ Latest-WKID : 43030
 Macro       : PE_PRJ_ROBINSON
 Name        : Robinson
 WKT         : PROJECTION["Robinson"]
+WKT2        : METHOD["Robinson"]
 Description : Robinson
 Authority   : Esri
 Version     : 3.0.1
@@ -322,6 +352,7 @@ Latest-WKID : 43031
 Macro       : PE_PRJ_TWO_POINT_EQUIDISTANT
 Name        : Two_Point_Equidistant
 WKT         : PROJECTION["Two_Point_Equidistant"]
+WKT2        : METHOD["Two_Point_Equidistant"]
 Description : Two-Point Equidistant
 Authority   : Esri
 Version     : 3.0.1
@@ -332,6 +363,7 @@ Latest-WKID : 43032
 Macro       : PE_PRJ_AZIMUTHAL_EQUIDISTANT
 Name        : Azimuthal_Equidistant
 WKT         : PROJECTION["Azimuthal_Equidistant"]
+WKT2        : METHOD["Azimuthal_Equidistant"]
 Description : Azimuthal Equidistant
 Authority   : Esri
 Version     : 4.0.0
@@ -342,6 +374,7 @@ Latest-WKID : 43033
 Macro       : PE_PRJ_LAMBERT_AZIMUTHAL_EQAREA
 Name        : Lambert_Azimuthal_Equal_Area
 WKT         : PROJECTION["Lambert_Azimuthal_Equal_Area"]
+WKT2        : METHOD["Lambert_Azimuthal_Equal_Area"]
 Description : Lambert Azimuthal Equal Area
 Authority   : Esri
 Version     : 4.0.0
@@ -352,6 +385,7 @@ Latest-WKID : 43034
 Macro       : PE_PRJ_CYLINDRICAL_EQAREA
 Name        : Cylindrical_Equal_Area
 WKT         : PROJECTION["Cylindrical_Equal_Area"]
+WKT2        : METHOD["Cylindrical_Equal_Area"]
 Description : Cylindrical Equal Area
 Authority   : Esri
 Version     : 8.0.1
@@ -362,6 +396,7 @@ Latest-WKID : 43035
 Macro       : PE_PRJ_HOTINE_TWO_POINT_CENTER
 Name        : Hotine_Oblique_Mercator_Two_Point_Center
 WKT         : PROJECTION["Hotine_Oblique_Mercator_Two_Point_Center"]
+WKT2        : METHOD["Hotine_Oblique_Mercator_Two_Point_Center"]
 Description : Hotine 2 Point Center
 Authority   : Esri
 Version     : 8.0.1
@@ -372,6 +407,7 @@ Latest-WKID : 43036
 Macro       : PE_PRJ_HOTINE_AZIMUTH_NATORIGIN
 Name        : Hotine_Oblique_Mercator_Azimuth_Natural_Origin
 WKT         : PROJECTION["Hotine_Oblique_Mercator_Azimuth_Natural_Origin"]
+WKT2        : METHOD["Hotine_Oblique_Mercator_Azimuth_Natural_Origin"]
 Description : Hotine Azimuth Natural Origin
 Authority   : Esri
 Version     : 8.0.1
@@ -382,6 +418,7 @@ Latest-WKID : 43037
 Macro       : PE_PRJ_HOTINE_AZIMUTH_CENTER
 Name        : Hotine_Oblique_Mercator_Azimuth_Center
 WKT         : PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center"]
+WKT2        : METHOD["Hotine_Oblique_Mercator_Azimuth_Center"]
 Description : Hotine Azimuth Center
 Authority   : Esri
 Version     : 8.0.1
@@ -392,6 +429,7 @@ Latest-WKID : 43038
 Macro       : PE_PRJ_DOUBLE_STEREOGRAPHIC
 Name        : Double_Stereographic
 WKT         : PROJECTION["Double_Stereographic"]
+WKT2        : METHOD["Double_Stereographic"]
 Description : Double Stereographic
 Authority   : Esri
 Version     : 8.0.1
@@ -402,6 +440,7 @@ Latest-WKID : 43039
 Macro       : PE_PRJ_KROVAK
 Name        : Krovak
 WKT         : PROJECTION["Krovak"]
+WKT2        : METHOD["Krovak"]
 Description : Krovak Oblique Lambert Conformal Conic
 Authority   : Esri
 Version     : 8.1.0
@@ -412,6 +451,7 @@ Latest-WKID : 43040
 Macro       : PE_PRJ_NEW_ZEALAND_MAP_GRID
 Name        : New_Zealand_Map_Grid
 WKT         : PROJECTION["New_Zealand_Map_Grid"]
+WKT2        : METHOD["New_Zealand_Map_Grid"]
 Description : New Zealand Map Grid
 Authority   : Esri
 Version     : 8.1.0
@@ -422,6 +462,7 @@ Latest-WKID : 43041
 Macro       : PE_PRJ_ORTHOGRAPHIC
 Name        : Orthographic
 WKT         : PROJECTION["Orthographic"]
+WKT2        : METHOD["Orthographic"]
 Description : Orthographic
 Authority   : Esri
 Version     : 8.1.1
@@ -432,6 +473,7 @@ Latest-WKID : 43042
 Macro       : PE_PRJ_WINKEL_TRIPEL
 Name        : Winkel_Tripel
 WKT         : PROJECTION["Winkel_Tripel"]
+WKT2        : METHOD["Winkel_Tripel"]
 Description : Winkel Tripel
 Authority   : Esri
 Version     : 8.1.1
@@ -442,6 +484,7 @@ Latest-WKID : 43043
 Macro       : PE_PRJ_AITOFF
 Name        : Aitoff
 WKT         : PROJECTION["Aitoff"]
+WKT2        : METHOD["Aitoff"]
 Description : Aitoff
 Authority   : Esri
 Version     : 8.1.1
@@ -452,6 +495,7 @@ Latest-WKID : 43044
 Macro       : PE_PRJ_HAMMER_AITOFF
 Name        : Hammer_Aitoff
 WKT         : PROJECTION["Hammer_Aitoff"]
+WKT2        : METHOD["Hammer_Aitoff"]
 Description : Hammer Aitoff
 Authority   : Esri
 Version     : 8.1.1
@@ -462,6 +506,7 @@ Latest-WKID : 43045
 Macro       : PE_PRJ_FLAT_POLAR_QUARTIC
 Name        : Flat_Polar_Quartic
 WKT         : PROJECTION["Flat_Polar_Quartic"]
+WKT2        : METHOD["Flat_Polar_Quartic"]
 Description : Flat Polar Quartic
 Authority   : Esri
 Version     : 8.1.1
@@ -472,6 +517,7 @@ Latest-WKID : 43046
 Macro       : PE_PRJ_CRASTER_PARABOLIC
 Name        : Craster_Parabolic
 WKT         : PROJECTION["Craster_Parabolic"]
+WKT2        : METHOD["Craster_Parabolic"]
 Description : Craster Parabolic
 Authority   : Esri
 Version     : 8.1.1
@@ -482,6 +528,7 @@ Latest-WKID : 43047
 Macro       : PE_PRJ_GNOMONIC
 Name        : Gnomonic
 WKT         : PROJECTION["Gnomonic"]
+WKT2        : METHOD["Gnomonic"]
 Description : Gnomonic
 Authority   : Esri
 Version     : 8.1.1
@@ -492,6 +539,7 @@ Latest-WKID : 43048
 Macro       : PE_PRJ_TIMES
 Name        : Times
 WKT         : PROJECTION["Times"]
+WKT2        : METHOD["Times"]
 Description : Bartholomew Times
 Authority   : Esri
 Version     : 8.1.1
@@ -502,6 +550,7 @@ Latest-WKID : 43049
 Macro       : PE_PRJ_VERTICAL_NEAR_SIDE_PERSPECTIVE
 Name        : Vertical_Near_Side_Perspective
 WKT         : PROJECTION["Vertical_Near_Side_Perspective"]
+WKT2        : METHOD["Vertical_Near_Side_Perspective"]
 Description : Vertical Near-Side Perspective
 Authority   : Esri
 Version     : 8.1.1
@@ -512,6 +561,7 @@ Latest-WKID : 43050
 Macro       : PE_PRJ_STEREOGRAPHIC_NORTH_POLE
 Name        : Stereographic_North_Pole
 WKT         : PROJECTION["Stereographic_North_Pole"]
+WKT2        : METHOD["Stereographic_North_Pole"]
 Description : Stereographic - North Pole
 Authority   : Esri
 Version     : 8.1.2
@@ -522,6 +572,7 @@ Latest-WKID : 43051
 Macro       : PE_PRJ_STEREOGRAPHIC_SOUTH_POLE
 Name        : Stereographic_South_Pole
 WKT         : PROJECTION["Stereographic_South_Pole"]
+WKT2        : METHOD["Stereographic_South_Pole"]
 Description : Stereographic - South Pole
 Authority   : Esri
 Version     : 8.1.2
@@ -532,6 +583,7 @@ Latest-WKID : 43052
 Macro       : PE_PRJ_FULLER
 Name        : Fuller
 WKT         : PROJECTION["Fuller"]
+WKT2        : METHOD["Fuller"]
 Description : Fuller
 Authority   : Esri
 Version     : 9.0.0
@@ -542,6 +594,7 @@ Latest-WKID : 43053
 Macro       : PE_PRJ_RSO_NATORIGIN
 Name        : Rectified_Skew_Orthomorphic_Natural_Origin
 WKT         : PROJECTION["Rectified_Skew_Orthomorphic_Natural_Origin"]
+WKT2        : METHOD["Rectified_Skew_Orthomorphic_Natural_Origin"]
 Description : Rectified Skew Orthomorphic - Natural Origin
 Authority   : Esri
 Version     : 9.0.0
@@ -552,6 +605,7 @@ Latest-WKID : 43054
 Macro       : PE_PRJ_RSO_CENTER
 Name        : Rectified_Skew_Orthomorphic_Center
 WKT         : PROJECTION["Rectified_Skew_Orthomorphic_Center"]
+WKT2        : METHOD["Rectified_Skew_Orthomorphic_Center"]
 Description : Rectified Skew Orthomorphic - Center
 Authority   : Esri
 Version     : 9.0.0
@@ -562,6 +616,7 @@ Latest-WKID : 43055
 Macro       : PE_PRJ_CUBE
 Name        : Cube
 WKT         : PROJECTION["Cube"]
+WKT2        : METHOD["Cube"]
 Description : World on a Cube
 Authority   : Esri
 Version     : 9.0.0
@@ -572,6 +627,7 @@ Latest-WKID : 43056
 Macro       : PE_PRJ_TRANSVERSE_MERCATOR_COMPLEX
 Name        : Transverse_Mercator_Complex
 WKT         : PROJECTION["Transverse_Mercator_Complex"]
+WKT2        : METHOD["Transverse_Mercator_Complex"]
 Description : Trans. Mercator Complex
 Authority   : Esri
 Version     : 9.0.0
@@ -582,6 +638,7 @@ Latest-WKID : 43057
 Macro       : PE_PRJ_ROBINSON_AI
 Name        : Robinson_ARC_INFO
 WKT         : PROJECTION["Robinson_ARC_INFO"]
+WKT2        : METHOD["Robinson_ARC_INFO"]
 Description : Robinson from Arc/INFO Workstation
 Authority   : Esri
 Version     : 9.0.0
@@ -592,6 +649,7 @@ Latest-WKID : 43058
 Macro       : PE_PRJ_LOCAL
 Name        : Local
 WKT         : PROJECTION["Local"]
+WKT2        : METHOD["Local"]
 Description : Local
 Authority   : Esri
 Version     : 9.0.0
@@ -602,6 +660,7 @@ Latest-WKID : 43059
 Macro       : PE_PRJ_GOODE_HOMOLOSINE
 Name        : Goode_Homolosine
 WKT         : PROJECTION["Goode_Homolosine"]
+WKT2        : METHOD["Goode_Homolosine"]
 Description : Goode Homolosine
 Authority   : Esri
 Version     : 9.2.0
@@ -612,6 +671,7 @@ Latest-WKID : 43060
 Macro       : PE_PRJ_BERGHAUS_STAR
 Name        : Berghaus_Star
 WKT         : PROJECTION["Berghaus_Star"]
+WKT2        : METHOD["Berghaus_Star"]
 Description : Berghaus Star
 Authority   : Esri
 Version     : 10.0.0
@@ -622,6 +682,7 @@ Latest-WKID : 43061
 Macro       : PE_PRJ_EQUIDISTANT_CYLINDRICAL_ELLIPSOIDAL
 Name        : Equidistant_Cylindrical_Ellipsoidal
 WKT         : PROJECTION["Equidistant_Cylindrical_Ellipsoidal"]
+WKT2        : METHOD["Equidistant_Cylindrical_Ellipsoidal"]
 Description : Equidistant Cylindrical Ellipsoidal
 Authority   : Esri
 Version     : 10.0.0
@@ -632,6 +693,7 @@ Latest-WKID : 43062
 Macro       : PE_PRJ_NEY
 Name        : Ney_Modified_Conic
 WKT         : PROJECTION["Ney_Modified_Conic"]
+WKT2        : METHOD["Ney_Modified_Conic"]
 Description : Ney Modified Conic
 Authority   : Esri
 Version     : 10.0.0
@@ -642,6 +704,7 @@ Latest-WKID : 43063
 Macro       : PE_PRJ_LABORDE
 Name        : Laborde_Oblique_Mercator
 WKT         : PROJECTION["Laborde_Oblique_Mercator"]
+WKT2        : METHOD["Laborde_Oblique_Mercator"]
 Description : Laborde Oblique Mercator
 Authority   : Esri
 Version     : 10.0.0
@@ -652,6 +715,7 @@ Latest-WKID : 43064
 Macro       : PE_PRJ_IGAC_PLANO_CARTESIANO
 Name        : IGAC_Plano_Cartesiano
 WKT         : PROJECTION["IGAC_Plano_Cartesiano"]
+WKT2        : METHOD["IGAC_Plano_Cartesiano"]
 Description : IGAC Plano Cartesiano
 Authority   : Esri
 Version     : 10.1.0
@@ -662,6 +726,7 @@ Latest-WKID : 43065
 Macro       : PE_PRJ_GNOMONIC_ELLIPSOIDAL
 Name        : Gnomonic_Ellipsoidal
 WKT         : PROJECTION["Gnomonic_Ellipsoidal"]
+WKT2        : METHOD["Gnomonic_Ellipsoidal"]
 Description : Gnomonic Ellipsoidal
 Authority   : Esri
 Version     : 10.4.0
@@ -672,6 +737,7 @@ Latest-WKID : 43066
 Macro       : PE_PRJ_POLAR_STEREOGRAPHIC_VARIANT_A
 Name        : Polar_Stereographic_Variant_A
 WKT         : PROJECTION["Polar_Stereographic_Variant_A"]
+WKT2        : METHOD["Polar_Stereographic_Variant_A"]
 Description : EPSG's Polar Stereographic Variant A (Scale at pole, Origin at
               Pole)
 Authority   : Esri
@@ -683,6 +749,7 @@ Latest-WKID : 43067
 Macro       : PE_PRJ_POLAR_STEREOGRAPHIC_VARIANT_B
 Name        : Polar_Stereographic_Variant_B
 WKT         : PROJECTION["Polar_Stereographic_Variant_B"]
+WKT2        : METHOD["Polar_Stereographic_Variant_B"]
 Description : EPSG's Polar Stereographic Variant B (Standard Parallel, Origin
               at Pole)
 Authority   : Esri
@@ -694,6 +761,7 @@ Latest-WKID : 43068
 Macro       : PE_PRJ_POLAR_STEREOGRAPHIC_VARIANT_C
 Name        : Polar_Stereographic_Variant_C
 WKT         : PROJECTION["Polar_Stereographic_Variant_C"]
+WKT2        : METHOD["Polar_Stereographic_Variant_C"]
 Description : EPSG's Polar Stereographic Variant C (Standard Parallel, Origin
               at Standard Parallel)
 Authority   : Esri
@@ -705,6 +773,7 @@ Latest-WKID : 43069
 Macro       : PE_PRJ_MERCATOR_VARIANT_A
 Name        : Mercator_Variant_A
 WKT         : PROJECTION["Mercator_Variant_A"]
+WKT2        : METHOD["Mercator_Variant_A"]
 Description : Mercator Variant A (scale at equator version)
 Authority   : Esri
 Version     : 10.4.0
@@ -715,6 +784,7 @@ Latest-WKID : 43070
 Macro       : PE_PRJ_MERCATOR_VARIANT_C
 Name        : Mercator_Variant_C
 WKT         : PROJECTION["Mercator_Variant_C"]
+WKT2        : METHOD["Mercator_Variant_C"]
 Description : Mercator Variant C (standard parallel plus latitude of origin
               version)
 Authority   : Esri
@@ -726,6 +796,7 @@ Latest-WKID : 43071
 Macro       : PE_PRJ_HAMMER_ELLIPSOIDAL
 Name        : Hammer_Ellipsoidal
 WKT         : PROJECTION["Hammer_Ellipsoidal"]
+WKT2        : METHOD["Hammer_Ellipsoidal"]
 Description : Hammer Ellipsoidal
 Authority   : Esri
 Version     : 10.4.0
@@ -736,6 +807,7 @@ Latest-WKID : 43072
 Macro       : PE_PRJ_QUARTIC_AUTHALIC_ELLIPSOIDAL
 Name        : Quartic_Authalic_Ellipsoidal
 WKT         : PROJECTION["Quartic_Authalic_Ellipsoidal"]
+WKT2        : METHOD["Quartic_Authalic_Ellipsoidal"]
 Description : Quartic Authalic Ellipsoidal
 Authority   : Esri
 Version     : 10.4.0
@@ -746,6 +818,7 @@ Latest-WKID : 43073
 Macro       : PE_PRJ_ECKERT_GREIFENDORFF
 Name        : Eckert_Greifendorff
 WKT         : PROJECTION["Eckert_Greifendorff"]
+WKT2        : METHOD["Eckert_Greifendorff"]
 Description : Eckert-Greifendorff
 Authority   : Esri
 Version     : 10.4.0
@@ -756,6 +829,7 @@ Latest-WKID : 43074
 Macro       : PE_PRJ_WAGNER_IV
 Name        : Wagner_IV
 WKT         : PROJECTION["Wagner_IV"]
+WKT2        : METHOD["Wagner_IV"]
 Description : Wagner IV
 Authority   : Esri
 Version     : 10.4.0
@@ -766,6 +840,7 @@ Latest-WKID : 43075
 Macro       : PE_PRJ_WAGNER_V
 Name        : Wagner_V
 WKT         : PROJECTION["Wagner_V"]
+WKT2        : METHOD["Wagner_V"]
 Description : Wagner V
 Authority   : Esri
 Version     : 10.4.0
@@ -776,6 +851,7 @@ Latest-WKID : 43076
 Macro       : PE_PRJ_WAGNER_VII
 Name        : Wagner_VII
 WKT         : PROJECTION["Wagner_VII"]
+WKT2        : METHOD["Wagner_VII"]
 Description : Wagner VII
 Authority   : Esri
 Version     : 10.4.0
@@ -786,6 +862,7 @@ Latest-WKID : 43077
 Macro       : PE_PRJ_NATURAL_EARTH
 Name        : Natural_Earth
 WKT         : PROJECTION["Natural_Earth"]
+WKT2        : METHOD["Natural_Earth"]
 Description : Natural Earth
 Authority   : Esri
 Version     : 10.4.0
@@ -796,6 +873,7 @@ Latest-WKID : 43078
 Macro       : PE_PRJ_NATURAL_EARTH_II
 Name        : Natural_Earth_II
 WKT         : PROJECTION["Natural_Earth_II"]
+WKT2        : METHOD["Natural_Earth_II"]
 Description : Natural Earth II
 Authority   : Esri
 Version     : 10.4.0
@@ -806,6 +884,7 @@ Latest-WKID : 43079
 Macro       : PE_PRJ_PATTERSON
 Name        : Patterson
 WKT         : PROJECTION["Patterson"]
+WKT2        : METHOD["Patterson"]
 Description : Patterson
 Authority   : Esri
 Version     : 10.4.0
@@ -816,6 +895,7 @@ Latest-WKID : 43080
 Macro       : PE_PRJ_COMPACT_MILLER
 Name        : Compact_Miller
 WKT         : PROJECTION["Compact_Miller"]
+WKT2        : METHOD["Compact_Miller"]
 Description : Compact Miller
 Authority   : Esri
 Version     : 10.4.0
@@ -826,6 +906,7 @@ Latest-WKID : 43081
 Macro       : PE_PRJ_TRANSVERSE_MERCATOR_NGA_2014
 Name        : Transverse_Mercator_NGA_2014
 WKT         : PROJECTION["Transverse_Mercator_NGA_2014"]
+WKT2        : METHOD["Transverse_Mercator_NGA_2014"]
 Description : Transverse Mercator NGA 2014
 Authority   : Esri
 Version     : 10.4.0
@@ -836,6 +917,7 @@ Latest-WKID : 43082
 Macro       : PE_PRJ_TRANSVERSE_CYLINDRICAL_EQAREA
 Name        : Transverse_Cylindrical_Equal_Area
 WKT         : PROJECTION["Transverse_Cylindrical_Equal_Area"]
+WKT2        : METHOD["Transverse_Cylindrical_Equal_Area"]
 Description : Transverse Cylindrical Equal Area
 Authority   : Esri
 Version     : 10.4.1
@@ -846,6 +928,7 @@ Latest-WKID : 43083
 Macro       : PE_PRJ_ASPECT_ADAPTIVE_CYLINDRICAL
 Name        : Aspect_Adaptive_Cylindrical
 WKT         : PROJECTION["Aspect_Adaptive_Cylindrical"]
+WKT2        : METHOD["Aspect_Adaptive_Cylindrical"]
 Description : Aspect-adaptive Cylindrical
 Authority   : Esri
 Version     : 10.6.0
@@ -856,6 +939,7 @@ Latest-WKID : 43084
 Macro       : PE_PRJ_GEOSTATIONARY_SATELLITE
 Name        : Geostationary_Satellite
 WKT         : PROJECTION["Geostationary_Satellite"]
+WKT2        : METHOD["Geostationary_Satellite"]
 Description : Geostationary Satellite
 Authority   : Esri
 Version     : 10.6.0
@@ -866,6 +950,7 @@ Latest-WKID : 43085
 Macro       : PE_PRJ_EQUAL_EARTH
 Name        : Equal_Earth
 WKT         : PROJECTION["Equal_Earth"]
+WKT2        : METHOD["Equal_Earth"]
 Description : Equal Earth
 Authority   : Esri
 Version     : 10.7.0
@@ -876,6 +961,7 @@ Latest-WKID : 43086
 Macro       : PE_PRJ_PEIRCE_QUINCUNCIAL
 Name        : Peirce_Quincuncial
 WKT         : PROJECTION["Peirce_Quincuncial"]
+WKT2        : METHOD["Peirce_Quincuncial"]
 Description : Peirce Quincuncial
 Authority   : Esri
 Version     : 10.7.0
@@ -886,6 +972,7 @@ Latest-WKID : 43087
 Macro       : PE_PRJ_ADAMS_SQUARE_II
 Name        : Adams_Square_II
 WKT         : PROJECTION["Adams_Square_II"]
+WKT2        : METHOD["Adams_Square_II"]
 Description : Adams Square II
 Authority   : Esri
 Version     : 10.8.0
@@ -896,6 +983,7 @@ Latest-WKID : 43088
 Macro       : PE_PRJ_TOBLER_CYLINDRICAL_I
 Name        : Tobler_Cylindrical_I
 WKT         : PROJECTION["Tobler_Cylindrical_I"]
+WKT2        : METHOD["Tobler_Cylindrical_I"]
 Description : Tobler Cylindrical I
 Authority   : Esri
 Version     : 10.8.0
@@ -906,6 +994,7 @@ Latest-WKID : 43089
 Macro       : PE_PRJ_TOBLER_CYLINDRICAL_II
 Name        : Tobler_Cylindrical_II
 WKT         : PROJECTION["Tobler_Cylindrical_II"]
+WKT2        : METHOD["Tobler_Cylindrical_II"]
 Description : Tobler Cylindrical II
 Authority   : Esri
 Version     : 10.8.0
@@ -916,6 +1005,7 @@ Latest-WKID : 43090
 Macro       : PE_PRJ_PERSPECTIVE_CYLINDRICAL
 Name        : Perspective_Cylindrical
 WKT         : PROJECTION["Perspective_Cylindrical"]
+WKT2        : METHOD["Perspective_Cylindrical"]
 Description : Perspective Cylindrical
 Authority   : Esri
 Version     : 12.6.0
@@ -926,6 +1016,7 @@ Latest-WKID : 43091
 Macro       : PE_PRJ_LAMBERT_CONFORMAL_CONIC_1SP
 Name        : Lambert_Conformal_Conic_1SP
 WKT         : PROJECTION["Lambert_Conformal_Conic_1SP"]
+WKT2        : METHOD["Lambert_Conformal_Conic_1SP"]
 Description : Lambert Conformal Conic 1SP
 Authority   : Esri
 Version     : 12.6.0
@@ -936,9 +1027,21 @@ Latest-WKID : 43092
 Macro       : PE_PRJ_LAMBERT_CONFORMAL_CONIC_2SP
 Name        : Lambert_Conformal_Conic_2SP
 WKT         : PROJECTION["Lambert_Conformal_Conic_2SP"]
+WKT2        : METHOD["Lambert_Conformal_Conic_2SP"]
 Description : Lambert Conformal Conic 2SP
 Authority   : Esri
 Version     : 12.6.0
+Deprecated  : no
+
+WKID        : 43093
+Latest-WKID : 43093
+Macro       : PE_PRJ_PLATE_CARREE_OBLIQUE
+Name        : Plate_Carree_Oblique
+WKT         : PROJECTION["Plate_Carree_Oblique"]
+WKT2        : METHOD["Plate_Carree_Oblique"]
+Description : Plate Carree Oblique
+Authority   : Esri
+Version     : 12.9.0
 Deprecated  : no
 
 WKID        : 43102
@@ -946,6 +1049,7 @@ Latest-WKID : 43102
 Macro       : PE_PRJ_EQUIDISTANT_CYLINDRICAL_AUXS
 Name        : Equidistant_Cylindrical_Auxiliary_Sphere
 WKT         : PROJECTION["Equidistant_Cylindrical_Auxiliary_Sphere"]
+WKT2        : METHOD["Equidistant_Cylindrical_Auxiliary_Sphere"]
 Description : Equidistant Cylindrical (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
@@ -956,6 +1060,7 @@ Latest-WKID : 43103
 Macro       : PE_PRJ_MILLER_CYLINDRICAL_AUXS
 Name        : Miller_Cylindrical_Auxiliary_Sphere
 WKT         : PROJECTION["Miller_Cylindrical_Auxiliary_Sphere"]
+WKT2        : METHOD["Miller_Cylindrical_Auxiliary_Sphere"]
 Description : Miller Cylindrical (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
@@ -966,6 +1071,7 @@ Latest-WKID : 43104
 Macro       : PE_PRJ_MERCATOR_AUXS
 Name        : Mercator_Auxiliary_Sphere
 WKT         : PROJECTION["Mercator_Auxiliary_Sphere"]
+WKT2        : METHOD["Mercator_Auxiliary_Sphere"]
 Description : Mercator (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
@@ -976,6 +1082,7 @@ Latest-WKID : 43109
 Macro       : PE_PRJ_MOLLWEIDE_AUXS
 Name        : Mollweide_Auxiliary_Sphere
 WKT         : PROJECTION["Mollweide_Auxiliary_Sphere"]
+WKT2        : METHOD["Mollweide_Auxiliary_Sphere"]
 Description : Mollweide (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
@@ -986,6 +1093,7 @@ Latest-WKID : 43110
 Macro       : PE_PRJ_ECKERT_VI_AUXS
 Name        : Eckert_VI_Auxiliary_Sphere
 WKT         : PROJECTION["Eckert_VI_Auxiliary_Sphere"]
+WKT2        : METHOD["Eckert_VI_Auxiliary_Sphere"]
 Description : Eckert VI (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
@@ -996,6 +1104,7 @@ Latest-WKID : 43112
 Macro       : PE_PRJ_ECKERT_IV_AUXS
 Name        : Eckert_IV_Auxiliary_Sphere
 WKT         : PROJECTION["Eckert_IV_Auxiliary_Sphere"]
+WKT2        : METHOD["Eckert_IV_Auxiliary_Sphere"]
 Description : Eckert IV (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
@@ -1006,6 +1115,7 @@ Latest-WKID : 43126
 Macro       : PE_PRJ_STEREOGRAPHIC_AUXS
 Name        : Stereographic_Auxiliary_Sphere
 WKT         : PROJECTION["Stereographic_Auxiliary_Sphere"]
+WKT2        : METHOD["Stereographic_Auxiliary_Sphere"]
 Description : Stereographic (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
@@ -1016,6 +1126,7 @@ Latest-WKID : 43129
 Macro       : PE_PRJ_VAN_DER_GRINTEN_I_AUXS
 Name        : Van_der_Grinten_I_Auxiliary_Sphere
 WKT         : PROJECTION["Van_der_Grinten_I_Auxiliary_Sphere"]
+WKT2        : METHOD["Van_der_Grinten_I_Auxiliary_Sphere"]
 Description : Van der Grinten I (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
@@ -1026,6 +1137,7 @@ Latest-WKID : 43132
 Macro       : PE_PRJ_AZIMUTHAL_EQUIDISTANT_AUXS
 Name        : Azimuthal_Equidistant_Auxiliary_Sphere
 WKT         : PROJECTION["Azimuthal_Equidistant_Auxiliary_Sphere"]
+WKT2        : METHOD["Azimuthal_Equidistant_Auxiliary_Sphere"]
 Description : Azimuthal Equidistant (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
@@ -1036,9 +1148,21 @@ Latest-WKID : 43133
 Macro       : PE_PRJ_LAMBERT_AZIMUTHAL_EQAREA_AUXS
 Name        : Lambert_Azimuthal_Equal_Area_Auxiliary_Sphere
 WKT         : PROJECTION["Lambert_Azimuthal_Equal_Area_Auxiliary_Sphere"]
+WKT2        : METHOD["Lambert_Azimuthal_Equal_Area_Auxiliary_Sphere"]
 Description : Lambert Azimuthal Equal Area (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
+Deprecated  : no
+
+WKID        : 43137
+Latest-WKID : 43137
+Macro       : PE_PRJ_HOTINE_AZIMUTH_CENTER_SWISS
+Name        : Hotine_Oblique_Mercator_Azimuth_Center_Swiss
+WKT         : PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center_Swiss"]
+WKT2        : METHOD["Hotine_Oblique_Mercator_Azimuth_Center_Swiss"]
+Description : Hotine Azimuth Center Swiss
+Authority   : Esri
+Version     : 12.9.0
 Deprecated  : no
 
 WKID        : 43141
@@ -1046,6 +1170,7 @@ Latest-WKID : 43141
 Macro       : PE_PRJ_ORTHOGRAPHIC_AUXS
 Name        : Orthographic_Auxiliary_Sphere
 WKT         : PROJECTION["Orthographic_Auxiliary_Sphere"]
+WKT2        : METHOD["Orthographic_Auxiliary_Sphere"]
 Description : Orthographic (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
@@ -1056,6 +1181,7 @@ Latest-WKID : 43147
 Macro       : PE_PRJ_GNOMONIC_AUXS
 Name        : Gnomonic_Auxiliary_Sphere
 WKT         : PROJECTION["Gnomonic_Auxiliary_Sphere"]
+WKT2        : METHOD["Gnomonic_Auxiliary_Sphere"]
 Description : Gnomonic (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
