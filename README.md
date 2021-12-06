@@ -11,7 +11,7 @@ known coordinate systems, datums, ellipsoids, units, etc. This database is
 regularly updated and kept in sync with the EPSG database.
 
 This documentation is based on ArcGIS Pro version 2.9.
-Entries taken from EPSG are from the 10.14 version of the EPSG database.
+Entries taken from EPSG are from the 10.32 version of the EPSG database.
 
 ### Contents
 
