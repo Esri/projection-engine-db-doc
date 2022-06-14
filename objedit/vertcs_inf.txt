@@ -132,6 +132,18 @@ PE_VCS_YEMEN_NGN_1996, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "Yemen NGN 1996"
 
+PE_VCS_ATRF2014, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Australia and New Zealand", \
+   "ATRF 2014"
+
+PE_VCS_AGD_1966, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Australia and New Zealand", \
+   "Australian Geodetic Datum 1966"
+
+PE_VCS_AGD_1984, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Australia and New Zealand", \
+   "Australian Geodetic Datum 1984"
+
 PE_VCS_GDA_1994, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Australia and New Zealand", \
    "GDA 1994"
@@ -223,6 +235,10 @@ PE_VCS_SIRGAS_CON_SIR17P01, \
 PE_VCS_BGS2005, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "BGS2005"
+
+PE_VCS_CH1903_PLUS, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "CH1903+"
 
 PE_VCS_DB_REF, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
@@ -704,6 +720,10 @@ PE_VCS_ITRF_1993, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "ITRF 1993"
 
+PE_VCS_ITRF_1994, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "ITRF 1994"
+
 PE_VCS_ITRF_1996, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "ITRF 1996"
@@ -774,11 +794,11 @@ PE_VCS_SA_LLD_HT, \
 
 PE_VCS_AIOC95_DEPTH, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "AIOC95 (Depth)"
+   "AIOC95 depth"
 
 PE_VCS_AIOC95_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "AIOC95 (Height)"
+   "AIOC95 height"
 
 PE_VCS_BANDAR_ABBAS, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -830,7 +850,7 @@ PE_VCS_INAGEOID2020_HEIGHT, \
 
 PE_VCS_INCHEON_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Incheon (Height)"
+   "Incheon height"
 
 PE_VCS_JSLD72_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -890,7 +910,7 @@ PE_VCS_PDO_HEIGHT_DATUM_1993, \
 
 PE_VCS_RAS_GHUMAYS_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Ras Ghumays (Height)"
+   "Ras Ghumays height"
 
 PE_VCS_SHD_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -898,7 +918,7 @@ PE_VCS_SHD_HT, \
 
 PE_VCS_SLVD_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "SLVD (Height)"
+   "SLVD height"
 
 PE_VCS_TWVD_2001_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -1038,7 +1058,7 @@ PE_VCS_BLACK_SEA, \
 
 PE_VCS_BLACK_SEA_D, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Black Sea (Depth)"
+   "Black Sea depth"
 
 PE_VCS_CD_NORWAY_DEPTH, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1118,11 +1138,11 @@ PE_VCS_EVRS_2000, \
 
 PE_VCS_FCSVR10_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "FCSVR10 (Height)"
+   "FCSVR10 height"
 
 PE_VCS_FVR09_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "FVR09 (Height)"
+   "FVR09 height"
 
 PE_VCS_FAMAGUSTA_1960_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1134,7 +1154,7 @@ PE_VCS_GHA, \
 
 PE_VCS_GENOA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Genoa (Height)"
+   "Genoa height"
 
 PE_VCS_HVRS_1971, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1198,7 +1218,7 @@ PE_VCS_NAP, \
 
 PE_VCS_NG_L, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "NG-L"
+   "NG95 height"
 
 PE_VCS_NGC_1948, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1266,7 +1286,7 @@ PE_VCS_SVS2010, \
 
 PE_VCS_TRIESTE_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Trieste (Height)"
+   "Trieste height"
 
 PE_VCS_VIENNA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1678,79 +1698,79 @@ PE_VCS_EGM96_GEOID, \
 
 PE_VCS_HAT_HT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "HAT (Height)"
+   "HAT height"
 
 PE_VCS_HHWLT_HT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "HHWLT (Height)"
+   "HHWLT height"
 
 PE_VCS_HW_HT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "HW (Height)"
+   "HW height"
 
 PE_VCS_ISLW_D, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "ISLW (Depth)"
+   "ISLW depth"
 
 PE_VCS_INST_WATER_LEVEL_D, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "Instantaneous Water Level (Depth)"
+   "Instantaneous Water Level depth"
 
 PE_VCS_INST_WATER_LEVEL_HT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "Instantaneous Water Level (Height)"
+   "Instantaneous Water Level height"
 
 PE_VCS_LAT_D, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "LAT (Depth)"
+   "LAT depth"
 
 PE_VCS_LLWLT_D, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "LLWLT (Depth)"
+   "LLWLT depth"
 
 PE_VCS_LW_D, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "LW (Depth)"
+   "LW depth"
 
 PE_VCS_MHHW_HT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "MHHW (Height)"
+   "MHHW height"
 
 PE_VCS_MHW_HT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "MHW (Height)"
+   "MHW height"
 
 PE_VCS_MHWS_HT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "MHWS (Height)"
+   "MHWS height"
 
 PE_VCS_MLLW_D, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "MLLW (Depth)"
+   "MLLW depth"
 
 PE_VCS_MLLWS_D, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "MLLWS (Depth)"
+   "MLLWS depth"
 
 PE_VCS_MLW_D, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "MLW (Depth)"
+   "MLW depth"
 
 PE_VCS_MLWS_D, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "MLWS (Depth)"
+   "MLWS depth"
 
 PE_VCS_MSL_DEPTH, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "MSL (Depth)"
-
-PE_VCS_MSL_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/World", \
-   "MSL (Height)"
+   "MSL depth"
 
 PE_VCS_MSL_D_FT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
    "MSL depth (ft)"
+
+PE_VCS_MSL_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/World", \
+   "MSL height"
 
 PE_VCS_MSL_HT_FT, \
    "Vertical Coordinate Systems/Gravity-related/World", \

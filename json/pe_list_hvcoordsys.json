@@ -4930,5 +4930,23 @@
       "llon": 96.76,
       "rlon": 153.69
     }
+  },
+  { "wkid": 9897,
+    "latestWkid": 9897,
+    "macro": "PE_HVC_LUREF_LUXEMBOURG_TM_NG95",
+    "name": "HVC_LUREF_Luxembourg_TM_and_NG95",
+    "wkt": "HVCOORDSYS[\"HVC_LUREF_Luxembourg_TM_and_NG95\",PROJCS[\"LUREF_Luxembourg_TM\",GEOGCS[\"GCS_LUREF\",DATUM[\"D_Luxembourg_Reference_Frame\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",80000.0],PARAMETER[\"False_Northing\",100000.0],PARAMETER[\"Central_Meridian\",6.166666666666667],PARAMETER[\"Scale_Factor\",1.0],PARAMETER[\"Latitude_Of_Origin\",49.83333333333334],UNIT[\"Meter\",1.0]],VERTCS[\"NG95_height\",VDATUM[\"Nivellement_General_du_Luxembourg\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]]",
+    "wkt2": "COMPOUNDCRS[\"HVC_LUREF_Luxembourg_TM_and_NG95\",PROJCRS[\"LUREF_Luxembourg_TM\",BASEGEOGCRS[\"GCS_LUREF\",DATUM[\"D_Luxembourg_Reference_Frame\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]],CONVERSION[\"Transverse_Mercator\",METHOD[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",80000.0,LENGTHUNIT[\"Meter\",1.0]],PARAMETER[\"False_Northing\",100000.0,LENGTHUNIT[\"Meter\",1.0]],PARAMETER[\"Central_Meridian\",6.166666666666667,ANGLEUNIT[\"Degree\",0.0174532925199433]],PARAMETER[\"Scale_Factor\",1.0,SCALEUNIT[\"Unity\",1.0]],PARAMETER[\"Latitude_Of_Origin\",49.83333333333334,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CS[Cartesian,2],AXIS[\"Northing (Y)\",north,ORDER[1]],AXIS[\"Easting (X)\",east,ORDER[2]],LENGTHUNIT[\"Meter\",1.0]],VERTCRS[\"NG95_height\",VDATUM[\"Nivellement_General_du_Luxembourg\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]]",
+    "description": "LUREF Luxembourg TM + NG95 height",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "Luxembourg",
+    "extent":
+    { "slat": 49.44,
+      "nlat": 50.19,
+      "llon": 5.73,
+      "rlon": 6.53
+    }
   }
 ] }

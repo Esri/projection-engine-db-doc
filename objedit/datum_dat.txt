@@ -379,6 +379,11 @@ PE_D_GSK_2011, \
    PE_S_GSK_2011,
    ""
 
+PE_D_KYRG_06, \
+   "D_Kyrgyz_Republic_2006", \
+   PE_S_GRS_1980,
+   ""
+
 PE_D_ITRF2014, \
    "International_Terrestrial_Reference_Frame_2014", \
    PE_S_GRS_1980,
@@ -1325,7 +1330,7 @@ PE_D_ESTONIA_1997, \
    ""
 
 PE_D_LUXEMBOURG_1930, \
-   "D_Luxembourg_1930", \
+   "D_Luxembourg_Reference_Frame", \
    PE_S_INTERNATIONAL_1924,
    ""
 
@@ -2859,11 +2864,6 @@ PE_D_SPHERE_AI, \
    PE_S_SPHERE_AI,
    ""
 
-PE_D_KYRG_06, \
-   "D_Kyrgyz_Republic_2006", \
-   PE_S_GRS_1980,
-   ""
-
 PE_D_GEORGIA_GEODETIC_DATUM, \
    "Georgia_Geodetic_Datum", \
    PE_S_GRS_1980,
@@ -3759,6 +3759,121 @@ PE_D_NAD_1983_HARN_ADJ_WI_KW_MT_SG, \
    PE_S_GRS_1980_ADJ_WI_KW_MT_SG,
    ""
 
+PE_D_XT_PHOBOS_2015, \
+   "Phobos_2015", \
+   PE_S_XT_PHOBOS_2015,
+   ""
+
+PE_D_XT_CALLISTO_2015, \
+   "Callisto_2015", \
+   PE_S_XT_CALLISTO_2015,
+   ""
+
+PE_D_XT_EUROPA_2015, \
+   "Europa_2015", \
+   PE_S_XT_EUROPA_2015,
+   ""
+
+PE_D_XT_GANYMEDE_2015, \
+   "Ganymede_2015", \
+   PE_S_XT_GANYMEDE_2015,
+   ""
+
+PE_D_XT_IO_2015, \
+   "Io_2015", \
+   PE_S_XT_IO_2015,
+   ""
+
+PE_D_XT_METIS_2015, \
+   "Metis_2015", \
+   PE_S_XT_METIS_2015,
+   ""
+
+PE_D_XT_AEGAEON_2015, \
+   "Aegaeon_2015", \
+   PE_S_XT_AEGAEON_2015,
+   ""
+
+PE_D_XT_ANTHE_2015, \
+   "Anthe_2015", \
+   PE_S_XT_ANTHE_2015,
+   ""
+
+PE_D_XT_ENCELADUS_2015, \
+   "Enceladus_2015", \
+   PE_S_XT_ENCELADUS_2015,
+   ""
+
+PE_D_XT_EPIMETHEUS_2015, \
+   "Epimetheus_2015", \
+   PE_S_XT_EPIMETHEUS_2015,
+   ""
+
+PE_D_XT_HELENE_2015, \
+   "Helene_2015", \
+   PE_S_XT_HELENE_2015,
+   ""
+
+PE_D_XT_HYPERION_2015, \
+   "Hyperion_2015", \
+   PE_S_XT_HYPERION_2015,
+   ""
+
+PE_D_XT_IAPETUS_2015, \
+   "Iapetus_2015", \
+   PE_S_XT_IAPETUS_2015,
+   ""
+
+PE_D_XT_PANDORA_2015, \
+   "Pandora_2015", \
+   PE_S_XT_PANDORA_2015,
+   ""
+
+PE_D_XT_PHOEBE_2015, \
+   "Phoebe_2015", \
+   PE_S_XT_PHOEBE_2015,
+   ""
+
+PE_D_XT_POLYDEUCES_2015, \
+   "Polydeuces_2015", \
+   PE_S_XT_POLYDEUCES_2015,
+   ""
+
+PE_D_XT_PROMETHEUS_2015, \
+   "Prometheus_2015", \
+   PE_S_XT_PROMETHEUS_2015,
+   ""
+
+PE_D_XT_RHEA_2015, \
+   "Rhea_2015", \
+   PE_S_XT_RHEA_2015,
+   ""
+
+PE_D_XT_TELESTO_2015, \
+   "Telesto_2015", \
+   PE_S_XT_TELESTO_2015,
+   ""
+
+PE_D_XT_TETHYS_2015, \
+   "Tethys_2015", \
+   PE_S_XT_TETHYS_2015,
+   ""
+
+PE_D_XT_LARISSA_2015, \
+   "Larissa_2015", \
+   PE_S_XT_LARISSA_2015,
+   ""
+
+PE_D_XT_PLUTO_2015, \
+   "Pluto_2015", \
+   PE_S_XT_PLUTO_2015,
+   ""
+
+PE_D_XT_CHARON_2015, \
+   "Charon_2015", \
+   PE_S_XT_CHARON_2015,
+   ""
+
 PE_D_XT_MERCURY_2000, \
    "D_Mercury_2000", \
    PE_S_XT_MERCURY_2000,
@@ -4137,5 +4252,50 @@ PE_D_XT_MERCURY_2015, \
 PE_D_XT_SUN_2015, \
    "Sun_2015", \
    PE_S_XT_SUN_2015,
+   ""
+
+PE_D_XT_ATLAS_2015, \
+   "Atlas_2015", \
+   PE_S_XT_ATLAS_2015,
+   ""
+
+PE_D_XT_CALYPSO_2015, \
+   "Calypso_2015", \
+   PE_S_XT_CALYPSO_2015,
+   ""
+
+PE_D_XT_DAPHNIS_2015, \
+   "Daphnis_2015", \
+   PE_S_XT_DAPHNIS_2015,
+   ""
+
+PE_D_XT_DIONE_2015, \
+   "Dione_2015", \
+   PE_S_XT_DIONE_2015,
+   ""
+
+PE_D_XT_JANUS_2015, \
+   "Janus_2015", \
+   PE_S_XT_JANUS_2015,
+   ""
+
+PE_D_XT_METHONE_2015, \
+   "Methone_2015", \
+   PE_S_XT_METHONE_2015,
+   ""
+
+PE_D_XT_MIMAS_2015, \
+   "Mimas_2015", \
+   PE_S_XT_MIMAS_2015,
+   ""
+
+PE_D_XT_PALLENE_2015, \
+   "Pallene_2015", \
+   PE_S_XT_PALLENE_2015,
+   ""
+
+PE_D_XT_PAN_2015, \
+   "Pan_2015", \
+   PE_S_XT_PAN_2015,
    ""
 

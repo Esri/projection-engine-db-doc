@@ -254,13 +254,13 @@
    33.26, 41.75, 18.26, 30.23
 
 1107, "Greenland", \
-   56.38, 87.03, -75.0, 7.99
+   56.38, 87.02, -75.0, 7.99
 
 1108, "Grenada", \
    11.36, 13.4, -63.28, -60.82
 
 1109, "Guadeloupe", \
-   15.06, 18.54, -63.66, -57.54
+   15.06, 18.53, -62.81, -57.54
 
 1110, "Guam", \
    10.95, 15.91, 141.19, 148.18
@@ -476,7 +476,7 @@
    12.38, 23.9, 141.33, 149.55
 
 1182, "Norway", \
-   56.08, 84.73, -3.35, 38.0
+   56.08, 84.72, -3.34, 38.0
 
 1183, "Oman", \
    14.33, 26.74, 51.99, 63.38
@@ -524,7 +524,7 @@
    43.44, 48.27, 20.26, 31.41
 
 1198, "Russia", \
-   39.87, 85.2, 18.92, -168.97
+   39.87, 85.19, 18.92, -168.97
 
 1199, "Rwanda", \
    -2.83, -1.05, 28.85, 30.9
@@ -3941,7 +3941,7 @@
    47.88, 74.71, 167.65, -129.99
 
 2374, "USA - CONUS including EEZ", \
-   23.81, 49.38, -129.17, -65.69
+   23.81, 49.38, -129.16, -65.69
 
 2375, "Canada - Saskatchewan", \
    49.0, 60.01, -110.0, -101.34
@@ -5273,7 +5273,7 @@
    -22.37, -22.19, 166.35, 166.54
 
 2824, "Caribbean - French Antilles", \
-   14.08, 18.54, -63.66, -57.52
+   14.08, 18.53, -63.66, -57.52
 
 2825, "Africa - Ethiopia and Sudan - 30~E to 36~E", \
    3.49, 22.24, 29.99, 36.0
@@ -8177,7 +8177,7 @@
    8.78, 11.63, 9.41, 12.13
 
 3825, "Caribbean - French Antilles west of 60~W", \
-   14.08, 18.32, -63.66, -60.0
+   14.08, 18.31, -63.66, -60.0
 
 3826, "Uruguay - west of 54~W", \
    -36.63, -30.09, -58.49, -54.0
@@ -9065,7 +9065,7 @@
    32.35, 32.93, -17.31, -16.4
 
 4126, "Portugal - Azores E onshore - Santa Maria and Formigas", \
-   36.86, 37.35, -25.26, -24.72
+   36.87, 37.34, -25.26, -24.72
 
 4127, "Nigeria - OML 124", \
    5.56, 5.74, 6.72, 6.97
@@ -10552,6 +10552,123 @@
 4622, "UK - Oxford to Bedford", \
    51.7, 52.24, -1.43, -0.36
 
+4623, "Ukraine - Kyiv city", \
+   50.21, 50.59, 30.23, 30.83
+
+4624, "Ukraine - Cherkasy oblast", \
+   48.45, 50.23, 29.6, 32.89
+
+4625, "Ukraine - Chernihiv oblast", \
+   50.34, 52.38, 30.48, 33.51
+
+4626, "Ukraine - Chernivtsi oblast", \
+   47.72, 48.68, 24.9, 27.53
+
+4627, "Ukraine - Dnipropetrovsk oblast", \
+   47.45, 49.19, 32.95, 36.94
+
+4628, "Ukraine - Donetsk oblast", \
+   46.86, 49.23, 36.54, 39.09
+
+4629, "Ukraine - Ivano-Frankivsk oblast", \
+   47.72, 49.56, 23.53, 25.65
+
+4630, "Ukraine - Kharkiv oblast", \
+   48.52, 50.46, 34.84, 38.1
+
+4631, "Ukraine - Kherson oblast", \
+   45.75, 47.6, 31.51, 35.1
+
+4632, "Ukraine - Khmelnytskyi oblast", \
+   48.45, 50.59, 26.13, 27.9
+
+4633, "Ukraine - Kyiv oblast", \
+   49.17, 51.55, 29.26, 32.16
+
+4634, "Ukraine - Kirovohrad oblast", \
+   47.74, 49.25, 29.74, 33.9
+
+4635, "Ukraine - Luhansk oblast", \
+   47.82, 50.09, 37.83, 40.23
+
+4636, "Ukraine - Lviv oblast", \
+   48.71, 50.65, 22.64, 25.42
+
+4637, "Ukraine - Mykolaiv oblast", \
+   46.36, 48.23, 30.2, 33.18
+
+4638, "Ukraine - Odessa oblast", \
+   45.2, 48.23, 28.21, 31.29
+
+4639, "Ukraine - Poltava oblast", \
+   48.74, 50.55, 32.08, 35.48
+
+4640, "Ukraine - Rivne oblast", \
+   50.0, 51.95, 25.08, 27.73
+
+4641, "Ukraine - Sumy oblast", \
+   50.1, 52.37, 32.93, 35.67
+
+4642, "Ukraine - Ternopil oblast", \
+   48.5, 50.27, 24.71, 26.44
+
+4643, "Ukraine - Vinnytsia oblast", \
+   48.06, 49.89, 27.37, 30.02
+
+4644, "Ukraine - Volyn oblast", \
+   50.28, 51.97, 23.6, 26.1
+
+4645, "Ukraine - Zakarpattia oblast", \
+   47.89, 49.1, 22.13, 24.62
+
+4646, "Ukraine - Zaporizhzhia oblast", \
+   46.07, 48.14, 34.17, 37.24
+
+4647, "Ukraine - Zhytomyr oblast", \
+   49.58, 51.68, 27.19, 29.73
+
+4648, "Ukraine - Crimea", \
+   44.38, 46.24, 32.47, 36.65
+
+4649, "Ukraine - Sevastopol", \
+   44.38, 44.84, 33.37, 33.92
+
+4650, "Ukraine - Kyiv city and oblast", \
+   49.17, 51.55, 29.26, 32.16
+
+4651, "Ukraine - Rivne and Khmelnytskyi oblasts", \
+   48.45, 51.95, 25.08, 27.9
+
+4652, "UK - Cardiff to Lincoln", \
+   51.35, 53.26, -3.27, -0.36
+
+4653, "Papua New Guinea - 156~E to 162~E", \
+   -14.26, -1.11, 156.0, 162.0
+
+4654, "Papua New Guinea - east of 162~E", \
+   -4.35, -2.34, 162.0, 162.8
+
+4655, "UK - Manchester to Dore", \
+   53.25, 53.55, -2.4, -1.39
+
+4656, "Norway - inshore and nearshore", \
+   57.75, 71.38, 4.08, 31.77
+
+4657, "St Martin", \
+   17.87, 18.19, -63.66, -62.73
+
+4658, "St Barthelemy", \
+   17.64, 18.31, -63.1, -62.21
+
+4659, "Italy - mainland west of 16~E", \
+   39.65, 47.09, 6.62, 16.52
+
+4660, "Germany - Hesse", \
+   49.39, 51.66, 7.77, 10.24
+
+4661, "UK - Newport to Ebbw Vale", \
+   51.5, 51.85, -3.3, -2.89
+
 180001, "Australia - Queensland", \
    -29.5, -9.0, 137.5, 154.0
 
@@ -11274,4 +11391,40 @@
 
 180263, "Bangladesh - CHT", \
    21.1833, 23.7334, 91.7, 92.6667
+
+180264, "Australia - New South Wales - 140~E to 142~E (ISG 54/2)", \
+   -46.63, -28.15, 140.0, 142.0
+
+180265, "Australia - New South Wales - 142~E to 144~E (ISG 54/3)", \
+   -46.63, -28.15, 142.0, 144.0
+
+180266, "Australia - New South Wales - 144~E to 146~E (ISG 55/1)", \
+   -47.2, -28.15, 144.0, 146.0
+
+180267, "Australia - New South Wales - 146~E to 148~E (ISG 55/2)", \
+   -47.2, -28.15, 146.0, 148.0
+
+180268, "Australia - New South Wales - 148~E to 150~E (ISG 55/3)", \
+   -47.2, -28.15, 148.0, 150.0
+
+180269, "Australia - New South Wales - 150~E to 152~E (ISG 56/1)", \
+   -46.44, -28.15, 150.0, 152.0
+
+180270, "Australia - New South Wales - 152~E to 154~E (ISG 56/2)", \
+   -46.44, -28.15, 152.0, 154.0
+
+180271, "Australia - New South Wales - 154~E to 156~E (ISG 56/3)", \
+   -46.44, -28.15, 154.0, 156.0
+
+180272, "Australia - Lord Howe Island - 158~E to 160~E (ISG 57/2)", \
+   -47.2, -28.15, 158.0, 160.0
+
+180273, "Australia - Lord Howe and Norfolk Islands onshore", \
+   -32.3333, -28.6333, 158.8, 168.3333
+
+180274, "Moon - Near Side", \
+   -90.0, 90.0, -90.0, 90.0
+
+180275, "Moon - Far Side", \
+   -90.0, 90.0, 90.0, -90.0
 

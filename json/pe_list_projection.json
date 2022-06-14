@@ -1132,17 +1132,6 @@
     "version": "9.3.0.0",
     "deprecated": "no"
   },
-  { "wkid": 43137,
-    "latestWkid": 43137,
-    "macro": "PE_PRJ_HOTINE_AZIMUTH_CENTER_SWISS",
-    "name": "Hotine_Oblique_Mercator_Azimuth_Center_Swiss",
-    "wkt": "PROJECTION[\"Hotine_Oblique_Mercator_Azimuth_Center_Swiss\"]",
-    "wkt2": "METHOD[\"Hotine_Oblique_Mercator_Azimuth_Center_Swiss\"]",
-    "description": "Hotine Azimuth Center Swiss",
-    "authority": "Esri",
-    "version": "12.9.0",
-    "deprecated": "no"
-  },
   { "wkid": 43141,
     "latestWkid": 43141,
     "macro": "PE_PRJ_ORTHOGRAPHIC_AUXS",
@@ -1163,6 +1152,17 @@
     "description": "Gnomonic (Auxiliary Sphere)",
     "authority": "Esri",
     "version": "9.3.0.0",
+    "deprecated": "no"
+  },
+  { "wkid": 43237,
+    "latestWkid": 43237,
+    "macro": "PE_PRJ_HOTINE_AZIMUTH_CENTER_OLD",
+    "name": "Hotine_Oblique_Mercator_Azimuth_Center_Old",
+    "wkt": "PROJECTION[\"Hotine_Oblique_Mercator_Azimuth_Center_Old\"]",
+    "wkt2": "METHOD[\"Hotine_Oblique_Mercator_Azimuth_Center_Old\"]",
+    "description": "Hotine Azimuth Center Old",
+    "authority": "Esri",
+    "version": "13.0.0",
     "deprecated": "no"
   }
 ] }

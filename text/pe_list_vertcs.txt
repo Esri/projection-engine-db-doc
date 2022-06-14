@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2021 Esri Inc.                                            #
+#  Copyright 1999-2022 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -2539,18 +2539,18 @@ Area-rlon   : 180.0
 WKID        : 5774
 Latest-WKID : 5774
 Macro       : PE_VCS_NG_L
-Name        : NG_L
-WKT         : VERTCS["NG_L",
+Name        : NG95_height
+WKT         : VERTCS["NG95_height",
                VDATUM["Nivellement_General_du_Luxembourg"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-WKT2        : VERTCRS["NG_L",
+WKT2        : VERTCRS["NG95_height",
                VDATUM["Nivellement_General_du_Luxembourg"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : NG_L -- Nivellement General du Luxembourg
+Description : NG95 -- Nivellement General du Luxembourg
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
@@ -3875,8 +3875,8 @@ Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
 Area-name   : Portugal - Azores E onshore - Santa Maria and Formigas
-Area-slat   : 36.86
-Area-nlat   : 37.35
+Area-slat   : 36.87
+Area-nlat   : 37.34
 Area-llon   : -25.26
 Area-rlon   : -24.72
 
@@ -6792,7 +6792,7 @@ Version     : 10.4.0
 Deprecated  : no
 Area-name   : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.03
+Area-nlat   : 87.02
 Area-llon   : -75.0
 Area-rlon   : 7.99
 
@@ -8385,7 +8385,7 @@ Version     : 10.4.0
 Deprecated  : no
 Area-name   : Caribbean - French Antilles
 Area-slat   : 14.08
-Area-nlat   : 18.54
+Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
 
@@ -8655,7 +8655,7 @@ Version     : 10.4.0
 Deprecated  : no
 Area-name   : Caribbean - French Antilles
 Area-slat   : 14.08
-Area-nlat   : 18.54
+Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
 
@@ -9348,7 +9348,7 @@ Version     : 10.7.0
 Deprecated  : no
 Area-name   : Russia
 Area-slat   : 39.87
-Area-nlat   : 85.2
+Area-nlat   : 85.19
 Area-llon   : 18.92
 Area-rlon   : -168.97
 
@@ -10998,3 +10998,138 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
+
+WKID        : 115875
+Latest-WKID : 115875
+Macro       : PE_VCS_CH1903_PLUS
+Name        : CH1903+
+WKT         : VERTCS["CH1903+",
+               DATUM["D_CH1903+",
+                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["CH1903+",
+               DATUM["D_CH1903+",
+                ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Swiss, CH 1903+ ellipsoid height
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.82
+Area-nlat   : 47.81
+Area-llon   : 5.96
+Area-rlon   : 10.49
+
+WKID        : 115876
+Latest-WKID : 115876
+Macro       : PE_VCS_ATRF2014
+Name        : ATRF2014
+WKT         : VERTCS["ATRF2014",
+               DATUM["Australian_Terrestrial_Reference_Frame_2014",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ATRF2014",
+               DATUM["Australian_Terrestrial_Reference_Frame_2014",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Australia, ATRF 2014 ellipsoid height
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : Australia - GDA
+Area-slat   : -60.55
+Area-nlat   : -8.47
+Area-llon   : 93.41
+Area-rlon   : 173.34
+
+WKID        : 115877
+Latest-WKID : 115877
+Macro       : PE_VCS_AGD_1984
+Name        : Australian_1984
+WKT         : VERTCS["Australian_1984",
+               DATUM["D_Australian_1984",
+                SPHEROID["Australian", 6378160.0, 298.25]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Australian_1984",
+               DATUM["D_Australian_1984",
+                ELLIPSOID["Australian", 6378160.0, 298.25,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Australian Geodetic Datum 1984 ellipsoid height
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : Australia - AGD84
+Area-slat   : -38.53
+Area-nlat   : -9.37
+Area-llon   : 109.23
+Area-rlon   : 153.61
+
+WKID        : 115878
+Latest-WKID : 115878
+Macro       : PE_VCS_AGD_1966
+Name        : Australian_1966
+WKT         : VERTCS["Australian_1966",
+               DATUM["D_Australian_1966",
+                SPHEROID["Australian", 6378160.0, 298.25]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Australian_1966",
+               DATUM["D_Australian_1966",
+                ELLIPSOID["Australian", 6378160.0, 298.25,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Australian Geodetic Datum 1966 ellipsoid height
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : Australasia - Australia and PNG - AGD66
+Area-slat   : -47.2
+Area-nlat   : -1.3
+Area-llon   : 109.23
+Area-rlon   : 163.2
+
+WKID        : 115879
+Latest-WKID : 115879
+Macro       : PE_VCS_ITRF_1994
+Name        : ITRF_1994
+WKT         : VERTCS["ITRF_1994",
+               DATUM["D_ITRF_1994",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ITRF_1994",
+               DATUM["D_ITRF_1994",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ITRF 1994 ellipsoid height
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0

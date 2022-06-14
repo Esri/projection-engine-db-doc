@@ -2072,10 +2072,10 @@
   { "wkid": 4181,
     "latestWkid": 4181,
     "macro": "PE_GCS_LUXEMBOURG_1930",
-    "name": "GCS_Luxembourg_1930",
-    "wkt": "GEOGCS[\"GCS_Luxembourg_1930\",DATUM[\"D_Luxembourg_1930\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"GCS_Luxembourg_1930\",DATUM[\"D_Luxembourg_1930\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
-    "description": "Luxembourg 1930",
+    "name": "GCS_LUREF",
+    "wkt": "GEOGCS[\"GCS_LUREF\",DATUM[\"D_Luxembourg_Reference_Frame\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_LUREF\",DATUM[\"D_Luxembourg_Reference_Frame\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "LUREF",
     "authority": "EPSG",
     "version": "6.5(9.0.0)",
     "deprecated": "no",
@@ -2388,7 +2388,7 @@
     "areaname": "Russia",
     "extent":
     { "slat": 39.87,
-      "nlat": 85.2,
+      "nlat": 85.19,
       "llon": 18.92,
       "rlon": -168.97
     }
@@ -3459,8 +3459,8 @@
     "latestWkid": 4261,
     "macro": "PE_GCS_MERCHICH",
     "name": "GCS_Merchich",
-    "wkt": "GEOGCS[\"GCS_Merchich\",DATUM[\"D_Merchich\",SPHEROID[\"Clarke_1880_IGN\",6378249.2,293.4660212936265]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Grad\",0.01570796326794897]]",
-    "wkt2": "GEOGCRS[\"GCS_Merchich\",DATUM[\"D_Merchich\",ELLIPSOID[\"Clarke_1880_IGN\",6378249.2,293.4660212936265,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Grad\",0.01570796326794897]]",
+    "wkt": "GEOGCS[\"GCS_Merchich\",DATUM[\"D_Merchich\",SPHEROID[\"Clarke_1880_IGN\",6378249.2,293.4660212936265]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_Merchich\",DATUM[\"D_Merchich\",ELLIPSOID[\"Clarke_1880_IGN\",6378249.2,293.4660212936265,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "Merchich",
     "authority": "EPSG",
     "version": "6.5(3.0.1)",
@@ -3936,7 +3936,7 @@
     "areaname": "Greenland",
     "extent":
     { "slat": 56.38,
-      "nlat": 87.03,
+      "nlat": 87.02,
       "llon": -75.0,
       "rlon": 7.99
     }
@@ -4764,7 +4764,7 @@
     "areaname": "Caribbean - French Antilles",
     "extent":
     { "slat": 14.08,
-      "nlat": 18.54,
+      "nlat": 18.53,
       "llon": -63.66,
       "rlon": -57.52
     }
@@ -4782,7 +4782,7 @@
     "areaname": "Caribbean - French Antilles",
     "extent":
     { "slat": 14.08,
-      "nlat": 18.54,
+      "nlat": 18.53,
       "llon": -63.66,
       "rlon": -57.52
     }
@@ -7176,7 +7176,7 @@
     "areaname": "Greenland",
     "extent":
     { "slat": 56.38,
-      "nlat": 87.03,
+      "nlat": 87.02,
       "llon": -75.0,
       "rlon": 7.99
     }
@@ -8184,7 +8184,7 @@
     "areaname": "Greenland",
     "extent":
     { "slat": 56.38,
-      "nlat": 87.03,
+      "nlat": 87.02,
       "llon": -75.0,
       "rlon": 7.99
     }
@@ -9444,7 +9444,7 @@
     "areaname": "Caribbean - French Antilles",
     "extent":
     { "slat": 14.08,
-      "nlat": 18.54,
+      "nlat": 18.53,
       "llon": -63.66,
       "rlon": -57.52
     }
@@ -9462,7 +9462,7 @@
     "areaname": "Caribbean - French Antilles",
     "extent":
     { "slat": 14.08,
-      "nlat": 18.54,
+      "nlat": 18.53,
       "llon": -63.66,
       "rlon": -57.52
     }
@@ -10452,7 +10452,7 @@
     "areaname": "Caribbean - French Antilles",
     "extent":
     { "slat": 14.08,
-      "nlat": 18.54,
+      "nlat": 18.53,
       "llon": -63.66,
       "rlon": -57.52
     }
@@ -10470,7 +10470,7 @@
     "areaname": "Caribbean - French Antilles",
     "extent":
     { "slat": 14.08,
-      "nlat": 18.54,
+      "nlat": 18.53,
       "llon": -63.66,
       "rlon": -57.52
     }
@@ -10758,7 +10758,7 @@
     "areaname": "Russia",
     "extent":
     { "slat": 39.87,
-      "nlat": 85.2,
+      "nlat": 85.19,
       "llon": 18.92,
       "rlon": -168.97
     }
@@ -10776,7 +10776,7 @@
     "areaname": "Russia",
     "extent":
     { "slat": 39.87,
-      "nlat": 85.2,
+      "nlat": 85.19,
       "llon": 18.92,
       "rlon": -168.97
     }
@@ -20069,6 +20069,150 @@
       "rlon": -86.25
     }
   },
+  { "wkid": 104872,
+    "latestWkid": 104872,
+    "macro": "PE_GCS_XT_PHOBOS_2015",
+    "name": "Phobos_2015",
+    "wkt": "GEOGCS[\"Phobos_2015\",DATUM[\"Phobos_2015\",SPHEROID[\"Phobos_2015\",11080.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Phobos_2015\",DATUM[\"Phobos_2015\",ELLIPSOID[\"Phobos_2015\",11080.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Mars - Phobos IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104873,
+    "latestWkid": 104873,
+    "macro": "PE_GCS_XT_CALLISTO_2015",
+    "name": "Callisto_2015",
+    "wkt": "GEOGCS[\"Callisto_2015\",DATUM[\"Callisto_2015\",SPHEROID[\"Callisto_2015\",2410300.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Callisto_2015\",DATUM[\"Callisto_2015\",ELLIPSOID[\"Callisto_2015\",2410300.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Jupiter - Callisto IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104874,
+    "latestWkid": 104874,
+    "macro": "PE_GCS_XT_EUROPA_2015",
+    "name": "Europa_2015",
+    "wkt": "GEOGCS[\"Europa_2015\",DATUM[\"Europa_2015\",SPHEROID[\"Europa_2015\",1560800.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Europa_2015\",DATUM[\"Europa_2015\",ELLIPSOID[\"Europa_2015\",1560800.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Jupiter - Europa IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104875,
+    "latestWkid": 104875,
+    "macro": "PE_GCS_XT_GANYMEDE_2015",
+    "name": "Ganymede_2015",
+    "wkt": "GEOGCS[\"Ganymede_2015\",DATUM[\"Ganymede_2015\",SPHEROID[\"Ganymede_2015\",2631200.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Ganymede_2015\",DATUM[\"Ganymede_2015\",ELLIPSOID[\"Ganymede_2015\",2631200.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Jupiter - Ganymede IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104876,
+    "latestWkid": 104876,
+    "macro": "PE_GCS_XT_IO_2015",
+    "name": "Io_2015",
+    "wkt": "GEOGCS[\"Io_2015\",DATUM[\"Io_2015\",SPHEROID[\"Io_2015\",1821490.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Io_2015\",DATUM[\"Io_2015\",ELLIPSOID[\"Io_2015\",1821490.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Jupiter - Io IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104877,
+    "latestWkid": 104877,
+    "macro": "PE_GCS_XT_METIS_2015",
+    "name": "Metis_2015",
+    "wkt": "GEOGCS[\"Metis_2015\",DATUM[\"Metis_2015\",SPHEROID[\"Metis_2015\",21500.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Metis_2015\",DATUM[\"Metis_2015\",ELLIPSOID[\"Metis_2015\",21500.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Jupiter - Metis IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104878,
+    "latestWkid": 104878,
+    "macro": "PE_GCS_XT_AEGAEON_2015",
+    "name": "Aegaeon_2015",
+    "wkt": "GEOGCS[\"Aegaeon_2015\",DATUM[\"Aegaeon_2015\",SPHEROID[\"Aegaeon_2015\",330.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Aegaeon_2015\",DATUM[\"Aegaeon_2015\",ELLIPSOID[\"Aegaeon_2015\",330.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Aegaeon IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104879,
+    "latestWkid": 104879,
+    "macro": "PE_GCS_XT_ANTHE_2015",
+    "name": "Anthe_2015",
+    "wkt": "GEOGCS[\"Anthe_2015\",DATUM[\"Anthe_2015\",SPHEROID[\"Anthe_2015\",500.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Anthe_2015\",DATUM[\"Anthe_2015\",ELLIPSOID[\"Anthe_2015\",500.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Anthe IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
   { "wkid": 104896,
     "latestWkid": 8998,
     "macro": "PE_GCS_ITRF_2005",
@@ -20079,6 +20223,60 @@
     "authority": "Esri",
     "version": "10.0.0",
     "deprecated": "yes",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104897,
+    "latestWkid": 104897,
+    "macro": "PE_GCS_XT_PANDORA_2015",
+    "name": "Pandora_2015",
+    "wkt": "GEOGCS[\"Pandora_2015\",DATUM[\"Pandora_2015\",SPHEROID[\"Pandora_2015\",40600.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Pandora_2015\",DATUM[\"Pandora_2015\",ELLIPSOID[\"Pandora_2015\",40600.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Pandora IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104898,
+    "latestWkid": 104898,
+    "macro": "PE_GCS_XT_PHOEBE_2015",
+    "name": "Phoebe_2015",
+    "wkt": "GEOGCS[\"Phoebe_2015\",DATUM[\"Phoebe_2015\",SPHEROID[\"Phoebe_2015\",106500.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Phoebe_2015\",DATUM[\"Phoebe_2015\",ELLIPSOID[\"Phoebe_2015\",106500.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Phoebe IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104899,
+    "latestWkid": 104899,
+    "macro": "PE_GCS_XT_POLYDEUCES_2015",
+    "name": "Polydeuces_2015",
+    "wkt": "GEOGCS[\"Polydeuces_2015\",DATUM[\"Polydeuces_2015\",SPHEROID[\"Polydeuces_2015\",1300.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Polydeuces_2015\",DATUM[\"Polydeuces_2015\",ELLIPSOID[\"Polydeuces_2015\",1300.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Polydeuces IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -21455,6 +21653,258 @@
       "rlon": 180.0
     }
   },
+  { "wkid": 104976,
+    "latestWkid": 104976,
+    "macro": "PE_GCS_XT_ATLAS_2015",
+    "name": "Atlas_2015",
+    "wkt": "GEOGCS[\"Atlas_2015\",DATUM[\"Atlas_2015\",SPHEROID[\"Atlas_2015\",15100.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Atlas_2015\",DATUM[\"Atlas_2015\",ELLIPSOID[\"Atlas_2015\",15100.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Atlas IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104977,
+    "latestWkid": 104977,
+    "macro": "PE_GCS_XT_CALYPSO_2015",
+    "name": "Calypso_2015",
+    "wkt": "GEOGCS[\"Calypso_2015\",DATUM[\"Calypso_2015\",SPHEROID[\"Calypso_2015\",9600.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Calypso_2015\",DATUM[\"Calypso_2015\",ELLIPSOID[\"Calypso_2015\",9600.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Calypso IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104978,
+    "latestWkid": 104978,
+    "macro": "PE_GCS_XT_DAPHNIS_2015",
+    "name": "Daphnis_2015",
+    "wkt": "GEOGCS[\"Daphnis_2015\",DATUM[\"Daphnis_2015\",SPHEROID[\"Daphnis_2015\",3800.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Daphnis_2015\",DATUM[\"Daphnis_2015\",ELLIPSOID[\"Daphnis_2015\",3800.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Daphnis IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104979,
+    "latestWkid": 104979,
+    "macro": "PE_GCS_XT_DIONE_2015",
+    "name": "Dione_2015",
+    "wkt": "GEOGCS[\"Dione_2015\",DATUM[\"Dione_2015\",SPHEROID[\"Dione_2015\",561400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Dione_2015\",DATUM[\"Dione_2015\",ELLIPSOID[\"Dione_2015\",561400.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Dione IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104980,
+    "latestWkid": 104980,
+    "macro": "PE_GCS_XT_ENCELADUS_2015",
+    "name": "Enceladus_2015",
+    "wkt": "GEOGCS[\"Enceladus_2015\",DATUM[\"Enceladus_2015\",SPHEROID[\"Enceladus_2015\",252100.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Enceladus_2015\",DATUM[\"Enceladus_2015\",ELLIPSOID[\"Enceladus_2015\",252100.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Enceladus IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104981,
+    "latestWkid": 104981,
+    "macro": "PE_GCS_XT_EPIMETHEUS_2015",
+    "name": "Epimetheus_2015",
+    "wkt": "GEOGCS[\"Epimetheus_2015\",DATUM[\"Epimetheus_2015\",SPHEROID[\"Epimetheus_2015\",58200.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Epimetheus_2015\",DATUM[\"Epimetheus_2015\",ELLIPSOID[\"Epimetheus_2015\",58200.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Epimetheus IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104982,
+    "latestWkid": 104982,
+    "macro": "PE_GCS_XT_HELENE_2015",
+    "name": "Helene_2015",
+    "wkt": "GEOGCS[\"Helene_2015\",DATUM[\"Helene_2015\",SPHEROID[\"Helene_2015\",18000.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Helene_2015\",DATUM[\"Helene_2015\",ELLIPSOID[\"Helene_2015\",18000.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Helene IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104983,
+    "latestWkid": 104983,
+    "macro": "PE_GCS_XT_HYPERION_2015",
+    "name": "Hyperion_2015",
+    "wkt": "GEOGCS[\"Hyperion_2015\",DATUM[\"Hyperion_2015\",SPHEROID[\"Hyperion_2015\",135000.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Hyperion_2015\",DATUM[\"Hyperion_2015\",ELLIPSOID[\"Hyperion_2015\",135000.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Hyperion IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104984,
+    "latestWkid": 104984,
+    "macro": "PE_GCS_XT_IAPETUS_2015",
+    "name": "Iapetus_2015",
+    "wkt": "GEOGCS[\"Iapetus_2015\",DATUM[\"Iapetus_2015\",SPHEROID[\"Iapetus_2015\",745700.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Iapetus_2015\",DATUM[\"Iapetus_2015\",ELLIPSOID[\"Iapetus_2015\",745700.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Iapetus IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104985,
+    "latestWkid": 104985,
+    "macro": "PE_GCS_XT_JANUS_2015",
+    "name": "Janus_2015",
+    "wkt": "GEOGCS[\"Janus_2015\",DATUM[\"Janus_2015\",SPHEROID[\"Janus_2015\",89200.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Janus_2015\",DATUM[\"Janus_2015\",ELLIPSOID[\"Janus_2015\",89200.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Janus IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104986,
+    "latestWkid": 104986,
+    "macro": "PE_GCS_XT_METHONE_2015",
+    "name": "Methone_2015",
+    "wkt": "GEOGCS[\"Methone_2015\",DATUM[\"Methone_2015\",SPHEROID[\"Methone_2015\",1450.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Methone_2015\",DATUM[\"Methone_2015\",ELLIPSOID[\"Methone_2015\",1450.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Methone IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104987,
+    "latestWkid": 104987,
+    "macro": "PE_GCS_XT_MIMAS_2015",
+    "name": "Mimas_2015",
+    "wkt": "GEOGCS[\"Mimas_2015\",DATUM[\"Mimas_2015\",SPHEROID[\"Mimas_2015\",198200.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Mimas_2015\",DATUM[\"Mimas_2015\",ELLIPSOID[\"Mimas_2015\",198200.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Mimas IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104988,
+    "latestWkid": 104988,
+    "macro": "PE_GCS_XT_PALLENE_2015",
+    "name": "Pallene_2015",
+    "wkt": "GEOGCS[\"Pallene_2015\",DATUM[\"Pallene_2015\",SPHEROID[\"Pallene_2015\",2230.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Pallene_2015\",DATUM[\"Pallene_2015\",ELLIPSOID[\"Pallene_2015\",2230.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Pallene IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104989,
+    "latestWkid": 104989,
+    "macro": "PE_GCS_XT_PAN_2015",
+    "name": "Pan_2015",
+    "wkt": "GEOGCS[\"Pan_2015\",DATUM[\"Pan_2015\",SPHEROID[\"Pan_2015\",14000.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Pan_2015\",DATUM[\"Pan_2015\",ELLIPSOID[\"Pan_2015\",14000.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Pan IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
   { "wkid": 104990,
     "latestWkid": 3819,
     "macro": "PE_GCS_HD1909",
@@ -21507,6 +21957,132 @@
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 23.04
+    }
+  },
+  { "wkid": 104993,
+    "latestWkid": 104993,
+    "macro": "PE_GCS_XT_PROMETHEUS_2015",
+    "name": "Prometheus_2015",
+    "wkt": "GEOGCS[\"Prometheus_2015\",DATUM[\"Prometheus_2015\",SPHEROID[\"Prometheus_2015\",43100.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Prometheus_2015\",DATUM[\"Prometheus_2015\",ELLIPSOID[\"Prometheus_2015\",43100.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Prometheus IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104994,
+    "latestWkid": 104994,
+    "macro": "PE_GCS_XT_RHEA_2015",
+    "name": "Rhea_2015",
+    "wkt": "GEOGCS[\"Rhea_2015\",DATUM[\"Rhea_2015\",SPHEROID[\"Rhea_2015\",763500.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Rhea_2015\",DATUM[\"Rhea_2015\",ELLIPSOID[\"Rhea_2015\",763500.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Rhea IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104995,
+    "latestWkid": 104995,
+    "macro": "PE_GCS_XT_TELESTO_2015",
+    "name": "Telesto_2015",
+    "wkt": "GEOGCS[\"Telesto_2015\",DATUM[\"Telesto_2015\",SPHEROID[\"Telesto_2015\",12400.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Telesto_2015\",DATUM[\"Telesto_2015\",ELLIPSOID[\"Telesto_2015\",12400.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Telesto IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104996,
+    "latestWkid": 104996,
+    "macro": "PE_GCS_XT_TETHYS_2015",
+    "name": "Tethys_2015",
+    "wkt": "GEOGCS[\"Tethys_2015\",DATUM[\"Tethys_2015\",SPHEROID[\"Tethys_2015\",531000.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Tethys_2015\",DATUM[\"Tethys_2015\",ELLIPSOID[\"Tethys_2015\",531000.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saturn - Tethys IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104997,
+    "latestWkid": 104997,
+    "macro": "PE_GCS_XT_LARISSA_2015",
+    "name": "Larissa_2015",
+    "wkt": "GEOGCS[\"Larissa_2015\",DATUM[\"Larissa_2015\",SPHEROID[\"Larissa_2015\",96000.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Larissa_2015\",DATUM[\"Larissa_2015\",ELLIPSOID[\"Larissa_2015\",96000.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Neptune - Larissa IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104998,
+    "latestWkid": 104998,
+    "macro": "PE_GCS_XT_PLUTO_2015",
+    "name": "Pluto_2015",
+    "wkt": "GEOGCS[\"Pluto_2015\",DATUM[\"Pluto_2015\",SPHEROID[\"Pluto_2015\",1188300.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Pluto_2015\",DATUM[\"Pluto_2015\",ELLIPSOID[\"Pluto_2015\",1188300.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Pluto IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 104999,
+    "latestWkid": 104999,
+    "macro": "PE_GCS_XT_CHARON_2015",
+    "name": "Charon_2015",
+    "wkt": "GEOGCS[\"Charon_2015\",DATUM[\"Charon_2015\",SPHEROID[\"Charon_2015\",606000.0,0.0]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Charon_2015\",DATUM[\"Charon_2015\",ELLIPSOID[\"Charon_2015\",606000.0,0.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Reference_Meridian\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Pluto - Charon IAU 2015",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
     }
   }
 ] }

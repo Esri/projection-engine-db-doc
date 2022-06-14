@@ -102,7 +102,7 @@ PE_GCS_JGD_2011_3D, \
 
 PE_GCS_KSA_GRF17_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
-   "KSA-GRF17 (3D)"
+   "KSA-GRF17 3D"
 
 PE_GCS_KOREA_2000_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
@@ -158,7 +158,7 @@ PE_GCS_SLD99_3D, \
 
 PE_GCS_SRGI2013_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
-   "SRGI2013 (3D)"
+   "SRGI2013 3D"
 
 PE_GCS_TWD_1997_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
@@ -194,7 +194,7 @@ PE_GCS_ST_HELENA_TRITAN_3D, \
 
 PE_GCS_ATRF2014_3D, \
    "Geographic Coordinate Systems/3D/Australia and New Zealand", \
-   "ATRF2014 (3D)"
+   "ATRF2014 3D"
 
 PE_GCS_GDA_1994_3D, \
    "Geographic Coordinate Systems/3D/Australia and New Zealand", \
@@ -298,7 +298,7 @@ PE_GCS_ETRF_2014_3D, \
 
 PE_GCS_ETRF2000_PL_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF2000-PL (3D)"
+   "ETRF2000-PL 3D"
 
 PE_GCS_ETRS_1989_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
@@ -358,7 +358,7 @@ PE_GCS_LKS_1994_3D, \
 
 PE_GCS_LTF2004G_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
-   "LTF2004(G) (3D)"
+   "LTF2004(G) 3D"
 
 PE_GCS_MOLDREF99_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
@@ -594,7 +594,7 @@ PE_GCS_PERU96_3D, \
 
 PE_GCS_REDGEOMIN_3D, \
    "Geographic Coordinate Systems/3D/South America", \
-   "REDGEOMIN (3D)"
+   "REDGEOMIN 3D"
 
 PE_GCS_REGVEN_3D, \
    "Geographic Coordinate Systems/3D/South America", \
@@ -734,7 +734,7 @@ PE_GCS_IGB08_3D, \
 
 PE_GCS_IGB14_3D, \
    "Geographic Coordinate Systems/3D/World", \
-   "IGb14 (3D)"
+   "IGb14 3D"
 
 PE_GCS_ITRF_1988_3D, \
    "Geographic Coordinate Systems/3D/World", \
@@ -2600,6 +2600,10 @@ PE_GCS_LTF2004G, \
    "Geographic Coordinate Systems/Europe", \
    "LTF2004(G)"
 
+PE_GCS_LUXEMBOURG_1930, \
+   "Geographic Coordinate Systems/Europe", \
+   "LUREF"
+
 PE_GCS_LISBON, \
    "Geographic Coordinate Systems/Europe", \
    "Lisbon"
@@ -2615,10 +2619,6 @@ PE_GCS_LISBON_1890, \
 PE_GCS_LISBON_1890_LISBON, \
    "Geographic Coordinate Systems/Europe", \
    "Lisbon 1890 (Lisbon)"
-
-PE_GCS_LUXEMBOURG_1930, \
-   "Geographic Coordinate Systems/Europe", \
-   "Luxembourg 1930"
 
 PE_GCS_MGI_FERRO, \
    "Geographic Coordinate Systems/Europe", \
@@ -3080,14 +3080,6 @@ PE_GCS_ST_PAUL_ISLAND, \
    "Geographic Coordinate Systems/North America/USA and territories", \
    "St. Paul Island"
 
-PE_GCS_RGWF96, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "RGWF96"
-
-PE_GCS_RGWF96_LON_LAT, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "RGWF96 (lon-lat)"
-
 PE_GCS_ALASKAN_ISLANDS, \
    "Geographic Coordinate Systems/Pacific Ocean", \
    "Alaskan Islands"
@@ -3248,6 +3240,14 @@ PE_GCS_RGPF, \
    "Geographic Coordinate Systems/Pacific Ocean", \
    "RGPF"
 
+PE_GCS_RGWF96, \
+   "Geographic Coordinate Systems/Pacific Ocean", \
+   "RGWF96"
+
+PE_GCS_RGWF96_LON_LAT, \
+   "Geographic Coordinate Systems/Pacific Ocean", \
+   "RGWF96 (lon-lat)"
+
 PE_GCS_ST71_BELEP, \
    "Geographic Coordinate Systems/Pacific Ocean", \
    "ST71 Belep"
@@ -3340,6 +3340,10 @@ PE_GCS_XT_CALLISTO_2000, \
    "Geographic Coordinate Systems/Solar System/Jupiter", \
    "Callisto 2000"
 
+PE_GCS_XT_CALLISTO_2015, \
+   "Geographic Coordinate Systems/Solar System/Jupiter", \
+   "Callisto 2015"
+
 PE_GCS_XT_CARME_2000, \
    "Geographic Coordinate Systems/Solar System/Jupiter", \
    "Carme 2000"
@@ -3352,9 +3356,17 @@ PE_GCS_XT_EUROPA_2000, \
    "Geographic Coordinate Systems/Solar System/Jupiter", \
    "Europa 2000"
 
+PE_GCS_XT_EUROPA_2015, \
+   "Geographic Coordinate Systems/Solar System/Jupiter", \
+   "Europa 2015"
+
 PE_GCS_XT_GANYMEDE_2000, \
    "Geographic Coordinate Systems/Solar System/Jupiter", \
    "Ganymede 2000"
+
+PE_GCS_XT_GANYMEDE_2015, \
+   "Geographic Coordinate Systems/Solar System/Jupiter", \
+   "Ganymede 2015"
 
 PE_GCS_XT_HIMALIA_2000, \
    "Geographic Coordinate Systems/Solar System/Jupiter", \
@@ -3363,6 +3375,10 @@ PE_GCS_XT_HIMALIA_2000, \
 PE_GCS_XT_IO_2000, \
    "Geographic Coordinate Systems/Solar System/Jupiter", \
    "Io 2000"
+
+PE_GCS_XT_IO_2015, \
+   "Geographic Coordinate Systems/Solar System/Jupiter", \
+   "Io 2015"
 
 PE_GCS_XT_JUPITER_2000, \
    "Geographic Coordinate Systems/Solar System/Jupiter", \
@@ -3379,6 +3395,10 @@ PE_GCS_XT_LYSITHEA_2000, \
 PE_GCS_XT_METIS_2000, \
    "Geographic Coordinate Systems/Solar System/Jupiter", \
    "Metis 2000"
+
+PE_GCS_XT_METIS_2015, \
+   "Geographic Coordinate Systems/Solar System/Jupiter", \
+   "Metis 2015"
 
 PE_GCS_XT_PASIPHAE_2000, \
    "Geographic Coordinate Systems/Solar System/Jupiter", \
@@ -3412,6 +3432,10 @@ PE_GCS_XT_PHOBOS_2000, \
    "Geographic Coordinate Systems/Solar System/Mars", \
    "Phobos 2000"
 
+PE_GCS_XT_PHOBOS_2015, \
+   "Geographic Coordinate Systems/Solar System/Mars", \
+   "Phobos 2015"
+
 PE_GCS_XT_MERCURY_2000, \
    "Geographic Coordinate Systems/Solar System/Mercury", \
    "Mercury 2000"
@@ -3431,6 +3455,10 @@ PE_GCS_XT_GALATEA_2000, \
 PE_GCS_XT_LARISSA_2000, \
    "Geographic Coordinate Systems/Solar System/Neptune", \
    "Larissa 2000"
+
+PE_GCS_XT_LARISSA_2015, \
+   "Geographic Coordinate Systems/Solar System/Neptune", \
+   "Larissa 2015"
 
 PE_GCS_XT_NAIAD_2000, \
    "Geographic Coordinate Systems/Solar System/Neptune", \
@@ -3460,69 +3488,161 @@ PE_GCS_XT_CHARON_2000, \
    "Geographic Coordinate Systems/Solar System/Pluto", \
    "Charon 2000"
 
+PE_GCS_XT_CHARON_2015, \
+   "Geographic Coordinate Systems/Solar System/Pluto", \
+   "Charon 2015"
+
 PE_GCS_XT_PLUTO_2000, \
    "Geographic Coordinate Systems/Solar System/Pluto", \
    "Pluto 2000"
+
+PE_GCS_XT_PLUTO_2015, \
+   "Geographic Coordinate Systems/Solar System/Pluto", \
+   "Pluto 2015"
+
+PE_GCS_XT_AEGAEON_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Aegaeon 2015"
+
+PE_GCS_XT_ANTHE_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Anthe 2015"
 
 PE_GCS_XT_ATLAS_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Atlas 2000"
 
+PE_GCS_XT_ATLAS_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Atlas 2015"
+
 PE_GCS_XT_CALYPSO_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Calypso 2000"
+
+PE_GCS_XT_CALYPSO_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Calypso 2015"
+
+PE_GCS_XT_DAPHNIS_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Daphnis 2015"
 
 PE_GCS_XT_DIONE_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Dione 2000"
 
+PE_GCS_XT_DIONE_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Dione 2015"
+
 PE_GCS_XT_ENCELADUS_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Enceladus 2000"
+
+PE_GCS_XT_ENCELADUS_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Enceladus 2015"
 
 PE_GCS_XT_EPIMETHEUS_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Epimetheus 2000"
 
+PE_GCS_XT_EPIMETHEUS_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Epimetheus 2015"
+
 PE_GCS_XT_HELENE_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Helene 2000"
+
+PE_GCS_XT_HELENE_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Helene 2015"
 
 PE_GCS_XT_HYPERION_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Hyperion 2000"
 
+PE_GCS_XT_HYPERION_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Hyperion 2015"
+
 PE_GCS_XT_IAPETUS_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Iapetus 2000"
+
+PE_GCS_XT_IAPETUS_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Iapetus 2015"
 
 PE_GCS_XT_JANUS_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Janus 2000"
 
+PE_GCS_XT_JANUS_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Janus 2015"
+
+PE_GCS_XT_METHONE_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Methone 2015"
+
 PE_GCS_XT_MIMAS_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Mimas 2000"
+
+PE_GCS_XT_MIMAS_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Mimas 2015"
+
+PE_GCS_XT_PALLENE_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Pallene 2015"
 
 PE_GCS_XT_PAN_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Pan 2000"
 
+PE_GCS_XT_PAN_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Pan 2015"
+
 PE_GCS_XT_PANDORA_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Pandora 2000"
+
+PE_GCS_XT_PANDORA_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Pandora 2015"
 
 PE_GCS_XT_PHOEBE_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Phoebe 2000"
 
+PE_GCS_XT_PHOEBE_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Phoebe 2015"
+
+PE_GCS_XT_POLYDEUCES_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Polydeuces 2015"
+
 PE_GCS_XT_PROMETHEUS_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Prometheus 2000"
 
+PE_GCS_XT_PROMETHEUS_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Prometheus 2015"
+
 PE_GCS_XT_RHEA_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Rhea 2000"
+
+PE_GCS_XT_RHEA_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Rhea 2015"
 
 PE_GCS_XT_SATURN_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
@@ -3532,9 +3652,17 @@ PE_GCS_XT_TELESTO_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Telesto 2000"
 
+PE_GCS_XT_TELESTO_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Telesto 2015"
+
 PE_GCS_XT_TETHYS_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \
    "Tethys 2000"
+
+PE_GCS_XT_TETHYS_2015, \
+   "Geographic Coordinate Systems/Solar System/Saturn", \
+   "Tethys 2015"
 
 PE_GCS_XT_TITAN_2000, \
    "Geographic Coordinate Systems/Solar System/Saturn", \

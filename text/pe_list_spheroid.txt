@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2021 Esri Inc.                                            #
+#  Copyright 1999-2022 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -2587,6 +2587,102 @@ Authority   : Esri
 Version     : 9.0.0
 Deprecated  : yes
 
+WKID        : 107861
+Latest-WKID : 107861
+Macro       : PE_S_XT_PHOBOS_2015
+Name        : Phobos_2015
+WKT         : SPHEROID["Phobos_2015", 11080.0, 0.0]
+WKT2        : ELLIPSOID["Phobos_2015", 11080.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Mars - Phobos IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107862
+Latest-WKID : 107862
+Macro       : PE_S_XT_CALLISTO_2015
+Name        : Callisto_2015
+WKT         : SPHEROID["Callisto_2015", 2410300.0, 0.0]
+WKT2        : ELLIPSOID["Callisto_2015", 2410300.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Jupiter - Callisto IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107863
+Latest-WKID : 107863
+Macro       : PE_S_XT_EUROPA_2015
+Name        : Europa_2015
+WKT         : SPHEROID["Europa_2015", 1560800.0, 0.0]
+WKT2        : ELLIPSOID["Europa_2015", 1560800.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Jupiter - Europa IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107864
+Latest-WKID : 107864
+Macro       : PE_S_XT_GANYMEDE_2015
+Name        : Ganymede_2015
+WKT         : SPHEROID["Ganymede_2015", 2631200.0, 0.0]
+WKT2        : ELLIPSOID["Ganymede_2015", 2631200.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Jupiter - Ganymede IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107865
+Latest-WKID : 107865
+Macro       : PE_S_XT_IO_2015
+Name        : Io_2015
+WKT         : SPHEROID["Io_2015", 1821490.0, 0.0]
+WKT2        : ELLIPSOID["Io_2015", 1821490.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Jupiter - Io IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107866
+Latest-WKID : 107866
+Macro       : PE_S_XT_METIS_2015
+Name        : Metis_2015
+WKT         : SPHEROID["Metis_2015", 21500.0, 0.0]
+WKT2        : ELLIPSOID["Metis_2015", 21500.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Jupiter - Metis IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107867
+Latest-WKID : 107867
+Macro       : PE_S_XT_AEGAEON_2015
+Name        : Aegaeon_2015
+WKT         : SPHEROID["Aegaeon_2015", 330.0, 0.0]
+WKT2        : ELLIPSOID["Aegaeon_2015", 330.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Aegaeon IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107868
+Latest-WKID : 107868
+Macro       : PE_S_XT_ANTHE_2015
+Name        : Anthe_2015
+WKT         : SPHEROID["Anthe_2015", 500.0, 0.0]
+WKT2        : ELLIPSOID["Anthe_2015", 500.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Anthe IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
 WKID        : 107900
 Latest-WKID : 107900
 Macro       : PE_S_XT_MERCURY_2000
@@ -3497,4 +3593,292 @@ WKT2        : ELLIPSOID["Sun_2015", 695700000.0, 0.0,
 Description : Sun IAU 2015
 Authority   : Esri
 Version     : 10.7.0
+Deprecated  : no
+
+WKID        : 107976
+Latest-WKID : 107976
+Macro       : PE_S_XT_ATLAS_2015
+Name        : Atlas_2015
+WKT         : SPHEROID["Atlas_2015", 15100.0, 0.0]
+WKT2        : ELLIPSOID["Atlas_2015", 15100.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Atlas IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107977
+Latest-WKID : 107977
+Macro       : PE_S_XT_CALYPSO_2015
+Name        : Calypso_2015
+WKT         : SPHEROID["Calypso_2015", 9600.0, 0.0]
+WKT2        : ELLIPSOID["Calypso_2015", 9600.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Calypso IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107978
+Latest-WKID : 107978
+Macro       : PE_S_XT_DAPHNIS_2015
+Name        : Daphnis_2015
+WKT         : SPHEROID["Daphnis_2015", 3800.0, 0.0]
+WKT2        : ELLIPSOID["Daphnis_2015", 3800.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Daphnis IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107979
+Latest-WKID : 107979
+Macro       : PE_S_XT_DIONE_2015
+Name        : Dione_2015
+WKT         : SPHEROID["Dione_2015", 561400.0, 0.0]
+WKT2        : ELLIPSOID["Dione_2015", 561400.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Dione IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107980
+Latest-WKID : 107980
+Macro       : PE_S_XT_ENCELADUS_2015
+Name        : Enceladus_2015
+WKT         : SPHEROID["Enceladus_2015", 252100.0, 0.0]
+WKT2        : ELLIPSOID["Enceladus_2015", 252100.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Enceladus IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107981
+Latest-WKID : 107981
+Macro       : PE_S_XT_EPIMETHEUS_2015
+Name        : Epimetheus_2015
+WKT         : SPHEROID["Epimetheus_2015", 58200.0, 0.0]
+WKT2        : ELLIPSOID["Epimetheus_2015", 58200.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Epimetheus IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107982
+Latest-WKID : 107982
+Macro       : PE_S_XT_HELENE_2015
+Name        : Helene_2015
+WKT         : SPHEROID["Helene_2015", 18000.0, 0.0]
+WKT2        : ELLIPSOID["Helene_2015", 18000.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Helene IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107983
+Latest-WKID : 107983
+Macro       : PE_S_XT_HYPERION_2015
+Name        : Hyperion_2015
+WKT         : SPHEROID["Hyperion_2015", 135000.0, 0.0]
+WKT2        : ELLIPSOID["Hyperion_2015", 135000.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Hyperion IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107984
+Latest-WKID : 107984
+Macro       : PE_S_XT_IAPETUS_2015
+Name        : Iapetus_2015
+WKT         : SPHEROID["Iapetus_2015", 745700.0, 0.0]
+WKT2        : ELLIPSOID["Iapetus_2015", 745700.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Iapetus IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107985
+Latest-WKID : 107985
+Macro       : PE_S_XT_JANUS_2015
+Name        : Janus_2015
+WKT         : SPHEROID["Janus_2015", 89200.0, 0.0]
+WKT2        : ELLIPSOID["Janus_2015", 89200.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Janus IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107986
+Latest-WKID : 107986
+Macro       : PE_S_XT_METHONE_2015
+Name        : Methone_2015
+WKT         : SPHEROID["Methone_2015", 1450.0, 0.0]
+WKT2        : ELLIPSOID["Methone_2015", 1450.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Methone IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107987
+Latest-WKID : 107987
+Macro       : PE_S_XT_MIMAS_2015
+Name        : Mimas_2015
+WKT         : SPHEROID["Mimas_2015", 198200.0, 0.0]
+WKT2        : ELLIPSOID["Mimas_2015", 198200.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Mimas IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107988
+Latest-WKID : 107988
+Macro       : PE_S_XT_PALLENE_2015
+Name        : Pallene_2015
+WKT         : SPHEROID["Pallene_2015", 2230.0, 0.0]
+WKT2        : ELLIPSOID["Pallene_2015", 2230.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Pallene IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107989
+Latest-WKID : 107989
+Macro       : PE_S_XT_PAN_2015
+Name        : Pan_2015
+WKT         : SPHEROID["Pan_2015", 14000.0, 0.0]
+WKT2        : ELLIPSOID["Pan_2015", 14000.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Pan IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107990
+Latest-WKID : 107990
+Macro       : PE_S_XT_PANDORA_2015
+Name        : Pandora_2015
+WKT         : SPHEROID["Pandora_2015", 40600.0, 0.0]
+WKT2        : ELLIPSOID["Pandora_2015", 40600.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Pandora IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107991
+Latest-WKID : 107991
+Macro       : PE_S_XT_PHOEBE_2015
+Name        : Phoebe_2015
+WKT         : SPHEROID["Phoebe_2015", 106500.0, 0.0]
+WKT2        : ELLIPSOID["Phoebe_2015", 106500.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Phoebe IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107992
+Latest-WKID : 107992
+Macro       : PE_S_XT_POLYDEUCES_2015
+Name        : Polydeuces_2015
+WKT         : SPHEROID["Polydeuces_2015", 1300.0, 0.0]
+WKT2        : ELLIPSOID["Polydeuces_2015", 1300.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Polydeuces IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107993
+Latest-WKID : 107993
+Macro       : PE_S_XT_PROMETHEUS_2015
+Name        : Prometheus_2015
+WKT         : SPHEROID["Prometheus_2015", 43100.0, 0.0]
+WKT2        : ELLIPSOID["Prometheus_2015", 43100.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Prometheus IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107994
+Latest-WKID : 107994
+Macro       : PE_S_XT_RHEA_2015
+Name        : Rhea_2015
+WKT         : SPHEROID["Rhea_2015", 763500.0, 0.0]
+WKT2        : ELLIPSOID["Rhea_2015", 763500.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Rhea IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107995
+Latest-WKID : 107995
+Macro       : PE_S_XT_TELESTO_2015
+Name        : Telesto_2015
+WKT         : SPHEROID["Telesto_2015", 12400.0, 0.0]
+WKT2        : ELLIPSOID["Telesto_2015", 12400.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Telesto IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107996
+Latest-WKID : 107996
+Macro       : PE_S_XT_TETHYS_2015
+Name        : Tethys_2015
+WKT         : SPHEROID["Tethys_2015", 531000.0, 0.0]
+WKT2        : ELLIPSOID["Tethys_2015", 531000.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saturn - Tethys IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107997
+Latest-WKID : 107997
+Macro       : PE_S_XT_LARISSA_2015
+Name        : Larissa_2015
+WKT         : SPHEROID["Larissa_2015", 96000.0, 0.0]
+WKT2        : ELLIPSOID["Larissa_2015", 96000.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Neptune - Larissa IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107998
+Latest-WKID : 107998
+Macro       : PE_S_XT_PLUTO_2015
+Name        : Pluto_2015
+WKT         : SPHEROID["Pluto_2015", 1188300.0, 0.0]
+WKT2        : ELLIPSOID["Pluto_2015", 1188300.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Pluto IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+
+WKID        : 107999
+Latest-WKID : 107999
+Macro       : PE_S_XT_CHARON_2015
+Name        : Charon_2015
+WKT         : SPHEROID["Charon_2015", 606000.0, 0.0]
+WKT2        : ELLIPSOID["Charon_2015", 606000.0, 0.0,
+               LENGTHUNIT["Meter", 1.0]]
+Description : Pluto - Charon IAU 2015
+Authority   : Esri
+Version     : 13.0.0
 Deprecated  : no
