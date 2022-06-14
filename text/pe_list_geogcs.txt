@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2021 Esri Inc.                                            #
+#  Copyright 1999-2022 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -3614,14 +3614,14 @@ Area-rlon   : 28.2
 WKID        : 4181
 Latest-WKID : 4181
 Macro       : PE_GCS_LUXEMBOURG_1930
-Name        : GCS_Luxembourg_1930
-WKT         : GEOGCS["GCS_Luxembourg_1930",
-               DATUM["D_Luxembourg_1930",
+Name        : GCS_LUREF
+WKT         : GEOGCS["GCS_LUREF",
+               DATUM["D_Luxembourg_Reference_Frame",
                 SPHEROID["International_1924", 6378388.0, 297.0]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
-WKT2        : GEOGCRS["GCS_Luxembourg_1930",
-               DATUM["D_Luxembourg_1930",
+WKT2        : GEOGCRS["GCS_LUREF",
+               DATUM["D_Luxembourg_Reference_Frame",
                 ELLIPSOID["International_1924", 6378388.0, 297.0,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
@@ -3632,7 +3632,7 @@ WKT2        : GEOGCRS["GCS_Luxembourg_1930",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Luxembourg 1930
+Description : LUREF
 Authority   : EPSG
 Version     : 6.5(9.0.0)
 Deprecated  : no
@@ -4165,7 +4165,7 @@ Version     : 6.5(3.0.1)
 Deprecated  : no
 Area-name   : Russia
 Area-slat   : 39.87
-Area-nlat   : 85.2
+Area-nlat   : 85.19
 Area-llon   : 18.92
 Area-rlon   : -168.97
 
@@ -6007,7 +6007,7 @@ WKT         : GEOGCS["GCS_Merchich",
                DATUM["D_Merchich",
                 SPHEROID["Clarke_1880_IGN", 6378249.2, 293.4660212936265]],
                PRIMEM["Greenwich", 0.0],
-               UNIT["Grad", 0.01570796326794897]]
+               UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_Merchich",
                DATUM["D_Merchich",
                 ELLIPSOID["Clarke_1880_IGN", 6378249.2, 293.4660212936265,
@@ -6019,7 +6019,7 @@ WKT2        : GEOGCRS["GCS_Merchich",
                 ORDER[1]],
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
-               ANGLEUNIT["Grad", 0.01570796326794897]]
+               ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : Merchich
 Authority   : EPSG
 Version     : 6.5(3.0.1)
@@ -6832,7 +6832,7 @@ Version     : 2.1(3.0.1)
 Deprecated  : yes
 Area-name   : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.03
+Area-nlat   : 87.02
 Area-llon   : -75.0
 Area-rlon   : 7.99
 
@@ -8290,7 +8290,7 @@ Version     : 7.2(12.7.0)
 Deprecated  : no
 Area-name   : Caribbean - French Antilles
 Area-slat   : 14.08
-Area-nlat   : 18.54
+Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
 
@@ -8321,7 +8321,7 @@ Version     : 7.2(10.1.0)
 Deprecated  : no
 Area-name   : Caribbean - French Antilles
 Area-slat   : 14.08
-Area-nlat   : 18.54
+Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
 
@@ -12446,7 +12446,7 @@ Version     : 6.14(9.3.0.0)
 Deprecated  : no
 Area-name   : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.03
+Area-nlat   : 87.02
 Area-llon   : -75.0
 Area-rlon   : 7.99
 
@@ -14237,7 +14237,7 @@ Version     : 6.14(12.7.0)
 Deprecated  : no
 Area-name   : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.03
+Area-nlat   : 87.02
 Area-llon   : -75.0
 Area-rlon   : 7.99
 
@@ -16664,7 +16664,7 @@ Version     : 7.7(12.7.0)
 Deprecated  : no
 Area-name   : Caribbean - French Antilles
 Area-slat   : 14.08
-Area-nlat   : 18.54
+Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
 
@@ -16695,7 +16695,7 @@ Version     : 7.7(10.1.0)
 Deprecated  : no
 Area-name   : Caribbean - French Antilles
 Area-slat   : 14.08
-Area-nlat   : 18.54
+Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
 
@@ -18531,7 +18531,7 @@ Version     : 8.7.1(12.7.0)
 Deprecated  : no
 Area-name   : Caribbean - French Antilles
 Area-slat   : 14.08
-Area-nlat   : 18.54
+Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
 
@@ -18562,7 +18562,7 @@ Version     : 8.7.1(10.5.0)
 Deprecated  : no
 Area-name   : Caribbean - French Antilles
 Area-slat   : 14.08
-Area-nlat   : 18.54
+Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
 
@@ -19128,7 +19128,7 @@ Version     : 9.0(12.7.0)
 Deprecated  : no
 Area-name   : Russia
 Area-slat   : 39.87
-Area-nlat   : 85.2
+Area-nlat   : 85.19
 Area-llon   : 18.92
 Area-rlon   : -168.97
 
@@ -19159,7 +19159,7 @@ Version     : 9.0(10.5.1)
 Deprecated  : no
 Area-name   : Russia
 Area-slat   : 39.87
-Area-nlat   : 85.2
+Area-nlat   : 85.19
 Area-llon   : 18.92
 Area-rlon   : -168.97
 
@@ -35837,6 +35837,254 @@ Area-nlat   : 47.31
 Area-llon   : -92.89
 Area-rlon   : -86.25
 
+WKID        : 104872
+Latest-WKID : 104872
+Macro       : PE_GCS_XT_PHOBOS_2015
+Name        : Phobos_2015
+WKT         : GEOGCS["Phobos_2015",
+               DATUM["Phobos_2015",
+                SPHEROID["Phobos_2015", 11080.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Phobos_2015",
+               DATUM["Phobos_2015",
+                ELLIPSOID["Phobos_2015", 11080.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Mars - Phobos IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104873
+Latest-WKID : 104873
+Macro       : PE_GCS_XT_CALLISTO_2015
+Name        : Callisto_2015
+WKT         : GEOGCS["Callisto_2015",
+               DATUM["Callisto_2015",
+                SPHEROID["Callisto_2015", 2410300.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Callisto_2015",
+               DATUM["Callisto_2015",
+                ELLIPSOID["Callisto_2015", 2410300.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Jupiter - Callisto IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104874
+Latest-WKID : 104874
+Macro       : PE_GCS_XT_EUROPA_2015
+Name        : Europa_2015
+WKT         : GEOGCS["Europa_2015",
+               DATUM["Europa_2015",
+                SPHEROID["Europa_2015", 1560800.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Europa_2015",
+               DATUM["Europa_2015",
+                ELLIPSOID["Europa_2015", 1560800.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Jupiter - Europa IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104875
+Latest-WKID : 104875
+Macro       : PE_GCS_XT_GANYMEDE_2015
+Name        : Ganymede_2015
+WKT         : GEOGCS["Ganymede_2015",
+               DATUM["Ganymede_2015",
+                SPHEROID["Ganymede_2015", 2631200.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Ganymede_2015",
+               DATUM["Ganymede_2015",
+                ELLIPSOID["Ganymede_2015", 2631200.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Jupiter - Ganymede IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104876
+Latest-WKID : 104876
+Macro       : PE_GCS_XT_IO_2015
+Name        : Io_2015
+WKT         : GEOGCS["Io_2015",
+               DATUM["Io_2015",
+                SPHEROID["Io_2015", 1821490.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Io_2015",
+               DATUM["Io_2015",
+                ELLIPSOID["Io_2015", 1821490.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Jupiter - Io IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104877
+Latest-WKID : 104877
+Macro       : PE_GCS_XT_METIS_2015
+Name        : Metis_2015
+WKT         : GEOGCS["Metis_2015",
+               DATUM["Metis_2015",
+                SPHEROID["Metis_2015", 21500.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Metis_2015",
+               DATUM["Metis_2015",
+                ELLIPSOID["Metis_2015", 21500.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Jupiter - Metis IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104878
+Latest-WKID : 104878
+Macro       : PE_GCS_XT_AEGAEON_2015
+Name        : Aegaeon_2015
+WKT         : GEOGCS["Aegaeon_2015",
+               DATUM["Aegaeon_2015",
+                SPHEROID["Aegaeon_2015", 330.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Aegaeon_2015",
+               DATUM["Aegaeon_2015",
+                ELLIPSOID["Aegaeon_2015", 330.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Aegaeon IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104879
+Latest-WKID : 104879
+Macro       : PE_GCS_XT_ANTHE_2015
+Name        : Anthe_2015
+WKT         : GEOGCS["Anthe_2015",
+               DATUM["Anthe_2015",
+                SPHEROID["Anthe_2015", 500.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Anthe_2015",
+               DATUM["Anthe_2015",
+                ELLIPSOID["Anthe_2015", 500.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Anthe IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
 WKID        : 104896
 Latest-WKID : 8998
 Macro       : PE_GCS_ITRF_2005
@@ -35864,6 +36112,99 @@ Description : ITRF 2005
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : yes
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104897
+Latest-WKID : 104897
+Macro       : PE_GCS_XT_PANDORA_2015
+Name        : Pandora_2015
+WKT         : GEOGCS["Pandora_2015",
+               DATUM["Pandora_2015",
+                SPHEROID["Pandora_2015", 40600.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Pandora_2015",
+               DATUM["Pandora_2015",
+                ELLIPSOID["Pandora_2015", 40600.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Pandora IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104898
+Latest-WKID : 104898
+Macro       : PE_GCS_XT_PHOEBE_2015
+Name        : Phoebe_2015
+WKT         : GEOGCS["Phoebe_2015",
+               DATUM["Phoebe_2015",
+                SPHEROID["Phoebe_2015", 106500.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Phoebe_2015",
+               DATUM["Phoebe_2015",
+                ELLIPSOID["Phoebe_2015", 106500.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Phoebe IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104899
+Latest-WKID : 104899
+Macro       : PE_GCS_XT_POLYDEUCES_2015
+Name        : Polydeuces_2015
+WKT         : GEOGCS["Polydeuces_2015",
+               DATUM["Polydeuces_2015",
+                SPHEROID["Polydeuces_2015", 1300.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Polydeuces_2015",
+               DATUM["Polydeuces_2015",
+                ELLIPSOID["Polydeuces_2015", 1300.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Polydeuces IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -38226,6 +38567,440 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 
+WKID        : 104976
+Latest-WKID : 104976
+Macro       : PE_GCS_XT_ATLAS_2015
+Name        : Atlas_2015
+WKT         : GEOGCS["Atlas_2015",
+               DATUM["Atlas_2015",
+                SPHEROID["Atlas_2015", 15100.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Atlas_2015",
+               DATUM["Atlas_2015",
+                ELLIPSOID["Atlas_2015", 15100.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Atlas IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104977
+Latest-WKID : 104977
+Macro       : PE_GCS_XT_CALYPSO_2015
+Name        : Calypso_2015
+WKT         : GEOGCS["Calypso_2015",
+               DATUM["Calypso_2015",
+                SPHEROID["Calypso_2015", 9600.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Calypso_2015",
+               DATUM["Calypso_2015",
+                ELLIPSOID["Calypso_2015", 9600.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Calypso IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104978
+Latest-WKID : 104978
+Macro       : PE_GCS_XT_DAPHNIS_2015
+Name        : Daphnis_2015
+WKT         : GEOGCS["Daphnis_2015",
+               DATUM["Daphnis_2015",
+                SPHEROID["Daphnis_2015", 3800.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Daphnis_2015",
+               DATUM["Daphnis_2015",
+                ELLIPSOID["Daphnis_2015", 3800.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Daphnis IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104979
+Latest-WKID : 104979
+Macro       : PE_GCS_XT_DIONE_2015
+Name        : Dione_2015
+WKT         : GEOGCS["Dione_2015",
+               DATUM["Dione_2015",
+                SPHEROID["Dione_2015", 561400.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Dione_2015",
+               DATUM["Dione_2015",
+                ELLIPSOID["Dione_2015", 561400.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Dione IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104980
+Latest-WKID : 104980
+Macro       : PE_GCS_XT_ENCELADUS_2015
+Name        : Enceladus_2015
+WKT         : GEOGCS["Enceladus_2015",
+               DATUM["Enceladus_2015",
+                SPHEROID["Enceladus_2015", 252100.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Enceladus_2015",
+               DATUM["Enceladus_2015",
+                ELLIPSOID["Enceladus_2015", 252100.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Enceladus IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104981
+Latest-WKID : 104981
+Macro       : PE_GCS_XT_EPIMETHEUS_2015
+Name        : Epimetheus_2015
+WKT         : GEOGCS["Epimetheus_2015",
+               DATUM["Epimetheus_2015",
+                SPHEROID["Epimetheus_2015", 58200.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Epimetheus_2015",
+               DATUM["Epimetheus_2015",
+                ELLIPSOID["Epimetheus_2015", 58200.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Epimetheus IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104982
+Latest-WKID : 104982
+Macro       : PE_GCS_XT_HELENE_2015
+Name        : Helene_2015
+WKT         : GEOGCS["Helene_2015",
+               DATUM["Helene_2015",
+                SPHEROID["Helene_2015", 18000.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Helene_2015",
+               DATUM["Helene_2015",
+                ELLIPSOID["Helene_2015", 18000.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Helene IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104983
+Latest-WKID : 104983
+Macro       : PE_GCS_XT_HYPERION_2015
+Name        : Hyperion_2015
+WKT         : GEOGCS["Hyperion_2015",
+               DATUM["Hyperion_2015",
+                SPHEROID["Hyperion_2015", 135000.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Hyperion_2015",
+               DATUM["Hyperion_2015",
+                ELLIPSOID["Hyperion_2015", 135000.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Hyperion IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104984
+Latest-WKID : 104984
+Macro       : PE_GCS_XT_IAPETUS_2015
+Name        : Iapetus_2015
+WKT         : GEOGCS["Iapetus_2015",
+               DATUM["Iapetus_2015",
+                SPHEROID["Iapetus_2015", 745700.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Iapetus_2015",
+               DATUM["Iapetus_2015",
+                ELLIPSOID["Iapetus_2015", 745700.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Iapetus IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104985
+Latest-WKID : 104985
+Macro       : PE_GCS_XT_JANUS_2015
+Name        : Janus_2015
+WKT         : GEOGCS["Janus_2015",
+               DATUM["Janus_2015",
+                SPHEROID["Janus_2015", 89200.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Janus_2015",
+               DATUM["Janus_2015",
+                ELLIPSOID["Janus_2015", 89200.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Janus IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104986
+Latest-WKID : 104986
+Macro       : PE_GCS_XT_METHONE_2015
+Name        : Methone_2015
+WKT         : GEOGCS["Methone_2015",
+               DATUM["Methone_2015",
+                SPHEROID["Methone_2015", 1450.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Methone_2015",
+               DATUM["Methone_2015",
+                ELLIPSOID["Methone_2015", 1450.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Methone IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104987
+Latest-WKID : 104987
+Macro       : PE_GCS_XT_MIMAS_2015
+Name        : Mimas_2015
+WKT         : GEOGCS["Mimas_2015",
+               DATUM["Mimas_2015",
+                SPHEROID["Mimas_2015", 198200.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Mimas_2015",
+               DATUM["Mimas_2015",
+                ELLIPSOID["Mimas_2015", 198200.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Mimas IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104988
+Latest-WKID : 104988
+Macro       : PE_GCS_XT_PALLENE_2015
+Name        : Pallene_2015
+WKT         : GEOGCS["Pallene_2015",
+               DATUM["Pallene_2015",
+                SPHEROID["Pallene_2015", 2230.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Pallene_2015",
+               DATUM["Pallene_2015",
+                ELLIPSOID["Pallene_2015", 2230.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Pallene IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104989
+Latest-WKID : 104989
+Macro       : PE_GCS_XT_PAN_2015
+Name        : Pan_2015
+WKT         : GEOGCS["Pan_2015",
+               DATUM["Pan_2015",
+                SPHEROID["Pan_2015", 14000.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Pan_2015",
+               DATUM["Pan_2015",
+                ELLIPSOID["Pan_2015", 14000.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Pan IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
 WKID        : 104990
 Latest-WKID : 3819
 Macro       : PE_GCS_HD1909
@@ -38318,3 +39093,220 @@ Area-slat   : 40.85
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 23.04
+
+WKID        : 104993
+Latest-WKID : 104993
+Macro       : PE_GCS_XT_PROMETHEUS_2015
+Name        : Prometheus_2015
+WKT         : GEOGCS["Prometheus_2015",
+               DATUM["Prometheus_2015",
+                SPHEROID["Prometheus_2015", 43100.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Prometheus_2015",
+               DATUM["Prometheus_2015",
+                ELLIPSOID["Prometheus_2015", 43100.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Prometheus IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104994
+Latest-WKID : 104994
+Macro       : PE_GCS_XT_RHEA_2015
+Name        : Rhea_2015
+WKT         : GEOGCS["Rhea_2015",
+               DATUM["Rhea_2015",
+                SPHEROID["Rhea_2015", 763500.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Rhea_2015",
+               DATUM["Rhea_2015",
+                ELLIPSOID["Rhea_2015", 763500.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Rhea IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104995
+Latest-WKID : 104995
+Macro       : PE_GCS_XT_TELESTO_2015
+Name        : Telesto_2015
+WKT         : GEOGCS["Telesto_2015",
+               DATUM["Telesto_2015",
+                SPHEROID["Telesto_2015", 12400.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Telesto_2015",
+               DATUM["Telesto_2015",
+                ELLIPSOID["Telesto_2015", 12400.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Telesto IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104996
+Latest-WKID : 104996
+Macro       : PE_GCS_XT_TETHYS_2015
+Name        : Tethys_2015
+WKT         : GEOGCS["Tethys_2015",
+               DATUM["Tethys_2015",
+                SPHEROID["Tethys_2015", 531000.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Tethys_2015",
+               DATUM["Tethys_2015",
+                ELLIPSOID["Tethys_2015", 531000.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saturn - Tethys IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104997
+Latest-WKID : 104997
+Macro       : PE_GCS_XT_LARISSA_2015
+Name        : Larissa_2015
+WKT         : GEOGCS["Larissa_2015",
+               DATUM["Larissa_2015",
+                SPHEROID["Larissa_2015", 96000.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Larissa_2015",
+               DATUM["Larissa_2015",
+                ELLIPSOID["Larissa_2015", 96000.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Neptune - Larissa IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104998
+Latest-WKID : 104998
+Macro       : PE_GCS_XT_PLUTO_2015
+Name        : Pluto_2015
+WKT         : GEOGCS["Pluto_2015",
+               DATUM["Pluto_2015",
+                SPHEROID["Pluto_2015", 1188300.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Pluto_2015",
+               DATUM["Pluto_2015",
+                ELLIPSOID["Pluto_2015", 1188300.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Pluto IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 104999
+Latest-WKID : 104999
+Macro       : PE_GCS_XT_CHARON_2015
+Name        : Charon_2015
+WKT         : GEOGCS["Charon_2015",
+               DATUM["Charon_2015",
+                SPHEROID["Charon_2015", 606000.0, 0.0]],
+               PRIMEM["Reference_Meridian", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Charon_2015",
+               DATUM["Charon_2015",
+                ELLIPSOID["Charon_2015", 606000.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Reference_Meridian", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Pluto - Charon IAU 2015
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0

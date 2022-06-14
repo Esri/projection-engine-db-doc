@@ -94,6 +94,11 @@
    FALSE, \
    "EPSG"
 
+"CHTRF95_To_LN02_Height_CHGeo2004_Htrans", \
+   "CHTRF95_To_LN02_Height_CHGeo2004_Htrans_deprecated", \
+   TRUE, \
+   ""
+
 "Constanta height to EVRF2000 height (1)", \
    "Constanta_Height_To_EVRS_2000_Height_1", \
    FALSE, \
@@ -118,6 +123,16 @@
    "EOMA_1980_To_EVRS_2000_1", \
    FALSE, \
    "EPSG"
+
+"ETRF93_To_LN02_Height_CHGeo2004_Htrans", \
+   "ETRF93_To_LN02_Height_CHGeo2004_Htrans_deprecated", \
+   TRUE, \
+   ""
+
+"ETRS89_To_LN02_Height_CHGeo2004_Htrans", \
+   "ETRS89_To_LN02_Height_CHGeo2004_Htrans_deprecated", \
+   TRUE, \
+   ""
 
 "GDA94 to AHD height (49)", \
    "GDA94_Height_To_AHD_Height_AUSGeoid09_49", \
@@ -288,6 +303,11 @@
    "SNN76_To_EVRS_2000_1", \
    FALSE, \
    "EPSG"
+
+"WGS_1984_To_LN02_Height_CHGeo2004_Htrans", \
+   "WGS_1984_To_LN02_Height_CHGeo2004_Htrans_deprecated", \
+   TRUE, \
+   ""
 
 "WGS 84 to EGM84 height (1)", \
    "WGS_1984_To_EGM_1984_Geoid_1", \

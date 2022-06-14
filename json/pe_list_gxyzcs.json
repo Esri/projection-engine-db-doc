@@ -210,7 +210,7 @@
     "areaname": "Caribbean - French Antilles",
     "extent":
     { "slat": 14.08,
-      "nlat": 18.54,
+      "nlat": 18.53,
       "llon": -63.66,
       "rlon": -57.52
     }
@@ -426,7 +426,7 @@
     "areaname": "Greenland",
     "extent":
     { "slat": 56.38,
-      "nlat": 87.03,
+      "nlat": 87.02,
       "llon": -75.0,
       "rlon": 7.99
     }
@@ -1560,7 +1560,7 @@
     "areaname": "Caribbean - French Antilles",
     "extent":
     { "slat": 14.08,
-      "nlat": 18.54,
+      "nlat": 18.53,
       "llon": -63.66,
       "rlon": -57.52
     }
@@ -2082,9 +2082,27 @@
     "areaname": "Russia",
     "extent":
     { "slat": 39.87,
-      "nlat": 85.2,
+      "nlat": 85.19,
       "llon": 18.92,
       "rlon": -168.97
+    }
+  },
+  { "wkid": 7684,
+    "latestWkid": 7684,
+    "macro": "PE_XYZ_KYRG_06",
+    "name": "Kyrg-06",
+    "wkt": "GXYZCS[\"Kyrg-06\",DATUM[\"D_Kyrgyz_Republic_2006\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"Kyrg-06\",DATUM[\"D_Kyrgyz_Republic_2006\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0]]",
+    "description": "Kyrg-06",
+    "authority": "EPSG",
+    "version": "8.8.1",
+    "deprecated": "no",
+    "areaname": "Kyrgyzstan",
+    "extent":
+    { "slat": 39.19,
+      "nlat": 43.22,
+      "llon": 69.24,
+      "rlon": 80.29
     }
   },
   { "wkid": 7789,
@@ -3363,6 +3381,24 @@
       "nlat": 55.93,
       "llon": 14.14,
       "rlon": 24.15
+    }
+  },
+  { "wkid": 9892,
+    "latestWkid": 9892,
+    "macro": "PE_XYZ_LUREF",
+    "name": "LUREF",
+    "wkt": "GXYZCS[\"LUREF\",DATUM[\"D_Luxembourg_Reference_Frame\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"LUREF\",DATUM[\"D_Luxembourg_Reference_Frame\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0]]",
+    "description": "LUREF",
+    "authority": "Esri",
+    "version": "13.0.0",
+    "deprecated": "no",
+    "areaname": "Luxembourg",
+    "extent":
+    { "slat": 49.44,
+      "nlat": 50.19,
+      "llon": 5.73,
+      "rlon": 6.53
     }
   }
 ] }

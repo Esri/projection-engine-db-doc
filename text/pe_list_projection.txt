@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2021 Esri Inc.                                            #
+#  Copyright 1999-2022 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -1154,17 +1154,6 @@ Authority   : Esri
 Version     : 9.3.0.0
 Deprecated  : no
 
-WKID        : 43137
-Latest-WKID : 43137
-Macro       : PE_PRJ_HOTINE_AZIMUTH_CENTER_SWISS
-Name        : Hotine_Oblique_Mercator_Azimuth_Center_Swiss
-WKT         : PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center_Swiss"]
-WKT2        : METHOD["Hotine_Oblique_Mercator_Azimuth_Center_Swiss"]
-Description : Hotine Azimuth Center Swiss
-Authority   : Esri
-Version     : 12.9.0
-Deprecated  : no
-
 WKID        : 43141
 Latest-WKID : 43141
 Macro       : PE_PRJ_ORTHOGRAPHIC_AUXS
@@ -1185,4 +1174,15 @@ WKT2        : METHOD["Gnomonic_Auxiliary_Sphere"]
 Description : Gnomonic (Auxiliary Sphere)
 Authority   : Esri
 Version     : 9.3.0.0
+Deprecated  : no
+
+WKID        : 43237
+Latest-WKID : 43237
+Macro       : PE_PRJ_HOTINE_AZIMUTH_CENTER_OLD
+Name        : Hotine_Oblique_Mercator_Azimuth_Center_Old
+WKT         : PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center_Old"]
+WKT2        : METHOD["Hotine_Oblique_Mercator_Azimuth_Center_Old"]
+Description : Hotine Azimuth Center Old
+Authority   : Esri
+Version     : 13.0.0
 Deprecated  : no

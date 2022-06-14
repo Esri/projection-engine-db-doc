@@ -7348,6 +7348,10 @@ PE_PCS_AGD_1966_ISG_56_3, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "AGD 1966 ISG 56 3"
 
+PE_PCS_AGD_1966_ISG_57_2, \
+   "Projected Coordinate Systems/National Grids/Australia", \
+   "AGD 1966 ISG 57 2"
+
 PE_PCS_AGD_1966_VICGRID, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "AGD 1966 VICGRID"
@@ -7848,14 +7852,6 @@ PE_PCS_GULSHAN_303_BANGLADESH_TRANSVERSE_MERCATOR, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
    "Gulshan 303 Bangladesh Transverse Mercator"
 
-PE_PCS_KALIANPUR_1937_UTM_45N, \
-   "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Kalianpur 1937 UTM Zone 45N"
-
-PE_PCS_KALIANPUR_1937_UTM_46N, \
-   "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Kalianpur 1937 UTM Zone 46N"
-
 PE_PCS_LCC_BANGLADESH, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
    "LCC Bangladesh"
@@ -8155,6 +8151,22 @@ PE_PCS_NAD_1983_CSRS_V6_MTM_NS_4, \
 PE_PCS_NAD_1983_CSRS_V6_MTM_NS_5, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (2011) CSRS v6 MTM Nova Scotia zone 5"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_15N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 15N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_16N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 16N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_17N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 17N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_18N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 18N"
 
 PE_PCS_NAD_1983_CSRS_V6_UTM_19N, \
    "Projected Coordinate Systems/National Grids/Canada", \
@@ -8944,10 +8956,6 @@ PE_PCS_HUNGARIAN_1972_EOV, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "HD 1972 EOV"
 
-PE_PCS_HUNGARIAN_1972_EOV_SHIFTED, \
-   "Projected Coordinate Systems/National Grids/Europe", \
-   "HD 1972 EOV (shifted)"
-
 PE_PCS_HS2_SURVEY_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "HS2 Survey Grid"
@@ -9016,6 +9024,10 @@ PE_PCS_LKS_1994_LITHUANIA_TM, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "LKS 1994 Lithuania TM"
 
+PE_PCS_LUXEMBOURG_1930_GAUSS, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "LUREF Luxembourg TM"
+
 PE_PCS_LISBOA_BESSEL_BONNE, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "Lisboa Bessel Bonne"
@@ -9043,10 +9055,6 @@ PE_PCS_LISBON_PORTUGUESE_GRID, \
 PE_PCS_LONDON_SURVEY_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "London Survey Grid"
-
-PE_PCS_LUXEMBOURG_1930_GAUSS, \
-   "Projected Coordinate Systems/National Grids/Europe", \
-   "Luxembourg 1930 Gauss"
 
 PE_PCS_MGI_1901_BALKANS_ZONE_5, \
    "Projected Coordinate Systems/National Grids/Europe", \
@@ -11636,6 +11644,14 @@ PE_PCS_TRINIDAD_1903_TRINIDAD_GRID, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean", \
    "Trinidad 1903 Trinidad Grid (Links Clarke)"
 
+PE_PCS_WGS_1984_TM_20N_FTUS, \
+   "Projected Coordinate Systems/National Grids/Oceans/Caribbean", \
+   "WGS 1984 TM Zone 20N (US Feet)"
+
+PE_PCS_WGS_1984_TM_21N_FTUS, \
+   "Projected Coordinate Systems/National Grids/Oceans/Caribbean", \
+   "WGS 1984 TM Zone 21N (US Feet)"
+
 PE_PCS_GDA_1994_CIG94, \
    "Projected Coordinate Systems/National Grids/Oceans/Indian Ocean", \
    "GDA 1994 CIG94"
@@ -12300,33 +12316,17 @@ PE_PCS_BERN_1898_BERN_LV03C, \
    "Projected Coordinate Systems/National Grids/Switzerland and Liechtenstein", \
    "Bern 1898 Bern LV03C"
 
-PE_PCS_BERN_1898_BERN_LV03C_SHIFTED, \
-   "Projected Coordinate Systems/National Grids/Switzerland and Liechtenstein", \
-   "Bern 1898 Bern LV03C (shifted)"
-
 PE_PCS_CH1903_LV03, \
    "Projected Coordinate Systems/National Grids/Switzerland and Liechtenstein", \
    "CH1903 LV03"
-
-PE_PCS_CH1903_LV03_SHIFTED, \
-   "Projected Coordinate Systems/National Grids/Switzerland and Liechtenstein", \
-   "CH1903 LV03 (shifted)"
 
 PE_PCS_CH1903_LV03C_G, \
    "Projected Coordinate Systems/National Grids/Switzerland and Liechtenstein", \
    "CH1903 LV03C-G"
 
-PE_PCS_CH1903_LV03C_G_SHIFTED, \
-   "Projected Coordinate Systems/National Grids/Switzerland and Liechtenstein", \
-   "CH1903 LV03C-G (shifted)"
-
 PE_PCS_CH1903_PLUS_LV95, \
    "Projected Coordinate Systems/National Grids/Switzerland and Liechtenstein", \
    "CH1903+ LV95"
-
-PE_PCS_CH1903_PLUS_LV95_SHIFTED, \
-   "Projected Coordinate Systems/National Grids/Switzerland and Liechtenstein", \
-   "CH1903+ LV95 (shifted)"
 
 PE_PCS_ED_1950_TM27, \
    "Projected Coordinate Systems/National Grids/Turkey", \
@@ -12663,14 +12663,6 @@ PE_PCS_VN_2000_TM_3_482, \
 PE_PCS_VN_2000_TM_3_491, \
    "Projected Coordinate Systems/National Grids/Vietnam", \
    "VN-2000 TM-3 zone 491"
-
-PE_PCS_WGS_1984_TM_20N_FTUS, \
-   "Projected Coordinate Systems/Oceans/Caribbean", \
-   "WGS 1984 TM Zone 20N (US Feet)"
-
-PE_PCS_WGS_1984_TM_21N_FTUS, \
-   "Projected Coordinate Systems/Oceans/Caribbean", \
-   "WGS 1984 TM Zone 21N (US Feet)"
 
 PE_PCS_JAXA_SNOW_DEPTH_PS_NORTH, \
    "Projected Coordinate Systems/Polar", \
@@ -13259,6 +13251,50 @@ PE_PCS_WGS_1984_EPSG_NORWAY_POLAR_STEREOGRAPHIC, \
 PE_PCS_WGS_1984_EPSG_RUSSIA_POLAR_STEREOGRAPHIC, \
    "Projected Coordinate Systems/Polar/EPSG Arctic", \
    "WGS 1984 EPSG Russia Polar Stereographic"
+
+PE_PCS_MOON_2000_EQUIDISTANT_CYLINDRICAL, \
+   "Projected Coordinate Systems/Solar System/Earth", \
+   "Moon 2000 Equidistant Cylindrical"
+
+PE_PCS_MOON_2000_FS_LAEA, \
+   "Projected Coordinate Systems/Solar System/Earth", \
+   "Moon 2000 Far Side Lambert Azimuthal Equal Area"
+
+PE_PCS_MOON_2000_NS_LAEA, \
+   "Projected Coordinate Systems/Solar System/Earth", \
+   "Moon 2000 Near Side Lambert Azimuthal Equal Area"
+
+PE_PCS_MOON_2000_N_POLE_STEREOGRAPHIC, \
+   "Projected Coordinate Systems/Solar System/Earth", \
+   "Moon 2000 North Pole Stereographic"
+
+PE_PCS_MOON_2000_SINUSOIDAL, \
+   "Projected Coordinate Systems/Solar System/Earth", \
+   "Moon 2000 Sinusoidal"
+
+PE_PCS_MOON_2000_S_POLE_STEREOGRAPHIC, \
+   "Projected Coordinate Systems/Solar System/Earth", \
+   "Moon 2000 South Pole Stereographic"
+
+PE_PCS_MARS_2000_EQUIDISTANT_CYLINDRICAL_SPHERE, \
+   "Projected Coordinate Systems/Solar System/Mars", \
+   "Mars 2000 Equidistant Cylindrical (sphere)"
+
+PE_PCS_MARS_2000_N_POLE_STEREOGRAPHIC_SPHERE, \
+   "Projected Coordinate Systems/Solar System/Mars", \
+   "Mars 2000 North Pole Stereographic (sphere)"
+
+PE_PCS_MARS_2000_SINUSOIDAL_SPHERE, \
+   "Projected Coordinate Systems/Solar System/Mars", \
+   "Mars 2000 Sinusoidal (sphere)"
+
+PE_PCS_MARS_2000_S_POLE_STEREOGRAPHIC_SPHERE, \
+   "Projected Coordinate Systems/Solar System/Mars", \
+   "Mars 2000 South Pole Stereographic (sphere)"
+
+PE_PCS_MARS_2000_WINKEL_TRIPEL_SPHERE, \
+   "Projected Coordinate Systems/Solar System/Mars", \
+   "Mars 2000 Winkel Tripel (sphere)"
 
 PE_PCS_NAD_1927_AL_E, \
    "Projected Coordinate Systems/State Plane/NAD 1927 (US Feet)", \

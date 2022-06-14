@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2021 Esri Inc.                                            #
+#  Copyright 1999-2022 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -408,7 +408,7 @@ Version     : 7.2
 Deprecated  : no
 Area-name   : Caribbean - French Antilles
 Area-slat   : 14.08
-Area-nlat   : 18.54
+Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
 
@@ -804,7 +804,7 @@ Version     : 6.11
 Deprecated  : no
 Area-name   : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.03
+Area-nlat   : 87.02
 Area-llon   : -75.0
 Area-rlon   : 7.99
 
@@ -2883,7 +2883,7 @@ Version     : 7.7
 Deprecated  : no
 Area-name   : Caribbean - French Antilles
 Area-slat   : 14.08
-Area-nlat   : 18.54
+Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
 
@@ -3840,9 +3840,42 @@ Version     : 9.0
 Deprecated  : no
 Area-name   : Russia
 Area-slat   : 39.87
-Area-nlat   : 85.2
+Area-nlat   : 85.19
 Area-llon   : 18.92
 Area-rlon   : -168.97
+
+WKID        : 7684
+Latest-WKID : 7684
+Macro       : PE_XYZ_KYRG_06
+Name        : Kyrg-06
+WKT         : GXYZCS["Kyrg-06",
+               DATUM["D_Kyrgyz_Republic_2006",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["Kyrg-06",
+               DATUM["D_Kyrgyz_Republic_2006",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : Kyrg-06
+Authority   : EPSG
+Version     : 8.8.1
+Deprecated  : no
+Area-name   : Kyrgyzstan
+Area-slat   : 39.19
+Area-nlat   : 43.22
+Area-llon   : 69.24
+Area-rlon   : 80.29
 
 WKID        : 7789
 Latest-WKID : 7789
@@ -6186,3 +6219,36 @@ Area-slat   : 49.0
 Area-nlat   : 55.93
 Area-llon   : 14.14
 Area-rlon   : 24.15
+
+WKID        : 9892
+Latest-WKID : 9892
+Macro       : PE_XYZ_LUREF
+Name        : LUREF
+WKT         : GXYZCS["LUREF",
+               DATUM["D_Luxembourg_Reference_Frame",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["LUREF",
+               DATUM["D_Luxembourg_Reference_Frame",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : LUREF
+Authority   : Esri
+Version     : 13.0.0
+Deprecated  : no
+Area-name   : Luxembourg
+Area-slat   : 49.44
+Area-nlat   : 50.19
+Area-llon   : 5.73
+Area-rlon   : 6.53
