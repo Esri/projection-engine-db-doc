@@ -23,9 +23,11 @@ Documentation files are found in the following directories:
 | csv       | All factory objects in CSV format       | pe_list_\<objtype\>.csv     |
 | text      | All factory objects in TXT format       | pe_list_\<objtype\>.txt     |
 | objedit   | The entire PE factory in objedit format | \<objtype\>_\<rectype\>.txt |
+| fgdb      | All factory objects with an area extent in feature class dataset | pe_area_extents.gdb\ </br>pe_list_\<objtype\>|
+| shp       | All factory objects with an area extent in shapefile dataset     | pe_list_\<objtype\>.shp, _etc._|
 | proj4     | Updated PROJ4 files                     | esri                        |
-| gdal      | Updated GDAL files                      | <p>esri_extra.wkt</p>esri_epsg.wkt |
-| other     | Other files                             | <p>PE_user_defined_objects.pdf</p>proj4-esri.txt |
+| gdal      | Updated GDAL files                      | esri_extra.wkt</br>esri_epsg.wkt |
+| other     | Other files                             | PE_user_defined_objects.pdf</br>proj4-esri.txt |
 
 ### Notes
 
