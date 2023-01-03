@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -2326,6 +2326,20 @@ Authority   : Esri
 Version     : 12.9.0
 Deprecated  : no
 
+WKID        : 1309
+Latest-WKID : 1309
+Macro       : PE_D_WGS_1984_G2139
+Name        : WGS_1984_(G2139)
+WKT         : DATUM["WGS_1984_(G2139)",
+               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
+WKT2        : DATUM["WGS_1984_(G2139)",
+               ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : WGS 1984 (G2139)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
 WKID        : 1310
 Latest-WKID : 1310
 Macro       : PE_D_ECML14_NB_INTERMEDIATE_REFERENCE_FRAME
@@ -2352,6 +2366,160 @@ WKT2        : DATUM["EWR2_Intermediate_Reference_Frame",
 Description : EWR2 Intermediate Reference Frame
 Authority   : Esri
 Version     : 12.9.0
+Deprecated  : no
+
+WKID        : 1312
+Latest-WKID : 1312
+Macro       : PE_D_RESEAU_GEODESIQUE_FRANCAIS_1993_V2
+Name        : Reseau_Geodesique_Francais_1993_v2
+WKT         : DATUM["Reseau_Geodesique_Francais_1993_v2",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Reseau_Geodesique_Francais_1993_v2",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Reseau Geodesique Francais 1993 v2
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1313
+Latest-WKID : 1313
+Macro       : PE_D_RESEAU_GEODESIQUE_FRANCAIS_1993_V2B
+Name        : Reseau_Geodesique_Francais_1993_v2b
+WKT         : DATUM["Reseau_Geodesique_Francais_1993_v2b",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Reseau_Geodesique_Francais_1993_v2b",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Reseau Geodesique Francais 1993 v2b
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1314
+Latest-WKID : 1314
+Macro       : PE_D_MRH21_INTERMEDIATE_REFERENCE_FRAME
+Name        : MRH21_Intermediate_Reference_Frame
+WKT         : DATUM["MRH21_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["MRH21_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : MRH21 Intermediate Reference Frame
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1315
+Latest-WKID : 1315
+Macro       : PE_D_MOLDOR11_INTERMEDIATE_REFERENCE_FRAME
+Name        : MOLDOR11_Intermediate_Reference_Frame
+WKT         : DATUM["MOLDOR11_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["MOLDOR11_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : MOLDOR11 Intermediate Reference Frame
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1317
+Latest-WKID : 1317
+Macro       : PE_D_HULLEE13_INTERMEDIATE_REFERENCE_FRAME
+Name        : HULLEE13_Intermediate_Reference_Frame
+WKT         : DATUM["HULLEE13_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["HULLEE13_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : HULLEE13 Intermediate Reference Frame
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1319
+Latest-WKID : 1319
+Macro       : PE_D_EBBWV14_INTERMEDIATE_REFERENCE_FRAME
+Name        : EBBWV14_Intermediate_Reference_Frame
+WKT         : DATUM["EBBWV14_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["EBBWV14_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : EBBWV14 Intermediate Reference Frame
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1320
+Latest-WKID : 1320
+Macro       : PE_D_SCM22_INTERMEDIATE_REFERENCE_FRAME
+Name        : SCM22_Intermediate_Reference_Frame
+WKT         : DATUM["SCM22_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["SCM22_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SCM22 Intermediate Reference Frame
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1321
+Latest-WKID : 1321
+Macro       : PE_D_FNL22_INTERMEDIATE_REFERENCE_FRAME
+Name        : FNL22_Intermediate_Reference_Frame
+WKT         : DATUM["FNL22_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["FNL22_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : FNL22 Intermediate Reference Frame
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1322
+Latest-WKID : 1322
+Macro       : PE_D_ITRF2020
+Name        : International_Terrestrial_Reference_Frame_2020
+WKT         : DATUM["International_Terrestrial_Reference_Frame_2020",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["International_Terrestrial_Reference_Frame_2020",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : International Terrestrial Reference Frame 2020
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1324
+Latest-WKID : 1324
+Macro       : PE_D_MWC18_INTERMEDIATE_REFERENCE_FRAME
+Name        : MWC18_Intermediate_Reference_Frame
+WKT         : DATUM["MWC18_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["MWC18_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : MWC18 Intermediate Reference Frame
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1327
+Latest-WKID : 1327
+Macro       : PE_D_SIRGAS_CHILE_REALIZATION_5_EPOCH_2021
+Name        : SIRGAS-Chile_realization_5_epoch_2021
+WKT         : DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SIRGAS-Chile realization 5 epoch 2021
+Authority   : Esri
+Version     : 13.1.0
 Deprecated  : no
 
 WKID        : 6001
@@ -9297,6 +9465,20 @@ Description : Bermuda 2000
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : yes
+
+WKID        : 106272
+Latest-WKID : 106272
+Macro       : PE_D_PANAMA08_2011
+Name        : PANAMA08_2011
+WKT         : DATUM["PANAMA08_2011",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["PANAMA08_2011",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Panama - ITRF_2008 epoch 2011
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
 
 WKID        : 106273
 Latest-WKID : 6673

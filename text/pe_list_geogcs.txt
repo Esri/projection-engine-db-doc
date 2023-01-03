@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -3017,10 +3017,10 @@ Authority   : EPSG
 Version     : 6.5(8.1.2)
 Deprecated  : no
 Area-name   : Argentina - Neuquen province
-Area-slat   : -41.1
-Area-nlat   : -36.14
-Area-llon   : -71.96
-Area-rlon   : -68.01
+Area-slat   : -40.17
+Area-nlat   : -34.26
+Area-llon   : -71.19
+Area-rlon   : -66.52
 
 WKID        : 4161
 Latest-WKID : 4161
@@ -3733,7 +3733,7 @@ Area-name   : Portugal - Azores E - onshore
 Area-slat   : 36.87
 Area-nlat   : 37.96
 Area-llon   : -25.92
-Area-rlon   : -24.62
+Area-rlon   : -24.72
 
 WKID        : 4185
 Latest-WKID : 4185
@@ -4321,7 +4321,7 @@ Deprecated  : no
 Area-name   : Somalia - onshore
 Area-slat   : -1.71
 Area-nlat   : 12.03
-Area-llon   : 40.99
+Area-llon   : 40.98
 Area-rlon   : 51.47
 
 WKID        : 4206
@@ -5098,7 +5098,7 @@ Area-name   : Europe - west
 Area-slat   : 34.88
 Area-nlat   : 84.73
 Area-llon   : -10.56
-Area-rlon   : 38.0
+Area-rlon   : 38.01
 
 WKID        : 4232
 Latest-WKID : 4232
@@ -6274,9 +6274,9 @@ Version     : 6.5(3.0.1)
 Deprecated  : no
 Area-name   : North America - NAD83
 Area-slat   : 14.92
-Area-nlat   : 86.46
+Area-nlat   : 86.45
 Area-llon   : 167.65
-Area-rlon   : -47.74
+Area-rlon   : -40.73
 
 WKID        : 4270
 Latest-WKID : 4270
@@ -6552,9 +6552,9 @@ Authority   : EPSG
 Version     : 6.5(3.0.1)
 Deprecated  : no
 Area-name   : UK - Great Britain onshore and nearshore; Isle of Man
-Area-slat   : 49.797
-Area-nlat   : 60.935
-Area-llon   : -8.818
+Area-slat   : 49.79
+Area-nlat   : 60.94
+Area-llon   : -8.82
 Area-rlon   : 1.92
 
 WKID        : 4279
@@ -9222,7 +9222,7 @@ Area-name   : French Polynesia - Society Islands - Moorea and Tahiti
 Area-slat   : -17.93
 Area-nlat   : -17.41
 Area-llon   : -150.0
-Area-rlon   : -149.11
+Area-rlon   : -149.09
 
 WKID        : 4629
 Latest-WKID : 4629
@@ -9716,7 +9716,7 @@ Description : Reykjavik 1900
 Authority   : EPSG
 Version     : 6.5(9.0.0)
 Deprecated  : no
-Area-name   : Iceland - onshore
+Area-name   : Iceland - mainland
 Area-slat   : 63.34
 Area-nlat   : 66.59
 Area-llon   : -24.66
@@ -9747,7 +9747,7 @@ Description : Hjorsey 1955
 Authority   : EPSG
 Version     : 6.5(9.0.0)
 Deprecated  : no
-Area-name   : Iceland - onshore
+Area-name   : Iceland - mainland
 Area-slat   : 63.34
 Area-nlat   : 66.59
 Area-llon   : -24.66
@@ -9937,7 +9937,7 @@ Area-name   : Portugal - Azores E - onshore
 Area-slat   : 36.87
 Area-nlat   : 37.96
 Area-llon   : -25.92
-Area-rlon   : -24.62
+Area-rlon   : -24.72
 
 WKID        : 4665
 Latest-WKID : 4665
@@ -10061,7 +10061,7 @@ Area-name   : Europe - west
 Area-slat   : 34.88
 Area-nlat   : 84.73
 Area-llon   : -10.56
-Area-rlon   : 38.0
+Area-rlon   : 38.01
 
 WKID        : 4669
 Latest-WKID : 4669
@@ -11301,7 +11301,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 4711
 Latest-WKID : 4711
@@ -19407,7 +19407,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 7881
 Latest-WKID : 7881
@@ -19438,7 +19438,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 7885
 Latest-WKID : 7885
@@ -19474,7 +19474,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 7886
 Latest-WKID : 7886
@@ -19505,7 +19505,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 7900
 Latest-WKID : 7900
@@ -25207,7 +25207,7 @@ Area-name   : UK - Liverpool to Leeds
 Area-slat   : 53.32
 Area-nlat   : 53.9
 Area-llon   : -3.14
-Area-rlon   : -1.35
+Area-rlon   : -1.34
 
 WKID        : 9372
 Latest-WKID : 9372
@@ -25236,9 +25236,9 @@ Version     : 9.8.12(12.8.0)
 Deprecated  : no
 Area-name   : UK - London to Sheffield
 Area-slat   : 51.46
-Area-nlat   : 53.41
+Area-nlat   : 53.42
 Area-llon   : -1.89
-Area-rlon   : 0.15
+Area-rlon   : 0.16
 
 WKID        : 9379
 Latest-WKID : 9379
@@ -25334,8 +25334,8 @@ Version     : 9.8.13(12.8.0)
 Deprecated  : no
 Area-name   : UK - Aberdeen to Inverness
 Area-slat   : 57.1
-Area-nlat   : 57.7
-Area-llon   : -4.3
+Area-nlat   : 57.71
+Area-llon   : -4.31
 Area-rlon   : -2.1
 
 WKID        : 9403
@@ -25695,9 +25695,80 @@ Version     : 12.9.0
 Deprecated  : no
 Area-name   : UK - Tweedmouth to Aberdeen
 Area-slat   : 55.55
-Area-nlat   : 57.2
-Area-llon   : -3.55
-Area-rlon   : -1.95
+Area-nlat   : 57.21
+Area-llon   : -3.56
+Area-rlon   : -1.94
+
+WKID        : 9754
+Latest-WKID : 9754
+Macro       : PE_GCS_WGS_84_G2139_3D
+Name        : WGS_84_(G2139)_(3D)
+WKT         : GEOGCS["WGS_84_(G2139)_(3D)",
+               DATUM["WGS_1984_(G2139)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["WGS_84_(G2139)_(3D)",
+               DYNAMIC[FRAMEEPOCH[2016.5],
+                MODEL["ITRF2014-PMM"]],
+               DATUM["WGS_1984_(G2139)",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : WGS 84 (G2139) (3D)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : World (by country)
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9755
+Latest-WKID : 9755
+Macro       : PE_GCS_WGS_1984_G2139
+Name        : WGS_1984_(G2139)
+WKT         : GEOGCS["WGS_1984_(G2139)",
+               DATUM["WGS_1984_(G2139)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["WGS_1984_(G2139)",
+               DYNAMIC[FRAMEEPOCH[2016.5],
+                MODEL["ITRF2014-PMM"]],
+               DATUM["WGS_1984_(G2139)",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : WGS 1984 (G2139)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
 
 WKID        : 9758
 Latest-WKID : 9758
@@ -25760,6 +25831,661 @@ Area-slat   : 51.7
 Area-nlat   : 52.24
 Area-llon   : -1.43
 Area-rlon   : -0.36
+
+WKID        : 9776
+Latest-WKID : 9776
+Macro       : PE_GCS_RGF93_V2_3D
+Name        : RGF93_v2_3D
+WKT         : GEOGCS["RGF93_v2_3D",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["RGF93_v2_3D",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGF93 v2 (3D)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 9777
+Latest-WKID : 9777
+Macro       : PE_GCS_RGF93_V2
+Name        : RGF93_v2
+WKT         : GEOGCS["RGF93_v2",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RGF93_v2",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RGF93 v2
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 9778
+Latest-WKID : 9778
+Macro       : PE_GCS_RGF93_V2_LON_LAT_3D
+Name        : RGF93_v2_(lon-lat)_3D
+WKT         : GEOGCS["RGF93_v2_(lon-lat)_3D",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["RGF93_v2_(lon-lat)_3D",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGF93 v2 (lon-lat) (3D)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 9779
+Latest-WKID : 9779
+Macro       : PE_GCS_RGF93_V2_LON_LAT
+Name        : RGF93_v2_(lon-lat)
+WKT         : GEOGCS["RGF93_v2_(lon-lat)",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RGF93_v2_(lon-lat)",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RGF93 v2 (lon-lat)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 9781
+Latest-WKID : 9781
+Macro       : PE_GCS_RGF93_V2B_3D
+Name        : RGF93_v2b_3D
+WKT         : GEOGCS["RGF93_v2b_3D",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["RGF93_v2b_3D",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGF93 v2b (3D)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 9782
+Latest-WKID : 9782
+Macro       : PE_GCS_RGF93_V2B
+Name        : RGF93_v2b
+WKT         : GEOGCS["RGF93_v2b",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RGF93_v2b",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RGF93 v2b
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 9783
+Latest-WKID : 9783
+Macro       : PE_GCS_RGF93_V2B_LON_LAT_3D
+Name        : RGF93_v2b_(lon-lat)_3D
+WKT         : GEOGCS["RGF93_v2b_(lon-lat)_3D",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["RGF93_v2b_(lon-lat)_3D",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGF93 v2b (lon-lat) (3D)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 9784
+Latest-WKID : 9784
+Macro       : PE_GCS_RGF93_V2B_LON_LAT
+Name        : RGF93_v2b_(lon-lat)
+WKT         : GEOGCS["RGF93_v2b_(lon-lat)",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RGF93_v2b_(lon-lat)",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RGF93 v2b (lon-lat)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 9866
+Latest-WKID : 9866
+Macro       : PE_GCS_MRH21_IRF
+Name        : MRH21-IRF
+WKT         : GEOGCS["MRH21-IRF",
+               DATUM["MRH21_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["MRH21-IRF",
+               DATUM["MRH21_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : MRH21-IRF
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : UK - Cardiff to Lincoln
+Area-slat   : 51.35
+Area-nlat   : 53.26
+Area-llon   : -3.27
+Area-rlon   : -0.36
+
+WKID        : 9871
+Latest-WKID : 9871
+Macro       : PE_GCS_MOLDOR11_IRF
+Name        : MOLDOR11-IRF
+WKT         : GEOGCS["MOLDOR11-IRF",
+               DATUM["MOLDOR11_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["MOLDOR11-IRF",
+               DATUM["MOLDOR11_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : MOLDOR11-IRF
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : UK - Manchester to Dore
+Area-slat   : 53.25
+Area-nlat   : 53.55
+Area-llon   : -2.4
+Area-rlon   : -1.39
+
+WKID        : 9893
+Latest-WKID : 9893
+Macro       : PE_GCS_LUREF_3D
+Name        : LUREF_(3D)
+WKT         : GEOGCS["LUREF_(3D)",
+               DATUM["D_Luxembourg_Reference_Frame",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["LUREF_(3D)",
+               DATUM["D_Luxembourg_Reference_Frame",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : LUREF (3D)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Luxembourg
+Area-slat   : 49.44
+Area-nlat   : 50.19
+Area-llon   : 5.73
+Area-rlon   : 6.53
+
+WKID        : 9939
+Latest-WKID : 9939
+Macro       : PE_GCS_EBBWV14_IRF
+Name        : EBBWV14-IRF
+WKT         : GEOGCS["EBBWV14-IRF",
+               DATUM["EBBWV14_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["EBBWV14-IRF",
+               DATUM["EBBWV14_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : EBBWV14-IRF
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : UK - Newport to Ebbw Vale
+Area-slat   : 51.5
+Area-nlat   : 51.85
+Area-llon   : -3.3
+Area-rlon   : -2.89
+
+WKID        : 9964
+Latest-WKID : 9964
+Macro       : PE_GCS_HULLEE13_IRF
+Name        : HULLEE13-IRF
+WKT         : GEOGCS["HULLEE13-IRF",
+               DATUM["HULLEE13_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["HULLEE13-IRF",
+               DATUM["HULLEE13_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : HULLEE13-IRF
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : UK - Leeds to Hull
+Area-slat   : 53.6
+Area-nlat   : 53.9
+Area-llon   : -1.7
+Area-rlon   : -0.27
+
+WKID        : 9969
+Latest-WKID : 9969
+Macro       : PE_GCS_SCM22_IRF
+Name        : SCM22-IRF
+WKT         : GEOGCS["SCM22-IRF",
+               DATUM["SCM22_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["SCM22-IRF",
+               DATUM["SCM22_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : SCM22-IRF
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : UK - Motherwell to Inverness
+Area-slat   : 55.7
+Area-nlat   : 57.55
+Area-llon   : -4.4
+Area-rlon   : -3.3
+
+WKID        : 9974
+Latest-WKID : 9974
+Macro       : PE_GCS_FNL22_IRF
+Name        : FNL22-IRF
+WKT         : GEOGCS["FNL22-IRF",
+               DATUM["FNL22_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["FNL22-IRF",
+               DATUM["FNL22_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : FNL22-IRF
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : UK - Inverness to Thurso
+Area-slat   : 57.4
+Area-nlat   : 58.64
+Area-llon   : -4.6
+Area-rlon   : -3.0
+
+WKID        : 9989
+Latest-WKID : 9989
+Macro       : PE_GCS_ITRF2020_3D
+Name        : ITRF2020_3D
+WKT         : GEOGCS["ITRF2020_3D",
+               DATUM["International_Terrestrial_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["ITRF2020_3D",
+               DATUM["International_Terrestrial_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ITRF2020 (3D)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9990
+Latest-WKID : 9990
+Macro       : PE_GCS_ITRF2020
+Name        : ITRF2020
+WKT         : GEOGCS["ITRF2020",
+               DATUM["International_Terrestrial_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["ITRF2020",
+               DATUM["International_Terrestrial_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : ITRF2020
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 20033
+Latest-WKID : 20033
+Macro       : PE_GCS_MWC18_IRF
+Name        : MWC18-IRF
+WKT         : GEOGCS["MWC18-IRF",
+               DATUM["MWC18_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["MWC18-IRF",
+               DATUM["MWC18_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : MWC18-IRF
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : UK - Manchester, Wigan and Chester
+Area-slat   : 53.09
+Area-nlat   : 53.65
+Area-llon   : -3.15
+Area-rlon   : -2.1
+
+WKID        : 20040
+Latest-WKID : 20040
+Macro       : PE_GCS_SIRGAS_CHILE_2021_3D
+Name        : SIRGAS-Chile_2021_(3D)
+WKT         : GEOGCS["SIRGAS-Chile_2021_(3D)",
+               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["SIRGAS-Chile_2021_(3D)",
+               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SIRGAS-Chile 2021 (3D)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 20041
+Latest-WKID : 20041
+Macro       : PE_GCS_SIRGAS_CHILE_2021
+Name        : SIRGAS-Chile_2021
+WKT         : GEOGCS["SIRGAS-Chile_2021",
+               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["SIRGAS-Chile_2021",
+               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : SIRGAS-Chile 2021
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
 
 WKID        : 37001
 Latest-WKID : 4760
@@ -26038,7 +26764,7 @@ Area-name   : Europe - west
 Area-slat   : 34.88
 Area-nlat   : 84.73
 Area-llon   : -10.56
-Area-rlon   : 38.0
+Area-rlon   : 38.01
 
 WKID        : 37202
 Latest-WKID : 37202
@@ -26127,7 +26853,7 @@ Description : Hjorsey 1955
 Authority   : Esri
 Version     : 4.0.0
 Deprecated  : yes
-Area-name   : Iceland - onshore
+Area-name   : Iceland - mainland
 Area-slat   : 63.34
 Area-nlat   : 66.59
 Area-llon   : -24.66
@@ -27092,7 +27818,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 37239
 Latest-WKID : 4717
@@ -27371,7 +28097,7 @@ Area-name   : Portugal - Azores E - onshore
 Area-slat   : 36.87
 Area-nlat   : 37.96
 Area-llon   : -25.92
-Area-rlon   : -24.62
+Area-rlon   : -24.72
 
 WKID        : 37250
 Latest-WKID : 4616
@@ -28190,7 +28916,7 @@ Deprecated  : no
 Area-name   : USA - California and borders of NV, AZ, OR and MX
 Area-slat   : 32.25
 Area-nlat   : 42.53
-Area-llon   : -124.44
+Area-llon   : -124.45
 Area-rlon   : -113.6
 
 WKID        : 104025
@@ -30542,9 +31268,9 @@ Version     : 12.7.0
 Deprecated  : no
 Area-name   : North America - NAD83
 Area-slat   : 14.92
-Area-nlat   : 86.46
+Area-nlat   : 86.45
 Area-llon   : 167.65
-Area-rlon   : -47.74
+Area-rlon   : -40.73
 
 WKID        : 104613
 Latest-WKID : 104613
@@ -30615,7 +31341,7 @@ Deprecated  : no
 Area-name   : USA - California and borders of NV, AZ, OR and MX
 Area-slat   : 32.25
 Area-nlat   : 42.53
-Area-llon   : -124.44
+Area-llon   : -124.45
 Area-rlon   : -113.6
 
 WKID        : 104645
@@ -30653,6 +31379,39 @@ Area-slat   : 41.04
 Area-nlat   : 43.59
 Area-llon   : 39.99
 Area-rlon   : 46.72
+
+WKID        : 104646
+Latest-WKID : 104646
+Macro       : PE_GCS_PANAMA08_2011
+Name        : GCS_PANAMA08_2011
+WKT         : GEOGCS["GCS_PANAMA08_2011",
+               DATUM["PANAMA08_2011",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["GCS_PANAMA08_2011",
+               DYNAMIC[FRAMEEPOCH[2011.0],
+                MODEL["ITRF2008-PMM"]],
+               DATUM["PANAMA08_2011",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Panama - ITRF_2008 epoch 2011
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Panama
+Area-slat   : 5.0
+Area-nlat   : 12.51
+Area-llon   : -84.32
+Area-rlon   : -77.04
 
 WKID        : 104647
 Latest-WKID : 9293

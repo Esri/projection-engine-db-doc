@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -1574,7 +1574,7 @@ Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.24
+Area-rlon   : 15.25
 
 WKID        : 5734
 Latest-WKID : 5734
@@ -2462,7 +2462,7 @@ Area-name   : New Zealand - North Island - Wellington vcrs
 Area-slat   : -41.67
 Area-nlat   : -40.12
 Area-llon   : 174.52
-Area-rlon   : 176.56
+Area-rlon   : 176.55
 
 WKID        : 5771
 Latest-WKID : 5771
@@ -2797,7 +2797,7 @@ Deprecated  : no
 Area-name   : Germany - West Germany all states
 Area-slat   : 47.27
 Area-nlat   : 55.09
-Area-llon   : 5.87
+Area-llon   : 5.86
 Area-rlon   : 13.84
 
 WKID        : 5785
@@ -3158,7 +3158,7 @@ Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.24
+Area-rlon   : 15.25
 
 WKID        : 5829
 Latest-WKID : 5829
@@ -4576,7 +4576,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 7889
 Latest-WKID : 7889
@@ -4600,7 +4600,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 7890
 Latest-WKID : 7890
@@ -4624,7 +4624,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 7962
 Latest-WKID : 7962
@@ -4836,7 +4836,7 @@ Description : ISH2004 (height)
 Authority   : EPSG
 Version     : 9.1(10.6.0)
 Deprecated  : no
-Area-name   : Iceland - onshore
+Area-name   : Iceland - mainland
 Area-slat   : 63.34
 Area-nlat   : 66.59
 Area-llon   : -24.66
@@ -5728,7 +5728,7 @@ Deprecated  : no
 Area-name   : Europe - British Isles - UK and Ireland onshore, UKCS
 Area-slat   : 49.75
 Area-nlat   : 61.01
-Area-llon   : -9.0
+Area-llon   : -10.85
 Area-rlon   : 2.01
 
 WKID        : 9458
@@ -5921,7 +5921,7 @@ Area-name   : Norway, Svalbard and Jan Mayen - offshore
 Area-slat   : 56.08
 Area-nlat   : 84.73
 Area-llon   : -13.63
-Area-rlon   : 38.0
+Area-rlon   : 38.01
 
 WKID        : 9675
 Latest-WKID : 9675
@@ -6019,6 +6019,150 @@ Area-nlat   : 41.31
 Area-llon   : 8.08
 Area-rlon   : 9.89
 
+WKID        : 9923
+Latest-WKID : 9923
+Macro       : PE_VCS_GNTRANS_HEIGHT
+Name        : GNTRANS_height
+WKT         : VERTCS["GNTRANS_height",
+               VDATUM["GNTRANS"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["GNTRANS_height",
+               VDATUM["GNTRANS"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : GNTRANS height
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Germany - onshore
+Area-slat   : 47.27
+Area-nlat   : 55.09
+Area-llon   : 5.86
+Area-rlon   : 15.04
+
+WKID        : 9927
+Latest-WKID : 9927
+Macro       : PE_VCS_GNTRANS2016_HEIGHT
+Name        : GNTRANS2016_height
+WKT         : VERTCS["GNTRANS2016_height",
+               VDATUM["GNTRANS2016"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["GNTRANS2016_height",
+               VDATUM["GNTRANS2016"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : GNTRANS2016 height
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Germany - onshore
+Area-slat   : 47.27
+Area-nlat   : 55.09
+Area-llon   : 5.86
+Area-rlon   : 15.04
+
+WKID        : 20000
+Latest-WKID : 20000
+Macro       : PE_VCS_SVD2006_HEIGHT
+Name        : SVD2006_height
+WKT         : VERTCS["SVD2006_height",
+               VDATUM["Svalbard_vertical_datum_2006"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["SVD2006_height",
+               VDATUM["Svalbard_vertical_datum_2006"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SVD2006 height
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Arctic - 81~10'N to 76~10'N, 4~W to 38~E
+Area-slat   : 76.16
+Area-nlat   : 81.17
+Area-llon   : -3.35
+Area-rlon   : 38.01
+
+WKID        : 20034
+Latest-WKID : 20034
+Macro       : PE_VCS_CGVD2013A2002_HEIGHT
+Name        : CGVD2013a(2002)_height
+WKT         : VERTCS["CGVD2013a(2002)_height",
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["CGVD2013a(2002)_height",
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : CGVD2013a(2002) height
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 38.21
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -40.73
+
+WKID        : 20035
+Latest-WKID : 20035
+Macro       : PE_VCS_CGVD2013A1997_HEIGHT
+Name        : CGVD2013a(1997)_height
+WKT         : VERTCS["CGVD2013a(1997)_height",
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["CGVD2013a(1997)_height",
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : CGVD2013a(1997) height
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 38.21
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -40.73
+
+WKID        : 20036
+Latest-WKID : 20036
+Macro       : PE_VCS_INAGEOID2020_V2_HEIGHT
+Name        : INAGeoid2020_v2_height
+WKT         : VERTCS["INAGeoid2020_v2_height",
+               VDATUM["Indonesian_Geoid_2020_version_2"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["INAGeoid2020_v2_height",
+               VDATUM["Indonesian_Geoid_2020_version_2"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : INAGeoid2020 v2 height
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Indonesia
+Area-slat   : -13.95
+Area-nlat   : 7.79
+Area-llon   : 92.01
+Area-rlon   : 141.46
+
 WKID        : 105603
 Latest-WKID : 105603
 Macro       : PE_VCS_REDNAP
@@ -6089,7 +6233,7 @@ Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.24
+Area-rlon   : 15.25
 
 WKID        : 105702
 Latest-WKID : 5613
@@ -6298,7 +6442,7 @@ WKT2        : VERTCRS["WGS_1984",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : WGS 1984 ellipsoid height
 Authority   : Esri
@@ -6325,7 +6469,7 @@ WKT2        : VERTCRS["ETRS_1989",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRS 1989 ellipsoid height
 Authority   : Esri
@@ -6352,7 +6496,7 @@ WKT2        : VERTCRS["NAD_1983",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 (GRS 1980) ellipsoid height
 Authority   : Esri
@@ -6360,9 +6504,9 @@ Version     : 9.3.0.0
 Deprecated  : no
 Area-name   : North America - NAD83
 Area-slat   : 14.92
-Area-nlat   : 86.46
+Area-nlat   : 86.45
 Area-llon   : 167.65
-Area-rlon   : -47.74
+Area-rlon   : -40.73
 
 WKID        : 115703
 Latest-WKID : 115703
@@ -6379,7 +6523,7 @@ WKT2        : VERTCRS["Australian_Antarctic_1998",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Australian Antarctic 1998 ellipsoid height
 Authority   : Esri
@@ -6406,7 +6550,7 @@ WKT2        : VERTCRS["Cadastre_1997",
                 ELLIPSOID["International_1924", 6378388.0, 297.0,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Cadastre 1997 ellipsoid height
 Authority   : Esri
@@ -6433,7 +6577,7 @@ WKT2        : VERTCRS["China_Geodetic_Coordinate_System_2000",
                 ELLIPSOID["CGCS2000", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : China Geodetic Coordinate System 2000 ellipsoid height
 Authority   : Esri
@@ -6460,7 +6604,7 @@ WKT2        : VERTCRS["Swiss_TRF_1995",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Swiss TRF 1995 ellipsoid height
 Authority   : Esri
@@ -6487,7 +6631,7 @@ WKT2        : VERTCRS["CIGD11",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : CIGD11 ellipsoid height
 Authority   : Esri
@@ -6514,7 +6658,7 @@ WKT2        : VERTCRS["CR05",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : CR05 ellipsoid height
 Authority   : Esri
@@ -6541,7 +6685,7 @@ WKT2        : VERTCRS["DB_REF",
                 ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : DB-REF ellipsoid height
 Authority   : Esri
@@ -6568,7 +6712,7 @@ WKT2        : VERTCRS["DGN_1995",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : DGN 1995 ellipsoid height
 Authority   : Esri
@@ -6595,7 +6739,7 @@ WKT2        : VERTCRS["DRUKREF_03",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : DRUKREF 03 ellipsoid height
 Authority   : Esri
@@ -6622,7 +6766,7 @@ WKT2        : VERTCRS["Estonia_1997",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Estonia 1997 ellipsoid height
 Authority   : Esri
@@ -6649,7 +6793,7 @@ WKT2        : VERTCRS["EUREF_FIN",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : EUREF-FIN ellipsoid height
 Authority   : Esri
@@ -6676,7 +6820,7 @@ WKT2        : VERTCRS["FEH2010",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : FEH2010 ellipsoid height
 Authority   : Esri
@@ -6703,7 +6847,7 @@ WKT2        : VERTCRS["GDA_1994",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : GDA 1994 ellipsoid height
 Authority   : Esri
@@ -6730,7 +6874,7 @@ WKT2        : VERTCRS["GDBD2009",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : GDBD2009 ellipsoid height
 Authority   : Esri
@@ -6757,7 +6901,7 @@ WKT2        : VERTCRS["GDM_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : GDM 2000 ellipsoid height
 Authority   : Esri
@@ -6784,7 +6928,7 @@ WKT2        : VERTCRS["Greenland_1996",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Greenland 1996 ellipsoid height
 Authority   : Esri
@@ -6811,7 +6955,7 @@ WKT2        : VERTCRS["Hartebeesthoek_1994",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Hartebeesthoek94 ellipsoid height
 Authority   : Esri
@@ -6838,7 +6982,7 @@ WKT2        : VERTCRS["IGD05",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGD05 ellipsoid height
 Authority   : Esri
@@ -6865,7 +7009,7 @@ WKT2        : VERTCRS["IG05_Intermediate_CRS",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IG05 Intermediate CRS ellipsoid height
 Authority   : Esri
@@ -6892,7 +7036,7 @@ WKT2        : VERTCRS["IGD05(2012)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGD05(2012) ellipsoid height
 Authority   : Esri
@@ -6919,7 +7063,7 @@ WKT2        : VERTCRS["IG05(2012)_Intermediate_CRS",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IG05(2012) Intermediate CRS ellipsoid height
 Authority   : Esri
@@ -6946,7 +7090,7 @@ WKT2        : VERTCRS["IGM_1995",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGM 1995 ellipsoid height
 Authority   : Esri
@@ -6973,7 +7117,7 @@ WKT2        : VERTCRS["IGRS",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGRS ellipsoid height
 Authority   : Esri
@@ -7000,7 +7144,7 @@ WKT2        : VERTCRS["IRENET95",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IRENET95 ellipsoid height
 Authority   : Esri
@@ -7027,7 +7171,7 @@ WKT2        : VERTCRS["ISN_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ISN 1993 ellipsoid height
 Authority   : Esri
@@ -7054,7 +7198,7 @@ WKT2        : VERTCRS["ISN_2004",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ISN 2004 ellipsoid height
 Authority   : Esri
@@ -7081,7 +7225,7 @@ WKT2        : VERTCRS["ITRF_1988",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 1988 ellipsoid height
 Authority   : Esri
@@ -7108,7 +7252,7 @@ WKT2        : VERTCRS["ITRF_1989",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 1989 ellipsoid height
 Authority   : Esri
@@ -7135,7 +7279,7 @@ WKT2        : VERTCRS["ITRF_1990",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 1990 ellipsoid height
 Authority   : Esri
@@ -7162,7 +7306,7 @@ WKT2        : VERTCRS["ITRF_1991",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 1991 ellipsoid height
 Authority   : Esri
@@ -7189,7 +7333,7 @@ WKT2        : VERTCRS["ITRF_1992",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 1992 ellipsoid height
 Authority   : Esri
@@ -7216,7 +7360,7 @@ WKT2        : VERTCRS["ITRF_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 1993 ellipsoid height
 Authority   : Esri
@@ -7243,7 +7387,7 @@ WKT2        : VERTCRS["ITRF_1996",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 1996 ellipsoid height
 Authority   : Esri
@@ -7270,7 +7414,7 @@ WKT2        : VERTCRS["ITRF_1997",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 1997 ellipsoid height
 Authority   : Esri
@@ -7297,7 +7441,7 @@ WKT2        : VERTCRS["ITRF_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 2000 ellipsoid height
 Authority   : Esri
@@ -7324,7 +7468,7 @@ WKT2        : VERTCRS["ITRF_2005",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 2005 ellipsoid height
 Authority   : Esri
@@ -7351,7 +7495,7 @@ WKT2        : VERTCRS["JAD_2001",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : JAD 2001 ellipsoid height
 Authority   : Esri
@@ -7378,7 +7522,7 @@ WKT2        : VERTCRS["JGD_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : JGD 2000 ellipsoid height
 Authority   : Esri
@@ -7405,7 +7549,7 @@ WKT2        : VERTCRS["JGD_2011",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : JGD 2011 ellipsoid height
 Authority   : Esri
@@ -7432,7 +7576,7 @@ WKT2        : VERTCRS["Korea_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Korea 2000 ellipsoid height
 Authority   : Esri
@@ -7459,7 +7603,7 @@ WKT2        : VERTCRS["Lao_1997",
                 ELLIPSOID["Krasovsky_1940", 6378245.0, 298.3,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Lao 1997 ellipsoid height
 Authority   : Esri
@@ -7486,7 +7630,7 @@ WKT2        : VERTCRS["LGD2006",
                 ELLIPSOID["International_1924", 6378388.0, 297.0,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : LGD2006 ellipsoid height
 Authority   : Esri
@@ -7513,7 +7657,7 @@ WKT2        : VERTCRS["LKS_1992",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : LKS 1992 ellipsoid height
 Authority   : Esri
@@ -7540,7 +7684,7 @@ WKT2        : VERTCRS["LKS_1994",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : LKS 1994 ellipsoid height
 Authority   : Esri
@@ -7567,7 +7711,7 @@ WKT2        : VERTCRS["MACAO_2008",
                 ELLIPSOID["International_1924", 6378388.0, 297.0,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : MACAO 2008 ellipsoid height
 Authority   : Esri
@@ -7594,7 +7738,7 @@ WKT2        : VERTCRS["MAGNA",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : MAGNA ellipsoid height
 Authority   : Esri
@@ -7621,7 +7765,7 @@ WKT2        : VERTCRS["MARCARIO_SOLIS",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : MARCARIO SOLIS ellipsoid height
 Authority   : Esri
@@ -7648,7 +7792,7 @@ WKT2        : VERTCRS["MARGEN",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : MARGEN ellipsoid height
 Authority   : Esri
@@ -7675,7 +7819,7 @@ WKT2        : VERTCRS["Mexico_ITRF2008",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Mexico ITRF2008 ellipsoid height
 Authority   : Esri
@@ -7702,7 +7846,7 @@ WKT2        : VERTCRS["MOLDREF99",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : MOLDREF99 ellipsoid height
 Authority   : Esri
@@ -7729,7 +7873,7 @@ WKT2        : VERTCRS["MONREF_1997",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : MONREF 1997 ellipsoid height
 Authority   : Esri
@@ -7756,7 +7900,7 @@ WKT2        : VERTCRS["Moznet",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Moznet ellipsoid height
 Authority   : Esri
@@ -7783,7 +7927,7 @@ WKT2        : VERTCRS["NAD_1983_2011",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 (2011) ellipsoid height
 Authority   : Esri
@@ -7810,7 +7954,7 @@ WKT2        : VERTCRS["NAD_1983_CORS96",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 CORS96 ellipsoid height
 Authority   : Esri
@@ -7837,7 +7981,7 @@ WKT2        : VERTCRS["North_American_1983_CSRS",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 (CSRS) ellipsoid height
 Authority   : Esri
@@ -7864,7 +8008,7 @@ WKT2        : VERTCRS["North_American_1983_HARN",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 HARN ellipsoid height
 Authority   : Esri
@@ -7891,7 +8035,7 @@ WKT2        : VERTCRS["NAD_1983_MA11",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD_1983 (MA11) ellipsoid height
 Authority   : Esri
@@ -7918,7 +8062,7 @@ WKT2        : VERTCRS["NAD_1983_MARP00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 (MARP00) ellipsoid height
 Authority   : Esri
@@ -7945,7 +8089,7 @@ WKT2        : VERTCRS["NAD_1983_NSRS2007",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 (NSRS2007) ellipsoid height
 Authority   : Esri
@@ -7972,7 +8116,7 @@ WKT2        : VERTCRS["NAD_1983_PA11",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 (PA11) ellipsoid height
 Authority   : Esri
@@ -7999,7 +8143,7 @@ WKT2        : VERTCRS["NAD_1983_PACP00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 (PACP00) ellipsoid height
 Authority   : Esri
@@ -8026,7 +8170,7 @@ WKT2        : VERTCRS["Nepal_Nagarkot",
                 ELLIPSOID["Everest_Adjustment_1937", 6377276.345, 300.8017,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Nepal Nagarkot ellipsoid height
 Authority   : Esri
@@ -8053,7 +8197,7 @@ WKT2        : VERTCRS["NZGD_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NZGD 2000 ellipsoid height
 Authority   : Esri
@@ -8080,7 +8224,7 @@ WKT2        : VERTCRS["Peru96",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Peru96 ellipsoid height
 Authority   : Esri
@@ -8107,7 +8251,7 @@ WKT2        : VERTCRS["PNG94",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : PNG94 ellipsoid height
 Authority   : Esri
@@ -8134,7 +8278,7 @@ WKT2        : VERTCRS["POSGAR",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : POSGAR ellipsoid height
 Authority   : Esri
@@ -8161,7 +8305,7 @@ WKT2        : VERTCRS["POSGAR_1994",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : POSGAR 1994 ellipsoid height
 Authority   : Esri
@@ -8188,7 +8332,7 @@ WKT2        : VERTCRS["POSGAR_1998",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : POSGAR 1998 ellipsoid height
 Authority   : Esri
@@ -8215,7 +8359,7 @@ WKT2        : VERTCRS["PRS_1992",
                 ELLIPSOID["Clarke_1866", 6378206.4, 294.9786982,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : PRS 1992 ellipsoid height
 Authority   : Esri
@@ -8242,7 +8386,7 @@ WKT2        : VERTCRS["PTRA08",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : PTRA08 ellipsoid height
 Authority   : Esri
@@ -8269,7 +8413,7 @@ WKT2        : VERTCRS["PZ_1990",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : PZ 1990 ellipsoid height
 Authority   : Esri
@@ -8296,7 +8440,7 @@ WKT2        : VERTCRS["RDN2008",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RDN2008 ellipsoid height
 Authority   : Esri
@@ -8323,7 +8467,7 @@ WKT2        : VERTCRS["REGCAN95",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : REGCAN95 ellipsoid height
 Authority   : Esri
@@ -8350,7 +8494,7 @@ WKT2        : VERTCRS["REGVEN",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : REGVEN ellipsoid height
 Authority   : Esri
@@ -8377,7 +8521,7 @@ WKT2        : VERTCRS["RGAF09",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGAF09 ellipsoid height
 Authority   : Esri
@@ -8404,7 +8548,7 @@ WKT2        : VERTCRS["RGF_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGF 1993 ellipsoid height
 Authority   : Esri
@@ -8431,7 +8575,7 @@ WKT2        : VERTCRS["RGFG_1995",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGFG 1995 ellipsoid height
 Authority   : Esri
@@ -8458,7 +8602,7 @@ WKT2        : VERTCRS["RGM_2004",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGM 2004 ellipsoid height
 Authority   : Esri
@@ -8485,7 +8629,7 @@ WKT2        : VERTCRS["RGNC_1991",
                 ELLIPSOID["International_1924", 6378388.0, 297.0,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGNC 1991 ellipsoid height
 Authority   : Esri
@@ -8512,7 +8656,7 @@ WKT2        : VERTCRS["RGNC_1991-93",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGNC 1991-93 ellipsoid height
 Authority   : Esri
@@ -8539,7 +8683,7 @@ WKT2        : VERTCRS["RGPF",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGPF ellipsoid height
 Authority   : Esri
@@ -8566,7 +8710,7 @@ WKT2        : VERTCRS["RGR_1992",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGR 1992 ellipsoid height
 Authority   : Esri
@@ -8593,7 +8737,7 @@ WKT2        : VERTCRS["RGRDC_2005",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGRDC 2005 ellipsoid height
 Authority   : Esri
@@ -8620,7 +8764,7 @@ WKT2        : VERTCRS["RGSPM_2006",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGSPM 2006 ellipsoid height
 Authority   : Esri
@@ -8647,7 +8791,7 @@ WKT2        : VERTCRS["RRAF_1991",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RRAF 1991 ellipsoid height
 Authority   : Esri
@@ -8674,7 +8818,7 @@ WKT2        : VERTCRS["RSRGD2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RSRGD2000 ellipsoid height
 Authority   : Esri
@@ -8701,7 +8845,7 @@ WKT2        : VERTCRS["SIRGAS_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS 2000 ellipsoid height
 Authority   : Esri
@@ -8728,7 +8872,7 @@ WKT2        : VERTCRS["SIRGAS-Chile",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS-Chile ellipsoid height
 Authority   : Esri
@@ -8755,7 +8899,7 @@ WKT2        : VERTCRS["SIRGAS_ES2007.8",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS ES2007.8 ellipsoid height
 Authority   : Esri
@@ -8782,7 +8926,7 @@ WKT2        : VERTCRS["SIRGAS-ROU98",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS-ROU98 ellipsoid height
 Authority   : Esri
@@ -8809,7 +8953,7 @@ WKT2        : VERTCRS["SLD99",
                 ELLIPSOID["Everest_Adjustment_1937", 6377276.345, 300.8017,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 2008 ellipsoid height
 Authority   : Esri
@@ -8836,7 +8980,7 @@ WKT2        : VERTCRS["Slovenia_1996",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Slovenia 1996 ellipsoid height
 Authority   : Esri
@@ -8863,7 +9007,7 @@ WKT2        : VERTCRS["SREF98",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SREF98 ellipsoid height
 Authority   : Esri
@@ -8890,7 +9034,7 @@ WKT2        : VERTCRS["S_JTSK/05",
                 ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : S_JTSK/05 ellipsoid height
 Authority   : Esri
@@ -8917,7 +9061,7 @@ WKT2        : VERTCRS["S_JTSK/05_Ferro",
                 ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : S JTSK/05 (Ferro) ellipsoid height
 Authority   : Esri
@@ -8944,7 +9088,7 @@ WKT2        : VERTCRS["SWEREF99",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SWEREF99 ellipsoid height
 Authority   : Esri
@@ -8971,7 +9115,7 @@ WKT2        : VERTCRS["TGD2005",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : TGD2005 ellipsoid height
 Authority   : Esri
@@ -8998,7 +9142,7 @@ WKT2        : VERTCRS["TWD_1997",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : TWD 1997 ellipsoid height
 Authority   : Esri
@@ -9025,7 +9169,7 @@ WKT2        : VERTCRS["Ukraine_2000",
                 ELLIPSOID["Krasovsky_1940", 6378245.0, 298.3,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Ukraine 2000 ellipsoid height
 Authority   : Esri
@@ -9052,7 +9196,7 @@ WKT2        : VERTCRS["Yemen_NGN_1996",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Yemen NGN 1996 ellipsoid height
 Authority   : Esri
@@ -9079,7 +9223,7 @@ WKT2        : VERTCRS["ITRF_2008",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 2008 ellipsoid height
 Authority   : Esri
@@ -9106,7 +9250,7 @@ WKT2        : VERTCRS["TUREF",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : TUREF ellipsoid height
 Authority   : Esri
@@ -9133,7 +9277,7 @@ WKT2        : VERTCRS["GDA2020",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : GDA2020 ellipsoid height
 Authority   : Esri
@@ -9160,7 +9304,7 @@ WKT2        : VERTCRS["BGS2005",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : BGS2005 ellipsoid height
 Authority   : Esri
@@ -9259,7 +9403,7 @@ WKT2        : VERTCRS["ITRF2014",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 2014 ellipsoid height
 Authority   : Esri
@@ -9286,7 +9430,7 @@ WKT2        : VERTCRS["SHGD2015",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SHGD2015 ellipsoid height
 Authority   : Esri
@@ -9296,7 +9440,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 115812
 Latest-WKID : 115812
@@ -9313,7 +9457,7 @@ WKT2        : VERTCRS["St_Helena_Tritan",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : St. Helena Tritan ellipsoid height
 Authority   : Esri
@@ -9323,7 +9467,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 115813
 Latest-WKID : 115813
@@ -9340,7 +9484,7 @@ WKT2        : VERTCRS["GSK-2011",
                 ELLIPSOID["GSK-2011", 6378136.5, 298.2564151,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : GSK-2011 ellipsoid height
 Authority   : Esri
@@ -9367,7 +9511,7 @@ WKT2        : VERTCRS["PZ-90.11",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Parametry Zemli 1990.11 ellipsoid height
 Authority   : Esri
@@ -9394,7 +9538,7 @@ WKT2        : VERTCRS["PZ-90.02",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Parametry Zemli 1990.02 ellipsoid height
 Authority   : Esri
@@ -9421,7 +9565,7 @@ WKT2        : VERTCRS["WGS_1984_(Transit)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : World Geodetic System 1984 (Transit) ellipsoid height
 Authority   : Esri
@@ -9448,7 +9592,7 @@ WKT2        : VERTCRS["WGS_1984_(G1762)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : World Geodetic System 1984 (G1762) ellipsoid height
 Authority   : Esri
@@ -9475,7 +9619,7 @@ WKT2        : VERTCRS["WGS_1984_(G1674)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : World Geodetic System 1984 (G1674) ellipsoid height
 Authority   : Esri
@@ -9502,7 +9646,7 @@ WKT2        : VERTCRS["WGS_1984_(G1150)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : World Geodetic System 1984 (G1150) ellipsoid height
 Authority   : Esri
@@ -9529,7 +9673,7 @@ WKT2        : VERTCRS["WGS_1984_(G873)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : World Geodetic System 1984 (G873) ellipsoid height
 Authority   : Esri
@@ -9556,7 +9700,7 @@ WKT2        : VERTCRS["WGS_1984_(G730)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : World Geodetic System 1984 (G730) ellipsoid height
 Authority   : Esri
@@ -9583,7 +9727,7 @@ WKT2        : VERTCRS["ETRF90",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF 1990 ellipsoid height
 Authority   : Esri
@@ -9610,7 +9754,7 @@ WKT2        : VERTCRS["ETRF91",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF 1991 ellipsoid height
 Authority   : Esri
@@ -9637,7 +9781,7 @@ WKT2        : VERTCRS["ETRF92",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF 1992 ellipsoid height
 Authority   : Esri
@@ -9664,7 +9808,7 @@ WKT2        : VERTCRS["ETRF93",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF 1993 ellipsoid height
 Authority   : Esri
@@ -9691,7 +9835,7 @@ WKT2        : VERTCRS["ETRF94",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF 1994 ellipsoid height
 Authority   : Esri
@@ -9718,7 +9862,7 @@ WKT2        : VERTCRS["ETRF96",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF 1996 ellipsoid height
 Authority   : Esri
@@ -9745,7 +9889,7 @@ WKT2        : VERTCRS["ETRF97",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF 1997 ellipsoid height
 Authority   : Esri
@@ -9772,7 +9916,7 @@ WKT2        : VERTCRS["ETRF2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF 2000 ellipsoid height
 Authority   : Esri
@@ -9799,7 +9943,7 @@ WKT2        : VERTCRS["NAD83(CSRS96)",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD83(CSRS96) ellipsoid height
 Authority   : Esri
@@ -9826,7 +9970,7 @@ WKT2        : VERTCRS["NAD83(CSRS)v2",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD83 (CSRS) v2 ellipsoid height
 Authority   : Esri
@@ -9853,7 +9997,7 @@ WKT2        : VERTCRS["NAD83(CSRS)v3",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD83 (CSRS) v3 ellipsoid height
 Authority   : Esri
@@ -9880,7 +10024,7 @@ WKT2        : VERTCRS["NAD83(CSRS)v4",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD83 (CSRS) v4 ellipsoid height
 Authority   : Esri
@@ -9907,7 +10051,7 @@ WKT2        : VERTCRS["NAD83(CSRS)v5",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD83 (CSRS) v5 ellipsoid height
 Authority   : Esri
@@ -9934,7 +10078,7 @@ WKT2        : VERTCRS["NAD83(CSRS)v6",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD83 (CSRS) v6 ellipsoid height
 Authority   : Esri
@@ -9961,7 +10105,7 @@ WKT2        : VERTCRS["NAD83(CSRS)v7",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD83 (CSRS) v7 ellipsoid height
 Authority   : Esri
@@ -9988,7 +10132,7 @@ WKT2        : VERTCRS["IGS14",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGS14 ellipsoid height
 Authority   : Esri
@@ -10015,7 +10159,7 @@ WKT2        : VERTCRS["ISN2016",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ISN2016 ellipsoid height
 Authority   : Esri
@@ -10042,7 +10186,7 @@ WKT2        : VERTCRS["Hong_Kong_Geodetic_CS",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : HK Geodetic CS ellipsoid height
 Authority   : Esri
@@ -10069,7 +10213,7 @@ WKT2        : VERTCRS["NAD_1983_(FBN)",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 FBN ellipsoid height
 Authority   : Esri
@@ -10096,7 +10240,7 @@ WKT2        : VERTCRS["NAD_1983_(HARN_Corrected)",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : NAD 1983 HARN Corrected ellipsoid height
 Authority   : Esri
@@ -10123,7 +10267,7 @@ WKT2        : VERTCRS["SRB_ETRS89",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SRB ETRS89 ellipsoid height
 Authority   : Esri
@@ -10150,7 +10294,7 @@ WKT2        : VERTCRS["MTRF-2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : MTRF-2000 ellipsoid height
 Authority   : Esri
@@ -10177,7 +10321,7 @@ WKT2        : VERTCRS["California_SRS_Epoch_2017.50_(NAD83)",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : California SRS EPOCH 2017.5 (NAD83) ellipsoid height
 Authority   : Esri
@@ -10186,7 +10330,7 @@ Deprecated  : no
 Area-name   : USA - California and borders of NV, AZ, OR and MX
 Area-slat   : 32.25
 Area-nlat   : 42.53
-Area-llon   : -124.44
+Area-llon   : -124.45
 Area-rlon   : -113.6
 
 WKID        : 115845
@@ -10204,7 +10348,7 @@ WKT2        : VERTCRS["GGD",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : GGD ellipsoid height
 Authority   : Esri
@@ -10231,7 +10375,7 @@ WKT2        : VERTCRS["ONGD14",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ONGD14 ellipsoid height
 Authority   : Esri
@@ -10258,7 +10402,7 @@ WKT2        : VERTCRS["ONGD17",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ONGD17 ellipsoid height
 Authority   : Esri
@@ -10285,7 +10429,7 @@ WKT2        : VERTCRS["S-JTSK_[JTSK03]",
                 ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : S-JTSK [JTSK03]
 Authority   : Esri
@@ -10312,7 +10456,7 @@ WKT2        : VERTCRS["CR-SIRGAS",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : CR-SIRGAS ellipsoid height
 Authority   : Esri
@@ -10339,7 +10483,7 @@ WKT2        : VERTCRS["RGWF96",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGWF96 ellipsoid height
 Authority   : Esri
@@ -10366,7 +10510,7 @@ WKT2        : VERTCRS["SIRGAS-CON_DGF00P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network DGF00P01 ellipsoid height
 Authority   : Esri
@@ -10393,7 +10537,7 @@ WKT2        : VERTCRS["SIRGAS-CON_DGF01P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network DGF01P01 ellipsoid height
 Authority   : Esri
@@ -10420,7 +10564,7 @@ WKT2        : VERTCRS["SIRGAS-CON_DGF01P02",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network DGF01P02 ellipsoid height
 Authority   : Esri
@@ -10447,7 +10591,7 @@ WKT2        : VERTCRS["SIRGAS-CON_DGF02P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network DGF02P01 ellipsoid height
 Authority   : Esri
@@ -10474,7 +10618,7 @@ WKT2        : VERTCRS["SIRGAS-CON_DGF04P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network DGF04P01 ellipsoid height
 Authority   : Esri
@@ -10501,7 +10645,7 @@ WKT2        : VERTCRS["SIRGAS-CON_DGF05P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network DGF05P01 ellipsoid height
 Authority   : Esri
@@ -10528,7 +10672,7 @@ WKT2        : VERTCRS["SIRGAS-CON_DGF06P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network DGF06P01 ellipsoid height
 Authority   : Esri
@@ -10555,7 +10699,7 @@ WKT2        : VERTCRS["SIRGAS-CON_DGF07P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network DGF07P01 ellipsoid height
 Authority   : Esri
@@ -10582,7 +10726,7 @@ WKT2        : VERTCRS["SIRGAS-CON_DGF08P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network DGF08P01 ellipsoid height
 Authority   : Esri
@@ -10609,7 +10753,7 @@ WKT2        : VERTCRS["SIRGAS-CON_SIR09P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network SIR09P01 ellipsoid height
 Authority   : Esri
@@ -10636,7 +10780,7 @@ WKT2        : VERTCRS["SIRGAS-CON_SIR10P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network SIR10P01 ellipsoid height
 Authority   : Esri
@@ -10663,7 +10807,7 @@ WKT2        : VERTCRS["SIRGAS-CON_SIR11P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network SIR11P01 ellipsoid height
 Authority   : Esri
@@ -10690,7 +10834,7 @@ WKT2        : VERTCRS["SIRGAS-CON_SIR13P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network SIR13P01 ellipsoid height
 Authority   : Esri
@@ -10717,7 +10861,7 @@ WKT2        : VERTCRS["SIRGAS-CON_SIR14P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network SIR14P01 ellipsoid height
 Authority   : Esri
@@ -10744,7 +10888,7 @@ WKT2        : VERTCRS["SIRGAS-CON_SIR15P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network SIR15P01 ellipsoid height
 Authority   : Esri
@@ -10771,7 +10915,7 @@ WKT2        : VERTCRS["SIRGAS-CON_SIR17P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS Continuously Operating Network SIR17P01 ellipsoid height
 Authority   : Esri
@@ -10798,7 +10942,7 @@ WKT2        : VERTCRS["IGS97",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGS97 ellipsoid height
 Authority   : Esri
@@ -10825,7 +10969,7 @@ WKT2        : VERTCRS["IGS00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGS00 ellipsoid height
 Authority   : Esri
@@ -10852,7 +10996,7 @@ WKT2        : VERTCRS["IGb00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGb00 ellipsoid height
 Authority   : Esri
@@ -10879,7 +11023,7 @@ WKT2        : VERTCRS["IGS05",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGS05 ellipsoid height
 Authority   : Esri
@@ -10906,7 +11050,7 @@ WKT2        : VERTCRS["IGb08",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGb08 ellipsoid height
 Authority   : Esri
@@ -10933,7 +11077,7 @@ WKT2        : VERTCRS["KOSOVAREF01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : KOSOVAREF01 ellipsoid height
 Authority   : Esri
@@ -10960,7 +11104,7 @@ WKT2        : VERTCRS["ETRF2005",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF 2005 ellipsoid height
 Authority   : Esri
@@ -10987,7 +11131,7 @@ WKT2        : VERTCRS["ETRF2014",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF 2014 ellipsoid height
 Authority   : Esri
@@ -11014,7 +11158,7 @@ WKT2        : VERTCRS["CH1903+",
                 ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Swiss, CH 1903+ ellipsoid height
 Authority   : Esri
@@ -11041,7 +11185,7 @@ WKT2        : VERTCRS["ATRF2014",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Australia, ATRF 2014 ellipsoid height
 Authority   : Esri
@@ -11068,7 +11212,7 @@ WKT2        : VERTCRS["Australian_1984",
                 ELLIPSOID["Australian", 6378160.0, 298.25,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Australian Geodetic Datum 1984 ellipsoid height
 Authority   : Esri
@@ -11095,7 +11239,7 @@ WKT2        : VERTCRS["Australian_1966",
                 ELLIPSOID["Australian", 6378160.0, 298.25,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Australian Geodetic Datum 1966 ellipsoid height
 Authority   : Esri
@@ -11122,11 +11266,173 @@ WKT2        : VERTCRS["ITRF_1994",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
-               AXIS["Gravity-related height (H)", up,
+               AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF 1994 ellipsoid height
 Authority   : Esri
 Version     : 13.0.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115880
+Latest-WKID : 115880
+Macro       : PE_VCS_POSGAR_2007
+Name        : POSGAR_2007
+WKT         : VERTCS["POSGAR_2007",
+               DATUM["D_POSGAR_2007",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["POSGAR_2007",
+               DATUM["D_POSGAR_2007",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : POSGAR 2007 ellipsoid height
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Argentina
+Area-slat   : -58.41
+Area-nlat   : -21.78
+Area-llon   : -73.59
+Area-rlon   : -52.63
+
+WKID        : 115881
+Latest-WKID : 115881
+Macro       : PE_VCS_RGF93_V2
+Name        : RGF93_v2
+WKT         : VERTCS["RGF93_v2",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGF93_v2",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGF93 v2 ellipsoid height
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 115882
+Latest-WKID : 115882
+Macro       : PE_VCS_RGF93_V2B
+Name        : RGF93_v2b
+WKT         : VERTCS["RGF93_v2b",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGF93_v2b",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGF93 v2b ellipsoid height
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 115883
+Latest-WKID : 115883
+Macro       : PE_VCS_ITRF2020
+Name        : ITRF2020
+WKT         : VERTCS["ITRF2020",
+               DATUM["International_Terrestrial_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ITRF2020",
+               DATUM["International_Terrestrial_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ITRF2020
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115884
+Latest-WKID : 115884
+Macro       : PE_VCS_SIRGAS_CHILE_2021
+Name        : SIRGAS_Chile_2021_height
+WKT         : VERTCS["SIRGAS_Chile_2021_height",
+               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["SIRGAS_Chile_2021_height",
+               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SIRGAS-Chile 2021 ellipsoid height
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 115885
+Latest-WKID : 115885
+Macro       : PE_VCS_WGS_1984_G2139
+Name        : WGS_1984_(G2139)_height
+WKT         : VERTCS["WGS_1984_(G2139)_height",
+               DATUM["WGS_1984_(G2139)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["WGS_1984_(G2139)_height",
+               DATUM["WGS_1984_(G2139)",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : WGS 1984 (G2139) ellipsoid height
+Authority   : Esri
+Version     : 13.1.0
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0

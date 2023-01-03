@@ -360,6 +360,10 @@ PE_GCS_LTF2004G_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "LTF2004(G) 3D"
 
+PE_GCS_LUREF_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "LUREF 3D"
+
 PE_GCS_MOLDREF99_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "MOLDREF99 3D"
@@ -391,6 +395,22 @@ PE_GCS_RGF93_LON_LAT_3D, \
 PE_GCS_RGF_1993_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "RGF 1993 3D"
+
+PE_GCS_RGF93_V2_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "RGF93 v2 (lon-lat) 3D"
+
+PE_GCS_RGF93_V2_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "RGF93 v2 3D"
+
+PE_GCS_RGF93_V2B_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "RGF93 v2b (lon-lat) 3D"
+
+PE_GCS_RGF93_V2B_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "RGF93 v2b 3D"
 
 PE_GCS_S_JTSK_05_FERRO_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
@@ -696,6 +716,10 @@ PE_GCS_SIRGAS_CHILE_2016_3D, \
    "Geographic Coordinate Systems/3D/South America", \
    "SIRGAS-Chile 2016 3D"
 
+PE_GCS_SIRGAS_CHILE_2021_3D, \
+   "Geographic Coordinate Systems/3D/South America", \
+   "SIRGAS-Chile 2021 3D"
+
 PE_GCS_SIRGAS_CHILE_3D, \
    "Geographic Coordinate Systems/3D/South America", \
    "SIRGAS-Chile 3D"
@@ -788,6 +812,10 @@ PE_GCS_ITRF2014_3D, \
    "Geographic Coordinate Systems/3D/World", \
    "ITRF 2014 3D"
 
+PE_GCS_ITRF2020_3D, \
+   "Geographic Coordinate Systems/3D/World", \
+   "ITRF 2020 3D"
+
 PE_GCS_WGS_1966_3D, \
    "Geographic Coordinate Systems/3D/World", \
    "WGS 1966 3D"
@@ -811,6 +839,10 @@ PE_GCS_WGS_1984_G1674_3D, \
 PE_GCS_WGS_1984_G1762_3D, \
    "Geographic Coordinate Systems/3D/World", \
    "WGS 1984 (G1762) 3D"
+
+PE_GCS_WGS_84_G2139_3D, \
+   "Geographic Coordinate Systems/3D/World", \
+   "WGS 1984 (G2139) 3D"
 
 PE_GCS_WGS_1984_G730_3D, \
    "Geographic Coordinate Systems/3D/World", \
@@ -1912,6 +1944,10 @@ PE_GCS_PANAMA_COLON_1911, \
    "Geographic Coordinate Systems/Central America", \
    "Panama-Colon 1911"
 
+PE_GCS_PANAMA08_2011, \
+   "Geographic Coordinate Systems/Central America", \
+   "Panama-ITRF2008 Epoch 2011"
+
 PE_GCS_SIRGAS_CON_DGF00P01, \
    "Geographic Coordinate Systems/Central America", \
    "SIRGAS-CON DGF00P01"
@@ -2416,6 +2452,10 @@ PE_GCS_DHDN, \
    "Geographic Coordinate Systems/Europe", \
    "Deutsches Hauptdreiecksnetz"
 
+PE_GCS_EBBWV14_IRF, \
+   "Geographic Coordinate Systems/Europe", \
+   "EBBWV14-IRF"
+
 PE_GCS_ECML14_NB_IRF, \
    "Geographic Coordinate Systems/Europe", \
    "ECML14_NB-IRF"
@@ -2516,6 +2556,10 @@ PE_GCS_FEH2010, \
    "Geographic Coordinate Systems/Europe", \
    "FEH2010"
 
+PE_GCS_FNL22_IRF, \
+   "Geographic Coordinate Systems/Europe", \
+   "FNL22-IRF"
+
 PE_GCS_GBK19_IRF, \
    "Geographic Coordinate Systems/Europe", \
    "GBK19-IRF"
@@ -2551,6 +2595,10 @@ PE_GCS_HS2_IRF, \
 PE_GCS_HTRS96, \
    "Geographic Coordinate Systems/Europe", \
    "HTRS96"
+
+PE_GCS_HULLEE13_IRF, \
+   "Geographic Coordinate Systems/Europe", \
+   "HULLEE13-IRF"
 
 PE_GCS_HERMANNSKOGEL, \
    "Geographic Coordinate Systems/Europe", \
@@ -2632,9 +2680,21 @@ PE_GCS_MML07_IRF, \
    "Geographic Coordinate Systems/Europe", \
    "MML07-IRF"
 
+PE_GCS_MOLDOR11_IRF, \
+   "Geographic Coordinate Systems/Europe", \
+   "MOLDOR11-IRF"
+
 PE_GCS_MOLDREF99, \
    "Geographic Coordinate Systems/Europe", \
    "MOLDREF99"
+
+PE_GCS_MRH21_IRF, \
+   "Geographic Coordinate Systems/Europe", \
+   "MRH21-IRF"
+
+PE_GCS_MWC18_IRF, \
+   "Geographic Coordinate Systems/Europe", \
+   "MWC18-IRF"
 
 PE_GCS_MADRID_1870_MADRID, \
    "Geographic Coordinate Systems/Europe", \
@@ -2736,6 +2796,22 @@ PE_GCS_RGF93_LON_LAT, \
    "Geographic Coordinate Systems/Europe", \
    "RGF 1993 (lon-lat)"
 
+PE_GCS_RGF93_V2, \
+   "Geographic Coordinate Systems/Europe", \
+   "RGF93 v2"
+
+PE_GCS_RGF93_V2_LON_LAT, \
+   "Geographic Coordinate Systems/Europe", \
+   "RGF93 v2 (lon-lat)"
+
+PE_GCS_RGF93_V2B, \
+   "Geographic Coordinate Systems/Europe", \
+   "RGF93 v2b"
+
+PE_GCS_RGF93_V2B_LON_LAT, \
+   "Geographic Coordinate Systems/Europe", \
+   "RGF93 v2b (lon-lat)"
+
 PE_GCS_RT90, \
    "Geographic Coordinate Systems/Europe", \
    "RT 1990"
@@ -2783,6 +2859,10 @@ PE_GCS_S_JTSK_05, \
 PE_GCS_S_JTSK_05_FERRO, \
    "Geographic Coordinate Systems/Europe", \
    "S-JTSK-05 (Ferro)"
+
+PE_GCS_SCM22_IRF, \
+   "Geographic Coordinate Systems/Europe", \
+   "SCM22-IRF"
 
 PE_GCS_SRB_ETRS89, \
    "Geographic Coordinate Systems/Europe", \
@@ -3960,6 +4040,10 @@ PE_GCS_SIRGAS_CHILE_2016, \
    "Geographic Coordinate Systems/South America", \
    "SIRGAS-Chile 2016"
 
+PE_GCS_SIRGAS_CHILE_2021, \
+   "Geographic Coordinate Systems/South America", \
+   "SIRGAS-Chile_2021"
+
 PE_GCS_SIRGAS_ROU98, \
    "Geographic Coordinate Systems/South America", \
    "SIRGAS-ROU98"
@@ -4272,6 +4356,10 @@ PE_GCS_ITRF2014, \
    "Geographic Coordinate Systems/World", \
    "ITRF 2014"
 
+PE_GCS_ITRF2020, \
+   "Geographic Coordinate Systems/World", \
+   "ITRF 2020"
+
 PE_GCS_NSWC_9Z_2, \
    "Geographic Coordinate Systems/World", \
    "NSWC 9Z-2"
@@ -4311,6 +4399,10 @@ PE_GCS_WGS_1984_G1674, \
 PE_GCS_WGS_1984_G1762, \
    "Geographic Coordinate Systems/World", \
    "WGS 1984 (G1762)"
+
+PE_GCS_WGS_1984_G2139, \
+   "Geographic Coordinate Systems/World", \
+   "WGS 1984 (G2139)"
 
 PE_GCS_WGS_1984_G730, \
    "Geographic Coordinate Systems/World", \

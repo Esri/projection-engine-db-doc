@@ -1721,10 +1721,10 @@
     "deprecated": "no",
     "areaname": "Argentina - Neuquen province",
     "extent":
-    { "slat": -41.1,
-      "nlat": -36.14,
-      "llon": -71.96,
-      "rlon": -68.01
+    { "slat": -40.17,
+      "nlat": -34.26,
+      "llon": -71.19,
+      "rlon": -66.52
     }
   },
   { "wkid": 4161,
@@ -2138,7 +2138,7 @@
     { "slat": 36.87,
       "nlat": 37.96,
       "llon": -25.92,
-      "rlon": -24.62
+      "rlon": -24.72
     }
   },
   { "wkid": 4185,
@@ -2479,7 +2479,7 @@
     "extent":
     { "slat": -1.71,
       "nlat": 12.03,
-      "llon": 40.99,
+      "llon": 40.98,
       "rlon": 51.47
     }
   },
@@ -2930,7 +2930,7 @@
     { "slat": 34.88,
       "nlat": 84.73,
       "llon": -10.56,
-      "rlon": 38.0
+      "rlon": 38.01
     }
   },
   { "wkid": 4232,
@@ -3612,9 +3612,9 @@
     "areaname": "North America - NAD83",
     "extent":
     { "slat": 14.92,
-      "nlat": 86.46,
+      "nlat": 86.45,
       "llon": 167.65,
-      "rlon": -47.74
+      "rlon": -40.73
     }
   },
   { "wkid": 4270,
@@ -3773,9 +3773,9 @@
     "deprecated": "no",
     "areaname": "UK - Great Britain onshore and nearshore; Isle of Man",
     "extent":
-    { "slat": 49.797,
-      "nlat": 60.935,
-      "llon": -8.818,
+    { "slat": 49.79,
+      "nlat": 60.94,
+      "llon": -8.82,
       "rlon": 1.92
     }
   },
@@ -5306,7 +5306,7 @@
     { "slat": -17.93,
       "nlat": -17.41,
       "llon": -150.0,
-      "rlon": -149.11
+      "rlon": -149.09
     }
   },
   { "wkid": 4629,
@@ -5589,7 +5589,7 @@
     "authority": "EPSG",
     "version": "6.5(9.0.0)",
     "deprecated": "no",
-    "areaname": "Iceland - onshore",
+    "areaname": "Iceland - mainland",
     "extent":
     { "slat": 63.34,
       "nlat": 66.59,
@@ -5607,7 +5607,7 @@
     "authority": "EPSG",
     "version": "6.5(9.0.0)",
     "deprecated": "no",
-    "areaname": "Iceland - onshore",
+    "areaname": "Iceland - mainland",
     "extent":
     { "slat": 63.34,
       "nlat": 66.59,
@@ -5720,7 +5720,7 @@
     { "slat": 36.87,
       "nlat": 37.96,
       "llon": -25.92,
-      "rlon": -24.62
+      "rlon": -24.72
     }
   },
   { "wkid": 4665,
@@ -5792,7 +5792,7 @@
     { "slat": 34.88,
       "nlat": 84.73,
       "llon": -10.56,
-      "rlon": 38.0
+      "rlon": 38.01
     }
   },
   { "wkid": 4669,
@@ -6512,7 +6512,7 @@
     { "slat": -16.08,
       "nlat": -15.85,
       "llon": -5.85,
-      "rlon": -5.58
+      "rlon": -5.59
     }
   },
   { "wkid": 4711,
@@ -10904,7 +10904,7 @@
     { "slat": -16.08,
       "nlat": -15.85,
       "llon": -5.85,
-      "rlon": -5.58
+      "rlon": -5.59
     }
   },
   { "wkid": 7881,
@@ -10922,7 +10922,7 @@
     { "slat": -16.08,
       "nlat": -15.85,
       "llon": -5.85,
-      "rlon": -5.58
+      "rlon": -5.59
     }
   },
   { "wkid": 7885,
@@ -10940,7 +10940,7 @@
     { "slat": -16.08,
       "nlat": -15.85,
       "llon": -5.85,
-      "rlon": -5.58
+      "rlon": -5.59
     }
   },
   { "wkid": 7886,
@@ -10958,7 +10958,7 @@
     { "slat": -16.08,
       "nlat": -15.85,
       "llon": -5.85,
-      "rlon": -5.58
+      "rlon": -5.59
     }
   },
   { "wkid": 7900,
@@ -13982,7 +13982,7 @@
     { "slat": 53.32,
       "nlat": 53.9,
       "llon": -3.14,
-      "rlon": -1.35
+      "rlon": -1.34
     }
   },
   { "wkid": 9372,
@@ -13998,9 +13998,9 @@
     "areaname": "UK - London to Sheffield",
     "extent":
     { "slat": 51.46,
-      "nlat": 53.41,
+      "nlat": 53.42,
       "llon": -1.89,
-      "rlon": 0.15
+      "rlon": 0.16
     }
   },
   { "wkid": 9379,
@@ -14052,8 +14052,8 @@
     "areaname": "UK - Aberdeen to Inverness",
     "extent":
     { "slat": 57.1,
-      "nlat": 57.7,
-      "llon": -4.3,
+      "nlat": 57.71,
+      "llon": -4.31,
       "rlon": -2.1
     }
   },
@@ -14250,9 +14250,45 @@
     "areaname": "UK - Tweedmouth to Aberdeen",
     "extent":
     { "slat": 55.55,
-      "nlat": 57.2,
-      "llon": -3.55,
-      "rlon": -1.95
+      "nlat": 57.21,
+      "llon": -3.56,
+      "rlon": -1.94
+    }
+  },
+  { "wkid": 9754,
+    "latestWkid": 9754,
+    "macro": "PE_GCS_WGS_84_G2139_3D",
+    "name": "WGS_84_(G2139)_(3D)",
+    "wkt": "GEOGCS[\"WGS_84_(G2139)_(3D)\",DATUM[\"WGS_1984_(G2139)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"WGS_84_(G2139)_(3D)\",DYNAMIC[FRAMEEPOCH[2016.5],MODEL[\"ITRF2014-PMM\"]],DATUM[\"WGS_1984_(G2139)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "WGS 84 (G2139) (3D)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "World (by country)",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 9755,
+    "latestWkid": 9755,
+    "macro": "PE_GCS_WGS_1984_G2139",
+    "name": "WGS_1984_(G2139)",
+    "wkt": "GEOGCS[\"WGS_1984_(G2139)\",DATUM[\"WGS_1984_(G2139)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"WGS_1984_(G2139)\",DYNAMIC[FRAMEEPOCH[2016.5],MODEL[\"ITRF2014-PMM\"]],DATUM[\"WGS_1984_(G2139)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "WGS 1984 (G2139)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
     }
   },
   { "wkid": 9758,
@@ -14289,6 +14325,366 @@
       "nlat": 52.24,
       "llon": -1.43,
       "rlon": -0.36
+    }
+  },
+  { "wkid": 9776,
+    "latestWkid": 9776,
+    "macro": "PE_GCS_RGF93_V2_3D",
+    "name": "RGF93_v2_3D",
+    "wkt": "GEOGCS[\"RGF93_v2_3D\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"RGF93_v2_3D\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGF93 v2 (3D)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 9777,
+    "latestWkid": 9777,
+    "macro": "PE_GCS_RGF93_V2",
+    "name": "RGF93_v2",
+    "wkt": "GEOGCS[\"RGF93_v2\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"RGF93_v2\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "RGF93 v2",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 9778,
+    "latestWkid": 9778,
+    "macro": "PE_GCS_RGF93_V2_LON_LAT_3D",
+    "name": "RGF93_v2_(lon-lat)_3D",
+    "wkt": "GEOGCS[\"RGF93_v2_(lon-lat)_3D\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"RGF93_v2_(lon-lat)_3D\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGF93 v2 (lon-lat) (3D)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 9779,
+    "latestWkid": 9779,
+    "macro": "PE_GCS_RGF93_V2_LON_LAT",
+    "name": "RGF93_v2_(lon-lat)",
+    "wkt": "GEOGCS[\"RGF93_v2_(lon-lat)\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"RGF93_v2_(lon-lat)\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "RGF93 v2 (lon-lat)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 9781,
+    "latestWkid": 9781,
+    "macro": "PE_GCS_RGF93_V2B_3D",
+    "name": "RGF93_v2b_3D",
+    "wkt": "GEOGCS[\"RGF93_v2b_3D\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"RGF93_v2b_3D\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGF93 v2b (3D)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 9782,
+    "latestWkid": 9782,
+    "macro": "PE_GCS_RGF93_V2B",
+    "name": "RGF93_v2b",
+    "wkt": "GEOGCS[\"RGF93_v2b\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"RGF93_v2b\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "RGF93 v2b",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 9783,
+    "latestWkid": 9783,
+    "macro": "PE_GCS_RGF93_V2B_LON_LAT_3D",
+    "name": "RGF93_v2b_(lon-lat)_3D",
+    "wkt": "GEOGCS[\"RGF93_v2b_(lon-lat)_3D\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"RGF93_v2b_(lon-lat)_3D\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGF93 v2b (lon-lat) (3D)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 9784,
+    "latestWkid": 9784,
+    "macro": "PE_GCS_RGF93_V2B_LON_LAT",
+    "name": "RGF93_v2b_(lon-lat)",
+    "wkt": "GEOGCS[\"RGF93_v2b_(lon-lat)\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"RGF93_v2b_(lon-lat)\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "RGF93 v2b (lon-lat)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 9866,
+    "latestWkid": 9866,
+    "macro": "PE_GCS_MRH21_IRF",
+    "name": "MRH21-IRF",
+    "wkt": "GEOGCS[\"MRH21-IRF\",DATUM[\"MRH21_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"MRH21-IRF\",DATUM[\"MRH21_Intermediate_Reference_Frame\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "MRH21-IRF",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "UK - Cardiff to Lincoln",
+    "extent":
+    { "slat": 51.35,
+      "nlat": 53.26,
+      "llon": -3.27,
+      "rlon": -0.36
+    }
+  },
+  { "wkid": 9871,
+    "latestWkid": 9871,
+    "macro": "PE_GCS_MOLDOR11_IRF",
+    "name": "MOLDOR11-IRF",
+    "wkt": "GEOGCS[\"MOLDOR11-IRF\",DATUM[\"MOLDOR11_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"MOLDOR11-IRF\",DATUM[\"MOLDOR11_Intermediate_Reference_Frame\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "MOLDOR11-IRF",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "UK - Manchester to Dore",
+    "extent":
+    { "slat": 53.25,
+      "nlat": 53.55,
+      "llon": -2.4,
+      "rlon": -1.39
+    }
+  },
+  { "wkid": 9893,
+    "latestWkid": 9893,
+    "macro": "PE_GCS_LUREF_3D",
+    "name": "LUREF_(3D)",
+    "wkt": "GEOGCS[\"LUREF_(3D)\",DATUM[\"D_Luxembourg_Reference_Frame\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"LUREF_(3D)\",DATUM[\"D_Luxembourg_Reference_Frame\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "LUREF (3D)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "Luxembourg",
+    "extent":
+    { "slat": 49.44,
+      "nlat": 50.19,
+      "llon": 5.73,
+      "rlon": 6.53
+    }
+  },
+  { "wkid": 9939,
+    "latestWkid": 9939,
+    "macro": "PE_GCS_EBBWV14_IRF",
+    "name": "EBBWV14-IRF",
+    "wkt": "GEOGCS[\"EBBWV14-IRF\",DATUM[\"EBBWV14_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"EBBWV14-IRF\",DATUM[\"EBBWV14_Intermediate_Reference_Frame\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "EBBWV14-IRF",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "UK - Newport to Ebbw Vale",
+    "extent":
+    { "slat": 51.5,
+      "nlat": 51.85,
+      "llon": -3.3,
+      "rlon": -2.89
+    }
+  },
+  { "wkid": 9964,
+    "latestWkid": 9964,
+    "macro": "PE_GCS_HULLEE13_IRF",
+    "name": "HULLEE13-IRF",
+    "wkt": "GEOGCS[\"HULLEE13-IRF\",DATUM[\"HULLEE13_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"HULLEE13-IRF\",DATUM[\"HULLEE13_Intermediate_Reference_Frame\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "HULLEE13-IRF",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "UK - Leeds to Hull",
+    "extent":
+    { "slat": 53.6,
+      "nlat": 53.9,
+      "llon": -1.7,
+      "rlon": -0.27
+    }
+  },
+  { "wkid": 9969,
+    "latestWkid": 9969,
+    "macro": "PE_GCS_SCM22_IRF",
+    "name": "SCM22-IRF",
+    "wkt": "GEOGCS[\"SCM22-IRF\",DATUM[\"SCM22_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"SCM22-IRF\",DATUM[\"SCM22_Intermediate_Reference_Frame\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "SCM22-IRF",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "UK - Motherwell to Inverness",
+    "extent":
+    { "slat": 55.7,
+      "nlat": 57.55,
+      "llon": -4.4,
+      "rlon": -3.3
+    }
+  },
+  { "wkid": 9974,
+    "latestWkid": 9974,
+    "macro": "PE_GCS_FNL22_IRF",
+    "name": "FNL22-IRF",
+    "wkt": "GEOGCS[\"FNL22-IRF\",DATUM[\"FNL22_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"FNL22-IRF\",DATUM[\"FNL22_Intermediate_Reference_Frame\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "FNL22-IRF",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "UK - Inverness to Thurso",
+    "extent":
+    { "slat": 57.4,
+      "nlat": 58.64,
+      "llon": -4.6,
+      "rlon": -3.0
+    }
+  },
+  { "wkid": 9989,
+    "latestWkid": 9989,
+    "macro": "PE_GCS_ITRF2020_3D",
+    "name": "ITRF2020_3D",
+    "wkt": "GEOGCS[\"ITRF2020_3D\",DATUM[\"International_Terrestrial_Reference_Frame_2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"ITRF2020_3D\",DATUM[\"International_Terrestrial_Reference_Frame_2020\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "ITRF2020 (3D)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 9990,
+    "latestWkid": 9990,
+    "macro": "PE_GCS_ITRF2020",
+    "name": "ITRF2020",
+    "wkt": "GEOGCS[\"ITRF2020\",DATUM[\"International_Terrestrial_Reference_Frame_2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"ITRF2020\",DATUM[\"International_Terrestrial_Reference_Frame_2020\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "ITRF2020",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 20033,
+    "latestWkid": 20033,
+    "macro": "PE_GCS_MWC18_IRF",
+    "name": "MWC18-IRF",
+    "wkt": "GEOGCS[\"MWC18-IRF\",DATUM[\"MWC18_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"MWC18-IRF\",DATUM[\"MWC18_Intermediate_Reference_Frame\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "MWC18-IRF",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "UK - Manchester, Wigan and Chester",
+    "extent":
+    { "slat": 53.09,
+      "nlat": 53.65,
+      "llon": -3.15,
+      "rlon": -2.1
+    }
+  },
+  { "wkid": 20040,
+    "latestWkid": 20040,
+    "macro": "PE_GCS_SIRGAS_CHILE_2021_3D",
+    "name": "SIRGAS-Chile_2021_(3D)",
+    "wkt": "GEOGCS[\"SIRGAS-Chile_2021_(3D)\",DATUM[\"SIRGAS-Chile_realization_5_epoch_2021\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"SIRGAS-Chile_2021_(3D)\",DATUM[\"SIRGAS-Chile_realization_5_epoch_2021\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "SIRGAS-Chile 2021 (3D)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "Chile",
+    "extent":
+    { "slat": -59.87,
+      "nlat": -17.5,
+      "llon": -113.21,
+      "rlon": -65.72
+    }
+  },
+  { "wkid": 20041,
+    "latestWkid": 20041,
+    "macro": "PE_GCS_SIRGAS_CHILE_2021",
+    "name": "SIRGAS-Chile_2021",
+    "wkt": "GEOGCS[\"SIRGAS-Chile_2021\",DATUM[\"SIRGAS-Chile_realization_5_epoch_2021\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"SIRGAS-Chile_2021\",DATUM[\"SIRGAS-Chile_realization_5_epoch_2021\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "SIRGAS-Chile 2021",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "Chile",
+    "extent":
+    { "slat": -59.87,
+      "nlat": -17.5,
+      "llon": -113.21,
+      "rlon": -65.72
     }
   },
   { "wkid": 37001,
@@ -14450,7 +14846,7 @@
     { "slat": 34.88,
       "nlat": 84.73,
       "llon": -10.56,
-      "rlon": 38.0
+      "rlon": 38.01
     }
   },
   { "wkid": 37202,
@@ -14499,7 +14895,7 @@
     "authority": "Esri",
     "version": "4.0.0",
     "deprecated": "yes",
-    "areaname": "Iceland - onshore",
+    "areaname": "Iceland - mainland",
     "extent":
     { "slat": 63.34,
       "nlat": 66.59,
@@ -15062,7 +15458,7 @@
     { "slat": -16.08,
       "nlat": -15.85,
       "llon": -5.85,
-      "rlon": -5.58
+      "rlon": -5.59
     }
   },
   { "wkid": 37239,
@@ -15224,7 +15620,7 @@
     { "slat": 36.87,
       "nlat": 37.96,
       "llon": -25.92,
-      "rlon": -24.62
+      "rlon": -24.72
     }
   },
   { "wkid": 37250,
@@ -15691,7 +16087,7 @@
     "extent":
     { "slat": 32.25,
       "nlat": 42.53,
-      "llon": -124.44,
+      "llon": -124.45,
       "rlon": -113.6
     }
   },
@@ -17022,9 +17418,9 @@
     "areaname": "North America - NAD83",
     "extent":
     { "slat": 14.92,
-      "nlat": 86.46,
+      "nlat": 86.45,
       "llon": 167.65,
-      "rlon": -47.74
+      "rlon": -40.73
     }
   },
   { "wkid": 104613,
@@ -17059,7 +17455,7 @@
     "extent":
     { "slat": 32.25,
       "nlat": 42.53,
-      "llon": -124.44,
+      "llon": -124.45,
       "rlon": -113.6
     }
   },
@@ -17079,6 +17475,24 @@
       "nlat": 43.59,
       "llon": 39.99,
       "rlon": 46.72
+    }
+  },
+  { "wkid": 104646,
+    "latestWkid": 104646,
+    "macro": "PE_GCS_PANAMA08_2011",
+    "name": "GCS_PANAMA08_2011",
+    "wkt": "GEOGCS[\"GCS_PANAMA08_2011\",DATUM[\"PANAMA08_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_PANAMA08_2011\",DYNAMIC[FRAMEEPOCH[2011.0],MODEL[\"ITRF2008-PMM\"]],DATUM[\"PANAMA08_2011\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Panama - ITRF_2008 epoch 2011",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "Panama",
+    "extent":
+    { "slat": 5.0,
+      "nlat": 12.51,
+      "llon": -84.32,
+      "rlon": -77.04
     }
   },
   { "wkid": 104647,

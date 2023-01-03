@@ -4,11 +4,6 @@
 # syntax: [VERTTRAN,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
 #------------------------------------------------------------------------------------------------------
 
-"AIOC95 depth to Caspian depth (1)", \
-   "AIOC95_Depth_To_Caspian_1", \
-   FALSE, \
-   "EPSG"
-
 "Alicante height to EVRF2000 height (1)", \
    "Alicante_To_EVRS_2000_1", \
    FALSE, \
@@ -26,16 +21,6 @@
 
 "Baltic 1957 height to EVRF2007 height (1)", \
    "Baltic_Height_To_EVRF_2007_Height_1", \
-   FALSE, \
-   "EPSG"
-
-"Baltic 1977 depth to AIOC95 depth (1)", \
-   "Baltic_Depth_To_AIOC95_Depth_1", \
-   FALSE, \
-   "EPSG"
-
-"Baltic 1977 depth to Caspian depth (1)", \
-   "Baltic_Depth_To_Caspian_Depth_1", \
    FALSE, \
    "EPSG"
 
@@ -124,28 +109,68 @@
    FALSE, \
    "EPSG"
 
+"EOMA height 1980 to EVRF2019 height (1)", \
+   "EOMA_1980_Height_To_EVRF2019_Height_1", \
+   FALSE, \
+   "EPSG"
+
 "ETRF93_To_LN02_Height_CHGeo2004_Htrans", \
    "ETRF93_To_LN02_Height_CHGeo2004_Htrans_deprecated", \
    TRUE, \
    ""
+
+"ETRS89 to HS2-VRF height (1)", \
+   "ETRS89_To_HS2-VRF_height_HS2GM15_1", \
+   FALSE, \
+   "EPSG"
 
 "ETRS89_To_LN02_Height_CHGeo2004_Htrans", \
    "ETRS89_To_LN02_Height_CHGeo2004_Htrans_deprecated", \
    TRUE, \
    ""
 
+"ETRS89 to NAP height (2)", \
+   "ETRS89_Height_To_NAP_Height_nlgeo2018", \
+   FALSE, \
+   "EPSG"
+
+"EVRF2000-PL height to EVRF2019 mean-tide height (1)", \
+   "EVRF2007-PL_Height_To_EVRF2019_Mean-Tide_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"GDA2020 to AHD height (1)", \
+   "GDA2020_Height_To_AHD_Height_AUSGeoid2020_1", \
+   FALSE, \
+   "EPSG"
+
 "GDA94 to AHD height (49)", \
    "GDA94_Height_To_AHD_Height_AUSGeoid09_49", \
    FALSE, \
    "EPSG"
 
-"Genoa height to EVRF2000 height (1)", \
+"GDA94 to AHD (Tasmania) height (2)", \
+   "GDA94_Height_To_AHD_Tasmania_Height_AUSGeoid09_2", \
+   FALSE, \
+   "EPSG"
+
+"Genoa 1942 height to EVRF2000 height (1)", \
    "Genoa_Height_To_EVRS_2000_Height_1", \
    FALSE, \
    "EPSG"
 
-"Genoa height to EVRF2000 height (2)", \
+"Genoa 1942 height to EVRF2000 height (2)", \
    "Genoa_Height_To_EVRS_2000_Height_2", \
+   FALSE, \
+   "EPSG"
+
+"Genoa 1942 height to EVRF2007 height (1)", \
+   "Genoa_Height_To_EVRF_2007_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"Genoa 1942 height to EVRF2007 height (2)", \
+   "Genoa_Height_To_EVRF_2007_Height_2", \
    FALSE, \
    "EPSG"
 
@@ -166,6 +191,11 @@
 
 "HVRS71 height to EVRF2007 height (1)", \
    "HVRS_1971_Height_To_EVRF_2007_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"LAS07 height to EVRF2019 mean-tide height (1)", \
+   "LAS07_Height_To_EVRF2019_Mean-Tide_Height_2", \
    FALSE, \
    "EPSG"
 
@@ -289,8 +319,23 @@
    FALSE, \
    "EPSG"
 
-"Oostende height to EVRF2000 height (1)", \
+"Ostend height to EVRF2000 height (1)", \
    "Oostende_Height_To_EVRS_2000_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"Ostend height to EVRF2007 height (1)", \
+   "Oostende_Height_To_EVRF_2007_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"Ostend height to EVRF2019 height (2)", \
+   "Oostende_Height_To_EVRF2019_Height_2", \
+   FALSE, \
+   "EPSG"
+
+"Ostend height to EVRF2019 mean-tide height (2)", \
+   "Oostende_Height_To_EVRF2019_Mean-Tide_Height_2", \
    FALSE, \
    "EPSG"
 

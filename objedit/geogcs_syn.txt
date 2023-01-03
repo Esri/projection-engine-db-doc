@@ -204,6 +204,21 @@
    FALSE, \
    "Teradata"
 
+"BD50", \
+   "Belge_1950", \
+   FALSE, \
+   "EPSG"
+
+"BD50 (Brussels)", \
+   "Belge_1950_Brussels", \
+   FALSE, \
+   "EPSG"
+
+"BD72", \
+   "Belge_1972", \
+   FALSE, \
+   "EPSG"
+
 "BDA2000", \
    "Bermuda_2000", \
    FALSE, \
@@ -377,11 +392,6 @@
 "CHTRF95", \
    "Swiss_TRF_1995", \
    FALSE, \
-   "EPSG"
-
-"CHTRF95", \
-   "Swiss_TRF_1995", \
-   FALSE, \
    "Oracle"
 
 "CHTRF95", \
@@ -404,7 +414,12 @@
    FALSE, \
    "Teradata"
 
-"CHTRF95 (3D)", \
+"CHTRS95", \
+   "Swiss_TRF_1995", \
+   FALSE, \
+   "EPSG"
+
+"CHTRS95 (3D)", \
    "Swiss_TRF_1995_3D", \
    FALSE, \
    "EPSG"
@@ -2959,6 +2974,11 @@
    FALSE, \
    "Oracle"
 
+"OSGB36", \
+   "OSGB_1936", \
+   FALSE, \
+   "EPSG"
+
 "OSGB70", \
    "OSGB_1970_SN", \
    FALSE, \
@@ -3482,11 +3502,6 @@
 "RGF93", \
    "RGF_1993", \
    FALSE, \
-   "EPSG"
-
-"RGF93", \
-   "RGF_1993", \
-   FALSE, \
    "Oracle"
 
 "RGF93", \
@@ -3509,8 +3524,23 @@
    FALSE, \
    "Teradata"
 
-"RGF93 (3D)", \
+"RGF93 v1", \
+   "RGF_1993", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 (3D)", \
    "RGF_1993_3D", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 (lon-lat)", \
+   "RGF93_(lon-lat)", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 (lon-lat) (3D)", \
+   "RGF93_(lon-lat)_3D", \
    FALSE, \
    "EPSG"
 
@@ -5271,6 +5301,11 @@
 
 "WGS 84 (G1762) (3D)", \
    "WGS_1984_(G1762)_3D", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 (G2139)", \
+   "WGS_1984_(G2139)", \
    FALSE, \
    "EPSG"
 

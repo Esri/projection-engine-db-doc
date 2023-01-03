@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -4040,7 +4040,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 7884
 Latest-WKID : 7884
@@ -4073,7 +4073,7 @@ Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
-Area-rlon   : -5.58
+Area-rlon   : -5.59
 
 WKID        : 7914
 Latest-WKID : 7914
@@ -6220,6 +6220,105 @@ Area-nlat   : 55.93
 Area-llon   : 14.14
 Area-rlon   : 24.15
 
+WKID        : 9753
+Latest-WKID : 9753
+Macro       : PE_XYZ_WGS_84_G2139
+Name        : WGS_84_(G2139)
+WKT         : GXYZCS["WGS_84_(G2139)",
+               DATUM["WGS_1984_(G2139)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["WGS_84_(G2139)",
+               DATUM["WGS_1984_(G2139)",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : WGS 84 (G2139)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 9775
+Latest-WKID : 9775
+Macro       : PE_XYZ_RGF93_V2
+Name        : RGF93_v2
+WKT         : GXYZCS["RGF93_v2",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["RGF93_v2",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : RGF93 v2
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 9780
+Latest-WKID : 9780
+Macro       : PE_XYZ_RGF93_V2B
+Name        : RGF93_v2b
+WKT         : GXYZCS["RGF93_v2b",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["RGF93_v2b",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : RGF93 v2b
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
 WKID        : 9892
 Latest-WKID : 9892
 Macro       : PE_XYZ_LUREF
@@ -6252,3 +6351,69 @@ Area-slat   : 49.44
 Area-nlat   : 50.19
 Area-llon   : 5.73
 Area-rlon   : 6.53
+
+WKID        : 9988
+Latest-WKID : 9988
+Macro       : PE_XYZ_ITRF2020
+Name        : ITRF2020
+WKT         : GXYZCS["ITRF2020",
+               DATUM["International_Terrestrial_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ITRF2020",
+               DATUM["International_Terrestrial_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : ITRF2020
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : World (by country)
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 20039
+Latest-WKID : 20039
+Macro       : PE_XYZ_SIRGAS_CHILE_2021
+Name        : SIRGAS-Chile_2021
+WKT         : GXYZCS["SIRGAS-Chile_2021",
+               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["SIRGAS-Chile_2021",
+               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : SIRGAS-Chile 2021
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72

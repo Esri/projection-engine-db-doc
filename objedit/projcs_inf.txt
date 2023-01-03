@@ -172,6 +172,10 @@ PE_PCS_NAD_1927_CONUS_ALBERS, \
    "Projected Coordinate Systems/Continental/North America", \
    "NAD 1927 Contiguous USA Albers"
 
+PE_PCS_NAD83_2011_AMTRAK_NECCS21_FT, \
+   "Projected Coordinate Systems/Continental/North America", \
+   "NAD 1983 (2011) Amtrak NECCS21 (ft)"
+
 PE_PCS_NAD_1983_2011_CONUS_ALBERS, \
    "Projected Coordinate Systems/Continental/North America", \
    "NAD 1983 (2011) Contiguous USA Albers"
@@ -6828,6 +6832,10 @@ PE_PCS_VOIROL_1879_S_ALGERIE_ANCIENNE, \
    "Projected Coordinate Systems/National Grids/Africa", \
    "Voirol 1879 Sud Algerie Ancienne"
 
+PE_PCS_WGS_1984_GTM_2010, \
+   "Projected Coordinate Systems/National Grids/Africa", \
+   "WGS 1984 GTM 2010"
+
 PE_PCS_WGS_1984_GABON_TM, \
    "Projected Coordinate Systems/National Grids/Africa", \
    "WGS 1984 Gabon TM"
@@ -7151,6 +7159,14 @@ PE_PCS_PNG94_PNGMG94_55, \
 PE_PCS_PNG94_PNGMG94_56, \
    "Projected Coordinate Systems/National Grids/Asia", \
    "PNG94 PNGMG94 Zone 56"
+
+PE_PCS_PNG94_PNGMG94_ZONE_57, \
+   "Projected Coordinate Systems/National Grids/Asia", \
+   "PNG94 PNGMG94 Zone 57"
+
+PE_PCS_PNG94_PNGMG94_ZONE_58, \
+   "Projected Coordinate Systems/National Grids/Asia", \
+   "PNG94 PNGMG94 zone 58"
 
 PE_PCS_PRS_1992_PHILIPPINES_1, \
    "Projected Coordinate Systems/National Grids/Asia", \
@@ -7523,6 +7539,10 @@ PE_PCS_GDA2020_AUSTRALIAN_ALBERS, \
 PE_PCS_GDA2020_BCG2020, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA2020 BCG2020"
+
+PE_PCS_GDA2020_BCSG2020, \
+   "Projected Coordinate Systems/National Grids/Australia", \
+   "GDA2020 BCSG2020"
 
 PE_PCS_GDA2020_BIO2020, \
    "Projected Coordinate Systems/National Grids/Australia", \
@@ -8152,9 +8172,413 @@ PE_PCS_NAD_1983_CSRS_V6_MTM_NS_5, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (2011) CSRS v6 MTM Nova Scotia zone 5"
 
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_10, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS )v3 MTM zone 10"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_10, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS )v6 MTM zone 10"
+
+PE_PCS_NAD_1983_CSRS_V2_ALBERTA_3TM_REF_MERID_111_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 Alberta 3TM ref merid 111 W"
+
+PE_PCS_NAD_1983_CSRS_V2_ALBERTA_3TM_REF_MERID_114_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 Alberta 3TM ref merid 114 W"
+
+PE_PCS_NAD_1983_CSRS_V2_ALBERTA_3TM_REF_MERID_117_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 Alberta 3TM ref merid 117 W"
+
+PE_PCS_NAD_1983_CSRS_V2_ALBERTA_3TM_REF_MERID_120_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 Alberta 3TM ref merid 120 W"
+
+PE_PCS_NAD_1983_CSRS_V2_NB_STEREOGRAPHIC, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 NB Stereographic"
+
+PE_PCS_NAD_1983_CSRS_V2_PEI_STEREOGRAPHIC, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 PEI Stereographic"
+
+PE_PCS_NAD_1983_CSRS_V2_10_SCOPQ, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 SCoPQ Zone 10"
+
+PE_PCS_NAD_1983_CSRS_V2_3_SCOPQ, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 SCoPQ Zone 3"
+
+PE_PCS_NAD_1983_CSRS_V2_4_SCOPQ, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 SCoPQ Zone 4"
+
+PE_PCS_NAD_1983_CSRS_V2_5_SCOPQ, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 SCoPQ Zone 5"
+
+PE_PCS_NAD_1983_CSRS_V2_6_SCOPQ, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 SCoPQ Zone 6"
+
+PE_PCS_NAD_1983_CSRS_V2_7_SCOPQ, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 SCoPQ Zone 7"
+
+PE_PCS_NAD_1983_CSRS_V2_8_SCOPQ, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 SCoPQ Zone 8"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_10N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 10N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_11N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 11N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_12N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 12N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_13N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 13N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_14N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 14N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_15N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 15N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_16N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 16N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_17N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 17N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_18N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 18N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_19N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 19N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_20N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 20N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_21N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 21N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_22N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 22N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_7N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 7N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_8N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 8N"
+
+PE_PCS_NAD_1983_CSRS_V2_UTM_9N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v2 UTM Zone 9N"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_NS_1997_ZONE_4, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM NS 1997 Zone 4"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_NS_1997_ZONE_5, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM NS 1997 Zone 5"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_11, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM zone 11"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_12, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM zone 12"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_13, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM zone 13"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_14, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM zone 14"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_15, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM zone 15"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_16, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM zone 16"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_17, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM zone 17"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_8, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM zone 8"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_9, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM zone 9"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_10N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 10N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_11N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 11N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_12N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 12N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_13N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 13N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_14N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 14N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_15N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 15N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_16N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 16N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_17N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 17N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_18N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 18N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_19N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 19N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_20N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 20N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_21N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 21N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_22N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 22N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_7N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 7N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_8N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 8N"
+
+PE_PCS_NAD_1983_CSRS_V3_UTM_9N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 UTM Zone 9N"
+
+PE_PCS_NAD_1983_CSRS_V4_ALBERTA_3TM_REF_MERID_111_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 Alberta 3TM ref merid 111 W"
+
+PE_PCS_NAD_1983_CSRS_V4_ALBERTA_3TM_REF_MERID_114_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 Alberta 3TM ref merid 114 W"
+
+PE_PCS_NAD_1983_CSRS_V4_ALBERTA_3TM_REF_MERID_117_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 Alberta 3TM ref merid 117 W"
+
+PE_PCS_NAD_1983_CSRS_V4_ALBERTA_3TM_REF_MERID_120_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 Alberta 3TM ref merid 120 W"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_10N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 10N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_11N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 11N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_12N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 12N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_13N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 13N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_14N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 14N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_15N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 15N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_16N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 16N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_17N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 17N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_18N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 18N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_19N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 19N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_20N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 20N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_21N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 21N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_22N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 22N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_7N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 7N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_8N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 8N"
+
+PE_PCS_NAD_1983_CSRS_V4_UTM_9N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v4 UTM Zone 9N"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_1, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 1"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_11, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 11"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_12, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 12"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_13, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 13"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_14, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 14"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_15, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 15"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_16, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 16"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_17, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 17"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_2, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 2"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_3, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 3"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_4, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 4"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_5, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 5"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_6, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 6"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_8, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 8"
+
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_9, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 9"
+
+PE_PCS_NAD_1983_CSRS_V6_PEI_STEREOGRAPHIC, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 PEI Stereographic"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_10N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 10N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_11N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 11N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_12N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 12N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_13N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 13N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_14N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 14N"
+
 PE_PCS_NAD_1983_CSRS_V6_UTM_15N, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 UTM Zone 15N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_15N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 15N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_16N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 16N"
 
 PE_PCS_NAD_1983_CSRS_V6_UTM_16N, \
    "Projected Coordinate Systems/National Grids/Canada", \
@@ -8164,9 +8588,21 @@ PE_PCS_NAD_1983_CSRS_V6_UTM_17N, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 UTM Zone 17N"
 
+PE_PCS_NAD_1983_CSRS_V6_UTM_17N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 17N"
+
 PE_PCS_NAD_1983_CSRS_V6_UTM_18N, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 UTM Zone 18N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_18N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 18N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_19N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 19N"
 
 PE_PCS_NAD_1983_CSRS_V6_UTM_19N, \
    "Projected Coordinate Systems/National Grids/Canada", \
@@ -8176,9 +8612,117 @@ PE_PCS_NAD_1983_CSRS_V6_UTM_20N, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 UTM Zone 20N"
 
+PE_PCS_NAD_1983_CSRS_V6_UTM_20N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 20N"
+
 PE_PCS_NAD_1983_CSRS_V6_UTM_21N, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 UTM Zone 21N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_21N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 21N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_22N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 22N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_7N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 7N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_8N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 8N"
+
+PE_PCS_NAD_1983_CSRS_V6_UTM_9N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 UTM Zone 9N"
+
+PE_PCS_NAD_1983_CSRS_V7_ALBERTA_3TM_REF_MERID_111_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 Alberta 3TM ref merid 111 W"
+
+PE_PCS_NAD_1983_CSRS_V7_ALBERTA_3TM_REF_MERID_114_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 Alberta 3TM ref merid 114 W"
+
+PE_PCS_NAD_1983_CSRS_V7_ALBERTA_3TM_REF_MERID_117_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 Alberta 3TM ref merid 117 W"
+
+PE_PCS_NAD_1983_CSRS_V7_ALBERTA_3TM_REF_MERID_120_W, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 Alberta 3TM ref merid 120 W"
+
+PE_PCS_NAD_1983_CSRS_V7_PEI_STEREOGRAPHIC, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 PEI Stereographic"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_10N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 10N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_11N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 11N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_12N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 12N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_13N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 13N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_14N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 14N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_15N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 15N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_16N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 16N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_17N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 17N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_18N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 18N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_19N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 19N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_20N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 20N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_21N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 21N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_22N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 22N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_7N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 7N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_8N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 8N"
+
+PE_PCS_NAD_1983_CSRS_V7_UTM_9N, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v7 UTM Zone 9N"
 
 PE_PCS_NAD_1983_10TM_AEP_FOREST, \
    "Projected Coordinate Systems/National Grids/Canada", \
@@ -8528,6 +9072,10 @@ PE_PCS_NAD_1983_YUKON_ALBERS, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 Yukon Albers"
 
+PE_PCS_NAD_1983_CSRS_V2_9_SCOPQ, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD83(CSRS) v2 SCoPQ Zone 9"
+
 PE_PCS_ATS_1977_PRINCE_EDWARD_ISLAND, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "Prince Edward Island Stereographic"
@@ -8635,6 +9183,14 @@ PE_PCS_PANAMA_COLON_1911_PANAMA_LAMBERT, \
 PE_PCS_PANAMA_COLON_1911_PANAMA_POLYCONIC, \
    "Projected Coordinate Systems/National Grids/Central and North America", \
    "Panama-Colon 1911 Panama Polyconic"
+
+PE_PCS_PANAMA_ITRF08_UTM_17N, \
+   "Projected Coordinate Systems/National Grids/Central and North America", \
+   "Panama-ITRF08 UTM Zone 17N"
+
+PE_PCS_PANAMA_ITRF08_UTM_18N, \
+   "Projected Coordinate Systems/National Grids/Central and North America", \
+   "Panama-ITRF08 UTM Zone 18N"
 
 PE_PCS_SIBUN_GORGE_1922_COLONY_GRID, \
    "Projected Coordinate Systems/National Grids/Central and North America", \
@@ -8796,6 +9352,10 @@ PE_PCS_DATUM_73_MODIFIED_PORTUGUESE_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "Datum 73 Modified Portuguese Grid"
 
+PE_PCS_EBBWV14_GRID, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "EBBWV14 Grid"
+
 PE_PCS_ECML14_NB_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "ECML14_NB Grid"
@@ -8940,6 +9500,10 @@ PE_PCS_FEH2010_FEHMARNBELT_TM, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "FEH2010 Fehmarnbelt TM"
 
+PE_PCS_FNL22_GRID, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "FNL22 Grid"
+
 PE_PCS_GBK19_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "GBK19 Grid"
@@ -8968,6 +9532,10 @@ PE_PCS_HTRS96_CROATIA_TM, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "HTRS96 Croatia TM"
 
+PE_PCS_HULLEE13_GRID, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "HULLEE13 Grid"
+
 PE_PCS_HELLE_1954_JAN_MAYEN_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "Helle 1954 Jan Mayen Grid"
@@ -8991,6 +9559,10 @@ PE_PCS_ISN_2004_LCC_EUROPE, \
 PE_PCS_ISN_2004_LAMBERT_2004, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "ISN 2004 Lambert 2004"
+
+PE_PCS_ISN2004_LAEA_ICELAND, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "ISN2004 LAEA Iceland"
 
 PE_PCS_ISN2016_LAEA_EUROPE, \
    "Projected Coordinate Systems/National Grids/Europe", \
@@ -9120,9 +9692,21 @@ PE_PCS_MML07_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "MML07 Grid"
 
+PE_PCS_MOLDOR11_GRID, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "MOLDOR11 Grid"
+
 PE_PCS_MOLDREF99_MOLDOVA_TM, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "MOLDREF99 Moldova TM"
+
+PE_PCS_MRH21_GRID, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "MRH21 Grid"
+
+PE_PCS_MACEDONIA_STATE_COORDINATE_SYSTEM_TRUNCATED, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "Macedonia State Coordinate System truncated"
 
 PE_PCS_MACEDONIAN_STATE_CS, \
    "Projected Coordinate Systems/National Grids/Europe", \
@@ -9216,6 +9800,10 @@ PE_PCS_S_JTSK_JTSK03_KROVAK_EN, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "S-JTSK [JTSK03] Krovak EastNorth"
 
+PE_PCS_SCM22_GRID, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "SCM22 Grid"
+
 PE_PCS_SRB_ETRS89_UTM_34N, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "SRB_ETRS89 UTM zone 34N"
@@ -9272,413 +9860,413 @@ PE_PCS_WGS_1984_TMZN36N, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "WGS 1984 TMzn36N (N,E)"
 
-PE_PCS_OSGB_1936_HWY_ENG_A10H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A10H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A10H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A10H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A11H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A11H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A11H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A11H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A11H3, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A11H3"
-
-PE_PCS_OSGB_1936_HWY_ENG_A12H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A12H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A12H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A12H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A12H3, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A12H3"
-
-PE_PCS_OSGB_1936_HWY_ENG_A13H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A13H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A13H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A13H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A14H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A14H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A14H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A14H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A15H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A15H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A15H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A15H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A16H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A16H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A16H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A16H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A17H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A17H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A17H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A17H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A18H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A18H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A18H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A18H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A19H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A19H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A19H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A19H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A1H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A1H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A20H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A20H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A20H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A20H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A21H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A21H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A21H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A21H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A22H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A22H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A22H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A22H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A23H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A23H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A23H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A23H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A24H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A24H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A24H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A24H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A25H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A25H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A25H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A25H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A26H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A26H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A26H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A26H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A27H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A27H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A27H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A27H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A28H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A28H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A28H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A28H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A29H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A29H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A2H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A2H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A30H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A30H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A3H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A3H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A3H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A3H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A4H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A4H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A5H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A5H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A5H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A5H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A6H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A6H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A6H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A6H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A7H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A7H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A7H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A7H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A8H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A8H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A8H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A8H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_A9H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A9H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_A9H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England A9H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_B15H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B15H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B15H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B15H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_B15H3, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B15H3"
-
-PE_PCS_OSGB_1936_HWY_ENG_B16H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B16H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B16H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B16H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_B16H3, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B16H3"
-
-PE_PCS_OSGB_1936_HWY_ENG_B16H4, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B16H4"
-
-PE_PCS_OSGB_1936_HWY_ENG_B17H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B17H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B17H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B17H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_B18H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B18H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B18H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B18H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_B19H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B19H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B20H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B20H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B21H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B21H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B22H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B22H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B23H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B23H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B24H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B24H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B25H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B25H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B26H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B26H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B27H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B27H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B28H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B28H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B29H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B29H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B30H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B30H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B31H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B31H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_B32H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England B32H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_C13H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C13H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_C14H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C14H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_C14H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C14H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_C14H3, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C14H3"
-
-PE_PCS_OSGB_1936_HWY_ENG_C14H4, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C14H4"
-
-PE_PCS_OSGB_1936_HWY_ENG_C15H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C15H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_C15H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C15H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_C15H3, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C15H3"
-
-PE_PCS_OSGB_1936_HWY_ENG_C15H4, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C15H4"
-
-PE_PCS_OSGB_1936_HWY_ENG_C15H5, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C15H5"
-
-PE_PCS_OSGB_1936_HWY_ENG_C16H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C16H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_C16H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C16H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_C16H3, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C16H3"
-
-PE_PCS_OSGB_1936_HWY_ENG_C16H4, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C16H4"
-
-PE_PCS_OSGB_1936_HWY_ENG_C17H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C17H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_C17H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C17H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_C18H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C18H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_C18H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C18H2"
-
-PE_PCS_OSGB_1936_HWY_ENG_C19H1, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C19H1"
-
-PE_PCS_OSGB_1936_HWY_ENG_C19H2, \
-   "Projected Coordinate Systems/National Grids/Europe/Highways England", \
-   "OSGB36 Highways England C19H2"
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A01H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A01H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A02H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A02H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A03H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A03H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A03H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A03H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A04H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A04H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A05H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A05H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A05H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A05H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A06H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A06H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A06H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A06H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A07H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A07H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A07H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A07H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A08H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A08H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A08H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A08H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A09H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A09H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A09H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A09H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A10H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A10H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A10H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A10H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A11H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A11H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A11H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A11H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A11H3, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A11H3"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A12H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A12H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A12H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A12H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A12H3, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A12H3"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A13H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A13H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A13H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A13H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A14H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A14H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A14H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A14H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A15H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A15H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A15H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A15H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A16H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A16H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A16H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A16H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A17H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A17H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A17H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A17H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A18H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A18H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A18H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A18H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A19H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A19H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A19H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A19H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A20H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A20H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A20H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A20H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A21H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A21H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A21H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A21H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A22H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A22H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A22H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A22H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A23H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A23H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A23H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A23H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A24H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A24H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A24H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A24H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A25H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A25H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A25H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A25H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A26H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A26H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A26H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A26H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A27H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A27H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A27H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A27H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A28H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A28H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A28H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A28H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A29H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A29H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A30H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways A30H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B15H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B15H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B15H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B15H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B15H3, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B15H3"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B16H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B16H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B16H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B16H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B16H3, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B16H3"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B16H4, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B16H4"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B17H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B17H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B17H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B17H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B18H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B18H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B18H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B18H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B19H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B19H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B20H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B20H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B21H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B21H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B22H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B22H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B23H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B23H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B24H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B24H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B25H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B25H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B26H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B26H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B27H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B27H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B28H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B28H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B29H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B29H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B30H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B30H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B31H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B31H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_B32H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways B32H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C13H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C13H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C14H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C14H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C14H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C14H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C14H3, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C14H3"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C14H4, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C14H4"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C15H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C15H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C15H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C15H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C15H3, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C15H3"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C15H4, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C15H4"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C15H5, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C15H5"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C16H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C16H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C16H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C16H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C16H3, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C16H3"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C16H4, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C16H4"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C17H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C17H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C17H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C17H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C18H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C18H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C18H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C18H2"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C19H1, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C19H1"
+
+PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C19H2, \
+   "Projected Coordinate Systems/National Grids/Europe/OSGB36 National Highways", \
+   "OSGB36 National Highways C19H2"
 
 PE_PCS_ETRS_1989_GK19FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
@@ -9959,6 +10547,86 @@ PE_PCS_RGF_1993_CC50, \
 PE_PCS_RGF_1993_LAMBERT_93, \
    "Projected Coordinate Systems/National Grids/France", \
    "RGF 1993 Lambert-93"
+
+PE_PCS_RGF93_V2_CC42, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2 CC42"
+
+PE_PCS_RGF93_V2_CC43, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2 CC43"
+
+PE_PCS_RGF93_V2_CC44, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2 CC44"
+
+PE_PCS_RGF93_V2_CC45, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2 CC45"
+
+PE_PCS_RGF93_V2_CC46, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2 CC46"
+
+PE_PCS_RGF93_V2_CC47, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2 CC47"
+
+PE_PCS_RGF93_V2_CC48, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2 CC48"
+
+PE_PCS_RGF93_V2_CC49, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2 CC49"
+
+PE_PCS_RGF93_V2_CC50, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2 CC50"
+
+PE_PCS_RGF93_V2_LAMBERT_93, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2 Lambert-93"
+
+PE_PCS_RGF93_V2B_CC42, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2b CC42"
+
+PE_PCS_RGF93_V2B_CC43, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2b CC43"
+
+PE_PCS_RGF93_V2B_CC44, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2b CC44"
+
+PE_PCS_RGF93_V2B_CC45, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2b CC45"
+
+PE_PCS_RGF93_V2B_CC46, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2b CC46"
+
+PE_PCS_RGF93_V2B_CC47, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2b CC47"
+
+PE_PCS_RGF93_V2B_CC48, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2b CC48"
+
+PE_PCS_RGF93_V2B_CC49, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2b CC49"
+
+PE_PCS_RGF93_V2B_CC50, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2b CC50"
+
+PE_PCS_RGF93_V2B_LAMBERT_93, \
+   "Projected Coordinate Systems/National Grids/France", \
+   "RGF93 v2b Lambert-93"
 
 PE_PCS_DB_REF_3_DEG_GK_2_EN, \
    "Projected Coordinate Systems/National Grids/Germany", \
@@ -11772,9 +12440,17 @@ PE_PCS_HARTEBEESTHOEK94_LO15, \
    "Projected Coordinate Systems/National Grids/South Africa", \
    "Hartebeesthoek94 Lo15"
 
+PE_PCS_HARTEBEESTHOEK94_LO15_EN, \
+   "Projected Coordinate Systems/National Grids/South Africa", \
+   "Hartebeesthoek94 Lo15 (E-N)"
+
 PE_PCS_HARTEBEESTHOEK94_LO17, \
    "Projected Coordinate Systems/National Grids/South Africa", \
    "Hartebeesthoek94 Lo17"
+
+PE_PCS_HARTEBEESTHOEK94_LO17_EN, \
+   "Projected Coordinate Systems/National Grids/South Africa", \
+   "Hartebeesthoek94 Lo17 (E-N)"
 
 PE_PCS_HARTEBEESTHOEK94_LO19, \
    "Projected Coordinate Systems/National Grids/South Africa", \
@@ -11836,6 +12512,10 @@ PE_PCS_HARTEBEESTHOEK94_LO33, \
    "Projected Coordinate Systems/National Grids/South Africa", \
    "Hartebeesthoek94 Lo33"
 
+PE_PCS_HARTEBEESTHOEK94_LO33_EN, \
+   "Projected Coordinate Systems/National Grids/South Africa", \
+   "Hartebeesthoek94 Lo33 (E-N)"
+
 PE_PCS_HARTEBEESTHOEK94_ZAF_BSU_ALBERS_25E, \
    "Projected Coordinate Systems/National Grids/South Africa", \
    "Hartebeesthoek94 ZAF BSU Albers 25E"
@@ -11891,6 +12571,18 @@ PE_PCS_SIRGAS_2000_BRAZIL_MERCATOR, \
 PE_PCS_SIRGAS_2000_BRAZIL_POLYCONIC, \
    "Projected Coordinate Systems/National Grids/South America", \
    "SIRGAS 2000 Brazil Polyconic"
+
+PE_PCS_SIRGAS_CHILE_2021_UTM_ZONE_12S, \
+   "Projected Coordinate Systems/National Grids/South America", \
+   "SIRGAS-Chile 2021 UTM Zone 12S"
+
+PE_PCS_SIRGAS_CHILE_2021_UTM_ZONE_18S, \
+   "Projected Coordinate Systems/National Grids/South America", \
+   "SIRGAS-Chile 2021 UTM Zone 18S"
+
+PE_PCS_SIRGAS_CHILE_2021_UTM_ZONE_19S, \
+   "Projected Coordinate Systems/National Grids/South America", \
+   "SIRGAS-Chile 2021 UTM Zone 19S"
 
 PE_PCS_TRINIDAD_1903_TRINIDAD_GRID_FT_CLA, \
    "Projected Coordinate Systems/National Grids/South America", \
@@ -12476,6 +13168,114 @@ PE_PCS_PULKOVO_1942_CS63_X7, \
    "Projected Coordinate Systems/National Grids/Ukraine", \
    "Pulkovo 1942 CS63 zone X7"
 
+PE_PCS_UCS_2000_LCS_01_CRIMEA, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-01 Crimea"
+
+PE_PCS_UCS_2000_LCS_05_VINNYTSIA, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-05 Vinnytsia"
+
+PE_PCS_UCS_2000_LCS_07_VOLYN, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-07 Volyn"
+
+PE_PCS_UCS_2000_LCS_12_DNIPROPETROVSK, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-12 Dnipropetrovsk"
+
+PE_PCS_UCS_2000_LCS_14_DONETSK, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-14 Donetsk"
+
+PE_PCS_UCS_2000_LCS_18_ZHYTOMYR, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-18 Zhytomyr"
+
+PE_PCS_UCS_2000_LCS_21_ZAKARPATTIA, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-21 Zakarpattia"
+
+PE_PCS_UCS_2000_LCS_23_ZAPORIZHZHIA, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-23 Zaporizhzhia"
+
+PE_PCS_UCS_2000_LCS_26_IVANO_FRANKIVSK, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-26 Ivano-Frankivsk"
+
+PE_PCS_UCS_2000_LCS_32_KYIV_REGION, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-32 Kyiv region"
+
+PE_PCS_UCS_2000_LCS_35_KIROVOHRAD, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-35 Kirovohrad"
+
+PE_PCS_UCS_2000_LCS_44_LUHANSK, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-44 Luhansk"
+
+PE_PCS_UCS_2000_LCS_46_LVIV, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-46 Lviv"
+
+PE_PCS_UCS_2000_LCS_48_MYKOLAIV, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-48 Mykolaiv"
+
+PE_PCS_UCS_2000_LCS_51_ODESSA, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-51 Odessa"
+
+PE_PCS_UCS_2000_LCS_53_POLTAVA, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-53 Poltava"
+
+PE_PCS_UCS_2000_LCS_56_RIVNE, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-56 Rivne"
+
+PE_PCS_UCS_2000_LCS_59_SUMY, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-59 Sumy"
+
+PE_PCS_UCS_2000_LCS_61_TERNOPIL, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-61 Ternopil"
+
+PE_PCS_UCS_2000_LCS_63_KHARKIV, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-63 Kharkiv"
+
+PE_PCS_UCS_2000_LCS_65_KHERSON, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-65 Kherson"
+
+PE_PCS_UCS_2000_LCS_68_KHMELNYTSKY, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-68 Khmelnytsky"
+
+PE_PCS_UCS_2000_LCS_71_CHERKASY, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-71 Cherkasy"
+
+PE_PCS_UCS_2000_LCS_73_CHERNIVTSI, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-73 Chernivtsi"
+
+PE_PCS_UCS_2000_LCS_74_CHERNIHIV, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-74 Chernihiv"
+
+PE_PCS_UCS_2000_LCS_80_KYIV_CITY, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-80 Kyiv city"
+
+PE_PCS_UCS_2000_LCS_85_SEVASTOPOL, \
+   "Projected Coordinate Systems/National Grids/Ukraine", \
+   "UCS-2000 LCS-85 Sevastopol"
+
 PE_PCS_UKRAINE_2000_3_DEG_GK_21E, \
    "Projected Coordinate Systems/National Grids/Ukraine", \
    "Ukraine 2000 3 Degree GK CM 21E"
@@ -12847,6 +13647,14 @@ PE_PCS_WGS_1984_NP_LAEA_EUROPE, \
 PE_PCS_WGS_1984_NP_LAEA_RUSSIA, \
    "Projected Coordinate Systems/Polar", \
    "WGS 1984 North Pole LAEA Russia"
+
+PE_PCS_WGS_1984_UPS_NORTH_EN, \
+   "Projected Coordinate Systems/Polar", \
+   "WGS 1984 UPS North (E-N)"
+
+PE_PCS_WGS_1984_UPS_SOUTH_EN, \
+   "Projected Coordinate Systems/Polar", \
+   "WGS 1984 UPS South (E-N)"
 
 PE_PCS_WGS_1984_USGS_TRANSANTARCTIC_MTS, \
    "Projected Coordinate Systems/Polar", \
@@ -18592,6 +19400,26 @@ PE_PCS_SAMOA_1962_AS, \
    "Projected Coordinate Systems/State Plane/Other GCS", \
    "American Samoa 1962 StatePlane Amer. Samoa FIPS 5300 (US Feet)"
 
+PE_PCS_CSRS_2017_5_NAD83_CA_I_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "California SRS Epoch 2017.50 (NAD83) StatePlane CA I (US Feet)"
+
+PE_PCS_CSRS_2017_5_NAD83_CA_II_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "California SRS Epoch 2017.50 (NAD83) StatePlane CA II (US Feet)"
+
+PE_PCS_CSRS_2017_5_NAD83_CA_IV_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "California SRS Epoch 2017.50 (NAD83) StatePlane CA IV (US Feet)"
+
+PE_PCS_CSRS_2017_5_NAD83_CA_V_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "California SRS Epoch 2017.50 (NAD83) StatePlane CA V (US Feet)"
+
+PE_PCS_CSRS_2017_5_NAD83_CA_VI_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "California SRS Epoch 2017.50 (NAD83) StatePlane CA VI (US Feet)"
+
 PE_PCS_GUAM_GEODETIC_NETWORK_1993, \
    "Projected Coordinate Systems/State Plane/Other GCS", \
    "Guam Geodetic Network 1993 (Meters)"
@@ -18635,6 +19463,10 @@ PE_PCS_PUERTO_RICO_PR, \
 PE_PCS_PUERTO_RICO_VI, \
    "Projected Coordinate Systems/State Plane/Other GCS", \
    "Puerto Rico StatePlane Virgin Isl St.Croix FIPS 5202 (US Feet)"
+
+PE_PCS_CSRS_2017_5_NAD83_CA_III_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS)", \
+   "California SRS Epoch 2017.50 (NAD83) StatePlane CA III (US Feet)"
 
 PE_PCS_NAD_1927_ALASKA_ALBERS_METERS, \
    "Projected Coordinate Systems/State Systems", \

@@ -814,6 +814,11 @@ PE_D_EOS21_INTERMEDIATE_REFERENCE_FRAME, \
    PE_S_GRS_1980,
    ""
 
+PE_D_WGS_1984_G2139, \
+   "WGS_1984_(G2139)", \
+   PE_S_WGS_1984,
+   ""
+
 PE_D_ECML14_NB_INTERMEDIATE_REFERENCE_FRAME, \
    "ECML14_NB_Intermediate_Reference_Frame", \
    PE_S_GRS_1980,
@@ -821,6 +826,61 @@ PE_D_ECML14_NB_INTERMEDIATE_REFERENCE_FRAME, \
 
 PE_D_EWR2_INTERMEDIATE_REFERENCE_FRAME, \
    "EWR2_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_RESEAU_GEODESIQUE_FRANCAIS_1993_V2, \
+   "Reseau_Geodesique_Francais_1993_v2", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_RESEAU_GEODESIQUE_FRANCAIS_1993_V2B, \
+   "Reseau_Geodesique_Francais_1993_v2b", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_MRH21_INTERMEDIATE_REFERENCE_FRAME, \
+   "MRH21_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_MOLDOR11_INTERMEDIATE_REFERENCE_FRAME, \
+   "MOLDOR11_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_HULLEE13_INTERMEDIATE_REFERENCE_FRAME, \
+   "HULLEE13_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_EBBWV14_INTERMEDIATE_REFERENCE_FRAME, \
+   "EBBWV14_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SCM22_INTERMEDIATE_REFERENCE_FRAME, \
+   "SCM22_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_FNL22_INTERMEDIATE_REFERENCE_FRAME, \
+   "FNL22_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_ITRF2020, \
+   "International_Terrestrial_Reference_Frame_2020", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_MWC18_INTERMEDIATE_REFERENCE_FRAME, \
+   "MWC18_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SIRGAS_CHILE_REALIZATION_5_EPOCH_2021, \
+   "SIRGAS-Chile_realization_5_epoch_2021", \
    PE_S_GRS_1980,
    ""
 
@@ -2997,6 +3057,11 @@ PE_D_BAB_SOUTH, \
 PE_D_MAJURO, \
    "D_Majuro", \
    PE_S_CLARKE_1866,
+   ""
+
+PE_D_PANAMA08_2011, \
+   "PANAMA08_2011", \
+   PE_S_GRS_1980,
    ""
 
 PE_D_OBSERV_METEOR_1965, \
