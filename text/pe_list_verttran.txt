@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -493,7 +493,7 @@ Area-name   : New Zealand - North Island - Wellington vcrs
 Area-slat   : -41.67
 Area-nlat   : -40.12
 Area-llon   : 174.52
-Area-rlon   : 176.56
+Area-rlon   : 176.55
 Accuracy    : 0.04
 
 WKID        : 4449
@@ -2394,7 +2394,7 @@ Deprecated  : no
 Area-name   : Germany - West Germany all states
 Area-slat   : 47.27
 Area-nlat   : 55.09
-Area-llon   : 5.87
+Area-llon   : 5.86
 Area-rlon   : 13.84
 Accuracy    : 0.1
 
@@ -3906,7 +3906,7 @@ Area-name   : Denmark - onshore
 Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
-Area-rlon   : 15.24
+Area-rlon   : 15.25
 Accuracy    : 0.1
 
 WKID        : 5418
@@ -4232,7 +4232,7 @@ Deprecated  : no
 Area-name   : Germany - West Germany all states
 Area-slat   : 47.27
 Area-nlat   : 55.09
-Area-llon   : 5.87
+Area-llon   : 5.86
 Area-rlon   : 13.84
 Accuracy    : 0.1
 
@@ -6429,7 +6429,7 @@ WKT2        : COORDINATEOPERATION["GDA94_Height_To_AHD_Height_AUSGeoid09_49",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["AHD",
@@ -6514,7 +6514,7 @@ WKT2        : COORDINATEOPERATION["GDA94_Height_To_AHD_Tasmania_Height_AUSGeoid0
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["AHD_Tasmania",
@@ -6868,7 +6868,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_Newlyn_Height_2_OSGM15",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Newlyn",
@@ -6953,7 +6953,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_ODN_Orkney_Height_2_OSGM15",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Newlyn_Orkney_Isles",
@@ -7038,7 +7038,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_ODN_Offhore_Height_1_OSGM15",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["ODN_(Offshore)_(height)",
@@ -7123,7 +7123,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_Lerwick_Height_2_OSGM15",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Lerwick",
@@ -7208,7 +7208,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_Stornoway_Height_2_OSGM15",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Stornoway",
@@ -7293,7 +7293,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_St_Marys_Height_2_OSGM15",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["St_Marys",
@@ -7378,7 +7378,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_Douglas_Height_2_OSGM15",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Douglas",
@@ -8492,7 +8492,7 @@ Area-name   : New Zealand - North Island - Wellington vcrs
 Area-slat   : -41.67
 Area-nlat   : -40.12
 Area-llon   : 174.52
-Area-rlon   : 176.56
+Area-rlon   : 176.55
 Accuracy    : 0.02
 
 WKID        : 7873
@@ -8662,7 +8662,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_Belfast_Height_2_OSGM15",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Belfast",
@@ -8747,7 +8747,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_Malin_Head_Height_2_OSGM15",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Malin_Head",
@@ -9087,6 +9087,88 @@ Area-llon   : 46.54
 Area-rlon   : 48.48
 Accuracy    : 0.1
 
+WKID        : 8372
+Latest-WKID : 8372
+Macro       : PE_VT_RGF93_V2_TO_NGF_IGN78_2
+Name        : RGF93_v2_To_NGF-IGN78_Height_RAC09_2
+WKT         : VERTTRAN["RGF93_v2_To_NGF-IGN78_Height_RAC09_2",
+               GEOGCS["RGF93_v2",
+                DATUM["Reseau_Geodesique_Francais_1993_v2",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["RGF93_v2",
+                
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NGF_IGN78",
+                
+               VDATUM["Nivellement_General_de_la_France_IGN78"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_RAC09", 0.0],
+               OPERATIONACCURACY[0.05]]
+WKT2        : COORDINATEOPERATION["RGF93_v2_To_NGF-IGN78_Height_RAC09_2",
+               SOURCECRS[VERTCRS["RGF93_v2",
+                 
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["NGF_IGN78",
+                 
+               VDATUM["Nivellement_General_de_la_France_IGN78"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["RGF93_v2",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[1]],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETERFILE["RAC09"],
+               OPERATIONACCURACY[0.05]]
+Description : RGF93 v2 to NGF-IGN78 height (2), France - Corsica
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France - Corsica onshore
+Area-slat   : 41.31
+Area-nlat   : 43.07
+Area-llon   : 8.5
+Area-rlon   : 9.63
+Accuracy    : 0.05
+
 WKID        : 8451
 Latest-WKID : 8451
 Macro       : PE_VT_GDA2020_HT_TO_AHD_HT_AUSGEOID2020_1
@@ -9132,7 +9214,7 @@ WKT2        : COORDINATEOPERATION["GDA2020_Height_To_AHD_Height_AUSGeoid2020_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["AHD",
@@ -9173,6 +9255,88 @@ Area-nlat   : -9.86
 Area-llon   : 96.76
 Area-rlon   : 153.69
 Accuracy    : 0.03
+
+WKID        : 8885
+Latest-WKID : 8885
+Macro       : PE_VT_RGF93_V2_TO_NGF_IGN69_3
+Name        : RGF93_v2_To_NGF-IGN69_Height_RAF18_3
+WKT         : VERTTRAN["RGF93_v2_To_NGF-IGN69_Height_RAF18_3",
+               GEOGCS["RGF93_v2",
+                DATUM["Reseau_Geodesique_Francais_1993_v2",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["RGF93_v2",
+                
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NGF_IGN69",
+                
+               VDATUM["Nivellement_General_de_la_France_IGN69"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_RAF18", 0.0],
+               OPERATIONACCURACY[0.01]]
+WKT2        : COORDINATEOPERATION["RGF93_v2_To_NGF-IGN69_Height_RAF18_3",
+               SOURCECRS[VERTCRS["RGF93_v2",
+                 
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["NGF_IGN69",
+                 
+               VDATUM["Nivellement_General_de_la_France_IGN69"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["RGF93_v2",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[1]],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETERFILE["RAF18"],
+               OPERATIONACCURACY[0.01]]
+Description : RGF93 v2 to NGF-IGN69 height (3), France
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France - mainland onshore
+Area-slat   : 42.33
+Area-nlat   : 51.14
+Area-llon   : -4.87
+Area-rlon   : 8.23
+Accuracy    : 0.01
 
 WKID        : 9124
 Latest-WKID : 9124
@@ -9219,7 +9383,7 @@ WKT2        : COORDINATEOPERATION["ITRF_2008_Height_To_CGVD2013(CGG2013)_Height_
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["CGVD2013_height",
@@ -9306,7 +9470,7 @@ WKT2        : COORDINATEOPERATION["ITRF_2008_Height_To_CGVD2013(CGG2013a)_Height
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["CGVD2013_CGG2013a_height",
@@ -9392,7 +9556,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_CONUS_GEOID18_
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD_1988",
@@ -9476,7 +9640,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_PRVD02_GEOID18_Height
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["PRVD02_height",
@@ -9561,7 +9725,7 @@ WKT2        : COORDINATEOPERATION["NAD83(CSRS)v6_Height_To_CGVD2013(CGG2013)_Hei
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["CGVD2013_height",
@@ -9646,7 +9810,7 @@ WKT2        : COORDINATEOPERATION["NAD83(CSRS)v6_Height_To_CGVD2013(CGG2013a)_He
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["CGVD2013_CGG2013a_height",
@@ -9685,6 +9849,88 @@ Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
 Accuracy    : 0.03
+
+WKID        : 9256
+Latest-WKID : 9256
+Macro       : PE_VT_POSGAR_2007_TO_SRVN16_HT_GEOIDE_AR16
+Name        : POSGAR_2007_To_SRVN16_Height_1
+WKT         : VERTTRAN["POSGAR_2007_To_SRVN16_Height_1",
+               GEOGCS["GCS_POSGAR_2007",
+                DATUM["D_POSGAR_2007",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["POSGAR_2007",
+                
+               DATUM["D_POSGAR_2007",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["SRVN16_height",
+                
+               VDATUM["Sistema_de_Referencia_Vertical_Nacional_2016"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_GEOIDE-Ar16", 0.0],
+               OPERATIONACCURACY[0.05]]
+WKT2        : COORDINATEOPERATION["POSGAR_2007_To_SRVN16_Height_1",
+               SOURCECRS[VERTCRS["POSGAR_2007",
+                 
+               DATUM["D_POSGAR_2007",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["SRVN16_height",
+                 
+               VDATUM["Sistema_de_Referencia_Vertical_Nacional_2016"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["GCS_POSGAR_2007",
+                 DATUM["D_POSGAR_2007",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETERFILE["GEOIDE-Ar16"],
+               OPERATIONACCURACY[0.05]]
+Description : POSGAR 2007 to SRVN16 height (1)
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Argentina - onshore
+Area-slat   : -55.11
+Area-nlat   : -21.78
+Area-llon   : -73.59
+Area-rlon   : -53.65
+Accuracy    : 0.05
 
 WKID        : 9275
 Latest-WKID : 9275
@@ -9806,7 +10052,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_EVRF2000_Austria_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EVRF2000_Austria_height",
@@ -9888,7 +10134,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_NAP_Height_nlgeo2018",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAP",
@@ -9970,7 +10216,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_HS2-VRF_height_HS2GM15_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["HS2-VRF_height",
@@ -10112,7 +10358,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_Alicante_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Alicante",
@@ -10194,7 +10440,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_Mallorca_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Mallorca_height",
@@ -10276,7 +10522,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_Menorca_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Menorca_height",
@@ -10358,7 +10604,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_Ibiza_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Ibiza_height",
@@ -10440,7 +10686,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_Ceuta_2_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Ceuta_2_height",
@@ -10522,7 +10768,7 @@ WKT2        : COORDINATEOPERATION["REGCAN95_Height_To_Lanzarote_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Lanzarote_height",
@@ -10604,7 +10850,7 @@ WKT2        : COORDINATEOPERATION["REGCAN95_Height_To_Fuerteventura_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Fuerteventura_height",
@@ -10686,7 +10932,7 @@ WKT2        : COORDINATEOPERATION["REGCAN95_Height_To_Gran_Canaria_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Gran_Canaria_height",
@@ -10768,7 +11014,7 @@ WKT2        : COORDINATEOPERATION["REGCAN95_Height_To_Tenerife_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Tenerife_height",
@@ -10850,7 +11096,7 @@ WKT2        : COORDINATEOPERATION["REGCAN95_Height_To_La_Gomera_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["La_Gomera_height",
@@ -10932,7 +11178,7 @@ WKT2        : COORDINATEOPERATION["REGCAN95_Height_To_La_Palma_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["La_Palma_height",
@@ -11014,7 +11260,7 @@ WKT2        : COORDINATEOPERATION["REGCAN95_Height_To_El_Hierro_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["El_Hierro_height",
@@ -14697,7 +14943,7 @@ WKT2        : COORDINATEOPERATION["GDA2020_To_AVWS_Height_2",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["AVWS_height",
@@ -15051,6 +15297,88 @@ Area-llon   : 12.09
 Area-rlon   : 18.86
 Accuracy    : 0.01
 
+WKID        : 9876
+Latest-WKID : 9876
+Macro       : PE_VT_RGF93_V2B_TO_NGF_IGN69_5
+Name        : RGF93_v2b_To_NGF-IGN69_Height_RAF20_5
+WKT         : VERTTRAN["RGF93_v2b_To_NGF-IGN69_Height_RAF20_5",
+               GEOGCS["RGF93_v2b",
+                DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["RGF93_v2b",
+                
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["NGF_IGN69",
+                
+               VDATUM["Nivellement_General_de_la_France_IGN69"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_RAF20", 0.0],
+               OPERATIONACCURACY[0.01]]
+WKT2        : COORDINATEOPERATION["RGF93_v2b_To_NGF-IGN69_Height_RAF20_5",
+               SOURCECRS[VERTCRS["RGF93_v2b",
+                 
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["NGF_IGN69",
+                 
+               VDATUM["Nivellement_General_de_la_France_IGN69"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["RGF93_v2b",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[1]],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETERFILE["RAF20"],
+               OPERATIONACCURACY[0.01]]
+Description : RGF93 v2b to NGF-IGN69 height (5), France
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : France - mainland onshore
+Area-slat   : 42.33
+Area-nlat   : 51.14
+Area-llon   : -4.87
+Area-rlon   : 8.23
+Accuracy    : 0.01
+
 WKID        : 9900
 Latest-WKID : 9900
 Macro       : PE_VT_GENOA_1942_TO_EVRF2019
@@ -15122,9 +15450,9 @@ Version     : 13.0.0
 Deprecated  : no
 Area-name   : Italy - mainland west of 16~E
 Area-slat   : 39.65
-Area-nlat   : 47.09
+Area-nlat   : 47.1
 Area-llon   : 6.62
-Area-rlon   : 16.52
+Area-rlon   : 16.53
 Accuracy    : 0.124
 
 WKID        : 9902
@@ -15350,9 +15678,9 @@ Version     : 13.0.0
 Deprecated  : no
 Area-name   : Italy - mainland west of 16~E
 Area-slat   : 39.65
-Area-nlat   : 47.09
+Area-nlat   : 47.1
 Area-llon   : 6.62
-Area-rlon   : 16.52
+Area-rlon   : 16.53
 Accuracy    : 0.108
 
 WKID        : 10084
@@ -15399,7 +15727,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1996_Geoid_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EGM96_Geoid",
@@ -15483,7 +15811,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1984_Geoid_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EGM84_Geoid",
@@ -15567,7 +15895,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_To_NAVD88_CONUS_GEOID12B_Height
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD_1988",
@@ -15651,7 +15979,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_To_NAVD88_Alaska_GEOID12B_Heigh
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD_1988",
@@ -15735,7 +16063,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_PA11_To_NAVD88_Hawaii_GEOID12B_Heigh
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD_1988",
@@ -15819,7 +16147,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_To_PRVD02_GEOID12B_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["PRVD02_height",
@@ -15903,7 +16231,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_PA11_To_ASVD02_GEOID12B_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["ASVD02_height",
@@ -15987,7 +16315,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_MA11_To_GUVD04_GEOID12B_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["GUVD04_height",
@@ -16071,7 +16399,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_To_VIVD09_GEOID12B_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["VIVD09_height",
@@ -16153,7 +16481,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1996_Geoid_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EGM96_Geoid",
@@ -16237,7 +16565,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1984_Geoid_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EGM84_Geoid",
@@ -17005,7 +17333,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_WGS_1984_EGM2008_1x1_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EGM2008_Geoid",
@@ -17089,7 +17417,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_WGS_1984_EGM2008_2.5x2.5_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EGM2008_Geoid",
@@ -17174,7 +17502,7 @@ WKT2        : COORDINATEOPERATION["GDA2020_Height_To_AHD_Height_AUSGeoid2020_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["AHD",
@@ -17260,7 +17588,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_Oostende_Height_hBG18",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Oostende",
@@ -17343,7 +17671,7 @@ WKT2        : COORDINATEOPERATION["D96_to_SVS2010_ht_SLO_VRP2016_Koper",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["SVS2010",
@@ -17428,7 +17756,7 @@ WKT2        : COORDINATEOPERATION["D96_to_SVS2000_ht_SLO_AMG2000E_Trst",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["SVS2000",
@@ -17911,7 +18239,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_To_NAVD88_CONUS_GEOID12B_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD_1988",
@@ -17993,7 +18321,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_To_NAVD88_Alaska_GEOID12B_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD_1988",
@@ -18075,7 +18403,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_To_NAVD88_Hawaii_GEOID12B_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD_1988",
@@ -18157,7 +18485,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_To_PRVD02_GEOID12B_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["PRVD02_height",
@@ -18239,7 +18567,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_To_VIVD09_GEOID12B_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["VIVD09_height",
@@ -18323,7 +18651,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_MA11_To_NMVD03_GEOID12B_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NMVD03_height",
@@ -20117,7 +20445,7 @@ WKT2        : COORDINATEOPERATION["JGD_2000_To_JGD_2000_Vertical_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["JGD2000_vertical_height",
@@ -20199,7 +20527,7 @@ WKT2        : COORDINATEOPERATION["JGD_2011_To_JGD_2011_Vertical_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["JGD2011_vertical_height",
@@ -20281,7 +20609,7 @@ WKT2        : COORDINATEOPERATION["RGF_1993_Height_To_NGF-IGN69_Height_RAF18_3",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NGF_IGN69",
@@ -20363,7 +20691,7 @@ WKT2        : COORDINATEOPERATION["NZGD2000_To_NZGD2016_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NZVD2016_height",
@@ -20454,7 +20782,7 @@ WKT2        : COORDINATEOPERATION["Auckland_1946_Height_To_NZGD2000_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -20536,7 +20864,7 @@ WKT2        : COORDINATEOPERATION["Bluff_1955_Height_To_NZGD2000_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -20618,7 +20946,7 @@ WKT2        : COORDINATEOPERATION["Dunedin_1958_Height_To_NZGD2000_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -20700,7 +21028,7 @@ WKT2        : COORDINATEOPERATION["Dunedin-Bluff_1960_Height_To_NZGD2000_Height_
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -20782,7 +21110,7 @@ WKT2        : COORDINATEOPERATION["Gisborne_1926_Height_To_NZGD2000_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -20864,7 +21192,7 @@ WKT2        : COORDINATEOPERATION["Lyttelton_1937_Height_To_NZGD2000_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -20946,7 +21274,7 @@ WKT2        : COORDINATEOPERATION["Moturiki_1953_Height_To_NZGD2000_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -21028,7 +21356,7 @@ WKT2        : COORDINATEOPERATION["Napier_1962_Height_To_NZGD2000_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -21110,7 +21438,7 @@ WKT2        : COORDINATEOPERATION["Nelson_1955_Height_To_NZGD2000_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -21192,7 +21520,7 @@ WKT2        : COORDINATEOPERATION["One_Tree_Point_1964_Height_To_NZGD2000_Height
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -21274,7 +21602,7 @@ WKT2        : COORDINATEOPERATION["Stewart_Island_1977_Height_To_NZGD2000_Height
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -21356,7 +21684,7 @@ WKT2        : COORDINATEOPERATION["Taranaki_1970_Height_To_NZGD2000_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -21438,7 +21766,7 @@ WKT2        : COORDINATEOPERATION["Wellington_1953_Height_To_NZGD2000_Height_1",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_NZGD_2000",
@@ -21464,7 +21792,7 @@ Area-name   : New Zealand - North Island - Wellington vcrs
 Area-slat   : -41.67
 Area-nlat   : -40.12
 Area-llon   : 174.52
-Area-rlon   : 176.56
+Area-rlon   : 176.55
 Accuracy    : 0.12
 
 WKID        : 110076
@@ -21512,7 +21840,7 @@ WKT2        : COORDINATEOPERATION["CHTRF95_To_LHN95_Height",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LHN95",
@@ -21982,7 +22310,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_EVRF2007_Height_EGG2015",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EVRF_2007",
@@ -22153,7 +22481,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1996_Geoid_2",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EGM96_Geoid",
@@ -22237,7 +22565,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1984_Geoid_2",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EGM84_Geoid",
@@ -22754,7 +23082,7 @@ Area-name   : New Zealand - North Island - Wellington vcrs
 Area-slat   : -41.67
 Area-nlat   : -40.12
 Area-llon   : 174.52
-Area-rlon   : 176.56
+Area-rlon   : 176.55
 Accuracy    : 0.04
 
 WKID        : 110094
@@ -23101,7 +23429,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Depth_CONUS_GE
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth",
@@ -23185,7 +23513,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Depth_Alaska_G
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth",
@@ -23269,7 +23597,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_PA11_Height_To_NAVD88_Depth_Hawaii_G
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth",
@@ -23353,7 +23681,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Height_USFT_CO
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_height_(ftUS)",
@@ -23437,7 +23765,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Height_USFT_Al
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_height_(ftUS)",
@@ -23521,7 +23849,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Depth_USFT_CON
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth_(ftUS)",
@@ -23605,7 +23933,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Depth_USFT_Ala
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth_(ftUS)",
@@ -23689,7 +24017,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Height_IFT_CON
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_height_(ftIntl)",
@@ -23773,7 +24101,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Depth_CONUS_GE
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth",
@@ -23857,7 +24185,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Height_USFT_CO
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_height_(ftUS)",
@@ -23941,7 +24269,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Depth_USFT_CON
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth_(ftUS)",
@@ -24025,7 +24353,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_Height_To_NAVD88_Height_IFT_CON
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_height_(ftIntl)",
@@ -24110,7 +24438,7 @@ WKT2        : COORDINATEOPERATION["NAD83(CSRS)_epoch2010_Height_To_CGVD2013(CGG2
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["CGVD2013_CGG2013a_height",
@@ -24195,7 +24523,7 @@ WKT2        : COORDINATEOPERATION["NAD83(CSRS)_epoch2010_Height_To_CGVD2013(CGG2
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["CGVD2013_height",
@@ -24280,7 +24608,7 @@ WKT2        : COORDINATEOPERATION["NAD83(CSRS)v6_Height_To_CGVD28_Height_HT2",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["CGVD_1928",
@@ -24365,7 +24693,7 @@ WKT2        : COORDINATEOPERATION["NAD83(CSRS)_epoch2010_Height_To_CGVD28_Height
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["CGVD_1928",
@@ -24450,7 +24778,7 @@ WKT2        : COORDINATEOPERATION["NAD83(CSRS)_epoch2002_Height_To_CGVD28_Height
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["CGVD_1928",
@@ -24535,7 +24863,7 @@ WKT2        : COORDINATEOPERATION["NAD83(CSRS)_epoch1997_Height_To_CGVD28_Height
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["CGVD_1928",
@@ -24936,7 +25264,7 @@ WKT2        : COORDINATEOPERATION["CHTRF95_To_LN02_Height_CHGeo2004_Htrans_depre
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LN_1902",
@@ -25022,7 +25350,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_LN02_Height_CHGeo2004_Htrans_deprec
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LN_1902",
@@ -25108,7 +25436,7 @@ WKT2        : COORDINATEOPERATION["ETRF93_To_LN02_Height_CHGeo2004_Htrans_deprec
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LN_1902",
@@ -25196,7 +25524,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_LN02_Height_CHGeo2004_Htrans_depr
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LN_1902",
@@ -25284,7 +25612,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_LHN95_Height_CHGeo2004",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LHN95",
@@ -25369,7 +25697,7 @@ WKT2        : COORDINATEOPERATION["ETRF93_To_LHN95_Height_CHGeo2004",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LHN95",
@@ -25456,7 +25784,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_LHN95_Height_CHGeo2004",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LHN95",
@@ -25542,7 +25870,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_to_Baltic_1957_Height_1_SK",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Baltic_1957_height",
@@ -25624,7 +25952,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_to_EVRF2007_Height_1_SK",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EVRF_2007",
@@ -25706,7 +26034,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_Height_To_NAVD88_Depth_CONUS_GEOID12
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth",
@@ -25788,7 +26116,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_Height_To_NAVD88_Depth_Alaska_GEOID1
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth",
@@ -25870,7 +26198,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_Height_To_NAVD88_Depth_Hawaii_GEOID1
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth",
@@ -25952,7 +26280,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_Height_To_NAVD88_Height_USFT_CONUS_G
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_height_(ftUS)",
@@ -26034,7 +26362,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_Height_To_NAVD88_Height_USFT_Alaska_
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_height_(ftUS)",
@@ -26116,7 +26444,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_Height_To_NAVD88_Depth_USFT_CONUS_GE
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth_(ftUS)",
@@ -26198,7 +26526,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_Height_To_NAVD88_Depth_USFT_Alaska_G
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_depth_(ftUS)",
@@ -26280,7 +26608,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_Height_To_NAVD88_Height_IFT_CONUS_GE
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["NAVD88_height_(ftIntl)",
@@ -26362,7 +26690,7 @@ WKT2        : COORDINATEOPERATION["Estonia_1997_height_To_EVRF2007_height_EGM96"
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EVRF_2007",
@@ -26444,7 +26772,7 @@ WKT2        : COORDINATEOPERATION["Estonia_1997_height_To_EVRF2007_height_EGM200
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EVRF_2007",
@@ -26526,7 +26854,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_Cascais_Height_GeodPT08",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Cascais",
@@ -26608,7 +26936,7 @@ WKT2        : COORDINATEOPERATION["PTRA08_Height_To_Cais_das_Velas_Height_GeodAz
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Cais_das_Velas_height",
@@ -26690,7 +27018,7 @@ WKT2        : COORDINATEOPERATION["PTRA08_Height_To_Horta_Height_GeodAz2014",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Horta_height",
@@ -26772,7 +27100,7 @@ WKT2        : COORDINATEOPERATION["PTRA08_Height_To_Cais_da_Madalena_Height_Geod
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Cais_da_Madalena_height",
@@ -26854,7 +27182,7 @@ WKT2        : COORDINATEOPERATION["PTRA08_Height_To_Santa_Cruz_da_Graciosa_Heigh
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Santa_Cruz_da_Graciosa_height",
@@ -26936,7 +27264,7 @@ WKT2        : COORDINATEOPERATION["PTRA08_Height_To_Cais_da_Figueirinha-Angra_do
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Cais_da_Figueirinha-Angra_do_Heroismo_height",
@@ -27019,7 +27347,7 @@ WKT2        : COORDINATEOPERATION["PTRA08_Height_To_Cais_da_Vila_do_Porto_Height
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Cais_da_Vila_do_Porto_height",
@@ -27101,7 +27429,7 @@ WKT2        : COORDINATEOPERATION["PTRA08_Height_To_Ponta_Delgada_Height_GeodAz2
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Ponta_Delgada_height",
@@ -27184,7 +27512,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_British_Isles_Height_OSGM15_GB",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["BI_height",
@@ -27269,7 +27597,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_British_Isles_Height_OSGM15_Belfast
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["BI_height",
@@ -27308,6 +27636,88 @@ Area-nlat   : 55.36
 Area-llon   : -8.18
 Area-rlon   : -5.34
 Accuracy    : 0.014
+
+WKID        : 110151
+Latest-WKID : 110151
+Macro       : PE_VT_LKS_1992_TO_LATVIA_2000_RIGA20
+Name        : LKS_1992_To_Latvia_2000_Height_RIGA20
+WKT         : VERTTRAN["LKS_1992_To_Latvia_2000_Height_RIGA20",
+               GEOGCS["GCS_LKS_1992",
+                DATUM["D_Latvia_1992",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["LKS_1992",
+                
+               DATUM["D_Latvia_1992",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["Latvia_2000_(height)",
+                
+               VDATUM["Latvian_Height_System_2000"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_RIGA20", 0.0],
+               OPERATIONACCURACY[0.025]]
+WKT2        : COORDINATEOPERATION["LKS_1992_To_Latvia_2000_Height_RIGA20",
+               SOURCECRS[VERTCRS["LKS_1992",
+                 
+               DATUM["D_Latvia_1992",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["Latvia_2000_(height)",
+                 
+               VDATUM["Latvian_Height_System_2000"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["GCS_LKS_1992",
+                 DATUM["D_Latvia_1992",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETERFILE["RIGA20"],
+               OPERATIONACCURACY[0.025]]
+Description : Riga City (Latvia), RIGA20 quasi-geoid
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+Area-name   : Riga City - Latvia
+Area-slat   : 56.8573
+Area-nlat   : 57.0862
+Area-llon   : 23.9336
+Area-rlon   : 24.3245
+Accuracy    : 0.025
 
 WKID        : 110152
 Latest-WKID : 110152
@@ -27353,7 +27763,7 @@ WKT2        : COORDINATEOPERATION["LKS_1992_To_Latvia_2000_Height_LV14",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["Latvia_2000_(height)",
@@ -27435,7 +27845,7 @@ WKT2        : COORDINATEOPERATION["LKS_1994_To_LAS07_Height_LIT20G",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LAS07_height",
@@ -27517,7 +27927,7 @@ WKT2        : COORDINATEOPERATION["Estonia_1997_To_EH2000_Height_EST-GEOID2017",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["EH2000_height",
@@ -27600,7 +28010,7 @@ WKT2        : COORDINATEOPERATION["CHTRF95_To_LN02_Height_CHGeo2004_Htrans_2",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LN_1902",
@@ -27686,7 +28096,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_LN02_Height_CHGeo2004_Htrans_2",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LN_1902",
@@ -27772,7 +28182,7 @@ WKT2        : COORDINATEOPERATION["ETRF93_To_LN02_Height_CHGeo2004_Htrans_2",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LN_1902",
@@ -27860,7 +28270,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_LN02_Height_CHGeo2004_Htrans_2",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LN_1902",
@@ -27947,7 +28357,7 @@ WKT2        : COORDINATEOPERATION["CH1903+_To_LN02_Height_CHGeo2004_Htrans",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LN_1902",
@@ -28032,7 +28442,7 @@ WKT2        : COORDINATEOPERATION["CH1903+_To_LHN95_Height_CHGeo2004",
                  
                CS[vertical,  1],
                  
-               AXIS["Gravity-related height (H)",  up,
+               AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                TARGETCRS[VERTCRS["LHN95",

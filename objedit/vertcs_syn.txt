@@ -29,11 +29,6 @@
    FALSE, \
    "EPSG"
 
-"Baltic 1977 depth", \
-   "Baltic_depth", \
-   FALSE, \
-   "EPSG"
-
 "Baltic 1977 height", \
    "Baltic", \
    FALSE, \
@@ -74,13 +69,13 @@
    FALSE, \
    "EPSG"
 
-"Caspian depth", \
-   "Caspian", \
+"CBVD61 height (ft)", \
+   "CBVD61_height", \
    FALSE, \
    "EPSG"
 
-"CBVD61 height (ft)", \
-   "CBVD61_height", \
+"CGVD2013a(2010) height", \
+   "CGVD2013_CGG2013a_height", \
    FALSE, \
    "EPSG"
 
@@ -174,6 +169,16 @@
    FALSE, \
    "EPSG"
 
+"EVRF2019 height", \
+   "EVRF_2019", \
+   FALSE, \
+   "EPSG"
+
+"EVRF2019 mean-tide height", \
+   "EVRF_2019_mean-tide", \
+   FALSE, \
+   "EPSG"
+
 "Fahud HD height", \
    "Fahud_Height_Datum_1993", \
    FALSE, \
@@ -206,6 +211,11 @@
 
 "GCVD54 height (ft)", \
    "GCVD54_height", \
+   FALSE, \
+   "EPSG"
+
+"Genoa 1942 height", \
+   "Genoa_height", \
    FALSE, \
    "EPSG"
 
@@ -299,6 +309,11 @@
    FALSE, \
    "EPSG"
 
+"INAGeoid2020 v1 height", \
+   "INAGeoid2020_height", \
+   FALSE, \
+   "EPSG"
+
 "Japanese_Standard_Levelling_Datum_1949", \
    "Japanese_Standard_Levelling_Datum_1969", \
    TRUE, \
@@ -311,11 +326,6 @@
 
 "KOC CD height", \
    "KOC_Construction_Datum", \
-   FALSE, \
-   "EPSG"
-
-"KOC WD depth", \
-   "KOC_Well_Datum", \
    FALSE, \
    "EPSG"
 
@@ -399,16 +409,6 @@
    FALSE, \
    "EPSG"
 
-"MSL depth (ft)", \
-   "MSL_depth_(ftIntl)", \
-   FALSE, \
-   "EPSG"
-
-"MSL height (ft)", \
-   "MSL_height_(ftIntl)", \
-   FALSE, \
-   "EPSG"
-
 "N60 height", \
    "N60", \
    FALSE, \
@@ -436,11 +436,6 @@
 
 "NAVD88 height", \
    "NAVD_1988", \
-   FALSE, \
-   "EPSG"
-
-"NAVD88 height (ft)", \
-   "NAVD88_height_(ftIntl)", \
    FALSE, \
    "EPSG"
 
@@ -484,11 +479,6 @@
    TRUE, \
    ""
 
-"NG-L height", \
-   "NG_L", \
-   FALSE, \
-   "EPSG"
-
 "NGNC69 height", \
    "NGNC", \
    FALSE, \
@@ -499,18 +489,8 @@
    FALSE, \
    "EPSG"
 
-"NGVD29 depth (ftUS)", \
-   "NGVD29_depth", \
-   FALSE, \
-   "EPSG"
-
 "NGVD29 height (ftUS)", \
    "NGVD_1929", \
-   FALSE, \
-   "EPSG"
-
-"NGVD29 height (m)", \
-   "NGVD_1929_height_(m)", \
    FALSE, \
    "EPSG"
 

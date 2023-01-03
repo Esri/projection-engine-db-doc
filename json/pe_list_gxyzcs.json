@@ -2192,7 +2192,7 @@
     { "slat": -16.08,
       "nlat": -15.85,
       "llon": -5.85,
-      "rlon": -5.58
+      "rlon": -5.59
     }
   },
   { "wkid": 7884,
@@ -2210,7 +2210,7 @@
     { "slat": -16.08,
       "nlat": -15.85,
       "llon": -5.85,
-      "rlon": -5.58
+      "rlon": -5.59
     }
   },
   { "wkid": 7914,
@@ -3383,6 +3383,60 @@
       "rlon": 24.15
     }
   },
+  { "wkid": 9753,
+    "latestWkid": 9753,
+    "macro": "PE_XYZ_WGS_84_G2139",
+    "name": "WGS_84_(G2139)",
+    "wkt": "GXYZCS[\"WGS_84_(G2139)\",DATUM[\"WGS_1984_(G2139)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"WGS_84_(G2139)\",DATUM[\"WGS_1984_(G2139)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0]]",
+    "description": "WGS 84 (G2139)",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 9775,
+    "latestWkid": 9775,
+    "macro": "PE_XYZ_RGF93_V2",
+    "name": "RGF93_v2",
+    "wkt": "GXYZCS[\"RGF93_v2\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"RGF93_v2\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0]]",
+    "description": "RGF93 v2",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 9780,
+    "latestWkid": 9780,
+    "macro": "PE_XYZ_RGF93_V2B",
+    "name": "RGF93_v2b",
+    "wkt": "GXYZCS[\"RGF93_v2b\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"RGF93_v2b\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0]]",
+    "description": "RGF93 v2b",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
   { "wkid": 9892,
     "latestWkid": 9892,
     "macro": "PE_XYZ_LUREF",
@@ -3399,6 +3453,42 @@
       "nlat": 50.19,
       "llon": 5.73,
       "rlon": 6.53
+    }
+  },
+  { "wkid": 9988,
+    "latestWkid": 9988,
+    "macro": "PE_XYZ_ITRF2020",
+    "name": "ITRF2020",
+    "wkt": "GXYZCS[\"ITRF2020\",DATUM[\"International_Terrestrial_Reference_Frame_2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"ITRF2020\",DATUM[\"International_Terrestrial_Reference_Frame_2020\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0]]",
+    "description": "ITRF2020",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "World (by country)",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 20039,
+    "latestWkid": 20039,
+    "macro": "PE_XYZ_SIRGAS_CHILE_2021",
+    "name": "SIRGAS-Chile_2021",
+    "wkt": "GXYZCS[\"SIRGAS-Chile_2021\",DATUM[\"SIRGAS-Chile_realization_5_epoch_2021\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"SIRGAS-Chile_2021\",DATUM[\"SIRGAS-Chile_realization_5_epoch_2021\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0]]",
+    "description": "SIRGAS-Chile 2021",
+    "authority": "Esri",
+    "version": "13.1.0",
+    "deprecated": "no",
+    "areaname": "Chile",
+    "extent":
+    { "slat": -59.87,
+      "nlat": -17.5,
+      "llon": -113.21,
+      "rlon": -65.72
     }
   }
 ] }

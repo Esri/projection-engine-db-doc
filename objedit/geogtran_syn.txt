@@ -849,11 +849,6 @@
    FALSE, \
    "EPSG"
 
-"Batavia to WGS 84 (1)", \
-   "AGD_1966_To_GDA_1994_NTv2_Northern_Territory", \
-   FALSE, \
-   "EPSG"
-
 "Batavia to WGS 84 (2)", \
    "Batavia_To_WGS_1984_2", \
    FALSE, \
@@ -861,6 +856,11 @@
 
 "Batavia to WGS 84 (3)", \
    "Batavia_To_WGS_1984_3", \
+   FALSE, \
+   "EPSG"
+
+"BD50 (Brussels) to BD50 (1)", \
+   "Belge_1950_Brussels_To_Belge_1950", \
    FALSE, \
    "EPSG"
 
@@ -941,11 +941,6 @@
 
 "Bekaa Valley 1920 to WGS 84 (1)", \
    "Bekaa_Valley_1920_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"Belge 1950 (Brussels) to Belge 1950 (1)", \
-   "Belge_1950_Brussels_To_Belge_1950", \
    FALSE, \
    "EPSG"
 
@@ -1294,7 +1289,7 @@
    FALSE, \
    "EPSG"
 
-"CH1903+ to CHTRF95 (1)", \
+"CH1903+ to CHTRS95 (1)", \
    "CH1903+_To_CHTRF_1995", \
    FALSE, \
    "EPSG"
@@ -1314,7 +1309,7 @@
    FALSE, \
    "EPSG"
 
-"CH1903 to CHTRF95 (1)", \
+"CH1903 to CHTRS95 (1)", \
    "CH1903_To_CHTRF95_1_NTv2", \
    FALSE, \
    "EPSG"
@@ -1359,12 +1354,12 @@
    FALSE, \
    "EPSG"
 
-"CHTRF95 to ETRS89 (1)", \
+"CHTRS95 to ETRS89 (1)", \
    "CHTRF95_To_ETRS_1989_1", \
    FALSE, \
    "EPSG"
 
-"CHTRF95 to WGS 84 (1)", \
+"CHTRS95 to WGS 84 (1)", \
    "CHTRF_1995_To_WGS_1984", \
    FALSE, \
    "EPSG"
@@ -1606,6 +1601,11 @@
 
 "DHDN to ETRS89 (8)", \
    "DHDN_To_ETRS_1989_8_NTv2", \
+   FALSE, \
+   "EPSG"
+
+"DHDN to WGS 84 (1)", \
+   "DHDN_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -2029,8 +2029,48 @@
    FALSE, \
    "EPSG"
 
+"ETRF2000-PL to WGS 84 (1)", \
+   "ETRF2000-PL_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to EBBWV14-IRF (1)", \
+   "ETRS_1989_to_EBBWV14-IRF_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to FNL22-IRF (1)", \
+   "ETRS_1989_to_FNL22-IRF_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to HULLEE13-IRF (1)", \
+   "ETRS_1989_to_HULLEE13-IRF_(1)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to MOLDOR11-IRF (1)", \
+   "ETRS_1989_to_MOLDOR11-IRF_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to MRH21-IRF (1)", \
+   "ETRS_1989_to_MRH21-IRF_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to MWC18-IRF (1)", \
+   "ETRS_1989_to_MWC18-IRF_1", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 to NTF (3)", \
    "ETRS_1989_To_NTF_3_NTv2", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to SCM22-IRF (1)", \
+   "ETRS_1989_to_SCM22-IRF_1", \
    FALSE, \
    "EPSG"
 
@@ -2145,32 +2185,32 @@
    "EPSG"
 
 "GDA2020 to WGS 84 (2)", \
-   "Hartebeesthoek94_To_WGS_1984", \
+   "GDA2020_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
 "GDA94 to GDA2020 (1)", \
-   "Egypt_1907_To_WGS_1984", \
+   "GDA_1994_To_GDA2020_1", \
    FALSE, \
    "EPSG"
 
 "GDA94 to GDA2020 (2)", \
-   "NAD_1983_To_HARN_Wisconsin", \
+   "GDA_1994_To_GDA2020_NTv2_2_Conformal_and_Distortion", \
    FALSE, \
    "EPSG"
 
 "GDA94 to GDA2020 (3)", \
-   "NAD_1983_To_HARN_WA_OR", \
+   "GDA_1994_To_GDA2020_NTv2_3_Conformal", \
    FALSE, \
    "EPSG"
 
 "GDA94 to GDA2020 (4)", \
-   "NAD_1983_To_HARN_West_Texas", \
+   "GDA_1994_To_GDA2020_NTv2_4_Christmas", \
    FALSE, \
    "EPSG"
 
 "GDA94 to GDA2020 (5)", \
-   "NAD_1983_To_HARN_Virginia", \
+   "GDA_1994_To_GDA2020_NTv2_5_Cocos_Keeling", \
    FALSE, \
    "EPSG"
 
@@ -2224,6 +2264,11 @@
    FALSE, \
    "EPSG"
 
+"GSK-2011 to WGS 84 (1)", \
+   "GSK-2011_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "Guadeloupe 1948 to RGAF09 (1)", \
    "Sainte_Anne_To_RGAF09_1", \
    FALSE, \
@@ -2261,6 +2306,11 @@
 
 "Gulshan 303 to WGS 84 (1)", \
    "Gulshan_303_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"Gulshan 303 to WGS 84 (2)", \
+   "Gulshan_303_to_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
@@ -2349,18 +2399,8 @@
    FALSE, \
    "EPSG"
 
-"Hong Kong 1980 to Hong Kong Geodetic CS (1)", \
-   "NAD_1983_To_HARN_New_York", \
-   FALSE, \
-   "EPSG"
-
 "Hong Kong 1980 to WGS 84 (1)", \
    "Hong_Kong_1980_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"Hong Kong Geodetic CS to WGS 84 (1)", \
-   "NAD_1983_To_HARN_Oklahoma", \
    FALSE, \
    "EPSG"
 
@@ -2604,6 +2644,11 @@
    FALSE, \
    "EPSG"
 
+"ISN2016 to WGS 84 (1)", \
+   "ISN2016_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "ISN93 to WGS 84 (1)", \
    "ISN_1993_To_WGS_1984_1", \
    FALSE, \
@@ -2611,6 +2656,11 @@
 
 "Israel 1993 to WGS 84 (1)", \
    "Israel_To_WGS_1984", \
+   FALSE, \
+   "EPSG"
+
+"Israel 1993 to WGS 84 (2)", \
+   "Israel_1993_to_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
@@ -2671,6 +2721,16 @@
 
 "JGD2000 to WGS 84 (1)", \
    "JGD_2000_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"JGD2000 to WGS 84 (2)", \
+   "JGD2000_to_WGS_1984_2", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 to WGS 84 (1)", \
+   "JGD2011_to_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -2984,6 +3044,66 @@
    FALSE, \
    "EPSG"
 
+"LUREF to ETRS89 (1)", \
+   "LUREF_To_ETRS_1989_1", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to ETRS89 (2)", \
+   "LUREF_To_ETRS_1989_2", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to ETRS89 (3)", \
+   "LUREF_To_ETRS_1989_3", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to ETRS89 (4)", \
+   "LUREF_To_ETRS_1989_4", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to ETRS89 (5)", \
+   "LUREF_To_ETRS_1989_5", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to ETRS89 (6)", \
+   "LUREF_To_ETRS_1989_6", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to ETRS89 (7)", \
+   "LUREF_To_ETRS_1989_7", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to ETRS89 (8)", \
+   "LUREF_To_ETRS_1989_8", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to WGS 84 (1)", \
+   "LUREF_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to WGS 84 (2)", \
+   "LUREF_To_WGS_1984_2", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to WGS 84 (3)", \
+   "LUREF_1930_To_WGS_1984_3", \
+   FALSE, \
+   "EPSG"
+
+"LUREF to WGS 84 (4)", \
+   "LUREF_To_WGS_1984_4", \
+   FALSE, \
+   "EPSG"
+
 "Luxembourg_1930_To_ETRS_1989_1", \
    "LUREF_To_ETRS_1989_1", \
    TRUE, \
@@ -3003,26 +3123,6 @@
    "LUREF_To_ETRS_1989_4", \
    TRUE, \
    ""
-
-"Luxembourg 1930 to ETRS89 (1)", \
-   "Luxembourg_1930_To_ETRS_1989_1", \
-   FALSE, \
-   "EPSG"
-
-"Luxembourg 1930 to ETRS89 (2)", \
-   "Luxembourg_1930_To_ETRS_1989_2", \
-   FALSE, \
-   "EPSG"
-
-"Luxembourg 1930 to ETRS89 (3)", \
-   "Luxembourg_1930_To_ETRS_1989_3", \
-   FALSE, \
-   "EPSG"
-
-"Luxembourg 1930 to ETRS89 (4)", \
-   "Luxembourg_1930_To_ETRS_1989_4", \
-   FALSE, \
-   "EPSG"
 
 "Luxembourg_1930_To_WGS_1984_1", \
    "LUREF_To_WGS_1984_1", \
@@ -3044,26 +3144,6 @@
    TRUE, \
    ""
 
-"Luxembourg 1930 to WGS 84 (1)", \
-   "Luxembourg_1930_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"Luxembourg 1930 to WGS 84 (2)", \
-   "Luxembourg_1930_To_WGS_1984_2", \
-   FALSE, \
-   "EPSG"
-
-"Luxembourg 1930 to WGS 84 (3)", \
-   "Luxembourg_1930_To_WGS_1984_3", \
-   FALSE, \
-   "EPSG"
-
-"Luxembourg 1930 to WGS 84 (4)", \
-   "Luxembourg_1930_To_WGS_1984_4", \
-   FALSE, \
-   "EPSG"
-
 "Luzon 1911 to WGS 84 (1)", \
    "Luzon_1911_To_WGS_1984_1", \
    FALSE, \
@@ -3081,21 +3161,6 @@
 
 "M'poraloko to WGS 84 (2)", \
    "Mporaloko_To_WGS_1984_2", \
-   FALSE, \
-   "EPSG"
-
-"Macao 1920 to WGS 84 (1)", \
-   "NAD_1983_To_HARN_North_Dakota", \
-   FALSE, \
-   "EPSG"
-
-"Macao 2008 to Macao 1920 (1)", \
-   "NAD_1983_To_HARN_New_England", \
-   FALSE, \
-   "EPSG"
-
-"Macao 2008 to WGS 84 (1)", \
-   "NAD_1983_To_HARN_New_Mexico", \
    FALSE, \
    "EPSG"
 
@@ -3254,11 +3319,6 @@
    FALSE, \
    "EPSG"
 
-"MGI 1901 to WGS 84 (12)", \
-   "MGI_1901_To_WGS_1984_12", \
-   FALSE, \
-   "EPSG"
-
 "MGI 1901 to WGS 84 (13)", \
    "MGI_1901_To_WGS_1984_13", \
    FALSE, \
@@ -3266,6 +3326,16 @@
 
 "MGI 1901 to WGS 84 (14)", \
    "MGI_1901_To_WGS_1984_14", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to WGS 84 (15)", \
+   "MGI_1901_to_WGS_1984_15", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to WGS 84 (16)", \
+   "MGI_1901_To_WGS_1984_16", \
    FALSE, \
    "EPSG"
 
@@ -3316,6 +3386,11 @@
 
 "MGI to ETRS89 (5)", \
    "MGI_To_ETRS_1989_5", \
+   FALSE, \
+   "EPSG"
+
+"MGI to ETRS89 (8)", \
+   "MGI_To_ETRS_1989_8", \
    FALSE, \
    "EPSG"
 
@@ -3669,6 +3744,11 @@
    FALSE, \
    "EPSG"
 
+"NAD27 to NAD83(CSRS)v2 (2)", \
+   "NAD_1927_to_NAD83(CSRS)v2_2", \
+   FALSE, \
+   "EPSG"
+
 "NAD27 to NAD83(CSRS)v2 (4)", \
    "NAD_1927_To_NAD_1983_CSRS_v2_4", \
    FALSE, \
@@ -3676,11 +3756,6 @@
 
 "NAD27 to NAD83(CSRS)v2 (7)", \
    "NAD_1927_To_NAD_1983_CSRS_v2_7_British_Columbia", \
-   FALSE, \
-   "EPSG"
-
-"NAD27 to NAD83(CSRS)v3 (2)", \
-   "NAD_1927_To_NAD_1983_CSRS_v3_2", \
    FALSE, \
    "EPSG"
 
@@ -3884,6 +3959,11 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) to WGS 84 (1)", \
+   "NAD_1983_(2011)_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(CSRS) to WGS 84 (1)", \
    "NAD_1983_CSRS_To_WGS_1984_1", \
    FALSE, \
@@ -4014,13 +4094,13 @@
    FALSE, \
    "EPSG"
 
-"NAD83 to NAD83(CSRS)v2 (6)", \
-   "NAD_1983_To_NAD_1983_CSRS_v2_6_BC", \
+"NAD83 to NAD83(CSRS)v2 (2)", \
+   "NAD_1983_to_NAD83(CSRS)v2_2", \
    FALSE, \
    "EPSG"
 
-"NAD83 to NAD83(CSRS)v3 (2)", \
-   "NAD_1983_To_NAD_1983_CSRS_v3_2", \
+"NAD83 to NAD83(CSRS)v2 (6)", \
+   "NAD_1983_To_NAD_1983_CSRS_v2_6_BC", \
    FALSE, \
    "EPSG"
 
@@ -4919,52 +4999,52 @@
    FALSE, \
    "EPSG"
 
-"OSGB 1936 to ED50 (UKOOA)", \
+"OSGB36 to ED50 (1)", \
    "OSGB_1936_To_ED_1950_UKOOA", \
    FALSE, \
    "EPSG"
 
-"OSGB 1936 to ETRS89 (1)", \
+"OSGB36 to ETRS89 (1)", \
    "OSGB_1936_To_ETRS_1989_1", \
    FALSE, \
    "EPSG"
 
-"OSGB 1936 to WGS 84 (1)", \
+"OSGB36 to WGS 84 (1)", \
    "OSGB_1936_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
-"OSGB 1936 to WGS 84 (2)", \
+"OSGB36 to WGS 84 (2)", \
    "OSGB_1936_To_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
-"OSGB 1936 to WGS 84 (3)", \
+"OSGB36 to WGS 84 (3)", \
    "OSGB_1936_To_WGS_1984_3", \
    FALSE, \
    "EPSG"
 
-"OSGB 1936 to WGS 84 (4)", \
+"OSGB36 to WGS 84 (4)", \
    "OSGB_1936_To_WGS_1984_4", \
    FALSE, \
    "EPSG"
 
-"OSGB 1936 to WGS 84 (5)", \
+"OSGB36 to WGS 84 (5)", \
    "OSGB_1936_To_WGS_1984_5", \
    FALSE, \
    "EPSG"
 
-"OSGB 1936 to WGS 84 (6)", \
+"OSGB36 to WGS 84 (6)", \
    "OSGB_1936_To_WGS_1984_Petroleum", \
    FALSE, \
    "EPSG"
 
-"OSGB 1936 to WGS 84 (7)", \
+"OSGB36 to WGS 84 (7)", \
    "OSGB_1936_To_WGS_1984_7", \
    FALSE, \
    "EPSG"
 
-"OSGB 1936 to WGS 84 (8)", \
+"OSGB36 to WGS 84 (8)", \
    "OSGB_1936_To_WGS_1984_8", \
    FALSE, \
    "EPSG"
@@ -5038,6 +5118,11 @@
    "Reunion_1947_To_WGS_1984_2", \
    TRUE, \
    ""
+
+"PN68 to WGS 84 (1)", \
+   "PN68_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
 
 "PN84 to WGS 84 (1)", \
    "Pico_de_Las_Nieves_To_WGS_1984", \
@@ -5554,18 +5639,38 @@
    FALSE, \
    "EPSG"
 
-"RGF93 to ETRS89 (1)", \
+"RGF93 v1 to ETRS89 (1)", \
    "RGF_1993_To_ETRS_1989_1", \
    FALSE, \
    "EPSG"
 
-"RGF93 to NTF (2)", \
+"RGF93 v1 to NTF (2)", \
    "RGF_1993_To_NTF_NTv2", \
    FALSE, \
    "EPSG"
 
-"RGF93 to WGS 84 (1)", \
+"RGF93 v1 to WGS 84 (1)", \
    "RGF_1993_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v2b to ETRS89 (1)", \
+   "RGF93_v2b_to_ETRS_1989_1", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v2b to WGS 84 (1)", \
+   "RGF93_v2b_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v2 to ETRS89 (1)", \
+   "RGF93_v2_to_ETRS_1989_1", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v2 to WGS 84 (1)", \
+   "RGF93_v2_to_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -5626,6 +5731,16 @@
 
 "RGSPM06 to WGS 84 (1)", \
    "RGSPM_2006_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"RGTAAF07 to WGS 84 (1)", \
+   "RGTAAF07_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"RGWF96 to WGS 84 (1)", \
+   "RGWF96_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -5919,6 +6034,11 @@
    FALSE, \
    "EPSG"
 
+"SIRGAS 1995 to WGS 84 (1)", \
+   "SIRGAS_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "SIRGAS 2000 to WGS 84 (1)", \
    "SIRGAS_2000_To_WGS_1984_1", \
    FALSE, \
@@ -5931,11 +6051,6 @@
 
 "SIRGAS-ROU98 to WGS 84 (1)", \
    "SIRGAS-ROU98_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
-
-"SIRGAS to WGS 84 (1)", \
-   "SIRGAS_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -6319,6 +6434,11 @@
    FALSE, \
    "EPSG"
 
+"TGD2005 to WGS 84 (1)", \
+   "TGD2005_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "Timbalai 1948 to WGS 84 (1)", \
    "Timbalai_1948_To_WGS_1984", \
    FALSE, \
@@ -6446,6 +6566,11 @@
 
 "TWD97 to WGS 84 (1)", \
    "TWD_1997_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"UCS-2000 to ETRS89 (1)", \
+   "UCS-2000_to_ETRS_1989_1", \
    FALSE, \
    "EPSG"
 

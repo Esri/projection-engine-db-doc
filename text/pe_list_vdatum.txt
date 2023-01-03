@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -786,6 +786,17 @@ Authority   : EPSG
 Version     : 9.2.2(10.8.0)
 Deprecated  : no
 
+WKID        : 1205
+Latest-WKID : 1205
+Macro       : PE_VERTD_EPSG_EXAMPLE_WELLBORE_VERTICAL_DATUM
+Name        : EPSG_example_wellbore_vertical_datum
+WKT         : VDATUM["EPSG_example_wellbore_vertical_datum"]
+WKT2        : VDATUM["EPSG_example_wellbore_vertical_datum"]
+Description : EPSG example wellbore vertical datum
+Authority   : EPSG
+Version     : 9.6(13.1.0)
+Deprecated  : no
+
 WKID        : 1210
 Latest-WKID : 1210
 Macro       : PE_VERTD_MACAO_HT_DATUM
@@ -1268,6 +1279,72 @@ WKT2        : VDATUM["Cagliari_1956"]
 Description : Cagliari 1956
 Authority   : Esri
 Version     : 12.9.0
+Deprecated  : no
+
+WKID        : 1316
+Latest-WKID : 1316
+Macro       : PE_VERTD_GNTRANS
+Name        : GNTRANS
+WKT         : VDATUM["GNTRANS"]
+WKT2        : VDATUM["GNTRANS"]
+Description : GNTRANS
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1318
+Latest-WKID : 1318
+Macro       : PE_VERTD_GNTRANS2016
+Name        : GNTRANS2016
+WKT         : VDATUM["GNTRANS2016"]
+WKT2        : VDATUM["GNTRANS2016"]
+Description : GNTRANS2016
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1323
+Latest-WKID : 1323
+Macro       : PE_VERTD_SVALBARD_VERTICAL_DATUM_2006
+Name        : Svalbard_vertical_datum_2006
+WKT         : VDATUM["Svalbard_vertical_datum_2006"]
+WKT2        : VDATUM["Svalbard_vertical_datum_2006"]
+Description : Svalbard vertical datum 2006
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1325
+Latest-WKID : 1325
+Macro       : PE_VERTD_CANADIAN_GEODETIC_VERTICAL_DATUM_OF_2013_CGG2013A_EPOCH_2002
+Name        : Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002
+WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002"]
+WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002"]
+Description : Canadian Geodetic Vertical Datum of 2013 (CGG2013a) epoch 2002
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1326
+Latest-WKID : 1326
+Macro       : PE_VERTD_CANADIAN_GEODETIC_VERTICAL_DATUM_OF_2013_CGG2013A_EPOCH_1997
+Name        : Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997
+WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997"]
+WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997"]
+Description : Canadian Geodetic Vertical Datum of 2013 (CGG2013a) epoch 1997
+Authority   : Esri
+Version     : 13.1.0
+Deprecated  : no
+
+WKID        : 1328
+Latest-WKID : 1328
+Macro       : PE_VERTD_INDONESIAN_GEOID_2020_VERSION_2
+Name        : Indonesian_Geoid_2020_version_2
+WKT         : VDATUM["Indonesian_Geoid_2020_version_2"]
+WKT2        : VDATUM["Indonesian_Geoid_2020_version_2"]
+Description : Indonesian Geoid 2020 version 2
+Authority   : Esri
+Version     : 13.1.0
 Deprecated  : no
 
 WKID        : 5100

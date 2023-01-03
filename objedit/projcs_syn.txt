@@ -934,6 +934,16 @@
    FALSE, \
    "Teradata"
 
+"BD50 (Brussels) / Belge Lambert 50", \
+   "Belge_Lambert_1950", \
+   FALSE, \
+   "EPSG"
+
+"BD72 / Belgian Lambert 72", \
+   "Belge_Lambert_1972", \
+   FALSE, \
+   "EPSG"
+
 "BDA2000 / Bermuda 2000 National Grid", \
    "Bermuda_2000_National_Grid", \
    FALSE, \
@@ -2497,11 +2507,6 @@
 "Belge 1950 (Brussels) / Belge Lambert 50", \
    "Belge_Lambert_1950", \
    FALSE, \
-   "EPSG"
-
-"Belge 1950 (Brussels) / Belge Lambert 50", \
-   "Belge_Lambert_1950", \
-   FALSE, \
    "Oracle"
 
 "Belge 1950 (Brussels) / Belge Lambert 50", \
@@ -2528,11 +2533,6 @@
    "Belge_Lambert_1972", \
    FALSE, \
    "Teradata"
-
-"Belge 1972 / Belgian Lambert 72", \
-   "Belge_Lambert_1972", \
-   FALSE, \
-   "EPSG"
 
 "Belge 1972 / Belgian Lambert 72", \
    "Belge_Lambert_1972", \
@@ -5764,6 +5764,31 @@
    FALSE, \
    "Teradata"
 
+"ETRF2000-PL / CS2000/15", \
+   "ETRS_1989_Poland_CS2000_Zone_5", \
+   FALSE, \
+   "EPSG"
+
+"ETRF2000-PL / CS2000/18", \
+   "ETRS_1989_Poland_CS2000_Zone_6", \
+   FALSE, \
+   "EPSG"
+
+"ETRF2000-PL / CS2000/21", \
+   "ETRS_1989_Poland_CS2000_Zone_7", \
+   FALSE, \
+   "EPSG"
+
+"ETRF2000-PL / CS2000/24", \
+   "ETRS_1989_Poland_CS2000_Zone_8", \
+   FALSE, \
+   "EPSG"
+
+"ETRF2000-PL / CS92", \
+   "ETRS_1989_Poland_CS92", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 / Albania LCC 2010", \
    "ETRS_1989_Albania_LCC_2010", \
    FALSE, \
@@ -6812,11 +6837,6 @@
 "ETRS89 / Poland CS2000 zone 5", \
    "ETRS_1989_Poland_CS2000_Zone_5", \
    FALSE, \
-   "EPSG"
-
-"ETRS89 / Poland CS2000 zone 5", \
-   "ETRS_1989_Poland_CS2000_Zone_5", \
-   FALSE, \
    "Oracle"
 
 "ETRS89 / Poland CS2000 zone 5", \
@@ -6833,11 +6853,6 @@
    "ETRS_1989_Poland_CS2000_Zone_5", \
    FALSE, \
    "Teradata"
-
-"ETRS89 / Poland CS2000 zone 6", \
-   "ETRS_1989_Poland_CS2000_Zone_6", \
-   FALSE, \
-   "EPSG"
 
 "ETRS89 / Poland CS2000 zone 6", \
    "ETRS_1989_Poland_CS2000_Zone_6", \
@@ -6862,11 +6877,6 @@
 "ETRS89 / Poland CS2000 zone 7", \
    "ETRS_1989_Poland_CS2000_Zone_7", \
    FALSE, \
-   "EPSG"
-
-"ETRS89 / Poland CS2000 zone 7", \
-   "ETRS_1989_Poland_CS2000_Zone_7", \
-   FALSE, \
    "Oracle"
 
 "ETRS89 / Poland CS2000 zone 7", \
@@ -6887,11 +6897,6 @@
 "ETRS89 / Poland CS2000 zone 8", \
    "ETRS_1989_Poland_CS2000_Zone_8", \
    FALSE, \
-   "EPSG"
-
-"ETRS89 / Poland CS2000 zone 8", \
-   "ETRS_1989_Poland_CS2000_Zone_8", \
-   FALSE, \
    "Oracle"
 
 "ETRS89 / Poland CS2000 zone 8", \
@@ -6908,11 +6913,6 @@
    "ETRS_1989_Poland_CS2000_Zone_8", \
    FALSE, \
    "Teradata"
-
-"ETRS89 / Poland CS92", \
-   "ETRS_1989_Poland_CS92", \
-   FALSE, \
-   "EPSG"
 
 "ETRS89 / Poland CS92", \
    "ETRS_1989_Poland_CS92", \
@@ -7546,6 +7546,11 @@
 
 "GDA94 / MGA zone 47", \
    "GDA_1994_MGA_Zone_47", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / MGA zone 48", \
+   "GDA_1994_MGA_Zone_48", \
    FALSE, \
    "EPSG"
 
@@ -11838,6 +11843,11 @@
    "MOP78_UTM_1S", \
    FALSE, \
    "Teradata"
+
+"MWC18 Grid", \
+   "Pulkovo_1995_GK_Zone_2", \
+   FALSE, \
+   "EPSG"
 
 "NAD_1927_StatePlane_Vermont_FIPS_3400", \
    "NAD_1927_StatePlane_Vermont_FIPS_4400", \
@@ -16969,8 +16979,18 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) / Alabama East (ftUS)", \
+   "NAD_1983_2011_StatePlane_Alabama_East_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(2011) / Alabama West", \
    "NAD_1983_2011_StatePlane_Alabama_West_FIPS_0102", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / Alabama West (ftUS)", \
+   "NAD_1983_2011_StatePlane_Alabama_West_(ftUS)", \
    FALSE, \
    "EPSG"
 
@@ -17026,6 +17046,11 @@
 
 "NAD83(2011) / Alaska zone 9", \
    "NAD_1983_2011_StatePlane_Alaska_9_FIPS_5009", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / Amtrak NECCS21 (ft)", \
+   "NAD_1983_(2011)_Amtrak_NECCS21_(ft)", \
    FALSE, \
    "EPSG"
 
@@ -23139,6 +23164,16 @@
    FALSE, \
    "SpatiaLite"
 
+"NAD83(CSRS) / UTM zone 23N", \
+   "NAD_1983_CSRS_UTM_Zone_23N", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS) / UTM zone 24N", \
+   "NAD_1983_CSRS_UTM_Zone_24N", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(CSRS) / UTM zone 7N", \
    "NAD_1983_CSRS_UTM_Zone_7N", \
    FALSE, \
@@ -23199,13 +23234,48 @@
    FALSE, \
    "Teradata"
 
-"NAD83(CSRS)v6 / MTM Nova Scotia zone 4", \
+"NAD83(CSRS)v6 / MTM NS 2010 zone 4", \
    "NAD_1983_(CSRS)_v6_MTM_Nova_Scotia_zone_4", \
    FALSE, \
    "EPSG"
 
-"NAD83(CSRS)v6 / MTM Nova Scotia zone 5", \
+"NAD83(CSRS)v6 / MTM NS 2010 zone 5", \
    "NAD_1983_(CSRS)_v6_MTM_Nova_Scotia_zone_5", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 / UTM zone 15N", \
+   "NAD_1983_(CSRS)_v6_UTM_Zone_15N", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 / UTM zone 16N", \
+   "NAD_1983_(CSRS)_v6_UTM_Zone_16N", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 / UTM zone 17N", \
+   "NAD_1983_(CSRS)_v6_UTM_Zone_17N", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 / UTM zone 18N", \
+   "NAD_1983_(CSRS)_v6_UTM_Zone_18N", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 / UTM zone 19N", \
+   "NAD_1983_(CSRS)_v6_UTM_Zone_19N", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 / UTM zone 20N", \
+   "NAD_1983_(CSRS)_v6_UTM_Zone_20N", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 / UTM zone 21N", \
+   "NAD_1983_(CSRS)_v6_UTM_Zone_21N", \
    FALSE, \
    "EPSG"
 
@@ -37714,6 +37784,11 @@
    FALSE, \
    "Teradata"
 
+"NAD83 / USFS R6 Albers", \
+   "NAD_1983_USFS_R6_Albers", \
+   FALSE, \
+   "EPSG"
+
 "NAD83 / Utah Central", \
    "NAD_1983_StatePlane_Utah_Central_FIPS_4302", \
    FALSE, \
@@ -38278,6 +38353,11 @@
    "NAD_1983_UTM_Zone_23N", \
    FALSE, \
    "Teradata"
+
+"NAD83 / UTM zone 24N", \
+   "NAD_1983_UTM_Zone_24N", \
+   FALSE, \
+   "EPSG"
 
 "NAD83 / UTM zone 2N", \
    "NAD_1983_UTM_Zone_2N", \
@@ -39088,6 +39168,11 @@
    "NAD_1983_StatePlane_Wyoming_East_FIPS_4901_Feet", \
    FALSE, \
    "SpatiaLite"
+
+"NAD83 / Wyoming Lambert", \
+   "NAD_1983_WyLAM", \
+   FALSE, \
+   "EPSG"
 
 "NAD83 / Wyoming West", \
    "NAD_1983_StatePlane_Wyoming_West_FIPS_4904", \
@@ -41427,11 +41512,6 @@
 "OSGB 1936 / British National Grid", \
    "British_National_Grid", \
    FALSE, \
-   "EPSG"
-
-"OSGB 1936 / British National Grid", \
-   "British_National_Grid", \
-   FALSE, \
    "Oracle"
 
 "OSGB 1936 / British National Grid", \
@@ -41448,6 +41528,11 @@
    "British_National_Grid", \
    FALSE, \
    "Teradata"
+
+"OSGB36 / British National Grid", \
+   "British_National_Grid", \
+   FALSE, \
+   "EPSG"
 
 "Palestine 1923 / Israeli CS Grid", \
    "Palestine_1923_Israel_CS_Grid", \
@@ -51727,11 +51812,6 @@
 "RGF93 / CC42", \
    "RGF_1993_CC42", \
    FALSE, \
-   "EPSG"
-
-"RGF93 / CC42", \
-   "RGF_1993_CC42", \
-   FALSE, \
    "Oracle"
 
 "RGF93 / CC42", \
@@ -51747,11 +51827,6 @@
 "RGF93 / CC43", \
    "RGF_1993_CC43", \
    FALSE, \
-   "EPSG"
-
-"RGF93 / CC43", \
-   "RGF_1993_CC43", \
-   FALSE, \
    "Oracle"
 
 "RGF93 / CC43", \
@@ -51767,11 +51842,6 @@
 "RGF93 / CC44", \
    "RGF_1993_CC44", \
    FALSE, \
-   "EPSG"
-
-"RGF93 / CC44", \
-   "RGF_1993_CC44", \
-   FALSE, \
    "Oracle"
 
 "RGF93 / CC44", \
@@ -51787,11 +51857,6 @@
 "RGF93 / CC45", \
    "RGF_1993_CC45", \
    FALSE, \
-   "EPSG"
-
-"RGF93 / CC45", \
-   "RGF_1993_CC45", \
-   FALSE, \
    "Oracle"
 
 "RGF93 / CC45", \
@@ -51807,11 +51872,6 @@
 "RGF93 / CC46", \
    "RGF_1993_CC46", \
    FALSE, \
-   "EPSG"
-
-"RGF93 / CC46", \
-   "RGF_1993_CC46", \
-   FALSE, \
    "Oracle"
 
 "RGF93 / CC46", \
@@ -51827,11 +51887,6 @@
 "RGF93 / CC47", \
    "RGF_1993_CC47", \
    FALSE, \
-   "EPSG"
-
-"RGF93 / CC47", \
-   "RGF_1993_CC47", \
-   FALSE, \
    "Oracle"
 
 "RGF93 / CC47", \
@@ -51847,11 +51902,6 @@
 "RGF93 / CC48", \
    "RGF_1993_CC48", \
    FALSE, \
-   "EPSG"
-
-"RGF93 / CC48", \
-   "RGF_1993_CC48", \
-   FALSE, \
    "Oracle"
 
 "RGF93 / CC48", \
@@ -51863,11 +51913,6 @@
    "RGF_1993_CC48", \
    FALSE, \
    "SpatiaLite"
-
-"RGF93 / CC49", \
-   "RGF_1993_CC49", \
-   FALSE, \
-   "EPSG"
 
 "RGF93 / CC49", \
    "RGF_1993_CC49", \
@@ -51887,11 +51932,6 @@
 "RGF93 / CC50", \
    "RGF_1993_CC50", \
    FALSE, \
-   "EPSG"
-
-"RGF93 / CC50", \
-   "RGF_1993_CC50", \
-   FALSE, \
    "Oracle"
 
 "RGF93 / CC50", \
@@ -51903,11 +51943,6 @@
    "RGF_1993_CC50", \
    FALSE, \
    "SpatiaLite"
-
-"RGF93 / Lambert-93", \
-   "RGF_1993_Lambert_93", \
-   FALSE, \
-   "EPSG"
 
 "RGF93 / Lambert-93", \
    "RGF_1993_Lambert_93", \
@@ -51928,6 +51963,56 @@
    "RGF_1993_Lambert_93", \
    FALSE, \
    "Teradata"
+
+"RGF93 v1 / CC42", \
+   "RGF_1993_CC42", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 / CC43", \
+   "RGF_1993_CC43", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 / CC44", \
+   "RGF_1993_CC44", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 / CC45", \
+   "RGF_1993_CC45", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 / CC46", \
+   "RGF_1993_CC46", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 / CC47", \
+   "RGF_1993_CC47", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 / CC48", \
+   "RGF_1993_CC48", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 / CC49", \
+   "RGF_1993_CC49", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 / CC50", \
+   "RGF_1993_CC50", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v1 / Lambert-93", \
+   "RGF_1993_Lambert_93", \
+   FALSE, \
+   "EPSG"
 
 "RGFG95 / UTM zone 21N", \
    "RGFG_1995_UTM_Zone_21N", \
@@ -58184,6 +58269,11 @@
    FALSE, \
    "SpatiaLite"
 
+"WGS 84 / IBCSO Polar Stereographic", \
+   "WGS_1984_IBCSO_Polar_Stereographic", \
+   FALSE, \
+   "EPSG"
+
 "WGS 84 / India Northeast", \
    "WGS_1984_India_Northeast", \
    FALSE, \
@@ -58679,6 +58769,11 @@
    FALSE, \
    "Teradata"
 
+"WGS 84 / UPS North (E,N)", \
+   "WGS_1984_UPS_North_(E-N)", \
+   FALSE, \
+   "EPSG"
+
 "WGS 84 / UPS North (N,E)", \
    "UPS_North", \
    FALSE, \
@@ -58703,6 +58798,11 @@
    "UPS_South", \
    FALSE, \
    "Teradata"
+
+"WGS 84 / UPS South (E,N)", \
+   "WGS_1984_UPS_South_(E-N)", \
+   FALSE, \
+   "EPSG"
 
 "WGS 84 / UPS South (N,E)", \
    "UPS_South", \

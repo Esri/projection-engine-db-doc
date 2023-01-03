@@ -14,33 +14,13 @@
    FALSE, \
    "EPSG"
 
-"Belge 1972 / Belgian Lambert 72 + Ostend height", \
+"BD72 / Belgian Lambert 72 + Ostend height", \
    "HVC_Belge_1972_Belgian_Lambert_72_and_Ostend_height", \
    FALSE, \
    "EPSG"
 
 "CR-SIRGAS / CRTM05 + DACR52 height", \
    "CR-SIRGAS_CRTM05_and_DACR52_height", \
-   FALSE, \
-   "EPSG"
-
-"DB_REF / 3-degree Gauss-Kruger zone 2 (E-N) + DHHN92 height", \
-   "HVC_DB_REF_3_Degree_GK_Zone_2_E-N_and_DHHN92", \
-   FALSE, \
-   "EPSG"
-
-"DB_REF / 3-degree Gauss-Kruger zone 3 (E-N) + DHHN92 height", \
-   "HVC_DB_REF_3_Degree_GK_Zone_3_E-N_and_DHHN92", \
-   FALSE, \
-   "EPSG"
-
-"DB_REF / 3-degree Gauss-Kruger zone 4 (E-N) + DHHN92 height", \
-   "HVC_DB_REF_3_Degree_GK_Zone_4_E-N_and_DHHN92", \
-   FALSE, \
-   "EPSG"
-
-"DB_REF / 3-degree Gauss-Kruger zone 5 (E-N) + DHHN92 height", \
-   "HVC_DB_REF_3_Degree_GK_Zone_5_E-N_and_DHHN92", \
    FALSE, \
    "EPSG"
 
@@ -499,6 +479,11 @@
    FALSE, \
    "EPSG"
 
+"LUREF / Luxembourg TM + NG95 height", \
+   "HVC_LUREF_Luxembourg_TM_and_NG95", \
+   FALSE, \
+   "EPSG"
+
 "NAD27 + NGVD29 height (ftUS)", \
    "HVC_NAD27_and_NGVD29_Height", \
    FALSE, \
@@ -579,82 +564,7 @@
    FALSE, \
    "EPSG"
 
-"NAD83 / Arizona Central (ft) + NAVD88 height (ft)", \
-   "NAD_1983_Arizona_Central_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Arizona East (ft) + NAVD88 height (ft)", \
-   "NAD_1983_Arizona_East_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Arizona West (ft) + NAVD88 height (ft)", \
-   "NAD_1983_Arizona_West_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Arkansas North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Arkansas_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Arkansas South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Arkansas_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / California zone 1 (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_California_I_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / California zone 2 (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_California_II_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / California zone 3 (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_California_III_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / California zone 4 (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_California_IV_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / California zone 5 (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_California_V_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / California zone 6 (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_California_VI_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Colorado Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Colorado_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Colorado North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Colorado_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Colorado South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Colorado_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Connecticut (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Connecticut_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(CSRS) + CGVD2013 height", \
+"NAD83(CSRS) + CGVD2013(CGG2013) height", \
    "HVC_NAD_1983_CSRS_and_CGVD2013_height", \
    FALSE, \
    "EPSG"
@@ -739,178 +649,8 @@
    FALSE, \
    "EPSG"
 
-"NAD83 / Delaware (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Delaware_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Florida East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Florida_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Florida North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Florida_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Florida West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Florida_West_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Georgia East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Georgia_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Georgia West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Georgia_West_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
 "NAD83(HARN) + NAVD88 height", \
    "HVC_NAD_1983_HARN_and_NAVD88_height", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Idaho Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Idaho_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Idaho East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Idaho_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Idaho West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Idaho_West_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Illinois East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Illinois_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Illinois West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Illinois_West_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Indiana East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Indiana_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Indiana West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Indiana_West_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Iowa North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Iowa_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Iowa South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Iowa_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Kansas North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Kansas_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Kansas South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Kansas_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Kentucky North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Kentucky_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Kentucky South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Kentucky_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Louisiana North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Lousiana_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Louisiana South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Lousiana_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Maine East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Maine_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Maine West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Maine_West_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Maryland (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Maryland_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Massachusetts Island (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Massachusetts_Island_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Massachusetts Mainland (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Massachusetts_Mainland_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Michigan Central (ft) + NAVD88 height (ft)", \
-   "NAD_1983_Michigan_Central_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Michigan North (ft) + NAVD88 height (ft)", \
-   "NAD_1983_Michigan_North_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Michigan South (ft) + NAVD88 height (ft)", \
-   "NAD_1983_Michigan_South_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Minnesota Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Minnesota_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Minnesota North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Minnesota_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Minnesota South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Minnesota_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Mississippi East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Mississippi_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Mississippi West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Mississippi_West_Ft_US_and_NAVD88_height_Ft_US", \
    FALSE, \
    "EPSG"
 
@@ -929,268 +669,8 @@
    FALSE, \
    "EPSG"
 
-"NAD83 / Montana (ft) + NAVD88 height (ft)", \
-   "NAD_1983_Montana_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Nebraska (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Nebraska_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Nevada Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Nevada_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Nevada East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Nevada_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Nevada West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Nevada_West_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / New Hampshire (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_New_Hampshire_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / New Jersey (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_New_Jersey_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / New Mexico Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_New_Mexico_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / New Mexico East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_New_Mexico_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / New Mexico West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_New_Mexico_West_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / New York Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_New_York_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / New York East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_New_York_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / New York Long Island (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_New_York_Long_Island_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / New York West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_New_York_West_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / North Carolina (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_North_Carolina_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / North Dakota North (ft) + NAVD88 height (ft)", \
-   "NAD_1983_North_Dakota_North_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / North Dakota South (ft) + NAVD88 height (ft)", \
-   "NAD_1983_North_Dakota_South_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
 "NAD83(NSRS2007) + NAVD88 height", \
    "HVC_NAD_1983_NSRS2007_and_NAVD88_height", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Ohio North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Ohio_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Ohio South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Ohio_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Oklahoma North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Oklahoma_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Oklahoma South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Oklahoma_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Oregon North (ft) + NAVD88 height (ft)", \
-   "NAD_1983_Oregon_North_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Oregon South (ft) + NAVD88 height (ft)", \
-   "NAD_1983_Oregon_South_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Pennsylvania North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Pennsylvania_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Pennsylvania South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Pennsylvania_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Rhode Island (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Rhode_Island_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / South Carolina (ft) + NAVD88 height (ft)", \
-   "NAD_1983_South_Carolina_Ft_Intl_and_NAVD88_height_Ft_Intl", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / South Dakota North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_South_Dakota_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / South Dakota South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_South_Dakota_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Tennessee (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Tennessee_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Texas Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Texas_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Texas North Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Texas_North_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Texas North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Texas_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Texas South Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Texas_South_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Texas South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Texas_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Utah Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Utah_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Utah North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Utah_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Utah South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Utah_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Vermont (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Vermont_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Virginia North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Virginia_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Virginia South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Virginia_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Washington North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Washington_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Washington South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Washington_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / West Virginia North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_West_Virginia_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / West Virginia South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_West_Virginia_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Wisconsin Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Wisconsin_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Wisconsin North (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Wisconsin_North_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Wisconsin South (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Wisconsin_South_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Wyoming East Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Wyoming_East_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Wyoming East (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Wyoming_East_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Wyoming West Central (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Wyoming_West_Central_Ft_US_and_NAVD88_height_Ft_US", \
-   FALSE, \
-   "EPSG"
-
-"NAD83 / Wyoming West (ftUS) + NAVD88 height (ftUS)", \
-   "NAD_1983_Wyoming_West_Ft_US_and_NAVD88_height_Ft_US", \
    FALSE, \
    "EPSG"
 
@@ -1224,7 +704,7 @@
    FALSE, \
    "EPSG"
 
-"OSGB 1936 / British National Grid + ODN height", \
+"OSGB36 / British National Grid + ODN height", \
    "HVC_OSGB36_British_National_Grid_and_ODN_Height", \
    FALSE, \
    "EPSG"
@@ -1234,12 +714,12 @@
    FALSE, \
    "EPSG"
 
-"RGF93 / Lambert-93 + NGF-IGN69 height", \
+"RGF93 v1 / Lambert-93 + NGF-IGN69 height", \
    "HVC_RGF_1993_Lambert_93_and_NGF_IGN69_Height", \
    FALSE, \
    "EPSG"
 
-"RGF93 / Lambert-93 + NGF-IGN78 height", \
+"RGF93 v1 / Lambert-93 + NGF-IGN78 height", \
    "HVC_RGF_1993_Lambert_93_and_NGF_IGN78_Height", \
    FALSE, \
    "EPSG"
