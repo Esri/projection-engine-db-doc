@@ -99,6 +99,11 @@
    FALSE, \
    "EPSG"
 
+"ATRF2014_(3D)", \
+   "ATRF2014_3D", \
+   TRUE, \
+   ""
+
 "ATS77", \
    "ATS_1977", \
    FALSE, \
@@ -839,6 +844,11 @@
    FALSE, \
    "EPSG"
 
+"ETRF2000-PL_(3D)", \
+   "ETRF2000-PL_3D", \
+   TRUE, \
+   ""
+
 "ETRF89", \
    "ETRF_1989", \
    FALSE, \
@@ -999,9 +1009,19 @@
    TRUE, \
    ""
 
+"GCS_Korea_2000", \
+   "KGD2002", \
+   TRUE, \
+   ""
+
 "GCS_Luxembourg_1930", \
    "GCS_LUREF", \
    TRUE, \
+   ""
+
+"GCS_Merchich_Degree", \
+   "GCS_Merchich", \
+   FALSE, \
    ""
 
 "GCS_North_American_1983_CSRS98", \
@@ -1021,6 +1041,16 @@
 
 "GCS_Reunion", \
    "GCS_Reunion_1947", \
+   TRUE, \
+   ""
+
+"GCS_SIRGAS-Chile", \
+   "GCS_SIRGAS-Chile_2002", \
+   TRUE, \
+   ""
+
+"GCS_SIRGAS-Chile_3D", \
+   "SIRGAS-Chile_2002_3D", \
    TRUE, \
    ""
 
@@ -1293,6 +1323,11 @@
    "IG05(2012)_Intermediate_CRS_3D", \
    FALSE, \
    "EPSG"
+
+"IGb14_(3D)", \
+   "IGb14_3D", \
+   TRUE, \
+   ""
 
 "IGD05/12", \
    "IGD05(2012)", \
@@ -1799,6 +1834,11 @@
    FALSE, \
    "Teradata"
 
+"KSA-GRF17_(3D)", \
+   "KSA-GRF17_3D", \
+   TRUE, \
+   ""
+
 "Lisboa (DLx)", \
    "Datum_Lisboa_Hayford", \
    FALSE, \
@@ -1809,7 +1849,7 @@
    FALSE, \
    "Oracle"
 
-"LKS92", \
+"LKS-92", \
    "LKS_1992", \
    FALSE, \
    "EPSG"
@@ -1839,7 +1879,7 @@
    FALSE, \
    "Teradata"
 
-"LKS92 (3D)", \
+"LKS-92 (3D)", \
    "LKS_1992_3D", \
    FALSE, \
    "EPSG"
@@ -2358,6 +2398,16 @@
    "Zanderij", \
    FALSE, \
    "Oracle"
+
+"LTF2004(G)_(3D)", \
+   "LTF2004(G)_3D", \
+   TRUE, \
+   ""
+
+"LUREF_(3D)", \
+   "LUREF_3D", \
+   TRUE, \
+   ""
 
 "M'poraloko", \
    "Mporaloko", \
@@ -3234,10 +3284,10 @@
    FALSE, \
    "Teradata"
 
-"POSGAR 2007 (3D)", \
-   "POSGAR_3D", \
-   FALSE, \
-   "EPSG"
+"POSGAR_3D", \
+   "POSGAR_2007_3D", \
+   TRUE, \
+   ""
 
 "POSGAR 94", \
    "POSGAR_1994", \
@@ -3499,6 +3549,11 @@
    FALSE, \
    "Teradata"
 
+"REDGEOMIN_(3D)", \
+   "REDGEOMIN_3D", \
+   TRUE, \
+   ""
+
 "RGF93", \
    "RGF_1993", \
    FALSE, \
@@ -3616,6 +3671,16 @@
 
 "RGNC91-93 (3D)", \
    "RGNC_1991-93_3D", \
+   FALSE, \
+   "EPSG"
+
+"RGNC91-93 (lon-lat)", \
+   "RGNC_1991-93_(lon-lat)", \
+   FALSE, \
+   "EPSG"
+
+"RGNC91-93 (lon-lat) (3D)", \
+   "RGNC_1991-93_(lon-lat)_3D", \
    FALSE, \
    "EPSG"
 
@@ -3879,10 +3944,10 @@
    FALSE, \
    "EPSG"
 
-"SIRGAS-Chile 2002", \
-   "SIRGAS-Chile", \
-   FALSE, \
-   "EPSG"
+"SIRGAS-Chile_2021_(3D)", \
+   "SIRGAS-Chile_2021_3D", \
+   TRUE, \
+   ""
 
 "South Georgia 1968", \
    "ISTS_061_1968", \
@@ -3908,6 +3973,11 @@
    "ISTS_061_1968", \
    FALSE, \
    "Teradata"
+
+"SRGI2013_(3D)", \
+   "SRGI2013_3D", \
+   TRUE, \
+   ""
 
 "St. George Island", \
    "St_George_Island", \
@@ -5149,6 +5219,11 @@
    FALSE, \
    "SpatiaLite"
 
+"WGS_1984_(G2139)_(3D)", \
+   "WGS_1984_(G2139)_3D", \
+   TRUE, \
+   ""
+
 "WGS 66", \
    "WGS_1966", \
    FALSE, \
@@ -5306,6 +5381,16 @@
 
 "WGS 84 (G2139)", \
    "WGS_1984_(G2139)", \
+   FALSE, \
+   "EPSG"
+
+"WGS_84_(G2139)_(3D)", \
+   "WGS_1984_(G2139)_3D", \
+   TRUE, \
+   ""
+
+"WGS 84 (G2139) (3D)", \
+   "WGS_1984_(G2139)_3D", \
    FALSE, \
    "EPSG"
 

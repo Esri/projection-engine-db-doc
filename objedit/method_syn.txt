@@ -1,0 +1,41 @@
+#------------------------------------------------------------------------------------------------------
+# METHOD synonym table
+#
+# syntax: [METHOD,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
+#------------------------------------------------------------------------------------------------------
+
+"Coordinate Frame rotation (geog2D domain)", \
+   "Coordinate_Frame", \
+   FALSE, \
+   ""
+
+"Geocentric translations (geog2D domain)", \
+   "Geocentric_Translation", \
+   FALSE, \
+   ""
+
+"Geographic2D offsets", \
+   "Geographic_2D_Offset", \
+   FALSE, \
+   ""
+
+"Molodensky-Badekas (CF geog2D domain)", \
+   "Molodensky_Badekas", \
+   FALSE, \
+   ""
+
+"NADCON5 (2D)", \
+   "NADCON5", \
+   FALSE, \
+   ""
+
+"NADCON5 (3D)", \
+   "NADCON5", \
+   FALSE, \
+   ""
+
+"Position Vector transformation (geog2D domain)", \
+   "Position_Vector", \
+   FALSE, \
+   ""
+

@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -278,10 +278,10 @@ WKT2        : GEOGCRS["GCS_Airy_1830",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Airy 1830
+Description : Airy 1830 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -311,10 +311,10 @@ WKT2        : GEOGCRS["GCS_Airy_Modified",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Airy modified
+Description : Airy modified (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -344,10 +344,10 @@ WKT2        : GEOGCRS["GCS_Australian",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Australian National
+Description : Australian National (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -377,10 +377,10 @@ WKT2        : GEOGCRS["GCS_Bessel_1841",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Bessel 1841
+Description : Bessel 1841 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -410,10 +410,10 @@ WKT2        : GEOGCRS["GCS_Bessel_Modified",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Bessel modified
+Description : Bessel modified (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -443,10 +443,10 @@ WKT2        : GEOGCRS["GCS_Bessel_Namibia",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Bessel Namibia
+Description : Bessel Namibia (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -476,10 +476,10 @@ WKT2        : GEOGCRS["GCS_Clarke_1858",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Clarke 1858
+Description : Clarke 1858 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -542,10 +542,10 @@ WKT2        : GEOGCRS["GCS_Clarke_1866_Michigan",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Clarke 1866 Michigan
+Description : Clarke 1866 Michigan (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -575,10 +575,10 @@ WKT2        : GEOGCRS["GCS_Clarke_1880_Benoit",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Clarke 1880 (Benoit)
+Description : Clarke 1880 (Benoit) (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -608,10 +608,10 @@ WKT2        : GEOGCRS["GCS_Clarke_1880_IGN",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Clarke 1880 (IGN)
+Description : Clarke 1880 (IGN) (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -641,10 +641,10 @@ WKT2        : GEOGCRS["GCS_Clarke_1880_RGS",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Clarke 1880 (RGS)
+Description : Clarke 1880 (RGS) (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -674,10 +674,10 @@ WKT2        : GEOGCRS["GCS_Clarke_1880_Arc",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Clarke 1880 (Arc)
+Description : Clarke 1880 (Arc) (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -707,10 +707,10 @@ WKT2        : GEOGCRS["GCS_Clarke_1880_SGA",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Clarke 1880 (SGA)
+Description : Clarke 1880 (SGA) (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -844,10 +844,10 @@ WKT2        : GEOGCRS["GCS_Everest_Modified",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Everest modified
+Description : Everest modified (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -943,10 +943,10 @@ WKT2        : GEOGCRS["GCS_Indonesian",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Indonesian National
+Description : Indonesian National (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1042,10 +1042,10 @@ WKT2        : GEOGCRS["GCS_Krasovsky_1940",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Krasovsky 1940
+Description : Krasovsky 1940 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1108,10 +1108,10 @@ WKT2        : GEOGCRS["GCS_Plessis_1817",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Plessis 1817
+Description : Plessis 1817 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1141,10 +1141,10 @@ WKT2        : GEOGCRS["GCS_Struve_1860",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Struve 1860
+Description : Struve 1860 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1174,10 +1174,10 @@ WKT2        : GEOGCRS["GCS_War_Office",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : War Office
+Description : War Office (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1207,10 +1207,10 @@ WKT2        : GEOGCRS["GCS_GEM_10C",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : GEM gravity potential model
+Description : GEM gravity potential model (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1240,10 +1240,10 @@ WKT2        : GEOGCRS["GCS_OSU_86F",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : OSU 1986 geoidal model
+Description : OSU 1986 geoidal model (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1273,10 +1273,10 @@ WKT2        : GEOGCRS["GCS_OSU_91A",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : OSU 1991 geoidal model
+Description : OSU 1991 geoidal model (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1306,10 +1306,10 @@ WKT2        : GEOGCRS["GCS_Clarke_1880",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Clarke 1880
+Description : Clarke 1880 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1428,13 +1428,13 @@ Macro       : PE_GCS_EVEREST_1830
 Name        : GCS_Everest_1830
 WKT         : GEOGCS["GCS_Everest_1830",
                DATUM["D_Everest_1830",
-                SPHEROID["Everest_1830", 6377299.36, 300.8017]],
+                SPHEROID["Everest_1830", 6377299.36559538, 300.8017255]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_Everest_1830",
                DATUM["D_Everest_1830",
-                ELLIPSOID["Everest_1830", 6377299.36, 300.8017,
-                 LENGTHUNIT["Meter", 1.0]]],
+                ELLIPSOID["Everest_1830", 20922931.8, 300.8017255,
+                 LENGTHUNIT["Foot_Indian", 0.3047995102481469]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
@@ -1654,7 +1654,7 @@ FrameEpoch  : 0.0
 DeformationModel: ""
 
 WKID        : 4054
-Latest-WKID : 4054
+Latest-WKID : 10345
 Macro       : PE_GCS_HUGHES_1980
 Name        : GCS_Hughes_1980
 WKT         : GEOGCS["GCS_Hughes_1980",
@@ -1677,7 +1677,7 @@ WKT2        : GEOGCRS["GCS_Hughes_1980",
 Description : Hughes 1980
 Authority   : EPSG
 Version     : 9.8.7(9.3.0.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1749,8 +1749,8 @@ Description : Serbian Reference Network 1998 (3D)
 Authority   : EPSG
 Version     : 7.1(12.7.0)
 Deprecated  : no
-Area-name   : Serbia and Kosovo
-Area-slat   : 41.85
+Area-name   : Serbia
+Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
 Area-rlon   : 23.01
@@ -1782,8 +1782,8 @@ Description : Serbian Reference Network 1998
 Authority   : EPSG
 Version     : 7.1(10.0.0)
 Deprecated  : no
-Area-name   : Serbia and Kosovo
-Area-slat   : 41.85
+Area-name   : Serbia
+Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
 Area-rlon   : 23.01
@@ -2810,7 +2810,7 @@ Description : Hartebeesthoek 1994
 Authority   : EPSG
 Version     : 4.5(8.1.0)
 Deprecated  : no
-Area-name   : South Africa
+Area-name   : Africa - South Africa, Lesotho and Eswatini.
 Area-slat   : -50.32
 Area-nlat   : -22.13
 Area-llon   : 13.33
@@ -3206,11 +3206,11 @@ Description : Chos Malal 1914
 Authority   : EPSG
 Version     : 6.5(8.1.2)
 Deprecated  : no
-Area-name   : Argentina - Neuquen province
-Area-slat   : -40.17
-Area-nlat   : -34.26
-Area-llon   : -71.19
-Area-rlon   : -66.52
+Area-name   : Argentina - Mendoza and Neuquen
+Area-slat   : -43.41
+Area-nlat   : -31.91
+Area-llon   : -72.14
+Area-rlon   : -65.86
 FrameEpoch  : 0.0
 DeformationModel: ""
 
@@ -3843,7 +3843,7 @@ DeformationModel: ""
 
 WKID        : 4181
 Latest-WKID : 4181
-Macro       : PE_GCS_LUXEMBOURG_1930
+Macro       : PE_GCS_LUREF
 Name        : GCS_LUREF
 WKT         : GEOGCS["GCS_LUREF",
                DATUM["D_Luxembourg_Reference_Frame",
@@ -5795,13 +5795,13 @@ Macro       : PE_GCS_KALIANPUR_1880
 Name        : GCS_Kalianpur_1880
 WKT         : GEOGCS["GCS_Kalianpur_1880",
                DATUM["D_Kalianpur_1880",
-                SPHEROID["Everest_1830", 6377299.36, 300.8017]],
+                SPHEROID["Everest_1830", 6377299.36559538, 300.8017255]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_Kalianpur_1880",
                DATUM["D_Kalianpur_1880",
-                ELLIPSOID["Everest_1830", 6377299.36, 300.8017,
-                 LENGTHUNIT["Meter", 1.0]]],
+                ELLIPSOID["Everest_1830", 20922931.8, 300.8017255,
+                 LENGTHUNIT["Foot_Indian", 0.3047995102481469]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
@@ -6404,14 +6404,14 @@ WKT2        : GEOGCRS["GCS_Merchich",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Merchich
+Description : Merchich (104261 was a duplicate)
 Authority   : EPSG
-Version     : 6.5(3.0.1)
+Version     : 6.5(13.2.0)
 Deprecated  : no
-Area-name   : Morocco - onshore
-Area-slat   : 27.66
+Area-name   : Africa - Morocco and Western Sahara - onshore
+Area-slat   : 20.71
 Area-nlat   : 35.97
-Area-llon   : -13.24
+Area-llon   : -17.16
 Area-rlon   : -1.01
 FrameEpoch  : 0.0
 DeformationModel: ""
@@ -6805,10 +6805,10 @@ Authority   : EPSG
 Version     : 6.5(3.0.1)
 Deprecated  : no
 Area-name   : Norway - onshore
-Area-slat   : 57.93
-Area-nlat   : 71.21
-Area-llon   : 4.68
-Area-rlon   : 31.22
+Area-slat   : 57.9
+Area-nlat   : 71.24
+Area-llon   : 4.39
+Area-rlon   : 31.32
 FrameEpoch  : 0.0
 DeformationModel: ""
 
@@ -6939,7 +6939,7 @@ Deprecated  : no
 Area-name   : UK - Britain and UKCS 49~45'N to 61~N, 9~W to 2~E
 Area-slat   : 49.75
 Area-nlat   : 61.01
-Area-llon   : -9.0
+Area-llon   : -9.01
 Area-rlon   : 2.01
 FrameEpoch  : 0.0
 DeformationModel: ""
@@ -10746,12 +10746,12 @@ Macro       : PE_GCS_IGM_1995
 Name        : GCS_IGM_1995
 WKT         : GEOGCS["GCS_IGM_1995",
                DATUM["D_IGM_1995",
-                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_IGM_1995",
                DATUM["D_IGM_1995",
-                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -11472,12 +11472,12 @@ Macro       : PE_GCS_POSGAR_1994
 Name        : GCS_POSGAR_1994
 WKT         : GEOGCS["GCS_POSGAR_1994",
                DATUM["D_POSGAR_1994",
-                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_POSGAR_1994",
                DATUM["D_POSGAR_1994",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -12741,7 +12741,7 @@ WKT2        : GEOGCRS["GCS_Wake_Eniwetok_1960",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Wake-Eniwetok 1960 (Marhsall Islands 1960)
+Description : Wake-Eniwetok 1960 (Marshall Islands 1960)
 Authority   : EPSG
 Version     : 6.9(9.3.0.0)
 Deprecated  : no
@@ -12888,14 +12888,14 @@ DeformationModel: ""
 WKID        : 4737
 Latest-WKID : 4737
 Macro       : PE_GCS_KOREA_2000
-Name        : GCS_Korea_2000
-WKT         : GEOGCS["GCS_Korea_2000",
-               DATUM["D_Korea_2000",
+Name        : KGD2002
+WKT         : GEOGCS["KGD2002",
+               DATUM["D_Korea_Geodetic_Datum_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
-WKT2        : GEOGCRS["GCS_Korea_2000",
-               DATUM["D_Korea_2000",
+WKT2        : GEOGCRS["KGD2002",
+               DATUM["D_Korea_Geodetic_Datum_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
@@ -12906,7 +12906,7 @@ WKT2        : GEOGCRS["GCS_Korea_2000",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Korea Geodetic Datum 2000
+Description : KGD2002
 Authority   : EPSG
 Version     : 6.14(9.2.0)
 Deprecated  : no
@@ -13650,12 +13650,12 @@ Macro       : PE_GCS_WGS_1966
 Name        : GCS_WGS_1966
 WKT         : GEOGCS["GCS_WGS_1966",
                DATUM["D_WGS_1966",
-                SPHEROID["WGS_1966", 6378145.0, 298.25]],
+                SPHEROID["NWL_9D", 6378145.0, 298.25]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_WGS_1966",
                DATUM["D_WGS_1966",
-                ELLIPSOID["WGS_1966", 6378145.0, 298.25,
+                ELLIPSOID["NWL_9D", 6378145.0, 298.25,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -13849,7 +13849,7 @@ Name        : GCS_Bern_1898_Bern
 WKT         : GEOGCS["GCS_Bern_1898_Bern",
                DATUM["D_Bern_1898",
                 SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
-               PRIMEM["Bern", 7.439583333333333],
+               PRIMEM["Bern", 7.439583333333332],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_Bern_1898_Bern",
                DATUM["D_Bern_1898",
@@ -14396,10 +14396,10 @@ Authority   : EPSG
 Version     : 4.5(8.1.0)
 Deprecated  : no
 Area-name   : Norway - onshore
-Area-slat   : 57.93
-Area-nlat   : 71.21
-Area-llon   : 4.68
-Area-rlon   : 31.22
+Area-slat   : 57.9
+Area-nlat   : 71.24
+Area-llon   : 4.39
+Area-rlon   : 31.32
 FrameEpoch  : 0.0
 DeformationModel: ""
 
@@ -14759,13 +14759,13 @@ Macro       : PE_GCS_WGS_1966_3D
 Name        : WGS_1966_3D
 WKT         : GEOGCS["WGS_1966_3D",
                DATUM["D_WGS_1966",
-                SPHEROID["WGS_1966", 6378145.0, 298.25]],
+                SPHEROID["NWL_9D", 6378145.0, 298.25]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["WGS_1966_3D",
                DATUM["D_WGS_1966",
-                ELLIPSOID["WGS_1966", 6378145.0, 298.25,
+                ELLIPSOID["NWL_9D", 6378145.0, 298.25,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -15016,13 +15016,13 @@ Name        : GCS_Madrid_1870_Madrid
 WKT         : GEOGCS["GCS_Madrid_1870_Madrid",
                DATUM["D_Madrid_1870",
                 SPHEROID["Struve_1860", 6378298.3, 294.73]],
-               PRIMEM["Madrid", -3.687938888888889],
+               PRIMEM["Madrid", -3.687375],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_Madrid_1870_Madrid",
                DATUM["D_Madrid_1870",
                 ELLIPSOID["Struve_1860", 6378298.3, 294.73,
                  LENGTHUNIT["Meter", 1.0]]],
-               PRIMEM["Madrid", -3.687938888888889,
+               PRIMEM["Madrid", -3.687375,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
                AXIS["Latitude (lat)", north,
@@ -15268,15 +15268,15 @@ DeformationModel: ""
 WKID        : 4927
 Latest-WKID : 4927
 Macro       : PE_GCS_KOREA_2000_3D
-Name        : Korea_2000_3D
-WKT         : GEOGCS["Korea_2000_3D",
-               DATUM["D_Korea_2000",
+Name        : KGD2002_3D
+WKT         : GEOGCS["KGD2002_3D",
+               DATUM["D_Korea_Geodetic_Datum_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["Korea_2000_3D",
-               DATUM["D_Korea_2000",
+WKT2        : GEOGCRS["KGD2002_3D",
+               DATUM["D_Korea_Geodetic_Datum_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
@@ -15291,7 +15291,7 @@ WKT2        : GEOGCRS["Korea_2000_3D",
                AXIS["Ellipsoidal height (h)", up,
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Korea Geodetic Datum 2000 (3D)
+Description : KGD2002 (3D)
 Authority   : EPSG
 Version     : 6.14(12.7.0)
 Deprecated  : no
@@ -15309,13 +15309,13 @@ Macro       : PE_GCS_POSGAR_1994_3D
 Name        : POSGAR_1994_3D
 WKT         : GEOGCS["POSGAR_1994_3D",
                DATUM["D_POSGAR_1994",
-                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["POSGAR_1994_3D",
                DATUM["D_POSGAR_1994",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -15561,7 +15561,7 @@ Description : Hartebeesthoek 1994 (3D)
 Authority   : EPSG
 Version     : 6.14(12.7.0)
 Deprecated  : no
-Area-name   : South Africa
+Area-name   : Africa - South Africa, Lesotho and Eswatini.
 Area-slat   : -50.32
 Area-nlat   : -22.13
 Area-llon   : 13.33
@@ -16261,13 +16261,13 @@ Macro       : PE_GCS_IGM_1995_3D
 Name        : IGM_1995_3D
 WKT         : GEOGCS["IGM_1995_3D",
                DATUM["D_IGM_1995",
-                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["IGM_1995_3D",
                DATUM["D_IGM_1995",
-                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -16668,6 +16668,39 @@ Area-rlon   : -12.48
 FrameEpoch  : 0.0
 DeformationModel: ""
 
+WKID        : 5132
+Latest-WKID : 5132
+Macro       : PE_GCS_TOKYO_1892
+Name        : Tokyo_1892
+WKT         : GEOGCS["Tokyo_1892",
+               DATUM["Tokyo_1892",
+                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Tokyo_1892",
+               DATUM["Tokyo_1892",
+                ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Tokyo 1892
+Authority   : EPSG
+Version     : 7.5.6(13.2.0)
+Deprecated  : no
+Area-name   : Asia - Japan and Korea
+Area-slat   : 20.37
+Area-nlat   : 45.54
+Area-llon   : 122.83
+Area-rlon   : 154.05
+FrameEpoch  : 0.0
+DeformationModel: ""
+
 WKID        : 5228
 Latest-WKID : 5228
 Macro       : PE_GCS_S_JTSK_05
@@ -17057,12 +17090,12 @@ Macro       : PE_GCS_POSGAR_2007
 Name        : GCS_POSGAR_2007
 WKT         : GEOGCS["GCS_POSGAR_2007",
                DATUM["D_POSGAR_2007",
-                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_POSGAR_2007",
                DATUM["D_POSGAR_2007",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -17086,17 +17119,17 @@ DeformationModel: ""
 
 WKID        : 5342
 Latest-WKID : 5342
-Macro       : PE_GCS_POSGAR_3D
-Name        : POSGAR_3D
-WKT         : GEOGCS["POSGAR_3D",
-               DATUM["D_POSGAR",
-                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+Macro       : PE_GCS_POSGAR_2007_3D
+Name        : POSGAR_2007_3D
+WKT         : GEOGCS["POSGAR_2007_3D",
+               DATUM["D_POSGAR_2007",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["POSGAR_3D",
-               DATUM["D_POSGAR",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+WKT2        : GEOGCRS["POSGAR_2007_3D",
+               DATUM["D_POSGAR_2007",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -17193,17 +17226,55 @@ Area-rlon   : -57.52
 FrameEpoch  : 0.0
 DeformationModel: ""
 
+WKID        : 5359
+Latest-WKID : 5359
+Macro       : PE_GCS_SIRGAS_CHILE_2002_3D
+Name        : SIRGAS-Chile_2002_3D
+WKT         : GEOGCS["SIRGAS-Chile_2002_3D",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["SIRGAS-Chile_2002_3D",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SIRGAS-Chile 2002 (3D)
+Authority   : EPSG
+Version     : 7.6.8(13.2.0)
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+FrameEpoch  : 0.0
+DeformationModel: ""
+
 WKID        : 5360
-Latest-WKID : 9184
-Macro       : PE_GCS_SIRGAS_CHILE
-Name        : GCS_SIRGAS-Chile
-WKT         : GEOGCS["GCS_SIRGAS-Chile",
-               DATUM["D_SIRGAS-Chile",
+Latest-WKID : 5360
+Macro       : PE_GCS_SIRGAS_CHILE_2002
+Name        : GCS_SIRGAS-Chile_2002
+WKT         : GEOGCS["GCS_SIRGAS-Chile_2002",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
-WKT2        : GEOGCRS["GCS_SIRGAS-Chile",
-               DATUM["D_SIRGAS-Chile",
+WKT2        : GEOGCRS["GCS_SIRGAS-Chile_2002",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
@@ -17214,10 +17285,11 @@ WKT2        : GEOGCRS["GCS_SIRGAS-Chile",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : SIRGAS-Chile
+Description : SIRGAS-Chile (Incorrectly changed to 9184. Ensemble 9184 dep by
+              EPSG. S/b sirgas-chile 2002)
 Authority   : EPSG
-Version     : 7.6.8(10.1.0)
-Deprecated  : yes
+Version     : 7.6.8(13.2.0)
+Deprecated  : no
 Area-name   : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
@@ -20399,6 +20471,39 @@ Area-rlon   : 80.29
 FrameEpoch  : 0.0
 DeformationModel: ""
 
+WKID        : 7686
+Latest-WKID : 7686
+Macro       : PE_GCS_KYRG_06
+Name        : GCS_Kyrg-06
+WKT         : GEOGCS["GCS_Kyrg-06",
+               DATUM["D_Kyrgyz_Republic_2006",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["GCS_Kyrg-06",
+               DATUM["D_Kyrgyz_Republic_2006",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Kyrg-06
+Authority   : EPSG
+Version     : 8.8.1(13.2.0)
+Deprecated  : no
+Area-name   : Kyrgyzstan
+Area-slat   : 39.19
+Area-nlat   : 43.22
+Area-llon   : 69.24
+Area-rlon   : 80.29
+FrameEpoch  : 0.0
+DeformationModel: ""
+
 WKID        : 7797
 Latest-WKID : 7797
 Macro       : PE_GCS_BGS2005_3D
@@ -21197,7 +21302,7 @@ Description : ITRF 2008 (104257) (3D)
 Authority   : EPSG
 Version     : 9.0(12.7.0)
 Deprecated  : no
-Area-name   : World (by country)
+Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -21251,7 +21356,7 @@ Macro       : PE_GCS_ETRF_1989_3D
 Name        : ETRF_1989_3D
 WKT         : GEOGCS["ETRF_1989_3D",
                DATUM["D_ETRF_1989",
-                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
@@ -21259,7 +21364,7 @@ WKT2        : GEOGCRS["ETRF_1989_3D",
                DYNAMIC[FRAMEEPOCH[1989.0],
                 MODEL["AM0-2"]],
                DATUM["D_ETRF_1989",
-                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -22697,8 +22802,8 @@ Description : SRB_ETRS89 (3D)
 Authority   : EPSG
 Version     : 9.5(12.7.0)
 Deprecated  : no
-Area-name   : Serbia and Kosovo
-Area-slat   : 41.85
+Area-name   : Serbia
+Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
 Area-rlon   : 23.01
@@ -22730,8 +22835,8 @@ Description : SRB_ETRS89
 Authority   : EPSG
 Version     : 9.5(10.7.0)
 Deprecated  : no
-Area-name   : Serbia and Kosovo
-Area-slat   : 41.85
+Area-name   : Serbia
+Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
 Area-rlon   : 23.01
@@ -24811,7 +24916,7 @@ Description : ITRF 2008 (104257)
 Authority   : EPSG
 Version     : 9.6.3(10.8.0)
 Deprecated  : no
-Area-name   : World (by country)
+Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -25170,7 +25275,7 @@ Description : IGS08 (3D)
 Authority   : EPSG
 Version     : 9.6.3(12.7.0)
 Deprecated  : no
-Area-name   : World (by country)
+Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -25205,7 +25310,7 @@ Description : IGS08
 Authority   : EPSG
 Version     : 9.6.3(10.8.0)
 Deprecated  : no
-Area-name   : World (by country)
+Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -25536,14 +25641,14 @@ Macro       : PE_GCS_ETRF_1989
 Name        : GCS_ETRF_1989
 WKT         : GEOGCS["GCS_ETRF_1989",
                DATUM["D_ETRF_1989",
-                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ETRF_1989",
                DYNAMIC[FRAMEEPOCH[1989.0],
                 MODEL["AM0-2"]],
                DATUM["D_ETRF_1989",
-                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -26277,17 +26382,17 @@ FrameEpoch  : 0.0
 DeformationModel: ""
 
 WKID        : 9183
-Latest-WKID : 9183
-Macro       : PE_GCS_SIRGAS_CHILE_3D
-Name        : SIRGAS-Chile_3D
-WKT         : GEOGCS["SIRGAS-Chile_3D",
-               DATUM["D_SIRGAS-Chile",
+Latest-WKID : 5359
+Macro       : PE_GCS_SIRGAS_CHILE_2002_3D
+Name        : SIRGAS-Chile_2002_3D
+WKT         : GEOGCS["SIRGAS-Chile_2002_3D",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["SIRGAS-Chile_3D",
-               DATUM["D_SIRGAS-Chile",
+WKT2        : GEOGCRS["SIRGAS-Chile_2002_3D",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
@@ -26302,10 +26407,10 @@ WKT2        : GEOGCRS["SIRGAS-Chile_3D",
                AXIS["Ellipsoidal height (h)", up,
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
-Description : SIRGAS-Chile (3D)
+Description : SIRGAS-Chile 2002 (3D)
 Authority   : EPSG
 Version     : 9.8(12.7.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
@@ -26315,16 +26420,16 @@ FrameEpoch  : 0.0
 DeformationModel: ""
 
 WKID        : 9184
-Latest-WKID : 9184
-Macro       : PE_GCS_SIRGAS_CHILE
-Name        : GCS_SIRGAS-Chile
-WKT         : GEOGCS["GCS_SIRGAS-Chile",
-               DATUM["D_SIRGAS-Chile",
+Latest-WKID : 5360
+Macro       : PE_GCS_SIRGAS_CHILE_2002
+Name        : GCS_SIRGAS-Chile_2002
+WKT         : GEOGCS["GCS_SIRGAS-Chile_2002",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
-WKT2        : GEOGCRS["GCS_SIRGAS-Chile",
-               DATUM["D_SIRGAS-Chile",
+WKT2        : GEOGCRS["GCS_SIRGAS-Chile_2002",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
@@ -26335,10 +26440,11 @@ WKT2        : GEOGCRS["GCS_SIRGAS-Chile",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : SIRGAS-Chile
+Description : SIRGAS-Chile (Incorrectly changed to 9184. Ensemble 9184 dep by
+              EPSG. S/b sirgas-chile 2002)
 Authority   : EPSG
-Version     : 9.8(12.7.0)
-Deprecated  : no
+Version     : 9.8(10.1.0)
+Deprecated  : yes
 Area-name   : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
@@ -26591,14 +26697,14 @@ DeformationModel: ""
 WKID        : 9308
 Latest-WKID : 9308
 Macro       : PE_GCS_ATRF2014_3D
-Name        : ATRF2014_(3D)
-WKT         : GEOGCS["ATRF2014_(3D)",
+Name        : ATRF2014_3D
+WKT         : GEOGCS["ATRF2014_3D",
                DATUM["Australian_Terrestrial_Reference_Frame_2014",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["ATRF2014_(3D)",
+WKT2        : GEOGCRS["ATRF2014_3D",
                DATUM["Australian_Terrestrial_Reference_Frame_2014",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -26662,14 +26768,14 @@ DeformationModel: ""
 WKID        : 9332
 Latest-WKID : 9332
 Macro       : PE_GCS_KSA_GRF17_3D
-Name        : KSA-GRF17_(3D)
-WKT         : GEOGCS["KSA-GRF17_(3D)",
+Name        : KSA-GRF17_3D
+WKT         : GEOGCS["KSA-GRF17_3D",
                DATUM["Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["KSA-GRF17_(3D)",
+WKT2        : GEOGCRS["KSA-GRF17_3D",
                DATUM["Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -26799,14 +26905,14 @@ DeformationModel: ""
 WKID        : 9379
 Latest-WKID : 9379
 Macro       : PE_GCS_IGB14_3D
-Name        : IGb14_(3D)
-WKT         : GEOGCS["IGb14_(3D)",
+Name        : IGb14_3D
+WKT         : GEOGCS["IGb14_3D",
                DATUM["IGb14",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["IGb14_(3D)",
+WKT2        : GEOGCRS["IGb14_3D",
                DATUM["IGb14",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -26969,14 +27075,14 @@ DeformationModel: ""
 WKID        : 9469
 Latest-WKID : 9469
 Macro       : PE_GCS_SRGI2013_3D
-Name        : SRGI2013_(3D)
-WKT         : GEOGCS["SRGI2013_(3D)",
+Name        : SRGI2013_3D
+WKT         : GEOGCS["SRGI2013_3D",
                DATUM["Sistem_Referensi_Geospasial_Indonesia_2013",
                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["SRGI2013_(3D)",
+WKT2        : GEOGCRS["SRGI2013_3D",
                DATUM["Sistem_Referensi_Geospasial_Indonesia_2013",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -27037,17 +27143,83 @@ Area-rlon   : 141.46
 FrameEpoch  : 0.0
 DeformationModel: ""
 
+WKID        : 9474
+Latest-WKID : 9474
+Macro       : PE_GCS_PZ_1990_02
+Name        : PZ-90.02
+WKT         : GEOGCS["PZ-90.02",
+               DATUM["Parametry_Zemli_1990.02",
+                SPHEROID["PZ_1990", 6378136.0, 298.257839303]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["PZ-90.02",
+               DATUM["Parametry_Zemli_1990.02",
+                ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Parametry Zemli 1990.02
+Authority   : EPSG
+Version     : 10.004(13.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 9475
+Latest-WKID : 9475
+Macro       : PE_GCS_PZ_1990_11
+Name        : PZ-90.11
+WKT         : GEOGCS["PZ-90.11",
+               DATUM["Parametry_Zemli_1990.11",
+                SPHEROID["PZ_1990", 6378136.0, 298.257839303]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["PZ-90.11",
+               DATUM["Parametry_Zemli_1990.11",
+                ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Parametry Zemli 1990.11
+Authority   : EPSG
+Version     : 10.004(13.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+FrameEpoch  : 0.0
+DeformationModel: ""
+
 WKID        : 9546
 Latest-WKID : 9546
 Macro       : PE_GCS_LTF2004G_3D
-Name        : LTF2004(G)_(3D)
-WKT         : GEOGCS["LTF2004(G)_(3D)",
+Name        : LTF2004(G)_3D
+WKT         : GEOGCS["LTF2004(G)_3D",
                DATUM["Lyon_Turin_Ferroviaire_2004",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["LTF2004(G)_(3D)",
+WKT2        : GEOGCRS["LTF2004(G)_3D",
                DATUM["Lyon_Turin_Ferroviaire_2004",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -27111,14 +27283,14 @@ DeformationModel: ""
 WKID        : 9695
 Latest-WKID : 9695
 Macro       : PE_GCS_REDGEOMIN_3D
-Name        : REDGEOMIN_(3D)
-WKT         : GEOGCS["REDGEOMIN_(3D)",
+Name        : REDGEOMIN_3D
+WKT         : GEOGCS["REDGEOMIN_3D",
                DATUM["Red_Geodesica_Para_Mineria_en_Chile",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["REDGEOMIN_(3D)",
+WKT2        : GEOGCRS["REDGEOMIN_3D",
                DATUM["Red_Geodesica_Para_Mineria_en_Chile",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -27182,32 +27354,32 @@ DeformationModel: ""
 WKID        : 9701
 Latest-WKID : 9701
 Macro       : PE_GCS_ETRF2000_PL_3D
-Name        : ETRF2000-PL_(3D)
-WKT         : GEOGCS["ETRF2000-PL_(3D)",
+Name        : ETRF2000-PL_3D
+WKT         : GEOGCS["ETRF2000-PL_3D",
                DATUM["ETRF2000_Poland",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["ETRF2000-PL_(3D)",
+WKT2        : GEOGCRS["ETRF2000-PL_3D",
                DATUM["ETRF2000_Poland",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 3],
-               AXIS["Longitude (lon)", east,
+               AXIS["Latitude (lat)", north,
                 ORDER[1],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               AXIS["Latitude (lat)", north,
+               AXIS["Longitude (lon)", east,
                 ORDER[2],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                AXIS["Ellipsoidal height (h)", up,
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF2000-PL (3D)
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.016(12.9.0)
 Deprecated  : no
 Area-name   : Poland
 Area-slat   : 49.0
@@ -27233,14 +27405,14 @@ WKT2        : GEOGCRS["ETRF2000-PL",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : ETRF2000-PL
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.016(12.9.0)
 Deprecated  : no
 Area-name   : Poland
 Area-slat   : 49.0
@@ -27266,14 +27438,14 @@ WKT2        : GEOGCRS["EOS21-IRF",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : EOS21-IRF
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.021(12.9.0)
 Deprecated  : no
 Area-name   : UK - Tweedmouth to Aberdeen
 Area-slat   : 55.55
@@ -27285,15 +27457,15 @@ DeformationModel: ""
 
 WKID        : 9754
 Latest-WKID : 9754
-Macro       : PE_GCS_WGS_84_G2139_3D
-Name        : WGS_84_(G2139)_(3D)
-WKT         : GEOGCS["WGS_84_(G2139)_(3D)",
+Macro       : PE_GCS_WGS_1984_G2139_3D
+Name        : WGS_1984_(G2139)_3D
+WKT         : GEOGCS["WGS_1984_(G2139)_3D",
                DATUM["WGS_1984_(G2139)",
                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["WGS_84_(G2139)_(3D)",
+WKT2        : GEOGCRS["WGS_1984_(G2139)_3D",
                DYNAMIC[FRAMEEPOCH[2016.5],
                 MODEL["ITRF2014-PMM"]],
                DATUM["WGS_1984_(G2139)",
@@ -27302,20 +27474,20 @@ WKT2        : GEOGCRS["WGS_84_(G2139)_(3D)",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 3],
-               AXIS["Longitude (lon)", east,
+               AXIS["Latitude (lat)", north,
                 ORDER[1],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               AXIS["Latitude (lat)", north,
+               AXIS["Longitude (lon)", east,
                 ORDER[2],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                AXIS["Ellipsoidal height (h)", up,
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
-Description : WGS 84 (G2139) (3D)
-Authority   : Esri
-Version     : 13.1.0
+Description : WGS 1984 (G2139) (3D)
+Authority   : EPSG
+Version     : 10.036(13.1.0)
 Deprecated  : no
-Area-name   : World (by country)
+Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -27341,14 +27513,14 @@ WKT2        : GEOGCRS["WGS_1984_(G2139)",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : WGS 1984 (G2139)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.036(13.1.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -27374,14 +27546,14 @@ WKT2        : GEOGCRS["ECML14_NB-IRF",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : ECML14_NB-IRF
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.029(12.9.0)
 Deprecated  : no
 Area-name   : UK - Newcastle to Ashington
 Area-slat   : 54.85
@@ -27407,14 +27579,14 @@ WKT2        : GEOGCRS["EWR2-IRF",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : EWR2-IRF
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.029(12.9.0)
 Deprecated  : no
 Area-name   : UK - Oxford to Bedford
 Area-slat   : 51.7
@@ -27441,18 +27613,18 @@ WKT2        : GEOGCRS["RGF93_v2_3D",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 3],
-               AXIS["Longitude (lon)", east,
+               AXIS["Latitude (lat)", north,
                 ORDER[1],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               AXIS["Latitude (lat)", north,
+               AXIS["Longitude (lon)", east,
                 ORDER[2],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                AXIS["Ellipsoidal height (h)", up,
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGF93 v2 (3D)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -27478,14 +27650,14 @@ WKT2        : GEOGCRS["RGF93_v2",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : RGF93 v2
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -27522,8 +27694,8 @@ WKT2        : GEOGCRS["RGF93_v2_(lon-lat)_3D",
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGF93 v2 (lon-lat) (3D)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -27555,8 +27727,8 @@ WKT2        : GEOGCRS["RGF93_v2_(lon-lat)",
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : RGF93 v2 (lon-lat)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -27583,18 +27755,18 @@ WKT2        : GEOGCRS["RGF93_v2b_3D",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 3],
-               AXIS["Longitude (lon)", east,
+               AXIS["Latitude (lat)", north,
                 ORDER[1],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               AXIS["Latitude (lat)", north,
+               AXIS["Longitude (lon)", east,
                 ORDER[2],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                AXIS["Ellipsoidal height (h)", up,
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGF93 v2b (3D)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -27620,14 +27792,14 @@ WKT2        : GEOGCRS["RGF93_v2b",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : RGF93 v2b
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -27664,8 +27836,8 @@ WKT2        : GEOGCRS["RGF93_v2b_(lon-lat)_3D",
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
 Description : RGF93 v2b (lon-lat) (3D)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -27697,8 +27869,8 @@ WKT2        : GEOGCRS["RGF93_v2b_(lon-lat)",
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : RGF93 v2b (lon-lat)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -27724,14 +27896,14 @@ WKT2        : GEOGCRS["MRH21-IRF",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : MRH21-IRF
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.039(13.1.0)
 Deprecated  : no
 Area-name   : UK - Cardiff to Lincoln
 Area-slat   : 51.35
@@ -27757,14 +27929,14 @@ WKT2        : GEOGCRS["MOLDOR11-IRF",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : MOLDOR11-IRF
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.039(13.1.0)
 Deprecated  : no
 Area-name   : UK - Manchester to Dore
 Area-slat   : 53.25
@@ -27777,32 +27949,32 @@ DeformationModel: ""
 WKID        : 9893
 Latest-WKID : 9893
 Macro       : PE_GCS_LUREF_3D
-Name        : LUREF_(3D)
-WKT         : GEOGCS["LUREF_(3D)",
+Name        : LUREF_3D
+WKT         : GEOGCS["LUREF_3D",
                DATUM["D_Luxembourg_Reference_Frame",
                 SPHEROID["International_1924", 6378388.0, 297.0]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["LUREF_(3D)",
+WKT2        : GEOGCRS["LUREF_3D",
                DATUM["D_Luxembourg_Reference_Frame",
                 ELLIPSOID["International_1924", 6378388.0, 297.0,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 3],
-               AXIS["Longitude (lon)", east,
+               AXIS["Latitude (lat)", north,
                 ORDER[1],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               AXIS["Latitude (lat)", north,
+               AXIS["Longitude (lon)", east,
                 ORDER[2],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                AXIS["Ellipsoidal height (h)", up,
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
 Description : LUREF (3D)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.043(13.1.0)
 Deprecated  : no
 Area-name   : Luxembourg
 Area-slat   : 49.44
@@ -27828,14 +28000,14 @@ WKT2        : GEOGCRS["EBBWV14-IRF",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : EBBWV14-IRF
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.053(13.1.0)
 Deprecated  : no
 Area-name   : UK - Newport to Ebbw Vale
 Area-slat   : 51.5
@@ -27861,14 +28033,14 @@ WKT2        : GEOGCRS["HULLEE13-IRF",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : HULLEE13-IRF
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.059(13.1.0)
 Deprecated  : no
 Area-name   : UK - Leeds to Hull
 Area-slat   : 53.6
@@ -27894,14 +28066,14 @@ WKT2        : GEOGCRS["SCM22-IRF",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : SCM22-IRF
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.059(13.1.0)
 Deprecated  : no
 Area-name   : UK - Motherwell to Inverness
 Area-slat   : 55.7
@@ -27927,14 +28099,14 @@ WKT2        : GEOGCRS["FNL22-IRF",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : FNL22-IRF
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.059(13.1.0)
 Deprecated  : no
 Area-name   : UK - Inverness to Thurso
 Area-slat   : 57.4
@@ -27961,18 +28133,18 @@ WKT2        : GEOGCRS["ITRF2020_3D",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 3],
-               AXIS["Longitude (lon)", east,
+               AXIS["Latitude (lat)", north,
                 ORDER[1],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               AXIS["Latitude (lat)", north,
+               AXIS["Longitude (lon)", east,
                 ORDER[2],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                AXIS["Ellipsoidal height (h)", up,
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ITRF2020 (3D)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.062(13.1.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -27998,20 +28170,1418 @@ WKT2        : GEOGCRS["ITRF2020",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : ITRF2020
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.062(13.1.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10158
+Latest-WKID : 10158
+Macro       : PE_GCS_S34J_IRF
+Name        : S34J-IRF
+WKT         : GEOGCS["S34J-IRF",
+               DATUM["System_34_Jylland_Intermediate_Datum",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["S34J-IRF",
+               DATUM["System_34_Jylland_Intermediate_Datum",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : S34J-IRF
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+Area-name   : Denmark - onshore Jutland and Funen
+Area-slat   : 54.67
+Area-nlat   : 57.8
+Area-llon   : 8.0
+Area-rlon   : 11.29
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10175
+Latest-WKID : 10175
+Macro       : PE_GCS_DOPW22_IRF
+Name        : DoPw22-IRF
+WKT         : GEOGCS["DoPw22-IRF",
+               DATUM["DoPw22_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["DoPw22-IRF",
+               DATUM["DoPw22_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : DoPw22-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - Dovey Junction to Pwllheli
+Area-slat   : 52.45
+Area-nlat   : 53.01
+Area-llon   : -4.51
+Area-rlon   : -3.8
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10177
+Latest-WKID : 10177
+Macro       : PE_GCS_IGS20_3D
+Name        : IGS20_3D
+WKT         : GEOGCS["IGS20_3D",
+               DATUM["IGS20",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["IGS20_3D",
+               DATUM["IGS20",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : IGS20 (3D)
+Authority   : EPSG
+Version     : 10.078(13.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10178
+Latest-WKID : 10178
+Macro       : PE_GCS_IGS20
+Name        : IGS20
+WKT         : GEOGCS["IGS20",
+               DATUM["IGS20",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["IGS20",
+               DATUM["IGS20",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : IGS20
+Authority   : EPSG
+Version     : 10.078(13.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10185
+Latest-WKID : 10185
+Macro       : PE_GCS_SHAB07_IRF
+Name        : ShAb07-IRF
+WKT         : GEOGCS["ShAb07-IRF",
+               DATUM["ShAb07_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["ShAb07-IRF",
+               DATUM["ShAb07_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : ShAb07-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - Shrewsbury to Aberystwyth
+Area-slat   : 52.37
+Area-nlat   : 52.77
+Area-llon   : -4.16
+Area-rlon   : -2.6
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10191
+Latest-WKID : 10191
+Macro       : PE_GCS_CNH22_IRF
+Name        : CNH22-IRF
+WKT         : GEOGCS["CNH22-IRF",
+               DATUM["CNH22_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["CNH22-IRF",
+               DATUM["CNH22_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : CNH22-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - Crewe to Holyhead
+Area-slat   : 53.02
+Area-nlat   : 53.46
+Area-llon   : -4.71
+Area-rlon   : -2.28
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10196
+Latest-WKID : 10196
+Macro       : PE_GCS_CWS13_IRF
+Name        : CWS13-IRF
+WKT         : GEOGCS["CWS13-IRF",
+               DATUM["CWS13_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["CWS13-IRF",
+               DATUM["CWS13_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : CWS13-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - Chester to Shrewsbury
+Area-slat   : 52.5
+Area-nlat   : 53.26
+Area-llon   : -3.16
+Area-rlon   : -2.65
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10204
+Latest-WKID : 10204
+Macro       : PE_GCS_DIBA15_IRF
+Name        : DIBA15-IRF
+WKT         : GEOGCS["DIBA15-IRF",
+               DATUM["DIBA15_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["DIBA15-IRF",
+               DATUM["DIBA15_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : DIBA15-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - Didcot to Banbury
+Area-slat   : 51.57
+Area-nlat   : 52.11
+Area-llon   : -1.46
+Area-rlon   : -1.15
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10209
+Latest-WKID : 10209
+Macro       : PE_GCS_GWPBS22_IRF
+Name        : GWPBS22-IRF
+WKT         : GEOGCS["GWPBS22-IRF",
+               DATUM["GWPBS22_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["GWPBS22-IRF",
+               DATUM["GWPBS22_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : GWPBS22-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - London to Swansea
+Area-slat   : 51.25
+Area-nlat   : 52.06
+Area-llon   : -4.26
+Area-rlon   : -0.1
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10214
+Latest-WKID : 10214
+Macro       : PE_GCS_GWWAB22_IRF
+Name        : GWWAB22-IRF
+WKT         : GEOGCS["GWWAB22-IRF",
+               DATUM["GWWAB22_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["GWWAB22-IRF",
+               DATUM["GWWAB22_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : GWWAB22-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - Cardiff and the valleys
+Area-slat   : 51.35
+Area-nlat   : 51.81
+Area-llon   : -3.6
+Area-rlon   : -3.12
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10219
+Latest-WKID : 10219
+Macro       : PE_GCS_GWWWA22_IRF
+Name        : GWWWA22-IRF
+WKT         : GEOGCS["GWWWA22-IRF",
+               DATUM["GWWWA22_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["GWWWA22-IRF",
+               DATUM["GWWWA22_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : GWWWA22-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - Swansea to Fishguard
+Area-slat   : 51.55
+Area-nlat   : 52.06
+Area-llon   : -5.16
+Area-rlon   : -3.6
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10224
+Latest-WKID : 10224
+Macro       : PE_GCS_MALS09_IRF
+Name        : MALS09-IRF
+WKT         : GEOGCS["MALS09-IRF",
+               DATUM["MALS09_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["MALS09-IRF",
+               DATUM["MALS09_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : MALS09-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - London to Leamington Spa
+Area-slat   : 51.45
+Area-nlat   : 52.91
+Area-llon   : -2.26
+Area-rlon   : -0.05
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10229
+Latest-WKID : 10229
+Macro       : PE_GCS_OXWO08_IRF
+Name        : OxWo08-IRF
+WKT         : GEOGCS["OxWo08-IRF",
+               DATUM["OxWo08_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["OxWo08-IRF",
+               DATUM["OxWo08_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : OxWo08-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - Oxford to Worcester
+Area-slat   : 51.65
+Area-nlat   : 52.26
+Area-llon   : -2.31
+Area-rlon   : -1.15
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10237
+Latest-WKID : 10237
+Macro       : PE_GCS_SYC20_IRF
+Name        : SYC20-IRF
+WKT         : GEOGCS["SYC20-IRF",
+               DATUM["SYC20_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["SYC20-IRF",
+               DATUM["SYC20_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : SYC20-IRF
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+Area-name   : UK - Shrewsbury to Crewe
+Area-slat   : 52.65
+Area-nlat   : 53.16
+Area-llon   : -2.91
+Area-rlon   : -2.3
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10249
+Latest-WKID : 10249
+Macro       : PE_GCS_S34S_IRF
+Name        : S34S-IRF
+WKT         : GEOGCS["S34S-IRF",
+               DATUM["System_34_Sjaelland_Intermediate_Datum",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["S34S-IRF",
+               DATUM["System_34_Sjaelland_Intermediate_Datum",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : S34S-IRF
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+Area-name   : Denmark - onshore Zealand and Lolland
+Area-slat   : 54.51
+Area-nlat   : 56.79
+Area-llon   : 10.79
+Area-rlon   : 12.87
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10252
+Latest-WKID : 10252
+Macro       : PE_GCS_S45B_IRF
+Name        : S45B-IRF
+WKT         : GEOGCS["S45B-IRF",
+               DATUM["System_45_Bornholm_Intermediate_Datum",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["S45B-IRF",
+               DATUM["System_45_Bornholm_Intermediate_Datum",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : S45B-IRF
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+Area-name   : Denmark - onshore Bornholm
+Area-slat   : 54.94
+Area-nlat   : 55.38
+Area-llon   : 14.59
+Area-rlon   : 15.25
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10256
+Latest-WKID : 10256
+Macro       : PE_GCS_GS_IRF
+Name        : GS-IRF
+WKT         : GEOGCS["GS-IRF",
+               DATUM["Generalstabens_System_Intermediate_Datum",
+                SPHEROID["Danish_1876", 6377019.27, 300.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["GS-IRF",
+               DATUM["Generalstabens_System_Intermediate_Datum",
+                ELLIPSOID["Danish_1876", 6377019.27, 300.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : GS-IRF
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+Area-name   : Denmark - onshore Jutland, Funen, Zealand and Lolland
+Area-slat   : 54.51
+Area-nlat   : 57.8
+Area-llon   : 8.0
+Area-rlon   : 12.87
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10260
+Latest-WKID : 10260
+Macro       : PE_GCS_GSB_IRF
+Name        : GSB-IRF
+WKT         : GEOGCS["GSB-IRF",
+               DATUM["Generalstabens_System_Bornholm_Intermediate_Datum",
+                SPHEROID["Danish_1876", 6377019.27, 300.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["GSB-IRF",
+               DATUM["Generalstabens_System_Bornholm_Intermediate_Datum",
+                ELLIPSOID["Danish_1876", 6377019.27, 300.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : GSB-IRF
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+Area-name   : Denmark - onshore Bornholm
+Area-slat   : 54.94
+Area-nlat   : 55.38
+Area-llon   : 14.59
+Area-rlon   : 15.25
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10265
+Latest-WKID : 10265
+Macro       : PE_GCS_KK_IRF
+Name        : KK-IRF
+WKT         : GEOGCS["KK-IRF",
+               DATUM["Copenhagen_Commune_Intermediate_Datum",
+                SPHEROID["Danish_1876", 6377019.27, 300.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["KK-IRF",
+               DATUM["Copenhagen_Commune_Intermediate_Datum",
+                ELLIPSOID["Danish_1876", 6377019.27, 300.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : KK-IRF
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+Area-name   : Denmark - Copenhagen
+Area-slat   : 55.51
+Area-nlat   : 55.82
+Area-llon   : 12.23
+Area-rlon   : 12.73
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10268
+Latest-WKID : 10268
+Macro       : PE_GCS_OSTENFELD_IRF
+Name        : Ostenfeld-IRF
+WKT         : GEOGCS["Ostenfeld-IRF",
+               DATUM["Ostenfeld_Intermediate_Datum",
+                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Ostenfeld-IRF",
+               DATUM["Ostenfeld_Intermediate_Datum",
+                ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Ostenfeld-IRF
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+Area-name   : Denmark - northern Schleswig
+Area-slat   : 54.8
+Area-nlat   : 55.47
+Area-llon   : 8.37
+Area-rlon   : 10.16
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10272
+Latest-WKID : 10272
+Macro       : PE_GCS_SMITB20_IRF
+Name        : SMITB20-IRF
+WKT         : GEOGCS["SMITB20-IRF",
+               DATUM["SMITB20_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["SMITB20-IRF",
+               DATUM["SMITB20_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : SMITB20-IRF
+Authority   : EPSG
+Version     : 10.081(13.2.0)
+Deprecated  : no
+Area-name   : UK - Okehampton to Penstone
+Area-slat   : 50.65
+Area-nlat   : 50.85
+Area-llon   : -4.1
+Area-rlon   : -3.6
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10277
+Latest-WKID : 10277
+Macro       : PE_GCS_RBEPP12_IRF
+Name        : RBEPP12-IRF
+WKT         : GEOGCS["RBEPP12-IRF",
+               DATUM["RBEPP12_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RBEPP12-IRF",
+               DATUM["RBEPP12_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RBEPP12-IRF
+Authority   : EPSG
+Version     : 10.081(13.2.0)
+Deprecated  : no
+Area-name   : UK - Reading to Penzance
+Area-slat   : 50.05
+Area-nlat   : 51.7
+Area-llon   : -5.63
+Area-rlon   : -0.85
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10283
+Latest-WKID : 10283
+Macro       : PE_GCS_ETRS89_DREF91_2016_3D
+Name        : ETRS89_DREF91_2016_3D
+WKT         : GEOGCS["ETRS89_DREF91_2016_3D",
+               DATUM["ETRS89_DREF91_Realization_2016",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["ETRS89_DREF91_2016_3D",
+               DATUM["ETRS89_DREF91_Realization_2016",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ETRS89 DREF91 2016 (3D)
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+Area-name   : Germany
+Area-slat   : 47.27
+Area-nlat   : 55.92
+Area-llon   : 3.34
+Area-rlon   : 15.04
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10284
+Latest-WKID : 10284
+Macro       : PE_GCS_ETRS89_DREF91_2016
+Name        : ETRS89_DREF91_2016
+WKT         : GEOGCS["ETRS89_DREF91_2016",
+               DATUM["ETRS89_DREF91_Realization_2016",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["ETRS89_DREF91_2016",
+               DATUM["ETRS89_DREF91_Realization_2016",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : ETRS89 DREF91 2016
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+Area-name   : Germany
+Area-slat   : 47.27
+Area-nlat   : 55.92
+Area-llon   : 3.34
+Area-rlon   : 15.04
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10298
+Latest-WKID : 10298
+Macro       : PE_GCS_RGSH2020_3D
+Name        : RGSH2020_3D
+WKT         : GEOGCS["RGSH2020_3D",
+               DATUM["Sonatrach_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["RGSH2020_3D",
+               DATUM["Sonatrach_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGSH2020 (3D)
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+Area-name   : Algeria
+Area-slat   : 18.97
+Area-nlat   : 38.8
+Area-llon   : -8.67
+Area-rlon   : 11.99
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10299
+Latest-WKID : 10299
+Macro       : PE_GCS_RGSH2020
+Name        : RGSH2020
+WKT         : GEOGCS["RGSH2020",
+               DATUM["Sonatrach_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RGSH2020",
+               DATUM["Sonatrach_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RGSH2020
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+Area-name   : Algeria
+Area-slat   : 18.97
+Area-nlat   : 38.8
+Area-llon   : -8.67
+Area-rlon   : 11.99
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10300
+Latest-WKID : 10300
+Macro       : PE_GCS_RGNC91_93_LON_LAT_3D
+Name        : RGNC_1991-93_(lon-lat)_3D
+WKT         : GEOGCS["RGNC_1991-93_(lon-lat)_3D",
+               DATUM["D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["RGNC_1991-93_(lon-lat)_3D",
+               DATUM["D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGNC91-93 (lon-lat) (3D)
+Authority   : EPSG
+Version     : 10.085(13.2.0)
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10304
+Latest-WKID : 10304
+Macro       : PE_GCS_LKS_2020_3D
+Name        : LKS-2020_3D
+WKT         : GEOGCS["LKS-2020_3D",
+               DATUM["Latvian_coordinate_system_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["LKS-2020_3D",
+               DATUM["Latvian_coordinate_system_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : LKS-2020 (3D)
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+Area-name   : Latvia
+Area-slat   : 55.67
+Area-nlat   : 58.09
+Area-llon   : 19.06
+Area-rlon   : 28.24
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10305
+Latest-WKID : 10305
+Macro       : PE_GCS_LKS_2020
+Name        : LKS-2020
+WKT         : GEOGCS["LKS-2020",
+               DATUM["Latvian_coordinate_system_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["LKS-2020",
+               DATUM["Latvian_coordinate_system_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : LKS-2020
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+Area-name   : Latvia
+Area-slat   : 55.67
+Area-nlat   : 58.09
+Area-llon   : 19.06
+Area-rlon   : 28.24
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10307
+Latest-WKID : 10307
+Macro       : PE_GCS_RGNC91_93_LON_LAT
+Name        : RGNC_1991-93_(lon-lat)
+WKT         : GEOGCS["RGNC_1991-93_(lon-lat)",
+               DATUM["D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RGNC_1991-93_(lon-lat)",
+               DATUM["D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RGNC91-93 (lon-lat)
+Authority   : EPSG
+Version     : 10.085(13.2.0)
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10309
+Latest-WKID : 10309
+Macro       : PE_GCS_RGNC15_3D
+Name        : RGNC15_3D
+WKT         : GEOGCS["RGNC15_3D",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["RGNC15_3D",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGNC15 (3D)
+Authority   : EPSG
+Version     : 10.085(13.2.0)
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10310
+Latest-WKID : 10310
+Macro       : PE_GCS_RGNC15
+Name        : RGNC15
+WKT         : GEOGCS["RGNC15",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RGNC15",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RGNC15
+Authority   : EPSG
+Version     : 10.085(13.2.0)
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10311
+Latest-WKID : 10311
+Macro       : PE_GCS_RGNC15_LON_LAT_3D
+Name        : RGNC15_(lon-lat)_3D
+WKT         : GEOGCS["RGNC15_(lon-lat)_3D",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["RGNC15_(lon-lat)_3D",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGNC15 (lon-lat) (3D)
+Authority   : EPSG
+Version     : 10.085(13.2.0)
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10312
+Latest-WKID : 10312
+Macro       : PE_GCS_RGNC15_LON_LAT
+Name        : RGNC15_(lon-lat)
+WKT         : GEOGCS["RGNC15_(lon-lat)",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RGNC15_(lon-lat)",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RGNC15 (lon-lat)
+Authority   : EPSG
+Version     : 10.085(13.2.0)
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10327
+Latest-WKID : 10327
+Macro       : PE_GCS_BH_ETRS89_3D
+Name        : BH_ETRS89_3D
+WKT         : GEOGCS["BH_ETRS89_3D",
+               DATUM["BH_ETRS89",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["BH_ETRS89_3D",
+               DATUM["BH_ETRS89",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BH_ETRS89 (3D)
+Authority   : EPSG
+Version     : 10.087(13.2.0)
+Deprecated  : no
+Area-name   : Bosnia and Herzegovina
+Area-slat   : 42.56
+Area-nlat   : 45.27
+Area-llon   : 15.74
+Area-rlon   : 19.62
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10328
+Latest-WKID : 10328
+Macro       : PE_GCS_BH_ETRS89
+Name        : BH_ETRS89
+WKT         : GEOGCS["BH_ETRS89",
+               DATUM["BH_ETRS89",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["BH_ETRS89",
+               DATUM["BH_ETRS89",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : BH_ETRS89
+Authority   : EPSG
+Version     : 10.087(13.2.0)
+Deprecated  : no
+Area-name   : Bosnia and Herzegovina
+Area-slat   : 42.56
+Area-nlat   : 45.27
+Area-llon   : 15.74
+Area-rlon   : 19.62
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10345
+Latest-WKID : 10345
+Macro       : PE_GCS_HUGHES_1980
+Name        : GCS_Hughes_1980
+WKT         : GEOGCS["GCS_Hughes_1980",
+               DATUM["D_Hughes_1980",
+                SPHEROID["Hughes_1980", 6378273.0, 298.279411123064]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["GCS_Hughes_1980",
+               DATUM["D_Hughes_1980",
+                ELLIPSOID["Hughes_1980", 6378273.0, 298.279411123064,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Hughes 1980
+Authority   : EPSG
+Version     : 10.089(13.2.0)
+Deprecated  : no
+Area-name   : Not specified
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10346
+Latest-WKID : 10346
+Macro       : PE_GCS_NSIDC_AUTHALIC_SPHERE
+Name        : NSIDC_Authalic_Sphere
+WKT         : GEOGCS["NSIDC_Authalic_Sphere",
+               DATUM["NSIDC_International_1924_Authalic_Sphere",
+                SPHEROID["Sphere_International_1924_Authalic", 6371228.0, 0.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["NSIDC_Authalic_Sphere",
+               DATUM["NSIDC_International_1924_Authalic_Sphere",
+                ELLIPSOID["Sphere_International_1924_Authalic", 6371228.0, 0.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : NSIDC Authalic Sphere
+Authority   : EPSG
+Version     : 10.089(13.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10413
+Latest-WKID : 10413
+Macro       : PE_GCS_NAD_1983_CSRS_V8_3D
+Name        : NAD83(CSRS)v8_3D
+WKT         : GEOGCS["NAD83(CSRS)v8_3D",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["NAD83(CSRS)v8_3D",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : NAD83(CSRS)v8 3D
+Authority   : EPSG
+Version     : 10.092(13.2.0)
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 38.21
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -40.73
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10414
+Latest-WKID : 10414
+Macro       : PE_GCS_NAD_1983_CSRS_V8
+Name        : NAD83(CSRS)v8
+WKT         : GEOGCS["NAD83(CSRS)v8",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["NAD83(CSRS)v8",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : NAD 1983 (CSRS) v8
+Authority   : EPSG
+Version     : 10.092(13.2.0)
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 38.21
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -40.73
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 10468
+Latest-WKID : 10468
+Macro       : PE_GCS_COV23_IRF
+Name        : COV23-IRF
+WKT         : GEOGCS["COV23-IRF",
+               DATUM["COV23_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["COV23-IRF",
+               DATUM["COV23_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : COV23-IRF
+Authority   : EPSG
+Version     : 10.094(13.2.0)
+Deprecated  : no
+Area-name   : UK - Coventry
+Area-slat   : 52.3
+Area-nlat   : 52.5
+Area-llon   : -1.85
+Area-rlon   : -1.3
 FrameEpoch  : 0.0
 DeformationModel: ""
 
@@ -28031,14 +29601,14 @@ WKT2        : GEOGCRS["MWC18-IRF",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : MWC18-IRF
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.066(13.1.0)
 Deprecated  : no
 Area-name   : UK - Manchester, Wigan and Chester
 Area-slat   : 53.09
@@ -28051,32 +29621,32 @@ DeformationModel: ""
 WKID        : 20040
 Latest-WKID : 20040
 Macro       : PE_GCS_SIRGAS_CHILE_2021_3D
-Name        : SIRGAS-Chile_2021_(3D)
-WKT         : GEOGCS["SIRGAS-Chile_2021_(3D)",
+Name        : SIRGAS-Chile_2021_3D
+WKT         : GEOGCS["SIRGAS-Chile_2021_3D",
                DATUM["SIRGAS-Chile_realization_5_epoch_2021",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["SIRGAS-Chile_2021_(3D)",
+WKT2        : GEOGCRS["SIRGAS-Chile_2021_3D",
                DATUM["SIRGAS-Chile_realization_5_epoch_2021",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 3],
-               AXIS["Longitude (lon)", east,
+               AXIS["Latitude (lat)", north,
                 ORDER[1],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               AXIS["Latitude (lat)", north,
+               AXIS["Longitude (lon)", east,
                 ORDER[2],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                AXIS["Ellipsoidal height (h)", up,
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS-Chile 2021 (3D)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.073(13.1.0)
 Deprecated  : no
 Area-name   : Chile
 Area-slat   : -59.87
@@ -28102,14 +29672,14 @@ WKT2        : GEOGCRS["SIRGAS-Chile_2021",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : SIRGAS-Chile 2021
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.073(13.1.0)
 Deprecated  : no
 Area-name   : Chile
 Area-slat   : -59.87
@@ -28119,18 +29689,89 @@ Area-rlon   : -65.72
 FrameEpoch  : 0.0
 DeformationModel: ""
 
+WKID        : 20045
+Latest-WKID : 20045
+Macro       : PE_GCS_MAGNA_SIRGAS_2018_3D
+Name        : MAGNA-SIRGAS_2018_3D
+WKT         : GEOGCS["MAGNA-SIRGAS_2018_3D",
+               DATUM["Marco_Geocentrico_Nacional_de_Referencia_2018",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["MAGNA-SIRGAS_2018_3D",
+               DATUM["Marco_Geocentrico_Nacional_de_Referencia_2018",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : MAGNA-SIRGAS 2018 (3D)
+Authority   : EPSG
+Version     : 10.082(13.2.0)
+Deprecated  : no
+Area-name   : Colombia
+Area-slat   : -4.23
+Area-nlat   : 15.51
+Area-llon   : -84.77
+Area-rlon   : -66.87
+FrameEpoch  : 0.0
+DeformationModel: ""
+
+WKID        : 20046
+Latest-WKID : 20046
+Macro       : PE_GCS_MAGNA_SIRGAS_2018
+Name        : MAGNA-SIRGAS_2018
+WKT         : GEOGCS["MAGNA-SIRGAS_2018",
+               DATUM["Marco_Geocentrico_Nacional_de_Referencia_2018",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["MAGNA-SIRGAS_2018",
+               DATUM["Marco_Geocentrico_Nacional_de_Referencia_2018",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : MAGNA-SIRGAS 2018
+Authority   : EPSG
+Version     : 10.082(13.2.0)
+Deprecated  : no
+Area-name   : Colombia
+Area-slat   : -4.23
+Area-nlat   : 15.51
+Area-llon   : -84.77
+Area-rlon   : -66.87
+FrameEpoch  : 0.0
+DeformationModel: ""
+
 WKID        : 37001
 Latest-WKID : 4760
 Macro       : PE_GCS_WGS_1966
 Name        : GCS_WGS_1966
 WKT         : GEOGCS["GCS_WGS_1966",
                DATUM["D_WGS_1966",
-                SPHEROID["WGS_1966", 6378145.0, 298.25]],
+                SPHEROID["NWL_9D", 6378145.0, 298.25]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_WGS_1966",
                DATUM["D_WGS_1966",
-                ELLIPSOID["WGS_1966", 6378145.0, 298.25,
+                ELLIPSOID["NWL_9D", 6378145.0, 298.25,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -29262,7 +30903,7 @@ WKT2        : GEOGCRS["GCS_Wake_Eniwetok_1960",
                AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Wake-Eniwetok 1960 (Marhsall Islands 1960)
+Description : Wake-Eniwetok 1960 (Marshall Islands 1960)
 Authority   : Esri
 Version     : 4.0.0
 Deprecated  : yes
@@ -30166,7 +31807,7 @@ FrameEpoch  : 0.0
 DeformationModel: ""
 
 WKID        : 104009
-Latest-WKID : 104009
+Latest-WKID : 7686
 Macro       : PE_GCS_KYRG_06
 Name        : GCS_Kyrg-06
 WKT         : GEOGCS["GCS_Kyrg-06",
@@ -30181,15 +31822,15 @@ WKT2        : GEOGCRS["GCS_Kyrg-06",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : Kyrg-06
 Authority   : Esri
 Version     : 10.3.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Kyrgyzstan
 Area-slat   : 39.19
 Area-nlat   : 43.22
@@ -30225,7 +31866,7 @@ Description : IGS08
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : yes
-Area-name   : World (by country)
+Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -30442,7 +32083,7 @@ FrameEpoch  : 0.0
 DeformationModel: ""
 
 WKID        : 104017
-Latest-WKID : 104017
+Latest-WKID : 9474
 Macro       : PE_GCS_PZ_1990_02
 Name        : PZ-90.02
 WKT         : GEOGCS["PZ-90.02",
@@ -30457,15 +32098,15 @@ WKT2        : GEOGCRS["PZ-90.02",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : Parametry Zemli 1990.02
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30475,7 +32116,7 @@ FrameEpoch  : 0.0
 DeformationModel: ""
 
 WKID        : 104018
-Latest-WKID : 104018
+Latest-WKID : 9475
 Macro       : PE_GCS_PZ_1990_11
 Name        : PZ-90.11
 WKT         : GEOGCS["PZ-90.11",
@@ -30490,15 +32131,15 @@ WKT2        : GEOGCRS["PZ-90.11",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : Parametry Zemli 1990.11
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : no
+Deprecated  : yes
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -31874,11 +33515,11 @@ Description : EMEP
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : Europe - LCC & LAEA
-Area-slat   : 24.6
-Area-nlat   : 84.73
-Area-llon   : -35.58
-Area-rlon   : 44.83
+Area-name   : Europe
+Area-slat   : 34.0
+Area-nlat   : 85.0
+Area-llon   : -30.0
+Area-rlon   : 50.0
 FrameEpoch  : 0.0
 DeformationModel: ""
 
@@ -32888,7 +34529,7 @@ Description : ITRF 2008 (104257)
 Authority   : Esri
 Version     : 10.1.0
 Deprecated  : yes
-Area-name   : World (by country)
+Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -32902,14 +34543,14 @@ Macro       : PE_GCS_ETRF_1989
 Name        : GCS_ETRF_1989
 WKT         : GEOGCS["GCS_ETRF_1989",
                DATUM["D_ETRF_1989",
-                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ETRF_1989",
                DYNAMIC[FRAMEEPOCH[1989.0],
                 MODEL["AM0-2"]],
                DATUM["D_ETRF_1989",
-                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -33002,34 +34643,34 @@ FrameEpoch  : 1993.6205
 DeformationModel: "HTDP"
 
 WKID        : 104261
-Latest-WKID : 104261
-Macro       : PE_GCS_MERCHICH_DEGREE
-Name        : GCS_Merchich_Degree
-WKT         : GEOGCS["GCS_Merchich_Degree",
+Latest-WKID : 4261
+Macro       : PE_GCS_MERCHICH
+Name        : GCS_Merchich
+WKT         : GEOGCS["GCS_Merchich",
                DATUM["D_Merchich",
                 SPHEROID["Clarke_1880_IGN", 6378249.2, 293.4660212936265]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
-WKT2        : GEOGCRS["GCS_Merchich_Degree",
+WKT2        : GEOGCRS["GCS_Merchich",
                DATUM["D_Merchich",
                 ELLIPSOID["Clarke_1880_IGN", 6378249.2, 293.4660212936265,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
-Description : Merchich (degrees)
+Description : Merchich (104261 was a duplicate)
 Authority   : Esri
-Version     : 8.0.1
-Deprecated  : no
-Area-name   : Morocco - onshore
-Area-slat   : 27.66
+Version     : 3.0.1
+Deprecated  : yes
+Area-name   : Africa - Morocco and Western Sahara - onshore
+Area-slat   : 20.71
 Area-nlat   : 35.97
-Area-llon   : -13.24
+Area-llon   : -17.16
 Area-rlon   : -1.01
 FrameEpoch  : 0.0
 DeformationModel: ""
@@ -38897,7 +40538,7 @@ Description : Mars - Phobos IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -38930,7 +40571,7 @@ Description : Jupiter - Callisto IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -38963,7 +40604,7 @@ Description : Jupiter - Europa IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -38996,7 +40637,7 @@ Description : Jupiter - Ganymede IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39029,7 +40670,7 @@ Description : Jupiter - Io IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39062,7 +40703,7 @@ Description : Jupiter - Metis IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39095,7 +40736,7 @@ Description : Saturn - Aegaeon IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39128,7 +40769,7 @@ Description : Saturn - Anthe IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39196,7 +40837,7 @@ Description : Saturn - Pandora IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39229,7 +40870,7 @@ Description : Saturn - Phoebe IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39262,7 +40903,7 @@ Description : Saturn - Polydeuces IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39295,7 +40936,7 @@ Description : Mercury
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39328,7 +40969,7 @@ Description : Venus 1985
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39361,7 +41002,7 @@ Description : Venus 2000
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39394,7 +41035,7 @@ Description : The Moon
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39427,7 +41068,7 @@ Description : Mars 1979
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39460,7 +41101,7 @@ Description : Mars 2000
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39493,7 +41134,7 @@ Description : Mars - Deimos
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39526,7 +41167,7 @@ Description : Mars - Phobos
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39559,7 +41200,7 @@ Description : Jupiter
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39592,7 +41233,7 @@ Description : Jupiter - Adrastea
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39625,7 +41266,7 @@ Description : Jupiter - Amalthea
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39658,7 +41299,7 @@ Description : Jupiter - Ananke
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39691,7 +41332,7 @@ Description : Jupiter - Callisto
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39724,7 +41365,7 @@ Description : Jupiter - Carme
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39757,7 +41398,7 @@ Description : Jupiter - Elara
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39790,7 +41431,7 @@ Description : Jupiter - Europa
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39823,7 +41464,7 @@ Description : Jupiter - Ganymede
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39856,7 +41497,7 @@ Description : Jupiter - Himalia
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39889,7 +41530,7 @@ Description : Jupiter - Io
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39922,7 +41563,7 @@ Description : Jupiter - Leda
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39955,7 +41596,7 @@ Description : Jupiter - Lysithea
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -39988,7 +41629,7 @@ Description : Jupiter - Metis
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40021,7 +41662,7 @@ Description : Jupiter - Pasiphae
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40054,7 +41695,7 @@ Description : Jupiter - Sinope
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40087,7 +41728,7 @@ Description : Jupiter - Thebe
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40120,7 +41761,7 @@ Description : Saturn
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40153,7 +41794,7 @@ Description : Saturn - Atlas
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40186,7 +41827,7 @@ Description : Saturn - Calypso
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40219,7 +41860,7 @@ Description : Saturn - Dione
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40252,7 +41893,7 @@ Description : Saturn - Enceladus
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40285,7 +41926,7 @@ Description : Saturn - Epimetheus
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40318,7 +41959,7 @@ Description : Saturn - Helene
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40351,7 +41992,7 @@ Description : Saturn - Hyperion
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40384,7 +42025,7 @@ Description : Saturn - Iapetus
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40417,7 +42058,7 @@ Description : Saturn - Janus
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40450,7 +42091,7 @@ Description : Saturn - Mimas
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40483,7 +42124,7 @@ Description : Saturn - Pan
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40516,7 +42157,7 @@ Description : Saturn - Pandora
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40549,7 +42190,7 @@ Description : Saturn - Phoebe
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40582,7 +42223,7 @@ Description : Saturn - Prometheus
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40615,7 +42256,7 @@ Description : Saturn - Rhea
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40648,7 +42289,7 @@ Description : Saturn - Telesto
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40681,7 +42322,7 @@ Description : Saturn - Tethys
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40714,7 +42355,7 @@ Description : Saturn - Titan
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40747,7 +42388,7 @@ Description : Uranus
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40780,7 +42421,7 @@ Description : Uranus - Ariel
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40813,7 +42454,7 @@ Description : Uranus - Belinda
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40846,7 +42487,7 @@ Description : Uranus - Bianca
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40879,7 +42520,7 @@ Description : Uranus - Cordelia
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40912,7 +42553,7 @@ Description : Uranus - Cressida
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40945,7 +42586,7 @@ Description : Uranus - Desdemona
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -40978,7 +42619,7 @@ Description : Uranus - Juliet
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41011,7 +42652,7 @@ Description : Uranus - Miranda
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41044,7 +42685,7 @@ Description : Uranus - Oberon
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41077,7 +42718,7 @@ Description : Uranus - Ophelia
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41110,7 +42751,7 @@ Description : Uranus - Portia
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41143,7 +42784,7 @@ Description : Uranus - Puck
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41176,7 +42817,7 @@ Description : Uranus - Rosalind
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41209,7 +42850,7 @@ Description : Uranus - Titania
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41242,7 +42883,7 @@ Description : Uranus - Umbriel
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41275,7 +42916,7 @@ Description : Neptune
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41308,7 +42949,7 @@ Description : Neptune - Despina
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41341,7 +42982,7 @@ Description : Neptune - Galatea
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41374,7 +43015,7 @@ Description : Neptune - Larissa
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41407,7 +43048,7 @@ Description : Neptune - Naiad
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41440,7 +43081,7 @@ Description : Neptune - Nereid
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41473,7 +43114,7 @@ Description : Neptune - Proteus
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41506,7 +43147,7 @@ Description : Neptune - Thalassa
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41539,7 +43180,7 @@ Description : Neptune - Triton
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41572,7 +43213,7 @@ Description : Pluto
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41605,7 +43246,7 @@ Description : Pluto - Charon
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41638,7 +43279,7 @@ Description : Mars 2000 (Sphere)
 Authority   : Esri
 Version     : 10.5.1
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41671,7 +43312,7 @@ Description : 1 Ceres 2015
 Authority   : Esri
 Version     : 10.5.1
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41704,7 +43345,7 @@ Description : 4 Vesta 2015
 Authority   : Esri
 Version     : 10.5.1
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41737,7 +43378,7 @@ Description : Mercury 2015
 Authority   : Esri
 Version     : 10.5.1
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41770,7 +43411,7 @@ Description : Sun IAU 2015
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41803,7 +43444,7 @@ Description : Saturn - Atlas IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41836,7 +43477,7 @@ Description : Saturn - Calypso IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41869,7 +43510,7 @@ Description : Saturn - Daphnis IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41902,7 +43543,7 @@ Description : Saturn - Dione IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41935,7 +43576,7 @@ Description : Saturn - Enceladus IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -41968,7 +43609,7 @@ Description : Saturn - Epimetheus IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42001,7 +43642,7 @@ Description : Saturn - Helene IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42034,7 +43675,7 @@ Description : Saturn - Hyperion IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42067,7 +43708,7 @@ Description : Saturn - Iapetus IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42100,7 +43741,7 @@ Description : Saturn - Janus IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42133,7 +43774,7 @@ Description : Saturn - Methone IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42166,7 +43807,7 @@ Description : Saturn - Mimas IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42199,7 +43840,7 @@ Description : Saturn - Pallene IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42232,7 +43873,7 @@ Description : Saturn - Pan IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42364,7 +44005,7 @@ Description : Saturn - Prometheus IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42397,7 +44038,7 @@ Description : Saturn - Rhea IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42430,7 +44071,7 @@ Description : Saturn - Telesto IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42463,7 +44104,7 @@ Description : Saturn - Tethys IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42496,7 +44137,7 @@ Description : Neptune - Larissa IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42529,7 +44170,7 @@ Description : Pluto IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -42562,7 +44203,7 @@ Description : Pluto - Charon IAU 2015
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name   : Body
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0

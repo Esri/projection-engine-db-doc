@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -85,13 +85,13 @@ Deprecated  : no
 WKID        : 9106
 Latest-WKID : 9106
 Macro       : PE_U_GON
-Name        : Gon
-WKT         : UNIT["Gon", 0.01570796326794897]
-WKT2        : ANGLEUNIT["Gon", 0.01570796326794897]
-Description : Gon (angle subtended by 1/400 circle)
+Name        : Grad
+WKT         : UNIT["Grad", 0.01570796326794897]
+WKT2        : ANGLEUNIT["Grad", 0.01570796326794897]
+Description : Gon (angle subtended by 1/400 circle) (deprecated, use 9105)
 Authority   : EPSG
 Version     : 3.0(3.0.1)
-Deprecated  : no
+Deprecated  : yes
 
 WKID        : 9109
 Latest-WKID : 9109

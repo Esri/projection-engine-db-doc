@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -68,8 +68,8 @@ WKID        : 8905
 Latest-WKID : 8905
 Macro       : PE_PM_MADRID
 Name        : Madrid
-WKT         : PRIMEM["Madrid", -3.687938888888889]
-WKT2        : PRIMEM["Madrid", -3.687938888888889,
+WKT         : PRIMEM["Madrid", -3.687375]
+WKT2        : PRIMEM["Madrid", -3.687375,
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 3~ 41' 16''.58 W
 Authority   : EPSG
@@ -92,7 +92,7 @@ WKID        : 8907
 Latest-WKID : 8907
 Macro       : PE_PM_BERN
 Name        : Bern
-WKT         : PRIMEM["Bern", 7.439583333333333]
+WKT         : PRIMEM["Bern", 7.439583333333332]
 WKT2        : PRIMEM["Bern", 7.439583333333333,
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : 7~ 26' 22''.5 E

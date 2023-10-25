@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -488,9 +488,9 @@ WKID        : 7042
 Latest-WKID : 7042
 Macro       : PE_S_EVEREST_1830
 Name        : Everest_1830
-WKT         : SPHEROID["Everest_1830", 6377299.36, 300.8017]
-WKT2        : ELLIPSOID["Everest_1830", 6377299.36, 300.8017,
-               LENGTHUNIT["Meter", 1.0]]
+WKT         : SPHEROID["Everest_1830", 6377299.36559538, 300.8017255]
+WKT2        : ELLIPSOID["Everest_1830", 20922931.8, 300.8017255,
+               LENGTHUNIT["Foot_Indian", 0.3047995102481469]]
 Description : Everest 1830 (definition)
 Authority   : EPSG
 Version     : 4.4(3.0.1)

@@ -849,6 +849,11 @@
    FALSE, \
    "EPSG"
 
+"Batavia to WGS 84 (1)", \
+   "Batavia_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "Batavia to WGS 84 (2)", \
    "Batavia_To_WGS_1984_2", \
    FALSE, \
@@ -976,6 +981,11 @@
 
 "BGS2005 to WGS 84 (1)", \
    "BGS2005_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"BH_ETRS89 to WGS 84 (1)", \
+   "BH_ETRS89_to_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -1266,6 +1276,11 @@
 
 "Carthage (Paris) to Carthage (1)", \
    "Carthage_Paris_To_Carthage", \
+   FALSE, \
+   "EPSG"
+
+"Carthage (Paris) to WGS 84 (1)", \
+   "Carthage_(Paris)_to_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -2045,7 +2060,7 @@
    "EPSG"
 
 "ETRS89 to HULLEE13-IRF (1)", \
-   "ETRS_1989_to_HULLEE13-IRF_(1)", \
+   "ETRS_1989_to_HULLEE13-IRF_1", \
    FALSE, \
    "EPSG"
 
@@ -2254,6 +2269,11 @@
    FALSE, \
    "EPSG"
 
+"Greek (Athens) to WGS 84 (1)", \
+   "Greek_(Athens)_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "Greek to GGRS87 (1)", \
    "Greek_To_GGRS_1987", \
    FALSE, \
@@ -2401,6 +2421,11 @@
 
 "Hong Kong 1980 to WGS 84 (1)", \
    "Hong_Kong_1980_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"Hong Kong Geodetic CS to WGS 84 (1)", \
+   "Hong_Kong_Geodetic_CS_to_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -2834,6 +2859,11 @@
    FALSE, \
    "EPSG"
 
+"KGD2002 to WGS 84 (1)", \
+   "KGD2002_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "KKJ_To_ETRS_1989_1", \
    "KKJ_To_ETRS_1989_1_Old", \
    TRUE, \
@@ -2869,10 +2899,15 @@
    FALSE, \
    "EPSG"
 
-"Korea 2000 to WGS 84 (1)", \
-   "Korea_2000_To_WGS_1984_1", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_To_WGS_1984_1", \
+   "KGD2002_To_WGS_1984_1", \
+   TRUE, \
+   ""
+
+"Korean_1985_To_Korea_2000_1", \
+   "Korean_1985_To_KGD2002_1", \
+   TRUE, \
+   ""
 
 "Korean 1985 to WGS 84 (1)", \
    "Korean_1985_To_WGS_1984_1", \
@@ -2914,6 +2949,11 @@
    FALSE, \
    "EPSG"
 
+"Kyrg-06 to WGS 84 (1)", \
+   "Kyrg-06_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "La Canoa to WGS 84 (13)", \
    "La_Canoa_To_WGS_1984_2", \
    FALSE, \
@@ -2951,6 +2991,16 @@
 
 "Lisbon 1890 (Lisbon) to Lisbon 1890 (1)", \
    "Lisbon_1890_Lisbon_To_Lisbon", \
+   FALSE, \
+   "EPSG"
+
+"Lisbon 1890 (Lisbon) to WGS 84 (1)", \
+   "Lisbon_1890_(Lisbon)_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"Lisbon 1890 (Lisbon) to WGS 84 (2)", \
+   "Lisbon_1890_(Lisbon)_to_WGS_1984_2", \
    FALSE, \
    "EPSG"
 
@@ -3019,12 +3069,12 @@
    FALSE, \
    "EPSG"
 
-"LKS92 to ETRS89 (1)", \
+"LKS-92 to ETRS89 (1)", \
    "LKS_1992_To_ETRS_1989_1", \
    FALSE, \
    "EPSG"
 
-"LKS92 to WGS 84 (1)", \
+"LKS-92 to WGS 84 (1)", \
    "LKS_1992_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
@@ -3043,6 +3093,11 @@
    "Locodjo_1965_To_WGS_1984", \
    FALSE, \
    "EPSG"
+
+"LUREF_1930_To_WGS_1984_3", \
+   "LUREF_To_WGS_1984_3", \
+   TRUE, \
+   ""
 
 "LUREF to ETRS89 (1)", \
    "LUREF_To_ETRS_1989_1", \
@@ -3095,7 +3150,7 @@
    "EPSG"
 
 "LUREF to WGS 84 (3)", \
-   "LUREF_1930_To_WGS_1984_3", \
+   "LUREF_To_WGS_1984_3", \
    FALSE, \
    "EPSG"
 
@@ -3135,7 +3190,7 @@
    ""
 
 "Luxembourg_1930_To_WGS_1984_3", \
-   "LUREF_1930_To_WGS_1984_3", \
+   "LUREF_To_WGS_1984_3", \
    TRUE, \
    ""
 
@@ -3164,8 +3219,23 @@
    FALSE, \
    "EPSG"
 
+"Macao 1920 to WGS 84 (1)", \
+   "Macao_1920_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"Macao 2008 to WGS 84 (1)", \
+   "Macao_2008_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "MACARIO SOLIS to WGS 84 (1)", \
    "MARCARIO_SOLIS_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"MAGNA-SIRGAS 2018 to WGS 84 (1)", \
+   "MAGNA-SIRGAS_2018_to_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -3181,6 +3251,11 @@
 
 "Makassar (Jakarta) to Makassar (1)", \
    "Makassar_Jakarta_To_Makassar", \
+   FALSE, \
+   "EPSG"
+
+"Makassar (Jakarta) to WGS 84 (1)", \
+   "Makassar_(Jakarta)_to_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -3263,6 +3338,11 @@
    "Mauritania_1999_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
+
+"Merchich_Degree_To_WGS_1984", \
+   "PE_GT_MERCHICH_TO_WGS_1984", \
+   FALSE, \
+   ""
 
 "Merchich to WGS 84 (1)", \
    "Merchich_To_WGS_1984", \
@@ -4799,6 +4879,11 @@
    FALSE, \
    "EPSG"
 
+"Nord Sahara 1959 to WGS 84 (11)", \
+   "Nord_Sahara_1959_to_WGS_1984_11", \
+   FALSE, \
+   "EPSG"
+
 "Nord Sahara 1959 to WGS 84 (2)", \
    "Nord_Sahara_1959_To_WGS_1984_2", \
    FALSE, \
@@ -5049,6 +5134,11 @@
    FALSE, \
    "EPSG"
 
+"OSGB36 to WGS 84 (9)", \
+   "OSGB36_to_WGS_1984_9", \
+   FALSE, \
+   "EPSG"
+
 "OSNI 1952 to WGS 84 (1)", \
    "OSNI_1952_To_WGS_1984_1", \
    FALSE, \
@@ -5199,6 +5289,21 @@
    FALSE, \
    "EPSG"
 
+"PSAD_1956_To_SIRGAS-Chile_1", \
+   "PSAD_1956_To_SIRGAS-Chile_2002_1", \
+   TRUE, \
+   ""
+
+"PSAD_1956_To_SIRGAS-Chile_2", \
+   "PSAD_1956_To_SIRGAS-Chile_2002_2", \
+   TRUE, \
+   ""
+
+"PSAD_1956_To_SIRGAS-Chile_3", \
+   "PSAD_1956_To_SIRGAS-Chile_2002_3", \
+   TRUE, \
+   ""
+
 "PSAD56 to REGVEN (1)", \
    "PSAD_1956_To_REGVEN", \
    FALSE, \
@@ -5210,17 +5315,17 @@
    "EPSG"
 
 "PSAD56 to SIRGAS-Chile 2002 (1)", \
-   "PSAD_1956_To_SIRGAS-Chile_1", \
+   "PSAD_1956_To_SIRGAS-Chile_2002_1", \
    FALSE, \
    "EPSG"
 
 "PSAD56 to SIRGAS-Chile 2002 (2)", \
-   "PSAD_1956_To_SIRGAS-Chile_2", \
+   "PSAD_1956_To_SIRGAS-Chile_2002_2", \
    FALSE, \
    "EPSG"
 
 "PSAD56 to SIRGAS-Chile 2002 (3)", \
-   "PSAD_1956_To_SIRGAS-Chile_3", \
+   "PSAD_1956_To_SIRGAS-Chile_2002_3", \
    FALSE, \
    "EPSG"
 
@@ -5684,6 +5789,11 @@
    FALSE, \
    "EPSG"
 
+"RGNC15 to WGS 84 (1)", \
+   "RGNC15_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "RGNC91-93 to IGN72 Grande Terre (6)", \
    "RGNC_1991-93_To_IGN72_Grande_Terre_6_NTv2", \
    FALSE, \
@@ -5726,6 +5836,11 @@
 
 "RGRDC 2005 to WGS 84 (1)", \
    "RGRDC_2005_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"RGSH2020 to WGS 84 (1)", \
+   "RGSH2020_to_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -5779,6 +5894,26 @@
    FALSE, \
    "EPSG"
 
+"SAD_1969_To_SIRGAS-Chile_1", \
+   "SAD_1969_To_SIRGAS-Chile_2002_1", \
+   TRUE, \
+   ""
+
+"SAD_1969_To_SIRGAS-Chile_2", \
+   "SAD_1969_To_SIRGAS-Chile_2002_2", \
+   TRUE, \
+   ""
+
+"SAD_1969_To_SIRGAS-Chile_3", \
+   "SAD_1969_To_SIRGAS-Chile_2002_3", \
+   TRUE, \
+   ""
+
+"SAD_1969_To_SIRGAS-Chile_4", \
+   "SAD_1969_To_SIRGAS-Chile_2002_4", \
+   TRUE, \
+   ""
+
 "SAD69(96) to SIRGAS 2000 (1)", \
    "SAD_1969_96_To_SIRGAS_2000_1", \
    FALSE, \
@@ -5810,22 +5945,22 @@
    "EPSG"
 
 "SAD69 to SIRGAS-Chile 2002 (1)", \
-   "SAD_1969_To_SIRGAS-Chile_1", \
+   "SAD_1969_To_SIRGAS-Chile_2002_1", \
    FALSE, \
    "EPSG"
 
 "SAD69 to SIRGAS-Chile 2002 (2)", \
-   "SAD_1969_To_SIRGAS-Chile_2", \
+   "SAD_1969_To_SIRGAS-Chile_2002_2", \
    FALSE, \
    "EPSG"
 
 "SAD69 to SIRGAS-Chile 2002 (3)", \
-   "SAD_1969_To_SIRGAS-Chile_3", \
+   "SAD_1969_To_SIRGAS-Chile_2002_3", \
    FALSE, \
    "EPSG"
 
 "SAD69 to SIRGAS-Chile 2002 (4)", \
-   "SAD_1969_To_SIRGAS-Chile_4", \
+   "SAD_1969_To_SIRGAS-Chile_2002_4", \
    FALSE, \
    "EPSG"
 
@@ -5974,6 +6109,11 @@
    FALSE, \
    "EPSG"
 
+"Segara (Jakarta) to WGS 84 (1)", \
+   "Segara_(Jakarta)_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
 "Segara to WGS 84 (1)", \
    "Gunung_Segara_To_WGS_1984_1", \
    FALSE, \
@@ -6044,6 +6184,11 @@
    FALSE, \
    "EPSG"
 
+"SIRGAS-Chile_To_WGS_1984_1", \
+   "SIRGAS-Chile_2002_To_WGS_1984_1", \
+   TRUE, \
+   ""
+
 "SIRGAS_ES2007.8 to WGS 84 (1)", \
    "SIRGAS-ES2007.8_To_WGS_1984_1", \
    FALSE, \
@@ -6081,6 +6226,11 @@
 
 "S-JTSK (Ferro) to S-JTSK (1)", \
    "S_JTSK_Ferro_To_S_JTSK", \
+   FALSE, \
+   "EPSG"
+
+"S-JTSK (Ferro) to WGS 84 (1)", \
+   "S-JTSK_(Ferro)_to_WGS_1984_1", \
    FALSE, \
    "EPSG"
 

@@ -4,6 +4,11 @@
 # syntax: [HVCOORDSYS,] "synonym-name", "actual-name" [, mistake (T|F) [, "authority"]]
 #------------------------------------------------------------------------------------------------------
 
+"AbInvA96_2020 Grid + ODN height", \
+   "AbInvA96_2020_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
 "Amersfoort / RD New + NAP height", \
    "HVC_Amersfoort_RD_New_and_NAP_Height", \
    FALSE, \
@@ -19,13 +24,133 @@
    FALSE, \
    "EPSG"
 
+"CIGD11 + CBVD61 height (ft)", \
+   "CIGD11_and_CBVD61_height_(ft)", \
+   FALSE, \
+   "EPSG"
+
+"CIGD11 + GCVD54 height (ft)", \
+   "CIGD11_and_GCVD54_height_(ft)", \
+   FALSE, \
+   "EPSG"
+
+"CIGD11 + LCVD61 height (ft)", \
+   "CIGD11_and_LCVD61_height_(ft)", \
+   FALSE, \
+   "EPSG"
+
+"CNH22 Grid + ODN height", \
+   "CNH22_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"COV23 Grid + ODN height", \
+   "COV23_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
 "CR-SIRGAS / CRTM05 + DACR52 height", \
    "CR-SIRGAS_CRTM05_and_DACR52_height", \
    FALSE, \
    "EPSG"
 
+"CWS13 Grid + ODN height", \
+   "CWS13_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"DIBA15 Grid + ODN height", \
+   "DIBA15_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"DoPw22 Grid + ODN height", \
+   "DoPw22_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"EBBWV14 Grid + ODN height", \
+   "EBBWV14_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"ECML14_NB Grid + ODN height", \
+   "ECML14_NB_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"EOS21 Grid + ODN height", \
+   "EOS21_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRF2000-PL + Baltic 1986 height", \
+   "ETRF2000-PL_and_Baltic_1986_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRF2000-PL + EVRF2007-PL height", \
+   "ETRF2000-PL_and_EVRF2007-PL_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Alboran height", \
+   "ETRS89_and_Alboran_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Alicante height", \
+   "ETRS_1989_and_Alicante_height", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 + Baltic 1957 height", \
    "ETRS_1989_and_Baltic_1957_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Belfast height", \
+   "ETRS_1989_and_Belfast_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + BI height", \
+   "ETRS_1989_and_BI_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Cagliari 1956 height", \
+   "ETRS_1989_and_Cagliari_1956_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Catania 1965 height", \
+   "ETRS_1989_and_Catania_1965_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + CD Norway depth", \
+   "ETRS_1989_and_CD_Norway_depth", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + CD UK & Ireland VORF08 depth", \
+   "ETRS_1989_and_CD_UK_Ireland_VORF08_depth", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Ceuta 2 height", \
+   "ETRS_1989_and_Ceuta_2_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Douglas height", \
+   "ETRS_1989_and_Douglas_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + EVRF2000 Austria height", \
+   "ETRS_1989_and_EVRF2000_Austria_height", \
    FALSE, \
    "EPSG"
 
@@ -39,6 +164,76 @@
    FALSE, \
    "EPSG"
 
+"ETRS89 + EVRF2019 height", \
+   "ETRS_1989_and_EVRF2019_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + EVRF2019 mean-tide height", \
+   "ETRS_1989_and_EVRF2019_mean-tide_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Formentera height", \
+   "ETRS89_and_Formentera_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Genoa 1942 height", \
+   "ETRS_1989_and_Genoa_1942_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Ibiza height", \
+   "ETRS_1989_and_Ibiza_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + LAT NL depth", \
+   "ETRS_1989_and_LAT_NL_depth", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Lerwick height", \
+   "ETRS_1989_and_Lerwick_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Malin Head height", \
+   "ETRS_1989_and_Malin_Head_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Mallorca height", \
+   "ETRS_1989_and_Mallorca_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Melilla height", \
+   "ETRS89_and_Melilla_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Menorca height", \
+   "ETRS_1989_and_Menorca_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + MSL NL depth", \
+   "ETRS_1989_and_MSL_NL_depth", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + MSL UK & Ireland VORF08 depth", \
+   "ETRS_1989_and_MSL_UK_Ireland_VORF08_depth", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + NAP height", \
+   "ETRS_1989_and_NAP_height", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 + NN2000 height", \
    "HVC_ETRS_1989_and_NN2000_height", \
    FALSE, \
@@ -46,6 +241,41 @@
 
 "ETRS89 + NN54 height", \
    "HVC_ETRS_1989_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + ODN height", \
+   "ETRS_1989_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + ODN (Offshore) height", \
+   "ETRS_1989_and_ODN_(Offshore)_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + ODN Orkney height", \
+   "ETRS_1989_and_ODN_Orkney_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Ostend height", \
+   "ETRS_1989_and_Ostend_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + St. Marys height", \
+   "ETRS_1989_and_St_Marys_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + Stornoway height", \
+   "ETRS_1989_and_Stornoway_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 + SVD2006 height", \
+   "ETRS_1989_and_SVD2006_height", \
    FALSE, \
    "EPSG"
 
@@ -74,8 +304,18 @@
    FALSE, \
    "EPSG"
 
+"ETRS89/DREF91/2016 + DHHN2016 height", \
+   "ETRS_1989_DREF91_2016_and_DHHN2016_height", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 / Faroe TM + FVR09 height", \
    "HVC_ETRS_1989_Faroe_TM_and_FVR09_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / ITM + BI height", \
+   "ETRS_1989_ITM_and_BI_height", \
    FALSE, \
    "EPSG"
 
@@ -449,8 +689,58 @@
    FALSE, \
    "EPSG"
 
+"EWR2 Grid + ODN height", \
+   "EWR2_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"FEH2010 + FCSVR10 height", \
+   "FEH2010_and_FCSVR10_height", \
+   FALSE, \
+   "EPSG"
+
 "FEH2010 / Fehmarnbelt TM + FCSVR10 height", \
    "HVC_FEH2010_Fehmarnbelt_TM_and_FCSVR10_Height", \
+   FALSE, \
+   "EPSG"
+
+"FNL22 Grid + ODN height", \
+   "FNL22_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"GBK19 Grid + ODN height", \
+   "GBK19_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"GDA2020_+_AHD_height", \
+   "GDA2020_and_AHD_height", \
+   TRUE, \
+   ""
+
+"GDA2020 + AHD height", \
+   "GDA2020_and_AHD_height", \
+   FALSE, \
+   "EPSG"
+
+"GDA2020_+_AVWS_height", \
+   "GDA2020_and_AVWS_height", \
+   TRUE, \
+   ""
+
+"GDA2020 + AVWS height", \
+   "GDA2020_and_AVWS_height", \
+   FALSE, \
+   "EPSG"
+
+"GDA94_+_AHD_height", \
+   "GDA94_and_AHD_height", \
+   TRUE, \
+   ""
+
+"GDA94 + AHD height", \
+   "GDA94_and_AHD_height", \
    FALSE, \
    "EPSG"
 
@@ -464,6 +754,66 @@
    FALSE, \
    "EPSG"
 
+"GWPBS22 Grid + ODN height", \
+   "GWPBS22_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"GWWAB22 Grid + ODN height", \
+   "GWWAB22_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"GWWWA22 Grid + ODN height", \
+   "GWWWA22_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"HS2 Survey Grid + HS2-VRF height", \
+   "HS2_Survey_Grid_and_HS2-VRF_height", \
+   FALSE, \
+   "EPSG"
+
+"HULLEE13 Grid + ODN height", \
+   "HULLEE13_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"ISN2004 + ISH2004 height", \
+   "ISN2004_and_ISH2004_height", \
+   FALSE, \
+   "EPSG"
+
+"ISN2004 / Lambert 2004 + ISH2004 height", \
+   "ISN2004_Lambert_2004_and_ISH2004_height", \
+   FALSE, \
+   "EPSG"
+
+"ISN2016 + ISH2004 height", \
+   "ISN2016_and_ISH2004_height", \
+   FALSE, \
+   "EPSG"
+
+"ISN2016 / Lambert 2016 + ISH2004 height", \
+   "ISN2016_Lambert_2016_and_ISH2004_height", \
+   FALSE, \
+   "EPSG"
+
+"ISN93 + ISH2004 height", \
+   "ISN93_and_ISH2004_height", \
+   FALSE, \
+   "EPSG"
+
+"ISN93 / Lambert 1993 + ISH2004 height", \
+   "ISN93_Lambert_1993_and_ISH2004_height", \
+   FALSE, \
+   "EPSG"
+
+"ITRF2005 + SA LLD height", \
+   "ITRF2005_and_SA_LLD_height", \
+   FALSE, \
+   "EPSG"
+
 "JGD2000 + JGD2000 (vertical) height", \
    "HVC_JGD2000_and_JGD2000_vertical_height", \
    FALSE, \
@@ -474,13 +824,118 @@
    FALSE, \
    "EPSG"
 
+"JGD2011 / Japan Plane Rectangular CS I + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_I_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS II + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_II_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS III + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_III_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS IV + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_IV_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS IX + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_IX_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS V + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_V_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS VI + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_VI_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS VII + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_VII_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS VIII + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_VIII_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS X + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_X_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS XI + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_XI_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS XII + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_XII_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2011 / Japan Plane Rectangular CS XIII + JGD2011 (vertical) height", \
+   "JGD2011_Japan_Plane_Rectangular_CS_XIII_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   "EPSG"
+
+"KGD2002 + KVD1964 height", \
+   "KGD2002_and_KVD1964_height", \
+   FALSE, \
+   "EPSG"
+
 "KKJ / Finland Uniform Coordinate System + N60 height", \
    "KKJ_Finland_Uniform_Coordinate_System_and_N60_height", \
    FALSE, \
    "EPSG"
 
+"KSA-GRF17 + KSA-VRF14 height", \
+   "KSA-GRF17_and_KSA-VRF14_height", \
+   FALSE, \
+   "EPSG"
+
 "LUREF / Luxembourg TM + NG95 height", \
    "HVC_LUREF_Luxembourg_TM_and_NG95", \
+   FALSE, \
+   "EPSG"
+
+"MALS09 Grid + ODN height", \
+   "MALS09_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"MGI + EVRF2000 Austria height", \
+   "MGI_and_EVRF2000_Austria_height", \
+   FALSE, \
+   "EPSG"
+
+"MML07 Grid + ODN height", \
+   "MML07_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"MOLDOR11 Grid + ODN height", \
+   "MOLDOR11_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"MRH21 Grid + ODN height", \
+   "MRH21_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"MWC18 Grid + ODN height", \
+   "MWC18_Grid_and_ODN_height", \
    FALSE, \
    "EPSG"
 
@@ -501,6 +956,16 @@
 
 "NAD83(2011) + NAVD88 height", \
    "HVC_NAD_1983_2011_and_NAVD88_height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) + PRVD02 height", \
+   "NAD_1983_2011_and_PRVD02_height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) + VIVD09 height", \
+   "NAD_1983_2011_and_VIVD09_height", \
    FALSE, \
    "EPSG"
 
@@ -594,6 +1059,11 @@
    FALSE, \
    "EPSG"
 
+"NAD83(CSRS) / UTM zone 15N + CGVD2013a(2010) height", \
+   "NAD_1983_CSRS_UTM_zone_15N_and_CGVD2013a(2010)_height", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(CSRS) / UTM zone 15N + CGVD2013 height", \
    "HVC_NAD_1983_CSRS_UTM_Zone_15N_and_CGVD2013_height", \
    FALSE, \
@@ -634,6 +1104,16 @@
    FALSE, \
    "EPSG"
 
+"NAD83(CSRS) / UTM zone 23N + CGVD2013 height", \
+   "NAD_1983_CSRS_UTM_zone_23N_and_CGVD2013_height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS) / UTM zone 24N + CGVD2013 height", \
+   "NAD_1983_CSRS_UTM_zone_24N_and_CGVD2013_height", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(CSRS) / UTM zone 7N + CGVD2013 height", \
    "HVC_NAD_1983_CSRS_UTM_Zone_7N_and_CGVD2013_height", \
    FALSE, \
@@ -649,8 +1129,33 @@
    FALSE, \
    "EPSG"
 
+"NAD83(CSRS)v3 + CGVD2013a(1997) height", \
+   "NAD_1983_CSRS_v3_and_CGVD2013a(1997)_height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v4 + CGVD2013a(2002) height", \
+   "NAD_1983_CSRS_v4_and_CGVD2013a(2002)_height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 + CGVD2013a(2010) height", \
+   "NAD_1983_CSRS_v6_and_CGVD2013a(2010)_height", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(HARN) + NAVD88 height", \
    "HVC_NAD_1983_HARN_and_NAVD88_height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(MA11) + GUVD04 height", \
+   "NAD83(MA11)_and_GUVD04_height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(MA11) + NMVD03 height", \
+   "NAD83(MA11)_and_NMVD03_height", \
    FALSE, \
    "EPSG"
 
@@ -671,6 +1176,11 @@
 
 "NAD83(NSRS2007) + NAVD88 height", \
    "HVC_NAD_1983_NSRS2007_and_NAVD88_height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(PA11) + ASVD02 height", \
+   "NAD83(PA11)_and_ASVD02_height", \
    FALSE, \
    "EPSG"
 
@@ -704,13 +1214,113 @@
    FALSE, \
    "EPSG"
 
+"NZGD2000 + NZVD2009 height", \
+   "NZGD2000_and_NZVD2009_height", \
+   FALSE, \
+   "EPSG"
+
+"NZGD2000 + NZVD2016 height", \
+   "NZGD2000_and_NZVD2016_height", \
+   FALSE, \
+   "EPSG"
+
+"OSGB36 / British National Grid + BI height", \
+   "OSGB36_British_National_Grid_and_BI_height", \
+   FALSE, \
+   "EPSG"
+
 "OSGB36 / British National Grid + ODN height", \
    "HVC_OSGB36_British_National_Grid_and_ODN_Height", \
    FALSE, \
    "EPSG"
 
+"OxWo08 Grid + ODN height", \
+   "OxWo08_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"POSGAR 2007 + SRVN16 height", \
+   "POSGAR_2007_and_SRVN16_height", \
+   FALSE, \
+   "EPSG"
+
 "PSHD93", \
    "HVC_PSD93_and_PHD93", \
+   FALSE, \
+   "EPSG"
+
+"RBEPP12 Grid + ODN height", \
+   "RBEPP12_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 + El Hierro height", \
+   "REGCAN95_and_El_Hierro_height", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 + Fuerteventura height", \
+   "REGCAN95_and_Fuerteventura_height", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 + Gran Canaria height", \
+   "REGCAN95_and_Gran_Canaria_height", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 + La Gomera height", \
+   "REGCAN95_and_La_Gomera_height", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 + Lanzarote height", \
+   "REGCAN95_and_Lanzarote_height", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 + La Palma height", \
+   "REGCAN95_and_La_Palma_height", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 + Tenerife height", \
+   "REGCAN95_and_Tenerife_height", \
+   FALSE, \
+   "EPSG"
+
+"RGAF09 + Guadeloupe 1988 height", \
+   "RGAF09_and_Guadeloupe_1988_height", \
+   FALSE, \
+   "EPSG"
+
+"RGAF09 + IGN 1988 LS height", \
+   "RGAF09_and_IGN_1988_LS_height", \
+   FALSE, \
+   "EPSG"
+
+"RGAF09 + IGN 1988 MG height", \
+   "RGAF09_and_IGN_1988_MG_height", \
+   FALSE, \
+   "EPSG"
+
+"RGAF09 + IGN 1988 SB height", \
+   "RGAF09_and_IGN_1988_SB_height", \
+   FALSE, \
+   "EPSG"
+
+"RGAF09 + IGN 1988 SM height", \
+   "RGAF09_and_IGN_1988_SM_height", \
+   FALSE, \
+   "EPSG"
+
+"RGAF09 + IGN 2008 LD height", \
+   "RGAF09_and_IGN_2008_LD_height", \
+   FALSE, \
+   "EPSG"
+
+"RGAF09 + Martinique 1987 height", \
+   "RGAF09_and_Martinique_1987_height", \
    FALSE, \
    "EPSG"
 
@@ -724,13 +1334,93 @@
    FALSE, \
    "EPSG"
 
+"RGF93 v2 + NGF-IGN69 height", \
+   "RGF93_v2_and_NGF-IGN69_height", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v2 + NGF-IGN78 height", \
+   "RGF93_v2_and_NGF-IGN78_height", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v2b + NGF-IGN69 height", \
+   "RGF93_v2b_and_NGF-IGN69_height", \
+   FALSE, \
+   "EPSG"
+
+"RGFG95 + NGG1977 height", \
+   "RGFG95_and_NGG1977_height", \
+   FALSE, \
+   "EPSG"
+
+"RGNC15 (lon-lat) + NGNC08 height", \
+   "RGNC15_(lon-lat)_and_NGNC08_height", \
+   FALSE, \
+   "EPSG"
+
+"RGNC91-93 + NGNC08 height", \
+   "RGNC_1991-93_and_NGNC08_height", \
+   FALSE, \
+   "EPSG"
+
+"RGSPM06 + Danger 1950 height", \
+   "RGSPM06_and_Danger_1950_height", \
+   FALSE, \
+   "EPSG"
+
+"RRAF 1991 + IGN 2008 LD height", \
+   "RRAF_1991_and_IGN_2008_LD_height", \
+   FALSE, \
+   "EPSG"
+
 "RT90 + RH70 height", \
    "HVC_RT90_and_RH70_Height", \
    FALSE, \
    "EPSG"
 
+"SCM22 Grid + ODN height", \
+   "SCM22_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"ShAb07 Grid + ODN height", \
+   "ShAb07_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"SHGD2015 + SHVD2015 height", \
+   "SHGD2015_and_SHVD2015_height", \
+   FALSE, \
+   "EPSG"
+
 "SHMG2015 + SHVD2015 height", \
    "SHMG2015_and_SHVD2015_height", \
+   FALSE, \
+   "EPSG"
+
+"Slovenia 1996 + SVS2010 height", \
+   "Slovenia_1996_and_SVS2010_height", \
+   FALSE, \
+   "EPSG"
+
+"Slovenia 1996 / Slovene National Grid + SVS2010 height", \
+   "Slovenia_1996_Slovene_National_Grid_and_SVS2010_height", \
+   FALSE, \
+   "EPSG"
+
+"SMITB20 Grid + ODN height", \
+   "SMITB20_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"SRGI2013 + INAGeoid2020 v1 height", \
+   "SRGI2013_and_INAGeoid2020_v1_height", \
+   FALSE, \
+   "EPSG"
+
+"SRGI2013 + INAGeoid2020 v2 height", \
+   "SRGI2013_and_INAGeoid2020_v2_height", \
    FALSE, \
    "EPSG"
 
@@ -819,6 +1509,11 @@
    FALSE, \
    "EPSG"
 
+"SYC20 Grid + ODN height", \
+   "SYC20_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
 "Tokyo + JSLD69 height", \
    "HVC_Tokyo_and_JSLD_Height", \
    FALSE, \
@@ -831,6 +1526,21 @@
 
 "TPEN11 Grid + ODN height", \
    "TPEN11_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 + EGM2008 height", \
+   "WGS_1984_and_EGM2008_height", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 + EGM96 height", \
+   "WGS_1984_and_EGM96_height", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 + MSL height", \
+   "WGS_1984_and_MSL_height", \
    FALSE, \
    "EPSG"
 

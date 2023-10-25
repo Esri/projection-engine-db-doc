@@ -1,81 +1,66 @@
 #------------------------------------------------------------------------------------------------------
 # PRIMEM data table
 #
-# syntax: [PRIMEM,] primem-code, "name", longitude [, unit]
+# syntax: [PRIMEM,] primem-code, "name", longitude[:unit]
 #------------------------------------------------------------------------------------------------------
 
 PE_PM_GREENWICH, \
    "Greenwich", \
-   0.0, \
-   PE_U_DEGREE
+   0.0:PE_U_DEGREE
 
 PE_PM_LISBON, \
    "Lisbon", \
-   -9.1319061111111122, \
-   PE_U_DEGREE
+   -9.1319061111111122:PE_U_DEGREE
 
 PE_PM_PARIS, \
    "Paris", \
-   2.3372291666666669, \
-   PE_U_DEGREE
+   2.3372291666666669:PE_U_DEGREE
 
 PE_PM_BOGOTA, \
    "Bogota", \
-   -74.080916666666667, \
-   PE_U_DEGREE
+   -74.080916666666667:PE_U_DEGREE
 
 PE_PM_MADRID, \
    "Madrid", \
-   -3.6879388888888891, \
-   PE_U_DEGREE
+   -3.687375:PE_U_DEGREE
 
 PE_PM_ROME, \
    "Rome", \
-   12.452333333333332, \
-   PE_U_DEGREE
+   12.452333333333332:PE_U_DEGREE
 
 PE_PM_BERN, \
    "Bern", \
-   7.4395833333333332, \
-   PE_U_DEGREE
+   7.4395833333333332:PE_U_DEGREE
 
 PE_PM_JAKARTA, \
    "Jakarta", \
-   106.80771944444444, \
-   PE_U_DEGREE
+   106.80771944444444:PE_U_DEGREE
 
 PE_PM_FERRO, \
    "Ferro", \
-   -17.666666666666668, \
-   PE_U_DEGREE
+   -17.666666666666668:PE_U_DEGREE
 
 PE_PM_BRUSSELS, \
    "Brussels", \
-   4.367974999999999, \
-   PE_U_DEGREE
+   4.367974999999999:PE_U_DEGREE
 
 PE_PM_STOCKHOLM, \
    "Stockholm", \
-   18.058277777777779, \
-   PE_U_DEGREE
+   18.058277777777779:PE_U_DEGREE
 
 PE_PM_ATHENS, \
    "Athens", \
-   23.7163375, \
-   PE_U_DEGREE
+   23.7163375:PE_U_DEGREE
 
 PE_PM_OSLO, \
    "Oslo", \
-   10.722916666666666, \
-   PE_U_DEGREE
+   10.722916666666666:PE_U_DEGREE
 
 PE_PM_PARIS_RGS, \
    "Paris_RGS", \
-   2.3372083333333333, \
-   PE_U_DEGREE
+   2.3372083333333333:PE_U_DEGREE
 
 PE_PM_REFERENCE, \
    "Reference_Meridian", \
-   0.0, \
-   PE_U_DEGREE
+   0.0:PE_U_DEGREE
 

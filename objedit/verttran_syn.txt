@@ -119,8 +119,43 @@
    TRUE, \
    ""
 
+"ETRS89 to Alicante height (1)", \
+   "ETRS89_Height_To_Alicante_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Belfast height (2)", \
+   "ETRS89_To_Belfast_Height_2_OSGM15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Ceuta 2 height (1)", \
+   "ETRS89_Height_To_Ceuta_2_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Douglas height (2)", \
+   "ETRS89_To_Douglas_Height_2_OSGM15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to EVRF2000 Austria height (1)", \
+   "ETRS89_Height_To_EVRF2000_Austria_Height_1", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 to HS2-VRF height (1)", \
    "ETRS89_To_HS2-VRF_height_HS2GM15_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Ibiza height (1)", \
+   "ETRS89_Height_To_Ibiza_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Lerwick height (2)", \
+   "ETRS89_To_Lerwick_Height_2_OSGM15", \
    FALSE, \
    "EPSG"
 
@@ -129,8 +164,53 @@
    TRUE, \
    ""
 
+"ETRS89 to Malin Head height (2)", \
+   "ETRS89_To_Malin_Head_Height_2_OSGM15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Mallorca height (1)", \
+   "ETRS89_Height_To_Mallorca_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Menorca height (1)", \
+   "ETRS89_Height_To_Menorca_Height_1", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 to NAP height (2)", \
    "ETRS89_Height_To_NAP_Height_nlgeo2018", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to ODN height (2)", \
+   "ETRS89_To_Newlyn_Height_2_OSGM15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to ODN (Offshore) height (1)", \
+   "ETRS89_To_ODN_Offhore_Height_1_OSGM15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to ODN Orkney height (2)", \
+   "ETRS89_To_ODN_Orkney_Height_2_OSGM15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Ostend height (1)", \
+   "ETRS89_Height_To_Oostende_Height_hBG18", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to St. Marys height (2)", \
+   "ETRS89_To_St_Marys_Height_2_OSGM15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Stornoway height (2)", \
+   "ETRS89_To_Stornoway_Height_2_OSGM15", \
    FALSE, \
    "EPSG"
 
@@ -194,6 +274,16 @@
    FALSE, \
    "EPSG"
 
+"ITRF2008 to CGVD2013a(2010) height (2)", \
+   "ITRF_2008_Height_To_CGVD2013(CGG2013a)_Height_2", \
+   FALSE, \
+   "EPSG"
+
+"ITRF2008 to CGVD2013(CGG2013) height (1)", \
+   "ITRF_2008_Height_To_CGVD2013(CGG2013)_Height_1", \
+   FALSE, \
+   "EPSG"
+
 "LAS07 height to EVRF2019 mean-tide height (1)", \
    "LAS07_Height_To_EVRF2019_Mean-Tide_Height_2", \
    FALSE, \
@@ -221,6 +311,21 @@
 
 "NAD83(2011) to PRVD02 height (2)", \
    "NAD_1983_2011_Height_To_PRVD02_GEOID18_Height_2", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 to CGVD2013a(2010) height (1)", \
+   "NAD83(CSRS)v6_Height_To_CGVD2013(CGG2013a)_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 to CGVD2013(CGG2013) height (1)", \
+   "NAD83(CSRS)v6_Height_To_CGVD2013(CGG2013)_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(CSRS)v6 to CGVD28 height (1)", \
+   "NAD83(CSRS)v6_Height_To_CGVD28_Height_HT2", \
    FALSE, \
    "EPSG"
 
@@ -336,6 +441,56 @@
 
 "Ostend height to EVRF2019 mean-tide height (2)", \
    "Oostende_Height_To_EVRF2019_Mean-Tide_Height_2", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 to El Hierro height (1)", \
+   "REGCAN95_Height_To_El_Hierro_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 to Fuerteventura height (1)", \
+   "REGCAN95_Height_To_Fuerteventura_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 to Gran Canaria height (1)", \
+   "REGCAN95_Height_To_Gran_Canaria_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 to La Gomera height (1)", \
+   "REGCAN95_Height_To_La_Gomera_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 to Lanzarote height (1)", \
+   "REGCAN95_Height_To_Lanzarote_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 to La Palma height (1)", \
+   "REGCAN95_Height_To_La_Palma_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"REGCAN95 to Tenerife height (1)", \
+   "REGCAN95_Height_To_Tenerife_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v2b to NGF-IGN69 height (5)", \
+   "RGF93_v2b_To_NGF-IGN69_Height_RAF20_5", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v2 to NGF-IGN69 height (3)", \
+   "RGF93_v2_To_NGF-IGN69_Height_RAF18_3", \
+   FALSE, \
+   "EPSG"
+
+"RGF93 v2 to NGF-IGN78 height (2)", \
+   "RGF93_v2_To_NGF-IGN78_Height_RAC09_2", \
    FALSE, \
    "EPSG"
 
