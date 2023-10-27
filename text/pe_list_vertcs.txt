@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -39,8 +39,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 3886
 Latest-WKID : 3886
@@ -65,8 +63,6 @@ Area-slat   : 29.06
 Area-nlat   : 37.39
 Area-llon   : 38.79
 Area-rlon   : 48.61
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 3900
 Latest-WKID : 3900
@@ -91,8 +87,6 @@ Area-slat   : 59.75
 Area-nlat   : 70.09
 Area-llon   : 19.24
 Area-rlon   : 31.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 4440
 Latest-WKID : 4440
@@ -117,8 +111,6 @@ Area-slat   : -55.95
 Area-nlat   : -25.88
 Area-llon   : 160.6
 Area-rlon   : -171.2
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 4458
 Latest-WKID : 4458
@@ -143,34 +135,30 @@ Area-slat   : -46.73
 Area-nlat   : -44.52
 Area-llon   : 166.37
 Area-rlon   : 169.95
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5193
 Latest-WKID : 5193
 Macro       : PE_VCS_INCHEON_HT
-Name        : Incheon_height
-WKT         : VERTCS["Incheon_height",
-               VDATUM["Incheon"],
+Name        : KVD1964_Height
+WKT         : VERTCS["KVD1964_Height",
+               VDATUM["Korean_Vertical_Datum_1964"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-WKT2        : VERTCRS["Incheon_height",
-               VDATUM["Incheon"],
+WKT2        : VERTCRS["KVD1964_Height",
+               VDATUM["Korean_Vertical_Datum_1964"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Incheon (Height)
+Description : KVD1964 (Height)
 Authority   : EPSG
 Version     : 7.5.6(10.1.0)
 Deprecated  : no
-Area-name   : Korea, Republic of (South Korea) - mainland
-Area-slat   : 33.96
+Area-name   : Korea, Republic of (South Korea) - onshore
+Area-slat   : 33.14
 Area-nlat   : 38.64
-Area-llon   : 125.75
-Area-rlon   : 129.65
-FrameEpoch  : 
-DeformationModel: ""
+Area-llon   : 124.53
+Area-rlon   : 131.01
 
 WKID        : 5195
 Latest-WKID : 5195
@@ -195,8 +183,6 @@ Area-slat   : 40.85
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 23.04
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5214
 Latest-WKID : 5214
@@ -221,8 +207,6 @@ Area-slat   : 36.59
 Area-nlat   : 47.1
 Area-llon   : 6.62
 Area-rlon   : 18.58
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5237
 Latest-WKID : 5237
@@ -247,8 +231,6 @@ Area-slat   : 5.86
 Area-nlat   : 9.88
 Area-llon   : 79.64
 Area-rlon   : 81.95
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5317
 Latest-WKID : 5317
@@ -273,8 +255,6 @@ Area-slat   : 61.33
 Area-nlat   : 62.41
 Area-llon   : -7.49
 Area-rlon   : -6.33
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5336
 Latest-WKID : 5336
@@ -299,8 +279,6 @@ Area-slat   : 41.04
 Area-nlat   : 43.59
 Area-llon   : 39.99
 Area-rlon   : 46.72
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5597
 Latest-WKID : 5597
@@ -325,8 +303,6 @@ Area-slat   : 54.42
 Area-nlat   : 54.76
 Area-llon   : 11.17
 Area-rlon   : 11.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5600
 Latest-WKID : 5600
@@ -351,8 +327,6 @@ Area-slat   : -17.93
 Area-nlat   : -16.17
 Area-llon   : -152.39
 Area-rlon   : -149.09
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5601
 Latest-WKID : 5601
@@ -377,8 +351,6 @@ Area-slat   : -17.93
 Area-nlat   : -17.44
 Area-llon   : -149.7
 Area-rlon   : -149.09
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5602
 Latest-WKID : 5602
@@ -403,8 +375,6 @@ Area-slat   : -17.63
 Area-nlat   : -17.41
 Area-llon   : -150.0
 Area-rlon   : -149.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5603
 Latest-WKID : 5603
@@ -429,8 +399,6 @@ Area-slat   : -16.96
 Area-nlat   : -16.68
 Area-llon   : -151.55
 Area-rlon   : -151.3
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5604
 Latest-WKID : 5604
@@ -455,8 +423,6 @@ Area-slat   : -16.57
 Area-nlat   : -16.34
 Area-llon   : -152.39
 Area-rlon   : -152.14
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5605
 Latest-WKID : 5605
@@ -481,8 +447,6 @@ Area-slat   : -16.87
 Area-nlat   : -16.63
 Area-llon   : -151.11
 Area-rlon   : -150.89
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5606
 Latest-WKID : 5606
@@ -507,8 +471,6 @@ Area-slat   : -16.72
 Area-nlat   : -16.5
 Area-llon   : -151.63
 Area-rlon   : -151.36
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5607
 Latest-WKID : 5607
@@ -533,8 +495,6 @@ Area-slat   : -16.62
 Area-nlat   : -16.39
 Area-llon   : -151.86
 Area-rlon   : -151.61
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5608
 Latest-WKID : 5608
@@ -559,8 +519,6 @@ Area-slat   : 40.99
 Area-nlat   : 52.22
 Area-llon   : -93.17
 Area-rlon   : -54.75
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5609
 Latest-WKID : 5609
@@ -585,8 +543,6 @@ Area-slat   : 40.99
 Area-nlat   : 52.22
 Area-llon   : -93.17
 Area-rlon   : -54.75
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5610
 Latest-WKID : 5610
@@ -611,8 +567,6 @@ Area-slat   : 42.34
 Area-nlat   : 46.54
 Area-llon   : 13.43
 Area-rlon   : 19.43
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5611
 Latest-WKID : 5611
@@ -637,8 +591,6 @@ Area-slat   : 37.35
 Area-nlat   : 46.97
 Area-llon   : 46.95
 Area-rlon   : 53.93
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5612
 Latest-WKID : 5612
@@ -663,8 +615,6 @@ Area-slat   : 35.14
 Area-nlat   : 77.79
 Area-llon   : 12.09
 Area-rlon   : -169.57
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5613
 Latest-WKID : 5613
@@ -689,8 +639,6 @@ Area-slat   : 55.28
 Area-nlat   : 69.07
 Area-llon   : 10.93
 Area-rlon   : 24.17
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5614
 Latest-WKID : 5614
@@ -708,15 +656,13 @@ WKT2        : VERTCRS["KOC_WD_depth_ft",
                 LENGTHUNIT["Foot", 0.3048]]]
 Description : KOC WD (depth - ft)
 Authority   : EPSG
-Version     : 6.15(10.0.0)
+Version     : 10.019(10.0.0)
 Deprecated  : no
 Area-name   : Kuwait - onshore
 Area-slat   : 28.53
 Area-nlat   : 30.09
 Area-llon   : 46.54
 Area-rlon   : 48.48
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5615
 Latest-WKID : 5615
@@ -741,8 +687,6 @@ Area-slat   : 55.28
 Area-nlat   : 69.07
 Area-llon   : 10.93
 Area-rlon   : 24.17
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5616
 Latest-WKID : 5616
@@ -767,8 +711,6 @@ Area-slat   : 15.8
 Area-nlat   : 15.94
 Area-llon   : -61.68
 Area-rlon   : -61.52
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5617
 Latest-WKID : 5617
@@ -793,8 +735,6 @@ Area-slat   : 15.8
 Area-nlat   : 16.05
 Area-llon   : -61.39
 Area-rlon   : -61.13
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5618
 Latest-WKID : 5618
@@ -819,8 +759,6 @@ Area-slat   : 16.26
 Area-nlat   : 16.38
 Area-llon   : -61.13
 Area-rlon   : -60.97
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5619
 Latest-WKID : 5619
@@ -845,8 +783,6 @@ Area-slat   : 17.82
 Area-nlat   : 17.98
 Area-llon   : -62.92
 Area-rlon   : -62.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5620
 Latest-WKID : 5620
@@ -871,8 +807,6 @@ Area-slat   : 18.01
 Area-nlat   : 18.17
 Area-llon   : -63.21
 Area-rlon   : -62.96
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5621
 Latest-WKID : 5621
@@ -894,11 +828,9 @@ Version     : 8.6.3(10.0.0)
 Deprecated  : no
 Area-name   : Europe - EVRF2007
 Area-slat   : 35.95
-Area-nlat   : 71.21
+Area-nlat   : 71.24
 Area-llon   : -9.56
 Area-rlon   : 31.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5701
 Latest-WKID : 5701
@@ -923,8 +855,6 @@ Area-slat   : 49.93
 Area-nlat   : 58.71
 Area-llon   : -7.06
 Area-rlon   : 1.8
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5702
 Latest-WKID : 5702
@@ -949,8 +879,6 @@ Area-slat   : 24.41
 Area-nlat   : 49.38
 Area-llon   : -124.79
 Area-rlon   : -66.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5703
 Latest-WKID : 5703
@@ -975,8 +903,6 @@ Area-slat   : 14.51
 Area-nlat   : 71.4
 Area-llon   : 172.42
 Area-rlon   : -66.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5704
 Latest-WKID : 5736
@@ -1001,8 +927,6 @@ Area-slat   : 18.11
 Area-nlat   : 53.56
 Area-llon   : 73.62
 Area-rlon   : 134.77
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5705
 Latest-WKID : 5705
@@ -1027,8 +951,6 @@ Area-slat   : 35.14
 Area-nlat   : 77.79
 Area-llon   : 12.09
 Area-rlon   : -169.57
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5706
 Latest-WKID : 5706
@@ -1053,8 +975,6 @@ Area-slat   : 37.35
 Area-nlat   : 46.97
 Area-llon   : 46.95
 Area-rlon   : 53.93
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5709
 Latest-WKID : 5709
@@ -1074,13 +994,11 @@ Description : NAP -- Normaal Amsterdams Peil
 Authority   : EPSG
 Version     : 4.5(9.3.0.0)
 Deprecated  : no
-Area-name   : Netherlands - onshore
+Area-name   : Netherlands
 Area-slat   : 50.75
-Area-nlat   : 53.7
-Area-llon   : 3.2
+Area-nlat   : 55.77
+Area-llon   : 2.53
 Area-rlon   : 7.22
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5710
 Latest-WKID : 5710
@@ -1105,8 +1023,6 @@ Area-slat   : 49.5
 Area-nlat   : 51.51
 Area-llon   : 2.5
 Area-rlon   : 6.4
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5711
 Latest-WKID : 5711
@@ -1126,13 +1042,11 @@ Description : AHD -- Australian Height Datum
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Australia - mainland
-Area-slat   : -39.2
-Area-nlat   : -10.65
-Area-llon   : 112.85
+Area-name   : Australia Christmas and Cocos - onshore
+Area-slat   : -43.7
+Area-nlat   : -9.86
+Area-llon   : 96.76
 Area-rlon   : 153.69
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5712
 Latest-WKID : 5712
@@ -1157,8 +1071,6 @@ Area-slat   : -43.7
 Area-nlat   : -40.24
 Area-llon   : 144.55
 Area-rlon   : 148.44
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5713
 Latest-WKID : 5713
@@ -1183,8 +1095,6 @@ Area-slat   : 41.67
 Area-nlat   : 69.8
 Area-llon   : -141.01
 Area-rlon   : -59.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5714
 Latest-WKID : 5714
@@ -1209,8 +1119,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5715
 Latest-WKID : 5715
@@ -1235,8 +1143,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5716
 Latest-WKID : 5716
@@ -1261,8 +1167,6 @@ Area-slat   : 34.88
 Area-nlat   : 41.75
 Area-llon   : 19.57
 Area-rlon   : 28.3
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5717
 Latest-WKID : 5717
@@ -1287,8 +1191,6 @@ Area-slat   : 59.75
 Area-nlat   : 70.09
 Area-llon   : 19.24
 Area-rlon   : 31.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5718
 Latest-WKID : 5718
@@ -1313,8 +1215,6 @@ Area-slat   : 55.28
 Area-nlat   : 69.07
 Area-llon   : 10.93
 Area-rlon   : 24.17
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5719
 Latest-WKID : 5719
@@ -1339,8 +1239,6 @@ Area-slat   : 42.33
 Area-nlat   : 51.14
 Area-llon   : -4.87
 Area-rlon   : 8.23
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5720
 Latest-WKID : 5720
@@ -1365,8 +1263,6 @@ Area-slat   : 42.33
 Area-nlat   : 51.14
 Area-llon   : -4.87
 Area-rlon   : 8.23
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5721
 Latest-WKID : 5721
@@ -1391,8 +1287,6 @@ Area-slat   : 41.31
 Area-nlat   : 43.07
 Area-llon   : 8.5
 Area-rlon   : 9.63
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5722
 Latest-WKID : 5722
@@ -1417,8 +1311,6 @@ Area-slat   : -26.87
 Area-nlat   : -10.42
 Area-llon   : 30.21
 Area-rlon   : 40.9
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5723
 Latest-WKID : 5723
@@ -1443,8 +1335,6 @@ Area-slat   : 30.94
 Area-nlat   : 45.54
 Area-llon   : 129.3
 Area-rlon   : 145.87
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5724
 Latest-WKID : 5724
@@ -1469,8 +1359,6 @@ Area-slat   : 16.59
 Area-nlat   : 26.58
 Area-llon   : 51.99
 Area-rlon   : 59.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5725
 Latest-WKID : 5725
@@ -1495,8 +1383,6 @@ Area-slat   : 16.59
 Area-nlat   : 26.42
 Area-llon   : 51.99
 Area-rlon   : 59.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5726
 Latest-WKID : 5726
@@ -1521,8 +1407,6 @@ Area-slat   : 8.33
 Area-nlat   : 23.4
 Area-llon   : 102.14
 Area-rlon   : 109.53
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5727
 Latest-WKID : 5727
@@ -1547,8 +1431,6 @@ Area-slat   : 8.33
 Area-nlat   : 23.4
 Area-llon   : 102.14
 Area-rlon   : 109.53
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5728
 Latest-WKID : 5728
@@ -1573,8 +1455,6 @@ Area-slat   : 45.82
 Area-nlat   : 47.81
 Area-llon   : 5.96
 Area-rlon   : 10.49
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5729
 Latest-WKID : 5729
@@ -1599,8 +1479,6 @@ Area-slat   : 45.82
 Area-nlat   : 47.81
 Area-llon   : 5.96
 Area-rlon   : 10.49
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5730
 Latest-WKID : 5730
@@ -1622,11 +1500,9 @@ Version     : 6.6(9.3.0.0)
 Deprecated  : no
 Area-name   : Europe - EVRF2000
 Area-slat   : 35.95
-Area-nlat   : 71.21
+Area-nlat   : 71.24
 Area-llon   : -9.56
 Area-rlon   : 31.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5731
 Latest-WKID : 5731
@@ -1651,8 +1527,6 @@ Area-slat   : 51.39
 Area-nlat   : 55.43
 Area-llon   : -10.56
 Area-rlon   : -5.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5732
 Latest-WKID : 5732
@@ -1677,8 +1551,6 @@ Area-slat   : 53.96
 Area-nlat   : 55.36
 Area-llon   : -8.18
 Area-rlon   : -5.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5733
 Latest-WKID : 5733
@@ -1703,8 +1575,6 @@ Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
 Area-rlon   : 15.25
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5734
 Latest-WKID : 5734
@@ -1729,8 +1599,6 @@ Area-slat   : 37.89
 Area-nlat   : 42.59
 Area-llon   : 48.66
 Area-rlon   : 51.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5735
 Latest-WKID : 5735
@@ -1755,8 +1623,6 @@ Area-slat   : 41.04
 Area-nlat   : 43.59
 Area-llon   : 39.99
 Area-rlon   : 46.72
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5736
 Latest-WKID : 5736
@@ -1781,8 +1647,6 @@ Area-slat   : 18.11
 Area-nlat   : 53.56
 Area-llon   : 73.62
 Area-rlon   : 134.77
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5737
 Latest-WKID : 5737
@@ -1807,8 +1671,6 @@ Area-slat   : 18.11
 Area-nlat   : 53.56
 Area-llon   : 73.62
 Area-rlon   : 134.77
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5738
 Latest-WKID : 5738
@@ -1833,8 +1695,6 @@ Area-slat   : 22.19
 Area-nlat   : 22.56
 Area-llon   : 113.82
 Area-rlon   : 114.39
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5739
 Latest-WKID : 5739
@@ -1859,8 +1719,6 @@ Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
 Area-rlon   : 114.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5740
 Latest-WKID : 5740
@@ -1885,8 +1743,6 @@ Area-slat   : 58.72
 Area-nlat   : 59.41
 Area-llon   : -3.48
 Area-rlon   : -2.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5741
 Latest-WKID : 5741
@@ -1911,8 +1767,6 @@ Area-slat   : 59.45
 Area-nlat   : 59.6
 Area-llon   : -1.76
 Area-rlon   : -1.5
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5742
 Latest-WKID : 5742
@@ -1937,8 +1791,6 @@ Area-slat   : 59.83
 Area-nlat   : 60.87
 Area-llon   : -1.78
 Area-rlon   : -0.67
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5743
 Latest-WKID : 5743
@@ -1963,8 +1815,6 @@ Area-slat   : 60.06
 Area-nlat   : 60.2
 Area-llon   : -2.21
 Area-rlon   : -1.95
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5744
 Latest-WKID : 5744
@@ -1989,8 +1839,6 @@ Area-slat   : 59.05
 Area-nlat   : 59.13
 Area-llon   : -4.5
 Area-rlon   : -4.3
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5745
 Latest-WKID : 5745
@@ -2015,8 +1863,6 @@ Area-slat   : 59.07
 Area-nlat   : 59.19
 Area-llon   : -5.92
 Area-rlon   : -5.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5746
 Latest-WKID : 5746
@@ -2041,8 +1887,6 @@ Area-slat   : 56.76
 Area-nlat   : 58.54
 Area-llon   : -7.72
 Area-rlon   : -6.1
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5747
 Latest-WKID : 5747
@@ -2067,8 +1911,6 @@ Area-slat   : 57.74
 Area-nlat   : 57.93
 Area-llon   : -8.74
 Area-rlon   : -8.41
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5748
 Latest-WKID : 5748
@@ -2093,8 +1935,6 @@ Area-slat   : 58.21
 Area-nlat   : 58.35
 Area-llon   : -7.75
 Area-rlon   : -7.46
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5749
 Latest-WKID : 5749
@@ -2119,8 +1959,6 @@ Area-slat   : 49.86
 Area-nlat   : 49.99
 Area-llon   : -6.41
 Area-rlon   : -6.23
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5750
 Latest-WKID : 5750
@@ -2145,8 +1983,6 @@ Area-slat   : 54.02
 Area-nlat   : 54.44
 Area-llon   : -4.87
 Area-rlon   : -4.27
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5751
 Latest-WKID : 5751
@@ -2171,8 +2007,6 @@ Area-slat   : 29.06
 Area-nlat   : 33.5
 Area-llon   : 44.3
 Area-rlon   : 51.06
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5752
 Latest-WKID : 5752
@@ -2197,8 +2031,6 @@ Area-slat   : 25.02
 Area-nlat   : 39.78
 Area-llon   : 44.03
 Area-rlon   : 63.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5753
 Latest-WKID : 5753
@@ -2223,8 +2055,6 @@ Area-slat   : -22.45
 Area-nlat   : -20.03
 Area-llon   : 163.92
 Area-rlon   : 167.09
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5754
 Latest-WKID : 5754
@@ -2249,8 +2079,6 @@ Area-slat   : 51.39
 Area-nlat   : 55.43
 Area-llon   : -10.56
 Area-rlon   : -5.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5755
 Latest-WKID : 5755
@@ -2275,8 +2103,6 @@ Area-slat   : 2.11
 Area-nlat   : 5.81
 Area-llon   : -54.61
 Area-rlon   : -51.61
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5756
 Latest-WKID : 5756
@@ -2301,8 +2127,6 @@ Area-slat   : 14.35
 Area-nlat   : 14.93
 Area-llon   : -61.29
 Area-rlon   : -60.76
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5757
 Latest-WKID : 5757
@@ -2327,8 +2151,6 @@ Area-slat   : 15.88
 Area-nlat   : 16.55
 Area-llon   : -61.85
 Area-rlon   : -61.15
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5758
 Latest-WKID : 5758
@@ -2353,8 +2175,6 @@ Area-slat   : -21.42
 Area-nlat   : -20.81
 Area-llon   : 55.16
 Area-rlon   : 55.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5759
 Latest-WKID : 5759
@@ -2379,8 +2199,6 @@ Area-slat   : -37.67
 Area-nlat   : -36.12
 Area-llon   : 174.0
 Area-rlon   : 176.17
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5760
 Latest-WKID : 5760
@@ -2405,8 +2223,6 @@ Area-slat   : -46.71
 Area-nlat   : -46.26
 Area-llon   : 168.01
 Area-rlon   : 168.86
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5761
 Latest-WKID : 5761
@@ -2431,8 +2247,6 @@ Area-slat   : -46.4
 Area-nlat   : -43.82
 Area-llon   : 167.73
 Area-rlon   : 171.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5762
 Latest-WKID : 5762
@@ -2457,8 +2271,6 @@ Area-slat   : -39.04
 Area-nlat   : -37.49
 Area-llon   : 176.41
 Area-rlon   : 178.63
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5763
 Latest-WKID : 5763
@@ -2483,8 +2295,6 @@ Area-slat   : -44.92
 Area-nlat   : -41.6
 Area-llon   : 168.95
 Area-rlon   : 173.77
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5764
 Latest-WKID : 5764
@@ -2509,8 +2319,6 @@ Area-slat   : -40.59
 Area-nlat   : -37.52
 Area-llon   : 174.57
 Area-rlon   : 177.26
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5765
 Latest-WKID : 5765
@@ -2535,8 +2343,6 @@ Area-slat   : -40.57
 Area-nlat   : -38.87
 Area-llon   : 175.8
 Area-rlon   : 178.07
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5766
 Latest-WKID : 5766
@@ -2561,8 +2367,6 @@ Area-slat   : -42.44
 Area-nlat   : -40.44
 Area-llon   : 171.82
 Area-rlon   : 174.46
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5767
 Latest-WKID : 5767
@@ -2587,8 +2391,6 @@ Area-slat   : -36.41
 Area-nlat   : -34.36
 Area-llon   : 172.61
 Area-rlon   : 174.83
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5768
 Latest-WKID : 5768
@@ -2613,8 +2415,6 @@ Area-slat   : -37.21
 Area-nlat   : -36.78
 Area-llon   : 175.44
 Area-rlon   : 175.99
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5769
 Latest-WKID : 5769
@@ -2639,8 +2439,6 @@ Area-slat   : -39.92
 Area-nlat   : -38.41
 Area-llon   : 173.68
 Area-rlon   : 174.95
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5770
 Latest-WKID : 5770
@@ -2665,8 +2463,6 @@ Area-slat   : -41.67
 Area-nlat   : -40.12
 Area-llon   : 174.52
 Area-rlon   : 176.55
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5771
 Latest-WKID : 5771
@@ -2691,8 +2487,6 @@ Area-slat   : -44.18
 Area-nlat   : -43.67
 Area-llon   : -176.92
 Area-rlon   : -176.2
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5772
 Latest-WKID : 5772
@@ -2717,8 +2511,6 @@ Area-slat   : -47.33
 Area-nlat   : -46.63
 Area-llon   : 167.29
 Area-rlon   : 168.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5773
 Latest-WKID : 5773
@@ -2743,8 +2535,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5774
 Latest-WKID : 5774
@@ -2769,8 +2559,6 @@ Area-slat   : 49.44
 Area-nlat   : 50.19
 Area-llon   : 5.73
 Area-rlon   : 6.53
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5775
 Latest-WKID : 5775
@@ -2795,8 +2583,6 @@ Area-slat   : 35.81
 Area-nlat   : 42.15
 Area-llon   : 25.62
 Area-rlon   : 44.83
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5776
 Latest-WKID : 5776
@@ -2817,12 +2603,10 @@ Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Norway - onshore
-Area-slat   : 57.93
-Area-nlat   : 71.21
-Area-llon   : 4.68
-Area-rlon   : 31.22
-FrameEpoch  : 
-DeformationModel: ""
+Area-slat   : 57.9
+Area-nlat   : 71.24
+Area-llon   : 4.39
+Area-rlon   : 31.32
 
 WKID        : 5777
 Latest-WKID : 5777
@@ -2847,8 +2631,6 @@ Area-slat   : 39.64
 Area-nlat   : 42.67
 Area-llon   : 19.22
 Area-rlon   : 21.06
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5778
 Latest-WKID : 5778
@@ -2873,8 +2655,6 @@ Area-slat   : 46.4
 Area-nlat   : 49.02
 Area-llon   : 9.53
 Area-rlon   : 17.17
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5779
 Latest-WKID : 5779
@@ -2899,8 +2679,6 @@ Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5780
 Latest-WKID : 5780
@@ -2925,8 +2703,6 @@ Area-slat   : 36.95
 Area-nlat   : 42.16
 Area-llon   : -9.56
 Area-rlon   : -6.19
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5781
 Latest-WKID : 5781
@@ -2951,8 +2727,6 @@ Area-slat   : 43.62
 Area-nlat   : 48.27
 Area-llon   : 20.26
 Area-rlon   : 29.74
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5782
 Latest-WKID : 5782
@@ -2977,8 +2751,6 @@ Area-slat   : 35.95
 Area-nlat   : 43.82
 Area-llon   : -9.37
 Area-rlon   : 3.39
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5783
 Latest-WKID : 5783
@@ -3003,8 +2775,6 @@ Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
 Area-rlon   : 15.04
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5784
 Latest-WKID : 5784
@@ -3029,8 +2799,6 @@ Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
 Area-rlon   : 13.84
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5785
 Latest-WKID : 5785
@@ -3055,8 +2823,6 @@ Area-slat   : 50.2
 Area-nlat   : 54.74
 Area-llon   : 9.92
 Area-rlon   : 15.04
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5786
 Latest-WKID : 5786
@@ -3081,8 +2847,6 @@ Area-slat   : 41.24
 Area-nlat   : 44.23
 Area-llon   : 22.36
 Area-rlon   : 28.68
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5787
 Latest-WKID : 5787
@@ -3107,8 +2871,6 @@ Area-slat   : 45.74
 Area-nlat   : 48.58
 Area-llon   : 16.11
 Area-rlon   : 22.9
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5788
 Latest-WKID : 5788
@@ -3133,8 +2895,6 @@ Area-slat   : 28.53
 Area-nlat   : 30.09
 Area-llon   : 46.54
 Area-rlon   : 48.48
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5789
 Latest-WKID : 5789
@@ -3159,8 +2919,6 @@ Area-slat   : 28.53
 Area-nlat   : 30.09
 Area-llon   : 46.54
 Area-rlon   : 48.48
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5790
 Latest-WKID : 5790
@@ -3185,8 +2943,6 @@ Area-slat   : 28.53
 Area-nlat   : 30.09
 Area-llon   : 46.54
 Area-rlon   : 48.48
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5791
 Latest-WKID : 5791
@@ -3211,8 +2967,6 @@ Area-slat   : 41.31
 Area-nlat   : 43.07
 Area-llon   : 8.5
 Area-rlon   : 9.63
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5792
 Latest-WKID : 5792
@@ -3237,8 +2991,6 @@ Area-slat   : 46.69
 Area-nlat   : 47.19
 Area-llon   : -56.48
 Area-rlon   : -56.07
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5793
 Latest-WKID : 5793
@@ -3263,8 +3015,6 @@ Area-slat   : -13.05
 Area-nlat   : -12.61
 Area-llon   : 44.98
 Area-rlon   : 45.35
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5794
 Latest-WKID : 5794
@@ -3289,8 +3039,6 @@ Area-slat   : 14.35
 Area-nlat   : 14.93
 Area-llon   : -61.29
 Area-rlon   : -60.76
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5795
 Latest-WKID : 5795
@@ -3315,8 +3063,6 @@ Area-slat   : 15.88
 Area-nlat   : 16.55
 Area-llon   : -61.85
 Area-rlon   : -61.15
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5796
 Latest-WKID : 5796
@@ -3341,8 +3087,6 @@ Area-slat   : 4.22
 Area-nlat   : 13.9
 Area-llon   : 2.69
 Area-rlon   : 14.65
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5797
 Latest-WKID : 5797
@@ -3367,8 +3111,6 @@ Area-slat   : 37.89
 Area-nlat   : 42.59
 Area-llon   : 48.66
 Area-rlon   : 51.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5798
 Latest-WKID : 5798
@@ -3393,8 +3135,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5799
 Latest-WKID : 5799
@@ -3419,8 +3159,6 @@ Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
 Area-rlon   : 15.25
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5829
 Latest-WKID : 5829
@@ -3445,8 +3183,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5831
 Latest-WKID : 5831
@@ -3471,8 +3207,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5843
 Latest-WKID : 5843
@@ -3497,8 +3231,6 @@ Area-slat   : 22.63
 Area-nlat   : 24.95
 Area-llon   : 51.56
 Area-rlon   : 56.03
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5861
 Latest-WKID : 5861
@@ -3523,8 +3255,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5862
 Latest-WKID : 5862
@@ -3549,8 +3279,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5863
 Latest-WKID : 5863
@@ -3575,8 +3303,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5864
 Latest-WKID : 5864
@@ -3601,8 +3327,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5865
 Latest-WKID : 5865
@@ -3627,8 +3351,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5866
 Latest-WKID : 5866
@@ -3653,8 +3375,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5867
 Latest-WKID : 5867
@@ -3679,8 +3399,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5868
 Latest-WKID : 5868
@@ -3705,8 +3423,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5869
 Latest-WKID : 5869
@@ -3731,8 +3447,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5870
 Latest-WKID : 5870
@@ -3757,8 +3471,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5871
 Latest-WKID : 5871
@@ -3783,8 +3495,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5872
 Latest-WKID : 5872
@@ -3809,8 +3519,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5873
 Latest-WKID : 5873
@@ -3835,8 +3543,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5874
 Latest-WKID : 5874
@@ -3861,8 +3567,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 5941
 Latest-WKID : 5941
@@ -3883,12 +3587,10 @@ Authority   : EPSG
 Version     : 8.1.1(10.2.0)
 Deprecated  : no
 Area-name   : Norway - onshore
-Area-slat   : 57.93
-Area-nlat   : 71.21
-Area-llon   : 4.68
-Area-rlon   : 31.22
-FrameEpoch  : 
-DeformationModel: ""
+Area-slat   : 57.9
+Area-nlat   : 71.24
+Area-llon   : 4.39
+Area-rlon   : 31.32
 
 WKID        : 6130
 Latest-WKID : 6130
@@ -3913,8 +3615,6 @@ Area-slat   : 19.21
 Area-nlat   : 19.41
 Area-llon   : -81.46
 Area-rlon   : -81.04
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6131
 Latest-WKID : 6131
@@ -3939,8 +3639,6 @@ Area-slat   : 19.63
 Area-nlat   : 19.74
 Area-llon   : -80.14
 Area-rlon   : -79.93
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6132
 Latest-WKID : 6132
@@ -3965,8 +3663,6 @@ Area-slat   : 19.66
 Area-nlat   : 19.78
 Area-llon   : -79.92
 Area-rlon   : -79.69
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6178
 Latest-WKID : 6178
@@ -3991,8 +3687,6 @@ Area-slat   : 32.35
 Area-nlat   : 32.93
 Area-llon   : -17.31
 Area-rlon   : -16.4
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6179
 Latest-WKID : 6179
@@ -4017,8 +3711,6 @@ Area-slat   : 32.96
 Area-nlat   : 33.15
 Area-llon   : -16.44
 Area-rlon   : -16.23
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6180
 Latest-WKID : 6180
@@ -4043,8 +3735,6 @@ Area-slat   : 38.48
 Area-nlat   : 38.8
 Area-llon   : -28.37
 Area-rlon   : -27.71
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6181
 Latest-WKID : 6181
@@ -4069,8 +3759,6 @@ Area-slat   : 38.46
 Area-nlat   : 38.7
 Area-llon   : -28.9
 Area-rlon   : -28.54
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6182
 Latest-WKID : 6182
@@ -4095,8 +3783,6 @@ Area-slat   : 38.32
 Area-nlat   : 38.61
 Area-llon   : -28.61
 Area-rlon   : -27.98
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6183
 Latest-WKID : 6183
@@ -4121,8 +3807,6 @@ Area-slat   : 38.97
 Area-nlat   : 39.14
 Area-llon   : -28.13
 Area-rlon   : -27.88
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6184
 Latest-WKID : 6184
@@ -4147,8 +3831,6 @@ Area-slat   : 38.57
 Area-nlat   : 38.86
 Area-llon   : -27.44
 Area-rlon   : -26.97
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6185
 Latest-WKID : 6185
@@ -4173,8 +3855,6 @@ Area-slat   : 39.3
 Area-nlat   : 39.77
 Area-llon   : -31.34
 Area-rlon   : -31.02
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6186
 Latest-WKID : 6186
@@ -4199,8 +3879,6 @@ Area-slat   : 36.87
 Area-nlat   : 37.34
 Area-llon   : -25.26
 Area-rlon   : -24.72
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6187
 Latest-WKID : 6187
@@ -4225,8 +3903,6 @@ Area-slat   : 37.65
 Area-nlat   : 37.96
 Area-llon   : -25.92
 Area-rlon   : -25.08
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6357
 Latest-WKID : 6357
@@ -4251,8 +3927,6 @@ Area-slat   : 14.51
 Area-nlat   : 71.4
 Area-llon   : 172.42
 Area-rlon   : -66.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6358
 Latest-WKID : 6358
@@ -4277,8 +3951,6 @@ Area-slat   : 24.41
 Area-nlat   : 71.4
 Area-llon   : -168.26
 Area-rlon   : -66.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6359
 Latest-WKID : 6359
@@ -4303,8 +3975,6 @@ Area-slat   : 24.41
 Area-nlat   : 49.38
 Area-llon   : -124.79
 Area-rlon   : -66.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6360
 Latest-WKID : 6360
@@ -4329,8 +3999,6 @@ Area-slat   : 24.41
 Area-nlat   : 71.4
 Area-llon   : -168.26
 Area-rlon   : -66.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6638
 Latest-WKID : 6638
@@ -4355,8 +4023,6 @@ Area-slat   : -14.43
 Area-nlat   : -14.2
 Area-llon   : -170.88
 Area-rlon   : -170.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6639
 Latest-WKID : 6639
@@ -4381,8 +4047,6 @@ Area-slat   : 13.18
 Area-nlat   : 13.7
 Area-llon   : 144.58
 Area-rlon   : 145.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6640
 Latest-WKID : 6640
@@ -4407,8 +4071,6 @@ Area-slat   : 14.06
 Area-nlat   : 15.35
 Area-llon   : 145.06
 Area-rlon   : 145.89
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6641
 Latest-WKID : 6641
@@ -4433,8 +4095,6 @@ Area-slat   : 17.87
 Area-nlat   : 18.57
 Area-llon   : -67.97
 Area-rlon   : -65.19
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6642
 Latest-WKID : 6642
@@ -4459,8 +4119,6 @@ Area-slat   : 17.62
 Area-nlat   : 18.44
 Area-llon   : -65.09
 Area-rlon   : -64.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6643
 Latest-WKID : 6643
@@ -4485,8 +4143,6 @@ Area-slat   : -14.43
 Area-nlat   : -14.2
 Area-llon   : -170.88
 Area-rlon   : -170.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6644
 Latest-WKID : 6644
@@ -4511,8 +4167,6 @@ Area-slat   : 13.18
 Area-nlat   : 13.7
 Area-llon   : 144.58
 Area-rlon   : 145.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6647
 Latest-WKID : 6647
@@ -4537,8 +4191,6 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6693
 Latest-WKID : 6693
@@ -4563,8 +4215,6 @@ Area-slat   : 41.34
 Area-nlat   : 45.54
 Area-llon   : 139.7
 Area-rlon   : 145.87
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6694
 Latest-WKID : 6694
@@ -4589,8 +4239,6 @@ Area-slat   : 30.94
 Area-nlat   : 45.54
 Area-llon   : 129.3
 Area-rlon   : 145.87
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6695
 Latest-WKID : 6695
@@ -4615,8 +4263,6 @@ Area-slat   : 30.94
 Area-nlat   : 45.54
 Area-llon   : 129.3
 Area-rlon   : 145.87
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 6916
 Latest-WKID : 6916
@@ -4641,8 +4287,6 @@ Area-slat   : 1.13
 Area-nlat   : 1.47
 Area-llon   : 103.59
 Area-rlon   : 104.07
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7446
 Latest-WKID : 7446
@@ -4667,8 +4311,6 @@ Area-slat   : 34.59
 Area-nlat   : 35.74
 Area-llon   : 32.2
 Area-rlon   : 34.65
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7447
 Latest-WKID : 7447
@@ -4693,8 +4335,6 @@ Area-slat   : -12.0
 Area-nlat   : 0.01
 Area-llon   : 140.0
 Area-rlon   : 158.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7651
 Latest-WKID : 7651
@@ -4719,8 +4359,6 @@ Area-slat   : -8.28
 Area-nlat   : -5.59
 Area-llon   : 142.24
 Area-rlon   : 144.75
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7652
 Latest-WKID : 7652
@@ -4745,8 +4383,6 @@ Area-slat   : -9.35
 Area-nlat   : -5.0
 Area-llon   : 140.85
 Area-rlon   : 144.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7699
 Latest-WKID : 7699
@@ -4771,8 +4407,6 @@ Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
 Area-rlon   : 15.04
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7700
 Latest-WKID : 7700
@@ -4797,8 +4431,6 @@ Area-slat   : 55.67
 Area-nlat   : 58.09
 Area-llon   : 20.87
 Area-rlon   : 28.24
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7707
 Latest-WKID : 7707
@@ -4821,10 +4453,8 @@ Deprecated  : no
 Area-name   : UK - offshore 49~45'N to 61~N, 9~W to 2~E
 Area-slat   : 49.75
 Area-nlat   : 61.01
-Area-llon   : -9.0
+Area-llon   : -9.01
 Area-rlon   : 2.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7832
 Latest-WKID : 7832
@@ -4850,8 +4480,6 @@ Area-slat   : -10.42
 Area-nlat   : -6.67
 Area-llon   : 144.4
 Area-rlon   : 149.67
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7837
 Latest-WKID : 7837
@@ -4871,13 +4499,11 @@ Description : Germany - DHHN2016 (height)
 Authority   : EPSG
 Version     : 8.9.4(10.5.0)
 Deprecated  : no
-Area-name   : Germany - onshore
+Area-name   : Germany
 Area-slat   : 47.27
-Area-nlat   : 55.09
-Area-llon   : 5.86
+Area-nlat   : 55.92
+Area-llon   : 3.34
 Area-rlon   : 15.04
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7839
 Latest-WKID : 7839
@@ -4902,8 +4528,6 @@ Area-slat   : -55.95
 Area-nlat   : -25.88
 Area-llon   : 160.6
 Area-rlon   : -171.2
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7841
 Latest-WKID : 7841
@@ -4929,8 +4553,6 @@ Area-slat   : -10.42
 Area-nlat   : -6.67
 Area-llon   : 144.4
 Area-rlon   : 149.67
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7888
 Latest-WKID : 7888
@@ -4955,8 +4577,6 @@ Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
 Area-rlon   : -5.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7889
 Latest-WKID : 7889
@@ -4981,8 +4601,6 @@ Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
 Area-rlon   : -5.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7890
 Latest-WKID : 7890
@@ -5007,8 +4625,6 @@ Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
 Area-rlon   : -5.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7962
 Latest-WKID : 7962
@@ -5033,8 +4649,6 @@ Area-slat   : 51.39
 Area-nlat   : 55.43
 Area-llon   : -10.56
 Area-rlon   : -5.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7968
 Latest-WKID : 7968
@@ -5059,8 +4673,6 @@ Area-slat   : 24.41
 Area-nlat   : 49.38
 Area-llon   : -124.79
 Area-rlon   : -66.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7976
 Latest-WKID : 7976
@@ -5085,8 +4697,6 @@ Area-slat   : 22.19
 Area-nlat   : 22.56
 Area-llon   : 113.82
 Area-rlon   : 114.39
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 7979
 Latest-WKID : 7979
@@ -5111,8 +4721,6 @@ Area-slat   : 28.53
 Area-nlat   : 30.09
 Area-llon   : 46.54
 Area-rlon   : 48.48
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8050
 Latest-WKID : 8050
@@ -5137,8 +4745,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8051
 Latest-WKID : 8051
@@ -5163,8 +4769,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8052
 Latest-WKID : 8052
@@ -5189,8 +4793,6 @@ Area-slat   : 15.56
 Area-nlat   : 74.71
 Area-llon   : 167.65
 Area-rlon   : -65.69
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8053
 Latest-WKID : 8053
@@ -5215,8 +4817,6 @@ Area-slat   : 15.56
 Area-nlat   : 74.71
 Area-llon   : 167.65
 Area-rlon   : -65.69
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8089
 Latest-WKID : 8089
@@ -5236,13 +4836,11 @@ Description : ISH2004 (height)
 Authority   : EPSG
 Version     : 9.1(10.6.0)
 Deprecated  : no
-Area-name   : Iceland - mainland
-Area-slat   : 63.34
-Area-nlat   : 66.59
+Area-name   : Iceland - onshore
+Area-slat   : 63.24
+Area-nlat   : 66.62
 Area-llon   : -24.66
 Area-rlon   : -13.38
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8228
 Latest-WKID : 8228
@@ -5267,8 +4865,6 @@ Area-slat   : 31.33
 Area-nlat   : 49.01
 Area-llon   : -124.6
 Area-rlon   : -78.52
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8266
 Latest-WKID : 8266
@@ -5293,8 +4889,6 @@ Area-slat   : 59.0
 Area-nlat   : 84.01
 Area-llon   : -75.0
 Area-rlon   : -10.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8267
 Latest-WKID : 8267
@@ -5319,8 +4913,6 @@ Area-slat   : 58.0
 Area-nlat   : 85.01
 Area-llon   : -75.0
 Area-rlon   : -6.99
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8357
 Latest-WKID : 8357
@@ -5345,8 +4937,6 @@ Area-slat   : 47.73
 Area-nlat   : 51.06
 Area-llon   : 12.09
 Area-rlon   : 22.56
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8358
 Latest-WKID : 8358
@@ -5371,8 +4961,6 @@ Area-slat   : 47.73
 Area-nlat   : 51.06
 Area-llon   : 12.09
 Area-rlon   : 22.56
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8434
 Latest-WKID : 8434
@@ -5397,8 +4985,6 @@ Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
 Area-rlon   : 113.68
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8675
 Latest-WKID : 8675
@@ -5423,8 +5009,6 @@ Area-slat   : 59.75
 Area-nlat   : 66.73
 Area-llon   : 20.95
 Area-rlon   : 31.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8690
 Latest-WKID : 8690
@@ -5449,8 +5033,6 @@ Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8691
 Latest-WKID : 8691
@@ -5475,8 +5057,6 @@ Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
 Area-rlon   : 23.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8841
 Latest-WKID : 8841
@@ -5501,8 +5081,6 @@ Area-slat   : 16.37
 Area-nlat   : 32.16
 Area-llon   : 34.51
 Area-rlon   : 55.67
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8881
 Latest-WKID : 8881
@@ -5527,8 +5105,6 @@ Area-slat   : 48.12
 Area-nlat   : 48.34
 Area-llon   : 16.18
 Area-rlon   : 16.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8904
 Latest-WKID : 8904
@@ -5553,8 +5129,6 @@ Area-slat   : 21.87
 Area-nlat   : 25.34
 Area-llon   : 119.99
 Area-rlon   : 122.06
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 8911
 Latest-WKID : 8911
@@ -5579,8 +5153,6 @@ Area-slat   : 7.98
 Area-nlat   : 11.22
 Area-llon   : -85.97
 Area-rlon   : -82.53
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9130
 Latest-WKID : 9130
@@ -5605,8 +5177,6 @@ Area-slat   : 16.26
 Area-nlat   : 16.38
 Area-llon   : -61.13
 Area-rlon   : -60.97
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9245
 Latest-WKID : 9245
@@ -5631,8 +5201,6 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9255
 Latest-WKID : 9255
@@ -5657,8 +5225,6 @@ Area-slat   : -55.11
 Area-nlat   : -21.78
 Area-llon   : -73.59
 Area-rlon   : -53.65
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9274
 Latest-WKID : 9274
@@ -5683,8 +5249,6 @@ Area-slat   : 46.4
 Area-nlat   : 49.02
 Area-llon   : 9.53
 Area-rlon   : 17.17
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9279
 Latest-WKID : 9279
@@ -5709,8 +5273,6 @@ Area-slat   : -34.88
 Area-nlat   : -22.13
 Area-llon   : 16.45
 Area-rlon   : 32.95
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9287
 Latest-WKID : 9287
@@ -5735,8 +5297,6 @@ Area-slat   : 51.45
 Area-nlat   : 55.77
 Area-llon   : 2.53
 Area-rlon   : 6.41
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9288
 Latest-WKID : 9288
@@ -5761,8 +5321,6 @@ Area-slat   : 51.45
 Area-nlat   : 55.77
 Area-llon   : 2.53
 Area-rlon   : 6.41
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9303
 Latest-WKID : 9303
@@ -5787,8 +5345,6 @@ Area-slat   : 51.45
 Area-nlat   : 53.3
 Area-llon   : -2.75
 Area-rlon   : 0.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9335
 Latest-WKID : 9335
@@ -5813,8 +5369,6 @@ Area-slat   : 16.37
 Area-nlat   : 32.16
 Area-llon   : 34.51
 Area-rlon   : 55.67
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9351
 Latest-WKID : 9351
@@ -5840,8 +5394,6 @@ Area-slat   : -22.73
 Area-nlat   : -19.5
 Area-llon   : 163.54
 Area-rlon   : 168.19
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9389
 Latest-WKID : 9389
@@ -5866,8 +5418,6 @@ Area-slat   : 35.95
 Area-nlat   : 77.07
 Area-llon   : -9.56
 Area-rlon   : 69.15
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9390
 Latest-WKID : 9390
@@ -5892,8 +5442,6 @@ Area-slat   : 35.95
 Area-nlat   : 77.07
 Area-llon   : -9.56
 Area-rlon   : 69.15
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9392
 Latest-WKID : 9392
@@ -5918,8 +5466,6 @@ Area-slat   : 39.07
 Area-nlat   : 40.02
 Area-llon   : 2.23
 Area-rlon   : 3.55
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9393
 Latest-WKID : 9393
@@ -5944,8 +5490,6 @@ Area-slat   : 39.75
 Area-nlat   : 40.15
 Area-llon   : 3.73
 Area-rlon   : 4.39
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9394
 Latest-WKID : 9394
@@ -5965,13 +5509,11 @@ Description : Ibiza height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Balearic Islands - Ibiza and Formentera
-Area-slat   : 38.59
+Area-name   : Spain - Balearic Islands - Ibiza
+Area-slat   : 38.77
 Area-nlat   : 39.17
 Area-llon   : 1.12
 Area-rlon   : 1.68
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9395
 Latest-WKID : 9395
@@ -5996,8 +5538,6 @@ Area-slat   : 28.78
 Area-nlat   : 29.47
 Area-llon   : -13.95
 Area-rlon   : -13.37
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9396
 Latest-WKID : 9396
@@ -6022,8 +5562,6 @@ Area-slat   : 27.99
 Area-nlat   : 28.81
 Area-llon   : -14.58
 Area-rlon   : -13.75
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9397
 Latest-WKID : 9397
@@ -6048,8 +5586,6 @@ Area-slat   : 27.68
 Area-nlat   : 28.23
 Area-llon   : -15.88
 Area-rlon   : -15.31
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9398
 Latest-WKID : 9398
@@ -6074,8 +5610,6 @@ Area-slat   : 27.93
 Area-nlat   : 28.63
 Area-llon   : -16.96
 Area-rlon   : -16.08
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9399
 Latest-WKID : 9399
@@ -6100,8 +5634,6 @@ Area-slat   : 27.95
 Area-nlat   : 28.26
 Area-llon   : -17.39
 Area-rlon   : -17.03
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9400
 Latest-WKID : 9400
@@ -6126,8 +5658,6 @@ Area-slat   : 28.4
 Area-nlat   : 28.9
 Area-llon   : -18.06
 Area-rlon   : -17.66
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9401
 Latest-WKID : 9401
@@ -6152,8 +5682,6 @@ Area-slat   : 27.58
 Area-nlat   : 27.9
 Area-llon   : -18.22
 Area-rlon   : -17.83
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9402
 Latest-WKID : 9402
@@ -6178,8 +5706,6 @@ Area-slat   : 35.82
 Area-nlat   : 35.97
 Area-llon   : -5.4
 Area-rlon   : -5.24
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9451
 Latest-WKID : 9451
@@ -6204,8 +5730,6 @@ Area-slat   : 49.75
 Area-nlat   : 61.01
 Area-llon   : -10.85
 Area-rlon   : 2.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9458
 Latest-WKID : 9458
@@ -6230,8 +5754,6 @@ Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
 Area-rlon   : 173.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9471
 Latest-WKID : 9471
@@ -6256,8 +5778,6 @@ Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
 Area-rlon   : 141.46
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9650
 Latest-WKID : 9650
@@ -6274,16 +5794,14 @@ WKT2        : VERTCRS["Baltic_1986_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Baltic 1986 height
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.016(12.9.0)
 Deprecated  : no
 Area-name   : Poland - onshore
 Area-slat   : 49.0
 Area-nlat   : 54.89
 Area-llon   : 14.14
 Area-rlon   : 24.15
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9651
 Latest-WKID : 9651
@@ -6300,16 +5818,14 @@ WKT2        : VERTCRS["EVRF_2007_PL_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : EVRF2007-PL height
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.016(12.9.0)
 Deprecated  : no
 Area-name   : Poland - onshore
 Area-slat   : 49.0
 Area-nlat   : 54.89
 Area-llon   : 14.14
 Area-rlon   : 24.15
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9663
 Latest-WKID : 9663
@@ -6334,8 +5850,6 @@ Area-slat   : 57.52
 Area-nlat   : 59.75
 Area-llon   : 21.74
 Area-rlon   : 28.2
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9666
 Latest-WKID : 9666
@@ -6360,8 +5874,6 @@ Area-slat   : 53.89
 Area-nlat   : 56.45
 Area-llon   : 20.86
 Area-rlon   : 26.82
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9669
 Latest-WKID : 9669
@@ -6386,8 +5898,6 @@ Area-slat   : 41.24
 Area-nlat   : 44.23
 Area-llon   : 22.36
 Area-rlon   : 28.68
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9672
 Latest-WKID : 9672
@@ -6412,8 +5922,6 @@ Area-slat   : 56.08
 Area-nlat   : 84.73
 Area-llon   : -13.63
 Area-rlon   : 38.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9675
 Latest-WKID : 9675
@@ -6438,8 +5946,6 @@ Area-slat   : -14.43
 Area-nlat   : -14.2
 Area-llon   : -170.88
 Area-rlon   : -170.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9681
 Latest-WKID : 9681
@@ -6464,8 +5970,6 @@ Area-slat   : 20.52
 Area-nlat   : 26.64
 Area-llon   : 88.01
 Area-rlon   : 92.67
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9721
 Latest-WKID : 9721
@@ -6482,16 +5986,14 @@ WKT2        : VERTCRS["Catania_1965_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Catania 1965 height
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.021(12.9.0)
 Deprecated  : no
 Area-name   : Italy - Sicily onshore
 Area-slat   : 36.59
 Area-nlat   : 38.35
 Area-llon   : 12.36
 Area-rlon   : 15.71
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9722
 Latest-WKID : 9722
@@ -6508,16 +6010,14 @@ WKT2        : VERTCRS["Cagliari_1956_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Cagliari 1956 height
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.021(12.9.0)
 Deprecated  : no
 Area-name   : Italy - Sardinia onshore
 Area-slat   : 38.82
 Area-nlat   : 41.31
 Area-llon   : 8.08
 Area-rlon   : 9.89
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9923
 Latest-WKID : 9923
@@ -6534,16 +6034,14 @@ WKT2        : VERTCRS["GNTRANS_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : GNTRANS height
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.042(13.1.0)
 Deprecated  : no
 Area-name   : Germany - onshore
 Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
 Area-rlon   : 15.04
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 9927
 Latest-WKID : 9927
@@ -6560,16 +6058,182 @@ WKT2        : VERTCRS["GNTRANS2016_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : GNTRANS2016 height
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.042(13.1.0)
 Deprecated  : no
 Area-name   : Germany - onshore
 Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
 Area-rlon   : 15.04
-FrameEpoch  : 
-DeformationModel: ""
+
+WKID        : 10150
+Latest-WKID : 10150
+Macro       : PE_VCS_MSL_UK_IRELAND_VORF08_DEPTH
+Name        : MSL_UK_Ireland_VORF08_depth
+WKT         : VERTCS["MSL_UK_Ireland_VORF08_depth",
+               VDATUM["Mean_Sea_Level_UK_Ireland_VORF08"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["MSL_UK_Ireland_VORF08_depth",
+               VDATUM["Mean_Sea_Level_UK_Ireland_VORF08"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : MSL UK and Ireland VORF08 depth
+Authority   : EPSG
+Version     : 10.077(13.2.0)
+Deprecated  : no
+Area-name   : Europe - Ireland and UK offshore
+Area-slat   : 47.42
+Area-nlat   : 63.89
+Area-llon   : -16.1
+Area-rlon   : 3.4
+
+WKID        : 10151
+Latest-WKID : 10151
+Macro       : PE_VCS_CD_UK_IRELAND_VORF08_DEPTH
+Name        : CD_UK_Ireland_VORF08_depth
+WKT         : VERTCS["CD_UK_Ireland_VORF08_depth",
+               VDATUM["Chart_Datum_UK_Ireland_VORF08"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["CD_UK_Ireland_VORF08_depth",
+               VDATUM["Chart_Datum_UK_Ireland_VORF08"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : CD UK and Ireland VORF08 depth
+Authority   : EPSG
+Version     : 10.077(13.2.0)
+Deprecated  : no
+Area-name   : Europe - Ireland and UK offshore
+Area-slat   : 47.42
+Area-nlat   : 63.89
+Area-llon   : -16.1
+Area-rlon   : 3.4
+
+WKID        : 10190
+Latest-WKID : 10190
+Macro       : PE_VCS_NGA_2022_HEIGHT
+Name        : NGA_2022_height
+WKT         : VERTCS["NGA_2022_height",
+               VDATUM["Nivellement_General_de_l_Algerie_2022"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["NGA_2022_height",
+               VDATUM["Nivellement_General_de_l_Algerie_2022"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : NGA 2022 height
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+Area-name   : Algeria - onshore
+Area-slat   : 18.97
+Area-nlat   : 37.14
+Area-llon   : -8.67
+Area-rlon   : 11.99
+
+WKID        : 10349
+Latest-WKID : 10349
+Macro       : PE_VCS_ZH_PORTUGAL_DEPTH
+Name        : ZH_Portugal_depth
+WKT         : VERTCS["ZH_Portugal_depth",
+               VDATUM["Chart_Datum_Portugal"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ZH_Portugal_depth",
+               VDATUM["Chart_Datum_Portugal"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ZH Portugal depth
+Authority   : EPSG
+Version     : 10.094(13.2.0)
+Deprecated  : no
+Area-name   : Portugal - offshore
+Area-slat   : 29.24
+Area-nlat   : 43.07
+Area-llon   : -35.58
+Area-rlon   : -7.25
+
+WKID        : 10352
+Latest-WKID : 10352
+Macro       : PE_VCS_FORMENTERA_HEIGHT
+Name        : Formentera_height
+WKT         : VERTCS["Formentera_height",
+               VDATUM["Formentera"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Formentera_height",
+               VDATUM["Formentera"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Formentera height
+Authority   : EPSG
+Version     : 10.091(13.2.0)
+Deprecated  : no
+Area-name   : Spain - Balearic Islands - Formentera
+Area-slat   : 38.59
+Area-nlat   : 38.86
+Area-llon   : 1.31
+Area-rlon   : 1.65
+
+WKID        : 10353
+Latest-WKID : 10353
+Macro       : PE_VCS_ALBORAN_HEIGHT
+Name        : Alboran_height
+WKT         : VERTCS["Alboran_height",
+               VDATUM["Alboran"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Alboran_height",
+               VDATUM["Alboran"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Alboran height
+Authority   : EPSG
+Version     : 10.091(13.2.0)
+Deprecated  : no
+Area-name   : Spain - Alboran
+Area-slat   : 35.88
+Area-nlat   : 36.0
+Area-llon   : -3.1
+Area-rlon   : -2.96
+
+WKID        : 10354
+Latest-WKID : 10354
+Macro       : PE_VCS_MELILLA_HEIGHT
+Name        : Melilla_height
+WKT         : VERTCS["Melilla_height",
+               VDATUM["Melilla"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Melilla_height",
+               VDATUM["Melilla"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Melilla height
+Authority   : EPSG
+Version     : 10.091(13.2.0)
+Deprecated  : no
+Area-name   : Spain - Melilla
+Area-slat   : 35.26
+Area-nlat   : 35.38
+Area-llon   : -2.98
+Area-rlon   : -2.88
 
 WKID        : 20000
 Latest-WKID : 20000
@@ -6586,16 +6250,14 @@ WKT2        : VERTCRS["SVD2006_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SVD2006 height
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.063(13.1.0)
 Deprecated  : no
 Area-name   : Arctic - 81~10'N to 76~10'N, 4~W to 38~E
 Area-slat   : 76.16
 Area-nlat   : 81.17
 Area-llon   : -3.35
 Area-rlon   : 38.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 20034
 Latest-WKID : 20034
@@ -6612,16 +6274,14 @@ WKT2        : VERTCRS["CGVD2013a(2002)_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : CGVD2013a(2002) height
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.066(13.1.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 20035
 Latest-WKID : 20035
@@ -6638,16 +6298,14 @@ WKT2        : VERTCRS["CGVD2013a(1997)_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : CGVD2013a(1997) height
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.066(13.1.0)
 Deprecated  : no
 Area-name   : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 20036
 Latest-WKID : 20036
@@ -6664,16 +6322,14 @@ WKT2        : VERTCRS["INAGeoid2020_v2_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : INAGeoid2020 v2 height
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.073(13.1.0)
 Deprecated  : no
 Area-name   : Indonesia
 Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
 Area-rlon   : 141.46
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105603
 Latest-WKID : 105603
@@ -6698,8 +6354,6 @@ Area-slat   : 35.26
 Area-nlat   : 43.82
 Area-llon   : -9.37
 Area-rlon   : 4.39
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105700
 Latest-WKID : 105700
@@ -6724,8 +6378,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105701
 Latest-WKID : 5799
@@ -6750,8 +6402,6 @@ Area-slat   : 54.51
 Area-nlat   : 57.8
 Area-llon   : 8.0
 Area-rlon   : 15.25
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105702
 Latest-WKID : 5613
@@ -6776,8 +6426,6 @@ Area-slat   : 55.28
 Area-nlat   : 69.07
 Area-llon   : 10.93
 Area-rlon   : 24.17
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105703
 Latest-WKID : 6360
@@ -6802,8 +6450,6 @@ Area-slat   : 24.41
 Area-nlat   : 71.4
 Area-llon   : -168.26
 Area-rlon   : -66.91
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105704
 Latest-WKID : 9666
@@ -6828,8 +6474,6 @@ Area-slat   : 53.89
 Area-nlat   : 56.45
 Area-llon   : 20.86
 Area-rlon   : 26.82
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105790
 Latest-WKID : 3855
@@ -6854,8 +6498,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105791
 Latest-WKID : 3886
@@ -6880,8 +6522,6 @@ Area-slat   : 29.06
 Area-nlat   : 37.39
 Area-llon   : 38.79
 Area-rlon   : 48.61
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105792
 Latest-WKID : 4440
@@ -6906,8 +6546,6 @@ Area-slat   : -55.95
 Area-nlat   : -25.88
 Area-llon   : 160.6
 Area-rlon   : -171.2
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105793
 Latest-WKID : 3900
@@ -6932,8 +6570,6 @@ Area-slat   : 59.75
 Area-nlat   : 70.09
 Area-llon   : 19.24
 Area-rlon   : 31.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 105794
 Latest-WKID : 4458
@@ -6958,8 +6594,6 @@ Area-slat   : -46.73
 Area-nlat   : -44.52
 Area-llon   : 166.37
 Area-rlon   : 169.95
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115700
 Latest-WKID : 115700
@@ -6987,8 +6621,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115701
 Latest-WKID : 115701
@@ -7016,8 +6648,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115702
 Latest-WKID : 115702
@@ -7045,8 +6675,6 @@ Area-slat   : 14.92
 Area-nlat   : 86.45
 Area-llon   : 167.65
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115703
 Latest-WKID : 115703
@@ -7074,8 +6702,6 @@ Area-slat   : -90.0
 Area-nlat   : -60.0
 Area-llon   : 45.0
 Area-rlon   : 160.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115704
 Latest-WKID : 115704
@@ -7103,8 +6729,6 @@ Area-slat   : -13.05
 Area-nlat   : -12.61
 Area-llon   : 44.98
 Area-rlon   : 45.35
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115705
 Latest-WKID : 115705
@@ -7132,8 +6756,6 @@ Area-slat   : 16.7
 Area-nlat   : 53.56
 Area-llon   : 73.62
 Area-rlon   : 134.77
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115706
 Latest-WKID : 115706
@@ -7161,8 +6783,6 @@ Area-slat   : 45.82
 Area-nlat   : 47.81
 Area-llon   : 5.96
 Area-rlon   : 10.49
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115707
 Latest-WKID : 115707
@@ -7190,8 +6810,6 @@ Area-slat   : 17.58
 Area-nlat   : 20.68
 Area-llon   : -83.6
 Area-rlon   : -78.72
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115708
 Latest-WKID : 115708
@@ -7219,8 +6837,6 @@ Area-slat   : 2.15
 Area-nlat   : 11.77
 Area-llon   : -90.45
 Area-rlon   : -81.43
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115709
 Latest-WKID : 115709
@@ -7248,8 +6864,6 @@ Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
 Area-rlon   : 15.04
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115710
 Latest-WKID : 115710
@@ -7277,8 +6891,6 @@ Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
 Area-rlon   : 141.46
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115711
 Latest-WKID : 115711
@@ -7306,8 +6918,6 @@ Area-slat   : 26.7
 Area-nlat   : 28.33
 Area-llon   : 88.74
 Area-rlon   : 92.13
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115712
 Latest-WKID : 115712
@@ -7335,8 +6945,6 @@ Area-slat   : 57.52
 Area-nlat   : 60.0
 Area-llon   : 20.37
 Area-rlon   : 28.2
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115713
 Latest-WKID : 115713
@@ -7364,8 +6972,6 @@ Area-slat   : 58.84
 Area-nlat   : 70.09
 Area-llon   : 19.08
 Area-rlon   : 31.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115714
 Latest-WKID : 115714
@@ -7393,8 +6999,6 @@ Area-slat   : 54.33
 Area-nlat   : 54.83
 Area-llon   : 10.66
 Area-rlon   : 12.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115715
 Latest-WKID : 115715
@@ -7422,8 +7026,6 @@ Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
 Area-rlon   : 173.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115716
 Latest-WKID : 115716
@@ -7451,8 +7053,6 @@ Area-slat   : 4.01
 Area-nlat   : 6.31
 Area-llon   : 112.37
 Area-rlon   : 115.37
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115717
 Latest-WKID : 115717
@@ -7480,8 +7080,6 @@ Area-slat   : 0.85
 Area-nlat   : 7.81
 Area-llon   : 98.02
 Area-rlon   : 119.61
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115718
 Latest-WKID : 115718
@@ -7509,8 +7107,6 @@ Area-slat   : 56.38
 Area-nlat   : 87.02
 Area-llon   : -75.0
 Area-rlon   : 7.99
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115719
 Latest-WKID : 115719
@@ -7533,13 +7129,11 @@ Description : Hartebeesthoek94 ellipsoid height
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : South Africa
+Area-name   : Africa - South Africa, Lesotho and Eswatini.
 Area-slat   : -50.32
 Area-nlat   : -22.13
 Area-llon   : 13.33
 Area-rlon   : 42.85
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115720
 Latest-WKID : 115720
@@ -7567,8 +7161,6 @@ Area-slat   : 29.45
 Area-nlat   : 33.53
 Area-llon   : 32.99
 Area-rlon   : 35.69
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115721
 Latest-WKID : 115721
@@ -7596,8 +7188,6 @@ Area-slat   : 29.45
 Area-nlat   : 33.28
 Area-llon   : 34.17
 Area-rlon   : 35.69
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115722
 Latest-WKID : 115722
@@ -7625,8 +7215,6 @@ Area-slat   : 29.45
 Area-nlat   : 33.53
 Area-llon   : 32.99
 Area-rlon   : 35.69
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115723
 Latest-WKID : 115723
@@ -7654,8 +7242,6 @@ Area-slat   : 29.45
 Area-nlat   : 33.28
 Area-llon   : 34.17
 Area-rlon   : 35.69
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115724
 Latest-WKID : 115724
@@ -7663,13 +7249,13 @@ Macro       : PE_VCS_IGM_1995
 Name        : IGM_1995
 WKT         : VERTCS["IGM_1995",
                DATUM["D_IGM_1995",
-                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGM_1995",
                DATUM["D_IGM_1995",
-                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
@@ -7683,8 +7269,6 @@ Area-slat   : 34.76
 Area-nlat   : 47.1
 Area-llon   : 5.93
 Area-rlon   : 18.99
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115725
 Latest-WKID : 115725
@@ -7712,8 +7296,6 @@ Area-slat   : 29.06
 Area-nlat   : 37.39
 Area-llon   : 38.79
 Area-rlon   : 48.75
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115726
 Latest-WKID : 115726
@@ -7741,8 +7323,6 @@ Area-slat   : 51.39
 Area-nlat   : 55.43
 Area-llon   : -10.56
 Area-rlon   : -5.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115727
 Latest-WKID : 115727
@@ -7770,8 +7350,6 @@ Area-slat   : 59.96
 Area-nlat   : 69.59
 Area-llon   : -30.87
 Area-rlon   : -5.55
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115728
 Latest-WKID : 115728
@@ -7799,8 +7377,6 @@ Area-slat   : 59.96
 Area-nlat   : 69.59
 Area-llon   : -30.87
 Area-rlon   : -5.55
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115729
 Latest-WKID : 115729
@@ -7828,8 +7404,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115730
 Latest-WKID : 115730
@@ -7857,8 +7431,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115731
 Latest-WKID : 115731
@@ -7886,8 +7458,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115732
 Latest-WKID : 115732
@@ -7915,8 +7485,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115733
 Latest-WKID : 115733
@@ -7944,8 +7512,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115734
 Latest-WKID : 115734
@@ -7973,8 +7539,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115735
 Latest-WKID : 115735
@@ -8002,8 +7566,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115736
 Latest-WKID : 115736
@@ -8031,8 +7593,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115737
 Latest-WKID : 115737
@@ -8060,8 +7620,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115738
 Latest-WKID : 115738
@@ -8089,8 +7647,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115739
 Latest-WKID : 115739
@@ -8118,8 +7674,6 @@ Area-slat   : 14.08
 Area-nlat   : 19.36
 Area-llon   : -80.6
 Area-rlon   : -74.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115740
 Latest-WKID : 115740
@@ -8147,8 +7701,6 @@ Area-slat   : 17.09
 Area-nlat   : 46.05
 Area-llon   : 122.38
 Area-rlon   : 157.65
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115741
 Latest-WKID : 115741
@@ -8176,27 +7728,25 @@ Area-slat   : 17.09
 Area-nlat   : 46.05
 Area-llon   : 122.38
 Area-rlon   : 157.65
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115742
 Latest-WKID : 115742
 Macro       : PE_VCS_KOREA_2000
-Name        : Korea_2000
-WKT         : VERTCS["Korea_2000",
-               DATUM["D_Korea_2000",
+Name        : KGD2002
+WKT         : VERTCS["KGD2002",
+               DATUM["D_Korea_Geodetic_Datum_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-WKT2        : VERTCRS["Korea_2000",
-               DATUM["D_Korea_2000",
+WKT2        : VERTCRS["KGD2002",
+               DATUM["D_Korea_Geodetic_Datum_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Korea 2000 ellipsoid height
+Description : KGD2002 ellipsoid height
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -8205,8 +7755,6 @@ Area-slat   : 28.6
 Area-nlat   : 40.27
 Area-llon   : 122.71
 Area-rlon   : 134.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115743
 Latest-WKID : 115743
@@ -8234,8 +7782,6 @@ Area-slat   : 13.92
 Area-nlat   : 22.5
 Area-llon   : 100.09
 Area-rlon   : 107.64
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115744
 Latest-WKID : 115744
@@ -8263,8 +7809,6 @@ Area-slat   : 19.5
 Area-nlat   : 35.23
 Area-llon   : 9.31
 Area-rlon   : 26.21
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115745
 Latest-WKID : 115745
@@ -8292,8 +7836,6 @@ Area-slat   : 55.67
 Area-nlat   : 58.09
 Area-llon   : 19.06
 Area-rlon   : 28.24
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115746
 Latest-WKID : 115746
@@ -8321,8 +7863,6 @@ Area-slat   : 53.89
 Area-nlat   : 56.45
 Area-llon   : 19.02
 Area-rlon   : 26.82
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115747
 Latest-WKID : 115747
@@ -8350,8 +7890,6 @@ Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
 Area-rlon   : 113.68
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115748
 Latest-WKID : 115748
@@ -8379,8 +7917,6 @@ Area-slat   : -4.23
 Area-nlat   : 15.51
 Area-llon   : -84.77
 Area-rlon   : -66.87
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115749
 Latest-WKID : 115749
@@ -8408,8 +7944,6 @@ Area-slat   : 5.0
 Area-nlat   : 12.51
 Area-llon   : -84.32
 Area-rlon   : -77.04
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115750
 Latest-WKID : 115750
@@ -8437,8 +7971,6 @@ Area-slat   : -22.91
 Area-nlat   : -9.67
 Area-llon   : -69.66
 Area-rlon   : -57.52
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115751
 Latest-WKID : 115751
@@ -8466,8 +7998,6 @@ Area-slat   : 12.1
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -84.64
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115752
 Latest-WKID : 115752
@@ -8495,8 +8025,6 @@ Area-slat   : 45.44
 Area-nlat   : 48.47
 Area-llon   : 26.63
 Area-rlon   : 30.13
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115753
 Latest-WKID : 115753
@@ -8524,8 +8052,6 @@ Area-slat   : 41.58
 Area-nlat   : 52.15
 Area-llon   : 87.76
 Area-rlon   : 119.94
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115754
 Latest-WKID : 115754
@@ -8553,8 +8079,6 @@ Area-slat   : -27.71
 Area-nlat   : -10.09
 Area-llon   : 30.21
 Area-rlon   : 43.03
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115755
 Latest-WKID : 115755
@@ -8582,8 +8106,6 @@ Area-slat   : 14.92
 Area-nlat   : 74.71
 Area-llon   : 167.65
 Area-rlon   : -63.88
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115756
 Latest-WKID : 115756
@@ -8611,8 +8133,6 @@ Area-slat   : 14.92
 Area-nlat   : 74.71
 Area-llon   : 167.65
 Area-rlon   : -63.88
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115757
 Latest-WKID : 115757
@@ -8640,8 +8160,6 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115758
 Latest-WKID : 115758
@@ -8669,8 +8187,6 @@ Area-slat   : -14.59
 Area-nlat   : 71.4
 Area-llon   : 144.58
 Area-rlon   : -64.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115759
 Latest-WKID : 115759
@@ -8698,8 +8214,6 @@ Area-slat   : 1.64
 Area-nlat   : 23.9
 Area-llon   : 129.48
 Area-rlon   : 149.55
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115760
 Latest-WKID : 115760
@@ -8727,8 +8241,6 @@ Area-slat   : 1.64
 Area-nlat   : 23.9
 Area-llon   : 129.48
 Area-rlon   : 149.55
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115761
 Latest-WKID : 115761
@@ -8756,8 +8268,6 @@ Area-slat   : 14.92
 Area-nlat   : 74.71
 Area-llon   : 167.65
 Area-rlon   : -63.88
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115762
 Latest-WKID : 115762
@@ -8785,8 +8295,6 @@ Area-slat   : -17.56
 Area-nlat   : 31.8
 Area-llon   : 157.47
 Area-rlon   : -151.27
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115763
 Latest-WKID : 115763
@@ -8814,8 +8322,6 @@ Area-slat   : -17.56
 Area-nlat   : 31.8
 Area-llon   : 157.47
 Area-rlon   : -151.27
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115764
 Latest-WKID : 115764
@@ -8843,8 +8349,6 @@ Area-slat   : 26.34
 Area-nlat   : 30.43
 Area-llon   : 80.06
 Area-rlon   : 88.21
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115765
 Latest-WKID : 115765
@@ -8872,8 +8376,6 @@ Area-slat   : -55.95
 Area-nlat   : -25.88
 Area-llon   : 160.6
 Area-rlon   : -171.2
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115766
 Latest-WKID : 115766
@@ -8901,8 +8403,6 @@ Area-slat   : -21.05
 Area-nlat   : -0.03
 Area-llon   : -84.68
 Area-rlon   : -68.67
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115767
 Latest-WKID : 115767
@@ -8930,8 +8430,6 @@ Area-slat   : -14.75
 Area-nlat   : 2.58
 Area-llon   : 139.2
 Area-rlon   : 162.81
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115768
 Latest-WKID : 115768
@@ -8959,8 +8457,6 @@ Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
 Area-rlon   : -52.63
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115769
 Latest-WKID : 115769
@@ -8968,13 +8464,13 @@ Macro       : PE_VCS_POSGAR_1994
 Name        : POSGAR_1994
 WKT         : VERTCS["POSGAR_1994",
                DATUM["D_POSGAR_1994",
-                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["POSGAR_1994",
                DATUM["D_POSGAR_1994",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
@@ -8988,8 +8484,6 @@ Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
 Area-rlon   : -52.63
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115770
 Latest-WKID : 115770
@@ -9017,8 +8511,6 @@ Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
 Area-rlon   : -52.63
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115771
 Latest-WKID : 115771
@@ -9046,8 +8538,6 @@ Area-slat   : 3.0
 Area-nlat   : 22.18
 Area-llon   : 116.04
 Area-rlon   : 129.95
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115772
 Latest-WKID : 115772
@@ -9075,8 +8565,6 @@ Area-slat   : 29.24
 Area-nlat   : 43.07
 Area-llon   : -35.58
 Area-rlon   : -12.48
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115773
 Latest-WKID : 115773
@@ -9104,8 +8592,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115774
 Latest-WKID : 115774
@@ -9133,8 +8619,6 @@ Area-slat   : 34.76
 Area-nlat   : 47.1
 Area-llon   : 5.93
 Area-rlon   : 18.99
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115775
 Latest-WKID : 115775
@@ -9162,8 +8646,6 @@ Area-slat   : 24.6
 Area-nlat   : 32.76
 Area-llon   : -21.93
 Area-rlon   : -11.75
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115776
 Latest-WKID : 115776
@@ -9191,8 +8673,6 @@ Area-slat   : 0.64
 Area-nlat   : 16.75
 Area-llon   : -73.38
 Area-rlon   : -58.95
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115777
 Latest-WKID : 115777
@@ -9220,8 +8700,6 @@ Area-slat   : 14.08
 Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115778
 Latest-WKID : 115778
@@ -9249,8 +8727,6 @@ Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
 Area-rlon   : 10.38
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115779
 Latest-WKID : 115779
@@ -9278,8 +8754,6 @@ Area-slat   : 2.11
 Area-nlat   : 8.88
 Area-llon   : -54.61
 Area-rlon   : -49.45
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115780
 Latest-WKID : 115780
@@ -9307,8 +8781,6 @@ Area-slat   : -14.49
 Area-nlat   : -11.33
 Area-llon   : 43.68
 Area-rlon   : 46.7
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115781
 Latest-WKID : 115781
@@ -9336,8 +8808,6 @@ Area-slat   : -26.45
 Area-nlat   : -14.83
 Area-llon   : 156.25
 Area-rlon   : 174.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115782
 Latest-WKID : 115782
@@ -9365,8 +8835,6 @@ Area-slat   : -26.45
 Area-nlat   : -14.83
 Area-llon   : 156.25
 Area-rlon   : 174.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115783
 Latest-WKID : 115783
@@ -9394,8 +8862,6 @@ Area-slat   : -31.24
 Area-nlat   : -4.52
 Area-llon   : -158.13
 Area-rlon   : -131.97
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115784
 Latest-WKID : 115784
@@ -9423,8 +8889,6 @@ Area-slat   : -24.72
 Area-nlat   : -18.28
 Area-llon   : 51.83
 Area-rlon   : 58.24
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115785
 Latest-WKID : 115785
@@ -9452,8 +8916,6 @@ Area-slat   : -13.46
 Area-nlat   : -3.41
 Area-llon   : 11.79
 Area-rlon   : 29.81
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115786
 Latest-WKID : 115786
@@ -9481,8 +8943,6 @@ Area-slat   : 43.41
 Area-nlat   : 47.37
 Area-llon   : -57.1
 Area-rlon   : -55.9
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115787
 Latest-WKID : 115787
@@ -9510,8 +8970,6 @@ Area-slat   : 14.08
 Area-nlat   : 18.53
 Area-llon   : -63.66
 Area-rlon   : -57.52
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115788
 Latest-WKID : 115788
@@ -9539,8 +8997,6 @@ Area-slat   : -90.0
 Area-nlat   : -59.99
 Area-llon   : 144.99
 Area-rlon   : -144.99
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115789
 Latest-WKID : 115789
@@ -9568,21 +9024,19 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115790
 Latest-WKID : 115790
-Macro       : PE_VCS_SIRGAS_CHILE
-Name        : SIRGAS-Chile
-WKT         : VERTCS["SIRGAS-Chile",
-               DATUM["D_SIRGAS-Chile",
+Macro       : PE_VCS_SIRGAS_CHILE_2002
+Name        : SIRGAS-Chile_2002
+WKT         : VERTCS["SIRGAS-Chile_2002",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-WKT2        : VERTCRS["SIRGAS-Chile",
-               DATUM["D_SIRGAS-Chile",
+WKT2        : VERTCRS["SIRGAS-Chile_2002",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
@@ -9597,8 +9051,6 @@ Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
 Area-rlon   : -65.72
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115791
 Latest-WKID : 115791
@@ -9626,8 +9078,6 @@ Area-slat   : 9.97
 Area-nlat   : 14.44
 Area-llon   : -91.43
 Area-rlon   : -87.65
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115792
 Latest-WKID : 115792
@@ -9655,8 +9105,6 @@ Area-slat   : -37.77
 Area-nlat   : -30.09
 Area-llon   : -58.49
 Area-rlon   : -50.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115793
 Latest-WKID : 115793
@@ -9684,8 +9132,6 @@ Area-slat   : 5.86
 Area-nlat   : 9.88
 Area-llon   : 79.64
 Area-rlon   : 81.95
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115794
 Latest-WKID : 115794
@@ -9713,8 +9159,6 @@ Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
 Area-rlon   : 16.61
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115795
 Latest-WKID : 115795
@@ -9737,13 +9181,11 @@ Description : SREF98 ellipsoid height
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Serbia and Kosovo
-Area-slat   : 41.85
+Area-name   : Serbia
+Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
 Area-rlon   : 23.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115796
 Latest-WKID : 115796
@@ -9771,8 +9213,6 @@ Area-slat   : 48.58
 Area-nlat   : 51.06
 Area-llon   : 12.09
 Area-rlon   : 18.86
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115797
 Latest-WKID : 115797
@@ -9800,8 +9240,6 @@ Area-slat   : 48.58
 Area-nlat   : 51.06
 Area-llon   : 12.09
 Area-rlon   : 18.86
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115798
 Latest-WKID : 115798
@@ -9829,8 +9267,6 @@ Area-slat   : 54.96
 Area-nlat   : 69.07
 Area-llon   : 10.03
 Area-rlon   : 24.17
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115799
 Latest-WKID : 115799
@@ -9858,8 +9294,6 @@ Area-slat   : -25.68
 Area-nlat   : -14.14
 Area-llon   : -179.08
 Area-rlon   : -171.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115800
 Latest-WKID : 115800
@@ -9887,8 +9321,6 @@ Area-slat   : 17.36
 Area-nlat   : 26.96
 Area-llon   : 114.32
 Area-rlon   : 123.61
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115801
 Latest-WKID : 115801
@@ -9916,8 +9348,6 @@ Area-slat   : 43.18
 Area-nlat   : 52.38
 Area-llon   : 22.15
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115802
 Latest-WKID : 115802
@@ -9945,8 +9375,6 @@ Area-slat   : 8.95
 Area-nlat   : 19.0
 Area-llon   : 41.08
 Area-rlon   : 57.96
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115803
 Latest-WKID : 115803
@@ -9974,8 +9402,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115804
 Latest-WKID : 115804
@@ -10003,8 +9429,6 @@ Area-slat   : 34.42
 Area-nlat   : 43.45
 Area-llon   : 25.62
 Area-rlon   : 44.83
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115805
 Latest-WKID : 115805
@@ -10032,8 +9456,6 @@ Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
 Area-rlon   : 173.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115806
 Latest-WKID : 115806
@@ -10061,8 +9483,6 @@ Area-slat   : 41.24
 Area-nlat   : 44.23
 Area-llon   : 22.36
 Area-rlon   : 31.35
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115807
 Latest-WKID : 115807
@@ -10087,8 +9507,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115808
 Latest-WKID : 115808
@@ -10113,8 +9531,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115809
 Latest-WKID : 115809
@@ -10139,8 +9555,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115810
 Latest-WKID : 115810
@@ -10168,8 +9582,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115811
 Latest-WKID : 115811
@@ -10197,8 +9609,6 @@ Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
 Area-rlon   : -5.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115812
 Latest-WKID : 115812
@@ -10226,8 +9636,6 @@ Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
 Area-rlon   : -5.59
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115813
 Latest-WKID : 115813
@@ -10255,8 +9663,6 @@ Area-slat   : 39.87
 Area-nlat   : 85.19
 Area-llon   : 18.92
 Area-rlon   : -168.97
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115814
 Latest-WKID : 115814
@@ -10284,8 +9690,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115815
 Latest-WKID : 115815
@@ -10313,8 +9717,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115816
 Latest-WKID : 115816
@@ -10342,8 +9744,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115817
 Latest-WKID : 115817
@@ -10371,8 +9771,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115818
 Latest-WKID : 115818
@@ -10400,8 +9798,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115819
 Latest-WKID : 115819
@@ -10429,8 +9825,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115820
 Latest-WKID : 115820
@@ -10458,8 +9852,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115821
 Latest-WKID : 115821
@@ -10487,8 +9879,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115822
 Latest-WKID : 115822
@@ -10516,8 +9906,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115823
 Latest-WKID : 115823
@@ -10545,8 +9933,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115824
 Latest-WKID : 115824
@@ -10574,8 +9960,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115825
 Latest-WKID : 115825
@@ -10603,8 +9987,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115826
 Latest-WKID : 115826
@@ -10632,8 +10014,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115827
 Latest-WKID : 115827
@@ -10661,8 +10041,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115828
 Latest-WKID : 115828
@@ -10690,8 +10068,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115829
 Latest-WKID : 115829
@@ -10719,8 +10095,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115830
 Latest-WKID : 115830
@@ -10748,8 +10122,6 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115831
 Latest-WKID : 115831
@@ -10777,8 +10149,6 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115832
 Latest-WKID : 115832
@@ -10806,8 +10176,6 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115833
 Latest-WKID : 115833
@@ -10835,8 +10203,6 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115834
 Latest-WKID : 115834
@@ -10864,8 +10230,6 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115835
 Latest-WKID : 115835
@@ -10893,8 +10257,6 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115836
 Latest-WKID : 115836
@@ -10922,8 +10284,6 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115837
 Latest-WKID : 115837
@@ -10951,8 +10311,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115838
 Latest-WKID : 115838
@@ -10980,8 +10338,6 @@ Area-slat   : 59.96
 Area-nlat   : 69.59
 Area-llon   : -30.87
 Area-rlon   : -5.55
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115839
 Latest-WKID : 115839
@@ -11009,8 +10365,6 @@ Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
 Area-rlon   : 114.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115840
 Latest-WKID : 115840
@@ -11038,8 +10392,6 @@ Area-slat   : -14.59
 Area-nlat   : 49.38
 Area-llon   : 144.58
 Area-rlon   : -64.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115841
 Latest-WKID : 115841
@@ -11067,8 +10419,6 @@ Area-slat   : 17.62
 Area-nlat   : 18.57
 Area-llon   : -67.97
 Area-rlon   : -64.51
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115842
 Latest-WKID : 115842
@@ -11091,13 +10441,11 @@ Description : SRB ETRS89 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Serbia and Kosovo
-Area-slat   : 41.85
+Area-name   : Serbia
+Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
 Area-rlon   : 23.01
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115843
 Latest-WKID : 115843
@@ -11125,8 +10473,6 @@ Area-slat   : 16.29
 Area-nlat   : 32.16
 Area-llon   : 34.44
 Area-rlon   : 55.67
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115844
 Latest-WKID : 115844
@@ -11154,8 +10500,6 @@ Area-slat   : 32.25
 Area-nlat   : 42.53
 Area-llon   : -124.45
 Area-rlon   : -113.6
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115845
 Latest-WKID : 115845
@@ -11183,8 +10527,6 @@ Area-slat   : 41.04
 Area-nlat   : 43.59
 Area-llon   : 39.99
 Area-rlon   : 46.72
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115846
 Latest-WKID : 115846
@@ -11212,8 +10554,6 @@ Area-slat   : 14.33
 Area-nlat   : 26.74
 Area-llon   : 51.99
 Area-rlon   : 63.38
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115847
 Latest-WKID : 115847
@@ -11241,8 +10581,6 @@ Area-slat   : 14.33
 Area-nlat   : 26.74
 Area-llon   : 51.99
 Area-rlon   : 63.38
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115848
 Latest-WKID : 115848
@@ -11270,8 +10608,6 @@ Area-slat   : 47.73
 Area-nlat   : 49.61
 Area-llon   : 16.84
 Area-rlon   : 22.56
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115849
 Latest-WKID : 115849
@@ -11299,8 +10635,6 @@ Area-slat   : 2.15
 Area-nlat   : 11.77
 Area-llon   : -90.45
 Area-rlon   : -81.43
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115850
 Latest-WKID : 115850
@@ -11328,8 +10662,6 @@ Area-slat   : -15.94
 Area-nlat   : -9.84
 Area-llon   : 179.49
 Area-rlon   : -174.27
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115851
 Latest-WKID : 115851
@@ -11357,8 +10689,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115852
 Latest-WKID : 115852
@@ -11386,8 +10716,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115853
 Latest-WKID : 115853
@@ -11415,8 +10743,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115854
 Latest-WKID : 115854
@@ -11444,8 +10770,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115855
 Latest-WKID : 115855
@@ -11473,8 +10797,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115856
 Latest-WKID : 115856
@@ -11502,8 +10824,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115857
 Latest-WKID : 115857
@@ -11531,8 +10851,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115858
 Latest-WKID : 115858
@@ -11560,8 +10878,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115859
 Latest-WKID : 115859
@@ -11589,8 +10905,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115860
 Latest-WKID : 115860
@@ -11618,8 +10932,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115861
 Latest-WKID : 115861
@@ -11647,8 +10959,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115862
 Latest-WKID : 115862
@@ -11676,8 +10986,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115863
 Latest-WKID : 115863
@@ -11705,8 +11013,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115864
 Latest-WKID : 115864
@@ -11734,8 +11040,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115865
 Latest-WKID : 115865
@@ -11763,8 +11067,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115866
 Latest-WKID : 115866
@@ -11792,8 +11094,6 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115867
 Latest-WKID : 115867
@@ -11821,8 +11121,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115868
 Latest-WKID : 115868
@@ -11850,8 +11148,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115869
 Latest-WKID : 115869
@@ -11879,8 +11175,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115870
 Latest-WKID : 115870
@@ -11908,8 +11202,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115871
 Latest-WKID : 115871
@@ -11937,8 +11229,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115872
 Latest-WKID : 115872
@@ -11966,8 +11256,6 @@ Area-slat   : 41.85
 Area-nlat   : 43.25
 Area-llon   : 19.97
 Area-rlon   : 21.8
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115873
 Latest-WKID : 115873
@@ -11995,8 +11283,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115874
 Latest-WKID : 115874
@@ -12024,8 +11310,6 @@ Area-slat   : 32.88
 Area-nlat   : 84.73
 Area-llon   : -16.1
 Area-rlon   : 40.18
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115875
 Latest-WKID : 115875
@@ -12053,8 +11337,6 @@ Area-slat   : 45.82
 Area-nlat   : 47.81
 Area-llon   : 5.96
 Area-rlon   : 10.49
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115876
 Latest-WKID : 115876
@@ -12082,8 +11364,6 @@ Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
 Area-rlon   : 173.34
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115877
 Latest-WKID : 115877
@@ -12111,8 +11391,6 @@ Area-slat   : -38.53
 Area-nlat   : -9.37
 Area-llon   : 109.23
 Area-rlon   : 153.61
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115878
 Latest-WKID : 115878
@@ -12140,8 +11418,6 @@ Area-slat   : -47.2
 Area-nlat   : -1.3
 Area-llon   : 109.23
 Area-rlon   : 163.2
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115879
 Latest-WKID : 115879
@@ -12169,8 +11445,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115880
 Latest-WKID : 115880
@@ -12178,13 +11452,13 @@ Macro       : PE_VCS_POSGAR_2007
 Name        : POSGAR_2007
 WKT         : VERTCS["POSGAR_2007",
                DATUM["D_POSGAR_2007",
-                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["POSGAR_2007",
                DATUM["D_POSGAR_2007",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
@@ -12198,8 +11472,6 @@ Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
 Area-rlon   : -52.63
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115881
 Latest-WKID : 115881
@@ -12227,8 +11499,6 @@ Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
 Area-rlon   : 10.38
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115882
 Latest-WKID : 115882
@@ -12256,8 +11526,6 @@ Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
 Area-rlon   : 10.38
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115883
 Latest-WKID : 115883
@@ -12285,8 +11553,6 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115884
 Latest-WKID : 115884
@@ -12314,8 +11580,6 @@ Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
 Area-rlon   : -65.72
-FrameEpoch  : 
-DeformationModel: ""
 
 WKID        : 115885
 Latest-WKID : 115885
@@ -12343,5 +11607,1245 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 
-DeformationModel: ""
+
+WKID        : 115886
+Latest-WKID : 115886
+Macro       : PE_VCS_LUREF
+Name        : LUREF
+WKT         : VERTCS["LUREF",
+               DATUM["D_Luxembourg_Reference_Frame",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["LUREF",
+               DATUM["D_Luxembourg_Reference_Frame",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : LUREF ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Luxembourg
+Area-slat   : 49.44
+Area-nlat   : 50.19
+Area-llon   : 5.73
+Area-rlon   : 6.53
+
+WKID        : 115887
+Latest-WKID : 115887
+Macro       : PE_VCS_BERMUDA_2000
+Name        : Bermuda_2000
+WKT         : VERTCS["Bermuda_2000",
+               DATUM["D_Bermuda_2000",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Bermuda_2000",
+               DATUM["D_Bermuda_2000",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Bermuda 2000
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Bermuda
+Area-slat   : 28.91
+Area-nlat   : 35.73
+Area-llon   : -68.83
+Area-rlon   : -60.7
+
+WKID        : 115888
+Latest-WKID : 115888
+Macro       : PE_VCS_CGRS_1993
+Name        : CGRS_1993
+WKT         : VERTCS["CGRS_1993",
+               DATUM["D_Cyprus_Geodetic_Reference_System_1993",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["CGRS_1993",
+               DATUM["D_Cyprus_Geodetic_Reference_System_1993",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : CGRS 1993
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Cyprus - onshore
+Area-slat   : 34.59
+Area-nlat   : 35.74
+Area-llon   : 32.2
+Area-rlon   : 34.65
+
+WKID        : 115889
+Latest-WKID : 115889
+Macro       : PE_VCS_ETRF_1989
+Name        : ETRF_1989
+WKT         : VERTCS["ETRF_1989",
+               DATUM["D_ETRF_1989",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRF_1989",
+               DATUM["D_ETRF_1989",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : European Terrestrial Ref.Frame 1989
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Europe - ETRF by country
+Area-slat   : 32.88
+Area-nlat   : 84.73
+Area-llon   : -16.1
+Area-rlon   : 40.18
+
+WKID        : 115890
+Latest-WKID : 115890
+Macro       : PE_VCS_ETRF2000_PL
+Name        : ETRF2000-PL
+WKT         : VERTCS["ETRF2000-PL",
+               DATUM["ETRF2000_Poland",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRF2000-PL",
+               DATUM["ETRF2000_Poland",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ETRF2000-PL
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Poland
+Area-slat   : 49.0
+Area-nlat   : 55.93
+Area-llon   : 14.14
+Area-rlon   : 24.15
+
+WKID        : 115891
+Latest-WKID : 115891
+Macro       : PE_VCS_HTRS96
+Name        : HTRS96
+WKT         : VERTCS["HTRS96",
+               DATUM["D_Croatian_Terrestrial_Reference_System",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["HTRS96",
+               DATUM["D_Croatian_Terrestrial_Reference_System",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Croatian TRS 1996
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Croatia
+Area-slat   : 41.62
+Area-nlat   : 46.54
+Area-llon   : 13.0
+Area-rlon   : 19.43
+
+WKID        : 115892
+Latest-WKID : 115892
+Macro       : PE_VCS_IGB14
+Name        : IGb14
+WKT         : VERTCS["IGb14",
+               DATUM["IGb14",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["IGb14",
+               DATUM["IGb14",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : IGb14
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115893
+Latest-WKID : 115893
+Macro       : PE_VCS_IGS08
+Name        : IGS08
+WKT         : VERTCS["IGS08",
+               DATUM["IGS08",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["IGS08",
+               DATUM["IGS08",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : IGS08
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115894
+Latest-WKID : 115894
+Macro       : PE_VCS_KSA_GRF17
+Name        : KSA-GRF17
+WKT         : VERTCS["KSA-GRF17",
+               DATUM["Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["KSA-GRF17",
+               DATUM["Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : KSA-GRF17
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Saudi Arabia
+Area-slat   : 16.29
+Area-nlat   : 32.16
+Area-llon   : 34.44
+Area-rlon   : 55.67
+
+WKID        : 115895
+Latest-WKID : 115895
+Macro       : PE_VCS_KYRG_06
+Name        : Kyrg-06
+WKT         : VERTCS["Kyrg-06",
+               DATUM["D_Kyrgyz_Republic_2006",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Kyrg-06",
+               DATUM["D_Kyrgyz_Republic_2006",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Kyrg-06
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Kyrgyzstan
+Area-slat   : 39.19
+Area-nlat   : 43.22
+Area-llon   : 69.24
+Area-rlon   : 80.29
+
+WKID        : 115896
+Latest-WKID : 115896
+Macro       : PE_VCS_LAO_1993
+Name        : Lao_1993
+WKT         : VERTCS["Lao_1993",
+               DATUM["D_Lao_1993",
+                SPHEROID["Krasovsky_1940", 6378245.0, 298.3]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Lao_1993",
+               DATUM["D_Lao_1993",
+                ELLIPSOID["Krasovsky_1940", 6378245.0, 298.3,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Lao 1993
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Laos
+Area-slat   : 13.92
+Area-nlat   : 22.5
+Area-llon   : 100.09
+Area-rlon   : 107.64
+
+WKID        : 115897
+Latest-WKID : 115897
+Macro       : PE_VCS_LTF2004G
+Name        : LTF2004(G)
+WKT         : VERTCS["LTF2004(G)",
+               DATUM["Lyon_Turin_Ferroviaire_2004",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["LTF2004(G)",
+               DATUM["Lyon_Turin_Ferroviaire_2004",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : LTF2004(G)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Europe - Lyon-Turin
+Area-slat   : 44.87
+Area-nlat   : 45.89
+Area-llon   : 4.65
+Area-rlon   : 7.88
+
+WKID        : 115898
+Latest-WKID : 115898
+Macro       : PE_VCS_MAURITANIA_1999
+Name        : Mauritania_1999
+WKT         : VERTCS["Mauritania_1999",
+               DATUM["D_Mauritania_1999",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Mauritania_1999",
+               DATUM["D_Mauritania_1999",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Mauritania 1999
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Mauritania
+Area-slat   : 14.72
+Area-nlat   : 27.3
+Area-llon   : -20.04
+Area-rlon   : -4.8
+
+WKID        : 115899
+Latest-WKID : 115899
+Macro       : PE_VCS_REDGEOMIN
+Name        : REDGEOMIN
+WKT         : VERTCS["REDGEOMIN",
+               DATUM["Red_Geodesica_Para_Mineria_en_Chile",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["REDGEOMIN",
+               DATUM["Red_Geodesica_Para_Mineria_en_Chile",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : REDGEOMIN
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 115900
+Latest-WKID : 115900
+Macro       : PE_VCS_RGTAAF07
+Name        : RGTAAF07
+WKT         : VERTCS["RGTAAF07",
+               DATUM["D_Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGTAAF07",
+               DATUM["D_Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGTAAF 2007
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : French Southern and Antarctic Territories
+Area-slat   : -67.13
+Area-nlat   : -20.91
+Area-llon   : 37.98
+Area-rlon   : 142.0
+
+WKID        : 115901
+Latest-WKID : 115901
+Macro       : PE_VCS_RGTAAF07_LON_LAT
+Name        : RGTAAF07_(lon-lat)
+WKT         : VERTCS["RGTAAF07_(lon-lat)",
+               DATUM["D_Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGTAAF07_(lon-lat)",
+               DATUM["D_Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGTAAF 2007 (lon-lat)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : French Southern and Antarctic Territories
+Area-slat   : -67.13
+Area-nlat   : -20.91
+Area-llon   : 37.98
+Area-rlon   : 142.0
+
+WKID        : 115902
+Latest-WKID : 115902
+Macro       : PE_VCS_RSAO13
+Name        : RSAO13
+WKT         : VERTCS["RSAO13",
+               DATUM["Reference_System_de_Angola_2013",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RSAO13",
+               DATUM["Reference_System_de_Angola_2013",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RSAO13
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Angola
+Area-slat   : -18.02
+Area-nlat   : -4.38
+Area-llon   : 8.2
+Area-rlon   : 24.09
+
+WKID        : 115903
+Latest-WKID : 115903
+Macro       : PE_VCS_SIRGAS_CHILE_2010
+Name        : SIRGAS-Chile_2010
+WKT         : VERTCS["SIRGAS-Chile_2010",
+               DATUM["SIRGAS-Chile_realization_2_epoch_2010",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["SIRGAS-Chile_2010",
+               DATUM["SIRGAS-Chile_realization_2_epoch_2010",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SIRGAS-Chile 2010
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 115904
+Latest-WKID : 115904
+Macro       : PE_VCS_SIRGAS_CHILE_2013
+Name        : SIRGAS-Chile_2013
+WKT         : VERTCS["SIRGAS-Chile_2013",
+               DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["SIRGAS-Chile_2013",
+               DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SIRGAS-Chile 2013
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 115905
+Latest-WKID : 115905
+Macro       : PE_VCS_SIRGAS_CHILE_2016
+Name        : SIRGAS-Chile_2016
+WKT         : VERTCS["SIRGAS-Chile_2016",
+               DATUM["SIRGAS-Chile_realization_4_epoch_2016",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["SIRGAS-Chile_2016",
+               DATUM["SIRGAS-Chile_realization_4_epoch_2016",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SIRGAS-Chile 2016
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 115906
+Latest-WKID : 115906
+Macro       : PE_VCS_SRGI2013
+Name        : SRGI2013
+WKT         : VERTCS["SRGI2013",
+               DATUM["Sistem_Referensi_Geospasial_Indonesia_2013",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["SRGI2013",
+               DATUM["Sistem_Referensi_Geospasial_Indonesia_2013",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SRGI2013
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Indonesia
+Area-slat   : -13.95
+Area-nlat   : 7.79
+Area-llon   : 92.01
+Area-rlon   : 141.46
+
+WKID        : 115907
+Latest-WKID : 115907
+Macro       : PE_VCS_WGS_1966
+Name        : WGS_1966
+WKT         : VERTCS["WGS_1966",
+               DATUM["D_WGS_1966",
+                SPHEROID["NWL_9D", 6378145.0, 298.25]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["WGS_1966",
+               DATUM["D_WGS_1966",
+                ELLIPSOID["NWL_9D", 6378145.0, 298.25,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : WGS 1966
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115908
+Latest-WKID : 115908
+Macro       : PE_VCS_WGS_1972
+Name        : WGS_1972
+WKT         : VERTCS["WGS_1972",
+               DATUM["D_WGS_1972",
+                SPHEROID["WGS_1972", 6378135.0, 298.26]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["WGS_1972",
+               DATUM["D_WGS_1972",
+                ELLIPSOID["WGS_1972", 6378135.0, 298.26,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : WGS 1972
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115909
+Latest-WKID : 115909
+Macro       : PE_VCS_WGS_1972_BE
+Name        : WGS_1972_BE
+WKT         : VERTCS["WGS_1972_BE",
+               DATUM["D_WGS_1972_BE",
+                SPHEROID["WGS_1972", 6378135.0, 298.26]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["WGS_1972_BE",
+               DATUM["D_WGS_1972_BE",
+                ELLIPSOID["WGS_1972", 6378135.0, 298.26,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : WGS 1972 Transit Broadcast Ephemer.
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115910
+Latest-WKID : 115910
+Macro       : PE_VCS_MEXICAN_DATUM_1993
+Name        : Mexican_Datum_of_1993
+WKT         : VERTCS["Mexican_Datum_of_1993",
+               DATUM["D_Mexican_Datum_of_1993",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Mexican_Datum_of_1993",
+               DATUM["D_Mexican_Datum_of_1993",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Mexican Datum of 1993
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Mexico
+Area-slat   : 12.1
+Area-nlat   : 32.72
+Area-llon   : -122.19
+Area-rlon   : -84.64
+
+WKID        : 115911
+Latest-WKID : 115911
+Macro       : PE_VCS_RGSPM06_LON_LAT
+Name        : RGSPM06_(lon-lat)
+WKT         : VERTCS["RGSPM06_(lon-lat)",
+               DATUM["D_Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGSPM06_(lon-lat)",
+               DATUM["D_Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGSPM06 (lon-lat)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : St Pierre and Miquelon
+Area-slat   : 43.41
+Area-nlat   : 47.37
+Area-llon   : -57.1
+Area-rlon   : -55.9
+
+WKID        : 115912
+Latest-WKID : 115912
+Macro       : PE_VCS_RGR92_LON_LAT
+Name        : RGR92_(lon-lat)
+WKT         : VERTCS["RGR92_(lon-lat)",
+               DATUM["D_RGR_1992",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGR92_(lon-lat)",
+               DATUM["D_RGR_1992",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Reseau Geodesique de la Reunion 1992 (lon-lat)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Reunion
+Area-slat   : -24.72
+Area-nlat   : -18.28
+Area-llon   : 51.83
+Area-rlon   : 58.24
+
+WKID        : 115913
+Latest-WKID : 115913
+Macro       : PE_VCS_RGM04_LON_LAT
+Name        : RGM04_(lon-lat)
+WKT         : VERTCS["RGM04_(lon-lat)",
+               DATUM["D_Reseau_Geodesique_de_Mayotte_2004",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGM04_(lon-lat)",
+               DATUM["D_Reseau_Geodesique_de_Mayotte_2004",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Reseau Geodesique de Mayotte 2004 (lon-lat)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Mayotte
+Area-slat   : -14.49
+Area-nlat   : -11.33
+Area-llon   : 43.68
+Area-rlon   : 46.7
+
+WKID        : 115914
+Latest-WKID : 115914
+Macro       : PE_VCS_RGFG95_LON_LAT
+Name        : RGFG95_(lon-lat)
+WKT         : VERTCS["RGFG95_(lon-lat)",
+               DATUM["D_RGFG_1995",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGFG95_(lon-lat)",
+               DATUM["D_RGFG_1995",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Reseau Geodesique Francais Guyane 1995 (lon-lat)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : French Guiana
+Area-slat   : 2.11
+Area-nlat   : 8.88
+Area-llon   : -54.61
+Area-rlon   : -49.45
+
+WKID        : 115915
+Latest-WKID : 115915
+Macro       : PE_VCS_RGF93_LON_LAT
+Name        : RGF93_(lon-lat)
+WKT         : VERTCS["RGF93_(lon-lat)",
+               DATUM["D_RGF_1993",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGF93_(lon-lat)",
+               DATUM["D_RGF_1993",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Reseau Geodesique Francais 1993 (lon-lat)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 115916
+Latest-WKID : 115916
+Macro       : PE_VCS_RGAF09_LON_LAT
+Name        : RGAF09_(lon-lat)
+WKT         : VERTCS["RGAF09_(lon-lat)",
+               DATUM["Reseau_Geodesique_des_Antilles_Francaises_2009",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGAF09_(lon-lat)",
+               DATUM["Reseau_Geodesique_des_Antilles_Francaises_2009",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGAF09 - French Antilles (lon-lat)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Caribbean - French Antilles
+Area-slat   : 14.08
+Area-nlat   : 18.53
+Area-llon   : -63.66
+Area-rlon   : -57.52
+
+WKID        : 115917
+Latest-WKID : 115917
+Macro       : PE_VCS_RGWF96_LON_LAT
+Name        : RGWF96_(lon-lat)
+WKT         : VERTCS["RGWF96_(lon-lat)",
+               DATUM["Reseau_Geodesique_de_Wallis_et_Futuna_1996",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGWF96_(lon-lat)",
+               DATUM["Reseau_Geodesique_de_Wallis_et_Futuna_1996",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGWF96 (lon-lat)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Wallis and Futuna
+Area-slat   : -15.94
+Area-nlat   : -9.84
+Area-llon   : 179.49
+Area-rlon   : -174.27
+
+WKID        : 115918
+Latest-WKID : 115918
+Macro       : PE_VCS_RGF93_V2_LON_LAT
+Name        : RGF93_v2_(lon-lat)
+WKT         : VERTCS["RGF93_v2_(lon-lat)",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGF93_v2_(lon-lat)",
+               DATUM["Reseau_Geodesique_Francais_1993_v2",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGF93 v2 (lon-lat)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 115919
+Latest-WKID : 115919
+Macro       : PE_VCS_RGF93_V2B_LON_LAT
+Name        : RGF93_v2b_(lon-lat)
+WKT         : VERTCS["RGF93_v2b_(lon-lat)",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGF93_v2b_(lon-lat)",
+               DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGF93 v2b (lon-lat)
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : France
+Area-slat   : 41.15
+Area-nlat   : 51.56
+Area-llon   : -9.86
+Area-rlon   : 10.38
+
+WKID        : 115920
+Latest-WKID : 115920
+Macro       : PE_VCS_SIRGAS
+Name        : SIRGAS
+WKT         : VERTCS["SIRGAS",
+               DATUM["D_SIRGAS",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["SIRGAS",
+               DATUM["D_SIRGAS",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SIRGAS
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : South America - SIRGAS 1995 by country
+Area-slat   : -59.87
+Area-nlat   : 16.75
+Area-llon   : -113.21
+Area-rlon   : -26.0
+
+WKID        : 115921
+Latest-WKID : 115921
+Macro       : PE_VCS_MGI
+Name        : MGI
+WKT         : VERTCS["MGI",
+               DATUM["D_MGI",
+                SPHEROID["Bessel_1841", 6377397.155, 299.1528128]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["MGI",
+               DATUM["D_MGI",
+                ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Militar-Geographische Institut
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Europe - Austria and former Yugoslavia onshore
+Area-slat   : 40.85
+Area-nlat   : 49.02
+Area-llon   : 9.53
+Area-rlon   : 23.04
+
+WKID        : 115922
+Latest-WKID : 115922
+Macro       : PE_VCS_IGS20
+Name        : IGS20
+WKT         : VERTCS["IGS20",
+               DATUM["IGS20",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["IGS20",
+               DATUM["IGS20",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : IGS20 ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115923
+Latest-WKID : 115923
+Macro       : PE_VCS_ETRS89_DREF91_2016
+Name        : ETRS89_DREF91_2016
+WKT         : VERTCS["ETRS89_DREF91_2016",
+               DATUM["ETRS89_DREF91_Realization_2016",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89_DREF91_2016",
+               DATUM["ETRS89_DREF91_Realization_2016",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ETRS89 DREF91 2016 ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Germany
+Area-slat   : 47.27
+Area-nlat   : 55.92
+Area-llon   : 3.34
+Area-rlon   : 15.04
+
+WKID        : 115924
+Latest-WKID : 115924
+Macro       : PE_VCS_RGSH2020
+Name        : RGSH2020
+WKT         : VERTCS["RGSH2020",
+               DATUM["Sonatrach_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGSH2020",
+               DATUM["Sonatrach_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGSH2020 ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Algeria
+Area-slat   : 18.97
+Area-nlat   : 38.8
+Area-llon   : -8.67
+Area-rlon   : 11.99
+
+WKID        : 115925
+Latest-WKID : 115925
+Macro       : PE_VCS_LKS_2020
+Name        : LKS-2020
+WKT         : VERTCS["LKS-2020",
+               DATUM["Latvian_coordinate_system_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["LKS-2020",
+               DATUM["Latvian_coordinate_system_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : LKS-2020 ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Latvia
+Area-slat   : 55.67
+Area-nlat   : 58.09
+Area-llon   : 19.06
+Area-rlon   : 28.24
+
+WKID        : 115926
+Latest-WKID : 115926
+Macro       : PE_VCS_RGNC91_93_LON_LAT
+Name        : RGNC_1991-93_(lon-lat)
+WKT         : VERTCS["RGNC_1991-93_(lon-lat)",
+               DATUM["D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGNC_1991-93_(lon-lat)",
+               DATUM["D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGNC91-93 (lon-lat) ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+
+WKID        : 115927
+Latest-WKID : 115927
+Macro       : PE_VCS_RGNC15
+Name        : RGNC15
+WKT         : VERTCS["RGNC15",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGNC15",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGNC15 ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+
+WKID        : 115928
+Latest-WKID : 115928
+Macro       : PE_VCS_RGNC15_LON_LAT
+Name        : RGNC15_(lon-lat)
+WKT         : VERTCS["RGNC15_(lon-lat)",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGNC15_(lon-lat)",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGNC15 (lon-lat) ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+
+WKID        : 115929
+Latest-WKID : 115929
+Macro       : PE_VCS_BH_ETRS89
+Name        : BH_ETRS89
+WKT         : VERTCS["BH_ETRS89",
+               DATUM["BH_ETRS89",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["BH_ETRS89",
+               DATUM["BH_ETRS89",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BH_ETRS89 ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Bosnia and Herzegovina
+Area-slat   : 42.56
+Area-nlat   : 45.27
+Area-llon   : 15.74
+Area-rlon   : 19.62
+
+WKID        : 115930
+Latest-WKID : 115930
+Macro       : PE_VCS_MAGNA_SIRGAS_2018
+Name        : MAGNA-SIRGAS_2018
+WKT         : VERTCS["MAGNA-SIRGAS_2018",
+               DATUM["Marco_Geocentrico_Nacional_de_Referencia_2018",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["MAGNA-SIRGAS_2018",
+               DATUM["Marco_Geocentrico_Nacional_de_Referencia_2018",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : MAGNA-SIRGAS 2018 ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Colombia
+Area-slat   : -4.23
+Area-nlat   : 15.51
+Area-llon   : -84.77
+Area-rlon   : -66.87
+
+WKID        : 115931
+Latest-WKID : 115931
+Macro       : PE_VCS_NAD_1983_CSRS_V8
+Name        : NAD83(CSRS)v8
+WKT         : VERTCS["NAD83(CSRS)v8",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["NAD83(CSRS)v8",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : NAD83(CSRS)v8 ellipsoid height
+Authority   : Esri
+Version     : 13.2.0
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 38.21
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -40.73

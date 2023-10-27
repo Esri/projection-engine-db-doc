@@ -15,9 +15,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 3886,
     "latestWkid": 3886,
@@ -35,9 +33,7 @@
       "nlat": 37.39,
       "llon": 38.79,
       "rlon": 48.61
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 3900,
     "latestWkid": 3900,
@@ -55,9 +51,7 @@
       "nlat": 70.09,
       "llon": 19.24,
       "rlon": 31.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 4440,
     "latestWkid": 4440,
@@ -75,9 +69,7 @@
       "nlat": -25.88,
       "llon": 160.6,
       "rlon": -171.2
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 4458,
     "latestWkid": 4458,
@@ -95,29 +87,25 @@
       "nlat": -44.52,
       "llon": 166.37,
       "rlon": 169.95
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5193,
     "latestWkid": 5193,
     "macro": "PE_VCS_INCHEON_HT",
-    "name": "Incheon_height",
-    "wkt": "VERTCS[\"Incheon_height\",VDATUM[\"Incheon\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"Incheon_height\",VDATUM[\"Incheon\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
-    "description": "Incheon (Height)",
+    "name": "KVD1964_Height",
+    "wkt": "VERTCS[\"KVD1964_Height\",VDATUM[\"Korean_Vertical_Datum_1964\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"KVD1964_Height\",VDATUM[\"Korean_Vertical_Datum_1964\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "KVD1964 (Height)",
     "authority": "EPSG",
     "version": "7.5.6(10.1.0)",
     "deprecated": "no",
-    "areaname": "Korea, Republic of (South Korea) - mainland",
+    "areaname": "Korea, Republic of (South Korea) - onshore",
     "extent":
-    { "slat": 33.96,
+    { "slat": 33.14,
       "nlat": 38.64,
-      "llon": 125.75,
-      "rlon": 129.65
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+      "llon": 124.53,
+      "rlon": 131.01
+    }
   },
   { "wkid": 5195,
     "latestWkid": 5195,
@@ -135,9 +123,7 @@
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 23.04
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5214,
     "latestWkid": 5214,
@@ -155,9 +141,7 @@
       "nlat": 47.1,
       "llon": 6.62,
       "rlon": 18.58
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5237,
     "latestWkid": 5237,
@@ -175,9 +159,7 @@
       "nlat": 9.88,
       "llon": 79.64,
       "rlon": 81.95
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5317,
     "latestWkid": 5317,
@@ -195,9 +177,7 @@
       "nlat": 62.41,
       "llon": -7.49,
       "rlon": -6.33
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5336,
     "latestWkid": 5336,
@@ -215,9 +195,7 @@
       "nlat": 43.59,
       "llon": 39.99,
       "rlon": 46.72
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5597,
     "latestWkid": 5597,
@@ -235,9 +213,7 @@
       "nlat": 54.76,
       "llon": 11.17,
       "rlon": 11.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5600,
     "latestWkid": 5600,
@@ -255,9 +231,7 @@
       "nlat": -16.17,
       "llon": -152.39,
       "rlon": -149.09
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5601,
     "latestWkid": 5601,
@@ -275,9 +249,7 @@
       "nlat": -17.44,
       "llon": -149.7,
       "rlon": -149.09
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5602,
     "latestWkid": 5602,
@@ -295,9 +267,7 @@
       "nlat": -17.41,
       "llon": -150.0,
       "rlon": -149.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5603,
     "latestWkid": 5603,
@@ -315,9 +285,7 @@
       "nlat": -16.68,
       "llon": -151.55,
       "rlon": -151.3
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5604,
     "latestWkid": 5604,
@@ -335,9 +303,7 @@
       "nlat": -16.34,
       "llon": -152.39,
       "rlon": -152.14
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5605,
     "latestWkid": 5605,
@@ -355,9 +321,7 @@
       "nlat": -16.63,
       "llon": -151.11,
       "rlon": -150.89
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5606,
     "latestWkid": 5606,
@@ -375,9 +339,7 @@
       "nlat": -16.5,
       "llon": -151.63,
       "rlon": -151.36
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5607,
     "latestWkid": 5607,
@@ -395,9 +357,7 @@
       "nlat": -16.39,
       "llon": -151.86,
       "rlon": -151.61
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5608,
     "latestWkid": 5608,
@@ -415,9 +375,7 @@
       "nlat": 52.22,
       "llon": -93.17,
       "rlon": -54.75
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5609,
     "latestWkid": 5609,
@@ -435,9 +393,7 @@
       "nlat": 52.22,
       "llon": -93.17,
       "rlon": -54.75
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5610,
     "latestWkid": 5610,
@@ -455,9 +411,7 @@
       "nlat": 46.54,
       "llon": 13.43,
       "rlon": 19.43
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5611,
     "latestWkid": 5611,
@@ -475,9 +429,7 @@
       "nlat": 46.97,
       "llon": 46.95,
       "rlon": 53.93
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5612,
     "latestWkid": 5612,
@@ -495,9 +447,7 @@
       "nlat": 77.79,
       "llon": 12.09,
       "rlon": -169.57
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5613,
     "latestWkid": 5613,
@@ -515,9 +465,7 @@
       "nlat": 69.07,
       "llon": 10.93,
       "rlon": 24.17
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5614,
     "latestWkid": 5614,
@@ -527,7 +475,7 @@
     "wkt2": "VERTCRS[\"KOC_WD_depth_ft\",VDATUM[\"KOC_Well_Datum\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",down,LENGTHUNIT[\"Foot\",0.3048]]]",
     "description": "KOC WD (depth - ft)",
     "authority": "EPSG",
-    "version": "6.15(10.0.0)",
+    "version": "10.019(10.0.0)",
     "deprecated": "no",
     "areaname": "Kuwait - onshore",
     "extent":
@@ -535,9 +483,7 @@
       "nlat": 30.09,
       "llon": 46.54,
       "rlon": 48.48
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5615,
     "latestWkid": 5615,
@@ -555,9 +501,7 @@
       "nlat": 69.07,
       "llon": 10.93,
       "rlon": 24.17
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5616,
     "latestWkid": 5616,
@@ -575,9 +519,7 @@
       "nlat": 15.94,
       "llon": -61.68,
       "rlon": -61.52
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5617,
     "latestWkid": 5617,
@@ -595,9 +537,7 @@
       "nlat": 16.05,
       "llon": -61.39,
       "rlon": -61.13
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5618,
     "latestWkid": 5618,
@@ -615,9 +555,7 @@
       "nlat": 16.38,
       "llon": -61.13,
       "rlon": -60.97
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5619,
     "latestWkid": 5619,
@@ -635,9 +573,7 @@
       "nlat": 17.98,
       "llon": -62.92,
       "rlon": -62.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5620,
     "latestWkid": 5620,
@@ -655,9 +591,7 @@
       "nlat": 18.17,
       "llon": -63.21,
       "rlon": -62.96
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5621,
     "latestWkid": 5621,
@@ -672,12 +606,10 @@
     "areaname": "Europe - EVRF2007",
     "extent":
     { "slat": 35.95,
-      "nlat": 71.21,
+      "nlat": 71.24,
       "llon": -9.56,
       "rlon": 31.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5701,
     "latestWkid": 5701,
@@ -695,9 +627,7 @@
       "nlat": 58.71,
       "llon": -7.06,
       "rlon": 1.8
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5702,
     "latestWkid": 5702,
@@ -715,9 +645,7 @@
       "nlat": 49.38,
       "llon": -124.79,
       "rlon": -66.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5703,
     "latestWkid": 5703,
@@ -735,9 +663,7 @@
       "nlat": 71.4,
       "llon": 172.42,
       "rlon": -66.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5704,
     "latestWkid": 5736,
@@ -755,9 +681,7 @@
       "nlat": 53.56,
       "llon": 73.62,
       "rlon": 134.77
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5705,
     "latestWkid": 5705,
@@ -775,9 +699,7 @@
       "nlat": 77.79,
       "llon": 12.09,
       "rlon": -169.57
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5706,
     "latestWkid": 5706,
@@ -795,9 +717,7 @@
       "nlat": 46.97,
       "llon": 46.95,
       "rlon": 53.93
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5709,
     "latestWkid": 5709,
@@ -809,15 +729,13 @@
     "authority": "EPSG",
     "version": "4.5(9.3.0.0)",
     "deprecated": "no",
-    "areaname": "Netherlands - onshore",
+    "areaname": "Netherlands",
     "extent":
     { "slat": 50.75,
-      "nlat": 53.7,
-      "llon": 3.2,
+      "nlat": 55.77,
+      "llon": 2.53,
       "rlon": 7.22
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5710,
     "latestWkid": 5710,
@@ -835,9 +753,7 @@
       "nlat": 51.51,
       "llon": 2.5,
       "rlon": 6.4
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5711,
     "latestWkid": 5711,
@@ -849,15 +765,13 @@
     "authority": "EPSG",
     "version": "6.15(9.3.0.0)",
     "deprecated": "no",
-    "areaname": "Australia - mainland",
+    "areaname": "Australia Christmas and Cocos - onshore",
     "extent":
-    { "slat": -39.2,
-      "nlat": -10.65,
-      "llon": 112.85,
+    { "slat": -43.7,
+      "nlat": -9.86,
+      "llon": 96.76,
       "rlon": 153.69
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5712,
     "latestWkid": 5712,
@@ -875,9 +789,7 @@
       "nlat": -40.24,
       "llon": 144.55,
       "rlon": 148.44
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5713,
     "latestWkid": 5713,
@@ -895,9 +807,7 @@
       "nlat": 69.8,
       "llon": -141.01,
       "rlon": -59.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5714,
     "latestWkid": 5714,
@@ -915,9 +825,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5715,
     "latestWkid": 5715,
@@ -935,9 +843,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5716,
     "latestWkid": 5716,
@@ -955,9 +861,7 @@
       "nlat": 41.75,
       "llon": 19.57,
       "rlon": 28.3
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5717,
     "latestWkid": 5717,
@@ -975,9 +879,7 @@
       "nlat": 70.09,
       "llon": 19.24,
       "rlon": 31.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5718,
     "latestWkid": 5718,
@@ -995,9 +897,7 @@
       "nlat": 69.07,
       "llon": 10.93,
       "rlon": 24.17
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5719,
     "latestWkid": 5719,
@@ -1015,9 +915,7 @@
       "nlat": 51.14,
       "llon": -4.87,
       "rlon": 8.23
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5720,
     "latestWkid": 5720,
@@ -1035,9 +933,7 @@
       "nlat": 51.14,
       "llon": -4.87,
       "rlon": 8.23
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5721,
     "latestWkid": 5721,
@@ -1055,9 +951,7 @@
       "nlat": 43.07,
       "llon": 8.5,
       "rlon": 9.63
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5722,
     "latestWkid": 5722,
@@ -1075,9 +969,7 @@
       "nlat": -10.42,
       "llon": 30.21,
       "rlon": 40.9
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5723,
     "latestWkid": 5723,
@@ -1095,9 +987,7 @@
       "nlat": 45.54,
       "llon": 129.3,
       "rlon": 145.87
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5724,
     "latestWkid": 5724,
@@ -1115,9 +1005,7 @@
       "nlat": 26.58,
       "llon": 51.99,
       "rlon": 59.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5725,
     "latestWkid": 5725,
@@ -1135,9 +1023,7 @@
       "nlat": 26.42,
       "llon": 51.99,
       "rlon": 59.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5726,
     "latestWkid": 5726,
@@ -1155,9 +1041,7 @@
       "nlat": 23.4,
       "llon": 102.14,
       "rlon": 109.53
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5727,
     "latestWkid": 5727,
@@ -1175,9 +1059,7 @@
       "nlat": 23.4,
       "llon": 102.14,
       "rlon": 109.53
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5728,
     "latestWkid": 5728,
@@ -1195,9 +1077,7 @@
       "nlat": 47.81,
       "llon": 5.96,
       "rlon": 10.49
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5729,
     "latestWkid": 5729,
@@ -1215,9 +1095,7 @@
       "nlat": 47.81,
       "llon": 5.96,
       "rlon": 10.49
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5730,
     "latestWkid": 5730,
@@ -1232,12 +1110,10 @@
     "areaname": "Europe - EVRF2000",
     "extent":
     { "slat": 35.95,
-      "nlat": 71.21,
+      "nlat": 71.24,
       "llon": -9.56,
       "rlon": 31.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5731,
     "latestWkid": 5731,
@@ -1255,9 +1131,7 @@
       "nlat": 55.43,
       "llon": -10.56,
       "rlon": -5.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5732,
     "latestWkid": 5732,
@@ -1275,9 +1149,7 @@
       "nlat": 55.36,
       "llon": -8.18,
       "rlon": -5.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5733,
     "latestWkid": 5733,
@@ -1295,9 +1167,7 @@
       "nlat": 57.8,
       "llon": 8.0,
       "rlon": 15.25
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5734,
     "latestWkid": 5734,
@@ -1315,9 +1185,7 @@
       "nlat": 42.59,
       "llon": 48.66,
       "rlon": 51.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5735,
     "latestWkid": 5735,
@@ -1335,9 +1203,7 @@
       "nlat": 43.59,
       "llon": 39.99,
       "rlon": 46.72
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5736,
     "latestWkid": 5736,
@@ -1355,9 +1221,7 @@
       "nlat": 53.56,
       "llon": 73.62,
       "rlon": 134.77
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5737,
     "latestWkid": 5737,
@@ -1375,9 +1239,7 @@
       "nlat": 53.56,
       "llon": 73.62,
       "rlon": 134.77
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5738,
     "latestWkid": 5738,
@@ -1395,9 +1257,7 @@
       "nlat": 22.56,
       "llon": 113.82,
       "rlon": 114.39
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5739,
     "latestWkid": 5739,
@@ -1415,9 +1275,7 @@
       "nlat": 22.58,
       "llon": 113.76,
       "rlon": 114.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5740,
     "latestWkid": 5740,
@@ -1435,9 +1293,7 @@
       "nlat": 59.41,
       "llon": -3.48,
       "rlon": -2.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5741,
     "latestWkid": 5741,
@@ -1455,9 +1311,7 @@
       "nlat": 59.6,
       "llon": -1.76,
       "rlon": -1.5
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5742,
     "latestWkid": 5742,
@@ -1475,9 +1329,7 @@
       "nlat": 60.87,
       "llon": -1.78,
       "rlon": -0.67
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5743,
     "latestWkid": 5743,
@@ -1495,9 +1347,7 @@
       "nlat": 60.2,
       "llon": -2.21,
       "rlon": -1.95
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5744,
     "latestWkid": 5744,
@@ -1515,9 +1365,7 @@
       "nlat": 59.13,
       "llon": -4.5,
       "rlon": -4.3
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5745,
     "latestWkid": 5745,
@@ -1535,9 +1383,7 @@
       "nlat": 59.19,
       "llon": -5.92,
       "rlon": -5.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5746,
     "latestWkid": 5746,
@@ -1555,9 +1401,7 @@
       "nlat": 58.54,
       "llon": -7.72,
       "rlon": -6.1
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5747,
     "latestWkid": 5747,
@@ -1575,9 +1419,7 @@
       "nlat": 57.93,
       "llon": -8.74,
       "rlon": -8.41
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5748,
     "latestWkid": 5748,
@@ -1595,9 +1437,7 @@
       "nlat": 58.35,
       "llon": -7.75,
       "rlon": -7.46
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5749,
     "latestWkid": 5749,
@@ -1615,9 +1455,7 @@
       "nlat": 49.99,
       "llon": -6.41,
       "rlon": -6.23
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5750,
     "latestWkid": 5750,
@@ -1635,9 +1473,7 @@
       "nlat": 54.44,
       "llon": -4.87,
       "rlon": -4.27
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5751,
     "latestWkid": 5751,
@@ -1655,9 +1491,7 @@
       "nlat": 33.5,
       "llon": 44.3,
       "rlon": 51.06
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5752,
     "latestWkid": 5752,
@@ -1675,9 +1509,7 @@
       "nlat": 39.78,
       "llon": 44.03,
       "rlon": 63.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5753,
     "latestWkid": 5753,
@@ -1695,9 +1527,7 @@
       "nlat": -20.03,
       "llon": 163.92,
       "rlon": 167.09
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5754,
     "latestWkid": 5754,
@@ -1715,9 +1545,7 @@
       "nlat": 55.43,
       "llon": -10.56,
       "rlon": -5.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5755,
     "latestWkid": 5755,
@@ -1735,9 +1563,7 @@
       "nlat": 5.81,
       "llon": -54.61,
       "rlon": -51.61
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5756,
     "latestWkid": 5756,
@@ -1755,9 +1581,7 @@
       "nlat": 14.93,
       "llon": -61.29,
       "rlon": -60.76
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5757,
     "latestWkid": 5757,
@@ -1775,9 +1599,7 @@
       "nlat": 16.55,
       "llon": -61.85,
       "rlon": -61.15
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5758,
     "latestWkid": 5758,
@@ -1795,9 +1617,7 @@
       "nlat": -20.81,
       "llon": 55.16,
       "rlon": 55.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5759,
     "latestWkid": 5759,
@@ -1815,9 +1635,7 @@
       "nlat": -36.12,
       "llon": 174.0,
       "rlon": 176.17
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5760,
     "latestWkid": 5760,
@@ -1835,9 +1653,7 @@
       "nlat": -46.26,
       "llon": 168.01,
       "rlon": 168.86
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5761,
     "latestWkid": 5761,
@@ -1855,9 +1671,7 @@
       "nlat": -43.82,
       "llon": 167.73,
       "rlon": 171.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5762,
     "latestWkid": 5762,
@@ -1875,9 +1689,7 @@
       "nlat": -37.49,
       "llon": 176.41,
       "rlon": 178.63
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5763,
     "latestWkid": 5763,
@@ -1895,9 +1707,7 @@
       "nlat": -41.6,
       "llon": 168.95,
       "rlon": 173.77
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5764,
     "latestWkid": 5764,
@@ -1915,9 +1725,7 @@
       "nlat": -37.52,
       "llon": 174.57,
       "rlon": 177.26
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5765,
     "latestWkid": 5765,
@@ -1935,9 +1743,7 @@
       "nlat": -38.87,
       "llon": 175.8,
       "rlon": 178.07
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5766,
     "latestWkid": 5766,
@@ -1955,9 +1761,7 @@
       "nlat": -40.44,
       "llon": 171.82,
       "rlon": 174.46
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5767,
     "latestWkid": 5767,
@@ -1975,9 +1779,7 @@
       "nlat": -34.36,
       "llon": 172.61,
       "rlon": 174.83
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5768,
     "latestWkid": 5768,
@@ -1995,9 +1797,7 @@
       "nlat": -36.78,
       "llon": 175.44,
       "rlon": 175.99
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5769,
     "latestWkid": 5769,
@@ -2015,9 +1815,7 @@
       "nlat": -38.41,
       "llon": 173.68,
       "rlon": 174.95
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5770,
     "latestWkid": 5770,
@@ -2035,9 +1833,7 @@
       "nlat": -40.12,
       "llon": 174.52,
       "rlon": 176.55
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5771,
     "latestWkid": 5771,
@@ -2055,9 +1851,7 @@
       "nlat": -43.67,
       "llon": -176.92,
       "rlon": -176.2
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5772,
     "latestWkid": 5772,
@@ -2075,9 +1869,7 @@
       "nlat": -46.63,
       "llon": 167.29,
       "rlon": 168.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5773,
     "latestWkid": 5773,
@@ -2095,9 +1887,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5774,
     "latestWkid": 5774,
@@ -2115,9 +1905,7 @@
       "nlat": 50.19,
       "llon": 5.73,
       "rlon": 6.53
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5775,
     "latestWkid": 5775,
@@ -2135,9 +1923,7 @@
       "nlat": 42.15,
       "llon": 25.62,
       "rlon": 44.83
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5776,
     "latestWkid": 5776,
@@ -2151,13 +1937,11 @@
     "deprecated": "no",
     "areaname": "Norway - onshore",
     "extent":
-    { "slat": 57.93,
-      "nlat": 71.21,
-      "llon": 4.68,
-      "rlon": 31.22
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    { "slat": 57.9,
+      "nlat": 71.24,
+      "llon": 4.39,
+      "rlon": 31.32
+    }
   },
   { "wkid": 5777,
     "latestWkid": 5777,
@@ -2175,9 +1959,7 @@
       "nlat": 42.67,
       "llon": 19.22,
       "rlon": 21.06
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5778,
     "latestWkid": 5778,
@@ -2195,9 +1977,7 @@
       "nlat": 49.02,
       "llon": 9.53,
       "rlon": 17.17
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5779,
     "latestWkid": 5779,
@@ -2215,9 +1995,7 @@
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5780,
     "latestWkid": 5780,
@@ -2235,9 +2013,7 @@
       "nlat": 42.16,
       "llon": -9.56,
       "rlon": -6.19
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5781,
     "latestWkid": 5781,
@@ -2255,9 +2031,7 @@
       "nlat": 48.27,
       "llon": 20.26,
       "rlon": 29.74
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5782,
     "latestWkid": 5782,
@@ -2275,9 +2049,7 @@
       "nlat": 43.82,
       "llon": -9.37,
       "rlon": 3.39
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5783,
     "latestWkid": 5783,
@@ -2295,9 +2067,7 @@
       "nlat": 55.09,
       "llon": 5.86,
       "rlon": 15.04
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5784,
     "latestWkid": 5784,
@@ -2315,9 +2085,7 @@
       "nlat": 55.09,
       "llon": 5.86,
       "rlon": 13.84
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5785,
     "latestWkid": 5785,
@@ -2335,9 +2103,7 @@
       "nlat": 54.74,
       "llon": 9.92,
       "rlon": 15.04
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5786,
     "latestWkid": 5786,
@@ -2355,9 +2121,7 @@
       "nlat": 44.23,
       "llon": 22.36,
       "rlon": 28.68
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5787,
     "latestWkid": 5787,
@@ -2375,9 +2139,7 @@
       "nlat": 48.58,
       "llon": 16.11,
       "rlon": 22.9
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5788,
     "latestWkid": 5788,
@@ -2395,9 +2157,7 @@
       "nlat": 30.09,
       "llon": 46.54,
       "rlon": 48.48
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5789,
     "latestWkid": 5789,
@@ -2415,9 +2175,7 @@
       "nlat": 30.09,
       "llon": 46.54,
       "rlon": 48.48
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5790,
     "latestWkid": 5790,
@@ -2435,9 +2193,7 @@
       "nlat": 30.09,
       "llon": 46.54,
       "rlon": 48.48
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5791,
     "latestWkid": 5791,
@@ -2455,9 +2211,7 @@
       "nlat": 43.07,
       "llon": 8.5,
       "rlon": 9.63
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5792,
     "latestWkid": 5792,
@@ -2475,9 +2229,7 @@
       "nlat": 47.19,
       "llon": -56.48,
       "rlon": -56.07
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5793,
     "latestWkid": 5793,
@@ -2495,9 +2247,7 @@
       "nlat": -12.61,
       "llon": 44.98,
       "rlon": 45.35
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5794,
     "latestWkid": 5794,
@@ -2515,9 +2265,7 @@
       "nlat": 14.93,
       "llon": -61.29,
       "rlon": -60.76
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5795,
     "latestWkid": 5795,
@@ -2535,9 +2283,7 @@
       "nlat": 16.55,
       "llon": -61.85,
       "rlon": -61.15
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5796,
     "latestWkid": 5796,
@@ -2555,9 +2301,7 @@
       "nlat": 13.9,
       "llon": 2.69,
       "rlon": 14.65
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5797,
     "latestWkid": 5797,
@@ -2575,9 +2319,7 @@
       "nlat": 42.59,
       "llon": 48.66,
       "rlon": 51.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5798,
     "latestWkid": 5798,
@@ -2595,9 +2337,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5799,
     "latestWkid": 5799,
@@ -2615,9 +2355,7 @@
       "nlat": 57.8,
       "llon": 8.0,
       "rlon": 15.25
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5829,
     "latestWkid": 5829,
@@ -2635,9 +2373,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5831,
     "latestWkid": 5831,
@@ -2655,9 +2391,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5843,
     "latestWkid": 5843,
@@ -2675,9 +2409,7 @@
       "nlat": 24.95,
       "llon": 51.56,
       "rlon": 56.03
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5861,
     "latestWkid": 5861,
@@ -2695,9 +2427,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5862,
     "latestWkid": 5862,
@@ -2715,9 +2445,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5863,
     "latestWkid": 5863,
@@ -2735,9 +2463,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5864,
     "latestWkid": 5864,
@@ -2755,9 +2481,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5865,
     "latestWkid": 5865,
@@ -2775,9 +2499,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5866,
     "latestWkid": 5866,
@@ -2795,9 +2517,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5867,
     "latestWkid": 5867,
@@ -2815,9 +2535,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5868,
     "latestWkid": 5868,
@@ -2835,9 +2553,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5869,
     "latestWkid": 5869,
@@ -2855,9 +2571,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5870,
     "latestWkid": 5870,
@@ -2875,9 +2589,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5871,
     "latestWkid": 5871,
@@ -2895,9 +2607,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5872,
     "latestWkid": 5872,
@@ -2915,9 +2625,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5873,
     "latestWkid": 5873,
@@ -2935,9 +2643,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5874,
     "latestWkid": 5874,
@@ -2955,9 +2661,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 5941,
     "latestWkid": 5941,
@@ -2971,13 +2675,11 @@
     "deprecated": "no",
     "areaname": "Norway - onshore",
     "extent":
-    { "slat": 57.93,
-      "nlat": 71.21,
-      "llon": 4.68,
-      "rlon": 31.22
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    { "slat": 57.9,
+      "nlat": 71.24,
+      "llon": 4.39,
+      "rlon": 31.32
+    }
   },
   { "wkid": 6130,
     "latestWkid": 6130,
@@ -2995,9 +2697,7 @@
       "nlat": 19.41,
       "llon": -81.46,
       "rlon": -81.04
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6131,
     "latestWkid": 6131,
@@ -3015,9 +2715,7 @@
       "nlat": 19.74,
       "llon": -80.14,
       "rlon": -79.93
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6132,
     "latestWkid": 6132,
@@ -3035,9 +2733,7 @@
       "nlat": 19.78,
       "llon": -79.92,
       "rlon": -79.69
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6178,
     "latestWkid": 6178,
@@ -3055,9 +2751,7 @@
       "nlat": 32.93,
       "llon": -17.31,
       "rlon": -16.4
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6179,
     "latestWkid": 6179,
@@ -3075,9 +2769,7 @@
       "nlat": 33.15,
       "llon": -16.44,
       "rlon": -16.23
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6180,
     "latestWkid": 6180,
@@ -3095,9 +2787,7 @@
       "nlat": 38.8,
       "llon": -28.37,
       "rlon": -27.71
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6181,
     "latestWkid": 6181,
@@ -3115,9 +2805,7 @@
       "nlat": 38.7,
       "llon": -28.9,
       "rlon": -28.54
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6182,
     "latestWkid": 6182,
@@ -3135,9 +2823,7 @@
       "nlat": 38.61,
       "llon": -28.61,
       "rlon": -27.98
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6183,
     "latestWkid": 6183,
@@ -3155,9 +2841,7 @@
       "nlat": 39.14,
       "llon": -28.13,
       "rlon": -27.88
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6184,
     "latestWkid": 6184,
@@ -3175,9 +2859,7 @@
       "nlat": 38.86,
       "llon": -27.44,
       "rlon": -26.97
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6185,
     "latestWkid": 6185,
@@ -3195,9 +2877,7 @@
       "nlat": 39.77,
       "llon": -31.34,
       "rlon": -31.02
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6186,
     "latestWkid": 6186,
@@ -3215,9 +2895,7 @@
       "nlat": 37.34,
       "llon": -25.26,
       "rlon": -24.72
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6187,
     "latestWkid": 6187,
@@ -3235,9 +2913,7 @@
       "nlat": 37.96,
       "llon": -25.92,
       "rlon": -25.08
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6357,
     "latestWkid": 6357,
@@ -3255,9 +2931,7 @@
       "nlat": 71.4,
       "llon": 172.42,
       "rlon": -66.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6358,
     "latestWkid": 6358,
@@ -3275,9 +2949,7 @@
       "nlat": 71.4,
       "llon": -168.26,
       "rlon": -66.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6359,
     "latestWkid": 6359,
@@ -3295,9 +2967,7 @@
       "nlat": 49.38,
       "llon": -124.79,
       "rlon": -66.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6360,
     "latestWkid": 6360,
@@ -3315,9 +2985,7 @@
       "nlat": 71.4,
       "llon": -168.26,
       "rlon": -66.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6638,
     "latestWkid": 6638,
@@ -3335,9 +3003,7 @@
       "nlat": -14.2,
       "llon": -170.88,
       "rlon": -170.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6639,
     "latestWkid": 6639,
@@ -3355,9 +3021,7 @@
       "nlat": 13.7,
       "llon": 144.58,
       "rlon": 145.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6640,
     "latestWkid": 6640,
@@ -3375,9 +3039,7 @@
       "nlat": 15.35,
       "llon": 145.06,
       "rlon": 145.89
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6641,
     "latestWkid": 6641,
@@ -3395,9 +3057,7 @@
       "nlat": 18.57,
       "llon": -67.97,
       "rlon": -65.19
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6642,
     "latestWkid": 6642,
@@ -3415,9 +3075,7 @@
       "nlat": 18.44,
       "llon": -65.09,
       "rlon": -64.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6643,
     "latestWkid": 6643,
@@ -3435,9 +3093,7 @@
       "nlat": -14.2,
       "llon": -170.88,
       "rlon": -170.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6644,
     "latestWkid": 6644,
@@ -3455,9 +3111,7 @@
       "nlat": 13.7,
       "llon": 144.58,
       "rlon": 145.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6647,
     "latestWkid": 6647,
@@ -3475,9 +3129,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6693,
     "latestWkid": 6693,
@@ -3495,9 +3147,7 @@
       "nlat": 45.54,
       "llon": 139.7,
       "rlon": 145.87
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6694,
     "latestWkid": 6694,
@@ -3515,9 +3165,7 @@
       "nlat": 45.54,
       "llon": 129.3,
       "rlon": 145.87
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6695,
     "latestWkid": 6695,
@@ -3535,9 +3183,7 @@
       "nlat": 45.54,
       "llon": 129.3,
       "rlon": 145.87
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 6916,
     "latestWkid": 6916,
@@ -3555,9 +3201,7 @@
       "nlat": 1.47,
       "llon": 103.59,
       "rlon": 104.07
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7446,
     "latestWkid": 7446,
@@ -3575,9 +3219,7 @@
       "nlat": 35.74,
       "llon": 32.2,
       "rlon": 34.65
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7447,
     "latestWkid": 7447,
@@ -3595,9 +3237,7 @@
       "nlat": 0.01,
       "llon": 140.0,
       "rlon": 158.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7651,
     "latestWkid": 7651,
@@ -3615,9 +3255,7 @@
       "nlat": -5.59,
       "llon": 142.24,
       "rlon": 144.75
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7652,
     "latestWkid": 7652,
@@ -3635,9 +3273,7 @@
       "nlat": -5.0,
       "llon": 140.85,
       "rlon": 144.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7699,
     "latestWkid": 7699,
@@ -3655,9 +3291,7 @@
       "nlat": 55.09,
       "llon": 5.86,
       "rlon": 15.04
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7700,
     "latestWkid": 7700,
@@ -3675,9 +3309,7 @@
       "nlat": 58.09,
       "llon": 20.87,
       "rlon": 28.24
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7707,
     "latestWkid": 7707,
@@ -3693,11 +3325,9 @@
     "extent":
     { "slat": 49.75,
       "nlat": 61.01,
-      "llon": -9.0,
+      "llon": -9.01,
       "rlon": 2.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7832,
     "latestWkid": 7832,
@@ -3715,9 +3345,7 @@
       "nlat": -6.67,
       "llon": 144.4,
       "rlon": 149.67
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7837,
     "latestWkid": 7837,
@@ -3729,15 +3357,13 @@
     "authority": "EPSG",
     "version": "8.9.4(10.5.0)",
     "deprecated": "no",
-    "areaname": "Germany - onshore",
+    "areaname": "Germany",
     "extent":
     { "slat": 47.27,
-      "nlat": 55.09,
-      "llon": 5.86,
+      "nlat": 55.92,
+      "llon": 3.34,
       "rlon": 15.04
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7839,
     "latestWkid": 7839,
@@ -3755,9 +3381,7 @@
       "nlat": -25.88,
       "llon": 160.6,
       "rlon": -171.2
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7841,
     "latestWkid": 7841,
@@ -3775,9 +3399,7 @@
       "nlat": -6.67,
       "llon": 144.4,
       "rlon": 149.67
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7888,
     "latestWkid": 7888,
@@ -3795,9 +3417,7 @@
       "nlat": -15.85,
       "llon": -5.85,
       "rlon": -5.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7889,
     "latestWkid": 7889,
@@ -3815,9 +3435,7 @@
       "nlat": -15.85,
       "llon": -5.85,
       "rlon": -5.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7890,
     "latestWkid": 7890,
@@ -3835,9 +3453,7 @@
       "nlat": -15.85,
       "llon": -5.85,
       "rlon": -5.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7962,
     "latestWkid": 7962,
@@ -3855,9 +3471,7 @@
       "nlat": 55.43,
       "llon": -10.56,
       "rlon": -5.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7968,
     "latestWkid": 7968,
@@ -3875,9 +3489,7 @@
       "nlat": 49.38,
       "llon": -124.79,
       "rlon": -66.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7976,
     "latestWkid": 7976,
@@ -3895,9 +3507,7 @@
       "nlat": 22.56,
       "llon": 113.82,
       "rlon": 114.39
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 7979,
     "latestWkid": 7979,
@@ -3915,9 +3525,7 @@
       "nlat": 30.09,
       "llon": 46.54,
       "rlon": 48.48
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8050,
     "latestWkid": 8050,
@@ -3935,9 +3543,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8051,
     "latestWkid": 8051,
@@ -3955,9 +3561,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8052,
     "latestWkid": 8052,
@@ -3975,9 +3579,7 @@
       "nlat": 74.71,
       "llon": 167.65,
       "rlon": -65.69
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8053,
     "latestWkid": 8053,
@@ -3995,9 +3597,7 @@
       "nlat": 74.71,
       "llon": 167.65,
       "rlon": -65.69
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8089,
     "latestWkid": 8089,
@@ -4009,15 +3609,13 @@
     "authority": "EPSG",
     "version": "9.1(10.6.0)",
     "deprecated": "no",
-    "areaname": "Iceland - mainland",
+    "areaname": "Iceland - onshore",
     "extent":
-    { "slat": 63.34,
-      "nlat": 66.59,
+    { "slat": 63.24,
+      "nlat": 66.62,
       "llon": -24.66,
       "rlon": -13.38
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8228,
     "latestWkid": 8228,
@@ -4035,9 +3633,7 @@
       "nlat": 49.01,
       "llon": -124.6,
       "rlon": -78.52
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8266,
     "latestWkid": 8266,
@@ -4055,9 +3651,7 @@
       "nlat": 84.01,
       "llon": -75.0,
       "rlon": -10.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8267,
     "latestWkid": 8267,
@@ -4075,9 +3669,7 @@
       "nlat": 85.01,
       "llon": -75.0,
       "rlon": -6.99
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8357,
     "latestWkid": 8357,
@@ -4095,9 +3687,7 @@
       "nlat": 51.06,
       "llon": 12.09,
       "rlon": 22.56
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8358,
     "latestWkid": 8358,
@@ -4115,9 +3705,7 @@
       "nlat": 51.06,
       "llon": 12.09,
       "rlon": 22.56
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8434,
     "latestWkid": 8434,
@@ -4135,9 +3723,7 @@
       "nlat": 22.23,
       "llon": 113.52,
       "rlon": 113.68
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8675,
     "latestWkid": 8675,
@@ -4155,9 +3741,7 @@
       "nlat": 66.73,
       "llon": 20.95,
       "rlon": 31.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8690,
     "latestWkid": 8690,
@@ -4175,9 +3759,7 @@
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8691,
     "latestWkid": 8691,
@@ -4195,9 +3777,7 @@
       "nlat": 46.19,
       "llon": 18.81,
       "rlon": 23.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8841,
     "latestWkid": 8841,
@@ -4215,9 +3795,7 @@
       "nlat": 32.16,
       "llon": 34.51,
       "rlon": 55.67
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8881,
     "latestWkid": 8881,
@@ -4235,9 +3813,7 @@
       "nlat": 48.34,
       "llon": 16.18,
       "rlon": 16.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8904,
     "latestWkid": 8904,
@@ -4255,9 +3831,7 @@
       "nlat": 25.34,
       "llon": 119.99,
       "rlon": 122.06
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 8911,
     "latestWkid": 8911,
@@ -4275,9 +3849,7 @@
       "nlat": 11.22,
       "llon": -85.97,
       "rlon": -82.53
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9130,
     "latestWkid": 9130,
@@ -4295,9 +3867,7 @@
       "nlat": 16.38,
       "llon": -61.13,
       "rlon": -60.97
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9245,
     "latestWkid": 9245,
@@ -4315,9 +3885,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9255,
     "latestWkid": 9255,
@@ -4335,9 +3903,7 @@
       "nlat": -21.78,
       "llon": -73.59,
       "rlon": -53.65
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9274,
     "latestWkid": 9274,
@@ -4355,9 +3921,7 @@
       "nlat": 49.02,
       "llon": 9.53,
       "rlon": 17.17
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9279,
     "latestWkid": 9279,
@@ -4375,9 +3939,7 @@
       "nlat": -22.13,
       "llon": 16.45,
       "rlon": 32.95
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9287,
     "latestWkid": 9287,
@@ -4395,9 +3957,7 @@
       "nlat": 55.77,
       "llon": 2.53,
       "rlon": 6.41
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9288,
     "latestWkid": 9288,
@@ -4415,9 +3975,7 @@
       "nlat": 55.77,
       "llon": 2.53,
       "rlon": 6.41
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9303,
     "latestWkid": 9303,
@@ -4435,9 +3993,7 @@
       "nlat": 53.3,
       "llon": -2.75,
       "rlon": 0.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9335,
     "latestWkid": 9335,
@@ -4455,9 +4011,7 @@
       "nlat": 32.16,
       "llon": 34.51,
       "rlon": 55.67
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9351,
     "latestWkid": 9351,
@@ -4475,9 +4029,7 @@
       "nlat": -19.5,
       "llon": 163.54,
       "rlon": 168.19
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9389,
     "latestWkid": 9389,
@@ -4495,9 +4047,7 @@
       "nlat": 77.07,
       "llon": -9.56,
       "rlon": 69.15
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9390,
     "latestWkid": 9390,
@@ -4515,9 +4065,7 @@
       "nlat": 77.07,
       "llon": -9.56,
       "rlon": 69.15
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9392,
     "latestWkid": 9392,
@@ -4535,9 +4083,7 @@
       "nlat": 40.02,
       "llon": 2.23,
       "rlon": 3.55
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9393,
     "latestWkid": 9393,
@@ -4555,9 +4101,7 @@
       "nlat": 40.15,
       "llon": 3.73,
       "rlon": 4.39
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9394,
     "latestWkid": 9394,
@@ -4569,15 +4113,13 @@
     "authority": "EPSG",
     "version": "9.8.13(12.9.0)",
     "deprecated": "no",
-    "areaname": "Spain - Balearic Islands - Ibiza and Formentera",
+    "areaname": "Spain - Balearic Islands - Ibiza",
     "extent":
-    { "slat": 38.59,
+    { "slat": 38.77,
       "nlat": 39.17,
       "llon": 1.12,
       "rlon": 1.68
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9395,
     "latestWkid": 9395,
@@ -4595,9 +4137,7 @@
       "nlat": 29.47,
       "llon": -13.95,
       "rlon": -13.37
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9396,
     "latestWkid": 9396,
@@ -4615,9 +4155,7 @@
       "nlat": 28.81,
       "llon": -14.58,
       "rlon": -13.75
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9397,
     "latestWkid": 9397,
@@ -4635,9 +4173,7 @@
       "nlat": 28.23,
       "llon": -15.88,
       "rlon": -15.31
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9398,
     "latestWkid": 9398,
@@ -4655,9 +4191,7 @@
       "nlat": 28.63,
       "llon": -16.96,
       "rlon": -16.08
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9399,
     "latestWkid": 9399,
@@ -4675,9 +4209,7 @@
       "nlat": 28.26,
       "llon": -17.39,
       "rlon": -17.03
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9400,
     "latestWkid": 9400,
@@ -4695,9 +4227,7 @@
       "nlat": 28.9,
       "llon": -18.06,
       "rlon": -17.66
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9401,
     "latestWkid": 9401,
@@ -4715,9 +4245,7 @@
       "nlat": 27.9,
       "llon": -18.22,
       "rlon": -17.83
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9402,
     "latestWkid": 9402,
@@ -4735,9 +4263,7 @@
       "nlat": 35.97,
       "llon": -5.4,
       "rlon": -5.24
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9451,
     "latestWkid": 9451,
@@ -4755,9 +4281,7 @@
       "nlat": 61.01,
       "llon": -10.85,
       "rlon": 2.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9458,
     "latestWkid": 9458,
@@ -4775,9 +4299,7 @@
       "nlat": -8.47,
       "llon": 93.41,
       "rlon": 173.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9471,
     "latestWkid": 9471,
@@ -4795,9 +4317,7 @@
       "nlat": 7.79,
       "llon": 92.01,
       "rlon": 141.46
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9650,
     "latestWkid": 9650,
@@ -4806,8 +4326,8 @@
     "wkt": "VERTCS[\"Baltic_1986_height\",VDATUM[\"Baltic_1986\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "wkt2": "VERTCRS[\"Baltic_1986_height\",VDATUM[\"Baltic_1986\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "Baltic 1986 height",
-    "authority": "Esri",
-    "version": "12.9.0",
+    "authority": "EPSG",
+    "version": "10.016(12.9.0)",
     "deprecated": "no",
     "areaname": "Poland - onshore",
     "extent":
@@ -4815,9 +4335,7 @@
       "nlat": 54.89,
       "llon": 14.14,
       "rlon": 24.15
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9651,
     "latestWkid": 9651,
@@ -4826,8 +4344,8 @@
     "wkt": "VERTCS[\"EVRF_2007_PL_height\",VDATUM[\"European_Vertical_Reference_Frame_2007_Poland\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "wkt2": "VERTCRS[\"EVRF_2007_PL_height\",VDATUM[\"European_Vertical_Reference_Frame_2007_Poland\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "EVRF2007-PL height",
-    "authority": "Esri",
-    "version": "12.9.0",
+    "authority": "EPSG",
+    "version": "10.016(12.9.0)",
     "deprecated": "no",
     "areaname": "Poland - onshore",
     "extent":
@@ -4835,9 +4353,7 @@
       "nlat": 54.89,
       "llon": 14.14,
       "rlon": 24.15
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9663,
     "latestWkid": 9663,
@@ -4855,9 +4371,7 @@
       "nlat": 59.75,
       "llon": 21.74,
       "rlon": 28.2
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9666,
     "latestWkid": 9666,
@@ -4875,9 +4389,7 @@
       "nlat": 56.45,
       "llon": 20.86,
       "rlon": 26.82
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9669,
     "latestWkid": 9669,
@@ -4895,9 +4407,7 @@
       "nlat": 44.23,
       "llon": 22.36,
       "rlon": 28.68
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9672,
     "latestWkid": 9672,
@@ -4915,9 +4425,7 @@
       "nlat": 84.73,
       "llon": -13.63,
       "rlon": 38.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9675,
     "latestWkid": 9675,
@@ -4935,9 +4443,7 @@
       "nlat": -14.2,
       "llon": -170.88,
       "rlon": -170.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9681,
     "latestWkid": 9681,
@@ -4955,9 +4461,7 @@
       "nlat": 26.64,
       "llon": 88.01,
       "rlon": 92.67
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9721,
     "latestWkid": 9721,
@@ -4966,8 +4470,8 @@
     "wkt": "VERTCS[\"Catania_1965_height\",VDATUM[\"Catania_1965\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "wkt2": "VERTCRS[\"Catania_1965_height\",VDATUM[\"Catania_1965\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "Catania 1965 height",
-    "authority": "Esri",
-    "version": "12.9.0",
+    "authority": "EPSG",
+    "version": "10.021(12.9.0)",
     "deprecated": "no",
     "areaname": "Italy - Sicily onshore",
     "extent":
@@ -4975,9 +4479,7 @@
       "nlat": 38.35,
       "llon": 12.36,
       "rlon": 15.71
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9722,
     "latestWkid": 9722,
@@ -4986,8 +4488,8 @@
     "wkt": "VERTCS[\"Cagliari_1956_height\",VDATUM[\"Cagliari_1956\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "wkt2": "VERTCRS[\"Cagliari_1956_height\",VDATUM[\"Cagliari_1956\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "Cagliari 1956 height",
-    "authority": "Esri",
-    "version": "12.9.0",
+    "authority": "EPSG",
+    "version": "10.021(12.9.0)",
     "deprecated": "no",
     "areaname": "Italy - Sardinia onshore",
     "extent":
@@ -4995,9 +4497,7 @@
       "nlat": 41.31,
       "llon": 8.08,
       "rlon": 9.89
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9923,
     "latestWkid": 9923,
@@ -5006,8 +4506,8 @@
     "wkt": "VERTCS[\"GNTRANS_height\",VDATUM[\"GNTRANS\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "wkt2": "VERTCRS[\"GNTRANS_height\",VDATUM[\"GNTRANS\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "GNTRANS height",
-    "authority": "Esri",
-    "version": "13.1.0",
+    "authority": "EPSG",
+    "version": "10.042(13.1.0)",
     "deprecated": "no",
     "areaname": "Germany - onshore",
     "extent":
@@ -5015,9 +4515,7 @@
       "nlat": 55.09,
       "llon": 5.86,
       "rlon": 15.04
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 9927,
     "latestWkid": 9927,
@@ -5026,8 +4524,8 @@
     "wkt": "VERTCS[\"GNTRANS2016_height\",VDATUM[\"GNTRANS2016\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "wkt2": "VERTCRS[\"GNTRANS2016_height\",VDATUM[\"GNTRANS2016\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "GNTRANS2016 height",
-    "authority": "Esri",
-    "version": "13.1.0",
+    "authority": "EPSG",
+    "version": "10.042(13.1.0)",
     "deprecated": "no",
     "areaname": "Germany - onshore",
     "extent":
@@ -5035,9 +4533,133 @@
       "nlat": 55.09,
       "llon": 5.86,
       "rlon": 15.04
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
+  },
+  { "wkid": 10150,
+    "latestWkid": 10150,
+    "macro": "PE_VCS_MSL_UK_IRELAND_VORF08_DEPTH",
+    "name": "MSL_UK_Ireland_VORF08_depth",
+    "wkt": "VERTCS[\"MSL_UK_Ireland_VORF08_depth\",VDATUM[\"Mean_Sea_Level_UK_Ireland_VORF08\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",-1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"MSL_UK_Ireland_VORF08_depth\",VDATUM[\"Mean_Sea_Level_UK_Ireland_VORF08\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",down,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "MSL UK and Ireland VORF08 depth",
+    "authority": "EPSG",
+    "version": "10.077(13.2.0)",
+    "deprecated": "no",
+    "areaname": "Europe - Ireland and UK offshore",
+    "extent":
+    { "slat": 47.42,
+      "nlat": 63.89,
+      "llon": -16.1,
+      "rlon": 3.4
+    }
+  },
+  { "wkid": 10151,
+    "latestWkid": 10151,
+    "macro": "PE_VCS_CD_UK_IRELAND_VORF08_DEPTH",
+    "name": "CD_UK_Ireland_VORF08_depth",
+    "wkt": "VERTCS[\"CD_UK_Ireland_VORF08_depth\",VDATUM[\"Chart_Datum_UK_Ireland_VORF08\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",-1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"CD_UK_Ireland_VORF08_depth\",VDATUM[\"Chart_Datum_UK_Ireland_VORF08\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",down,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "CD UK and Ireland VORF08 depth",
+    "authority": "EPSG",
+    "version": "10.077(13.2.0)",
+    "deprecated": "no",
+    "areaname": "Europe - Ireland and UK offshore",
+    "extent":
+    { "slat": 47.42,
+      "nlat": 63.89,
+      "llon": -16.1,
+      "rlon": 3.4
+    }
+  },
+  { "wkid": 10190,
+    "latestWkid": 10190,
+    "macro": "PE_VCS_NGA_2022_HEIGHT",
+    "name": "NGA_2022_height",
+    "wkt": "VERTCS[\"NGA_2022_height\",VDATUM[\"Nivellement_General_de_l_Algerie_2022\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"NGA_2022_height\",VDATUM[\"Nivellement_General_de_l_Algerie_2022\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "NGA 2022 height",
+    "authority": "EPSG",
+    "version": "10.083(13.2.0)",
+    "deprecated": "no",
+    "areaname": "Algeria - onshore",
+    "extent":
+    { "slat": 18.97,
+      "nlat": 37.14,
+      "llon": -8.67,
+      "rlon": 11.99
+    }
+  },
+  { "wkid": 10349,
+    "latestWkid": 10349,
+    "macro": "PE_VCS_ZH_PORTUGAL_DEPTH",
+    "name": "ZH_Portugal_depth",
+    "wkt": "VERTCS[\"ZH_Portugal_depth\",VDATUM[\"Chart_Datum_Portugal\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",-1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"ZH_Portugal_depth\",VDATUM[\"Chart_Datum_Portugal\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",down,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "ZH Portugal depth",
+    "authority": "EPSG",
+    "version": "10.094(13.2.0)",
+    "deprecated": "no",
+    "areaname": "Portugal - offshore",
+    "extent":
+    { "slat": 29.24,
+      "nlat": 43.07,
+      "llon": -35.58,
+      "rlon": -7.25
+    }
+  },
+  { "wkid": 10352,
+    "latestWkid": 10352,
+    "macro": "PE_VCS_FORMENTERA_HEIGHT",
+    "name": "Formentera_height",
+    "wkt": "VERTCS[\"Formentera_height\",VDATUM[\"Formentera\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"Formentera_height\",VDATUM[\"Formentera\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Formentera height",
+    "authority": "EPSG",
+    "version": "10.091(13.2.0)",
+    "deprecated": "no",
+    "areaname": "Spain - Balearic Islands - Formentera",
+    "extent":
+    { "slat": 38.59,
+      "nlat": 38.86,
+      "llon": 1.31,
+      "rlon": 1.65
+    }
+  },
+  { "wkid": 10353,
+    "latestWkid": 10353,
+    "macro": "PE_VCS_ALBORAN_HEIGHT",
+    "name": "Alboran_height",
+    "wkt": "VERTCS[\"Alboran_height\",VDATUM[\"Alboran\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"Alboran_height\",VDATUM[\"Alboran\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Alboran height",
+    "authority": "EPSG",
+    "version": "10.091(13.2.0)",
+    "deprecated": "no",
+    "areaname": "Spain - Alboran",
+    "extent":
+    { "slat": 35.88,
+      "nlat": 36.0,
+      "llon": -3.1,
+      "rlon": -2.96
+    }
+  },
+  { "wkid": 10354,
+    "latestWkid": 10354,
+    "macro": "PE_VCS_MELILLA_HEIGHT",
+    "name": "Melilla_height",
+    "wkt": "VERTCS[\"Melilla_height\",VDATUM[\"Melilla\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"Melilla_height\",VDATUM[\"Melilla\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Melilla height",
+    "authority": "EPSG",
+    "version": "10.091(13.2.0)",
+    "deprecated": "no",
+    "areaname": "Spain - Melilla",
+    "extent":
+    { "slat": 35.26,
+      "nlat": 35.38,
+      "llon": -2.98,
+      "rlon": -2.88
+    }
   },
   { "wkid": 20000,
     "latestWkid": 20000,
@@ -5046,8 +4668,8 @@
     "wkt": "VERTCS[\"SVD2006_height\",VDATUM[\"Svalbard_vertical_datum_2006\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "wkt2": "VERTCRS[\"SVD2006_height\",VDATUM[\"Svalbard_vertical_datum_2006\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "SVD2006 height",
-    "authority": "Esri",
-    "version": "13.1.0",
+    "authority": "EPSG",
+    "version": "10.063(13.1.0)",
     "deprecated": "no",
     "areaname": "Arctic - 81~10'N to 76~10'N, 4~W to 38~E",
     "extent":
@@ -5055,9 +4677,7 @@
       "nlat": 81.17,
       "llon": -3.35,
       "rlon": 38.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 20034,
     "latestWkid": 20034,
@@ -5066,8 +4686,8 @@
     "wkt": "VERTCS[\"CGVD2013a(2002)_height\",VDATUM[\"Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "wkt2": "VERTCRS[\"CGVD2013a(2002)_height\",VDATUM[\"Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "CGVD2013a(2002) height",
-    "authority": "Esri",
-    "version": "13.1.0",
+    "authority": "EPSG",
+    "version": "10.066(13.1.0)",
     "deprecated": "no",
     "areaname": "Canada",
     "extent":
@@ -5075,9 +4695,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 20035,
     "latestWkid": 20035,
@@ -5086,8 +4704,8 @@
     "wkt": "VERTCS[\"CGVD2013a(1997)_height\",VDATUM[\"Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "wkt2": "VERTCRS[\"CGVD2013a(1997)_height\",VDATUM[\"Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "CGVD2013a(1997) height",
-    "authority": "Esri",
-    "version": "13.1.0",
+    "authority": "EPSG",
+    "version": "10.066(13.1.0)",
     "deprecated": "no",
     "areaname": "Canada",
     "extent":
@@ -5095,9 +4713,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 20036,
     "latestWkid": 20036,
@@ -5106,8 +4722,8 @@
     "wkt": "VERTCS[\"INAGeoid2020_v2_height\",VDATUM[\"Indonesian_Geoid_2020_version_2\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
     "wkt2": "VERTCRS[\"INAGeoid2020_v2_height\",VDATUM[\"Indonesian_Geoid_2020_version_2\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "INAGeoid2020 v2 height",
-    "authority": "Esri",
-    "version": "13.1.0",
+    "authority": "EPSG",
+    "version": "10.073(13.1.0)",
     "deprecated": "no",
     "areaname": "Indonesia",
     "extent":
@@ -5115,9 +4731,7 @@
       "nlat": 7.79,
       "llon": 92.01,
       "rlon": 141.46
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105603,
     "latestWkid": 105603,
@@ -5135,9 +4749,7 @@
       "nlat": 43.82,
       "llon": -9.37,
       "rlon": 4.39
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105700,
     "latestWkid": 105700,
@@ -5155,9 +4767,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105701,
     "latestWkid": 5799,
@@ -5175,9 +4785,7 @@
       "nlat": 57.8,
       "llon": 8.0,
       "rlon": 15.25
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105702,
     "latestWkid": 5613,
@@ -5195,9 +4803,7 @@
       "nlat": 69.07,
       "llon": 10.93,
       "rlon": 24.17
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105703,
     "latestWkid": 6360,
@@ -5215,9 +4821,7 @@
       "nlat": 71.4,
       "llon": -168.26,
       "rlon": -66.91
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105704,
     "latestWkid": 9666,
@@ -5235,9 +4839,7 @@
       "nlat": 56.45,
       "llon": 20.86,
       "rlon": 26.82
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105790,
     "latestWkid": 3855,
@@ -5255,9 +4857,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105791,
     "latestWkid": 3886,
@@ -5275,9 +4875,7 @@
       "nlat": 37.39,
       "llon": 38.79,
       "rlon": 48.61
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105792,
     "latestWkid": 4440,
@@ -5295,9 +4893,7 @@
       "nlat": -25.88,
       "llon": 160.6,
       "rlon": -171.2
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105793,
     "latestWkid": 3900,
@@ -5315,9 +4911,7 @@
       "nlat": 70.09,
       "llon": 19.24,
       "rlon": 31.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 105794,
     "latestWkid": 4458,
@@ -5335,9 +4929,7 @@
       "nlat": -44.52,
       "llon": 166.37,
       "rlon": 169.95
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115700,
     "latestWkid": 115700,
@@ -5355,9 +4947,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115701,
     "latestWkid": 115701,
@@ -5375,9 +4965,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115702,
     "latestWkid": 115702,
@@ -5395,9 +4983,7 @@
       "nlat": 86.45,
       "llon": 167.65,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115703,
     "latestWkid": 115703,
@@ -5415,9 +5001,7 @@
       "nlat": -60.0,
       "llon": 45.0,
       "rlon": 160.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115704,
     "latestWkid": 115704,
@@ -5435,9 +5019,7 @@
       "nlat": -12.61,
       "llon": 44.98,
       "rlon": 45.35
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115705,
     "latestWkid": 115705,
@@ -5455,9 +5037,7 @@
       "nlat": 53.56,
       "llon": 73.62,
       "rlon": 134.77
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115706,
     "latestWkid": 115706,
@@ -5475,9 +5055,7 @@
       "nlat": 47.81,
       "llon": 5.96,
       "rlon": 10.49
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115707,
     "latestWkid": 115707,
@@ -5495,9 +5073,7 @@
       "nlat": 20.68,
       "llon": -83.6,
       "rlon": -78.72
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115708,
     "latestWkid": 115708,
@@ -5515,9 +5091,7 @@
       "nlat": 11.77,
       "llon": -90.45,
       "rlon": -81.43
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115709,
     "latestWkid": 115709,
@@ -5535,9 +5109,7 @@
       "nlat": 55.09,
       "llon": 5.86,
       "rlon": 15.04
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115710,
     "latestWkid": 115710,
@@ -5555,9 +5127,7 @@
       "nlat": 7.79,
       "llon": 92.01,
       "rlon": 141.46
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115711,
     "latestWkid": 115711,
@@ -5575,9 +5145,7 @@
       "nlat": 28.33,
       "llon": 88.74,
       "rlon": 92.13
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115712,
     "latestWkid": 115712,
@@ -5595,9 +5163,7 @@
       "nlat": 60.0,
       "llon": 20.37,
       "rlon": 28.2
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115713,
     "latestWkid": 115713,
@@ -5615,9 +5181,7 @@
       "nlat": 70.09,
       "llon": 19.08,
       "rlon": 31.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115714,
     "latestWkid": 115714,
@@ -5635,9 +5199,7 @@
       "nlat": 54.83,
       "llon": 10.66,
       "rlon": 12.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115715,
     "latestWkid": 115715,
@@ -5655,9 +5217,7 @@
       "nlat": -8.47,
       "llon": 93.41,
       "rlon": 173.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115716,
     "latestWkid": 115716,
@@ -5675,9 +5235,7 @@
       "nlat": 6.31,
       "llon": 112.37,
       "rlon": 115.37
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115717,
     "latestWkid": 115717,
@@ -5695,9 +5253,7 @@
       "nlat": 7.81,
       "llon": 98.02,
       "rlon": 119.61
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115718,
     "latestWkid": 115718,
@@ -5715,9 +5271,7 @@
       "nlat": 87.02,
       "llon": -75.0,
       "rlon": 7.99
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115719,
     "latestWkid": 115719,
@@ -5729,15 +5283,13 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "South Africa",
+    "areaname": "Africa - South Africa, Lesotho and Eswatini.",
     "extent":
     { "slat": -50.32,
       "nlat": -22.13,
       "llon": 13.33,
       "rlon": 42.85
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115720,
     "latestWkid": 115720,
@@ -5755,9 +5307,7 @@
       "nlat": 33.53,
       "llon": 32.99,
       "rlon": 35.69
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115721,
     "latestWkid": 115721,
@@ -5775,9 +5325,7 @@
       "nlat": 33.28,
       "llon": 34.17,
       "rlon": 35.69
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115722,
     "latestWkid": 115722,
@@ -5795,9 +5343,7 @@
       "nlat": 33.53,
       "llon": 32.99,
       "rlon": 35.69
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115723,
     "latestWkid": 115723,
@@ -5815,16 +5361,14 @@
       "nlat": 33.28,
       "llon": 34.17,
       "rlon": 35.69
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115724,
     "latestWkid": 115724,
     "macro": "PE_VCS_IGM_1995",
     "name": "IGM_1995",
-    "wkt": "VERTCS[\"IGM_1995\",DATUM[\"D_IGM_1995\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"IGM_1995\",DATUM[\"D_IGM_1995\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt": "VERTCS[\"IGM_1995\",DATUM[\"D_IGM_1995\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"IGM_1995\",DATUM[\"D_IGM_1995\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "IGM 1995 ellipsoid height",
     "authority": "Esri",
     "version": "10.4.0",
@@ -5835,9 +5379,7 @@
       "nlat": 47.1,
       "llon": 5.93,
       "rlon": 18.99
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115725,
     "latestWkid": 115725,
@@ -5855,9 +5397,7 @@
       "nlat": 37.39,
       "llon": 38.79,
       "rlon": 48.75
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115726,
     "latestWkid": 115726,
@@ -5875,9 +5415,7 @@
       "nlat": 55.43,
       "llon": -10.56,
       "rlon": -5.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115727,
     "latestWkid": 115727,
@@ -5895,9 +5433,7 @@
       "nlat": 69.59,
       "llon": -30.87,
       "rlon": -5.55
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115728,
     "latestWkid": 115728,
@@ -5915,9 +5451,7 @@
       "nlat": 69.59,
       "llon": -30.87,
       "rlon": -5.55
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115729,
     "latestWkid": 115729,
@@ -5935,9 +5469,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115730,
     "latestWkid": 115730,
@@ -5955,9 +5487,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115731,
     "latestWkid": 115731,
@@ -5975,9 +5505,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115732,
     "latestWkid": 115732,
@@ -5995,9 +5523,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115733,
     "latestWkid": 115733,
@@ -6015,9 +5541,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115734,
     "latestWkid": 115734,
@@ -6035,9 +5559,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115735,
     "latestWkid": 115735,
@@ -6055,9 +5577,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115736,
     "latestWkid": 115736,
@@ -6075,9 +5595,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115737,
     "latestWkid": 115737,
@@ -6095,9 +5613,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115738,
     "latestWkid": 115738,
@@ -6115,9 +5631,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115739,
     "latestWkid": 115739,
@@ -6135,9 +5649,7 @@
       "nlat": 19.36,
       "llon": -80.6,
       "rlon": -74.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115740,
     "latestWkid": 115740,
@@ -6155,9 +5667,7 @@
       "nlat": 46.05,
       "llon": 122.38,
       "rlon": 157.65
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115741,
     "latestWkid": 115741,
@@ -6175,17 +5685,15 @@
       "nlat": 46.05,
       "llon": 122.38,
       "rlon": 157.65
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115742,
     "latestWkid": 115742,
     "macro": "PE_VCS_KOREA_2000",
-    "name": "Korea_2000",
-    "wkt": "VERTCS[\"Korea_2000\",DATUM[\"D_Korea_2000\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"Korea_2000\",DATUM[\"D_Korea_2000\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
-    "description": "Korea 2000 ellipsoid height",
+    "name": "KGD2002",
+    "wkt": "VERTCS[\"KGD2002\",DATUM[\"D_Korea_Geodetic_Datum_2002\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"KGD2002\",DATUM[\"D_Korea_Geodetic_Datum_2002\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "KGD2002 ellipsoid height",
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
@@ -6195,9 +5703,7 @@
       "nlat": 40.27,
       "llon": 122.71,
       "rlon": 134.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115743,
     "latestWkid": 115743,
@@ -6215,9 +5721,7 @@
       "nlat": 22.5,
       "llon": 100.09,
       "rlon": 107.64
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115744,
     "latestWkid": 115744,
@@ -6235,9 +5739,7 @@
       "nlat": 35.23,
       "llon": 9.31,
       "rlon": 26.21
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115745,
     "latestWkid": 115745,
@@ -6255,9 +5757,7 @@
       "nlat": 58.09,
       "llon": 19.06,
       "rlon": 28.24
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115746,
     "latestWkid": 115746,
@@ -6275,9 +5775,7 @@
       "nlat": 56.45,
       "llon": 19.02,
       "rlon": 26.82
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115747,
     "latestWkid": 115747,
@@ -6295,9 +5793,7 @@
       "nlat": 22.23,
       "llon": 113.52,
       "rlon": 113.68
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115748,
     "latestWkid": 115748,
@@ -6315,9 +5811,7 @@
       "nlat": 15.51,
       "llon": -84.77,
       "rlon": -66.87
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115749,
     "latestWkid": 115749,
@@ -6335,9 +5829,7 @@
       "nlat": 12.51,
       "llon": -84.32,
       "rlon": -77.04
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115750,
     "latestWkid": 115750,
@@ -6355,9 +5847,7 @@
       "nlat": -9.67,
       "llon": -69.66,
       "rlon": -57.52
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115751,
     "latestWkid": 115751,
@@ -6375,9 +5865,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -84.64
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115752,
     "latestWkid": 115752,
@@ -6395,9 +5883,7 @@
       "nlat": 48.47,
       "llon": 26.63,
       "rlon": 30.13
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115753,
     "latestWkid": 115753,
@@ -6415,9 +5901,7 @@
       "nlat": 52.15,
       "llon": 87.76,
       "rlon": 119.94
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115754,
     "latestWkid": 115754,
@@ -6435,9 +5919,7 @@
       "nlat": -10.09,
       "llon": 30.21,
       "rlon": 43.03
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115755,
     "latestWkid": 115755,
@@ -6455,9 +5937,7 @@
       "nlat": 74.71,
       "llon": 167.65,
       "rlon": -63.88
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115756,
     "latestWkid": 115756,
@@ -6475,9 +5955,7 @@
       "nlat": 74.71,
       "llon": 167.65,
       "rlon": -63.88
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115757,
     "latestWkid": 115757,
@@ -6495,9 +5973,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115758,
     "latestWkid": 115758,
@@ -6515,9 +5991,7 @@
       "nlat": 71.4,
       "llon": 144.58,
       "rlon": -64.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115759,
     "latestWkid": 115759,
@@ -6535,9 +6009,7 @@
       "nlat": 23.9,
       "llon": 129.48,
       "rlon": 149.55
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115760,
     "latestWkid": 115760,
@@ -6555,9 +6027,7 @@
       "nlat": 23.9,
       "llon": 129.48,
       "rlon": 149.55
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115761,
     "latestWkid": 115761,
@@ -6575,9 +6045,7 @@
       "nlat": 74.71,
       "llon": 167.65,
       "rlon": -63.88
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115762,
     "latestWkid": 115762,
@@ -6595,9 +6063,7 @@
       "nlat": 31.8,
       "llon": 157.47,
       "rlon": -151.27
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115763,
     "latestWkid": 115763,
@@ -6615,9 +6081,7 @@
       "nlat": 31.8,
       "llon": 157.47,
       "rlon": -151.27
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115764,
     "latestWkid": 115764,
@@ -6635,9 +6099,7 @@
       "nlat": 30.43,
       "llon": 80.06,
       "rlon": 88.21
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115765,
     "latestWkid": 115765,
@@ -6655,9 +6117,7 @@
       "nlat": -25.88,
       "llon": 160.6,
       "rlon": -171.2
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115766,
     "latestWkid": 115766,
@@ -6675,9 +6135,7 @@
       "nlat": -0.03,
       "llon": -84.68,
       "rlon": -68.67
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115767,
     "latestWkid": 115767,
@@ -6695,9 +6153,7 @@
       "nlat": 2.58,
       "llon": 139.2,
       "rlon": 162.81
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115768,
     "latestWkid": 115768,
@@ -6715,16 +6171,14 @@
       "nlat": -21.78,
       "llon": -73.59,
       "rlon": -52.63
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115769,
     "latestWkid": 115769,
     "macro": "PE_VCS_POSGAR_1994",
     "name": "POSGAR_1994",
-    "wkt": "VERTCS[\"POSGAR_1994\",DATUM[\"D_POSGAR_1994\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"POSGAR_1994\",DATUM[\"D_POSGAR_1994\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt": "VERTCS[\"POSGAR_1994\",DATUM[\"D_POSGAR_1994\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"POSGAR_1994\",DATUM[\"D_POSGAR_1994\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "POSGAR 1994 ellipsoid height",
     "authority": "Esri",
     "version": "10.4.0",
@@ -6735,9 +6189,7 @@
       "nlat": -21.78,
       "llon": -73.59,
       "rlon": -52.63
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115770,
     "latestWkid": 115770,
@@ -6755,9 +6207,7 @@
       "nlat": -21.78,
       "llon": -73.59,
       "rlon": -52.63
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115771,
     "latestWkid": 115771,
@@ -6775,9 +6225,7 @@
       "nlat": 22.18,
       "llon": 116.04,
       "rlon": 129.95
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115772,
     "latestWkid": 115772,
@@ -6795,9 +6243,7 @@
       "nlat": 43.07,
       "llon": -35.58,
       "rlon": -12.48
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115773,
     "latestWkid": 115773,
@@ -6815,9 +6261,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115774,
     "latestWkid": 115774,
@@ -6835,9 +6279,7 @@
       "nlat": 47.1,
       "llon": 5.93,
       "rlon": 18.99
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115775,
     "latestWkid": 115775,
@@ -6855,9 +6297,7 @@
       "nlat": 32.76,
       "llon": -21.93,
       "rlon": -11.75
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115776,
     "latestWkid": 115776,
@@ -6875,9 +6315,7 @@
       "nlat": 16.75,
       "llon": -73.38,
       "rlon": -58.95
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115777,
     "latestWkid": 115777,
@@ -6895,9 +6333,7 @@
       "nlat": 18.53,
       "llon": -63.66,
       "rlon": -57.52
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115778,
     "latestWkid": 115778,
@@ -6915,9 +6351,7 @@
       "nlat": 51.56,
       "llon": -9.86,
       "rlon": 10.38
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115779,
     "latestWkid": 115779,
@@ -6935,9 +6369,7 @@
       "nlat": 8.88,
       "llon": -54.61,
       "rlon": -49.45
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115780,
     "latestWkid": 115780,
@@ -6955,9 +6387,7 @@
       "nlat": -11.33,
       "llon": 43.68,
       "rlon": 46.7
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115781,
     "latestWkid": 115781,
@@ -6975,9 +6405,7 @@
       "nlat": -14.83,
       "llon": 156.25,
       "rlon": 174.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115782,
     "latestWkid": 115782,
@@ -6995,9 +6423,7 @@
       "nlat": -14.83,
       "llon": 156.25,
       "rlon": 174.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115783,
     "latestWkid": 115783,
@@ -7015,9 +6441,7 @@
       "nlat": -4.52,
       "llon": -158.13,
       "rlon": -131.97
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115784,
     "latestWkid": 115784,
@@ -7035,9 +6459,7 @@
       "nlat": -18.28,
       "llon": 51.83,
       "rlon": 58.24
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115785,
     "latestWkid": 115785,
@@ -7055,9 +6477,7 @@
       "nlat": -3.41,
       "llon": 11.79,
       "rlon": 29.81
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115786,
     "latestWkid": 115786,
@@ -7075,9 +6495,7 @@
       "nlat": 47.37,
       "llon": -57.1,
       "rlon": -55.9
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115787,
     "latestWkid": 115787,
@@ -7095,9 +6513,7 @@
       "nlat": 18.53,
       "llon": -63.66,
       "rlon": -57.52
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115788,
     "latestWkid": 115788,
@@ -7115,9 +6531,7 @@
       "nlat": -59.99,
       "llon": 144.99,
       "rlon": -144.99
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115789,
     "latestWkid": 115789,
@@ -7135,16 +6549,14 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115790,
     "latestWkid": 115790,
-    "macro": "PE_VCS_SIRGAS_CHILE",
-    "name": "SIRGAS-Chile",
-    "wkt": "VERTCS[\"SIRGAS-Chile\",DATUM[\"D_SIRGAS-Chile\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"SIRGAS-Chile\",DATUM[\"D_SIRGAS-Chile\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "macro": "PE_VCS_SIRGAS_CHILE_2002",
+    "name": "SIRGAS-Chile_2002",
+    "wkt": "VERTCS[\"SIRGAS-Chile_2002\",DATUM[\"SIRGAS-Chile_realization_1_epoch_2002\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"SIRGAS-Chile_2002\",DATUM[\"SIRGAS-Chile_realization_1_epoch_2002\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "SIRGAS-Chile ellipsoid height",
     "authority": "Esri",
     "version": "10.4.0",
@@ -7155,9 +6567,7 @@
       "nlat": -17.5,
       "llon": -113.21,
       "rlon": -65.72
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115791,
     "latestWkid": 115791,
@@ -7175,9 +6585,7 @@
       "nlat": 14.44,
       "llon": -91.43,
       "rlon": -87.65
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115792,
     "latestWkid": 115792,
@@ -7195,9 +6603,7 @@
       "nlat": -30.09,
       "llon": -58.49,
       "rlon": -50.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115793,
     "latestWkid": 115793,
@@ -7215,9 +6621,7 @@
       "nlat": 9.88,
       "llon": 79.64,
       "rlon": 81.95
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115794,
     "latestWkid": 115794,
@@ -7235,9 +6639,7 @@
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115795,
     "latestWkid": 115795,
@@ -7249,15 +6651,13 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "Serbia and Kosovo",
+    "areaname": "Serbia",
     "extent":
-    { "slat": 41.85,
+    { "slat": 42.23,
       "nlat": 46.19,
       "llon": 18.81,
       "rlon": 23.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115796,
     "latestWkid": 115796,
@@ -7275,9 +6675,7 @@
       "nlat": 51.06,
       "llon": 12.09,
       "rlon": 18.86
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115797,
     "latestWkid": 115797,
@@ -7295,9 +6693,7 @@
       "nlat": 51.06,
       "llon": 12.09,
       "rlon": 18.86
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115798,
     "latestWkid": 115798,
@@ -7315,9 +6711,7 @@
       "nlat": 69.07,
       "llon": 10.03,
       "rlon": 24.17
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115799,
     "latestWkid": 115799,
@@ -7335,9 +6729,7 @@
       "nlat": -14.14,
       "llon": -179.08,
       "rlon": -171.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115800,
     "latestWkid": 115800,
@@ -7355,9 +6747,7 @@
       "nlat": 26.96,
       "llon": 114.32,
       "rlon": 123.61
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115801,
     "latestWkid": 115801,
@@ -7375,9 +6765,7 @@
       "nlat": 52.38,
       "llon": 22.15,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115802,
     "latestWkid": 115802,
@@ -7395,9 +6783,7 @@
       "nlat": 19.0,
       "llon": 41.08,
       "rlon": 57.96
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115803,
     "latestWkid": 115803,
@@ -7415,9 +6801,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115804,
     "latestWkid": 115804,
@@ -7435,9 +6819,7 @@
       "nlat": 43.45,
       "llon": 25.62,
       "rlon": 44.83
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115805,
     "latestWkid": 115805,
@@ -7455,9 +6837,7 @@
       "nlat": -8.47,
       "llon": 93.41,
       "rlon": 173.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115806,
     "latestWkid": 115806,
@@ -7475,9 +6855,7 @@
       "nlat": 44.23,
       "llon": 22.36,
       "rlon": 31.35
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115807,
     "latestWkid": 115807,
@@ -7495,9 +6873,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115808,
     "latestWkid": 115808,
@@ -7515,9 +6891,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115809,
     "latestWkid": 115809,
@@ -7535,9 +6909,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115810,
     "latestWkid": 115810,
@@ -7555,9 +6927,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115811,
     "latestWkid": 115811,
@@ -7575,9 +6945,7 @@
       "nlat": -15.85,
       "llon": -5.85,
       "rlon": -5.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115812,
     "latestWkid": 115812,
@@ -7595,9 +6963,7 @@
       "nlat": -15.85,
       "llon": -5.85,
       "rlon": -5.59
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115813,
     "latestWkid": 115813,
@@ -7615,9 +6981,7 @@
       "nlat": 85.19,
       "llon": 18.92,
       "rlon": -168.97
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115814,
     "latestWkid": 115814,
@@ -7635,9 +6999,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115815,
     "latestWkid": 115815,
@@ -7655,9 +7017,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115816,
     "latestWkid": 115816,
@@ -7675,9 +7035,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115817,
     "latestWkid": 115817,
@@ -7695,9 +7053,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115818,
     "latestWkid": 115818,
@@ -7715,9 +7071,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115819,
     "latestWkid": 115819,
@@ -7735,9 +7089,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115820,
     "latestWkid": 115820,
@@ -7755,9 +7107,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115821,
     "latestWkid": 115821,
@@ -7775,9 +7125,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115822,
     "latestWkid": 115822,
@@ -7795,9 +7143,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115823,
     "latestWkid": 115823,
@@ -7815,9 +7161,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115824,
     "latestWkid": 115824,
@@ -7835,9 +7179,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115825,
     "latestWkid": 115825,
@@ -7855,9 +7197,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115826,
     "latestWkid": 115826,
@@ -7875,9 +7215,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115827,
     "latestWkid": 115827,
@@ -7895,9 +7233,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115828,
     "latestWkid": 115828,
@@ -7915,9 +7251,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115829,
     "latestWkid": 115829,
@@ -7935,9 +7269,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115830,
     "latestWkid": 115830,
@@ -7955,9 +7287,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115831,
     "latestWkid": 115831,
@@ -7975,9 +7305,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115832,
     "latestWkid": 115832,
@@ -7995,9 +7323,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115833,
     "latestWkid": 115833,
@@ -8015,9 +7341,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115834,
     "latestWkid": 115834,
@@ -8035,9 +7359,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115835,
     "latestWkid": 115835,
@@ -8055,9 +7377,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115836,
     "latestWkid": 115836,
@@ -8075,9 +7395,7 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115837,
     "latestWkid": 115837,
@@ -8095,9 +7413,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115838,
     "latestWkid": 115838,
@@ -8115,9 +7431,7 @@
       "nlat": 69.59,
       "llon": -30.87,
       "rlon": -5.55
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115839,
     "latestWkid": 115839,
@@ -8135,9 +7449,7 @@
       "nlat": 22.58,
       "llon": 113.76,
       "rlon": 114.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115840,
     "latestWkid": 115840,
@@ -8155,9 +7467,7 @@
       "nlat": 49.38,
       "llon": 144.58,
       "rlon": -64.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115841,
     "latestWkid": 115841,
@@ -8175,9 +7485,7 @@
       "nlat": 18.57,
       "llon": -67.97,
       "rlon": -64.51
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115842,
     "latestWkid": 115842,
@@ -8189,15 +7497,13 @@
     "authority": "Esri",
     "version": "10.7.0",
     "deprecated": "no",
-    "areaname": "Serbia and Kosovo",
+    "areaname": "Serbia",
     "extent":
-    { "slat": 41.85,
+    { "slat": 42.23,
       "nlat": 46.19,
       "llon": 18.81,
       "rlon": 23.01
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115843,
     "latestWkid": 115843,
@@ -8215,9 +7521,7 @@
       "nlat": 32.16,
       "llon": 34.44,
       "rlon": 55.67
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115844,
     "latestWkid": 115844,
@@ -8235,9 +7539,7 @@
       "nlat": 42.53,
       "llon": -124.45,
       "rlon": -113.6
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115845,
     "latestWkid": 115845,
@@ -8255,9 +7557,7 @@
       "nlat": 43.59,
       "llon": 39.99,
       "rlon": 46.72
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115846,
     "latestWkid": 115846,
@@ -8275,9 +7575,7 @@
       "nlat": 26.74,
       "llon": 51.99,
       "rlon": 63.38
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115847,
     "latestWkid": 115847,
@@ -8295,9 +7593,7 @@
       "nlat": 26.74,
       "llon": 51.99,
       "rlon": 63.38
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115848,
     "latestWkid": 115848,
@@ -8315,9 +7611,7 @@
       "nlat": 49.61,
       "llon": 16.84,
       "rlon": 22.56
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115849,
     "latestWkid": 115849,
@@ -8335,9 +7629,7 @@
       "nlat": 11.77,
       "llon": -90.45,
       "rlon": -81.43
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115850,
     "latestWkid": 115850,
@@ -8355,9 +7647,7 @@
       "nlat": -9.84,
       "llon": 179.49,
       "rlon": -174.27
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115851,
     "latestWkid": 115851,
@@ -8375,9 +7665,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115852,
     "latestWkid": 115852,
@@ -8395,9 +7683,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115853,
     "latestWkid": 115853,
@@ -8415,9 +7701,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115854,
     "latestWkid": 115854,
@@ -8435,9 +7719,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115855,
     "latestWkid": 115855,
@@ -8455,9 +7737,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115856,
     "latestWkid": 115856,
@@ -8475,9 +7755,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115857,
     "latestWkid": 115857,
@@ -8495,9 +7773,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115858,
     "latestWkid": 115858,
@@ -8515,9 +7791,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115859,
     "latestWkid": 115859,
@@ -8535,9 +7809,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115860,
     "latestWkid": 115860,
@@ -8555,9 +7827,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115861,
     "latestWkid": 115861,
@@ -8575,9 +7845,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115862,
     "latestWkid": 115862,
@@ -8595,9 +7863,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115863,
     "latestWkid": 115863,
@@ -8615,9 +7881,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115864,
     "latestWkid": 115864,
@@ -8635,9 +7899,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115865,
     "latestWkid": 115865,
@@ -8655,9 +7917,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115866,
     "latestWkid": 115866,
@@ -8675,9 +7935,7 @@
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115867,
     "latestWkid": 115867,
@@ -8695,9 +7953,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115868,
     "latestWkid": 115868,
@@ -8715,9 +7971,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115869,
     "latestWkid": 115869,
@@ -8735,9 +7989,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115870,
     "latestWkid": 115870,
@@ -8755,9 +8007,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115871,
     "latestWkid": 115871,
@@ -8775,9 +8025,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115872,
     "latestWkid": 115872,
@@ -8795,9 +8043,7 @@
       "nlat": 43.25,
       "llon": 19.97,
       "rlon": 21.8
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115873,
     "latestWkid": 115873,
@@ -8815,9 +8061,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115874,
     "latestWkid": 115874,
@@ -8835,9 +8079,7 @@
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 40.18
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115875,
     "latestWkid": 115875,
@@ -8855,9 +8097,7 @@
       "nlat": 47.81,
       "llon": 5.96,
       "rlon": 10.49
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115876,
     "latestWkid": 115876,
@@ -8875,9 +8115,7 @@
       "nlat": -8.47,
       "llon": 93.41,
       "rlon": 173.34
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115877,
     "latestWkid": 115877,
@@ -8895,9 +8133,7 @@
       "nlat": -9.37,
       "llon": 109.23,
       "rlon": 153.61
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115878,
     "latestWkid": 115878,
@@ -8915,9 +8151,7 @@
       "nlat": -1.3,
       "llon": 109.23,
       "rlon": 163.2
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115879,
     "latestWkid": 115879,
@@ -8935,16 +8169,14 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115880,
     "latestWkid": 115880,
     "macro": "PE_VCS_POSGAR_2007",
     "name": "POSGAR_2007",
-    "wkt": "VERTCS[\"POSGAR_2007\",DATUM[\"D_POSGAR_2007\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"POSGAR_2007\",DATUM[\"D_POSGAR_2007\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt": "VERTCS[\"POSGAR_2007\",DATUM[\"D_POSGAR_2007\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"POSGAR_2007\",DATUM[\"D_POSGAR_2007\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "POSGAR 2007 ellipsoid height",
     "authority": "Esri",
     "version": "13.1.0",
@@ -8955,9 +8187,7 @@
       "nlat": -21.78,
       "llon": -73.59,
       "rlon": -52.63
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115881,
     "latestWkid": 115881,
@@ -8975,9 +8205,7 @@
       "nlat": 51.56,
       "llon": -9.86,
       "rlon": 10.38
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115882,
     "latestWkid": 115882,
@@ -8995,9 +8223,7 @@
       "nlat": 51.56,
       "llon": -9.86,
       "rlon": 10.38
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115883,
     "latestWkid": 115883,
@@ -9015,9 +8241,7 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115884,
     "latestWkid": 115884,
@@ -9035,9 +8259,7 @@
       "nlat": -17.5,
       "llon": -113.21,
       "rlon": -65.72
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
   },
   { "wkid": 115885,
     "latestWkid": 115885,
@@ -9055,8 +8277,834 @@
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    },
-    "frameEpoch": ,
-    "deformationModel": ""
+    }
+  },
+  { "wkid": 115886,
+    "latestWkid": 115886,
+    "macro": "PE_VCS_LUREF",
+    "name": "LUREF",
+    "wkt": "VERTCS[\"LUREF\",DATUM[\"D_Luxembourg_Reference_Frame\",SPHEROID[\"International_1924\",6378388.0,297.0]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"LUREF\",DATUM[\"D_Luxembourg_Reference_Frame\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "LUREF ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Luxembourg",
+    "extent":
+    { "slat": 49.44,
+      "nlat": 50.19,
+      "llon": 5.73,
+      "rlon": 6.53
+    }
+  },
+  { "wkid": 115887,
+    "latestWkid": 115887,
+    "macro": "PE_VCS_BERMUDA_2000",
+    "name": "Bermuda_2000",
+    "wkt": "VERTCS[\"Bermuda_2000\",DATUM[\"D_Bermuda_2000\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"Bermuda_2000\",DATUM[\"D_Bermuda_2000\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Bermuda 2000",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Bermuda",
+    "extent":
+    { "slat": 28.91,
+      "nlat": 35.73,
+      "llon": -68.83,
+      "rlon": -60.7
+    }
+  },
+  { "wkid": 115888,
+    "latestWkid": 115888,
+    "macro": "PE_VCS_CGRS_1993",
+    "name": "CGRS_1993",
+    "wkt": "VERTCS[\"CGRS_1993\",DATUM[\"D_Cyprus_Geodetic_Reference_System_1993\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"CGRS_1993\",DATUM[\"D_Cyprus_Geodetic_Reference_System_1993\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "CGRS 1993",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Cyprus - onshore",
+    "extent":
+    { "slat": 34.59,
+      "nlat": 35.74,
+      "llon": 32.2,
+      "rlon": 34.65
+    }
+  },
+  { "wkid": 115889,
+    "latestWkid": 115889,
+    "macro": "PE_VCS_ETRF_1989",
+    "name": "ETRF_1989",
+    "wkt": "VERTCS[\"ETRF_1989\",DATUM[\"D_ETRF_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"ETRF_1989\",DATUM[\"D_ETRF_1989\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "European Terrestrial Ref.Frame 1989",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Europe - ETRF by country",
+    "extent":
+    { "slat": 32.88,
+      "nlat": 84.73,
+      "llon": -16.1,
+      "rlon": 40.18
+    }
+  },
+  { "wkid": 115890,
+    "latestWkid": 115890,
+    "macro": "PE_VCS_ETRF2000_PL",
+    "name": "ETRF2000-PL",
+    "wkt": "VERTCS[\"ETRF2000-PL\",DATUM[\"ETRF2000_Poland\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"ETRF2000-PL\",DATUM[\"ETRF2000_Poland\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "ETRF2000-PL",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Poland",
+    "extent":
+    { "slat": 49.0,
+      "nlat": 55.93,
+      "llon": 14.14,
+      "rlon": 24.15
+    }
+  },
+  { "wkid": 115891,
+    "latestWkid": 115891,
+    "macro": "PE_VCS_HTRS96",
+    "name": "HTRS96",
+    "wkt": "VERTCS[\"HTRS96\",DATUM[\"D_Croatian_Terrestrial_Reference_System\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"HTRS96\",DATUM[\"D_Croatian_Terrestrial_Reference_System\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Croatian TRS 1996",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Croatia",
+    "extent":
+    { "slat": 41.62,
+      "nlat": 46.54,
+      "llon": 13.0,
+      "rlon": 19.43
+    }
+  },
+  { "wkid": 115892,
+    "latestWkid": 115892,
+    "macro": "PE_VCS_IGB14",
+    "name": "IGb14",
+    "wkt": "VERTCS[\"IGb14\",DATUM[\"IGb14\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"IGb14\",DATUM[\"IGb14\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "IGb14",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 115893,
+    "latestWkid": 115893,
+    "macro": "PE_VCS_IGS08",
+    "name": "IGS08",
+    "wkt": "VERTCS[\"IGS08\",DATUM[\"IGS08\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"IGS08\",DATUM[\"IGS08\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "IGS08",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 115894,
+    "latestWkid": 115894,
+    "macro": "PE_VCS_KSA_GRF17",
+    "name": "KSA-GRF17",
+    "wkt": "VERTCS[\"KSA-GRF17\",DATUM[\"Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"KSA-GRF17\",DATUM[\"Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "KSA-GRF17",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Saudi Arabia",
+    "extent":
+    { "slat": 16.29,
+      "nlat": 32.16,
+      "llon": 34.44,
+      "rlon": 55.67
+    }
+  },
+  { "wkid": 115895,
+    "latestWkid": 115895,
+    "macro": "PE_VCS_KYRG_06",
+    "name": "Kyrg-06",
+    "wkt": "VERTCS[\"Kyrg-06\",DATUM[\"D_Kyrgyz_Republic_2006\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"Kyrg-06\",DATUM[\"D_Kyrgyz_Republic_2006\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Kyrg-06",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Kyrgyzstan",
+    "extent":
+    { "slat": 39.19,
+      "nlat": 43.22,
+      "llon": 69.24,
+      "rlon": 80.29
+    }
+  },
+  { "wkid": 115896,
+    "latestWkid": 115896,
+    "macro": "PE_VCS_LAO_1993",
+    "name": "Lao_1993",
+    "wkt": "VERTCS[\"Lao_1993\",DATUM[\"D_Lao_1993\",SPHEROID[\"Krasovsky_1940\",6378245.0,298.3]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"Lao_1993\",DATUM[\"D_Lao_1993\",ELLIPSOID[\"Krasovsky_1940\",6378245.0,298.3,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Lao 1993",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Laos",
+    "extent":
+    { "slat": 13.92,
+      "nlat": 22.5,
+      "llon": 100.09,
+      "rlon": 107.64
+    }
+  },
+  { "wkid": 115897,
+    "latestWkid": 115897,
+    "macro": "PE_VCS_LTF2004G",
+    "name": "LTF2004(G)",
+    "wkt": "VERTCS[\"LTF2004(G)\",DATUM[\"Lyon_Turin_Ferroviaire_2004\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"LTF2004(G)\",DATUM[\"Lyon_Turin_Ferroviaire_2004\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "LTF2004(G)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Europe - Lyon-Turin",
+    "extent":
+    { "slat": 44.87,
+      "nlat": 45.89,
+      "llon": 4.65,
+      "rlon": 7.88
+    }
+  },
+  { "wkid": 115898,
+    "latestWkid": 115898,
+    "macro": "PE_VCS_MAURITANIA_1999",
+    "name": "Mauritania_1999",
+    "wkt": "VERTCS[\"Mauritania_1999\",DATUM[\"D_Mauritania_1999\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"Mauritania_1999\",DATUM[\"D_Mauritania_1999\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Mauritania 1999",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Mauritania",
+    "extent":
+    { "slat": 14.72,
+      "nlat": 27.3,
+      "llon": -20.04,
+      "rlon": -4.8
+    }
+  },
+  { "wkid": 115899,
+    "latestWkid": 115899,
+    "macro": "PE_VCS_REDGEOMIN",
+    "name": "REDGEOMIN",
+    "wkt": "VERTCS[\"REDGEOMIN\",DATUM[\"Red_Geodesica_Para_Mineria_en_Chile\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"REDGEOMIN\",DATUM[\"Red_Geodesica_Para_Mineria_en_Chile\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "REDGEOMIN",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Chile",
+    "extent":
+    { "slat": -59.87,
+      "nlat": -17.5,
+      "llon": -113.21,
+      "rlon": -65.72
+    }
+  },
+  { "wkid": 115900,
+    "latestWkid": 115900,
+    "macro": "PE_VCS_RGTAAF07",
+    "name": "RGTAAF07",
+    "wkt": "VERTCS[\"RGTAAF07\",DATUM[\"D_Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGTAAF07\",DATUM[\"D_Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGTAAF 2007",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "French Southern and Antarctic Territories",
+    "extent":
+    { "slat": -67.13,
+      "nlat": -20.91,
+      "llon": 37.98,
+      "rlon": 142.0
+    }
+  },
+  { "wkid": 115901,
+    "latestWkid": 115901,
+    "macro": "PE_VCS_RGTAAF07_LON_LAT",
+    "name": "RGTAAF07_(lon-lat)",
+    "wkt": "VERTCS[\"RGTAAF07_(lon-lat)\",DATUM[\"D_Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGTAAF07_(lon-lat)\",DATUM[\"D_Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGTAAF 2007 (lon-lat)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "French Southern and Antarctic Territories",
+    "extent":
+    { "slat": -67.13,
+      "nlat": -20.91,
+      "llon": 37.98,
+      "rlon": 142.0
+    }
+  },
+  { "wkid": 115902,
+    "latestWkid": 115902,
+    "macro": "PE_VCS_RSAO13",
+    "name": "RSAO13",
+    "wkt": "VERTCS[\"RSAO13\",DATUM[\"Reference_System_de_Angola_2013\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RSAO13\",DATUM[\"Reference_System_de_Angola_2013\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RSAO13",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Angola",
+    "extent":
+    { "slat": -18.02,
+      "nlat": -4.38,
+      "llon": 8.2,
+      "rlon": 24.09
+    }
+  },
+  { "wkid": 115903,
+    "latestWkid": 115903,
+    "macro": "PE_VCS_SIRGAS_CHILE_2010",
+    "name": "SIRGAS-Chile_2010",
+    "wkt": "VERTCS[\"SIRGAS-Chile_2010\",DATUM[\"SIRGAS-Chile_realization_2_epoch_2010\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"SIRGAS-Chile_2010\",DATUM[\"SIRGAS-Chile_realization_2_epoch_2010\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "SIRGAS-Chile 2010",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Chile",
+    "extent":
+    { "slat": -59.87,
+      "nlat": -17.5,
+      "llon": -113.21,
+      "rlon": -65.72
+    }
+  },
+  { "wkid": 115904,
+    "latestWkid": 115904,
+    "macro": "PE_VCS_SIRGAS_CHILE_2013",
+    "name": "SIRGAS-Chile_2013",
+    "wkt": "VERTCS[\"SIRGAS-Chile_2013\",DATUM[\"SIRGAS-Chile_realization_3_epoch_2013\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"SIRGAS-Chile_2013\",DATUM[\"SIRGAS-Chile_realization_3_epoch_2013\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "SIRGAS-Chile 2013",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Chile",
+    "extent":
+    { "slat": -59.87,
+      "nlat": -17.5,
+      "llon": -113.21,
+      "rlon": -65.72
+    }
+  },
+  { "wkid": 115905,
+    "latestWkid": 115905,
+    "macro": "PE_VCS_SIRGAS_CHILE_2016",
+    "name": "SIRGAS-Chile_2016",
+    "wkt": "VERTCS[\"SIRGAS-Chile_2016\",DATUM[\"SIRGAS-Chile_realization_4_epoch_2016\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"SIRGAS-Chile_2016\",DATUM[\"SIRGAS-Chile_realization_4_epoch_2016\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "SIRGAS-Chile 2016",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Chile",
+    "extent":
+    { "slat": -59.87,
+      "nlat": -17.5,
+      "llon": -113.21,
+      "rlon": -65.72
+    }
+  },
+  { "wkid": 115906,
+    "latestWkid": 115906,
+    "macro": "PE_VCS_SRGI2013",
+    "name": "SRGI2013",
+    "wkt": "VERTCS[\"SRGI2013\",DATUM[\"Sistem_Referensi_Geospasial_Indonesia_2013\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"SRGI2013\",DATUM[\"Sistem_Referensi_Geospasial_Indonesia_2013\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "SRGI2013",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Indonesia",
+    "extent":
+    { "slat": -13.95,
+      "nlat": 7.79,
+      "llon": 92.01,
+      "rlon": 141.46
+    }
+  },
+  { "wkid": 115907,
+    "latestWkid": 115907,
+    "macro": "PE_VCS_WGS_1966",
+    "name": "WGS_1966",
+    "wkt": "VERTCS[\"WGS_1966\",DATUM[\"D_WGS_1966\",SPHEROID[\"NWL_9D\",6378145.0,298.25]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"WGS_1966\",DATUM[\"D_WGS_1966\",ELLIPSOID[\"NWL_9D\",6378145.0,298.25,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "WGS 1966",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 115908,
+    "latestWkid": 115908,
+    "macro": "PE_VCS_WGS_1972",
+    "name": "WGS_1972",
+    "wkt": "VERTCS[\"WGS_1972\",DATUM[\"D_WGS_1972\",SPHEROID[\"WGS_1972\",6378135.0,298.26]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"WGS_1972\",DATUM[\"D_WGS_1972\",ELLIPSOID[\"WGS_1972\",6378135.0,298.26,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "WGS 1972",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 115909,
+    "latestWkid": 115909,
+    "macro": "PE_VCS_WGS_1972_BE",
+    "name": "WGS_1972_BE",
+    "wkt": "VERTCS[\"WGS_1972_BE\",DATUM[\"D_WGS_1972_BE\",SPHEROID[\"WGS_1972\",6378135.0,298.26]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"WGS_1972_BE\",DATUM[\"D_WGS_1972_BE\",ELLIPSOID[\"WGS_1972\",6378135.0,298.26,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "WGS 1972 Transit Broadcast Ephemer.",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 115910,
+    "latestWkid": 115910,
+    "macro": "PE_VCS_MEXICAN_DATUM_1993",
+    "name": "Mexican_Datum_of_1993",
+    "wkt": "VERTCS[\"Mexican_Datum_of_1993\",DATUM[\"D_Mexican_Datum_of_1993\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"Mexican_Datum_of_1993\",DATUM[\"D_Mexican_Datum_of_1993\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Mexican Datum of 1993",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Mexico",
+    "extent":
+    { "slat": 12.1,
+      "nlat": 32.72,
+      "llon": -122.19,
+      "rlon": -84.64
+    }
+  },
+  { "wkid": 115911,
+    "latestWkid": 115911,
+    "macro": "PE_VCS_RGSPM06_LON_LAT",
+    "name": "RGSPM06_(lon-lat)",
+    "wkt": "VERTCS[\"RGSPM06_(lon-lat)\",DATUM[\"D_Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGSPM06_(lon-lat)\",DATUM[\"D_Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGSPM06 (lon-lat)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "St Pierre and Miquelon",
+    "extent":
+    { "slat": 43.41,
+      "nlat": 47.37,
+      "llon": -57.1,
+      "rlon": -55.9
+    }
+  },
+  { "wkid": 115912,
+    "latestWkid": 115912,
+    "macro": "PE_VCS_RGR92_LON_LAT",
+    "name": "RGR92_(lon-lat)",
+    "wkt": "VERTCS[\"RGR92_(lon-lat)\",DATUM[\"D_RGR_1992\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGR92_(lon-lat)\",DATUM[\"D_RGR_1992\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Reseau Geodesique de la Reunion 1992 (lon-lat)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Reunion",
+    "extent":
+    { "slat": -24.72,
+      "nlat": -18.28,
+      "llon": 51.83,
+      "rlon": 58.24
+    }
+  },
+  { "wkid": 115913,
+    "latestWkid": 115913,
+    "macro": "PE_VCS_RGM04_LON_LAT",
+    "name": "RGM04_(lon-lat)",
+    "wkt": "VERTCS[\"RGM04_(lon-lat)\",DATUM[\"D_Reseau_Geodesique_de_Mayotte_2004\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGM04_(lon-lat)\",DATUM[\"D_Reseau_Geodesique_de_Mayotte_2004\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Reseau Geodesique de Mayotte 2004 (lon-lat)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Mayotte",
+    "extent":
+    { "slat": -14.49,
+      "nlat": -11.33,
+      "llon": 43.68,
+      "rlon": 46.7
+    }
+  },
+  { "wkid": 115914,
+    "latestWkid": 115914,
+    "macro": "PE_VCS_RGFG95_LON_LAT",
+    "name": "RGFG95_(lon-lat)",
+    "wkt": "VERTCS[\"RGFG95_(lon-lat)\",DATUM[\"D_RGFG_1995\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGFG95_(lon-lat)\",DATUM[\"D_RGFG_1995\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Reseau Geodesique Francais Guyane 1995 (lon-lat)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "French Guiana",
+    "extent":
+    { "slat": 2.11,
+      "nlat": 8.88,
+      "llon": -54.61,
+      "rlon": -49.45
+    }
+  },
+  { "wkid": 115915,
+    "latestWkid": 115915,
+    "macro": "PE_VCS_RGF93_LON_LAT",
+    "name": "RGF93_(lon-lat)",
+    "wkt": "VERTCS[\"RGF93_(lon-lat)\",DATUM[\"D_RGF_1993\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGF93_(lon-lat)\",DATUM[\"D_RGF_1993\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Reseau Geodesique Francais 1993 (lon-lat)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 115916,
+    "latestWkid": 115916,
+    "macro": "PE_VCS_RGAF09_LON_LAT",
+    "name": "RGAF09_(lon-lat)",
+    "wkt": "VERTCS[\"RGAF09_(lon-lat)\",DATUM[\"Reseau_Geodesique_des_Antilles_Francaises_2009\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGAF09_(lon-lat)\",DATUM[\"Reseau_Geodesique_des_Antilles_Francaises_2009\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGAF09 - French Antilles (lon-lat)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Caribbean - French Antilles",
+    "extent":
+    { "slat": 14.08,
+      "nlat": 18.53,
+      "llon": -63.66,
+      "rlon": -57.52
+    }
+  },
+  { "wkid": 115917,
+    "latestWkid": 115917,
+    "macro": "PE_VCS_RGWF96_LON_LAT",
+    "name": "RGWF96_(lon-lat)",
+    "wkt": "VERTCS[\"RGWF96_(lon-lat)\",DATUM[\"Reseau_Geodesique_de_Wallis_et_Futuna_1996\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGWF96_(lon-lat)\",DATUM[\"Reseau_Geodesique_de_Wallis_et_Futuna_1996\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGWF96 (lon-lat)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Wallis and Futuna",
+    "extent":
+    { "slat": -15.94,
+      "nlat": -9.84,
+      "llon": 179.49,
+      "rlon": -174.27
+    }
+  },
+  { "wkid": 115918,
+    "latestWkid": 115918,
+    "macro": "PE_VCS_RGF93_V2_LON_LAT",
+    "name": "RGF93_v2_(lon-lat)",
+    "wkt": "VERTCS[\"RGF93_v2_(lon-lat)\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGF93_v2_(lon-lat)\",DATUM[\"Reseau_Geodesique_Francais_1993_v2\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGF93 v2 (lon-lat)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 115919,
+    "latestWkid": 115919,
+    "macro": "PE_VCS_RGF93_V2B_LON_LAT",
+    "name": "RGF93_v2b_(lon-lat)",
+    "wkt": "VERTCS[\"RGF93_v2b_(lon-lat)\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGF93_v2b_(lon-lat)\",DATUM[\"Reseau_Geodesique_Francais_1993_v2b\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGF93 v2b (lon-lat)",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "France",
+    "extent":
+    { "slat": 41.15,
+      "nlat": 51.56,
+      "llon": -9.86,
+      "rlon": 10.38
+    }
+  },
+  { "wkid": 115920,
+    "latestWkid": 115920,
+    "macro": "PE_VCS_SIRGAS",
+    "name": "SIRGAS",
+    "wkt": "VERTCS[\"SIRGAS\",DATUM[\"D_SIRGAS\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"SIRGAS\",DATUM[\"D_SIRGAS\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "SIRGAS",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "South America - SIRGAS 1995 by country",
+    "extent":
+    { "slat": -59.87,
+      "nlat": 16.75,
+      "llon": -113.21,
+      "rlon": -26.0
+    }
+  },
+  { "wkid": 115921,
+    "latestWkid": 115921,
+    "macro": "PE_VCS_MGI",
+    "name": "MGI",
+    "wkt": "VERTCS[\"MGI\",DATUM[\"D_MGI\",SPHEROID[\"Bessel_1841\",6377397.155,299.1528128]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"MGI\",DATUM[\"D_MGI\",ELLIPSOID[\"Bessel_1841\",6377397.155,299.1528128,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Militar-Geographische Institut",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Europe - Austria and former Yugoslavia onshore",
+    "extent":
+    { "slat": 40.85,
+      "nlat": 49.02,
+      "llon": 9.53,
+      "rlon": 23.04
+    }
+  },
+  { "wkid": 115922,
+    "latestWkid": 115922,
+    "macro": "PE_VCS_IGS20",
+    "name": "IGS20",
+    "wkt": "VERTCS[\"IGS20\",DATUM[\"IGS20\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"IGS20\",DATUM[\"IGS20\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "IGS20 ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 115923,
+    "latestWkid": 115923,
+    "macro": "PE_VCS_ETRS89_DREF91_2016",
+    "name": "ETRS89_DREF91_2016",
+    "wkt": "VERTCS[\"ETRS89_DREF91_2016\",DATUM[\"ETRS89_DREF91_Realization_2016\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"ETRS89_DREF91_2016\",DATUM[\"ETRS89_DREF91_Realization_2016\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "ETRS89 DREF91 2016 ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Germany",
+    "extent":
+    { "slat": 47.27,
+      "nlat": 55.92,
+      "llon": 3.34,
+      "rlon": 15.04
+    }
+  },
+  { "wkid": 115924,
+    "latestWkid": 115924,
+    "macro": "PE_VCS_RGSH2020",
+    "name": "RGSH2020",
+    "wkt": "VERTCS[\"RGSH2020\",DATUM[\"Sonatrach_Reference_Frame_2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGSH2020\",DATUM[\"Sonatrach_Reference_Frame_2020\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGSH2020 ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Algeria",
+    "extent":
+    { "slat": 18.97,
+      "nlat": 38.8,
+      "llon": -8.67,
+      "rlon": 11.99
+    }
+  },
+  { "wkid": 115925,
+    "latestWkid": 115925,
+    "macro": "PE_VCS_LKS_2020",
+    "name": "LKS-2020",
+    "wkt": "VERTCS[\"LKS-2020\",DATUM[\"Latvian_coordinate_system_2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"LKS-2020\",DATUM[\"Latvian_coordinate_system_2020\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "LKS-2020 ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Latvia",
+    "extent":
+    { "slat": 55.67,
+      "nlat": 58.09,
+      "llon": 19.06,
+      "rlon": 28.24
+    }
+  },
+  { "wkid": 115926,
+    "latestWkid": 115926,
+    "macro": "PE_VCS_RGNC91_93_LON_LAT",
+    "name": "RGNC_1991-93_(lon-lat)",
+    "wkt": "VERTCS[\"RGNC_1991-93_(lon-lat)\",DATUM[\"D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGNC_1991-93_(lon-lat)\",DATUM[\"D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGNC91-93 (lon-lat) ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "New Caledonia",
+    "extent":
+    { "slat": -26.45,
+      "nlat": -14.83,
+      "llon": 156.25,
+      "rlon": 174.28
+    }
+  },
+  { "wkid": 115927,
+    "latestWkid": 115927,
+    "macro": "PE_VCS_RGNC15",
+    "name": "RGNC15",
+    "wkt": "VERTCS[\"RGNC15\",DATUM[\"Reseau_Geodesique_de_Nouvelle_Caledonie_2015\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGNC15\",DATUM[\"Reseau_Geodesique_de_Nouvelle_Caledonie_2015\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGNC15 ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "New Caledonia",
+    "extent":
+    { "slat": -26.45,
+      "nlat": -14.83,
+      "llon": 156.25,
+      "rlon": 174.28
+    }
+  },
+  { "wkid": 115928,
+    "latestWkid": 115928,
+    "macro": "PE_VCS_RGNC15_LON_LAT",
+    "name": "RGNC15_(lon-lat)",
+    "wkt": "VERTCS[\"RGNC15_(lon-lat)\",DATUM[\"Reseau_Geodesique_de_Nouvelle_Caledonie_2015\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"RGNC15_(lon-lat)\",DATUM[\"Reseau_Geodesique_de_Nouvelle_Caledonie_2015\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGNC15 (lon-lat) ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "New Caledonia",
+    "extent":
+    { "slat": -26.45,
+      "nlat": -14.83,
+      "llon": 156.25,
+      "rlon": 174.28
+    }
+  },
+  { "wkid": 115929,
+    "latestWkid": 115929,
+    "macro": "PE_VCS_BH_ETRS89",
+    "name": "BH_ETRS89",
+    "wkt": "VERTCS[\"BH_ETRS89\",DATUM[\"BH_ETRS89\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"BH_ETRS89\",DATUM[\"BH_ETRS89\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "BH_ETRS89 ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Bosnia and Herzegovina",
+    "extent":
+    { "slat": 42.56,
+      "nlat": 45.27,
+      "llon": 15.74,
+      "rlon": 19.62
+    }
+  },
+  { "wkid": 115930,
+    "latestWkid": 115930,
+    "macro": "PE_VCS_MAGNA_SIRGAS_2018",
+    "name": "MAGNA-SIRGAS_2018",
+    "wkt": "VERTCS[\"MAGNA-SIRGAS_2018\",DATUM[\"Marco_Geocentrico_Nacional_de_Referencia_2018\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"MAGNA-SIRGAS_2018\",DATUM[\"Marco_Geocentrico_Nacional_de_Referencia_2018\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "MAGNA-SIRGAS 2018 ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Colombia",
+    "extent":
+    { "slat": -4.23,
+      "nlat": 15.51,
+      "llon": -84.77,
+      "rlon": -66.87
+    }
+  },
+  { "wkid": 115931,
+    "latestWkid": 115931,
+    "macro": "PE_VCS_NAD_1983_CSRS_V8",
+    "name": "NAD83(CSRS)v8",
+    "wkt": "VERTCS[\"NAD83(CSRS)v8\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_8\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"NAD83(CSRS)v8\",DATUM[\"North_American_Datum_of_1983_(CSRS)_version_8\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "NAD83(CSRS)v8 ellipsoid height",
+    "authority": "Esri",
+    "version": "13.2.0",
+    "deprecated": "no",
+    "areaname": "Canada",
+    "extent":
+    { "slat": 38.21,
+      "nlat": 86.46,
+      "llon": -141.01,
+      "rlon": -40.73
+    }
   }
 ] }

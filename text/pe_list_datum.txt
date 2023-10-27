@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -282,6 +282,20 @@ Authority   : EPSG
 Version     : 7.2(10.1.0)
 Deprecated  : no
 
+WKID        : 1048
+Latest-WKID : 1048
+Macro       : PE_D_TOKYO_1892
+Name        : Tokyo_1892
+WKT         : DATUM["Tokyo_1892",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["Tokyo_1892",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Tokyo 1892
+Authority   : EPSG
+Version     : 7.5.6(13.2.0)
+Deprecated  : no
+
 WKID        : 1052
 Latest-WKID : 1052
 Macro       : PE_D_S_JTSK_05
@@ -399,9 +413,9 @@ Latest-WKID : 1062
 Macro       : PE_D_POSGAR_2007
 Name        : D_POSGAR_2007
 WKT         : DATUM["D_POSGAR_2007",
-               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
 WKT2        : DATUM["D_POSGAR_2007",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+               ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Posiciones Geodesicas Argentinas 2007
 Authority   : EPSG
@@ -423,18 +437,19 @@ Version     : 7.6.8(10.1.0)
 Deprecated  : no
 
 WKID        : 1064
-Latest-WKID : 1254
+Latest-WKID : 1064
 Macro       : PE_D_SIRGAS_CHILE
-Name        : D_SIRGAS-Chile
-WKT         : DATUM["D_SIRGAS-Chile",
+Name        : SIRGAS-Chile_realization_1_epoch_2002
+WKT         : DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["D_SIRGAS-Chile",
+WKT2        : DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : SIRGAS-Chile
+Description : SIRGAS-Chile (Incorrectly changed to 1254. Ensemble 1254 dep by
+              EPSG. S/b sirgas-chile 2002)
 Authority   : EPSG
-Version     : 7.6.8(10.1.0)
-Deprecated  : yes
+Version     : 7.6.8(13.2.0)
+Deprecated  : no
 
 WKID        : 1065
 Latest-WKID : 1065
@@ -1211,9 +1226,9 @@ Latest-WKID : 1178
 Macro       : PE_D_ETRF_1989
 Name        : D_ETRF_1989
 WKT         : DATUM["D_ETRF_1989",
-               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_ETRF_1989",
-               ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : European Terrestrial Ref. Frame 1989
 Authority   : EPSG
@@ -2061,18 +2076,19 @@ Version     : 9.8(10.8.0)
 Deprecated  : no
 
 WKID        : 1254
-Latest-WKID : 1254
+Latest-WKID : 1064
 Macro       : PE_D_SIRGAS_CHILE
-Name        : D_SIRGAS-Chile
-WKT         : DATUM["D_SIRGAS-Chile",
+Name        : SIRGAS-Chile_realization_1_epoch_2002
+WKT         : DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["D_SIRGAS-Chile",
+WKT2        : DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : SIRGAS-Chile
+Description : SIRGAS-Chile (Incorrectly changed to 1254. Ensemble 1254 dep by
+              EPSG. S/b sirgas-chile 2002)
 Authority   : EPSG
-Version     : 9.8(12.7.0)
-Deprecated  : no
+Version     : 9.8(10.1.0)
+Deprecated  : yes
 
 WKID        : 1257
 Latest-WKID : 1257
@@ -2308,8 +2324,8 @@ WKT2        : DATUM["ETRF2000_Poland",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ETRF2000 Poland
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.016(12.9.0)
 Deprecated  : no
 
 WKID        : 1308
@@ -2322,8 +2338,8 @@ WKT2        : DATUM["EOS21_Intermediate_Reference_Frame",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : EOS21 Intermediate Reference Frame
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.021(12.9.0)
 Deprecated  : no
 
 WKID        : 1309
@@ -2336,8 +2352,8 @@ WKT2        : DATUM["WGS_1984_(G2139)",
                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : WGS 1984 (G2139)
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.036(13.1.0)
 Deprecated  : no
 
 WKID        : 1310
@@ -2350,8 +2366,8 @@ WKT2        : DATUM["ECML14_NB_Intermediate_Reference_Frame",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : ECML14_NB Intermediate Reference Frame
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.029(12.9.0)
 Deprecated  : no
 
 WKID        : 1311
@@ -2364,8 +2380,8 @@ WKT2        : DATUM["EWR2_Intermediate_Reference_Frame",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : EWR2 Intermediate Reference Frame
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.029(12.9.0)
 Deprecated  : no
 
 WKID        : 1312
@@ -2378,8 +2394,8 @@ WKT2        : DATUM["Reseau_Geodesique_Francais_1993_v2",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Reseau Geodesique Francais 1993 v2
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 
 WKID        : 1313
@@ -2392,8 +2408,8 @@ WKT2        : DATUM["Reseau_Geodesique_Francais_1993_v2b",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Reseau Geodesique Francais 1993 v2b
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 
 WKID        : 1314
@@ -2406,8 +2422,8 @@ WKT2        : DATUM["MRH21_Intermediate_Reference_Frame",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : MRH21 Intermediate Reference Frame
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.039(13.1.0)
 Deprecated  : no
 
 WKID        : 1315
@@ -2420,8 +2436,8 @@ WKT2        : DATUM["MOLDOR11_Intermediate_Reference_Frame",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : MOLDOR11 Intermediate Reference Frame
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.039(13.1.0)
 Deprecated  : no
 
 WKID        : 1317
@@ -2434,8 +2450,8 @@ WKT2        : DATUM["HULLEE13_Intermediate_Reference_Frame",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : HULLEE13 Intermediate Reference Frame
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.059(13.1.0)
 Deprecated  : no
 
 WKID        : 1319
@@ -2448,8 +2464,8 @@ WKT2        : DATUM["EBBWV14_Intermediate_Reference_Frame",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : EBBWV14 Intermediate Reference Frame
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.053(13.1.0)
 Deprecated  : no
 
 WKID        : 1320
@@ -2462,8 +2478,8 @@ WKT2        : DATUM["SCM22_Intermediate_Reference_Frame",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SCM22 Intermediate Reference Frame
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.059(13.1.0)
 Deprecated  : no
 
 WKID        : 1321
@@ -2476,8 +2492,8 @@ WKT2        : DATUM["FNL22_Intermediate_Reference_Frame",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : FNL22 Intermediate Reference Frame
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.059(13.1.0)
 Deprecated  : no
 
 WKID        : 1322
@@ -2490,8 +2506,8 @@ WKT2        : DATUM["International_Terrestrial_Reference_Frame_2020",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : International Terrestrial Reference Frame 2020
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.062(13.1.0)
 Deprecated  : no
 
 WKID        : 1324
@@ -2504,8 +2520,8 @@ WKT2        : DATUM["MWC18_Intermediate_Reference_Frame",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : MWC18 Intermediate Reference Frame
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.066(13.1.0)
 Deprecated  : no
 
 WKID        : 1327
@@ -2518,8 +2534,442 @@ WKT2        : DATUM["SIRGAS-Chile_realization_5_epoch_2021",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : SIRGAS-Chile realization 5 epoch 2021
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.073(13.1.0)
+Deprecated  : no
+
+WKID        : 1329
+Latest-WKID : 1329
+Macro       : PE_D_MARCO_GEOCENTRICO_NACIONAL_DE_REFERENCIA_2018
+Name        : Marco_Geocentrico_Nacional_de_Referencia_2018
+WKT         : DATUM["Marco_Geocentrico_Nacional_de_Referencia_2018",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Marco_Geocentrico_Nacional_de_Referencia_2018",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Marco Geocentrico Nacional de Referencia 2018
+Authority   : EPSG
+Version     : 10.082(13.2.0)
+Deprecated  : no
+
+WKID        : 1332
+Latest-WKID : 1332
+Macro       : PE_D_SYSTEM_34_JYLLAND_INTERMEDIATE_DATUM
+Name        : System_34_Jylland_Intermediate_Datum
+WKT         : DATUM["System_34_Jylland_Intermediate_Datum",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["System_34_Jylland_Intermediate_Datum",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : System 34 Jylland Intermediate Datum
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+
+WKID        : 1333
+Latest-WKID : 1333
+Macro       : PE_D_IGS20
+Name        : IGS20
+WKT         : DATUM["IGS20",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["IGS20",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : IGS20
+Authority   : EPSG
+Version     : 10.078(13.2.0)
+Deprecated  : no
+
+WKID        : 1334
+Latest-WKID : 1334
+Macro       : PE_D_DOPW22_INTERMEDIATE_REFERENCE_FRAME
+Name        : DoPw22_Intermediate_Reference_Frame
+WKT         : DATUM["DoPw22_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["DoPw22_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DoPw22 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1335
+Latest-WKID : 1335
+Macro       : PE_D_SHAB07_INTERMEDIATE_REFERENCE_FRAME
+Name        : ShAb07_Intermediate_Reference_Frame
+WKT         : DATUM["ShAb07_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ShAb07_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ShAb07 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1336
+Latest-WKID : 1336
+Macro       : PE_D_CNH22_INTERMEDIATE_REFERENCE_FRAME
+Name        : CNH22_Intermediate_Reference_Frame
+WKT         : DATUM["CNH22_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["CNH22_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : CNH22 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1337
+Latest-WKID : 1337
+Macro       : PE_D_SYSTEM_34_SJAELLAND_INTERMEDIATE_DATUM
+Name        : System_34_Sjaelland_Intermediate_Datum
+WKT         : DATUM["System_34_Sjaelland_Intermediate_Datum",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["System_34_Sjaelland_Intermediate_Datum",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : System 34 Sjaelland Intermediate Datum
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+
+WKID        : 1338
+Latest-WKID : 1338
+Macro       : PE_D_CWS13_INTERMEDIATE_REFERENCE_FRAME
+Name        : CWS13_Intermediate_Reference_Frame
+WKT         : DATUM["CWS13_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["CWS13_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : CWS13 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1339
+Latest-WKID : 1339
+Macro       : PE_D_DIBA15_INTERMEDIATE_REFERENCE_FRAME
+Name        : DIBA15_Intermediate_Reference_Frame
+WKT         : DATUM["DIBA15_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["DIBA15_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DIBA15 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1340
+Latest-WKID : 1340
+Macro       : PE_D_GWPBS22_INTERMEDIATE_REFERENCE_FRAME
+Name        : GWPBS22_Intermediate_Reference_Frame
+WKT         : DATUM["GWPBS22_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["GWPBS22_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : GWPBS22 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1341
+Latest-WKID : 1341
+Macro       : PE_D_GWWAB22_INTERMEDIATE_REFERENCE_FRAME
+Name        : GWWAB22_Intermediate_Reference_Frame
+WKT         : DATUM["GWWAB22_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["GWWAB22_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : GWWAB22 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1342
+Latest-WKID : 1342
+Macro       : PE_D_GWWWA22_INTERMEDIATE_REFERENCE_FRAME
+Name        : GWWWA22_Intermediate_Reference_Frame
+WKT         : DATUM["GWWWA22_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["GWWWA22_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : GWWWA22 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1343
+Latest-WKID : 1343
+Macro       : PE_D_MALS09_INTERMEDIATE_REFERENCE_FRAME
+Name        : MALS09_Intermediate_Reference_Frame
+WKT         : DATUM["MALS09_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["MALS09_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : MALS09 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1344
+Latest-WKID : 1344
+Macro       : PE_D_OXWO08_INTERMEDIATE_REFERENCE_FRAME
+Name        : OxWo08_Intermediate_Reference_Frame
+WKT         : DATUM["OxWo08_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["OxWo08_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : OxWo08 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1345
+Latest-WKID : 1345
+Macro       : PE_D_SYC20_INTERMEDIATE_REFERENCE_FRAME
+Name        : SYC20_Intermediate_Reference_Frame
+WKT         : DATUM["SYC20_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["SYC20_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SYC20 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.079(13.2.0)
+Deprecated  : no
+
+WKID        : 1346
+Latest-WKID : 1346
+Macro       : PE_D_SYSTEM_45_BORNHOLM_INTERMEDIATE_DATUM
+Name        : System_45_Bornholm_Intermediate_Datum
+WKT         : DATUM["System_45_Bornholm_Intermediate_Datum",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["System_45_Bornholm_Intermediate_Datum",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : System 45 Bornholm Intermediate Datum
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+
+WKID        : 1347
+Latest-WKID : 1347
+Macro       : PE_D_GENERALSTABENS_SYSTEM_INTERMEDIATE_DATUM
+Name        : Generalstabens_System_Intermediate_Datum
+WKT         : DATUM["Generalstabens_System_Intermediate_Datum",
+               SPHEROID["Danish_1876", 6377019.27, 300.0]]
+WKT2        : DATUM["Generalstabens_System_Intermediate_Datum",
+               ELLIPSOID["Danish_1876", 6377019.27, 300.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Generalstabens System Intermediate Datum
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+
+WKID        : 1348
+Latest-WKID : 1348
+Macro       : PE_D_GENERALSTABENS_SYSTEM_BORNHOLM_INTERMEDIATE_DATUM
+Name        : Generalstabens_System_Bornholm_Intermediate_Datum
+WKT         : DATUM["Generalstabens_System_Bornholm_Intermediate_Datum",
+               SPHEROID["Danish_1876", 6377019.27, 300.0]]
+WKT2        : DATUM["Generalstabens_System_Bornholm_Intermediate_Datum",
+               ELLIPSOID["Danish_1876", 6377019.27, 300.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Generalstabens System Bornholm Intermediate Datum
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+
+WKID        : 1349
+Latest-WKID : 1349
+Macro       : PE_D_COPENHAGEN_COMMUNE_INTERMEDIATE_DATUM
+Name        : Copenhagen_Commune_Intermediate_Datum
+WKT         : DATUM["Copenhagen_Commune_Intermediate_Datum",
+               SPHEROID["Danish_1876", 6377019.27, 300.0]]
+WKT2        : DATUM["Copenhagen_Commune_Intermediate_Datum",
+               ELLIPSOID["Danish_1876", 6377019.27, 300.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Copenhagen Commune Intermediate Datum
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+
+WKID        : 1350
+Latest-WKID : 1350
+Macro       : PE_D_OSTENFELD_INTERMEDIATE_DATUM
+Name        : Ostenfeld_Intermediate_Datum
+WKT         : DATUM["Ostenfeld_Intermediate_Datum",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["Ostenfeld_Intermediate_Datum",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Ostenfeld Intermediate Datum
+Authority   : EPSG
+Version     : 10.088(13.2.0)
+Deprecated  : no
+
+WKID        : 1351
+Latest-WKID : 1351
+Macro       : PE_D_SMITB20_INTERMEDIATE_REFERENCE_FRAME
+Name        : SMITB20_Intermediate_Reference_Frame
+WKT         : DATUM["SMITB20_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["SMITB20_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : SMITB20 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.081(13.2.0)
+Deprecated  : no
+
+WKID        : 1352
+Latest-WKID : 1352
+Macro       : PE_D_RBEPP12_INTERMEDIATE_REFERENCE_FRAME
+Name        : RBEPP12_Intermediate_Reference_Frame
+WKT         : DATUM["RBEPP12_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["RBEPP12_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RBEPP12 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.081(13.2.0)
+Deprecated  : no
+
+WKID        : 1353
+Latest-WKID : 1353
+Macro       : PE_D_ETRS89_DREF91_REALIZATION_2016
+Name        : ETRS89_DREF91_Realization_2016
+WKT         : DATUM["ETRS89_DREF91_Realization_2016",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89_DREF91_Realization_2016",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ETRS89 DREF91 Realization 2016
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+
+WKID        : 1355
+Latest-WKID : 1355
+Macro       : PE_D_SONATRACH_REFERENCE_FRAME_2020
+Name        : Sonatrach_Reference_Frame_2020
+WKT         : DATUM["Sonatrach_Reference_Frame_2020",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Sonatrach_Reference_Frame_2020",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Sonatrach Reference Frame 2020
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+
+WKID        : 1356
+Latest-WKID : 1356
+Macro       : PE_D_LATVIAN_COORDINATE_SYSTEM_2020
+Name        : Latvian_coordinate_system_2020
+WKT         : DATUM["Latvian_coordinate_system_2020",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Latvian_coordinate_system_2020",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Latvian coordinate system 2020
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+
+WKID        : 1357
+Latest-WKID : 1357
+Macro       : PE_D_RESEAU_GEODESIQUE_DE_NOUVELLE_CALEDONIE_2015
+Name        : Reseau_Geodesique_de_Nouvelle_Caledonie_2015
+WKT         : DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Reseau Geodesique de Nouvelle Caledonie 2015
+Authority   : EPSG
+Version     : 10.085(13.2.0)
+Deprecated  : no
+
+WKID        : 1358
+Latest-WKID : 1358
+Macro       : PE_D_BH_ETRS89
+Name        : BH_ETRS89
+WKT         : DATUM["BH_ETRS89",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["BH_ETRS89",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BH_ETRS89
+Authority   : EPSG
+Version     : 10.087(13.2.0)
+Deprecated  : no
+
+WKID        : 1359
+Latest-WKID : 1359
+Macro       : PE_D_HUGHES_1980
+Name        : D_Hughes_1980
+WKT         : DATUM["D_Hughes_1980",
+               SPHEROID["Hughes_1980", 6378273.0, 298.279411123064]]
+WKT2        : DATUM["D_Hughes_1980",
+               ELLIPSOID["Hughes_1980", 6378273.0, 298.279411123064,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Hughes 1980
+Authority   : EPSG
+Version     : 10.089(13.2.0)
+Deprecated  : no
+
+WKID        : 1360
+Latest-WKID : 1360
+Macro       : PE_D_NSIDC_INTL_1924_AUTHALIC_SPHERE
+Name        : NSIDC_International_1924_Authalic_Sphere
+WKT         : DATUM["NSIDC_International_1924_Authalic_Sphere",
+               SPHEROID["Sphere_International_1924_Authalic", 6371228.0, 0.0]]
+WKT2        : DATUM["NSIDC_International_1924_Authalic_Sphere",
+               ELLIPSOID["Sphere_International_1924_Authalic", 6371228.0, 0.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : NSIDC International 1924 Authalic Sphere (duplicate of 6053)
+Authority   : EPSG
+Version     : 10.089(13.2.0)
+Deprecated  : no
+
+WKID        : 1365
+Latest-WKID : 1365
+Macro       : PE_D_NORTH_AMERICAN_DATUM_OF_1983_CSRS_V8
+Name        : North_American_Datum_of_1983_(CSRS)_version_8
+WKT         : DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : North American Datum of 1983 (CSRS) version 8
+Authority   : EPSG
+Version     : 10.092(13.2.0)
+Deprecated  : no
+
+WKID        : 1366
+Latest-WKID : 1366
+Macro       : PE_D_COV23_INTERMEDIATE_REFERENCE_FRAME
+Name        : COV23_Intermediate_Reference_Frame
+WKT         : DATUM["COV23_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["COV23_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : COV23 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 10.094(13.2.0)
 Deprecated  : no
 
 WKID        : 6001
@@ -2531,10 +2981,10 @@ WKT         : DATUM["D_Airy_1830",
 WKT2        : DATUM["D_Airy_1830",
                ELLIPSOID["Airy_1830", 6377563.396, 299.3249646,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Airy 1830
+Description : Airy 1830 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6002
 Latest-WKID : 6002
@@ -2545,10 +2995,10 @@ WKT         : DATUM["D_Airy_Modified",
 WKT2        : DATUM["D_Airy_Modified",
                ELLIPSOID["Airy_Modified", 6377340.189, 299.3249646,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Airy modified
+Description : Airy modified (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6003
 Latest-WKID : 6003
@@ -2559,10 +3009,10 @@ WKT         : DATUM["D_Australian",
 WKT2        : DATUM["D_Australian",
                ELLIPSOID["Australian", 6378160.0, 298.25,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Australian National
+Description : Australian National (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6004
 Latest-WKID : 6004
@@ -2573,10 +3023,10 @@ WKT         : DATUM["D_Bessel_1841",
 WKT2        : DATUM["D_Bessel_1841",
                ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Bessel 1841
+Description : Bessel 1841 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6005
 Latest-WKID : 6005
@@ -2587,10 +3037,10 @@ WKT         : DATUM["D_Bessel_Modified",
 WKT2        : DATUM["D_Bessel_Modified",
                ELLIPSOID["Bessel_Modified", 6377492.018, 299.1528128,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Bessel modified
+Description : Bessel modified (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6006
 Latest-WKID : 6006
@@ -2601,10 +3051,10 @@ WKT         : DATUM["D_Bessel_Namibia",
 WKT2        : DATUM["D_Bessel_Namibia",
                ELLIPSOID["Bessel_Namibia", 6377483.865280418, 299.1528128,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Bessel Namibia
+Description : Bessel Namibia (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6007
 Latest-WKID : 6007
@@ -2615,10 +3065,10 @@ WKT         : DATUM["D_Clarke_1858",
 WKT2        : DATUM["D_Clarke_1858",
                ELLIPSOID["Clarke_1858", 6378293.645208759, 294.260676369,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Clarke 1858
+Description : Clarke 1858 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6008
 Latest-WKID : 6008
@@ -2643,10 +3093,10 @@ WKT         : DATUM["D_Clarke_1866_Michigan",
 WKT2        : DATUM["D_Clarke_1866_Michigan",
                ELLIPSOID["Clarke_1866_Michigan", 6378450.047, 294.978684677,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Clarke 1866 Michigan
+Description : Clarke 1866 Michigan (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6010
 Latest-WKID : 6010
@@ -2657,10 +3107,10 @@ WKT         : DATUM["D_Clarke_1880_Benoit",
 WKT2        : DATUM["D_Clarke_1880_Benoit",
                ELLIPSOID["Clarke_1880_Benoit", 6378300.789, 293.4663155389802,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Clarke 1880 (Benoit)
+Description : Clarke 1880 (Benoit) (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6011
 Latest-WKID : 6011
@@ -2671,10 +3121,10 @@ WKT         : DATUM["D_Clarke_1880_IGN",
 WKT2        : DATUM["D_Clarke_1880_IGN",
                ELLIPSOID["Clarke_1880_IGN", 6378249.2, 293.4660212936265,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Clarke 1880 (IGN)
+Description : Clarke 1880 (IGN) (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6012
 Latest-WKID : 6012
@@ -2685,10 +3135,10 @@ WKT         : DATUM["D_Clarke_1880_RGS",
 WKT2        : DATUM["D_Clarke_1880_RGS",
                ELLIPSOID["Clarke_1880_RGS", 6378249.145, 293.465,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Clarke 1880 (RGS)
+Description : Clarke 1880 (RGS) (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6013
 Latest-WKID : 6013
@@ -2699,10 +3149,10 @@ WKT         : DATUM["D_Clarke_1880_Arc",
 WKT2        : DATUM["D_Clarke_1880_Arc",
                ELLIPSOID["Clarke_1880_Arc", 6378249.145, 293.466307656,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Clarke 1880 (Arc)
+Description : Clarke 1880 (Arc) (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6014
 Latest-WKID : 6014
@@ -2713,10 +3163,10 @@ WKT         : DATUM["D_Clarke_1880_SGA",
 WKT2        : DATUM["D_Clarke_1880_SGA",
                ELLIPSOID["Clarke_1880_SGA", 6378249.2, 293.46598,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Clarke 1880 (SGA)
+Description : Clarke 1880 (SGA) (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6015
 Latest-WKID : 6015
@@ -2755,10 +3205,10 @@ WKT         : DATUM["D_Everest_Modified",
 WKT2        : DATUM["D_Everest_Modified",
                ELLIPSOID["Everest_1830_Modified", 6377304.063, 300.8017,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Everest modified
+Description : Everest modified (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6019
 Latest-WKID : 6019
@@ -2797,10 +3247,10 @@ WKT         : DATUM["D_Indonesian",
 WKT2        : DATUM["D_Indonesian",
                ELLIPSOID["Indonesian", 6378160.0, 298.247,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Indonesian National
+Description : Indonesian National (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6022
 Latest-WKID : 6022
@@ -2839,10 +3289,10 @@ WKT         : DATUM["D_Krasovsky_1940",
 WKT2        : DATUM["D_Krasovsky_1940",
                ELLIPSOID["Krasovsky_1940", 6378245.0, 298.3,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Krasovsky 1940
+Description : Krasovsky 1940 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6025
 Latest-WKID : 6025
@@ -2867,10 +3317,10 @@ WKT         : DATUM["D_Plessis_1817",
 WKT2        : DATUM["D_Plessis_1817",
                ELLIPSOID["Plessis_1817", 6376523.0, 308.64,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Plessis 1817
+Description : Plessis 1817 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6028
 Latest-WKID : 6028
@@ -2881,10 +3331,10 @@ WKT         : DATUM["D_Struve_1860",
 WKT2        : DATUM["D_Struve_1860",
                ELLIPSOID["Struve_1860", 6378298.3, 294.73,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Struve 1860
+Description : Struve 1860 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6029
 Latest-WKID : 6029
@@ -2895,10 +3345,10 @@ WKT         : DATUM["D_War_Office",
 WKT2        : DATUM["D_War_Office",
                ELLIPSOID["War_Office", 6378300.0, 296.0,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : War Office
+Description : War Office (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6031
 Latest-WKID : 6031
@@ -2909,10 +3359,10 @@ WKT         : DATUM["D_GEM_10C",
 WKT2        : DATUM["D_GEM_10C",
                ELLIPSOID["GEM_10C", 6378137.0, 298.257223563,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : GEM gravity potential model
+Description : GEM gravity potential model (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6032
 Latest-WKID : 6032
@@ -2923,10 +3373,10 @@ WKT         : DATUM["D_OSU_86F",
 WKT2        : DATUM["D_OSU_86F",
                ELLIPSOID["OSU_86F", 6378136.2, 298.257223563,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : OSU 1986 geoidal model
+Description : OSU 1986 geoidal model (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6033
 Latest-WKID : 6033
@@ -2937,10 +3387,10 @@ WKT         : DATUM["D_OSU_91A",
 WKT2        : DATUM["D_OSU_91A",
                ELLIPSOID["OSU_91A", 6378136.3, 298.257223563,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : OSU 1991 geoidal model
+Description : OSU 1991 geoidal model (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6034
 Latest-WKID : 6034
@@ -2951,10 +3401,10 @@ WKT         : DATUM["D_Clarke_1880",
 WKT2        : DATUM["D_Clarke_1880",
                ELLIPSOID["Clarke_1880", 6378249.144808011, 293.4663076556253,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Clarke 1880
+Description : Clarke 1880 (deprecated)
 Authority   : EPSG
-Version     : 3.0(3.0.1)
-Deprecated  : no
+Version     : 3.0(13.2.0)
+Deprecated  : yes
 
 WKID        : 6035
 Latest-WKID : 6035
@@ -2989,10 +3439,10 @@ Latest-WKID : 6042
 Macro       : PE_D_EVEREST_1830
 Name        : D_Everest_1830
 WKT         : DATUM["D_Everest_1830",
-               SPHEROID["Everest_1830", 6377299.36, 300.8017]]
+               SPHEROID["Everest_1830", 6377299.36559538, 300.8017255]]
 WKT2        : DATUM["D_Everest_1830",
-               ELLIPSOID["Everest_1830", 6377299.36, 300.8017,
-                LENGTHUNIT["Meter", 1.0]]]
+               ELLIPSOID["Everest_1830", 20922931.8, 300.8017255,
+                LENGTHUNIT["Foot_Indian", 0.3047995102481469]]]
 Description : Everest 1830
 Authority   : EPSG
 Version     : 4.5(8.1.0)
@@ -3051,7 +3501,7 @@ WKT2        : DATUM["D_Sphere_Clarke_1866_Authalic",
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Clarke 1866 Authalic Sphere
 Authority   : EPSG
-Version     : 6.5.2(9.2.0)
+Version     : 10.088(9.2.0)
 Deprecated  : no
 
 WKID        : 6053
@@ -3065,11 +3515,11 @@ WKT2        : DATUM["D_Sphere_International_1924_Authalic",
                 LENGTHUNIT["Meter", 1.0]]]
 Description : International 1924 Authalic Sphere
 Authority   : EPSG
-Version     : 6.11.1(9.3.0.0)
+Version     : 10.088(9.3.0.0)
 Deprecated  : no
 
 WKID        : 6054
-Latest-WKID : 6054
+Latest-WKID : 1359
 Macro       : PE_D_HUGHES_1980
 Name        : D_Hughes_1980
 WKT         : DATUM["D_Hughes_1980",
@@ -3079,8 +3529,8 @@ WKT2        : DATUM["D_Hughes_1980",
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Hughes 1980
 Authority   : EPSG
-Version     : 6.11.1(9.3.0.0)
-Deprecated  : no
+Version     : 10.088(9.3.0.0)
+Deprecated  : yes
 
 WKID        : 6055
 Latest-WKID : 6055
@@ -3135,7 +3585,7 @@ WKT2        : DATUM["D_ATS_1977",
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Average Terrestrial System 1977
 Authority   : EPSG
-Version     : 3.2(4.0.0)
+Version     : 10.078(4.0.0)
 Deprecated  : no
 
 WKID        : 6123
@@ -3331,7 +3781,7 @@ WKT2        : DATUM["D_St_Lawrence_Island",
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Alaska - St. Lawrence Island
 Authority   : EPSG
-Version     : 4.3(8.0.1)
+Version     : 10.078(8.0.1)
 Deprecated  : no
 
 WKID        : 6137
@@ -4781,10 +5231,10 @@ Latest-WKID : 6243
 Macro       : PE_D_KALIANPUR_1880
 Name        : D_Kalianpur_1880
 WKT         : DATUM["D_Kalianpur_1880",
-               SPHEROID["Everest_1830", 6377299.36, 300.8017]]
+               SPHEROID["Everest_1830", 6377299.36559538, 300.8017255]]
 WKT2        : DATUM["D_Kalianpur_1880",
-               ELLIPSOID["Everest_1830", 6377299.36, 300.8017,
-                LENGTHUNIT["Meter", 1.0]]]
+               ELLIPSOID["Everest_1830", 20922931.8, 300.8017255,
+                LENGTHUNIT["Foot_Indian", 0.3047995102481469]]]
 Description : Kalianpur
 Authority   : EPSG
 Version     : 4.4(3.0.1)
@@ -5079,7 +5529,7 @@ WKT         : DATUM["D_Mhast",
 WKT2        : DATUM["D_Mhast",
                ELLIPSOID["International_1924", 6378388.0, 297.0,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Mhast (DEPRECATED - use PE_D_MALONGO_1987)
+Description : Mhast (DEPRECATED - use PE_D_MHAST_ONSHORE)
 Authority   : EPSG
 Version     : 2.1(3.0.1)
 Deprecated  : yes
@@ -6797,9 +7247,9 @@ Latest-WKID : 6670
 Macro       : PE_D_IGM_1995
 Name        : D_IGM_1995
 WKT         : DATUM["D_IGM_1995",
-               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_IGM_1995",
-               ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : IGM 1995
 Authority   : EPSG
@@ -7105,9 +7555,9 @@ Latest-WKID : 6694
 Macro       : PE_D_POSGAR_1994
 Name        : D_POSGAR_1994
 WKT         : DATUM["D_POSGAR_1994",
-               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
 WKT2        : DATUM["D_POSGAR_1994",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+               ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Posiciones Geodesicas Argentinas 1994
 Authority   : EPSG
@@ -7705,13 +8155,13 @@ Deprecated  : no
 WKID        : 6737
 Latest-WKID : 6737
 Macro       : PE_D_KOREA_2000
-Name        : D_Korea_2000
-WKT         : DATUM["D_Korea_2000",
+Name        : D_Korea_Geodetic_Datum_2002
+WKT         : DATUM["D_Korea_Geodetic_Datum_2002",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["D_Korea_2000",
+WKT2        : DATUM["D_Korea_Geodetic_Datum_2002",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Korea Geodetic Datum 2000
+Description : Korea Geodetic Datum 2002
 Authority   : EPSG
 Version     : 6.11.1(9.2.0)
 Deprecated  : no
@@ -8029,9 +8479,9 @@ Latest-WKID : 6760
 Macro       : PE_D_WGS_1966
 Name        : D_WGS_1966
 WKT         : DATUM["D_WGS_1966",
-               SPHEROID["WGS_1966", 6378145.0, 298.25]]
+               SPHEROID["NWL_9D", 6378145.0, 298.25]]
 WKT2        : DATUM["D_WGS_1966",
-               ELLIPSOID["WGS_1966", 6378145.0, 298.25,
+               ELLIPSOID["NWL_9D", 6378145.0, 298.25,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : WGS 1966
 Authority   : EPSG
@@ -8108,6 +8558,258 @@ Authority   : EPSG
 Version     : 6.15(10.0.0)
 Deprecated  : no
 
+WKID        : 6801
+Latest-WKID : 6801
+Macro       : PE_D_CH1903_BERN
+Name        : CH1903_(Bern)
+WKT         : DATUM["CH1903_(Bern)",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["CH1903_(Bern)",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : CH1903 (Bern)
+Authority   : EPSG
+Version     : 6.5(13.2.0)
+Deprecated  : no
+
+WKID        : 6802
+Latest-WKID : 6802
+Macro       : PE_D_BOGOTA_1975_BOGOTA
+Name        : Bogota_1975_(Bogota)
+WKT         : DATUM["Bogota_1975_(Bogota)",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["Bogota_1975_(Bogota)",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Bogota 1975 (Bogota)
+Authority   : EPSG
+Version     : 5.1(13.2.0)
+Deprecated  : no
+
+WKID        : 6803
+Latest-WKID : 6803
+Macro       : PE_D_LISBON_1937_LISBON
+Name        : Lisbon_1937_(Lisbon)
+WKT         : DATUM["Lisbon_1937_(Lisbon)",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["Lisbon_1937_(Lisbon)",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Lisbon 1937 (Lisbon)
+Authority   : EPSG
+Version     : 5.3(13.2.0)
+Deprecated  : no
+
+WKID        : 6804
+Latest-WKID : 6804
+Macro       : PE_D_MAKASSAR_JAKARTA
+Name        : Makassar_(Jakarta)
+WKT         : DATUM["Makassar_(Jakarta)",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["Makassar_(Jakarta)",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Makassar (Jakarta)
+Authority   : EPSG
+Version     : 6.5(13.2.0)
+Deprecated  : no
+
+WKID        : 6805
+Latest-WKID : 6805
+Macro       : PE_D_MILITAR_GEOGRAPHISCHE_INSTITUT_FERRO
+Name        : Militar-Geographische_Institut_(Ferro)
+WKT         : DATUM["Militar-Geographische_Institut_(Ferro)",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["Militar-Geographische_Institut_(Ferro)",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Militar-Geographische Institut (Ferro)
+Authority   : EPSG
+Version     : 6.16(13.2.0)
+Deprecated  : no
+
+WKID        : 6806
+Latest-WKID : 6806
+Macro       : PE_D_MONTE_MARIO_ROME
+Name        : Monte_Mario_(Rome)
+WKT         : DATUM["Monte_Mario_(Rome)",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["Monte_Mario_(Rome)",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Monte Mario (Rome)
+Authority   : EPSG
+Version     : 6.5(13.2.0)
+Deprecated  : no
+
+WKID        : 6807
+Latest-WKID : 6807
+Macro       : PE_D_NOUVELLE_TRIANGULATION_FRANCAISE_PARIS
+Name        : Nouvelle_Triangulation_Francaise_(Paris)
+WKT         : DATUM["Nouvelle_Triangulation_Francaise_(Paris)",
+               SPHEROID["Clarke_1880_IGN", 6378249.2, 293.4660212936265]]
+WKT2        : DATUM["Nouvelle_Triangulation_Francaise_(Paris)",
+               ELLIPSOID["Clarke_1880_IGN", 6378249.2, 293.4660212936265,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Nouvelle Triangulation Francaise (Paris)
+Authority   : EPSG
+Version     : 6.5(13.2.0)
+Deprecated  : no
+
+WKID        : 6809
+Latest-WKID : 6809
+Macro       : PE_D_RESEAU_NATIONAL_BELGE_1950_BRUSSELS
+Name        : Reseau_National_Belge_1950_(Brussels)
+WKT         : DATUM["Reseau_National_Belge_1950_(Brussels)",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["Reseau_National_Belge_1950_(Brussels)",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Reseau National Belge 1950 (Brussels)
+Authority   : EPSG
+Version     : 6.16(13.2.0)
+Deprecated  : no
+
+WKID        : 6810
+Latest-WKID : 6810
+Macro       : PE_D_TANANARIVE_1925_PARIS
+Name        : Tananarive_1925_(Paris)
+WKT         : DATUM["Tananarive_1925_(Paris)",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["Tananarive_1925_(Paris)",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Tananarive 1925 (Paris)
+Authority   : EPSG
+Version     : 6.5(13.2.0)
+Deprecated  : no
+
+WKID        : 6811
+Latest-WKID : 6811
+Macro       : PE_D_VOIROL_1875_PARIS
+Name        : Voirol_1875_(Paris)
+WKT         : DATUM["Voirol_1875_(Paris)",
+               SPHEROID["Clarke_1880_IGN", 6378249.2, 293.4660212936265]]
+WKT2        : DATUM["Voirol_1875_(Paris)",
+               ELLIPSOID["Clarke_1880_IGN", 6378249.2, 293.4660212936265,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Voirol 1875 (Paris)
+Authority   : EPSG
+Version     : 6.5(13.2.0)
+Deprecated  : no
+
+WKID        : 6813
+Latest-WKID : 6813
+Macro       : PE_D_BATAVIA_JAKARTA
+Name        : Batavia_(Jakarta)
+WKT         : DATUM["Batavia_(Jakarta)",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["Batavia_(Jakarta)",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Batavia (Jakarta)
+Authority   : EPSG
+Version     : 6.5(13.2.0)
+Deprecated  : no
+
+WKID        : 6814
+Latest-WKID : 6814
+Macro       : PE_D_STOCKHOLM_1938_STOCKHOLM
+Name        : Stockholm_1938_(Stockholm)
+WKT         : DATUM["Stockholm_1938_(Stockholm)",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["Stockholm_1938_(Stockholm)",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Stockholm 1938 (Stockholm)
+Authority   : EPSG
+Version     : 2.1(13.2.0)
+Deprecated  : no
+
+WKID        : 6815
+Latest-WKID : 6815
+Macro       : PE_D_GREEK_ATHENS
+Name        : Greek_(Athens)
+WKT         : DATUM["Greek_(Athens)",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["Greek_(Athens)",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Greek (Athens)
+Authority   : EPSG
+Version     : 6.16(13.2.0)
+Deprecated  : no
+
+WKID        : 6816
+Latest-WKID : 6816
+Macro       : PE_D_CARTHAGE_PARIS
+Name        : Carthage_(Paris)
+WKT         : DATUM["Carthage_(Paris)",
+               SPHEROID["Clarke_1880_IGN", 6378249.2, 293.4660212936265]]
+WKT2        : DATUM["Carthage_(Paris)",
+               ELLIPSOID["Clarke_1880_IGN", 6378249.2, 293.4660212936265,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Carthage (Paris)
+Authority   : EPSG
+Version     : 6.5(13.2.0)
+Deprecated  : no
+
+WKID        : 6817
+Latest-WKID : 6817
+Macro       : PE_D_NGO_1948_OSLO
+Name        : NGO_1948_(Oslo)
+WKT         : DATUM["NGO_1948_(Oslo)",
+               SPHEROID["Bessel_Modified", 6377492.018, 299.1528128]]
+WKT2        : DATUM["NGO_1948_(Oslo)",
+               ELLIPSOID["Bessel_Modified", 6377492.018, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : NGO 1948 (Oslo)
+Authority   : EPSG
+Version     : 6.5(13.2.0)
+Deprecated  : no
+
+WKID        : 6818
+Latest-WKID : 6818
+Macro       : PE_D_SYSTEM_OF_THE_UNIFIED_TRIGONOMETRICAL_CADASTRAL_NETWORK_FERRO
+Name        : System_of_the_Unified_Trigonometrical_Cadastral_Network_(Ferro)
+WKT         : DATUM["System_of_the_Unified_Trigonometrical_Cadastral_Network_(Ferro)",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["System_of_the_Unified_Trigonometrical_Cadastral_Network_(Ferro)",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : System of the Unified Trigonometrical Cadastral Network (Ferro)
+Authority   : EPSG
+Version     : 5.3(13.2.0)
+Deprecated  : no
+
+WKID        : 6820
+Latest-WKID : 6820
+Macro       : PE_D_GUNUNG_SEGARA_JAKARTA
+Name        : Gunung_Segara_(Jakarta)
+WKT         : DATUM["Gunung_Segara_(Jakarta)",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["Gunung_Segara_(Jakarta)",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Gunung Segara (Jakarta)
+Authority   : EPSG
+Version     : 6.16(13.2.0)
+Deprecated  : no
+
+WKID        : 6821
+Latest-WKID : 6821
+Macro       : PE_D_VOIROL_1879_PARIS
+Name        : Voirol_1879_(Paris)
+WKT         : DATUM["Voirol_1879_(Paris)",
+               SPHEROID["Clarke_1880_IGN", 6378249.2, 293.4660212936265]]
+WKT2        : DATUM["Voirol_1879_(Paris)",
+               ELLIPSOID["Clarke_1880_IGN", 6378249.2, 293.4660212936265,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Voirol 1879 (Paris)
+Authority   : EPSG
+Version     : 6.5(13.2.0)
+Deprecated  : no
+
 WKID        : 6896
 Latest-WKID : 6896
 Macro       : PE_D_ITRF_2005
@@ -8164,14 +8866,28 @@ Authority   : EPSG
 Version     : 9.8.13(8.0.1)
 Deprecated  : no
 
+WKID        : 6904
+Latest-WKID : 6904
+Macro       : PE_D_LISBON_1890_LISBON
+Name        : Lisbon_1890_(Lisbon)
+WKT         : DATUM["Lisbon_1890_(Lisbon)",
+               SPHEROID["Bessel_1841", 6377397.155, 299.1528128]]
+WKT2        : DATUM["Lisbon_1890_(Lisbon)",
+               ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Lisbon 1890 (Lisbon)
+Authority   : EPSG
+Version     : 6.4(13.2.0)
+Deprecated  : no
+
 WKID        : 106001
 Latest-WKID : 6760
 Macro       : PE_D_WGS_1966
 Name        : D_WGS_1966
 WKT         : DATUM["D_WGS_1966",
-               SPHEROID["WGS_1966", 6378145.0, 298.25]]
+               SPHEROID["NWL_9D", 6378145.0, 298.25]]
 WKT2        : DATUM["D_WGS_1966",
-               ELLIPSOID["WGS_1966", 6378145.0, 298.25,
+               ELLIPSOID["NWL_9D", 6378145.0, 298.25,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : WGS 1966
 Authority   : Esri
@@ -9275,9 +9991,9 @@ Latest-WKID : 1178
 Macro       : PE_D_ETRF_1989
 Name        : D_ETRF_1989
 WKT         : DATUM["D_ETRF_1989",
-               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_ETRF_1989",
-               ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : European Terrestrial Ref. Frame 1989
 Authority   : Esri

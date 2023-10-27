@@ -5765,29 +5765,49 @@
    "Teradata"
 
 "ETRF2000-PL / CS2000/15", \
-   "ETRS_1989_Poland_CS2000_Zone_5", \
+   "ETRF2000-PL_CS2000_15_Zone_5", \
    FALSE, \
    "EPSG"
 
 "ETRF2000-PL / CS2000/18", \
-   "ETRS_1989_Poland_CS2000_Zone_6", \
+   "ETRF2000-PL_CS2000_18_Zone_6", \
    FALSE, \
    "EPSG"
 
 "ETRF2000-PL / CS2000/21", \
-   "ETRS_1989_Poland_CS2000_Zone_7", \
+   "ETRF2000-PL_CS2000_21_Zone_7", \
    FALSE, \
    "EPSG"
 
 "ETRF2000-PL / CS2000/24", \
-   "ETRS_1989_Poland_CS2000_Zone_8", \
+   "ETRF2000-PL_CS2000_24_Zone_8", \
    FALSE, \
    "EPSG"
 
-"ETRF2000-PL / CS92", \
-   "ETRS_1989_Poland_CS92", \
+"ETRS_1989_Poland_CS2000_Zone_5", \
+   "ETRF2000-PL_CS2000_15_Zone_5", \
    FALSE, \
-   "EPSG"
+   ""
+
+"ETRS_1989_Poland_CS2000_Zone_6", \
+   "ETRF2000-PL_CS2000_18_Zone_6", \
+   FALSE, \
+   ""
+
+"ETRS_1989_Poland_CS2000_Zone_7", \
+   "ETRF2000-PL_CS2000_21_Zone_7", \
+   FALSE, \
+   ""
+
+"ETRS_1989_Poland_CS2000_Zone_8", \
+   "ETRF2000-PL_CS2000_24_Zone_8", \
+   FALSE, \
+   ""
+
+"ETRS_1989_Poland_CS92", \
+   "ETRF2000-PL_CS92", \
+   FALSE, \
+   ""
 
 "ETRS89 / Albania LCC 2010", \
    "ETRS_1989_Albania_LCC_2010", \
@@ -6506,11 +6526,6 @@
 
 "ETRS89 / Faroe TM", \
    "ETRS_1989_FAROE_TM", \
-   FALSE, \
-   "EPSG"
-
-"ETRS89 / Gauss-Kruger CM 9E", \
-   "ETRS_1989_GK_CM_9E", \
    FALSE, \
    "EPSG"
 
@@ -7474,6 +7489,11 @@
    FALSE, \
    "EPSG"
 
+"GDA94 / ALB94", \
+   "GDA_1994_ALB94", \
+   FALSE, \
+   "EPSG"
+
 "GDA94 / Australian Albers", \
    "GDA_1994_Australia_Albers", \
    FALSE, \
@@ -7488,6 +7508,11 @@
    "GDA_1994_Australia_Albers", \
    FALSE, \
    "SpatiaLite"
+
+"GDA94 / BCG94", \
+   "GDA_1994_BCG94", \
+   FALSE, \
+   "EPSG"
 
 "GDA94 / BCSG02", \
    "GDA_1994_BCSG02", \
@@ -7508,6 +7533,21 @@
    "GDA_1994_BCSG02", \
    FALSE, \
    "Teradata"
+
+"GDA94 / BIO94", \
+   "GDA_1994_BIO94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / BRO94", \
+   "GDA_1994_BRO94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / CARN94", \
+   "GDA_1994_CARN94", \
+   FALSE, \
+   "EPSG"
 
 "GDA94 / CIG94", \
    "GDA_1994_CIG94", \
@@ -7519,6 +7559,26 @@
    FALSE, \
    "EPSG"
 
+"GDA94 / COL94", \
+   "GDA_1994_COL94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / ESP94", \
+   "GDA_1994_ESP94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / EXM94", \
+   "GDA_1994_EXM94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / GCG94", \
+   "GDA_1994_GCG94", \
+   FALSE, \
+   "EPSG"
+
 "GDA94 / Geoscience Australia Lambert", \
    "GDA_1994_Geoscience_Australia_Lambert", \
    FALSE, \
@@ -7538,6 +7598,36 @@
    "GDA_1994_Geoscience_Australia_Lambert", \
    FALSE, \
    "Teradata"
+
+"GDA94 / GOLD94", \
+   "GDA_1994_GOLD94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / JCG94", \
+   "GDA_1994_JCG94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / KALB94", \
+   "GDA_1994_KALB94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / KAR94", \
+   "GDA_1994_KAR94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / KUN94", \
+   "GDA_1994_KUN94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / LCG94", \
+   "GDA_1994_LCG94", \
+   FALSE, \
+   "EPSG"
 
 "GDA94 / MGA zone 46", \
    "GDA_1994_MGA_Zone_46", \
@@ -7829,6 +7919,11 @@
    FALSE, \
    "EPSG"
 
+"GDA94 / MRCG94", \
+   "GDA_1994_MRCG94", \
+   FALSE, \
+   "EPSG"
+
 "GDA94 / NSW Lambert", \
    "GDA_1994_NSW_Lambert", \
    FALSE, \
@@ -7848,6 +7943,16 @@
    "GDA_1994_NSW_Lambert", \
    FALSE, \
    "Teradata"
+
+"GDA94 / PCG94", \
+   "GDA_1994_PCG94", \
+   FALSE, \
+   "EPSG"
+
+"GDA94 / PHG94", \
+   "GDA_1994_PHG94", \
+   FALSE, \
+   "EPSG"
 
 "GDA94 / SA Lambert", \
    "GDA_1994_South_Australia_Lambert", \
@@ -10154,6 +10259,11 @@
    FALSE, \
    "Teradata"
 
+"KGD2002 / Unified CS", \
+   "KGD2002_Unified_Coordinate_System", \
+   FALSE, \
+   "EPSG"
+
 "KKJ / Finland Uniform Coordinate System", \
    "Finland_Zone_3", \
    FALSE, \
@@ -10254,55 +10364,55 @@
    FALSE, \
    "Teradata"
 
-"Korea 2000 / Central Belt", \
-   "Korea_2000_Korea_Central_Belt", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_Korea_Central_Belt", \
+   "KGD2002_Central_Belt", \
+   TRUE, \
+   ""
 
-"Korea 2000 / Central Belt 2010", \
-   "Korea_2000_Korea_Central_Belt_2010", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_Korea_Central_Belt_2010", \
+   "KGD2002_Central_Belt_2010", \
+   TRUE, \
+   ""
 
-"Korea 2000 / Central Belt Jeju", \
-   "Korea_2000_Korea_Central_Belt_Jeju", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_Korea_Central_Belt_Jeju", \
+   "KGD2002_Central_Belt_Jeju", \
+   TRUE, \
+   ""
 
-"Korea 2000 / East Belt", \
-   "Korea_2000_Korea_East_Belt", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_Korea_East_Belt", \
+   "KGD2002_East_Belt", \
+   TRUE, \
+   ""
 
-"Korea 2000 / East Belt 2010", \
-   "Korea_2000_Korea_East_Belt_2010", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_Korea_East_Belt_2010", \
+   "KGD2002_East_Belt_2010", \
+   TRUE, \
+   ""
 
-"Korea 2000 / East Sea Belt", \
-   "Korea_2000_Korea_East_Sea_Belt", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_Korea_East_Sea_Belt", \
+   "KGD2002_East_Sea_Belt", \
+   TRUE, \
+   ""
 
-"Korea 2000 / East Sea Belt 2010", \
-   "Korea_2000_Korea_East_Sea_Belt_2010", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_Korea_East_Sea_Belt_2010", \
+   "KGD2002_East_Sea_Belt_2010", \
+   TRUE, \
+   ""
 
-"Korea 2000 / Unified CS", \
-   "Korea_2000_Korea_Unified_Coordinate_System", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_Korea_Unified_Coordinate_System", \
+   "KGD2002_Unified_Coordinate_System", \
+   TRUE, \
+   ""
 
-"Korea 2000 / West Belt", \
-   "Korea_2000_Korea_West_Belt", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_Korea_West_Belt", \
+   "KGD2002_West_Belt", \
+   TRUE, \
+   ""
 
-"Korea 2000 / West Belt 2010", \
-   "Korea_2000_Korea_West_Belt_2010", \
-   FALSE, \
-   "EPSG"
+"Korea_2000_Korea_West_Belt_2010", \
+   "KGD2002_West_Belt_2010", \
+   TRUE, \
+   ""
 
 "Korean 1985 / Central Belt", \
    "Korean_1985_Korea_Central_Belt", \
@@ -10479,7 +10589,7 @@
    FALSE, \
    "Oracle"
 
-"LKS92 / Latvia TM", \
+"LKS-92 / Latvia TM", \
    "LKS_1992_Latvia_TM", \
    FALSE, \
    "EPSG"
@@ -10929,6 +11039,11 @@
    FALSE, \
    "EPSG"
 
+"MAGNA-SIRGAS_Origen-Nacional", \
+   "MAGNA-SIRGAS_2018_Origen-Nacional", \
+   FALSE, \
+   ""
+
 "MAGNA-SIRGAS / Pasto urban grid", \
    "MAGNA_Pasto_Narino_2008", \
    FALSE, \
@@ -11038,6 +11153,11 @@
    "Maupiti_1983_UTM_Zone_5S", \
    FALSE, \
    "Teradata"
+
+"Merchich_Degree_UTM_Zone_28N", \
+   "PE_PCS_MERCHICH_DEGREE_UTM_28N", \
+   FALSE, \
+   ""
 
 "Merchich / Nord Maroc", \
    "Nord_Maroc", \
@@ -11844,11 +11964,6 @@
    FALSE, \
    "Teradata"
 
-"MWC18 Grid", \
-   "Pulkovo_1995_GK_Zone_2", \
-   FALSE, \
-   "EPSG"
-
 "NAD_1927_StatePlane_Vermont_FIPS_3400", \
    "NAD_1927_StatePlane_Vermont_FIPS_4400", \
    TRUE, \
@@ -11962,6 +12077,16 @@
 "NAD_1983_CSRS98_UTM_Zone_21N", \
    "NAD_1983_CSRS_UTM_Zone_21N", \
    TRUE, \
+   ""
+
+"NAD_1983_CSRS_Quebec_Albers", \
+   "NAD83(CSRS)v2_Quebec_Albers", \
+   FALSE, \
+   ""
+
+"NAD_1983_CSRS_Quebec_Lambert", \
+   "NAD83(CSRS)v2_Quebec_Lambert", \
+   FALSE, \
    ""
 
 "NAD_1983_Oregon_Washington_Albers", \
@@ -17366,6 +17491,171 @@
 
 "NAD83(2011) / IaRCS zone 9", \
    "NAD_1983_(2011)_IaRCS_zone_9", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Aurora (ftUS)", \
+   "NAD_1983_(2011)_ICS_Aurora_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Belleville (ftUS)", \
+   "NAD_1983_(2011)_ICS_Belleville_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Bloomington (ftUS)", \
+   "NAD_1983_(2011)_ICS_Bloomington_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Carbondale (ftUS)", \
+   "NAD_1983_(2011)_ICS_Carbondale_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Carlinville (ftUS)", \
+   "NAD_1983_(2011)_ICS_Carlinville_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Champaign (ftUS)", \
+   "NAD_1983_(2011)_ICS_Champaign_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Charleston (ftUS)", \
+   "NAD_1983_(2011)_ICS_Charleston_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Chicago (ftUS)", \
+   "NAD_1983_(2011)_ICS_Chicago_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Decatur (ftUS)", \
+   "NAD_1983_(2011)_ICS_Decatur_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Effingham (ftUS)", \
+   "NAD_1983_(2011)_ICS_Effingham_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Eureka (ftUS)", \
+   "NAD_1983_(2011)_ICS_Eureka_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Freeport (ftUS)", \
+   "NAD_1983_(2011)_ICS_Freeport_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Galesburg (ftUS)", \
+   "NAD_1983_(2011)_ICS_Galesburg_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Jacksonville (ftUS)", \
+   "NAD_1983_(2011)_ICS_Jacksonville_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Jerseyville (ftUS)", \
+   "NAD_1983_(2011)_ICS_Jerseyville_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Joliet (ftUS)", \
+   "NAD_1983_(2011)_ICS_Joliet_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Lincoln (ftUS)", \
+   "NAD_1983_(2011)_ICS_Lincoln_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Macomb (ftUS)", \
+   "NAD_1983_(2011)_ICS_Macomb_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Metropolis (ftUS)", \
+   "NAD_1983_(2011)_ICS_Metropolis_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Moline (ftUS)", \
+   "NAD_1983_(2011)_ICS_Moline_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Monmouth (ftUS)", \
+   "NAD_1983_(2011)_ICS_Monmouth_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Mount Vernon (ftUS)", \
+   "NAD_1983_(2011)_ICS_Mount_Vernon_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Olney (ftUS)", \
+   "NAD_1983_(2011)_ICS_Olney_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Ottawa (ftUS)", \
+   "NAD_1983_(2011)_ICS_Ottawa_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Peoria (ftUS)", \
+   "NAD_1983_(2011)_ICS_Peoria_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Pontiac (ftUS)", \
+   "NAD_1983_(2011)_ICS_Pontiac_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Quincy (ftUS)", \
+   "NAD_1983_(2011)_ICS_Quincy_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Robinson (ftUS)", \
+   "NAD_1983_(2011)_ICS_Robinson_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Rockford (ftUS)", \
+   "NAD_1983_(2011)_ICS_Rockford_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Springfield (ftUS)", \
+   "NAD_1983_(2011)_ICS_Springfield_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Sterling (ftUS)", \
+   "NAD_1983_(2011)_ICS_Sterling_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Taylorville (ftUS)", \
+   "NAD_1983_(2011)_ICS_Taylorville_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Watseka (ftUS)", \
+   "NAD_1983_(2011)_ICS_Watseka_(US_Feet)", \
    FALSE, \
    "EPSG"
 
@@ -22813,16 +23103,6 @@
    "NAD_1983_CSRS_Prince_Edward_Island", \
    FALSE, \
    "Teradata"
-
-"NAD83(CSRS) / Quebec Albers", \
-   "NAD_1983_CSRS_Quebec_Albers", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(CSRS) / Quebec Lambert", \
-   "NAD_1983_CSRS_Quebec_Lambert", \
-   FALSE, \
-   "EPSG"
 
 "NAD83(CSRS) / SCoPQ zone 2", \
    "NAD_1983_CSRS_MTM_2_SCoPQ", \
@@ -39654,6 +39934,11 @@
    FALSE, \
    "Teradata"
 
+"Nord_Maroc_Degree", \
+   "Nord_Maroc", \
+   FALSE, \
+   ""
+
 "Nord Sahara 1959 / Nord Algerie", \
    "Nord_Sahara_1959_Voirol_Unifie_Nord", \
    FALSE, \
@@ -53059,6 +53344,11 @@
    FALSE, \
    "Teradata"
 
+"Sahara_Degree", \
+   "PE_PCS_MERCHICH_DEGREE_SAHARA", \
+   FALSE, \
+   ""
+
 "Sainte Anne / UTM zone 20N", \
    "Sainte_Anne_UTM_20N", \
    FALSE, \
@@ -53424,15 +53714,15 @@
    FALSE, \
    "SpatiaLite"
 
-"SIRGAS-Chile 2002 / UTM zone 18S", \
-   "SIRGAS-Chile_UTM_Zone_18S", \
-   FALSE, \
-   "EPSG"
+"SIRGAS-Chile_UTM_Zone_18S", \
+   "SIRGAS-Chile_2002_UTM_Zone_18S", \
+   TRUE, \
+   ""
 
-"SIRGAS-Chile 2002 / UTM zone 19S", \
-   "SIRGAS-Chile_UTM_Zone_19S", \
-   FALSE, \
-   "EPSG"
+"SIRGAS-Chile_UTM_Zone_19S", \
+   "SIRGAS-Chile_2002_UTM_Zone_19S", \
+   TRUE, \
+   ""
 
 "South Yemen / Gauss-Kruger zone 8", \
    "South_Yemen_GK_Zone_8", \
@@ -53698,6 +53988,11 @@
    "Sudan_UTM_Zone_36N", \
    FALSE, \
    "Teradata"
+
+"Sud_Maroc_Degree", \
+   "Sud_Maroc", \
+   FALSE, \
+   ""
 
 "Tahaa 54 / UTM zone 5S", \
    "Tahaa_1954_UTM_5S", \
@@ -54723,6 +55018,606 @@
    "WGS_1972_BE_TM_106_NE", \
    FALSE, \
    "Teradata"
+
+"WGS 72BE / UTM zone 10N", \
+   "WGS_1972_BE_UTM_Zone_10N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 10S", \
+   "WGS_1972_BE_UTM_Zone_10S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 11N", \
+   "WGS_1972_BE_UTM_Zone_11N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 11S", \
+   "WGS_1972_BE_UTM_Zone_11S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 12N", \
+   "WGS_1972_BE_UTM_Zone_12N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 12S", \
+   "WGS_1972_BE_UTM_Zone_12S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 13N", \
+   "WGS_1972_BE_UTM_Zone_13N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 13S", \
+   "WGS_1972_BE_UTM_Zone_13S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 14N", \
+   "WGS_1972_BE_UTM_Zone_14N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 14S", \
+   "WGS_1972_BE_UTM_Zone_14S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 15N", \
+   "WGS_1972_BE_UTM_Zone_15N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 15S", \
+   "WGS_1972_BE_UTM_Zone_15S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 16N", \
+   "WGS_1972_BE_UTM_Zone_16N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 16S", \
+   "WGS_1972_BE_UTM_Zone_16S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 17N", \
+   "WGS_1972_BE_UTM_Zone_17N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 17S", \
+   "WGS_1972_BE_UTM_Zone_17S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 18N", \
+   "WGS_1972_BE_UTM_Zone_18N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 18S", \
+   "WGS_1972_BE_UTM_Zone_18S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 19N", \
+   "WGS_1972_BE_UTM_Zone_19N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 19S", \
+   "WGS_1972_BE_UTM_Zone_19S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 1N", \
+   "WGS_1972_BE_UTM_Zone_1N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 1S", \
+   "WGS_1972_BE_UTM_Zone_1S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 20N", \
+   "WGS_1972_BE_UTM_Zone_20N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 20S", \
+   "WGS_1972_BE_UTM_Zone_20S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 21N", \
+   "WGS_1972_BE_UTM_Zone_21N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 21S", \
+   "WGS_1972_BE_UTM_Zone_21S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 22N", \
+   "WGS_1972_BE_UTM_Zone_22N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 22S", \
+   "WGS_1972_BE_UTM_Zone_22S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 23N", \
+   "WGS_1972_BE_UTM_Zone_23N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 23S", \
+   "WGS_1972_BE_UTM_Zone_23S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 24N", \
+   "WGS_1972_BE_UTM_Zone_24N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 24S", \
+   "WGS_1972_BE_UTM_Zone_24S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 25N", \
+   "WGS_1972_BE_UTM_Zone_25N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 25S", \
+   "WGS_1972_BE_UTM_Zone_25S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 26N", \
+   "WGS_1972_BE_UTM_Zone_26N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 26S", \
+   "WGS_1972_BE_UTM_Zone_26S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 27N", \
+   "WGS_1972_BE_UTM_Zone_27N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 27S", \
+   "WGS_1972_BE_UTM_Zone_27S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 28N", \
+   "WGS_1972_BE_UTM_Zone_28N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 28S", \
+   "WGS_1972_BE_UTM_Zone_28S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 29N", \
+   "WGS_1972_BE_UTM_Zone_29N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 29S", \
+   "WGS_1972_BE_UTM_Zone_29S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 2N", \
+   "WGS_1972_BE_UTM_Zone_2N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 2S", \
+   "WGS_1972_BE_UTM_Zone_2S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 30N", \
+   "WGS_1972_BE_UTM_Zone_30N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 30S", \
+   "WGS_1972_BE_UTM_Zone_30S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 31N", \
+   "WGS_1972_BE_UTM_Zone_31N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 31S", \
+   "WGS_1972_BE_UTM_Zone_31S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 32N", \
+   "WGS_1972_BE_UTM_Zone_32N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 32S", \
+   "WGS_1972_BE_UTM_Zone_32S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 33N", \
+   "WGS_1972_BE_UTM_Zone_33N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 33S", \
+   "WGS_1972_BE_UTM_Zone_33S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 34N", \
+   "WGS_1972_BE_UTM_Zone_34N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 34S", \
+   "WGS_1972_BE_UTM_Zone_34S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 35N", \
+   "WGS_1972_BE_UTM_Zone_35N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 35S", \
+   "WGS_1972_BE_UTM_Zone_35S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 36N", \
+   "WGS_1972_BE_UTM_Zone_36N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 36S", \
+   "WGS_1972_BE_UTM_Zone_36S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 37N", \
+   "WGS_1972_BE_UTM_Zone_37N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 37S", \
+   "WGS_1972_BE_UTM_Zone_37S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 38N", \
+   "WGS_1972_BE_UTM_Zone_38N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 38S", \
+   "WGS_1972_BE_UTM_Zone_38S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 39N", \
+   "WGS_1972_BE_UTM_Zone_39N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 39S", \
+   "WGS_1972_BE_UTM_Zone_39S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 3N", \
+   "WGS_1972_BE_UTM_Zone_3N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 3S", \
+   "WGS_1972_BE_UTM_Zone_3S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 40N", \
+   "WGS_1972_BE_UTM_Zone_40N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 40S", \
+   "WGS_1972_BE_UTM_Zone_40S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 41N", \
+   "WGS_1972_BE_UTM_Zone_41N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 41S", \
+   "WGS_1972_BE_UTM_Zone_41S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 42N", \
+   "WGS_1972_BE_UTM_Zone_42N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 42S", \
+   "WGS_1972_BE_UTM_Zone_42S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 43N", \
+   "WGS_1972_BE_UTM_Zone_43N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 43S", \
+   "WGS_1972_BE_UTM_Zone_43S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 44N", \
+   "WGS_1972_BE_UTM_Zone_44N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 44S", \
+   "WGS_1972_BE_UTM_Zone_44S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 45N", \
+   "WGS_1972_BE_UTM_Zone_45N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 45S", \
+   "WGS_1972_BE_UTM_Zone_45S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 46N", \
+   "WGS_1972_BE_UTM_Zone_46N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 46S", \
+   "WGS_1972_BE_UTM_Zone_46S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 47N", \
+   "WGS_1972_BE_UTM_Zone_47N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 47S", \
+   "WGS_1972_BE_UTM_Zone_47S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 48N", \
+   "WGS_1972_BE_UTM_Zone_48N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 48S", \
+   "WGS_1972_BE_UTM_Zone_48S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 49N", \
+   "WGS_1972_BE_UTM_Zone_49N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 49S", \
+   "WGS_1972_BE_UTM_Zone_49S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 4N", \
+   "WGS_1972_BE_UTM_Zone_4N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 4S", \
+   "WGS_1972_BE_UTM_Zone_4S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 50N", \
+   "WGS_1972_BE_UTM_Zone_50N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 50S", \
+   "WGS_1972_BE_UTM_Zone_50S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 51N", \
+   "WGS_1972_BE_UTM_Zone_51N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 51S", \
+   "WGS_1972_BE_UTM_Zone_51S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 52N", \
+   "WGS_1972_BE_UTM_Zone_52N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 52S", \
+   "WGS_1972_BE_UTM_Zone_52S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 53N", \
+   "WGS_1972_BE_UTM_Zone_53N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 53S", \
+   "WGS_1972_BE_UTM_Zone_53S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 54N", \
+   "WGS_1972_BE_UTM_Zone_54N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 54S", \
+   "WGS_1972_BE_UTM_Zone_54S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 55N", \
+   "WGS_1972_BE_UTM_Zone_55N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 55S", \
+   "WGS_1972_BE_UTM_Zone_55S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 56N", \
+   "WGS_1972_BE_UTM_Zone_56N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 56S", \
+   "WGS_1972_BE_UTM_Zone_56S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 57N", \
+   "WGS_1972_BE_UTM_Zone_57N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 57S", \
+   "WGS_1972_BE_UTM_Zone_57S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 58N", \
+   "WGS_1972_BE_UTM_Zone_58N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 58S", \
+   "WGS_1972_BE_UTM_Zone_58S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 59N", \
+   "WGS_1972_BE_UTM_Zone_59N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 59S", \
+   "WGS_1972_BE_UTM_Zone_59S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 5N", \
+   "WGS_1972_BE_UTM_Zone_5N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 5S", \
+   "WGS_1972_BE_UTM_Zone_5S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 60N", \
+   "WGS_1972_BE_UTM_Zone_60N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 60S", \
+   "WGS_1972_BE_UTM_Zone_60S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 6N", \
+   "WGS_1972_BE_UTM_Zone_6N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 6S", \
+   "WGS_1972_BE_UTM_Zone_6S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 7N", \
+   "WGS_1972_BE_UTM_Zone_7N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 7S", \
+   "WGS_1972_BE_UTM_Zone_7S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 8N", \
+   "WGS_1972_BE_UTM_Zone_8N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 8S", \
+   "WGS_1972_BE_UTM_Zone_8S", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 9N", \
+   "WGS_1972_BE_UTM_Zone_9N", \
+   FALSE, \
+   "EPSG"
+
+"WGS 72BE / UTM zone 9S", \
+   "WGS_1972_BE_UTM_Zone_9S", \
+   FALSE, \
+   "EPSG"
 
 "WGS 72 / UTM zone 10N", \
    "WGS_1972_UTM_Zone_10N", \

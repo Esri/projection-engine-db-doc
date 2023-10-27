@@ -68,13 +68,13 @@
   { "wkid": 9106,
     "latestWkid": 9106,
     "macro": "PE_U_GON",
-    "name": "Gon",
-    "wkt": "UNIT[\"Gon\",0.01570796326794897]",
-    "wkt2": "ANGLEUNIT[\"Gon\",0.01570796326794897]",
-    "description": "Gon (angle subtended by 1/400 circle)",
+    "name": "Grad",
+    "wkt": "UNIT[\"Grad\",0.01570796326794897]",
+    "wkt2": "ANGLEUNIT[\"Grad\",0.01570796326794897]",
+    "description": "Gon (angle subtended by 1/400 circle) (deprecated, use 9105)",
     "authority": "EPSG",
     "version": "3.0(3.0.1)",
-    "deprecated": "no"
+    "deprecated": "yes"
   },
   { "wkid": 9109,
     "latestWkid": 9109,

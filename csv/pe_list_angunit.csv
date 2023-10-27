@@ -5,7 +5,7 @@ wkid,latestWkid,macro,name,wkt,wkt2,description,authority,version,deprecated
 9103,9103,"PE_U_ARCMINUTE","Arcminute","UNIT[""Arcminute"",0.0002908882086657216]","ANGLEUNIT[""Arcminute"",0.0002908882086657216]","Arc-minute","EPSG","3.0(3.0.1)","no"
 9104,9104,"PE_U_ARCSECOND","Arcsecond","UNIT[""Arcsecond"",0.00000484813681109536]","ANGLEUNIT[""Arcsecond"",0.00000484813681109536]","Arc-second","EPSG","3.0(3.0.1)","no"
 9105,9105,"PE_U_GRAD","Grad","UNIT[""Grad"",0.01570796326794897]","ANGLEUNIT[""Grad"",0.01570796326794897]","Grad (angle subtended by 1/400 circle)","EPSG","3.0(3.0.1)","no"
-9106,9106,"PE_U_GON","Gon","UNIT[""Gon"",0.01570796326794897]","ANGLEUNIT[""Gon"",0.01570796326794897]","Gon (angle subtended by 1/400 circle)","EPSG","3.0(3.0.1)","no"
+9106,9106,"PE_U_GON","Grad","UNIT[""Grad"",0.01570796326794897]","ANGLEUNIT[""Grad"",0.01570796326794897]","Gon (angle subtended by 1/400 circle) (deprecated, use 9105)","EPSG","3.0(3.0.1)","yes"
 9109,9109,"PE_U_MICRORADIAN","Microradian","UNIT[""Microradian"",0.000001]","ANGLEUNIT[""Microradian"",0.000001]","Microradian ( 1e-6 radian )","EPSG","4.3(3.0.1)","no"
 9112,9112,"PE_U_MINUTE_CENTESIMAL","Minute_Centesimal","UNIT[""Minute_Centesimal"",0.0001570796326794897]","ANGLEUNIT[""Minute_Centesimal"",0.0001570796326794897]","Centesimal minute (1/100th Gon (Grad))","EPSG","4.4(8.0.1)","no"
 9113,9113,"PE_U_SECOND_CENTESIMAL","Second_Centesimal","UNIT[""Second_Centesimal"",0.000001570796326794897]","ANGLEUNIT[""Second_Centesimal"",0.000001570796326794897]","Centesimal second (1/10000th Gon (Grad))","EPSG","4.4(8.0.1)","no"

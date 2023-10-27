@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -74,9 +74,9 @@ Deprecated  : no
 WKID        : 1049
 Latest-WKID : 1049
 Macro       : PE_VERTD_INCHEON
-Name        : Incheon
-WKT         : VDATUM["Incheon"]
-WKT2        : VDATUM["Incheon"]
+Name        : Korean_Vertical_Datum_1964
+WKT         : VDATUM["Korean_Vertical_Datum_1964"]
+WKT2        : VDATUM["Korean_Vertical_Datum_1964"]
 Description : Incheon
 Authority   : EPSG
 Version     : 7.5.6(10.1.0)
@@ -1178,8 +1178,8 @@ Name        : Baltic_1986
 WKT         : VDATUM["Baltic_1986"]
 WKT2        : VDATUM["Baltic_1986"]
 Description : Baltic 1986
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.016(12.9.0)
 Deprecated  : no
 
 WKID        : 1297
@@ -1189,8 +1189,8 @@ Name        : European_Vertical_Reference_Frame_2007_Poland
 WKT         : VDATUM["European_Vertical_Reference_Frame_2007_Poland"]
 WKT2        : VDATUM["European_Vertical_Reference_Frame_2007_Poland"]
 Description : European Vertical Reference Frame 2007 Poland
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.016(12.9.0)
 Deprecated  : no
 
 WKID        : 1298
@@ -1266,8 +1266,8 @@ Name        : Catania_1965
 WKT         : VDATUM["Catania_1965"]
 WKT2        : VDATUM["Catania_1965"]
 Description : Catania 1965
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.021(12.9.0)
 Deprecated  : no
 
 WKID        : 1307
@@ -1277,8 +1277,8 @@ Name        : Cagliari_1956
 WKT         : VDATUM["Cagliari_1956"]
 WKT2        : VDATUM["Cagliari_1956"]
 Description : Cagliari 1956
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.021(12.9.0)
 Deprecated  : no
 
 WKID        : 1316
@@ -1288,8 +1288,8 @@ Name        : GNTRANS
 WKT         : VDATUM["GNTRANS"]
 WKT2        : VDATUM["GNTRANS"]
 Description : GNTRANS
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.042(13.1.0)
 Deprecated  : no
 
 WKID        : 1318
@@ -1299,8 +1299,8 @@ Name        : GNTRANS2016
 WKT         : VDATUM["GNTRANS2016"]
 WKT2        : VDATUM["GNTRANS2016"]
 Description : GNTRANS2016
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.042(13.1.0)
 Deprecated  : no
 
 WKID        : 1323
@@ -1310,8 +1310,8 @@ Name        : Svalbard_vertical_datum_2006
 WKT         : VDATUM["Svalbard_vertical_datum_2006"]
 WKT2        : VDATUM["Svalbard_vertical_datum_2006"]
 Description : Svalbard vertical datum 2006
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.063(13.1.0)
 Deprecated  : no
 
 WKID        : 1325
@@ -1321,8 +1321,8 @@ Name        : Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002
 WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002"]
 WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002"]
 Description : Canadian Geodetic Vertical Datum of 2013 (CGG2013a) epoch 2002
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.066(13.1.0)
 Deprecated  : no
 
 WKID        : 1326
@@ -1332,8 +1332,8 @@ Name        : Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997
 WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997"]
 WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997"]
 Description : Canadian Geodetic Vertical Datum of 2013 (CGG2013a) epoch 1997
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.066(13.1.0)
 Deprecated  : no
 
 WKID        : 1328
@@ -1343,8 +1343,85 @@ Name        : Indonesian_Geoid_2020_version_2
 WKT         : VDATUM["Indonesian_Geoid_2020_version_2"]
 WKT2        : VDATUM["Indonesian_Geoid_2020_version_2"]
 Description : Indonesian Geoid 2020 version 2
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.073(13.1.0)
+Deprecated  : no
+
+WKID        : 1330
+Latest-WKID : 1330
+Macro       : PE_VERTD_MEAN_SEA_LEVEL_UK_IRELAND_VORF08
+Name        : Mean_Sea_Level_UK_Ireland_VORF08
+WKT         : VDATUM["Mean_Sea_Level_UK_Ireland_VORF08"]
+WKT2        : VDATUM["Mean_Sea_Level_UK_Ireland_VORF08"]
+Description : Mean Sea Level UK and Ireland VORF08
+Authority   : EPSG
+Version     : 10.077(13.2.0)
+Deprecated  : no
+
+WKID        : 1331
+Latest-WKID : 1331
+Macro       : PE_VERTD_CHART_DATUM_UK_IRELAND_VORF08
+Name        : Chart_Datum_UK_Ireland_VORF08
+WKT         : VDATUM["Chart_Datum_UK_Ireland_VORF08"]
+WKT2        : VDATUM["Chart_Datum_UK_Ireland_VORF08"]
+Description : Chart Datum UK and Ireland VORF08
+Authority   : EPSG
+Version     : 10.077(13.2.0)
+Deprecated  : no
+
+WKID        : 1354
+Latest-WKID : 1354
+Macro       : PE_VERTD_NIVELLEMENT_GENERAL_DE_L_ALGERIE_2022
+Name        : Nivellement_General_de_l_Algerie_2022
+WKT         : VDATUM["Nivellement_General_de_l_Algerie_2022"]
+WKT2        : VDATUM["Nivellement_General_de_l_Algerie_2022"]
+Description : Nivellement General de l'Algerie 2022
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+
+WKID        : 1361
+Latest-WKID : 1361
+Macro       : PE_VERTD_CHART_DATUM_PORTUGAL
+Name        : Chart_Datum_Portugal
+WKT         : VDATUM["Chart_Datum_Portugal"]
+WKT2        : VDATUM["Chart_Datum_Portugal"]
+Description : Chart Datum Portugal
+Authority   : EPSG
+Version     : 10.094(13.2.0)
+Deprecated  : no
+
+WKID        : 1362
+Latest-WKID : 1362
+Macro       : PE_VERTD_FORMENTERA
+Name        : Formentera
+WKT         : VDATUM["Formentera"]
+WKT2        : VDATUM["Formentera"]
+Description : Formentera
+Authority   : EPSG
+Version     : 10.091(13.2.0)
+Deprecated  : no
+
+WKID        : 1363
+Latest-WKID : 1363
+Macro       : PE_VERTD_ALBORAN
+Name        : Alboran
+WKT         : VDATUM["Alboran"]
+WKT2        : VDATUM["Alboran"]
+Description : Alboran
+Authority   : EPSG
+Version     : 10.091(13.2.0)
+Deprecated  : no
+
+WKID        : 1364
+Latest-WKID : 1364
+Macro       : PE_VERTD_MELILLA
+Name        : Melilla
+WKT         : VDATUM["Melilla"]
+WKT2        : VDATUM["Melilla"]
+Description : Melilla
+Authority   : EPSG
+Version     : 10.091(13.2.0)
 Deprecated  : no
 
 WKID        : 5100
@@ -1586,7 +1663,7 @@ WKT         : VDATUM["PDO_Height_Datum_1993"]
 WKT2        : VDATUM["PDO_Height_Datum_1993"]
 Description : PDO Height Datum 1993
 Authority   : EPSG
-Version     : 4.3(9.3.0.0)
+Version     : 10.078(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5124
@@ -2125,7 +2202,7 @@ WKT         : VDATUM["Nivellement_General_du_Luxembourg"]
 WKT2        : VDATUM["Nivellement_General_du_Luxembourg"]
 Description : Nivellement General du Luxembourg
 Authority   : EPSG
-Version     : 6.5.1(9.3.0.0)
+Version     : 10.043(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5173
@@ -2334,7 +2411,7 @@ WKT         : VDATUM["Mayotte_1950"]
 WKT2        : VDATUM["Mayotte_1950"]
 Description : Mayotte 1950
 Authority   : EPSG
-Version     : 6.6(9.3.0.0)
+Version     : 10.042(9.3.0.0)
 Deprecated  : no
 
 WKID        : 5192

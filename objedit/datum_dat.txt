@@ -99,6 +99,11 @@ PE_D_RRAF_1991, \
    PE_S_GRS_1980,
    ""
 
+PE_D_TOKYO_1892, \
+   "Tokyo_1892", \
+   PE_S_BESSEL_1841,
+   ""
+
 PE_D_S_JTSK_05, \
    "D_S_JTSK_05", \
    PE_S_BESSEL_1841,
@@ -141,11 +146,16 @@ PE_D_ITRF_2008, \
 
 PE_D_POSGAR_2007, \
    "D_POSGAR_2007", \
-   PE_S_GRS_1980,
+   PE_S_WGS_1984,
    ""
 
 PE_D_MARCO_GEODESICO_NACIONAL, \
    "D_Marco_Geodesico_Nacional", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SIRGAS_CHILE, \
+   "SIRGAS-Chile_realization_1_epoch_2002", \
    PE_S_GRS_1980,
    ""
 
@@ -416,7 +426,7 @@ PE_D_ST_HELENA_GEODETIC_DATUM_2015, \
 
 PE_D_ETRF_1989, \
    "D_ETRF_1989", \
-   PE_S_WGS_1984,
+   PE_S_GRS_1980,
    ""
 
 PE_D_ETRF_1990, \
@@ -719,11 +729,6 @@ PE_D_SIRGAS_CHILE_REAL_4_2016, \
    PE_S_GRS_1980,
    ""
 
-PE_D_SIRGAS_CHILE, \
-   "D_SIRGAS-Chile", \
-   PE_S_GRS_1980,
-   ""
-
 PE_D_TAPI_AIKE, \
    "Tapi_Aike", \
    PE_S_INTERNATIONAL_1924,
@@ -881,6 +886,161 @@ PE_D_MWC18_INTERMEDIATE_REFERENCE_FRAME, \
 
 PE_D_SIRGAS_CHILE_REALIZATION_5_EPOCH_2021, \
    "SIRGAS-Chile_realization_5_epoch_2021", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_MARCO_GEOCENTRICO_NACIONAL_DE_REFERENCIA_2018, \
+   "Marco_Geocentrico_Nacional_de_Referencia_2018", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SYSTEM_34_JYLLAND_INTERMEDIATE_DATUM, \
+   "System_34_Jylland_Intermediate_Datum", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_IGS20, \
+   "IGS20", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_DOPW22_INTERMEDIATE_REFERENCE_FRAME, \
+   "DoPw22_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SHAB07_INTERMEDIATE_REFERENCE_FRAME, \
+   "ShAb07_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_CNH22_INTERMEDIATE_REFERENCE_FRAME, \
+   "CNH22_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SYSTEM_34_SJAELLAND_INTERMEDIATE_DATUM, \
+   "System_34_Sjaelland_Intermediate_Datum", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_CWS13_INTERMEDIATE_REFERENCE_FRAME, \
+   "CWS13_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_DIBA15_INTERMEDIATE_REFERENCE_FRAME, \
+   "DIBA15_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_GWPBS22_INTERMEDIATE_REFERENCE_FRAME, \
+   "GWPBS22_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_GWWAB22_INTERMEDIATE_REFERENCE_FRAME, \
+   "GWWAB22_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_GWWWA22_INTERMEDIATE_REFERENCE_FRAME, \
+   "GWWWA22_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_MALS09_INTERMEDIATE_REFERENCE_FRAME, \
+   "MALS09_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_OXWO08_INTERMEDIATE_REFERENCE_FRAME, \
+   "OxWo08_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SYC20_INTERMEDIATE_REFERENCE_FRAME, \
+   "SYC20_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SYSTEM_45_BORNHOLM_INTERMEDIATE_DATUM, \
+   "System_45_Bornholm_Intermediate_Datum", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_GENERALSTABENS_SYSTEM_INTERMEDIATE_DATUM, \
+   "Generalstabens_System_Intermediate_Datum", \
+   PE_S_DANISH_1876,
+   ""
+
+PE_D_GENERALSTABENS_SYSTEM_BORNHOLM_INTERMEDIATE_DATUM, \
+   "Generalstabens_System_Bornholm_Intermediate_Datum", \
+   PE_S_DANISH_1876,
+   ""
+
+PE_D_COPENHAGEN_COMMUNE_INTERMEDIATE_DATUM, \
+   "Copenhagen_Commune_Intermediate_Datum", \
+   PE_S_DANISH_1876,
+   ""
+
+PE_D_OSTENFELD_INTERMEDIATE_DATUM, \
+   "Ostenfeld_Intermediate_Datum", \
+   PE_S_BESSEL_1841,
+   ""
+
+PE_D_SMITB20_INTERMEDIATE_REFERENCE_FRAME, \
+   "SMITB20_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_RBEPP12_INTERMEDIATE_REFERENCE_FRAME, \
+   "RBEPP12_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_ETRS89_DREF91_REALIZATION_2016, \
+   "ETRS89_DREF91_Realization_2016", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SONATRACH_REFERENCE_FRAME_2020, \
+   "Sonatrach_Reference_Frame_2020", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_LATVIAN_COORDINATE_SYSTEM_2020, \
+   "Latvian_coordinate_system_2020", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_RESEAU_GEODESIQUE_DE_NOUVELLE_CALEDONIE_2015, \
+   "Reseau_Geodesique_de_Nouvelle_Caledonie_2015", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_BH_ETRS89, \
+   "BH_ETRS89", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_HUGHES_1980, \
+   "D_Hughes_1980", \
+   PE_S_HUGHES_1980,
+   ""
+
+PE_D_NSIDC_INTL_1924_AUTHALIC_SPHERE, \
+   "NSIDC_International_1924_Authalic_Sphere", \
+   PE_S_SPHERE_INTL_1924_AUTHALIC,
+   ""
+
+PE_D_NORTH_AMERICAN_DATUM_OF_1983_CSRS_V8, \
+   "North_American_Datum_of_1983_(CSRS)_version_8", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_COV23_INTERMEDIATE_REFERENCE_FRAME, \
+   "COV23_Intermediate_Reference_Frame", \
    PE_S_GRS_1980,
    ""
 
@@ -1077,11 +1237,6 @@ PE_D_SPHERE_CLARKE_1866_AUTHALIC, \
 PE_D_SPHERE_INTL_1924_AUTHALIC, \
    "D_Sphere_International_1924_Authalic", \
    PE_S_SPHERE_INTL_1924_AUTHALIC,
-   ""
-
-PE_D_HUGHES_1980, \
-   "D_Hughes_1980", \
-   PE_S_HUGHES_1980,
    ""
 
 PE_D_SPHERE_WGS_1984_MAJOR_AUXILIARY, \
@@ -2401,7 +2556,7 @@ PE_D_EUROPEAN_1979, \
 
 PE_D_IGM_1995, \
    "D_IGM_1995", \
-   PE_S_WGS_1984,
+   PE_S_GRS_1980,
    ""
 
 PE_D_VOIROL_1879, \
@@ -2511,7 +2666,7 @@ PE_D_NAKHL_E_GHANEM, \
 
 PE_D_POSGAR_1994, \
    "D_POSGAR_1994", \
-   PE_S_GRS_1980,
+   PE_S_WGS_1984,
    ""
 
 PE_D_KATANGA_1955, \
@@ -2725,7 +2880,7 @@ PE_D_DECEPTION_ISLAND, \
    ""
 
 PE_D_KOREA_2000, \
-   "D_Korea_2000", \
+   "D_Korea_Geodetic_Datum_2002", \
    PE_S_GRS_1980,
    ""
 
@@ -2841,7 +2996,7 @@ PE_D_NAD_1983_NSRS2007, \
 
 PE_D_WGS_1966, \
    "D_WGS_1966", \
-   PE_S_WGS_1966,
+   PE_S_NWL_9D,
    ""
 
 PE_D_CROATIAN_TERRESTRIAL_REFERENCE_SYSTEM, \
@@ -2869,6 +3024,96 @@ PE_D_SLOVENIA_GEODETIC_DATUM_1996, \
    PE_S_GRS_1980,
    ""
 
+PE_D_CH1903_BERN, \
+   "CH1903_(Bern)", \
+   PE_S_BESSEL_1841,
+   ""
+
+PE_D_BOGOTA_1975_BOGOTA, \
+   "Bogota_1975_(Bogota)", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_LISBON_1937_LISBON, \
+   "Lisbon_1937_(Lisbon)", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_MAKASSAR_JAKARTA, \
+   "Makassar_(Jakarta)", \
+   PE_S_BESSEL_1841,
+   ""
+
+PE_D_MILITAR_GEOGRAPHISCHE_INSTITUT_FERRO, \
+   "Militar-Geographische_Institut_(Ferro)", \
+   PE_S_BESSEL_1841,
+   ""
+
+PE_D_MONTE_MARIO_ROME, \
+   "Monte_Mario_(Rome)", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_NOUVELLE_TRIANGULATION_FRANCAISE_PARIS, \
+   "Nouvelle_Triangulation_Francaise_(Paris)", \
+   PE_S_CLARKE_1880_IGN,
+   ""
+
+PE_D_RESEAU_NATIONAL_BELGE_1950_BRUSSELS, \
+   "Reseau_National_Belge_1950_(Brussels)", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_TANANARIVE_1925_PARIS, \
+   "Tananarive_1925_(Paris)", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_VOIROL_1875_PARIS, \
+   "Voirol_1875_(Paris)", \
+   PE_S_CLARKE_1880_IGN,
+   ""
+
+PE_D_BATAVIA_JAKARTA, \
+   "Batavia_(Jakarta)", \
+   PE_S_BESSEL_1841,
+   ""
+
+PE_D_STOCKHOLM_1938_STOCKHOLM, \
+   "Stockholm_1938_(Stockholm)", \
+   PE_S_BESSEL_1841,
+   ""
+
+PE_D_GREEK_ATHENS, \
+   "Greek_(Athens)", \
+   PE_S_BESSEL_1841,
+   ""
+
+PE_D_CARTHAGE_PARIS, \
+   "Carthage_(Paris)", \
+   PE_S_CLARKE_1880_IGN,
+   ""
+
+PE_D_NGO_1948_OSLO, \
+   "NGO_1948_(Oslo)", \
+   PE_S_BESSEL_MOD,
+   ""
+
+PE_D_SYSTEM_OF_THE_UNIFIED_TRIGONOMETRICAL_CADASTRAL_NETWORK_FERRO, \
+   "System_of_the_Unified_Trigonometrical_Cadastral_Network_(Ferro)", \
+   PE_S_BESSEL_1841,
+   ""
+
+PE_D_GUNUNG_SEGARA_JAKARTA, \
+   "Gunung_Segara_(Jakarta)", \
+   PE_S_BESSEL_1841,
+   ""
+
+PE_D_VOIROL_1879_PARIS, \
+   "Voirol_1879_(Paris)", \
+   PE_S_CLARKE_1880_IGN,
+   ""
+
 PE_D_ITRF_2005, \
    "D_ITRF_2005", \
    PE_S_GRS_1980,
@@ -2887,6 +3132,11 @@ PE_D_NDG, \
 PE_D_MADRID_1870, \
    "D_Madrid_1870", \
    PE_S_STRUVE_1860,
+   ""
+
+PE_D_LISBON_1890_LISBON, \
+   "Lisbon_1890_(Lisbon)", \
+   PE_S_BESSEL_1841,
    ""
 
 PE_D_FISCHER_1960, \

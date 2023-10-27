@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2022 Esri Inc.                                            #
+#  Copyright 1999-2023 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -550,12 +550,12 @@ Macro       : PE_XYZ_WGS_1966
 Name        : WGS_1966
 WKT         : GXYZCS["WGS_1966",
                DATUM["D_WGS_1966",
-                SPHEROID["WGS_1966", 6378145.0, 298.25]],
+                SPHEROID["NWL_9D", 6378145.0, 298.25]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["WGS_1966",
                DATUM["D_WGS_1966",
-                ELLIPSOID["WGS_1966", 6378145.0, 298.25,
+                ELLIPSOID["NWL_9D", 6378145.0, 298.25,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -767,7 +767,7 @@ WKT2        : GEODCRS["RGNC_1991-93",
                LENGTHUNIT["Meter", 1.0]]
 Description : RGNC91-93
 Authority   : EPSG
-Version     : 6.11
+Version     : 10.085
 Deprecated  : no
 Area-name   : New Caledonia
 Area-slat   : -26.45
@@ -1240,14 +1240,14 @@ Area-rlon   : -4.8
 WKID        : 4926
 Latest-WKID : 4926
 Macro       : PE_XYZ_KOREA_2000
-Name        : Korea_2000
-WKT         : GXYZCS["Korea_2000",
-               DATUM["D_Korea_2000",
+Name        : KGD2002
+WKT         : GXYZCS["KGD2002",
+               DATUM["D_Korea_Geodetic_Datum_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["Korea_2000",
-               DATUM["D_Korea_2000",
+WKT2        : GEODCRS["KGD2002",
+               DATUM["D_Korea_Geodetic_Datum_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
@@ -1260,9 +1260,9 @@ WKT2        : GEODCRS["Korea_2000",
                AXIS["Geocentric Z (Z)", geocentricZ,
                 ORDER[3]],
                LENGTHUNIT["Meter", 1.0]]
-Description : Korea 2000
+Description : KGD2002
 Authority   : EPSG
-Version     : 6.9
+Version     : 10.092
 Deprecated  : no
 Area-name   : Korea, Republic of (South Korea)
 Area-slat   : 28.6
@@ -1276,12 +1276,12 @@ Macro       : PE_XYZ_POSGAR_1994
 Name        : POSGAR_1994
 WKT         : GXYZCS["POSGAR_1994",
                DATUM["D_POSGAR_1994",
-                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["POSGAR_1994",
                DATUM["D_POSGAR_1994",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -1625,7 +1625,7 @@ WKT2        : GEODCRS["LKS_1992",
                LENGTHUNIT["Meter", 1.0]]
 Description : LKS92
 Authority   : EPSG
-Version     : 6.5
+Version     : 10.083
 Deprecated  : no
 Area-name   : Latvia
 Area-slat   : 55.67
@@ -1889,7 +1889,7 @@ WKT2        : GEODCRS["RGF_1993",
                LENGTHUNIT["Meter", 1.0]]
 Description : RGF93
 Authority   : EPSG
-Version     : 6.5
+Version     : 10.034
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -2101,12 +2101,12 @@ Macro       : PE_XYZ_IGM_1995
 Name        : IGM_1995
 WKT         : GXYZCS["IGM_1995",
                DATUM["D_IGM_1995",
-                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["IGM_1995",
                DATUM["D_IGM_1995",
-                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -2596,12 +2596,12 @@ Macro       : PE_XYZ_POSGAR_2007
 Name        : POSGAR_2007
 WKT         : GXYZCS["POSGAR_2007",
                DATUM["D_POSGAR_2007",
-                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["POSGAR_2007",
                DATUM["D_POSGAR_2007",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -2661,12 +2661,12 @@ Latest-WKID : 5358
 Macro       : PE_XYZ_SIRGAS_CHILE_2002
 Name        : SIRGAS-Chile_2002
 WKT         : GXYZCS["SIRGAS-Chile_2002",
-               DATUM["D_SIRGAS-Chile",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["SIRGAS-Chile_2002",
-               DATUM["D_SIRGAS-Chile",
+               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
@@ -3904,7 +3904,7 @@ Description : ITRF2014
 Authority   : EPSG
 Version     : 8.9.1
 Deprecated  : no
-Area-name   : World (by country)
+Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -4081,12 +4081,12 @@ Macro       : PE_XYZ_ETRF_1989
 Name        : ETRF_1989
 WKT         : GXYZCS["ETRF_1989",
                DATUM["D_ETRF_1989",
-                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["ETRF_1989",
                DATUM["D_ETRF_1989",
-                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
@@ -6082,7 +6082,7 @@ Description : IGb14
 Authority   : EPSG
 Version     : 9.8.12
 Deprecated  : no
-Area-name   : World (by country)
+Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -6211,8 +6211,8 @@ WKT2        : GEODCRS["ETRF2000-PL",
                 ORDER[3]],
                LENGTHUNIT["Meter", 1.0]]
 Description : ETRF2000-PL
-Authority   : Esri
-Version     : 12.9.0
+Authority   : EPSG
+Version     : 10.016(12.9.0)
 Deprecated  : no
 Area-name   : Poland
 Area-slat   : 49.0
@@ -6222,14 +6222,14 @@ Area-rlon   : 24.15
 
 WKID        : 9753
 Latest-WKID : 9753
-Macro       : PE_XYZ_WGS_84_G2139
-Name        : WGS_84_(G2139)
-WKT         : GXYZCS["WGS_84_(G2139)",
+Macro       : PE_XYZ_WGS_1984_G2139
+Name        : WGS_1984_(G2139)
+WKT         : GXYZCS["WGS_1984_(G2139)",
                DATUM["WGS_1984_(G2139)",
                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["WGS_84_(G2139)",
+WKT2        : GEODCRS["WGS_1984_(G2139)",
                DATUM["WGS_1984_(G2139)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -6243,9 +6243,9 @@ WKT2        : GEODCRS["WGS_84_(G2139)",
                AXIS["Geocentric Z (Z)", geocentricZ,
                 ORDER[3]],
                LENGTHUNIT["Meter", 1.0]]
-Description : WGS 84 (G2139)
-Authority   : Esri
-Version     : 13.1.0
+Description : WGS 1984 (G2139)
+Authority   : EPSG
+Version     : 10.036(13.1.0)
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0
@@ -6277,8 +6277,8 @@ WKT2        : GEODCRS["RGF93_v2",
                 ORDER[3]],
                LENGTHUNIT["Meter", 1.0]]
 Description : RGF93 v2
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -6310,8 +6310,8 @@ WKT2        : GEODCRS["RGF93_v2b",
                 ORDER[3]],
                LENGTHUNIT["Meter", 1.0]]
 Description : RGF93 v2b
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.034(13.1.0)
 Deprecated  : no
 Area-name   : France
 Area-slat   : 41.15
@@ -6343,8 +6343,8 @@ WKT2        : GEODCRS["LUREF",
                 ORDER[3]],
                LENGTHUNIT["Meter", 1.0]]
 Description : LUREF
-Authority   : Esri
-Version     : 13.0.0
+Authority   : EPSG
+Version     : 10.043(13.0.0)
 Deprecated  : no
 Area-name   : Luxembourg
 Area-slat   : 49.44
@@ -6376,14 +6376,245 @@ WKT2        : GEODCRS["ITRF2020",
                 ORDER[3]],
                LENGTHUNIT["Meter", 1.0]]
 Description : ITRF2020
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.062(13.1.0)
 Deprecated  : no
-Area-name   : World (by country)
+Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+
+WKID        : 10176
+Latest-WKID : 10176
+Macro       : PE_XYZ_IGS20
+Name        : IGS20
+WKT         : GXYZCS["IGS20",
+               DATUM["IGS20",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["IGS20",
+               DATUM["IGS20",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : IGS20
+Authority   : EPSG
+Version     : 10.078(13.2.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 10282
+Latest-WKID : 10282
+Macro       : PE_XYZ_ETRS89_DREF91_2016
+Name        : ETRS89_DREF91_2016
+WKT         : GXYZCS["ETRS89_DREF91_2016",
+               DATUM["ETRS89_DREF91_Realization_2016",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89_DREF91_2016",
+               DATUM["ETRS89_DREF91_Realization_2016",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : ETRS89 DREF91 2016
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+Area-name   : Germany
+Area-slat   : 47.27
+Area-nlat   : 55.92
+Area-llon   : 3.34
+Area-rlon   : 15.04
+
+WKID        : 10297
+Latest-WKID : 10297
+Macro       : PE_XYZ_RGSH2020
+Name        : RGSH2020
+WKT         : GXYZCS["RGSH2020",
+               DATUM["Sonatrach_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["RGSH2020",
+               DATUM["Sonatrach_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : RGSH2020
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+Area-name   : Algeria
+Area-slat   : 18.97
+Area-nlat   : 38.8
+Area-llon   : -8.67
+Area-rlon   : 11.99
+
+WKID        : 10303
+Latest-WKID : 10303
+Macro       : PE_XYZ_LKS_2020
+Name        : LKS-2020
+WKT         : GXYZCS["LKS-2020",
+               DATUM["Latvian_coordinate_system_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["LKS-2020",
+               DATUM["Latvian_coordinate_system_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : LKS-2020
+Authority   : EPSG
+Version     : 10.083(13.2.0)
+Deprecated  : no
+Area-name   : Latvia
+Area-slat   : 55.67
+Area-nlat   : 58.09
+Area-llon   : 19.06
+Area-rlon   : 28.24
+
+WKID        : 10308
+Latest-WKID : 10308
+Macro       : PE_XYZ_RGNC15
+Name        : RGNC15
+WKT         : GXYZCS["RGNC15",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["RGNC15",
+               DATUM["Reseau_Geodesique_de_Nouvelle_Caledonie_2015",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : RGNC15
+Authority   : EPSG
+Version     : 10.085(13.2.0)
+Deprecated  : no
+Area-name   : New Caledonia
+Area-slat   : -26.45
+Area-nlat   : -14.83
+Area-llon   : 156.25
+Area-rlon   : 174.28
+
+WKID        : 10326
+Latest-WKID : 10326
+Macro       : PE_XYZ_BH_ETRS89
+Name        : BH_ETRS89
+WKT         : GXYZCS["BH_ETRS89",
+               DATUM["BH_ETRS89",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["BH_ETRS89",
+               DATUM["BH_ETRS89",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : BH_ETRS89
+Authority   : EPSG
+Version     : 10.087(13.2.0)
+Deprecated  : no
+Area-name   : Bosnia and Herzegovina
+Area-slat   : 42.56
+Area-nlat   : 45.27
+Area-llon   : 15.74
+Area-rlon   : 19.62
+
+WKID        : 10412
+Latest-WKID : 10412
+Macro       : PE_XYZ_NAD_1983_CSRS_V8
+Name        : NAD83(CSRS)v8
+WKT         : GXYZCS["NAD83(CSRS)v8",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["NAD83(CSRS)v8",
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : NAD83(CSRS)v8
+Authority   : EPSG
+Version     : 10.092(13.2.0)
+Deprecated  : no
+Area-name   : Canada
+Area-slat   : 38.21
+Area-nlat   : 86.46
+Area-llon   : -141.01
+Area-rlon   : -40.73
 
 WKID        : 20039
 Latest-WKID : 20039
@@ -6409,11 +6640,44 @@ WKT2        : GEODCRS["SIRGAS-Chile_2021",
                 ORDER[3]],
                LENGTHUNIT["Meter", 1.0]]
 Description : SIRGAS-Chile 2021
-Authority   : Esri
-Version     : 13.1.0
+Authority   : EPSG
+Version     : 10.073(13.1.0)
 Deprecated  : no
 Area-name   : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
 Area-rlon   : -65.72
+
+WKID        : 20044
+Latest-WKID : 20044
+Macro       : PE_XYZ_MAGNA_SIRGAS_2018
+Name        : MAGNA-SIRGAS_2018
+WKT         : GXYZCS["MAGNA-SIRGAS_2018",
+               DATUM["Marco_Geocentrico_Nacional_de_Referencia_2018",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["MAGNA-SIRGAS_2018",
+               DATUM["Marco_Geocentrico_Nacional_de_Referencia_2018",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : MAGNA-SIRGAS 2018
+Authority   : EPSG
+Version     : 10.082(13.2.0)
+Deprecated  : no
+Area-name   : Colombia
+Area-slat   : -4.23
+Area-nlat   : 15.51
+Area-llon   : -84.77
+Area-rlon   : -66.87
