@@ -454,7 +454,7 @@
     "macro": "PE_VCS_RH2000",
     "name": "RH2000",
     "wkt": "VERTCS[\"RH2000\",VDATUM[\"Rikets_Hojdsystem_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"RH2000\",VDATUM[\"Rikets_Hojdsystem_2000\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt2": "VERTCRS[\"RH2000\",DYNAMIC[FRAMEEPOCH[2000.0],MODEL[\"Levelling-based\"]],VDATUM[\"Rikets_Hojdsystem_2000\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "RH2000 -- Rikets Hojdsystem 2000",
     "authority": "EPSG",
     "version": "7.5.8(10.0.0)",
@@ -465,7 +465,9 @@
       "nlat": 69.07,
       "llon": 10.93,
       "rlon": 24.17
-    }
+    },
+    "frameEpoch": 2000.0,
+    "deformationModel": "Levelling-based"
   },
   { "wkid": 5614,
     "latestWkid": 5614,
@@ -2055,8 +2057,8 @@
     "latestWkid": 5783,
     "macro": "PE_VCS_DHHN92",
     "name": "DHHN92",
-    "wkt": "VERTCS[\"DHHN92\",VDATUM[\"Deutches_Haupthoehennetz_1992\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"DHHN92\",VDATUM[\"Deutches_Haupthoehennetz_1992\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt": "VERTCS[\"DHHN92\",VDATUM[\"Deutsches_Haupthoehennetz_1992\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"DHHN92\",VDATUM[\"Deutsches_Haupthoehennetz_1992\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "DHHN92 -- Deutches Haupthohennetz 1992",
     "authority": "EPSG",
     "version": "6.7(9.3.0.0)",
@@ -2073,8 +2075,8 @@
     "latestWkid": 5784,
     "macro": "PE_VCS_DHHN85",
     "name": "DHHN85",
-    "wkt": "VERTCS[\"DHHN85\",VDATUM[\"Deutches_Haupthoehennetz_1985\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"DHHN85\",VDATUM[\"Deutches_Haupthoehennetz_1985\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt": "VERTCS[\"DHHN85\",VDATUM[\"Deutsches_Haupthoehennetz_1985\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"DHHN85\",VDATUM[\"Deutsches_Haupthoehennetz_1985\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "DHHN85 -- Deutches Haupthohennetz 1985",
     "authority": "EPSG",
     "version": "6.7(9.3.0.0)",
@@ -2668,7 +2670,7 @@
     "macro": "PE_VCS_NN2000_HT",
     "name": "NN2000_height",
     "wkt": "VERTCS[\"NN2000_height\",VDATUM[\"Norway_Normal_Null_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"NN2000_height\",VDATUM[\"Norway_Normal_Null_2000\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt2": "VERTCRS[\"NN2000_height\",DYNAMIC[FRAMEEPOCH[2000.0],MODEL[\"Levelling-based\"]],VDATUM[\"Norway_Normal_Null_2000\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "NN2000 (height)",
     "authority": "EPSG",
     "version": "8.1.1(10.2.0)",
@@ -2679,7 +2681,9 @@
       "nlat": 71.24,
       "llon": 4.39,
       "rlon": 31.32
-    }
+    },
+    "frameEpoch": 2000.0,
+    "deformationModel": "Levelling-based"
   },
   { "wkid": 6130,
     "latestWkid": 6130,
@@ -4733,6 +4737,24 @@
       "rlon": 141.46
     }
   },
+  { "wkid": 105602,
+    "latestWkid": 105602,
+    "macro": "PE_VCS_BBT2000",
+    "name": "BBT2000",
+    "wkt": "VERTCS[\"BBT2000\",DATUM[\"Brenner_Base_Tunnel_2000\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"BBT2000\",DATUM[\"Brenner_Base_Tunnel_2000\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],CS[vertical,1],AXIS[\"Ellipsoidal height (h)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "BBT2000",
+    "authority": "Esri",
+    "version": "13.3.0",
+    "deprecated": "no",
+    "areaname": "Europe - Brenner",
+    "extent":
+    { "slat": 46.45,
+      "nlat": 47.33,
+      "llon": 11.04,
+      "rlon": 11.91
+    }
+  },
   { "wkid": 105603,
     "latestWkid": 105603,
     "macro": "PE_VCS_REDNAP",
@@ -4792,7 +4814,7 @@
     "macro": "PE_VCS_RH2000",
     "name": "RH2000",
     "wkt": "VERTCS[\"RH2000\",VDATUM[\"Rikets_Hojdsystem_2000\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "VERTCRS[\"RH2000\",VDATUM[\"Rikets_Hojdsystem_2000\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt2": "VERTCRS[\"RH2000\",DYNAMIC[FRAMEEPOCH[2000.0],MODEL[\"Levelling-based\"]],VDATUM[\"Rikets_Hojdsystem_2000\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "RH2000 -- Rikets Hojdsystem 2000",
     "authority": "Esri",
     "version": "9.3.0.0",
@@ -4803,7 +4825,9 @@
       "nlat": 69.07,
       "llon": 10.93,
       "rlon": 24.17
-    }
+    },
+    "frameEpoch": 2000.0,
+    "deformationModel": "Levelling-based"
   },
   { "wkid": 105703,
     "latestWkid": 6360,
@@ -4929,6 +4953,78 @@
       "nlat": -44.52,
       "llon": 166.37,
       "rlon": 169.95
+    }
+  },
+  { "wkid": 105795,
+    "latestWkid": 105795,
+    "macro": "PE_VCS_MSL_HI_HT_M",
+    "name": "MSL_Hawaii_height_(m)",
+    "wkt": "VERTCS[\"MSL_Hawaii_height_(m)\",VDATUM[\"Mean_Sea_Level_Hawaii\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "VERTCRS[\"MSL_Hawaii_height_(m)\",VDATUM[\"Mean_Sea_Level_Hawaii\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "MSL Hawaii height (m)",
+    "authority": "Esri",
+    "version": "13.3.0",
+    "deprecated": "no",
+    "areaname": "USA - Hawaii - onshore",
+    "extent":
+    { "slat": 18.87,
+      "nlat": 22.29,
+      "llon": -160.3,
+      "rlon": -154.74
+    }
+  },
+  { "wkid": 105796,
+    "latestWkid": 105796,
+    "macro": "PE_VCS_MSL_HI_HT_USFT",
+    "name": "MSL_Hawaii_height_(ftUS)",
+    "wkt": "VERTCS[\"MSL_Hawaii_height_(ftUS)\",VDATUM[\"Mean_Sea_Level_Hawaii\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]]",
+    "wkt2": "VERTCRS[\"MSL_Hawaii_height_(ftUS)\",VDATUM[\"Mean_Sea_Level_Hawaii\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Foot_US\",0.3048006096012192]]]",
+    "description": "MSL Hawaii height (ftUS)",
+    "authority": "Esri",
+    "version": "13.3.0",
+    "deprecated": "no",
+    "areaname": "USA - Hawaii - onshore",
+    "extent":
+    { "slat": 18.87,
+      "nlat": 22.29,
+      "llon": -160.3,
+      "rlon": -154.74
+    }
+  },
+  { "wkid": 105797,
+    "latestWkid": 105797,
+    "macro": "PE_VCS_EGM96_GEOID_IFT",
+    "name": "EGM96_Geoid_(ftIntl)",
+    "wkt": "VERTCS[\"EGM96_Geoid_(ftIntl)\",VDATUM[\"EGM96_Geoid\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot\",0.3048]]",
+    "wkt2": "VERTCRS[\"EGM96_Geoid_(ftIntl)\",VDATUM[\"EGM96_Geoid\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Foot\",0.3048]]]",
+    "description": "EGM96 Geoid (ftIntl)",
+    "authority": "Esri",
+    "version": "13.3.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 105798,
+    "latestWkid": 105798,
+    "macro": "PE_VCS_EGM96_GEOID_USFT",
+    "name": "EGM96_Geoid_(ftUS)",
+    "wkt": "VERTCS[\"EGM96_Geoid_(ftUS)\",VDATUM[\"EGM96_Geoid\"],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Foot_US\",0.3048006096012192]]",
+    "wkt2": "VERTCRS[\"EGM96_Geoid_(ftUS)\",VDATUM[\"EGM96_Geoid\"],CS[vertical,1],AXIS[\"Gravity-related height (H)\",up,LENGTHUNIT[\"Foot_US\",0.3048006096012192]]]",
+    "description": "EGM96 Geoid (ftUS)",
+    "authority": "Esri",
+    "version": "13.3.0",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
     }
   },
   { "wkid": 115700,
@@ -6057,11 +6153,11 @@
     "authority": "Esri",
     "version": "10.4.0",
     "deprecated": "no",
-    "areaname": "Pacific - US interests Pacific plate",
+    "areaname": "NAD83 PA11 - US interests Pacific plate",
     "extent":
     { "slat": -17.56,
       "nlat": 31.8,
-      "llon": 157.47,
+      "llon": 151.3,
       "rlon": -151.27
     }
   },

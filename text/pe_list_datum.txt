@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2023 Esri Inc.                                            #
+#  Copyright 1999-2024 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -2970,6 +2970,20 @@ WKT2        : DATUM["COV23_Intermediate_Reference_Frame",
 Description : COV23 Intermediate Reference Frame
 Authority   : EPSG
 Version     : 10.094(13.2.0)
+Deprecated  : no
+
+WKID        : 1367
+Latest-WKID : 1367
+Macro       : PE_D_BRENNER_BASE_TUNNEL_2000
+Name        : Brenner_Base_Tunnel_2000
+WKT         : DATUM["Brenner_Base_Tunnel_2000",
+               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
+WKT2        : DATUM["Brenner_Base_Tunnel_2000",
+               ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Brenner Base Tunnel 2000
+Authority   : Esri
+Version     : 13.3.0
 Deprecated  : no
 
 WKID        : 6001

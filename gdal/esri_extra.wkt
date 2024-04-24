@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2023 Esri Inc.                                            #
+#  Copyright 1999-2024 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -33,6 +33,14 @@
 # area: (lat: 31.99, 37.14) - (lon: -2.95, 9.09) [Algeria - north of 32~N]
 # DEPRECATED: new code = 104025
 4812,GEOGCS["GCS_Voirol_Unifie_1960_Paris",DATUM["D_Voirol_Unifie_1960",SPHEROID["Clarke_1880_RGS",6378249.145,293.465]],PRIMEM["Paris",2.337229166666667],UNIT["Grad",0.01570796326794897],AUTHORITY["Esri",104025]]
+
+# BBT2000_3D [BBT2000 (3D)]
+# area: (lat: 46.45, 47.33) - (lon: 11.04, 11.91) [Europe - Brenner]
+10474,GEOGCS["BBT2000_3D",DATUM["Brenner_Base_Tunnel_2000",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],LINUNIT["Meter",1.0],AUTHORITY["Esri",10474]]
+
+# BBT2000 [BBT2000]
+# area: (lat: 46.45, 47.33) - (lon: 11.04, 11.91) [Europe - Brenner]
+10475,GEOGCS["BBT2000",DATUM["Brenner_Base_Tunnel_2000",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],AUTHORITY["Esri",10475]]
 
 # GCS_WGS_1966 [WGS 1966]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
@@ -730,7 +738,7 @@
 104286,GEOGCS["GCS_NAD_1983_MA11",DATUM["D_NAD_1983_MA11",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],AUTHORITY["Esri",6325]]
 
 # GCS_NAD_1983_PA11 [NAD 1983 (PA11) - Pacific Plate 2011]
-# area: (lat: -17.56, 31.8) - (lon: 157.47, -151.27) [Pacific - US interests Pacific plate]
+# area: (lat: -17.56, 31.8) - (lon: 151.3, -151.27) [NAD83 PA11 - US interests Pacific plate]
 # DEPRECATED: new code = 6322
 104287,GEOGCS["GCS_NAD_1983_PA11",DATUM["D_NAD_1983_PA11",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],AUTHORITY["Esri",6322]]
 
@@ -1988,6 +1996,30 @@
 # area: (lat: 36.97, 41.02) - (lon: 43.5, 44.83) [Turkey - east of 43.5~E]
 # DEPRECATED: new code = 102556
 2187,PROJCS["ED_1950_Turkey_15",GEOGCS["GCS_European_1950",DATUM["D_European_1950",SPHEROID["International_1924",6378388.0,297.0]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",15500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",45.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",102556]]
+
+# BBT2000_BBT-TM [BBT2000 / BBT-TM]
+# area: (lat: 46.45, 47.33) - (lon: 11.04, 11.91) [Europe - Brenner]
+10477,PROJCS["BBT2000_BBT-TM",GEOGCS["BBT2000",DATUM["Brenner_Base_Tunnel_2000",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",20000.0],PARAMETER["False_Northing",100000.0],PARAMETER["Central_Meridian",11.52849375],PARAMETER["Scale_Factor",1.000121],PARAMETER["Latitude_Of_Origin",46.98077630555556],UNIT["Meter",1.0],AUTHORITY["Esri",10477]]
+
+# NAD_1983_TWDB_GM [NAD83 / TWDB GM]
+# area: (lat: 25.83, 36.5) - (lon: -106.66, -93.5) [USA - Texas]
+10481,PROJCS["NAD_1983_TWDB_GM",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",4921250.0],PARAMETER["False_Northing",19685000.0],PARAMETER["Central_Meridian",-100.0],PARAMETER["Standard_Parallel_1",27.5],PARAMETER["Standard_Parallel_2",35.0],PARAMETER["Latitude_Of_Origin",31.25],UNIT["Foot_US",0.3048006096012192],AUTHORITY["Esri",10481]]
+
+# NAD_1983_(2011)_Adjusted_Jackson_(ftUS) [NAD83(2011) / Adjusted Jackson (ftUS)]
+# area: (lat: 44.07, 44.6) - (lon: -91.17, -90.31) [USA - Wisconsin - Jackson]
+10516,PROJCS["NAD_1983_(2011)_Adjusted_Jackson_(ftUS)",GEOGCS["GCS_NAD_1983_2011",DATUM["D_NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",88582.5],PARAMETER["False_Northing",82020.833],PARAMETER["Central_Meridian",-90.84429651388886],PARAMETER["Scale_Factor",1.0000353],PARAMETER["Latitude_Of_Origin",44.25333532222221],UNIT["Foot_US",0.3048006096012192],AUTHORITY["Esri",10516]]
+
+# ETRS89_DREF91_2016_UTM_zone_31N [ETRS89/DREF91/2016 / UTM zone 31N]
+# area: (lat: 50.97, 55.92) - (lon: 3.34, 6.0) [Germany - west of 6~E]
+10731,PROJCS["ETRS89_DREF91_2016_UTM_zone_31N",GEOGCS["ETRS89_DREF91_2016",DATUM["ETRS89_DREF91_Realization_2016",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",3.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",10731]]
+
+# ETRS89_DREF91_2016_UTM_zone_32N [ETRS89/DREF91/2016 / UTM zone 32N]
+# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.01) [Germany - 6~E to 12~E]
+10732,PROJCS["ETRS89_DREF91_2016_UTM_zone_32N",GEOGCS["ETRS89_DREF91_2016",DATUM["ETRS89_DREF91_Realization_2016",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",9.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",10732]]
+
+# ETRS89_DREF91_2016_UTM_zone_33N [ETRS89/DREF91/2016 / UTM zone 33N]
+# area: (lat: 47.46, 55.03) - (lon: 11.57, 15.04) [Germany - east of 12~E]
+10733,PROJCS["ETRS89_DREF91_2016_UTM_zone_33N",GEOGCS["ETRS89_DREF91_2016",DATUM["ETRS89_DREF91_Realization_2016",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",15.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",10733]]
 
 # Pulkovo_1995_GK_Zone_2N [Pulkovo 1995 GK Zone 2N (deprecated)]
 # area: (lat: 50.21, 54.18) - (lon: 9.93, 12.0) [Europe - 6~E to 12~E and Pulkovo by country]
@@ -4187,7 +4219,7 @@
 102361,PROJCS["NAD_1983_HARN_StatePlane_Puerto_Rico_Virgin_Islands_FIPS_5200",GEOGCS["GCS_North_American_1983_HARN",DATUM["D_North_American_1983_HARN",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",200000.0],PARAMETER["False_Northing",200000.0],PARAMETER["Central_Meridian",-66.43333333333334],PARAMETER["Standard_Parallel_1",18.03333333333333],PARAMETER["Standard_Parallel_2",18.43333333333333],PARAMETER["Latitude_Of_Origin",17.83333333333333],UNIT["Meter",1.0],AUTHORITY["Esri",2866]]
 
 # ETRS_1989_UTM_Zone_N32 [ETRS 1989 UTM Zone 32N with FE prefix]
-# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.0) [Germany - 6~E to 12~E]
+# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.01) [Germany - 6~E to 12~E]
 # DEPRECATED: new code = 4647
 102362,PROJCS["ETRS_1989_UTM_Zone_N32",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",32500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",9.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",4647]]
 
@@ -6943,6 +6975,26 @@
 # UTM_Gulshan [UTM Gulshan]
 # area: (lat: 18.56, 26.64) - (lon: 88.01, 92.67) [Bangladesh]
 102955,PROJCS["UTM_Gulshan",GEOGCS["GCS_Gulshan_303",DATUM["D_Gulshan_303",SPHEROID["Everest_Adjustment_1937",6377276.345,300.8017]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",90.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",102955]]
+
+# NAD_1983_(MA11)_UTM_Zone_53N [NAD 1983 (MA11) UTM Zone 53N]
+# area: (lat: 6.87, 7.7) - (lon: 134.1, 134.65) [Republic of Palau - Babeldaob]
+102956,PROJCS["NAD_1983_(MA11)_UTM_Zone_53N",GEOGCS["GCS_NAD_1983_MA11",DATUM["D_NAD_1983_MA11",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",135.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",102956]]
+
+# NAD_1983_(PA11)_UTM_Zone_56N [NAD 1983 (PA11) UTM Zone 56N]
+# area: (lat: 6.9, 7.8) - (lon: 151.3, 152.15) [Federated States of Micronesia - UTM 56N]
+102957,PROJCS["NAD_1983_(PA11)_UTM_Zone_56N",GEOGCS["GCS_NAD_1983_PA11",DATUM["D_NAD_1983_PA11",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",153.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",102957]]
+
+# NAD_1983_(PA11)_UTM_Zone_57N [NAD 1983 (PA11) UTM Zone 57N]
+# area: (lat: 5.25, 7.02) - (lon: 157.92, 163.07) [Federated States of Micronesia - UTM 57N and east]
+102958,PROJCS["NAD_1983_(PA11)_UTM_Zone_57N",GEOGCS["GCS_NAD_1983_PA11",DATUM["D_NAD_1983_PA11",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",159.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",102958]]
+
+# NAD_1983_(PA11)_UTM_Zone_58N [NAD 1983 (PA11) UTM Zone 58N]
+# area: (lat: 8.0, 11.64) - (lon: 162.0, 168.0) [Republic of Marshall Islands - UTM 58N]
+102959,PROJCS["NAD_1983_(PA11)_UTM_Zone_58N",GEOGCS["GCS_NAD_1983_PA11",DATUM["D_NAD_1983_PA11",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",165.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",102959]]
+
+# NAD_1983_(PA11)_UTM_Zone_59N [NAD 1983 (PA11) UTM Zone 59N]
+# area: (lat: 5.8, 10.0) - (lon: 168.0, 173.0) [Republic of Marshall Islands - UTM 59N]
+102960,PROJCS["NAD_1983_(PA11)_UTM_Zone_59N",GEOGCS["GCS_NAD_1983_PA11",DATUM["D_NAD_1983_PA11",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",171.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["Esri",102960]]
 
 # AGD_1966_ISG_57_2 [AGD 1966 NSW ISG Zone 57 / 2]
 # area: (lat: -47.2, -28.15) - (lon: 158.0, 160.0) [Australia - Lord Howe Island - 158~E to 160~E (ISG 57/2)]

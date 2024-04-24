@@ -2784,26 +2784,6 @@
    FALSE, \
    "EPSG"
 
-"Camacupa / TM 11.30 SE", \
-   "Camacupa_TM_11_30_SE", \
-   FALSE, \
-   "Oracle"
-
-"Camacupa / TM 11.30 SE", \
-   "Camacupa_TM_11_30_SE", \
-   FALSE, \
-   "PostGIS"
-
-"Camacupa / TM 11.30 SE", \
-   "Camacupa_TM_11_30_SE", \
-   FALSE, \
-   "SpatiaLite"
-
-"Camacupa / TM 11.30 SE", \
-   "Camacupa_TM_11_30_SE", \
-   FALSE, \
-   "Teradata"
-
 "Campo Inchauspe / Argentina 1", \
    "Argentina_Zone_1", \
    FALSE, \
@@ -17098,6 +17078,11 @@
    "NAD_1927_StatePlane_Wyoming_West_Central_FIPS_4903", \
    FALSE, \
    "Teradata"
+
+"NAD83(2011) / Adjusted Jackson (ftUS)", \
+   "NAD_1983_(2011)_Adjusted_Jackson_(ftUS)", \
+   FALSE, \
+   "EPSG"
 
 "NAD83(2011) / Alabama East", \
    "NAD_1983_2011_StatePlane_Alabama_East_FIPS_0101", \
@@ -38064,6 +38049,11 @@
    FALSE, \
    "Teradata"
 
+"NAD83 / TWDB GM", \
+   "NAD_1983_TWDB_GM", \
+   FALSE, \
+   "EPSG"
+
 "NAD83 / USFS R6 Albers", \
    "NAD_1983_USFS_R6_Albers", \
    FALSE, \
@@ -42789,53 +42779,53 @@
    FALSE, \
    "Teradata"
 
-"Puerto Rico / St. Croix", \
-   "Puerto_Rico_StatePlane_Virgin_Islands_St_Croix_FIPS_5202", \
+"Puerto Rico State Plane CS of 1927", \
+   "Puerto_Rico_StatePlane_Puerto_Rico_FIPS_5201", \
    FALSE, \
    "EPSG"
 
-"Puerto Rico / St. Croix", \
-   "Puerto_Rico_StatePlane_Virgin_Islands_St_Croix_FIPS_5202", \
+"Puerto Rico State Plane CS of 1927", \
+   "Puerto_Rico_StatePlane_Puerto_Rico_FIPS_5201", \
    FALSE, \
    "Oracle"
 
-"Puerto Rico / St. Croix", \
-   "Puerto_Rico_StatePlane_Virgin_Islands_St_Croix_FIPS_5202", \
+"Puerto Rico State Plane CS of 1927", \
+   "Puerto_Rico_StatePlane_Puerto_Rico_FIPS_5201", \
    FALSE, \
    "PostGIS"
 
-"Puerto Rico / St. Croix", \
-   "Puerto_Rico_StatePlane_Virgin_Islands_St_Croix_FIPS_5202", \
+"Puerto Rico State Plane CS of 1927", \
+   "Puerto_Rico_StatePlane_Puerto_Rico_FIPS_5201", \
    FALSE, \
    "SpatiaLite"
 
-"Puerto Rico / St. Croix", \
-   "Puerto_Rico_StatePlane_Virgin_Islands_St_Croix_FIPS_5202", \
+"Puerto Rico State Plane CS of 1927", \
+   "Puerto_Rico_StatePlane_Puerto_Rico_FIPS_5201", \
    FALSE, \
    "Teradata"
 
-"Puerto Rico State Plane CS of 1927", \
-   "Puerto_Rico_StatePlane_Puerto_Rico_FIPS_5201", \
+"Puerto Rico / St. Croix", \
+   "Puerto_Rico_StatePlane_Virgin_Islands_St_Croix_FIPS_5202", \
    FALSE, \
    "EPSG"
 
-"Puerto Rico State Plane CS of 1927", \
-   "Puerto_Rico_StatePlane_Puerto_Rico_FIPS_5201", \
+"Puerto Rico / St. Croix", \
+   "Puerto_Rico_StatePlane_Virgin_Islands_St_Croix_FIPS_5202", \
    FALSE, \
    "Oracle"
 
-"Puerto Rico State Plane CS of 1927", \
-   "Puerto_Rico_StatePlane_Puerto_Rico_FIPS_5201", \
+"Puerto Rico / St. Croix", \
+   "Puerto_Rico_StatePlane_Virgin_Islands_St_Croix_FIPS_5202", \
    FALSE, \
    "PostGIS"
 
-"Puerto Rico State Plane CS of 1927", \
-   "Puerto_Rico_StatePlane_Puerto_Rico_FIPS_5201", \
+"Puerto Rico / St. Croix", \
+   "Puerto_Rico_StatePlane_Virgin_Islands_St_Croix_FIPS_5202", \
    FALSE, \
    "SpatiaLite"
 
-"Puerto Rico State Plane CS of 1927", \
-   "Puerto_Rico_StatePlane_Puerto_Rico_FIPS_5201", \
+"Puerto Rico / St. Croix", \
+   "Puerto_Rico_StatePlane_Virgin_Islands_St_Croix_FIPS_5202", \
    FALSE, \
    "Teradata"
 
@@ -52504,56 +52494,6 @@
    FALSE, \
    "Teradata"
 
-"RT38 2.5 gon O", \
-   "RT38_25_gon_O", \
-   FALSE, \
-   "EPSG"
-
-"RT38 2.5 gon O", \
-   "RT38_25_gon_O", \
-   FALSE, \
-   "Oracle"
-
-"RT38 2.5 gon O", \
-   "RT38_25_gon_O", \
-   FALSE, \
-   "PostGIS"
-
-"RT38 2.5 gon O", \
-   "RT38_25_gon_O", \
-   FALSE, \
-   "SpatiaLite"
-
-"RT38 2.5 gon O", \
-   "RT38_25_gon_O", \
-   FALSE, \
-   "Teradata"
-
-"RT38 2.5 gon V", \
-   "RT38_25_gon_V", \
-   FALSE, \
-   "EPSG"
-
-"RT38 2.5 gon V", \
-   "RT38_25_gon_V", \
-   FALSE, \
-   "Oracle"
-
-"RT38 2.5 gon V", \
-   "RT38_25_gon_V", \
-   FALSE, \
-   "PostGIS"
-
-"RT38 2.5 gon V", \
-   "RT38_25_gon_V", \
-   FALSE, \
-   "SpatiaLite"
-
-"RT38 2.5 gon V", \
-   "RT38_25_gon_V", \
-   FALSE, \
-   "Teradata"
-
 "RT38 2.5 gon W", \
    "Swedish_National_Grid", \
    FALSE, \
@@ -52574,86 +52514,6 @@
    FALSE, \
    "Teradata"
 
-"RT38 7.5 gon V", \
-   "RT38_75_gon_V", \
-   FALSE, \
-   "EPSG"
-
-"RT38 7.5 gon V", \
-   "RT38_75_gon_V", \
-   FALSE, \
-   "Oracle"
-
-"RT38 7.5 gon V", \
-   "RT38_75_gon_V", \
-   FALSE, \
-   "PostGIS"
-
-"RT38 7.5 gon V", \
-   "RT38_75_gon_V", \
-   FALSE, \
-   "SpatiaLite"
-
-"RT38 7.5 gon V", \
-   "RT38_75_gon_V", \
-   FALSE, \
-   "Teradata"
-
-"RT90 2.5 gon O", \
-   "RT90_25_gon_O", \
-   FALSE, \
-   "EPSG"
-
-"RT90 2.5 gon O", \
-   "RT90_25_gon_O", \
-   FALSE, \
-   "Oracle"
-
-"RT90 2.5 gon O", \
-   "RT90_25_gon_O", \
-   FALSE, \
-   "PostGIS"
-
-"RT90 2.5 gon O", \
-   "RT90_25_gon_O", \
-   FALSE, \
-   "SpatiaLite"
-
-"RT90 2.5 gon O", \
-   "RT90_25_gon_O", \
-   FALSE, \
-   "Teradata"
-
-"RT90 2.5 gon V", \
-   "RT90_25_gon_V", \
-   FALSE, \
-   "EPSG"
-
-"RT90 2.5 gon V", \
-   "RT90_25_gon_V", \
-   FALSE, \
-   "Oracle"
-
-"RT90 2.5 gon V", \
-   "RT90_25_gon_V", \
-   FALSE, \
-   "PostGIS"
-
-"RT90 2.5 gon V", \
-   "RT90_25_gon_V", \
-   FALSE, \
-   "SpatiaLite"
-
-"RT90 2.5 gon V", \
-   "RT90_25_gon_V", \
-   FALSE, \
-   "Teradata"
-
-"RT90 2.5 gon W", \
-   "RT90_25_gon_W", \
-   FALSE, \
-   "Oracle"
-
 "RT90 2.5 gon W (deprecated)", \
    "RT90_25_gon_W", \
    FALSE, \
@@ -52666,31 +52526,6 @@
 
 "RT90 2.5 gon W (deprecated)", \
    "RT90_25_gon_W", \
-   FALSE, \
-   "Teradata"
-
-"RT90 7.5 gon V", \
-   "RT90_75_gon_V", \
-   FALSE, \
-   "EPSG"
-
-"RT90 7.5 gon V", \
-   "RT90_75_gon_V", \
-   FALSE, \
-   "Oracle"
-
-"RT90 7.5 gon V", \
-   "RT90_75_gon_V", \
-   FALSE, \
-   "PostGIS"
-
-"RT90 7.5 gon V", \
-   "RT90_75_gon_V", \
-   FALSE, \
-   "SpatiaLite"
-
-"RT90 7.5 gon V", \
-   "RT90_75_gon_V", \
    FALSE, \
    "Teradata"
 
@@ -53804,76 +53639,6 @@
    FALSE, \
    "Teradata"
 
-"St. Helena Tritan / SHLG(Tritan)", \
-   "St_Helena_Tritan_SHLG(Tritan)", \
-   FALSE, \
-   "EPSG"
-
-"St. Helena Tritan / UTM zone 30S", \
-   "St_Helena_Tritan_UTM_zone_30S", \
-   FALSE, \
-   "EPSG"
-
-"St. Kitts 1955 / British West Indies Grid", \
-   "St_Kitts_1955_British_West_Indies_Grid", \
-   FALSE, \
-   "EPSG"
-
-"St. Kitts 1955 / British West Indies Grid", \
-   "St_Kitts_1955_British_West_Indies_Grid", \
-   FALSE, \
-   "PostGIS"
-
-"St. Kitts 1955 / British West Indies Grid", \
-   "St_Kitts_1955_British_West_Indies_Grid", \
-   FALSE, \
-   "SpatiaLite"
-
-"St. Kitts 1955 / British West Indies Grid", \
-   "St_Kitts_1955_British_West_Indies_Grid", \
-   FALSE, \
-   "Teradata"
-
-"St. Lucia 1955 / British West Indies Grid", \
-   "St_Lucia_1955_British_West_Indies_Grid", \
-   FALSE, \
-   "EPSG"
-
-"St. Lucia 1955 / British West Indies Grid", \
-   "St_Lucia_1955_British_West_Indies_Grid", \
-   FALSE, \
-   "PostGIS"
-
-"St. Lucia 1955 / British West Indies Grid", \
-   "St_Lucia_1955_British_West_Indies_Grid", \
-   FALSE, \
-   "SpatiaLite"
-
-"St. Lucia 1955 / British West Indies Grid", \
-   "St_Lucia_1955_British_West_Indies_Grid", \
-   FALSE, \
-   "Teradata"
-
-"St. Vincent 45 / British West Indies Grid", \
-   "St_Vincent_1945_British_West_Indies_Grid", \
-   FALSE, \
-   "EPSG"
-
-"St. Vincent 45 / British West Indies Grid", \
-   "St_Vincent_1945_British_West_Indies_Grid", \
-   FALSE, \
-   "PostGIS"
-
-"St. Vincent 45 / British West Indies Grid", \
-   "St_Vincent_1945_British_West_Indies_Grid", \
-   FALSE, \
-   "SpatiaLite"
-
-"St. Vincent 45 / British West Indies Grid", \
-   "St_Vincent_1945_British_West_Indies_Grid", \
-   FALSE, \
-   "Teradata"
-
 "ST71 Belep / UTM zone 58S", \
    "ST71_Belep_UTM_58S", \
    FALSE, \
@@ -53954,10 +53719,30 @@
    FALSE, \
    "PostGIS"
 
+"St. Vincent 45 / British West Indies Grid", \
+   "St_Vincent_1945_British_West_Indies_Grid", \
+   FALSE, \
+   "EPSG"
+
 "St Vincent 45 / British West Indies Grid", \
    "St_Vincent_1945_British_West_Indies_Grid", \
    FALSE, \
    "Oracle"
+
+"St. Vincent 45 / British West Indies Grid", \
+   "St_Vincent_1945_British_West_Indies_Grid", \
+   FALSE, \
+   "PostGIS"
+
+"St. Vincent 45 / British West Indies Grid", \
+   "St_Vincent_1945_British_West_Indies_Grid", \
+   FALSE, \
+   "SpatiaLite"
+
+"St. Vincent 45 / British West Indies Grid", \
+   "St_Vincent_1945_British_West_Indies_Grid", \
+   FALSE, \
+   "Teradata"
 
 "Sudan / UTM zone 35N (deprecated)", \
    "Sudan_UTM_Zone_35N", \
@@ -54144,25 +53929,15 @@
    FALSE, \
    "Teradata"
 
-"Timbalai 1948 / R.S.O. Borneo (ch)", \
-   "Timbalai_1948_RSO_Borneo_Chains", \
-   FALSE, \
-   "Oracle"
-
-"Timbalai 1948 / R.S.O. Borneo (ft)", \
-   "Timbalai_1948_RSO_Borneo_Feet", \
-   FALSE, \
-   "Oracle"
-
-"Timbalai 1948 / R.S.O. Borneo (m)", \
-   "Timbalai_1948_RSO_Borneo_Meters", \
-   FALSE, \
-   "Oracle"
-
 "Timbalai 1948 / RSO Borneo (ch)", \
    "Timbalai_1948_RSO_Borneo_Chains", \
    FALSE, \
    "EPSG"
+
+"Timbalai 1948 / R.S.O. Borneo (ch)", \
+   "Timbalai_1948_RSO_Borneo_Chains", \
+   FALSE, \
+   "Oracle"
 
 "Timbalai 1948 / RSO Borneo (ch)", \
    "Timbalai_1948_RSO_Borneo_Chains", \
@@ -54178,6 +53953,11 @@
    "Timbalai_1948_RSO_Borneo_Chains", \
    FALSE, \
    "Teradata"
+
+"Timbalai 1948 / R.S.O. Borneo (ft)", \
+   "Timbalai_1948_RSO_Borneo_Feet", \
+   FALSE, \
+   "Oracle"
 
 "Timbalai 1948 / RSO Borneo (ft)", \
    "Timbalai_1948_RSO_Borneo_Feet", \
@@ -54203,6 +53983,11 @@
    "Timbalai_1948_RSO_Borneo_Meters", \
    FALSE, \
    "EPSG"
+
+"Timbalai 1948 / R.S.O. Borneo (m)", \
+   "Timbalai_1948_RSO_Borneo_Meters", \
+   FALSE, \
+   "Oracle"
 
 "Timbalai 1948 / RSO Borneo (m)", \
    "Timbalai_1948_RSO_Borneo_Meters", \

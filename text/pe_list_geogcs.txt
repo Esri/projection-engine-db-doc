@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2023 Esri Inc.                                            #
+#  Copyright 1999-2024 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -7807,6 +7807,7 @@ WKT         : GEOGCS["GCS_WGS_1972",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_WGS_1972",
+               DYNAMIC[FRAMEEPOCH[1972.0]],
                DATUM["D_WGS_1972",
                 ELLIPSOID["WGS_1972", 6378135.0, 298.26,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7827,6 +7828,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1972.0
+DeformationModel: ""
 
 WKID        : 4324
 Latest-WKID : 4324
@@ -7838,6 +7841,7 @@ WKT         : GEOGCS["GCS_WGS_1972_BE",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_WGS_1972_BE",
+               DYNAMIC[FRAMEEPOCH[1972.0]],
                DATUM["D_WGS_1972_BE",
                 ELLIPSOID["WGS_1972", 6378135.0, 298.26,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7858,6 +7862,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1972.0
+DeformationModel: ""
 
 WKID        : 4326
 Latest-WKID : 4326
@@ -12214,6 +12220,7 @@ WKT         : GEOGCS["GCS_PZ_1990",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_PZ_1990",
+               DYNAMIC[FRAMEEPOCH[1990.0]],
                DATUM["D_Parametrop_Zemp_1990",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -12234,6 +12241,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1990.0
+DeformationModel: ""
 
 WKID        : 4741
 Latest-WKID : 4741
@@ -12834,6 +12843,7 @@ WKT         : GEOGCS["GCS_WGS_1966",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_WGS_1966",
+               DYNAMIC[FRAMEEPOCH[1966.0]],
                DATUM["D_WGS_1966",
                 ELLIPSOID["NWL_9D", 6378145.0, 298.25,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -12854,6 +12864,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1966.0
+DeformationModel: ""
 
 WKID        : 4761
 Latest-WKID : 4761
@@ -13878,6 +13890,7 @@ WKT         : GEOGCS["WGS_1966_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["WGS_1966_3D",
+               DYNAMIC[FRAMEEPOCH[1966.0]],
                DATUM["D_WGS_1966",
                 ELLIPSOID["NWL_9D", 6378145.0, 298.25,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -13902,6 +13915,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1966.0
+DeformationModel: ""
 
 WKID        : 4893
 Latest-WKID : 4893
@@ -14290,6 +14305,7 @@ WKT         : GEOGCS["PZ_1990_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["PZ_1990_3D",
+               DYNAMIC[FRAMEEPOCH[1990.0]],
                DATUM["D_Parametrop_Zemp_1990",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -14314,6 +14330,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1990.0
+DeformationModel: ""
 
 WKID        : 4925
 Latest-WKID : 4925
@@ -15338,6 +15356,7 @@ WKT         : GEOGCS["WGS_1972_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["WGS_1972_3D",
+               DYNAMIC[FRAMEEPOCH[1972.0]],
                DATUM["D_WGS_1972",
                 ELLIPSOID["WGS_1972", 6378135.0, 298.26,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -15362,6 +15381,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1972.0
+DeformationModel: ""
 
 WKID        : 4987
 Latest-WKID : 4987
@@ -15374,6 +15395,7 @@ WKT         : GEOGCS["WGS_1972_BE_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["WGS_1972_BE_3D",
+               DYNAMIC[FRAMEEPOCH[1972.0]],
                DATUM["D_WGS_1972_BE",
                 ELLIPSOID["WGS_1972", 6378135.0, 298.26,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -15398,6 +15420,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1972.0
+DeformationModel: ""
 
 WKID        : 4989
 Latest-WKID : 4989
@@ -17440,10 +17464,10 @@ Description : NAD 1983 (PA11) - Pacific Plate 2011 (3D)
 Authority   : EPSG
 Version     : 8.2.2(12.7.0)
 Deprecated  : no
-Area-name   : Pacific - US interests Pacific plate
+Area-name   : NAD83 PA11 - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
-Area-llon   : 157.47
+Area-llon   : 151.3
 Area-rlon   : -151.27
 FrameEpoch  : 2012.4467
 DeformationModel: "HTDP"
@@ -17475,10 +17499,10 @@ Description : NAD 1983 (PA11) - Pacific Plate 2011
 Authority   : EPSG
 Version     : 8.2.2(10.2.1)
 Deprecated  : no
-Area-name   : Pacific - US interests Pacific plate
+Area-name   : NAD83 PA11 - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
-Area-llon   : 157.47
+Area-llon   : 151.3
 Area-rlon   : -151.27
 FrameEpoch  : 2012.4467
 DeformationModel: "HTDP"
@@ -18933,8 +18957,7 @@ WKT         : GEOGCS["WGS_1984_(G730)_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["WGS_1984_(G730)_3D",
-               DYNAMIC[FRAMEEPOCH[1990.5],
-                MODEL["NNR-NUVEL1"]],
+               DYNAMIC[FRAMEEPOCH[1994.0]],
                DATUM["World_Geodetic_System_1984_(G730)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -18959,8 +18982,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 1990.5
-DeformationModel: "NNR-NUVEL1"
+FrameEpoch  : 1994.0
+DeformationModel: ""
 
 WKID        : 7659
 Latest-WKID : 7659
@@ -19093,8 +19116,7 @@ WKT         : GEOGCS["WGS_1984_(G1762)_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["WGS_1984_(G1762)_3D",
-               DYNAMIC[FRAMEEPOCH[2012.5],
-                MODEL["ITRF2008-PMM"]],
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["World_Geodetic_System_1984_(G1762)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19119,8 +19141,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 2012.5
-DeformationModel: "ITRF2008-PMM"
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 7678
 Latest-WKID : 7678
@@ -19133,6 +19155,7 @@ WKT         : GEOGCS["PZ-90.02_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["PZ-90.02_3D",
+               DYNAMIC[FRAMEEPOCH[2002.0]],
                DATUM["Parametry_Zemli_1990.02",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19157,6 +19180,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2002.0
+DeformationModel: ""
 
 WKID        : 7680
 Latest-WKID : 7680
@@ -19169,6 +19194,7 @@ WKT         : GEOGCS["PZ-90.11_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["PZ-90.11_3D",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["Parametry_Zemli_1990.11",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19193,6 +19219,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2010.0
+DeformationModel: ""
 
 WKID        : 7682
 Latest-WKID : 7682
@@ -19406,6 +19434,7 @@ WKT         : GEOGCS["WGS_1984_(Transit)_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["WGS_1984_(Transit)_3D",
+               DYNAMIC[FRAMEEPOCH[1984.0]],
                DATUM["World_Geodetic_System_1984_(Transit)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19430,6 +19459,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1984.0
+DeformationModel: ""
 
 WKID        : 7843
 Latest-WKID : 7843
@@ -19691,8 +19722,7 @@ WKT         : GEOGCS["ITRF_1989_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["ITRF_1989_3D",
-               DYNAMIC[FRAMEEPOCH[1988.0],
-                MODEL["AM0-2"]],
+               DYNAMIC[FRAMEEPOCH[1988.0]],
                DATUM["D_ITRF_1989",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19718,7 +19748,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: "AM0-2"
+DeformationModel: ""
 
 WKID        : 7902
 Latest-WKID : 7902
@@ -19771,8 +19801,7 @@ WKT         : GEOGCS["ITRF_1991_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["ITRF_1991_3D",
-               DYNAMIC[FRAMEEPOCH[1988.0],
-                MODEL["NNR-NUVEL1"]],
+               DYNAMIC[FRAMEEPOCH[1988.0]],
                DATUM["D_ITRF_1991",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19798,7 +19827,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: "NNR-NUVEL1"
+DeformationModel: ""
 
 WKID        : 7904
 Latest-WKID : 7904
@@ -19851,8 +19880,7 @@ WKT         : GEOGCS["ITRF_1993_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["ITRF_1993_3D",
-               DYNAMIC[FRAMEEPOCH[1993.0],
-                MODEL["NNR-NUVEL1A"]],
+               DYNAMIC[FRAMEEPOCH[1993.0]],
                DATUM["D_ITRF_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19878,7 +19906,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1993.0
-DeformationModel: "NNR-NUVEL1A"
+DeformationModel: ""
 
 WKID        : 7906
 Latest-WKID : 7906
@@ -19931,8 +19959,7 @@ WKT         : GEOGCS["ITRF_1996_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["ITRF_1996_3D",
-               DYNAMIC[FRAMEEPOCH[1997.0],
-                MODEL["NNR-NUVEL1A"]],
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_1996",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19958,7 +19985,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1997.0
-DeformationModel: "NNR-NUVEL1A"
+DeformationModel: ""
 
 WKID        : 7908
 Latest-WKID : 7908
@@ -20011,8 +20038,7 @@ WKT         : GEOGCS["ITRF_2000_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["ITRF_2000_3D",
-               DYNAMIC[FRAMEEPOCH[1997.0],
-                MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -20038,7 +20064,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1997.0
-DeformationModel: "NNR-NUVEL1A+ITRF2000-PMM"
+DeformationModel: ""
 
 WKID        : 7910
 Latest-WKID : 7910
@@ -21797,6 +21823,7 @@ WKT         : GEOGCS["WGS_1984_(Transit)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["WGS_1984_(Transit)",
+               DYNAMIC[FRAMEEPOCH[1984.0]],
                DATUM["World_Geodetic_System_1984_(Transit)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -21817,6 +21844,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1984.0
+DeformationModel: ""
 
 WKID        : 8899
 Latest-WKID : 8899
@@ -22030,6 +22059,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF00P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF00P01_3D",
+               DYNAMIC[FRAMEEPOCH[2000.4]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF00P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22054,6 +22084,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2000.4
+DeformationModel: ""
 
 WKID        : 8918
 Latest-WKID : 8918
@@ -22066,6 +22098,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF01P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF01P01_3D",
+               DYNAMIC[FRAMEEPOCH[2000.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF01P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22090,6 +22123,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2000.0
+DeformationModel: ""
 
 WKID        : 8920
 Latest-WKID : 8920
@@ -22102,6 +22137,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF01P02_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF01P02_3D",
+               DYNAMIC[FRAMEEPOCH[1998.4]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF01P02",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22126,6 +22162,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 1998.4
+DeformationModel: ""
 
 WKID        : 8922
 Latest-WKID : 8922
@@ -22138,6 +22176,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF02P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF02P01_3D",
+               DYNAMIC[FRAMEEPOCH[2000.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF02P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22162,6 +22201,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2000.0
+DeformationModel: ""
 
 WKID        : 8924
 Latest-WKID : 8924
@@ -22174,6 +22215,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF04P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF04P01_3D",
+               DYNAMIC[FRAMEEPOCH[2003.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF04P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22198,6 +22240,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2003.0
+DeformationModel: ""
 
 WKID        : 8926
 Latest-WKID : 8926
@@ -22210,6 +22254,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF05P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF05P01_3D",
+               DYNAMIC[FRAMEEPOCH[2004.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF05P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22234,6 +22279,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2004.0
+DeformationModel: ""
 
 WKID        : 8928
 Latest-WKID : 8928
@@ -22246,6 +22293,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF06P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF06P01_3D",
+               DYNAMIC[FRAMEEPOCH[2004.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF06P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22270,6 +22318,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2004.0
+DeformationModel: ""
 
 WKID        : 8930
 Latest-WKID : 8930
@@ -22282,6 +22332,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF07P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF07P01_3D",
+               DYNAMIC[FRAMEEPOCH[2004.5]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF07P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22306,6 +22357,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2004.5
+DeformationModel: ""
 
 WKID        : 8932
 Latest-WKID : 8932
@@ -22318,6 +22371,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF08P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF08P01_3D",
+               DYNAMIC[FRAMEEPOCH[2004.5]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF08P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22342,6 +22396,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2004.5
+DeformationModel: ""
 
 WKID        : 8934
 Latest-WKID : 8934
@@ -22354,6 +22410,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR09P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR09P01_3D",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR09P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22378,6 +22435,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 8936
 Latest-WKID : 8936
@@ -22390,6 +22449,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR10P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR10P01_3D",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR10P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22414,6 +22474,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 8938
 Latest-WKID : 8938
@@ -22426,6 +22488,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR11P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR11P01_3D",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR11P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22450,6 +22513,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 8940
 Latest-WKID : 8940
@@ -22462,6 +22527,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR13P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR13P01_3D",
+               DYNAMIC[FRAMEEPOCH[2012.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR13P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22486,6 +22552,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2012.0
+DeformationModel: ""
 
 WKID        : 8942
 Latest-WKID : 8942
@@ -22498,6 +22566,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR14P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR14P01_3D",
+               DYNAMIC[FRAMEEPOCH[2013.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR14P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22522,6 +22591,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2013.0
+DeformationModel: ""
 
 WKID        : 8944
 Latest-WKID : 8944
@@ -22534,6 +22605,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR15P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR15P01_3D",
+               DYNAMIC[FRAMEEPOCH[2013.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR15P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22558,6 +22630,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2013.0
+DeformationModel: ""
 
 WKID        : 8946
 Latest-WKID : 8946
@@ -22570,6 +22644,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR17P01_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR17P01_3D",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR17P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22594,6 +22669,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2015.0
+DeformationModel: ""
 
 WKID        : 8948
 Latest-WKID : 8948
@@ -22672,6 +22749,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF00P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF00P01",
+               DYNAMIC[FRAMEEPOCH[2000.4]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF00P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22692,6 +22770,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2000.4
+DeformationModel: ""
 
 WKID        : 8973
 Latest-WKID : 8973
@@ -22703,6 +22783,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF01P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF01P01",
+               DYNAMIC[FRAMEEPOCH[2000.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF01P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22723,6 +22804,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2000.0
+DeformationModel: ""
 
 WKID        : 8974
 Latest-WKID : 8974
@@ -22734,6 +22817,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF01P02",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF01P02",
+               DYNAMIC[FRAMEEPOCH[1998.4]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF01P02",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22754,6 +22838,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 1998.4
+DeformationModel: ""
 
 WKID        : 8975
 Latest-WKID : 8975
@@ -22765,6 +22851,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF02P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF02P01",
+               DYNAMIC[FRAMEEPOCH[2000.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF02P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22785,6 +22872,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2000.0
+DeformationModel: ""
 
 WKID        : 8976
 Latest-WKID : 8976
@@ -22796,6 +22885,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF04P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF04P01",
+               DYNAMIC[FRAMEEPOCH[2003.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF04P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22816,6 +22906,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2003.0
+DeformationModel: ""
 
 WKID        : 8977
 Latest-WKID : 8977
@@ -22827,6 +22919,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF05P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF05P01",
+               DYNAMIC[FRAMEEPOCH[2004.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF05P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22847,6 +22940,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2004.0
+DeformationModel: ""
 
 WKID        : 8978
 Latest-WKID : 8978
@@ -22858,6 +22953,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF06P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF06P01",
+               DYNAMIC[FRAMEEPOCH[2004.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF06P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22878,6 +22974,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2004.0
+DeformationModel: ""
 
 WKID        : 8979
 Latest-WKID : 8979
@@ -22889,6 +22987,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF07P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF07P01",
+               DYNAMIC[FRAMEEPOCH[2004.5]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF07P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22909,6 +23008,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2004.5
+DeformationModel: ""
 
 WKID        : 8980
 Latest-WKID : 8980
@@ -22920,6 +23021,7 @@ WKT         : GEOGCS["SIRGAS-CON_DGF08P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_DGF08P01",
+               DYNAMIC[FRAMEEPOCH[2004.5]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF08P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22940,6 +23042,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2004.5
+DeformationModel: ""
 
 WKID        : 8981
 Latest-WKID : 8981
@@ -22951,6 +23055,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR09P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR09P01",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR09P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -22971,6 +23076,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 8982
 Latest-WKID : 8982
@@ -22982,6 +23089,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR10P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR10P01",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR10P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23002,6 +23110,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 8983
 Latest-WKID : 8983
@@ -23013,6 +23123,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR11P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR11P01",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR11P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23033,6 +23144,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 8984
 Latest-WKID : 8984
@@ -23044,6 +23157,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR13P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR13P01",
+               DYNAMIC[FRAMEEPOCH[2012.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR13P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23064,6 +23178,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2012.0
+DeformationModel: ""
 
 WKID        : 8985
 Latest-WKID : 8985
@@ -23075,6 +23191,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR14P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR14P01",
+               DYNAMIC[FRAMEEPOCH[2013.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR14P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23095,6 +23212,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2013.0
+DeformationModel: ""
 
 WKID        : 8986
 Latest-WKID : 8986
@@ -23106,6 +23225,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR15P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR15P01",
+               DYNAMIC[FRAMEEPOCH[2013.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR15P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23126,6 +23246,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2013.0
+DeformationModel: ""
 
 WKID        : 8987
 Latest-WKID : 8987
@@ -23137,6 +23259,7 @@ WKT         : GEOGCS["SIRGAS-CON_SIR17P01",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SIRGAS-CON_SIR17P01",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR17P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23157,6 +23280,8 @@ Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
 Area-rlon   : -25.28
+FrameEpoch  : 2015.0
+DeformationModel: ""
 
 WKID        : 8988
 Latest-WKID : 8988
@@ -23203,8 +23328,7 @@ WKT         : GEOGCS["GCS_ITRF_1989",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1989",
-               DYNAMIC[FRAMEEPOCH[1988.0],
-                MODEL["AM0-2"]],
+               DYNAMIC[FRAMEEPOCH[1988.0]],
                DATUM["D_ITRF_1989",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23226,7 +23350,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: "AM0-2"
+DeformationModel: ""
 
 WKID        : 8990
 Latest-WKID : 8990
@@ -23273,8 +23397,7 @@ WKT         : GEOGCS["GCS_ITRF_1991",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1991",
-               DYNAMIC[FRAMEEPOCH[1988.0],
-                MODEL["NNR-NUVEL1"]],
+               DYNAMIC[FRAMEEPOCH[1988.0]],
                DATUM["D_ITRF_1991",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23296,7 +23419,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: "NNR-NUVEL1"
+DeformationModel: ""
 
 WKID        : 8992
 Latest-WKID : 8992
@@ -23343,8 +23466,7 @@ WKT         : GEOGCS["GCS_ITRF_1993",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1993",
-               DYNAMIC[FRAMEEPOCH[1993.0],
-                MODEL["NNR-NUVEL1A"]],
+               DYNAMIC[FRAMEEPOCH[1993.0]],
                DATUM["D_ITRF_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23366,7 +23488,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1993.0
-DeformationModel: "NNR-NUVEL1A"
+DeformationModel: ""
 
 WKID        : 8994
 Latest-WKID : 8994
@@ -23413,8 +23535,7 @@ WKT         : GEOGCS["GCS_ITRF_1996",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1996",
-               DYNAMIC[FRAMEEPOCH[1997.0],
-                MODEL["NNR-NUVEL1A"]],
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_1996",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23436,7 +23557,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1997.0
-DeformationModel: "NNR-NUVEL1A"
+DeformationModel: ""
 
 WKID        : 8996
 Latest-WKID : 8996
@@ -23483,8 +23604,7 @@ WKT         : GEOGCS["GCS_ITRF_2000",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_2000",
-               DYNAMIC[FRAMEEPOCH[1997.0],
-                MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23506,7 +23626,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1997.0
-DeformationModel: "NNR-NUVEL1A+ITRF2000-PMM"
+DeformationModel: ""
 
 WKID        : 8998
 Latest-WKID : 8998
@@ -23624,6 +23744,7 @@ WKT         : GEOGCS["IGS97_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["IGS97_3D",
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["IGS97",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23648,6 +23769,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1997.0
+DeformationModel: ""
 
 WKID        : 9003
 Latest-WKID : 9003
@@ -23659,6 +23782,7 @@ WKT         : GEOGCS["IGS97",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["IGS97",
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["IGS97",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23679,6 +23803,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1997.0
+DeformationModel: ""
 
 WKID        : 9005
 Latest-WKID : 9005
@@ -23691,6 +23817,7 @@ WKT         : GEOGCS["IGS00_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["IGS00_3D",
+               DYNAMIC[FRAMEEPOCH[1998.0]],
                DATUM["IGS00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23715,6 +23842,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1998.0
+DeformationModel: ""
 
 WKID        : 9006
 Latest-WKID : 9006
@@ -23726,6 +23855,7 @@ WKT         : GEOGCS["IGS00",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["IGS00",
+               DYNAMIC[FRAMEEPOCH[1998.0]],
                DATUM["IGS00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23746,6 +23876,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1998.0
+DeformationModel: ""
 
 WKID        : 9008
 Latest-WKID : 9008
@@ -23758,6 +23890,7 @@ WKT         : GEOGCS["IGb00_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["IGb00_3D",
+               DYNAMIC[FRAMEEPOCH[1998.0]],
                DATUM["IGb00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23782,6 +23915,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1998.0
+DeformationModel: ""
 
 WKID        : 9009
 Latest-WKID : 9009
@@ -23793,6 +23928,7 @@ WKT         : GEOGCS["IGb00",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["IGb00",
+               DYNAMIC[FRAMEEPOCH[1998.0]],
                DATUM["IGb00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23813,6 +23949,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1998.0
+DeformationModel: ""
 
 WKID        : 9011
 Latest-WKID : 9011
@@ -23825,6 +23963,7 @@ WKT         : GEOGCS["IGS05_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["IGS05_3D",
+               DYNAMIC[FRAMEEPOCH[2000.0]],
                DATUM["IGS05",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23849,6 +23988,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2000.0
+DeformationModel: ""
 
 WKID        : 9012
 Latest-WKID : 9012
@@ -23860,6 +24001,7 @@ WKT         : GEOGCS["IGS05",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["IGS05",
+               DYNAMIC[FRAMEEPOCH[2000.0]],
                DATUM["IGS05",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23880,6 +24022,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2000.0
+DeformationModel: ""
 
 WKID        : 9013
 Latest-WKID : 9013
@@ -23967,6 +24111,7 @@ WKT         : GEOGCS["IGb08_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["IGb08_3D",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["IGb08",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23991,6 +24136,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 9017
 Latest-WKID : 9017
@@ -24002,6 +24149,7 @@ WKT         : GEOGCS["IGb08",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["IGb08",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["IGb08",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -24022,6 +24170,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 9018
 Latest-WKID : 9018
@@ -24034,6 +24184,7 @@ WKT         : GEOGCS["IGS14_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["IGS14_3D",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["IGS14",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -24058,6 +24209,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2010.0
+DeformationModel: ""
 
 WKID        : 9019
 Latest-WKID : 9019
@@ -24069,6 +24222,7 @@ WKT         : GEOGCS["IGS14",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["IGS14",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["IGS14",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -24089,6 +24243,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2010.0
+DeformationModel: ""
 
 WKID        : 9053
 Latest-WKID : 9053
@@ -24100,8 +24256,7 @@ WKT         : GEOGCS["WGS_1984_(G730)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["WGS_1984_(G730)",
-               DYNAMIC[FRAMEEPOCH[1990.5],
-                MODEL["NNR-NUVEL1"]],
+               DYNAMIC[FRAMEEPOCH[1994.0]],
                DATUM["World_Geodetic_System_1984_(G730)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -24122,8 +24277,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 1990.5
-DeformationModel: "NNR-NUVEL1"
+FrameEpoch  : 1994.0
+DeformationModel: ""
 
 WKID        : 9054
 Latest-WKID : 9054
@@ -24240,8 +24395,7 @@ WKT         : GEOGCS["WGS_1984_(G1762)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["WGS_1984_(G1762)",
-               DYNAMIC[FRAMEEPOCH[2012.5],
-                MODEL["ITRF2008-PMM"]],
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["World_Geodetic_System_1984_(G1762)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -24262,8 +24416,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 2012.5
-DeformationModel: "ITRF2008-PMM"
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 9059
 Latest-WKID : 9059
@@ -25303,6 +25457,7 @@ WKT         : GEOGCS["ATRF2014_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["ATRF2014_3D",
+               DYNAMIC[FRAMEEPOCH[2020.0]],
                DATUM["Australian_Terrestrial_Reference_Frame_2014",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -25327,6 +25482,8 @@ Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
 Area-rlon   : 173.34
+FrameEpoch  : 2020.0
+DeformationModel: ""
 
 WKID        : 9309
 Latest-WKID : 9309
@@ -25338,6 +25495,7 @@ WKT         : GEOGCS["ATRF2014",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["ATRF2014",
+               DYNAMIC[FRAMEEPOCH[2020.0]],
                DATUM["Australian_Terrestrial_Reference_Frame_2014",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -25358,6 +25516,8 @@ Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
 Area-rlon   : 173.34
+FrameEpoch  : 2020.0
+DeformationModel: ""
 
 WKID        : 9332
 Latest-WKID : 9332
@@ -25499,6 +25659,7 @@ WKT         : GEOGCS["IGb14_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["IGb14_3D",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["IGb14",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -25523,6 +25684,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2010.0
+DeformationModel: ""
 
 WKID        : 9380
 Latest-WKID : 9380
@@ -25534,6 +25697,7 @@ WKT         : GEOGCS["IGb14",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["IGb14",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["IGb14",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -25554,6 +25718,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2010.0
+DeformationModel: ""
 
 WKID        : 9384
 Latest-WKID : 9384
@@ -25659,6 +25825,7 @@ WKT         : GEOGCS["SRGI2013_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["SRGI2013_3D",
+               DYNAMIC[FRAMEEPOCH[2012.0]],
                DATUM["Sistem_Referensi_Geospasial_Indonesia_2013",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -25683,6 +25850,8 @@ Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
 Area-rlon   : 141.46
+FrameEpoch  : 2012.0
+DeformationModel: ""
 
 WKID        : 9470
 Latest-WKID : 9470
@@ -25694,6 +25863,7 @@ WKT         : GEOGCS["SRGI2013",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["SRGI2013",
+               DYNAMIC[FRAMEEPOCH[2012.0]],
                DATUM["Sistem_Referensi_Geospasial_Indonesia_2013",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -25714,6 +25884,8 @@ Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
 Area-rlon   : 141.46
+FrameEpoch  : 2012.0
+DeformationModel: ""
 
 WKID        : 9474
 Latest-WKID : 9474
@@ -25725,6 +25897,7 @@ WKT         : GEOGCS["PZ-90.02",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["PZ-90.02",
+               DYNAMIC[FRAMEEPOCH[2002.0]],
                DATUM["Parametry_Zemli_1990.02",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -25745,6 +25918,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2002.0
+DeformationModel: ""
 
 WKID        : 9475
 Latest-WKID : 9475
@@ -25756,6 +25931,7 @@ WKT         : GEOGCS["PZ-90.11",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["PZ-90.11",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["Parametry_Zemli_1990.11",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -25776,6 +25952,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2010.0
+DeformationModel: ""
 
 WKID        : 9546
 Latest-WKID : 9546
@@ -25855,6 +26033,7 @@ WKT         : GEOGCS["REDGEOMIN_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["REDGEOMIN_3D",
+               DYNAMIC[FRAMEEPOCH[2019.0]],
                DATUM["Red_Geodesica_Para_Mineria_en_Chile",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -25879,6 +26058,8 @@ Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
 Area-rlon   : -65.72
+FrameEpoch  : 2019.0
+DeformationModel: ""
 
 WKID        : 9696
 Latest-WKID : 9696
@@ -25890,6 +26071,7 @@ WKT         : GEOGCS["REDGEOMIN",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["REDGEOMIN",
+               DYNAMIC[FRAMEEPOCH[2019.0]],
                DATUM["Red_Geodesica_Para_Mineria_en_Chile",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -25910,6 +26092,8 @@ Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
 Area-rlon   : -65.72
+FrameEpoch  : 2019.0
+DeformationModel: ""
 
 WKID        : 9701
 Latest-WKID : 9701
@@ -26647,6 +26831,7 @@ WKT         : GEOGCS["ITRF2020_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["ITRF2020_3D",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["International_Terrestrial_Reference_Frame_2020",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -26671,6 +26856,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2015.0
+DeformationModel: ""
 
 WKID        : 9990
 Latest-WKID : 9990
@@ -26682,6 +26869,7 @@ WKT         : GEOGCS["ITRF2020",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["ITRF2020",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["International_Terrestrial_Reference_Frame_2020",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -26702,6 +26890,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2015.0
+DeformationModel: ""
 
 WKID        : 10158
 Latest-WKID : 10158
@@ -26776,6 +26966,7 @@ WKT         : GEOGCS["IGS20_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["IGS20_3D",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["IGS20",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -26800,6 +26991,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2015.0
+DeformationModel: ""
 
 WKID        : 10178
 Latest-WKID : 10178
@@ -26811,6 +27004,7 @@ WKT         : GEOGCS["IGS20",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["IGS20",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["IGS20",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -26831,6 +27025,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2015.0
+DeformationModel: ""
 
 WKID        : 10185
 Latest-WKID : 10185
@@ -28019,6 +28215,73 @@ Area-nlat   : 52.5
 Area-llon   : -1.85
 Area-rlon   : -1.3
 
+WKID        : 10474
+Latest-WKID : 10474
+Macro       : PE_GCS_BBT2000_3D
+Name        : BBT2000_3D
+WKT         : GEOGCS["BBT2000_3D",
+               DATUM["Brenner_Base_Tunnel_2000",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["BBT2000_3D",
+               DATUM["Brenner_Base_Tunnel_2000",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BBT2000 (3D)
+Authority   : Esri
+Version     : 13.3.0
+Deprecated  : no
+Area-name   : Europe - Brenner
+Area-slat   : 46.45
+Area-nlat   : 47.33
+Area-llon   : 11.04
+Area-rlon   : 11.91
+
+WKID        : 10475
+Latest-WKID : 10475
+Macro       : PE_GCS_BBT2000
+Name        : BBT2000
+WKT         : GEOGCS["BBT2000",
+               DATUM["Brenner_Base_Tunnel_2000",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["BBT2000",
+               DATUM["Brenner_Base_Tunnel_2000",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : BBT2000
+Authority   : Esri
+Version     : 13.3.0
+Deprecated  : no
+Area-name   : Europe - Brenner
+Area-slat   : 46.45
+Area-nlat   : 47.33
+Area-llon   : 11.04
+Area-rlon   : 11.91
+
 WKID        : 20033
 Latest-WKID : 20033
 Macro       : PE_GCS_MWC18_IRF
@@ -28194,6 +28457,7 @@ WKT         : GEOGCS["GCS_WGS_1966",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_WGS_1966",
+               DYNAMIC[FRAMEEPOCH[1966.0]],
                DATUM["D_WGS_1966",
                 ELLIPSOID["NWL_9D", 6378145.0, 298.25,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -28214,6 +28478,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1966.0
+DeformationModel: ""
 
 WKID        : 37002
 Latest-WKID : 37002
@@ -30182,8 +30448,7 @@ WKT         : GEOGCS["WGS_1984_(G730)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["WGS_1984_(G730)",
-               DYNAMIC[FRAMEEPOCH[1990.5],
-                MODEL["NNR-NUVEL1"]],
+               DYNAMIC[FRAMEEPOCH[1994.0]],
                DATUM["World_Geodetic_System_1984_(G730)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -30204,8 +30469,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 1990.5
-DeformationModel: "NNR-NUVEL1"
+FrameEpoch  : 1994.0
+DeformationModel: ""
 
 WKID        : 104012
 Latest-WKID : 9054
@@ -30322,8 +30587,7 @@ WKT         : GEOGCS["WGS_1984_(G1762)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["WGS_1984_(G1762)",
-               DYNAMIC[FRAMEEPOCH[2012.5],
-                MODEL["ITRF2008-PMM"]],
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["World_Geodetic_System_1984_(G1762)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -30344,8 +30608,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 2012.5
-DeformationModel: "ITRF2008-PMM"
+FrameEpoch  : 2005.0
+DeformationModel: ""
 
 WKID        : 104016
 Latest-WKID : 8888
@@ -30357,6 +30621,7 @@ WKT         : GEOGCS["WGS_1984_(Transit)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["WGS_1984_(Transit)",
+               DYNAMIC[FRAMEEPOCH[1984.0]],
                DATUM["World_Geodetic_System_1984_(Transit)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -30377,6 +30642,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 1984.0
+DeformationModel: ""
 
 WKID        : 104017
 Latest-WKID : 9474
@@ -30388,6 +30655,7 @@ WKT         : GEOGCS["PZ-90.02",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["PZ-90.02",
+               DYNAMIC[FRAMEEPOCH[2002.0]],
                DATUM["Parametry_Zemli_1990.02",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -30408,6 +30676,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2002.0
+DeformationModel: ""
 
 WKID        : 104018
 Latest-WKID : 9475
@@ -30419,6 +30689,7 @@ WKT         : GEOGCS["PZ-90.11",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["PZ-90.11",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["Parametry_Zemli_1990.11",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -30439,6 +30710,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2010.0
+DeformationModel: ""
 
 WKID        : 104019
 Latest-WKID : 9000
@@ -30516,6 +30789,7 @@ WKT         : GEOGCS["IGS14",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["IGS14",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["IGS14",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -30536,6 +30810,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+FrameEpoch  : 2010.0
+DeformationModel: ""
 
 WKID        : 104022
 Latest-WKID : 104022
@@ -31326,8 +31602,7 @@ WKT         : GEOGCS["GCS_ITRF_1989",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1989",
-               DYNAMIC[FRAMEEPOCH[1988.0],
-                MODEL["AM0-2"]],
+               DYNAMIC[FRAMEEPOCH[1988.0]],
                DATUM["D_ITRF_1989",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -31349,7 +31624,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: "AM0-2"
+DeformationModel: ""
 
 WKID        : 104117
 Latest-WKID : 8990
@@ -31396,8 +31671,7 @@ WKT         : GEOGCS["GCS_ITRF_1991",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1991",
-               DYNAMIC[FRAMEEPOCH[1988.0],
-                MODEL["NNR-NUVEL1"]],
+               DYNAMIC[FRAMEEPOCH[1988.0]],
                DATUM["D_ITRF_1991",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -31419,7 +31693,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: "NNR-NUVEL1"
+DeformationModel: ""
 
 WKID        : 104119
 Latest-WKID : 8992
@@ -31466,8 +31740,7 @@ WKT         : GEOGCS["GCS_ITRF_1993",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1993",
-               DYNAMIC[FRAMEEPOCH[1993.0],
-                MODEL["NNR-NUVEL1A"]],
+               DYNAMIC[FRAMEEPOCH[1993.0]],
                DATUM["D_ITRF_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -31489,7 +31762,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1993.0
-DeformationModel: "NNR-NUVEL1A"
+DeformationModel: ""
 
 WKID        : 104121
 Latest-WKID : 8994
@@ -31536,8 +31809,7 @@ WKT         : GEOGCS["GCS_ITRF_1996",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1996",
-               DYNAMIC[FRAMEEPOCH[1997.0],
-                MODEL["NNR-NUVEL1A"]],
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_1996",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -31559,7 +31831,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1997.0
-DeformationModel: "NNR-NUVEL1A"
+DeformationModel: ""
 
 WKID        : 104123
 Latest-WKID : 8996
@@ -31606,8 +31878,7 @@ WKT         : GEOGCS["GCS_ITRF_2000",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_2000",
-               DYNAMIC[FRAMEEPOCH[1997.0],
-                MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -31629,7 +31900,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1997.0
-DeformationModel: "NNR-NUVEL1A+ITRF2000-PMM"
+DeformationModel: ""
 
 WKID        : 104125
 Latest-WKID : 4673
@@ -31920,8 +32191,7 @@ WKT         : GEOGCS["GCS_MONREF_1997",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_MONREF_1997",
-               DYNAMIC[FRAMEEPOCH[1997.0],
-                MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -31943,7 +32213,7 @@ Area-nlat   : 52.15
 Area-llon   : 87.76
 Area-rlon   : 119.94
 FrameEpoch  : 1997.0
-DeformationModel: "NNR-NUVEL1A+ITRF2000-PMM"
+DeformationModel: ""
 
 WKID        : 104135
 Latest-WKID : 104135
@@ -32931,10 +33201,10 @@ Description : NAD 1983 (PA11) - Pacific Plate 2011
 Authority   : Esri
 Version     : 10.1.0
 Deprecated  : yes
-Area-name   : Pacific - US interests Pacific plate
+Area-name   : NAD83 PA11 - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
-Area-llon   : 157.47
+Area-llon   : 151.3
 Area-rlon   : -151.27
 FrameEpoch  : 2012.4467
 DeformationModel: "HTDP"
@@ -33263,8 +33533,7 @@ WKT         : GEOGCS["MONREF_1997_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["MONREF_1997_3D",
-               DYNAMIC[FRAMEEPOCH[1997.0],
-                MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -33290,7 +33559,7 @@ Area-nlat   : 52.15
 Area-llon   : 87.76
 Area-rlon   : 119.94
 FrameEpoch  : 1997.0
-DeformationModel: "NNR-NUVEL1A+ITRF2000-PMM"
+DeformationModel: ""
 
 WKID        : 104664
 Latest-WKID : 104664

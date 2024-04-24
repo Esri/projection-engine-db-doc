@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2023 Esri Inc.                                            #
+#  Copyright 1999-2024 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -3178,10 +3178,10 @@ Description : NAD83(PA11)
 Authority   : EPSG
 Version     : 8.2.2
 Deprecated  : no
-Area-name   : Pacific - US interests Pacific plate
+Area-name   : NAD83 PA11 - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
-Area-llon   : 157.47
+Area-llon   : 151.3
 Area-rlon   : -151.27
 
 WKID        : 6323
@@ -6615,6 +6615,39 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
+
+WKID        : 10473
+Latest-WKID : 10473
+Macro       : PE_XYZ_BBT2000
+Name        : BBT2000
+WKT         : GXYZCS["BBT2000",
+               DATUM["Brenner_Base_Tunnel_2000",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["BBT2000",
+               DATUM["Brenner_Base_Tunnel_2000",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : BBT2000
+Authority   : Esri
+Version     : 13.3.0
+Deprecated  : no
+Area-name   : Europe - Brenner
+Area-slat   : 46.45
+Area-nlat   : 47.33
+Area-llon   : 11.04
+Area-rlon   : 11.91
 
 WKID        : 20039
 Latest-WKID : 20039

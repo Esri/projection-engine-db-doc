@@ -1719,11 +1719,11 @@
     "authority": "EPSG",
     "version": "8.2.2",
     "deprecated": "no",
-    "areaname": "Pacific - US interests Pacific plate",
+    "areaname": "NAD83 PA11 - US interests Pacific plate",
     "extent":
     { "slat": -17.56,
       "nlat": 31.8,
-      "llon": 157.47,
+      "llon": 151.3,
       "rlon": -151.27
     }
   },
@@ -3597,6 +3597,24 @@
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
+    }
+  },
+  { "wkid": 10473,
+    "latestWkid": 10473,
+    "macro": "PE_XYZ_BBT2000",
+    "name": "BBT2000",
+    "wkt": "GXYZCS[\"BBT2000\",DATUM[\"Brenner_Base_Tunnel_2000\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"BBT2000\",DATUM[\"Brenner_Base_Tunnel_2000\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0]]",
+    "description": "BBT2000",
+    "authority": "Esri",
+    "version": "13.3.0",
+    "deprecated": "no",
+    "areaname": "Europe - Brenner",
+    "extent":
+    { "slat": 46.45,
+      "nlat": 47.33,
+      "llon": 11.04,
+      "rlon": 11.91
     }
   },
   { "wkid": 20039,

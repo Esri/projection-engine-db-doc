@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2023 Esri Inc.                                            #
+#  Copyright 1999-2024 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -626,6 +626,8 @@ WKT         : VERTCS["RH2000",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["RH2000",
+               DYNAMIC[FRAMEEPOCH[2000.0],
+                MODEL["Levelling-based"]],
                VDATUM["Rikets_Hojdsystem_2000"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
@@ -639,6 +641,8 @@ Area-slat   : 55.28
 Area-nlat   : 69.07
 Area-llon   : 10.93
 Area-rlon   : 24.17
+FrameEpoch  : 2000.0
+DeformationModel: "Levelling-based"
 
 WKID        : 5614
 Latest-WKID : 5614
@@ -2757,12 +2761,12 @@ Latest-WKID : 5783
 Macro       : PE_VCS_DHHN92
 Name        : DHHN92
 WKT         : VERTCS["DHHN92",
-               VDATUM["Deutches_Haupthoehennetz_1992"],
+               VDATUM["Deutsches_Haupthoehennetz_1992"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["DHHN92",
-               VDATUM["Deutches_Haupthoehennetz_1992"],
+               VDATUM["Deutsches_Haupthoehennetz_1992"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
@@ -2781,12 +2785,12 @@ Latest-WKID : 5784
 Macro       : PE_VCS_DHHN85
 Name        : DHHN85
 WKT         : VERTCS["DHHN85",
-               VDATUM["Deutches_Haupthoehennetz_1985"],
+               VDATUM["Deutsches_Haupthoehennetz_1985"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["DHHN85",
-               VDATUM["Deutches_Haupthoehennetz_1985"],
+               VDATUM["Deutsches_Haupthoehennetz_1985"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
@@ -3578,6 +3582,8 @@ WKT         : VERTCS["NN2000_height",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NN2000_height",
+               DYNAMIC[FRAMEEPOCH[2000.0],
+                MODEL["Levelling-based"]],
                VDATUM["Norway_Normal_Null_2000"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
@@ -3591,6 +3597,8 @@ Area-slat   : 57.9
 Area-nlat   : 71.24
 Area-llon   : 4.39
 Area-rlon   : 31.32
+FrameEpoch  : 2000.0
+DeformationModel: "Levelling-based"
 
 WKID        : 6130
 Latest-WKID : 6130
@@ -6331,6 +6339,33 @@ Area-nlat   : 7.79
 Area-llon   : 92.01
 Area-rlon   : 141.46
 
+WKID        : 105602
+Latest-WKID : 105602
+Macro       : PE_VCS_BBT2000
+Name        : BBT2000
+WKT         : VERTCS["BBT2000",
+               DATUM["Brenner_Base_Tunnel_2000",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["BBT2000",
+               DATUM["Brenner_Base_Tunnel_2000",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BBT2000
+Authority   : Esri
+Version     : 13.3.0
+Deprecated  : no
+Area-name   : Europe - Brenner
+Area-slat   : 46.45
+Area-nlat   : 47.33
+Area-llon   : 11.04
+Area-rlon   : 11.91
+
 WKID        : 105603
 Latest-WKID : 105603
 Macro       : PE_VCS_REDNAP
@@ -6413,6 +6448,8 @@ WKT         : VERTCS["RH2000",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["RH2000",
+               DYNAMIC[FRAMEEPOCH[2000.0],
+                MODEL["Levelling-based"]],
                VDATUM["Rikets_Hojdsystem_2000"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
@@ -6426,6 +6463,8 @@ Area-slat   : 55.28
 Area-nlat   : 69.07
 Area-llon   : 10.93
 Area-rlon   : 24.17
+FrameEpoch  : 2000.0
+DeformationModel: "Levelling-based"
 
 WKID        : 105703
 Latest-WKID : 6360
@@ -6594,6 +6633,102 @@ Area-slat   : -46.73
 Area-nlat   : -44.52
 Area-llon   : 166.37
 Area-rlon   : 169.95
+
+WKID        : 105795
+Latest-WKID : 105795
+Macro       : PE_VCS_MSL_HI_HT_M
+Name        : MSL_Hawaii_height_(m)
+WKT         : VERTCS["MSL_Hawaii_height_(m)",
+               VDATUM["Mean_Sea_Level_Hawaii"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["MSL_Hawaii_height_(m)",
+               VDATUM["Mean_Sea_Level_Hawaii"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : MSL Hawaii height (m)
+Authority   : Esri
+Version     : 13.3.0
+Deprecated  : no
+Area-name   : USA - Hawaii - onshore
+Area-slat   : 18.87
+Area-nlat   : 22.29
+Area-llon   : -160.3
+Area-rlon   : -154.74
+
+WKID        : 105796
+Latest-WKID : 105796
+Macro       : PE_VCS_MSL_HI_HT_USFT
+Name        : MSL_Hawaii_height_(ftUS)
+WKT         : VERTCS["MSL_Hawaii_height_(ftUS)",
+               VDATUM["Mean_Sea_Level_Hawaii"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot_US", 0.3048006096012192]]
+WKT2        : VERTCRS["MSL_Hawaii_height_(ftUS)",
+               VDATUM["Mean_Sea_Level_Hawaii"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Foot_US", 0.3048006096012192]]]
+Description : MSL Hawaii height (ftUS)
+Authority   : Esri
+Version     : 13.3.0
+Deprecated  : no
+Area-name   : USA - Hawaii - onshore
+Area-slat   : 18.87
+Area-nlat   : 22.29
+Area-llon   : -160.3
+Area-rlon   : -154.74
+
+WKID        : 105797
+Latest-WKID : 105797
+Macro       : PE_VCS_EGM96_GEOID_IFT
+Name        : EGM96_Geoid_(ftIntl)
+WKT         : VERTCS["EGM96_Geoid_(ftIntl)",
+               VDATUM["EGM96_Geoid"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot", 0.3048]]
+WKT2        : VERTCRS["EGM96_Geoid_(ftIntl)",
+               VDATUM["EGM96_Geoid"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Foot", 0.3048]]]
+Description : EGM96 Geoid (ftIntl)
+Authority   : Esri
+Version     : 13.3.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 105798
+Latest-WKID : 105798
+Macro       : PE_VCS_EGM96_GEOID_USFT
+Name        : EGM96_Geoid_(ftUS)
+WKT         : VERTCS["EGM96_Geoid_(ftUS)",
+               VDATUM["EGM96_Geoid"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Foot_US", 0.3048006096012192]]
+WKT2        : VERTCRS["EGM96_Geoid_(ftUS)",
+               VDATUM["EGM96_Geoid"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Foot_US", 0.3048006096012192]]]
+Description : EGM96 Geoid (ftUS)
+Authority   : Esri
+Version     : 13.3.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
 
 WKID        : 115700
 Latest-WKID : 115700
@@ -8290,10 +8425,10 @@ Description : NAD 1983 (PA11) ellipsoid height
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Pacific - US interests Pacific plate
+Area-name   : NAD83 PA11 - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
-Area-llon   : 157.47
+Area-llon   : 151.3
 Area-rlon   : -151.27
 
 WKID        : 115763

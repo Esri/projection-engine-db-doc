@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2023 Esri Inc.                                            #
+#  Copyright 1999-2024 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -113,6 +113,17 @@ WKT2        : METHOD["VERTCON"]
 Description : VERTCON
 Authority   : Esri
 Version     : 9.3.0.0
+Deprecated  : no
+
+WKID        : 129659
+Latest-WKID : 129659
+Macro       : PE_VTMTH_VERTCON3
+Name        : VERTCON3
+WKT         : VTMETHOD["VERTCON3"]
+WKT2        : METHOD["VERTCON3"]
+Description : VERTCON3
+Authority   : Esri
+Version     : 13.3.0
 Deprecated  : no
 
 WKID        : 129661

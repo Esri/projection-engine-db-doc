@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2023 Esri Inc.                                            #
+#  Copyright 1999-2024 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -34,10 +34,18 @@
 # DEPRECATED: new code = 104025
 4812,GEOGCRS["GCS_Voirol_Unifie_1960_Paris",DATUM["D_Voirol_Unifie_1960",ELLIPSOID["Clarke_1880_RGS",6378249.145,293.465,LENGTHUNIT["Meter",1.0]]],PRIMEM["Paris",2.337229166666667,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Grad",0.01570796326794897],ID["Esri","104025"]]
 
+# BBT2000_3D [BBT2000 (3D)]
+# area: (lat: 46.45, 47.33) - (lon: 11.04, 11.91) [Europe - Brenner]
+10474,GEOGCRS["BBT2000_3D",DATUM["Brenner_Base_Tunnel_2000",ELLIPSOID["WGS_1984",6378137.0,298.257223563,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,3],AXIS["Longitude (lon)",east,ORDER[1],ANGLEUNIT["Degree",0.0174532925199433]],AXIS["Latitude (lat)",north,ORDER[2],ANGLEUNIT["Degree",0.0174532925199433]],AXIS["Ellipsoidal height (h)",up,ORDER[3],LENGTHUNIT["Meter",1.0]],ID["Esri","10474"]]
+
+# BBT2000 [BBT2000]
+# area: (lat: 46.45, 47.33) - (lon: 11.04, 11.91) [Europe - Brenner]
+10475,GEOGCRS["BBT2000",DATUM["Brenner_Base_Tunnel_2000",ELLIPSOID["WGS_1984",6378137.0,298.257223563,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","10475"]]
+
 # GCS_WGS_1966 [WGS 1966]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 4760
-37001,GEOGCRS["GCS_WGS_1966",DATUM["D_WGS_1966",ELLIPSOID["NWL_9D",6378145.0,298.25,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","4760"]]
+37001,GEOGCRS["GCS_WGS_1966",DYNAMIC[FRAMEEPOCH[1966.0]],DATUM["D_WGS_1966",ELLIPSOID["NWL_9D",6378145.0,298.25,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","4760"]]
 
 # GCS_Fischer_1960 [Fischer 1960]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
@@ -336,7 +344,7 @@
 # WGS_1984_(G730) [World Geodetic System 1984 (G730)]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 9053
-104011,GEOGCRS["WGS_1984_(G730)",DYNAMIC[FRAMEEPOCH[1990.5],MODEL["NNR-NUVEL1"]],DATUM["World_Geodetic_System_1984_(G730)",ELLIPSOID["WGS_1984",6378137.0,298.257223563,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","9053"]]
+104011,GEOGCRS["WGS_1984_(G730)",DYNAMIC[FRAMEEPOCH[1994.0]],DATUM["World_Geodetic_System_1984_(G730)",ELLIPSOID["WGS_1984",6378137.0,298.257223563,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","9053"]]
 
 # WGS_1984_(G873) [World Geodetic System 1984 (G873)]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
@@ -356,22 +364,22 @@
 # WGS_1984_(G1762) [World Geodetic System 1984 (G1762)]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 9057
-104015,GEOGCRS["WGS_1984_(G1762)",DYNAMIC[FRAMEEPOCH[2012.5],MODEL["ITRF2008-PMM"]],DATUM["World_Geodetic_System_1984_(G1762)",ELLIPSOID["WGS_1984",6378137.0,298.257223563,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","9057"]]
+104015,GEOGCRS["WGS_1984_(G1762)",DYNAMIC[FRAMEEPOCH[2005.0]],DATUM["World_Geodetic_System_1984_(G1762)",ELLIPSOID["WGS_1984",6378137.0,298.257223563,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","9057"]]
 
 # WGS_1984_(Transit) [World Geodetic System 1984 (Transit)]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 8888
-104016,GEOGCRS["WGS_1984_(Transit)",DATUM["World_Geodetic_System_1984_(Transit)",ELLIPSOID["WGS_1984",6378137.0,298.257223563,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8888"]]
+104016,GEOGCRS["WGS_1984_(Transit)",DYNAMIC[FRAMEEPOCH[1984.0]],DATUM["World_Geodetic_System_1984_(Transit)",ELLIPSOID["WGS_1984",6378137.0,298.257223563,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8888"]]
 
 # PZ-90.02 [Parametry Zemli 1990.02]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 9474
-104017,GEOGCRS["PZ-90.02",DATUM["Parametry_Zemli_1990.02",ELLIPSOID["PZ_1990",6378136.0,298.257839303,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","9474"]]
+104017,GEOGCRS["PZ-90.02",DYNAMIC[FRAMEEPOCH[2002.0]],DATUM["Parametry_Zemli_1990.02",ELLIPSOID["PZ_1990",6378136.0,298.257839303,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","9474"]]
 
 # PZ-90.11 [Parametry Zemli 1990.11]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 9475
-104018,GEOGCRS["PZ-90.11",DATUM["Parametry_Zemli_1990.11",ELLIPSOID["PZ_1990",6378136.0,298.257839303,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","9475"]]
+104018,GEOGCRS["PZ-90.11",DYNAMIC[FRAMEEPOCH[2010.0]],DATUM["Parametry_Zemli_1990.11",ELLIPSOID["PZ_1990",6378136.0,298.257839303,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","9475"]]
 
 # ITRF2014 [ITRF2014]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
@@ -386,7 +394,7 @@
 # IGS14 [IGS14]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 9019
-104021,GEOGCRS["IGS14",DATUM["IGS14",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","9019"]]
+104021,GEOGCRS["IGS14",DYNAMIC[FRAMEEPOCH[2010.0]],DATUM["IGS14",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","9019"]]
 
 # GGD [Georgia Geodetic Datum]
 # area: (lat: 41.04, 43.59) - (lon: 39.99, 46.72) [Georgia - onshore]
@@ -503,7 +511,7 @@
 # GCS_ITRF_1989 [IERS Terrestrial Reference Frame 1989]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 8989
-104116,GEOGCRS["GCS_ITRF_1989",DYNAMIC[FRAMEEPOCH[1988.0],MODEL["AM0-2"]],DATUM["D_ITRF_1989",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8989"]]
+104116,GEOGCRS["GCS_ITRF_1989",DYNAMIC[FRAMEEPOCH[1988.0]],DATUM["D_ITRF_1989",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8989"]]
 
 # GCS_ITRF_1990 [IERS Terrestrial Reference Frame 1990]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
@@ -513,7 +521,7 @@
 # GCS_ITRF_1991 [IERS Terrestrial Reference Frame 1991]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 8991
-104118,GEOGCRS["GCS_ITRF_1991",DYNAMIC[FRAMEEPOCH[1988.0],MODEL["NNR-NUVEL1"]],DATUM["D_ITRF_1991",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8991"]]
+104118,GEOGCRS["GCS_ITRF_1991",DYNAMIC[FRAMEEPOCH[1988.0]],DATUM["D_ITRF_1991",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8991"]]
 
 # GCS_ITRF_1992 [IERS Terrestrial Reference Frame 1992]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
@@ -523,7 +531,7 @@
 # GCS_ITRF_1993 [IERS Terrestrial Reference Frame 1993]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 8993
-104120,GEOGCRS["GCS_ITRF_1993",DYNAMIC[FRAMEEPOCH[1993.0],MODEL["NNR-NUVEL1A"]],DATUM["D_ITRF_1993",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8993"]]
+104120,GEOGCRS["GCS_ITRF_1993",DYNAMIC[FRAMEEPOCH[1993.0]],DATUM["D_ITRF_1993",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8993"]]
 
 # GCS_ITRF_1994 [IERS Terrestrial Reference Frame 1994]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
@@ -533,7 +541,7 @@
 # GCS_ITRF_1996 [IERS Terrestrial Reference Frame 1996]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 8995
-104122,GEOGCRS["GCS_ITRF_1996",DYNAMIC[FRAMEEPOCH[1997.0],MODEL["NNR-NUVEL1A"]],DATUM["D_ITRF_1996",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8995"]]
+104122,GEOGCRS["GCS_ITRF_1996",DYNAMIC[FRAMEEPOCH[1997.0]],DATUM["D_ITRF_1996",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8995"]]
 
 # GCS_ITRF_1997 [IERS Terrestrial Reference Frame 1997]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
@@ -543,7 +551,7 @@
 # GCS_ITRF_2000 [IERS Terrestrial Reference Frame 2000]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
 # DEPRECATED: new code = 8997
-104124,GEOGCRS["GCS_ITRF_2000",DYNAMIC[FRAMEEPOCH[1997.0],MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8997"]]
+104124,GEOGCRS["GCS_ITRF_2000",DYNAMIC[FRAMEEPOCH[1997.0]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","8997"]]
 
 # GCS_Chatham_Islands_1979 [Chatham Islands 1979]
 # area: (lat: -44.64, -43.3) - (lon: -177.25, -175.54) [New Zealand - Chatham Islands group]
@@ -586,7 +594,7 @@
 
 # GCS_MONREF_1997 [MONREF 1997 (Mongolian 1997)]
 # area: (lat: 41.58, 52.15) - (lon: 87.76, 119.94) [Mongolia]
-104134,GEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0],MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","104134"]]
+104134,GEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","104134"]]
 
 # GCS_MSK_1942 [MSK 1942 (Mongolian Pulkovo 1942)]
 # area: (lat: 41.58, 52.15) - (lon: 87.76, 119.94) [Mongolia]
@@ -730,7 +738,7 @@
 104286,GEOGCRS["GCS_NAD_1983_MA11",DYNAMIC[FRAMEEPOCH[2012.4467],MODEL["HTDP"]],DATUM["D_NAD_1983_MA11",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","6325"]]
 
 # GCS_NAD_1983_PA11 [NAD 1983 (PA11) - Pacific Plate 2011]
-# area: (lat: -17.56, 31.8) - (lon: 157.47, -151.27) [Pacific - US interests Pacific plate]
+# area: (lat: -17.56, 31.8) - (lon: 151.3, -151.27) [NAD83 PA11 - US interests Pacific plate]
 # DEPRECATED: new code = 6322
 104287,GEOGCRS["GCS_NAD_1983_PA11",DYNAMIC[FRAMEEPOCH[2012.4467],MODEL["HTDP"]],DATUM["D_NAD_1983_PA11",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433],ID["Esri","6322"]]
 
@@ -775,7 +783,7 @@
 
 # MONREF_1997_3D [MONREF 1997 (Mongolian 1997) (3D)]
 # area: (lat: 41.58, 52.15) - (lon: 87.76, 119.94) [Mongolia]
-104653,GEOGCRS["MONREF_1997_3D",DYNAMIC[FRAMEEPOCH[1997.0],MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,3],AXIS["Longitude (lon)",east,ORDER[1],ANGLEUNIT["Degree",0.0174532925199433]],AXIS["Latitude (lat)",north,ORDER[2],ANGLEUNIT["Degree",0.0174532925199433]],AXIS["Ellipsoidal height (h)",up,ORDER[3],LENGTHUNIT["Meter",1.0]],ID["Esri","104653"]]
+104653,GEOGCRS["MONREF_1997_3D",DYNAMIC[FRAMEEPOCH[1997.0]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,3],AXIS["Longitude (lon)",east,ORDER[1],ANGLEUNIT["Degree",0.0174532925199433]],AXIS["Latitude (lat)",north,ORDER[2],ANGLEUNIT["Degree",0.0174532925199433]],AXIS["Ellipsoidal height (h)",up,ORDER[3],LENGTHUNIT["Meter",1.0]],ID["Esri","104653"]]
 
 # Nepal_Nagarkot_3D [Nepal Nagarkot (3D)]
 # area: (lat: 26.34, 30.43) - (lon: 80.06, 88.21) [Nepal]
@@ -1988,6 +1996,30 @@
 # area: (lat: 36.97, 41.02) - (lon: 43.5, 44.83) [Turkey - east of 43.5~E]
 # DEPRECATED: new code = 102556
 2187,PROJCRS["ED_1950_Turkey_15",BASEGEOGCRS["GCS_European_1950",DATUM["D_European_1950",ELLIPSOID["International_1924",6378388.0,297.0,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",15500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",45.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102556"]]
+
+# BBT2000_BBT-TM [BBT2000 / BBT-TM]
+# area: (lat: 46.45, 47.33) - (lon: 11.04, 11.91) [Europe - Brenner]
+10477,PROJCRS["BBT2000_BBT-TM",BASEGEOGCRS["BBT2000",DATUM["Brenner_Base_Tunnel_2000",ELLIPSOID["WGS_1984",6378137.0,298.257223563,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",20000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",100000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",11.52849375,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",1.000121,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",46.98077630555556,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","10477"]]
+
+# NAD_1983_TWDB_GM [NAD83 / TWDB GM]
+# area: (lat: 25.83, 36.5) - (lon: -106.66, -93.5) [USA - Texas]
+10481,PROJCRS["NAD_1983_TWDB_GM",BASEGEOGCRS["GCS_North_American_1983",DATUM["D_North_American_1983",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Albers",METHOD["Albers"],PARAMETER["False_Easting",4921250.0,LENGTHUNIT["Foot_US",0.3048006096012192]],PARAMETER["False_Northing",19685000.0,LENGTHUNIT["Foot_US",0.3048006096012192]],PARAMETER["Central_Meridian",-100.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Standard_Parallel_1",27.5,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Standard_Parallel_2",35.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Latitude_Of_Origin",31.25,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Foot_US",0.3048006096012192],ID["Esri","10481"]]
+
+# NAD_1983_(2011)_Adjusted_Jackson_(ftUS) [NAD83(2011) / Adjusted Jackson (ftUS)]
+# area: (lat: 44.07, 44.6) - (lon: -91.17, -90.31) [USA - Wisconsin - Jackson]
+10516,PROJCRS["NAD_1983_(2011)_Adjusted_Jackson_(ftUS)",BASEGEOGCRS["GCS_NAD_1983_2011",DYNAMIC[FRAMEEPOCH[2010.0],MODEL["HTDP"]],DATUM["D_NAD_1983_2011",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",88582.5,LENGTHUNIT["Foot_US",0.3048006096012192]],PARAMETER["False_Northing",82020.833,LENGTHUNIT["Foot_US",0.3048006096012192]],PARAMETER["Central_Meridian",-90.84429651388886,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",1.0000353,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",44.25333532222221,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Foot_US",0.3048006096012192],ID["Esri","10516"]]
+
+# ETRS89_DREF91_2016_UTM_zone_31N [ETRS89/DREF91/2016 / UTM zone 31N]
+# area: (lat: 50.97, 55.92) - (lon: 3.34, 6.0) [Germany - west of 6~E]
+10731,PROJCRS["ETRS89_DREF91_2016_UTM_zone_31N",BASEGEOGCRS["ETRS89_DREF91_2016",DATUM["ETRS89_DREF91_Realization_2016",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",3.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","10731"]]
+
+# ETRS89_DREF91_2016_UTM_zone_32N [ETRS89/DREF91/2016 / UTM zone 32N]
+# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.01) [Germany - 6~E to 12~E]
+10732,PROJCRS["ETRS89_DREF91_2016_UTM_zone_32N",BASEGEOGCRS["ETRS89_DREF91_2016",DATUM["ETRS89_DREF91_Realization_2016",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",9.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","10732"]]
+
+# ETRS89_DREF91_2016_UTM_zone_33N [ETRS89/DREF91/2016 / UTM zone 33N]
+# area: (lat: 47.46, 55.03) - (lon: 11.57, 15.04) [Germany - east of 12~E]
+10733,PROJCRS["ETRS89_DREF91_2016_UTM_zone_33N",BASEGEOGCRS["ETRS89_DREF91_2016",DATUM["ETRS89_DREF91_Realization_2016",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",15.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","10733"]]
 
 # Pulkovo_1995_GK_Zone_2N [Pulkovo 1995 GK Zone 2N (deprecated)]
 # area: (lat: 50.21, 54.18) - (lon: 9.93, 12.0) [Europe - 6~E to 12~E and Pulkovo by country]
@@ -3533,23 +3565,23 @@
 
 # MONREF_1997_UTM_Zone_46N [MONREF 1997 UTM Zone 46 N]
 # area: (lat: 43.01, 50.89) - (lon: 87.76, 96.0) [Mongolia - west of 96~E]
-102224,PROJCRS["MONREF_1997_UTM_Zone_46N",BASEGEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0],MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",93.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102224"]]
+102224,PROJCRS["MONREF_1997_UTM_Zone_46N",BASEGEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",93.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102224"]]
 
 # MONREF_1997_UTM_Zone_47N [MONREF 1997 UTM Zone 47 N]
 # area: (lat: 42.14, 52.15) - (lon: 96.0, 102.0) [Mongolia - between 96~E and 102~E]
-102225,PROJCRS["MONREF_1997_UTM_Zone_47N",BASEGEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0],MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",99.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102225"]]
+102225,PROJCRS["MONREF_1997_UTM_Zone_47N",BASEGEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",99.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102225"]]
 
 # MONREF_1997_UTM_Zone_48N [MONREF 1997 UTM Zone 48 N]
 # area: (lat: 41.58, 51.42) - (lon: 102.0, 108.0) [Mongolia - between 102~E and 108~E]
-102226,PROJCRS["MONREF_1997_UTM_Zone_48N",BASEGEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0],MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",105.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102226"]]
+102226,PROJCRS["MONREF_1997_UTM_Zone_48N",BASEGEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",105.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102226"]]
 
 # MONREF_1997_UTM_Zone_49N [MONREF 1997 UTM Zone 49 N]
 # area: (lat: 42.35, 50.23) - (lon: 108.0, 114.0) [Mongolia - between 108~E and 114~E]
-102227,PROJCRS["MONREF_1997_UTM_Zone_49N",BASEGEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0],MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",111.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102227"]]
+102227,PROJCRS["MONREF_1997_UTM_Zone_49N",BASEGEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",111.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102227"]]
 
 # MONREF_1997_UTM_Zone_50N [MONREF 1997 UTM Zone 50 N]
 # area: (lat: 44.9, 50.32) - (lon: 114.0, 119.94) [Mongolia - east of 114~E]
-102228,PROJCRS["MONREF_1997_UTM_Zone_50N",BASEGEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0],MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",117.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102228"]]
+102228,PROJCRS["MONREF_1997_UTM_Zone_50N",BASEGEOGCRS["GCS_MONREF_1997",DYNAMIC[FRAMEEPOCH[1997.0]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Longitude (lon)",east,ORDER[1]],AXIS["Latitude (lat)",north,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",117.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102228"]]
 
 # NAD_1983_HARN_StatePlane_Alabama_East_FIPS_0101 [NAD 1983 HARN SPCS Alabama East]
 # area: (lat: 30.99, 35.0) - (lon: -86.79, -84.89) [USA - Alabama - SPCS - E]
@@ -4187,7 +4219,7 @@
 102361,PROJCRS["NAD_1983_HARN_StatePlane_Puerto_Rico_Virgin_Islands_FIPS_5200",BASEGEOGCRS["GCS_North_American_1983_HARN",DATUM["D_North_American_1983_HARN",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Lambert_Conformal_Conic",METHOD["Lambert_Conformal_Conic"],PARAMETER["False_Easting",200000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",200000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",-66.43333333333334,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Standard_Parallel_1",18.03333333333333,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Standard_Parallel_2",18.43333333333333,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Latitude_Of_Origin",17.83333333333333,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","2866"]]
 
 # ETRS_1989_UTM_Zone_N32 [ETRS 1989 UTM Zone 32N with FE prefix]
-# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.0) [Germany - 6~E to 12~E]
+# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.01) [Germany - 6~E to 12~E]
 # DEPRECATED: new code = 4647
 102362,PROJCRS["ETRS_1989_UTM_Zone_N32",BASEGEOGCRS["GCS_ETRS_1989",DATUM["D_ETRS_1989",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",32500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",9.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","4647"]]
 
@@ -4761,7 +4793,7 @@
 # GOES-16_East_ABI_Fixed_Grid_ITRF2000_incorrect_GCS [GOES-16 East ABI Fixed Grid ITRF2000 (incorrect GCS)]
 # area: (lat: -81.3282, 81.3282) - (lon: -156.2995, 6.2995) [GOES-16 East Full disk]
 # DISCONTINUED
-102497,PROJCRS["GOES-16_East_ABI_Fixed_Grid_ITRF2000_incorrect_GCS",BASEGEOGCRS["GCS_ITRF_2000",DYNAMIC[FRAMEEPOCH[1997.0],MODEL["NNR-NUVEL1A+ITRF2000-PMM"]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Geostationary_Satellite",METHOD["Geostationary_Satellite"],PARAMETER["False_Easting",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Longitude_Of_Center",-75.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Height",35786023.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Option",0.0]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102497"]]
+102497,PROJCRS["GOES-16_East_ABI_Fixed_Grid_ITRF2000_incorrect_GCS",BASEGEOGCRS["GCS_ITRF_2000",DYNAMIC[FRAMEEPOCH[1997.0]],DATUM["D_ITRF_2000",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Geostationary_Satellite",METHOD["Geostationary_Satellite"],PARAMETER["False_Easting",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Longitude_Of_Center",-75.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Height",35786023.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Option",0.0]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102497"]]
 
 # GOES-16_East_ABI_Fixed_Grid_ITRF2008 [GOES-16 East ABI Fixed Grid ITRF2008 (DEPRECATED)]
 # area: (lat: -81.3282, 81.3282) - (lon: -156.2995, 6.2995) [GOES-16 East Full disk]
@@ -6943,6 +6975,26 @@
 # UTM_Gulshan [UTM Gulshan]
 # area: (lat: 18.56, 26.64) - (lon: 88.01, 92.67) [Bangladesh]
 102955,PROJCRS["UTM_Gulshan",BASEGEOGCRS["GCS_Gulshan_303",DATUM["D_Gulshan_303",ELLIPSOID["Everest_Adjustment_1937",6377276.345,300.8017,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",90.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102955"]]
+
+# NAD_1983_(MA11)_UTM_Zone_53N [NAD 1983 (MA11) UTM Zone 53N]
+# area: (lat: 6.87, 7.7) - (lon: 134.1, 134.65) [Republic of Palau - Babeldaob]
+102956,PROJCRS["NAD_1983_(MA11)_UTM_Zone_53N",BASEGEOGCRS["GCS_NAD_1983_MA11",DYNAMIC[FRAMEEPOCH[2012.4467],MODEL["HTDP"]],DATUM["D_NAD_1983_MA11",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",135.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102956"]]
+
+# NAD_1983_(PA11)_UTM_Zone_56N [NAD 1983 (PA11) UTM Zone 56N]
+# area: (lat: 6.9, 7.8) - (lon: 151.3, 152.15) [Federated States of Micronesia - UTM 56N]
+102957,PROJCRS["NAD_1983_(PA11)_UTM_Zone_56N",BASEGEOGCRS["GCS_NAD_1983_PA11",DYNAMIC[FRAMEEPOCH[2012.4467],MODEL["HTDP"]],DATUM["D_NAD_1983_PA11",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",153.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102957"]]
+
+# NAD_1983_(PA11)_UTM_Zone_57N [NAD 1983 (PA11) UTM Zone 57N]
+# area: (lat: 5.25, 7.02) - (lon: 157.92, 163.07) [Federated States of Micronesia - UTM 57N and east]
+102958,PROJCRS["NAD_1983_(PA11)_UTM_Zone_57N",BASEGEOGCRS["GCS_NAD_1983_PA11",DYNAMIC[FRAMEEPOCH[2012.4467],MODEL["HTDP"]],DATUM["D_NAD_1983_PA11",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",159.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102958"]]
+
+# NAD_1983_(PA11)_UTM_Zone_58N [NAD 1983 (PA11) UTM Zone 58N]
+# area: (lat: 8.0, 11.64) - (lon: 162.0, 168.0) [Republic of Marshall Islands - UTM 58N]
+102959,PROJCRS["NAD_1983_(PA11)_UTM_Zone_58N",BASEGEOGCRS["GCS_NAD_1983_PA11",DYNAMIC[FRAMEEPOCH[2012.4467],MODEL["HTDP"]],DATUM["D_NAD_1983_PA11",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",165.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102959"]]
+
+# NAD_1983_(PA11)_UTM_Zone_59N [NAD 1983 (PA11) UTM Zone 59N]
+# area: (lat: 5.8, 10.0) - (lon: 168.0, 173.0) [Republic of Marshall Islands - UTM 59N]
+102960,PROJCRS["NAD_1983_(PA11)_UTM_Zone_59N",BASEGEOGCRS["GCS_NAD_1983_PA11",DYNAMIC[FRAMEEPOCH[2012.4467],MODEL["HTDP"]],DATUM["D_NAD_1983_PA11",ELLIPSOID["GRS_1980",6378137.0,298.257222101,LENGTHUNIT["Meter",1.0]]],PRIMEM["Greenwich",0.0,ANGLEUNIT["Degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["Latitude (lat)",north,ORDER[1]],AXIS["Longitude (lon)",east,ORDER[2]],ANGLEUNIT["Degree",0.0174532925199433]],CONVERSION["Transverse_Mercator",METHOD["Transverse_Mercator"],PARAMETER["False_Easting",500000.0,LENGTHUNIT["Meter",1.0]],PARAMETER["False_Northing",0.0,LENGTHUNIT["Meter",1.0]],PARAMETER["Central_Meridian",171.0,ANGLEUNIT["Degree",0.0174532925199433]],PARAMETER["Scale_Factor",0.9996,SCALEUNIT["Unity",1.0]],PARAMETER["Latitude_Of_Origin",0.0,ANGLEUNIT["Degree",0.0174532925199433]]],CS[Cartesian,2],AXIS["Easting (X)",east,ORDER[1]],AXIS["Northing (Y)",north,ORDER[2]],LENGTHUNIT["Meter",1.0],ID["Esri","102960"]]
 
 # AGD_1966_ISG_57_2 [AGD 1966 NSW ISG Zone 57 / 2]
 # area: (lat: -47.2, -28.15) - (lon: 158.0, 160.0) [Australia - Lord Howe Island - 158~E to 160~E (ISG 57/2)]

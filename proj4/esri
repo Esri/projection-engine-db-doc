@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2023 Esri Inc.                                            #
+#  Copyright 1999-2024 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -35,6 +35,16 @@
 # deprecated: new code = 104025
 # transformation: 108090: Voirol_Unifie_1960_Paris_To_WGS_1984
 <4812> +proj=lonlat +a=6378249.145 +rf=293.465 +pm=paris +towgs84=-123.0,-206.0,219.0 +no_defs <>
+
+# BBT2000_3D [BBT2000 (3D)]
+# area: (lat: 46.45, 47.33) - (lon: 11.04, 11.91) [Europe - Brenner]
+# transformation: 10478: BBT2000_to_WGS_1984_1
+<10474> +proj=lonlat +ellps=WGS84 +towgs84=0.0,0.0,0.0 +no_defs <>
+
+# BBT2000 [BBT2000]
+# area: (lat: 46.45, 47.33) - (lon: 11.04, 11.91) [Europe - Brenner]
+# transformation: 10478: BBT2000_to_WGS_1984_1
+<10475> +proj=lonlat +ellps=WGS84 +towgs84=0.0,0.0,0.0 +no_defs <>
 
 # GCS_Fischer_1960 [Fischer 1960]
 # area: (lat: -90.0, 90.0) - (lon: -180.0, 180.0) [World]
@@ -1500,6 +1510,33 @@
 # deprecated: new code = 102556
 # transformation: 1784: ED_1950_To_WGS_1984_30
 <2187> +proj=tmerc +ellps=intl +x_0=15500000.0 +y_0=0.0 +lon_0=45dE +lat_0=0dN +k_0=0.9996 +towgs84=-84.1,-101.8,-129.7,0.0,0.0,0.468,1.05 +no_defs <>
+
+# BBT2000_BBT-TM [BBT2000 / BBT-TM]
+# area: (lat: 46.45, 47.33) - (lon: 11.04, 11.91) [Europe - Brenner]
+# transformation: 10478: BBT2000_to_WGS_1984_1
+<10477> +proj=tmerc +ellps=WGS84 +x_0=20000.0 +y_0=100000.0 +lon_0=11d31'42.5775"E +lat_0=46d58'50.7947"N +k_0=1.000121 +towgs84=0.0,0.0,0.0 +no_defs <>
+
+# NAD_1983_TWDB_GM [NAD83 / TWDB GM]
+# area: (lat: 25.83, 36.5) - (lon: -106.66, -93.5) [USA - Texas]
+# transformation: 108190: WGS_1984_(ITRF00)_To_NAD_1983 (reversed)
+<10481> +proj=aea +datum=NAD83 +units=us-ft +x_0=1500000.0 +y_0=6000000.0 +lon_0=100dW +lat_0=31d15'N +lat_1=27d30'N +lat_2=35dN +towgs84=-0.9956000824677655,1.901299877314078,0.5215002840524426,0.02591500053005733,0.009425998542707753,0.01159900118427752,-0.00062000005129903 +no_defs <>
+
+# NAD_1983_(2011)_Adjusted_Jackson_(ftUS) [NAD83(2011) / Adjusted Jackson (ftUS)]
+# area: (lat: 44.07, 44.6) - (lon: -91.17, -90.31) [USA - Wisconsin - Jackson]
+# transformation: 108363: WGS_1984_(ITRF08)_To_NAD_1983_2011 (reversed)
+<10516> +proj=tmerc +ellps=GRS80 +units=us-ft +x_0=27000.0 +y_0=24999.9998983998 +lon_0=90d50'39.46745"W +lat_0=44d15'12.00716"N +k_0=1.0000353 +towgs84=-0.9934300812655978,1.903309874715335,0.5265502836252097,0.02591467053009863,0.009426448542682335,0.01159935118431898,-0.001715040109928623 +no_defs <>
+
+# ETRS89_DREF91_2016_UTM_zone_31N [ETRS89/DREF91/2016 / UTM zone 31N]
+# area: (lat: 50.97, 55.92) - (lon: 3.34, 6.0) [Germany - west of 6~E]
+<10731> +proj=utm +ellps=GRS80 +zone=31 +no_defs <>
+
+# ETRS89_DREF91_2016_UTM_zone_32N [ETRS89/DREF91/2016 / UTM zone 32N]
+# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.01) [Germany - 6~E to 12~E]
+<10732> +proj=utm +ellps=GRS80 +zone=32 +no_defs <>
+
+# ETRS89_DREF91_2016_UTM_zone_33N [ETRS89/DREF91/2016 / UTM zone 33N]
+# area: (lat: 47.46, 55.03) - (lon: 11.57, 15.04) [Germany - east of 12~E]
+<10733> +proj=utm +ellps=GRS80 +zone=33 +no_defs <>
 
 # Pulkovo_1995_GK_Zone_2N [Pulkovo 1995 GK Zone 2N (deprecated)]
 # area: (lat: 50.21, 54.18) - (lon: 9.93, 12.0) [Europe - 6~E to 12~E and Pulkovo by country]
@@ -4276,6 +4313,31 @@
 # area: (lat: 18.56, 26.64) - (lon: 88.01, 92.67) [Bangladesh]
 # transformation: 9679: Gulshan_303_to_WGS_1984_2
 <102955> +proj=tmerc +ellps=evrst30 +x_0=500000.0 +y_0=0.0 +lon_0=90dE +lat_0=0dN +k_0=0.9996 +towgs84=283.729,735.942,261.143 +no_defs <>
+
+# NAD_1983_(MA11)_UTM_Zone_53N [NAD 1983 (MA11) UTM Zone 53N]
+# area: (lat: 6.87, 7.7) - (lon: 134.1, 134.65) [Republic of Palau - Babeldaob]
+# transformation: 108364: WGS_1984_(ITRF08)_To_NAD_1983_MA11 (reversed)
+<102956> +proj=utm +ellps=GRS80 +zone=53 +towgs84=-0.9080000577088126,2.016099879080818,0.5653003284202045,0.02897100045102103,0.01041999874601433,0.008928001463544895,-0.001100000091014408 +no_defs <>
+
+# NAD_1983_(PA11)_UTM_Zone_56N [NAD 1983 (PA11) UTM Zone 56N]
+# area: (lat: 6.9, 7.8) - (lon: 151.3, 152.15) [Federated States of Micronesia - UTM 56N]
+# transformation: 108365: WGS_1984_(ITRF08)_To_NAD_1983_PA11 (reversed)
+<102957> +proj=utm +ellps=GRS80 +zone=56 +towgs84=-0.9079999885953388,2.016099909815326,0.5653003298198094,0.02774100017709245,0.01346899963525713,0.002712001811474928,-0.001100000091014408 +no_defs <>
+
+# NAD_1983_(PA11)_UTM_Zone_57N [NAD 1983 (PA11) UTM Zone 57N]
+# area: (lat: 5.25, 7.02) - (lon: 157.92, 163.07) [Federated States of Micronesia - UTM 57N and east]
+# transformation: 108365: WGS_1984_(ITRF08)_To_NAD_1983_PA11 (reversed)
+<102958> +proj=utm +ellps=GRS80 +zone=57 +towgs84=-0.9079999885953388,2.016099909815326,0.5653003298198094,0.02774100017709245,0.01346899963525713,0.002712001811474928,-0.001100000091014408 +no_defs <>
+
+# NAD_1983_(PA11)_UTM_Zone_58N [NAD 1983 (PA11) UTM Zone 58N]
+# area: (lat: 8.0, 11.64) - (lon: 162.0, 168.0) [Republic of Marshall Islands - UTM 58N]
+# transformation: 108365: WGS_1984_(ITRF08)_To_NAD_1983_PA11 (reversed)
+<102959> +proj=utm +ellps=GRS80 +zone=58 +towgs84=-0.9079999885953388,2.016099909815326,0.5653003298198094,0.02774100017709245,0.01346899963525713,0.002712001811474928,-0.001100000091014408 +no_defs <>
+
+# NAD_1983_(PA11)_UTM_Zone_59N [NAD 1983 (PA11) UTM Zone 59N]
+# area: (lat: 5.8, 10.0) - (lon: 168.0, 173.0) [Republic of Marshall Islands - UTM 59N]
+# transformation: 108365: WGS_1984_(ITRF08)_To_NAD_1983_PA11 (reversed)
+<102960> +proj=utm +ellps=GRS80 +zone=59 +towgs84=-0.9079999885953388,2.016099909815326,0.5653003298198094,0.02774100017709245,0.01346899963525713,0.002712001811474928,-0.001100000091014408 +no_defs <>
 
 # AGD_1966_ISG_57_2 [AGD 1966 NSW ISG Zone 57 / 2]
 # area: (lat: -47.2, -28.15) - (lon: 158.0, 160.0) [Australia - Lord Howe Island - 158~E to 160~E (ISG 57/2)]
