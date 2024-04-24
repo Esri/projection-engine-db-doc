@@ -2219,11 +2219,6 @@
    FALSE, \
    "EPSG"
 
-"L.C. 5 Astro", \
-   "LC5_1961", \
-   FALSE, \
-   "Oracle"
-
 "La Canoa (EPSG ID 6247)", \
    "La_Canoa", \
    FALSE, \
@@ -2243,6 +2238,11 @@
    "Latvia_1992", \
    FALSE, \
    "EPSG"
+
+"L.C. 5 Astro", \
+   "LC5_1961", \
+   FALSE, \
+   "Oracle"
 
 "Leigon (EPSG ID 6250)", \
    "Leigon", \
@@ -5369,111 +5369,6 @@
    FALSE, \
    "Oracle"
 
-"St. George Island", \
-   "St_George_Island", \
-   FALSE, \
-   "EPSG"
-
-"St. George Island", \
-   "St_George_Island", \
-   FALSE, \
-   "SQLserver"
-
-"St. George Island (EPSG ID 6138)", \
-   "St_George_Island", \
-   FALSE, \
-   "Oracle"
-
-"St. Helena 1971", \
-   "DOS_71_4", \
-   FALSE, \
-   "SQLserver"
-
-"St. Helena Geodetic Datum 2015", \
-   "St_Helena_Geodetic_Datum_2015", \
-   FALSE, \
-   "EPSG"
-
-"St. Helena Tritan", \
-   "St_Helena_Tritan", \
-   FALSE, \
-   "EPSG"
-
-"St. Kitts 1955", \
-   "St_Kitts_1955", \
-   FALSE, \
-   "EPSG"
-
-"St. Kitts 1955", \
-   "St_Kitts_1955", \
-   FALSE, \
-   "SQLserver"
-
-"St. Kitts 1955 (EPSG ID 6605)", \
-   "St_Kitts_1955", \
-   FALSE, \
-   "Oracle"
-
-"St. Lawrence Island", \
-   "St_Lawrence_Island", \
-   FALSE, \
-   "EPSG"
-
-"St. Lawrence Island", \
-   "St_Lawrence_Island", \
-   FALSE, \
-   "SQLserver"
-
-"St. Lawrence Island (EPSG ID 6136)", \
-   "St_Lawrence_Island", \
-   FALSE, \
-   "Oracle"
-
-"St. Lucia 1955", \
-   "St_Lucia_1955", \
-   FALSE, \
-   "EPSG"
-
-"St. Lucia 1955", \
-   "St_Lucia_1955", \
-   FALSE, \
-   "SQLserver"
-
-"St. Lucia 1955 (EPSG ID 6606)", \
-   "St_Lucia_1955", \
-   FALSE, \
-   "Oracle"
-
-"St. Paul Island", \
-   "St_Paul_Island", \
-   FALSE, \
-   "EPSG"
-
-"St. Paul Island", \
-   "St_Paul_Island", \
-   FALSE, \
-   "SQLserver"
-
-"St. Paul Island (EPSG ID 6137)", \
-   "St_Paul_Island", \
-   FALSE, \
-   "Oracle"
-
-"St. Vincent 1945", \
-   "St_Vincent_1945", \
-   FALSE, \
-   "EPSG"
-
-"St. Vincent 1945", \
-   "St_Vincent_1945", \
-   FALSE, \
-   "SQLserver"
-
-"St. Vincent 1945 (EPSG ID 6607)", \
-   "St_Vincent_1945", \
-   FALSE, \
-   "Oracle"
-
 "ST71 Belep (EPSG ID 6643)", \
    "ST71_Belep", \
    FALSE, \
@@ -5489,6 +5384,11 @@
    FALSE, \
    "Oracle"
 
+"St. George Island (EPSG ID 6138)", \
+   "St_George_Island", \
+   FALSE, \
+   "Oracle"
+
 "St_Helena_1971", \
    "DOS_71_4", \
    FALSE, \
@@ -5499,10 +5399,30 @@
    FALSE, \
    "SpatiaLite"
 
+"St. Helena 1971", \
+   "DOS_71_4", \
+   FALSE, \
+   "SQLserver"
+
 "St_Helena_1971", \
    "DOS_71_4", \
    FALSE, \
    "Teradata"
+
+"St. Kitts 1955 (EPSG ID 6605)", \
+   "St_Kitts_1955", \
+   FALSE, \
+   "Oracle"
+
+"St. Lawrence Island (EPSG ID 6136)", \
+   "St_Lawrence_Island", \
+   FALSE, \
+   "Oracle"
+
+"St. Lucia 1955 (EPSG ID 6606)", \
+   "St_Lucia_1955", \
+   FALSE, \
+   "Oracle"
 
 "Stockholm 1938 (EPSG ID 6308)", \
    "Stockholm_1938", \
@@ -5531,6 +5451,16 @@
 
 "Stockholm 1938 (Stockholm) (EPSG ID 6814)", \
    "Stockholm_1938", \
+   FALSE, \
+   "Oracle"
+
+"St. Paul Island (EPSG ID 6137)", \
+   "St_Paul_Island", \
+   FALSE, \
+   "Oracle"
+
+"St. Vincent 1945 (EPSG ID 6607)", \
+   "St_Vincent_1945", \
    FALSE, \
    "Oracle"
 

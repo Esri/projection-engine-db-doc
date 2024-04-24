@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2023 Esri Inc.                                            #
+#  Copyright 1999-2024 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -2296,10 +2296,10 @@ Deprecated  : no
 WKID        : 5181
 Latest-WKID : 5181
 Macro       : PE_VERTD_DHHN92
-Name        : Deutches_Haupthoehennetz_1992
-WKT         : VDATUM["Deutches_Haupthoehennetz_1992"]
-WKT2        : VDATUM["Deutches_Haupthoehennetz_1992"]
-Description : Deutches Haupthohennetz 1992
+Name        : Deutsches_Haupthoehennetz_1992
+WKT         : VDATUM["Deutsches_Haupthoehennetz_1992"]
+WKT2        : VDATUM["Deutsches_Haupthoehennetz_1992"]
+Description : Deutsches Haupthohennetz 1992
 Authority   : EPSG
 Version     : 7.8.4(9.3.0.0)
 Deprecated  : no
@@ -2307,10 +2307,10 @@ Deprecated  : no
 WKID        : 5182
 Latest-WKID : 5182
 Macro       : PE_VERTD_DHHN85
-Name        : Deutches_Haupthoehennetz_1985
-WKT         : VDATUM["Deutches_Haupthoehennetz_1985"]
-WKT2        : VDATUM["Deutches_Haupthoehennetz_1985"]
-Description : Deutches Haupthohennetz 1985
+Name        : Deutsches_Haupthoehennetz_1985
+WKT         : VDATUM["Deutsches_Haupthoehennetz_1985"]
+WKT2        : VDATUM["Deutsches_Haupthoehennetz_1985"]
+Description : Deutsches Haupthohennetz 1985
 Authority   : EPSG
 Version     : 7.8.4(9.3.0.0)
 Deprecated  : no
@@ -2732,6 +2732,17 @@ Description : Lithuanian Height System 2007
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : yes
+
+WKID        : 105105
+Latest-WKID : 105105
+Macro       : PE_VERTD_MEAN_SEA_LEVEL_HAWAII
+Name        : Mean_Sea_Level_Hawaii
+WKT         : VDATUM["Mean_Sea_Level_Hawaii"]
+WKT2        : VDATUM["Mean_Sea_Level_Hawaii"]
+Description : Mean Sea Level Hawaii
+Authority   : Esri
+Version     : 13.3.0
+Deprecated  : no
 
 WKID        : 105110
 Latest-WKID : 105110

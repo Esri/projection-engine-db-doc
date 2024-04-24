@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2023 Esri Inc.                                            #
+#  Copyright 1999-2024 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -2241,11 +2241,11 @@
 6319,GEOGCS["NAD_1983_2011_3D",DATUM["D_NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],LINUNIT["Meter",1.0],AUTHORITY["EPSG",6319]]
 
 # NAD_1983_PA11_3D [NAD 1983 (PA11) - Pacific Plate 2011 (3D)]
-# area: (lat: -17.56, 31.8) - (lon: 157.47, -151.27) [Pacific - US interests Pacific plate]
+# area: (lat: -17.56, 31.8) - (lon: 151.3, -151.27) [NAD83 PA11 - US interests Pacific plate]
 6321,GEOGCS["NAD_1983_PA11_3D",DATUM["D_NAD_1983_PA11",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],LINUNIT["Meter",1.0],AUTHORITY["EPSG",6321]]
 
 # GCS_NAD_1983_PA11 [NAD 1983 (PA11) - Pacific Plate 2011]
-# area: (lat: -17.56, 31.8) - (lon: 157.47, -151.27) [Pacific - US interests Pacific plate]
+# area: (lat: -17.56, 31.8) - (lon: 151.3, -151.27) [NAD83 PA11 - US interests Pacific plate]
 6322,GEOGCS["GCS_NAD_1983_PA11",DATUM["D_NAD_1983_PA11",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],AUTHORITY["EPSG",6322]]
 
 # NAD_1983_MA11_3D [NAD 1983 (MA11) - Marianas Plate 2011 (3D)]
@@ -7553,7 +7553,7 @@
 3043,PROJCS["ETRS_1989_ETRS-TM31",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",3.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3043]]
 
 # ETRS_1989_ETRS-TM32 [ETRS 1989 ETRS-TM32]
-# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.0) [Germany - 6~E to 12~E]
+# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.01) [Germany - 6~E to 12~E]
 3044,PROJCS["ETRS_1989_ETRS-TM32",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",9.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3044]]
 
 # ETRS_1989_ETRS-TM33 [ETRS 1989 ETRS-TM33]
@@ -11171,7 +11171,7 @@
 4589,PROJCS["New_Beijing_Gauss_Kruger_CM_135E",GEOGCS["GCS_New_Beijing",DATUM["D_New_Beijing",SPHEROID["Krasovsky_1940",6378245.0,298.3]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",135.0],PARAMETER["Scale_Factor",1.0],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",4589]]
 
 # ETRS_1989_UTM_Zone_N32 [ETRS 1989 UTM Zone 32N with FE prefix]
-# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.0) [Germany - 6~E to 12~E]
+# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.01) [Germany - 6~E to 12~E]
 4647,PROJCS["ETRS_1989_UTM_Zone_N32",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",32500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",9.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",4647]]
 
 # New_Beijing_3_Degree_Gauss_Kruger_Zone_25 [New Beijing Gauss-Kruger 3 Degree Zone 25]
@@ -12177,7 +12177,7 @@
 5651,PROJCS["ETRS_1989_UTM_Zone_31N_N-zE",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",31500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",3.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",5651]]
 
 # ETRS_1989_UTM_Zone_32N_N-zE [ETRS 1989 UTM Zone 32N N-zE]
-# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.0) [Germany - 6~E to 12~E]
+# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.01) [Germany - 6~E to 12~E]
 5652,PROJCS["ETRS_1989_UTM_Zone_32N_N-zE",GEOGCS["GCS_ETRS_1989",DATUM["D_ETRS_1989",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",32500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",9.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",5652]]
 
 # ETRS_1989_UTM_Zone_33N_N-zE [ETRS 1989 UTM Zone 33N N-zE]
@@ -17739,11 +17739,11 @@
 10287,PROJCS["ETRS89_DREF91_2016_UTM_zone_31N_(zE-N)",GEOGCS["ETRS89_DREF91_2016",DATUM["ETRS89_DREF91_Realization_2016",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",31500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",3.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",10287]]
 
 # ETRS89_DREF91_2016_UTM_zone_32N_(N-zE) [ETRS89/DREF91/2016 / UTM zone 32N (N-zE)]
-# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.0) [Germany - 6~E to 12~E]
+# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.01) [Germany - 6~E to 12~E]
 10288,PROJCS["ETRS89_DREF91_2016_UTM_zone_32N_(N-zE)",GEOGCS["ETRS89_DREF91_2016",DATUM["ETRS89_DREF91_Realization_2016",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",32500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",9.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",10288]]
 
 # ETRS89_DREF91_2016_UTM_zone_32N_(zE-N) [ETRS89/DREF91/2016 / UTM zone 32N (zE-N)]
-# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.0) [Germany - 6~E to 12~E]
+# area: (lat: 47.27, 55.47) - (lon: 6.0, 12.01) [Germany - 6~E to 12~E]
 10289,PROJCS["ETRS89_DREF91_2016_UTM_zone_32N_(zE-N)",GEOGCS["ETRS89_DREF91_2016",DATUM["ETRS89_DREF91_Realization_2016",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",32500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",9.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",10289]]
 
 # ETRS89_DREF91_2016_UTM_zone_33N_(N-zE) [ETRS89/DREF91/2016 / UTM zone 33N (N-zE)]
@@ -21925,6 +21925,34 @@
 # area: (lat: 49.75, 61.01) - (lon: -9.01, 2.01) [UK - Britain and UKCS 49~45'N to 61~N, 9~W to 2~E]
 27700,PROJCS["British_National_Grid",GEOGCS["GCS_OSGB_1936",DATUM["D_OSGB_1936",SPHEROID["Airy_1830",6377563.396,299.3249646]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",400000.0],PARAMETER["False_Northing",-100000.0],PARAMETER["Central_Meridian",-2.0],PARAMETER["Scale_Factor",0.9996012717],PARAMETER["Latitude_Of_Origin",49.0],UNIT["Meter",1.0],AUTHORITY["EPSG",27700]]
 
+# WGS_1984_Equi7_Africa [WGS 84 / Equi7 Africa]
+# area: (lat: -43.89, 38.8) - (lon: -31.68, 79.3) [Africa - Equi7]
+27701,PROJCS["WGS_1984_Equi7_Africa",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Azimuthal_Equidistant"],PARAMETER["False_Easting",5621452.02],PARAMETER["False_Northing",5990638.423],PARAMETER["Central_Meridian",21.5],PARAMETER["Latitude_Of_Origin",8.5],UNIT["Meter",1.0],AUTHORITY["EPSG",27701]]
+
+# WGS_1984_Equi7_Antarctica [WGS 84 / Equi7 Antarctica]
+# area: (lat: -90.0, -34.47) - (lon: -180.0, 180.0) [Antarctica - Equi7]
+27702,PROJCS["WGS_1984_Equi7_Antarctica",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Azimuthal_Equidistant"],PARAMETER["False_Easting",3714266.977],PARAMETER["False_Northing",3402016.506],PARAMETER["Central_Meridian",0.0],PARAMETER["Latitude_Of_Origin",-90.0],UNIT["Meter",1.0],AUTHORITY["EPSG",27702]]
+
+# WGS_1984_Equi7_Asia [WGS 84 / Equi7 Asia]
+# area: (lat: -10.8, 90.0) - (lon: 31.45, -168.43) [Asia - Equi7]
+27703,PROJCS["WGS_1984_Equi7_Asia",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Azimuthal_Equidistant"],PARAMETER["False_Easting",4340913.848],PARAMETER["False_Northing",4812712.923],PARAMETER["Central_Meridian",94.0],PARAMETER["Latitude_Of_Origin",47.0],UNIT["Meter",1.0],AUTHORITY["EPSG",27703]]
+
+# WGS_1984_Equi7_Europe [WGS 84 / Equi7 Europe]
+# area: (lat: 29.24, 90.0) - (lon: -42.01, 51.73) [Europe - Equi7]
+27704,PROJCS["WGS_1984_Equi7_Europe",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Azimuthal_Equidistant"],PARAMETER["False_Easting",5837287.82],PARAMETER["False_Northing",2121415.696],PARAMETER["Central_Meridian",24.0],PARAMETER["Latitude_Of_Origin",53.0],UNIT["Meter",1.0],AUTHORITY["EPSG",27704]]
+
+# WGS_1984_Equi7_North_America [WGS 84 / Equi7 North America]
+# area: (lat: 7.98, 90.0) - (lon: 167.65, 15.72) [North America - Equi7]
+27705,PROJCS["WGS_1984_Equi7_North_America",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Azimuthal_Equidistant"],PARAMETER["False_Easting",8264722.177],PARAMETER["False_Northing",4867518.353],PARAMETER["Central_Meridian",-97.5],PARAMETER["Latitude_Of_Origin",52.0],UNIT["Meter",1.0],AUTHORITY["EPSG",27705]]
+
+# WGS_1984_Equi7_Oceania [WGS 84 / Equi7 Oceania]
+# area: (lat: -60.56, 21.57) - (lon: 72.37, -121.05) [Oceania - Equi7]
+27706,PROJCS["WGS_1984_Equi7_Oceania",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Azimuthal_Equidistant"],PARAMETER["False_Easting",6988408.536],PARAMETER["False_Northing",7654884.537],PARAMETER["Central_Meridian",131.5],PARAMETER["Latitude_Of_Origin",-19.5],UNIT["Meter",1.0],AUTHORITY["EPSG",27706]]
+
+# WGS_1984_Equi7_South_America [WGS 84 / Equi7 South America]
+# area: (lat: -59.87, 30.31) - (lon: -124.82, -14.58) [South America - Equi7]
+27707,PROJCS["WGS_1984_Equi7_South_America",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Azimuthal_Equidistant"],PARAMETER["False_Easting",7257179.236],PARAMETER["False_Northing",5592024.446],PARAMETER["Central_Meridian",-60.5],PARAMETER["Latitude_Of_Origin",-14.0],UNIT["Meter",1.0],AUTHORITY["EPSG",27707]]
+
 # Palestine_1923_Palestine_Grid [Palestine 1923 Palestine Grid]
 # area: (lat: 29.18, 33.38) - (lon: 34.17, 39.31) [Asia - Middle East - Israel, Jordan and Palestine onshore]
 28191,PROJCS["Palestine_1923_Palestine_Grid",GEOGCS["GCS_Palestine_1923",DATUM["D_Palestine_1923",SPHEROID["Clarke_1880_Benoit",6378300.789,293.4663155389802]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Cassini"],PARAMETER["False_Easting",170251.555],PARAMETER["False_Northing",126867.909],PARAMETER["Central_Meridian",35.21208055555556],PARAMETER["Scale_Factor",1.0],PARAMETER["Latitude_Of_Origin",31.73409694444445],UNIT["Meter",1.0],AUTHORITY["EPSG",28191]]
@@ -24078,7 +24106,7 @@
 32401,PROJCS["WGS_1972_BE_UTM_Zone_1N",GEOGCS["GCS_WGS_1972_BE",DATUM["D_WGS_1972_BE",SPHEROID["WGS_1972",6378135.0,298.26]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-177.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",32401]]
 
 # WGS_1972_BE_UTM_Zone_2N [WGS 1972 BE UTM Zone 2N]
-# area: (lat: -80.0, 0.0) - (lon: -174.0, -168.0) [World - S hemisphere - 174~W to 168~W]
+# area: (lat: 0.0, 84.0) - (lon: -174.0, -168.0) [World - N hemisphere - 174~W to 168~W]
 32402,PROJCS["WGS_1972_BE_UTM_Zone_2N",GEOGCS["GCS_WGS_1972_BE",DATUM["D_WGS_1972_BE",SPHEROID["WGS_1972",6378135.0,298.26]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-171.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",32402]]
 
 # WGS_1972_BE_UTM_Zone_3N [WGS 1972 BE UTM Zone 3N]
@@ -24666,7 +24694,7 @@
 32628,PROJCS["WGS_1984_UTM_Zone_28N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-15.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",32628]]
 
 # WGS_1984_UTM_Zone_29N [WGS 1984 UTM Zone 29N]
-# area: (lat: 0.0, 84.0) - (lon: -12.0, -6.0) [World - N hemisphere - 12~W to 6~W - by country]
+# area: (lat: 0.0, 84.01) - (lon: -12.01, -6.0) [World - N hemisphere - 12~W to 6~W - by country]
 32629,PROJCS["WGS_1984_UTM_Zone_29N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-9.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",32629]]
 
 # WGS_1984_UTM_Zone_30N [WGS 1984 UTM Zone 30N]
