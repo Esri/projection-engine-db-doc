@@ -104,13 +104,8 @@
    FALSE, \
    "EPSG"
 
-"EOMA height 1980 to EVRF2000 height (1)", \
+"EOMA 1980 height to EVRF2000 height (1)", \
    "EOMA_1980_To_EVRS_2000_1", \
-   FALSE, \
-   "EPSG"
-
-"EOMA height 1980 to EVRF2019 height (1)", \
-   "EOMA_1980_Height_To_EVRF2019_Height_1", \
    FALSE, \
    "EPSG"
 
@@ -121,6 +116,11 @@
 
 "ETRS89 to Alicante height (1)", \
    "ETRS89_Height_To_Alicante_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Baltic 1957 height (2)", \
+   "ETRS89_To_Baltic_1957_Height_2_CR2005", \
    FALSE, \
    "EPSG"
 
@@ -141,6 +141,11 @@
 
 "ETRS89 to BI height (3)", \
    "ETRS89_To_British_Isles_Height_OSGM15_Malin", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 to Cascais height (1)", \
+   "ETRS89_Height_To_Cascais_Height_GeodPT08", \
    FALSE, \
    "EPSG"
 
@@ -229,11 +234,6 @@
    FALSE, \
    "EPSG"
 
-"EVRF2000-PL height to EVRF2019 mean-tide height (1)", \
-   "EVRF2007-PL_Height_To_EVRF2019_Mean-Tide_Height_1", \
-   FALSE, \
-   "EPSG"
-
 "GDA2020 to AHD height (1)", \
    "GDA2020_Height_To_AHD_Height_AUSGeoid2020_1", \
    FALSE, \
@@ -319,41 +319,6 @@
    FALSE, \
    "EPSG"
 
-"NAD83(2011) to NAVD88 height (1)", \
-   "NAD_1983_2011_To_NAVD88_CONUS_GEOID12B_Height", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(2011) to NAVD88 height (2)", \
-   "NAD_1983_2011_To_NAVD88_Alaska_GEOID12B_Height", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(2011) to NAVD88 height (3)", \
-   "NAD_1983_2011_Height_To_NAVD88_CONUS_GEOID18_Height_3", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(2011) to PRVD02 height (1)", \
-   "NAD_1983_2011_To_PRVD02_GEOID12B_Height", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(2011) to PRVD02 height (2)", \
-   "NAD_1983_2011_Height_To_PRVD02_GEOID18_Height_2", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(2011) to VIVD09 height (1)", \
-   "NAD_1983_2011_To_VIVD09_GEOID12B_Height", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(2011) to VIVD09 height (2)", \
-   "NAD_1983_2011_Height_To_VIVD09_Height_GEOID18_2", \
-   FALSE, \
-   "EPSG"
-
 "NAD83(CSRS)v6 to CGVD2013a(2010) height (1)", \
    "NAD83(CSRS)v6_Height_To_CGVD2013(CGG2013a)_Height_1", \
    FALSE, \
@@ -369,123 +334,18 @@
    FALSE, \
    "EPSG"
 
-"NAD83(FBN) to ASVD02 height (1)", \
-   "NAD_1983_FBN_To_ASVD02_Height_GEOID09_1", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(FBN) to GUVD04 height (1)", \
-   "NAD_1983_FBN_To_GUVD04_Height_GEOID09_1", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(FBN) to NAVD88 height (1)", \
-   "NAD_1983_FBN_To_NAVD88_Height_CONUS_GEOID03", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(FBN) to NMVD03 height (1)", \
-   "NAD_1983_FBN_To_NMVD03_Height_GEOID09_1", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(HARN) to NAVD88 height (1)", \
-   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_1", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(HARN) to NAVD88 height (2)", \
-   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_2", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(HARN) to NAVD88 height (3)", \
-   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_3", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(HARN) to NAVD88 height (4)", \
-   "NAD_1983_HARN_To_AVD88_Height_GEOID99_4", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(HARN) to NAVD88 height (5)", \
-   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_5", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(HARN) to NAVD88 height (6)", \
-   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_6", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(HARN) to NAVD88 height (7)", \
-   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_7", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(HARN) to NAVD88 height (8)", \
-   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_8", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(HARN) to NAVD88 height (9)", \
-   "NAD_1983_HARN_To_NAVD88_Height_Alaska_GEOID06_9", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(MA11) to GUVD04 height (1)", \
-   "NAD_1983_MA11_To_GUVD04_GEOID12B_Height", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(MA11) to NMVD03 height (1)", \
-   "NAD_1983_MA11_To_NMVD03_GEOID12B_Height", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(NSRS2007) to NAVD88 height (1)", \
-   "NAD_1983_NSRS2007_To_NAVD88_Height_CONUS_GEOID09_1", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(NSRS2007) to NAVD88 height (2)", \
-   "NAD_1983_NSRS2007_To_NAVD88_Height_Alaska_GEOID09_2", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(NSRS2007) to PRVD02 height (1)", \
-   "NAD_1983_NSRS2007_To_PRVD02_Height_GEOID09_1", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(NSRS2007) to VIVD09 height (1)", \
-   "NAD_1983_NSRS2007_To_VIVD09_Height_GEOID09_1", \
-   FALSE, \
-   "EPSG"
-
-"NAD83(PA11) to ASVD02 height (1)", \
-   "NAD_1983_PA11_To_ASVD02_GEOID12B_Height", \
-   FALSE, \
-   "EPSG"
-
 "NAP height to EVRF2000 height (1)", \
    "NAP_To_EVRS_2000_1", \
    FALSE, \
    "EPSG"
 
-"NGF IGN69 height to EVRF2000 height (1)", \
+"NGF-IGN69 height to EVRF2000 height (1)", \
    "NGF_IGN69_To_EVRS_2000_1", \
    FALSE, \
    "EPSG"
 
 "NN54 height to EVRF2000 height (1)", \
    "NN54_To_EVRS_2000_1", \
-   FALSE, \
-   "EPSG"
-
-"NVN99 height to EVRF2000 height (1)", \
-   "NVN99_To_EVRS_2000_1", \
    FALSE, \
    "EPSG"
 
@@ -656,6 +516,11 @@
 
 "SNN76 height to EVRF2000 height (1)", \
    "SNN76_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"SVS2000 height to EVRF2000 height (1)", \
+   "NVN99_To_EVRS_2000_1", \
    FALSE, \
    "EPSG"
 

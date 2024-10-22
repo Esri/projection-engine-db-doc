@@ -245,7 +245,7 @@ WKT         : HVCOORDSYS["ETRS_1989_DKTM1_and_DVR90_height",
                 PARAMETER["Latitude_Of_Origin", 0.0],
                 UNIT["Meter", 1.0]],
                VERTCS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
@@ -282,7 +282,7 @@ WKT2        : COMPOUNDCRS["ETRS_1989_DKTM1_and_DVR90_height",
                  ORDER[2]],
                 LENGTHUNIT["Meter", 1.0]],
                VERTCRS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
@@ -315,7 +315,7 @@ WKT         : HVCOORDSYS["ETRS_1989_DKTM2_and_DVR90_height",
                 PARAMETER["Latitude_Of_Origin", 0.0],
                 UNIT["Meter", 1.0]],
                VERTCS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
@@ -352,7 +352,7 @@ WKT2        : COMPOUNDCRS["ETRS_1989_DKTM2_and_DVR90_height",
                  ORDER[2]],
                 LENGTHUNIT["Meter", 1.0]],
                VERTCRS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
@@ -385,7 +385,7 @@ WKT         : HVCOORDSYS["ETRS_1989_DKTM3_and_DVR90_height",
                 PARAMETER["Latitude_Of_Origin", 0.0],
                 UNIT["Meter", 1.0]],
                VERTCS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
@@ -422,7 +422,7 @@ WKT2        : COMPOUNDCRS["ETRS_1989_DKTM3_and_DVR90_height",
                  ORDER[2]],
                 LENGTHUNIT["Meter", 1.0]],
                VERTCRS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
@@ -455,7 +455,7 @@ WKT         : HVCOORDSYS["ETRS_1989_DKTM4_and_DVR90_height",
                 PARAMETER["Latitude_Of_Origin", 0.0],
                 UNIT["Meter", 1.0]],
                VERTCS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
@@ -492,7 +492,7 @@ WKT2        : COMPOUNDCRS["ETRS_1989_DKTM4_and_DVR90_height",
                  ORDER[2]],
                 LENGTHUNIT["Meter", 1.0]],
                VERTCRS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
@@ -1390,7 +1390,7 @@ Area-name   : Germany - West Germany - west of 7.5~E
 Area-slat   : 49.11
 Area-nlat   : 53.81
 Area-llon   : 5.86
-Area-rlon   : 7.5
+Area-rlon   : 7.51
 
 WKID        : 5833
 Latest-WKID : 5833
@@ -9326,7 +9326,7 @@ WKT         : HVCOORDSYS["HVC_ETRF89_UTM_Zone_32N_and_DVR90_Height",
                 PARAMETER["Latitude_Of_Origin", 0.0],
                 UNIT["Meter", 1.0]],
                VERTCS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
@@ -9363,7 +9363,7 @@ WKT2        : COMPOUNDCRS["HVC_ETRF89_UTM_Zone_32N_and_DVR90_Height",
                  ORDER[2]],
                 LENGTHUNIT["Meter", 1.0]],
                VERTCRS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
@@ -9397,7 +9397,7 @@ WKT         : HVCOORDSYS["HVC_ETRF89_UTM_Zone_33N_and_DVR90_Height",
                 PARAMETER["Latitude_Of_Origin", 0.0],
                 UNIT["Meter", 1.0]],
                VERTCS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
@@ -9434,7 +9434,7 @@ WKT2        : COMPOUNDCRS["HVC_ETRF89_UTM_Zone_33N_and_DVR90_Height",
                  ORDER[2]],
                 LENGTHUNIT["Meter", 1.0]],
                VERTCRS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
@@ -9468,7 +9468,7 @@ WKT         : HVCOORDSYS["HVC_ETRF89_KP2000_Jutland_and_DVR90_Height",
                 PARAMETER["Latitude_Of_Origin", 0.0],
                 UNIT["Meter", 1.0]],
                VERTCS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
@@ -9505,7 +9505,7 @@ WKT2        : COMPOUNDCRS["HVC_ETRF89_KP2000_Jutland_and_DVR90_Height",
                  ORDER[2]],
                 LENGTHUNIT["Meter", 1.0]],
                VERTCRS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
@@ -9538,7 +9538,7 @@ WKT         : HVCOORDSYS["HVC_ETRF89_KP2000_Zealand_and_DVR90_Height",
                 PARAMETER["Latitude_Of_Origin", 0.0],
                 UNIT["Meter", 1.0]],
                VERTCS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
@@ -9575,7 +9575,7 @@ WKT2        : COMPOUNDCRS["HVC_ETRF89_KP2000_Zealand_and_DVR90_Height",
                  ORDER[2]],
                 LENGTHUNIT["Meter", 1.0]],
                VERTCRS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
@@ -9608,7 +9608,7 @@ WKT         : HVCOORDSYS["HVC_ETRF89_KP2000_Bornholm_and_DVR90_Height",
                 PARAMETER["Latitude_Of_Origin", 0.0],
                 UNIT["Meter", 1.0]],
                VERTCS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
@@ -9645,7 +9645,7 @@ WKT2        : COMPOUNDCRS["HVC_ETRF89_KP2000_Bornholm_and_DVR90_Height",
                  ORDER[2]],
                 LENGTHUNIT["Meter", 1.0]],
                VERTCRS["DVR90",
-                VDATUM["Dansk_Vertikal_Reference_1990"],
+                VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
@@ -18732,10 +18732,10 @@ Authority   : EPSG
 Version     : 9.9(13.2.0)
 Deprecated  : no
 Area-name   : Netherlands - offshore
-Area-slat   : 51.45
+Area-slat   : 51.44
 Area-nlat   : 55.77
 Area-llon   : 2.53
-Area-rlon   : 6.41
+Area-rlon   : 6.37
 
 WKID        : 9290
 Latest-WKID : 9290
@@ -18775,10 +18775,10 @@ Authority   : EPSG
 Version     : 9.9(13.2.0)
 Deprecated  : no
 Area-name   : Netherlands - offshore
-Area-slat   : 51.45
+Area-slat   : 51.44
 Area-nlat   : 55.77
 Area-llon   : 2.53
-Area-rlon   : 6.41
+Area-rlon   : 6.37
 
 WKID        : 9306
 Latest-WKID : 9306
@@ -22934,6 +22934,49 @@ Area-nlat   : 55.43
 Area-llon   : -10.56
 Area-rlon   : -5.34
 
+WKID        : 9924
+Latest-WKID : 9924
+Macro       : PE_HVC_ETRS89_DHHN2016_HEIGHT
+Name        : ETRS89_and_DHHN2016_height
+WKT         : HVCOORDSYS["ETRS89_and_DHHN2016_height",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["DHHN2016_(height)",
+                VDATUM["Deutsches_Haupthoehennetz_2016"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRS89_and_DHHN2016_height",
+               GEOGCRS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["DHHN2016_(height)",
+                VDATUM["Deutsches_Haupthoehennetz_2016"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRS89 + DHHN2016 height
+Authority   : EPSG
+Version     : 10.042(13.4.0)
+Deprecated  : no
+Area-name   : Germany - onshore
+Area-slat   : 47.27
+Area-nlat   : 55.09
+Area-llon   : 5.86
+Area-rlon   : 15.04
+
 WKID        : 9928
 Latest-WKID : 9928
 Macro       : PE_HVC_DB_REF2003_ZONE_2
@@ -23002,7 +23045,7 @@ Area-name   : Germany - West Germany - west of 7.5~E
 Area-slat   : 49.11
 Area-nlat   : 53.81
 Area-llon   : 5.86
-Area-rlon   : 7.5
+Area-rlon   : 7.51
 
 WKID        : 9929
 Latest-WKID : 9929
@@ -23282,7 +23325,7 @@ Area-name   : Germany - West Germany - west of 7.5~E
 Area-slat   : 49.11
 Area-nlat   : 53.81
 Area-llon   : 5.86
-Area-rlon   : 7.5
+Area-rlon   : 7.51
 
 WKID        : 9933
 Latest-WKID : 9933
@@ -26092,8 +26135,8 @@ Version     : 10.081(13.2.0)
 Deprecated  : no
 Area-name   : UK - Okehampton to Penstone
 Area-slat   : 50.65
-Area-nlat   : 50.85
-Area-llon   : -4.1
+Area-nlat   : 50.86
+Area-llon   : -4.11
 Area-rlon   : -3.6
 
 WKID        : 10281
@@ -26165,7 +26208,7 @@ Version     : 10.081(13.2.0)
 Deprecated  : no
 Area-name   : UK - Reading to Penzance
 Area-slat   : 50.05
-Area-nlat   : 51.7
+Area-nlat   : 51.71
 Area-llon   : -5.63
 Area-rlon   : -0.85
 
@@ -26497,6 +26540,1029 @@ Area-slat   : 52.3
 Area-nlat   : 52.5
 Area-llon   : -1.85
 Area-rlon   : -1.3
+
+WKID        : 10486
+Latest-WKID : 10486
+Macro       : PE_HVC_ETRS89_DVR90_2002_HEIGHT
+Name        : ETRS89_and_DVR90(2002)_height
+WKT         : HVCOORDSYS["ETRS89_and_DVR90(2002)_height",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["DVR90(2002)_height",
+                VDATUM["Dansk_Vertikal_Reference_1990_(2002)"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRS89_and_DVR90(2002)_height",
+               GEOGCRS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["DVR90(2002)_height",
+                VDATUM["Dansk_Vertikal_Reference_1990_(2002)"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRS89 + DVR90(2002) height
+Authority   : EPSG
+Version     : 11.001(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - onshore
+Area-slat   : 54.5
+Area-nlat   : 57.81
+Area-llon   : 7.98
+Area-rlon   : 15.28
+
+WKID        : 10487
+Latest-WKID : 10487
+Macro       : PE_HVC_ETRS89_DVR90_2013_HEIGHT
+Name        : ETRS89_and_DVR90(2013)_height
+WKT         : HVCOORDSYS["ETRS89_and_DVR90(2013)_height",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["DVR90(2013)_height",
+                VDATUM["Dansk_Vertikal_Reference_1990_(2013)"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRS89_and_DVR90(2013)_height",
+               GEOGCRS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["DVR90(2013)_height",
+                VDATUM["Dansk_Vertikal_Reference_1990_(2013)"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRS89 + DVR90(2013) height
+Authority   : EPSG
+Version     : 11.001(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - onshore
+Area-slat   : 54.5
+Area-nlat   : 57.81
+Area-llon   : 7.98
+Area-rlon   : 15.28
+
+WKID        : 10488
+Latest-WKID : 10488
+Macro       : PE_HVC_ETRS89_DVR90_2023_HEIGHT
+Name        : ETRS89_and_DVR90(2023)_height
+WKT         : HVCOORDSYS["ETRS89_and_DVR90(2023)_height",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["DVR90(2023)_height",
+                VDATUM["Dansk_Vertikal_Reference_1990_(2023)"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRS89_and_DVR90(2023)_height",
+               GEOGCRS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["DVR90(2023)_height",
+                VDATUM["Dansk_Vertikal_Reference_1990_(2023)"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRS89 + DVR90(2023) height
+Authority   : EPSG
+Version     : 11.001(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - onshore
+Area-slat   : 54.5
+Area-nlat   : 57.81
+Area-llon   : 7.98
+Area-rlon   : 15.28
+
+WKID        : 10497
+Latest-WKID : 10497
+Macro       : PE_HVC_RGF93_V2_LAMBERT_93_NGF_IGN69_HEIGHT
+Name        : RGF93_v2_Lambert-93_and_NGF-IGN69_height
+WKT         : HVCOORDSYS["RGF93_v2_Lambert-93_and_NGF-IGN69_height",
+               PROJCS["RGF93_v2_Lambert-93",
+                GEOGCS["RGF93_v2",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Lambert_Conformal_Conic"],
+                PARAMETER["False_Easting", 700000.0],
+                PARAMETER["False_Northing", 6600000.0],
+                PARAMETER["Central_Meridian", 3.0],
+                PARAMETER["Standard_Parallel_1", 44.0],
+                PARAMETER["Standard_Parallel_2", 49.0],
+                PARAMETER["Latitude_Of_Origin", 46.5],
+                UNIT["Meter", 1.0]],
+               VERTCS["NGF_IGN69",
+                VDATUM["Nivellement_General_de_la_France_IGN69"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["RGF93_v2_Lambert-93_and_NGF-IGN69_height",
+               PROJCRS["RGF93_v2_Lambert-93",
+                BASEGEOGCRS["RGF93_v2",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Lambert_Conformal_Conic",
+                 METHOD["Lambert_Conformal_Conic"],
+                 PARAMETER["False_Easting", 700000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", 6600000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", 3.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Standard_Parallel_1", 44.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Standard_Parallel_2", 49.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Latitude_Of_Origin", 46.5,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["NGF_IGN69",
+                VDATUM["Nivellement_General_de_la_France_IGN69"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : RGF93 v2 / Lambert-93 + NGF-IGN69 height
+Authority   : EPSG
+Version     : 10.097(13.4.0)
+Deprecated  : no
+Area-name   : France - mainland onshore
+Area-slat   : 42.33
+Area-nlat   : 51.14
+Area-llon   : -4.87
+Area-rlon   : 8.23
+
+WKID        : 10498
+Latest-WKID : 10498
+Macro       : PE_HVC_RGF93_V2_LAMBERT_93_NGF_IGN78_HEIGHT
+Name        : RGF93_v2_Lambert-93_and_NGF-IGN78_height
+WKT         : HVCOORDSYS["RGF93_v2_Lambert-93_and_NGF-IGN78_height",
+               PROJCS["RGF93_v2_Lambert-93",
+                GEOGCS["RGF93_v2",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Lambert_Conformal_Conic"],
+                PARAMETER["False_Easting", 700000.0],
+                PARAMETER["False_Northing", 6600000.0],
+                PARAMETER["Central_Meridian", 3.0],
+                PARAMETER["Standard_Parallel_1", 44.0],
+                PARAMETER["Standard_Parallel_2", 49.0],
+                PARAMETER["Latitude_Of_Origin", 46.5],
+                UNIT["Meter", 1.0]],
+               VERTCS["NGF_IGN78",
+                VDATUM["Nivellement_General_de_la_France_IGN78"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["RGF93_v2_Lambert-93_and_NGF-IGN78_height",
+               PROJCRS["RGF93_v2_Lambert-93",
+                BASEGEOGCRS["RGF93_v2",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Lambert_Conformal_Conic",
+                 METHOD["Lambert_Conformal_Conic"],
+                 PARAMETER["False_Easting", 700000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", 6600000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", 3.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Standard_Parallel_1", 44.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Standard_Parallel_2", 49.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Latitude_Of_Origin", 46.5,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["NGF_IGN78",
+                VDATUM["Nivellement_General_de_la_France_IGN78"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : RGF93 v2 / Lambert-93 + NGF-IGN78 height
+Authority   : EPSG
+Version     : 10.097(13.4.0)
+Deprecated  : no
+Area-name   : France - Corsica onshore
+Area-slat   : 41.31
+Area-nlat   : 43.07
+Area-llon   : 8.5
+Area-rlon   : 9.63
+
+WKID        : 10499
+Latest-WKID : 10499
+Macro       : PE_HVC_RGF93_V2B_LAMBERT_93_NGF_IGN69_HEIGHT
+Name        : RGF93_v2b_Lambert-93_and_NGF-IGN69_height
+WKT         : HVCOORDSYS["RGF93_v2b_Lambert-93_and_NGF-IGN69_height",
+               PROJCS["RGF93_v2b_Lambert-93",
+                GEOGCS["RGF93_v2b",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Lambert_Conformal_Conic"],
+                PARAMETER["False_Easting", 700000.0],
+                PARAMETER["False_Northing", 6600000.0],
+                PARAMETER["Central_Meridian", 3.0],
+                PARAMETER["Standard_Parallel_1", 44.0],
+                PARAMETER["Standard_Parallel_2", 49.0],
+                PARAMETER["Latitude_Of_Origin", 46.5],
+                UNIT["Meter", 1.0]],
+               VERTCS["NGF_IGN69",
+                VDATUM["Nivellement_General_de_la_France_IGN69"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["RGF93_v2b_Lambert-93_and_NGF-IGN69_height",
+               PROJCRS["RGF93_v2b_Lambert-93",
+                BASEGEOGCRS["RGF93_v2b",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Lambert_Conformal_Conic",
+                 METHOD["Lambert_Conformal_Conic"],
+                 PARAMETER["False_Easting", 700000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", 6600000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", 3.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Standard_Parallel_1", 44.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Standard_Parallel_2", 49.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Latitude_Of_Origin", 46.5,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["NGF_IGN69",
+                VDATUM["Nivellement_General_de_la_France_IGN69"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : RGF93 v2b / Lambert-93 + NGF-IGN69 height
+Authority   : EPSG
+Version     : 10.097(13.4.0)
+Deprecated  : no
+Area-name   : France - mainland onshore
+Area-slat   : 42.33
+Area-nlat   : 51.14
+Area-llon   : -4.87
+Area-rlon   : 8.23
+
+WKID        : 10500
+Latest-WKID : 10500
+Macro       : PE_HVC_RGF93_V2B_LAMBERT_93_NGF_IGN78_HEIGHT
+Name        : RGF93_v2b_Lambert-93_and_NGF-IGN78_height
+WKT         : HVCOORDSYS["RGF93_v2b_Lambert-93_and_NGF-IGN78_height",
+               PROJCS["RGF93_v2b_Lambert-93",
+                GEOGCS["RGF93_v2b",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Lambert_Conformal_Conic"],
+                PARAMETER["False_Easting", 700000.0],
+                PARAMETER["False_Northing", 6600000.0],
+                PARAMETER["Central_Meridian", 3.0],
+                PARAMETER["Standard_Parallel_1", 44.0],
+                PARAMETER["Standard_Parallel_2", 49.0],
+                PARAMETER["Latitude_Of_Origin", 46.5],
+                UNIT["Meter", 1.0]],
+               VERTCS["NGF_IGN78",
+                VDATUM["Nivellement_General_de_la_France_IGN78"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["RGF93_v2b_Lambert-93_and_NGF-IGN78_height",
+               PROJCRS["RGF93_v2b_Lambert-93",
+                BASEGEOGCRS["RGF93_v2b",
+                 DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Lambert_Conformal_Conic",
+                 METHOD["Lambert_Conformal_Conic"],
+                 PARAMETER["False_Easting", 700000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", 6600000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", 3.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Standard_Parallel_1", 44.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Standard_Parallel_2", 49.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Latitude_Of_Origin", 46.5,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["NGF_IGN78",
+                VDATUM["Nivellement_General_de_la_France_IGN78"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : RGF93 v2b / Lambert-93 + NGF-IGN78 height
+Authority   : EPSG
+Version     : 10.097(13.4.0)
+Deprecated  : no
+Area-name   : France - Corsica onshore
+Area-slat   : 41.31
+Area-nlat   : 43.07
+Area-llon   : 8.5
+Area-rlon   : 9.63
+
+WKID        : 10507
+Latest-WKID : 10507
+Macro       : PE_HVC_RGF93_V2B_NGF_IGN78_HEIGHT
+Name        : RGF93_v2b_and_NGF-IGN78_height
+WKT         : HVCOORDSYS["RGF93_v2b_and_NGF-IGN78_height",
+               GEOGCS["RGF93_v2b",
+                DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NGF_IGN78",
+                VDATUM["Nivellement_General_de_la_France_IGN78"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["RGF93_v2b_and_NGF-IGN78_height",
+               GEOGCRS["RGF93_v2b",
+                DATUM["Reseau_Geodesique_Francais_1993_v2b",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["NGF_IGN78",
+                VDATUM["Nivellement_General_de_la_France_IGN78"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : RGF93 v2b + NGF-IGN78 height
+Authority   : EPSG
+Version     : 11.001(13.4.0)
+Deprecated  : no
+Area-name   : France - Corsica onshore
+Area-slat   : 41.31
+Area-nlat   : 43.07
+Area-llon   : 8.5
+Area-rlon   : 9.63
+
+WKID        : 10545
+Latest-WKID : 10545
+Macro       : PE_HVC_ETRS89_CASCAIS_HEIGHT
+Name        : ETRS89_and_Cascais_height
+WKT         : HVCOORDSYS["ETRS89_and_Cascais_height",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Cascais",
+                VDATUM["Cascais"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRS89_and_Cascais_height",
+               GEOGCRS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["Cascais",
+                VDATUM["Cascais"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRS89 + Cascais height
+Authority   : EPSG
+Version     : 11.004(13.4.0)
+Deprecated  : no
+Area-name   : Portugal - mainland - onshore
+Area-slat   : 36.95
+Area-nlat   : 42.16
+Area-llon   : -9.56
+Area-rlon   : -6.19
+
+WKID        : 10553
+Latest-WKID : 10553
+Macro       : PE_HVC_ETRS89_DKMSL_2022_DEPTH
+Name        : ETRS89_and_DKMSL(2022)_depth
+WKT         : HVCOORDSYS["ETRS89_and_DKMSL(2022)_depth",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["DKMSL(2022)_depth",
+                VDATUM["Denmark_Mean_Sea_Level_(2022)"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", -1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRS89_and_DKMSL(2022)_depth",
+               GEOGCRS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["DKMSL(2022)_depth",
+                VDATUM["Denmark_Mean_Sea_Level_(2022)"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", down,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRS89 + DKMSL(2022) depth
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - offshore
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.25
+Area-rlon   : 16.51
+
+WKID        : 10554
+Latest-WKID : 10554
+Macro       : PE_HVC_ETRS89_DKLAT_2022_DEPTH
+Name        : ETRS89_and_DKLAT(2022)_depth
+WKT         : HVCOORDSYS["ETRS89_and_DKLAT(2022)_depth",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["DKLAT(2022)_depth",
+                VDATUM["Denmark_Lowest_Astronomical_Tide_(2022)"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", -1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRS89_and_DKLAT(2022)_depth",
+               GEOGCRS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["DKLAT(2022)_depth",
+                VDATUM["Denmark_Lowest_Astronomical_Tide_(2022)"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", down,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRS89 + DKLAT(2022) depth
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - offshore
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.25
+Area-rlon   : 16.51
+
+WKID        : 10555
+Latest-WKID : 10555
+Macro       : PE_HVC_ETRS89_DKMSL_2023_DEPTH
+Name        : ETRS89_and_DKMSL(2023)_depth
+WKT         : HVCOORDSYS["ETRS89_and_DKMSL(2023)_depth",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["DKMSL(2023)_depth",
+                VDATUM["Denmark_Mean_Sea_Level_(2023)"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", -1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRS89_and_DKMSL(2023)_depth",
+               GEOGCRS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["DKMSL(2023)_depth",
+                VDATUM["Denmark_Mean_Sea_Level_(2023)"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", down,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRS89 + DKMSL(2023) depth
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - offshore
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.25
+Area-rlon   : 16.51
+
+WKID        : 10556
+Latest-WKID : 10556
+Macro       : PE_HVC_ETRS89_DKLAT_2023_DEPTH
+Name        : ETRS89_and_DKLAT(2023)_depth
+WKT         : HVCOORDSYS["ETRS89_and_DKLAT(2023)_depth",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["DKLAT(2023)_depth",
+                VDATUM["Denmark_Lowest_Astronomical_Tide_(2023)"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", -1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRS89_and_DKLAT(2023)_depth",
+               GEOGCRS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["DKLAT(2023)_depth",
+                VDATUM["Denmark_Lowest_Astronomical_Tide_(2023)"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", down,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRS89 + DKLAT(2023) depth
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - offshore
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.25
+Area-rlon   : 16.51
+
+WKID        : 10627
+Latest-WKID : 10627
+Macro       : PE_HVC_ECML14_GRID_ODN_HEIGHT
+Name        : ECML14_Grid_and_ODN_height
+WKT         : HVCOORDSYS["ECML14_Grid_and_ODN_height",
+               PROJCS["ECML14_Grid",
+                GEOGCS["ECML14-IRF",
+                 DATUM["ECML14_Intermediate_Reference_Frame",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 108021.121],
+                PARAMETER["False_Northing", 263196.8721],
+                PARAMETER["Central_Meridian", -1.6],
+                PARAMETER["Scale_Factor", 1.0],
+                PARAMETER["Latitude_Of_Origin", 53.8],
+                UNIT["Meter", 1.0]],
+               VERTCS["Newlyn",
+                VDATUM["Ordnance_Datum_Newlyn"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ECML14_Grid_and_ODN_height",
+               PROJCRS["ECML14_Grid",
+                BASEGEOGCRS["ECML14-IRF",
+                 DATUM["ECML14_Intermediate_Reference_Frame",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Transverse_Mercator",
+                 METHOD["Transverse_Mercator"],
+                 PARAMETER["False_Easting", 108021.121,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", 263196.8721,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", -1.6,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Scale_Factor", 1.0,
+                  SCALEUNIT["Unity", 1.0]],
+                 PARAMETER["Latitude_Of_Origin", 53.8,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["Newlyn",
+                VDATUM["Ordnance_Datum_Newlyn"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ECML14 Grid + ODN height
+Authority   : EPSG
+Version     : 11.009(13.4.0)
+Deprecated  : no
+Area-name   : UK - London to Edinburgh
+Area-slat   : 51.45
+Area-nlat   : 56.1
+Area-llon   : -3.45
+Area-rlon   : 0.05
+
+WKID        : 10633
+Latest-WKID : 10633
+Macro       : PE_HVC_RGAF09_UTM_ZONE_20N_MARTINIQUE_1987_HEIGHT
+Name        : RGAF09_UTM_zone_20N_and_Martinique_1987_height
+WKT         : HVCOORDSYS["RGAF09_UTM_zone_20N_and_Martinique_1987_height",
+               PROJCS["RGAF09_UTM_Zone_20N",
+                GEOGCS["GCS_RGAF09",
+                 DATUM["Reseau_Geodesique_des_Antilles_Francaises_2009",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 500000.0],
+                PARAMETER["False_Northing", 0.0],
+                PARAMETER["Central_Meridian", -63.0],
+                PARAMETER["Scale_Factor", 0.9996],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["IGN_1987",
+                VDATUM["IGN_1987"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["RGAF09_UTM_zone_20N_and_Martinique_1987_height",
+               PROJCRS["RGAF09_UTM_Zone_20N",
+                BASEGEOGCRS["GCS_RGAF09",
+                 DATUM["Reseau_Geodesique_des_Antilles_Francaises_2009",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Transverse_Mercator",
+                 METHOD["Transverse_Mercator"],
+                 PARAMETER["False_Easting", 500000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", 0.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", -63.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Scale_Factor", 0.9996,
+                  SCALEUNIT["Unity", 1.0]],
+                 PARAMETER["Latitude_Of_Origin", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["IGN_1987",
+                VDATUM["IGN_1987"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : RGAF09 / UTM zone 20N + Martinique 1987 height
+Authority   : EPSG
+Version     : 11.009(13.4.0)
+Deprecated  : no
+Area-name   : Martinique - onshore
+Area-slat   : 14.35
+Area-nlat   : 14.93
+Area-llon   : -61.29
+Area-rlon   : -60.76
+
+WKID        : 10651
+Latest-WKID : 10651
+Macro       : PE_HVC_GR96_GLMSL_2023_DEPTH
+Name        : GR96_and_GLMSL(2023)_depth
+WKT         : HVCOORDSYS["GR96_and_GLMSL(2023)_depth",
+               GEOGCS["GCS_Greenland_1996",
+                DATUM["D_Greenland_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["GLMSL(2023)_depth",
+                VDATUM["Greenland_Mean_Sea_Level_(2023)"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", -1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["GR96_and_GLMSL(2023)_depth",
+               GEOGCRS["GCS_Greenland_1996",
+                DATUM["D_Greenland_1996",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["GLMSL(2023)_depth",
+                VDATUM["Greenland_Mean_Sea_Level_(2023)"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", down,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : GR96 + GLMSL(2023) depth
+Authority   : EPSG
+Version     : 11.013(13.4.0)
+Deprecated  : no
+Area-name   : Greenland - offshore
+Area-slat   : 56.38
+Area-nlat   : 87.03
+Area-llon   : -75.0
+Area-rlon   : 7.99
+
+WKID        : 10652
+Latest-WKID : 10652
+Macro       : PE_HVC_GR96_GLLAT_2023_DEPTH
+Name        : GR96_and_GLLAT(2023)_depth
+WKT         : HVCOORDSYS["GR96_and_GLLAT(2023)_depth",
+               GEOGCS["GCS_Greenland_1996",
+                DATUM["D_Greenland_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["GLLAT(2023)_depth",
+                VDATUM["Greenland_Lowest_Astronomic_Tide_(2023)"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", -1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["GR96_and_GLLAT(2023)_depth",
+               GEOGCRS["GCS_Greenland_1996",
+                DATUM["D_Greenland_1996",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["GLLAT(2023)_depth",
+                VDATUM["Greenland_Lowest_Astronomic_Tide_(2023)"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", down,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : GR96 + GLLAT(2023) depth
+Authority   : EPSG
+Version     : 11.013(13.4.0)
+Deprecated  : no
+Area-name   : Greenland - offshore
+Area-slat   : 56.38
+Area-nlat   : 87.03
+Area-llon   : -75.0
+Area-rlon   : 7.99
+
+WKID        : 10659
+Latest-WKID : 10659
+Macro       : PE_HVC_ETRF2000_EOMA_1980_HEIGHT
+Name        : ETRF2000_and_EOMA_1980_height
+WKT         : HVCOORDSYS["ETRF2000_and_EOMA_1980_height",
+               GEOGCS["ETRF2000",
+                DATUM["European_Terrestrial_Reference_Frame_2000",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["EOMA_1980",
+                VDATUM["Baltic_1980"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRF2000_and_EOMA_1980_height",
+               GEOGCRS["ETRF2000",
+                DYNAMIC[FRAMEEPOCH[1989.0],
+                 MODEL["ITRF2000-PMM"]],
+                DATUM["European_Terrestrial_Reference_Frame_2000",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["EOMA_1980",
+                VDATUM["Baltic_1980"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRF2000 + EOMA 1980 height
+Authority   : EPSG
+Version     : 11.016(13.4.0)
+Deprecated  : no
+Area-name   : Hungary
+Area-slat   : 45.74
+Area-nlat   : 48.58
+Area-llon   : 16.11
+Area-rlon   : 22.9
+
+WKID        : 10660
+Latest-WKID : 10660
+Macro       : PE_HVC_HD72_EOV_EOMA_1980_HEIGHT
+Name        : HD72_EOV_and_EOMA_1980_height
+WKT         : HVCOORDSYS["HD72_EOV_and_EOMA_1980_height",
+               PROJCS["Hungarian_1972_Egyseges_Orszagos_Vetuleti",
+                GEOGCS["GCS_Hungarian_1972",
+                 DATUM["D_Hungarian_1972",
+                  SPHEROID["GRS_1967", 6378160.0, 298.247167427]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Hotine_Oblique_Mercator_Azimuth_Center"],
+                PARAMETER["False_Easting", 650000.0],
+                PARAMETER["False_Northing", 200000.0],
+                PARAMETER["Scale_Factor", 0.99993],
+                PARAMETER["Azimuth", 90.0],
+                PARAMETER["Longitude_Of_Center", 19.04857177777778],
+                PARAMETER["Latitude_Of_Center", 47.14439372222],
+                UNIT["Meter", 1.0]],
+               VERTCS["EOMA_1980",
+                VDATUM["Baltic_1980"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["HD72_EOV_and_EOMA_1980_height",
+               PROJCRS["Hungarian_1972_Egyseges_Orszagos_Vetuleti",
+                BASEGEOGCRS["GCS_Hungarian_1972",
+                 DATUM["D_Hungarian_1972",
+                  ELLIPSOID["GRS_1967", 6378160.0, 298.247167427,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Hotine_Oblique_Mercator_Azimuth_Center",
+                 METHOD["Hotine_Oblique_Mercator_Azimuth_Center"],
+                 PARAMETER["False_Easting", 650000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", 200000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Scale_Factor", 0.99993,
+                  SCALEUNIT["Unity", 1.0]],
+                 PARAMETER["Azimuth", 90.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Longitude_Of_Center", 19.04857177777778,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Latitude_Of_Center", 47.14439372222,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["EOMA_1980",
+                VDATUM["Baltic_1980"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : HD72 / EOV + EOMA 1980 height
+Authority   : EPSG
+Version     : 11.016(13.4.0)
+Deprecated  : no
+Area-name   : Hungary
+Area-slat   : 45.74
+Area-nlat   : 48.58
+Area-llon   : 16.11
+Area-rlon   : 22.9
 
 WKID        : 20001
 Latest-WKID : 20001

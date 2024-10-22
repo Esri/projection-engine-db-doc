@@ -1096,9 +1096,9 @@ Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Canada - CGVD28
 Area-slat   : 41.67
-Area-nlat   : 69.8
+Area-nlat   : 69.81
 Area-llon   : -141.01
-Area-rlon   : -59.73
+Area-rlon   : -52.54
 
 WKID        : 5714
 Latest-WKID : 5714
@@ -1575,10 +1575,10 @@ Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
 Area-name   : Denmark - onshore
-Area-slat   : 54.51
-Area-nlat   : 57.8
-Area-llon   : 8.0
-Area-rlon   : 15.25
+Area-slat   : 54.5
+Area-nlat   : 57.81
+Area-llon   : 7.98
+Area-rlon   : 15.28
 
 WKID        : 5734
 Latest-WKID : 5734
@@ -3145,24 +3145,24 @@ Latest-WKID : 5799
 Macro       : PE_VCS_DANSK_VERT_REF_1990
 Name        : DVR90
 WKT         : VERTCS["DVR90",
-               VDATUM["Dansk_Vertikal_Reference_1990"],
+               VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["DVR90",
-               VDATUM["Dansk_Vertikal_Reference_1990"],
+               VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Dansk Vertical Reference 1990
+Description : DVR90 height (ensemble)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name   : Denmark - onshore
-Area-slat   : 54.51
-Area-nlat   : 57.8
-Area-llon   : 8.0
-Area-rlon   : 15.25
+Area-slat   : 54.5
+Area-nlat   : 57.81
+Area-llon   : 7.98
+Area-rlon   : 15.28
 
 WKID        : 5829
 Latest-WKID : 5829
@@ -5301,10 +5301,10 @@ Authority   : EPSG
 Version     : 9.9(12.9.0)
 Deprecated  : no
 Area-name   : Netherlands - offshore
-Area-slat   : 51.45
+Area-slat   : 51.44
 Area-nlat   : 55.77
 Area-llon   : 2.53
-Area-rlon   : 6.41
+Area-rlon   : 6.37
 
 WKID        : 9288
 Latest-WKID : 9288
@@ -5325,10 +5325,10 @@ Authority   : EPSG
 Version     : 9.9(12.9.0)
 Deprecated  : no
 Area-name   : Netherlands - offshore
-Area-slat   : 51.45
+Area-slat   : 51.44
 Area-nlat   : 55.77
 Area-llon   : 2.53
-Area-rlon   : 6.41
+Area-rlon   : 6.37
 
 WKID        : 9303
 Latest-WKID : 9303
@@ -6243,6 +6243,318 @@ Area-nlat   : 35.38
 Area-llon   : -2.98
 Area-rlon   : -2.88
 
+WKID        : 10482
+Latest-WKID : 10482
+Macro       : PE_VCS_DVR90_2000_HEIGHT
+Name        : DVR90(2000)_height
+WKT         : VERTCS["DVR90(2000)_height",
+               VDATUM["Dansk_Vertikal_Reference_1990"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DVR90(2000)_height",
+               VDATUM["Dansk_Vertikal_Reference_1990"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DVR90 (2000) height
+Authority   : EPSG
+Version     : 11.001(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - onshore
+Area-slat   : 54.5
+Area-nlat   : 57.81
+Area-llon   : 7.98
+Area-rlon   : 15.28
+
+WKID        : 10483
+Latest-WKID : 10483
+Macro       : PE_VCS_DVR90_2002_HEIGHT
+Name        : DVR90(2002)_height
+WKT         : VERTCS["DVR90(2002)_height",
+               VDATUM["Dansk_Vertikal_Reference_1990_(2002)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DVR90(2002)_height",
+               VDATUM["Dansk_Vertikal_Reference_1990_(2002)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DVR90 (2002) height
+Authority   : EPSG
+Version     : 11.001(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - onshore
+Area-slat   : 54.5
+Area-nlat   : 57.81
+Area-llon   : 7.98
+Area-rlon   : 15.28
+
+WKID        : 10484
+Latest-WKID : 10484
+Macro       : PE_VCS_DVR90_2013_HEIGHT
+Name        : DVR90(2013)_height
+WKT         : VERTCS["DVR90(2013)_height",
+               VDATUM["Dansk_Vertikal_Reference_1990_(2013)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DVR90(2013)_height",
+               VDATUM["Dansk_Vertikal_Reference_1990_(2013)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DVR90 (2013) height
+Authority   : EPSG
+Version     : 11.001(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - onshore
+Area-slat   : 54.5
+Area-nlat   : 57.81
+Area-llon   : 7.98
+Area-rlon   : 15.28
+
+WKID        : 10485
+Latest-WKID : 10485
+Macro       : PE_VCS_DVR90_2023_HEIGHT
+Name        : DVR90(2023)_height
+WKT         : VERTCS["DVR90(2023)_height",
+               VDATUM["Dansk_Vertikal_Reference_1990_(2023)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DVR90(2023)_height",
+               VDATUM["Dansk_Vertikal_Reference_1990_(2023)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DVR90 (2023) height
+Authority   : EPSG
+Version     : 11.001(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - onshore
+Area-slat   : 54.5
+Area-nlat   : 57.81
+Area-llon   : 7.98
+Area-rlon   : 15.28
+
+WKID        : 10547
+Latest-WKID : 10547
+Macro       : PE_VCS_DKMSL_2022_DEPTH
+Name        : DKMSL(2022)_depth
+WKT         : VERTCS["DKMSL(2022)_depth",
+               VDATUM["Denmark_Mean_Sea_Level_(2022)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DKMSL(2022)_depth",
+               VDATUM["Denmark_Mean_Sea_Level_(2022)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DKMSL(2022) depth
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - offshore
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.25
+Area-rlon   : 16.51
+
+WKID        : 10548
+Latest-WKID : 10548
+Macro       : PE_VCS_DKLAT_2022_DEPTH
+Name        : DKLAT(2022)_depth
+WKT         : VERTCS["DKLAT(2022)_depth",
+               VDATUM["Denmark_Lowest_Astronomical_Tide_(2022)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DKLAT(2022)_depth",
+               VDATUM["Denmark_Lowest_Astronomical_Tide_(2022)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DKLAT(2022) depth
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - offshore
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.25
+Area-rlon   : 16.51
+
+WKID        : 10549
+Latest-WKID : 10549
+Macro       : PE_VCS_DKMSL_2023_DEPTH
+Name        : DKMSL(2023)_depth
+WKT         : VERTCS["DKMSL(2023)_depth",
+               VDATUM["Denmark_Mean_Sea_Level_(2023)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DKMSL(2023)_depth",
+               VDATUM["Denmark_Mean_Sea_Level_(2023)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DKMSL(2023) depth
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - offshore
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.25
+Area-rlon   : 16.51
+
+WKID        : 10550
+Latest-WKID : 10550
+Macro       : PE_VCS_DKLAT_2023_DEPTH
+Name        : DKLAT(2023)_depth
+WKT         : VERTCS["DKLAT(2023)_depth",
+               VDATUM["Denmark_Lowest_Astronomical_Tide_(2023)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DKLAT(2023)_depth",
+               VDATUM["Denmark_Lowest_Astronomical_Tide_(2023)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DKLAT(2023) depth
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - offshore
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.25
+Area-rlon   : 16.51
+
+WKID        : 10551
+Latest-WKID : 10551
+Macro       : PE_VCS_DKMSL_DEPTH
+Name        : DKMSL_depth
+WKT         : VERTCS["DKMSL_depth",
+               VDATUM["Denmark_Mean_Sea_Level"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DKMSL_depth",
+               VDATUM["Denmark_Mean_Sea_Level"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DKMSL depth (ensemble)
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - offshore
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.25
+Area-rlon   : 16.51
+
+WKID        : 10552
+Latest-WKID : 10552
+Macro       : PE_VCS_DKLAT_DEPTH
+Name        : DKLAT_depth
+WKT         : VERTCS["DKLAT_depth",
+               VDATUM["Denmark_Lowest_Astronomical_Tide"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DKLAT_depth",
+               VDATUM["Denmark_Lowest_Astronomical_Tide"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : DKLAT depth (ensemble)
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Denmark - offshore
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.25
+Area-rlon   : 16.51
+
+WKID        : 10565
+Latest-WKID : 10565
+Macro       : PE_VCS_GLLMSL_2022_HEIGHT
+Name        : GLLMSL(2022)_height
+WKT         : VERTCS["GLLMSL(2022)_height",
+               VDATUM["Greenland_Local_Mean_Sea_Level_(2022)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["GLLMSL(2022)_height",
+               VDATUM["Greenland_Local_Mean_Sea_Level_(2022)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : GLLMSL(2022) height
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Greenland - onshore
+Area-slat   : 59.74
+Area-nlat   : 83.67
+Area-llon   : -73.29
+Area-rlon   : -11.81
+
+WKID        : 10649
+Latest-WKID : 10649
+Macro       : PE_VCS_GLMSL_2023_DEPTH
+Name        : GLMSL(2023)_depth
+WKT         : VERTCS["GLMSL(2023)_depth",
+               VDATUM["Greenland_Mean_Sea_Level_(2023)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["GLMSL(2023)_depth",
+               VDATUM["Greenland_Mean_Sea_Level_(2023)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : GLMSL(2023) depth
+Authority   : EPSG
+Version     : 11.013(13.4.0)
+Deprecated  : no
+Area-name   : Greenland - offshore
+Area-slat   : 56.38
+Area-nlat   : 87.03
+Area-llon   : -75.0
+Area-rlon   : 7.99
+
+WKID        : 10650
+Latest-WKID : 10650
+Macro       : PE_VCS_GLLAT_2023_DEPTH
+Name        : GLLAT(2023)_depth
+WKT         : VERTCS["GLLAT(2023)_depth",
+               VDATUM["Greenland_Lowest_Astronomic_Tide_(2023)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["GLLAT(2023)_depth",
+               VDATUM["Greenland_Lowest_Astronomic_Tide_(2023)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : GLLAT(2023) depth
+Authority   : EPSG
+Version     : 11.013(13.4.0)
+Deprecated  : no
+Area-name   : Greenland - offshore
+Area-slat   : 56.38
+Area-nlat   : 87.03
+Area-llon   : -75.0
+Area-rlon   : 7.99
+
 WKID        : 20000
 Latest-WKID : 20000
 Macro       : PE_VCS_SVD2006_HEIGHT
@@ -6419,24 +6731,24 @@ Latest-WKID : 5799
 Macro       : PE_VCS_DANSK_VERT_REF_1990
 Name        : DVR90
 WKT         : VERTCS["DVR90",
-               VDATUM["Dansk_Vertikal_Reference_1990"],
+               VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["DVR90",
-               VDATUM["Dansk_Vertikal_Reference_1990"],
+               VDATUM["Dansk_Vertikal_Reference_1990_ensemble"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]]]
-Description : Dansk Vertical Reference 1990
+Description : DVR90 height (ensemble)
 Authority   : Esri
 Version     : 9.3.0.0
 Deprecated  : yes
 Area-name   : Denmark - onshore
-Area-slat   : 54.51
-Area-nlat   : 57.8
-Area-llon   : 8.0
-Area-rlon   : 15.25
+Area-slat   : 54.5
+Area-nlat   : 57.81
+Area-llon   : 7.98
+Area-rlon   : 15.28
 
 WKID        : 105702
 Latest-WKID : 5613
@@ -6741,6 +7053,8 @@ WKT         : VERTCS["WGS_1984",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984",
+               DYNAMIC[FRAMEEPOCH[1990.5],
+                MODEL["AM0-2"]],
                DATUM["D_WGS_1984",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -6778,11 +7092,11 @@ Description : ETRS 1989 ellipsoid height
 Authority   : Esri
 Version     : 9.3.0.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115702
 Latest-WKID : 115702
@@ -7524,6 +7838,8 @@ WKT         : VERTCS["ITRF_1988",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1988",
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["AM0-2"]],
                DATUM["D_ITRF_1988",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7551,6 +7867,8 @@ WKT         : VERTCS["ITRF_1989",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1989",
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["AM0-2"]],
                DATUM["D_ITRF_1989",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7578,6 +7896,8 @@ WKT         : VERTCS["ITRF_1990",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1990",
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["AM0-2"]],
                DATUM["D_ITRF_1990",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7605,6 +7925,8 @@ WKT         : VERTCS["ITRF_1991",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1991",
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["NNR-NUVEL1"]],
                DATUM["D_ITRF_1991",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7632,6 +7954,8 @@ WKT         : VERTCS["ITRF_1992",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1992",
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["NNR-NUVEL1"]],
                DATUM["D_ITRF_1992",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7659,6 +7983,8 @@ WKT         : VERTCS["ITRF_1993",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1993",
+               DYNAMIC[FRAMEEPOCH[1993.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["D_ITRF_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7686,6 +8012,7 @@ WKT         : VERTCS["ITRF_1996",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1996",
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_1996",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7713,6 +8040,8 @@ WKT         : VERTCS["ITRF_1997",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1997",
+               DYNAMIC[FRAMEEPOCH[1997.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["D_ITRF_1997",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7740,6 +8069,7 @@ WKT         : VERTCS["ITRF_2000",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_2000",
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -7767,6 +8097,8 @@ WKT         : VERTCS["ITRF_2005",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_2005",
+               DYNAMIC[FRAMEEPOCH[2000.0],
+                MODEL["NNR-NUVEL1A+ITRF2005-PMM"]],
                DATUM["D_ITRF_2005",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -8172,6 +8504,7 @@ WKT         : VERTCS["MONREF_1997",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["MONREF_1997",
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["D_ITRF_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -8226,6 +8559,8 @@ WKT         : VERTCS["NAD_1983_2011",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_2011",
+               DYNAMIC[FRAMEEPOCH[2010.0],
+                MODEL["HTDP"]],
                DATUM["D_NAD_1983_2011",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -8253,6 +8588,8 @@ WKT         : VERTCS["NAD_1983_CORS96",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_CORS96",
+               DYNAMIC[FRAMEEPOCH[1997.0],
+                MODEL["HTDP"]],
                DATUM["D_NAD_1983_CORS96",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -8334,6 +8671,8 @@ WKT         : VERTCS["NAD_1983_MA11",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_MA11",
+               DYNAMIC[FRAMEEPOCH[2012.4467],
+                MODEL["HTDP"]],
                DATUM["D_NAD_1983_MA11",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -8361,6 +8700,8 @@ WKT         : VERTCS["NAD_1983_MARP00",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_MARP00",
+               DYNAMIC[FRAMEEPOCH[1993.6205],
+                MODEL["HTDP"]],
                DATUM["D_NAD_1983_MARP00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -8415,6 +8756,8 @@ WKT         : VERTCS["NAD_1983_PA11",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_PA11",
+               DYNAMIC[FRAMEEPOCH[2012.4467],
+                MODEL["HTDP"]],
                DATUM["D_NAD_1983_PA11",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -8442,6 +8785,8 @@ WKT         : VERTCS["NAD_1983_PACP00",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_PACP00",
+               DYNAMIC[FRAMEEPOCH[1993.6205],
+                MODEL["HTDP"]],
                DATUM["D_NAD_1983_PACP00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -8712,6 +9057,7 @@ WKT         : VERTCS["PZ_1990",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["PZ_1990",
+               DYNAMIC[FRAMEEPOCH[1990.0]],
                DATUM["D_Parametrop_Zemp_1990",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9522,6 +9868,8 @@ WKT         : VERTCS["ITRF_2008",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_2008",
+               DYNAMIC[FRAMEEPOCH[2005.0],
+                MODEL["ITRF2008-PMM"]],
                DATUM["D_ITRF_2008",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9576,6 +9924,8 @@ WKT         : VERTCS["GDA2020",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["GDA2020",
+               DYNAMIC[FRAMEEPOCH[2020.0],
+                MODEL["GDA2020-PMM"]],
                DATUM["GDA2020",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9702,6 +10052,8 @@ WKT         : VERTCS["ITRF2014",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF2014",
+               DYNAMIC[FRAMEEPOCH[2010.0],
+                MODEL["ITRF2014-PMM"]],
                DATUM["International_Terrestrial_Reference_Frame_2014",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9810,6 +10162,7 @@ WKT         : VERTCS["PZ-90.11",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["PZ-90.11",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["Parametry_Zemli_1990.11",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9837,6 +10190,7 @@ WKT         : VERTCS["PZ-90.02",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["PZ-90.02",
+               DYNAMIC[FRAMEEPOCH[2002.0]],
                DATUM["Parametry_Zemli_1990.02",
                 ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9864,6 +10218,7 @@ WKT         : VERTCS["WGS_1984_(Transit)",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984_(Transit)",
+               DYNAMIC[FRAMEEPOCH[1984.0]],
                DATUM["World_Geodetic_System_1984_(Transit)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9891,6 +10246,8 @@ WKT         : VERTCS["WGS_1984_(G1762)",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984_(G1762)",
+               DYNAMIC[FRAMEEPOCH[2012.5],
+                MODEL["ITRF2008-PMM"]],
                DATUM["World_Geodetic_System_1984_(G1762)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9918,6 +10275,8 @@ WKT         : VERTCS["WGS_1984_(G1674)",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984_(G1674)",
+               DYNAMIC[FRAMEEPOCH[2007.5],
+                MODEL["ITRF2008-PMM"]],
                DATUM["World_Geodetic_System_1984_(G1674)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9945,6 +10304,8 @@ WKT         : VERTCS["WGS_1984_(G1150)",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984_(G1150)",
+               DYNAMIC[FRAMEEPOCH[1999.5],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["World_Geodetic_System_1984_(G1150)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9972,6 +10333,8 @@ WKT         : VERTCS["WGS_1984_(G873)",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984_(G873)",
+               DYNAMIC[FRAMEEPOCH[1995.5],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["World_Geodetic_System_1984_(G873)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -9999,6 +10362,7 @@ WKT         : VERTCS["WGS_1984_(G730)",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984_(G730)",
+               DYNAMIC[FRAMEEPOCH[1994.0]],
                DATUM["World_Geodetic_System_1984_(G730)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10026,6 +10390,8 @@ WKT         : VERTCS["ETRF90",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF90",
+               DYNAMIC[FRAMEEPOCH[1989.0],
+                MODEL["AM0-2"]],
                DATUM["European_Terrestrial_Reference_Frame_1990",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10036,11 +10402,11 @@ Description : ETRF 1990 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115823
 Latest-WKID : 115823
@@ -10053,6 +10419,8 @@ WKT         : VERTCS["ETRF91",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF91",
+               DYNAMIC[FRAMEEPOCH[1989.0],
+                MODEL["NNR-NUVEL1"]],
                DATUM["European_Terrestrial_Reference_Frame_1991",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10063,11 +10431,11 @@ Description : ETRF 1991 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115824
 Latest-WKID : 115824
@@ -10080,6 +10448,8 @@ WKT         : VERTCS["ETRF92",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF92",
+               DYNAMIC[FRAMEEPOCH[1989.0],
+                MODEL["NNR-NUVEL1"]],
                DATUM["European_Terrestrial_Reference_Frame_1992",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10090,11 +10460,11 @@ Description : ETRF 1992 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115825
 Latest-WKID : 115825
@@ -10107,6 +10477,8 @@ WKT         : VERTCS["ETRF93",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF93",
+               DYNAMIC[FRAMEEPOCH[1989.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["European_Terrestrial_Reference_Frame_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10117,11 +10489,11 @@ Description : ETRF 1993 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115826
 Latest-WKID : 115826
@@ -10134,6 +10506,8 @@ WKT         : VERTCS["ETRF94",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF94",
+               DYNAMIC[FRAMEEPOCH[1989.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["European_Terrestrial_Reference_Frame_1994",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10144,11 +10518,11 @@ Description : ETRF 1994 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115827
 Latest-WKID : 115827
@@ -10161,6 +10535,8 @@ WKT         : VERTCS["ETRF96",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF96",
+               DYNAMIC[FRAMEEPOCH[1989.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["European_Terrestrial_Reference_Frame_1996",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10171,11 +10547,11 @@ Description : ETRF 1996 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115828
 Latest-WKID : 115828
@@ -10188,6 +10564,8 @@ WKT         : VERTCS["ETRF97",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF97",
+               DYNAMIC[FRAMEEPOCH[1989.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["European_Terrestrial_Reference_Frame_1997",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10198,11 +10576,11 @@ Description : ETRF 1997 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115829
 Latest-WKID : 115829
@@ -10215,6 +10593,8 @@ WKT         : VERTCS["ETRF2000",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF2000",
+               DYNAMIC[FRAMEEPOCH[1989.0],
+                MODEL["ITRF2000-PMM"]],
                DATUM["European_Terrestrial_Reference_Frame_2000",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10225,11 +10605,11 @@ Description : ETRF 2000 ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115830
 Latest-WKID : 115830
@@ -10431,6 +10811,7 @@ WKT         : VERTCS["IGS14",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGS14",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["IGS14",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10809,6 +11190,7 @@ WKT         : VERTCS["SIRGAS-CON_DGF00P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_DGF00P01",
+               DYNAMIC[FRAMEEPOCH[2000.4]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF00P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10836,6 +11218,7 @@ WKT         : VERTCS["SIRGAS-CON_DGF01P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_DGF01P01",
+               DYNAMIC[FRAMEEPOCH[2000.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF01P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10863,6 +11246,7 @@ WKT         : VERTCS["SIRGAS-CON_DGF01P02",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_DGF01P02",
+               DYNAMIC[FRAMEEPOCH[1998.4]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF01P02",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10890,6 +11274,7 @@ WKT         : VERTCS["SIRGAS-CON_DGF02P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_DGF02P01",
+               DYNAMIC[FRAMEEPOCH[2000.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF02P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10917,6 +11302,7 @@ WKT         : VERTCS["SIRGAS-CON_DGF04P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_DGF04P01",
+               DYNAMIC[FRAMEEPOCH[2003.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF04P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10944,6 +11330,7 @@ WKT         : VERTCS["SIRGAS-CON_DGF05P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_DGF05P01",
+               DYNAMIC[FRAMEEPOCH[2004.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF05P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10971,6 +11358,7 @@ WKT         : VERTCS["SIRGAS-CON_DGF06P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_DGF06P01",
+               DYNAMIC[FRAMEEPOCH[2004.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF06P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -10998,6 +11386,7 @@ WKT         : VERTCS["SIRGAS-CON_DGF07P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_DGF07P01",
+               DYNAMIC[FRAMEEPOCH[2004.5]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF07P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11025,6 +11414,7 @@ WKT         : VERTCS["SIRGAS-CON_DGF08P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_DGF08P01",
+               DYNAMIC[FRAMEEPOCH[2004.5]],
                DATUM["SIRGAS_Continuously_Operating_Network_DGF08P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11052,6 +11442,7 @@ WKT         : VERTCS["SIRGAS-CON_SIR09P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_SIR09P01",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR09P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11079,6 +11470,7 @@ WKT         : VERTCS["SIRGAS-CON_SIR10P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_SIR10P01",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR10P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11106,6 +11498,7 @@ WKT         : VERTCS["SIRGAS-CON_SIR11P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_SIR11P01",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR11P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11133,6 +11526,7 @@ WKT         : VERTCS["SIRGAS-CON_SIR13P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_SIR13P01",
+               DYNAMIC[FRAMEEPOCH[2012.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR13P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11160,6 +11554,7 @@ WKT         : VERTCS["SIRGAS-CON_SIR14P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_SIR14P01",
+               DYNAMIC[FRAMEEPOCH[2013.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR14P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11187,6 +11582,7 @@ WKT         : VERTCS["SIRGAS-CON_SIR15P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_SIR15P01",
+               DYNAMIC[FRAMEEPOCH[2013.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR15P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11214,6 +11610,7 @@ WKT         : VERTCS["SIRGAS-CON_SIR17P01",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-CON_SIR17P01",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["SIRGAS_Continuously_Operating_Network_SIR17P01",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11241,6 +11638,7 @@ WKT         : VERTCS["IGS97",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGS97",
+               DYNAMIC[FRAMEEPOCH[1997.0]],
                DATUM["IGS97",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11268,6 +11666,7 @@ WKT         : VERTCS["IGS00",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGS00",
+               DYNAMIC[FRAMEEPOCH[1998.0]],
                DATUM["IGS00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11295,6 +11694,7 @@ WKT         : VERTCS["IGb00",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGb00",
+               DYNAMIC[FRAMEEPOCH[1998.0]],
                DATUM["IGb00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11322,6 +11722,7 @@ WKT         : VERTCS["IGS05",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGS05",
+               DYNAMIC[FRAMEEPOCH[2000.0]],
                DATUM["IGS05",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11349,6 +11750,7 @@ WKT         : VERTCS["IGb08",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGb08",
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["IGb08",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11413,11 +11815,11 @@ Description : ETRF 2005 ellipsoid height
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115874
 Latest-WKID : 115874
@@ -11430,6 +11832,8 @@ WKT         : VERTCS["ETRF2014",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF2014",
+               DYNAMIC[FRAMEEPOCH[2010.0],
+                MODEL["ITRF2014-PMM"]],
                DATUM["European_Terrestrial_Reference_Frame_2014",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11440,11 +11844,11 @@ Description : ETRF 2014 ellipsoid height
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115875
 Latest-WKID : 115875
@@ -11484,6 +11888,7 @@ WKT         : VERTCS["ATRF2014",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ATRF2014",
+               DYNAMIC[FRAMEEPOCH[2020.0]],
                DATUM["Australian_Terrestrial_Reference_Frame_2014",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11565,6 +11970,8 @@ WKT         : VERTCS["ITRF_1994",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1994",
+               DYNAMIC[FRAMEEPOCH[1993.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["D_ITRF_1994",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11673,6 +12080,7 @@ WKT         : VERTCS["ITRF2020",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF2020",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["International_Terrestrial_Reference_Frame_2020",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11727,6 +12135,8 @@ WKT         : VERTCS["WGS_1984_(G2139)_height",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984_(G2139)_height",
+               DYNAMIC[FRAMEEPOCH[2016.5],
+                MODEL["ITRF2014-PMM"]],
                DATUM["WGS_1984_(G2139)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11835,6 +12245,8 @@ WKT         : VERTCS["ETRF_1989",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF_1989",
+               DYNAMIC[FRAMEEPOCH[1989.0],
+                MODEL["AM0-2"]],
                DATUM["D_ETRF_1989",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11845,11 +12257,11 @@ Description : European Terrestrial Ref.Frame 1989
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 115890
 Latest-WKID : 115890
@@ -11916,6 +12328,7 @@ WKT         : VERTCS["IGb14",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGb14",
+               DYNAMIC[FRAMEEPOCH[2010.0]],
                DATUM["IGb14",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -11943,6 +12356,8 @@ WKT         : VERTCS["IGS08",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGS08",
+               DYNAMIC[FRAMEEPOCH[2005.0],
+                MODEL["ITRF2008-PMM"]],
                DATUM["IGS08",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -12105,6 +12520,7 @@ WKT         : VERTCS["REDGEOMIN",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["REDGEOMIN",
+               DYNAMIC[FRAMEEPOCH[2019.0]],
                DATUM["Red_Geodesica_Para_Mineria_en_Chile",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -12294,6 +12710,7 @@ WKT         : VERTCS["SRGI2013",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SRGI2013",
+               DYNAMIC[FRAMEEPOCH[2012.0]],
                DATUM["Sistem_Referensi_Geospasial_Indonesia_2013",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -12321,6 +12738,7 @@ WKT         : VERTCS["WGS_1966",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1966",
+               DYNAMIC[FRAMEEPOCH[1966.0]],
                DATUM["D_WGS_1966",
                 ELLIPSOID["NWL_9D", 6378145.0, 298.25,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -12348,6 +12766,7 @@ WKT         : VERTCS["WGS_1972",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1972",
+               DYNAMIC[FRAMEEPOCH[1972.0]],
                DATUM["D_WGS_1972",
                 ELLIPSOID["WGS_1972", 6378135.0, 298.26,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -12375,6 +12794,7 @@ WKT         : VERTCS["WGS_1972_BE",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1972_BE",
+               DYNAMIC[FRAMEEPOCH[1972.0]],
                DATUM["D_WGS_1972_BE",
                 ELLIPSOID["WGS_1972", 6378135.0, 298.26,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -12726,6 +13146,7 @@ WKT         : VERTCS["IGS20",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGS20",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["IGS20",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -12984,3 +13405,57 @@ Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
 Area-rlon   : -40.73
+
+WKID        : 115932
+Latest-WKID : 115932
+Macro       : PE_VCS_ETRF_2020
+Name        : ETRF2020
+WKT         : VERTCS["ETRF2020",
+               DATUM["European_Terrestrial_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRF2020",
+               DATUM["European_Terrestrial_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ETRF 2020 ellipsoid height
+Authority   : Esri
+Version     : 13.4.0
+Deprecated  : no
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
+Area-nlat   : 84.73
+Area-llon   : -16.1
+Area-rlon   : 38.01
+
+WKID        : 115933
+Latest-WKID : 115933
+Macro       : PE_VCS_WGS_1984_G2296
+Name        : WGS_1984_(G2296)
+WKT         : VERTCS["WGS_1984_(G2296)",
+               DATUM["World_Geodetic_System_1984_(G2296)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["WGS_1984_(G2296)",
+               DATUM["World_Geodetic_System_1984_(G2296)",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : WGS 1984 (G2296) ellipsoid height
+Authority   : Esri
+Version     : 13.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0

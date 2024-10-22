@@ -180,6 +180,30 @@ PE_PCS_ED_1950_EUROPE_LAMBERT, \
    "Projected Coordinate Systems/Continental/Europe", \
    "Europe Lambert Conformal Conic"
 
+PE_PCS_WGS_1984_GLANCE_AFRICA, \
+   "Projected Coordinate Systems/Continental/GLANCE", \
+   "WGS 1984 GLANCE Africa"
+
+PE_PCS_WGS_1984_GLANCE_ASIA, \
+   "Projected Coordinate Systems/Continental/GLANCE", \
+   "WGS 1984 GLANCE Asia"
+
+PE_PCS_WGS_1984_GLANCE_EUROPE, \
+   "Projected Coordinate Systems/Continental/GLANCE", \
+   "WGS 1984 GLANCE Europe"
+
+PE_PCS_WGS_1984_GLANCE_NORTH_AMERICA, \
+   "Projected Coordinate Systems/Continental/GLANCE", \
+   "WGS 1984 GLANCE North America"
+
+PE_PCS_WGS_1984_GLANCE_OCEANIA, \
+   "Projected Coordinate Systems/Continental/GLANCE", \
+   "WGS 1984 GLANCE Oceania"
+
+PE_PCS_WGS_1984_GLANCE_SOUTH_AMERICA, \
+   "Projected Coordinate Systems/Continental/GLANCE", \
+   "WGS 1984 GLANCE South America"
+
 PE_PCS_NAD_1983_ALASKA_ALBERS, \
    "Projected Coordinate Systems/Continental/North America", \
    "Alaska Albers Equal Area Conic"
@@ -7548,11 +7572,11 @@ PE_PCS_GDA_1994_NSW_LAMBERT, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA 1994 New South Wales Lambert"
 
-PE_PCS_GDA94_PCG94, \
+PE_PCS_GDA_1994_PCG94, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA 1994 PCG94"
 
-PE_PCS_GDA_1994_PCG94, \
+PE_PCS_GDA94_PCG94, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA 1994 PCG94"
 
@@ -8212,14 +8236,6 @@ PE_PCS_NAD_1983_CSRS_V6_MTM_NS_5, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (2011) CSRS v6 MTM Nova Scotia zone 5"
 
-PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_10, \
-   "Projected Coordinate Systems/National Grids/Canada", \
-   "NAD 1983 (CSRS )v3 MTM zone 10"
-
-PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_10, \
-   "Projected Coordinate Systems/National Grids/Canada", \
-   "NAD 1983 (CSRS )v6 MTM zone 10"
-
 PE_PCS_NAD_1983_CSRS_V2_ALBERTA_3TM_REF_MERID_111_W, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v2 Alberta 3TM ref merid 111 W"
@@ -8343,6 +8359,10 @@ PE_PCS_NAD_1983_CSRS_V3_MTM_NS_1997_ZONE_4, \
 PE_PCS_NAD_1983_CSRS_V3_MTM_NS_1997_ZONE_5, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v3 MTM NS 1997 Zone 5"
+
+PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_10, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v3 MTM zone 10"
 
 PE_PCS_NAD_1983_CSRS_V3_MTM_ZONE_11, \
    "Projected Coordinate Systems/National Grids/Canada", \
@@ -8528,6 +8548,10 @@ PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_1, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 MTM zone 1"
 
+PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_10, \
+   "Projected Coordinate Systems/National Grids/Canada", \
+   "NAD 1983 (CSRS) v6 MTM zone 10"
+
 PE_PCS_NAD_1983_CSRS_V6_MTM_ZONE_11, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 MTM zone 11"
@@ -8612,21 +8636,9 @@ PE_PCS_NAD_1983_CSRS_V6_UTM_15N, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 UTM Zone 15N"
 
-PE_PCS_NAD_1983_CSRS_V6_UTM_15N, \
-   "Projected Coordinate Systems/National Grids/Canada", \
-   "NAD 1983 (CSRS) v6 UTM Zone 15N"
-
 PE_PCS_NAD_1983_CSRS_V6_UTM_16N, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 UTM Zone 16N"
-
-PE_PCS_NAD_1983_CSRS_V6_UTM_16N, \
-   "Projected Coordinate Systems/National Grids/Canada", \
-   "NAD 1983 (CSRS) v6 UTM Zone 16N"
-
-PE_PCS_NAD_1983_CSRS_V6_UTM_17N, \
-   "Projected Coordinate Systems/National Grids/Canada", \
-   "NAD 1983 (CSRS) v6 UTM Zone 17N"
 
 PE_PCS_NAD_1983_CSRS_V6_UTM_17N, \
    "Projected Coordinate Systems/National Grids/Canada", \
@@ -8636,14 +8648,6 @@ PE_PCS_NAD_1983_CSRS_V6_UTM_18N, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 UTM Zone 18N"
 
-PE_PCS_NAD_1983_CSRS_V6_UTM_18N, \
-   "Projected Coordinate Systems/National Grids/Canada", \
-   "NAD 1983 (CSRS) v6 UTM Zone 18N"
-
-PE_PCS_NAD_1983_CSRS_V6_UTM_19N, \
-   "Projected Coordinate Systems/National Grids/Canada", \
-   "NAD 1983 (CSRS) v6 UTM Zone 19N"
-
 PE_PCS_NAD_1983_CSRS_V6_UTM_19N, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 UTM Zone 19N"
@@ -8651,14 +8655,6 @@ PE_PCS_NAD_1983_CSRS_V6_UTM_19N, \
 PE_PCS_NAD_1983_CSRS_V6_UTM_20N, \
    "Projected Coordinate Systems/National Grids/Canada", \
    "NAD 1983 (CSRS) v6 UTM Zone 20N"
-
-PE_PCS_NAD_1983_CSRS_V6_UTM_20N, \
-   "Projected Coordinate Systems/National Grids/Canada", \
-   "NAD 1983 (CSRS) v6 UTM Zone 20N"
-
-PE_PCS_NAD_1983_CSRS_V6_UTM_21N, \
-   "Projected Coordinate Systems/National Grids/Canada", \
-   "NAD 1983 (CSRS) v6 UTM Zone 21N"
 
 PE_PCS_NAD_1983_CSRS_V6_UTM_21N, \
    "Projected Coordinate Systems/National Grids/Canada", \
@@ -12280,6 +12276,10 @@ PE_PCS_SIRGAS_2000_BRAZIL_POLYCONIC, \
    "Projected Coordinate Systems/National Grids/South America", \
    "SIRGAS 2000 Brazil Polyconic"
 
+PE_PCS_SIRGAS_2000_PORTO_ALEGRE_TM, \
+   "Projected Coordinate Systems/National Grids/South America", \
+   "SIRGAS 2000 Porto Alegre TM"
+
 PE_PCS_SIRGAS_CHILE_2021_UTM_ZONE_12S, \
    "Projected Coordinate Systems/National Grids/South America", \
    "SIRGAS-Chile 2021 UTM Zone 12S"
@@ -13176,6 +13176,10 @@ PE_PCS_EBBWV14_GRID, \
    "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
    "EBBWV14 Grid"
 
+PE_PCS_ECML14_GRID, \
+   "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
+   "ECML14 Grid"
+
 PE_PCS_ECML14_NB_GRID, \
    "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
    "ECML14_NB Grid"
@@ -13263,6 +13267,10 @@ PE_PCS_SHAB07_GRID, \
 PE_PCS_TPEN11_GRID, \
    "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
    "TPEN11 Grid"
+
+PE_PCS_WC05_GRID, \
+   "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
+   "WC05 Grid"
 
 PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A01H1, \
    "Projected Coordinate Systems/National Grids/United Kingdom/OSGB36 National Highways", \
@@ -19808,6 +19816,14 @@ PE_PCS_NAD_1983_2011_VIRGINIA_LAMBERT, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1983 (2011) Virginia Lambert (Meters)"
 
+PE_PCS_NAD_1983_2011_WYDOT_ALBERS_FTUS, \
+   "Projected Coordinate Systems/State Systems", \
+   "NAD 1983 (2011) WYDOT Albers (ftUS)"
+
+PE_PCS_NAD_1983_2011_WYDOT_ALBERS_M, \
+   "Projected Coordinate Systems/State Systems", \
+   "NAD 1983 (2011) WYDOT Albers (m)"
+
 PE_PCS_NAD_1983_2011_WISCONSIN_TM, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1983 (2011) Wisconsin TM (Meters)"
@@ -19943,6 +19959,14 @@ PE_PCS_NAD_1983_USFS_R9_ALBERS, \
 PE_PCS_NAD_1983_VIRGINIA_LAMBERT, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1983 Virginia Lambert (Meters)"
+
+PE_PCS_NAD_1983_WYDOT_ALBERS_FTUS, \
+   "Projected Coordinate Systems/State Systems", \
+   "NAD 1983 WYDOT Albers (ftUS)"
+
+PE_PCS_NAD_1983_WYDOT_ALBERS_M, \
+   "Projected Coordinate Systems/State Systems", \
+   "NAD 1983 WYDOT Albers (m)"
 
 PE_PCS_NAD_1983_WISCONSIN_TM, \
    "Projected Coordinate Systems/State Systems", \
