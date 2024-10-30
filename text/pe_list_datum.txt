@@ -2982,8 +2982,64 @@ WKT2        : DATUM["Brenner_Base_Tunnel_2000",
                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                 LENGTHUNIT["Meter", 1.0]]]
 Description : Brenner Base Tunnel 2000
-Authority   : Esri
-Version     : 13.3.0
+Authority   : EPSG
+Version     : 10.095(13.3.0)
+Deprecated  : no
+
+WKID        : 1382
+Latest-WKID : 1382
+Macro       : PE_D_EUROPEAN_TERRESTRIAL_REFERENCE_FRAME_2020
+Name        : European_Terrestrial_Reference_Frame_2020
+WKT         : DATUM["European_Terrestrial_Reference_Frame_2020",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["European_Terrestrial_Reference_Frame_2020",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : European Terrestrial Reference Frame 2020
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+
+WKID        : 1383
+Latest-WKID : 1383
+Macro       : PE_D_WORLD_GEODETIC_SYSTEM_1984_G2296
+Name        : World_Geodetic_System_1984_(G2296)
+WKT         : DATUM["World_Geodetic_System_1984_(G2296)",
+               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
+WKT2        : DATUM["World_Geodetic_System_1984_(G2296)",
+               ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : World Geodetic System 1984 (G2296)
+Authority   : EPSG
+Version     : 11.005(13.4.0)
+Deprecated  : no
+
+WKID        : 1385
+Latest-WKID : 1385
+Macro       : PE_D_ECML14_INTERMEDIATE_REFERENCE_FRAME
+Name        : ECML14_Intermediate_Reference_Frame
+WKT         : DATUM["ECML14_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ECML14_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ECML14 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 11.009(13.4.0)
+Deprecated  : no
+
+WKID        : 1386
+Latest-WKID : 1386
+Macro       : PE_D_WC05_INTERMEDIATE_REFERENCE_FRAME
+Name        : WC05_Intermediate_Reference_Frame
+WKT         : DATUM["WC05_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["WC05_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : WC05 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 11.009(13.4.0)
 Deprecated  : no
 
 WKID        : 6001

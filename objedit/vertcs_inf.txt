@@ -304,6 +304,10 @@ PE_VCS_ETRF_2014, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "ETRF 2014"
 
+PE_VCS_ETRF_2020, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF 2020"
+
 PE_VCS_ETRF_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "ETRF2000"
@@ -984,6 +988,10 @@ PE_VCS_WGS_1984_G2139, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "WGS 1984 (G2139)"
 
+PE_VCS_WGS_1984_G2296, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "WGS 1984 (G2296)"
+
 PE_VCS_WGS_1984_G730, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "WGS 1984 (G730)"
@@ -1328,9 +1336,49 @@ PE_VCS_DHHN92, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "DHHN92"
 
+PE_VCS_DKLAT_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "DKLAT depth (ensemble)"
+
+PE_VCS_DKLAT_2022_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "DKLAT(2022) depth"
+
+PE_VCS_DKLAT_2023_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "DKLAT(2023) depth"
+
+PE_VCS_DKMSL_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "DKMSL depth (ensemble)"
+
+PE_VCS_DKMSL_2022_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "DKMSL(2022) depth"
+
+PE_VCS_DKMSL_2023_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "DKMSL(2023) depth"
+
 PE_VCS_DANSK_VERT_REF_1990, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DVR90"
+   "DVR90 height (ensemble)"
+
+PE_VCS_DVR90_2000_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "DVR90(2000) height"
+
+PE_VCS_DVR90_2002_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "DVR90(2002) height"
+
+PE_VCS_DVR90_2013_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "DVR90(2013) height"
+
+PE_VCS_DVR90_2023_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "DVR90(2023) height"
 
 PE_VCS_DANSK_NORMAL_NUL, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1647,6 +1695,18 @@ PE_VCS_CGVD2013A2002_HEIGHT, \
 PE_VCS_CGVD2013_CGG2013A_HT, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
    "CGVD2013a(2010) height"
+
+PE_VCS_GLLAT_2023_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/North America", \
+   "GLLAT(2023) depth"
+
+PE_VCS_GLLMSL_2022_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/North America", \
+   "GLLMSL(2022) height"
+
+PE_VCS_GLMSL_2023_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/North America", \
+   "GLMSL(2023) depth"
 
 PE_VCS_GVR2000_HT, \
    "Vertical Coordinate Systems/Gravity-related/North America", \

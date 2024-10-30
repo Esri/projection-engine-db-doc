@@ -974,11 +974,6 @@
    FALSE, \
    "EPSG"
 
-"Bern 1898 (Bern) to CH1903 (1)", \
-   "Bern_1898_Bern_To_CH1903", \
-   FALSE, \
-   "EPSG"
-
 "BGS2005 to ETRS89 (1)", \
    "BGS2005_To_ETRS_1989_1", \
    FALSE, \
@@ -1321,6 +1316,11 @@
 
 "CH1903+ to WGS 84 (1)", \
    "CH1903+_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"CH1903 (Bern) to CH1903 (1)", \
+   "Bern_1898_Bern_To_CH1903", \
    FALSE, \
    "EPSG"
 
@@ -4075,7 +4075,7 @@
    "EPSG"
 
 "NAD83(CSRS)v2 to NAD83(CSRS)v4 (1)", \
-   "NAD_1983_CSRS_v2_To_NAD_1983_CSRS_v4_1_BC_mainland", \
+   "NAD_1983_CSRS_V2_TO_NAD_1983_CSRS_V4_1", \
    FALSE, \
    "EPSG"
 

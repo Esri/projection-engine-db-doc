@@ -5932,10 +5932,10 @@ Authority   : EPSG
 Version     : 3.1(4.0.0)
 Deprecated  : no
 Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 4259
 Latest-WKID : 4259
@@ -7892,7 +7892,7 @@ Description : WGS 1984
 Authority   : EPSG
 Version     : 6.2(3.0.1)
 Deprecated  : no
-Area-name   : World
+Area-name   : World (by country)
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -14580,10 +14580,10 @@ Authority   : EPSG
 Version     : 6.7(12.7.0)
 Deprecated  : no
 Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 4939
 Latest-WKID : 4939
@@ -19116,7 +19116,8 @@ WKT         : GEOGCS["WGS_1984_(G1762)_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["WGS_1984_(G1762)_3D",
-               DYNAMIC[FRAMEEPOCH[2005.0]],
+               DYNAMIC[FRAMEEPOCH[2012.5],
+                MODEL["ITRF2008-PMM"]],
                DATUM["World_Geodetic_System_1984_(G1762)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19141,8 +19142,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 2005.0
-DeformationModel: ""
+FrameEpoch  : 2012.5
+DeformationModel: "ITRF2008-PMM"
 
 WKID        : 7678
 Latest-WKID : 7678
@@ -19722,7 +19723,8 @@ WKT         : GEOGCS["ITRF_1989_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["ITRF_1989_3D",
-               DYNAMIC[FRAMEEPOCH[1988.0]],
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["AM0-2"]],
                DATUM["D_ITRF_1989",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19748,7 +19750,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: ""
+DeformationModel: "AM0-2"
 
 WKID        : 7902
 Latest-WKID : 7902
@@ -19801,7 +19803,8 @@ WKT         : GEOGCS["ITRF_1991_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["ITRF_1991_3D",
-               DYNAMIC[FRAMEEPOCH[1988.0]],
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["NNR-NUVEL1"]],
                DATUM["D_ITRF_1991",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19827,7 +19830,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: ""
+DeformationModel: "NNR-NUVEL1"
 
 WKID        : 7904
 Latest-WKID : 7904
@@ -19880,7 +19883,8 @@ WKT         : GEOGCS["ITRF_1993_3D",
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["ITRF_1993_3D",
-               DYNAMIC[FRAMEEPOCH[1993.0]],
+               DYNAMIC[FRAMEEPOCH[1993.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["D_ITRF_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -19906,7 +19910,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1993.0
-DeformationModel: ""
+DeformationModel: "NNR-NUVEL1A"
 
 WKID        : 7906
 Latest-WKID : 7906
@@ -20218,11 +20222,11 @@ Description : European Terrestrial Ref.Frame 1989 (3D)
 Authority   : EPSG
 Version     : 9.1(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "AM0-2"
 
@@ -20258,11 +20262,11 @@ Description : ETRF90 (3D)
 Authority   : EPSG
 Version     : 9.1(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "AM0-2"
 
@@ -20298,11 +20302,11 @@ Description : ETRF91 (3D)
 Authority   : EPSG
 Version     : 9.1(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1"
 
@@ -20338,11 +20342,11 @@ Description : ETRF92 (3D)
 Authority   : EPSG
 Version     : 9.1(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1"
 
@@ -20378,11 +20382,11 @@ Description : ETRF93 (3D)
 Authority   : EPSG
 Version     : 9.1(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -20418,11 +20422,11 @@ Description : ETRF94 (3D)
 Authority   : EPSG
 Version     : 9.1(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -20458,11 +20462,11 @@ Description : ETRF96 (3D)
 Authority   : EPSG
 Version     : 9.1(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -20498,11 +20502,11 @@ Description : ETRF97 (3D)
 Authority   : EPSG
 Version     : 9.1(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -20538,11 +20542,11 @@ Description : ETRF2000 (3D)
 Authority   : EPSG
 Version     : 9.1(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "ITRF2000-PMM"
 
@@ -21205,11 +21209,11 @@ Description : ETRF 2005 (3D)
 Authority   : EPSG
 Version     : 9.2.2(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 8403
 Latest-WKID : 8403
@@ -21243,11 +21247,11 @@ Description : ETRF 2014 (3D)
 Authority   : EPSG
 Version     : 9.2.2(12.7.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 2010.0
 DeformationModel: "ITRF2014-PMM"
 
@@ -23328,7 +23332,8 @@ WKT         : GEOGCS["GCS_ITRF_1989",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1989",
-               DYNAMIC[FRAMEEPOCH[1988.0]],
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["AM0-2"]],
                DATUM["D_ITRF_1989",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23350,7 +23355,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: ""
+DeformationModel: "AM0-2"
 
 WKID        : 8990
 Latest-WKID : 8990
@@ -23397,7 +23402,8 @@ WKT         : GEOGCS["GCS_ITRF_1991",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1991",
-               DYNAMIC[FRAMEEPOCH[1988.0]],
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["NNR-NUVEL1"]],
                DATUM["D_ITRF_1991",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23419,7 +23425,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: ""
+DeformationModel: "NNR-NUVEL1"
 
 WKID        : 8992
 Latest-WKID : 8992
@@ -23466,7 +23472,8 @@ WKT         : GEOGCS["GCS_ITRF_1993",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1993",
-               DYNAMIC[FRAMEEPOCH[1993.0]],
+               DYNAMIC[FRAMEEPOCH[1993.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["D_ITRF_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -23488,7 +23495,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1993.0
-DeformationModel: ""
+DeformationModel: "NNR-NUVEL1A"
 
 WKID        : 8994
 Latest-WKID : 8994
@@ -24395,7 +24402,8 @@ WKT         : GEOGCS["WGS_1984_(G1762)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["WGS_1984_(G1762)",
-               DYNAMIC[FRAMEEPOCH[2005.0]],
+               DYNAMIC[FRAMEEPOCH[2012.5],
+                MODEL["ITRF2008-PMM"]],
                DATUM["World_Geodetic_System_1984_(G1762)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -24416,8 +24424,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 2005.0
-DeformationModel: ""
+FrameEpoch  : 2012.5
+DeformationModel: "ITRF2008-PMM"
 
 WKID        : 9059
 Latest-WKID : 9059
@@ -24446,11 +24454,11 @@ Description : European Terrestrial Ref.Frame 1989
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "AM0-2"
 
@@ -24481,11 +24489,11 @@ Description : ETRF90
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "AM0-2"
 
@@ -24516,11 +24524,11 @@ Description : ETRF91
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1"
 
@@ -24551,11 +24559,11 @@ Description : ETRF92
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1"
 
@@ -24586,11 +24594,11 @@ Description : ETRF93
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -24621,11 +24629,11 @@ Description : ETRF94
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -24656,11 +24664,11 @@ Description : ETRF96
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -24691,11 +24699,11 @@ Description : ETRF97
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -24726,11 +24734,11 @@ Description : ETRF2000
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "ITRF2000-PMM"
 
@@ -24759,11 +24767,11 @@ Description : ETRF 2005
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 
 WKID        : 9069
 Latest-WKID : 9069
@@ -24792,11 +24800,11 @@ Description : ETRF 2014
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 2010.0
 DeformationModel: "ITRF2014-PMM"
 
@@ -27551,8 +27559,8 @@ Version     : 10.081(13.2.0)
 Deprecated  : no
 Area-name   : UK - Okehampton to Penstone
 Area-slat   : 50.65
-Area-nlat   : 50.85
-Area-llon   : -4.1
+Area-nlat   : 50.86
+Area-llon   : -4.11
 Area-rlon   : -3.6
 
 WKID        : 10277
@@ -27582,7 +27590,7 @@ Version     : 10.081(13.2.0)
 Deprecated  : no
 Area-name   : UK - Reading to Penzance
 Area-slat   : 50.05
-Area-nlat   : 51.7
+Area-nlat   : 51.71
 Area-llon   : -5.63
 Area-rlon   : -0.85
 
@@ -28232,18 +28240,18 @@ WKT2        : GEOGCRS["BBT2000_3D",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 3],
-               AXIS["Longitude (lon)", east,
+               AXIS["Latitude (lat)", north,
                 ORDER[1],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               AXIS["Latitude (lat)", north,
+               AXIS["Longitude (lon)", east,
                 ORDER[2],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                AXIS["Ellipsoidal height (h)", up,
                 ORDER[3],
                 LENGTHUNIT["Meter", 1.0]]]
 Description : BBT2000 (3D)
-Authority   : Esri
-Version     : 13.3.0
+Authority   : EPSG
+Version     : 10.095(13.3.0)
 Deprecated  : no
 Area-name   : Europe - Brenner
 Area-slat   : 46.45
@@ -28267,20 +28275,216 @@ WKT2        : GEOGCRS["BBT2000",
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : BBT2000
-Authority   : Esri
-Version     : 13.3.0
+Authority   : EPSG
+Version     : 10.095(13.3.0)
 Deprecated  : no
 Area-name   : Europe - Brenner
 Area-slat   : 46.45
 Area-nlat   : 47.33
 Area-llon   : 11.04
 Area-rlon   : 11.91
+
+WKID        : 10570
+Latest-WKID : 10570
+Macro       : PE_GCS_ETRF_2020_3D
+Name        : ETRF2020_(3D)
+WKT         : GEOGCS["ETRF2020_(3D)",
+               DATUM["European_Terrestrial_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["ETRF2020_(3D)",
+               DATUM["European_Terrestrial_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ETRF2020 (3D)
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
+Area-nlat   : 84.73
+Area-llon   : -16.1
+Area-rlon   : 38.01
+
+WKID        : 10571
+Latest-WKID : 10571
+Macro       : PE_GCS_ETRF_2020
+Name        : ETRF2020
+WKT         : GEOGCS["ETRF2020",
+               DATUM["European_Terrestrial_Reference_Frame_2020",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["ETRF2020",
+               DATUM["European_Terrestrial_Reference_Frame_2020",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : ETRF2020
+Authority   : EPSG
+Version     : 11.006(13.4.0)
+Deprecated  : no
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
+Area-nlat   : 84.73
+Area-llon   : -16.1
+Area-rlon   : 38.01
+
+WKID        : 10605
+Latest-WKID : 10605
+Macro       : PE_GCS_WGS_1984_G2296_3D
+Name        : WGS_1984_(G2296)_(3D)
+WKT         : GEOGCS["WGS_1984_(G2296)_(3D)",
+               DATUM["World_Geodetic_System_1984_(G2296)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["WGS_1984_(G2296)_(3D)",
+               DATUM["World_Geodetic_System_1984_(G2296)",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : WGS 1984 (G2296) (3D)
+Authority   : EPSG
+Version     : 11.005(13.4.0)
+Deprecated  : no
+Area-name   : World (by country)
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 10606
+Latest-WKID : 10606
+Macro       : PE_GCS_WGS_1984_G2296
+Name        : WGS_1984_(G2296)
+WKT         : GEOGCS["WGS_1984_(G2296)",
+               DATUM["World_Geodetic_System_1984_(G2296)",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["WGS_1984_(G2296)",
+               DATUM["World_Geodetic_System_1984_(G2296)",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : WGS 1984 (G2296)
+Authority   : EPSG
+Version     : 11.005(13.4.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 10623
+Latest-WKID : 10623
+Macro       : PE_GCS_ECML14_IRF
+Name        : ECML14-IRF
+WKT         : GEOGCS["ECML14-IRF",
+               DATUM["ECML14_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["ECML14-IRF",
+               DATUM["ECML14_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : ECML14-IRF
+Authority   : EPSG
+Version     : 11.009(13.4.0)
+Deprecated  : no
+Area-name   : UK - London to Edinburgh
+Area-slat   : 51.45
+Area-nlat   : 56.1
+Area-llon   : -3.45
+Area-rlon   : 0.05
+
+WKID        : 10628
+Latest-WKID : 10628
+Macro       : PE_GCS_WC05_IRF
+Name        : WC05-IRF
+WKT         : GEOGCS["WC05-IRF",
+               DATUM["WC05_Intermediate_Reference_Frame",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["WC05-IRF",
+               DATUM["WC05_Intermediate_Reference_Frame",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : WC05-IRF
+Authority   : EPSG
+Version     : 11.009(13.4.0)
+Deprecated  : no
+Area-name   : UK - London to Glasgow
+Area-slat   : 51.4
+Area-nlat   : 55.92
+Area-llon   : -4.33
+Area-rlon   : -0.04
 
 WKID        : 20033
 Latest-WKID : 20033
@@ -30587,7 +30791,8 @@ WKT         : GEOGCS["WGS_1984_(G1762)",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["WGS_1984_(G1762)",
-               DYNAMIC[FRAMEEPOCH[2005.0]],
+               DYNAMIC[FRAMEEPOCH[2012.5],
+                MODEL["ITRF2008-PMM"]],
                DATUM["World_Geodetic_System_1984_(G1762)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -30608,8 +30813,8 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
-FrameEpoch  : 2005.0
-DeformationModel: ""
+FrameEpoch  : 2012.5
+DeformationModel: "ITRF2008-PMM"
 
 WKID        : 104016
 Latest-WKID : 8888
@@ -31602,7 +31807,8 @@ WKT         : GEOGCS["GCS_ITRF_1989",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1989",
-               DYNAMIC[FRAMEEPOCH[1988.0]],
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["AM0-2"]],
                DATUM["D_ITRF_1989",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -31624,7 +31830,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: ""
+DeformationModel: "AM0-2"
 
 WKID        : 104117
 Latest-WKID : 8990
@@ -31671,7 +31877,8 @@ WKT         : GEOGCS["GCS_ITRF_1991",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1991",
-               DYNAMIC[FRAMEEPOCH[1988.0]],
+               DYNAMIC[FRAMEEPOCH[1988.0],
+                MODEL["NNR-NUVEL1"]],
                DATUM["D_ITRF_1991",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -31693,7 +31900,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1988.0
-DeformationModel: ""
+DeformationModel: "NNR-NUVEL1"
 
 WKID        : 104119
 Latest-WKID : 8992
@@ -31740,7 +31947,8 @@ WKT         : GEOGCS["GCS_ITRF_1993",
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_ITRF_1993",
-               DYNAMIC[FRAMEEPOCH[1993.0]],
+               DYNAMIC[FRAMEEPOCH[1993.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["D_ITRF_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -31762,7 +31970,7 @@ Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
 FrameEpoch  : 1993.0
-DeformationModel: ""
+DeformationModel: "NNR-NUVEL1A"
 
 WKID        : 104121
 Latest-WKID : 8994
@@ -32587,11 +32795,11 @@ Description : ETRF90
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : yes
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "AM0-2"
 
@@ -32622,11 +32830,11 @@ Description : ETRF91
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : yes
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1"
 
@@ -32657,11 +32865,11 @@ Description : ETRF92
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : yes
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1"
 
@@ -32692,11 +32900,11 @@ Description : ETRF93
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : yes
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -32727,11 +32935,11 @@ Description : ETRF94
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : yes
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -32762,11 +32970,11 @@ Description : ETRF96
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : yes
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -32797,11 +33005,11 @@ Description : ETRF97
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : yes
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "NNR-NUVEL1A"
 
@@ -32832,11 +33040,11 @@ Description : ETRF2000
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : yes
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "ITRF2000-PMM"
 
@@ -33030,11 +33238,11 @@ Description : European Terrestrial Ref.Frame 1989
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : yes
-Area-name   : Europe - ETRF by country
-Area-slat   : 32.88
+Area-name   : Europe - ETRF
+Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 40.18
+Area-rlon   : 38.01
 FrameEpoch  : 1989.0
 DeformationModel: "AM0-2"
 

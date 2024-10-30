@@ -3413,10 +3413,10 @@
     "deprecated": "no",
     "areaname": "Europe - ETRF by country",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     }
   },
   { "wkid": 4259,
@@ -4549,7 +4549,7 @@
     "authority": "EPSG",
     "version": "6.2(3.0.1)",
     "deprecated": "no",
-    "areaname": "World",
+    "areaname": "World (by country)",
     "extent":
     { "slat": -90.0,
       "nlat": 90.0,
@@ -8359,10 +8359,10 @@
     "deprecated": "no",
     "areaname": "Europe - ETRF by country",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     }
   },
   { "wkid": 4939,
@@ -10776,7 +10776,7 @@
     "macro": "PE_GCS_WGS_1984_G1762_3D",
     "name": "WGS_1984_(G1762)_3D",
     "wkt": "GEOGCS[\"WGS_1984_(G1762)_3D\",DATUM[\"World_Geodetic_System_1984_(G1762)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
-    "wkt2": "GEOGCRS[\"WGS_1984_(G1762)_3D\",DYNAMIC[FRAMEEPOCH[2005.0]],DATUM[\"World_Geodetic_System_1984_(G1762)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt2": "GEOGCRS[\"WGS_1984_(G1762)_3D\",DYNAMIC[FRAMEEPOCH[2012.5],MODEL[\"ITRF2008-PMM\"]],DATUM[\"World_Geodetic_System_1984_(G1762)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "World Geodetic System 1984 (G1762) (3D)",
     "authority": "EPSG",
     "version": "9.0(12.7.0)",
@@ -10788,8 +10788,8 @@
       "llon": -180.0,
       "rlon": 180.0
     },
-    "frameEpoch": 2005.0,
-    "deformationModel": ""
+    "frameEpoch": 2012.5,
+    "deformationModel": "ITRF2008-PMM"
   },
   { "wkid": 7678,
     "latestWkid": 7678,
@@ -11096,7 +11096,7 @@
     "macro": "PE_GCS_ITRF_1989_3D",
     "name": "ITRF_1989_3D",
     "wkt": "GEOGCS[\"ITRF_1989_3D\",DATUM[\"D_ITRF_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
-    "wkt2": "GEOGCRS[\"ITRF_1989_3D\",DYNAMIC[FRAMEEPOCH[1988.0]],DATUM[\"D_ITRF_1989\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt2": "GEOGCRS[\"ITRF_1989_3D\",DYNAMIC[FRAMEEPOCH[1988.0],MODEL[\"AM0-2\"]],DATUM[\"D_ITRF_1989\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "IERS Terrestrial Reference Frame 1989 (3D)",
     "authority": "EPSG",
     "version": "9.0(12.7.0)",
@@ -11109,7 +11109,7 @@
       "rlon": 180.0
     },
     "frameEpoch": 1988.0,
-    "deformationModel": ""
+    "deformationModel": "AM0-2"
   },
   { "wkid": 7902,
     "latestWkid": 7902,
@@ -11136,7 +11136,7 @@
     "macro": "PE_GCS_ITRF_1991_3D",
     "name": "ITRF_1991_3D",
     "wkt": "GEOGCS[\"ITRF_1991_3D\",DATUM[\"D_ITRF_1991\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
-    "wkt2": "GEOGCRS[\"ITRF_1991_3D\",DYNAMIC[FRAMEEPOCH[1988.0]],DATUM[\"D_ITRF_1991\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt2": "GEOGCRS[\"ITRF_1991_3D\",DYNAMIC[FRAMEEPOCH[1988.0],MODEL[\"NNR-NUVEL1\"]],DATUM[\"D_ITRF_1991\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "IERS Terrestrial Reference Frame 1991 (3D)",
     "authority": "EPSG",
     "version": "9.0(12.7.0)",
@@ -11149,7 +11149,7 @@
       "rlon": 180.0
     },
     "frameEpoch": 1988.0,
-    "deformationModel": ""
+    "deformationModel": "NNR-NUVEL1"
   },
   { "wkid": 7904,
     "latestWkid": 7904,
@@ -11176,7 +11176,7 @@
     "macro": "PE_GCS_ITRF_1993_3D",
     "name": "ITRF_1993_3D",
     "wkt": "GEOGCS[\"ITRF_1993_3D\",DATUM[\"D_ITRF_1993\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
-    "wkt2": "GEOGCRS[\"ITRF_1993_3D\",DYNAMIC[FRAMEEPOCH[1993.0]],DATUM[\"D_ITRF_1993\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt2": "GEOGCRS[\"ITRF_1993_3D\",DYNAMIC[FRAMEEPOCH[1993.0],MODEL[\"NNR-NUVEL1A\"]],DATUM[\"D_ITRF_1993\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "IERS Terrestrial Reference Frame 1993 (3D)",
     "authority": "EPSG",
     "version": "9.0(12.7.0)",
@@ -11189,7 +11189,7 @@
       "rlon": 180.0
     },
     "frameEpoch": 1993.0,
-    "deformationModel": ""
+    "deformationModel": "NNR-NUVEL1A"
   },
   { "wkid": 7906,
     "latestWkid": 7906,
@@ -11341,12 +11341,12 @@
     "authority": "EPSG",
     "version": "9.1(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "AM0-2"
@@ -11361,12 +11361,12 @@
     "authority": "EPSG",
     "version": "9.1(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "AM0-2"
@@ -11381,12 +11381,12 @@
     "authority": "EPSG",
     "version": "9.1(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1"
@@ -11401,12 +11401,12 @@
     "authority": "EPSG",
     "version": "9.1(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1"
@@ -11421,12 +11421,12 @@
     "authority": "EPSG",
     "version": "9.1(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -11441,12 +11441,12 @@
     "authority": "EPSG",
     "version": "9.1(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -11461,12 +11461,12 @@
     "authority": "EPSG",
     "version": "9.1(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -11481,12 +11481,12 @@
     "authority": "EPSG",
     "version": "9.1(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -11501,12 +11501,12 @@
     "authority": "EPSG",
     "version": "9.1(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "ITRF2000-PMM"
@@ -11863,12 +11863,12 @@
     "authority": "EPSG",
     "version": "9.2.2(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     }
   },
   { "wkid": 8403,
@@ -11881,12 +11881,12 @@
     "authority": "EPSG",
     "version": "9.2.2(12.7.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 2010.0,
     "deformationModel": "ITRF2014-PMM"
@@ -13026,7 +13026,7 @@
     "macro": "PE_GCS_ITRF_1989",
     "name": "GCS_ITRF_1989",
     "wkt": "GEOGCS[\"GCS_ITRF_1989\",DATUM[\"D_ITRF_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"GCS_ITRF_1989\",DYNAMIC[FRAMEEPOCH[1988.0]],DATUM[\"D_ITRF_1989\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_ITRF_1989\",DYNAMIC[FRAMEEPOCH[1988.0],MODEL[\"AM0-2\"]],DATUM[\"D_ITRF_1989\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "IERS Terrestrial Reference Frame 1989",
     "authority": "EPSG",
     "version": "9.6.3(10.8.0)",
@@ -13039,7 +13039,7 @@
       "rlon": 180.0
     },
     "frameEpoch": 1988.0,
-    "deformationModel": ""
+    "deformationModel": "AM0-2"
   },
   { "wkid": 8990,
     "latestWkid": 8990,
@@ -13066,7 +13066,7 @@
     "macro": "PE_GCS_ITRF_1991",
     "name": "GCS_ITRF_1991",
     "wkt": "GEOGCS[\"GCS_ITRF_1991\",DATUM[\"D_ITRF_1991\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"GCS_ITRF_1991\",DYNAMIC[FRAMEEPOCH[1988.0]],DATUM[\"D_ITRF_1991\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_ITRF_1991\",DYNAMIC[FRAMEEPOCH[1988.0],MODEL[\"NNR-NUVEL1\"]],DATUM[\"D_ITRF_1991\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "IERS Terrestrial Reference Frame 1991",
     "authority": "EPSG",
     "version": "9.6.3(10.8.0)",
@@ -13079,7 +13079,7 @@
       "rlon": 180.0
     },
     "frameEpoch": 1988.0,
-    "deformationModel": ""
+    "deformationModel": "NNR-NUVEL1"
   },
   { "wkid": 8992,
     "latestWkid": 8992,
@@ -13106,7 +13106,7 @@
     "macro": "PE_GCS_ITRF_1993",
     "name": "GCS_ITRF_1993",
     "wkt": "GEOGCS[\"GCS_ITRF_1993\",DATUM[\"D_ITRF_1993\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"GCS_ITRF_1993\",DYNAMIC[FRAMEEPOCH[1993.0]],DATUM[\"D_ITRF_1993\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_ITRF_1993\",DYNAMIC[FRAMEEPOCH[1993.0],MODEL[\"NNR-NUVEL1A\"]],DATUM[\"D_ITRF_1993\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "IERS Terrestrial Reference Frame 1993",
     "authority": "EPSG",
     "version": "9.6.3(10.8.0)",
@@ -13119,7 +13119,7 @@
       "rlon": 180.0
     },
     "frameEpoch": 1993.0,
-    "deformationModel": ""
+    "deformationModel": "NNR-NUVEL1A"
   },
   { "wkid": 8994,
     "latestWkid": 8994,
@@ -13626,7 +13626,7 @@
     "macro": "PE_GCS_WGS_1984_G1762",
     "name": "WGS_1984_(G1762)",
     "wkt": "GEOGCS[\"WGS_1984_(G1762)\",DATUM[\"World_Geodetic_System_1984_(G1762)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"WGS_1984_(G1762)\",DYNAMIC[FRAMEEPOCH[2005.0]],DATUM[\"World_Geodetic_System_1984_(G1762)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"WGS_1984_(G1762)\",DYNAMIC[FRAMEEPOCH[2012.5],MODEL[\"ITRF2008-PMM\"]],DATUM[\"World_Geodetic_System_1984_(G1762)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "World Geodetic System 1984 (G1762)",
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
@@ -13638,8 +13638,8 @@
       "llon": -180.0,
       "rlon": 180.0
     },
-    "frameEpoch": 2005.0,
-    "deformationModel": ""
+    "frameEpoch": 2012.5,
+    "deformationModel": "ITRF2008-PMM"
   },
   { "wkid": 9059,
     "latestWkid": 9059,
@@ -13651,12 +13651,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "AM0-2"
@@ -13671,12 +13671,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "AM0-2"
@@ -13691,12 +13691,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1"
@@ -13711,12 +13711,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1"
@@ -13731,12 +13731,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -13751,12 +13751,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -13771,12 +13771,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -13791,12 +13791,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -13811,12 +13811,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "ITRF2000-PMM"
@@ -13831,12 +13831,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     }
   },
   { "wkid": 9069,
@@ -13849,12 +13849,12 @@
     "authority": "EPSG",
     "version": "9.7(10.8.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 2010.0,
     "deformationModel": "ITRF2014-PMM"
@@ -15388,8 +15388,8 @@
     "areaname": "UK - Okehampton to Penstone",
     "extent":
     { "slat": 50.65,
-      "nlat": 50.85,
-      "llon": -4.1,
+      "nlat": 50.86,
+      "llon": -4.11,
       "rlon": -3.6
     }
   },
@@ -15406,7 +15406,7 @@
     "areaname": "UK - Reading to Penzance",
     "extent":
     { "slat": 50.05,
-      "nlat": 51.7,
+      "nlat": 51.71,
       "llon": -5.63,
       "rlon": -0.85
     }
@@ -15758,10 +15758,10 @@
     "macro": "PE_GCS_BBT2000_3D",
     "name": "BBT2000_3D",
     "wkt": "GEOGCS[\"BBT2000_3D\",DATUM[\"Brenner_Base_Tunnel_2000\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
-    "wkt2": "GEOGCRS[\"BBT2000_3D\",DATUM[\"Brenner_Base_Tunnel_2000\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt2": "GEOGCRS[\"BBT2000_3D\",DATUM[\"Brenner_Base_Tunnel_2000\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "BBT2000 (3D)",
-    "authority": "Esri",
-    "version": "13.3.0",
+    "authority": "EPSG",
+    "version": "10.095(13.3.0)",
     "deprecated": "no",
     "areaname": "Europe - Brenner",
     "extent":
@@ -15776,10 +15776,10 @@
     "macro": "PE_GCS_BBT2000",
     "name": "BBT2000",
     "wkt": "GEOGCS[\"BBT2000\",DATUM[\"Brenner_Base_Tunnel_2000\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"BBT2000\",DATUM[\"Brenner_Base_Tunnel_2000\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"BBT2000\",DATUM[\"Brenner_Base_Tunnel_2000\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "BBT2000",
-    "authority": "Esri",
-    "version": "13.3.0",
+    "authority": "EPSG",
+    "version": "10.095(13.3.0)",
     "deprecated": "no",
     "areaname": "Europe - Brenner",
     "extent":
@@ -15787,6 +15787,114 @@
       "nlat": 47.33,
       "llon": 11.04,
       "rlon": 11.91
+    }
+  },
+  { "wkid": 10570,
+    "latestWkid": 10570,
+    "macro": "PE_GCS_ETRF_2020_3D",
+    "name": "ETRF2020_(3D)",
+    "wkt": "GEOGCS[\"ETRF2020_(3D)\",DATUM[\"European_Terrestrial_Reference_Frame_2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"ETRF2020_(3D)\",DATUM[\"European_Terrestrial_Reference_Frame_2020\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "ETRF2020 (3D)",
+    "authority": "EPSG",
+    "version": "11.006(13.4.0)",
+    "deprecated": "no",
+    "areaname": "Europe - ETRF",
+    "extent":
+    { "slat": 33.26,
+      "nlat": 84.73,
+      "llon": -16.1,
+      "rlon": 38.01
+    }
+  },
+  { "wkid": 10571,
+    "latestWkid": 10571,
+    "macro": "PE_GCS_ETRF_2020",
+    "name": "ETRF2020",
+    "wkt": "GEOGCS[\"ETRF2020\",DATUM[\"European_Terrestrial_Reference_Frame_2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"ETRF2020\",DATUM[\"European_Terrestrial_Reference_Frame_2020\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "ETRF2020",
+    "authority": "EPSG",
+    "version": "11.006(13.4.0)",
+    "deprecated": "no",
+    "areaname": "Europe - ETRF",
+    "extent":
+    { "slat": 33.26,
+      "nlat": 84.73,
+      "llon": -16.1,
+      "rlon": 38.01
+    }
+  },
+  { "wkid": 10605,
+    "latestWkid": 10605,
+    "macro": "PE_GCS_WGS_1984_G2296_3D",
+    "name": "WGS_1984_(G2296)_(3D)",
+    "wkt": "GEOGCS[\"WGS_1984_(G2296)_(3D)\",DATUM[\"World_Geodetic_System_1984_(G2296)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"WGS_1984_(G2296)_(3D)\",DATUM[\"World_Geodetic_System_1984_(G2296)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "WGS 1984 (G2296) (3D)",
+    "authority": "EPSG",
+    "version": "11.005(13.4.0)",
+    "deprecated": "no",
+    "areaname": "World (by country)",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 10606,
+    "latestWkid": 10606,
+    "macro": "PE_GCS_WGS_1984_G2296",
+    "name": "WGS_1984_(G2296)",
+    "wkt": "GEOGCS[\"WGS_1984_(G2296)\",DATUM[\"World_Geodetic_System_1984_(G2296)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"WGS_1984_(G2296)\",DATUM[\"World_Geodetic_System_1984_(G2296)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "WGS 1984 (G2296)",
+    "authority": "EPSG",
+    "version": "11.005(13.4.0)",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 10623,
+    "latestWkid": 10623,
+    "macro": "PE_GCS_ECML14_IRF",
+    "name": "ECML14-IRF",
+    "wkt": "GEOGCS[\"ECML14-IRF\",DATUM[\"ECML14_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"ECML14-IRF\",DATUM[\"ECML14_Intermediate_Reference_Frame\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "ECML14-IRF",
+    "authority": "EPSG",
+    "version": "11.009(13.4.0)",
+    "deprecated": "no",
+    "areaname": "UK - London to Edinburgh",
+    "extent":
+    { "slat": 51.45,
+      "nlat": 56.1,
+      "llon": -3.45,
+      "rlon": 0.05
+    }
+  },
+  { "wkid": 10628,
+    "latestWkid": 10628,
+    "macro": "PE_GCS_WC05_IRF",
+    "name": "WC05-IRF",
+    "wkt": "GEOGCS[\"WC05-IRF\",DATUM[\"WC05_Intermediate_Reference_Frame\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"WC05-IRF\",DATUM[\"WC05_Intermediate_Reference_Frame\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "WC05-IRF",
+    "authority": "EPSG",
+    "version": "11.009(13.4.0)",
+    "deprecated": "no",
+    "areaname": "UK - London to Glasgow",
+    "extent":
+    { "slat": 51.4,
+      "nlat": 55.92,
+      "llon": -4.33,
+      "rlon": -0.04
     }
   },
   { "wkid": 20033,
@@ -17120,7 +17228,7 @@
     "macro": "PE_GCS_WGS_1984_G1762",
     "name": "WGS_1984_(G1762)",
     "wkt": "GEOGCS[\"WGS_1984_(G1762)\",DATUM[\"World_Geodetic_System_1984_(G1762)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"WGS_1984_(G1762)\",DYNAMIC[FRAMEEPOCH[2005.0]],DATUM[\"World_Geodetic_System_1984_(G1762)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"WGS_1984_(G1762)\",DYNAMIC[FRAMEEPOCH[2012.5],MODEL[\"ITRF2008-PMM\"]],DATUM[\"World_Geodetic_System_1984_(G1762)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "World Geodetic System 1984 (G1762)",
     "authority": "Esri",
     "version": "10.5.1",
@@ -17132,8 +17240,8 @@
       "llon": -180.0,
       "rlon": 180.0
     },
-    "frameEpoch": 2005.0,
-    "deformationModel": ""
+    "frameEpoch": 2012.5,
+    "deformationModel": "ITRF2008-PMM"
   },
   { "wkid": 104016,
     "latestWkid": 8888,
@@ -17710,7 +17818,7 @@
     "macro": "PE_GCS_ITRF_1989",
     "name": "GCS_ITRF_1989",
     "wkt": "GEOGCS[\"GCS_ITRF_1989\",DATUM[\"D_ITRF_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"GCS_ITRF_1989\",DYNAMIC[FRAMEEPOCH[1988.0]],DATUM[\"D_ITRF_1989\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_ITRF_1989\",DYNAMIC[FRAMEEPOCH[1988.0],MODEL[\"AM0-2\"]],DATUM[\"D_ITRF_1989\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "IERS Terrestrial Reference Frame 1989",
     "authority": "Esri",
     "version": "9.0.0",
@@ -17723,7 +17831,7 @@
       "rlon": 180.0
     },
     "frameEpoch": 1988.0,
-    "deformationModel": ""
+    "deformationModel": "AM0-2"
   },
   { "wkid": 104117,
     "latestWkid": 8990,
@@ -17750,7 +17858,7 @@
     "macro": "PE_GCS_ITRF_1991",
     "name": "GCS_ITRF_1991",
     "wkt": "GEOGCS[\"GCS_ITRF_1991\",DATUM[\"D_ITRF_1991\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"GCS_ITRF_1991\",DYNAMIC[FRAMEEPOCH[1988.0]],DATUM[\"D_ITRF_1991\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_ITRF_1991\",DYNAMIC[FRAMEEPOCH[1988.0],MODEL[\"NNR-NUVEL1\"]],DATUM[\"D_ITRF_1991\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "IERS Terrestrial Reference Frame 1991",
     "authority": "Esri",
     "version": "9.0.0",
@@ -17763,7 +17871,7 @@
       "rlon": 180.0
     },
     "frameEpoch": 1988.0,
-    "deformationModel": ""
+    "deformationModel": "NNR-NUVEL1"
   },
   { "wkid": 104119,
     "latestWkid": 8992,
@@ -17790,7 +17898,7 @@
     "macro": "PE_GCS_ITRF_1993",
     "name": "GCS_ITRF_1993",
     "wkt": "GEOGCS[\"GCS_ITRF_1993\",DATUM[\"D_ITRF_1993\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"GCS_ITRF_1993\",DYNAMIC[FRAMEEPOCH[1993.0]],DATUM[\"D_ITRF_1993\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_ITRF_1993\",DYNAMIC[FRAMEEPOCH[1993.0],MODEL[\"NNR-NUVEL1A\"]],DATUM[\"D_ITRF_1993\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "IERS Terrestrial Reference Frame 1993",
     "authority": "Esri",
     "version": "9.0.0",
@@ -17803,7 +17911,7 @@
       "rlon": 180.0
     },
     "frameEpoch": 1993.0,
-    "deformationModel": ""
+    "deformationModel": "NNR-NUVEL1A"
   },
   { "wkid": 104121,
     "latestWkid": 8994,
@@ -18277,12 +18385,12 @@
     "authority": "Esri",
     "version": "10.6.0",
     "deprecated": "yes",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "AM0-2"
@@ -18297,12 +18405,12 @@
     "authority": "Esri",
     "version": "10.6.0",
     "deprecated": "yes",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1"
@@ -18317,12 +18425,12 @@
     "authority": "Esri",
     "version": "10.6.0",
     "deprecated": "yes",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1"
@@ -18337,12 +18445,12 @@
     "authority": "Esri",
     "version": "10.6.0",
     "deprecated": "yes",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -18357,12 +18465,12 @@
     "authority": "Esri",
     "version": "10.6.0",
     "deprecated": "yes",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -18377,12 +18485,12 @@
     "authority": "Esri",
     "version": "10.6.0",
     "deprecated": "yes",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -18397,12 +18505,12 @@
     "authority": "Esri",
     "version": "10.6.0",
     "deprecated": "yes",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "NNR-NUVEL1A"
@@ -18417,12 +18525,12 @@
     "authority": "Esri",
     "version": "10.6.0",
     "deprecated": "yes",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "ITRF2000-PMM"
@@ -18531,12 +18639,12 @@
     "authority": "Esri",
     "version": "9.0.0",
     "deprecated": "yes",
-    "areaname": "Europe - ETRF by country",
+    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 32.88,
+    { "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
-      "rlon": 40.18
+      "rlon": 38.01
     },
     "frameEpoch": 1989.0,
     "deformationModel": "AM0-2"

@@ -3389,6 +3389,11 @@
    FALSE, \
    ""
 
+"CH1903 (Bern) / LV03C", \
+   "Bern_1898_Bern_LV03C", \
+   FALSE, \
+   "EPSG"
+
 "CH1903_LV03C-G_Shifted", \
    "CH1903_LV03C-G", \
    FALSE, \
@@ -6506,6 +6511,11 @@
 
 "ETRS89 / Faroe TM", \
    "ETRS_1989_FAROE_TM", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89 / Gauss-Kruger CM 9E", \
+   "ETRS_1989_GK_CM_9E", \
    FALSE, \
    "EPSG"
 
@@ -11135,7 +11145,7 @@
    "Teradata"
 
 "Merchich_Degree_UTM_Zone_28N", \
-   "PE_PCS_MERCHICH_DEGREE_UTM_28N", \
+   "Merchich_UTM_Zone_28N", \
    FALSE, \
    ""
 
@@ -53179,11 +53189,6 @@
    FALSE, \
    "Teradata"
 
-"Sahara_Degree", \
-   "PE_PCS_MERCHICH_DEGREE_SAHARA", \
-   FALSE, \
-   ""
-
 "Sainte Anne / UTM zone 20N", \
    "Sainte_Anne_UTM_20N", \
    FALSE, \
@@ -58911,6 +58916,36 @@
 
 "WGS 84 / Gabon TM 2011", \
    "WGS_1984_UTM_Gabon_TM_2011", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / GLANCE Africa", \
+   "WGS_1984_GLANCE_Africa", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / GLANCE Asia", \
+   "WGS_1984_GLANCE_Asia", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / GLANCE Europe", \
+   "WGS_1984_GLANCE_Europe", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / GLANCE North America", \
+   "WGS_1984_GLANCE_North_America", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / GLANCE Oceania", \
+   "WGS_1984_GLANCE_Oceania", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / GLANCE South America", \
+   "WGS_1984_GLANCE_South_America", \
    FALSE, \
    "EPSG"
 
