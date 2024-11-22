@@ -18,6 +18,9 @@ HV Coordinate Systems:
 
 WKID        : 3901
 Latest-WKID : 3901
+pcsWkid     : 2393
+gcsWkid     : 4123
+vcsWkid     : 5717
 Macro       : PE_HVC_KKJ_FINLAND_UCS_N60_HT
 Name        : KKJ_Finland_Uniform_Coordinate_System_and_N60_height
 WKT         : HVCOORDSYS["KKJ_Finland_Uniform_Coordinate_System_and_N60_height",
@@ -88,6 +91,9 @@ Area-rlon   : 31.59
 
 WKID        : 3902
 Latest-WKID : 3902
+pcsWkid     : 5048
+gcsWkid     : 4258
+vcsWkid     : 5717
 Macro       : PE_HVC_ETRS89_TM35FIN_N60_HT
 Name        : ETRS_1989_TM35FIN_and_N60_height
 WKT         : HVCOORDSYS["ETRS_1989_TM35FIN_and_N60_height",
@@ -158,6 +164,9 @@ Area-rlon   : 31.59
 
 WKID        : 3903
 Latest-WKID : 3903
+pcsWkid     : 5048
+gcsWkid     : 4258
+vcsWkid     : 3900
 Macro       : PE_HVC_ETRS89_TM35FIN_N2000_HT
 Name        : ETRS_1989_TM35FIN_and_N2000_height
 WKT         : HVCOORDSYS["ETRS_1989_TM35FIN_and_N2000_height",
@@ -228,6 +237,9 @@ Area-rlon   : 31.59
 
 WKID        : 4097
 Latest-WKID : 4097
+pcsWkid     : 4093
+gcsWkid     : 4258
+vcsWkid     : 5799
 Macro       : PE_HVC_ETRS89_DKTM1_DVR90_HT
 Name        : ETRS_1989_DKTM1_and_DVR90_height
 WKT         : HVCOORDSYS["ETRS_1989_DKTM1_and_DVR90_height",
@@ -298,6 +310,9 @@ Area-rlon   : 10.0
 
 WKID        : 4098
 Latest-WKID : 4098
+pcsWkid     : 4094
+gcsWkid     : 4258
+vcsWkid     : 5799
 Macro       : PE_HVC_ETRS89_DKTM2_DVR90_HT
 Name        : ETRS_1989_DKTM2_and_DVR90_height
 WKT         : HVCOORDSYS["ETRS_1989_DKTM2_and_DVR90_height",
@@ -368,6 +383,9 @@ Area-rlon   : 11.29
 
 WKID        : 4099
 Latest-WKID : 4099
+pcsWkid     : 4095
+gcsWkid     : 4258
+vcsWkid     : 5799
 Macro       : PE_HVC_ETRS89_DKTM3_DVR90_HT
 Name        : ETRS_1989_DKTM3_and_DVR90_height
 WKT         : HVCOORDSYS["ETRS_1989_DKTM3_and_DVR90_height",
@@ -438,6 +456,9 @@ Area-rlon   : 12.87
 
 WKID        : 4100
 Latest-WKID : 4100
+pcsWkid     : 4096
+gcsWkid     : 4258
+vcsWkid     : 5799
 Macro       : PE_HVC_ETRS89_DKTM4_DVR90_HT
 Name        : ETRS_1989_DKTM4_and_DVR90_height
 WKT         : HVCOORDSYS["ETRS_1989_DKTM4_and_DVR90_height",
@@ -508,6 +529,9 @@ Area-rlon   : 15.25
 
 WKID        : 5318
 Latest-WKID : 5318
+pcsWkid     : 5316
+gcsWkid     : 4258
+vcsWkid     : 5317
 Macro       : PE_HVC_ETRS89_FAROE_TM_FVR09_HT
 Name        : HVC_ETRS_1989_Faroe_TM_and_FVR09_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_Faroe_TM_and_FVR09_height",
@@ -578,6 +602,9 @@ Area-rlon   : -6.33
 
 WKID        : 5498
 Latest-WKID : 5498
+pcsWkid     : 0
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_NAVD88_HT
 Name        : HVC_NAD_1983_and_NAVD88_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_and_NAVD88_height",
@@ -621,6 +648,9 @@ Area-rlon   : -66.91
 
 WKID        : 5499
 Latest-WKID : 5499
+pcsWkid     : 0
+gcsWkid     : 4152
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_HARN_NAVD88_HT
 Name        : HVC_NAD_1983_HARN_and_NAVD88_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_HARN_and_NAVD88_height",
@@ -664,6 +694,9 @@ Area-rlon   : -66.91
 
 WKID        : 5500
 Latest-WKID : 5500
+pcsWkid     : 0
+gcsWkid     : 4759
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_NSRS2007_NAVD88_HT
 Name        : HVC_NAD_1983_NSRS2007_and_NAVD88_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_NSRS2007_and_NAVD88_height",
@@ -707,6 +740,9 @@ Area-rlon   : -66.91
 
 WKID        : 5554
 Latest-WKID : 5554
+pcsWkid     : 25831
+gcsWkid     : 4258
+vcsWkid     : 5783
 Macro       : PE_HVC_ETRS_1989_UTM_31N_AND_DHHN92_HT
 Name        : HVC_ETRS_1989_UTM_Zone_31N_and_DHHN92_Height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_UTM_Zone_31N_and_DHHN92_Height",
@@ -777,6 +813,9 @@ Area-rlon   : 6.01
 
 WKID        : 5555
 Latest-WKID : 5555
+pcsWkid     : 25832
+gcsWkid     : 4258
+vcsWkid     : 5783
 Macro       : PE_HVC_ETRS_1989_UTM_32N_AND_DHHN92_HT
 Name        : HVC_ETRS_1989_UTM_Zone_32N_and_DHHN92_Height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_UTM_Zone_32N_and_DHHN92_Height",
@@ -847,6 +886,9 @@ Area-rlon   : 12.0
 
 WKID        : 5556
 Latest-WKID : 5556
+pcsWkid     : 25833
+gcsWkid     : 4258
+vcsWkid     : 5783
 Macro       : PE_HVC_ETRS_1989_UTM_33N_AND_DHHN92_HT
 Name        : HVC_ETRS_1989_UTM_Zone_33N_and_DHHN92_Height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_UTM_Zone_33N_and_DHHN92_Height",
@@ -917,6 +959,9 @@ Area-rlon   : 15.04
 
 WKID        : 5598
 Latest-WKID : 5598
+pcsWkid     : 5596
+gcsWkid     : 5593
+vcsWkid     : 5597
 Macro       : PE_HVC_FEH2010_FEHMARNBELT_TM_AND_FCSVR10_HT
 Name        : HVC_FEH2010_Fehmarnbelt_TM_and_FCSVR10_Height
 WKT         : HVCOORDSYS["HVC_FEH2010_Fehmarnbelt_TM_and_FCSVR10_Height",
@@ -987,6 +1032,9 @@ Area-rlon   : 11.51
 
 WKID        : 5628
 Latest-WKID : 5628
+pcsWkid     : 0
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_RH2000_HT
 Name        : HVC_SWEREF99_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_and_RH2000_height",
@@ -1032,6 +1080,9 @@ Area-rlon   : 24.17
 
 WKID        : 5698
 Latest-WKID : 5698
+pcsWkid     : 2154
+gcsWkid     : 4171
+vcsWkid     : 5720
 Macro       : PE_HVC_RGF_1993_LAMBERT_93_AND_NGF_IGN69_HT
 Name        : HVC_RGF_1993_Lambert_93_and_NGF_IGN69_Height
 WKT         : HVCOORDSYS["HVC_RGF_1993_Lambert_93_and_NGF_IGN69_Height",
@@ -1105,6 +1156,9 @@ Area-rlon   : 8.23
 
 WKID        : 5699
 Latest-WKID : 5699
+pcsWkid     : 2154
+gcsWkid     : 4171
+vcsWkid     : 5721
 Macro       : PE_HVC_RGF_1993_LAMBERT_93_AND_NGF_IGN78_HT
 Name        : HVC_RGF_1993_Lambert_93_and_NGF_IGN78_Height
 WKT         : HVCOORDSYS["HVC_RGF_1993_Lambert_93_and_NGF_IGN78_Height",
@@ -1178,6 +1232,9 @@ Area-rlon   : 9.63
 
 WKID        : 5707
 Latest-WKID : 5707
+pcsWkid     : 27571
+gcsWkid     : 4807
+vcsWkid     : 5720
 Macro       : PE_HVC_NTF_PARIS_LAMBERT_I_AND_NGF_IGN69_HT
 Name        : HVC_NTF_Paris_Lambert_Zone_I_and_NGF_IGN69_Height
 WKT         : HVCOORDSYS["HVC_NTF_Paris_Lambert_Zone_I_and_NGF_IGN69_Height",
@@ -1251,6 +1308,9 @@ Area-rlon   : 8.23
 
 WKID        : 5708
 Latest-WKID : 5708
+pcsWkid     : 27574
+gcsWkid     : 4807
+vcsWkid     : 5721
 Macro       : PE_HVC_NTF_PARIS_LAMBERT_IV_AND_NGF_IGN78_HT
 Name        : HVC_NTF_Paris_Lambert_Zone_IV_and_NGF_IGN78_Height
 WKT         : HVCOORDSYS["HVC_NTF_Paris_Lambert_Zone_IV_and_NGF_IGN78_Height",
@@ -1324,6 +1384,9 @@ Area-rlon   : 9.63
 
 WKID        : 5832
 Latest-WKID : 5832
+pcsWkid     : 5682
+gcsWkid     : 5681
+vcsWkid     : 5783
 Macro       : PE_HVC_DB_REF_3_DEG_GK_2_EN_AND_DHHN92
 Name        : HVC_DB_REF_3_Degree_GK_Zone_2_E-N_and_DHHN92
 WKT         : HVCOORDSYS["HVC_DB_REF_3_Degree_GK_Zone_2_E-N_and_DHHN92",
@@ -1394,6 +1457,9 @@ Area-rlon   : 7.51
 
 WKID        : 5833
 Latest-WKID : 5833
+pcsWkid     : 5683
+gcsWkid     : 5681
+vcsWkid     : 5783
 Macro       : PE_HVC_DB_REF_3_DEG_GK_3_EN_AND_DHHN92
 Name        : HVC_DB_REF_3_Degree_GK_Zone_3_E-N_and_DHHN92
 WKT         : HVCOORDSYS["HVC_DB_REF_3_Degree_GK_Zone_3_E-N_and_DHHN92",
@@ -1464,6 +1530,9 @@ Area-rlon   : 10.51
 
 WKID        : 5834
 Latest-WKID : 5834
+pcsWkid     : 5684
+gcsWkid     : 5681
+vcsWkid     : 5783
 Macro       : PE_HVC_DB_REF_3_DEG_GK_4_EN_AND_DHHN92
 Name        : HVC_DB_REF_3_Degree_GK_Zone_4_E-N_and_DHHN92
 WKT         : HVCOORDSYS["HVC_DB_REF_3_Degree_GK_Zone_4_E-N_and_DHHN92",
@@ -1534,6 +1603,9 @@ Area-rlon   : 13.51
 
 WKID        : 5835
 Latest-WKID : 5835
+pcsWkid     : 5685
+gcsWkid     : 5681
+vcsWkid     : 5783
 Macro       : PE_HVC_DB_REF_3_DEG_GK_5_EN_AND_DHHN92
 Name        : HVC_DB_REF_3_Degree_GK_Zone_5_E-N_and_DHHN92
 WKT         : HVCOORDSYS["HVC_DB_REF_3_Degree_GK_Zone_5_E-N_and_DHHN92",
@@ -1604,6 +1676,9 @@ Area-rlon   : 15.04
 
 WKID        : 5845
 Latest-WKID : 5845
+pcsWkid     : 3006
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_TM_RH2000_HT
 Name        : HVC_SWEREF99_TM_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_TM_and_RH2000_height",
@@ -1676,6 +1751,9 @@ Area-rlon   : 24.17
 
 WKID        : 5846
 Latest-WKID : 5846
+pcsWkid     : 3007
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_12_00_RH2000_HT
 Name        : HVC_SWEREF99_12_00_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_12_00_and_RH2000_height",
@@ -1748,6 +1826,9 @@ Area-rlon   : 13.11
 
 WKID        : 5847
 Latest-WKID : 5847
+pcsWkid     : 3008
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_13_30_RH2000_HT
 Name        : HVC_SWEREF99_13_30_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_13_30_and_RH2000_height",
@@ -1820,6 +1901,9 @@ Area-rlon   : 14.79
 
 WKID        : 5848
 Latest-WKID : 5848
+pcsWkid     : 3009
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_15_00_RH2000_HT
 Name        : HVC_SWEREF99_15_00_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_15_00_and_RH2000_height",
@@ -1892,6 +1976,9 @@ Area-rlon   : 16.15
 
 WKID        : 5849
 Latest-WKID : 5849
+pcsWkid     : 3010
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_16_30_RH2000_HT
 Name        : HVC_SWEREF99_16_30_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_16_30_and_RH2000_height",
@@ -1964,6 +2051,9 @@ Area-rlon   : 17.63
 
 WKID        : 5850
 Latest-WKID : 5850
+pcsWkid     : 3011
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_18_00_RH2000_HT
 Name        : HVC_SWEREF99_18_00_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_18_00_and_RH2000_height",
@@ -2036,6 +2126,9 @@ Area-rlon   : 19.61
 
 WKID        : 5851
 Latest-WKID : 5851
+pcsWkid     : 3012
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_14_15_RH2000_HT
 Name        : HVC_SWEREF99_14_15_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_14_15_and_RH2000_height",
@@ -2108,6 +2201,9 @@ Area-rlon   : 15.55
 
 WKID        : 5852
 Latest-WKID : 5852
+pcsWkid     : 3013
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_15_45_RH2000_HT
 Name        : HVC_SWEREF99_15_45_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_15_45_and_RH2000_height",
@@ -2180,6 +2276,9 @@ Area-rlon   : 17.01
 
 WKID        : 5853
 Latest-WKID : 5853
+pcsWkid     : 3014
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_17_15_RH2000_HT
 Name        : HVC_SWEREF99_17_15_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_17_15_and_RH2000_height",
@@ -2252,6 +2351,9 @@ Area-rlon   : 19.04
 
 WKID        : 5854
 Latest-WKID : 5854
+pcsWkid     : 3015
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_18_45_RH2000_HT
 Name        : HVC_SWEREF99_18_45_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_18_45_and_RH2000_height",
@@ -2324,6 +2426,9 @@ Area-rlon   : 20.22
 
 WKID        : 5855
 Latest-WKID : 5855
+pcsWkid     : 3016
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_20_15_RH2000_HT
 Name        : HVC_SWEREF99_20_15_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_20_15_and_RH2000_height",
@@ -2396,6 +2501,9 @@ Area-rlon   : 23.28
 
 WKID        : 5856
 Latest-WKID : 5856
+pcsWkid     : 3017
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_21_45_RH2000_HT
 Name        : HVC_SWEREF99_21_45_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_21_45_and_RH2000_height",
@@ -2468,6 +2576,9 @@ Area-rlon   : 22.91
 
 WKID        : 5857
 Latest-WKID : 5857
+pcsWkid     : 3018
+gcsWkid     : 4619
+vcsWkid     : 5613
 Macro       : PE_HVC_SWEREF99_23_15_RH2000_HT
 Name        : HVC_SWEREF99_23_15_and_RH2000_height
 WKT         : HVCOORDSYS["HVC_SWEREF99_23_15_and_RH2000_height",
@@ -2540,6 +2651,9 @@ Area-rlon   : 24.17
 
 WKID        : 5942
 Latest-WKID : 5942
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NN2000_HT
 Name        : HVC_ETRS_1989_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_and_NN2000_height",
@@ -2585,6 +2699,9 @@ Area-rlon   : 31.32
 
 WKID        : 5945
 Latest-WKID : 5945
+pcsWkid     : 5105
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_5_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_5_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_5_and_NN2000_height",
@@ -2657,6 +2774,9 @@ Area-rlon   : 6.01
 
 WKID        : 5946
 Latest-WKID : 5946
+pcsWkid     : 5106
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_6_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_6_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_6_and_NN2000_height",
@@ -2729,6 +2849,9 @@ Area-rlon   : 7.01
 
 WKID        : 5947
 Latest-WKID : 5947
+pcsWkid     : 5107
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_7_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_7_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_7_and_NN2000_height",
@@ -2801,6 +2924,9 @@ Area-rlon   : 8.01
 
 WKID        : 5948
 Latest-WKID : 5948
+pcsWkid     : 5108
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_8_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_8_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_8_and_NN2000_height",
@@ -2873,6 +2999,9 @@ Area-rlon   : 9.01
 
 WKID        : 5949
 Latest-WKID : 5949
+pcsWkid     : 5109
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_9_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_9_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_9_and_NN2000_height",
@@ -2945,6 +3074,9 @@ Area-rlon   : 10.01
 
 WKID        : 5950
 Latest-WKID : 5950
+pcsWkid     : 5110
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_10_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_10_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_10_and_NN2000_height",
@@ -3017,6 +3149,9 @@ Area-rlon   : 11.01
 
 WKID        : 5951
 Latest-WKID : 5951
+pcsWkid     : 5111
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_11_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_11_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_11_and_NN2000_height",
@@ -3089,6 +3224,9 @@ Area-rlon   : 12.01
 
 WKID        : 5952
 Latest-WKID : 5952
+pcsWkid     : 5112
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_12_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_12_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_12_and_NN2000_height",
@@ -3161,6 +3299,9 @@ Area-rlon   : 13.01
 
 WKID        : 5953
 Latest-WKID : 5953
+pcsWkid     : 5113
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_13_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_13_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_13_and_NN2000_height",
@@ -3233,6 +3374,9 @@ Area-rlon   : 14.01
 
 WKID        : 5954
 Latest-WKID : 5954
+pcsWkid     : 5114
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_14_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_14_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_14_and_NN2000_height",
@@ -3305,6 +3449,9 @@ Area-rlon   : 15.01
 
 WKID        : 5955
 Latest-WKID : 5955
+pcsWkid     : 5115
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_15_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_15_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_15_and_NN2000_height",
@@ -3377,6 +3524,9 @@ Area-rlon   : 16.01
 
 WKID        : 5956
 Latest-WKID : 5956
+pcsWkid     : 5116
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_16_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_16_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_16_and_NN2000_height",
@@ -3449,6 +3599,9 @@ Area-rlon   : 17.01
 
 WKID        : 5957
 Latest-WKID : 5957
+pcsWkid     : 5117
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_17_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_17_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_17_and_NN2000_height",
@@ -3521,6 +3674,9 @@ Area-rlon   : 18.01
 
 WKID        : 5958
 Latest-WKID : 5958
+pcsWkid     : 5118
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_18_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_18_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_18_and_NN2000_height",
@@ -3593,6 +3749,9 @@ Area-rlon   : 19.01
 
 WKID        : 5959
 Latest-WKID : 5959
+pcsWkid     : 5119
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_19_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_19_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_19_and_NN2000_height",
@@ -3665,6 +3824,9 @@ Area-rlon   : 20.01
 
 WKID        : 5960
 Latest-WKID : 5960
+pcsWkid     : 5120
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_20_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_20_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_20_and_NN2000_height",
@@ -3737,6 +3899,9 @@ Area-rlon   : 21.01
 
 WKID        : 5961
 Latest-WKID : 5961
+pcsWkid     : 5121
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_21_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_21_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_21_and_NN2000_height",
@@ -3809,6 +3974,9 @@ Area-rlon   : 22.01
 
 WKID        : 5962
 Latest-WKID : 5962
+pcsWkid     : 5122
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_22_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_22_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_22_and_NN2000_height",
@@ -3881,6 +4049,9 @@ Area-rlon   : 23.01
 
 WKID        : 5963
 Latest-WKID : 5963
+pcsWkid     : 5123
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_23_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_23_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_23_and_NN2000_height",
@@ -3953,6 +4124,9 @@ Area-rlon   : 24.01
 
 WKID        : 5964
 Latest-WKID : 5964
+pcsWkid     : 5124
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_24_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_24_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_24_and_NN2000_height",
@@ -4025,6 +4199,9 @@ Area-rlon   : 25.01
 
 WKID        : 5965
 Latest-WKID : 5965
+pcsWkid     : 5125
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_25_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_25_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_25_and_NN2000_height",
@@ -4097,6 +4274,9 @@ Area-rlon   : 26.01
 
 WKID        : 5966
 Latest-WKID : 5966
+pcsWkid     : 5126
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_26_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_26_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_26_and_NN2000_height",
@@ -4169,6 +4349,9 @@ Area-rlon   : 27.01
 
 WKID        : 5967
 Latest-WKID : 5967
+pcsWkid     : 5127
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_27_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_27_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_27_and_NN2000_height",
@@ -4241,6 +4424,9 @@ Area-rlon   : 28.01
 
 WKID        : 5968
 Latest-WKID : 5968
+pcsWkid     : 5128
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_28_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_28_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_28_and_NN2000_height",
@@ -4313,6 +4499,9 @@ Area-rlon   : 29.01
 
 WKID        : 5969
 Latest-WKID : 5969
+pcsWkid     : 5129
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_29_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_29_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_29_and_NN2000_height",
@@ -4385,6 +4574,9 @@ Area-rlon   : 30.01
 
 WKID        : 5970
 Latest-WKID : 5970
+pcsWkid     : 5130
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_NTM_30_NN2000_HT
 Name        : HVC_ETRS_1989_NTM_Zone_30_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_30_and_NN2000_height",
@@ -4457,6 +4649,9 @@ Area-rlon   : 31.32
 
 WKID        : 5971
 Latest-WKID : 5971
+pcsWkid     : 25831
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_UTM_31_NN2000_HT
 Name        : HVC_ETRS_1989_UTM_Zone_31_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_UTM_Zone_31_and_NN2000_height",
@@ -4529,6 +4724,9 @@ Area-rlon   : 6.01
 
 WKID        : 5972
 Latest-WKID : 5972
+pcsWkid     : 25832
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_UTM_32_NN2000_HT
 Name        : HVC_ETRS_1989_UTM_Zone_32_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_UTM_Zone_32_and_NN2000_height",
@@ -4601,6 +4799,9 @@ Area-rlon   : 12.01
 
 WKID        : 5973
 Latest-WKID : 5973
+pcsWkid     : 25833
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_UTM_33_NN2000_HT
 Name        : HVC_ETRS_1989_UTM_Zone_33_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_UTM_Zone_33_and_NN2000_height",
@@ -4673,6 +4874,9 @@ Area-rlon   : 18.01
 
 WKID        : 5974
 Latest-WKID : 5974
+pcsWkid     : 25834
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_UTM_34_NN2000_HT
 Name        : HVC_ETRS_1989_UTM_Zone_34_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_UTM_Zone_34_and_NN2000_height",
@@ -4745,6 +4949,9 @@ Area-rlon   : 24.01
 
 WKID        : 5975
 Latest-WKID : 5975
+pcsWkid     : 25835
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_UTM_35_NN2000_HT
 Name        : HVC_ETRS_1989_UTM_Zone_35_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_UTM_Zone_35_and_NN2000_height",
@@ -4817,6 +5024,9 @@ Area-rlon   : 30.01
 
 WKID        : 5976
 Latest-WKID : 5976
+pcsWkid     : 25836
+gcsWkid     : 4258
+vcsWkid     : 5941
 Macro       : PE_HVC_ETRS_1989_UTM_36_NN2000_HT
 Name        : HVC_ETRS_1989_UTM_Zone_36_and_NN2000_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_UTM_Zone_36_and_NN2000_height",
@@ -4889,6 +5099,9 @@ Area-rlon   : 31.32
 
 WKID        : 6144
 Latest-WKID : 6144
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NN54_HT
 Name        : HVC_ETRS_1989_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_and_NN54_height",
@@ -4932,6 +5145,9 @@ Area-rlon   : 31.32
 
 WKID        : 6145
 Latest-WKID : 6145
+pcsWkid     : 5105
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_5_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_5_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_5_and_NN54_height",
@@ -5002,6 +5218,9 @@ Area-rlon   : 6.01
 
 WKID        : 6146
 Latest-WKID : 6146
+pcsWkid     : 5106
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_6_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_6_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_6_and_NN54_height",
@@ -5072,6 +5291,9 @@ Area-rlon   : 7.01
 
 WKID        : 6147
 Latest-WKID : 6147
+pcsWkid     : 5107
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_7_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_7_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_7_and_NN54_height",
@@ -5142,6 +5364,9 @@ Area-rlon   : 8.01
 
 WKID        : 6148
 Latest-WKID : 6148
+pcsWkid     : 5108
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_8_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_8_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_8_and_NN54_height",
@@ -5212,6 +5437,9 @@ Area-rlon   : 9.01
 
 WKID        : 6149
 Latest-WKID : 6149
+pcsWkid     : 5109
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_9_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_9_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_9_and_NN54_height",
@@ -5282,6 +5510,9 @@ Area-rlon   : 10.01
 
 WKID        : 6150
 Latest-WKID : 6150
+pcsWkid     : 5110
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_10_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_10_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_10_and_NN54_height",
@@ -5352,6 +5583,9 @@ Area-rlon   : 11.01
 
 WKID        : 6151
 Latest-WKID : 6151
+pcsWkid     : 5111
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_11_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_11_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_11_and_NN54_height",
@@ -5422,6 +5656,9 @@ Area-rlon   : 12.01
 
 WKID        : 6152
 Latest-WKID : 6152
+pcsWkid     : 5112
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_12_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_12_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_12_and_NN54_height",
@@ -5492,6 +5729,9 @@ Area-rlon   : 13.01
 
 WKID        : 6153
 Latest-WKID : 6153
+pcsWkid     : 5113
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_13_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_13_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_13_and_NN54_height",
@@ -5562,6 +5802,9 @@ Area-rlon   : 14.01
 
 WKID        : 6154
 Latest-WKID : 6154
+pcsWkid     : 5114
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_14_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_14_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_14_and_NN54_height",
@@ -5632,6 +5875,9 @@ Area-rlon   : 15.01
 
 WKID        : 6155
 Latest-WKID : 6155
+pcsWkid     : 5115
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_15_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_15_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_15_and_NN54_height",
@@ -5702,6 +5948,9 @@ Area-rlon   : 16.01
 
 WKID        : 6156
 Latest-WKID : 6156
+pcsWkid     : 5116
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_16_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_16_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_16_and_NN54_height",
@@ -5772,6 +6021,9 @@ Area-rlon   : 17.01
 
 WKID        : 6157
 Latest-WKID : 6157
+pcsWkid     : 5117
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_17_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_17_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_17_and_NN54_height",
@@ -5842,6 +6094,9 @@ Area-rlon   : 18.01
 
 WKID        : 6158
 Latest-WKID : 6158
+pcsWkid     : 5118
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_18_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_18_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_18_and_NN54_height",
@@ -5912,6 +6167,9 @@ Area-rlon   : 19.01
 
 WKID        : 6159
 Latest-WKID : 6159
+pcsWkid     : 5119
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_19_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_19_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_19_and_NN54_height",
@@ -5982,6 +6240,9 @@ Area-rlon   : 20.01
 
 WKID        : 6160
 Latest-WKID : 6160
+pcsWkid     : 5120
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_20_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_20_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_20_and_NN54_height",
@@ -6052,6 +6313,9 @@ Area-rlon   : 21.01
 
 WKID        : 6161
 Latest-WKID : 6161
+pcsWkid     : 5121
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_21_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_21_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_21_and_NN54_height",
@@ -6122,6 +6386,9 @@ Area-rlon   : 22.01
 
 WKID        : 6162
 Latest-WKID : 6162
+pcsWkid     : 5122
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_22_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_22_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_22_and_NN54_height",
@@ -6192,6 +6459,9 @@ Area-rlon   : 23.01
 
 WKID        : 6163
 Latest-WKID : 6163
+pcsWkid     : 5123
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_23_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_23_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_23_and_NN54_height",
@@ -6262,6 +6532,9 @@ Area-rlon   : 24.01
 
 WKID        : 6164
 Latest-WKID : 6164
+pcsWkid     : 5124
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_24_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_24_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_24_and_NN54_height",
@@ -6332,6 +6605,9 @@ Area-rlon   : 25.01
 
 WKID        : 6165
 Latest-WKID : 6165
+pcsWkid     : 5125
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_25_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_25_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_25_and_NN54_height",
@@ -6402,6 +6678,9 @@ Area-rlon   : 26.01
 
 WKID        : 6166
 Latest-WKID : 6166
+pcsWkid     : 5126
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_26_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_26_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_26_and_NN54_height",
@@ -6472,6 +6751,9 @@ Area-rlon   : 27.01
 
 WKID        : 6167
 Latest-WKID : 6167
+pcsWkid     : 5127
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_27_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_27_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_27_and_NN54_height",
@@ -6542,6 +6824,9 @@ Area-rlon   : 28.01
 
 WKID        : 6168
 Latest-WKID : 6168
+pcsWkid     : 5128
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_28_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_28_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_28_and_NN54_height",
@@ -6612,6 +6897,9 @@ Area-rlon   : 29.01
 
 WKID        : 6169
 Latest-WKID : 6169
+pcsWkid     : 5129
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_29_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_29_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_29_and_NN54_height",
@@ -6682,6 +6970,9 @@ Area-rlon   : 30.01
 
 WKID        : 6170
 Latest-WKID : 6170
+pcsWkid     : 5130
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_NTM_30_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_30_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_30_and_NN54_height",
@@ -6752,6 +7043,9 @@ Area-rlon   : 31.32
 
 WKID        : 6171
 Latest-WKID : 6171
+pcsWkid     : 25831
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_UTM_31_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_31_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_31_and_NN54_height",
@@ -6822,6 +7116,9 @@ Area-rlon   : 6.01
 
 WKID        : 6172
 Latest-WKID : 6172
+pcsWkid     : 25832
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_UTM_32_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_32_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_32_and_NN54_height",
@@ -6892,6 +7189,9 @@ Area-rlon   : 12.01
 
 WKID        : 6173
 Latest-WKID : 6173
+pcsWkid     : 25833
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_UTM_33_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_33_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_33_and_NN54_height",
@@ -6962,6 +7262,9 @@ Area-rlon   : 18.01
 
 WKID        : 6174
 Latest-WKID : 6174
+pcsWkid     : 25834
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_UTM_34_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_34_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_34_and_NN54_height",
@@ -7032,6 +7335,9 @@ Area-rlon   : 24.01
 
 WKID        : 6175
 Latest-WKID : 6175
+pcsWkid     : 25835
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_UTM_35_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_35_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_35_and_NN54_height",
@@ -7102,6 +7408,9 @@ Area-rlon   : 30.01
 
 WKID        : 6176
 Latest-WKID : 6176
+pcsWkid     : 25836
+gcsWkid     : 4258
+vcsWkid     : 5776
 Macro       : PE_HVC_ETRS_1989_UTM_36_NN54_HT
 Name        : HVC_ETRS_1989_NTM_Zone_36_and_NN54_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_NTM_Zone_36_and_NN54_height",
@@ -7172,6 +7481,9 @@ Area-rlon   : 31.32
 
 WKID        : 6190
 Latest-WKID : 6190
+pcsWkid     : 31370
+gcsWkid     : 4313
+vcsWkid     : 5710
 Macro       : PE_HVC_BELGE_1972_BELGIAN_LAMBERT72_OSTEND_HT
 Name        : HVC_Belge_1972_Belgian_Lambert_72_and_Ostend_height
 WKT         : HVCOORDSYS["HVC_Belge_1972_Belgian_Lambert_72_and_Ostend_height",
@@ -7245,6 +7557,9 @@ Area-rlon   : 6.4
 
 WKID        : 6349
 Latest-WKID : 6349
+pcsWkid     : 0
+gcsWkid     : 6318
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_2011_NAVD88_HT
 Name        : HVC_NAD_1983_2011_and_NAVD88_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_2011_and_NAVD88_height",
@@ -7290,6 +7605,9 @@ Area-rlon   : -66.91
 
 WKID        : 6649
 Latest-WKID : 6649
+pcsWkid     : 0
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_and_CGVD2013_height",
@@ -7333,6 +7651,9 @@ Area-rlon   : -40.73
 
 WKID        : 6650
 Latest-WKID : 6650
+pcsWkid     : 3154
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_7N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_7N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_7N_and_CGVD2013_height",
@@ -7403,6 +7724,9 @@ Area-rlon   : -138.0
 
 WKID        : 6651
 Latest-WKID : 6651
+pcsWkid     : 3155
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_8N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_8N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_8N_and_CGVD2013_height",
@@ -7473,6 +7797,9 @@ Area-rlon   : -132.0
 
 WKID        : 6652
 Latest-WKID : 6652
+pcsWkid     : 3156
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_9N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_9N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_9N_and_CGVD2013_height",
@@ -7543,6 +7870,9 @@ Area-rlon   : -126.0
 
 WKID        : 6653
 Latest-WKID : 6653
+pcsWkid     : 3157
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_10N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_10N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_10N_and_CGVD2013_height",
@@ -7613,6 +7943,9 @@ Area-rlon   : -120.0
 
 WKID        : 6654
 Latest-WKID : 6654
+pcsWkid     : 2955
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_11N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_11N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_11N_and_CGVD2013_height",
@@ -7683,6 +8016,9 @@ Area-rlon   : -114.0
 
 WKID        : 6655
 Latest-WKID : 6655
+pcsWkid     : 2956
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_12N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_12N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_12N_and_CGVD2013_height",
@@ -7753,6 +8089,9 @@ Area-rlon   : -108.0
 
 WKID        : 6656
 Latest-WKID : 6656
+pcsWkid     : 2957
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_13N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_13N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_13N_and_CGVD2013_height",
@@ -7823,6 +8162,9 @@ Area-rlon   : -102.0
 
 WKID        : 6657
 Latest-WKID : 6657
+pcsWkid     : 3158
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_14N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_14N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_14N_and_CGVD2013_height",
@@ -7893,6 +8235,9 @@ Area-rlon   : -96.0
 
 WKID        : 6658
 Latest-WKID : 6658
+pcsWkid     : 3159
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_15N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_15N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_15N_and_CGVD2013_height",
@@ -7963,6 +8308,9 @@ Area-rlon   : -90.0
 
 WKID        : 6659
 Latest-WKID : 6659
+pcsWkid     : 3160
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_16N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_16N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_16N_and_CGVD2013_height",
@@ -8033,6 +8381,9 @@ Area-rlon   : -84.0
 
 WKID        : 6660
 Latest-WKID : 6660
+pcsWkid     : 2958
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_17N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_17N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_17N_and_CGVD2013_height",
@@ -8103,6 +8454,9 @@ Area-rlon   : -78.0
 
 WKID        : 6661
 Latest-WKID : 6661
+pcsWkid     : 2959
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_18N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_18N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_18N_and_CGVD2013_height",
@@ -8173,6 +8527,9 @@ Area-rlon   : -72.0
 
 WKID        : 6662
 Latest-WKID : 6662
+pcsWkid     : 2960
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_19N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_19N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_19N_and_CGVD2013_height",
@@ -8243,6 +8600,9 @@ Area-rlon   : -66.0
 
 WKID        : 6663
 Latest-WKID : 6663
+pcsWkid     : 2961
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_20N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_20N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_20N_and_CGVD2013_height",
@@ -8313,6 +8673,9 @@ Area-rlon   : -60.0
 
 WKID        : 6664
 Latest-WKID : 6664
+pcsWkid     : 2962
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_21N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_21N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_21N_and_CGVD2013_height",
@@ -8383,6 +8746,9 @@ Area-rlon   : -54.0
 
 WKID        : 6665
 Latest-WKID : 6665
+pcsWkid     : 3761
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD_1983_CSRS_UTM_22N_CGVD2013_HT
 Name        : HVC_NAD_1983_CSRS_UTM_Zone_22N_and_CGVD2013_height
 WKT         : HVCOORDSYS["HVC_NAD_1983_CSRS_UTM_Zone_22N_and_CGVD2013_height",
@@ -8453,6 +8819,9 @@ Area-rlon   : -47.99
 
 WKID        : 6696
 Latest-WKID : 6696
+pcsWkid     : 0
+gcsWkid     : 4612
+vcsWkid     : 6694
 Macro       : PE_HVC_JGD2000_JGD2000_VERT_HT
 Name        : HVC_JGD2000_and_JGD2000_vertical_height
 WKT         : HVCOORDSYS["HVC_JGD2000_and_JGD2000_vertical_height",
@@ -8496,6 +8865,9 @@ Area-rlon   : 145.87
 
 WKID        : 6697
 Latest-WKID : 6697
+pcsWkid     : 0
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JGD2011_VERT_HT
 Name        : HVC_JGD2011_and_JGD2011_vertical_height
 WKT         : HVCOORDSYS["HVC_JGD2011_and_JGD2011_vertical_height",
@@ -8539,6 +8911,9 @@ Area-rlon   : 145.87
 
 WKID        : 6700
 Latest-WKID : 6700
+pcsWkid     : 0
+gcsWkid     : 4301
+vcsWkid     : 6693
 Macro       : PE_HVC_TOKYO_JSLD72_HT
 Name        : HVC_Tokyo_and_JSLD72_height
 WKT         : HVCOORDSYS["HVC_Tokyo_and_JSLD72_height",
@@ -8582,6 +8957,9 @@ Area-rlon   : 145.87
 
 WKID        : 6893
 Latest-WKID : 6893
+pcsWkid     : 3395
+gcsWkid     : 4326
+vcsWkid     : 3855
 Macro       : PE_HVC_WGS_1984_WORLD_MERCATOR_EGM2008_HT
 Name        : HVC_WGS_1984_World_Mercator_and_EGM2008_height
 WKT         : HVCOORDSYS["HVC_WGS_1984_World_Mercator_and_EGM2008_height",
@@ -8651,6 +9029,9 @@ Area-rlon   : 180.0
 
 WKID        : 6917
 Latest-WKID : 6917
+pcsWkid     : 0
+gcsWkid     : 4757
+vcsWkid     : 6916
 Macro       : PE_HVC_SVY21_SHD_HT
 Name        : HVC_SVY21_and_SHD_height
 WKT         : HVCOORDSYS["HVC_SVY21_and_SHD_height",
@@ -8694,6 +9075,9 @@ Area-rlon   : 104.07
 
 WKID        : 6927
 Latest-WKID : 6927
+pcsWkid     : 3414
+gcsWkid     : 4757
+vcsWkid     : 6916
 Macro       : PE_HVC_SVY21_SINGAPORE_TM_SHD_HT
 Name        : HVC_SVY21_Singapore_TM_and_SHD_height
 WKT         : HVCOORDSYS["HVC_SVY21_Singapore_TM_and_SHD_height",
@@ -8764,6 +9148,9 @@ Area-rlon   : 104.07
 
 WKID        : 7400
 Latest-WKID : 7400
+pcsWkid     : 0
+gcsWkid     : 4807
+vcsWkid     : 5720
 Macro       : PE_HVC_NTF_PARIS_AND_NGF_IGN69_HEIGHT
 Name        : HVC_NTF_Paris_and_NGF_IGN69_Height
 WKT         : HVCOORDSYS["HVC_NTF_Paris_and_NGF_IGN69_Height",
@@ -8807,6 +9194,9 @@ Area-rlon   : 8.23
 
 WKID        : 7404
 Latest-WKID : 7404
+pcsWkid     : 0
+gcsWkid     : 4124
+vcsWkid     : 5718
 Macro       : PE_HVC_RT90_AND_RH70_HEIGHT
 Name        : HVC_RT90_and_RH70_Height
 WKT         : HVCOORDSYS["HVC_RT90_and_RH70_Height",
@@ -8850,6 +9240,9 @@ Area-rlon   : 24.17
 
 WKID        : 7405
 Latest-WKID : 7405
+pcsWkid     : 27700
+gcsWkid     : 4277
+vcsWkid     : 5701
 Macro       : PE_HVC_OSGB36_BRITISH_NATIONAL_GRID_AND_ODN_HEIGHT
 Name        : HVC_OSGB36_British_National_Grid_and_ODN_Height
 WKT         : HVCOORDSYS["HVC_OSGB36_British_National_Grid_and_ODN_Height",
@@ -8921,6 +9314,9 @@ Area-rlon   : 1.8
 
 WKID        : 7406
 Latest-WKID : 7406
+pcsWkid     : 0
+gcsWkid     : 4267
+vcsWkid     : 5702
 Macro       : PE_HVC_NAD27_AND_NGVD29_HEIGHT
 Name        : HVC_NAD27_and_NGVD29_Height
 WKT         : HVCOORDSYS["HVC_NAD27_and_NGVD29_Height",
@@ -8964,6 +9360,9 @@ Area-rlon   : -66.91
 
 WKID        : 7407
 Latest-WKID : 7407
+pcsWkid     : 32037
+gcsWkid     : 4267
+vcsWkid     : 5702
 Macro       : PE_HVC_NAD27_TEXAS_NORTH_AND_NGVD29_HEIGHT
 Name        : HVC_NAD27_Texas_North_and_NGVD29_Height
 WKT         : HVCOORDSYS["HVC_NAD27_Texas_North_and_NGVD29_Height",
@@ -9037,6 +9436,9 @@ Area-rlon   : -99.99
 
 WKID        : 7409
 Latest-WKID : 7409
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5730
 Macro       : PE_HVC_ETRS89_AND_EVRF2000_HEIGHT
 Name        : HVC_ETRF89_and_EVRF2000_Height
 WKT         : HVCOORDSYS["HVC_ETRF89_and_EVRF2000_Height",
@@ -9080,6 +9482,9 @@ Area-rlon   : 31.59
 
 WKID        : 7410
 Latest-WKID : 7410
+pcsWkid     : 0
+gcsWkid     : 4134
+vcsWkid     : 5724
 Macro       : PE_HVC_PSD93_AND_PHD93
 Name        : HVC_PSD93_and_PHD93
 WKT         : HVCOORDSYS["HVC_PSD93_and_PHD93",
@@ -9123,6 +9528,9 @@ Area-rlon   : 59.91
 
 WKID        : 7411
 Latest-WKID : 7411
+pcsWkid     : 27572
+gcsWkid     : 4807
+vcsWkid     : 5719
 Macro       : PE_HVC_NTF_PARIS_LAMBERT_ZONE_II_AND_NGF_LALLEMAND_HEIGHT
 Name        : HVC_NTF_Paris_Lambert_Zone_II_and_NGF_Lallemand_Height
 WKT         : HVCOORDSYS["HVC_NTF_Paris_Lambert_Zone_II_and_NGF_Lallemand_Height",
@@ -9196,6 +9604,9 @@ Area-rlon   : 8.23
 
 WKID        : 7414
 Latest-WKID : 7414
+pcsWkid     : 0
+gcsWkid     : 4301
+vcsWkid     : 5723
 Macro       : PE_HVC_TOKYO_AND_JSLD_HEIGHT
 Name        : HVC_Tokyo_and_JSLD_Height
 WKT         : HVCOORDSYS["HVC_Tokyo_and_JSLD_Height",
@@ -9239,6 +9650,9 @@ Area-rlon   : 145.87
 
 WKID        : 7415
 Latest-WKID : 7415
+pcsWkid     : 28992
+gcsWkid     : 4289
+vcsWkid     : 5709
 Macro       : PE_HVC_AMERSFOORT_RD_NEW_AND_NAP_HEIGHT
 Name        : HVC_Amersfoort_RD_New_and_NAP_Height
 WKT         : HVCOORDSYS["HVC_Amersfoort_RD_New_and_NAP_Height",
@@ -9309,6 +9723,9 @@ Area-rlon   : 7.22
 
 WKID        : 7416
 Latest-WKID : 7416
+pcsWkid     : 25832
+gcsWkid     : 4258
+vcsWkid     : 5799
 Macro       : PE_HVC_ETRS89_UTM_ZONE_32N_AND_DVR90_HEIGHT
 Name        : HVC_ETRF89_UTM_Zone_32N_and_DVR90_Height
 WKT         : HVCOORDSYS["HVC_ETRF89_UTM_Zone_32N_and_DVR90_Height",
@@ -9380,6 +9797,9 @@ Area-rlon   : 12.01
 
 WKID        : 7417
 Latest-WKID : 7417
+pcsWkid     : 25833
+gcsWkid     : 4258
+vcsWkid     : 5799
 Macro       : PE_HVC_ETRS89_UTM_ZONE_33N_AND_DVR90_HEIGHT
 Name        : HVC_ETRF89_UTM_Zone_33N_and_DVR90_Height
 WKT         : HVCOORDSYS["HVC_ETRF89_UTM_Zone_33N_and_DVR90_Height",
@@ -9451,6 +9871,9 @@ Area-rlon   : 15.25
 
 WKID        : 7418
 Latest-WKID : 7418
+pcsWkid     : 2196
+gcsWkid     : 4258
+vcsWkid     : 5799
 Macro       : PE_HVC_ETRS90_KP2000_JUTLAND_AND_DVR90_HEIGHT
 Name        : HVC_ETRF89_KP2000_Jutland_and_DVR90_Height
 WKT         : HVCOORDSYS["HVC_ETRF89_KP2000_Jutland_and_DVR90_Height",
@@ -9521,6 +9944,9 @@ Area-rlon   : 11.29
 
 WKID        : 7419
 Latest-WKID : 7419
+pcsWkid     : 2197
+gcsWkid     : 4258
+vcsWkid     : 5799
 Macro       : PE_HVC_ETRS89_KP2000_ZEALAND_AND_DVR90_HEIGHT
 Name        : HVC_ETRF89_KP2000_Zealand_and_DVR90_Height
 WKT         : HVCOORDSYS["HVC_ETRF89_KP2000_Zealand_and_DVR90_Height",
@@ -9591,6 +10017,9 @@ Area-rlon   : 12.87
 
 WKID        : 7420
 Latest-WKID : 7420
+pcsWkid     : 2198
+gcsWkid     : 4258
+vcsWkid     : 5799
 Macro       : PE_HVC_ETRS89_KP2000_BORNHOLM_AND_DVR90_HEIGHT
 Name        : HVC_ETRF89_KP2000_Bornholm_and_DVR90_Height
 WKT         : HVCOORDSYS["HVC_ETRF89_KP2000_Bornholm_and_DVR90_Height",
@@ -9661,6 +10090,9 @@ Area-rlon   : 15.25
 
 WKID        : 7421
 Latest-WKID : 7421
+pcsWkid     : 27572
+gcsWkid     : 4807
+vcsWkid     : 5720
 Macro       : PE_HVC_NTF_PARIS_LAMBERT_ZONE_II_AND_NGF_IGN69_HEIGHT
 Name        : HVC_NTF_Paris_Lambert_Zone_II_and_NGF_IGN69_Height
 WKT         : HVCOORDSYS["HVC_NTF_Paris_Lambert_Zone_II_and_NGF_IGN69_Height",
@@ -9734,6 +10166,9 @@ Area-rlon   : 8.23
 
 WKID        : 7422
 Latest-WKID : 7422
+pcsWkid     : 27573
+gcsWkid     : 4807
+vcsWkid     : 5720
 Macro       : PE_HVC_NTF_PARIS_LAMBERT_ZONE_III_AND_NGF_IGN69_HEIGHT
 Name        : HVC_NTF_Paris_Lambert_Zone_III_and_NGF_IGN69_Height
 WKT         : HVCOORDSYS["HVC_NTF_Paris_Lambert_Zone_III_and_NGF_IGN69_Height",
@@ -9807,6 +10242,9 @@ Area-rlon   : 7.71
 
 WKID        : 7423
 Latest-WKID : 7423
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5621
 Macro       : PE_HVC_ETRS_1989_EVRF2007_HT
 Name        : HVC_ETRS_1989_and_EVRF2007_height
 WKT         : HVCOORDSYS["HVC_ETRS_1989_and_EVRF2007_height",
@@ -9850,6 +10288,9 @@ Area-rlon   : 31.59
 
 WKID        : 7954
 Latest-WKID : 7954
+pcsWkid     : 7878
+gcsWkid     : 4710
+vcsWkid     : 7888
 Macro       : PE_HVC_DOS_71_UTM_30S_JAMESTOWN_1971_HT
 Name        : Astro_DOS_71_UTM_Zone_30S_and_Jamestown_1971_height
 WKT         : HVCOORDSYS["Astro_DOS_71_UTM_Zone_30S_and_Jamestown_1971_height",
@@ -9920,6 +10361,9 @@ Area-rlon   : -5.59
 
 WKID        : 7955
 Latest-WKID : 7955
+pcsWkid     : 7883
+gcsWkid     : 7881
+vcsWkid     : 7889
 Macro       : PE_HVC_ST_HELENA_TRITAN_UTM_30S_TRITAN_2011_HT
 Name        : St_Helena_Tritan_UTM_Zone_30S_and_Tritan_2011_height
 WKT         : HVCOORDSYS["St_Helena_Tritan_UTM_Zone_30S_and_Tritan_2011_height",
@@ -9990,6 +10434,9 @@ Area-rlon   : -5.59
 
 WKID        : 7956
 Latest-WKID : 7956
+pcsWkid     : 7887
+gcsWkid     : 7886
+vcsWkid     : 7890
 Macro       : PE_HVC_SHMG2015_SHVD2015_HT
 Name        : SHMG2015_and_SHVD2015_height
 WKT         : HVCOORDSYS["SHMG2015_and_SHVD2015_height",
@@ -10060,6 +10507,9 @@ Area-rlon   : -5.59
 
 WKID        : 8349
 Latest-WKID : 8349
+pcsWkid     : 0
+gcsWkid     : 4747
+vcsWkid     : 8266
 Macro       : PE_HVC_GR96_GVR2000_HT
 Name        : GR96_and_GVR2000_height
 WKT         : HVCOORDSYS["GR96_and_GVR2000_height",
@@ -10103,6 +10553,9 @@ Area-rlon   : -10.0
 
 WKID        : 8350
 Latest-WKID : 8350
+pcsWkid     : 0
+gcsWkid     : 4747
+vcsWkid     : 8267
 Macro       : PE_HVC_GR96_GVR2016_HT
 Name        : GR96_and_GVR2016_height
 WKT         : HVCOORDSYS["GR96_and_GVR2016_height",
@@ -10146,6 +10599,9 @@ Area-rlon   : -6.99
 
 WKID        : 8360
 Latest-WKID : 8360
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 8357
 Macro       : PE_HVC_ETRS_1989_BALTIC_1957_HT
 Name        : ETRS_1989_and_Baltic_1957_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Baltic_1957_height",
@@ -10189,6 +10645,9 @@ Area-rlon   : 22.56
 
 WKID        : 8370
 Latest-WKID : 8370
+pcsWkid     : 3812
+gcsWkid     : 4258
+vcsWkid     : 5710
 Macro       : PE_HVC_ETRS_1989_BELGE_LAMBERT_2008_OSTEND_HT
 Name        : ETRS_1989_Belgian_Lambert_2008_and_Ostend_height
 WKT         : HVCOORDSYS["ETRS_1989_Belgian_Lambert_2008_and_Ostend_height",
@@ -10262,6 +10721,9 @@ Area-rlon   : 6.4
 
 WKID        : 8700
 Latest-WKID : 8700
+pcsWkid     : 2222
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_AZ_E_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_Arizona_East_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_Arizona_East_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -10332,6 +10794,9 @@ Area-rlon   : -109.04
 
 WKID        : 8701
 Latest-WKID : 8701
+pcsWkid     : 2223
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_AZ_C_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_Arizona_Central_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_Arizona_Central_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -10402,6 +10867,9 @@ Area-rlon   : -110.44
 
 WKID        : 8702
 Latest-WKID : 8702
+pcsWkid     : 2224
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_AZ_W_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_Arizona_West_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_Arizona_West_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -10472,6 +10940,9 @@ Area-rlon   : -112.52
 
 WKID        : 8703
 Latest-WKID : 8703
+pcsWkid     : 2251
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_MI_N_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_Michigan_North_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_Michigan_North_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -10545,6 +11016,9 @@ Area-rlon   : -83.44
 
 WKID        : 8704
 Latest-WKID : 8704
+pcsWkid     : 2252
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_MI_C_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_Michigan_Central_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_Michigan_Central_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -10618,6 +11092,9 @@ Area-rlon   : -82.27
 
 WKID        : 8705
 Latest-WKID : 8705
+pcsWkid     : 2253
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_MI_S_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_Michigan_South_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_Michigan_South_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -10691,6 +11168,9 @@ Area-rlon   : -82.13
 
 WKID        : 8706
 Latest-WKID : 8706
+pcsWkid     : 2256
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_MT_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_Montana_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_Montana_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -10764,6 +11244,9 @@ Area-rlon   : -104.04
 
 WKID        : 8707
 Latest-WKID : 8707
+pcsWkid     : 2265
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_ND_N_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_North_Dakota_North_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_North_Dakota_North_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -10837,6 +11320,9 @@ Area-rlon   : -96.83
 
 WKID        : 8708
 Latest-WKID : 8708
+pcsWkid     : 2266
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_ND_S_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_North_Dakota_South_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_North_Dakota_South_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -10910,6 +11396,9 @@ Area-rlon   : -96.55
 
 WKID        : 8709
 Latest-WKID : 8709
+pcsWkid     : 2269
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_OR_N_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_Oregon_North_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_Oregon_North_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -10983,6 +11472,9 @@ Area-rlon   : -116.47
 
 WKID        : 8710
 Latest-WKID : 8710
+pcsWkid     : 2270
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_OR_S_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_Oregon_South_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_Oregon_South_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -11056,6 +11548,9 @@ Area-rlon   : -116.9
 
 WKID        : 8711
 Latest-WKID : 8711
+pcsWkid     : 2273
+gcsWkid     : 4269
+vcsWkid     : 8228
 Macro       : PE_HVC_NAD_1983_SPCS_SC_IFT_NAVD88_HT_IFT
 Name        : NAD_1983_South_Carolina_Ft_Intl_and_NAVD88_height_Ft_Intl
 WKT         : HVCOORDSYS["NAD_1983_South_Carolina_Ft_Intl_and_NAVD88_height_Ft_Intl",
@@ -11129,6 +11624,9 @@ Area-rlon   : -78.52
 
 WKID        : 8712
 Latest-WKID : 8712
+pcsWkid     : 3433
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_AR_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Arkansas_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Arkansas_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -11202,6 +11700,9 @@ Area-rlon   : -89.64
 
 WKID        : 8713
 Latest-WKID : 8713
+pcsWkid     : 3434
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_AR_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Arkansas_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Arkansas_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -11275,6 +11776,9 @@ Area-rlon   : -90.4
 
 WKID        : 8714
 Latest-WKID : 8714
+pcsWkid     : 2225
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_CA_I_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_California_I_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_California_I_Ft_US_and_NAVD88_height_Ft_US",
@@ -11348,6 +11852,9 @@ Area-rlon   : -119.99
 
 WKID        : 8715
 Latest-WKID : 8715
+pcsWkid     : 2226
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_CA_II_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_California_II_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_California_II_Ft_US_and_NAVD88_height_Ft_US",
@@ -11421,6 +11928,9 @@ Area-rlon   : -119.54
 
 WKID        : 8716
 Latest-WKID : 8716
+pcsWkid     : 2227
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_CA_III_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_California_III_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_California_III_Ft_US_and_NAVD88_height_Ft_US",
@@ -11494,6 +12004,9 @@ Area-rlon   : -117.83
 
 WKID        : 8717
 Latest-WKID : 8717
+pcsWkid     : 2228
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_CA_IV_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_California_IV_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_California_IV_Ft_US_and_NAVD88_height_Ft_US",
@@ -11567,6 +12080,9 @@ Area-rlon   : -115.62
 
 WKID        : 8718
 Latest-WKID : 8718
+pcsWkid     : 2229
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_CA_V_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_California_V_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_California_V_Ft_US_and_NAVD88_height_Ft_US",
@@ -11640,6 +12156,9 @@ Area-rlon   : -114.12
 
 WKID        : 8719
 Latest-WKID : 8719
+pcsWkid     : 2230
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_CA_VI_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_California_VI_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_California_VI_Ft_US_and_NAVD88_height_Ft_US",
@@ -11713,6 +12232,9 @@ Area-rlon   : -114.42
 
 WKID        : 8720
 Latest-WKID : 8720
+pcsWkid     : 2231
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_CO_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Colorado_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Colorado_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -11786,6 +12308,9 @@ Area-rlon   : -102.04
 
 WKID        : 8721
 Latest-WKID : 8721
+pcsWkid     : 2232
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_CO_C_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Colorado_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Colorado_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -11859,6 +12384,9 @@ Area-rlon   : -102.04
 
 WKID        : 8722
 Latest-WKID : 8722
+pcsWkid     : 2233
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_CO_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Colorado_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Colorado_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -11932,6 +12460,9 @@ Area-rlon   : -102.04
 
 WKID        : 8723
 Latest-WKID : 8723
+pcsWkid     : 2234
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_CT_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Connecticut_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Connecticut_Ft_US_and_NAVD88_height_Ft_US",
@@ -12005,6 +12536,9 @@ Area-rlon   : -71.78
 
 WKID        : 8724
 Latest-WKID : 8724
+pcsWkid     : 2235
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_DE_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Delaware_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Delaware_Ft_US_and_NAVD88_height_Ft_US",
@@ -12075,6 +12609,9 @@ Area-rlon   : -74.97
 
 WKID        : 8725
 Latest-WKID : 8725
+pcsWkid     : 2238
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_FL_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Florida_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Florida_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -12148,6 +12685,9 @@ Area-rlon   : -82.04
 
 WKID        : 8726
 Latest-WKID : 8726
+pcsWkid     : 2236
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_FL_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Florida_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Florida_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -12218,6 +12758,9 @@ Area-rlon   : -79.97
 
 WKID        : 8727
 Latest-WKID : 8727
+pcsWkid     : 2237
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_FL_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Florida_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Florida_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -12288,6 +12831,9 @@ Area-rlon   : -81.13
 
 WKID        : 8728
 Latest-WKID : 8728
+pcsWkid     : 2239
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_GA_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Georgia_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Georgia_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -12358,6 +12904,9 @@ Area-rlon   : -80.77
 
 WKID        : 8729
 Latest-WKID : 8729
+pcsWkid     : 2240
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_GA_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Georgia_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Georgia_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -12428,6 +12977,9 @@ Area-rlon   : -82.99
 
 WKID        : 8730
 Latest-WKID : 8730
+pcsWkid     : 2241
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_ID_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Idaho_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Idaho_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -12498,6 +13050,9 @@ Area-rlon   : -111.04
 
 WKID        : 8731
 Latest-WKID : 8731
+pcsWkid     : 2242
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_ID_C_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Idaho_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Idaho_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -12568,6 +13123,9 @@ Area-rlon   : -112.67
 
 WKID        : 8732
 Latest-WKID : 8732
+pcsWkid     : 2243
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_ID_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Idaho_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Idaho_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -12638,6 +13196,9 @@ Area-rlon   : -114.32
 
 WKID        : 8733
 Latest-WKID : 8733
+pcsWkid     : 3435
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_IL_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Illinois_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Illinois_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -12708,6 +13269,9 @@ Area-rlon   : -87.02
 
 WKID        : 8734
 Latest-WKID : 8734
+pcsWkid     : 3436
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_IL_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Illinois_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Illinois_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -12778,6 +13342,9 @@ Area-rlon   : -88.92
 
 WKID        : 8735
 Latest-WKID : 8735
+pcsWkid     : 2965
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_IN_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Indiana_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Indiana_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -12848,6 +13415,9 @@ Area-rlon   : -84.78
 
 WKID        : 8736
 Latest-WKID : 8736
+pcsWkid     : 2966
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_IN_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Indiana_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Indiana_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -12918,6 +13488,9 @@ Area-rlon   : -86.24
 
 WKID        : 8737
 Latest-WKID : 8737
+pcsWkid     : 3417
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_IA_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Iowa_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Iowa_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -12991,6 +13564,9 @@ Area-rlon   : -90.15
 
 WKID        : 8738
 Latest-WKID : 8738
+pcsWkid     : 3418
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_IA_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Iowa_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Iowa_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -13064,6 +13640,9 @@ Area-rlon   : -90.14
 
 WKID        : 8739
 Latest-WKID : 8739
+pcsWkid     : 3419
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_KS_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Kansas_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Kansas_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -13137,6 +13716,9 @@ Area-rlon   : -94.58
 
 WKID        : 8740
 Latest-WKID : 8740
+pcsWkid     : 3420
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_KS_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Kansas_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Kansas_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -13210,6 +13792,9 @@ Area-rlon   : -94.6
 
 WKID        : 8741
 Latest-WKID : 8741
+pcsWkid     : 2246
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_KY_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Kentucky_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Kentucky_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -13283,6 +13868,9 @@ Area-rlon   : -82.47
 
 WKID        : 8742
 Latest-WKID : 8742
+pcsWkid     : 2247
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_KY_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Kentucky_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Kentucky_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -13356,6 +13944,9 @@ Area-rlon   : -81.95
 
 WKID        : 8743
 Latest-WKID : 8743
+pcsWkid     : 3451
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_LA_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Lousiana_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Lousiana_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -13429,6 +14020,9 @@ Area-rlon   : -90.86
 
 WKID        : 8744
 Latest-WKID : 8744
+pcsWkid     : 3452
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_LA_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Lousiana_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Lousiana_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -13502,6 +14096,9 @@ Area-rlon   : -88.75
 
 WKID        : 8745
 Latest-WKID : 8745
+pcsWkid     : 26847
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_ME_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Maine_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Maine_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -13572,6 +14169,9 @@ Area-rlon   : -66.91
 
 WKID        : 8746
 Latest-WKID : 8746
+pcsWkid     : 26848
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_ME_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Maine_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Maine_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -13642,6 +14242,9 @@ Area-rlon   : -69.26
 
 WKID        : 8747
 Latest-WKID : 8747
+pcsWkid     : 2248
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_MD_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Maryland_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Maryland_Ft_US_and_NAVD88_height_Ft_US",
@@ -13715,6 +14318,9 @@ Area-rlon   : -74.97
 
 WKID        : 8748
 Latest-WKID : 8748
+pcsWkid     : 2249
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_MA_M_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Massachusetts_Mainland_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Massachusetts_Mainland_Ft_US_and_NAVD88_height_Ft_US",
@@ -13788,6 +14394,9 @@ Area-rlon   : -69.86
 
 WKID        : 8749
 Latest-WKID : 8749
+pcsWkid     : 2250
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_MA_I_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Massachusetts_Island_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Massachusetts_Island_Ft_US_and_NAVD88_height_Ft_US",
@@ -13861,6 +14470,9 @@ Area-rlon   : -69.89
 
 WKID        : 8750
 Latest-WKID : 8750
+pcsWkid     : 26849
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_MN_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Minnesota_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Minnesota_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -13934,6 +14546,9 @@ Area-rlon   : -89.49
 
 WKID        : 8751
 Latest-WKID : 8751
+pcsWkid     : 26850
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_MN_C_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Minnesota_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Minnesota_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -14007,6 +14622,9 @@ Area-rlon   : -92.29
 
 WKID        : 8752
 Latest-WKID : 8752
+pcsWkid     : 26851
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_MN_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Minnesota_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Minnesota_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -14080,6 +14698,9 @@ Area-rlon   : -91.21
 
 WKID        : 8753
 Latest-WKID : 8753
+pcsWkid     : 2254
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_MS_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Mississippi_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Mississippi_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -14150,6 +14771,9 @@ Area-rlon   : -88.09
 
 WKID        : 8754
 Latest-WKID : 8754
+pcsWkid     : 2255
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_MS_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Mississippi_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Mississippi_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -14220,6 +14844,9 @@ Area-rlon   : -89.37
 
 WKID        : 8755
 Latest-WKID : 8755
+pcsWkid     : 26852
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NE_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Nebraska_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Nebraska_Ft_US_and_NAVD88_height_Ft_US",
@@ -14293,6 +14920,9 @@ Area-rlon   : -95.3
 
 WKID        : 8756
 Latest-WKID : 8756
+pcsWkid     : 3421
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NV_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Nevada_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Nevada_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -14363,6 +14993,9 @@ Area-rlon   : -114.03
 
 WKID        : 8757
 Latest-WKID : 8757
+pcsWkid     : 3422
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NV_C_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Nevada_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Nevada_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -14433,6 +15066,9 @@ Area-rlon   : -114.99
 
 WKID        : 8758
 Latest-WKID : 8758
+pcsWkid     : 3423
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NV_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Nevada_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Nevada_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -14503,6 +15139,9 @@ Area-rlon   : -116.99
 
 WKID        : 8759
 Latest-WKID : 8759
+pcsWkid     : 3437
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NH_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_New_Hampshire_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_New_Hampshire_Ft_US_and_NAVD88_height_Ft_US",
@@ -14573,6 +15212,9 @@ Area-rlon   : -70.63
 
 WKID        : 8760
 Latest-WKID : 8760
+pcsWkid     : 3424
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NJ_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_New_Jersey_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_New_Jersey_Ft_US_and_NAVD88_height_Ft_US",
@@ -14643,6 +15285,9 @@ Area-rlon   : -73.88
 
 WKID        : 8761
 Latest-WKID : 8761
+pcsWkid     : 2257
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NM_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_New_Mexico_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_New_Mexico_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -14713,6 +15358,9 @@ Area-rlon   : -102.99
 
 WKID        : 8762
 Latest-WKID : 8762
+pcsWkid     : 2258
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NM_C_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_New_Mexico_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_New_Mexico_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -14783,6 +15431,9 @@ Area-rlon   : -104.84
 
 WKID        : 8763
 Latest-WKID : 8763
+pcsWkid     : 2259
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NM_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_New_Mexico_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_New_Mexico_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -14853,6 +15504,9 @@ Area-rlon   : -106.32
 
 WKID        : 8764
 Latest-WKID : 8764
+pcsWkid     : 2260
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NY_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_New_York_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_New_York_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -14923,6 +15577,9 @@ Area-rlon   : -73.23
 
 WKID        : 8765
 Latest-WKID : 8765
+pcsWkid     : 2261
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NY_C_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_New_York_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_New_York_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -14993,6 +15650,9 @@ Area-rlon   : -75.06
 
 WKID        : 8766
 Latest-WKID : 8766
+pcsWkid     : 2262
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NY_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_New_York_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_New_York_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -15063,6 +15723,9 @@ Area-rlon   : -77.36
 
 WKID        : 8767
 Latest-WKID : 8767
+pcsWkid     : 2263
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NY_LI_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_New_York_Long_Island_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_New_York_Long_Island_Ft_US_and_NAVD88_height_Ft_US",
@@ -15136,6 +15799,9 @@ Area-rlon   : -71.8
 
 WKID        : 8768
 Latest-WKID : 8768
+pcsWkid     : 2264
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_NC_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_North_Carolina_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_North_Carolina_Ft_US_and_NAVD88_height_Ft_US",
@@ -15209,6 +15875,9 @@ Area-rlon   : -75.38
 
 WKID        : 8769
 Latest-WKID : 8769
+pcsWkid     : 3734
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_OH_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Ohio_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Ohio_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -15282,6 +15951,9 @@ Area-rlon   : -80.51
 
 WKID        : 8770
 Latest-WKID : 8770
+pcsWkid     : 3735
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_OH_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Ohio_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Ohio_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -15355,6 +16027,9 @@ Area-rlon   : -80.7
 
 WKID        : 8771
 Latest-WKID : 8771
+pcsWkid     : 2267
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_OK_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Oklahoma_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Oklahoma_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -15428,6 +16103,9 @@ Area-rlon   : -94.42
 
 WKID        : 8772
 Latest-WKID : 8772
+pcsWkid     : 2268
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_OK_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Oklahoma_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Oklahoma_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -15501,6 +16179,9 @@ Area-rlon   : -94.42
 
 WKID        : 8773
 Latest-WKID : 8773
+pcsWkid     : 2271
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_PA_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Pennsylvania_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Pennsylvania_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -15574,6 +16255,9 @@ Area-rlon   : -74.7
 
 WKID        : 8774
 Latest-WKID : 8774
+pcsWkid     : 2272
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_PA_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Pennsylvania_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Pennsylvania_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -15647,6 +16331,9 @@ Area-rlon   : -74.72
 
 WKID        : 8775
 Latest-WKID : 8775
+pcsWkid     : 3438
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_RI_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Rhode_Island_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Rhode_Island_Ft_US_and_NAVD88_height_Ft_US",
@@ -15717,6 +16404,9 @@ Area-rlon   : -71.08
 
 WKID        : 8776
 Latest-WKID : 8776
+pcsWkid     : 4457
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_SD_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_South_Dakota_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_South_Dakota_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -15790,6 +16480,9 @@ Area-rlon   : -96.45
 
 WKID        : 8777
 Latest-WKID : 8777
+pcsWkid     : 3455
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_SD_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_South_Dakota_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_South_Dakota_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -15863,6 +16556,9 @@ Area-rlon   : -96.43
 
 WKID        : 8778
 Latest-WKID : 8778
+pcsWkid     : 2274
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_TN_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Tennessee_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Tennessee_Ft_US_and_NAVD88_height_Ft_US",
@@ -15936,6 +16632,9 @@ Area-rlon   : -81.65
 
 WKID        : 8779
 Latest-WKID : 8779
+pcsWkid     : 2275
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_TX_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Texas_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Texas_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -16009,6 +16708,9 @@ Area-rlon   : -99.99
 
 WKID        : 8780
 Latest-WKID : 8780
+pcsWkid     : 2276
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_TX_NC_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Texas_North_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Texas_North_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -16082,6 +16784,9 @@ Area-rlon   : -94.0
 
 WKID        : 8781
 Latest-WKID : 8781
+pcsWkid     : 2277
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_TX_C_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Texas_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Texas_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -16155,6 +16860,9 @@ Area-rlon   : -93.5
 
 WKID        : 8782
 Latest-WKID : 8782
+pcsWkid     : 2278
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_TX_SC_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Texas_South_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Texas_South_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -16228,6 +16936,9 @@ Area-rlon   : -93.76
 
 WKID        : 8783
 Latest-WKID : 8783
+pcsWkid     : 2279
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_TX_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Texas_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Texas_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -16301,6 +17012,9 @@ Area-rlon   : -96.85
 
 WKID        : 8784
 Latest-WKID : 8784
+pcsWkid     : 3560
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_UT_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Utah_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Utah_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -16374,6 +17088,9 @@ Area-rlon   : -109.04
 
 WKID        : 8785
 Latest-WKID : 8785
+pcsWkid     : 3566
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_UT_C_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Utah_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Utah_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -16447,6 +17164,9 @@ Area-rlon   : -109.04
 
 WKID        : 8786
 Latest-WKID : 8786
+pcsWkid     : 3567
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_UT_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Utah_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Utah_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -16520,6 +17240,9 @@ Area-rlon   : -109.04
 
 WKID        : 8787
 Latest-WKID : 8787
+pcsWkid     : 5646
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_VT_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Vermont_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Vermont_Ft_US_and_NAVD88_height_Ft_US",
@@ -16590,6 +17313,9 @@ Area-rlon   : -71.5
 
 WKID        : 8788
 Latest-WKID : 8788
+pcsWkid     : 2283
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_VA_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Virginia_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Virginia_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -16663,6 +17389,9 @@ Area-rlon   : -76.51
 
 WKID        : 8789
 Latest-WKID : 8789
+pcsWkid     : 2284
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_VA_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Virginia_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Virginia_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -16736,6 +17465,9 @@ Area-rlon   : -75.31
 
 WKID        : 8790
 Latest-WKID : 8790
+pcsWkid     : 2285
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WA_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Washington_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Washington_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -16809,6 +17541,9 @@ Area-rlon   : -117.02
 
 WKID        : 8791
 Latest-WKID : 8791
+pcsWkid     : 2286
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WA_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Washington_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Washington_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -16882,6 +17617,9 @@ Area-rlon   : -116.91
 
 WKID        : 8792
 Latest-WKID : 8792
+pcsWkid     : 26853
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WV_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_West_Virginia_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_West_Virginia_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -16955,6 +17693,9 @@ Area-rlon   : -77.72
 
 WKID        : 8793
 Latest-WKID : 8793
+pcsWkid     : 26854
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WV_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_West_Virginia_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_West_Virginia_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -17028,6 +17769,9 @@ Area-rlon   : -79.05
 
 WKID        : 8794
 Latest-WKID : 8794
+pcsWkid     : 2287
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WI_N_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Wisconsin_North_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Wisconsin_North_Ft_US_and_NAVD88_height_Ft_US",
@@ -17101,6 +17845,9 @@ Area-rlon   : -88.05
 
 WKID        : 8795
 Latest-WKID : 8795
+pcsWkid     : 2288
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WI_C_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Wisconsin_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Wisconsin_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -17174,6 +17921,9 @@ Area-rlon   : -86.25
 
 WKID        : 8796
 Latest-WKID : 8796
+pcsWkid     : 2289
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WI_S_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Wisconsin_South_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Wisconsin_South_Ft_US_and_NAVD88_height_Ft_US",
@@ -17247,6 +17997,9 @@ Area-rlon   : -86.95
 
 WKID        : 8797
 Latest-WKID : 8797
+pcsWkid     : 3736
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WY_E_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Wyoming_East_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Wyoming_East_Ft_US_and_NAVD88_height_Ft_US",
@@ -17317,6 +18070,9 @@ Area-rlon   : -104.05
 
 WKID        : 8798
 Latest-WKID : 8798
+pcsWkid     : 3737
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WY_EC_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Wyoming_East_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Wyoming_East_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -17387,6 +18143,9 @@ Area-rlon   : -106.0
 
 WKID        : 8799
 Latest-WKID : 8799
+pcsWkid     : 3738
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WY_WC_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Wyoming_West_Central_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Wyoming_West_Central_Ft_US_and_NAVD88_height_Ft_US",
@@ -17457,6 +18216,9 @@ Area-rlon   : -107.5
 
 WKID        : 8800
 Latest-WKID : 8800
+pcsWkid     : 3739
+gcsWkid     : 4269
+vcsWkid     : 6360
 Macro       : PE_HVC_NAD_1983_SPCS_WY_W_USFT_NAVD88_HT_USFT
 Name        : NAD_1983_Wyoming_West_Ft_US_and_NAVD88_height_Ft_US
 WKT         : HVCOORDSYS["NAD_1983_Wyoming_West_Ft_US_and_NAVD88_height_Ft_US",
@@ -17527,6 +18289,9 @@ Area-rlon   : -109.04
 
 WKID        : 8801
 Latest-WKID : 8801
+pcsWkid     : 26929
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AL_E_NAVD88_HT
 Name        : NAD_1983_Alabama_East_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alabama_East_and_NAVD88_height",
@@ -17597,6 +18362,9 @@ Area-rlon   : -84.89
 
 WKID        : 8802
 Latest-WKID : 8802
+pcsWkid     : 26930
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AL_W_NAVD88_HT
 Name        : NAD_1983_Alabama_West_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alabama_West_and_NAVD88_height",
@@ -17667,6 +18435,9 @@ Area-rlon   : -86.3
 
 WKID        : 8803
 Latest-WKID : 8803
+pcsWkid     : 26931
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AK_1_NAVD88_HT
 Name        : NAD_1983_Alaska_1_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alaska_1_and_NAVD88_height",
@@ -17740,6 +18511,9 @@ Area-rlon   : -129.99
 
 WKID        : 8804
 Latest-WKID : 8804
+pcsWkid     : 26932
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AK_2_NAVD88_HT
 Name        : NAD_1983_Alaska_2_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alaska_2_and_NAVD88_height",
@@ -17810,6 +18584,9 @@ Area-rlon   : -140.98
 
 WKID        : 8805
 Latest-WKID : 8805
+pcsWkid     : 26933
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AK_3_NAVD88_HT
 Name        : NAD_1983_Alaska_3_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alaska_3_and_NAVD88_height",
@@ -17880,6 +18657,9 @@ Area-rlon   : -144.0
 
 WKID        : 8806
 Latest-WKID : 8806
+pcsWkid     : 26934
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AK_4_NAVD88_HT
 Name        : NAD_1983_Alaska_4_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alaska_4_and_NAVD88_height",
@@ -17950,6 +18730,9 @@ Area-rlon   : -147.99
 
 WKID        : 8807
 Latest-WKID : 8807
+pcsWkid     : 26935
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AK_5_NAVD88_HT
 Name        : NAD_1983_Alaska_5_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alaska_5_and_NAVD88_height",
@@ -18020,6 +18803,9 @@ Area-rlon   : -151.86
 
 WKID        : 8808
 Latest-WKID : 8808
+pcsWkid     : 26936
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AK_6_NAVD88_HT
 Name        : NAD_1983_Alaska_6_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alaska_6_and_NAVD88_height",
@@ -18090,6 +18876,9 @@ Area-rlon   : -155.99
 
 WKID        : 8809
 Latest-WKID : 8809
+pcsWkid     : 26937
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AK_7_NAVD88_HT
 Name        : NAD_1983_Alaska_7_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alaska_7_and_NAVD88_height",
@@ -18160,6 +18949,9 @@ Area-rlon   : -160.0
 
 WKID        : 8810
 Latest-WKID : 8810
+pcsWkid     : 26938
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AK_8_NAVD88_HT
 Name        : NAD_1983_Alaska_8_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alaska_8_and_NAVD88_height",
@@ -18230,6 +19022,9 @@ Area-rlon   : -164.0
 
 WKID        : 8811
 Latest-WKID : 8811
+pcsWkid     : 26939
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AK_9_NAVD88_HT
 Name        : NAD_1983_Alaska_9_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alaska_9_and_NAVD88_height",
@@ -18300,6 +19095,9 @@ Area-rlon   : -168.0
 
 WKID        : 8812
 Latest-WKID : 8812
+pcsWkid     : 26940
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_AK_10_NAVD88_HT
 Name        : NAD_1983_Alaska_10_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Alaska_10_and_NAVD88_height",
@@ -18373,6 +19171,9 @@ Area-rlon   : -164.84
 
 WKID        : 8813
 Latest-WKID : 8813
+pcsWkid     : 26996
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_MO_E_NAVD88_HT
 Name        : NAD_1983_Missouri_East_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Missouri_East_and_NAVD88_height",
@@ -18443,6 +19244,9 @@ Area-rlon   : -89.1
 
 WKID        : 8814
 Latest-WKID : 8814
+pcsWkid     : 26997
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_MO_C_NAVD88_HT
 Name        : NAD_1983_Missouri_Central_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Missouri_Central_and_NAVD88_height",
@@ -18513,6 +19317,9 @@ Area-rlon   : -91.41
 
 WKID        : 8815
 Latest-WKID : 8815
+pcsWkid     : 26998
+gcsWkid     : 4269
+vcsWkid     : 5703
 Macro       : PE_HVC_NAD_1983_SPCS_MO_W_NAVD88_HT
 Name        : NAD_1983_Missouri_West_and_NAVD88_height
 WKT         : HVCOORDSYS["NAD_1983_Missouri_West_and_NAVD88_height",
@@ -18583,6 +19390,9 @@ Area-rlon   : -93.48
 
 WKID        : 8912
 Latest-WKID : 8912
+pcsWkid     : 8908
+gcsWkid     : 8907
+vcsWkid     : 8911
 Macro       : PE_HVC_CR_SIRGAS_CRTM05_DACR52_HT
 Name        : CR-SIRGAS_CRTM05_and_DACR52_height
 WKT         : HVCOORDSYS["CR-SIRGAS_CRTM05_and_DACR52_height",
@@ -18653,6 +19463,9 @@ Area-rlon   : -82.53
 
 WKID        : 9286
 Latest-WKID : 9286
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5709
 Macro       : PE_HVC_ETRS89_NAP_HEIGHT
 Name        : ETRS_1989_and_NAP_height
 WKT         : HVCOORDSYS["ETRS_1989_and_NAP_height",
@@ -18696,6 +19509,9 @@ Area-rlon   : 7.22
 
 WKID        : 9289
 Latest-WKID : 9289
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9287
 Macro       : PE_HVC_ETRS89_LAT_NL_DEPTH
 Name        : ETRS_1989_and_LAT_NL_depth
 WKT         : HVCOORDSYS["ETRS_1989_and_LAT_NL_depth",
@@ -18739,6 +19555,9 @@ Area-rlon   : 6.37
 
 WKID        : 9290
 Latest-WKID : 9290
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9288
 Macro       : PE_HVC_ETRS89_MSL_NL_DEPTH
 Name        : ETRS_1989_and_MSL_NL_depth
 WKT         : HVCOORDSYS["ETRS_1989_and_MSL_NL_depth",
@@ -18782,6 +19601,9 @@ Area-rlon   : 6.37
 
 WKID        : 9306
 Latest-WKID : 9306
+pcsWkid     : 9300
+gcsWkid     : 9299
+vcsWkid     : 9303
 Macro       : PE_HVC_HS2_SURVEY_GRID_HS2_VRF_HEIGHT
 Name        : HS2_Survey_Grid_and_HS2-VRF_height
 WKT         : HVCOORDSYS["HS2_Survey_Grid_and_HS2-VRF_height",
@@ -18852,6 +19674,9 @@ Area-rlon   : 0.0
 
 WKID        : 9368
 Latest-WKID : 9368
+pcsWkid     : 9367
+gcsWkid     : 9364
+vcsWkid     : 5701
 Macro       : PE_HVC_TPEN11_ODN_HT
 Name        : TPEN11_Grid_and_ODN_height
 WKT         : HVCOORDSYS["TPEN11_Grid_and_ODN_height",
@@ -18922,6 +19747,9 @@ Area-rlon   : -1.34
 
 WKID        : 9374
 Latest-WKID : 9374
+pcsWkid     : 9373
+gcsWkid     : 9372
+vcsWkid     : 5701
 Macro       : PE_HVC_MML07_GRID_ODN_HEIGHT
 Name        : MML07_Grid_and_ODN_height
 WKT         : HVCOORDSYS["MML07_Grid_and_ODN_height",
@@ -18992,6 +19820,9 @@ Area-rlon   : 0.16
 
 WKID        : 9388
 Latest-WKID : 9388
+pcsWkid     : 9387
+gcsWkid     : 9384
+vcsWkid     : 5701
 Macro       : PE_HVC_ABINVA96_2020_GRID_ODN_HEIGHT
 Name        : AbInvA96_2020_Grid_and_ODN_height
 WKT         : HVCOORDSYS["AbInvA96_2020_Grid_and_ODN_height",
@@ -19062,6 +19893,9 @@ Area-rlon   : -2.1
 
 WKID        : 9422
 Latest-WKID : 9422
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9389
 Macro       : PE_HVC_ETRS89_EVRF2019_HEIGHT
 Name        : ETRS_1989_and_EVRF2019_height
 WKT         : HVCOORDSYS["ETRS_1989_and_EVRF2019_height",
@@ -19105,6 +19939,9 @@ Area-rlon   : 31.59
 
 WKID        : 9423
 Latest-WKID : 9423
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9390
 Macro       : PE_HVC_ETRS89_EVRF2019_MEAN_TIDE_HEIGHT
 Name        : ETRS_1989_and_EVRF2019_mean-tide_height
 WKT         : HVCOORDSYS["ETRS_1989_and_EVRF2019_mean-tide_height",
@@ -19148,6 +19985,9 @@ Area-rlon   : 31.59
 
 WKID        : 9424
 Latest-WKID : 9424
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5701
 Macro       : PE_HVC_ETRS89_ODN_HEIGHT
 Name        : ETRS_1989_and_ODN_height
 WKT         : HVCOORDSYS["ETRS_1989_and_ODN_height",
@@ -19191,6 +20031,9 @@ Area-rlon   : 1.8
 
 WKID        : 9425
 Latest-WKID : 9425
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 7707
 Macro       : PE_HVC_ETRS89_ODN_OFFSHORE_HEIGHT
 Name        : ETRS_1989_and_ODN_(Offshore)_height
 WKT         : HVCOORDSYS["ETRS_1989_and_ODN_(Offshore)_height",
@@ -19234,6 +20077,9 @@ Area-rlon   : 2.01
 
 WKID        : 9426
 Latest-WKID : 9426
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5740
 Macro       : PE_HVC_ETRS89_ODN_ORKNEY_HEIGHT
 Name        : ETRS_1989_and_ODN_Orkney_height
 WKT         : HVCOORDSYS["ETRS_1989_and_ODN_Orkney_height",
@@ -19277,6 +20123,9 @@ Area-rlon   : -2.34
 
 WKID        : 9427
 Latest-WKID : 9427
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5742
 Macro       : PE_HVC_ETRS89_LERWICK_HEIGHT
 Name        : ETRS_1989_and_Lerwick_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Lerwick_height",
@@ -19320,6 +20169,9 @@ Area-rlon   : -0.67
 
 WKID        : 9428
 Latest-WKID : 9428
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5746
 Macro       : PE_HVC_ETRS89_STORNOWAY_HEIGHT
 Name        : ETRS_1989_and_Stornoway_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Stornoway_height",
@@ -19363,6 +20215,9 @@ Area-rlon   : -6.1
 
 WKID        : 9429
 Latest-WKID : 9429
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5750
 Macro       : PE_HVC_ETRS89_DOUGLAS_HEIGHT
 Name        : ETRS_1989_and_Douglas_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Douglas_height",
@@ -19406,6 +20261,9 @@ Area-rlon   : -4.27
 
 WKID        : 9430
 Latest-WKID : 9430
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5749
 Macro       : PE_HVC_ETRS89_ST_MARYS_HEIGHT
 Name        : ETRS_1989_and_St_Marys_height
 WKT         : HVCOORDSYS["ETRS_1989_and_St_Marys_height",
@@ -19449,6 +20307,9 @@ Area-rlon   : -6.23
 
 WKID        : 9449
 Latest-WKID : 9449
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5731
 Macro       : PE_HVC_ETRS89_MALIN_HEAD_HEIGHT
 Name        : ETRS_1989_and_Malin_Head_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Malin_Head_height",
@@ -19492,6 +20353,9 @@ Area-rlon   : -5.34
 
 WKID        : 9450
 Latest-WKID : 9450
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5732
 Macro       : PE_HVC_ETRS89_BELFAST_HEIGHT
 Name        : ETRS_1989_and_Belfast_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Belfast_height",
@@ -19535,6 +20399,9 @@ Area-rlon   : -5.34
 
 WKID        : 9452
 Latest-WKID : 9452
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9451
 Macro       : PE_HVC_ETRS89_BI_HEIGHT
 Name        : ETRS_1989_and_BI_height
 WKT         : HVCOORDSYS["ETRS_1989_and_BI_height",
@@ -19578,6 +20445,9 @@ Area-rlon   : 2.01
 
 WKID        : 9457
 Latest-WKID : 9457
+pcsWkid     : 9456
+gcsWkid     : 9453
+vcsWkid     : 5701
 Macro       : PE_HVC_GBK19_GRID_ODN_HEIGHT
 Name        : GBK19_Grid_and_ODN_height
 WKT         : HVCOORDSYS["GBK19_Grid_and_ODN_height",
@@ -19648,6 +20518,9 @@ Area-rlon   : -4.05
 
 WKID        : 9462
 Latest-WKID : 9462
+pcsWkid     : 0
+gcsWkid     : 7844
+vcsWkid     : 9458
 Macro       : PE_HVC_GDA2020_AVWS_HEIGHT
 Name        : GDA2020_and_AVWS_height
 WKT         : HVCOORDSYS["GDA2020_and_AVWS_height",
@@ -19693,6 +20566,9 @@ Area-rlon   : 173.34
 
 WKID        : 9463
 Latest-WKID : 9463
+pcsWkid     : 0
+gcsWkid     : 7844
+vcsWkid     : 5711
 Macro       : PE_HVC_GDA2020_AHD_HEIGHT
 Name        : GDA2020_and_AHD_height
 WKT         : HVCOORDSYS["GDA2020_and_AHD_height",
@@ -19738,6 +20614,9 @@ Area-rlon   : 153.69
 
 WKID        : 9464
 Latest-WKID : 9464
+pcsWkid     : 0
+gcsWkid     : 4283
+vcsWkid     : 5711
 Macro       : PE_HVC_GDA94_AHD_HEIGHT
 Name        : GDA94_and_AHD_height
 WKT         : HVCOORDSYS["GDA94_and_AHD_height",
@@ -19781,6 +20660,9 @@ Area-rlon   : 153.69
 
 WKID        : 9500
 Latest-WKID : 9500
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9274
 Macro       : PE_HVC_ETRS89_EVRF2000_AUSTRIA_HEIGHT
 Name        : ETRS_1989_and_EVRF2000_Austria_height
 WKT         : HVCOORDSYS["ETRS_1989_and_EVRF2000_Austria_height",
@@ -19824,6 +20706,9 @@ Area-rlon   : 17.17
 
 WKID        : 9501
 Latest-WKID : 9501
+pcsWkid     : 0
+gcsWkid     : 4312
+vcsWkid     : 9274
 Macro       : PE_HVC_MGI_EVRF2000_AUSTRIA_HEIGHT
 Name        : MGI_and_EVRF2000_Austria_height
 WKT         : HVCOORDSYS["MGI_and_EVRF2000_Austria_height",
@@ -19867,6 +20752,9 @@ Area-rlon   : 17.17
 
 WKID        : 9502
 Latest-WKID : 9502
+pcsWkid     : 0
+gcsWkid     : 6135
+vcsWkid     : 6132
 Macro       : PE_HVC_CIGD11_CBVD61_HEIGHT_FT
 Name        : CIGD11_and_CBVD61_height_(ft)
 WKT         : HVCOORDSYS["CIGD11_and_CBVD61_height_(ft)",
@@ -19910,6 +20798,9 @@ Area-rlon   : -79.69
 
 WKID        : 9503
 Latest-WKID : 9503
+pcsWkid     : 0
+gcsWkid     : 6135
+vcsWkid     : 6130
 Macro       : PE_HVC_CIGD11_GCVD54_HEIGHT_FT
 Name        : CIGD11_and_GCVD54_height_(ft)
 WKT         : HVCOORDSYS["CIGD11_and_GCVD54_height_(ft)",
@@ -19953,6 +20844,9 @@ Area-rlon   : -81.04
 
 WKID        : 9504
 Latest-WKID : 9504
+pcsWkid     : 0
+gcsWkid     : 6135
+vcsWkid     : 6131
 Macro       : PE_HVC_CIGD11_LCVD61_HEIGHT_FT
 Name        : CIGD11_and_LCVD61_height_(ft)
 WKT         : HVCOORDSYS["CIGD11_and_LCVD61_height_(ft)",
@@ -19996,6 +20890,9 @@ Area-rlon   : -79.93
 
 WKID        : 9505
 Latest-WKID : 9505
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5782
 Macro       : PE_HVC_ETRS89_ALICANTE_HEIGHT
 Name        : ETRS_1989_and_Alicante_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Alicante_height",
@@ -20039,6 +20936,9 @@ Area-rlon   : 3.39
 
 WKID        : 9506
 Latest-WKID : 9506
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9402
 Macro       : PE_HVC_ETRS89_CEUTA_2_HEIGHT
 Name        : ETRS_1989_and_Ceuta_2_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Ceuta_2_height",
@@ -20082,6 +20982,9 @@ Area-rlon   : -5.24
 
 WKID        : 9507
 Latest-WKID : 9507
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9394
 Macro       : PE_HVC_ETRS89_IBIZA_HEIGHT
 Name        : ETRS_1989_and_Ibiza_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Ibiza_height",
@@ -20125,6 +21028,9 @@ Area-rlon   : 1.68
 
 WKID        : 9508
 Latest-WKID : 9508
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9392
 Macro       : PE_HVC_ETRS89_MALLORCA_HEIGHT
 Name        : ETRS_1989_and_Mallorca_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Mallorca_height",
@@ -20168,6 +21074,9 @@ Area-rlon   : 3.55
 
 WKID        : 9509
 Latest-WKID : 9509
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9393
 Macro       : PE_HVC_ETRS89_MENORCA_HEIGHT
 Name        : ETRS_1989_and_Menorca_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Menorca_height",
@@ -20211,6 +21120,9 @@ Area-rlon   : 4.39
 
 WKID        : 9510
 Latest-WKID : 9510
+pcsWkid     : 0
+gcsWkid     : 4081
+vcsWkid     : 9401
 Macro       : PE_HVC_REGCAN95_EL_HIERRO_HEIGHT
 Name        : REGCAN95_and_El_Hierro_height
 WKT         : HVCOORDSYS["REGCAN95_and_El_Hierro_height",
@@ -20254,6 +21166,9 @@ Area-rlon   : -17.83
 
 WKID        : 9511
 Latest-WKID : 9511
+pcsWkid     : 0
+gcsWkid     : 4081
+vcsWkid     : 9396
 Macro       : PE_HVC_REGCAN95_FUERTEVENTURA_HEIGHT
 Name        : REGCAN95_and_Fuerteventura_height
 WKT         : HVCOORDSYS["REGCAN95_and_Fuerteventura_height",
@@ -20297,6 +21212,9 @@ Area-rlon   : -13.75
 
 WKID        : 9512
 Latest-WKID : 9512
+pcsWkid     : 0
+gcsWkid     : 4081
+vcsWkid     : 9397
 Macro       : PE_HVC_REGCAN95_GRAN_CANARIA_HEIGHT
 Name        : REGCAN95_and_Gran_Canaria_height
 WKT         : HVCOORDSYS["REGCAN95_and_Gran_Canaria_height",
@@ -20340,6 +21258,9 @@ Area-rlon   : -15.31
 
 WKID        : 9513
 Latest-WKID : 9513
+pcsWkid     : 0
+gcsWkid     : 4081
+vcsWkid     : 9399
 Macro       : PE_HVC_REGCAN95_LA_GOMERA_HEIGHT
 Name        : REGCAN95_and_La_Gomera_height
 WKT         : HVCOORDSYS["REGCAN95_and_La_Gomera_height",
@@ -20383,6 +21304,9 @@ Area-rlon   : -17.03
 
 WKID        : 9514
 Latest-WKID : 9514
+pcsWkid     : 0
+gcsWkid     : 4081
+vcsWkid     : 9400
 Macro       : PE_HVC_REGCAN95_LA_PALMA_HEIGHT
 Name        : REGCAN95_and_La_Palma_height
 WKT         : HVCOORDSYS["REGCAN95_and_La_Palma_height",
@@ -20426,6 +21350,9 @@ Area-rlon   : -17.66
 
 WKID        : 9515
 Latest-WKID : 9515
+pcsWkid     : 0
+gcsWkid     : 4081
+vcsWkid     : 9395
 Macro       : PE_HVC_REGCAN95_LANZAROTE_HEIGHT
 Name        : REGCAN95_and_Lanzarote_height
 WKT         : HVCOORDSYS["REGCAN95_and_Lanzarote_height",
@@ -20469,6 +21396,9 @@ Area-rlon   : -13.37
 
 WKID        : 9516
 Latest-WKID : 9516
+pcsWkid     : 0
+gcsWkid     : 4081
+vcsWkid     : 9398
 Macro       : PE_HVC_REGCAN95_TENERIFE_HEIGHT
 Name        : REGCAN95_and_Tenerife_height
 WKT         : HVCOORDSYS["REGCAN95_and_Tenerife_height",
@@ -20512,6 +21442,9 @@ Area-rlon   : -16.08
 
 WKID        : 9517
 Latest-WKID : 9517
+pcsWkid     : 0
+gcsWkid     : 7886
+vcsWkid     : 7890
 Macro       : PE_HVC_SHGD2015_SHVD2015_HEIGHT
 Name        : SHGD2015_and_SHVD2015_height
 WKT         : HVCOORDSYS["SHGD2015_and_SHVD2015_height",
@@ -20555,6 +21488,9 @@ Area-rlon   : -5.59
 
 WKID        : 9518
 Latest-WKID : 9518
+pcsWkid     : 0
+gcsWkid     : 4326
+vcsWkid     : 3855
 Macro       : PE_HVC_WGS_84_EGM2008_HEIGHT
 Name        : WGS_1984_and_EGM2008_height
 WKT         : HVCOORDSYS["WGS_1984_and_EGM2008_height",
@@ -20600,6 +21536,9 @@ Area-rlon   : 180.0
 
 WKID        : 9519
 Latest-WKID : 9519
+pcsWkid     : 0
+gcsWkid     : 5593
+vcsWkid     : 5597
 Macro       : PE_HVC_FEH2010_FCSVR10_HEIGHT
 Name        : FEH2010_and_FCSVR10_height
 WKT         : HVCOORDSYS["FEH2010_and_FCSVR10_height",
@@ -20643,6 +21582,9 @@ Area-rlon   : 11.51
 
 WKID        : 9520
 Latest-WKID : 9520
+pcsWkid     : 0
+gcsWkid     : 9333
+vcsWkid     : 9335
 Macro       : PE_HVC_KSA_GRF17_KSA_VRF14_HEIGHT
 Name        : KSA-GRF17_and_KSA-VRF14_height
 WKT         : HVCOORDSYS["KSA-GRF17_and_KSA-VRF14_height",
@@ -20686,6 +21628,9 @@ Area-rlon   : 55.67
 
 WKID        : 9521
 Latest-WKID : 9521
+pcsWkid     : 0
+gcsWkid     : 5340
+vcsWkid     : 9255
 Macro       : PE_HVC_POSGAR_2007_SRVN16_HEIGHT
 Name        : POSGAR_2007_and_SRVN16_height
 WKT         : HVCOORDSYS["POSGAR_2007_and_SRVN16_height",
@@ -20729,6 +21674,9 @@ Area-rlon   : -53.65
 
 WKID        : 9522
 Latest-WKID : 9522
+pcsWkid     : 0
+gcsWkid     : 6318
+vcsWkid     : 6641
 Macro       : PE_HVC_NAD832011_PRVD02_HEIGHT
 Name        : NAD_1983_2011_and_PRVD02_height
 WKT         : HVCOORDSYS["NAD_1983_2011_and_PRVD02_height",
@@ -20774,6 +21722,9 @@ Area-rlon   : -65.19
 
 WKID        : 9523
 Latest-WKID : 9523
+pcsWkid     : 0
+gcsWkid     : 6318
+vcsWkid     : 6642
 Macro       : PE_HVC_NAD832011_VIVD09_HEIGHT
 Name        : NAD_1983_2011_and_VIVD09_height
 WKT         : HVCOORDSYS["NAD_1983_2011_and_VIVD09_height",
@@ -20819,6 +21770,9 @@ Area-rlon   : -64.51
 
 WKID        : 9524
 Latest-WKID : 9524
+pcsWkid     : 0
+gcsWkid     : 6325
+vcsWkid     : 6644
 Macro       : PE_HVC_NAD83MA11_GUVD04_HEIGHT
 Name        : NAD83(MA11)_and_GUVD04_height
 WKT         : HVCOORDSYS["NAD83(MA11)_and_GUVD04_height",
@@ -20864,6 +21818,9 @@ Area-rlon   : 145.01
 
 WKID        : 9525
 Latest-WKID : 9525
+pcsWkid     : 0
+gcsWkid     : 6325
+vcsWkid     : 6640
 Macro       : PE_HVC_NAD83MA11_NMVD03_HEIGHT
 Name        : NAD83(MA11)_and_NMVD03_height
 WKT         : HVCOORDSYS["NAD83(MA11)_and_NMVD03_height",
@@ -20909,6 +21866,9 @@ Area-rlon   : 146.12
 
 WKID        : 9526
 Latest-WKID : 9526
+pcsWkid     : 0
+gcsWkid     : 6322
+vcsWkid     : 6643
 Macro       : PE_HVC_NAD83PA11_ASVD02_HEIGHT
 Name        : NAD83(PA11)_and_ASVD02_height
 WKT         : HVCOORDSYS["NAD83(PA11)_and_ASVD02_height",
@@ -20954,6 +21914,9 @@ Area-rlon   : -170.51
 
 WKID        : 9527
 Latest-WKID : 9527
+pcsWkid     : 0
+gcsWkid     : 4167
+vcsWkid     : 4440
 Macro       : PE_HVC_NZGD2000_NZVD2009_HEIGHT
 Name        : NZGD2000_and_NZVD2009_height
 WKT         : HVCOORDSYS["NZGD2000_and_NZVD2009_height",
@@ -20997,6 +21960,9 @@ Area-rlon   : -171.2
 
 WKID        : 9528
 Latest-WKID : 9528
+pcsWkid     : 0
+gcsWkid     : 4167
+vcsWkid     : 7839
 Macro       : PE_HVC_NZGD2000_NZVD2016_HEIGHT
 Name        : NZGD2000_and_NZVD2016_height
 WKT         : HVCOORDSYS["NZGD2000_and_NZVD2016_height",
@@ -21040,6 +22006,9 @@ Area-rlon   : -171.2
 
 WKID        : 9529
 Latest-WKID : 9529
+pcsWkid     : 0
+gcsWkid     : 9470
+vcsWkid     : 9471
 Macro       : PE_HVC_SRGI2013_INAGEOID2020_V1_HEIGHT
 Name        : SRGI2013_and_INAGeoid2020_v1_height
 WKT         : HVCOORDSYS["SRGI2013_and_INAGeoid2020_v1_height",
@@ -21084,6 +22053,9 @@ Area-rlon   : 141.46
 
 WKID        : 9530
 Latest-WKID : 9530
+pcsWkid     : 0
+gcsWkid     : 4624
+vcsWkid     : 5755
 Macro       : PE_HVC_RGFG95_NGG1977_HEIGHT
 Name        : RGFG95_and_NGG1977_height
 WKT         : HVCOORDSYS["RGFG95_and_NGG1977_height",
@@ -21127,6 +22099,9 @@ Area-rlon   : -51.61
 
 WKID        : 9531
 Latest-WKID : 9531
+pcsWkid     : 0
+gcsWkid     : 5489
+vcsWkid     : 5757
 Macro       : PE_HVC_RGAF09_GUADELOUPE_1988_HEIGHT
 Name        : RGAF09_and_Guadeloupe_1988_height
 WKT         : HVCOORDSYS["RGAF09_and_Guadeloupe_1988_height",
@@ -21170,6 +22145,9 @@ Area-rlon   : -61.15
 
 WKID        : 9532
 Latest-WKID : 9532
+pcsWkid     : 0
+gcsWkid     : 5489
+vcsWkid     : 5616
 Macro       : PE_HVC_RGAF09_IGN_1988_LS_HEIGHT
 Name        : RGAF09_and_IGN_1988_LS_height
 WKT         : HVCOORDSYS["RGAF09_and_IGN_1988_LS_height",
@@ -21213,6 +22191,9 @@ Area-rlon   : -61.52
 
 WKID        : 9533
 Latest-WKID : 9533
+pcsWkid     : 0
+gcsWkid     : 5489
+vcsWkid     : 5617
 Macro       : PE_HVC_RGAF09_IGN_1988_MG_HEIGHT
 Name        : RGAF09_and_IGN_1988_MG_height
 WKT         : HVCOORDSYS["RGAF09_and_IGN_1988_MG_height",
@@ -21256,6 +22237,9 @@ Area-rlon   : -61.13
 
 WKID        : 9534
 Latest-WKID : 9534
+pcsWkid     : 0
+gcsWkid     : 5489
+vcsWkid     : 5619
 Macro       : PE_HVC_RGAF09_IGN_1988_SB_HEIGHT
 Name        : RGAF09_and_IGN_1988_SB_height
 WKT         : HVCOORDSYS["RGAF09_and_IGN_1988_SB_height",
@@ -21299,6 +22283,9 @@ Area-rlon   : -62.73
 
 WKID        : 9535
 Latest-WKID : 9535
+pcsWkid     : 0
+gcsWkid     : 5489
+vcsWkid     : 5620
 Macro       : PE_HVC_RGAF09_IGN_1988_SM_HEIGHT
 Name        : RGAF09_and_IGN_1988_SM_height
 WKT         : HVCOORDSYS["RGAF09_and_IGN_1988_SM_height",
@@ -21342,6 +22329,9 @@ Area-rlon   : -62.96
 
 WKID        : 9536
 Latest-WKID : 9536
+pcsWkid     : 0
+gcsWkid     : 5489
+vcsWkid     : 9130
 Macro       : PE_HVC_RGAF09_IGN_2008_LD_HEIGHT
 Name        : RGAF09_and_IGN_2008_LD_height
 WKT         : HVCOORDSYS["RGAF09_and_IGN_2008_LD_height",
@@ -21385,6 +22375,9 @@ Area-rlon   : -60.97
 
 WKID        : 9537
 Latest-WKID : 9537
+pcsWkid     : 0
+gcsWkid     : 5489
+vcsWkid     : 5756
 Macro       : PE_HVC_RGAF09_MARTINIQUE_1987_HEIGHT
 Name        : RGAF09_and_Martinique_1987_height
 WKT         : HVCOORDSYS["RGAF09_and_Martinique_1987_height",
@@ -21428,6 +22421,9 @@ Area-rlon   : -60.76
 
 WKID        : 9538
 Latest-WKID : 9538
+pcsWkid     : 0
+gcsWkid     : 9777
+vcsWkid     : 5720
 Macro       : PE_HVC_RGF93_V2_NGF_IGN69_HEIGHT
 Name        : RGF93_v2_and_NGF-IGN69_height
 WKT         : HVCOORDSYS["RGF93_v2_and_NGF-IGN69_height",
@@ -21471,6 +22467,9 @@ Area-rlon   : 8.23
 
 WKID        : 9539
 Latest-WKID : 9539
+pcsWkid     : 0
+gcsWkid     : 9777
+vcsWkid     : 5721
 Macro       : PE_HVC_RGF93_V2_NGF_IGN78_HEIGHT
 Name        : RGF93_v2_and_NGF-IGN78_height
 WKT         : HVCOORDSYS["RGF93_v2_and_NGF-IGN78_height",
@@ -21514,6 +22513,9 @@ Area-rlon   : 9.63
 
 WKID        : 9540
 Latest-WKID : 9540
+pcsWkid     : 0
+gcsWkid     : 4749
+vcsWkid     : 9351
 Macro       : PE_HVC_RGNC91_93_NGNC08_HEIGHT
 Name        : RGNC_1991-93_and_NGNC08_height
 WKT         : HVCOORDSYS["RGNC_1991-93_and_NGNC08_height",
@@ -21558,6 +22560,9 @@ Area-rlon   : 168.19
 
 WKID        : 9541
 Latest-WKID : 9541
+pcsWkid     : 0
+gcsWkid     : 4463
+vcsWkid     : 5792
 Macro       : PE_HVC_RGSPM06_DANGER_1950_HEIGHT
 Name        : RGSPM06_and_Danger_1950_height
 WKT         : HVCOORDSYS["RGSPM06_and_Danger_1950_height",
@@ -21601,6 +22606,9 @@ Area-rlon   : -56.07
 
 WKID        : 9542
 Latest-WKID : 9542
+pcsWkid     : 0
+gcsWkid     : 4558
+vcsWkid     : 9130
 Macro       : PE_HVC_RRAF_1991_IGN_2008_LD_HEIGHT
 Name        : RRAF_1991_and_IGN_2008_LD_height
 WKT         : HVCOORDSYS["RRAF_1991_and_IGN_2008_LD_height",
@@ -21644,6 +22652,9 @@ Area-rlon   : -60.97
 
 WKID        : 9543
 Latest-WKID : 9543
+pcsWkid     : 0
+gcsWkid     : 8998
+vcsWkid     : 9279
 Macro       : PE_HVC_ITRF2005_SA_LLD_HEIGHT
 Name        : ITRF2005_and_SA_LLD_height
 WKT         : HVCOORDSYS["ITRF2005_and_SA_LLD_height",
@@ -21689,6 +22700,9 @@ Area-rlon   : 32.95
 
 WKID        : 9544
 Latest-WKID : 9544
+pcsWkid     : 0
+gcsWkid     : 8252
+vcsWkid     : 9245
 Macro       : PE_HVC_NAD83CSRSV6_CGVD2013A2010_HEIGHT
 Name        : NAD_1983_CSRS_v6_and_CGVD2013a(2010)_height
 WKT         : HVCOORDSYS["NAD_1983_CSRS_v6_and_CGVD2013a(2010)_height",
@@ -21732,6 +22746,9 @@ Area-rlon   : -40.73
 
 WKID        : 9656
 Latest-WKID : 9656
+pcsWkid     : 0
+gcsWkid     : 9702
+vcsWkid     : 9650
 Macro       : PE_HVC_ETRF2000_PL_BALTIC_1986_HEIGHT
 Name        : ETRF2000-PL_and_Baltic_1986_height
 WKT         : HVCOORDSYS["ETRF2000-PL_and_Baltic_1986_height",
@@ -21775,6 +22792,9 @@ Area-rlon   : 24.15
 
 WKID        : 9657
 Latest-WKID : 9657
+pcsWkid     : 0
+gcsWkid     : 9702
+vcsWkid     : 9651
 Macro       : PE_HVC_ETRF2000_PL_EVRF2007_PL_HEIGHT
 Name        : ETRF2000-PL_and_EVRF2007-PL_height
 WKT         : HVCOORDSYS["ETRF2000-PL_and_EVRF2007-PL_height",
@@ -21818,6 +22838,9 @@ Area-rlon   : 24.15
 
 WKID        : 9705
 Latest-WKID : 9705
+pcsWkid     : 0
+gcsWkid     : 4326
+vcsWkid     : 5714
 Macro       : PE_HVC_WGS_84_MSL_HEIGHT
 Name        : WGS_1984_and_MSL_height
 WKT         : HVCOORDSYS["WGS_1984_and_MSL_height",
@@ -21863,6 +22886,9 @@ Area-rlon   : 180.0
 
 WKID        : 9707
 Latest-WKID : 9707
+pcsWkid     : 0
+gcsWkid     : 4326
+vcsWkid     : 5773
 Macro       : PE_HVC_WGS_84_EGM96_HEIGHT
 Name        : WGS_1984_and_EGM96_height
 WKT         : HVCOORDSYS["WGS_1984_and_EGM96_height",
@@ -21908,6 +22934,9 @@ Area-rlon   : 180.0
 
 WKID        : 9711
 Latest-WKID : 9711
+pcsWkid     : 9709
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD83CSRS_UTM_ZONE_23N_CGVD2013_HEIGHT
 Name        : NAD_1983_CSRS_UTM_zone_23N_and_CGVD2013_height
 WKT         : HVCOORDSYS["NAD_1983_CSRS_UTM_zone_23N_and_CGVD2013_height",
@@ -21978,6 +23007,9 @@ Area-rlon   : -42.0
 
 WKID        : 9714
 Latest-WKID : 9714
+pcsWkid     : 9713
+gcsWkid     : 4617
+vcsWkid     : 6647
 Macro       : PE_HVC_NAD83CSRS_UTM_ZONE_24N_CGVD2013_HEIGHT
 Name        : NAD_1983_CSRS_UTM_zone_24N_and_CGVD2013_height
 WKT         : HVCOORDSYS["NAD_1983_CSRS_UTM_zone_24N_and_CGVD2013_height",
@@ -22048,6 +23080,9 @@ Area-rlon   : -40.73
 
 WKID        : 9715
 Latest-WKID : 9715
+pcsWkid     : 3159
+gcsWkid     : 4617
+vcsWkid     : 9245
 Macro       : PE_HVC_NAD83CSRS_UTM_ZONE_15N_CGVD2013A2010_HEIGHT
 Name        : NAD_1983_CSRS_UTM_zone_15N_and_CGVD2013a(2010)_height
 WKT         : HVCOORDSYS["NAD_1983_CSRS_UTM_zone_15N_and_CGVD2013a(2010)_height",
@@ -22118,6 +23153,9 @@ Area-rlon   : -90.0
 
 WKID        : 9723
 Latest-WKID : 9723
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5214
 Macro       : PE_HVC_ETRS89_GENOA_1942_HEIGHT
 Name        : ETRS_1989_and_Genoa_1942_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Genoa_1942_height",
@@ -22161,6 +23199,9 @@ Area-rlon   : 18.58
 
 WKID        : 9724
 Latest-WKID : 9724
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9721
 Macro       : PE_HVC_ETRS89_CATANIA_1965_HEIGHT
 Name        : ETRS_1989_and_Catania_1965_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Catania_1965_height",
@@ -22204,6 +23245,9 @@ Area-rlon   : 15.71
 
 WKID        : 9725
 Latest-WKID : 9725
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9722
 Macro       : PE_HVC_ETRS89_CAGLIARI_1956_HEIGHT
 Name        : ETRS_1989_and_Cagliari_1956_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Cagliari_1956_height",
@@ -22247,6 +23291,9 @@ Area-rlon   : 9.89
 
 WKID        : 9742
 Latest-WKID : 9742
+pcsWkid     : 9741
+gcsWkid     : 9739
+vcsWkid     : 5701
 Macro       : PE_HVC_EOS21_GRID_ODN_HEIGHT
 Name        : EOS21_Grid_and_ODN_height
 WKT         : HVCOORDSYS["EOS21_Grid_and_ODN_height",
@@ -22317,6 +23364,9 @@ Area-rlon   : -1.94
 
 WKID        : 9762
 Latest-WKID : 9762
+pcsWkid     : 9761
+gcsWkid     : 9758
+vcsWkid     : 5701
 Macro       : PE_HVC_ECML14_NB_GRID_ODN_HEIGHT
 Name        : ECML14_NB_Grid_and_ODN_height
 WKT         : HVCOORDSYS["ECML14_NB_Grid_and_ODN_height",
@@ -22387,6 +23437,9 @@ Area-rlon   : -1.3
 
 WKID        : 9767
 Latest-WKID : 9767
+pcsWkid     : 9766
+gcsWkid     : 9763
+vcsWkid     : 5701
 Macro       : PE_HVC_EWR2_GRID_ODN_HEIGHT
 Name        : EWR2_Grid_and_ODN_height
 WKT         : HVCOORDSYS["EWR2_Grid_and_ODN_height",
@@ -22457,6 +23510,9 @@ Area-rlon   : -0.36
 
 WKID        : 9785
 Latest-WKID : 9785
+pcsWkid     : 0
+gcsWkid     : 9782
+vcsWkid     : 5720
 Macro       : PE_HVC_RGF93_V2B_NGF_IGN69_HEIGHT
 Name        : RGF93_v2b_and_NGF-IGN69_height
 WKT         : HVCOORDSYS["RGF93_v2b_and_NGF-IGN69_height",
@@ -22500,6 +23556,9 @@ Area-rlon   : 8.23
 
 WKID        : 9870
 Latest-WKID : 9870
+pcsWkid     : 9869
+gcsWkid     : 9866
+vcsWkid     : 5701
 Macro       : PE_HVC_MRH21_GRID_ODN_HEIGHT
 Name        : MRH21_Grid_and_ODN_height
 WKT         : HVCOORDSYS["MRH21_Grid_and_ODN_height",
@@ -22570,6 +23629,9 @@ Area-rlon   : -0.36
 
 WKID        : 9881
 Latest-WKID : 9881
+pcsWkid     : 9880
+gcsWkid     : 9871
+vcsWkid     : 5701
 Macro       : PE_HVC_MOLDOR11_GRID_ODN_HEIGHT
 Name        : MOLDOR11_Grid_and_ODN_height
 WKT         : HVCOORDSYS["MOLDOR11_Grid_and_ODN_height",
@@ -22640,6 +23702,9 @@ Area-rlon   : -1.39
 
 WKID        : 9883
 Latest-WKID : 9883
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 9672
 Macro       : PE_HVC_ETRS89_CD_NORWAY_DEPTH
 Name        : ETRS_1989_and_CD_Norway_depth
 WKT         : HVCOORDSYS["ETRS_1989_and_CD_Norway_depth",
@@ -22683,6 +23748,9 @@ Area-rlon   : 31.77
 
 WKID        : 9897
 Latest-WKID : 9897
+pcsWkid     : 2169
+gcsWkid     : 4181
+vcsWkid     : 5774
 Macro       : PE_HVC_LUREF_LUXEMBOURG_TM_NG95
 Name        : HVC_LUREF_Luxembourg_TM_and_NG95
 WKT         : HVCOORDSYS["HVC_LUREF_Luxembourg_TM_and_NG95",
@@ -22753,6 +23821,9 @@ Area-rlon   : 6.53
 
 WKID        : 9907
 Latest-WKID : 9907
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5710
 Macro       : PE_HVC_ETRS89_OSTEND_HEIGHT
 Name        : ETRS_1989_and_Ostend_height
 WKT         : HVCOORDSYS["ETRS_1989_and_Ostend_height",
@@ -22796,6 +23867,9 @@ Area-rlon   : 6.4
 
 WKID        : 9920
 Latest-WKID : 9920
+pcsWkid     : 27700
+gcsWkid     : 4277
+vcsWkid     : 9451
 Macro       : PE_HVC_OSGB36_BRITISH_NATIONAL_GRID_BI_HEIGHT
 Name        : OSGB36_British_National_Grid_and_BI_height
 WKT         : HVCOORDSYS["OSGB36_British_National_Grid_and_BI_height",
@@ -22866,6 +23940,9 @@ Area-rlon   : 2.01
 
 WKID        : 9922
 Latest-WKID : 9922
+pcsWkid     : 2157
+gcsWkid     : 4173
+vcsWkid     : 9451
 Macro       : PE_HVC_ETRS89_ITM_BI_HEIGHT
 Name        : ETRS_1989_ITM_and_BI_height
 WKT         : HVCOORDSYS["ETRS_1989_ITM_and_BI_height",
@@ -22936,6 +24013,9 @@ Area-rlon   : -5.34
 
 WKID        : 9924
 Latest-WKID : 9924
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 7837
 Macro       : PE_HVC_ETRS89_DHHN2016_HEIGHT
 Name        : ETRS89_and_DHHN2016_height
 WKT         : HVCOORDSYS["ETRS89_and_DHHN2016_height",
@@ -22979,6 +24059,9 @@ Area-rlon   : 15.04
 
 WKID        : 9928
 Latest-WKID : 9928
+pcsWkid     : 5682
+gcsWkid     : 5681
+vcsWkid     : 9923
 Macro       : PE_HVC_DB_REF2003_ZONE_2
 Name        : DB_REF2003_zone_2
 WKT         : HVCOORDSYS["DB_REF2003_zone_2",
@@ -23049,6 +24132,9 @@ Area-rlon   : 7.51
 
 WKID        : 9929
 Latest-WKID : 9929
+pcsWkid     : 5683
+gcsWkid     : 5681
+vcsWkid     : 9923
 Macro       : PE_HVC_DB_REF2003_ZONE_3
 Name        : DB_REF2003_zone_3
 WKT         : HVCOORDSYS["DB_REF2003_zone_3",
@@ -23119,6 +24205,9 @@ Area-rlon   : 10.51
 
 WKID        : 9930
 Latest-WKID : 9930
+pcsWkid     : 5684
+gcsWkid     : 5681
+vcsWkid     : 9923
 Macro       : PE_HVC_DB_REF2003_ZONE_4
 Name        : DB_REF2003_zone_4
 WKT         : HVCOORDSYS["DB_REF2003_zone_4",
@@ -23189,6 +24278,9 @@ Area-rlon   : 13.51
 
 WKID        : 9931
 Latest-WKID : 9931
+pcsWkid     : 5685
+gcsWkid     : 5681
+vcsWkid     : 9923
 Macro       : PE_HVC_DB_REF2003_ZONE_5
 Name        : DB_REF2003_zone_5
 WKT         : HVCOORDSYS["DB_REF2003_zone_5",
@@ -23259,6 +24351,9 @@ Area-rlon   : 15.04
 
 WKID        : 9932
 Latest-WKID : 9932
+pcsWkid     : 5682
+gcsWkid     : 5681
+vcsWkid     : 9927
 Macro       : PE_HVC_DB_REF2016_ZONE_2
 Name        : DB_REF2016_zone_2
 WKT         : HVCOORDSYS["DB_REF2016_zone_2",
@@ -23329,6 +24424,9 @@ Area-rlon   : 7.51
 
 WKID        : 9933
 Latest-WKID : 9933
+pcsWkid     : 5683
+gcsWkid     : 5681
+vcsWkid     : 9927
 Macro       : PE_HVC_DB_REF2016_ZONE_3
 Name        : DB_REF2016_zone_3
 WKT         : HVCOORDSYS["DB_REF2016_zone_3",
@@ -23399,6 +24497,9 @@ Area-rlon   : 10.51
 
 WKID        : 9934
 Latest-WKID : 9934
+pcsWkid     : 5684
+gcsWkid     : 5681
+vcsWkid     : 9927
 Macro       : PE_HVC_DB_REF2016_ZONE_4
 Name        : DB_REF2016_zone_4
 WKT         : HVCOORDSYS["DB_REF2016_zone_4",
@@ -23469,6 +24570,9 @@ Area-rlon   : 13.51
 
 WKID        : 9935
 Latest-WKID : 9935
+pcsWkid     : 5685
+gcsWkid     : 5681
+vcsWkid     : 9927
 Macro       : PE_HVC_DB_REF2016_ZONE_5
 Name        : DB_REF2016_zone_5
 WKT         : HVCOORDSYS["DB_REF2016_zone_5",
@@ -23539,6 +24643,9 @@ Area-rlon   : 15.04
 
 WKID        : 9944
 Latest-WKID : 9944
+pcsWkid     : 9943
+gcsWkid     : 9939
+vcsWkid     : 5701
 Macro       : PE_HVC_EBBWV14_GRID_ODN_HEIGHT
 Name        : EBBWV14_Grid_and_ODN_height
 WKT         : HVCOORDSYS["EBBWV14_Grid_and_ODN_height",
@@ -23609,6 +24716,9 @@ Area-rlon   : -2.89
 
 WKID        : 9948
 Latest-WKID : 9948
+pcsWkid     : 0
+gcsWkid     : 4659
+vcsWkid     : 8089
 Macro       : PE_HVC_ISN93_ISH2004_HEIGHT
 Name        : ISN93_and_ISH2004_height
 WKT         : HVCOORDSYS["ISN93_and_ISH2004_height",
@@ -23652,6 +24762,9 @@ Area-rlon   : -13.38
 
 WKID        : 9949
 Latest-WKID : 9949
+pcsWkid     : 0
+gcsWkid     : 5324
+vcsWkid     : 8089
 Macro       : PE_HVC_ISN2004_ISH2004_HEIGHT
 Name        : ISN2004_and_ISH2004_height
 WKT         : HVCOORDSYS["ISN2004_and_ISH2004_height",
@@ -23695,6 +24808,9 @@ Area-rlon   : -13.38
 
 WKID        : 9950
 Latest-WKID : 9950
+pcsWkid     : 0
+gcsWkid     : 8086
+vcsWkid     : 8089
 Macro       : PE_HVC_ISN2016_ISH2004_HEIGHT
 Name        : ISN2016_and_ISH2004_height
 WKT         : HVCOORDSYS["ISN2016_and_ISH2004_height",
@@ -23738,6 +24854,9 @@ Area-rlon   : -13.38
 
 WKID        : 9951
 Latest-WKID : 9951
+pcsWkid     : 3057
+gcsWkid     : 4659
+vcsWkid     : 8089
 Macro       : PE_HVC_ISN93_LAMBERT_1993_ISH2004_HEIGHT
 Name        : ISN93_Lambert_1993_and_ISH2004_height
 WKT         : HVCOORDSYS["ISN93_Lambert_1993_and_ISH2004_height",
@@ -23811,6 +24930,9 @@ Area-rlon   : -13.38
 
 WKID        : 9952
 Latest-WKID : 9952
+pcsWkid     : 5325
+gcsWkid     : 5324
+vcsWkid     : 8089
 Macro       : PE_HVC_ISN2004_LAMBERT_2004_ISH2004_HEIGHT
 Name        : ISN2004_Lambert_2004_and_ISH2004_height
 WKT         : HVCOORDSYS["ISN2004_Lambert_2004_and_ISH2004_height",
@@ -23884,6 +25006,9 @@ Area-rlon   : -13.38
 
 WKID        : 9953
 Latest-WKID : 9953
+pcsWkid     : 8088
+gcsWkid     : 8086
+vcsWkid     : 8089
 Macro       : PE_HVC_ISN2016_LAMBERT_2016_ISH2004_HEIGHT
 Name        : ISN2016_Lambert_2016_and_ISH2004_height
 WKT         : HVCOORDSYS["ISN2016_Lambert_2016_and_ISH2004_height",
@@ -23957,6 +25082,9 @@ Area-rlon   : -13.38
 
 WKID        : 9968
 Latest-WKID : 9968
+pcsWkid     : 9967
+gcsWkid     : 9964
+vcsWkid     : 5701
 Macro       : PE_HVC_HULLEE13_GRID_ODN_HEIGHT
 Name        : HULLEE13_Grid_and_ODN_height
 WKT         : HVCOORDSYS["HULLEE13_Grid_and_ODN_height",
@@ -24027,6 +25155,9 @@ Area-rlon   : -0.27
 
 WKID        : 9973
 Latest-WKID : 9973
+pcsWkid     : 9972
+gcsWkid     : 9969
+vcsWkid     : 5701
 Macro       : PE_HVC_SCM22_GRID_ODN_HEIGHT
 Name        : SCM22_Grid_and_ODN_height
 WKT         : HVCOORDSYS["SCM22_Grid_and_ODN_height",
@@ -24097,6 +25228,9 @@ Area-rlon   : -3.3
 
 WKID        : 9978
 Latest-WKID : 9978
+pcsWkid     : 9977
+gcsWkid     : 9974
+vcsWkid     : 5701
 Macro       : PE_HVC_FNL22_GRID_ODN_HEIGHT
 Name        : FNL22_Grid_and_ODN_height
 WKT         : HVCOORDSYS["FNL22_Grid_and_ODN_height",
@@ -24167,6 +25301,9 @@ Area-rlon   : -3.0
 
 WKID        : 10156
 Latest-WKID : 10156
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10150
 Macro       : PE_HVC_ETRS89_MSL_UK_IRELAND_VORF08_DEPTH
 Name        : ETRS_1989_and_MSL_UK_Ireland_VORF08_depth
 WKT         : HVCOORDSYS["ETRS_1989_and_MSL_UK_Ireland_VORF08_depth",
@@ -24210,6 +25347,9 @@ Area-rlon   : 3.4
 
 WKID        : 10157
 Latest-WKID : 10157
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10151
 Macro       : PE_HVC_ETRS89_CD_UK_IRELAND_VORF08_DEPTH
 Name        : ETRS_1989_and_CD_UK_Ireland_VORF08_depth
 WKT         : HVCOORDSYS["ETRS_1989_and_CD_UK_Ireland_VORF08_depth",
@@ -24253,6 +25393,9 @@ Area-rlon   : 3.4
 
 WKID        : 10162
 Latest-WKID : 10162
+pcsWkid     : 6669
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_I_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_I_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_I_and_JGD2011_(vertical)_height",
@@ -24324,6 +25467,9 @@ Area-rlon   : 130.46
 
 WKID        : 10163
 Latest-WKID : 10163
+pcsWkid     : 6670
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_II_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_II_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_II_and_JGD2011_(vertical)_height",
@@ -24395,6 +25541,9 @@ Area-rlon   : 132.05
 
 WKID        : 10164
 Latest-WKID : 10164
+pcsWkid     : 6671
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_III_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_III_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_III_and_JGD2011_(vertical)_height",
@@ -24466,6 +25615,9 @@ Area-rlon   : 133.49
 
 WKID        : 10165
 Latest-WKID : 10165
+pcsWkid     : 6672
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_IV_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_IV_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_IV_and_JGD2011_(vertical)_height",
@@ -24537,6 +25689,9 @@ Area-rlon   : 134.81
 
 WKID        : 10166
 Latest-WKID : 10166
+pcsWkid     : 6673
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_V_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_V_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_V_and_JGD2011_(vertical)_height",
@@ -24608,6 +25763,9 @@ Area-rlon   : 135.47
 
 WKID        : 10167
 Latest-WKID : 10167
+pcsWkid     : 6674
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_VI_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_VI_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_VI_and_JGD2011_(vertical)_height",
@@ -24679,6 +25837,9 @@ Area-rlon   : 136.99
 
 WKID        : 10168
 Latest-WKID : 10168
+pcsWkid     : 6675
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_VII_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_VII_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_VII_and_JGD2011_(vertical)_height",
@@ -24750,6 +25911,9 @@ Area-rlon   : 137.84
 
 WKID        : 10169
 Latest-WKID : 10169
+pcsWkid     : 6676
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_VIII_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_VIII_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_VIII_and_JGD2011_(vertical)_height",
@@ -24821,6 +25985,9 @@ Area-rlon   : 139.91
 
 WKID        : 10170
 Latest-WKID : 10170
+pcsWkid     : 6677
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_IX_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_IX_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_IX_and_JGD2011_(vertical)_height",
@@ -24892,6 +26059,9 @@ Area-rlon   : 141.11
 
 WKID        : 10171
 Latest-WKID : 10171
+pcsWkid     : 6678
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_X_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_X_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_X_and_JGD2011_(vertical)_height",
@@ -24963,6 +26133,9 @@ Area-rlon   : 142.14
 
 WKID        : 10172
 Latest-WKID : 10172
+pcsWkid     : 6679
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_XI_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_XI_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_XI_and_JGD2011_(vertical)_height",
@@ -25034,6 +26207,9 @@ Area-rlon   : 141.46
 
 WKID        : 10173
 Latest-WKID : 10173
+pcsWkid     : 6680
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_XII_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_XII_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_XII_and_JGD2011_(vertical)_height",
@@ -25105,6 +26281,9 @@ Area-rlon   : 143.61
 
 WKID        : 10174
 Latest-WKID : 10174
+pcsWkid     : 6681
+gcsWkid     : 6668
+vcsWkid     : 6695
 Macro       : PE_HVC_JGD2011_JAPAN_PLANE_RECTANGULAR_CS_XIII_JGD2011_VERTICAL_HEIGHT
 Name        : JGD2011_Japan_Plane_Rectangular_CS_XIII_and_JGD2011_(vertical)_height
 WKT         : HVCOORDSYS["JGD2011_Japan_Plane_Rectangular_CS_XIII_and_JGD2011_(vertical)_height",
@@ -25176,6 +26355,9 @@ Area-rlon   : 145.87
 
 WKID        : 10184
 Latest-WKID : 10184
+pcsWkid     : 10183
+gcsWkid     : 10175
+vcsWkid     : 5701
 Macro       : PE_HVC_DOPW22_GRID_ODN_HEIGHT
 Name        : DoPw22_Grid_and_ODN_height
 WKT         : HVCOORDSYS["DoPw22_Grid_and_ODN_height",
@@ -25246,6 +26428,9 @@ Area-rlon   : -3.8
 
 WKID        : 10189
 Latest-WKID : 10189
+pcsWkid     : 10188
+gcsWkid     : 10185
+vcsWkid     : 5701
 Macro       : PE_HVC_SHAB07_GRID_ODN_HEIGHT
 Name        : ShAb07_Grid_and_ODN_height
 WKT         : HVCOORDSYS["ShAb07_Grid_and_ODN_height",
@@ -25316,6 +26501,9 @@ Area-rlon   : -2.6
 
 WKID        : 10195
 Latest-WKID : 10195
+pcsWkid     : 10194
+gcsWkid     : 10191
+vcsWkid     : 5701
 Macro       : PE_HVC_CNH22_GRID_ODN_HEIGHT
 Name        : CNH22_Grid_and_ODN_height
 WKT         : HVCOORDSYS["CNH22_Grid_and_ODN_height",
@@ -25389,6 +26577,9 @@ Area-rlon   : -2.28
 
 WKID        : 10200
 Latest-WKID : 10200
+pcsWkid     : 10199
+gcsWkid     : 10196
+vcsWkid     : 5701
 Macro       : PE_HVC_CWS13_GRID_ODN_HEIGHT
 Name        : CWS13_Grid_and_ODN_height
 WKT         : HVCOORDSYS["CWS13_Grid_and_ODN_height",
@@ -25459,6 +26650,9 @@ Area-rlon   : -2.65
 
 WKID        : 10208
 Latest-WKID : 10208
+pcsWkid     : 10207
+gcsWkid     : 10204
+vcsWkid     : 5701
 Macro       : PE_HVC_DIBA15_GRID_ODN_HEIGHT
 Name        : DIBA15_Grid_and_ODN_height
 WKT         : HVCOORDSYS["DIBA15_Grid_and_ODN_height",
@@ -25529,6 +26723,9 @@ Area-rlon   : -1.15
 
 WKID        : 10213
 Latest-WKID : 10213
+pcsWkid     : 10212
+gcsWkid     : 10209
+vcsWkid     : 5701
 Macro       : PE_HVC_GWPBS22_GRID_ODN_HEIGHT
 Name        : GWPBS22_Grid_and_ODN_height
 WKT         : HVCOORDSYS["GWPBS22_Grid_and_ODN_height",
@@ -25602,6 +26799,9 @@ Area-rlon   : -0.1
 
 WKID        : 10218
 Latest-WKID : 10218
+pcsWkid     : 10217
+gcsWkid     : 10214
+vcsWkid     : 5701
 Macro       : PE_HVC_GWWAB22_GRID_ODN_HEIGHT
 Name        : GWWAB22_Grid_and_ODN_height
 WKT         : HVCOORDSYS["GWWAB22_Grid_and_ODN_height",
@@ -25675,6 +26875,9 @@ Area-rlon   : -3.12
 
 WKID        : 10223
 Latest-WKID : 10223
+pcsWkid     : 10222
+gcsWkid     : 10219
+vcsWkid     : 5701
 Macro       : PE_HVC_GWWWA22_GRID_ODN_HEIGHT
 Name        : GWWWA22_Grid_and_ODN_height
 WKT         : HVCOORDSYS["GWWWA22_Grid_and_ODN_height",
@@ -25748,6 +26951,9 @@ Area-rlon   : -3.6
 
 WKID        : 10228
 Latest-WKID : 10228
+pcsWkid     : 10227
+gcsWkid     : 10224
+vcsWkid     : 5701
 Macro       : PE_HVC_MALS09_GRID_ODN_HEIGHT
 Name        : MALS09_Grid_and_ODN_height
 WKT         : HVCOORDSYS["MALS09_Grid_and_ODN_height",
@@ -25818,6 +27024,9 @@ Area-rlon   : -0.05
 
 WKID        : 10236
 Latest-WKID : 10236
+pcsWkid     : 10235
+gcsWkid     : 10229
+vcsWkid     : 5701
 Macro       : PE_HVC_OXWO08_GRID_ODN_HEIGHT
 Name        : OxWo08_Grid_and_ODN_height
 WKT         : HVCOORDSYS["OxWo08_Grid_and_ODN_height",
@@ -25888,6 +27097,9 @@ Area-rlon   : -1.15
 
 WKID        : 10241
 Latest-WKID : 10241
+pcsWkid     : 10240
+gcsWkid     : 10237
+vcsWkid     : 5701
 Macro       : PE_HVC_SYC20_GRID_ODN_HEIGHT
 Name        : SYC20_Grid_and_ODN_height
 WKT         : HVCOORDSYS["SYC20_Grid_and_ODN_height",
@@ -25958,6 +27170,9 @@ Area-rlon   : -2.3
 
 WKID        : 10245
 Latest-WKID : 10245
+pcsWkid     : 0
+gcsWkid     : 4765
+vcsWkid     : 8690
 Macro       : PE_HVC_SLOVENIA_1996_SVS2010_HEIGHT
 Name        : Slovenia_1996_and_SVS2010_height
 WKT         : HVCOORDSYS["Slovenia_1996_and_SVS2010_height",
@@ -26001,6 +27216,9 @@ Area-rlon   : 16.61
 
 WKID        : 10246
 Latest-WKID : 10246
+pcsWkid     : 3794
+gcsWkid     : 4765
+vcsWkid     : 8690
 Macro       : PE_HVC_SLOVENIA_1996_SLOVENE_NATIONAL_GRID_SVS2010_HEIGHT
 Name        : Slovenia_1996_Slovene_National_Grid_and_SVS2010_height
 WKT         : HVCOORDSYS["Slovenia_1996_Slovene_National_Grid_and_SVS2010_height",
@@ -26071,6 +27289,9 @@ Area-rlon   : 16.61
 
 WKID        : 10276
 Latest-WKID : 10276
+pcsWkid     : 10275
+gcsWkid     : 10272
+vcsWkid     : 5701
 Macro       : PE_HVC_SMITB20_GRID_ODN_HEIGHT
 Name        : SMITB20_Grid_and_ODN_height
 WKT         : HVCOORDSYS["SMITB20_Grid_and_ODN_height",
@@ -26141,6 +27362,9 @@ Area-rlon   : -3.6
 
 WKID        : 10281
 Latest-WKID : 10281
+pcsWkid     : 10280
+gcsWkid     : 10277
+vcsWkid     : 5701
 Macro       : PE_HVC_RBEPP12_GRID_ODN_HEIGHT
 Name        : RBEPP12_Grid_and_ODN_height
 WKT         : HVCOORDSYS["RBEPP12_Grid_and_ODN_height",
@@ -26214,6 +27438,9 @@ Area-rlon   : -0.85
 
 WKID        : 10293
 Latest-WKID : 10293
+pcsWkid     : 0
+gcsWkid     : 10284
+vcsWkid     : 7837
 Macro       : PE_HVC_ETRS89_DREF91_2016_DHHN2016_HEIGHT
 Name        : ETRS_1989_DREF91_2016_and_DHHN2016_height
 WKT         : HVCOORDSYS["ETRS_1989_DREF91_2016_and_DHHN2016_height",
@@ -26257,6 +27484,9 @@ Area-rlon   : 15.04
 
 WKID        : 10318
 Latest-WKID : 10318
+pcsWkid     : 0
+gcsWkid     : 10312
+vcsWkid     : 9351
 Macro       : PE_HVC_RGNC15_LON_LAT_NGNC08_HEIGHT
 Name        : RGNC15_(lon-lat)_and_NGNC08_height
 WKT         : HVCOORDSYS["RGNC15_(lon-lat)_and_NGNC08_height",
@@ -26301,6 +27531,9 @@ Area-rlon   : 168.19
 
 WKID        : 10355
 Latest-WKID : 10355
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10352
 Macro       : PE_HVC_ETRS89_FORMENTERA_HEIGHT
 Name        : ETRS89_and_Formentera_height
 WKT         : HVCOORDSYS["ETRS89_and_Formentera_height",
@@ -26344,6 +27577,9 @@ Area-rlon   : 1.65
 
 WKID        : 10356
 Latest-WKID : 10356
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10353
 Macro       : PE_HVC_ETRS89_ALBORAN_HEIGHT
 Name        : ETRS89_and_Alboran_height
 WKT         : HVCOORDSYS["ETRS89_and_Alboran_height",
@@ -26387,6 +27623,9 @@ Area-rlon   : -2.96
 
 WKID        : 10357
 Latest-WKID : 10357
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10354
 Macro       : PE_HVC_ETRS89_MELILLA_HEIGHT
 Name        : ETRS89_and_Melilla_height
 WKT         : HVCOORDSYS["ETRS89_and_Melilla_height",
@@ -26430,6 +27669,9 @@ Area-rlon   : -2.88
 
 WKID        : 10365
 Latest-WKID : 10365
+pcsWkid     : 0
+gcsWkid     : 4737
+vcsWkid     : 5193
 Macro       : PE_HVC_KGD2002_KVD1964_HEIGHT
 Name        : KGD2002_and_KVD1964_height
 WKT         : HVCOORDSYS["KGD2002_and_KVD1964_height",
@@ -26473,6 +27715,9 @@ Area-rlon   : 131.01
 
 WKID        : 10472
 Latest-WKID : 10472
+pcsWkid     : 10471
+gcsWkid     : 10468
+vcsWkid     : 5701
 Macro       : PE_HVC_COV23_GRID_ODN_HEIGHT
 Name        : COV23_Grid_and_ODN_height
 WKT         : HVCOORDSYS["COV23_Grid_and_ODN_height",
@@ -26543,6 +27788,9 @@ Area-rlon   : -1.3
 
 WKID        : 10486
 Latest-WKID : 10486
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10483
 Macro       : PE_HVC_ETRS89_DVR90_2002_HEIGHT
 Name        : ETRS89_and_DVR90(2002)_height
 WKT         : HVCOORDSYS["ETRS89_and_DVR90(2002)_height",
@@ -26586,6 +27834,9 @@ Area-rlon   : 15.28
 
 WKID        : 10487
 Latest-WKID : 10487
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10484
 Macro       : PE_HVC_ETRS89_DVR90_2013_HEIGHT
 Name        : ETRS89_and_DVR90(2013)_height
 WKT         : HVCOORDSYS["ETRS89_and_DVR90(2013)_height",
@@ -26629,6 +27880,9 @@ Area-rlon   : 15.28
 
 WKID        : 10488
 Latest-WKID : 10488
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10485
 Macro       : PE_HVC_ETRS89_DVR90_2023_HEIGHT
 Name        : ETRS89_and_DVR90(2023)_height
 WKT         : HVCOORDSYS["ETRS89_and_DVR90(2023)_height",
@@ -26672,6 +27926,9 @@ Area-rlon   : 15.28
 
 WKID        : 10497
 Latest-WKID : 10497
+pcsWkid     : 9793
+gcsWkid     : 9777
+vcsWkid     : 5720
 Macro       : PE_HVC_RGF93_V2_LAMBERT_93_NGF_IGN69_HEIGHT
 Name        : RGF93_v2_Lambert-93_and_NGF-IGN69_height
 WKT         : HVCOORDSYS["RGF93_v2_Lambert-93_and_NGF-IGN69_height",
@@ -26745,6 +28002,9 @@ Area-rlon   : 8.23
 
 WKID        : 10498
 Latest-WKID : 10498
+pcsWkid     : 9793
+gcsWkid     : 9777
+vcsWkid     : 5721
 Macro       : PE_HVC_RGF93_V2_LAMBERT_93_NGF_IGN78_HEIGHT
 Name        : RGF93_v2_Lambert-93_and_NGF-IGN78_height
 WKT         : HVCOORDSYS["RGF93_v2_Lambert-93_and_NGF-IGN78_height",
@@ -26818,6 +28078,9 @@ Area-rlon   : 9.63
 
 WKID        : 10499
 Latest-WKID : 10499
+pcsWkid     : 9794
+gcsWkid     : 9782
+vcsWkid     : 5720
 Macro       : PE_HVC_RGF93_V2B_LAMBERT_93_NGF_IGN69_HEIGHT
 Name        : RGF93_v2b_Lambert-93_and_NGF-IGN69_height
 WKT         : HVCOORDSYS["RGF93_v2b_Lambert-93_and_NGF-IGN69_height",
@@ -26891,6 +28154,9 @@ Area-rlon   : 8.23
 
 WKID        : 10500
 Latest-WKID : 10500
+pcsWkid     : 9794
+gcsWkid     : 9782
+vcsWkid     : 5721
 Macro       : PE_HVC_RGF93_V2B_LAMBERT_93_NGF_IGN78_HEIGHT
 Name        : RGF93_v2b_Lambert-93_and_NGF-IGN78_height
 WKT         : HVCOORDSYS["RGF93_v2b_Lambert-93_and_NGF-IGN78_height",
@@ -26964,6 +28230,9 @@ Area-rlon   : 9.63
 
 WKID        : 10507
 Latest-WKID : 10507
+pcsWkid     : 0
+gcsWkid     : 9782
+vcsWkid     : 5721
 Macro       : PE_HVC_RGF93_V2B_NGF_IGN78_HEIGHT
 Name        : RGF93_v2b_and_NGF-IGN78_height
 WKT         : HVCOORDSYS["RGF93_v2b_and_NGF-IGN78_height",
@@ -27007,6 +28276,9 @@ Area-rlon   : 9.63
 
 WKID        : 10545
 Latest-WKID : 10545
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 5780
 Macro       : PE_HVC_ETRS89_CASCAIS_HEIGHT
 Name        : ETRS89_and_Cascais_height
 WKT         : HVCOORDSYS["ETRS89_and_Cascais_height",
@@ -27050,6 +28322,9 @@ Area-rlon   : -6.19
 
 WKID        : 10553
 Latest-WKID : 10553
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10547
 Macro       : PE_HVC_ETRS89_DKMSL_2022_DEPTH
 Name        : ETRS89_and_DKMSL(2022)_depth
 WKT         : HVCOORDSYS["ETRS89_and_DKMSL(2022)_depth",
@@ -27093,6 +28368,9 @@ Area-rlon   : 16.51
 
 WKID        : 10554
 Latest-WKID : 10554
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10548
 Macro       : PE_HVC_ETRS89_DKLAT_2022_DEPTH
 Name        : ETRS89_and_DKLAT(2022)_depth
 WKT         : HVCOORDSYS["ETRS89_and_DKLAT(2022)_depth",
@@ -27136,6 +28414,9 @@ Area-rlon   : 16.51
 
 WKID        : 10555
 Latest-WKID : 10555
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10549
 Macro       : PE_HVC_ETRS89_DKMSL_2023_DEPTH
 Name        : ETRS89_and_DKMSL(2023)_depth
 WKT         : HVCOORDSYS["ETRS89_and_DKMSL(2023)_depth",
@@ -27179,6 +28460,9 @@ Area-rlon   : 16.51
 
 WKID        : 10556
 Latest-WKID : 10556
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10550
 Macro       : PE_HVC_ETRS89_DKLAT_2023_DEPTH
 Name        : ETRS89_and_DKLAT(2023)_depth
 WKT         : HVCOORDSYS["ETRS89_and_DKLAT(2023)_depth",
@@ -27222,6 +28506,9 @@ Area-rlon   : 16.51
 
 WKID        : 10627
 Latest-WKID : 10627
+pcsWkid     : 10626
+gcsWkid     : 10623
+vcsWkid     : 5701
 Macro       : PE_HVC_ECML14_GRID_ODN_HEIGHT
 Name        : ECML14_Grid_and_ODN_height
 WKT         : HVCOORDSYS["ECML14_Grid_and_ODN_height",
@@ -27292,6 +28579,9 @@ Area-rlon   : 0.05
 
 WKID        : 10633
 Latest-WKID : 10633
+pcsWkid     : 5490
+gcsWkid     : 5489
+vcsWkid     : 5756
 Macro       : PE_HVC_RGAF09_UTM_ZONE_20N_MARTINIQUE_1987_HEIGHT
 Name        : RGAF09_UTM_zone_20N_and_Martinique_1987_height
 WKT         : HVCOORDSYS["RGAF09_UTM_zone_20N_and_Martinique_1987_height",
@@ -27362,6 +28652,9 @@ Area-rlon   : -60.76
 
 WKID        : 10651
 Latest-WKID : 10651
+pcsWkid     : 0
+gcsWkid     : 4747
+vcsWkid     : 10649
 Macro       : PE_HVC_GR96_GLMSL_2023_DEPTH
 Name        : GR96_and_GLMSL(2023)_depth
 WKT         : HVCOORDSYS["GR96_and_GLMSL(2023)_depth",
@@ -27405,6 +28698,9 @@ Area-rlon   : 7.99
 
 WKID        : 10652
 Latest-WKID : 10652
+pcsWkid     : 0
+gcsWkid     : 4747
+vcsWkid     : 10650
 Macro       : PE_HVC_GR96_GLLAT_2023_DEPTH
 Name        : GR96_and_GLLAT(2023)_depth
 WKT         : HVCOORDSYS["GR96_and_GLLAT(2023)_depth",
@@ -27448,6 +28744,9 @@ Area-rlon   : 7.99
 
 WKID        : 10659
 Latest-WKID : 10659
+pcsWkid     : 0
+gcsWkid     : 9067
+vcsWkid     : 5787
 Macro       : PE_HVC_ETRF2000_EOMA_1980_HEIGHT
 Name        : ETRF2000_and_EOMA_1980_height
 WKT         : HVCOORDSYS["ETRF2000_and_EOMA_1980_height",
@@ -27493,6 +28792,9 @@ Area-rlon   : 22.9
 
 WKID        : 10660
 Latest-WKID : 10660
+pcsWkid     : 23700
+gcsWkid     : 4237
+vcsWkid     : 5787
 Macro       : PE_HVC_HD72_EOV_EOMA_1980_HEIGHT
 Name        : HD72_EOV_and_EOMA_1980_height
 WKT         : HVCOORDSYS["HD72_EOV_and_EOMA_1980_height",
@@ -27566,6 +28868,9 @@ Area-rlon   : 22.9
 
 WKID        : 20001
 Latest-WKID : 20001
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 20000
 Macro       : PE_HVC_ETRS89_SVD2006_HEIGHT
 Name        : ETRS_1989_and_SVD2006_height
 WKT         : HVCOORDSYS["ETRS_1989_and_SVD2006_height",
@@ -27609,6 +28914,9 @@ Area-rlon   : 38.01
 
 WKID        : 20003
 Latest-WKID : 20003
+pcsWkid     : 20002
+gcsWkid     : 20033
+vcsWkid     : 5701
 Macro       : PE_HVC_MWC18_GRID_ODN_HEIGHT
 Name        : MWC18_Grid_and_ODN_height
 WKT         : HVCOORDSYS["MWC18_Grid_and_ODN_height",
@@ -27679,6 +28987,9 @@ Area-rlon   : -2.1
 
 WKID        : 20037
 Latest-WKID : 20037
+pcsWkid     : 0
+gcsWkid     : 8246
+vcsWkid     : 20034
 Macro       : PE_HVC_NAD83CSRSV4_CGVD2013A2002_HEIGHT
 Name        : NAD_1983_CSRS_v4_and_CGVD2013a(2002)_height
 WKT         : HVCOORDSYS["NAD_1983_CSRS_v4_and_CGVD2013a(2002)_height",
@@ -27722,6 +29033,9 @@ Area-rlon   : -40.73
 
 WKID        : 20038
 Latest-WKID : 20038
+pcsWkid     : 0
+gcsWkid     : 8240
+vcsWkid     : 20035
 Macro       : PE_HVC_NAD83CSRSV3_CGVD2013A1997_HEIGHT
 Name        : NAD_1983_CSRS_v3_and_CGVD2013a(1997)_height
 WKT         : HVCOORDSYS["NAD_1983_CSRS_v3_and_CGVD2013a(1997)_height",
@@ -27765,6 +29079,9 @@ Area-rlon   : -40.73
 
 WKID        : 20043
 Latest-WKID : 20043
+pcsWkid     : 0
+gcsWkid     : 9470
+vcsWkid     : 20036
 Macro       : PE_HVC_SRGI2013_INAGEOID2020_V2_HEIGHT
 Name        : SRGI2013_and_INAGeoid2020_v2_height
 WKT         : HVCOORDSYS["SRGI2013_and_INAGeoid2020_v2_height",
