@@ -14,7 +14,7 @@ test('lookup project codes', function (t) {
 
   // vertical codes
   proj = codes.lookup(3855)
-  t.equal(proj.name, 'EGM2008_Geoid')
+  t.equal(proj.name, 'EGM2008_height')
 
   // undefined proj code
   proj = codes.lookup(3333333)
