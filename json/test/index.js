@@ -2,7 +2,7 @@ const test = require('tape')
 const codes = require('../')
 
 test('lookup project codes', function (t) {
-  t.plan(5)
+  t.plan(6)
 
   // projected codes
   let proj = codes.lookup(3857)
@@ -11,6 +11,10 @@ test('lookup project codes', function (t) {
   // geographic codes
   proj = codes.lookup(3819)
   t.equal(proj.name, 'GCS_HD1909')
+
+  // vertical codes
+  proj = codes.lookup(3855)
+  t.equal(proj.name, 'EGM2008_Geoid')
 
   // undefined proj code
   proj = codes.lookup(3333333)
