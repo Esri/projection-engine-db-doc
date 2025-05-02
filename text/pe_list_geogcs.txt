@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2024 Esri Inc.                                            #
+#  Copyright 1999-2025 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -1579,7 +1579,7 @@ WKT2        : GEOGCRS["GCS_Hughes_1980",
 Description : Hughes 1980
 Authority   : EPSG
 Version     : 9.8.7(9.3.0.0)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Not specified
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -1961,7 +1961,7 @@ WKT2        : GEOGCRS["GCS_LKS_1994",
 Description : LKS 1994
 Authority   : EPSG
 Version     : 4.0(8.0.1)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Lithuania
 Area-slat   : 53.89
 Area-nlat   : 56.45
@@ -2395,7 +2395,7 @@ WKT2        : GEOGCRS["GCS_North_American_1983_CSRS",
 Description : NAD 1983(Canadian Spatial Ref System)
 Authority   : EPSG
 Version     : 5.1(8.1.0)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
@@ -5186,7 +5186,7 @@ WKT2        : GEOGCRS["GCS_Garoua",
 Description : Garoua
 Authority   : EPSG
 Version     : 2.1(4.0.0)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Cameroon - Garoua area
 Area-slat   : 8.92
 Area-nlat   : 9.87
@@ -6922,7 +6922,7 @@ WKT2        : GEOGCRS["GCS_South_American_1969",
 Description : South American Datum 1969
 Authority   : EPSG
 Version     : 3.2(4.0.0)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : South America - SAD69 by country
 Area-slat   : -55.96
 Area-nlat   : 12.52
@@ -7356,7 +7356,7 @@ WKT2        : GEOGCRS["GCS_Voirol_Unifie_1960",
 Description : Voirol Unifie 1960
 Authority   : Esri
 Version     : 3.0.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Algeria - north of 32~N
 Area-slat   : 31.99
 Area-nlat   : 37.14
@@ -8699,7 +8699,7 @@ Description : Hong Kong 1980
 Authority   : EPSG
 Version     : 6.5(9.0.0)
 Deprecated  : no
-Area-name   : China - Hong Kong
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -9320,7 +9320,7 @@ WKT2        : GEOGCRS["GCS_Kerguelen_Island_1949",
 Description : Kerguelen Island 1949
 Authority   : EPSG
 Version     : 6.5(4.0.0)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : French Southern Territories - Kerguelen onshore
 Area-slat   : -49.78
 Area-nlat   : -48.6
@@ -12142,7 +12142,7 @@ Description : KGD2002
 Authority   : EPSG
 Version     : 6.14(9.2.0)
 Deprecated  : no
-Area-name   : Korea, Republic of (South Korea)
+Area-name   : South Korea
 Area-slat   : 28.6
 Area-nlat   : 40.27
 Area-llon   : 122.71
@@ -12173,7 +12173,7 @@ Description : Hong Kong 1963
 Authority   : EPSG
 Version     : 6.9(9.2.0)
 Deprecated  : no
-Area-name   : China - Hong Kong
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -12204,7 +12204,7 @@ Description : Hong Kong 1963(67)
 Authority   : EPSG
 Version     : 6.9(9.2.0)
 Deprecated  : no
-Area-name   : China - Hong Kong
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -12426,9 +12426,9 @@ Version     : 6.12(9.3.0.0)
 Deprecated  : no
 Area-name   : Germany - Thuringen
 Area-slat   : 50.2
-Area-nlat   : 51.64
-Area-llon   : 9.92
-Area-rlon   : 12.56
+Area-nlat   : 51.65
+Area-llon   : 9.87
+Area-rlon   : 12.66
 
 WKID        : 4747
 Latest-WKID : 4747
@@ -13387,7 +13387,7 @@ WKT2        : GEOGCRS["GCS_Voirol_Unifie_1960_Paris",
 Description : Voirol Unifie 1960 (Paris)
 Authority   : Esri
 Version     : 3.0.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Algeria - north of 32~N
 Area-slat   : 31.99
 Area-nlat   : 37.14
@@ -14399,7 +14399,7 @@ Description : KGD2002 (3D)
 Authority   : EPSG
 Version     : 6.14(12.7.0)
 Deprecated  : no
-Area-name   : Korea, Republic of (South Korea)
+Area-name   : South Korea
 Area-slat   : 28.6
 Area-nlat   : 40.27
 Area-llon   : 122.71
@@ -18037,7 +18037,7 @@ WKT2        : GEOGCRS["IGD05",
 Description : IGD05
 Authority   : EPSG
 Version     : 8.6(10.3.1)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Israel
 Area-slat   : 29.45
 Area-nlat   : 33.53
@@ -18135,7 +18135,7 @@ WKT2        : GEOGCRS["IGD05(2012)",
 Description : IGD05(2012)
 Authority   : EPSG
 Version     : 8.6(10.3.1)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Israel
 Area-slat   : 29.45
 Area-nlat   : 33.53
@@ -21285,7 +21285,7 @@ Description : Hong Kong Geodetic CS (3D)
 Authority   : EPSG
 Version     : 9.2.2(12.7.0)
 Deprecated  : no
-Area-name   : China - Hong Kong
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -21316,7 +21316,7 @@ Description : Hong Kong Geodetic CS
 Authority   : EPSG
 Version     : 9.2.2(10.7.0)
 Deprecated  : no
-Area-name   : China - Hong Kong
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -21347,7 +21347,7 @@ Description : Macao 1920
 Authority   : EPSG
 Version     : 9.2.2(10.8.0)
 Deprecated  : no
-Area-name   : China - Macao
+Area-name   : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -21383,7 +21383,7 @@ Description : Macao 2008 (ITRF 2005) (3D)
 Authority   : EPSG
 Version     : 9.2.2(12.7.0)
 Deprecated  : no
-Area-name   : China - Macao
+Area-name   : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -21414,7 +21414,7 @@ Description : Macao 2008 (ITRF 2005)
 Authority   : EPSG
 Version     : 9.2.2(10.8.0)
 Deprecated  : no
-Area-name   : China - Macao
+Area-name   : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -21444,7 +21444,7 @@ WKT2        : GEOGCRS["NAD_1983_(FBN)",
 Description : NAD83(FBN)
 Authority   : EPSG
 Version     : 9.5(10.7.0)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : USA - FBN
 Area-slat   : -14.59
 Area-nlat   : 49.38
@@ -25188,7 +25188,7 @@ WKT2        : GEOGCRS["SIRGAS-Chile_2002_3D",
 Description : SIRGAS-Chile 2002 (3D)
 Authority   : EPSG
 Version     : 9.8(12.7.0)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
@@ -25220,7 +25220,7 @@ Description : SIRGAS-Chile (Incorrectly changed to 9184. Ensemble 9184 dep by
               EPSG. S/b sirgas-chile 2002)
 Authority   : EPSG
 Version     : 9.8(10.1.0)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
@@ -28293,14 +28293,14 @@ Area-rlon   : 11.91
 WKID        : 10570
 Latest-WKID : 10570
 Macro       : PE_GCS_ETRF_2020_3D
-Name        : ETRF2020_(3D)
-WKT         : GEOGCS["ETRF2020_(3D)",
+Name        : ETRF2020_3D
+WKT         : GEOGCS["ETRF2020_3D",
                DATUM["European_Terrestrial_Reference_Frame_2020",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["ETRF2020_(3D)",
+WKT2        : GEOGCRS["ETRF2020_3D",
                DATUM["European_Terrestrial_Reference_Frame_2020",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -28360,14 +28360,14 @@ Area-rlon   : 38.01
 WKID        : 10605
 Latest-WKID : 10605
 Macro       : PE_GCS_WGS_1984_G2296_3D
-Name        : WGS_1984_(G2296)_(3D)
-WKT         : GEOGCS["WGS_1984_(G2296)_(3D)",
+Name        : WGS_1984_(G2296)_3D
+WKT         : GEOGCS["WGS_1984_(G2296)_3D",
                DATUM["World_Geodetic_System_1984_(G2296)",
                 SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
-WKT2        : GEOGCRS["WGS_1984_(G2296)_(3D)",
+WKT2        : GEOGCRS["WGS_1984_(G2296)_3D",
                DATUM["World_Geodetic_System_1984_(G2296)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
                  LENGTHUNIT["Meter", 1.0]]],
@@ -28485,6 +28485,841 @@ Area-slat   : 51.4
 Area-nlat   : 55.92
 Area-llon   : -4.33
 Area-rlon   : -0.04
+
+WKID        : 10635
+Latest-WKID : 10635
+Macro       : PE_GCS_SABA_3D
+Name        : Saba_3D
+WKT         : GEOGCS["Saba_3D",
+               DATUM["Saba",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["Saba_3D",
+               DATUM["Saba",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Saba (3D)
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
+WKID        : 10636
+Latest-WKID : 10636
+Macro       : PE_GCS_SABA
+Name        : Saba
+WKT         : GEOGCS["Saba",
+               DATUM["Saba",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Saba",
+               DATUM["Saba",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Saba
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
+WKID        : 10638
+Latest-WKID : 10638
+Macro       : PE_GCS_BES2020_SABA_3D
+Name        : BES2020_Saba_3D
+WKT         : GEOGCS["BES2020_Saba_3D",
+               DATUM["BES2020_Saba",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["BES2020_Saba_3D",
+               DATUM["BES2020_Saba",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BES2020 Saba (3D)
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
+WKID        : 10639
+Latest-WKID : 10639
+Macro       : PE_GCS_BES2020_SABA
+Name        : BES2020_Saba
+WKT         : GEOGCS["BES2020_Saba",
+               DATUM["BES2020_Saba",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["BES2020_Saba",
+               DATUM["BES2020_Saba",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : BES2020 Saba
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
+WKID        : 10670
+Latest-WKID : 10670
+Macro       : PE_GCS_RGM23_3D
+Name        : RGM23_3D
+WKT         : GEOGCS["RGM23_3D",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["RGM23_3D",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGM23 (3D)
+Authority   : EPSG
+Version     : 11.021(13.5.0)
+Deprecated  : no
+Area-name   : Mayotte
+Area-slat   : -14.49
+Area-nlat   : -11.33
+Area-llon   : 43.68
+Area-rlon   : 46.7
+
+WKID        : 10671
+Latest-WKID : 10671
+Macro       : PE_GCS_RGM23
+Name        : RGM23
+WKT         : GEOGCS["RGM23",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RGM23",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RGM23
+Authority   : EPSG
+Version     : 11.021(13.5.0)
+Deprecated  : no
+Area-name   : Mayotte
+Area-slat   : -14.49
+Area-nlat   : -11.33
+Area-llon   : 43.68
+Area-rlon   : 46.7
+
+WKID        : 10672
+Latest-WKID : 10672
+Macro       : PE_GCS_RGM23_LON_LAT_3D
+Name        : RGM23_(lon-lat)_3D
+WKT         : GEOGCS["RGM23_(lon-lat)_3D",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["RGM23_(lon-lat)_3D",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Longitude (lon)", east,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGM23 (lon-lat) (3D)
+Authority   : EPSG
+Version     : 11.021(13.5.0)
+Deprecated  : no
+Area-name   : Mayotte
+Area-slat   : -14.49
+Area-nlat   : -11.33
+Area-llon   : 43.68
+Area-rlon   : 46.7
+
+WKID        : 10673
+Latest-WKID : 10673
+Macro       : PE_GCS_RGM23_LON_LAT
+Name        : RGM23_(lon-lat)
+WKT         : GEOGCS["RGM23_(lon-lat)",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["RGM23_(lon-lat)",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Longitude (lon)", east,
+                ORDER[1]],
+               AXIS["Latitude (lat)", north,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : RGM23 (lon-lat)
+Authority   : EPSG
+Version     : 11.021(13.5.0)
+Deprecated  : no
+Area-name   : Mayotte
+Area-slat   : -14.49
+Area-nlat   : -11.33
+Area-llon   : 43.68
+Area-rlon   : 46.7
+
+WKID        : 10689
+Latest-WKID : 10689
+Macro       : PE_GCS_EUREF_FIN_3D
+Name        : EUREF_FIN_3D
+WKT         : GEOGCS["EUREF_FIN_3D",
+               DATUM["EUREF-FIN",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["EUREF_FIN_3D",
+               DATUM["EUREF-FIN",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : EUREF - Finland (3D)
+Authority   : EPSG
+Version     : 11.024(13.5.0)
+Deprecated  : no
+Area-name   : Finland
+Area-slat   : 58.84
+Area-nlat   : 70.09
+Area-llon   : 19.08
+Area-rlon   : 31.59
+
+WKID        : 10690
+Latest-WKID : 10690
+Macro       : PE_GCS_EUREF_FIN
+Name        : GCS_EUREF_FIN
+WKT         : GEOGCS["GCS_EUREF_FIN",
+               DATUM["EUREF-FIN",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["GCS_EUREF_FIN",
+               DATUM["EUREF-FIN",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : EUREF - Finland
+Authority   : EPSG
+Version     : 11.024(13.5.0)
+Deprecated  : no
+Area-name   : Finland
+Area-slat   : 58.84
+Area-nlat   : 70.09
+Area-llon   : 19.08
+Area-rlon   : 31.59
+
+WKID        : 10724
+Latest-WKID : 10724
+Macro       : PE_GCS_UZGD2024_3D
+Name        : UZGD2024_3D
+WKT         : GEOGCS["UZGD2024_3D",
+               DATUM["Uzbekistan_Geodetic_Datum_2024",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["UZGD2024_3D",
+               DATUM["Uzbekistan_Geodetic_Datum_2024",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : UZGD2024 (3D)
+Authority   : EPSG
+Version     : 11.024(13.5.0)
+Deprecated  : no
+Area-name   : Uzbekistan
+Area-slat   : 37.18
+Area-nlat   : 45.58
+Area-llon   : 55.99
+Area-rlon   : 73.17
+
+WKID        : 10725
+Latest-WKID : 10725
+Macro       : PE_GCS_UZGD2024
+Name        : UZGD2024
+WKT         : GEOGCS["UZGD2024",
+               DATUM["Uzbekistan_Geodetic_Datum_2024",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["UZGD2024",
+               DATUM["Uzbekistan_Geodetic_Datum_2024",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : UZGD2024
+Authority   : EPSG
+Version     : 11.024(13.5.0)
+Deprecated  : no
+Area-name   : Uzbekistan
+Area-slat   : 37.18
+Area-nlat   : 45.58
+Area-llon   : 55.99
+Area-rlon   : 73.17
+
+WKID        : 10735
+Latest-WKID : 10735
+Macro       : PE_GCS_SINT_EUSTATIUS_3D
+Name        : Sint_Eustatius_3D
+WKT         : GEOGCS["Sint_Eustatius_3D",
+               DATUM["Sint_Eustatius",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["Sint_Eustatius_3D",
+               DATUM["Sint_Eustatius",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Sint Eustatius (3D)
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10736
+Latest-WKID : 10736
+Macro       : PE_GCS_SINT_EUSTATIUS
+Name        : Sint_Eustatius
+WKT         : GEOGCS["Sint_Eustatius",
+               DATUM["Sint_Eustatius",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Sint_Eustatius",
+               DATUM["Sint_Eustatius",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Sint Eustatius
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10738
+Latest-WKID : 10738
+Macro       : PE_GCS_BES2020_SINT_EUSTATIUS_3D
+Name        : BES2020_Sint_Eustatius_3D
+WKT         : GEOGCS["BES2020_Sint_Eustatius_3D",
+               DATUM["BES2020_Sint_Eustatius",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["BES2020_Sint_Eustatius_3D",
+               DATUM["BES2020_Sint_Eustatius",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BES2020 Sint Eustatius (3D)
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10739
+Latest-WKID : 10739
+Macro       : PE_GCS_BES2020_SINT_EUSTATIUS
+Name        : BES2020_Sint_Eustatius
+WKT         : GEOGCS["BES2020_Sint_Eustatius",
+               DATUM["BES2020_Sint_Eustatius",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["BES2020_Sint_Eustatius",
+               DATUM["BES2020_Sint_Eustatius",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : BES2020 Sint Eustatius
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10758
+Latest-WKID : 10758
+Macro       : PE_GCS_BONAIRE
+Name        : Bonaire
+WKT         : GEOGCS["Bonaire",
+               DATUM["Bonaire",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Bonaire",
+               DATUM["Bonaire",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Bonaire
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Bonaire onshore
+Area-slat   : 11.97
+Area-nlat   : 12.36
+Area-llon   : -68.47
+Area-rlon   : -68.14
+
+WKID        : 10761
+Latest-WKID : 10761
+Macro       : PE_GCS_BONAIRE_2004_3D
+Name        : Bonaire_2004_3D
+WKT         : GEOGCS["Bonaire_2004_3D",
+               DATUM["Bonaire_2004",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["Bonaire_2004_3D",
+               DATUM["Bonaire_2004",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Bonaire 2004 (3D)
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Bonaire onshore
+Area-slat   : 11.97
+Area-nlat   : 12.36
+Area-llon   : -68.47
+Area-rlon   : -68.14
+
+WKID        : 10762
+Latest-WKID : 10762
+Macro       : PE_GCS_BONAIRE_2004
+Name        : Bonaire_2004
+WKT         : GEOGCS["Bonaire_2004",
+               DATUM["Bonaire_2004",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["Bonaire_2004",
+               DATUM["Bonaire_2004",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : Bonaire 2004
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Bonaire onshore
+Area-slat   : 11.97
+Area-nlat   : 12.36
+Area-llon   : -68.47
+Area-rlon   : -68.14
+
+WKID        : 10780
+Latest-WKID : 10780
+Macro       : PE_GCS_ITRF_2020_U2023_3D
+Name        : ITRF2020-u2023_3D
+WKT         : GEOGCS["ITRF2020-u2023_3D",
+               DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["ITRF2020-u2023_3D",
+               DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ITRF2020-u2023 (3D)
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 10781
+Latest-WKID : 10781
+Macro       : PE_GCS_ITRF_2020_U2023
+Name        : ITRF2020-u2023
+WKT         : GEOGCS["ITRF2020-u2023",
+               DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["ITRF2020-u2023",
+               DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : ITRF2020-u2023
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 10784
+Latest-WKID : 10784
+Macro       : PE_GCS_IGB20_3D
+Name        : IGb20_3D
+WKT         : GEOGCS["IGb20_3D",
+               DATUM["IGb20",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["IGb20_3D",
+               DATUM["IGb20",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : IGb20 (3D)
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 10785
+Latest-WKID : 10785
+Macro       : PE_GCS_IGB20
+Name        : IGb20
+WKT         : GEOGCS["IGb20",
+               DATUM["IGb20",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["IGb20",
+               DATUM["IGb20",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : IGb20
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 10799
+Latest-WKID : 10799
+Macro       : PE_GCS_LIBREF21_3D
+Name        : LibRef21_3D
+WKT         : GEOGCS["LibRef21_3D",
+               DATUM["Liberia_Reference_Frame_2021",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433],
+               LINUNIT["Meter", 1.0]]
+WKT2        : GEOGCRS["LibRef21_3D",
+               DATUM["Liberia_Reference_Frame_2021",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 3],
+               AXIS["Latitude (lat)", north,
+                ORDER[1],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               AXIS["Ellipsoidal height (h)", up,
+                ORDER[3],
+                LENGTHUNIT["Meter", 1.0]]]
+Description : LibRef21 (3D)
+Authority   : EPSG
+Version     : 12.001(13.5.0)
+Deprecated  : no
+Area-name   : Liberia
+Area-slat   : 1.02
+Area-nlat   : 8.52
+Area-llon   : -13.59
+Area-rlon   : -7.36
+
+WKID        : 10800
+Latest-WKID : 10800
+Macro       : PE_GCS_LIBREF21
+Name        : LibRef21
+WKT         : GEOGCS["LibRef21",
+               DATUM["Liberia_Reference_Frame_2021",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Degree", 0.0174532925199433]]
+WKT2        : GEOGCRS["LibRef21",
+               DATUM["Liberia_Reference_Frame_2021",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[ellipsoidal, 2],
+               AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
+                ORDER[2]],
+               ANGLEUNIT["Degree", 0.0174532925199433]]
+Description : LibRef21
+Authority   : EPSG
+Version     : 12.001(13.5.0)
+Deprecated  : no
+Area-name   : Liberia
+Area-slat   : 1.02
+Area-nlat   : 8.52
+Area-llon   : -13.59
+Area-rlon   : -7.36
 
 WKID        : 20033
 Latest-WKID : 20033
@@ -28676,7 +29511,7 @@ WKT2        : GEOGCRS["GCS_WGS_1966",
 Description : WGS 1966
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -28926,7 +29761,7 @@ WKT2        : GEOGCRS["GCS_European_1979",
 Description : European 1979
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - west
 Area-slat   : 34.88
 Area-nlat   : 84.73
@@ -29019,7 +29854,7 @@ WKT2        : GEOGCRS["GCS_Hjorsey_1955",
 Description : Hjorsey 1955
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Iceland - mainland
 Area-slat   : 63.34
 Area-nlat   : 66.59
@@ -29050,8 +29885,8 @@ WKT2        : GEOGCRS["GCS_Hong_Kong_1963_67",
 Description : Hong Kong 1963(67)
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
-Area-name   : China - Hong Kong
+Deprecated  : codechange
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -29143,7 +29978,7 @@ WKT2        : GEOGCRS["GCS_Ayabelle",
 Description : Ayabelle Lighthouse
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Djibouti
 Area-slat   : 10.94
 Area-nlat   : 12.72
@@ -29174,7 +30009,7 @@ WKT2        : GEOGCRS["GCS_Point_58",
 Description : Point 58
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Africa - 12th parallel N
 Area-slat   : 10.26
 Area-nlat   : 15.7
@@ -29205,7 +30040,7 @@ WKT2        : GEOGCRS["GCS_Beacon_E_1945",
 Description : Astro Beacon E 1945 (Iwo Jima 1945)
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Japan - Iwo Jima
 Area-slat   : 24.67
 Area-nlat   : 24.89
@@ -29236,7 +30071,7 @@ WKT2        : GEOGCRS["GCS_Tern_Island_1961",
 Description : Tern Island Astro 1961
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : USA - Hawaii - Tern Island and Sorel Atoll
 Area-slat   : 23.69
 Area-nlat   : 23.93
@@ -29267,7 +30102,7 @@ WKT2        : GEOGCRS["GCS_Astro_1952",
 Description : Astronomical Station 1952 (Marcus Island 1952)
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Japan - Minamitori-shima (Marcus Island) - onshore
 Area-slat   : 24.22
 Area-nlat   : 24.35
@@ -29298,7 +30133,7 @@ WKT2        : GEOGCRS["GCS_Bellevue_IGN",
 Description : Bellevue IGN
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Vanuatu - southern islands
 Area-slat   : -20.31
 Area-nlat   : -17.37
@@ -29329,7 +30164,7 @@ WKT2        : GEOGCRS["GCS_Canton_1966",
 Description : Canton Astro 1966 (Phoenix islands 1966)
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Kiribati - Phoenix Islands
 Area-slat   : -4.76
 Area-nlat   : -2.68
@@ -29360,7 +30195,7 @@ WKT2        : GEOGCRS["GCS_Chatham_Island_1971",
 Description : Chatham Island Astro 1971
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - Chatham Islands group
 Area-slat   : -44.64
 Area-nlat   : -43.3
@@ -29422,7 +30257,7 @@ WKT2        : GEOGCRS["GCS_Easter_Island_1967",
 Description : Easter Island 1967
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Chile - Easter Island onshore
 Area-slat   : -27.25
 Area-nlat   : -27.01
@@ -29453,7 +30288,7 @@ WKT2        : GEOGCRS["GCS_Guam_1963",
 Description : Guam 1963
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Pacific - US interests Mariana plate
 Area-slat   : 1.64
 Area-nlat   : 23.9
@@ -29515,7 +30350,7 @@ WKT2        : GEOGCRS["GCS_Johnston_Island_1961",
 Description : Johnston Island 1961
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Johnston Island
 Area-slat   : 16.67
 Area-nlat   : 16.79
@@ -29546,7 +30381,7 @@ WKT2        : GEOGCRS["GCS_Carthage",
 Description : Carthage
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Tunisia
 Area-slat   : 30.23
 Area-nlat   : 38.41
@@ -29577,7 +30412,7 @@ WKT2        : GEOGCRS["GCS_Midway_1961",
 Description : Midway Astro 1961
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Midway Islands - Sand and Eastern Islands
 Area-slat   : 28.13
 Area-nlat   : 28.28
@@ -29639,7 +30474,7 @@ WKT2        : GEOGCRS["GCS_Pitcairn_1967",
 Description : Pitcairn Astro 1967
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Pitcairn - Pitcairn Island
 Area-slat   : -25.14
 Area-nlat   : -25.0
@@ -29670,7 +30505,7 @@ WKT2        : GEOGCRS["GCS_Santo_DOS_1965",
 Description : Santo DOS 1965
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Vanuatu - northern islands
 Area-slat   : -17.32
 Area-nlat   : -14.57
@@ -29701,7 +30536,7 @@ WKT2        : GEOGCRS["GCS_Viti_Levu_1916",
 Description : Viti Levu 1916
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Fiji - Viti Levu
 Area-slat   : -18.32
 Area-nlat   : -17.25
@@ -29732,7 +30567,7 @@ WKT2        : GEOGCRS["GCS_Wake_Eniwetok_1960",
 Description : Wake-Eniwetok 1960 (Marshall Islands 1960)
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Pacific - Marshall Islands, Wake - onshore
 Area-slat   : 8.66
 Area-nlat   : 19.38
@@ -29763,7 +30598,7 @@ WKT2        : GEOGCRS["GCS_Wake_Island_1952",
 Description : Wake Island Astro 1952
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Wake - onshore
 Area-slat   : 19.22
 Area-nlat   : 19.38
@@ -29794,7 +30629,7 @@ WKT2        : GEOGCRS["GCS_Anna_1_1965",
 Description : Anna 1 Astro 1965 (Cocos Islands 1965)
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Cocos (Keeling) Islands - onshore
 Area-slat   : -12.27
 Area-nlat   : -11.76
@@ -29825,7 +30660,7 @@ WKT2        : GEOGCRS["GCS_Gan_1970",
 Description : Gan 1970
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Maldives - onshore
 Area-slat   : -0.69
 Area-nlat   : 7.08
@@ -29856,7 +30691,7 @@ WKT2        : GEOGCRS["GCS_ISTS_073_1969",
 Description : ISTS 073 Astro 1969 (Diego Garcia 1969)
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : British Indian Ocean Territory - Diego Garcia
 Area-slat   : -7.49
 Area-nlat   : -7.18
@@ -29887,7 +30722,7 @@ WKT2        : GEOGCRS["GCS_Kerguelen_Island_1949",
 Description : Kerguelen Island 1949
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : French Southern Territories - Kerguelen onshore
 Area-slat   : -49.78
 Area-nlat   : -48.6
@@ -29918,7 +30753,7 @@ WKT2        : GEOGCRS["GCS_Reunion_1947",
 Description : Reunion 1947
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Reunion - onshore
 Area-slat   : -21.42
 Area-nlat   : -20.81
@@ -29949,7 +30784,7 @@ WKT2        : GEOGCRS["GCS_Ascension_Island_1958",
 Description : Ascension Island 1958
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : St Helena - Ascension Island
 Area-slat   : -8.03
 Area-nlat   : -7.83
@@ -29980,7 +30815,7 @@ WKT2        : GEOGCRS["GCS_DOS_71_4",
 Description : Astro DOS 71/4 (St. Helena 1971)
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
@@ -30011,7 +30846,7 @@ WKT2        : GEOGCRS["GCS_Cape_Canaveral",
 Description : Cape Canaveral
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : North America - Bahamas and USA - Florida - onshore
 Area-slat   : 20.86
 Area-nlat   : 30.83
@@ -30104,7 +30939,7 @@ WKT2        : GEOGCRS["GCS_ISTS_061_1968",
 Description : ISTS 061 Astro 1968 (South Georgia 1968)
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : South Georgia - onshore
 Area-slat   : -54.95
 Area-nlat   : -53.93
@@ -30197,7 +31032,7 @@ WKT2        : GEOGCRS["GCS_Pico_de_Las_Nieves",
 Description : Pico de Las Nieves
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Spain - Canary Islands onshore
 Area-slat   : 27.58
 Area-nlat   : 29.47
@@ -30228,7 +31063,7 @@ WKT2        : GEOGCRS["GCS_Porto_Santo_1936",
 Description : Porto Santo 1936
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Portugal - Madeira archipelago onshore
 Area-slat   : 32.35
 Area-nlat   : 33.15
@@ -30290,7 +31125,7 @@ WKT2        : GEOGCRS["GCS_Selvagem_Grande_1938",
 Description : Selvagem Grande 1938
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Portugal - Selvagens onshore
 Area-slat   : 29.98
 Area-nlat   : 30.21
@@ -30321,7 +31156,7 @@ WKT2        : GEOGCRS["GCS_Tristan_1968",
 Description : Tristan Astro 1968
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : St Helena - Tristan da Cunha
 Area-slat   : -40.42
 Area-nlat   : -37.0
@@ -30352,7 +31187,7 @@ WKT2        : GEOGCRS["GCS_American_Samoa_1962",
 Description : American Samoa 1962
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : American Samoa - 2 main island groups
 Area-slat   : -14.43
 Area-nlat   : -14.11
@@ -30383,7 +31218,7 @@ WKT2        : GEOGCRS["GCS_Camp_Area",
 Description : Camp Area Astro
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Antarctica - Camp McMurdo area
 Area-slat   : -77.94
 Area-nlat   : -77.17
@@ -30414,7 +31249,7 @@ WKT2        : GEOGCRS["GCS_Deception_Island",
 Description : Deception Island
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Antarctica - Deception Island
 Area-slat   : -63.08
 Area-nlat   : -62.82
@@ -30445,7 +31280,7 @@ WKT2        : GEOGCRS["GCS_Gunung_Segara",
 Description : Gunung Segara
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Indonesia - Kalimantan E
 Area-slat   : -4.24
 Area-nlat   : 4.29
@@ -30507,7 +31342,7 @@ WKT2        : GEOGCRS["GCS_Kusaie_1951",
 Description : Kusaie Astro 1951
 Authority   : Esri
 Version     : 4.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Micronesia - Kosrae (Kusaie)
 Area-slat   : 5.21
 Area-nlat   : 5.43
@@ -30600,7 +31435,7 @@ WKT2        : GEOGCRS["GCS_Kyrg-06",
 Description : Kyrg-06
 Authority   : Esri
 Version     : 10.3.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Kyrgyzstan
 Area-slat   : 39.19
 Area-nlat   : 43.22
@@ -30633,7 +31468,7 @@ WKT2        : GEOGCRS["GCS_IGS08",
 Description : IGS08
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30667,7 +31502,7 @@ WKT2        : GEOGCRS["WGS_1984_(G730)",
 Description : World Geodetic System 1984 (G730)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30702,7 +31537,7 @@ WKT2        : GEOGCRS["WGS_1984_(G873)",
 Description : World Geodetic System 1984 (G873)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30737,7 +31572,7 @@ WKT2        : GEOGCRS["WGS_1984_(G1150)",
 Description : World Geodetic System 1984 (G1150)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30772,7 +31607,7 @@ WKT2        : GEOGCRS["WGS_1984_(G1674)",
 Description : World Geodetic System 1984 (G1674)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30807,7 +31642,7 @@ WKT2        : GEOGCRS["WGS_1984_(G1762)",
 Description : World Geodetic System 1984 (G1762)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30841,7 +31676,7 @@ WKT2        : GEOGCRS["WGS_1984_(Transit)",
 Description : World Geodetic System 1984 (Transit)
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30875,7 +31710,7 @@ WKT2        : GEOGCRS["PZ-90.02",
 Description : Parametry Zemli 1990.02
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30909,7 +31744,7 @@ WKT2        : GEOGCRS["PZ-90.11",
 Description : Parametry Zemli 1990.11
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30944,7 +31779,7 @@ WKT2        : GEOGCRS["ITRF2014",
 Description : ITRF2014
 Authority   : Esri
 Version     : 10.5.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -30977,7 +31812,7 @@ WKT2        : GEOGCRS["GCS_JGD_2011",
 Description : JGD 2011 touhokutaiheiyouoki - was 104020
 Authority   : Esri
 Version     : 10.1.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Japan
 Area-slat   : 17.09
 Area-nlat   : 46.05
@@ -31009,7 +31844,7 @@ WKT2        : GEOGCRS["IGS14",
 Description : IGS14
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -31197,7 +32032,7 @@ WKT2        : GEOGCRS["ONGD17",
 Description : ONGD17
 Authority   : Esri
 Version     : 10.7.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Oman
 Area-slat   : 14.33
 Area-nlat   : 26.74
@@ -31321,7 +32156,7 @@ WKT2        : GEOGCRS["GCS_GDBD2009",
 Description : GDBD2009 - Brunei
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Brunei
 Area-slat   : 4.01
 Area-nlat   : 6.31
@@ -31445,8 +32280,8 @@ WKT2        : GEOGCRS["GCS_Hong_Kong_1980",
 Description : Hong Kong 1980
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
-Area-name   : China - Hong Kong
+Deprecated  : codechange
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -31538,7 +32373,7 @@ WKT2        : GEOGCRS["GCS_RGF_1993",
 Description : Reseau Geodesique Francais 1993
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : France
 Area-slat   : 41.15
 Area-nlat   : 51.56
@@ -31569,7 +32404,7 @@ WKT2        : GEOGCRS["GCS_NZGD_2000",
 Description : New Zealand Geodetic Datum 2000
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand
 Area-slat   : -55.95
 Area-nlat   : -25.88
@@ -31631,7 +32466,7 @@ WKT2        : GEOGCRS["GCS_REGVEN",
 Description : REGVEN
 Authority   : Esri
 Version     : 8.1.2
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Venezuela
 Area-slat   : 0.64
 Area-nlat   : 16.75
@@ -31662,7 +32497,7 @@ WKT2        : GEOGCRS["GCS_JGD_2000",
 Description : Japan Geodetic Datum 2000
 Authority   : Esri
 Version     : 8.1.2
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Japan
 Area-slat   : 17.09
 Area-nlat   : 46.05
@@ -31755,7 +32590,7 @@ WKT2        : GEOGCRS["GCS_Bermuda_2000",
 Description : Bermuda 2000 - was 104114
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Bermuda
 Area-slat   : 28.91
 Area-nlat   : 35.73
@@ -31788,7 +32623,7 @@ WKT2        : GEOGCRS["GCS_ITRF_1988",
 Description : IERS Terrestrial Reference Frame 1988
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -31823,7 +32658,7 @@ WKT2        : GEOGCRS["GCS_ITRF_1989",
 Description : IERS Terrestrial Reference Frame 1989
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -31858,7 +32693,7 @@ WKT2        : GEOGCRS["GCS_ITRF_1990",
 Description : IERS Terrestrial Reference Frame 1990
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -31893,7 +32728,7 @@ WKT2        : GEOGCRS["GCS_ITRF_1991",
 Description : IERS Terrestrial Reference Frame 1991
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -31928,7 +32763,7 @@ WKT2        : GEOGCRS["GCS_ITRF_1992",
 Description : IERS Terrestrial Reference Frame 1992
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -31963,7 +32798,7 @@ WKT2        : GEOGCRS["GCS_ITRF_1993",
 Description : IERS Terrestrial Reference Frame 1993
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -31998,7 +32833,7 @@ WKT2        : GEOGCRS["GCS_ITRF_1994",
 Description : IERS Terrestrial Reference Frame 1994
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -32032,7 +32867,7 @@ WKT2        : GEOGCRS["GCS_ITRF_1996",
 Description : IERS Terrestrial Reference Frame 1996
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -32067,7 +32902,7 @@ WKT2        : GEOGCRS["GCS_ITRF_1997",
 Description : IERS Terrestrial Reference Frame 1997
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -32101,7 +32936,7 @@ WKT2        : GEOGCRS["GCS_ITRF_2000",
 Description : IERS Terrestrial Reference Frame 2000
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -32134,7 +32969,7 @@ WKT2        : GEOGCRS["GCS_Chatham_Islands_1979",
 Description : Chatham Islands 1979
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - Chatham Islands group
 Area-slat   : -44.64
 Area-nlat   : -43.3
@@ -32166,7 +33001,7 @@ Description : Observatorio Meteorologico 1965
 Authority   : Esri
 Version     : 9.0.0
 Deprecated  : no
-Area-name   : China - Macao
+Area-name   : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -32235,30 +33070,30 @@ Area-llon   : -30.0
 Area-rlon   : 50.0
 
 WKID        : 104129
-Latest-WKID : 104129
+Latest-WKID : 10690
 Macro       : PE_GCS_EUREF_FIN
 Name        : GCS_EUREF_FIN
 WKT         : GEOGCS["GCS_EUREF_FIN",
-               DATUM["D_ETRS_1989",
+               DATUM["EUREF-FIN",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433]]
 WKT2        : GEOGCRS["GCS_EUREF_FIN",
-               DATUM["D_ETRS_1989",
+               DATUM["EUREF-FIN",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 2],
-               AXIS["Longitude (lon)", east,
-                ORDER[1]],
                AXIS["Latitude (lat)", north,
+                ORDER[1]],
+               AXIS["Longitude (lon)", east,
                 ORDER[2]],
                ANGLEUNIT["Degree", 0.0174532925199433]]
 Description : EUREF - Finland
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : no
+Deprecated  : codechange
 Area-name   : Finland
 Area-slat   : 58.84
 Area-nlat   : 70.09
@@ -32351,7 +33186,7 @@ WKT2        : GEOGCRS["GCS_Ocotepeque_1935",
 Description : Ocotepeque 1935
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Central America - Guatemala to Costa Rica
 Area-slat   : 7.98
 Area-nlat   : 17.83
@@ -32382,7 +33217,7 @@ WKT2        : GEOGCRS["GCS_JAD_2001",
 Description : JAD 2001 (Jamaica 2001)
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Jamaica
 Area-slat   : 14.08
 Area-nlat   : 19.36
@@ -32478,7 +33313,7 @@ WKT2        : GEOGCRS["GCS_TWD_1967",
 Description : Taiwan 1967
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Taiwan - onshore - mainland and Penghu
 Area-slat   : 21.87
 Area-nlat   : 25.34
@@ -32509,7 +33344,7 @@ WKT2        : GEOGCRS["GCS_TWD_1997",
 Description : Taiwan 1997
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Taiwan
 Area-slat   : 17.36
 Area-nlat   : 26.96
@@ -32633,7 +33468,7 @@ WKT2        : GEOGCRS["GCS_CGRS_1993",
 Description : CGRS 1993
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Cyprus - onshore
 Area-slat   : 34.59
 Area-nlat   : 35.74
@@ -32664,7 +33499,7 @@ WKT2        : GEOGCRS["GCS_PTRA08",
 Description : PTRA08
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Portugal - Azores and Madeira
 Area-slat   : 29.24
 Area-nlat   : 43.07
@@ -32695,7 +33530,7 @@ WKT2        : GEOGCRS["GCS_CR05",
 Description : CR05 (Costa Rica 2005)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Costa Rica
 Area-slat   : 2.15
 Area-nlat   : 11.77
@@ -32726,7 +33561,7 @@ WKT2        : GEOGCRS["GCS_ISN_2004",
 Description : Islands Network 2004
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Iceland
 Area-slat   : 59.96
 Area-nlat   : 69.59
@@ -32759,7 +33594,7 @@ WKT2        : GEOGCRS["GCS_NAD_1983_2011",
 Description : NAD 1983 (2011)
 Authority   : Esri
 Version     : 10.1.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
 Area-nlat   : 74.71
@@ -32794,7 +33629,7 @@ WKT2        : GEOGCRS["ETRF90",
 Description : ETRF90
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
@@ -32829,7 +33664,7 @@ WKT2        : GEOGCRS["ETRF91",
 Description : ETRF91
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
@@ -32864,7 +33699,7 @@ WKT2        : GEOGCRS["ETRF92",
 Description : ETRF92
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
@@ -32899,7 +33734,7 @@ WKT2        : GEOGCRS["ETRF93",
 Description : ETRF93
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
@@ -32934,7 +33769,7 @@ WKT2        : GEOGCRS["ETRF94",
 Description : ETRF94
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
@@ -32969,7 +33804,7 @@ WKT2        : GEOGCRS["ETRF96",
 Description : ETRF96
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
@@ -33004,7 +33839,7 @@ WKT2        : GEOGCRS["ETRF97",
 Description : ETRF97
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
@@ -33039,7 +33874,7 @@ WKT2        : GEOGCRS["ETRF2000",
 Description : ETRF2000
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
@@ -33072,7 +33907,7 @@ WKT2        : GEOGCRS["GCS_WGS_1984_Major_Auxiliary_Sphere",
 Description : Major auxiliary sphere based on WGS 1984
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -33105,7 +33940,7 @@ WKT2        : GEOGCRS["GCS_NAD_1983_CORS96",
 Description : NAD 1983 (CORS96)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
 Area-nlat   : 74.71
@@ -33138,8 +33973,8 @@ WKT2        : GEOGCRS["GCS_MACAO_2008",
 Description : Macao 2008 (ITRF 2005)
 Authority   : Esri
 Version     : 10.3.1
-Deprecated  : yes
-Area-name   : China - Macao
+Deprecated  : codechange
+Area-name   : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -33169,7 +34004,7 @@ WKT2        : GEOGCRS["GCS_Nepal_Nagarkot",
 Description : Nepal Nagarkot
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Nepal
 Area-slat   : 26.34
 Area-nlat   : 30.43
@@ -33202,7 +34037,7 @@ WKT2        : GEOGCRS["GCS_ITRF_2008",
 Description : ITRF 2008 (104257)
 Authority   : Esri
 Version     : 10.1.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -33237,7 +34072,7 @@ WKT2        : GEOGCRS["GCS_ETRF_1989",
 Description : European Terrestrial Ref.Frame 1989
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
@@ -33272,7 +34107,7 @@ WKT2        : GEOGCRS["GCS_NAD_1983_PACP00",
 Description : NAD 1983 PACP00
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Pacific - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
@@ -33307,7 +34142,7 @@ WKT2        : GEOGCRS["GCS_NAD_1983_MARP00",
 Description : NAD 1983 MARP00
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Pacific - US interests Mariana plate
 Area-slat   : 1.64
 Area-nlat   : 23.9
@@ -33340,7 +34175,7 @@ WKT2        : GEOGCRS["GCS_Merchich",
 Description : Merchich (104261 was a duplicate)
 Authority   : Esri
 Version     : 3.0.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Africa - Morocco and Western Sahara - onshore
 Area-slat   : 20.71
 Area-nlat   : 35.97
@@ -33373,7 +34208,7 @@ WKT2        : GEOGCRS["GCS_NAD_1983_MA11",
 Description : NAD 1983 (MA11) - Marianas Plate 2011
 Authority   : Esri
 Version     : 10.1.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Pacific - US interests Mariana plate
 Area-slat   : 1.64
 Area-nlat   : 23.9
@@ -33408,7 +34243,7 @@ WKT2        : GEOGCRS["GCS_NAD_1983_PA11",
 Description : NAD 1983 (PA11) - Pacific Plate 2011
 Authority   : Esri
 Version     : 10.1.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : NAD83 PA11 - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
@@ -33441,7 +34276,7 @@ WKT2        : GEOGCRS["GCS_Voirol_1875",
 Description : Voirol 1875
 Authority   : Esri
 Version     : 8.0.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Algeria - north of 32~N
 Area-slat   : 31.99
 Area-nlat   : 37.14
@@ -33516,26 +34351,26 @@ Area-llon   : 167.65
 Area-rlon   : -40.73
 
 WKID        : 104613
-Latest-WKID : 104613
+Latest-WKID : 10689
 Macro       : PE_GCS_EUREF_FIN_3D
 Name        : EUREF_FIN_3D
 WKT         : GEOGCS["EUREF_FIN_3D",
-               DATUM["D_ETRS_1989",
+               DATUM["EUREF-FIN",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Degree", 0.0174532925199433],
                LINUNIT["Meter", 1.0]]
 WKT2        : GEOGCRS["EUREF_FIN_3D",
-               DATUM["D_ETRS_1989",
+               DATUM["EUREF-FIN",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                PRIMEM["Greenwich", 0.0,
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                CS[ellipsoidal, 3],
-               AXIS["Longitude (lon)", east,
+               AXIS["Latitude (lat)", north,
                 ORDER[1],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               AXIS["Latitude (lat)", north,
+               AXIS["Longitude (lon)", east,
                 ORDER[2],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
                AXIS["Ellipsoidal height (h)", up,
@@ -33544,7 +34379,7 @@ WKT2        : GEOGCRS["EUREF_FIN_3D",
 Description : EUREF - Finland (3D)
 Authority   : Esri
 Version     : 12.7.0
-Deprecated  : no
+Deprecated  : codechange
 Area-name   : Finland
 Area-slat   : 58.84
 Area-nlat   : 70.09
@@ -33687,7 +34522,7 @@ WKT2        : GEOGCRS["ONGD17_3D",
 Description : ONGD17 (3D)
 Authority   : Esri
 Version     : 12.7.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Oman
 Area-slat   : 14.33
 Area-nlat   : 26.74
@@ -39116,7 +39951,7 @@ WKT2        : GEOGCRS["GCS_ITRF_2005",
 Description : ITRF 2005
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -42032,7 +42867,7 @@ WKT2        : GEOGCRS["GCS_HD1909",
 Description : Hungarian Datum 1909
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Hungary
 Area-slat   : 45.74
 Area-nlat   : 48.58
@@ -42063,7 +42898,7 @@ WKT2        : GEOGCRS["GCS_IGRS",
 Description : Iraqi Geospatial Reference System
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Iraq
 Area-slat   : 29.06
 Area-nlat   : 37.39
@@ -42094,7 +42929,7 @@ WKT2        : GEOGCRS["GCS_MGI_1901",
 Description : MGI 1901
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Europe - former Yugoslavia onshore
 Area-slat   : 40.85
 Area-nlat   : 46.88

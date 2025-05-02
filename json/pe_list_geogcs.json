@@ -890,7 +890,7 @@
     "description": "Hughes 1980",
     "authority": "EPSG",
     "version": "9.8.7(9.3.0.0)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Not specified",
     "extent":
     { "slat": -90.0,
@@ -1106,7 +1106,7 @@
     "description": "LKS 1994",
     "authority": "EPSG",
     "version": "4.0(8.0.1)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Lithuania",
     "extent":
     { "slat": 53.89,
@@ -1358,7 +1358,7 @@
     "description": "NAD 1983(Canadian Spatial Ref System)",
     "authority": "EPSG",
     "version": "5.1(8.1.0)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Canada",
     "extent":
     { "slat": 38.21,
@@ -2978,7 +2978,7 @@
     "description": "Garoua",
     "authority": "EPSG",
     "version": "2.1(4.0.0)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Cameroon - Garoua area",
     "extent":
     { "slat": 8.92,
@@ -3986,7 +3986,7 @@
     "description": "South American Datum 1969",
     "authority": "EPSG",
     "version": "3.2(4.0.0)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "South America - SAD69 by country",
     "extent":
     { "slat": -55.96,
@@ -4238,7 +4238,7 @@
     "description": "Voirol Unifie 1960",
     "authority": "Esri",
     "version": "3.0.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Algeria - north of 32~N",
     "extent":
     { "slat": 31.99,
@@ -5001,7 +5001,7 @@
     "authority": "EPSG",
     "version": "6.5(9.0.0)",
     "deprecated": "no",
-    "areaname": "China - Hong Kong",
+    "areaname": "Hong Kong",
     "extent":
     { "slat": 22.13,
       "nlat": 22.58,
@@ -5360,7 +5360,7 @@
     "description": "Kerguelen Island 1949",
     "authority": "EPSG",
     "version": "6.5(4.0.0)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "French Southern Territories - Kerguelen onshore",
     "extent":
     { "slat": -49.78,
@@ -6999,7 +6999,7 @@
     "authority": "EPSG",
     "version": "6.14(9.2.0)",
     "deprecated": "no",
-    "areaname": "Korea, Republic of (South Korea)",
+    "areaname": "South Korea",
     "extent":
     { "slat": 28.6,
       "nlat": 40.27,
@@ -7017,7 +7017,7 @@
     "authority": "EPSG",
     "version": "6.9(9.2.0)",
     "deprecated": "no",
-    "areaname": "China - Hong Kong",
+    "areaname": "Hong Kong",
     "extent":
     { "slat": 22.13,
       "nlat": 22.58,
@@ -7035,7 +7035,7 @@
     "authority": "EPSG",
     "version": "6.9(9.2.0)",
     "deprecated": "no",
-    "areaname": "China - Hong Kong",
+    "areaname": "Hong Kong",
     "extent":
     { "slat": 22.13,
       "nlat": 22.58,
@@ -7166,9 +7166,9 @@
     "areaname": "Germany - Thuringen",
     "extent":
     { "slat": 50.2,
-      "nlat": 51.64,
-      "llon": 9.92,
-      "rlon": 12.56
+      "nlat": 51.65,
+      "llon": 9.87,
+      "rlon": 12.66
     }
   },
   { "wkid": 4747,
@@ -7722,7 +7722,7 @@
     "description": "Voirol Unifie 1960 (Paris)",
     "authority": "Esri",
     "version": "3.0.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Algeria - north of 32~N",
     "extent":
     { "slat": 31.99,
@@ -8267,7 +8267,7 @@
     "authority": "EPSG",
     "version": "6.14(12.7.0)",
     "deprecated": "no",
-    "areaname": "Korea, Republic of (South Korea)",
+    "areaname": "South Korea",
     "extent":
     { "slat": 28.6,
       "nlat": 40.27,
@@ -10196,7 +10196,7 @@
     "description": "IGD05",
     "authority": "EPSG",
     "version": "8.6(10.3.1)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Israel",
     "extent":
     { "slat": 29.45,
@@ -10250,7 +10250,7 @@
     "description": "IGD05(2012)",
     "authority": "EPSG",
     "version": "8.6(10.3.1)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Israel",
     "extent":
     { "slat": 29.45,
@@ -11901,7 +11901,7 @@
     "authority": "EPSG",
     "version": "9.2.2(12.7.0)",
     "deprecated": "no",
-    "areaname": "China - Hong Kong",
+    "areaname": "Hong Kong",
     "extent":
     { "slat": 22.13,
       "nlat": 22.58,
@@ -11919,7 +11919,7 @@
     "authority": "EPSG",
     "version": "9.2.2(10.7.0)",
     "deprecated": "no",
-    "areaname": "China - Hong Kong",
+    "areaname": "Hong Kong",
     "extent":
     { "slat": 22.13,
       "nlat": 22.58,
@@ -11937,7 +11937,7 @@
     "authority": "EPSG",
     "version": "9.2.2(10.8.0)",
     "deprecated": "no",
-    "areaname": "China - Macao",
+    "areaname": "Macao",
     "extent":
     { "slat": 22.06,
       "nlat": 22.23,
@@ -11955,7 +11955,7 @@
     "authority": "EPSG",
     "version": "9.2.2(12.7.0)",
     "deprecated": "no",
-    "areaname": "China - Macao",
+    "areaname": "Macao",
     "extent":
     { "slat": 22.06,
       "nlat": 22.23,
@@ -11973,7 +11973,7 @@
     "authority": "EPSG",
     "version": "9.2.2(10.8.0)",
     "deprecated": "no",
-    "areaname": "China - Macao",
+    "areaname": "Macao",
     "extent":
     { "slat": 22.06,
       "nlat": 22.23,
@@ -11990,7 +11990,7 @@
     "description": "NAD83(FBN)",
     "authority": "EPSG",
     "version": "9.5(10.7.0)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "USA - FBN",
     "extent":
     { "slat": -14.59,
@@ -14056,7 +14056,7 @@
     "description": "SIRGAS-Chile 2002 (3D)",
     "authority": "EPSG",
     "version": "9.8(12.7.0)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Chile",
     "extent":
     { "slat": -59.87,
@@ -14074,7 +14074,7 @@
     "description": "SIRGAS-Chile (Incorrectly changed to 9184. Ensemble 9184 dep by EPSG. S/b sirgas-chile 2002)",
     "authority": "EPSG",
     "version": "9.8(10.1.0)",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Chile",
     "extent":
     { "slat": -59.87,
@@ -15792,9 +15792,9 @@
   { "wkid": 10570,
     "latestWkid": 10570,
     "macro": "PE_GCS_ETRF_2020_3D",
-    "name": "ETRF2020_(3D)",
-    "wkt": "GEOGCS[\"ETRF2020_(3D)\",DATUM[\"European_Terrestrial_Reference_Frame_2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
-    "wkt2": "GEOGCRS[\"ETRF2020_(3D)\",DATUM[\"European_Terrestrial_Reference_Frame_2020\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "name": "ETRF2020_3D",
+    "wkt": "GEOGCS[\"ETRF2020_3D\",DATUM[\"European_Terrestrial_Reference_Frame_2020\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"ETRF2020_3D\",DATUM[\"European_Terrestrial_Reference_Frame_2020\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "ETRF2020 (3D)",
     "authority": "EPSG",
     "version": "11.006(13.4.0)",
@@ -15828,9 +15828,9 @@
   { "wkid": 10605,
     "latestWkid": 10605,
     "macro": "PE_GCS_WGS_1984_G2296_3D",
-    "name": "WGS_1984_(G2296)_(3D)",
-    "wkt": "GEOGCS[\"WGS_1984_(G2296)_(3D)\",DATUM[\"World_Geodetic_System_1984_(G2296)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
-    "wkt2": "GEOGCRS[\"WGS_1984_(G2296)_(3D)\",DATUM[\"World_Geodetic_System_1984_(G2296)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "name": "WGS_1984_(G2296)_3D",
+    "wkt": "GEOGCS[\"WGS_1984_(G2296)_3D\",DATUM[\"World_Geodetic_System_1984_(G2296)\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"WGS_1984_(G2296)_3D\",DATUM[\"World_Geodetic_System_1984_(G2296)\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "WGS 1984 (G2296) (3D)",
     "authority": "EPSG",
     "version": "11.005(13.4.0)",
@@ -15895,6 +15895,456 @@
       "nlat": 55.92,
       "llon": -4.33,
       "rlon": -0.04
+    }
+  },
+  { "wkid": 10635,
+    "latestWkid": 10635,
+    "macro": "PE_GCS_SABA_3D",
+    "name": "Saba_3D",
+    "wkt": "GEOGCS[\"Saba_3D\",DATUM[\"Saba\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"Saba_3D\",DATUM[\"Saba\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Saba (3D)",
+    "authority": "EPSG",
+    "version": "11.023(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Saba onshore",
+    "extent":
+    { "slat": 17.56,
+      "nlat": 17.71,
+      "llon": -63.31,
+      "rlon": -63.16
+    }
+  },
+  { "wkid": 10636,
+    "latestWkid": 10636,
+    "macro": "PE_GCS_SABA",
+    "name": "Saba",
+    "wkt": "GEOGCS[\"Saba\",DATUM[\"Saba\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Saba\",DATUM[\"Saba\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Saba",
+    "authority": "EPSG",
+    "version": "11.023(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Saba onshore",
+    "extent":
+    { "slat": 17.56,
+      "nlat": 17.71,
+      "llon": -63.31,
+      "rlon": -63.16
+    }
+  },
+  { "wkid": 10638,
+    "latestWkid": 10638,
+    "macro": "PE_GCS_BES2020_SABA_3D",
+    "name": "BES2020_Saba_3D",
+    "wkt": "GEOGCS[\"BES2020_Saba_3D\",DATUM[\"BES2020_Saba\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"BES2020_Saba_3D\",DATUM[\"BES2020_Saba\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "BES2020 Saba (3D)",
+    "authority": "EPSG",
+    "version": "11.023(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Saba onshore",
+    "extent":
+    { "slat": 17.56,
+      "nlat": 17.71,
+      "llon": -63.31,
+      "rlon": -63.16
+    }
+  },
+  { "wkid": 10639,
+    "latestWkid": 10639,
+    "macro": "PE_GCS_BES2020_SABA",
+    "name": "BES2020_Saba",
+    "wkt": "GEOGCS[\"BES2020_Saba\",DATUM[\"BES2020_Saba\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"BES2020_Saba\",DATUM[\"BES2020_Saba\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "BES2020 Saba",
+    "authority": "EPSG",
+    "version": "11.023(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Saba onshore",
+    "extent":
+    { "slat": 17.56,
+      "nlat": 17.71,
+      "llon": -63.31,
+      "rlon": -63.16
+    }
+  },
+  { "wkid": 10670,
+    "latestWkid": 10670,
+    "macro": "PE_GCS_RGM23_3D",
+    "name": "RGM23_3D",
+    "wkt": "GEOGCS[\"RGM23_3D\",DATUM[\"Mayotte_Geodetic_Reference_Frame_2023\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"RGM23_3D\",DATUM[\"Mayotte_Geodetic_Reference_Frame_2023\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGM23 (3D)",
+    "authority": "EPSG",
+    "version": "11.021(13.5.0)",
+    "deprecated": "no",
+    "areaname": "Mayotte",
+    "extent":
+    { "slat": -14.49,
+      "nlat": -11.33,
+      "llon": 43.68,
+      "rlon": 46.7
+    }
+  },
+  { "wkid": 10671,
+    "latestWkid": 10671,
+    "macro": "PE_GCS_RGM23",
+    "name": "RGM23",
+    "wkt": "GEOGCS[\"RGM23\",DATUM[\"Mayotte_Geodetic_Reference_Frame_2023\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"RGM23\",DATUM[\"Mayotte_Geodetic_Reference_Frame_2023\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "RGM23",
+    "authority": "EPSG",
+    "version": "11.021(13.5.0)",
+    "deprecated": "no",
+    "areaname": "Mayotte",
+    "extent":
+    { "slat": -14.49,
+      "nlat": -11.33,
+      "llon": 43.68,
+      "rlon": 46.7
+    }
+  },
+  { "wkid": 10672,
+    "latestWkid": 10672,
+    "macro": "PE_GCS_RGM23_LON_LAT_3D",
+    "name": "RGM23_(lon-lat)_3D",
+    "wkt": "GEOGCS[\"RGM23_(lon-lat)_3D\",DATUM[\"Mayotte_Geodetic_Reference_Frame_2023\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"RGM23_(lon-lat)_3D\",DATUM[\"Mayotte_Geodetic_Reference_Frame_2023\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "RGM23 (lon-lat) (3D)",
+    "authority": "EPSG",
+    "version": "11.021(13.5.0)",
+    "deprecated": "no",
+    "areaname": "Mayotte",
+    "extent":
+    { "slat": -14.49,
+      "nlat": -11.33,
+      "llon": 43.68,
+      "rlon": 46.7
+    }
+  },
+  { "wkid": 10673,
+    "latestWkid": 10673,
+    "macro": "PE_GCS_RGM23_LON_LAT",
+    "name": "RGM23_(lon-lat)",
+    "wkt": "GEOGCS[\"RGM23_(lon-lat)\",DATUM[\"Mayotte_Geodetic_Reference_Frame_2023\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"RGM23_(lon-lat)\",DATUM[\"Mayotte_Geodetic_Reference_Frame_2023\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "RGM23 (lon-lat)",
+    "authority": "EPSG",
+    "version": "11.021(13.5.0)",
+    "deprecated": "no",
+    "areaname": "Mayotte",
+    "extent":
+    { "slat": -14.49,
+      "nlat": -11.33,
+      "llon": 43.68,
+      "rlon": 46.7
+    }
+  },
+  { "wkid": 10689,
+    "latestWkid": 10689,
+    "macro": "PE_GCS_EUREF_FIN_3D",
+    "name": "EUREF_FIN_3D",
+    "wkt": "GEOGCS[\"EUREF_FIN_3D\",DATUM[\"EUREF-FIN\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"EUREF_FIN_3D\",DATUM[\"EUREF-FIN\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "EUREF - Finland (3D)",
+    "authority": "EPSG",
+    "version": "11.024(13.5.0)",
+    "deprecated": "no",
+    "areaname": "Finland",
+    "extent":
+    { "slat": 58.84,
+      "nlat": 70.09,
+      "llon": 19.08,
+      "rlon": 31.59
+    }
+  },
+  { "wkid": 10690,
+    "latestWkid": 10690,
+    "macro": "PE_GCS_EUREF_FIN",
+    "name": "GCS_EUREF_FIN",
+    "wkt": "GEOGCS[\"GCS_EUREF_FIN\",DATUM[\"EUREF-FIN\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_EUREF_FIN\",DATUM[\"EUREF-FIN\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "EUREF - Finland",
+    "authority": "EPSG",
+    "version": "11.024(13.5.0)",
+    "deprecated": "no",
+    "areaname": "Finland",
+    "extent":
+    { "slat": 58.84,
+      "nlat": 70.09,
+      "llon": 19.08,
+      "rlon": 31.59
+    }
+  },
+  { "wkid": 10724,
+    "latestWkid": 10724,
+    "macro": "PE_GCS_UZGD2024_3D",
+    "name": "UZGD2024_3D",
+    "wkt": "GEOGCS[\"UZGD2024_3D\",DATUM[\"Uzbekistan_Geodetic_Datum_2024\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"UZGD2024_3D\",DATUM[\"Uzbekistan_Geodetic_Datum_2024\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "UZGD2024 (3D)",
+    "authority": "EPSG",
+    "version": "11.024(13.5.0)",
+    "deprecated": "no",
+    "areaname": "Uzbekistan",
+    "extent":
+    { "slat": 37.18,
+      "nlat": 45.58,
+      "llon": 55.99,
+      "rlon": 73.17
+    }
+  },
+  { "wkid": 10725,
+    "latestWkid": 10725,
+    "macro": "PE_GCS_UZGD2024",
+    "name": "UZGD2024",
+    "wkt": "GEOGCS[\"UZGD2024\",DATUM[\"Uzbekistan_Geodetic_Datum_2024\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"UZGD2024\",DATUM[\"Uzbekistan_Geodetic_Datum_2024\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "UZGD2024",
+    "authority": "EPSG",
+    "version": "11.024(13.5.0)",
+    "deprecated": "no",
+    "areaname": "Uzbekistan",
+    "extent":
+    { "slat": 37.18,
+      "nlat": 45.58,
+      "llon": 55.99,
+      "rlon": 73.17
+    }
+  },
+  { "wkid": 10735,
+    "latestWkid": 10735,
+    "macro": "PE_GCS_SINT_EUSTATIUS_3D",
+    "name": "Sint_Eustatius_3D",
+    "wkt": "GEOGCS[\"Sint_Eustatius_3D\",DATUM[\"Sint_Eustatius\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"Sint_Eustatius_3D\",DATUM[\"Sint_Eustatius\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Sint Eustatius (3D)",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Sint Eustatius - onshore",
+    "extent":
+    { "slat": 17.41,
+      "nlat": 17.58,
+      "llon": -63.05,
+      "rlon": -62.88
+    }
+  },
+  { "wkid": 10736,
+    "latestWkid": 10736,
+    "macro": "PE_GCS_SINT_EUSTATIUS",
+    "name": "Sint_Eustatius",
+    "wkt": "GEOGCS[\"Sint_Eustatius\",DATUM[\"Sint_Eustatius\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Sint_Eustatius\",DATUM[\"Sint_Eustatius\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Sint Eustatius",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Sint Eustatius - onshore",
+    "extent":
+    { "slat": 17.41,
+      "nlat": 17.58,
+      "llon": -63.05,
+      "rlon": -62.88
+    }
+  },
+  { "wkid": 10738,
+    "latestWkid": 10738,
+    "macro": "PE_GCS_BES2020_SINT_EUSTATIUS_3D",
+    "name": "BES2020_Sint_Eustatius_3D",
+    "wkt": "GEOGCS[\"BES2020_Sint_Eustatius_3D\",DATUM[\"BES2020_Sint_Eustatius\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"BES2020_Sint_Eustatius_3D\",DATUM[\"BES2020_Sint_Eustatius\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "BES2020 Sint Eustatius (3D)",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Sint Eustatius - onshore",
+    "extent":
+    { "slat": 17.41,
+      "nlat": 17.58,
+      "llon": -63.05,
+      "rlon": -62.88
+    }
+  },
+  { "wkid": 10739,
+    "latestWkid": 10739,
+    "macro": "PE_GCS_BES2020_SINT_EUSTATIUS",
+    "name": "BES2020_Sint_Eustatius",
+    "wkt": "GEOGCS[\"BES2020_Sint_Eustatius\",DATUM[\"BES2020_Sint_Eustatius\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"BES2020_Sint_Eustatius\",DATUM[\"BES2020_Sint_Eustatius\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "BES2020 Sint Eustatius",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Sint Eustatius - onshore",
+    "extent":
+    { "slat": 17.41,
+      "nlat": 17.58,
+      "llon": -63.05,
+      "rlon": -62.88
+    }
+  },
+  { "wkid": 10758,
+    "latestWkid": 10758,
+    "macro": "PE_GCS_BONAIRE",
+    "name": "Bonaire",
+    "wkt": "GEOGCS[\"Bonaire\",DATUM[\"Bonaire\",SPHEROID[\"International_1924\",6378388.0,297.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Bonaire\",DATUM[\"Bonaire\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Bonaire",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Bonaire onshore",
+    "extent":
+    { "slat": 11.97,
+      "nlat": 12.36,
+      "llon": -68.47,
+      "rlon": -68.14
+    }
+  },
+  { "wkid": 10761,
+    "latestWkid": 10761,
+    "macro": "PE_GCS_BONAIRE_2004_3D",
+    "name": "Bonaire_2004_3D",
+    "wkt": "GEOGCS[\"Bonaire_2004_3D\",DATUM[\"Bonaire_2004\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"Bonaire_2004_3D\",DATUM[\"Bonaire_2004\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Bonaire 2004 (3D)",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Bonaire onshore",
+    "extent":
+    { "slat": 11.97,
+      "nlat": 12.36,
+      "llon": -68.47,
+      "rlon": -68.14
+    }
+  },
+  { "wkid": 10762,
+    "latestWkid": 10762,
+    "macro": "PE_GCS_BONAIRE_2004",
+    "name": "Bonaire_2004",
+    "wkt": "GEOGCS[\"Bonaire_2004\",DATUM[\"Bonaire_2004\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"Bonaire_2004\",DATUM[\"Bonaire_2004\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "Bonaire 2004",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "BES Islands - Bonaire onshore",
+    "extent":
+    { "slat": 11.97,
+      "nlat": 12.36,
+      "llon": -68.47,
+      "rlon": -68.14
+    }
+  },
+  { "wkid": 10780,
+    "latestWkid": 10780,
+    "macro": "PE_GCS_ITRF_2020_U2023_3D",
+    "name": "ITRF2020-u2023_3D",
+    "wkt": "GEOGCS[\"ITRF2020-u2023_3D\",DATUM[\"International_Terrestrial_Reference_Frame_2020-u2023\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"ITRF2020-u2023_3D\",DATUM[\"International_Terrestrial_Reference_Frame_2020-u2023\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "ITRF2020-u2023 (3D)",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 10781,
+    "latestWkid": 10781,
+    "macro": "PE_GCS_ITRF_2020_U2023",
+    "name": "ITRF2020-u2023",
+    "wkt": "GEOGCS[\"ITRF2020-u2023\",DATUM[\"International_Terrestrial_Reference_Frame_2020-u2023\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"ITRF2020-u2023\",DATUM[\"International_Terrestrial_Reference_Frame_2020-u2023\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "ITRF2020-u2023",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 10784,
+    "latestWkid": 10784,
+    "macro": "PE_GCS_IGB20_3D",
+    "name": "IGb20_3D",
+    "wkt": "GEOGCS[\"IGb20_3D\",DATUM[\"IGb20\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"IGb20_3D\",DATUM[\"IGb20\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "IGb20 (3D)",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 10785,
+    "latestWkid": 10785,
+    "macro": "PE_GCS_IGB20",
+    "name": "IGb20",
+    "wkt": "GEOGCS[\"IGb20\",DATUM[\"IGb20\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"IGb20\",DATUM[\"IGb20\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "IGb20",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no",
+    "areaname": "World",
+    "extent":
+    { "slat": -90.0,
+      "nlat": 90.0,
+      "llon": -180.0,
+      "rlon": 180.0
+    }
+  },
+  { "wkid": 10799,
+    "latestWkid": 10799,
+    "macro": "PE_GCS_LIBREF21_3D",
+    "name": "LibRef21_3D",
+    "wkt": "GEOGCS[\"LibRef21_3D\",DATUM[\"Liberia_Reference_Frame_2021\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"LibRef21_3D\",DATUM[\"Liberia_Reference_Frame_2021\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "LibRef21 (3D)",
+    "authority": "EPSG",
+    "version": "12.001(13.5.0)",
+    "deprecated": "no",
+    "areaname": "Liberia",
+    "extent":
+    { "slat": 1.02,
+      "nlat": 8.52,
+      "llon": -13.59,
+      "rlon": -7.36
+    }
+  },
+  { "wkid": 10800,
+    "latestWkid": 10800,
+    "macro": "PE_GCS_LIBREF21",
+    "name": "LibRef21",
+    "wkt": "GEOGCS[\"LibRef21\",DATUM[\"Liberia_Reference_Frame_2021\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"LibRef21\",DATUM[\"Liberia_Reference_Frame_2021\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "description": "LibRef21",
+    "authority": "EPSG",
+    "version": "12.001(13.5.0)",
+    "deprecated": "no",
+    "areaname": "Liberia",
+    "extent":
+    { "slat": 1.02,
+      "nlat": 8.52,
+      "llon": -13.59,
+      "rlon": -7.36
     }
   },
   { "wkid": 20033,
@@ -15996,7 +16446,7 @@
     "description": "WGS 1966",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -16142,7 +16592,7 @@
     "description": "European 1979",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - west",
     "extent":
     { "slat": 34.88,
@@ -16196,7 +16646,7 @@
     "description": "Hjorsey 1955",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Iceland - mainland",
     "extent":
     { "slat": 63.34,
@@ -16214,8 +16664,8 @@
     "description": "Hong Kong 1963(67)",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
-    "areaname": "China - Hong Kong",
+    "deprecated": "codechange",
+    "areaname": "Hong Kong",
     "extent":
     { "slat": 22.13,
       "nlat": 22.58,
@@ -16268,7 +16718,7 @@
     "description": "Ayabelle Lighthouse",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Djibouti",
     "extent":
     { "slat": 10.94,
@@ -16286,7 +16736,7 @@
     "description": "Point 58",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Africa - 12th parallel N",
     "extent":
     { "slat": 10.26,
@@ -16304,7 +16754,7 @@
     "description": "Astro Beacon E 1945 (Iwo Jima 1945)",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Japan - Iwo Jima",
     "extent":
     { "slat": 24.67,
@@ -16322,7 +16772,7 @@
     "description": "Tern Island Astro 1961",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "USA - Hawaii - Tern Island and Sorel Atoll",
     "extent":
     { "slat": 23.69,
@@ -16340,7 +16790,7 @@
     "description": "Astronomical Station 1952 (Marcus Island 1952)",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Japan - Minamitori-shima (Marcus Island) - onshore",
     "extent":
     { "slat": 24.22,
@@ -16358,7 +16808,7 @@
     "description": "Bellevue IGN",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Vanuatu - southern islands",
     "extent":
     { "slat": -20.31,
@@ -16376,7 +16826,7 @@
     "description": "Canton Astro 1966 (Phoenix islands 1966)",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Kiribati - Phoenix Islands",
     "extent":
     { "slat": -4.76,
@@ -16394,7 +16844,7 @@
     "description": "Chatham Island Astro 1971",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "New Zealand - Chatham Islands group",
     "extent":
     { "slat": -44.64,
@@ -16430,7 +16880,7 @@
     "description": "Easter Island 1967",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Chile - Easter Island onshore",
     "extent":
     { "slat": -27.25,
@@ -16448,7 +16898,7 @@
     "description": "Guam 1963",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Pacific - US interests Mariana plate",
     "extent":
     { "slat": 1.64,
@@ -16484,7 +16934,7 @@
     "description": "Johnston Island 1961",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Johnston Island",
     "extent":
     { "slat": 16.67,
@@ -16502,7 +16952,7 @@
     "description": "Carthage",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Tunisia",
     "extent":
     { "slat": 30.23,
@@ -16520,7 +16970,7 @@
     "description": "Midway Astro 1961",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Midway Islands - Sand and Eastern Islands",
     "extent":
     { "slat": 28.13,
@@ -16556,7 +17006,7 @@
     "description": "Pitcairn Astro 1967",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Pitcairn - Pitcairn Island",
     "extent":
     { "slat": -25.14,
@@ -16574,7 +17024,7 @@
     "description": "Santo DOS 1965",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Vanuatu - northern islands",
     "extent":
     { "slat": -17.32,
@@ -16592,7 +17042,7 @@
     "description": "Viti Levu 1916",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Fiji - Viti Levu",
     "extent":
     { "slat": -18.32,
@@ -16610,7 +17060,7 @@
     "description": "Wake-Eniwetok 1960 (Marshall Islands 1960)",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Pacific - Marshall Islands, Wake - onshore",
     "extent":
     { "slat": 8.66,
@@ -16628,7 +17078,7 @@
     "description": "Wake Island Astro 1952",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Wake - onshore",
     "extent":
     { "slat": 19.22,
@@ -16646,7 +17096,7 @@
     "description": "Anna 1 Astro 1965 (Cocos Islands 1965)",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Cocos (Keeling) Islands - onshore",
     "extent":
     { "slat": -12.27,
@@ -16664,7 +17114,7 @@
     "description": "Gan 1970",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Maldives - onshore",
     "extent":
     { "slat": -0.69,
@@ -16682,7 +17132,7 @@
     "description": "ISTS 073 Astro 1969 (Diego Garcia 1969)",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "British Indian Ocean Territory - Diego Garcia",
     "extent":
     { "slat": -7.49,
@@ -16700,7 +17150,7 @@
     "description": "Kerguelen Island 1949",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "French Southern Territories - Kerguelen onshore",
     "extent":
     { "slat": -49.78,
@@ -16718,7 +17168,7 @@
     "description": "Reunion 1947",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Reunion - onshore",
     "extent":
     { "slat": -21.42,
@@ -16736,7 +17186,7 @@
     "description": "Ascension Island 1958",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "St Helena - Ascension Island",
     "extent":
     { "slat": -8.03,
@@ -16754,7 +17204,7 @@
     "description": "Astro DOS 71/4 (St. Helena 1971)",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "St Helena - St Helena Island",
     "extent":
     { "slat": -16.08,
@@ -16772,7 +17222,7 @@
     "description": "Cape Canaveral",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "North America - Bahamas and USA - Florida - onshore",
     "extent":
     { "slat": 20.86,
@@ -16826,7 +17276,7 @@
     "description": "ISTS 061 Astro 1968 (South Georgia 1968)",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "South Georgia - onshore",
     "extent":
     { "slat": -54.95,
@@ -16880,7 +17330,7 @@
     "description": "Pico de Las Nieves",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Spain - Canary Islands onshore",
     "extent":
     { "slat": 27.58,
@@ -16898,7 +17348,7 @@
     "description": "Porto Santo 1936",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Portugal - Madeira archipelago onshore",
     "extent":
     { "slat": 32.35,
@@ -16934,7 +17384,7 @@
     "description": "Selvagem Grande 1938",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Portugal - Selvagens onshore",
     "extent":
     { "slat": 29.98,
@@ -16952,7 +17402,7 @@
     "description": "Tristan Astro 1968",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "St Helena - Tristan da Cunha",
     "extent":
     { "slat": -40.42,
@@ -16970,7 +17420,7 @@
     "description": "American Samoa 1962",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "American Samoa - 2 main island groups",
     "extent":
     { "slat": -14.43,
@@ -16988,7 +17438,7 @@
     "description": "Camp Area Astro",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Antarctica - Camp McMurdo area",
     "extent":
     { "slat": -77.94,
@@ -17006,7 +17456,7 @@
     "description": "Deception Island",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Antarctica - Deception Island",
     "extent":
     { "slat": -63.08,
@@ -17024,7 +17474,7 @@
     "description": "Gunung Segara",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Indonesia - Kalimantan E",
     "extent":
     { "slat": -4.24,
@@ -17060,7 +17510,7 @@
     "description": "Kusaie Astro 1951",
     "authority": "Esri",
     "version": "4.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Micronesia - Kosrae (Kusaie)",
     "extent":
     { "slat": 5.21,
@@ -17114,7 +17564,7 @@
     "description": "Kyrg-06",
     "authority": "Esri",
     "version": "10.3.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Kyrgyzstan",
     "extent":
     { "slat": 39.19,
@@ -17132,7 +17582,7 @@
     "description": "IGS08",
     "authority": "Esri",
     "version": "10.4.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17152,7 +17602,7 @@
     "description": "World Geodetic System 1984 (G730)",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17172,7 +17622,7 @@
     "description": "World Geodetic System 1984 (G873)",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17192,7 +17642,7 @@
     "description": "World Geodetic System 1984 (G1150)",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17212,7 +17662,7 @@
     "description": "World Geodetic System 1984 (G1674)",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17232,7 +17682,7 @@
     "description": "World Geodetic System 1984 (G1762)",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17252,7 +17702,7 @@
     "description": "World Geodetic System 1984 (Transit)",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17272,7 +17722,7 @@
     "description": "Parametry Zemli 1990.02",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17292,7 +17742,7 @@
     "description": "Parametry Zemli 1990.11",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17312,7 +17762,7 @@
     "description": "ITRF2014",
     "authority": "Esri",
     "version": "10.5.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17332,7 +17782,7 @@
     "description": "JGD 2011 touhokutaiheiyouoki - was 104020",
     "authority": "Esri",
     "version": "10.1.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Japan",
     "extent":
     { "slat": 17.09,
@@ -17350,7 +17800,7 @@
     "description": "IGS14",
     "authority": "Esri",
     "version": "10.6.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17460,7 +17910,7 @@
     "description": "ONGD17",
     "authority": "Esri",
     "version": "10.7.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Oman",
     "extent":
     { "slat": 14.33,
@@ -17532,7 +17982,7 @@
     "description": "GDBD2009 - Brunei",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Brunei",
     "extent":
     { "slat": 4.01,
@@ -17604,8 +18054,8 @@
     "description": "Hong Kong 1980",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes",
-    "areaname": "China - Hong Kong",
+    "deprecated": "codechange",
+    "areaname": "Hong Kong",
     "extent":
     { "slat": 22.13,
       "nlat": 22.58,
@@ -17658,7 +18108,7 @@
     "description": "Reseau Geodesique Francais 1993",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "France",
     "extent":
     { "slat": 41.15,
@@ -17676,7 +18126,7 @@
     "description": "New Zealand Geodetic Datum 2000",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "New Zealand",
     "extent":
     { "slat": -55.95,
@@ -17712,7 +18162,7 @@
     "description": "REGVEN",
     "authority": "Esri",
     "version": "8.1.2",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Venezuela",
     "extent":
     { "slat": 0.64,
@@ -17730,7 +18180,7 @@
     "description": "Japan Geodetic Datum 2000",
     "authority": "Esri",
     "version": "8.1.2",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Japan",
     "extent":
     { "slat": 17.09,
@@ -17784,7 +18234,7 @@
     "description": "Bermuda 2000 - was 104114",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Bermuda",
     "extent":
     { "slat": 28.91,
@@ -17802,7 +18252,7 @@
     "description": "IERS Terrestrial Reference Frame 1988",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17822,7 +18272,7 @@
     "description": "IERS Terrestrial Reference Frame 1989",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17842,7 +18292,7 @@
     "description": "IERS Terrestrial Reference Frame 1990",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17862,7 +18312,7 @@
     "description": "IERS Terrestrial Reference Frame 1991",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17882,7 +18332,7 @@
     "description": "IERS Terrestrial Reference Frame 1992",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17902,7 +18352,7 @@
     "description": "IERS Terrestrial Reference Frame 1993",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17922,7 +18372,7 @@
     "description": "IERS Terrestrial Reference Frame 1994",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17942,7 +18392,7 @@
     "description": "IERS Terrestrial Reference Frame 1996",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17962,7 +18412,7 @@
     "description": "IERS Terrestrial Reference Frame 1997",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -17982,7 +18432,7 @@
     "description": "IERS Terrestrial Reference Frame 2000",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -18002,7 +18452,7 @@
     "description": "Chatham Islands 1979",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "New Zealand - Chatham Islands group",
     "extent":
     { "slat": -44.64,
@@ -18021,7 +18471,7 @@
     "authority": "Esri",
     "version": "9.0.0",
     "deprecated": "no",
-    "areaname": "China - Macao",
+    "areaname": "Macao",
     "extent":
     { "slat": 22.06,
       "nlat": 22.23,
@@ -18066,15 +18516,15 @@
     }
   },
   { "wkid": 104129,
-    "latestWkid": 104129,
+    "latestWkid": 10690,
     "macro": "PE_GCS_EUREF_FIN",
     "name": "GCS_EUREF_FIN",
-    "wkt": "GEOGCS[\"GCS_EUREF_FIN\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
-    "wkt2": "GEOGCRS[\"GCS_EUREF_FIN\",DATUM[\"D_ETRS_1989\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Longitude (lon)\",east,ORDER[1]],AXIS[\"Latitude (lat)\",north,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
+    "wkt": "GEOGCS[\"GCS_EUREF_FIN\",DATUM[\"EUREF-FIN\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "wkt2": "GEOGCRS[\"GCS_EUREF_FIN\",DATUM[\"EUREF-FIN\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"Latitude (lat)\",north,ORDER[1]],AXIS[\"Longitude (lon)\",east,ORDER[2]],ANGLEUNIT[\"Degree\",0.0174532925199433]]",
     "description": "EUREF - Finland",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "no",
+    "deprecated": "codechange",
     "areaname": "Finland",
     "extent":
     { "slat": 58.84,
@@ -18128,7 +18578,7 @@
     "description": "Ocotepeque 1935",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Central America - Guatemala to Costa Rica",
     "extent":
     { "slat": 7.98,
@@ -18146,7 +18596,7 @@
     "description": "JAD 2001 (Jamaica 2001)",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Jamaica",
     "extent":
     { "slat": 14.08,
@@ -18202,7 +18652,7 @@
     "description": "Taiwan 1967",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Taiwan - onshore - mainland and Penghu",
     "extent":
     { "slat": 21.87,
@@ -18220,7 +18670,7 @@
     "description": "Taiwan 1997",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Taiwan",
     "extent":
     { "slat": 17.36,
@@ -18292,7 +18742,7 @@
     "description": "CGRS 1993",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Cyprus - onshore",
     "extent":
     { "slat": 34.59,
@@ -18310,7 +18760,7 @@
     "description": "PTRA08",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Portugal - Azores and Madeira",
     "extent":
     { "slat": 29.24,
@@ -18328,7 +18778,7 @@
     "description": "CR05 (Costa Rica 2005)",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Costa Rica",
     "extent":
     { "slat": 2.15,
@@ -18346,7 +18796,7 @@
     "description": "Islands Network 2004",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Iceland",
     "extent":
     { "slat": 59.96,
@@ -18364,7 +18814,7 @@
     "description": "NAD 1983 (2011)",
     "authority": "Esri",
     "version": "10.1.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "USA - CONUS and Alaska; PRVI",
     "extent":
     { "slat": 14.92,
@@ -18384,7 +18834,7 @@
     "description": "ETRF90",
     "authority": "Esri",
     "version": "10.6.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - ETRF",
     "extent":
     { "slat": 33.26,
@@ -18404,7 +18854,7 @@
     "description": "ETRF91",
     "authority": "Esri",
     "version": "10.6.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - ETRF",
     "extent":
     { "slat": 33.26,
@@ -18424,7 +18874,7 @@
     "description": "ETRF92",
     "authority": "Esri",
     "version": "10.6.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - ETRF",
     "extent":
     { "slat": 33.26,
@@ -18444,7 +18894,7 @@
     "description": "ETRF93",
     "authority": "Esri",
     "version": "10.6.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - ETRF",
     "extent":
     { "slat": 33.26,
@@ -18464,7 +18914,7 @@
     "description": "ETRF94",
     "authority": "Esri",
     "version": "10.6.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - ETRF",
     "extent":
     { "slat": 33.26,
@@ -18484,7 +18934,7 @@
     "description": "ETRF96",
     "authority": "Esri",
     "version": "10.6.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - ETRF",
     "extent":
     { "slat": 33.26,
@@ -18504,7 +18954,7 @@
     "description": "ETRF97",
     "authority": "Esri",
     "version": "10.6.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - ETRF",
     "extent":
     { "slat": 33.26,
@@ -18524,7 +18974,7 @@
     "description": "ETRF2000",
     "authority": "Esri",
     "version": "10.6.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - ETRF",
     "extent":
     { "slat": 33.26,
@@ -18544,7 +18994,7 @@
     "description": "Major auxiliary sphere based on WGS 1984",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -18562,7 +19012,7 @@
     "description": "NAD 1983 (CORS96)",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "USA - CONUS and Alaska; PRVI",
     "extent":
     { "slat": 14.92,
@@ -18582,8 +19032,8 @@
     "description": "Macao 2008 (ITRF 2005)",
     "authority": "Esri",
     "version": "10.3.1",
-    "deprecated": "yes",
-    "areaname": "China - Macao",
+    "deprecated": "codechange",
+    "areaname": "Macao",
     "extent":
     { "slat": 22.06,
       "nlat": 22.23,
@@ -18600,7 +19050,7 @@
     "description": "Nepal Nagarkot",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Nepal",
     "extent":
     { "slat": 26.34,
@@ -18618,7 +19068,7 @@
     "description": "ITRF 2008 (104257)",
     "authority": "Esri",
     "version": "10.1.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -18638,7 +19088,7 @@
     "description": "European Terrestrial Ref.Frame 1989",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - ETRF",
     "extent":
     { "slat": 33.26,
@@ -18658,7 +19108,7 @@
     "description": "NAD 1983 PACP00",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Pacific - US interests Pacific plate",
     "extent":
     { "slat": -17.56,
@@ -18678,7 +19128,7 @@
     "description": "NAD 1983 MARP00",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Pacific - US interests Mariana plate",
     "extent":
     { "slat": 1.64,
@@ -18698,7 +19148,7 @@
     "description": "Merchich (104261 was a duplicate)",
     "authority": "Esri",
     "version": "3.0.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Africa - Morocco and Western Sahara - onshore",
     "extent":
     { "slat": 20.71,
@@ -18716,7 +19166,7 @@
     "description": "NAD 1983 (MA11) - Marianas Plate 2011",
     "authority": "Esri",
     "version": "10.1.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Pacific - US interests Mariana plate",
     "extent":
     { "slat": 1.64,
@@ -18736,7 +19186,7 @@
     "description": "NAD 1983 (PA11) - Pacific Plate 2011",
     "authority": "Esri",
     "version": "10.1.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "NAD83 PA11 - US interests Pacific plate",
     "extent":
     { "slat": -17.56,
@@ -18756,7 +19206,7 @@
     "description": "Voirol 1875",
     "authority": "Esri",
     "version": "8.0.1",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Algeria - north of 32~N",
     "extent":
     { "slat": 31.99,
@@ -18802,15 +19252,15 @@
     }
   },
   { "wkid": 104613,
-    "latestWkid": 104613,
+    "latestWkid": 10689,
     "macro": "PE_GCS_EUREF_FIN_3D",
     "name": "EUREF_FIN_3D",
-    "wkt": "GEOGCS[\"EUREF_FIN_3D\",DATUM[\"D_ETRS_1989\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
-    "wkt2": "GEOGCRS[\"EUREF_FIN_3D\",DATUM[\"D_ETRS_1989\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Longitude (lon)\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Latitude (lat)\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
+    "wkt": "GEOGCS[\"EUREF_FIN_3D\",DATUM[\"EUREF-FIN\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433],LINUNIT[\"Meter\",1.0]]",
+    "wkt2": "GEOGCRS[\"EUREF_FIN_3D\",DATUM[\"EUREF-FIN\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]],PRIMEM[\"Greenwich\",0.0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,3],AXIS[\"Latitude (lat)\",north,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Longitude (lon)\",east,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"Ellipsoidal height (h)\",up,ORDER[3],LENGTHUNIT[\"Meter\",1.0]]]",
     "description": "EUREF - Finland (3D)",
     "authority": "Esri",
     "version": "12.7.0",
-    "deprecated": "no",
+    "deprecated": "codechange",
     "areaname": "Finland",
     "extent":
     { "slat": 58.84,
@@ -18884,7 +19334,7 @@
     "description": "ONGD17 (3D)",
     "authority": "Esri",
     "version": "12.7.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Oman",
     "extent":
     { "slat": 14.33,
@@ -22018,7 +22468,7 @@
     "description": "ITRF 2005",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "World",
     "extent":
     { "slat": -90.0,
@@ -23712,7 +24162,7 @@
     "description": "Hungarian Datum 1909",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Hungary",
     "extent":
     { "slat": 45.74,
@@ -23730,7 +24180,7 @@
     "description": "Iraqi Geospatial Reference System",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Iraq",
     "extent":
     { "slat": 29.06,
@@ -23748,7 +24198,7 @@
     "description": "MGI 1901",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes",
+    "deprecated": "codechange",
     "areaname": "Europe - former Yugoslavia onshore",
     "extent":
     { "slat": 40.85,

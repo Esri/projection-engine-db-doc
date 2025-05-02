@@ -1049,6 +1049,16 @@ PE_D_BRENNER_BASE_TUNNEL_2000, \
    PE_S_WGS_1984,
    ""
 
+PE_D_SABA, \
+   "Saba", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_BES2020_SABA, \
+   "BES2020_Saba", \
+   PE_S_GRS_1980,
+   ""
+
 PE_D_EUROPEAN_TERRESTRIAL_REFERENCE_FRAME_2020, \
    "European_Terrestrial_Reference_Frame_2020", \
    PE_S_GRS_1980,
@@ -1066,6 +1076,56 @@ PE_D_ECML14_INTERMEDIATE_REFERENCE_FRAME, \
 
 PE_D_WC05_INTERMEDIATE_REFERENCE_FRAME, \
    "WC05_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_MAYOTTE_GEODETIC_REFERENCE_FRAME_2023, \
+   "Mayotte_Geodetic_Reference_Frame_2023", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_EUREF_FIN, \
+   "EUREF-FIN", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_UZBEKISTAN_GEODETIC_DATUM_2024, \
+   "Uzbekistan_Geodetic_Datum_2024", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SINT_EUSTATIUS, \
+   "Sint_Eustatius", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_BES2020_SINT_EUSTATIUS, \
+   "BES2020_Sint_Eustatius", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_BONAIRE, \
+   "Bonaire", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
+PE_D_BONAIRE_2004, \
+   "Bonaire_2004", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_ITRF_2020_U2023, \
+   "International_Terrestrial_Reference_Frame_2020-u2023", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_IGB20, \
+   "IGb20", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_LIBERIA_REFERENCE_FRAME_2021, \
+   "Liberia_Reference_Frame_2021", \
    PE_S_GRS_1980,
    ""
 

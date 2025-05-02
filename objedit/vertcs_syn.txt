@@ -159,20 +159,30 @@
    FALSE, \
    "EPSG"
 
-"EGM2008 height", \
-   "EGM2008_Geoid", \
+"EGM2008_Geoid", \
+   "EGM2008_height", \
    FALSE, \
-   "EPSG"
+   ""
 
-"EGM84 height", \
-   "EGM84_Geoid", \
+"EGM84_Geoid", \
+   "EGM84_height", \
    FALSE, \
-   "EPSG"
+   ""
 
-"EGM96 height", \
-   "EGM96_Geoid", \
+"EGM96_Geoid", \
+   "EGM96_height", \
    FALSE, \
-   "EPSG"
+   ""
+
+"EGM96_Geoid_(ftIntl)", \
+   "EGM96_height_(ftIntl)", \
+   FALSE, \
+   ""
+
+"EGM96_Geoid_(ftUS)", \
+   "EGM96_height_(ftUS)", \
+   FALSE, \
+   ""
 
 "EOMA 1980 height", \
    "EOMA_1980", \

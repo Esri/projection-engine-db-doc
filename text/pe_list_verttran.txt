@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2024 Esri Inc.                                            #
+#  Copyright 1999-2025 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -3052,7 +3052,7 @@ Description : Hong Kong Principal height to Hong Kong Chart depth (1)
 Authority   : EPSG
 Version     : 6.12(9.3.0.0)
 Deprecated  : yes
-Area-name   : China - Hong Kong
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -5125,7 +5125,7 @@ WKT2        : COORDINATEOPERATION["Baltic_To_EVRS_2000_2",
 Description : Lithuania - onshore
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Lithuania - onshore
 Area-slat   : 53.89
 Area-nlat   : 56.45
@@ -6233,7 +6233,7 @@ Description : China - Hong Kong - deprecated
 Authority   : EPSG
 Version     : 6.12(10.2.0)
 Deprecated  : yes
-Area-name   : China - Hong Kong
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -7240,7 +7240,7 @@ Latest-WKID : 7653
 Macro       : PE_VT_EGM96_HT_TO_KUMUL_34_HT_1
 Name        : EGM96_height_To_Kumul_34_height_1
 WKT         : VERTTRAN["EGM96_height_To_Kumul_34_height_1",
-               VERTCS["EGM96_Geoid",
+               VERTCS["EGM96_height",
                 
                VDATUM["EGM96_Geoid"],
                 
@@ -7262,7 +7262,7 @@ WKT         : VERTTRAN["EGM96_height_To_Kumul_34_height_1",
                PARAMETER["Vertical_Offset", -0.87],
                OPERATIONACCURACY[0.0]]
 WKT2        : COORDINATEOPERATION["EGM96_height_To_Kumul_34_height_1",
-               SOURCECRS[VERTCRS["EGM96_Geoid",
+               SOURCECRS[VERTCRS["EGM96_height",
                  
                VDATUM["EGM96_Geoid"],
                  
@@ -7300,7 +7300,7 @@ Latest-WKID : 7654
 Macro       : PE_VT_EGM2008_HT_TO_KIUNGA_HT_1
 Name        : EGM2008_height_To_Kiunga_height_1
 WKT         : VERTTRAN["EGM2008_height_To_Kiunga_height_1",
-               VERTCS["EGM2008_Geoid",
+               VERTCS["EGM2008_height",
                 
                VDATUM["EGM2008_Geoid"],
                 
@@ -7322,7 +7322,7 @@ WKT         : VERTTRAN["EGM2008_height_To_Kiunga_height_1",
                PARAMETER["Vertical_Offset", -3.0],
                OPERATIONACCURACY[0.0]]
 WKT2        : COORDINATEOPERATION["EGM2008_height_To_Kiunga_height_1",
-               SOURCECRS[VERTCRS["EGM2008_Geoid",
+               SOURCECRS[VERTCRS["EGM2008_height",
                  
                VDATUM["EGM2008_Geoid"],
                  
@@ -8114,7 +8114,7 @@ Description : Isle of Man onshore
 Authority   : Esri
 Version     : 12.9.0
 Deprecated  : no
-Area-name   : Isle of Man - onshore
+Area-name   : Isle of Man
 Area-slat   : 54.02
 Area-nlat   : 54.44
 Area-llon   : -4.87
@@ -9203,7 +9203,7 @@ Latest-WKID : 7873
 Macro       : PE_VT_EGM96_HT_TO_POM96_HT_1
 Name        : EGM96_height_to_POM96_height_1
 WKT         : VERTTRAN["EGM96_height_to_POM96_height_1",
-               VERTCS["EGM96_Geoid",
+               VERTCS["EGM96_height",
                 
                VDATUM["EGM96_Geoid"],
                 
@@ -9225,7 +9225,7 @@ WKT         : VERTTRAN["EGM96_height_to_POM96_height_1",
                PARAMETER["Vertical_Offset", -1.58],
                OPERATIONACCURACY[0.0]]
 WKT2        : COORDINATEOPERATION["EGM96_height_to_POM96_height_1",
-               SOURCECRS[VERTCRS["EGM96_Geoid",
+               SOURCECRS[VERTCRS["EGM96_height",
                  
                VDATUM["EGM96_Geoid"],
                  
@@ -9264,7 +9264,7 @@ Latest-WKID : 7874
 Macro       : PE_VT_EGM2008_HT_TO_POM08_HT_1
 Name        : EGM2008_height_to_POM08_height_1
 WKT         : VERTTRAN["EGM2008_height_to_POM08_height_1",
-               VERTCS["EGM2008_Geoid",
+               VERTCS["EGM2008_height",
                 
                VDATUM["EGM2008_Geoid"],
                 
@@ -9286,7 +9286,7 @@ WKT         : VERTTRAN["EGM2008_height_to_POM08_height_1",
                PARAMETER["Vertical_Offset", -0.93],
                OPERATIONACCURACY[0.0]]
 WKT2        : COORDINATEOPERATION["EGM2008_height_to_POM08_height_1",
-               SOURCECRS[VERTCRS["EGM2008_Geoid",
+               SOURCECRS[VERTCRS["EGM2008_height",
                  
                VDATUM["EGM2008_Geoid"],
                  
@@ -15322,8 +15322,8 @@ Accuracy    : 0.13
 WKID        : 9559
 Latest-WKID : 9559
 Macro       : PE_VT_LHN95_TO_EVRF2019
-Name        : LHN95_Height_To_EVRF2019_Height_2
-WKT         : VERTTRAN["LHN95_Height_To_EVRF2019_Height_2",
+Name        : LHN95_Height_To_EVRF2019_Height_2_deprecated
+WKT         : VERTTRAN["LHN95_Height_To_EVRF2019_Height_2_deprecated",
                GEOGCS["GCS_ETRS_1989",
                 DATUM["D_ETRS_1989",
                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
@@ -15350,7 +15350,7 @@ WKT         : VERTTRAN["LHN95_Height_To_EVRF2019_Height_2",
                VTMETHOD["Vertical_Offset_with_Grid"],
                PARAMETER["Dataset_ch_2019z", 0.0],
                OPERATIONACCURACY[0.146]]
-WKT2        : COORDINATEOPERATION["LHN95_Height_To_EVRF2019_Height_2",
+WKT2        : COORDINATEOPERATION["LHN95_Height_To_EVRF2019_Height_2_deprecated",
                SOURCECRS[VERTCRS["LHN95",
                  
                VDATUM["Landeshohennetz_1995"],
@@ -15384,10 +15384,10 @@ WKT2        : COORDINATEOPERATION["LHN95_Height_To_EVRF2019_Height_2",
                METHOD["Vertical_Offset_with_Grid"],
                PARAMETERFILE["ch_2019z"],
                OPERATIONACCURACY[0.146]]
-Description : LHN95 height to EVRF2019 height (2)
+Description : LHN95 height to EVRF2019 height (2) (wrong, use 110227)
 Authority   : EPSG
 Version     : 10.008(12.9.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - Liechtenstein and Switzerland
 Area-slat   : 45.82
 Area-nlat   : 47.81
@@ -15398,8 +15398,8 @@ Accuracy    : 0.146
 WKID        : 9560
 Latest-WKID : 9560
 Macro       : PE_VT_LHN95_TO_EVRF2019_MT
-Name        : LHN95_Height_To_EVRF2019_Mean-Tide_Height_2
-WKT         : VERTTRAN["LHN95_Height_To_EVRF2019_Mean-Tide_Height_2",
+Name        : LHN95_Height_To_EVRF2019_Mean-Tide_Height_2_deprecated
+WKT         : VERTTRAN["LHN95_Height_To_EVRF2019_Mean-Tide_Height_2_deprecated",
                GEOGCS["GCS_ETRS_1989",
                 DATUM["D_ETRS_1989",
                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
@@ -15426,7 +15426,7 @@ WKT         : VERTTRAN["LHN95_Height_To_EVRF2019_Mean-Tide_Height_2",
                VTMETHOD["Vertical_Offset_with_Grid"],
                PARAMETER["Dataset_ch_2019m", 0.0],
                OPERATIONACCURACY[0.142]]
-WKT2        : COORDINATEOPERATION["LHN95_Height_To_EVRF2019_Mean-Tide_Height_2",
+WKT2        : COORDINATEOPERATION["LHN95_Height_To_EVRF2019_Mean-Tide_Height_2_deprecated",
                SOURCECRS[VERTCRS["LHN95",
                  
                VDATUM["Landeshohennetz_1995"],
@@ -15460,10 +15460,11 @@ WKT2        : COORDINATEOPERATION["LHN95_Height_To_EVRF2019_Mean-Tide_Height_2",
                METHOD["Vertical_Offset_with_Grid"],
                PARAMETERFILE["ch_2019m"],
                OPERATIONACCURACY[0.142]]
-Description : LHN95 height to EVRF2019 mean-tide height (2)
+Description : LHN95 height to EVRF2019 mean-tide height (2) (wrong, use
+              110228)
 Authority   : EPSG
 Version     : 10.008(12.9.0)
-Deprecated  : no
+Deprecated  : yes
 Area-name   : Europe - Liechtenstein and Switzerland
 Area-slat   : 45.82
 Area-nlat   : 47.81
@@ -20497,7 +20498,7 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1996_Geoid_1",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM96_Geoid",
+               VERTCS["EGM96_height",
                 
                VDATUM["EGM96_Geoid"],
                 
@@ -20527,7 +20528,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1996_Geoid_1",
                AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM96_Geoid",
+               TARGETCRS[VERTCRS["EGM96_height",
                  
                VDATUM["EGM96_Geoid"],
                  
@@ -20556,7 +20557,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1996_Geoid_1",
 Description : WGS84 EH to EGM96 GH Bilin
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -21900,6 +21901,1132 @@ Area-llon   : 12.09
 Area-rlon   : 18.86
 Accuracy    : 0.03
 
+WKID        : 10590
+Latest-WKID : 10590
+Macro       : PE_VT_NAD83CSRSV2_TO_CGVD28_HTV2_HT_1
+Name        : NAD83(CSRS)v2_To_CGVD28(HTv2_0)_Height_1
+WKT         : VERTTRAN["NAD83(CSRS)v2_To_CGVD28(HTv2_0)_Height_1",
+               GEOGCS["NAD83(CSRS)v2",
+                DATUM["North_American_Datum_of_1983_(CSRS)_version_2",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD83(CSRS)v2",
+                
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_2",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["CGVD28(HTv2_0)_height",
+                
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0],
+               PARAMETER["Dataset_HT2_1997", 0.0],
+               OPERATIONACCURACY[0.01]]
+WKT2        : COORDINATEOPERATION["NAD83(CSRS)v2_To_CGVD28(HTv2_0)_Height_1",
+               SOURCECRS[VERTCRS["NAD83(CSRS)v2",
+                 
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_2",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["CGVD28(HTv2_0)_height",
+                 
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["NAD83(CSRS)v2",
+                 DATUM["North_American_Datum_of_1983_(CSRS)_version_2",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0,
+                SCALEUNIT["Unity", 1.0]],
+               PARAMETERFILE["HT2_1997"],
+               OPERATIONACCURACY[0.01]]
+Description : NAD83(CSRS)v2 to CGVD28(HTv2.0) height (1)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Canada - CGVD28(HTv2.0)
+Area-slat   : 41.0
+Area-nlat   : 84.0
+Area-llon   : -141.01
+Area-rlon   : -48.0
+Accuracy    : 0.01
+
+WKID        : 10609
+Latest-WKID : 10609
+Macro       : PE_VT_NAD83CSRSV3_TO_CGVD28_HTV2_HT_1
+Name        : NAD83(CSRS)v3_To_CGVD28(HTv2_0)_Height_1
+WKT         : VERTTRAN["NAD83(CSRS)v3_To_CGVD28(HTv2_0)_Height_1",
+               GEOGCS["NAD83(CSRS)v3",
+                DATUM["North_American_Datum_of_1983_(CSRS)_version_3",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD83(CSRS)v3",
+                
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_3",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["CGVD28(HTv2_0)_height",
+                
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0],
+               PARAMETER["Dataset_HT2_1997", 0.0],
+               OPERATIONACCURACY[0.0]]
+WKT2        : COORDINATEOPERATION["NAD83(CSRS)v3_To_CGVD28(HTv2_0)_Height_1",
+               SOURCECRS[VERTCRS["NAD83(CSRS)v3",
+                 
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_3",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["CGVD28(HTv2_0)_height",
+                 
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["NAD83(CSRS)v3",
+                 DATUM["North_American_Datum_of_1983_(CSRS)_version_3",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0,
+                SCALEUNIT["Unity", 1.0]],
+               PARAMETERFILE["HT2_1997"],
+               OPERATIONACCURACY[0.0]]
+Description : NAD83(CSRS)v3 to CGVD28(HTv2.0) height (1)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Canada - CGVD28(HTv2.0)
+Area-slat   : 41.0
+Area-nlat   : 84.0
+Area-llon   : -141.01
+Area-rlon   : -48.0
+Accuracy    : 0.0
+
+WKID        : 10610
+Latest-WKID : 10610
+Macro       : PE_VT_NAD83CSRSV4_TO_CGVD28_HTV2_HT_1
+Name        : NAD83(CSRS)v4_To_CGVD28(HTv2_0)_Height_1
+WKT         : VERTTRAN["NAD83(CSRS)v4_To_CGVD28(HTv2_0)_Height_1",
+               GEOGCS["NAD83(CSRS)v4",
+                DATUM["North_American_Datum_of_1983_(CSRS)_version_4",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD83(CSRS)v4",
+                
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_4",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["CGVD28(HTv2_0)_height",
+                
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0],
+               PARAMETER["Dataset_HT2_2002v70", 0.0],
+               OPERATIONACCURACY[0.02]]
+WKT2        : COORDINATEOPERATION["NAD83(CSRS)v4_To_CGVD28(HTv2_0)_Height_1",
+               SOURCECRS[VERTCRS["NAD83(CSRS)v4",
+                 
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_4",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["CGVD28(HTv2_0)_height",
+                 
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["NAD83(CSRS)v4",
+                 DATUM["North_American_Datum_of_1983_(CSRS)_version_4",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0,
+                SCALEUNIT["Unity", 1.0]],
+               PARAMETERFILE["HT2_2002v70"],
+               OPERATIONACCURACY[0.02]]
+Description : NAD83(CSRS)v4 to CGVD28(HTv2.0) height (1)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Canada - CGVD28(HTv2.0)
+Area-slat   : 41.0
+Area-nlat   : 84.0
+Area-llon   : -141.01
+Area-rlon   : -48.0
+Accuracy    : 0.02
+
+WKID        : 10612
+Latest-WKID : 10612
+Macro       : PE_VT_NAD83CSRSV7_TO_CGVD28_HTV2_HT_1
+Name        : NAD83(CSRS)v7_To_CGVD28(HTv2_0)_Height_1
+WKT         : VERTTRAN["NAD83(CSRS)v7_To_CGVD28(HTv2_0)_Height_1",
+               GEOGCS["NAD83(CSRS)v7",
+                DATUM["North_American_Datum_of_1983_(CSRS)_version_7",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD83(CSRS)v7",
+                
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_7",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["CGVD28(HTv2_0)_height",
+                
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0],
+               PARAMETER["Dataset_HT2_2010v70", 0.0],
+               OPERATIONACCURACY[0.03]]
+WKT2        : COORDINATEOPERATION["NAD83(CSRS)v7_To_CGVD28(HTv2_0)_Height_1",
+               SOURCECRS[VERTCRS["NAD83(CSRS)v7",
+                 
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_7",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["CGVD28(HTv2_0)_height",
+                 
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["NAD83(CSRS)v7",
+                 DATUM["North_American_Datum_of_1983_(CSRS)_version_7",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0,
+                SCALEUNIT["Unity", 1.0]],
+               PARAMETERFILE["HT2_2010v70"],
+               OPERATIONACCURACY[0.03]]
+Description : NAD83(CSRS)v7 to CGVD28(HTv2.0) height (1)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Canada - CGVD28(HTv2.0)
+Area-slat   : 41.0
+Area-nlat   : 84.0
+Area-llon   : -141.01
+Area-rlon   : -48.0
+Accuracy    : 0.03
+
+WKID        : 10613
+Latest-WKID : 10613
+Macro       : PE_VT_NAD83CSRSV8_TO_CGVD28_HTV2_HT_1
+Name        : NAD83(CSRS)v8_To_CGVD28(HTv2_0)_Height_1
+WKT         : VERTTRAN["NAD83(CSRS)v8_To_CGVD28(HTv2_0)_Height_1",
+               GEOGCS["NAD83(CSRS)v8",
+                DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD83(CSRS)v8",
+                
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["CGVD28(HTv2_0)_height",
+                
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0],
+               PARAMETER["Dataset_HT2_2010v70", 0.0],
+               OPERATIONACCURACY[0.03]]
+WKT2        : COORDINATEOPERATION["NAD83(CSRS)v8_To_CGVD28(HTv2_0)_Height_1",
+               SOURCECRS[VERTCRS["NAD83(CSRS)v8",
+                 
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["CGVD28(HTv2_0)_height",
+                 
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["NAD83(CSRS)v8",
+                 DATUM["North_American_Datum_of_1983_(CSRS)_version_8",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0,
+                SCALEUNIT["Unity", 1.0]],
+               PARAMETERFILE["HT2_2010v70"],
+               OPERATIONACCURACY[0.03]]
+Description : NAD83(CSRS)v8 to CGVD28(HTv2.0) height (1)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Canada - CGVD28(HTv2.0)
+Area-slat   : 41.0
+Area-nlat   : 84.0
+Area-llon   : -141.01
+Area-rlon   : -48.0
+Accuracy    : 0.03
+
+WKID        : 10620
+Latest-WKID : 10620
+Macro       : PE_VT_CGVD28_HT_TO_CGVD28_HTV2_HT_1
+Name        : CGVD28_Height_To_CGVD28(HTv2_0)_Height_1
+WKT         : VERTTRAN["CGVD28_Height_To_CGVD28(HTv2_0)_Height_1",
+               VERTCS["CGVD_1928",
+                
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["CGVD28(HTv2_0)_height",
+                
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["Vertical_Offset"],
+               PARAMETER["Vertical_Offset", 0.0],
+               OPERATIONACCURACY[0.05]]
+WKT2        : COORDINATEOPERATION["CGVD28_Height_To_CGVD28(HTv2_0)_Height_1",
+               SOURCECRS[VERTCRS["CGVD_1928",
+                 
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["CGVD28(HTv2_0)_height",
+                 
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               METHOD["Vertical_Offset"],
+               PARAMETER["Vertical_Offset", 0.0,
+                LENGTHUNIT["Meter", 1.0]],
+               OPERATIONACCURACY[0.05]]
+Description : CGVD28 height to CGVD28(HTv2.0) height (1)
+Authority   : EPSG
+Version     : 11.018(13.5.0)
+Deprecated  : no
+Area-name   : Canada - CGVD28
+Area-slat   : 41.67
+Area-nlat   : 69.81
+Area-llon   : -141.01
+Area-rlon   : -52.54
+Accuracy    : 0.05
+
+WKID        : 10685
+Latest-WKID : 10685
+Macro       : PE_VT_SVS2000_HT_TO_SVS2010_HT_1
+Name        : SVS2000_Height_To_SVS2010_Height_1
+WKT         : VERTTRAN["SVS2000_Height_To_SVS2010_Height_1",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["SVS2000",
+                
+               VDATUM["Slovenian_Vertical_System_2000"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["SVS2010",
+                
+               VDATUM["Slovenian_Vertical_System_2010"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["Vertical_Offset_with_Grid"],
+               PARAMETER["Dataset_SLO-VTP2024", 0.0],
+               OPERATIONACCURACY[0.02]]
+WKT2        : COORDINATEOPERATION["SVS2000_Height_To_SVS2010_Height_1",
+               SOURCECRS[VERTCRS["SVS2000",
+                 
+               VDATUM["Slovenian_Vertical_System_2000"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["SVS2010",
+                 
+               VDATUM["Slovenian_Vertical_System_2010"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["GCS_Slovenia_1996",
+                 DATUM["D_Slovenia_Geodetic_Datum_1996",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["Vertical_Offset_with_Grid"],
+               PARAMETERFILE["SLO-VTP2024"],
+               OPERATIONACCURACY[0.02]]
+Description : SVS2000 height to SVS2010 height (1)
+Authority   : EPSG
+Version     : 11.022(13.5.0)
+Deprecated  : no
+Area-name   : Slovenia - onshore
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
+Accuracy    : 0.02
+
+WKID        : 10693
+Latest-WKID : 10693
+Macro       : PE_VT_EUREF_FIN_TO_N60_HT_FIN2000
+Name        : EUREF-FIN_To_N60_Height_FIN2000
+WKT         : VERTTRAN["EUREF-FIN_To_N60_Height_FIN2000",
+               GEOGCS["GCS_EUREF_FIN",
+                DATUM["EUREF-FIN",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["EUREF_FIN",
+                
+               DATUM["EUREF-FIN",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["N60",
+                
+               VDATUM["Helsinki_1960"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_FIN2000_block", 0.0],
+               OPERATIONACCURACY[0.03]]
+WKT2        : COORDINATEOPERATION["EUREF-FIN_To_N60_Height_FIN2000",
+               SOURCECRS[VERTCRS["EUREF_FIN",
+                 
+               DATUM["EUREF-FIN",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["N60",
+                 
+               VDATUM["Helsinki_1960"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["GCS_EUREF_FIN",
+                 DATUM["EUREF-FIN",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETERFILE["FIN2000_block"],
+               OPERATIONACCURACY[0.03]]
+Description : Finland, EUREF-FIN height to N60 height (FIN2000)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+Accuracy    : 0.03
+
+WKID        : 10695
+Latest-WKID : 10695
+Macro       : PE_VT_EUREF_FIN_TO_N2000_HT_FIN2005N00
+Name        : EUREF-FIN_To_N2000_Height_FIN2005N00
+WKT         : VERTTRAN["EUREF-FIN_To_N2000_Height_FIN2005N00",
+               GEOGCS["GCS_EUREF_FIN",
+                DATUM["EUREF-FIN",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["EUREF_FIN",
+                
+               DATUM["EUREF-FIN",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["N2000_height",
+                
+               VDATUM["N2000"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_FIN2005N00", 0.0],
+               OPERATIONACCURACY[0.02]]
+WKT2        : COORDINATEOPERATION["EUREF-FIN_To_N2000_Height_FIN2005N00",
+               SOURCECRS[VERTCRS["EUREF_FIN",
+                 
+               DATUM["EUREF-FIN",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["N2000_height",
+                 
+               VDATUM["N2000"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["GCS_EUREF_FIN",
+                 DATUM["EUREF-FIN",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETERFILE["FIN2005N00"],
+               OPERATIONACCURACY[0.02]]
+Description : Finland, EUREF-FIN height to N2000 height (FIN2005N00)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+Accuracy    : 0.02
+
+WKID        : 10697
+Latest-WKID : 10697
+Macro       : PE_VT_EUREF_FIN_TO_N2000_HT_FIN2023N2000_2
+Name        : EUREF-FIN_To_N2000_Height_FIN2023N2000_2
+WKT         : VERTTRAN["EUREF-FIN_To_N2000_Height_FIN2023N2000_2",
+               GEOGCS["GCS_EUREF_FIN",
+                DATUM["EUREF-FIN",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["EUREF_FIN",
+                
+               DATUM["EUREF-FIN",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["N2000_height",
+                
+               VDATUM["N2000"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_FIN2023N2000", 0.0],
+               OPERATIONACCURACY[0.014]]
+WKT2        : COORDINATEOPERATION["EUREF-FIN_To_N2000_Height_FIN2023N2000_2",
+               SOURCECRS[VERTCRS["EUREF_FIN",
+                 
+               DATUM["EUREF-FIN",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["N2000_height",
+                 
+               VDATUM["N2000"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["GCS_EUREF_FIN",
+                 DATUM["EUREF-FIN",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETERFILE["FIN2023N2000"],
+               OPERATIONACCURACY[0.014]]
+Description : EUREF-FIN to N2000 height (2) (FIN2023N2000)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+Accuracy    : 0.014
+
+WKID        : 10767
+Latest-WKID : 10767
+Macro       : PE_VT_BONAIRE_2004_TO_BONAIRE_HEIGHT_1
+Name        : Bonaire_2004_To_Bonaire_Height_1
+WKT         : VERTTRAN["Bonaire_2004_To_Bonaire_Height_1",
+               GEOGCS["Bonaire_2004",
+                DATUM["Bonaire_2004",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Bonaire_2004",
+                
+               DATUM["Bonaire_2004",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["Bonaire_height",
+                
+               VDATUM["Bonaire_Vertical_Datum"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Dataset_bongeo2004", 0.0],
+               OPERATIONACCURACY[0.25]]
+WKT2        : COORDINATEOPERATION["Bonaire_2004_To_Bonaire_Height_1",
+               SOURCECRS[VERTCRS["Bonaire_2004",
+                 
+               DATUM["Bonaire_2004",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["Bonaire_height",
+                 
+               VDATUM["Bonaire_Vertical_Datum"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["Bonaire_2004",
+                 DATUM["Bonaire_2004",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETERFILE["bongeo2004"],
+               OPERATIONACCURACY[0.25]]
+Description : Bonaire 2004 to Bonaire height (1)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : BES Islands - Bonaire onshore
+Area-slat   : 11.97
+Area-nlat   : 12.36
+Area-llon   : -68.47
+Area-rlon   : -68.14
+Accuracy    : 0.25
+
+WKID        : 10821
+Latest-WKID : 10821
+Macro       : PE_VT_NAD83CSRSV6_TO_CGVD28_HTV2_HT_1
+Name        : NAD83(CSRS)v6_To_CGVD28(HTv2_0)_Height_1
+WKT         : VERTTRAN["NAD83(CSRS)v6_To_CGVD28(HTv2_0)_Height_1",
+               GEOGCS["NAD83(CSRS)v6",
+                DATUM["North_American_Datum_of_1983_(CSRS)_version_6",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["NAD83(CSRS)v6",
+                
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_6",
+                 
+                SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["CGVD28(HTv2_0)_height",
+                
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0],
+               PARAMETER["Dataset_HT2_2010v70", 0.0],
+               OPERATIONACCURACY[0.03]]
+WKT2        : COORDINATEOPERATION["NAD83(CSRS)v6_To_CGVD28(HTv2_0)_Height_1",
+               SOURCECRS[VERTCRS["NAD83(CSRS)v6",
+                 
+               DATUM["North_American_Datum_of_1983_(CSRS)_version_6",
+                  
+                ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
+                   
+                 LENGTHUNIT["Meter",  1.0]]],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Ellipsoidal height (h)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["CGVD28(HTv2_0)_height",
+                 
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["NAD83(CSRS)v6",
+                 DATUM["North_American_Datum_of_1983_(CSRS)_version_6",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["GEOID"],
+               PARAMETER["Interpolation_Type", 30.0,
+                SCALEUNIT["Unity", 1.0]],
+               PARAMETERFILE["HT2_2010v70"],
+               OPERATIONACCURACY[0.03]]
+Description : NAD83(CSRS)v6 to CGVD28(HTv2.0) height (1)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Canada - CGVD28(HTv2.0)
+Area-slat   : 41.0
+Area-nlat   : 84.0
+Area-llon   : -141.01
+Area-rlon   : -48.0
+Accuracy    : 0.03
+
+WKID        : 10822
+Latest-WKID : 10822
+Macro       : PE_VT_LN_1902_TO_EVRF2019_2
+Name        : LN02_Height_To_EVRF2019_Height_2
+WKT         : VERTTRAN["LN02_Height_To_EVRF2019_Height_2",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["LN_1902",
+                
+               VDATUM["Landesnivellement_1902"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["EVRF_2019",
+                
+               VDATUM["European_Vertical_Reference_Frame_2019"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["Vertical_Offset_with_Grid"],
+               PARAMETER["Dataset_ch_2019z", 0.0],
+               OPERATIONACCURACY[0.146]]
+WKT2        : COORDINATEOPERATION["LN02_Height_To_EVRF2019_Height_2",
+               SOURCECRS[VERTCRS["LN_1902",
+                 
+               VDATUM["Landesnivellement_1902"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["EVRF_2019",
+                 
+               VDATUM["European_Vertical_Reference_Frame_2019"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["GCS_ETRS_1989",
+                 DATUM["D_ETRS_1989",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["Vertical_Offset_with_Grid"],
+               PARAMETERFILE["ch_2019z"],
+               OPERATIONACCURACY[0.146]]
+Description : LN02 height to EVRF2019 height (CRS-EU)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.82
+Area-nlat   : 47.81
+Area-llon   : 5.96
+Area-rlon   : 10.49
+Accuracy    : 0.146
+
+WKID        : 10823
+Latest-WKID : 10823
+Macro       : PE_VT_LN_1902_TO_EVRF2019_MT_2
+Name        : LN02_Height_To_EVRF2019_Mean-Tide_Height_2
+WKT         : VERTTRAN["LN02_Height_To_EVRF2019_Mean-Tide_Height_2",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["LN_1902",
+                
+               VDATUM["Landesnivellement_1902"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["EVRF_2019_mean-tide",
+                
+               VDATUM["European_Vertical_Reference_Frame_2019_mean_tide"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["Vertical_Offset_with_Grid"],
+               PARAMETER["Dataset_ch_2019m", 0.0],
+               OPERATIONACCURACY[0.142]]
+WKT2        : COORDINATEOPERATION["LN02_Height_To_EVRF2019_Mean-Tide_Height_2",
+               SOURCECRS[VERTCRS["LN_1902",
+                 
+               VDATUM["Landesnivellement_1902"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["EVRF_2019_mean-tide",
+                 
+               VDATUM["European_Vertical_Reference_Frame_2019_mean_tide"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["GCS_ETRS_1989",
+                 DATUM["D_ETRS_1989",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["Vertical_Offset_with_Grid"],
+               PARAMETERFILE["ch_2019m"],
+               OPERATIONACCURACY[0.142]]
+Description : LN02 height to EVRF2019 mean-tide height (CRS-EU)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.82
+Area-nlat   : 47.81
+Area-llon   : 5.96
+Area-rlon   : 10.49
+Accuracy    : 0.142
+
 WKID        : 15781
 Latest-WKID : 110008
 Macro       : PE_VT_WGS_1984_TO_EGM_1984_GEOID_1
@@ -21921,7 +23048,7 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1984_Geoid_1",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM84_Geoid",
+               VERTCS["EGM84_height",
                 
                VDATUM["EGM84_Geoid"],
                 
@@ -21951,7 +23078,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1984_Geoid_1",
                AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM84_Geoid",
+               TARGETCRS[VERTCRS["EGM84_height",
                  
                VDATUM["EGM84_Geoid"],
                  
@@ -21980,7 +23107,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1984_Geoid_1",
 Description : WGS84 EH to EGM84 GH Bilin
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -22068,7 +23195,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_To_NAVD88_CONUS_GEOID12B_Height
 Description : NAD 1983 (2011) To NAVD88 CONUS (Height)
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : USA - CONUS - onshore
 Area-slat   : 24.41
 Area-nlat   : 49.38
@@ -22156,7 +23283,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_To_NAVD88_Alaska_GEOID12B_Heigh
 Description : NAD 1983 (2011) To NAVD88 Alaska (Height)
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : USA - Alaska
 Area-slat   : 51.3
 Area-nlat   : 71.4
@@ -22332,7 +23459,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_To_PRVD02_GEOID12B_Height",
 Description : NAD 1983 (2011) To PRVD02 (Height)
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Puerto Rico - onshore
 Area-slat   : 17.87
 Area-nlat   : 18.57
@@ -22420,7 +23547,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_PA11_To_ASVD02_GEOID12B_Height",
 Description : NAD 1983 (PA11) To ASVD02 (Height)
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : American Samoa - Tutuila island
 Area-slat   : -14.43
 Area-nlat   : -14.2
@@ -22508,7 +23635,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_MA11_To_GUVD04_GEOID12B_Height",
 Description : NAD 1983 (MA11) To GUVD04 (Height)
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Guam - onshore
 Area-slat   : 13.18
 Area-nlat   : 13.7
@@ -22619,7 +23746,7 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1996_Geoid_1",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM96_Geoid",
+               VERTCS["EGM96_height",
                 
                VDATUM["EGM96_Geoid"],
                 
@@ -22649,7 +23776,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1996_Geoid_1",
                AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM96_Geoid",
+               TARGETCRS[VERTCRS["EGM96_height",
                  
                VDATUM["EGM96_Geoid"],
                  
@@ -22707,7 +23834,7 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1984_Geoid_1",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM84_Geoid",
+               VERTCS["EGM84_height",
                 
                VDATUM["EGM84_Geoid"],
                 
@@ -22737,7 +23864,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1984_Geoid_1",
                AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM84_Geoid",
+               TARGETCRS[VERTCRS["EGM84_height",
                  
                VDATUM["EGM84_Geoid"],
                  
@@ -23479,7 +24606,7 @@ WKT         : VERTTRAN["WGS_1984_To_WGS_1984_EGM2008_1x1_Height",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM2008_Geoid",
+               VERTCS["EGM2008_height",
                 
                VDATUM["EGM2008_Geoid"],
                 
@@ -23509,7 +24636,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_WGS_1984_EGM2008_1x1_Height",
                AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM2008_Geoid",
+               TARGETCRS[VERTCRS["EGM2008_height",
                  
                VDATUM["EGM2008_Geoid"],
                  
@@ -23567,7 +24694,7 @@ WKT         : VERTTRAN["WGS_1984_To_WGS_1984_EGM2008_2.5x2.5_Height",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM2008_Geoid",
+               VERTCS["EGM2008_height",
                 
                VDATUM["EGM2008_Geoid"],
                 
@@ -23597,7 +24724,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_WGS_1984_EGM2008_2.5x2.5_Height",
                AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM2008_Geoid",
+               TARGETCRS[VERTCRS["EGM2008_height",
                  
                VDATUM["EGM2008_Geoid"],
                  
@@ -23718,7 +24845,7 @@ WKT2        : COORDINATEOPERATION["GDA2020_Height_To_AHD_Height_AUSGeoid2020_1",
 Description : GDA2020 height to AHD height AUSGeoid2020 (1)
 Authority   : Esri
 Version     : 12.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Australia Christmas and Cocos - onshore
 Area-slat   : -43.7
 Area-nlat   : -9.86
@@ -23800,7 +24927,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_Oostende_Height_hBG18",
 Description : ETRS89 height to Ostend height, Belgium hBG18 quasi-geoid
 Authority   : Esri
 Version     : 12.9.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Belgium - onshore
 Area-slat   : 49.5
 Area-nlat   : 51.51
@@ -24785,7 +25912,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_2011_To_VIVD09_GEOID12B_Height",
 Description : NAD 1983 (2011) To VIVD09 (Height)
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Virgin Islands, US - onshore
 Area-slat   : 17.62
 Area-nlat   : 18.44
@@ -24873,7 +26000,7 @@ WKT2        : COORDINATEOPERATION["NAD_1983_MA11_To_NMVD03_GEOID12B_Height",
 Description : NAD 1983 (MA11) To NMVD03 (Height)
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Northern Mariana Islands - Rota, Saipan and Tinian
 Area-slat   : 14.06
 Area-nlat   : 15.35
@@ -26918,7 +28045,7 @@ WKT2        : COORDINATEOPERATION["NZGD2000_To_NZGD2016_Height_1",
 Description : New Zealand
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand
 Area-slat   : -55.95
 Area-nlat   : -25.88
@@ -28655,7 +29782,7 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1996_Geoid_2",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM96_Geoid",
+               VERTCS["EGM96_height",
                 
                VDATUM["EGM96_Geoid"],
                 
@@ -28685,7 +29812,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1996_Geoid_2",
                AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM96_Geoid",
+               TARGETCRS[VERTCRS["EGM96_height",
                  
                VDATUM["EGM96_Geoid"],
                  
@@ -28743,7 +29870,7 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1984_Geoid_2",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM84_Geoid",
+               VERTCS["EGM84_height",
                 
                VDATUM["EGM84_Geoid"],
                 
@@ -28773,7 +29900,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1984_Geoid_2",
                AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM84_Geoid",
+               TARGETCRS[VERTCRS["EGM84_height",
                  
                VDATUM["EGM84_Geoid"],
                  
@@ -28862,7 +29989,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_One_Tree_Point_1",
 Description : NZVD2009 to One Tree Point 1964 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - North Island - One Tree vcrs
 Area-slat   : -36.41
 Area-nlat   : -34.36
@@ -28922,7 +30049,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Auckland_1",
 Description : NZVD2009 to Auckland 1946 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - North Island - Auckland vcrs
 Area-slat   : -37.67
 Area-nlat   : -36.12
@@ -28982,7 +30109,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Moturiki_1",
 Description : NZVD2009 to Moturiki 1953 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - North Island - Moturiki vcrs
 Area-slat   : -40.59
 Area-nlat   : -37.52
@@ -29042,7 +30169,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Nelson_1",
 Description : NZVD2009 to Nelson 1955 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - South Island - Nelson vcrs
 Area-slat   : -42.44
 Area-nlat   : -40.44
@@ -29102,7 +30229,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Gisborne_1",
 Description : NZVD2009 to Gisborne 1926 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - North Island - Gisborne vcrs
 Area-slat   : -39.04
 Area-nlat   : -37.49
@@ -29162,7 +30289,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Napier_1",
 Description : NZVD2009 to Napier 1962 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - North Island - Hawkes Bay mc Napier vcrs
 Area-slat   : -40.57
 Area-nlat   : -38.87
@@ -29222,7 +30349,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Taranaki_1",
 Description : NZVD2009 to Taranaki 1970 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - North Island - Taranaki vcrs
 Area-slat   : -39.92
 Area-nlat   : -38.41
@@ -29282,7 +30409,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Wellington_1",
 Description : NZVD2009 to Wellington 1953 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - North Island - Wellington vcrs
 Area-slat   : -41.67
 Area-nlat   : -40.12
@@ -29342,7 +30469,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Lyttelton_1",
 Description : NZVD2009 to Lyttelton 1937 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - South Island - Lyttleton vcrs
 Area-slat   : -44.92
 Area-nlat   : -41.6
@@ -29402,7 +30529,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Dunedin_1",
 Description : NZVD2009 to Dunedin 1958 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - South Island - Dunedin vcrs
 Area-slat   : -46.4
 Area-nlat   : -43.82
@@ -29462,7 +30589,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Bluff_1",
 Description : NZVD2009 to Bluff 1955 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - South Island - Bluff vcrs
 Area-slat   : -46.71
 Area-nlat   : -46.26
@@ -29522,7 +30649,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Stewart_Island_1",
 Description : NZVD2009 to Stewart ISland 1977 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - Stewart Island
 Area-slat   : -47.33
 Area-nlat   : -46.63
@@ -29582,7 +30709,7 @@ WKT2        : COORDINATEOPERATION["NZVD2009_To_Dunedin_Bluff_1960_1",
 Description : NZVD2009 to Dunedin-Bluff 1960 (height) (1)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - South Island - Dunedin-Bluff vcrs
 Area-slat   : -46.73
 Area-nlat   : -44.52
@@ -30993,7 +32120,7 @@ WKT2        : COORDINATEOPERATION["NAD83(CSRS)v6_Height_To_CGVD28_Height_HT2",
 Description : NAD83(CSRS) v6 height to CGVD28 height HT2_2010 geoid
 Authority   : Esri
 Version     : 12.9.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Canada - CGVD28
 Area-slat   : 41.67
 Area-nlat   : 69.81
@@ -32902,7 +34029,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_Height_To_Cascais_Height_GeodPT08",
 Description : ETRS89 height to Cascais height, Portugal GeodPT08 geoid
 Authority   : Esri
 Version     : 12.9.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Portugal - mainland - onshore
 Area-slat   : 36.95
 Area-nlat   : 42.16
@@ -33562,7 +34689,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_British_Isles_Height_OSGM15_GB",
 Description : British Isles ensemble (Great Britain)
 Authority   : Esri
 Version     : 12.9.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : UK - Britain and UKCS 49~45'N to 61~N, 9~W to 2~E
 Area-slat   : 49.75
 Area-nlat   : 61.01
@@ -33647,7 +34774,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_British_Isles_Height_OSGM15_Belfast
 Description : British Isles ensemble (Northern Ireland)
 Authority   : Esri
 Version     : 12.9.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : UK - Northern Ireland - onshore
 Area-slat   : 53.96
 Area-nlat   : 55.36
@@ -35097,7 +36224,7 @@ Latest-WKID : 110168
 Macro       : PE_VT_EGM96_GEOID_M_TO_EGM96_GEOID_IFT
 Name        : EGM96_Geoid_m_To_ftIntl
 WKT         : VERTTRAN["EGM96_Geoid_m_To_ftIntl",
-               VERTCS["EGM96_Geoid",
+               VERTCS["EGM96_height",
                 
                VDATUM["EGM96_Geoid"],
                 
@@ -35106,7 +36233,7 @@ WKT         : VERTTRAN["EGM96_Geoid_m_To_ftIntl",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM96_Geoid_(ftIntl)",
+               VERTCS["EGM96_height_(ftIntl)",
                 
                VDATUM["EGM96_Geoid"],
                 
@@ -35118,7 +36245,7 @@ WKT         : VERTTRAN["EGM96_Geoid_m_To_ftIntl",
                VTMETHOD["Unit_Change"],
                OPERATIONACCURACY[0.0]]
 WKT2        : COORDINATEOPERATION["EGM96_Geoid_m_To_ftIntl",
-               SOURCECRS[VERTCRS["EGM96_Geoid",
+               SOURCECRS[VERTCRS["EGM96_height",
                  
                VDATUM["EGM96_Geoid"],
                  
@@ -35127,7 +36254,7 @@ WKT2        : COORDINATEOPERATION["EGM96_Geoid_m_To_ftIntl",
                AXIS["Gravity-related height (H)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM96_Geoid_(ftIntl)",
+               TARGETCRS[VERTCRS["EGM96_height_(ftIntl)",
                  
                VDATUM["EGM96_Geoid"],
                  
@@ -35154,7 +36281,7 @@ Latest-WKID : 110169
 Macro       : PE_VT_EGM96_GEOID_M_TO_EGM96_GEOID_USFT
 Name        : EGM96_Geoid_m_To_ftUS
 WKT         : VERTTRAN["EGM96_Geoid_m_To_ftUS",
-               VERTCS["EGM96_Geoid",
+               VERTCS["EGM96_height",
                 
                VDATUM["EGM96_Geoid"],
                 
@@ -35163,7 +36290,7 @@ WKT         : VERTTRAN["EGM96_Geoid_m_To_ftUS",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM96_Geoid_(ftUS)",
+               VERTCS["EGM96_height_(ftUS)",
                 
                VDATUM["EGM96_Geoid"],
                 
@@ -35175,7 +36302,7 @@ WKT         : VERTTRAN["EGM96_Geoid_m_To_ftUS",
                VTMETHOD["Unit_Change"],
                OPERATIONACCURACY[0.0]]
 WKT2        : COORDINATEOPERATION["EGM96_Geoid_m_To_ftUS",
-               SOURCECRS[VERTCRS["EGM96_Geoid",
+               SOURCECRS[VERTCRS["EGM96_height",
                  
                VDATUM["EGM96_Geoid"],
                  
@@ -35184,7 +36311,7 @@ WKT2        : COORDINATEOPERATION["EGM96_Geoid_m_To_ftUS",
                AXIS["Gravity-related height (H)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM96_Geoid_(ftUS)",
+               TARGETCRS[VERTCRS["EGM96_height_(ftUS)",
                  
                VDATUM["EGM96_Geoid"],
                  
@@ -37405,18 +38532,18 @@ Area-rlon   : -5.59
 Accuracy    : 0.5
 
 WKID        : 110196
-Latest-WKID : 110196
+Latest-WKID : 10693
 Macro       : PE_VT_EUREF_FIN_TO_N60_HT_FIN2000
 Name        : EUREF-FIN_To_N60_Height_FIN2000
 WKT         : VERTTRAN["EUREF-FIN_To_N60_Height_FIN2000",
                GEOGCS["GCS_EUREF_FIN",
-                DATUM["D_ETRS_1989",
+                DATUM["EUREF-FIN",
                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                 PRIMEM["Greenwich", 0.0],
                 UNIT["Degree", 0.0174532925199433]],
                VERTCS["EUREF_FIN",
                 
-               DATUM["D_ETRS_1989",
+               DATUM["EUREF-FIN",
                  
                 SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
                 
@@ -37440,7 +38567,7 @@ WKT         : VERTTRAN["EUREF-FIN_To_N60_Height_FIN2000",
 WKT2        : COORDINATEOPERATION["EUREF-FIN_To_N60_Height_FIN2000",
                SOURCECRS[VERTCRS["EUREF_FIN",
                  
-               DATUM["D_ETRS_1989",
+               DATUM["EUREF-FIN",
                   
                 ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
                    
@@ -37461,15 +38588,15 @@ WKT2        : COORDINATEOPERATION["EUREF-FIN_To_N60_Height_FIN2000",
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_EUREF_FIN",
-                 DATUM["D_ETRS_1989",
+                 DATUM["EUREF-FIN",
                   ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                    LENGTHUNIT["Meter", 1.0]]],
                  PRIMEM["Greenwich", 0.0,
                   ANGLEUNIT["Degree", 0.0174532925199433]],
                  CS[ellipsoidal, 2],
-                 AXIS["Longitude (lon)", east,
-                  ORDER[1]],
                  AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
                   ORDER[2]],
                  ANGLEUNIT["Degree", 0.0174532925199433]]],
                METHOD["GEOID"],
@@ -37478,7 +38605,7 @@ WKT2        : COORDINATEOPERATION["EUREF-FIN_To_N60_Height_FIN2000",
 Description : Finland, EUREF-FIN height to N60 height (FIN2000)
 Authority   : Esri
 Version     : 13.3.0
-Deprecated  : no
+Deprecated  : codechange
 Area-name   : Finland - onshore
 Area-slat   : 59.75
 Area-nlat   : 70.09
@@ -37557,7 +38684,7 @@ WKT2        : COORDINATEOPERATION["ETRS89_To_N60_Height_FIN2000",
                METHOD["GEOID"],
                PARAMETERFILE["FIN2000_block"],
                OPERATIONACCURACY[0.03]]
-Description : Finland, ETRS89 height to N60 height (FIN2000
+Description : Finland, ETRS89 height to N60 height (FIN2000)
 Authority   : Esri
 Version     : 13.3.0
 Deprecated  : no
@@ -37569,18 +38696,18 @@ Area-rlon   : 31.59
 Accuracy    : 0.03
 
 WKID        : 110198
-Latest-WKID : 110198
+Latest-WKID : 10695
 Macro       : PE_VT_EUREF_FIN_TO_N2000_HT_FIN2005N00
 Name        : EUREF-FIN_To_N2000_Height_FIN2005N00
 WKT         : VERTTRAN["EUREF-FIN_To_N2000_Height_FIN2005N00",
                GEOGCS["GCS_EUREF_FIN",
-                DATUM["D_ETRS_1989",
+                DATUM["EUREF-FIN",
                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                 PRIMEM["Greenwich", 0.0],
                 UNIT["Degree", 0.0174532925199433]],
                VERTCS["EUREF_FIN",
                 
-               DATUM["D_ETRS_1989",
+               DATUM["EUREF-FIN",
                  
                 SPHEROID["GRS_1980",  6378137.0,  298.257222101]],
                 
@@ -37604,7 +38731,7 @@ WKT         : VERTTRAN["EUREF-FIN_To_N2000_Height_FIN2005N00",
 WKT2        : COORDINATEOPERATION["EUREF-FIN_To_N2000_Height_FIN2005N00",
                SOURCECRS[VERTCRS["EUREF_FIN",
                  
-               DATUM["D_ETRS_1989",
+               DATUM["EUREF-FIN",
                   
                 ELLIPSOID["GRS_1980",  6378137.0,  298.257222101,
                    
@@ -37625,15 +38752,15 @@ WKT2        : COORDINATEOPERATION["EUREF-FIN_To_N2000_Height_FIN2005N00",
                   
                 LENGTHUNIT["Meter",  1.0]]]],
                INTERPOLATIONCRS[GEOGCRS["GCS_EUREF_FIN",
-                 DATUM["D_ETRS_1989",
+                 DATUM["EUREF-FIN",
                   ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                    LENGTHUNIT["Meter", 1.0]]],
                  PRIMEM["Greenwich", 0.0,
                   ANGLEUNIT["Degree", 0.0174532925199433]],
                  CS[ellipsoidal, 2],
-                 AXIS["Longitude (lon)", east,
-                  ORDER[1]],
                  AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
                   ORDER[2]],
                  ANGLEUNIT["Degree", 0.0174532925199433]]],
                METHOD["GEOID"],
@@ -37642,7 +38769,7 @@ WKT2        : COORDINATEOPERATION["EUREF-FIN_To_N2000_Height_FIN2005N00",
 Description : Finland, EUREF-FIN height to N2000 height (FIN2005N00)
 Authority   : Esri
 Version     : 13.3.0
-Deprecated  : no
+Deprecated  : codechange
 Area-name   : Finland - onshore
 Area-slat   : 59.75
 Area-nlat   : 70.09
@@ -39266,7 +40393,7 @@ WKT         : VERTTRAN["WGS_1984_To_EGM_1996_Geoid_BCNS_3",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM96_Geoid",
+               VERTCS["EGM96_height",
                 
                VDATUM["EGM96_Geoid"],
                 
@@ -39297,7 +40424,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_EGM_1996_Geoid_BCNS_3",
                AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM96_Geoid",
+               TARGETCRS[VERTCRS["EGM96_height",
                  
                VDATUM["EGM96_Geoid"],
                  
@@ -39357,7 +40484,7 @@ WKT         : VERTTRAN["WGS_1984_To_WGS_1984_EGM2008_2.5x2.5_Height_BCNS",
                PARAMETER["Direction",  1.0],
                 
                UNIT["Meter",  1.0]],
-               VERTCS["EGM2008_Geoid",
+               VERTCS["EGM2008_height",
                 
                VDATUM["EGM2008_Geoid"],
                 
@@ -39388,7 +40515,7 @@ WKT2        : COORDINATEOPERATION["WGS_1984_To_WGS_1984_EGM2008_2.5x2.5_Height_B
                AXIS["Ellipsoidal height (h)",  up,
                   
                 LENGTHUNIT["Meter",  1.0]]]],
-               TARGETCRS[VERTCRS["EGM2008_Geoid",
+               TARGETCRS[VERTCRS["EGM2008_height",
                  
                VDATUM["EGM2008_Geoid"],
                  
@@ -39602,3 +40729,155 @@ Area-nlat   : 60.0
 Area-llon   : -120.0
 Area-rlon   : -109.98
 Accuracy    : 0.6
+
+WKID        : 110224
+Latest-WKID : 110224
+Macro       : PE_VT_EVRF_2000_HT_TO_EVRF_2019_HT_ETRS89
+Name        : EVRF2000_Height_To_EVRF2019_Height_ETRS89
+WKT         : VERTTRAN["EVRF2000_Height_To_EVRF2019_Height_ETRS89",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["EVRS_2000",
+                
+               VDATUM["European_Vertical_Reference_Frame_2000"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["EVRF_2019",
+                
+               VDATUM["European_Vertical_Reference_Frame_2019"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["Vertical_Offset_with_Grid"],
+               PARAMETER["Dataset_idw_evrf_2000_to_2019z", 0.0],
+               OPERATIONACCURACY[0.015]]
+WKT2        : COORDINATEOPERATION["EVRF2000_Height_To_EVRF2019_Height_ETRS89",
+               SOURCECRS[VERTCRS["EVRS_2000",
+                 
+               VDATUM["European_Vertical_Reference_Frame_2000"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["EVRF_2019",
+                 
+               VDATUM["European_Vertical_Reference_Frame_2019"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["GCS_ETRS_1989",
+                 DATUM["D_ETRS_1989",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["Vertical_Offset_with_Grid"],
+               PARAMETERFILE["idw_evrf_2000_to_2019z"],
+               OPERATIONACCURACY[0.015]]
+Description : EVRF2000 height to EVRF2019 height (on ETRS89)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Europe - EVRF2000
+Area-slat   : 35.95
+Area-nlat   : 71.24
+Area-llon   : -9.56
+Area-rlon   : 31.59
+Accuracy    : 0.015
+
+WKID        : 110225
+Latest-WKID : 110225
+Macro       : PE_VT_EVRF_2007_HT_TO_EVRF_2019_HT_ETRS89
+Name        : EVRF2007_Height_To_EVRF2019_Height_ETRS89
+WKT         : VERTTRAN["EVRF2007_Height_To_EVRF2019_Height_ETRS89",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["EVRF_2007",
+                
+               VDATUM["European_Vertical_Reference_Frame_2007"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VERTCS["EVRF_2019",
+                
+               VDATUM["European_Vertical_Reference_Frame_2019"],
+                
+               PARAMETER["Vertical_Shift",  0.0],
+                
+               PARAMETER["Direction",  1.0],
+                
+               UNIT["Meter",  1.0]],
+               VTMETHOD["Vertical_Offset_with_Grid"],
+               PARAMETER["Dataset_idw_evrf_2007_to_2019z", 0.0],
+               OPERATIONACCURACY[0.015]]
+WKT2        : COORDINATEOPERATION["EVRF2007_Height_To_EVRF2019_Height_ETRS89",
+               SOURCECRS[VERTCRS["EVRF_2007",
+                 
+               VDATUM["European_Vertical_Reference_Frame_2007"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               TARGETCRS[VERTCRS["EVRF_2019",
+                 
+               VDATUM["European_Vertical_Reference_Frame_2019"],
+                 
+               CS[vertical,  1],
+                 
+               AXIS["Gravity-related height (H)",  up,
+                  
+                LENGTHUNIT["Meter",  1.0]]]],
+               INTERPOLATIONCRS[GEOGCRS["GCS_ETRS_1989",
+                 DATUM["D_ETRS_1989",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]]],
+               METHOD["Vertical_Offset_with_Grid"],
+               PARAMETERFILE["idw_evrf_2007_to_2019z"],
+               OPERATIONACCURACY[0.015]]
+Description : EVRF2007 height to EVRF2019 height (on ETRS89)
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Europe - EVRF2007
+Area-slat   : 35.95
+Area-nlat   : 71.24
+Area-llon   : -9.56
+Area-rlon   : 31.59
+Accuracy    : 0.015

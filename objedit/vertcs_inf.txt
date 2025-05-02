@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------------------------------
 # VERTCS areainfo table
 #
-# syntax: [VERTCS,] coordsys-code, "category", "area-name"
+# syntax: [VERTCS,] coordsys-code, "category", "area-name" [,alias]
 #------------------------------------------------------------------------------------------------------
 
 PE_VCS_HARTEBEESTHOEK94, \
@@ -163,6 +163,10 @@ PE_VCS_SRGI2013, \
 PE_VCS_TWD_1997, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "TWD 1997"
+
+PE_VCS_UZGD2024, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "UZGD2024"
 
 PE_VCS_YEMEN_NGN_1996, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
@@ -596,6 +600,18 @@ PE_VCS_ST_HELENA_TRITAN, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Atlantic Ocean", \
    "St. Helena Tritan"
 
+PE_VCS_BES2020_SABA, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
+   "BES2020 Saba"
+
+PE_VCS_BES2020_SINT_EUSTATIUS, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
+   "BES2020 Sint Eustatius"
+
+PE_VCS_BONAIRE_2004, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
+   "Bonaire 2004"
+
 PE_VCS_CIGD11, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
    "CIGD11"
@@ -616,6 +632,14 @@ PE_VCS_RRAF_1991, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
    "RRAF 1991"
 
+PE_VCS_SABA, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
+   "Saba"
+
+PE_VCS_SINT_EUSTATIUS, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
+   "Sint Eustatius"
+
 PE_VCS_CADASTRE_1997, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
    "Cadastre 1997"
@@ -627,6 +651,14 @@ PE_VCS_RGM_2004, \
 PE_VCS_RGM04_LON_LAT, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
    "RGM04 (lon-lat)"
+
+PE_VCS_RGM23, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
+   "RGM23"
+
+PE_VCS_RGM23_LON_LAT, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
+   "RGM23 (lon-lat)"
 
 PE_VCS_RGR_1992, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
@@ -888,6 +920,10 @@ PE_VCS_IGB14, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "IGb14"
 
+PE_VCS_IGB20, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "IGb20"
+
 PE_VCS_ITRF_1988, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "ITRF 1988"
@@ -943,6 +979,10 @@ PE_VCS_ITRF2014, \
 PE_VCS_ITRF2020, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
    "ITRF 2020"
+
+PE_VCS_ITRF_2020_U2023, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/World", \
+   "ITRF2020-u2023"
 
 PE_VCS_PZ_1990, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
@@ -1144,6 +1184,10 @@ PE_VCS_PDO_HEIGHT_DATUM_1993, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "PDO Height Datum 1993"
 
+PE_VCS_QVD_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Asia", \
+   "QVD height"
+
 PE_VCS_RAS_GHUMAYS_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "Ras Ghumays height"
@@ -1267,6 +1311,10 @@ PE_VCS_ANTALYA, \
 PE_VCS_BGS2005_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "BGS2005 height"
+
+PE_VCS_BSCD2000_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "BSCD2000 depth"
 
 PE_VCS_BALTIC, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1451,6 +1499,10 @@ PE_VCS_GNTRANS2016_HEIGHT, \
 PE_VCS_GENOA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Genoa height"
+
+PE_VCS_HVD_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "HVD height"
 
 PE_VCS_HVRS_1971, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1696,6 +1748,10 @@ PE_VCS_CGVD2013_CGG2013A_HT, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
    "CGVD2013a(2010) height"
 
+PE_VCS_CGVD28_HTV2_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/North America", \
+   "CGVD28(HTv2.0) height"
+
 PE_VCS_GLLAT_2023_DEPTH, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
    "GLLAT(2023) depth"
@@ -1816,6 +1872,10 @@ PE_VCS_TENERIFE_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
    "Tenerife height"
 
+PE_VCS_BONAIRE_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
+   "Bonaire height"
+
 PE_VCS_CBVD61_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
    "CBVD61 height"
@@ -1851,6 +1911,14 @@ PE_VCS_MARTINIQUE_1955, \
 PE_VCS_PRVD02_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
    "PRVD02 height"
+
+PE_VCS_SABA_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
+   "Saba height"
+
+PE_VCS_SINT_EUSTATIUS_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
+   "Sint Eustatius height"
 
 PE_VCS_VIVD09_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
@@ -2034,23 +2102,23 @@ PE_VCS_SRVN16_HT, \
 
 PE_VCS_EGM2008_GEOID, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "EGM2008 Geoid"
+   "EGM2008 height"
 
 PE_VCS_EGM84_GEOID, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "EGM84 Geoid"
+   "EGM84 height"
 
 PE_VCS_EGM96_GEOID, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "EGM96 Geoid"
+   "EGM96 height"
 
 PE_VCS_EGM96_GEOID_IFT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "EGM96 Geoid (ftIntl)"
+   "EGM96 height (ftIntl)"
 
 PE_VCS_EGM96_GEOID_USFT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "EGM96 Geoid (ftUS)"
+   "EGM96 height (ftUS)"
 
 PE_VCS_HAT_HT, \
    "Vertical Coordinate Systems/Gravity-related/World", \

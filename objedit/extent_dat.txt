@@ -286,7 +286,7 @@
 1117, "Honduras", \
    12.98, 19.59, -89.36, -79.87
 
-1118, "China - Hong Kong", \
+1118, "Hong Kong", \
    22.13, 22.58, 113.76, 114.51
 
 1119, "Hungary", \
@@ -334,10 +334,10 @@
 1133, "Kiribati", \
    -13.84, 7.92, 167.81, -146.82
 
-1134, "Korea, Democratic People's Republic of (North Korea)", \
+1134, "North Korea", \
    37.1, 43.01, 123.54, 132.82
 
-1135, "Korea, Republic of (South Korea)", \
+1135, "South Korea", \
    28.6, 40.27, 122.71, 134.28
 
 1136, "Kuwait", \
@@ -373,7 +373,7 @@
 1146, "Luxembourg", \
    49.44, 50.19, 5.73, 6.53
 
-1147, "China - Macao", \
+1147, "Macao", \
    22.06, 22.23, 113.52, 113.68
 
 1148, "North Macedonia", \
@@ -676,7 +676,7 @@
 1249, "Vanuatu", \
    -21.65, -12.27, 163.16, 173.59
 
-1250, "Holy See (Vatican City State)", \
+1250, "Vatican", \
    41.9, 41.91, 12.44, 12.46
 
 1251, "Venezuela", \
@@ -4445,7 +4445,7 @@
    47.27, 50.34, 6.11, 13.84
 
 2544, "Germany - Thuringen", \
-   50.2, 51.64, 9.92, 12.56
+   50.2, 51.65, 9.87, 12.66
 
 2545, "Germany - Saxony", \
    50.2, 51.66, 11.89, 15.04
@@ -4615,7 +4615,7 @@
 2601, "Norway - offshore north of 62~N; Svalbard", \
    62.0, 84.73, -3.35, 38.01
 
-2602, "Palestine Territory", \
+2602, "Palestine", \
    31.21, 32.55, 34.17, 35.58
 
 2603, "Asia - Middle East - Israel and Palestine Territory onshore", \
@@ -5215,7 +5215,7 @@
 2802, "UK - Scilly Isles onshore", \
    49.86, 49.99, -6.41, -6.23
 
-2803, "Isle of Man - onshore", \
+2803, "Isle of Man", \
    54.02, 54.44, -4.87, -4.27
 
 2805, "Chile - Tierra del Fuego", \
@@ -5734,10 +5734,10 @@
 2987, "Libya - Amal", \
    29.1, 29.8, 20.8, 21.4
 
-2988, "Channel Islands - Jersey, Les Ecrehos and Les Minquiers", \
+2988, "Jersey", \
    48.87, 49.44, -2.56, -1.81
 
-2989, "Channel Islands - Guernsey, Alderney, Sark", \
+2989, "Guernsey", \
    49.21, 49.94, -3.06, -2.03
 
 2990, "Australia - Brisbane", \
@@ -8116,7 +8116,7 @@
 3804, "New Zealand - South Island - Lyttleton vcrs", \
    -44.92, -41.6, 168.95, 173.77
 
-3805, "Bonaire, St Eustatius and Saba", \
+3805, "BES Islands", \
    11.66, 17.96, -69.09, -62.76
 
 3806, "New Zealand - South Island - Dunedin-Bluff vcrs", \
@@ -8131,7 +8131,7 @@
 3809, "St Maarten", \
    17.81, 18.07, -63.3, -62.92
 
-3810, "Caribbean - St Maarten, St Eustatius and Saba - onshore", \
+3810, "Caribbean onshore - BES Islands - St Eustatius and Saba; Sint Maarten", \
    17.41, 18.07, -63.31, -62.88
 
 3811, "Chile - 72~W to 66~W", \
@@ -8161,13 +8161,13 @@
 3819, "Nigeria - offshore blocks OPL 215 and 221", \
    3.25, 4.23, 5.02, 7.31
 
-3820, "Bonaire - St Eustatius and Saba", \
+3820, "BES Islands - St Eustatius and Saba", \
    16.68, 17.96, -64.02, -62.76
 
-3821, "Bonaire", \
+3821, "BES Islands - Bonaire", \
    11.66, 15.3, -69.09, -67.98
 
-3822, "Bonaire - onshore", \
+3822, "BES Islands - Bonaire onshore", \
    11.97, 12.36, -68.47, -68.14
 
 3823, "Curacao - onshore", \
@@ -10957,6 +10957,9 @@
 4756, "Denmark - offshore", \
    54.36, 58.27, 3.25, 16.51
 
+4757, "BES Islands - Saba onshore", \
+   17.56, 17.71, -63.31, -63.16
+
 4758, "Europe - 6~W to 0~W and ETRF", \
    35.26, 80.49, -6.01, 0.0
 
@@ -11016,6 +11019,51 @@
 
 4777, "Brazil - Porto Alegre municipality", \
    -30.27, -29.93, -51.3, -51.01
+
+4778, "Canada - CGVD28(HTv2.0)", \
+   41.0, 84.0, -141.01, -48.0
+
+4779, "Europe - Baltic Sea", \
+   53.88, 65.92, 8.5, 30.23
+
+4780, "Vietnam - offshore", \
+   5.67, 21.45, 102.2, 112.55
+
+4781, "Finland - west of 24~E", \
+   58.84, 69.33, 19.08, 24.0
+
+4782, "Finland - 24~E to 30~E", \
+   59.64, 70.09, 23.99, 30.0
+
+4783, "Finland - east of 30~E", \
+   61.73, 67.71, 30.0, 31.59
+
+4784, "Uzbekistan - west of 60~E", \
+   41.25, 45.58, 55.99, 60.0
+
+4785, "Uzbekistan - 60~E to 66~E", \
+   38.22, 44.82, 60.0, 66.0
+
+4786, "Uzbekistan - 66~E to 72~E", \
+   37.18, 43.0, 66.0, 72.0
+
+4787, "Uzbekistan - east of 72~E", \
+   40.26, 41.21, 72.0, 73.17
+
+4788, "BES Islands - Sint Eustatius - onshore", \
+   17.41, 17.58, -63.05, -62.88
+
+4789, "Brazil - Ribeirao Preto municipality", \
+   -21.37, -21.06, -47.99, -47.64
+
+4793, "Liberia - east of 12~W", \
+   1.02, 8.52, -12.0, -7.36
+
+4794, "Liberia - west of 12~W", \
+   3.12, 6.4, -13.59, -12.0
+
+109467, "Ecuador - Quito", \
+   -0.6, 0.27, -79.0, -78.15
 
 180001, "Australia - Queensland", \
    -29.5, -9.0, 137.5, 154.0
