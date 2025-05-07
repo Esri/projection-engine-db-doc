@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2024 Esri Inc.                                            #
+#  Copyright 1999-2025 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -1545,6 +1545,29 @@ Authority   : EPSG
 Version     : 11.006(13.4.0)
 Deprecated  : no
 
+WKID        : 1381
+Latest-WKID : 1381
+Macro       : PE_VERTD_SABA_VERTICAL_DATUM
+Name        : Saba_Vertical_Datum
+WKT         : VDATUM["Saba_Vertical_Datum"]
+WKT2        : VDATUM["Saba_Vertical_Datum"]
+Description : Saba Vertical Datum
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+
+WKID        : 1384
+Latest-WKID : 1384
+Macro       : PE_VERTD_CANADIAN_GEODETIC_VERTICAL_DATUM_OF_1928_HTV2
+Name        : Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)
+WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"]
+WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"]
+Description : Canadian Geodetic Vertical Datum of 1928 (Height Transformation
+              version 2.0)
+Authority   : EPSG
+Version     : 11.018(13.5.0)
+Deprecated  : no
+
 WKID        : 1387
 Latest-WKID : 1387
 Macro       : PE_VERTD_GREENLAND_MEAN_SEA_LEVEL_2023
@@ -1565,6 +1588,39 @@ WKT2        : VDATUM["Greenland_Lowest_Astronomic_Tide_(2023)"]
 Description : Greenland Lowest Astronomic Tide (2023)
 Authority   : EPSG
 Version     : 11.013(13.4.0)
+Deprecated  : no
+
+WKID        : 1390
+Latest-WKID : 1390
+Macro       : PE_VERTD_BALTIC_SEA_CHART_DATUM_2000
+Name        : Baltic_Sea_Chart_Datum_2000
+WKT         : VDATUM["Baltic_Sea_Chart_Datum_2000"]
+WKT2        : VDATUM["Baltic_Sea_Chart_Datum_2000"]
+Description : Baltic Sea Chart Datum 2000
+Authority   : EPSG
+Version     : 11.018(13.5.0)
+Deprecated  : no
+
+WKID        : 1395
+Latest-WKID : 1395
+Macro       : PE_VERTD_SINT_EUSTATIUS_VERTICAL_DATUM
+Name        : Sint_Eustatius_Vertical_Datum
+WKT         : VDATUM["Sint_Eustatius_Vertical_Datum"]
+WKT2        : VDATUM["Sint_Eustatius_Vertical_Datum"]
+Description : Sint Eustatius Vertical Datum
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+
+WKID        : 1398
+Latest-WKID : 1398
+Macro       : PE_VERTD_BONAIRE_VERTICAL_DATUM
+Name        : Bonaire_Vertical_Datum
+WKT         : VDATUM["Bonaire_Vertical_Datum"]
+WKT2        : VDATUM["Bonaire_Vertical_Datum"]
+Description : Bonaire Vertical Datum
+Authority   : EPSG
+Version     : 11.029(13.5.0)
 Deprecated  : no
 
 WKID        : 5100
@@ -2841,7 +2897,7 @@ WKT2        : VDATUM["Dansk_Vertikal_Reference_1990"]
 Description : Dansk Vertical Reference 1990 (2000)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 105102
 Latest-WKID : 5208
@@ -2852,7 +2908,7 @@ WKT2        : VDATUM["Rikets_Hojdsystem_2000"]
 Description : Rikets Hojdsystem 2000
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 105103
 Latest-WKID : 105103
@@ -2874,7 +2930,7 @@ WKT2        : VDATUM["Lithuanian_Height_System_2007"]
 Description : Lithuanian Height System 2007
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 105105
 Latest-WKID : 105105
@@ -2885,6 +2941,28 @@ WKT2        : VDATUM["Mean_Sea_Level_Hawaii"]
 Description : Mean Sea Level Hawaii
 Authority   : Esri
 Version     : 13.3.0
+Deprecated  : no
+
+WKID        : 105106
+Latest-WKID : 105106
+Macro       : PE_VERTD_QATARI_VERTICAL_DATUM
+Name        : Qatari_Vertical_Datum
+WKT         : VDATUM["Qatari_Vertical_Datum"]
+WKT2        : VDATUM["Qatari_Vertical_Datum"]
+Description : Qatari Vertical Datum
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+
+WKID        : 105107
+Latest-WKID : 105107
+Macro       : PE_VERTD_HELLENIC_VERTICAL_DATUM
+Name        : Hellenic_Vertical_Datum
+WKT         : VDATUM["Hellenic_Vertical_Datum"]
+WKT2        : VDATUM["Hellenic_Vertical_Datum"]
+Description : Hellenic Vertical Datum
+Authority   : Esri
+Version     : 13.5.0
 Deprecated  : no
 
 WKID        : 105110
@@ -2929,7 +3007,7 @@ WKT2        : VDATUM["EGM2008_Geoid"]
 Description : EGM2008 Geoid
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 105291
 Latest-WKID : 1028
@@ -2940,7 +3018,7 @@ WKT2        : VDATUM["Fao_1979"]
 Description : Fao 1979
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 105292
 Latest-WKID : 1039
@@ -2951,7 +3029,7 @@ WKT2        : VDATUM["New_Zealand_Vertical_Datum_2009"]
 Description : New Zealand Vertical Datum 2009
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 105293
 Latest-WKID : 1030
@@ -2962,7 +3040,7 @@ WKT2        : VDATUM["N2000"]
 Description : N2000
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 105294
 Latest-WKID : 1040
@@ -2973,4 +3051,4 @@ WKT2        : VDATUM["Dunedin_Bluff_1960"]
 Description : Dunedin-Bluff 1960
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange

@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2024 Esri Inc.                                            #
+#  Copyright 1999-2025 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -92,14 +92,14 @@ Area-rlon   : 31.59
 WKID        : 3902
 Latest-WKID : 3902
 pcsWkid     : 5048
-gcsWkid     : 4258
+gcsWkid     : 10690
 vcsWkid     : 5717
 Macro       : PE_HVC_ETRS89_TM35FIN_N60_HT
-Name        : ETRS_1989_TM35FIN_and_N60_height
-WKT         : HVCOORDSYS["ETRS_1989_TM35FIN_and_N60_height",
-               PROJCS["ETRS_1989_TM35FIN_NE",
-                GEOGCS["GCS_ETRS_1989",
-                 DATUM["D_ETRS_1989",
+Name        : EUREF-FIN_TM35FIN_and_N60_height
+WKT         : HVCOORDSYS["EUREF-FIN_TM35FIN_and_N60_height",
+               PROJCS["EUREF-FIN_TM35FIN_NE",
+                GEOGCS["GCS_EUREF_FIN",
+                 DATUM["EUREF-FIN",
                   SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                  PRIMEM["Greenwich", 0.0],
                  UNIT["Degree", 0.0174532925199433]],
@@ -115,10 +115,10 @@ WKT         : HVCOORDSYS["ETRS_1989_TM35FIN_and_N60_height",
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
-WKT2        : COMPOUNDCRS["ETRS_1989_TM35FIN_and_N60_height",
-               PROJCRS["ETRS_1989_TM35FIN_NE",
-                BASEGEOGCRS["GCS_ETRS_1989",
-                 DATUM["D_ETRS_1989",
+WKT2        : COMPOUNDCRS["EUREF-FIN_TM35FIN_and_N60_height",
+               PROJCRS["EUREF-FIN_TM35FIN_NE",
+                BASEGEOGCRS["GCS_EUREF_FIN",
+                 DATUM["EUREF-FIN",
                   ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                    LENGTHUNIT["Meter", 1.0]]],
                  PRIMEM["Greenwich", 0.0,
@@ -152,7 +152,8 @@ WKT2        : COMPOUNDCRS["ETRS_1989_TM35FIN_and_N60_height",
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
-Description : ETRS 1989 TM35FIN + N60 (Height)
+Description : EUREF-FIN TM35FIN + N60 (Height) - changed based-GCS in EPSG
+              v11.024
 Authority   : EPSG
 Version     : 7.5.1(12.7.0)
 Deprecated  : no
@@ -165,14 +166,14 @@ Area-rlon   : 31.59
 WKID        : 3903
 Latest-WKID : 3903
 pcsWkid     : 5048
-gcsWkid     : 4258
+gcsWkid     : 10690
 vcsWkid     : 3900
 Macro       : PE_HVC_ETRS89_TM35FIN_N2000_HT
-Name        : ETRS_1989_TM35FIN_and_N2000_height
-WKT         : HVCOORDSYS["ETRS_1989_TM35FIN_and_N2000_height",
-               PROJCS["ETRS_1989_TM35FIN_NE",
-                GEOGCS["GCS_ETRS_1989",
-                 DATUM["D_ETRS_1989",
+Name        : EUREF-FIN_TM35FIN_and_N2000_height
+WKT         : HVCOORDSYS["EUREF-FIN_TM35FIN_and_N2000_height",
+               PROJCS["EUREF-FIN_TM35FIN_NE",
+                GEOGCS["GCS_EUREF_FIN",
+                 DATUM["EUREF-FIN",
                   SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                  PRIMEM["Greenwich", 0.0],
                  UNIT["Degree", 0.0174532925199433]],
@@ -188,10 +189,10 @@ WKT         : HVCOORDSYS["ETRS_1989_TM35FIN_and_N2000_height",
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
                 UNIT["Meter", 1.0]]]
-WKT2        : COMPOUNDCRS["ETRS_1989_TM35FIN_and_N2000_height",
-               PROJCRS["ETRS_1989_TM35FIN_NE",
-                BASEGEOGCRS["GCS_ETRS_1989",
-                 DATUM["D_ETRS_1989",
+WKT2        : COMPOUNDCRS["EUREF-FIN_TM35FIN_and_N2000_height",
+               PROJCRS["EUREF-FIN_TM35FIN_NE",
+                BASEGEOGCRS["GCS_EUREF_FIN",
+                 DATUM["EUREF-FIN",
                   ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                    LENGTHUNIT["Meter", 1.0]]],
                  PRIMEM["Greenwich", 0.0,
@@ -225,7 +226,8 @@ WKT2        : COMPOUNDCRS["ETRS_1989_TM35FIN_and_N2000_height",
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
                  LENGTHUNIT["Meter", 1.0]]]]
-Description : ETRS 1989 TM35FIN + N2000 (Height)
+Description : EUREF-FIN TM35FIN + N2000 (Height) - changed based-GCS in EPSG
+              v11.024
 Authority   : EPSG
 Version     : 7.5.1(12.7.0)
 Deprecated  : no
@@ -8975,7 +8977,7 @@ WKT         : HVCOORDSYS["HVC_WGS_1984_World_Mercator_and_EGM2008_height",
                 PARAMETER["Central_Meridian", 0.0],
                 PARAMETER["Standard_Parallel_1", 0.0],
                 UNIT["Meter", 1.0]],
-               VERTCS["EGM2008_Geoid",
+               VERTCS["EGM2008_height",
                 VDATUM["EGM2008_Geoid"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
@@ -9012,7 +9014,7 @@ WKT2        : COMPOUNDCRS["HVC_WGS_1984_World_Mercator_and_EGM2008_height",
                 AXIS["Northing (Y)", north,
                  ORDER[2]],
                 LENGTHUNIT["Meter", 1.0]],
-               VERTCRS["EGM2008_Geoid",
+               VERTCRS["EGM2008_height",
                 VDATUM["EGM2008_Geoid"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
@@ -20253,7 +20255,7 @@ Description : ETRS89 + Douglas height
 Authority   : EPSG
 Version     : 9.8.13(13.2.0)
 Deprecated  : no
-Area-name   : Isle of Man - onshore
+Area-name   : Isle of Man
 Area-slat   : 54.02
 Area-nlat   : 54.44
 Area-llon   : -4.87
@@ -21499,7 +21501,7 @@ WKT         : HVCOORDSYS["WGS_1984_and_EGM2008_height",
                  SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                 PRIMEM["Greenwich", 0.0],
                 UNIT["Degree", 0.0174532925199433]],
-               VERTCS["EGM2008_Geoid",
+               VERTCS["EGM2008_height",
                 VDATUM["EGM2008_Geoid"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
@@ -21519,7 +21521,7 @@ WKT2        : COMPOUNDCRS["WGS_1984_and_EGM2008_height",
                 AXIS["Longitude (lon)", east,
                  ORDER[2]],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               VERTCRS["EGM2008_Geoid",
+               VERTCRS["EGM2008_height",
                 VDATUM["EGM2008_Geoid"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
@@ -22897,7 +22899,7 @@ WKT         : HVCOORDSYS["WGS_1984_and_EGM96_height",
                  SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
                 PRIMEM["Greenwich", 0.0],
                 UNIT["Degree", 0.0174532925199433]],
-               VERTCS["EGM96_Geoid",
+               VERTCS["EGM96_height",
                 VDATUM["EGM96_Geoid"],
                 PARAMETER["Vertical_Shift", 0.0],
                 PARAMETER["Direction", 1.0],
@@ -22917,7 +22919,7 @@ WKT2        : COMPOUNDCRS["WGS_1984_and_EGM96_height",
                 AXIS["Longitude (lon)", east,
                  ORDER[2]],
                 ANGLEUNIT["Degree", 0.0174532925199433]],
-               VERTCRS["EGM96_Geoid",
+               VERTCRS["EGM96_height",
                 VDATUM["EGM96_Geoid"],
                 CS[vertical, 1],
                 AXIS["Gravity-related height (H)", up,
@@ -28650,6 +28652,171 @@ Area-nlat   : 14.93
 Area-llon   : -61.29
 Area-rlon   : -60.76
 
+WKID        : 10643
+Latest-WKID : 10643
+pcsWkid     : 0
+gcsWkid     : 10636
+vcsWkid     : 10642
+Macro       : PE_HVC_SABA_SABA_HEIGHT
+Name        : Saba_and_Saba_height
+WKT         : HVCOORDSYS["Saba_and_Saba_height",
+               GEOGCS["Saba",
+                DATUM["Saba",
+                 SPHEROID["International_1924", 6378388.0, 297.0]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Saba_height",
+                VDATUM["Saba_Vertical_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["Saba_and_Saba_height",
+               GEOGCRS["Saba",
+                DATUM["Saba",
+                 ELLIPSOID["International_1924", 6378388.0, 297.0,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["Saba_height",
+                VDATUM["Saba_Vertical_Datum"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : Saba + Saba height
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
+WKID        : 10644
+Latest-WKID : 10644
+pcsWkid     : 0
+gcsWkid     : 10639
+vcsWkid     : 10642
+Macro       : PE_HVC_BES2020_SABA_SABA_HEIGHT
+Name        : BES2020_Saba_and_Saba_height
+WKT         : HVCOORDSYS["BES2020_Saba_and_Saba_height",
+               GEOGCS["BES2020_Saba",
+                DATUM["BES2020_Saba",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Saba_height",
+                VDATUM["Saba_Vertical_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["BES2020_Saba_and_Saba_height",
+               GEOGCRS["BES2020_Saba",
+                DATUM["BES2020_Saba",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["Saba_height",
+                VDATUM["Saba_Vertical_Datum"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : BES2020 Saba + Saba height
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
+WKID        : 10645
+Latest-WKID : 10645
+pcsWkid     : 10641
+gcsWkid     : 10636
+vcsWkid     : 10642
+Macro       : PE_HVC_SABA_DPNET_SABA_HEIGHT
+Name        : Saba_DPnet_and_Saba_height
+WKT         : HVCOORDSYS["Saba_DPnet_and_Saba_height",
+               PROJCS["Saba_DPnet",
+                GEOGCS["Saba",
+                 DATUM["Saba",
+                  SPHEROID["International_1924", 6378388.0, 297.0]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 29973.97],
+                PARAMETER["False_Northing", -1947925.94],
+                PARAMETER["Central_Meridian", -63.0],
+                PARAMETER["Scale_Factor", 0.9996],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["Saba_height",
+                VDATUM["Saba_Vertical_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["Saba_DPnet_and_Saba_height",
+               PROJCRS["Saba_DPnet",
+                BASEGEOGCRS["Saba",
+                 DATUM["Saba",
+                  ELLIPSOID["International_1924", 6378388.0, 297.0,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Transverse_Mercator",
+                 METHOD["Transverse_Mercator"],
+                 PARAMETER["False_Easting", 29973.97,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", -1947925.94,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", -63.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Scale_Factor", 0.9996,
+                  SCALEUNIT["Unity", 1.0]],
+                 PARAMETER["Latitude_Of_Origin", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["Saba_height",
+                VDATUM["Saba_Vertical_Datum"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : Saba DPnet + Saba height
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
 WKID        : 10651
 Latest-WKID : 10651
 pcsWkid     : 0
@@ -28865,6 +29032,693 @@ Area-slat   : 45.74
 Area-nlat   : 48.58
 Area-llon   : 16.11
 Area-rlon   : 22.9
+
+WKID        : 10679
+Latest-WKID : 10679
+pcsWkid     : 0
+gcsWkid     : 4258
+vcsWkid     : 10678
+Macro       : PE_HVC_ETRS89_BSCD2000_DEPTH
+Name        : ETRS89_and_BSCD2000_depth
+WKT         : HVCOORDSYS["ETRS89_and_BSCD2000_depth",
+               GEOGCS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["BSCD2000_depth",
+                VDATUM["Baltic_Sea_Chart_Datum_2000"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", -1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["ETRS89_and_BSCD2000_depth",
+               GEOGCRS["GCS_ETRS_1989",
+                DATUM["D_ETRS_1989",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["BSCD2000_depth",
+                VDATUM["Baltic_Sea_Chart_Datum_2000"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", down,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : ETRS89 + BSCD2000 depth
+Authority   : EPSG
+Version     : 11.018(13.5.0)
+Deprecated  : no
+Area-name   : Europe - Baltic Sea
+Area-slat   : 53.88
+Area-nlat   : 65.92
+Area-llon   : 8.5
+Area-rlon   : 30.23
+
+WKID        : 10686
+Latest-WKID : 10686
+pcsWkid     : 0
+gcsWkid     : 4765
+vcsWkid     : 5779
+Macro       : PE_HVC_SLOVENIA_1996_SVS2000_HEIGHT
+Name        : Slovenia_1996_and_SVS2000_height
+WKT         : HVCOORDSYS["Slovenia_1996_and_SVS2000_height",
+               GEOGCS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["SVS2000",
+                VDATUM["Slovenian_Vertical_System_2000"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["Slovenia_1996_and_SVS2000_height",
+               GEOGCRS["GCS_Slovenia_1996",
+                DATUM["D_Slovenia_Geodetic_Datum_1996",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["SVS2000",
+                VDATUM["Slovenian_Vertical_System_2000"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : Slovenia 1996 + SVS2000 height
+Authority   : EPSG
+Version     : 11.022(13.5.0)
+Deprecated  : no
+Area-name   : Slovenia - onshore
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
+
+WKID        : 10687
+Latest-WKID : 10687
+pcsWkid     : 3794
+gcsWkid     : 4765
+vcsWkid     : 5779
+Macro       : PE_HVC_SLOVENIA_1996_SLOVENE_NATIONAL_GRID_SVS2000_HEIGHT
+Name        : Slovenia_1996_Slovene_National_Grid_and_SVS2000_height
+WKT         : HVCOORDSYS["Slovenia_1996_Slovene_National_Grid_and_SVS2000_height",
+               PROJCS["Slovenia_1996_Slovene_National_Grid",
+                GEOGCS["GCS_Slovenia_1996",
+                 DATUM["D_Slovenia_Geodetic_Datum_1996",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 500000.0],
+                PARAMETER["False_Northing", -5000000.0],
+                PARAMETER["Central_Meridian", 15.0],
+                PARAMETER["Scale_Factor", 0.9999],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["SVS2000",
+                VDATUM["Slovenian_Vertical_System_2000"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["Slovenia_1996_Slovene_National_Grid_and_SVS2000_height",
+               PROJCRS["Slovenia_1996_Slovene_National_Grid",
+                BASEGEOGCRS["GCS_Slovenia_1996",
+                 DATUM["D_Slovenia_Geodetic_Datum_1996",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Transverse_Mercator",
+                 METHOD["Transverse_Mercator"],
+                 PARAMETER["False_Easting", 500000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", -5000000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", 15.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Scale_Factor", 0.9999,
+                  SCALEUNIT["Unity", 1.0]],
+                 PARAMETER["Latitude_Of_Origin", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["SVS2000",
+                VDATUM["Slovenian_Vertical_System_2000"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : Slovenia 1996 / Slovene National Grid + SVS2000 height
+Authority   : EPSG
+Version     : 11.022(13.5.0)
+Deprecated  : no
+Area-name   : Slovenia - onshore
+Area-slat   : 45.42
+Area-nlat   : 46.88
+Area-llon   : 13.38
+Area-rlon   : 16.61
+
+WKID        : 10691
+Latest-WKID : 10691
+pcsWkid     : 0
+gcsWkid     : 10690
+vcsWkid     : 5717
+Macro       : PE_HVC_EUREF_FIN_N60_HEIGHT
+Name        : EUREF-FIN_and_N60_height
+WKT         : HVCOORDSYS["EUREF-FIN_and_N60_height",
+               GEOGCS["GCS_EUREF_FIN",
+                DATUM["EUREF-FIN",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["N60",
+                VDATUM["Helsinki_1960"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["EUREF-FIN_and_N60_height",
+               GEOGCRS["GCS_EUREF_FIN",
+                DATUM["EUREF-FIN",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["N60",
+                VDATUM["Helsinki_1960"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : EUREF-FIN + N60 height
+Authority   : EPSG
+Version     : 11.024(13.5.0)
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+
+WKID        : 10692
+Latest-WKID : 10692
+pcsWkid     : 0
+gcsWkid     : 10690
+vcsWkid     : 3900
+Macro       : PE_HVC_EUREF_FIN_N2000_HEIGHT
+Name        : EUREF-FIN_and_N2000_height
+WKT         : HVCOORDSYS["EUREF-FIN_and_N2000_height",
+               GEOGCS["GCS_EUREF_FIN",
+                DATUM["EUREF-FIN",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["N2000_height",
+                VDATUM["N2000"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["EUREF-FIN_and_N2000_height",
+               GEOGCRS["GCS_EUREF_FIN",
+                DATUM["EUREF-FIN",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["N2000_height",
+                VDATUM["N2000"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : EUREF-FIN + N2000 height
+Authority   : EPSG
+Version     : 11.024(13.5.0)
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
+
+WKID        : 10741
+Latest-WKID : 10741
+pcsWkid     : 0
+gcsWkid     : 10736
+vcsWkid     : 10740
+Macro       : PE_HVC_SINT_EUSTATIUS_SINT_EUSTATIUS_HEIGHT
+Name        : Sint_Eustatius_and_Sint_Eustatius_height
+WKT         : HVCOORDSYS["Sint_Eustatius_and_Sint_Eustatius_height",
+               GEOGCS["Sint_Eustatius",
+                DATUM["Sint_Eustatius",
+                 SPHEROID["International_1924", 6378388.0, 297.0]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Sint_Eustatius_height",
+                VDATUM["Sint_Eustatius_Vertical_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["Sint_Eustatius_and_Sint_Eustatius_height",
+               GEOGCRS["Sint_Eustatius",
+                DATUM["Sint_Eustatius",
+                 ELLIPSOID["International_1924", 6378388.0, 297.0,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["Sint_Eustatius_height",
+                VDATUM["Sint_Eustatius_Vertical_Datum"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : Sint Eustatius + Sint Eustatius height
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10742
+Latest-WKID : 10742
+pcsWkid     : 0
+gcsWkid     : 10739
+vcsWkid     : 10740
+Macro       : PE_HVC_BES2020_SINT_EUSTATIUS_SINT_EUSTATIUS_HEIGHT
+Name        : BES2020_Sint_Eustatius_and_Sint_Eustatius_height
+WKT         : HVCOORDSYS["BES2020_Sint_Eustatius_and_Sint_Eustatius_height",
+               GEOGCS["BES2020_Sint_Eustatius",
+                DATUM["BES2020_Sint_Eustatius",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Sint_Eustatius_height",
+                VDATUM["Sint_Eustatius_Vertical_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["BES2020_Sint_Eustatius_and_Sint_Eustatius_height",
+               GEOGCRS["BES2020_Sint_Eustatius",
+                DATUM["BES2020_Sint_Eustatius",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["Sint_Eustatius_height",
+                VDATUM["Sint_Eustatius_Vertical_Datum"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : BES2020 Sint Eustatius + Sint Eustatius height
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10746
+Latest-WKID : 10746
+pcsWkid     : 10744
+gcsWkid     : 10736
+vcsWkid     : 10740
+Macro       : PE_HVC_SINT_EUSTATIUS_DPNET_SHORT_SINT_EUSTATIUS_HEIGHT
+Name        : Sint_Eustatius_DPnet_short_and_Sint_Eustatius_height
+WKT         : HVCOORDSYS["Sint_Eustatius_DPnet_short_and_Sint_Eustatius_height",
+               PROJCS["Sint_Eustatius_DPnet_short",
+                GEOGCS["Sint_Eustatius",
+                 DATUM["Sint_Eustatius",
+                  SPHEROID["International_1924", 6378388.0, 297.0]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 578.55],
+                PARAMETER["False_Northing", -1930396.26],
+                PARAMETER["Central_Meridian", -63.0],
+                PARAMETER["Scale_Factor", 0.9996],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["Sint_Eustatius_height",
+                VDATUM["Sint_Eustatius_Vertical_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["Sint_Eustatius_DPnet_short_and_Sint_Eustatius_height",
+               PROJCRS["Sint_Eustatius_DPnet_short",
+                BASEGEOGCRS["Sint_Eustatius",
+                 DATUM["Sint_Eustatius",
+                  ELLIPSOID["International_1924", 6378388.0, 297.0,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Transverse_Mercator",
+                 METHOD["Transverse_Mercator"],
+                 PARAMETER["False_Easting", 578.55,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", -1930396.26,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", -63.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Scale_Factor", 0.9996,
+                  SCALEUNIT["Unity", 1.0]],
+                 PARAMETER["Latitude_Of_Origin", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["Sint_Eustatius_height",
+                VDATUM["Sint_Eustatius_Vertical_Datum"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : Sint Eustatius DPnet short + Sint Eustatius height
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10747
+Latest-WKID : 10747
+pcsWkid     : 10745
+gcsWkid     : 10736
+vcsWkid     : 10740
+Macro       : PE_HVC_SINT_EUSTATIUS_DPNET_LONG_SINT_EUSTATIUS_HEIGHT
+Name        : Sint_Eustatius_DPnet_long_and_Sint_Eustatius_height
+WKT         : HVCOORDSYS["Sint_Eustatius_DPnet_long_and_Sint_Eustatius_height",
+               PROJCS["Sint_Eustatius_DPnet_long",
+                GEOGCS["Sint_Eustatius",
+                 DATUM["Sint_Eustatius",
+                  SPHEROID["International_1924", 6378388.0, 297.0]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 500000.0],
+                PARAMETER["False_Northing", 0.0],
+                PARAMETER["Central_Meridian", -63.0],
+                PARAMETER["Scale_Factor", 0.9996],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["Sint_Eustatius_height",
+                VDATUM["Sint_Eustatius_Vertical_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["Sint_Eustatius_DPnet_long_and_Sint_Eustatius_height",
+               PROJCRS["Sint_Eustatius_DPnet_long",
+                BASEGEOGCRS["Sint_Eustatius",
+                 DATUM["Sint_Eustatius",
+                  ELLIPSOID["International_1924", 6378388.0, 297.0,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Transverse_Mercator",
+                 METHOD["Transverse_Mercator"],
+                 PARAMETER["False_Easting", 500000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", 0.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", -63.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Scale_Factor", 0.9996,
+                  SCALEUNIT["Unity", 1.0]],
+                 PARAMETER["Latitude_Of_Origin", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["Sint_Eustatius_height",
+                VDATUM["Sint_Eustatius_Vertical_Datum"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : Sint Eustatius DPnet long + Sint Eustatius height
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10764
+Latest-WKID : 10764
+pcsWkid     : 10759
+gcsWkid     : 10758
+vcsWkid     : 10763
+Macro       : PE_HVC_BONAIRE_DPNET_BONAIRE_HEIGHT
+Name        : Bonaire_DPnet_and_Bonaire_height
+WKT         : HVCOORDSYS["Bonaire_DPnet_and_Bonaire_height",
+               PROJCS["Bonaire_DPnet",
+                GEOGCS["Bonaire",
+                 DATUM["Bonaire",
+                  SPHEROID["International_1924", 6378388.0, 297.0]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 23209.56],
+                PARAMETER["False_Northing", 21423.99],
+                PARAMETER["Central_Meridian", -68.25180228055557],
+                PARAMETER["Scale_Factor", 1.0],
+                PARAMETER["Latitude_Of_Origin", 12.180658675],
+                UNIT["Meter", 1.0]],
+               VERTCS["Bonaire_height",
+                VDATUM["Bonaire_Vertical_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["Bonaire_DPnet_and_Bonaire_height",
+               PROJCRS["Bonaire_DPnet",
+                BASEGEOGCRS["Bonaire",
+                 DATUM["Bonaire",
+                  ELLIPSOID["International_1924", 6378388.0, 297.0,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Transverse_Mercator",
+                 METHOD["Transverse_Mercator"],
+                 PARAMETER["False_Easting", 23209.56,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", 21423.99,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", -68.25180228055557,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Scale_Factor", 1.0,
+                  SCALEUNIT["Unity", 1.0]],
+                 PARAMETER["Latitude_Of_Origin", 12.180658675,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["Bonaire_height",
+                VDATUM["Bonaire_Vertical_Datum"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : Bonaire DPnet + Bonaire height
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Bonaire onshore
+Area-slat   : 11.97
+Area-nlat   : 12.36
+Area-llon   : -68.47
+Area-rlon   : -68.14
+
+WKID        : 10765
+Latest-WKID : 10765
+pcsWkid     : 0
+gcsWkid     : 10762
+vcsWkid     : 10763
+Macro       : PE_HVC_BONAIRE_2004_BONAIRE_HEIGHT
+Name        : Bonaire_2004_and_Bonaire_height
+WKT         : HVCOORDSYS["Bonaire_2004_and_Bonaire_height",
+               GEOGCS["Bonaire_2004",
+                DATUM["Bonaire_2004",
+                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                PRIMEM["Greenwich", 0.0],
+                UNIT["Degree", 0.0174532925199433]],
+               VERTCS["Bonaire_height",
+                VDATUM["Bonaire_Vertical_Datum"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["Bonaire_2004_and_Bonaire_height",
+               GEOGCRS["Bonaire_2004",
+                DATUM["Bonaire_2004",
+                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                  LENGTHUNIT["Meter", 1.0]]],
+                PRIMEM["Greenwich", 0.0,
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CS[ellipsoidal, 2],
+                AXIS["Latitude (lat)", north,
+                 ORDER[1]],
+                AXIS["Longitude (lon)", east,
+                 ORDER[2]],
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               VERTCRS["Bonaire_height",
+                VDATUM["Bonaire_Vertical_Datum"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : Bonaire 2004 + Bonaire height
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Bonaire onshore
+Area-slat   : 11.97
+Area-nlat   : 12.36
+Area-llon   : -68.47
+Area-rlon   : -68.14
+
+WKID        : 10774
+Latest-WKID : 10774
+pcsWkid     : 3067
+gcsWkid     : 10690
+vcsWkid     : 3900
+Macro       : PE_HVC_EUREF_FIN_TM35FINEN_N2000_HEIGHT
+Name        : EUREF-FIN_TM35FIN(E,N)_and_N2000_height
+WKT         : HVCOORDSYS["EUREF-FIN_TM35FIN(E, N)_and_N2000_height",
+               PROJCS["EUREF-FIN_TM35FIN",
+                GEOGCS["GCS_EUREF_FIN",
+                 DATUM["EUREF-FIN",
+                  SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+                 PRIMEM["Greenwich", 0.0],
+                 UNIT["Degree", 0.0174532925199433]],
+                PROJECTION["Transverse_Mercator"],
+                PARAMETER["False_Easting", 500000.0],
+                PARAMETER["False_Northing", 0.0],
+                PARAMETER["Central_Meridian", 27.0],
+                PARAMETER["Scale_Factor", 0.9996],
+                PARAMETER["Latitude_Of_Origin", 0.0],
+                UNIT["Meter", 1.0]],
+               VERTCS["N2000_height",
+                VDATUM["N2000"],
+                PARAMETER["Vertical_Shift", 0.0],
+                PARAMETER["Direction", 1.0],
+                UNIT["Meter", 1.0]]]
+WKT2        : COMPOUNDCRS["EUREF-FIN_TM35FIN(E, N)_and_N2000_height",
+               PROJCRS["EUREF-FIN_TM35FIN",
+                BASEGEOGCRS["GCS_EUREF_FIN",
+                 DATUM["EUREF-FIN",
+                  ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                   LENGTHUNIT["Meter", 1.0]]],
+                 PRIMEM["Greenwich", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 CS[ellipsoidal, 2],
+                 AXIS["Latitude (lat)", north,
+                  ORDER[1]],
+                 AXIS["Longitude (lon)", east,
+                  ORDER[2]],
+                 ANGLEUNIT["Degree", 0.0174532925199433]],
+                CONVERSION["Transverse_Mercator",
+                 METHOD["Transverse_Mercator"],
+                 PARAMETER["False_Easting", 500000.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["False_Northing", 0.0,
+                  LENGTHUNIT["Meter", 1.0]],
+                 PARAMETER["Central_Meridian", 27.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]],
+                 PARAMETER["Scale_Factor", 0.9996,
+                  SCALEUNIT["Unity", 1.0]],
+                 PARAMETER["Latitude_Of_Origin", 0.0,
+                  ANGLEUNIT["Degree", 0.0174532925199433]]],
+                CS[Cartesian, 2],
+                AXIS["Easting (X)", east,
+                 ORDER[1]],
+                AXIS["Northing (Y)", north,
+                 ORDER[2]],
+                LENGTHUNIT["Meter", 1.0]],
+               VERTCRS["N2000_height",
+                VDATUM["N2000"],
+                CS[vertical, 1],
+                AXIS["Gravity-related height (H)", up,
+                 LENGTHUNIT["Meter", 1.0]]]]
+Description : EUREF-FIN / TM35FIN(E,N) + N2000 height
+Authority   : EPSG
+Version     : 11.026(13.5.0)
+Deprecated  : no
+Area-name   : Finland - onshore
+Area-slat   : 59.75
+Area-nlat   : 70.09
+Area-llon   : 19.24
+Area-rlon   : 31.59
 
 WKID        : 20001
 Latest-WKID : 20001

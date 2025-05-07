@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2024 Esri Inc.                                            #
+#  Copyright 1999-2025 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -967,7 +967,7 @@ WKT2        : DATUM["Israel_Geodetic_Datum_2005",
 Description : Israel Geodetic Datum 2005
 Authority   : EPSG
 Version     : 8.6(10.3.1)
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 1144
 Latest-WKID : 1144
@@ -995,7 +995,7 @@ WKT2        : DATUM["Israeli_Geodetic_Datum_2005(2012)",
 Description : Israeli Geodetic Datum 2005(2012)
 Authority   : EPSG
 Version     : 8.6(10.3.1)
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 1147
 Latest-WKID : 1147
@@ -2088,7 +2088,7 @@ Description : SIRGAS-Chile (Incorrectly changed to 1254. Ensemble 1254 dep by
               EPSG. S/b sirgas-chile 2002)
 Authority   : EPSG
 Version     : 9.8(10.1.0)
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 1257
 Latest-WKID : 1257
@@ -2986,6 +2986,34 @@ Authority   : EPSG
 Version     : 10.095(13.3.0)
 Deprecated  : no
 
+WKID        : 1379
+Latest-WKID : 1379
+Macro       : PE_D_SABA
+Name        : Saba
+WKT         : DATUM["Saba",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["Saba",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Saba
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+
+WKID        : 1380
+Latest-WKID : 1380
+Macro       : PE_D_BES2020_SABA
+Name        : BES2020_Saba
+WKT         : DATUM["BES2020_Saba",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["BES2020_Saba",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BES2020 Saba
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+
 WKID        : 1382
 Latest-WKID : 1382
 Macro       : PE_D_EUROPEAN_TERRESTRIAL_REFERENCE_FRAME_2020
@@ -3040,6 +3068,146 @@ WKT2        : DATUM["WC05_Intermediate_Reference_Frame",
 Description : WC05 Intermediate Reference Frame
 Authority   : EPSG
 Version     : 11.009(13.4.0)
+Deprecated  : no
+
+WKID        : 1389
+Latest-WKID : 1389
+Macro       : PE_D_MAYOTTE_GEODETIC_REFERENCE_FRAME_2023
+Name        : Mayotte_Geodetic_Reference_Frame_2023
+WKT         : DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Mayotte Geodetic Reference Frame 2023
+Authority   : EPSG
+Version     : 11.021(13.5.0)
+Deprecated  : no
+
+WKID        : 1391
+Latest-WKID : 1391
+Macro       : PE_D_EUREF_FIN
+Name        : EUREF-FIN
+WKT         : DATUM["EUREF-FIN",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["EUREF-FIN",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : EUREF-FIN
+Authority   : EPSG
+Version     : 11.024(13.5.0)
+Deprecated  : no
+
+WKID        : 1392
+Latest-WKID : 1392
+Macro       : PE_D_UZBEKISTAN_GEODETIC_DATUM_2024
+Name        : Uzbekistan_Geodetic_Datum_2024
+WKT         : DATUM["Uzbekistan_Geodetic_Datum_2024",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Uzbekistan_Geodetic_Datum_2024",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Uzbekistan Geodetic Datum 2024
+Authority   : EPSG
+Version     : 11.024(13.5.0)
+Deprecated  : no
+
+WKID        : 1393
+Latest-WKID : 1393
+Macro       : PE_D_SINT_EUSTATIUS
+Name        : Sint_Eustatius
+WKT         : DATUM["Sint_Eustatius",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["Sint_Eustatius",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Sint Eustatius
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+
+WKID        : 1394
+Latest-WKID : 1394
+Macro       : PE_D_BES2020_SINT_EUSTATIUS
+Name        : BES2020_Sint_Eustatius
+WKT         : DATUM["BES2020_Sint_Eustatius",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["BES2020_Sint_Eustatius",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BES2020 Sint Eustatius
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+
+WKID        : 1396
+Latest-WKID : 1396
+Macro       : PE_D_BONAIRE
+Name        : Bonaire
+WKT         : DATUM["Bonaire",
+               SPHEROID["International_1924", 6378388.0, 297.0]]
+WKT2        : DATUM["Bonaire",
+               ELLIPSOID["International_1924", 6378388.0, 297.0,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Bonaire
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+
+WKID        : 1397
+Latest-WKID : 1397
+Macro       : PE_D_BONAIRE_2004
+Name        : Bonaire_2004
+WKT         : DATUM["Bonaire_2004",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Bonaire_2004",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Bonaire 2004
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+
+WKID        : 1399
+Latest-WKID : 1399
+Macro       : PE_D_ITRF_2020_U2023
+Name        : International_Terrestrial_Reference_Frame_2020-u2023
+WKT         : DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : International Terrestrial Reference Frame 2020-u2023
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+
+WKID        : 1400
+Latest-WKID : 1400
+Macro       : PE_D_IGB20
+Name        : IGb20
+WKT         : DATUM["IGb20",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["IGb20",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : IGb20
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+
+WKID        : 1402
+Latest-WKID : 1402
+Macro       : PE_D_LIBERIA_REFERENCE_FRAME_2021
+Name        : Liberia_Reference_Frame_2021
+WKT         : DATUM["Liberia_Reference_Frame_2021",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Liberia_Reference_Frame_2021",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Liberia Reference Frame 2021
+Authority   : EPSG
+Version     : 12.001(13.5.0)
 Deprecated  : no
 
 WKID        : 6001
@@ -3600,7 +3768,7 @@ WKT2        : DATUM["D_Hughes_1980",
 Description : Hughes 1980
 Authority   : EPSG
 Version     : 10.088(9.3.0.0)
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 6055
 Latest-WKID : 6055
@@ -5182,7 +5350,7 @@ WKT2        : DATUM["D_Garoua",
 Description : Garoua
 Authority   : EPSG
 Version     : 2.1(4.0.0)
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 6235
 Latest-WKID : 6235
@@ -5966,7 +6134,7 @@ WKT2        : DATUM["D_South_American_1969",
 Description : South American Datum 1969
 Authority   : EPSG
 Version     : 3.0(4.0.0)
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 6292
 Latest-WKID : 6292
@@ -6162,7 +6330,7 @@ WKT2        : DATUM["D_Voirol_Unifie_1960",
 Description : Voirol Unifie 1960
 Authority   : Esri
 Version     : 3.0.1
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 6306
 Latest-WKID : 6306
@@ -6834,7 +7002,7 @@ WKT2        : DATUM["D_Kerguelen_Island_1949",
 Description : Kerguelen Island 1949
 Authority   : EPSG
 Version     : 6.3(8.1.0)
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 6632
 Latest-WKID : 6632
@@ -8962,7 +9130,7 @@ WKT2        : DATUM["D_WGS_1966",
 Description : WGS 1966
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106002
 Latest-WKID : 106002
@@ -9074,7 +9242,7 @@ WKT2        : DATUM["D_Kyrgyz_Republic_2006",
 Description : Kyrgyz Republic 2006
 Authority   : Esri
 Version     : 10.3.1
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106010
 Latest-WKID : 106010
@@ -9130,7 +9298,7 @@ WKT2        : DATUM["D_JGD_2011",
 Description : Japan Geodetic Datum 2011
 Authority   : Esri
 Version     : 10.1.1
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106027
 Latest-WKID : 1263
@@ -9144,7 +9312,7 @@ WKT2        : DATUM["Oman_National_Geodetic_Datum_2017",
 Description : Oman National Geodetic Datum 2017
 Authority   : Esri
 Version     : 10.7.1
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106028
 Latest-WKID : 106028
@@ -9200,7 +9368,7 @@ WKT2        : DATUM["D_GDBD2009",
 Description : GDBD2009
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106101
 Latest-WKID : 106101
@@ -9256,7 +9424,7 @@ WKT2        : DATUM["D_Islands_Network_2004",
 Description : Islands Network 2004
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106201
 Latest-WKID : 6668
@@ -9270,7 +9438,7 @@ WKT2        : DATUM["D_European_1979",
 Description : European 1979
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106202
 Latest-WKID : 106202
@@ -9312,7 +9480,7 @@ WKT2        : DATUM["D_Hjorsey_1955",
 Description : Hjorsey 1955
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106205
 Latest-WKID : 6739
@@ -9326,7 +9494,7 @@ WKT2        : DATUM["D_Hong_Kong_1963_67",
 Description : Hong Kong 1963(67)
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106206
 Latest-WKID : 106206
@@ -9368,7 +9536,7 @@ WKT2        : DATUM["D_Ayabelle",
 Description : Ayabelle Lighthouse
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106209
 Latest-WKID : 1249
@@ -9382,7 +9550,7 @@ WKT2        : DATUM["D_NAD_1983_PACP00",
 Description : NAD 1983 PACP00
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106210
 Latest-WKID : 1221
@@ -9396,7 +9564,7 @@ WKT2        : DATUM["D_NAD_1983_MARP00",
 Description : NAD 1983 MARP00
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106211
 Latest-WKID : 6620
@@ -9410,7 +9578,7 @@ WKT2        : DATUM["D_Point_58",
 Description : Point 58
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106212
 Latest-WKID : 6709
@@ -9424,7 +9592,7 @@ WKT2        : DATUM["D_Beacon_E_1945",
 Description : Astro Beacon E 1945 (Iwo Jima 1945)
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106213
 Latest-WKID : 6707
@@ -9438,7 +9606,7 @@ WKT2        : DATUM["D_Tern_Island_1961",
 Description : Tern Island Astro 1961
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106214
 Latest-WKID : 6711
@@ -9452,7 +9620,7 @@ WKT2        : DATUM["D_Astro_1952",
 Description : Astronomical Station 1952 (Marcus Island 1952 )
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106215
 Latest-WKID : 6714
@@ -9466,7 +9634,7 @@ WKT2        : DATUM["D_Bellevue_IGN",
 Description : Bellevue IGN
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106216
 Latest-WKID : 6716
@@ -9480,7 +9648,7 @@ WKT2        : DATUM["D_Canton_1966",
 Description : Canton Astro 1966 (Phoenix Islands 1966)
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106217
 Latest-WKID : 6672
@@ -9494,7 +9662,7 @@ WKT2        : DATUM["D_Chatham_Island_1971",
 Description : Chatham Island Astro 1971
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106218
 Latest-WKID : 106218
@@ -9522,7 +9690,7 @@ WKT2        : DATUM["D_Easter_Island_1967",
 Description : Easter Island 1967
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106220
 Latest-WKID : 6675
@@ -9536,7 +9704,7 @@ WKT2        : DATUM["D_Guam_1963",
 Description : Guam 1963
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106221
 Latest-WKID : 106221
@@ -9564,7 +9732,7 @@ WKT2        : DATUM["D_Johnston_Island_1961",
 Description : Johnston Island 1961
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106223
 Latest-WKID : 1133
@@ -9578,7 +9746,7 @@ WKT2        : DATUM["D_NAD_1983_CORS96",
 Description : NAD 1983 (CORS96)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106224
 Latest-WKID : 6727
@@ -9592,7 +9760,7 @@ WKT2        : DATUM["D_Midway_1961",
 Description : Midway Astro 1961
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106225
 Latest-WKID : 1112
@@ -9606,7 +9774,7 @@ WKT2        : DATUM["D_Cyprus_Geodetic_Reference_System_1993",
 Description : Cyprus GRS 1993
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106226
 Latest-WKID : 6729
@@ -9620,7 +9788,7 @@ WKT2        : DATUM["D_Pitcairn_1967",
 Description : Pitcairn Astro 1967
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106227
 Latest-WKID : 6730
@@ -9634,7 +9802,7 @@ WKT2        : DATUM["D_Santo_DOS_1965",
 Description : Santo DOS 1965
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106228
 Latest-WKID : 6731
@@ -9648,7 +9816,7 @@ WKT2        : DATUM["D_Viti_Levu_1916",
 Description : Viti Levu 1916
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106229
 Latest-WKID : 6732
@@ -9662,7 +9830,7 @@ WKT2        : DATUM["D_Wake_Eniwetok_1960",
 Description : Wake-Eniwetok 1960 (Marshall Islands 1960)
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106230
 Latest-WKID : 6733
@@ -9676,7 +9844,7 @@ WKT2        : DATUM["D_Wake_Island_1952",
 Description : Wake Island Astro 1952
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106231
 Latest-WKID : 6708
@@ -9690,7 +9858,7 @@ WKT2        : DATUM["D_Anna_1_1965",
 Description : Anna 1 Astro 1965 (Cocos Islands 1965)
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106232
 Latest-WKID : 6684
@@ -9704,7 +9872,7 @@ WKT2        : DATUM["D_Gan_1970",
 Description : Gan 1970
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106233
 Latest-WKID : 6724
@@ -9718,7 +9886,7 @@ WKT2        : DATUM["D_ISTS_073_1969",
 Description : ISTS 073 Astro 1969 (Diego Garcia 1969)
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106234
 Latest-WKID : 6698
@@ -9732,7 +9900,7 @@ WKT2        : DATUM["D_Kerguelen_Island_1949",
 Description : Kerguelen Island 1949
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106235
 Latest-WKID : 6626
@@ -9746,7 +9914,7 @@ WKT2        : DATUM["D_Reunion_1947",
 Description : Reunion 1947
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106236
 Latest-WKID : 1041
@@ -9760,7 +9928,7 @@ WKT2        : DATUM["D_PTRA08",
 Description : Portugal - Autonomous Regions (Madeira and Azores Archipelagos)
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106237
 Latest-WKID : 6712
@@ -9774,7 +9942,7 @@ WKT2        : DATUM["D_Ascension_Island_1958",
 Description : Ascension Island 1958
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106238
 Latest-WKID : 6710
@@ -9788,7 +9956,7 @@ WKT2        : DATUM["D_DOS_71_4",
 Description : Astro DOS 71/4 (St. Helena 1971)
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106239
 Latest-WKID : 6717
@@ -9802,7 +9970,7 @@ WKT2        : DATUM["D_Cape_Canaveral",
 Description : Cape Canaveral
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106240
 Latest-WKID : 106240
@@ -9844,7 +10012,7 @@ WKT2        : DATUM["D_ISTS_061_1968",
 Description : ISTS 061 Astro 1968 (South Georgia 1968)
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106243
 Latest-WKID : 106243
@@ -9872,7 +10040,7 @@ WKT2        : DATUM["D_Costa_Rica_2005",
 Description : Costa Rica 2005
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106245
 Latest-WKID : 106245
@@ -9900,7 +10068,7 @@ WKT2        : DATUM["D_Pico_de_Las_Nieves",
 Description : Pico de Las Nieves
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106247
 Latest-WKID : 6615
@@ -9914,7 +10082,7 @@ WKT2        : DATUM["D_Porto_Santo_1936",
 Description : Porto Santo 1936
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106248
 Latest-WKID : 1208
@@ -9928,7 +10096,7 @@ WKT2        : DATUM["D_MACAO_2008",
 Description : Macao 2008 (ITRF 2005)
 Authority   : Esri
 Version     : 10.3.1
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106249
 Latest-WKID : 106249
@@ -9956,7 +10124,7 @@ WKT2        : DATUM["D_Selvagem_Grande_1938",
 Description : Selvagem Grande 1938
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106251
 Latest-WKID : 6734
@@ -9970,7 +10138,7 @@ WKT2        : DATUM["D_Tristan_1968",
 Description : Tristan Astro 1968
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106252
 Latest-WKID : 6169
@@ -9984,7 +10152,7 @@ WKT2        : DATUM["D_American_Samoa_1962",
 Description : American Samoa 1962
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106253
 Latest-WKID : 6715
@@ -9998,7 +10166,7 @@ WKT2        : DATUM["D_Camp_Area",
 Description : Camp Area Astro
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106254
 Latest-WKID : 6736
@@ -10012,7 +10180,7 @@ WKT2        : DATUM["D_Deception_Island",
 Description : Deception Island
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106255
 Latest-WKID : 6613
@@ -10026,7 +10194,7 @@ WKT2        : DATUM["D_Gunung_Segara",
 Description : Gunung Segara
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106256
 Latest-WKID : 1111
@@ -10040,7 +10208,7 @@ WKT2        : DATUM["D_Nepal_Nagarkot",
 Description : Nepal Nagarkot
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106257
 Latest-WKID : 106257
@@ -10068,7 +10236,7 @@ WKT2        : DATUM["D_ETRF_1989",
 Description : European Terrestrial Ref. Frame 1989
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106259
 Latest-WKID : 6735
@@ -10082,7 +10250,7 @@ WKT2        : DATUM["D_Kusaie_1951",
 Description : Kusaie Astro 1951
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106260
 Latest-WKID : 106260
@@ -10110,7 +10278,7 @@ WKT2        : DATUM["D_Hong_Kong_1980",
 Description : Hong Kong 1980
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106262
 Latest-WKID : 106262
@@ -10152,7 +10320,7 @@ WKT2        : DATUM["D_RGF_1993",
 Description : Reseau Geodesique Francais 1993
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106265
 Latest-WKID : 6167
@@ -10166,7 +10334,7 @@ WKT2        : DATUM["D_NZGD_2000",
 Description : New Zealand Geodetic Datum 2000
 Authority   : Esri
 Version     : 8.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106266
 Latest-WKID : 106266
@@ -10194,7 +10362,7 @@ WKT2        : DATUM["D_REGVEN",
 Description : REGVEN
 Authority   : Esri
 Version     : 8.1.2
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106268
 Latest-WKID : 6612
@@ -10208,7 +10376,7 @@ WKT2        : DATUM["D_JGD_2000",
 Description : Japan Geodetic Datum 2000
 Authority   : Esri
 Version     : 8.1.2
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106269
 Latest-WKID : 106269
@@ -10250,7 +10418,7 @@ WKT2        : DATUM["D_Bermuda_2000",
 Description : Bermuda 2000
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106272
 Latest-WKID : 106272
@@ -10278,7 +10446,7 @@ WKT2        : DATUM["D_Chatham_Islands_1979",
 Description : Chatham Islands 1979
 Authority   : Esri
 Version     : 9.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106274
 Latest-WKID : 106274
@@ -10362,7 +10530,7 @@ WKT2        : DATUM["D_Ocotepeque_1935",
 Description : Ocotepeque 1935
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106280
 Latest-WKID : 6758
@@ -10376,7 +10544,7 @@ WKT2        : DATUM["D_Jamaica_2001",
 Description : Jamaica 2001
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106281
 Latest-WKID : 1025
@@ -10390,7 +10558,7 @@ WKT2        : DATUM["D_TWD_1967",
 Description : Taiwan 1967
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106282
 Latest-WKID : 1026
@@ -10404,7 +10572,7 @@ WKT2        : DATUM["D_TWD_1997",
 Description : Taiwan 1997
 Authority   : Esri
 Version     : 9.2.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106283
 Latest-WKID : 6055
@@ -10418,7 +10586,7 @@ WKT2        : DATUM["D_WGS_1984_Major_Auxiliary_Sphere",
 Description : Major auxiliary sphere based on WGS 1984
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106284
 Latest-WKID : 106284
@@ -10446,7 +10614,7 @@ WKT2        : DATUM["D_NAD_1983_2011",
 Description : NAD 1983 (2011)
 Authority   : Esri
 Version     : 10.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106286
 Latest-WKID : 1118
@@ -10460,7 +10628,7 @@ WKT2        : DATUM["D_NAD_1983_MA11",
 Description : NAD 1983 (MA11) - Marianas Plate 2011
 Authority   : Esri
 Version     : 10.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106287
 Latest-WKID : 1117
@@ -10474,7 +10642,7 @@ WKT2        : DATUM["D_NAD_1983_PA11",
 Description : NAD 1983 (PA11) - Pacific Plate 2011
 Authority   : Esri
 Version     : 10.1.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106700
 Latest-WKID : 106700
@@ -13976,7 +14144,7 @@ WKT2        : DATUM["D_China_2000",
 Description : China 2000
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106981
 Latest-WKID : 1045
@@ -13990,7 +14158,7 @@ WKT2        : DATUM["D_New_Beijing",
 Description : New Beijing
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106982
 Latest-WKID : 1044
@@ -14004,7 +14172,7 @@ WKT2        : DATUM["D_Sao_Tome",
 Description : Sao Tome
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106983
 Latest-WKID : 1046
@@ -14018,7 +14186,7 @@ WKT2        : DATUM["D_Principe",
 Description : Principe
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106984
 Latest-WKID : 1042
@@ -14032,7 +14200,7 @@ WKT2        : DATUM["D_Mexican_Datum_of_1993",
 Description : Mexican Datum of 1993
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106985
 Latest-WKID : 106985
@@ -14116,7 +14284,7 @@ WKT2        : DATUM["D_Hungarian_Datum_1909",
 Description : Hungarian Datum 1909
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106991
 Latest-WKID : 1029
@@ -14130,7 +14298,7 @@ WKT2        : DATUM["D_Iraqi_Geospatial_Reference_System",
 Description : Iraqi Geospatial Reference System
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106992
 Latest-WKID : 1031
@@ -14144,7 +14312,7 @@ WKT2        : DATUM["D_MGI_1901",
 Description : MGI 1901
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106993
 Latest-WKID : 1032
@@ -14158,7 +14326,7 @@ WKT2        : DATUM["D_MOLDREF99",
 Description : MOLDREF99
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106994
 Latest-WKID : 1033
@@ -14172,7 +14340,7 @@ WKT2        : DATUM["D_Reseau_Geodesique_de_la_RDC_2005",
 Description : Reseau Geodesique de la RDC 2005
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106995
 Latest-WKID : 1034
@@ -14186,7 +14354,7 @@ WKT2        : DATUM["D_Serbian_Reference_Network_1998",
 Description : Serbian Reference Network 1998
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106996
 Latest-WKID : 1035
@@ -14200,7 +14368,7 @@ WKT2        : DATUM["D_Red_Geodesica_de_Canarias_1995",
 Description : Red Geodesica de Canarias 1995
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106997
 Latest-WKID : 1038
@@ -14214,7 +14382,7 @@ WKT2        : DATUM["D_Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006",
 Description : Reseau Geodesique de St Pierre et Miquelon 2006
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106998
 Latest-WKID : 1036
@@ -14228,7 +14396,7 @@ WKT2        : DATUM["D_Reseau_Geodesique_de_Mayotte_2004",
 Description : Reseau Geodesique de Mayotte 2004
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 
 WKID        : 106999
 Latest-WKID : 1037
@@ -14242,4 +14410,4 @@ WKT2        : DATUM["D_Cadastre_1997",
 Description : Cadastre 1997
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange

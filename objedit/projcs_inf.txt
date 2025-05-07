@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------------------------------
 # PROJCS areainfo table
 #
-# syntax: [PROJCS,] coordsys-code, "category", "area-name"
+# syntax: [PROJCS,] coordsys-code, "category", "area-name" [,alias]
 #------------------------------------------------------------------------------------------------------
 
 PE_PCS_WGS_1984_ARC_SYSTEM_ZONE_1, \
@@ -232,6 +232,26 @@ PE_PCS_NAD_1983_2011_CONUS_ALBERS, \
    "Projected Coordinate Systems/Continental/North America", \
    "NAD 1983 (2011) Contiguous USA Albers"
 
+PE_PCS_NAD_1983_2011_GREAT_LAKES_ALBERS, \
+   "Projected Coordinate Systems/Continental/North America", \
+   "NAD 1983 (2011) Great Lakes Basin Albers"
+
+PE_PCS_NAD_1983_2011_USA_ALBERS, \
+   "Projected Coordinate Systems/Continental/North America", \
+   "NAD 1983 (2011) USA Contiguous Albers Equal Area Conic"
+
+PE_PCS_NAD_1983_2011_USGS_USA_ALBERS, \
+   "Projected Coordinate Systems/Continental/North America", \
+   "NAD 1983 (2011) USA Contiguous Albers Equal Area Conic USGS"
+
+PE_PCS_NAD_1983_2011_USA_EQUI_CONIC, \
+   "Projected Coordinate Systems/Continental/North America", \
+   "NAD 1983 (2011) USA Contiguous Equidistant Conic"
+
+PE_PCS_NAD_1983_2011_USA_LAMBERT, \
+   "Projected Coordinate Systems/Continental/North America", \
+   "NAD 1983 (2011) USA Contiguous Lambert Conformal Conic"
+
 PE_PCS_NAD_1983_CSRS_CANADA_ATLAS_LAMBERT, \
    "Projected Coordinate Systems/Continental/North America", \
    "NAD 1983 CSRS Canada Atlas Lambert"
@@ -295,6 +315,10 @@ PE_PCS_NAD_1983_USA_EQUI_CONIC, \
 PE_PCS_NAD_1983_USA_LAMBERT, \
    "Projected Coordinate Systems/Continental/North America", \
    "USA Contiguous Lambert Conformal Conic"
+
+PE_PCS_WGS_84_AGRICULTURE_CANADA_ALBERS, \
+   "Projected Coordinate Systems/Continental/North America", \
+   "WGS 1984 Agriculture Canada Albers"
 
 PE_PCS_WGS_1984_CANADA_ATLAS_LCC, \
    "Projected Coordinate Systems/Continental/North America", \
@@ -7280,6 +7304,22 @@ PE_PCS_TWD_1997_TM_TAIWAN, \
    "Projected Coordinate Systems/National Grids/Asia", \
    "TWD 1997 TM Taiwan"
 
+PE_PCS_UZGD2024_UZREF24_ZONE_40, \
+   "Projected Coordinate Systems/National Grids/Asia", \
+   "UZGD2024 UzREF24 zone 40"
+
+PE_PCS_UZGD2024_UZREF24_ZONE_41, \
+   "Projected Coordinate Systems/National Grids/Asia", \
+   "UZGD2024 UzREF24 zone 41"
+
+PE_PCS_UZGD2024_UZREF24_ZONE_42, \
+   "Projected Coordinate Systems/National Grids/Asia", \
+   "UZGD2024 UzREF24 zone 42"
+
+PE_PCS_UZGD2024_UZREF24_ZONE_43, \
+   "Projected Coordinate Systems/National Grids/Asia", \
+   "UZGD2024 UzREF24 zone 43"
+
 PE_PCS_WGS_1972_BE_SOUTH_CHINA_SEA_LAMBERT, \
    "Projected Coordinate Systems/National Grids/Asia", \
    "WGS 1972 BE South China Sea Lambert"
@@ -9918,63 +9958,63 @@ PE_PCS_WGS_1984_TMZN36N, \
 
 PE_PCS_ETRS_1989_GK19FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK19FIN"
+   "EUREF-FIN GK19FIN"
 
 PE_PCS_ETRS_1989_GK20FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK20FIN"
+   "EUREF-FIN GK20FIN"
 
 PE_PCS_ETRS_1989_GK21FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK21FIN"
+   "EUREF-FIN GK21FIN"
 
 PE_PCS_ETRS_1989_GK22FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK22FIN"
+   "EUREF-FIN GK22FIN"
 
 PE_PCS_ETRS_1989_GK23FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK23FIN"
+   "EUREF-FIN GK23FIN"
 
 PE_PCS_ETRS_1989_GK24FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK24FIN"
+   "EUREF-FIN GK24FIN"
 
 PE_PCS_ETRS_1989_GK25FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK25FIN"
+   "EUREF-FIN GK25FIN"
 
 PE_PCS_ETRS_1989_GK26FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK26FIN"
+   "EUREF-FIN GK26FIN"
 
 PE_PCS_ETRS_1989_GK27FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK27FIN"
+   "EUREF-FIN GK27FIN"
 
 PE_PCS_ETRS_1989_GK28FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK28FIN"
+   "EUREF-FIN GK28FIN"
 
 PE_PCS_ETRS_1989_GK29FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK29FIN"
+   "EUREF-FIN GK29FIN"
 
 PE_PCS_ETRS_1989_GK30FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK30FIN"
+   "EUREF-FIN GK30FIN"
 
 PE_PCS_ETRS_1989_GK31FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 GK31FIN"
-
-PE_PCS_ETRS_1989_TM35FIN_NE, \
-   "Projected Coordinate Systems/National Grids/Finland", \
-   "ETRS 1989 TM35FIN (North,East)"
+   "EUREF-FIN GK31FIN"
 
 PE_PCS_EUREF_FIN_TM35FIN, \
    "Projected Coordinate Systems/National Grids/Finland", \
-   "EUREF FIN TM35FIN"
+   "EUREF-FIN TM35FIN"
+
+PE_PCS_ETRS_1989_TM35FIN_NE, \
+   "Projected Coordinate Systems/National Grids/Finland", \
+   "EUREF-FIN TM35FIN (North,East)"
 
 PE_PCS_KKJ_FINLAND_1, \
    "Projected Coordinate Systems/National Grids/Finland", \
@@ -10002,55 +10042,55 @@ PE_PCS_KKJ_FINLAND_5, \
 
 PE_PCS_ETRS_1989_ETRS_GK19FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK19FIN"
+   "EUREF-FIN ETRS-GK19FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK20FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK20FIN"
+   "EUREF-FIN ETRS-GK20FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK21FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK21FIN"
+   "EUREF-FIN ETRS-GK21FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK22FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK22FIN"
+   "EUREF-FIN ETRS-GK22FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK23FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK23FIN"
+   "EUREF-FIN ETRS-GK23FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK24FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK24FIN"
+   "EUREF-FIN ETRS-GK24FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK25FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK25FIN"
+   "EUREF-FIN ETRS-GK25FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK26FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK26FIN"
+   "EUREF-FIN ETRS-GK26FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK27FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK27FIN"
+   "EUREF-FIN ETRS-GK27FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK28FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK28FIN"
+   "EUREF-FIN ETRS-GK28FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK29FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK29FIN"
+   "EUREF-FIN ETRS-GK29FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK30FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK30FIN"
+   "EUREF-FIN ETRS-GK30FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK31FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
-   "ETRS 1989 ETRS-GK31FIN"
+   "EUREF-FIN ETRS-GK31FIN"
 
 PE_PCS_ED_1950_FRANCE_EUROLAMBERT, \
    "Projected Coordinate Systems/National Grids/France", \
@@ -11936,6 +11976,10 @@ PE_PCS_BARBADOS_1938_BRITISH_W_INDIES, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
    "Barbados 1938 British West Indies Grid"
 
+PE_PCS_BONAIRE_DPNET, \
+   "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
+   "Bonaire DPnet"
+
 PE_PCS_CAYMAN_ISLANDS_NATIONAL_GRID_2011, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
    "Cayman Islands National Grid 2011"
@@ -11975,6 +12019,18 @@ PE_PCS_NAD_1927_CUBA_NORTE, \
 PE_PCS_NAD_1927_CUBA_SUR, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
    "NAD 1927 Cuba Sur"
+
+PE_PCS_SABA_DPNET, \
+   "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
+   "Saba DPnet"
+
+PE_PCS_SINT_EUSTATIUS_DPNET_LONG, \
+   "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
+   "Sint Eustatius DPnet long"
+
+PE_PCS_SINT_EUSTATIUS_DPNET_SHORT, \
+   "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
+   "Sint Eustatius DPnet short"
 
 PE_PCS_SISTER_ISLANDS_NATIONAL_GRID_1961, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
@@ -12280,6 +12336,10 @@ PE_PCS_SIRGAS_2000_PORTO_ALEGRE_TM, \
    "Projected Coordinate Systems/National Grids/South America", \
    "SIRGAS 2000 Porto Alegre TM"
 
+PE_PCS_SIRGAS_2000_RIBEIRAO_PRETO_LOCAL_TM, \
+   "Projected Coordinate Systems/National Grids/South America", \
+   "SIRGAS 2000 Ribeirao Preto Local TM"
+
 PE_PCS_SIRGAS_CHILE_2021_UTM_ZONE_12S, \
    "Projected Coordinate Systems/National Grids/South America", \
    "SIRGAS-Chile 2021 UTM Zone 12S"
@@ -12299,6 +12359,10 @@ PE_PCS_TRINIDAD_1903_TRINIDAD_GRID_FT_CLA, \
 PE_PCS_TRINIDAD_1903_TRINIDAD_GRID, \
    "Projected Coordinate Systems/National Grids/South America", \
    "Trinidad 1903 Trinidad Grid (Links Clarke)"
+
+PE_PCS_WGS_1984_SIRES_TMQ, \
+   "Projected Coordinate Systems/National Grids/South America", \
+   "WGS 1984 SIRES TMQ"
 
 PE_PCS_WGS_1984_TM_60_SW, \
    "Projected Coordinate Systems/National Grids/South America", \
@@ -20792,6 +20856,10 @@ PE_PCS_LGD2006_UTM_35N, \
    "Projected Coordinate Systems/UTM/Africa", \
    "LGD2006 UTM Zone 35N"
 
+PE_PCS_LIBREF21_UTM_ZONE_29N, \
+   "Projected Coordinate Systems/UTM/Africa", \
+   "LibRef21 UTM zone 29N"
+
 PE_PCS_LOCODJO_1965_UTM_29N, \
    "Projected Coordinate Systems/UTM/Africa", \
    "Locodjo 1965 UTM Zone 29N"
@@ -22747,6 +22815,10 @@ PE_PCS_KERGUELEN_ISLAND_1949_UTM_42S, \
 PE_PCS_RGM_2004_UTM_38S, \
    "Projected Coordinate Systems/UTM/Oceans/Indian Ocean", \
    "RGM 2004 UTM Zone 38S"
+
+PE_PCS_RGM23_UTM_ZONE_38S, \
+   "Projected Coordinate Systems/UTM/Oceans/Indian Ocean", \
+   "RGM23 UTM zone 38S"
 
 PE_PCS_RGR_1992_UTM_39S, \
    "Projected Coordinate Systems/UTM/Oceans/Indian Ocean", \

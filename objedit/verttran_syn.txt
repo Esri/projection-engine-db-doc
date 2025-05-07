@@ -234,6 +234,21 @@
    FALSE, \
    "EPSG"
 
+"EUREF-FIN to N2000 height (1)", \
+   "EUREF-FIN_To_N2000_Height_FIN2005N00", \
+   FALSE, \
+   "EPSG"
+
+"EUREF-FIN to N2000 height (2)", \
+   "EUREF-FIN_To_N2000_Height_FIN2023N2000_2", \
+   FALSE, \
+   "EPSG"
+
+"EUREF-FIN to N60 height (1)", \
+   "EUREF-FIN_To_N60_Height_FIN2000", \
+   FALSE, \
+   "EPSG"
+
 "GDA2020 to AHD height (1)", \
    "GDA2020_Height_To_AHD_Height_AUSGeoid2020_1", \
    FALSE, \
@@ -301,6 +316,16 @@
 
 "LAS07 height to EVRF2019 mean-tide height (1)", \
    "LAS07_Height_To_EVRF2019_Mean-Tide_Height_2", \
+   FALSE, \
+   "EPSG"
+
+"LHN95 height to EVRF2019 height (2)", \
+   "LHN95_Height_To_EVRF2019_Height_2_deprecated", \
+   FALSE, \
+   "EPSG"
+
+"LHN95 height to EVRF2019 mean-tide height (2)", \
+   "LHN95_Height_To_EVRF2019_Mean-Tide_Height_2_deprecated", \
    FALSE, \
    "EPSG"
 

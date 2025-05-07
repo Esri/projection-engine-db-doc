@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2024 Esri Inc.                                            #
+#  Copyright 1999-2025 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -19,13 +19,13 @@ Vertical Coordinate Systems:
 WKID        : 3855
 Latest-WKID : 3855
 Macro       : PE_VCS_EGM2008_GEOID
-Name        : EGM2008_Geoid
-WKT         : VERTCS["EGM2008_Geoid",
+Name        : EGM2008_height
+WKT         : VERTCS["EGM2008_height",
                VDATUM["EGM2008_Geoid"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-WKT2        : VERTCRS["EGM2008_Geoid",
+WKT2        : VERTCRS["EGM2008_height",
                VDATUM["EGM2008_Geoid"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
@@ -925,7 +925,7 @@ WKT2        : VERTCRS["Yellow_Sea_1956",
 Description : Yellow Sea 1956
 Authority   : EPSG
 Version     : 2.1(10.2.0)
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : China - onshore
 Area-slat   : 18.11
 Area-nlat   : 53.56
@@ -1982,7 +1982,7 @@ Description : Douglas
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Isle of Man - onshore
+Area-name   : Isle of Man
 Area-slat   : 54.02
 Area-nlat   : 54.44
 Area-llon   : -4.87
@@ -2519,13 +2519,13 @@ Area-rlon   : 168.34
 WKID        : 5773
 Latest-WKID : 5773
 Macro       : PE_VCS_EGM96_GEOID
-Name        : EGM96_Geoid
-WKT         : VERTCS["EGM96_Geoid",
+Name        : EGM96_height
+WKT         : VERTCS["EGM96_height",
                VDATUM["EGM96_Geoid"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-WKT2        : VERTCRS["EGM96_Geoid",
+WKT2        : VERTCRS["EGM96_height",
                VDATUM["EGM96_Geoid"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
@@ -3119,13 +3119,13 @@ Area-rlon   : 51.73
 WKID        : 5798
 Latest-WKID : 5798
 Macro       : PE_VCS_EGM84_GEOID
-Name        : EGM84_Geoid
-WKT         : VERTCS["EGM84_Geoid",
+Name        : EGM84_height
+WKT         : VERTCS["EGM84_height",
                VDATUM["EGM84_Geoid"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-WKT2        : VERTCRS["EGM84_Geoid",
+WKT2        : VERTCRS["EGM84_height",
                VDATUM["EGM84_Geoid"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
@@ -4988,7 +4988,7 @@ Description : Macao height
 Authority   : EPSG
 Version     : 9.2.2(10.8.0)
 Deprecated  : no
-Area-name   : China - Macao
+Area-name   : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -6507,6 +6507,54 @@ Area-nlat   : 83.67
 Area-llon   : -73.29
 Area-rlon   : -11.81
 
+WKID        : 10588
+Latest-WKID : 10588
+Macro       : PE_VCS_CGVD28_HTV2_HEIGHT
+Name        : CGVD28(HTv2_0)_height
+WKT         : VERTCS["CGVD28(HTv2_0)_height",
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["CGVD28(HTv2_0)_height",
+               VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : CGVD28(HTv2.0) height
+Authority   : EPSG
+Version     : 11.018(13.5.0)
+Deprecated  : no
+Area-name   : Canada - CGVD28(HTv2.0)
+Area-slat   : 41.0
+Area-nlat   : 84.0
+Area-llon   : -141.01
+Area-rlon   : -48.0
+
+WKID        : 10642
+Latest-WKID : 10642
+Macro       : PE_VCS_SABA_HEIGHT
+Name        : Saba_height
+WKT         : VERTCS["Saba_height",
+               VDATUM["Saba_Vertical_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Saba_height",
+               VDATUM["Saba_Vertical_Datum"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Saba height
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
 WKID        : 10649
 Latest-WKID : 10649
 Macro       : PE_VCS_GLMSL_2023_DEPTH
@@ -6554,6 +6602,78 @@ Area-slat   : 56.38
 Area-nlat   : 87.03
 Area-llon   : -75.0
 Area-rlon   : 7.99
+
+WKID        : 10678
+Latest-WKID : 10678
+Macro       : PE_VCS_BSCD2000_DEPTH
+Name        : BSCD2000_depth
+WKT         : VERTCS["BSCD2000_depth",
+               VDATUM["Baltic_Sea_Chart_Datum_2000"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["BSCD2000_depth",
+               VDATUM["Baltic_Sea_Chart_Datum_2000"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BSCD2000 depth
+Authority   : EPSG
+Version     : 11.018(13.5.0)
+Deprecated  : no
+Area-name   : Europe - Baltic Sea
+Area-slat   : 53.88
+Area-nlat   : 65.92
+Area-llon   : 8.5
+Area-rlon   : 30.23
+
+WKID        : 10740
+Latest-WKID : 10740
+Macro       : PE_VCS_SINT_EUSTATIUS_HEIGHT
+Name        : Sint_Eustatius_height
+WKT         : VERTCS["Sint_Eustatius_height",
+               VDATUM["Sint_Eustatius_Vertical_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Sint_Eustatius_height",
+               VDATUM["Sint_Eustatius_Vertical_Datum"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Sint Eustatius height
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10763
+Latest-WKID : 10763
+Macro       : PE_VCS_BONAIRE_HEIGHT
+Name        : Bonaire_height
+WKT         : VERTCS["Bonaire_height",
+               VDATUM["Bonaire_Vertical_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Bonaire_height",
+               VDATUM["Bonaire_Vertical_Datum"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Bonaire height
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Bonaire onshore
+Area-slat   : 11.97
+Area-nlat   : 12.36
+Area-llon   : -68.47
+Area-rlon   : -68.14
 
 WKID        : 20000
 Latest-WKID : 20000
@@ -6651,6 +6771,30 @@ Area-nlat   : 7.79
 Area-llon   : 92.01
 Area-rlon   : 141.46
 
+WKID        : 105601
+Latest-WKID : 105601
+Macro       : PE_VCS_HVD_HT
+Name        : HVD_height
+WKT         : VERTCS["HVD_height",
+               VDATUM["Hellenic_Vertical_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["HVD_height",
+               VDATUM["Hellenic_Vertical_Datum"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Hellenic Vertical Datum height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Greece - onshore
+Area-slat   : 34.88
+Area-nlat   : 41.75
+Area-llon   : 19.57
+Area-rlon   : 28.3
+
 WKID        : 105602
 Latest-WKID : 105602
 Macro       : PE_VCS_BBT2000
@@ -6743,7 +6887,7 @@ WKT2        : VERTCRS["DVR90",
 Description : DVR90 height (ensemble)
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Denmark - onshore
 Area-slat   : 54.5
 Area-nlat   : 57.81
@@ -6769,7 +6913,7 @@ WKT2        : VERTCRS["RH2000",
 Description : RH2000 -- Rikets Hojdsystem 2000
 Authority   : Esri
 Version     : 9.3.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Sweden - onshore
 Area-slat   : 55.28
 Area-nlat   : 69.07
@@ -6795,7 +6939,7 @@ WKT2        : VERTCRS["NAVD88_height_(ftUS)",
 Description : NAVD88 height (ftUS) - aliased to 105703
 Authority   : Esri
 Version     : 10.3.1
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : USA - CONUS and Alaska - onshore
 Area-slat   : 24.41
 Area-nlat   : 71.4
@@ -6819,7 +6963,7 @@ WKT2        : VERTCRS["LAS07_height",
 Description : Lithuania State System 2007 (height)
 Authority   : Esri
 Version     : 10.6.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Lithuania - onshore
 Area-slat   : 53.89
 Area-nlat   : 56.45
@@ -6829,13 +6973,13 @@ Area-rlon   : 26.82
 WKID        : 105790
 Latest-WKID : 3855
 Macro       : PE_VCS_EGM2008_GEOID
-Name        : EGM2008_Geoid
-WKT         : VERTCS["EGM2008_Geoid",
+Name        : EGM2008_height
+WKT         : VERTCS["EGM2008_height",
                VDATUM["EGM2008_Geoid"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-WKT2        : VERTCRS["EGM2008_Geoid",
+WKT2        : VERTCRS["EGM2008_height",
                VDATUM["EGM2008_Geoid"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
@@ -6843,7 +6987,7 @@ WKT2        : VERTCRS["EGM2008_Geoid",
 Description : EGM2008 Geoid
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
@@ -6867,7 +7011,7 @@ WKT2        : VERTCRS["Fao_1979",
 Description : Fao 1979
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Iraq - onshore
 Area-slat   : 29.06
 Area-nlat   : 37.39
@@ -6891,7 +7035,7 @@ WKT2        : VERTCRS["NZVD2009_height",
 Description : NZVD2009
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand
 Area-slat   : -55.95
 Area-nlat   : -25.88
@@ -6915,7 +7059,7 @@ WKT2        : VERTCRS["N2000_height",
 Description : N2000
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : Finland - onshore
 Area-slat   : 59.75
 Area-nlat   : 70.09
@@ -6939,7 +7083,7 @@ WKT2        : VERTCRS["Dunedin_Bluff_1960_height",
 Description : Dunedin-Bluff 1960
 Authority   : Esri
 Version     : 10.0.0
-Deprecated  : yes
+Deprecated  : codechange
 Area-name   : New Zealand - South Island - Dunedin-Bluff vcrs
 Area-slat   : -46.73
 Area-nlat   : -44.52
@@ -6997,13 +7141,13 @@ Area-rlon   : -154.74
 WKID        : 105797
 Latest-WKID : 105797
 Macro       : PE_VCS_EGM96_GEOID_IFT
-Name        : EGM96_Geoid_(ftIntl)
-WKT         : VERTCS["EGM96_Geoid_(ftIntl)",
+Name        : EGM96_height_(ftIntl)
+WKT         : VERTCS["EGM96_height_(ftIntl)",
                VDATUM["EGM96_Geoid"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Foot", 0.3048]]
-WKT2        : VERTCRS["EGM96_Geoid_(ftIntl)",
+WKT2        : VERTCRS["EGM96_height_(ftIntl)",
                VDATUM["EGM96_Geoid"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
@@ -7021,13 +7165,13 @@ Area-rlon   : 180.0
 WKID        : 105798
 Latest-WKID : 105798
 Macro       : PE_VCS_EGM96_GEOID_USFT
-Name        : EGM96_Geoid_(ftUS)
-WKT         : VERTCS["EGM96_Geoid_(ftUS)",
+Name        : EGM96_height_(ftUS)
+WKT         : VERTCS["EGM96_height_(ftUS)",
                VDATUM["EGM96_Geoid"],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Foot_US", 0.3048006096012192]]
-WKT2        : VERTCRS["EGM96_Geoid_(ftUS)",
+WKT2        : VERTCRS["EGM96_height_(ftUS)",
                VDATUM["EGM96_Geoid"],
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
@@ -7041,6 +7185,30 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+
+WKID        : 105799
+Latest-WKID : 105799
+Macro       : PE_VCS_QVD_HT
+Name        : QVD_height
+WKT         : VERTCS["QVD_height",
+               VDATUM["Qatari_Vertical_Datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["QVD_height",
+               VDATUM["Qatari_Vertical_Datum"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Qatari Vertical Datum height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Qatar - onshore
+Area-slat   : 24.55
+Area-nlat   : 26.2
+Area-llon   : 50.69
+Area-rlon   : 51.68
 
 WKID        : 115700
 Latest-WKID : 115700
@@ -7400,13 +7568,13 @@ Latest-WKID : 115713
 Macro       : PE_VCS_EUREF_FIN
 Name        : EUREF_FIN
 WKT         : VERTCS["EUREF_FIN",
-               DATUM["D_ETRS_1989",
+               DATUM["EUREF-FIN",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["EUREF_FIN",
-               DATUM["D_ETRS_1989",
+               DATUM["EUREF-FIN",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
                  LENGTHUNIT["Meter", 1.0]]],
                CS[vertical, 1],
@@ -8217,7 +8385,7 @@ Description : KGD2002 ellipsoid height
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Korea, Republic of (South Korea)
+Area-name   : South Korea
 Area-slat   : 28.6
 Area-nlat   : 40.27
 Area-llon   : 122.71
@@ -8352,7 +8520,7 @@ Description : MACAO 2008 ellipsoid height
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : China - Macao
+Area-name   : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -10876,7 +11044,7 @@ Description : HK Geodetic CS ellipsoid height
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : China - Hong Kong
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -13453,6 +13621,276 @@ WKT2        : VERTCRS["WGS_1984_(G2296)",
 Description : WGS 1984 (G2296) ellipsoid height
 Authority   : Esri
 Version     : 13.4.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115934
+Latest-WKID : 115934
+Macro       : PE_VCS_SABA
+Name        : Saba
+WKT         : VERTCS["Saba",
+               DATUM["Saba",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Saba",
+               DATUM["Saba",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Saba ellipsoid height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
+WKID        : 115935
+Latest-WKID : 115935
+Macro       : PE_VCS_BES2020_SABA
+Name        : BES2020_Saba
+WKT         : VERTCS["BES2020_Saba",
+               DATUM["BES2020_Saba",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["BES2020_Saba",
+               DATUM["BES2020_Saba",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BES2020 Saba ellipsoid height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
+WKID        : 115936
+Latest-WKID : 115936
+Macro       : PE_VCS_SINT_EUSTATIUS
+Name        : Sint_Eustatius
+WKT         : VERTCS["Sint_Eustatius",
+               DATUM["Sint_Eustatius",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Sint_Eustatius",
+               DATUM["Sint_Eustatius",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Sint Eustatius ellipsoid height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 115937
+Latest-WKID : 115937
+Macro       : PE_VCS_BES2020_SINT_EUSTATIUS
+Name        : BES2020_Sint_Eustatius
+WKT         : VERTCS["BES2020_Sint_Eustatius",
+               DATUM["BES2020_Sint_Eustatius",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["BES2020_Sint_Eustatius",
+               DATUM["BES2020_Sint_Eustatius",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : BES2020 Sint Eustatius ellipsoid height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 115938
+Latest-WKID : 115938
+Macro       : PE_VCS_BONAIRE_2004
+Name        : Bonaire_2004
+WKT         : VERTCS["Bonaire_2004",
+               DATUM["Bonaire_2004",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Bonaire_2004",
+               DATUM["Bonaire_2004",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : Bonaire 2004 ellipsoid height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : BES Islands - Bonaire onshore
+Area-slat   : 11.97
+Area-nlat   : 12.36
+Area-llon   : -68.47
+Area-rlon   : -68.14
+
+WKID        : 115939
+Latest-WKID : 115939
+Macro       : PE_VCS_RGM23
+Name        : RGM23
+WKT         : VERTCS["RGM23",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGM23",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGM23 ellipsoid height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Mayotte
+Area-slat   : -14.49
+Area-nlat   : -11.33
+Area-llon   : 43.68
+Area-rlon   : 46.7
+
+WKID        : 115940
+Latest-WKID : 115940
+Macro       : PE_VCS_RGM23_LON_LAT
+Name        : RGM23_(lon-lat)
+WKT         : VERTCS["RGM23_(lon-lat)",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["RGM23_(lon-lat)",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : RGM23 (lon-lat) ellipsoid height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Mayotte
+Area-slat   : -14.49
+Area-nlat   : -11.33
+Area-llon   : 43.68
+Area-rlon   : 46.7
+
+WKID        : 115941
+Latest-WKID : 115941
+Macro       : PE_VCS_UZGD2024
+Name        : UZGD2024
+WKT         : VERTCS["UZGD2024",
+               DATUM["Uzbekistan_Geodetic_Datum_2024",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["UZGD2024",
+               DATUM["Uzbekistan_Geodetic_Datum_2024",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : UZGD2024 ellipsoid height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : Uzbekistan
+Area-slat   : 37.18
+Area-nlat   : 45.58
+Area-llon   : 55.99
+Area-rlon   : 73.17
+
+WKID        : 115942
+Latest-WKID : 115942
+Macro       : PE_VCS_IGB20
+Name        : IGb20
+WKT         : VERTCS["IGb20",
+               DATUM["IGb20",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["IGb20",
+               DATUM["IGb20",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : IGb20 ellipsoid height
+Authority   : Esri
+Version     : 13.5.0
+Deprecated  : no
+Area-name   : World
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 115943
+Latest-WKID : 115943
+Macro       : PE_VCS_ITRF_2020_U2023
+Name        : ITRF2020-u2023
+WKT         : VERTCS["ITRF2020-u2023",
+               DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ITRF2020-u2023",
+               DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]]]
+Description : ITRF2020-u2023 ellipsoid height
+Authority   : Esri
+Version     : 13.5.0
 Deprecated  : no
 Area-name   : World
 Area-slat   : -90.0

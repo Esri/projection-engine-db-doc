@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------------------------------
 # GEOGCS areainfo table
 #
-# syntax: [GEOGCS,] coordsys-code, "category", "area-name"
+# syntax: [GEOGCS,] coordsys-code, "category", "area-name" [,alias]
 #------------------------------------------------------------------------------------------------------
 
 PE_GCS_HARTEBEESTHOEK94_3D, \
@@ -11,6 +11,10 @@ PE_GCS_HARTEBEESTHOEK94_3D, \
 PE_GCS_LGD2006_3D, \
    "Geographic Coordinate Systems/3D/Africa", \
    "LGD2006 3D"
+
+PE_GCS_LIBREF21_3D, \
+   "Geographic Coordinate Systems/3D/Africa", \
+   "LibRef21 3D"
 
 PE_GCS_MAURITANIA_1999_3D, \
    "Geographic Coordinate Systems/3D/Africa", \
@@ -163,6 +167,10 @@ PE_GCS_SRGI2013_3D, \
 PE_GCS_TWD_1997_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "Taiwan 1997 3D"
+
+PE_GCS_UZGD2024_3D, \
+   "Geographic Coordinate Systems/3D/Asia", \
+   "UZGD2024 3D"
 
 PE_GCS_YEMEN_NGN_1996_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
@@ -528,6 +536,18 @@ PE_GCS_ST_HELENA_TRITAN_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Atlantic Ocean", \
    "St. Helena Tritan 3D"
 
+PE_GCS_BES2020_SABA_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
+   "BES2020 Saba 3D"
+
+PE_GCS_BES2020_SINT_EUSTATIUS_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
+   "BES2020 Sint Eustatius 3D"
+
+PE_GCS_BONAIRE_2004_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
+   "Bonaire 2004 3D"
+
 PE_GCS_CIGD11_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
    "CIGD11 3D"
@@ -544,6 +564,14 @@ PE_GCS_RRAF_1991_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
    "RRAF 1991 3D"
 
+PE_GCS_SABA_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
+   "Saba 3D"
+
+PE_GCS_SINT_EUSTATIUS_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
+   "Sint Eustatius 3D"
+
 PE_GCS_CADASTRE_1997_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
    "Cadastre 1997 3D"
@@ -555,6 +583,14 @@ PE_GCS_RGM04_LON_LAT_3D, \
 PE_GCS_RGM_2004_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
    "RGM04 3D"
+
+PE_GCS_RGM23_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
+   "RGM23 (lon-lat) 3D"
+
+PE_GCS_RGM23_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
+   "RGM23 3D"
 
 PE_GCS_RGR92_LON_LAT_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
@@ -792,6 +828,10 @@ PE_GCS_IGB14_3D, \
    "Geographic Coordinate Systems/3D/World", \
    "IGb14 3D"
 
+PE_GCS_IGB20_3D, \
+   "Geographic Coordinate Systems/3D/World", \
+   "IGb20 3D"
+
 PE_GCS_ITRF_1988_3D, \
    "Geographic Coordinate Systems/3D/World", \
    "ITRF 1988 3D"
@@ -847,6 +887,10 @@ PE_GCS_ITRF2014_3D, \
 PE_GCS_ITRF2020_3D, \
    "Geographic Coordinate Systems/3D/World", \
    "ITRF 2020 3D"
+
+PE_GCS_ITRF_2020_U2023_3D, \
+   "Geographic Coordinate Systems/3D/World", \
+   "ITRF2020-u2023 3D"
 
 PE_GCS_PZ_1990_3D, \
    "Geographic Coordinate Systems/3D/World", \
@@ -1079,6 +1123,10 @@ PE_GCS_LE_POUCE_1934, \
 PE_GCS_LEIGON, \
    "Geographic Coordinate Systems/Africa", \
    "Leigon"
+
+PE_GCS_LIBREF21, \
+   "Geographic Coordinate Systems/Africa", \
+   "LibRef21"
 
 PE_GCS_LIBERIA_1964, \
    "Geographic Coordinate Systems/Africa", \
@@ -1715,6 +1763,10 @@ PE_GCS_TOKYO_1892, \
 PE_GCS_TRUCIAL_COAST_1948, \
    "Geographic Coordinate Systems/Asia", \
    "Trucial Coast 1948"
+
+PE_GCS_UZGD2024, \
+   "Geographic Coordinate Systems/Asia", \
+   "UZGD2024"
 
 PE_GCS_VN_2000, \
    "Geographic Coordinate Systems/Asia", \
@@ -2354,7 +2406,7 @@ PE_GCS_ETRS89_DREF91_2016, \
 
 PE_GCS_EUREF_FIN, \
    "Geographic Coordinate Systems/Europe", \
-   "EUREF FIN"
+   "EUREF-FIN"
 
 PE_GCS_ESTONIA_1937, \
    "Geographic Coordinate Systems/Europe", \
@@ -3184,9 +3236,25 @@ PE_GCS_ANTIGUA_1943, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "Antigua 1943"
 
+PE_GCS_BES2020_SABA, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
+   "BES2020 Saba"
+
+PE_GCS_BES2020_SINT_EUSTATIUS, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
+   "BES2020 Sint Eustatius"
+
 PE_GCS_BARBADOS_1938, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "Barbados 1938"
+
+PE_GCS_BONAIRE, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
+   "Bonaire"
+
+PE_GCS_BONAIRE_2004, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
+   "Bonaire 2004"
 
 PE_GCS_CIGD11, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
@@ -3256,9 +3324,17 @@ PE_GCS_RRAF_1991, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "RRAF 1991"
 
+PE_GCS_SABA, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
+   "Saba"
+
 PE_GCS_SAINTE_ANNE, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "Sainte Anne"
+
+PE_GCS_SINT_EUSTATIUS, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
+   "Sint Eustatius"
 
 PE_GCS_ST_KITTS_1955, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
@@ -3315,6 +3391,14 @@ PE_GCS_RGM_2004, \
 PE_GCS_RGM04_LON_LAT, \
    "Geographic Coordinate Systems/Oceans/Indian Ocean", \
    "RGM04 (lon-lat)"
+
+PE_GCS_RGM23, \
+   "Geographic Coordinate Systems/Oceans/Indian Ocean", \
+   "RGM23"
+
+PE_GCS_RGM23_LON_LAT, \
+   "Geographic Coordinate Systems/Oceans/Indian Ocean", \
+   "RGM23 (lon-lat)"
 
 PE_GCS_RGR_1992, \
    "Geographic Coordinate Systems/Oceans/Indian Ocean", \
@@ -4412,6 +4496,10 @@ PE_GCS_IGB14, \
    "Geographic Coordinate Systems/World", \
    "IGb14"
 
+PE_GCS_IGB20, \
+   "Geographic Coordinate Systems/World", \
+   "IGb20"
+
 PE_GCS_ITRF_1988, \
    "Geographic Coordinate Systems/World", \
    "ITRF 1988"
@@ -4467,6 +4555,10 @@ PE_GCS_ITRF2014, \
 PE_GCS_ITRF2020, \
    "Geographic Coordinate Systems/World", \
    "ITRF 2020"
+
+PE_GCS_ITRF_2020_U2023, \
+   "Geographic Coordinate Systems/World", \
+   "ITRF2020-u2023"
 
 PE_GCS_NSIDC_AUTHALIC_SPHERE, \
    "Geographic Coordinate Systems/World", \

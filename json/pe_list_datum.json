@@ -745,7 +745,7 @@
     "description": "Israel Geodetic Datum 2005",
     "authority": "EPSG",
     "version": "8.6(10.3.1)",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 1144,
     "latestWkid": 1144,
@@ -767,7 +767,7 @@
     "description": "Israeli Geodetic Datum 2005(2012)",
     "authority": "EPSG",
     "version": "8.6(10.3.1)",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 1147,
     "latestWkid": 1147,
@@ -1625,7 +1625,7 @@
     "description": "SIRGAS-Chile (Incorrectly changed to 1254. Ensemble 1254 dep by EPSG. S/b sirgas-chile 2002)",
     "authority": "EPSG",
     "version": "9.8(10.1.0)",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 1257,
     "latestWkid": 1257,
@@ -2331,6 +2331,28 @@
     "version": "10.095(13.3.0)",
     "deprecated": "no"
   },
+  { "wkid": 1379,
+    "latestWkid": 1379,
+    "macro": "PE_D_SABA",
+    "name": "Saba",
+    "wkt": "DATUM[\"Saba\",SPHEROID[\"International_1924\",6378388.0,297.0]]",
+    "wkt2": "DATUM[\"Saba\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Saba",
+    "authority": "EPSG",
+    "version": "11.023(13.5.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1380,
+    "latestWkid": 1380,
+    "macro": "PE_D_BES2020_SABA",
+    "name": "BES2020_Saba",
+    "wkt": "DATUM[\"BES2020_Saba\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
+    "wkt2": "DATUM[\"BES2020_Saba\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "BES2020 Saba",
+    "authority": "EPSG",
+    "version": "11.023(13.5.0)",
+    "deprecated": "no"
+  },
   { "wkid": 1382,
     "latestWkid": 1382,
     "macro": "PE_D_EUROPEAN_TERRESTRIAL_REFERENCE_FRAME_2020",
@@ -2373,6 +2395,116 @@
     "description": "WC05 Intermediate Reference Frame",
     "authority": "EPSG",
     "version": "11.009(13.4.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1389,
+    "latestWkid": 1389,
+    "macro": "PE_D_MAYOTTE_GEODETIC_REFERENCE_FRAME_2023",
+    "name": "Mayotte_Geodetic_Reference_Frame_2023",
+    "wkt": "DATUM[\"Mayotte_Geodetic_Reference_Frame_2023\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
+    "wkt2": "DATUM[\"Mayotte_Geodetic_Reference_Frame_2023\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Mayotte Geodetic Reference Frame 2023",
+    "authority": "EPSG",
+    "version": "11.021(13.5.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1391,
+    "latestWkid": 1391,
+    "macro": "PE_D_EUREF_FIN",
+    "name": "EUREF-FIN",
+    "wkt": "DATUM[\"EUREF-FIN\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
+    "wkt2": "DATUM[\"EUREF-FIN\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "EUREF-FIN",
+    "authority": "EPSG",
+    "version": "11.024(13.5.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1392,
+    "latestWkid": 1392,
+    "macro": "PE_D_UZBEKISTAN_GEODETIC_DATUM_2024",
+    "name": "Uzbekistan_Geodetic_Datum_2024",
+    "wkt": "DATUM[\"Uzbekistan_Geodetic_Datum_2024\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
+    "wkt2": "DATUM[\"Uzbekistan_Geodetic_Datum_2024\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Uzbekistan Geodetic Datum 2024",
+    "authority": "EPSG",
+    "version": "11.024(13.5.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1393,
+    "latestWkid": 1393,
+    "macro": "PE_D_SINT_EUSTATIUS",
+    "name": "Sint_Eustatius",
+    "wkt": "DATUM[\"Sint_Eustatius\",SPHEROID[\"International_1924\",6378388.0,297.0]]",
+    "wkt2": "DATUM[\"Sint_Eustatius\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Sint Eustatius",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1394,
+    "latestWkid": 1394,
+    "macro": "PE_D_BES2020_SINT_EUSTATIUS",
+    "name": "BES2020_Sint_Eustatius",
+    "wkt": "DATUM[\"BES2020_Sint_Eustatius\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
+    "wkt2": "DATUM[\"BES2020_Sint_Eustatius\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "BES2020 Sint Eustatius",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1396,
+    "latestWkid": 1396,
+    "macro": "PE_D_BONAIRE",
+    "name": "Bonaire",
+    "wkt": "DATUM[\"Bonaire\",SPHEROID[\"International_1924\",6378388.0,297.0]]",
+    "wkt2": "DATUM[\"Bonaire\",ELLIPSOID[\"International_1924\",6378388.0,297.0,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Bonaire",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1397,
+    "latestWkid": 1397,
+    "macro": "PE_D_BONAIRE_2004",
+    "name": "Bonaire_2004",
+    "wkt": "DATUM[\"Bonaire_2004\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
+    "wkt2": "DATUM[\"Bonaire_2004\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Bonaire 2004",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1399,
+    "latestWkid": 1399,
+    "macro": "PE_D_ITRF_2020_U2023",
+    "name": "International_Terrestrial_Reference_Frame_2020-u2023",
+    "wkt": "DATUM[\"International_Terrestrial_Reference_Frame_2020-u2023\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
+    "wkt2": "DATUM[\"International_Terrestrial_Reference_Frame_2020-u2023\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "International Terrestrial Reference Frame 2020-u2023",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1400,
+    "latestWkid": 1400,
+    "macro": "PE_D_IGB20",
+    "name": "IGb20",
+    "wkt": "DATUM[\"IGb20\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
+    "wkt2": "DATUM[\"IGb20\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "IGb20",
+    "authority": "EPSG",
+    "version": "11.029(13.5.0)",
+    "deprecated": "no"
+  },
+  { "wkid": 1402,
+    "latestWkid": 1402,
+    "macro": "PE_D_LIBERIA_REFERENCE_FRAME_2021",
+    "name": "Liberia_Reference_Frame_2021",
+    "wkt": "DATUM[\"Liberia_Reference_Frame_2021\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]]",
+    "wkt2": "DATUM[\"Liberia_Reference_Frame_2021\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101,LENGTHUNIT[\"Meter\",1.0]]]",
+    "description": "Liberia Reference Frame 2021",
+    "authority": "EPSG",
+    "version": "12.001(13.5.0)",
     "deprecated": "no"
   },
   { "wkid": 6001,
@@ -2813,7 +2945,7 @@
     "description": "Hughes 1980",
     "authority": "EPSG",
     "version": "10.088(9.3.0.0)",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 6055,
     "latestWkid": 6055,
@@ -4056,7 +4188,7 @@
     "description": "Garoua",
     "authority": "EPSG",
     "version": "2.1(4.0.0)",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 6235,
     "latestWkid": 6235,
@@ -4672,7 +4804,7 @@
     "description": "South American Datum 1969",
     "authority": "EPSG",
     "version": "3.0(4.0.0)",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 6292,
     "latestWkid": 6292,
@@ -4826,7 +4958,7 @@
     "description": "Voirol Unifie 1960",
     "authority": "Esri",
     "version": "3.0.1",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 6306,
     "latestWkid": 6306,
@@ -5354,7 +5486,7 @@
     "description": "Kerguelen Island 1949",
     "authority": "EPSG",
     "version": "6.3(8.1.0)",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 6632,
     "latestWkid": 6632,
@@ -7026,7 +7158,7 @@
     "description": "WGS 1966",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106002,
     "latestWkid": 106002,
@@ -7114,7 +7246,7 @@
     "description": "Kyrgyz Republic 2006",
     "authority": "Esri",
     "version": "10.3.1",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106010,
     "latestWkid": 106010,
@@ -7158,7 +7290,7 @@
     "description": "Japan Geodetic Datum 2011",
     "authority": "Esri",
     "version": "10.1.1",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106027,
     "latestWkid": 1263,
@@ -7169,7 +7301,7 @@
     "description": "Oman National Geodetic Datum 2017",
     "authority": "Esri",
     "version": "10.7.1",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106028,
     "latestWkid": 106028,
@@ -7213,7 +7345,7 @@
     "description": "GDBD2009",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106101,
     "latestWkid": 106101,
@@ -7257,7 +7389,7 @@
     "description": "Islands Network 2004",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106201,
     "latestWkid": 6668,
@@ -7268,7 +7400,7 @@
     "description": "European 1979",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106202,
     "latestWkid": 106202,
@@ -7301,7 +7433,7 @@
     "description": "Hjorsey 1955",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106205,
     "latestWkid": 6739,
@@ -7312,7 +7444,7 @@
     "description": "Hong Kong 1963(67)",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106206,
     "latestWkid": 106206,
@@ -7345,7 +7477,7 @@
     "description": "Ayabelle Lighthouse",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106209,
     "latestWkid": 1249,
@@ -7356,7 +7488,7 @@
     "description": "NAD 1983 PACP00",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106210,
     "latestWkid": 1221,
@@ -7367,7 +7499,7 @@
     "description": "NAD 1983 MARP00",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106211,
     "latestWkid": 6620,
@@ -7378,7 +7510,7 @@
     "description": "Point 58",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106212,
     "latestWkid": 6709,
@@ -7389,7 +7521,7 @@
     "description": "Astro Beacon E 1945 (Iwo Jima 1945)",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106213,
     "latestWkid": 6707,
@@ -7400,7 +7532,7 @@
     "description": "Tern Island Astro 1961",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106214,
     "latestWkid": 6711,
@@ -7411,7 +7543,7 @@
     "description": "Astronomical Station 1952 (Marcus Island 1952 )",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106215,
     "latestWkid": 6714,
@@ -7422,7 +7554,7 @@
     "description": "Bellevue IGN",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106216,
     "latestWkid": 6716,
@@ -7433,7 +7565,7 @@
     "description": "Canton Astro 1966 (Phoenix Islands 1966)",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106217,
     "latestWkid": 6672,
@@ -7444,7 +7576,7 @@
     "description": "Chatham Island Astro 1971",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106218,
     "latestWkid": 106218,
@@ -7466,7 +7598,7 @@
     "description": "Easter Island 1967",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106220,
     "latestWkid": 6675,
@@ -7477,7 +7609,7 @@
     "description": "Guam 1963",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106221,
     "latestWkid": 106221,
@@ -7499,7 +7631,7 @@
     "description": "Johnston Island 1961",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106223,
     "latestWkid": 1133,
@@ -7510,7 +7642,7 @@
     "description": "NAD 1983 (CORS96)",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106224,
     "latestWkid": 6727,
@@ -7521,7 +7653,7 @@
     "description": "Midway Astro 1961",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106225,
     "latestWkid": 1112,
@@ -7532,7 +7664,7 @@
     "description": "Cyprus GRS 1993",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106226,
     "latestWkid": 6729,
@@ -7543,7 +7675,7 @@
     "description": "Pitcairn Astro 1967",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106227,
     "latestWkid": 6730,
@@ -7554,7 +7686,7 @@
     "description": "Santo DOS 1965",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106228,
     "latestWkid": 6731,
@@ -7565,7 +7697,7 @@
     "description": "Viti Levu 1916",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106229,
     "latestWkid": 6732,
@@ -7576,7 +7708,7 @@
     "description": "Wake-Eniwetok 1960 (Marshall Islands 1960)",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106230,
     "latestWkid": 6733,
@@ -7587,7 +7719,7 @@
     "description": "Wake Island Astro 1952",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106231,
     "latestWkid": 6708,
@@ -7598,7 +7730,7 @@
     "description": "Anna 1 Astro 1965 (Cocos Islands 1965)",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106232,
     "latestWkid": 6684,
@@ -7609,7 +7741,7 @@
     "description": "Gan 1970",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106233,
     "latestWkid": 6724,
@@ -7620,7 +7752,7 @@
     "description": "ISTS 073 Astro 1969 (Diego Garcia 1969)",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106234,
     "latestWkid": 6698,
@@ -7631,7 +7763,7 @@
     "description": "Kerguelen Island 1949",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106235,
     "latestWkid": 6626,
@@ -7642,7 +7774,7 @@
     "description": "Reunion 1947",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106236,
     "latestWkid": 1041,
@@ -7653,7 +7785,7 @@
     "description": "Portugal - Autonomous Regions (Madeira and Azores Archipelagos)",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106237,
     "latestWkid": 6712,
@@ -7664,7 +7796,7 @@
     "description": "Ascension Island 1958",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106238,
     "latestWkid": 6710,
@@ -7675,7 +7807,7 @@
     "description": "Astro DOS 71/4 (St. Helena 1971)",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106239,
     "latestWkid": 6717,
@@ -7686,7 +7818,7 @@
     "description": "Cape Canaveral",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106240,
     "latestWkid": 106240,
@@ -7719,7 +7851,7 @@
     "description": "ISTS 061 Astro 1968 (South Georgia 1968)",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106243,
     "latestWkid": 106243,
@@ -7741,7 +7873,7 @@
     "description": "Costa Rica 2005",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106245,
     "latestWkid": 106245,
@@ -7763,7 +7895,7 @@
     "description": "Pico de Las Nieves",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106247,
     "latestWkid": 6615,
@@ -7774,7 +7906,7 @@
     "description": "Porto Santo 1936",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106248,
     "latestWkid": 1208,
@@ -7785,7 +7917,7 @@
     "description": "Macao 2008 (ITRF 2005)",
     "authority": "Esri",
     "version": "10.3.1",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106249,
     "latestWkid": 106249,
@@ -7807,7 +7939,7 @@
     "description": "Selvagem Grande 1938",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106251,
     "latestWkid": 6734,
@@ -7818,7 +7950,7 @@
     "description": "Tristan Astro 1968",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106252,
     "latestWkid": 6169,
@@ -7829,7 +7961,7 @@
     "description": "American Samoa 1962",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106253,
     "latestWkid": 6715,
@@ -7840,7 +7972,7 @@
     "description": "Camp Area Astro",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106254,
     "latestWkid": 6736,
@@ -7851,7 +7983,7 @@
     "description": "Deception Island",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106255,
     "latestWkid": 6613,
@@ -7862,7 +7994,7 @@
     "description": "Gunung Segara",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106256,
     "latestWkid": 1111,
@@ -7873,7 +8005,7 @@
     "description": "Nepal Nagarkot",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106257,
     "latestWkid": 106257,
@@ -7895,7 +8027,7 @@
     "description": "European Terrestrial Ref. Frame 1989",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106259,
     "latestWkid": 6735,
@@ -7906,7 +8038,7 @@
     "description": "Kusaie Astro 1951",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106260,
     "latestWkid": 106260,
@@ -7928,7 +8060,7 @@
     "description": "Hong Kong 1980",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106262,
     "latestWkid": 106262,
@@ -7961,7 +8093,7 @@
     "description": "Reseau Geodesique Francais 1993",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106265,
     "latestWkid": 6167,
@@ -7972,7 +8104,7 @@
     "description": "New Zealand Geodetic Datum 2000",
     "authority": "Esri",
     "version": "8.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106266,
     "latestWkid": 106266,
@@ -7994,7 +8126,7 @@
     "description": "REGVEN",
     "authority": "Esri",
     "version": "8.1.2",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106268,
     "latestWkid": 6612,
@@ -8005,7 +8137,7 @@
     "description": "Japan Geodetic Datum 2000",
     "authority": "Esri",
     "version": "8.1.2",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106269,
     "latestWkid": 106269,
@@ -8038,7 +8170,7 @@
     "description": "Bermuda 2000",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106272,
     "latestWkid": 106272,
@@ -8060,7 +8192,7 @@
     "description": "Chatham Islands 1979",
     "authority": "Esri",
     "version": "9.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106274,
     "latestWkid": 106274,
@@ -8126,7 +8258,7 @@
     "description": "Ocotepeque 1935",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106280,
     "latestWkid": 6758,
@@ -8137,7 +8269,7 @@
     "description": "Jamaica 2001",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106281,
     "latestWkid": 1025,
@@ -8148,7 +8280,7 @@
     "description": "Taiwan 1967",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106282,
     "latestWkid": 1026,
@@ -8159,7 +8291,7 @@
     "description": "Taiwan 1997",
     "authority": "Esri",
     "version": "9.2.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106283,
     "latestWkid": 6055,
@@ -8170,7 +8302,7 @@
     "description": "Major auxiliary sphere based on WGS 1984",
     "authority": "Esri",
     "version": "9.3.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106284,
     "latestWkid": 106284,
@@ -8192,7 +8324,7 @@
     "description": "NAD 1983 (2011)",
     "authority": "Esri",
     "version": "10.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106286,
     "latestWkid": 1118,
@@ -8203,7 +8335,7 @@
     "description": "NAD 1983 (MA11) - Marianas Plate 2011",
     "authority": "Esri",
     "version": "10.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106287,
     "latestWkid": 1117,
@@ -8214,7 +8346,7 @@
     "description": "NAD 1983 (PA11) - Pacific Plate 2011",
     "authority": "Esri",
     "version": "10.1.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106700,
     "latestWkid": 106700,
@@ -10964,7 +11096,7 @@
     "description": "China 2000",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106981,
     "latestWkid": 1045,
@@ -10975,7 +11107,7 @@
     "description": "New Beijing",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106982,
     "latestWkid": 1044,
@@ -10986,7 +11118,7 @@
     "description": "Sao Tome",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106983,
     "latestWkid": 1046,
@@ -10997,7 +11129,7 @@
     "description": "Principe",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106984,
     "latestWkid": 1042,
@@ -11008,7 +11140,7 @@
     "description": "Mexican Datum of 1993",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106985,
     "latestWkid": 106985,
@@ -11074,7 +11206,7 @@
     "description": "Hungarian Datum 1909",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106991,
     "latestWkid": 1029,
@@ -11085,7 +11217,7 @@
     "description": "Iraqi Geospatial Reference System",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106992,
     "latestWkid": 1031,
@@ -11096,7 +11228,7 @@
     "description": "MGI 1901",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106993,
     "latestWkid": 1032,
@@ -11107,7 +11239,7 @@
     "description": "MOLDREF99",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106994,
     "latestWkid": 1033,
@@ -11118,7 +11250,7 @@
     "description": "Reseau Geodesique de la RDC 2005",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106995,
     "latestWkid": 1034,
@@ -11129,7 +11261,7 @@
     "description": "Serbian Reference Network 1998",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106996,
     "latestWkid": 1035,
@@ -11140,7 +11272,7 @@
     "description": "Red Geodesica de Canarias 1995",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106997,
     "latestWkid": 1038,
@@ -11151,7 +11283,7 @@
     "description": "Reseau Geodesique de St Pierre et Miquelon 2006",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106998,
     "latestWkid": 1036,
@@ -11162,7 +11294,7 @@
     "description": "Reseau Geodesique de Mayotte 2004",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   },
   { "wkid": 106999,
     "latestWkid": 1037,
@@ -11173,6 +11305,6 @@
     "description": "Cadastre 1997",
     "authority": "Esri",
     "version": "10.0.0",
-    "deprecated": "yes"
+    "deprecated": "codechange"
   }
 ] }

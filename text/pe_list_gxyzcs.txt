@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2024 Esri Inc.                                            #
+#  Copyright 1999-2025 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -1264,7 +1264,7 @@ Description : KGD2002
 Authority   : EPSG
 Version     : 10.092
 Deprecated  : no
-Area-name   : Korea, Republic of (South Korea)
+Area-name   : South Korea
 Area-slat   : 28.6
 Area-nlat   : 40.27
 Area-llon   : 122.71
@@ -4762,7 +4762,7 @@ Description : Hong Kong Geodetic CS
 Authority   : EPSG
 Version     : 9.2.2
 Deprecated  : no
-Area-name   : China - Hong Kong
+Area-name   : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -4795,7 +4795,7 @@ Description : Macao 2008
 Authority   : EPSG
 Version     : 9.2.2
 Deprecated  : no
-Area-name   : China - Macao
+Area-name   : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -6714,6 +6714,369 @@ Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
 Area-rlon   : 180.0
+
+WKID        : 10634
+Latest-WKID : 10634
+Macro       : PE_XYZ_SABA
+Name        : Saba
+WKT         : GXYZCS["Saba",
+               DATUM["Saba",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["Saba",
+               DATUM["Saba",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : Saba
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
+WKID        : 10637
+Latest-WKID : 10637
+Macro       : PE_XYZ_BES2020_SABA
+Name        : BES2020_Saba
+WKT         : GXYZCS["BES2020_Saba",
+               DATUM["BES2020_Saba",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["BES2020_Saba",
+               DATUM["BES2020_Saba",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : BES2020 Saba
+Authority   : EPSG
+Version     : 11.023(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Saba onshore
+Area-slat   : 17.56
+Area-nlat   : 17.71
+Area-llon   : -63.31
+Area-rlon   : -63.16
+
+WKID        : 10669
+Latest-WKID : 10669
+Macro       : PE_XYZ_RGM23
+Name        : RGM23
+WKT         : GXYZCS["RGM23",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["RGM23",
+               DATUM["Mayotte_Geodetic_Reference_Frame_2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : RGM23
+Authority   : EPSG
+Version     : 11.021(13.5.0)
+Deprecated  : no
+Area-name   : Mayotte
+Area-slat   : -14.49
+Area-nlat   : -11.33
+Area-llon   : 43.68
+Area-rlon   : 46.7
+
+WKID        : 10688
+Latest-WKID : 10688
+Macro       : PE_XYZ_EUREF_FIN
+Name        : EUREF-FIN
+WKT         : GXYZCS["EUREF-FIN",
+               DATUM["EUREF-FIN",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["EUREF-FIN",
+               DATUM["EUREF-FIN",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : EUREF-FIN
+Authority   : EPSG
+Version     : 11.024(13.5.0)
+Deprecated  : no
+Area-name   : Finland
+Area-slat   : 58.84
+Area-nlat   : 70.09
+Area-llon   : 19.08
+Area-rlon   : 31.59
+
+WKID        : 10723
+Latest-WKID : 10723
+Macro       : PE_XYZ_UZGD2024
+Name        : UZGD2024
+WKT         : GXYZCS["UZGD2024",
+               DATUM["Uzbekistan_Geodetic_Datum_2024",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["UZGD2024",
+               DATUM["Uzbekistan_Geodetic_Datum_2024",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : UZGD2024
+Authority   : EPSG
+Version     : 11.024(13.5.0)
+Deprecated  : no
+Area-name   : Uzbekistan
+Area-slat   : 37.18
+Area-nlat   : 45.58
+Area-llon   : 55.99
+Area-rlon   : 73.17
+
+WKID        : 10734
+Latest-WKID : 10734
+Macro       : PE_XYZ_SINT_EUSTATIUS
+Name        : Sint_Eustatius
+WKT         : GXYZCS["Sint_Eustatius",
+               DATUM["Sint_Eustatius",
+                SPHEROID["International_1924", 6378388.0, 297.0]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["Sint_Eustatius",
+               DATUM["Sint_Eustatius",
+                ELLIPSOID["International_1924", 6378388.0, 297.0,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : Sint Eustatius
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10737
+Latest-WKID : 10737
+Macro       : PE_XYZ_BES2020_SINT_EUSTATIUS
+Name        : BES2020_Sint_Eustatius
+WKT         : GXYZCS["BES2020_Sint_Eustatius",
+               DATUM["BES2020_Sint_Eustatius",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["BES2020_Sint_Eustatius",
+               DATUM["BES2020_Sint_Eustatius",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : BES2020 Sint Eustatius
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Sint Eustatius - onshore
+Area-slat   : 17.41
+Area-nlat   : 17.58
+Area-llon   : -63.05
+Area-rlon   : -62.88
+
+WKID        : 10760
+Latest-WKID : 10760
+Macro       : PE_XYZ_BONAIRE_2004
+Name        : Bonaire_2004
+WKT         : GXYZCS["Bonaire_2004",
+               DATUM["Bonaire_2004",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["Bonaire_2004",
+               DATUM["Bonaire_2004",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : Bonaire 2004
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : BES Islands - Bonaire onshore
+Area-slat   : 11.97
+Area-nlat   : 12.36
+Area-llon   : -68.47
+Area-rlon   : -68.14
+
+WKID        : 10779
+Latest-WKID : 10779
+Macro       : PE_XYZ_ITRF_2020_U2023
+Name        : ITRF2020-u2023
+WKT         : GXYZCS["ITRF2020-u2023",
+               DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ITRF2020-u2023",
+               DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : ITRF2020-u2023
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : World (by country)
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 10783
+Latest-WKID : 10783
+Macro       : PE_XYZ_IGB20
+Name        : IGb20
+WKT         : GXYZCS["IGb20",
+               DATUM["IGb20",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["IGb20",
+               DATUM["IGb20",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : IGb20
+Authority   : EPSG
+Version     : 11.029(13.5.0)
+Deprecated  : no
+Area-name   : World (by country)
+Area-slat   : -90.0
+Area-nlat   : 90.0
+Area-llon   : -180.0
+Area-rlon   : 180.0
+
+WKID        : 10798
+Latest-WKID : 10798
+Macro       : PE_XYZ_LIBREF21
+Name        : LibRef21
+WKT         : GXYZCS["LibRef21",
+               DATUM["Liberia_Reference_Frame_2021",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["LibRef21",
+               DATUM["Liberia_Reference_Frame_2021",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
+                 LENGTHUNIT["Meter", 1.0]]],
+               PRIMEM["Greenwich", 0.0,
+                ANGLEUNIT["Degree", 0.0174532925199433]],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0]]
+Description : LibRef21
+Authority   : EPSG
+Version     : 12.001(13.5.0)
+Deprecated  : no
+Area-name   : Liberia
+Area-slat   : 1.02
+Area-nlat   : 8.52
+Area-llon   : -13.59
+Area-rlon   : -7.36
 
 WKID        : 20039
 Latest-WKID : 20039
