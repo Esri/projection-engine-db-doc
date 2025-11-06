@@ -1,6 +1,6 @@
 {
   "name": "@esri/proj-codes",
-  "version": "3.5.0",
+  "version": "3.6.0",
   "description": "Get WKT and other metadata associated with an Esri/EPSG factory code.",
   "main": "index.js",
   "files": [
@@ -25,7 +25,8 @@
   ],
   "author": "Chris Helm",
   "contributors": [
-    "Rob Juergens",
+    "Rob Juergens <rjuergens@esri.com>",
+    "Bojan Šavrič <bsavric@esri.com>",
     "John Gravois <john@esri.com>",
     "Daniel Fenton <dfenton@esri.com>",
     "Rich Gwozdz <rgwozdz@esri.com>"
