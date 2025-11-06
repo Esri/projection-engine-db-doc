@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------------------------------
 # VDATUM data table
 #
-# syntax: [VDATUM,] vdatum-code, "name" [, "anchor"]
+# syntax: [VDATUM,] vdatum-code, "name" [, "anchor" [, anchor_epoch]]
 #------------------------------------------------------------------------------------------------------
 
 PE_VERTD_EGM2008_GEOID, \
@@ -326,7 +326,8 @@ PE_VERTD_NGNC_2008, \
 
 PE_VERTD_CGVD2013_CGG2013A, \
    "Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a",
-   ""
+   "",
+   2010.0
 
 PE_VERTD_SRVN2016, \
    "Sistema_de_Referencia_Vertical_Nacional_2016",
@@ -478,11 +479,13 @@ PE_VERTD_SVALBARD_VERTICAL_DATUM_2006, \
 
 PE_VERTD_CANADIAN_GEODETIC_VERTICAL_DATUM_OF_2013_CGG2013A_EPOCH_2002, \
    "Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002",
-   ""
+   "",
+   2002.0
 
 PE_VERTD_CANADIAN_GEODETIC_VERTICAL_DATUM_OF_2013_CGG2013A_EPOCH_1997, \
    "Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997",
-   ""
+   "",
+   1997.0
 
 PE_VERTD_INDONESIAN_GEOID_2020_VERSION_2, \
    "Indonesian_Geoid_2020_version_2",
@@ -566,7 +569,8 @@ PE_VERTD_SABA_VERTICAL_DATUM, \
 
 PE_VERTD_CANADIAN_GEODETIC_VERTICAL_DATUM_OF_1928_HTV2, \
    "Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)",
-   ""
+   "",
+   1997.0
 
 PE_VERTD_GREENLAND_MEAN_SEA_LEVEL_2023, \
    "Greenland_Mean_Sea_Level_(2023)",
@@ -586,6 +590,14 @@ PE_VERTD_SINT_EUSTATIUS_VERTICAL_DATUM, \
 
 PE_VERTD_BONAIRE_VERTICAL_DATUM, \
    "Bonaire_Vertical_Datum",
+   ""
+
+PE_VERTD_ASSE_VERTICAL_DATUM_2025, \
+   "Asse_vertical_datum_2025",
+   ""
+
+PE_VERTD_DERIVED_CALIFORNIA_ORTHOMETRIC_HEIGHTS_OF_1988_EPOCH_2025, \
+   "Derived_California_Orthometric_Heights_of_1988_epoch_2025",
    ""
 
 PE_VERTD_MSL, \
@@ -1062,6 +1074,10 @@ PE_VERTD_QATARI_VERTICAL_DATUM, \
 
 PE_VERTD_HELLENIC_VERTICAL_DATUM, \
    "Hellenic_Vertical_Datum",
+   ""
+
+PE_VERTD_JAPANESE_GEODETIC_DATUM_2024, \
+   "Japanese_Geodetic_Datum_2024_vertical",
    ""
 
 PE_VERTD_UNKNOWN_HT_SYSTEM_M, \

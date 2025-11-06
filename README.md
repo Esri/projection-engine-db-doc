@@ -5,13 +5,12 @@ systems and their projections and transformations, as well as providing
 many support functions such as calculating distances and areas,
 converting between lat/lon notations, importing/exporting objects from/to
 well-known text (WKT) strings, converting from/to well-known ID (WKID) values, etc.
-
 To perform WKID conversion, the PE contains a comprehensive database of
 known coordinate systems, datums, ellipsoids, units, etc. This database is
 regularly updated and kept in sync with the EPSG database.
 
-This documentation is based on ArcGIS Pro version 3.5.
-Entries taken from EPSG are from the 12.002 version of the EPSG database.
+This documentation is based on ArcGIS Pro version 3.6.
+Entries taken from EPSG are from the 12.028 version of the EPSG database.
 
 ### Contents
 

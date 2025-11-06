@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------------------------------
 # DATUM data table
 #
-# syntax: [DATUM,] datum-code, "name", spheroid-code [, "anchor"]
+# syntax: [DATUM,] datum-code, "name", spheroid-code [, "anchor" [, anchor_epoch]]
 #------------------------------------------------------------------------------------------------------
 
 PE_D_HUNGARIAN_DATUM_1909, \
@@ -272,7 +272,8 @@ PE_D_ISRAELI_GEODETIC_DATUM_2005_2012, \
 PE_D_NAD_1983_2011, \
    "D_NAD_1983_2011", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2010.0
 
 PE_D_NAD_1983_PA11, \
    "D_NAD_1983_PA11", \
@@ -497,32 +498,38 @@ PE_D_NAD_1983_CSRS96, \
 PE_D_NAD_1983_CSRS_V2, \
    "North_American_Datum_of_1983_(CSRS)_version_2", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1997.0
 
 PE_D_NAD_1983_CSRS_V3, \
    "North_American_Datum_of_1983_(CSRS)_version_3", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1997.0
 
 PE_D_NAD_1983_CSRS_V4, \
    "North_American_Datum_of_1983_(CSRS)_version_4", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2002.0
 
 PE_D_NAD_1983_CSRS_V5, \
    "North_American_Datum_of_1983_(CSRS)_version_5", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2006.0
 
 PE_D_NAD_1983_CSRS_V6, \
    "North_American_Datum_of_1983_(CSRS)_version_6", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2010.0
 
 PE_D_NAD_1983_CSRS_V7, \
    "North_American_Datum_of_1983_(CSRS)_version_7", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2010.0
 
 PE_D_S_JTSK_JTSK03, \
    "S-JTSK_[JTSK03]", \
@@ -1037,7 +1044,8 @@ PE_D_NSIDC_INTL_1924_AUTHALIC_SPHERE, \
 PE_D_NORTH_AMERICAN_DATUM_OF_1983_CSRS_V8, \
    "North_American_Datum_of_1983_(CSRS)_version_8", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2010.0
 
 PE_D_COV23_INTERMEDIATE_REFERENCE_FRAME, \
    "COV23_Intermediate_Reference_Frame", \
@@ -1087,7 +1095,8 @@ PE_D_MAYOTTE_GEODETIC_REFERENCE_FRAME_2023, \
 PE_D_EUREF_FIN, \
    "EUREF-FIN", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1997.0
 
 PE_D_UZBEKISTAN_GEODETIC_DATUM_2024, \
    "Uzbekistan_Geodetic_Datum_2024", \
@@ -1124,8 +1133,67 @@ PE_D_IGB20, \
    PE_S_GRS_1980,
    ""
 
+PE_D_UGANDA_GEODETIC_REFERENCE_FRAME, \
+   "Uganda_Geodetic_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
 PE_D_LIBERIA_REFERENCE_FRAME_2021, \
    "Liberia_Reference_Frame_2021", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_GEORGIA_GEODETIC_DATUM, \
+   "Georgia_Geodetic_Datum", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_EWR3_INTERMEDIATE_REFERENCE_FRAME, \
+   "EWR3_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_WSPG_INTERMEDIATE_REFERENCE_FRAME, \
+   "WSPG_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_ASSE_GEODETIC_DATUM_2025, \
+   "Asse_geodetic_datum_2025", \
+   PE_S_BESSEL_1841,
+   ""
+
+PE_D_CALIFORNIA_SPATIAL_REFERENCE_NETWORK_EPOCH_2025_0_NAD83_2011, \
+   "California_Spatial_Reference_Network_epoch_2025.0_(NAD83_2011)", \
+   PE_S_GRS_1980,
+   "",
+   2025.0
+
+PE_D_KAZAKHSTAN_TERRESTRIAL_REFERENCE_FRAME_2023, \
+   "Kazakhstan_Terrestrial_Reference_Frame_2023", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_CALIFORNIA_SPATIAL_REFERENCE_NETWORK_EPOCH_2025_0_ITRF2020, \
+   "California_Spatial_Reference_Network_epoch_2025.0_(ITRF2020)", \
+   PE_S_GRS_1980,
+   "",
+   2025.0
+
+PE_D_GREENLAND_REFERENCE_1996_2021, \
+   "Greenland_Reference_1996_(2021)", \
+   PE_S_GRS_1980,
+   "",
+   1996.62
+
+PE_D_GREENLAND_REFERENCE_1996_1996, \
+   "Greenland_Reference_1996_(1996)", \
+   PE_S_GRS_1980,
+   "",
+   1996.62
+
+PE_D_GREENLAND_REFERENCE_1996_ENSEMBLE, \
+   "Greenland_Reference_1996_ensemble", \
    PE_S_GRS_1980,
    ""
 
@@ -3224,6 +3292,11 @@ PE_D_LISBON_1890_LISBON, \
    PE_S_BESSEL_1841,
    ""
 
+PE_D_CURACAO_1951, \
+   "Curacao_1951", \
+   PE_S_INTERNATIONAL_1924,
+   ""
+
 PE_D_FISCHER_1960, \
    "D_Fischer_1960", \
    PE_S_FISCHER_1960,
@@ -3259,11 +3332,6 @@ PE_D_SPHERE_AI, \
    PE_S_SPHERE_AI,
    ""
 
-PE_D_GEORGIA_GEODETIC_DATUM, \
-   "Georgia_Geodetic_Datum", \
-   PE_S_GRS_1980,
-   ""
-
 PE_D_VOIROL_UNIFIE_1960, \
    "D_Voirol_Unifie_1960", \
    PE_S_CLARKE_1880_RGS,
@@ -3271,6 +3339,27 @@ PE_D_VOIROL_UNIFIE_1960, \
 
 PE_D_CSRS_EPOCH_2017_5_NAD83, \
    "California_SRS_Epoch_2017.50_(NAD83)", \
+   PE_S_GRS_1980,
+   "",
+   2017.5
+
+PE_D_JGD_2024, \
+   "Japanese_Geodetic_Datum_2024", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_PAL_GRF2023, \
+   "PAL-GRF2023", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_BTRS, \
+   "BTRS", \
+   PE_S_CLARKE_1880_ARC,
+   ""
+
+PE_D_BNGRS02, \
+   "BNGRS02", \
    PE_S_GRS_1980,
    ""
 
@@ -3282,6 +3371,11 @@ PE_D_GDM2008, \
 PE_D_SPHERE_GRS_1980_MEAN_RADIUS, \
    "D_Sphere_GRS_1980_Mean_Radius", \
    PE_S_SPHERE_GRS_1980_MEAN_RADIUS,
+   ""
+
+PE_D_HELLENIC_TERRESTRIAL_REFERENCE_SYSTEM_2007, \
+   "Hellenic_Terrestrial_Reference_System_2007", \
+   PE_S_GRS_1980,
    ""
 
 PE_D_XRAIL84, \

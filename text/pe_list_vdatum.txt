@@ -901,7 +901,8 @@ Latest-WKID : 1256
 Macro       : PE_VERTD_CGVD2013_CGG2013A
 Name        : Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a
 WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a"]
-WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a"]
+WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_CGG2013a",
+               ANCHOREPOCH[2010.0]]
 Description : Canadian Geodetic Vertical Datum of 2013 (CGG2013a)
 Authority   : EPSG
 Version     : 9.8.4(12.6.0)
@@ -1319,7 +1320,8 @@ Latest-WKID : 1325
 Macro       : PE_VERTD_CANADIAN_GEODETIC_VERTICAL_DATUM_OF_2013_CGG2013A_EPOCH_2002
 Name        : Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002
 WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002"]
-WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002"]
+WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_2002",
+               ANCHOREPOCH[2002.0]]
 Description : Canadian Geodetic Vertical Datum of 2013 (CGG2013a) epoch 2002
 Authority   : EPSG
 Version     : 10.066(13.1.0)
@@ -1330,7 +1332,8 @@ Latest-WKID : 1326
 Macro       : PE_VERTD_CANADIAN_GEODETIC_VERTICAL_DATUM_OF_2013_CGG2013A_EPOCH_1997
 Name        : Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997
 WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997"]
-WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997"]
+WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_2013_(CGG2013a)_epoch_1997",
+               ANCHOREPOCH[1997.0]]
 Description : Canadian Geodetic Vertical Datum of 2013 (CGG2013a) epoch 1997
 Authority   : EPSG
 Version     : 10.066(13.1.0)
@@ -1463,7 +1466,7 @@ Macro       : PE_VERTD_DANSK_VERTIKAL_REFERENCE_1990_ENSEMBLE
 Name        : Dansk_Vertikal_Reference_1990_ensemble
 WKT         : VDATUM["Dansk_Vertikal_Reference_1990_ensemble"]
 WKT2        : VDATUM["Dansk_Vertikal_Reference_1990_ensemble"]
-Description : Dansk Vertikal Reference 1990 ensemble
+Description : Dansk Vertikal Reference 1990 (ensemble)
 Authority   : EPSG
 Version     : 11.001(13.4.0)
 Deprecated  : no
@@ -1561,7 +1564,8 @@ Latest-WKID : 1384
 Macro       : PE_VERTD_CANADIAN_GEODETIC_VERTICAL_DATUM_OF_1928_HTV2
 Name        : Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)
 WKT         : VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"]
-WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)"]
+WKT2        : VDATUM["Canadian_Geodetic_Vertical_Datum_of_1928_(Height_Transformation_version_2_0)",
+               ANCHOREPOCH[1997.0]]
 Description : Canadian Geodetic Vertical Datum of 1928 (Height Transformation
               version 2.0)
 Authority   : EPSG
@@ -1621,6 +1625,28 @@ WKT2        : VDATUM["Bonaire_Vertical_Datum"]
 Description : Bonaire Vertical Datum
 Authority   : EPSG
 Version     : 11.029(13.5.0)
+Deprecated  : no
+
+WKID        : 1415
+Latest-WKID : 1415
+Macro       : PE_VERTD_ASSE_VERTICAL_DATUM_2025
+Name        : Asse_vertical_datum_2025
+WKT         : VDATUM["Asse_vertical_datum_2025"]
+WKT2        : VDATUM["Asse_vertical_datum_2025"]
+Description : Asse vertical datum 2025
+Authority   : EPSG
+Version     : 12.015(13.6.0)
+Deprecated  : no
+
+WKID        : 1416
+Latest-WKID : 1416
+Macro       : PE_VERTD_DERIVED_CALIFORNIA_ORTHOMETRIC_HEIGHTS_OF_1988_EPOCH_2025
+Name        : Derived_California_Orthometric_Heights_of_1988_epoch_2025
+WKT         : VDATUM["Derived_California_Orthometric_Heights_of_1988_epoch_2025"]
+WKT2        : VDATUM["Derived_California_Orthometric_Heights_of_1988_epoch_2025"]
+Description : Derived California Orthometric Heights of 1988 epoch 2025
+Authority   : EPSG
+Version     : 12.016(13.6.0)
 Deprecated  : no
 
 WKID        : 5100
@@ -2963,6 +2989,17 @@ WKT2        : VDATUM["Hellenic_Vertical_Datum"]
 Description : Hellenic Vertical Datum
 Authority   : Esri
 Version     : 13.5.0
+Deprecated  : no
+
+WKID        : 105108
+Latest-WKID : 105108
+Macro       : PE_VERTD_JAPANESE_GEODETIC_DATUM_2024
+Name        : Japanese_Geodetic_Datum_2024_vertical
+WKT         : VDATUM["Japanese_Geodetic_Datum_2024_vertical"]
+WKT2        : VDATUM["Japanese_Geodetic_Datum_2024_vertical"]
+Description : Japanese Geodetic Datum 2024 (vertical)
+Authority   : Esri
+Version     : 13.6.0
 Deprecated  : no
 
 WKID        : 105110
