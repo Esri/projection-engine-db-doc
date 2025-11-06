@@ -6,7 +6,7 @@
 
 PE_GCS_HARTEBEESTHOEK94_3D, \
    "Geographic Coordinate Systems/3D/Africa", \
-   "Hartebeesthoek 1994 3D"
+   "Hartebeesthoek94 3D"
 
 PE_GCS_LGD2006_3D, \
    "Geographic Coordinate Systems/3D/Africa", \
@@ -35,6 +35,10 @@ PE_GCS_RGSH2020_3D, \
 PE_GCS_RSAO13_3D, \
    "Geographic Coordinate Systems/3D/Africa", \
    "RSAO13 3D"
+
+PE_GCS_UGRF_3D, \
+   "Geographic Coordinate Systems/3D/Africa", \
+   "UGRF 3D"
 
 PE_GCS_AUSTRALIAN_ANTARCTIC_1998_3D, \
    "Geographic Coordinate Systems/3D/Antarctica", \
@@ -72,6 +76,14 @@ PE_GCS_GDM_2000_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "GDM 2000 3D"
 
+PE_GCS_GGD_3D, \
+   "Geographic Coordinate Systems/3D/Asia", \
+   "GGD 3D"
+
+PE_GCS_GSK_2011_3D, \
+   "Geographic Coordinate Systems/3D/Asia", \
+   "GSK-2011 3D"
+
 PE_GCS_HK_GEODETIC_CS_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "Hong Kong Geodetic CS 3D"
@@ -103,6 +115,10 @@ PE_GCS_JGD_2000_3D, \
 PE_GCS_JGD_2011_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "JGD 2011 3D"
+
+PE_GCS_JGD_2024_3D, \
+   "Geographic Coordinate Systems/3D/Asia", \
+   "JGD 2024 3D"
 
 PE_GCS_KOREA_2000_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
@@ -148,13 +164,17 @@ PE_GCS_ONGD17_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "ONGD17 3D"
 
-PE_GCS_PNG94_3D, \
+PE_GCS_PAL_GRF2023_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
-   "PNG94 3D"
+   "PAL-GRF2023 3D"
 
 PE_GCS_PRS_1992_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "PRS 1992 3D"
+
+PE_GCS_QAZTRF_23_3D, \
+   "Geographic Coordinate Systems/3D/Asia", \
+   "QazTRF-23 3D"
 
 PE_GCS_SLD99_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
@@ -164,9 +184,13 @@ PE_GCS_SRGI2013_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "SRGI2013 3D"
 
+PE_GCS_TUREF_3D, \
+   "Geographic Coordinate Systems/3D/Asia", \
+   "TUREF 3D"
+
 PE_GCS_TWD_1997_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
-   "Taiwan 1997 3D"
+   "TWD 1997 3D"
 
 PE_GCS_UZGD2024_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
@@ -204,6 +228,74 @@ PE_GCS_MARCARIO_SOLIS_3D, \
    "Geographic Coordinate Systems/3D/Central America", \
    "MARCARIO SOLIS 3D"
 
+PE_GCS_SIRGAS_2000_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS 2000 3D"
+
+PE_GCS_SIRGAS_CON_DGF00P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON DGF00P01 3D"
+
+PE_GCS_SIRGAS_CON_DGF01P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON DGF01P01 3D"
+
+PE_GCS_SIRGAS_CON_DGF01P02_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON DGF01P02 3D"
+
+PE_GCS_SIRGAS_CON_DGF02P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON DGF02P01 3D"
+
+PE_GCS_SIRGAS_CON_DGF04P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON DGF04P01 3D"
+
+PE_GCS_SIRGAS_CON_DGF05P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON DGF05P01 3D"
+
+PE_GCS_SIRGAS_CON_DGF06P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON DGF06P01 3D"
+
+PE_GCS_SIRGAS_CON_DGF07P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON DGF07P01 3D"
+
+PE_GCS_SIRGAS_CON_DGF08P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON DGF08P01 3D"
+
+PE_GCS_SIRGAS_CON_SIR09P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON SIR09P01 3D"
+
+PE_GCS_SIRGAS_CON_SIR10P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON SIR10P01 3D"
+
+PE_GCS_SIRGAS_CON_SIR11P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON SIR11P01 3D"
+
+PE_GCS_SIRGAS_CON_SIR13P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON SIR13P01 3D"
+
+PE_GCS_SIRGAS_CON_SIR14P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON SIR14P01 3D"
+
+PE_GCS_SIRGAS_CON_SIR15P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON SIR15P01 3D"
+
+PE_GCS_SIRGAS_CON_SIR17P01_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "SIRGAS-CON SIR17P01 3D"
+
 PE_GCS_SIRGAS_ES2007_8_3D, \
    "Geographic Coordinate Systems/3D/Central America", \
    "SIRGAS_ES2007.8 3D"
@@ -228,57 +320,57 @@ PE_GCS_DB_REF_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "DB_REF 3D"
 
-PE_GCS_ETRF_1989_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 1989 3D"
-
-PE_GCS_ETRF_1990_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 1990 3D"
-
-PE_GCS_ETRF_1991_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 1991 3D"
-
-PE_GCS_ETRF_1992_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 1992 3D"
-
-PE_GCS_ETRF_1993_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 1993 3D"
-
-PE_GCS_ETRF_1994_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 1994 3D"
-
-PE_GCS_ETRF_1996_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 1996 3D"
-
-PE_GCS_ETRF_1997_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 1997 3D"
-
 PE_GCS_ETRF_2000_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 2000 3D"
-
-PE_GCS_ETRF_2005_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 2005 3D"
-
-PE_GCS_ETRF_2014_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF 2014 3D"
+   "ETRF2000 3D"
 
 PE_GCS_ETRF2000_PL_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "ETRF2000-PL 3D"
 
+PE_GCS_ETRF_2005_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRF2005 3D"
+
+PE_GCS_ETRF_2014_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRF2014 3D"
+
 PE_GCS_ETRF_2020_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "ETRF2020 3D"
+
+PE_GCS_ETRF_1989_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRF89 3D"
+
+PE_GCS_ETRF_1990_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRF90 3D"
+
+PE_GCS_ETRF_1991_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRF91 3D"
+
+PE_GCS_ETRF_1992_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRF92 3D"
+
+PE_GCS_ETRF_1993_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRF93 3D"
+
+PE_GCS_ETRF_1994_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRF94 3D"
+
+PE_GCS_ETRF_1996_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRF96 3D"
+
+PE_GCS_ETRF_1997_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRF97 3D"
 
 PE_GCS_ETRS_1989_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
@@ -300,13 +392,13 @@ PE_GCS_FEH2010_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "FEH2010 3D"
 
-PE_GCS_GGD_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "GGD 3D"
-
 PE_GCS_GSK_2011_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "GSK-2011 3D"
+
+PE_GCS_HTRS07_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "HTRS07 3D"
 
 PE_GCS_HTRS96_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
@@ -368,29 +460,9 @@ PE_GCS_RDN2008_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "RDN2008 3D"
 
-PE_GCS_RGF93_LON_LAT_3D, \
+PE_GCS_S_JTSK_JTSK03_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
-   "RGF 1993 (lon-lat) 3D"
-
-PE_GCS_RGF_1993_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "RGF 1993 3D"
-
-PE_GCS_RGF93_V2_LON_LAT_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "RGF93 v2 (lon-lat) 3D"
-
-PE_GCS_RGF93_V2_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "RGF93 v2 3D"
-
-PE_GCS_RGF93_V2B_LON_LAT_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "RGF93 v2b (lon-lat) 3D"
-
-PE_GCS_RGF93_V2B_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "RGF93 v2b 3D"
+   "S-JTSK [JTSK03] 3D"
 
 PE_GCS_S_JTSK_05_FERRO_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
@@ -420,21 +492,41 @@ PE_GCS_CHTRF_1995_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "Swiss TRF 1995 3D"
 
-PE_GCS_TUREF_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "TUREF 3D"
-
 PE_GCS_UKRAINE_2000_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "Ukraine 2000 3D"
 
-PE_GCS_BERMUDA_2000_3D, \
-   "Geographic Coordinate Systems/3D/North America", \
-   "Bermuda 2000 3D"
+PE_GCS_RGF93_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Europe/France", \
+   "RGF 1993 (lon-lat) 3D"
 
-PE_GCS_CSRS_EPOCH_2017_5_NAD83_3D, \
+PE_GCS_RGF_1993_3D, \
+   "Geographic Coordinate Systems/3D/Europe/France", \
+   "RGF 1993 3D"
+
+PE_GCS_RGF93_V2_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Europe/France", \
+   "RGF93 v2 (lon-lat) 3D"
+
+PE_GCS_RGF93_V2_3D, \
+   "Geographic Coordinate Systems/3D/Europe/France", \
+   "RGF93 v2 3D"
+
+PE_GCS_RGF93_V2B_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Europe/France", \
+   "RGF93 v2b (lon-lat) 3D"
+
+PE_GCS_RGF93_V2B_3D, \
+   "Geographic Coordinate Systems/3D/Europe/France", \
+   "RGF93 v2b 3D"
+
+PE_GCS_GR96_1996_3D, \
    "Geographic Coordinate Systems/3D/North America", \
-   "California SRS Epoch 2017.50 (NAD83) 3D"
+   "GR96(1996) 3D"
+
+PE_GCS_GR96_2021_3D, \
+   "Geographic Coordinate Systems/3D/North America", \
+   "GR96(2021) 3D"
 
 PE_GCS_GREENLAND_1996_3D, \
    "Geographic Coordinate Systems/3D/North America", \
@@ -448,69 +540,93 @@ PE_GCS_MEXICO_ITRF2008_3D, \
    "Geographic Coordinate Systems/3D/North America", \
    "Mexico ITRF2008 3D"
 
-PE_GCS_NAD_1983_3D, \
+PE_GCS_RGSPM06_LON_LAT_3D, \
    "Geographic Coordinate Systems/3D/North America", \
-   "NAD 1983 3D"
+   "RGSPM06 (lon-lat) 3D"
 
-PE_GCS_RGAF09_3D, \
+PE_GCS_RGSPM_2006_3D, \
    "Geographic Coordinate Systems/3D/North America", \
-   "RGAF09 3D"
+   "RGSPM06 3D"
+
+PE_GCS_NAD_1983_3D, \
+   "Geographic Coordinate Systems/3D/North America/Canada", \
+   "NAD 1983 3D"
 
 PE_GCS_NAD_1983_CSRS_3D, \
    "Geographic Coordinate Systems/3D/North America/Canada", \
-   "NAD 1983 (CSRS) 3D"
+   "NAD83(CSRS) 3D"
 
 PE_GCS_NAD_1983_CSRS_V2_3D, \
    "Geographic Coordinate Systems/3D/North America/Canada", \
-   "NAD 1983 (CSRS) v2 3D"
+   "NAD83(CSRS)v2 3D"
 
 PE_GCS_NAD_1983_CSRS_V3_3D, \
    "Geographic Coordinate Systems/3D/North America/Canada", \
-   "NAD 1983 (CSRS) v3 3D"
+   "NAD83(CSRS)v3 3D"
 
 PE_GCS_NAD_1983_CSRS_V4_3D, \
    "Geographic Coordinate Systems/3D/North America/Canada", \
-   "NAD 1983 (CSRS) v4 3D"
+   "NAD83(CSRS)v4 3D"
 
 PE_GCS_NAD_1983_CSRS_V5_3D, \
    "Geographic Coordinate Systems/3D/North America/Canada", \
-   "NAD 1983 (CSRS) v5 3D"
+   "NAD83(CSRS)v5 3D"
 
 PE_GCS_NAD_1983_CSRS_V6_3D, \
    "Geographic Coordinate Systems/3D/North America/Canada", \
-   "NAD 1983 (CSRS) v6 3D"
+   "NAD83(CSRS)v6 3D"
 
 PE_GCS_NAD_1983_CSRS_V7_3D, \
    "Geographic Coordinate Systems/3D/North America/Canada", \
-   "NAD 1983 (CSRS) v7 3D"
+   "NAD83(CSRS)v7 3D"
+
+PE_GCS_NAD_1983_CSRS_V8_3D, \
+   "Geographic Coordinate Systems/3D/North America/Canada", \
+   "NAD83(CSRS)v8 3D"
 
 PE_GCS_NAD_1983_CSRS96_3D, \
    "Geographic Coordinate Systems/3D/North America/Canada", \
-   "NAD 1983 (CSRS96) 3D"
+   "NAD83(CSRS96) 3D"
+
+PE_GCS_CSRN_EPOCH_2025_0_ITRF2020_3D, \
+   "Geographic Coordinate Systems/3D/North America/United States", \
+   "CSRN epoch 2025.0 (ITRF2020) 3D"
+
+PE_GCS_CSRN_EPOCH_2025_0_NAD83_2011_3D, \
+   "Geographic Coordinate Systems/3D/North America/United States", \
+   "CSRN epoch 2025.0 (NAD83 2011) 3D"
+
+PE_GCS_CSRS_EPOCH_2017_5_NAD83_3D, \
+   "Geographic Coordinate Systems/3D/North America/United States", \
+   "California SRS Epoch 2017.50 (NAD83) 3D"
 
 PE_GCS_NAD_1983_2011_3D, \
-   "Geographic Coordinate Systems/3D/North America/USA and territories", \
+   "Geographic Coordinate Systems/3D/North America/United States", \
    "NAD 1983 (2011) 3D"
 
 PE_GCS_NAD_1983_CORS96_3D, \
-   "Geographic Coordinate Systems/3D/North America/USA and territories", \
+   "Geographic Coordinate Systems/3D/North America/United States", \
    "NAD 1983 (CORS96) 3D"
 
 PE_GCS_NAD_1983_FBN_3D, \
-   "Geographic Coordinate Systems/3D/North America/USA and territories", \
+   "Geographic Coordinate Systems/3D/North America/United States", \
    "NAD 1983 (FBN) 3D"
 
-PE_GCS_NAD_1983_HARN_CORRECTED_3D, \
-   "Geographic Coordinate Systems/3D/North America/USA and territories", \
-   "NAD 1983 (HARN Corrected) 3D"
-
 PE_GCS_NAD_1983_NSRS2007_3D, \
-   "Geographic Coordinate Systems/3D/North America/USA and territories", \
+   "Geographic Coordinate Systems/3D/North America/United States", \
    "NAD 1983 (NSRS2007) 3D"
 
+PE_GCS_NAD_1983_3D, \
+   "Geographic Coordinate Systems/3D/North America/United States", \
+   "NAD 1983 3D"
+
 PE_GCS_NAD_1983_HARN_3D, \
-   "Geographic Coordinate Systems/3D/North America/USA and territories", \
+   "Geographic Coordinate Systems/3D/North America/United States", \
    "NAD 1983 HARN 3D"
+
+PE_GCS_BERMUDA_2000_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Atlantic Ocean", \
+   "Bermuda 2000 3D"
 
 PE_GCS_PTRA08_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Atlantic Ocean", \
@@ -520,14 +636,6 @@ PE_GCS_REGCAN95_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Atlantic Ocean", \
    "REGCAN95 3D"
 
-PE_GCS_RGSPM06_LON_LAT_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Atlantic Ocean", \
-   "RGSPM06 (lon-lat) 3D"
-
-PE_GCS_RGSPM_2006_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Atlantic Ocean", \
-   "RGSPM06 3D"
-
 PE_GCS_SHGD2015_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Atlantic Ocean", \
    "SHGD2015 3D"
@@ -535,18 +643,6 @@ PE_GCS_SHGD2015_3D, \
 PE_GCS_ST_HELENA_TRITAN_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Atlantic Ocean", \
    "St. Helena Tritan 3D"
-
-PE_GCS_BES2020_SABA_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
-   "BES2020 Saba 3D"
-
-PE_GCS_BES2020_SINT_EUSTATIUS_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
-   "BES2020 Sint Eustatius 3D"
-
-PE_GCS_BONAIRE_2004_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
-   "Bonaire 2004 3D"
 
 PE_GCS_CIGD11_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
@@ -556,41 +652,41 @@ PE_GCS_JAD_2001_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
    "JAD 2001 3D"
 
+PE_GCS_NAD_1983_HARN_CORRECTED_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
+   "NAD 1983 (HARN Corrected) 3D"
+
 PE_GCS_RGAF09_LON_LAT_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
    "RGAF09 (lon-lat) 3D"
+
+PE_GCS_RGAF09_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
+   "RGAF09 3D"
 
 PE_GCS_RRAF_1991_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
    "RRAF 1991 3D"
 
+PE_GCS_BES2020_SABA_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "BES2020 Saba 3D"
+
+PE_GCS_BES2020_SINT_EUSTATIUS_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "BES2020 Sint Eustatius 3D"
+
+PE_GCS_BONAIRE_2004_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "Bonaire 2004 3D"
+
 PE_GCS_SABA_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea/Dutch Caribbean", \
    "Saba 3D"
 
 PE_GCS_SINT_EUSTATIUS_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea", \
+   "Geographic Coordinate Systems/3D/Oceans/Caribbean Sea/Dutch Caribbean", \
    "Sint Eustatius 3D"
-
-PE_GCS_CADASTRE_1997_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
-   "Cadastre 1997 3D"
-
-PE_GCS_RGM04_LON_LAT_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
-   "RGM04 (lon-lat) 3D"
-
-PE_GCS_RGM_2004_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
-   "RGM04 3D"
-
-PE_GCS_RGM23_LON_LAT_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
-   "RGM23 (lon-lat) 3D"
-
-PE_GCS_RGM23_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
-   "RGM23 3D"
 
 PE_GCS_RGR92_LON_LAT_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
@@ -600,37 +696,37 @@ PE_GCS_RGR_1992_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
    "RGR 1992 3D"
 
-PE_GCS_NAD_1983_MA11_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean", \
-   "NAD 1983 (MA11) 3D"
+PE_GCS_RGTAAF07_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
+   "RGTAAF07 (lon-lat) 3D"
 
-PE_GCS_NAD_1983_MARP00_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean", \
-   "NAD 1983 (MARP00) 3D"
+PE_GCS_RGTAAF07_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean", \
+   "RGTAAF07 3D"
 
-PE_GCS_NAD_1983_PA11_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean", \
-   "NAD 1983 (PA11) 3D"
+PE_GCS_CADASTRE_1997_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean/Mayotte", \
+   "Cadastre 1997 3D"
 
-PE_GCS_NAD_1983_PACP00_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean", \
-   "NAD 1983 (PACP00) 3D"
+PE_GCS_RGM04_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean/Mayotte", \
+   "RGM04 (lon-lat) 3D"
 
-PE_GCS_RGNC91_93_LON_LAT_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean", \
-   "RGNC 1991-93 (lon-lat) 3D"
+PE_GCS_RGM_2004_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean/Mayotte", \
+   "RGM04 3D"
 
-PE_GCS_RGNC_1991_93_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean", \
-   "RGNC 1991-93 3D"
+PE_GCS_RGM23_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean/Mayotte", \
+   "RGM23 (lon-lat) 3D"
 
-PE_GCS_RGNC15_LON_LAT_3D, \
-   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean", \
-   "RGNC15 (lon-lat) 3D"
+PE_GCS_RGM23_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Indian Ocean/Mayotte", \
+   "RGM23 3D"
 
-PE_GCS_RGNC15_3D, \
+PE_GCS_PNG94_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean", \
-   "RGNC15 3D"
+   "PNG94 3D"
 
 PE_GCS_RGPF_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean", \
@@ -647,6 +743,38 @@ PE_GCS_RGWF96_3D, \
 PE_GCS_TGD2005_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean", \
    "TGD2005 3D"
+
+PE_GCS_NAD_1983_MA11_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (MA11) 3D"
+
+PE_GCS_NAD_1983_MARP00_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (MARP00) 3D"
+
+PE_GCS_NAD_1983_PA11_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (PA11) 3D"
+
+PE_GCS_NAD_1983_PACP00_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (PACP00) 3D"
+
+PE_GCS_RGNC91_93_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC 1991-93 (lon-lat) 3D"
+
+PE_GCS_RGNC_1991_93_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC 1991-93 3D"
+
+PE_GCS_RGNC15_LON_LAT_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC15 (lon-lat) 3D"
+
+PE_GCS_RGNC15_3D, \
+   "Geographic Coordinate Systems/3D/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC15 3D"
 
 PE_GCS_MAGNA_3D, \
    "Geographic Coordinate Systems/3D/South America", \
@@ -676,25 +804,17 @@ PE_GCS_PERU96_3D, \
    "Geographic Coordinate Systems/3D/South America", \
    "Peru96 3D"
 
-PE_GCS_REDGEOMIN_3D, \
-   "Geographic Coordinate Systems/3D/South America", \
-   "REDGEOMIN 3D"
-
 PE_GCS_REGVEN_3D, \
    "Geographic Coordinate Systems/3D/South America", \
    "REGVEN 3D"
-
-PE_GCS_RGFG_1995_3D, \
-   "Geographic Coordinate Systems/3D/South America", \
-   "RGFG 1995 3D"
 
 PE_GCS_RGFG95_LON_LAT_3D, \
    "Geographic Coordinate Systems/3D/South America", \
    "RGFG95 (lon-lat) 3D"
 
-PE_GCS_S_JTSK_JTSK03_3D, \
+PE_GCS_RGFG_1995_3D, \
    "Geographic Coordinate Systems/3D/South America", \
-   "S-JTSK JTSK03 3D"
+   "RGFG95 3D"
 
 PE_GCS_SIRGAS_2000_3D, \
    "Geographic Coordinate Systems/3D/South America", \
@@ -768,29 +888,33 @@ PE_GCS_SIRGAS_CON_SIR17P01_3D, \
    "Geographic Coordinate Systems/3D/South America", \
    "SIRGAS-CON SIR17P01 3D"
 
-PE_GCS_SIRGAS_CHILE_2002_3D, \
-   "Geographic Coordinate Systems/3D/South America", \
-   "SIRGAS-Chile 2002 3D"
-
-PE_GCS_SIRGAS_CHILE_2010_3D, \
-   "Geographic Coordinate Systems/3D/South America", \
-   "SIRGAS-Chile 2010 3D"
-
-PE_GCS_SIRGAS_CHILE_2013_3D, \
-   "Geographic Coordinate Systems/3D/South America", \
-   "SIRGAS-Chile 2013 3D"
-
-PE_GCS_SIRGAS_CHILE_2016_3D, \
-   "Geographic Coordinate Systems/3D/South America", \
-   "SIRGAS-Chile 2016 3D"
-
-PE_GCS_SIRGAS_CHILE_2021_3D, \
-   "Geographic Coordinate Systems/3D/South America", \
-   "SIRGAS-Chile 2021 3D"
-
 PE_GCS_SIRGAS_ROU98_3D, \
    "Geographic Coordinate Systems/3D/South America", \
    "SIRGAS-ROU98 3D"
+
+PE_GCS_REDGEOMIN_3D, \
+   "Geographic Coordinate Systems/3D/South America/Chile", \
+   "REDGEOMIN 3D"
+
+PE_GCS_SIRGAS_CHILE_2002_3D, \
+   "Geographic Coordinate Systems/3D/South America/Chile", \
+   "SIRGAS-Chile 2002 3D"
+
+PE_GCS_SIRGAS_CHILE_2010_3D, \
+   "Geographic Coordinate Systems/3D/South America/Chile", \
+   "SIRGAS-Chile 2010 3D"
+
+PE_GCS_SIRGAS_CHILE_2013_3D, \
+   "Geographic Coordinate Systems/3D/South America/Chile", \
+   "SIRGAS-Chile 2013 3D"
+
+PE_GCS_SIRGAS_CHILE_2016_3D, \
+   "Geographic Coordinate Systems/3D/South America/Chile", \
+   "SIRGAS-Chile 2016 3D"
+
+PE_GCS_SIRGAS_CHILE_2021_3D, \
+   "Geographic Coordinate Systems/3D/South America/Chile", \
+   "SIRGAS-Chile 2021 3D"
 
 PE_GCS_IGS00_3D, \
    "Geographic Coordinate Systems/3D/World", \
@@ -972,10 +1096,6 @@ PE_GCS_AGADEZ, \
    "Geographic Coordinate Systems/Africa", \
    "Agadez"
 
-PE_GCS_AIN_EL_ABD_1970, \
-   "Geographic Coordinate Systems/Africa", \
-   "Ain el Abd 1970"
-
 PE_GCS_ARC_1950, \
    "Geographic Coordinate Systems/Africa", \
    "Arc 1950"
@@ -988,6 +1108,14 @@ PE_GCS_AYABELLE, \
    "Geographic Coordinate Systems/Africa", \
    "Ayabelle Lighthouse"
 
+PE_GCS_BNGRS02, \
+   "Geographic Coordinate Systems/Africa", \
+   "BNGRS02"
+
+PE_GCS_BTRS, \
+   "Geographic Coordinate Systems/Africa", \
+   "BTRS"
+
 PE_GCS_BEDUARAM, \
    "Geographic Coordinate Systems/Africa", \
    "Beduaram"
@@ -999,14 +1127,6 @@ PE_GCS_BIOKO, \
 PE_GCS_BISSAU, \
    "Geographic Coordinate Systems/Africa", \
    "Bissau"
-
-PE_GCS_CAMACUPA, \
-   "Geographic Coordinate Systems/Africa", \
-   "Camacupa"
-
-PE_GCS_CAMACUPA_2015, \
-   "Geographic Coordinate Systems/Africa", \
-   "Camacupa_2015"
 
 PE_GCS_CAPE, \
    "Geographic Coordinate Systems/Africa", \
@@ -1036,14 +1156,6 @@ PE_GCS_DABOLA_1981, \
    "Geographic Coordinate Systems/Africa", \
    "Dabola 1981"
 
-PE_GCS_DOUALA, \
-   "Geographic Coordinate Systems/Africa", \
-   "Douala"
-
-PE_GCS_DOUALA_1948, \
-   "Geographic Coordinate Systems/Africa", \
-   "Douala 1948"
-
 PE_GCS_EGYPT_1907, \
    "Geographic Coordinate Systems/Africa", \
    "Egypt 1907"
@@ -1068,57 +1180,13 @@ PE_GCS_GAMBIA, \
    "Geographic Coordinate Systems/Africa", \
    "Gambia"
 
-PE_GCS_GAROUA, \
-   "Geographic Coordinate Systems/Africa", \
-   "Garoua"
-
 PE_GCS_HARTEBEESTHOEK94, \
    "Geographic Coordinate Systems/Africa", \
-   "Hartebeesthoek 1994"
-
-PE_GCS_IGC_1962_6TH_PARALLEL_S, \
-   "Geographic Coordinate Systems/Africa", \
-   "IGC 1962 Arc of the 6th Parallel South"
-
-PE_GCS_IGCB_1955, \
-   "Geographic Coordinate Systems/Africa", \
-   "IGCB 1955"
-
-PE_GCS_IGN_ASTRO_1960, \
-   "Geographic Coordinate Systems/Africa", \
-   "IGN Astro 1960"
-
-PE_GCS_JOUIK_1961, \
-   "Geographic Coordinate Systems/Africa", \
-   "Jouik 1961"
-
-PE_GCS_KASAI_1953, \
-   "Geographic Coordinate Systems/Africa", \
-   "Kasai 1953"
-
-PE_GCS_KATANGA_1955, \
-   "Geographic Coordinate Systems/Africa", \
-   "Katanga 1955"
-
-PE_GCS_KOUSSERI, \
-   "Geographic Coordinate Systems/Africa", \
-   "Kousseri"
-
-PE_GCS_KOC, \
-   "Geographic Coordinate Systems/Africa", \
-   "Kuwait Oil Company"
-
-PE_GCS_KUDAMS, \
-   "Geographic Coordinate Systems/Africa", \
-   "Kuwait Utility"
+   "Hartebeesthoek94"
 
 PE_GCS_LGD2006, \
    "Geographic Coordinate Systems/Africa", \
    "LGD2006"
-
-PE_GCS_LE_POUCE_1934, \
-   "Geographic Coordinate Systems/Africa", \
-   "Le Pouce 1934"
 
 PE_GCS_LEIGON, \
    "Geographic Coordinate Systems/Africa", \
@@ -1144,33 +1212,13 @@ PE_GCS_MPORALOKO, \
    "Geographic Coordinate Systems/Africa", \
    "M'poraloko"
 
-PE_GCS_MADZANSUA, \
-   "Geographic Coordinate Systems/Africa", \
-   "Madzansua"
-
-PE_GCS_MAHE_1971, \
-   "Geographic Coordinate Systems/Africa", \
-   "Mahe 1971"
-
 PE_GCS_MALONGO_1987, \
    "Geographic Coordinate Systems/Africa", \
    "Malongo 1987"
 
-PE_GCS_MANOCA, \
-   "Geographic Coordinate Systems/Africa", \
-   "Manoca"
-
-PE_GCS_MANOCA_1962, \
-   "Geographic Coordinate Systems/Africa", \
-   "Manoca 1962"
-
 PE_GCS_MASSAWA, \
    "Geographic Coordinate Systems/Africa", \
    "Massawa"
-
-PE_GCS_MAURITANIA_1999, \
-   "Geographic Coordinate Systems/Africa", \
-   "Mauritania 1999"
 
 PE_GCS_MERCHICH, \
    "Geographic Coordinate Systems/Africa", \
@@ -1184,41 +1232,9 @@ PE_GCS_MHAST_ONSHORE, \
    "Geographic Coordinate Systems/Africa", \
    "Mhast (Onshore)"
 
-PE_GCS_MHAST_1951, \
-   "Geographic Coordinate Systems/Africa", \
-   "Mhast 1951"
-
 PE_GCS_MINNA, \
    "Geographic Coordinate Systems/Africa", \
    "Minna"
-
-PE_GCS_MOZNET, \
-   "Geographic Coordinate Systems/Africa", \
-   "Moznet"
-
-PE_GCS_NAHRWAN_1967, \
-   "Geographic Coordinate Systems/Africa", \
-   "Nahrwan 1967"
-
-PE_GCS_NGN, \
-   "Geographic Coordinate Systems/Africa", \
-   "National Geodetic Network (Kuwait)"
-
-PE_GCS_NORD_SAHARA_1959, \
-   "Geographic Coordinate Systems/Africa", \
-   "Nord Sahara 1959"
-
-PE_GCS_NOUAKCHOTT_1965, \
-   "Geographic Coordinate Systems/Africa", \
-   "Nouakchott 1965"
-
-PE_GCS_OBSERVATARIO, \
-   "Geographic Coordinate Systems/Africa", \
-   "Observatario"
-
-PE_GCS_PALESTINE_1923, \
-   "Geographic Coordinate Systems/Africa", \
-   "Palestine 1923"
 
 PE_GCS_POINT58, \
    "Geographic Coordinate Systems/Africa", \
@@ -1227,26 +1243,6 @@ PE_GCS_POINT58, \
 PE_GCS_POINTE_NOIRE, \
    "Geographic Coordinate Systems/Africa", \
    "Pointe Noire"
-
-PE_GCS_QATAR_1948, \
-   "Geographic Coordinate Systems/Africa", \
-   "Qatar 1948"
-
-PE_GCS_QATAR_1974, \
-   "Geographic Coordinate Systems/Africa", \
-   "Qatar 1974"
-
-PE_GCS_RGRDC_2005, \
-   "Geographic Coordinate Systems/Africa", \
-   "RGRDC 2005"
-
-PE_GCS_RGSH2020, \
-   "Geographic Coordinate Systems/Africa", \
-   "RGSH2020"
-
-PE_GCS_RSAO13, \
-   "Geographic Coordinate Systems/Africa", \
-   "RSAO13"
 
 PE_GCS_SCHWARZECK, \
    "Geographic Coordinate Systems/Africa", \
@@ -1264,10 +1260,6 @@ PE_GCS_SIERRA_LEONE_1968, \
    "Geographic Coordinate Systems/Africa", \
    "Sierra Leone 1968"
 
-PE_GCS_SOUTH_YEMEN, \
-   "Geographic Coordinate Systems/Africa", \
-   "South Yemen"
-
 PE_GCS_SUDAN, \
    "Geographic Coordinate Systems/Africa", \
    "Sudan"
@@ -1280,45 +1272,137 @@ PE_GCS_TANANARIVE_1925_PARIS, \
    "Geographic Coordinate Systems/Africa", \
    "Tananarive 1925 (Paris)"
 
-PE_GCS_TETE, \
+PE_GCS_UGRF, \
    "Geographic Coordinate Systems/Africa", \
-   "Tete"
-
-PE_GCS_TRUCIAL_COAST_1948, \
-   "Geographic Coordinate Systems/Africa", \
-   "Trucial Coast 1948"
-
-PE_GCS_VOIROL_1875, \
-   "Geographic Coordinate Systems/Africa", \
-   "Voirol 1875"
-
-PE_GCS_VOIROL_1875_PARIS, \
-   "Geographic Coordinate Systems/Africa", \
-   "Voirol 1875 (Paris)"
-
-PE_GCS_VOIROL_1875_GRAD, \
-   "Geographic Coordinate Systems/Africa", \
-   "Voirol 1875 (grads)"
-
-PE_GCS_VOIROL_1879_PARIS, \
-   "Geographic Coordinate Systems/Africa", \
-   "Voirol 1879 (Paris)"
-
-PE_GCS_VOIROL_1879, \
-   "Geographic Coordinate Systems/Africa", \
-   "Voirol 1879 (degrees)"
-
-PE_GCS_VOIROL_1879_GRAD, \
-   "Geographic Coordinate Systems/Africa", \
-   "Voirol 1879 (grads)"
-
-PE_GCS_YEMEN_NGN_1996, \
-   "Geographic Coordinate Systems/Africa", \
-   "Yemen NGN 1996"
+   "UGRF"
 
 PE_GCS_YOFF, \
    "Geographic Coordinate Systems/Africa", \
    "Yoff"
+
+PE_GCS_NORD_SAHARA_1959, \
+   "Geographic Coordinate Systems/Africa/Algeria", \
+   "Nord Sahara 1959"
+
+PE_GCS_RGSH2020, \
+   "Geographic Coordinate Systems/Africa/Algeria", \
+   "RGSH2020"
+
+PE_GCS_VOIROL_1875_PARIS, \
+   "Geographic Coordinate Systems/Africa/Algeria", \
+   "Voirol 1875 (Paris)"
+
+PE_GCS_VOIROL_1875, \
+   "Geographic Coordinate Systems/Africa/Algeria", \
+   "Voirol 1875 (degrees)"
+
+PE_GCS_VOIROL_1875_GRAD, \
+   "Geographic Coordinate Systems/Africa/Algeria", \
+   "Voirol 1875 (grads)"
+
+PE_GCS_VOIROL_1879_PARIS, \
+   "Geographic Coordinate Systems/Africa/Algeria", \
+   "Voirol 1879 (Paris)"
+
+PE_GCS_VOIROL_1879, \
+   "Geographic Coordinate Systems/Africa/Algeria", \
+   "Voirol 1879 (degrees)"
+
+PE_GCS_VOIROL_1879_GRAD, \
+   "Geographic Coordinate Systems/Africa/Algeria", \
+   "Voirol 1879 (grads)"
+
+PE_GCS_CAMACUPA, \
+   "Geographic Coordinate Systems/Africa/Angola", \
+   "Camacupa"
+
+PE_GCS_CAMACUPA_2015, \
+   "Geographic Coordinate Systems/Africa/Angola", \
+   "Camacupa 2015"
+
+PE_GCS_MHAST_1951, \
+   "Geographic Coordinate Systems/Africa/Angola", \
+   "Mhast 1951"
+
+PE_GCS_RSAO13, \
+   "Geographic Coordinate Systems/Africa/Angola", \
+   "RSAO13"
+
+PE_GCS_DOUALA, \
+   "Geographic Coordinate Systems/Africa/Cameroon", \
+   "Douala"
+
+PE_GCS_DOUALA_1948, \
+   "Geographic Coordinate Systems/Africa/Cameroon", \
+   "Douala 1948"
+
+PE_GCS_GAROUA, \
+   "Geographic Coordinate Systems/Africa/Cameroon", \
+   "Garoua"
+
+PE_GCS_KOUSSERI, \
+   "Geographic Coordinate Systems/Africa/Cameroon", \
+   "Kousseri"
+
+PE_GCS_MANOCA, \
+   "Geographic Coordinate Systems/Africa/Cameroon", \
+   "Manoca"
+
+PE_GCS_MANOCA_1962, \
+   "Geographic Coordinate Systems/Africa/Cameroon", \
+   "Manoca 1962"
+
+PE_GCS_IGC_1962_6TH_PARALLEL_S, \
+   "Geographic Coordinate Systems/Africa/Democratic Republic of the Congo", \
+   "IGC 1962 Arc of the 6th Parallel South"
+
+PE_GCS_IGCB_1955, \
+   "Geographic Coordinate Systems/Africa/Democratic Republic of the Congo", \
+   "IGCB 1955"
+
+PE_GCS_KASAI_1953, \
+   "Geographic Coordinate Systems/Africa/Democratic Republic of the Congo", \
+   "Kasai 1953"
+
+PE_GCS_KATANGA_1955, \
+   "Geographic Coordinate Systems/Africa/Democratic Republic of the Congo", \
+   "Katanga 1955"
+
+PE_GCS_RGRDC_2005, \
+   "Geographic Coordinate Systems/Africa/Democratic Republic of the Congo", \
+   "RGRDC 2005"
+
+PE_GCS_IGN_ASTRO_1960, \
+   "Geographic Coordinate Systems/Africa/Mauritania", \
+   "IGN Astro 1960"
+
+PE_GCS_JOUIK_1961, \
+   "Geographic Coordinate Systems/Africa/Mauritania", \
+   "Jouik 1961"
+
+PE_GCS_MAURITANIA_1999, \
+   "Geographic Coordinate Systems/Africa/Mauritania", \
+   "Mauritania 1999"
+
+PE_GCS_NOUAKCHOTT_1965, \
+   "Geographic Coordinate Systems/Africa/Mauritania", \
+   "Nouakchott 1965"
+
+PE_GCS_MADZANSUA, \
+   "Geographic Coordinate Systems/Africa/Mozambique", \
+   "Madzansua"
+
+PE_GCS_MOZNET, \
+   "Geographic Coordinate Systems/Africa/Mozambique", \
+   "Moznet"
+
+PE_GCS_OBSERVATARIO, \
+   "Geographic Coordinate Systems/Africa/Mozambique", \
+   "Observatario"
+
+PE_GCS_TETE, \
+   "Geographic Coordinate Systems/Africa/Mozambique", \
+   "Tete"
 
 PE_GCS_AUSTRALIAN_ANTARCTIC_1998, \
    "Geographic Coordinate Systems/Antarctica", \
@@ -1360,33 +1444,9 @@ PE_GCS_AIN_EL_ABD_1970, \
    "Geographic Coordinate Systems/Asia", \
    "Ain el Abd 1970"
 
-PE_GCS_BATAVIA, \
-   "Geographic Coordinate Systems/Asia", \
-   "Batavia"
-
-PE_GCS_BATAVIA_JAKARTA, \
-   "Geographic Coordinate Systems/Asia", \
-   "Batavia (Jakarta)"
-
-PE_GCS_BEIJING_1954, \
-   "Geographic Coordinate Systems/Asia", \
-   "Beijing 1954"
-
 PE_GCS_BEKAA_VALLEY_1920, \
    "Geographic Coordinate Systems/Asia", \
    "Bekaa Valley 1920"
-
-PE_GCS_BUKIT_RIMPAH, \
-   "Geographic Coordinate Systems/Asia", \
-   "Bukit Rimpah"
-
-PE_GCS_CHINA_2000, \
-   "Geographic Coordinate Systems/Asia", \
-   "China Geodetic Coordinate System 2000"
-
-PE_GCS_DGN_1995, \
-   "Geographic Coordinate Systems/Asia", \
-   "DGN 1995"
 
 PE_GCS_DRUKREF_03, \
    "Geographic Coordinate Systems/Asia", \
@@ -1395,10 +1455,6 @@ PE_GCS_DRUKREF_03, \
 PE_GCS_DEIR_EZ_ZOR, \
    "Geographic Coordinate Systems/Asia", \
    "Deir ez Zor"
-
-PE_GCS_ED_1950_ED77, \
-   "Geographic Coordinate Systems/Asia", \
-   "European 1950 (ED77)"
 
 PE_GCS_ED_1950, \
    "Geographic Coordinate Systems/Asia", \
@@ -1412,14 +1468,6 @@ PE_GCS_EVEREST_INDIA_NEPAL, \
    "Geographic Coordinate Systems/Asia", \
    "Everest - India and Nepal"
 
-PE_GCS_FD_1958, \
-   "Geographic Coordinate Systems/Asia", \
-   "FD 1958"
-
-PE_GCS_FAHUD, \
-   "Geographic Coordinate Systems/Asia", \
-   "Fahud"
-
 PE_GCS_GDBD2009, \
    "Geographic Coordinate Systems/Asia", \
    "GDBD2009"
@@ -1432,17 +1480,13 @@ PE_GCS_GGD, \
    "Geographic Coordinate Systems/Asia", \
    "GGD"
 
+PE_GCS_GSK_2011, \
+   "Geographic Coordinate Systems/Asia", \
+   "GSK-2011"
+
 PE_GCS_GULSHAN_303, \
    "Geographic Coordinate Systems/Asia", \
    "Gulshan 303"
-
-PE_GCS_GUNUNG_SEGARA, \
-   "Geographic Coordinate Systems/Asia", \
-   "Gunung Segara"
-
-PE_GCS_GUNUNG_SEGARA_JAKARTA, \
-   "Geographic Coordinate Systems/Asia", \
-   "Gunung Segara (Jakarta)"
 
 PE_GCS_HANOI_1972, \
    "Geographic Coordinate Systems/Asia", \
@@ -1451,22 +1495,6 @@ PE_GCS_HANOI_1972, \
 PE_GCS_HERAT_NORTH, \
    "Geographic Coordinate Systems/Asia", \
    "Herat North"
-
-PE_GCS_HONG_KONG_1963, \
-   "Geographic Coordinate Systems/Asia", \
-   "Hong Kong 1963"
-
-PE_GCS_HONG_KONG_1963_67, \
-   "Geographic Coordinate Systems/Asia", \
-   "Hong Kong 1963 (67)"
-
-PE_GCS_HONG_KONG_1980, \
-   "Geographic Coordinate Systems/Asia", \
-   "Hong Kong 1980"
-
-PE_GCS_HK_GEODETIC_CS, \
-   "Geographic Coordinate Systems/Asia", \
-   "Hong Kong Geodetic CS"
 
 PE_GCS_HU_TZU_SHAN, \
    "Geographic Coordinate Systems/Asia", \
@@ -1508,21 +1536,9 @@ PE_GCS_INDIAN_1975, \
    "Geographic Coordinate Systems/Asia", \
    "Indian 1975"
 
-PE_GCS_INDONESIAN_1974, \
-   "Geographic Coordinate Systems/Asia", \
-   "Indonesian Datum 1974"
-
 PE_GCS_ISRAEL, \
    "Geographic Coordinate Systems/Asia", \
    "Israel"
-
-PE_GCS_JGD_2000, \
-   "Geographic Coordinate Systems/Asia", \
-   "JGD 2000"
-
-PE_GCS_JGD_2011, \
-   "Geographic Coordinate Systems/Asia", \
-   "JGD 2011"
 
 PE_GCS_JORDAN, \
    "Geographic Coordinate Systems/Asia", \
@@ -1620,14 +1636,6 @@ PE_GCS_MACAO_2008, \
    "Geographic Coordinate Systems/Asia", \
    "Macao 2008"
 
-PE_GCS_MAKASSAR, \
-   "Geographic Coordinate Systems/Asia", \
-   "Makassar"
-
-PE_GCS_MAKASSAR_JAKARTA, \
-   "Geographic Coordinate Systems/Asia", \
-   "Makassar (Jakarta)"
-
 PE_GCS_NAHRWAN_1934, \
    "Geographic Coordinate Systems/Asia", \
    "Nahrwan 1934"
@@ -1635,10 +1643,6 @@ PE_GCS_NAHRWAN_1934, \
 PE_GCS_NAHRWAN_1967, \
    "Geographic Coordinate Systems/Asia", \
    "Nahrwan 1967"
-
-PE_GCS_NAKHL_E_GHANEM, \
-   "Geographic Coordinate Systems/Asia", \
-   "Nakhl-e Ghanem"
 
 PE_GCS_NGN, \
    "Geographic Coordinate Systems/Asia", \
@@ -1648,45 +1652,17 @@ PE_GCS_NEPAL_NAGARKOT, \
    "Geographic Coordinate Systems/Asia", \
    "Nepal Nagarkot"
 
-PE_GCS_NEW_BEIJING, \
-   "Geographic Coordinate Systems/Asia", \
-   "New Beijing"
-
-PE_GCS_ONGD14, \
-   "Geographic Coordinate Systems/Asia", \
-   "ONGD14"
-
-PE_GCS_ONGD17, \
-   "Geographic Coordinate Systems/Asia", \
-   "ONGD17"
-
 PE_GCS_OBSERV_METEOR_1965, \
    "Geographic Coordinate Systems/Asia", \
    "Observatorio Meteorologico 1965"
 
-PE_GCS_OMAN, \
+PE_GCS_PAL_GRF2023, \
    "Geographic Coordinate Systems/Asia", \
-   "Oman"
-
-PE_GCS_PDO_1993, \
-   "Geographic Coordinate Systems/Asia", \
-   "PDO 1993"
-
-PE_GCS_PNG94, \
-   "Geographic Coordinate Systems/Asia", \
-   "PNG94"
+   "PAL-GRF2023"
 
 PE_GCS_PRS_1992, \
    "Geographic Coordinate Systems/Asia", \
    "PRS 1992"
-
-PE_GCS_PADANG_1884, \
-   "Geographic Coordinate Systems/Asia", \
-   "Padang 1884"
-
-PE_GCS_PADANG_1884_JAKARTA, \
-   "Geographic Coordinate Systems/Asia", \
-   "Padang 1884 (Jakarta)"
 
 PE_GCS_PALESTINE_1923, \
    "Geographic Coordinate Systems/Asia", \
@@ -1712,53 +1688,41 @@ PE_GCS_QATAR_1974, \
    "Geographic Coordinate Systems/Asia", \
    "Qatar 1974"
 
-PE_GCS_RASSADIRAN, \
+PE_GCS_QAZTRF_23, \
    "Geographic Coordinate Systems/Asia", \
-   "Rassadiran"
+   "QazTRF-23"
 
 PE_GCS_SLD99, \
    "Geographic Coordinate Systems/Asia", \
    "SLD99"
 
-PE_GCS_SRGI2013, \
-   "Geographic Coordinate Systems/Asia", \
-   "SRGI2013"
-
 PE_GCS_SVY21, \
    "Geographic Coordinate Systems/Asia", \
    "SVY21"
-
-PE_GCS_SEGORA, \
-   "Geographic Coordinate Systems/Asia", \
-   "Segora"
-
-PE_GCS_SERINDUNG, \
-   "Geographic Coordinate Systems/Asia", \
-   "Serindung"
 
 PE_GCS_S_ASIA_SINGAPORE, \
    "Geographic Coordinate Systems/Asia", \
    "South Asia Singapore"
 
+PE_GCS_SOUTH_YEMEN, \
+   "Geographic Coordinate Systems/Asia", \
+   "South Yemen"
+
+PE_GCS_TUREF, \
+   "Geographic Coordinate Systems/Asia", \
+   "TUREF"
+
+PE_GCS_TWD_1997, \
+   "Geographic Coordinate Systems/Asia", \
+   "TWD 1997"
+
 PE_GCS_TWD_1967, \
    "Geographic Coordinate Systems/Asia", \
    "Taiwan 1967"
 
-PE_GCS_TWD_1997, \
-   "Geographic Coordinate Systems/Asia", \
-   "Taiwan 1997"
-
 PE_GCS_TIMBALAI_1948, \
    "Geographic Coordinate Systems/Asia", \
    "Timbalai 1948"
-
-PE_GCS_TOKYO, \
-   "Geographic Coordinate Systems/Asia", \
-   "Tokyo"
-
-PE_GCS_TOKYO_1892, \
-   "Geographic Coordinate Systems/Asia", \
-   "Tokyo 1892"
 
 PE_GCS_TRUCIAL_COAST_1948, \
    "Geographic Coordinate Systems/Asia", \
@@ -1776,9 +1740,153 @@ PE_GCS_VIENTIANE_1982, \
    "Geographic Coordinate Systems/Asia", \
    "Vientiane 1982"
 
-PE_GCS_XIAN_1980, \
+PE_GCS_YEMEN_NGN_1996, \
    "Geographic Coordinate Systems/Asia", \
+   "Yemen NGN 1996"
+
+PE_GCS_BEIJING_1954, \
+   "Geographic Coordinate Systems/Asia/China", \
+   "Beijing 1954"
+
+PE_GCS_CHINA_2000, \
+   "Geographic Coordinate Systems/Asia/China", \
+   "China Geodetic Coordinate System 2000"
+
+PE_GCS_HONG_KONG_1963, \
+   "Geographic Coordinate Systems/Asia/China", \
+   "Hong Kong 1963"
+
+PE_GCS_HONG_KONG_1963_67, \
+   "Geographic Coordinate Systems/Asia/China", \
+   "Hong Kong 1963 (67)"
+
+PE_GCS_HONG_KONG_1980, \
+   "Geographic Coordinate Systems/Asia/China", \
+   "Hong Kong 1980"
+
+PE_GCS_HK_GEODETIC_CS, \
+   "Geographic Coordinate Systems/Asia/China", \
+   "Hong Kong Geodetic CS"
+
+PE_GCS_NEW_BEIJING, \
+   "Geographic Coordinate Systems/Asia/China", \
+   "New Beijing"
+
+PE_GCS_XIAN_1980, \
+   "Geographic Coordinate Systems/Asia/China", \
    "Xian 1980"
+
+PE_GCS_BATAVIA, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Batavia"
+
+PE_GCS_BATAVIA_JAKARTA, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Batavia (Jakarta)"
+
+PE_GCS_BUKIT_RIMPAH, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Bukit Rimpah"
+
+PE_GCS_DGN_1995, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "DGN 1995"
+
+PE_GCS_GUNUNG_SEGARA, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Gunung Segara"
+
+PE_GCS_GUNUNG_SEGARA_JAKARTA, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Gunung Segara (Jakarta)"
+
+PE_GCS_INDONESIAN_1974, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Indonesian Datum 1974"
+
+PE_GCS_MAKASSAR, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Makassar"
+
+PE_GCS_MAKASSAR_JAKARTA, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Makassar (Jakarta)"
+
+PE_GCS_PADANG_1884, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Padang 1884"
+
+PE_GCS_PADANG_1884_JAKARTA, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Padang 1884 (Jakarta)"
+
+PE_GCS_SRGI2013, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "SRGI2013"
+
+PE_GCS_SEGORA, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Segora"
+
+PE_GCS_SERINDUNG, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "Serindung"
+
+PE_GCS_ED_1950_ED77, \
+   "Geographic Coordinate Systems/Asia/Iran", \
+   "European 1950 (ED77)"
+
+PE_GCS_FD_1958, \
+   "Geographic Coordinate Systems/Asia/Iran", \
+   "FD 1958"
+
+PE_GCS_NAKHL_E_GHANEM, \
+   "Geographic Coordinate Systems/Asia/Iran", \
+   "Nakhl-e Ghanem"
+
+PE_GCS_RASSADIRAN, \
+   "Geographic Coordinate Systems/Asia/Iran", \
+   "Rassadiran"
+
+PE_GCS_JGD_2000, \
+   "Geographic Coordinate Systems/Asia/Japan", \
+   "JGD 2000"
+
+PE_GCS_JGD_2011, \
+   "Geographic Coordinate Systems/Asia/Japan", \
+   "JGD 2011"
+
+PE_GCS_JGD_2024, \
+   "Geographic Coordinate Systems/Asia/Japan", \
+   "JGD 2024"
+
+PE_GCS_TOKYO, \
+   "Geographic Coordinate Systems/Asia/Japan", \
+   "Tokyo"
+
+PE_GCS_TOKYO_1892, \
+   "Geographic Coordinate Systems/Asia/Japan", \
+   "Tokyo 1892"
+
+PE_GCS_FAHUD, \
+   "Geographic Coordinate Systems/Asia/Oman", \
+   "Fahud"
+
+PE_GCS_ONGD14, \
+   "Geographic Coordinate Systems/Asia/Oman", \
+   "ONGD14"
+
+PE_GCS_ONGD17, \
+   "Geographic Coordinate Systems/Asia/Oman", \
+   "ONGD17"
+
+PE_GCS_OMAN, \
+   "Geographic Coordinate Systems/Asia/Oman", \
+   "Oman"
+
+PE_GCS_PDO_1993, \
+   "Geographic Coordinate Systems/Asia/Oman", \
+   "PDO 1993"
 
 PE_GCS_ATRF2014, \
    "Geographic Coordinate Systems/Australia and New Zealand", \
@@ -1796,13 +1904,13 @@ PE_GCS_CHATHAM_ISLANDS_1979, \
    "Geographic Coordinate Systems/Australia and New Zealand", \
    "Chatham Islands 1979"
 
+PE_GCS_GDA_1994, \
+   "Geographic Coordinate Systems/Australia and New Zealand", \
+   "GDA 1994"
+
 PE_GCS_GDA2020, \
    "Geographic Coordinate Systems/Australia and New Zealand", \
    "GDA2020"
-
-PE_GCS_GDA_1994, \
-   "Geographic Coordinate Systems/Australia and New Zealand", \
-   "Geocentric Datum of Australia 1994"
 
 PE_GCS_NZGD_2000, \
    "Geographic Coordinate Systems/Australia and New Zealand", \
@@ -1835,6 +1943,10 @@ PE_GCS_PANAMA_COLON_1911, \
 PE_GCS_PANAMA08_2011, \
    "Geographic Coordinate Systems/Central America", \
    "Panama-ITRF2008 Epoch 2011"
+
+PE_GCS_SIRGAS_2000, \
+   "Geographic Coordinate Systems/Central America", \
+   "SIRGAS 2000"
 
 PE_GCS_SIRGAS_CON_DGF00P01, \
    "Geographic Coordinate Systems/Central America", \
@@ -1908,362 +2020,6 @@ PE_GCS_SIBUN_GORGE_1922, \
    "Geographic Coordinate Systems/Central America", \
    "Sibun Gorge 1922"
 
-PE_GCS_NAD_1983_HARN_ADJ_MN_ANOKA, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Anoka"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_BECKER, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Becker"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_BELTRAMI_N, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Beltrami North"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_BELTRAMI_S, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Beltrami South"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_BENTON, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Benton"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_BIG_STONE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Big Stone"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_BLUE_EARTH, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Blue Earth"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_BROWN, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Brown"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_CARLTON, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Carlton"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_CARVER, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Carver"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_CASS_N, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Cass North"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_CASS_S, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Cass South"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_CHIPPEWA, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Chippewa"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_CHISAGO, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Chisago"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_COOK_N, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Cook North"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_COOK_S, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Cook South"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_COTTONWOOD, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Cottonwood"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_CROW_WING, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Crow Wing"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_DAKOTA, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Dakota"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_DODGE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Dodge"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_DOUGLAS, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Douglas"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_FARIBAULT, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Faribault"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_FILLMORE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Fillmore"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_FREEBORN, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Freeborn"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_GOODHUE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Goodhue"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_GRANT, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Grant"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_HENNEPIN, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Hennepin"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_HOUSTON, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Houston"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_ISANTI, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Isanti"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_ITASCA_N, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Itasca North"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_ITASCA_S, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Itasca South"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_JACKSON, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Jackson"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_KANABEC, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Kanabec"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_KANDIYOHI, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Kandiyohi"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_KITTSON, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Kittson"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_KOOCHICHING, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Koochiching"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_LAC_QUI_PARLE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Lac Qui Parle"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_LAKE_OF_THE_WOODS_N, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Lake of the Woods North"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_LAKE_OF_THE_WOODS_S, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Lake of the Woods South"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_LE_SUEUR, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Le Sueur"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_LINCOLN, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Lincoln"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_LYON, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Lyon"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_MAHNOMEN, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Mahnomen"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_MARSHALL, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Marshall"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_MARTIN, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Martin"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_MCLEOD, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN McLeod"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_MEEKER, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Meeker"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_MORRISON, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Morrison"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_MOWER, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Mower"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_MURRAY, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Murray"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_NICOLLET, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Nicollet"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_NOBLES, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Nobles"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_NORMAN, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Norman"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_OLMSTED, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Olmsted"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_OTTERTAIL, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Ottertail"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_PENNINGTON, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Pennington"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_PINE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Pine"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_PIPESTONE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Pipestone"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_POLK, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Polk"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_POPE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Pope"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_RAMSEY, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Ramsey"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_RED_LAKE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Red Lake"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_REDWOOD, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Redwood"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_RENVILLE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Renville"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_RICE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Rice"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_ROCK, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Rock"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_ROSEAU, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Roseau"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_SCOTT, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Scott"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_SHERBURNE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Sherburne"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_SIBLEY, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Sibley"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN St Louis"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS_C, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN St Louis Central"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS_N, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN St Louis North"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS_S, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN St Louis South"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_STEARNS, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Stearns"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_STEELE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Steele"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_STEVENS, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Stevens"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_SWIFT, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Swift"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_TODD, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Todd"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_TRAVERSE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Traverse"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_WABASHA, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Wabasha"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_WADENA, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Wadena"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_WASECA, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Waseca"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_WATONWAN, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Watonwan"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_WINONA, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Winona"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_WRIGHT, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Wright"
-
-PE_GCS_NAD_1983_HARN_ADJ_MN_YELLOW_MEDICINE, \
-   "Geographic Coordinate Systems/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Yellow Medicine"
-
-PE_GCS_NAD_1983_HARN_ADJ_WI_CP, \
-   "Geographic Coordinate Systems/County Systems/Wisconsin", \
-   "NAD 1983 HARN Adj. Wisconsin Chippewa WCCS"
-
-PE_GCS_ATF_PARIS, \
-   "Geographic Coordinate Systems/Europe", \
-   "ATF (Paris)"
-
 PE_GCS_ALBANIAN_1987, \
    "Geographic Coordinate Systems/Europe", \
    "Albanian 1987"
@@ -2292,45 +2048,13 @@ PE_GCS_BELGE_1972, \
    "Geographic Coordinate Systems/Europe", \
    "Belge 1972"
 
-PE_GCS_BERN_1898_BERN, \
-   "Geographic Coordinate Systems/Europe", \
-   "Bern 1898 (Bern)"
-
-PE_GCS_BERN_1938, \
-   "Geographic Coordinate Systems/Europe", \
-   "Bern 1938"
-
 PE_GCS_CGRS_1993, \
    "Geographic Coordinate Systems/Europe", \
    "CGRS 1993"
 
-PE_GCS_CH1903, \
-   "Geographic Coordinate Systems/Europe", \
-   "CH1903"
-
-PE_GCS_CH1903_PLUS, \
-   "Geographic Coordinate Systems/Europe", \
-   "CH1903+"
-
 PE_GCS_D48, \
    "Geographic Coordinate Systems/Europe", \
    "D48"
-
-PE_GCS_DB_REF, \
-   "Geographic Coordinate Systems/Europe", \
-   "DB_REF"
-
-PE_GCS_DATUM_73, \
-   "Geographic Coordinate Systems/Europe", \
-   "Datum 73"
-
-PE_GCS_LISBOA_BESSEL, \
-   "Geographic Coordinate Systems/Europe", \
-   "Datum Lisboa Bessel"
-
-PE_GCS_LISBOA_HAYFORD, \
-   "Geographic Coordinate Systems/Europe", \
-   "Datum Lisboa Hayford"
 
 PE_GCS_DEALUL_PISCULUI_1933, \
    "Geographic Coordinate Systems/Europe", \
@@ -2339,14 +2063,6 @@ PE_GCS_DEALUL_PISCULUI_1933, \
 PE_GCS_DEALUL_PISCULUI_1970, \
    "Geographic Coordinate Systems/Europe", \
    "Dealul Piscului 1970 (Romania)"
-
-PE_GCS_DHDN, \
-   "Geographic Coordinate Systems/Europe", \
-   "Deutsches Hauptdreiecksnetz"
-
-PE_GCS_ETRF_1989, \
-   "Geographic Coordinate Systems/Europe", \
-   "ETRF 1989"
 
 PE_GCS_ETRF_2000, \
    "Geographic Coordinate Systems/Europe", \
@@ -2367,6 +2083,10 @@ PE_GCS_ETRF_2014, \
 PE_GCS_ETRF_2020, \
    "Geographic Coordinate Systems/Europe", \
    "ETRF2020"
+
+PE_GCS_ETRF_1989, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRF89"
 
 PE_GCS_ETRF_1990, \
    "Geographic Coordinate Systems/Europe", \
@@ -2399,10 +2119,6 @@ PE_GCS_ETRF_1997, \
 PE_GCS_ETRS_1989, \
    "Geographic Coordinate Systems/Europe", \
    "ETRS 1989"
-
-PE_GCS_ETRS89_DREF91_2016, \
-   "Geographic Coordinate Systems/Europe", \
-   "ETRS89 DREF91 2016"
 
 PE_GCS_EUREF_FIN, \
    "Geographic Coordinate Systems/Europe", \
@@ -2440,29 +2156,9 @@ PE_GCS_FEH2010, \
    "Geographic Coordinate Systems/Europe", \
    "FEH2010"
 
-PE_GCS_GGRS_1987, \
-   "Geographic Coordinate Systems/Europe", \
-   "GGRS 1987"
-
-PE_GCS_GS_IRF, \
-   "Geographic Coordinate Systems/Europe", \
-   "GS-IRF"
-
-PE_GCS_GSB_IRF, \
-   "Geographic Coordinate Systems/Europe", \
-   "GSB-IRF"
-
 PE_GCS_GSK_2011, \
    "Geographic Coordinate Systems/Europe", \
    "GSK-2011"
-
-PE_GCS_GREEK, \
-   "Geographic Coordinate Systems/Europe", \
-   "Greek"
-
-PE_GCS_GREEK_ATHENS, \
-   "Geographic Coordinate Systems/Europe", \
-   "Greek (Athens)"
 
 PE_GCS_GUSTERBERG_FERRO, \
    "Geographic Coordinate Systems/Europe", \
@@ -2476,41 +2172,17 @@ PE_GCS_HTRS96, \
    "Geographic Coordinate Systems/Europe", \
    "HTRS96"
 
+PE_GCS_HELLE_1954, \
+   "Geographic Coordinate Systems/Europe", \
+   "Helle 1954"
+
 PE_GCS_HERMANNSKOGEL, \
    "Geographic Coordinate Systems/Europe", \
    "Hermannskogel"
 
-PE_GCS_HJORSEY_1955, \
-   "Geographic Coordinate Systems/Europe", \
-   "Hjorsey 1955"
-
 PE_GCS_HUNGARIAN_1972, \
    "Geographic Coordinate Systems/Europe", \
    "Hungarian Datum 1972"
-
-PE_GCS_IGM_1995, \
-   "Geographic Coordinate Systems/Europe", \
-   "IGM 1995"
-
-PE_GCS_IRENET95, \
-   "Geographic Coordinate Systems/Europe", \
-   "IRENET95"
-
-PE_GCS_ISN_1993, \
-   "Geographic Coordinate Systems/Europe", \
-   "ISN 1993"
-
-PE_GCS_ISN_2004, \
-   "Geographic Coordinate Systems/Europe", \
-   "ISN 2004"
-
-PE_GCS_ISN2016, \
-   "Geographic Coordinate Systems/Europe", \
-   "ISN2016"
-
-PE_GCS_KK_IRF, \
-   "Geographic Coordinate Systems/Europe", \
-   "KK-IRF"
 
 PE_GCS_KOSOVAREF01, \
    "Geographic Coordinate Systems/Europe", \
@@ -2540,22 +2212,6 @@ PE_GCS_LUREF, \
    "Geographic Coordinate Systems/Europe", \
    "LUREF"
 
-PE_GCS_LISBON, \
-   "Geographic Coordinate Systems/Europe", \
-   "Lisbon"
-
-PE_GCS_LISBON_LISBON, \
-   "Geographic Coordinate Systems/Europe", \
-   "Lisbon (Lisbon)"
-
-PE_GCS_LISBON_1890, \
-   "Geographic Coordinate Systems/Europe", \
-   "Lisbon 1890"
-
-PE_GCS_LISBON_1890_LISBON, \
-   "Geographic Coordinate Systems/Europe", \
-   "Lisbon 1890 (Lisbon)"
-
 PE_GCS_MGI_FERRO, \
    "Geographic Coordinate Systems/Europe", \
    "MGI (Ferro)"
@@ -2576,14 +2232,6 @@ PE_GCS_MGI, \
    "Geographic Coordinate Systems/Europe", \
    "Militar-Geographische Institut"
 
-PE_GCS_MONTE_MARIO, \
-   "Geographic Coordinate Systems/Europe", \
-   "Monte Mario"
-
-PE_GCS_MONTE_MARIO_ROME, \
-   "Geographic Coordinate Systems/Europe", \
-   "Monte Mario (Rome)"
-
 PE_GCS_NGO_1948, \
    "Geographic Coordinate Systems/Europe", \
    "NGO 1948"
@@ -2591,34 +2239,6 @@ PE_GCS_NGO_1948, \
 PE_GCS_NGO_1948_OSLO, \
    "Geographic Coordinate Systems/Europe", \
    "NGO 1948 (Oslo)"
-
-PE_GCS_NTF_PARIS, \
-   "Geographic Coordinate Systems/Europe", \
-   "NTF (Paris)"
-
-PE_GCS_NDG_PARIS, \
-   "Geographic Coordinate Systems/Europe", \
-   "Nord de Guerre (Paris)"
-
-PE_GCS_NTF, \
-   "Geographic Coordinate Systems/Europe", \
-   "Nouvelle Triangulation Francaise"
-
-PE_GCS_OS_SN_1980, \
-   "Geographic Coordinate Systems/Europe", \
-   "OS (SN) 1980"
-
-PE_GCS_OSNI_1952, \
-   "Geographic Coordinate Systems/Europe", \
-   "OSNI 1952"
-
-PE_GCS_OSTENFELD_IRF, \
-   "Geographic Coordinate Systems/Europe", \
-   "Ostenfeld-IRF"
-
-PE_GCS_POTSDAM_DATUM_1983, \
-   "Geographic Coordinate Systems/Europe", \
-   "PD 83"
 
 PE_GCS_PULKOVO_1942, \
    "Geographic Coordinate Systems/Europe", \
@@ -2636,61 +2256,9 @@ PE_GCS_PULKOVO_1995, \
    "Geographic Coordinate Systems/Europe", \
    "Pulkovo 1995"
 
-PE_GCS_RAUENBERG_DATUM_1983, \
-   "Geographic Coordinate Systems/Europe", \
-   "RD 83"
-
-PE_GCS_RDN2008, \
-   "Geographic Coordinate Systems/Europe", \
-   "RDN2008"
-
-PE_GCS_RGF_1993, \
-   "Geographic Coordinate Systems/Europe", \
-   "RGF 1993"
-
-PE_GCS_RGF93_LON_LAT, \
-   "Geographic Coordinate Systems/Europe", \
-   "RGF 1993 (lon-lat)"
-
-PE_GCS_RGF93_V2, \
-   "Geographic Coordinate Systems/Europe", \
-   "RGF93 v2"
-
-PE_GCS_RGF93_V2_LON_LAT, \
-   "Geographic Coordinate Systems/Europe", \
-   "RGF93 v2 (lon-lat)"
-
-PE_GCS_RGF93_V2B, \
-   "Geographic Coordinate Systems/Europe", \
-   "RGF93 v2b"
-
-PE_GCS_RGF93_V2B_LON_LAT, \
-   "Geographic Coordinate Systems/Europe", \
-   "RGF93 v2b (lon-lat)"
-
-PE_GCS_RT90, \
-   "Geographic Coordinate Systems/Europe", \
-   "RT 1990"
-
-PE_GCS_RT38, \
-   "Geographic Coordinate Systems/Europe", \
-   "RT38"
-
-PE_GCS_RT38_STOCKHOLM, \
-   "Geographic Coordinate Systems/Europe", \
-   "RT38 (Stockholm)"
-
 PE_GCS_BELGE_1950, \
    "Geographic Coordinate Systems/Europe", \
    "Reseau National Belge 1950"
-
-PE_GCS_REYKJAVIK_1900, \
-   "Geographic Coordinate Systems/Europe", \
-   "Reykjavik 1900"
-
-PE_GCS_ROMA_1940, \
-   "Geographic Coordinate Systems/Europe", \
-   "Roma 1940"
 
 PE_GCS_S42_HUNGARY, \
    "Geographic Coordinate Systems/Europe", \
@@ -2716,18 +2284,6 @@ PE_GCS_S_JTSK_05_FERRO, \
    "Geographic Coordinate Systems/Europe", \
    "S-JTSK-05 (Ferro)"
 
-PE_GCS_S34J_IRF, \
-   "Geographic Coordinate Systems/Europe", \
-   "S34J-IRF"
-
-PE_GCS_S34S_IRF, \
-   "Geographic Coordinate Systems/Europe", \
-   "S34S-IRF"
-
-PE_GCS_S45B_IRF, \
-   "Geographic Coordinate Systems/Europe", \
-   "S45B-IRF"
-
 PE_GCS_SRB_ETRS89, \
    "Geographic Coordinate Systems/Europe", \
    "SRB_ETRS89"
@@ -2736,33 +2292,17 @@ PE_GCS_SREF98, \
    "Geographic Coordinate Systems/Europe", \
    "SREF98"
 
-PE_GCS_SWEREF99, \
-   "Geographic Coordinate Systems/Europe", \
-   "SWEREF99"
-
 PE_GCS_SLOVENIA_1996, \
    "Geographic Coordinate Systems/Europe", \
    "Slovenia 1996"
 
+PE_GCS_SPHERE_EMEP, \
+   "Geographic Coordinate Systems/Europe", \
+   "Sphere EMEP"
+
 PE_GCS_ST_STEPHEN_FERRO, \
    "Geographic Coordinate Systems/Europe", \
    "St. Stephen (Ferro)"
-
-PE_GCS_CHTRF_1995, \
-   "Geographic Coordinate Systems/Europe", \
-   "Swiss TRF 1995"
-
-PE_GCS_TM65, \
-   "Geographic Coordinate Systems/Europe", \
-   "TM65"
-
-PE_GCS_TM75, \
-   "Geographic Coordinate Systems/Europe", \
-   "TM75"
-
-PE_GCS_TUREF, \
-   "Geographic Coordinate Systems/Europe", \
-   "TUREF"
 
 PE_GCS_UKRAINE_2000, \
    "Geographic Coordinate Systems/Europe", \
@@ -2772,185 +2312,381 @@ PE_GCS_FK_1989, \
    "Geographic Coordinate Systems/Europe", \
    "fk89"
 
+PE_GCS_GS_IRF, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "GS-IRF"
+
+PE_GCS_GSB_IRF, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "GSB-IRF"
+
+PE_GCS_KK_IRF, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "KK-IRF"
+
+PE_GCS_OSTENFELD_IRF, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "Ostenfeld-IRF"
+
+PE_GCS_S34J_IRF, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "S34J-IRF"
+
+PE_GCS_S34S_IRF, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "S34S-IRF"
+
+PE_GCS_S45B_IRF, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "S45B-IRF"
+
+PE_GCS_ATF_PARIS, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "ATF (Paris)"
+
+PE_GCS_NTF, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "NTF"
+
+PE_GCS_NTF_PARIS, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "NTF (Paris)"
+
+PE_GCS_NDG_PARIS, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "Nord de Guerre (Paris)"
+
+PE_GCS_RGF_1993, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "RGF 1993"
+
+PE_GCS_RGF93_LON_LAT, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "RGF 1993 (lon-lat)"
+
+PE_GCS_RGF93_V2, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "RGF93 v2"
+
+PE_GCS_RGF93_V2_LON_LAT, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "RGF93 v2 (lon-lat)"
+
+PE_GCS_RGF93_V2B, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "RGF93 v2b"
+
+PE_GCS_RGF93_V2B_LON_LAT, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "RGF93 v2b (lon-lat)"
+
+PE_GCS_ASSE_2025, \
+   "Geographic Coordinate Systems/Europe/Germany", \
+   "Asse 2025"
+
+PE_GCS_DB_REF, \
+   "Geographic Coordinate Systems/Europe/Germany", \
+   "DB_REF"
+
+PE_GCS_DHDN, \
+   "Geographic Coordinate Systems/Europe/Germany", \
+   "DHDN"
+
+PE_GCS_ETRS89_DREF91_2016, \
+   "Geographic Coordinate Systems/Europe/Germany", \
+   "ETRS89 DREF91 2016"
+
+PE_GCS_POTSDAM_DATUM_1983, \
+   "Geographic Coordinate Systems/Europe/Germany", \
+   "PD 83"
+
+PE_GCS_RAUENBERG_DATUM_1983, \
+   "Geographic Coordinate Systems/Europe/Germany", \
+   "RD 83"
+
+PE_GCS_GGRS_1987, \
+   "Geographic Coordinate Systems/Europe/Greece", \
+   "GGRS 1987"
+
+PE_GCS_GREEK, \
+   "Geographic Coordinate Systems/Europe/Greece", \
+   "Greek"
+
+PE_GCS_GREEK_ATHENS, \
+   "Geographic Coordinate Systems/Europe/Greece", \
+   "Greek (Athens)"
+
+PE_GCS_HTRS07, \
+   "Geographic Coordinate Systems/Europe/Greece", \
+   "HTRS07"
+
+PE_GCS_HJORSEY_1955, \
+   "Geographic Coordinate Systems/Europe/Iceland", \
+   "Hjorsey 1955"
+
+PE_GCS_ISN_1993, \
+   "Geographic Coordinate Systems/Europe/Iceland", \
+   "ISN 1993"
+
+PE_GCS_ISN_2004, \
+   "Geographic Coordinate Systems/Europe/Iceland", \
+   "ISN 2004"
+
+PE_GCS_ISN2016, \
+   "Geographic Coordinate Systems/Europe/Iceland", \
+   "ISN2016"
+
+PE_GCS_REYKJAVIK_1900, \
+   "Geographic Coordinate Systems/Europe/Iceland", \
+   "Reykjavik 1900"
+
 PE_GCS_IRENET95, \
-   "Geographic Coordinate Systems/Europe/United Kingdom", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom", \
    "IRENET95"
 
 PE_GCS_OS_SN_1980, \
-   "Geographic Coordinate Systems/Europe/United Kingdom", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom", \
    "OS (SN) 1980"
 
 PE_GCS_OSGB_1936, \
-   "Geographic Coordinate Systems/Europe/United Kingdom", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom", \
    "OSGB 1936"
 
 PE_GCS_OSGB_1970_SN, \
-   "Geographic Coordinate Systems/Europe/United Kingdom", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom", \
    "OSGB 1970 (SN)"
 
 PE_GCS_OSNI_1952, \
-   "Geographic Coordinate Systems/Europe/United Kingdom", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom", \
    "OSNI 1952"
 
 PE_GCS_TM65, \
-   "Geographic Coordinate Systems/Europe/United Kingdom", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom", \
    "TM65"
 
 PE_GCS_TM75, \
-   "Geographic Coordinate Systems/Europe/United Kingdom", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom", \
    "TM75"
 
 PE_GCS_ABINVA96_2020_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "AbInvA96_2020-IRF"
 
 PE_GCS_CNH22_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "CNH22-IRF"
 
 PE_GCS_COV23_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "COV23-IRF"
 
 PE_GCS_CWS13_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "CWS13-IRF"
 
 PE_GCS_DIBA15_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "DIBA15-IRF"
 
 PE_GCS_DOPW22_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "DoPw22-IRF"
 
 PE_GCS_EBBWV14_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "EBBWV14-IRF"
 
 PE_GCS_ECML14_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "ECML14-IRF"
 
 PE_GCS_ECML14_NB_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "ECML14_NB-IRF"
 
 PE_GCS_EOS21_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "EOS21-IRF"
 
 PE_GCS_EWR2_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "EWR2-IRF"
 
+PE_GCS_EWR3_IRF, \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
+   "EWR3-IRF"
+
 PE_GCS_FNL22_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "FNL22-IRF"
 
 PE_GCS_GBK19_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "GBK19-IRF"
 
 PE_GCS_GWPBS22_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "GWPBS22-IRF"
 
 PE_GCS_GWWAB22_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "GWWAB22-IRF"
 
 PE_GCS_GWWWA22_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "GWWWA22-IRF"
 
 PE_GCS_HS2_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "HS2-IRF"
 
 PE_GCS_HULLEE13_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "HULLEE13-IRF"
 
 PE_GCS_MALS09_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "MALS09-IRF"
 
 PE_GCS_MML07_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "MML07-IRF"
 
 PE_GCS_MOLDOR11_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "MOLDOR11-IRF"
 
 PE_GCS_MRH21_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "MRH21-IRF"
 
 PE_GCS_MWC18_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "MWC18-IRF"
 
 PE_GCS_OXWO08_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "OxWo08-IRF"
 
 PE_GCS_RBEPP12_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "RBEPP12-IRF"
 
 PE_GCS_SCM22_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "SCM22-IRF"
 
 PE_GCS_SMITB20_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "SMITB20-IRF"
 
 PE_GCS_SYC20_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "SYC20-IRF"
 
 PE_GCS_SHAB07_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "ShAb07-IRF"
 
 PE_GCS_TPEN11_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "TPEN11-IRF"
 
 PE_GCS_WC05_IRF, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "WC05-IRF"
 
+PE_GCS_WSPG_IRF, \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
+   "WSPG-IRF"
+
 PE_GCS_XRAIL84, \
-   "Geographic Coordinate Systems/Europe/United Kingdom/British Railways", \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "Xrail84"
 
-PE_GCS_AMMASSALIK_1958, \
-   "Geographic Coordinate Systems/North America", \
-   "Ammassalik 1958"
+PE_GCS_IGM_1995, \
+   "Geographic Coordinate Systems/Europe/Italy", \
+   "IGM 1995"
 
-PE_GCS_BARBADOS_1938, \
-   "Geographic Coordinate Systems/North America", \
-   "Barbados 1938"
+PE_GCS_MONTE_MARIO, \
+   "Geographic Coordinate Systems/Europe/Italy", \
+   "Monte Mario"
 
-PE_GCS_BERMUDA_1957, \
-   "Geographic Coordinate Systems/North America", \
-   "Bermuda 1957"
+PE_GCS_MONTE_MARIO_ROME, \
+   "Geographic Coordinate Systems/Europe/Italy", \
+   "Monte Mario (Rome)"
 
-PE_GCS_BERMUDA_2000, \
-   "Geographic Coordinate Systems/North America", \
-   "Bermuda 2000"
+PE_GCS_RDN2008, \
+   "Geographic Coordinate Systems/Europe/Italy", \
+   "RDN2008"
 
-PE_GCS_GREENLAND_1996, \
-   "Geographic Coordinate Systems/North America", \
-   "Greenland 1996"
+PE_GCS_ROMA_1940, \
+   "Geographic Coordinate Systems/Europe/Italy", \
+   "Roma 1940"
 
-PE_GCS_HELLE_1954, \
-   "Geographic Coordinate Systems/North America", \
-   "Helle 1954"
+PE_GCS_DATUM_73, \
+   "Geographic Coordinate Systems/Europe/Portugal", \
+   "Datum 73"
+
+PE_GCS_LISBOA_BESSEL, \
+   "Geographic Coordinate Systems/Europe/Portugal", \
+   "Datum Lisboa Bessel"
+
+PE_GCS_LISBOA_HAYFORD, \
+   "Geographic Coordinate Systems/Europe/Portugal", \
+   "Datum Lisboa Hayford"
+
+PE_GCS_LISBON, \
+   "Geographic Coordinate Systems/Europe/Portugal", \
+   "Lisbon"
+
+PE_GCS_LISBON_LISBON, \
+   "Geographic Coordinate Systems/Europe/Portugal", \
+   "Lisbon (Lisbon)"
+
+PE_GCS_LISBON_1890, \
+   "Geographic Coordinate Systems/Europe/Portugal", \
+   "Lisbon 1890"
+
+PE_GCS_LISBON_1890_LISBON, \
+   "Geographic Coordinate Systems/Europe/Portugal", \
+   "Lisbon 1890 (Lisbon)"
+
+PE_GCS_RT90, \
+   "Geographic Coordinate Systems/Europe/Sweden", \
+   "RT 1990"
+
+PE_GCS_RT38, \
+   "Geographic Coordinate Systems/Europe/Sweden", \
+   "RT38"
+
+PE_GCS_RT38_STOCKHOLM, \
+   "Geographic Coordinate Systems/Europe/Sweden", \
+   "RT38 (Stockholm)"
+
+PE_GCS_SWEREF99, \
+   "Geographic Coordinate Systems/Europe/Sweden", \
+   "SWEREF99"
+
+PE_GCS_BERN_1898_BERN, \
+   "Geographic Coordinate Systems/Europe/Switzerland and Liechtenstein", \
+   "Bern 1898 (Bern)"
+
+PE_GCS_BERN_1938, \
+   "Geographic Coordinate Systems/Europe/Switzerland and Liechtenstein", \
+   "Bern 1938"
+
+PE_GCS_CH1903, \
+   "Geographic Coordinate Systems/Europe/Switzerland and Liechtenstein", \
+   "CH1903"
+
+PE_GCS_CH1903_PLUS, \
+   "Geographic Coordinate Systems/Europe/Switzerland and Liechtenstein", \
+   "CH1903+"
+
+PE_GCS_CHTRF_1995, \
+   "Geographic Coordinate Systems/Europe/Switzerland and Liechtenstein", \
+   "Swiss TRF 1995"
 
 PE_GCS_MEXICAN_DATUM_1993, \
    "Geographic Coordinate Systems/North America", \
@@ -2960,17 +2696,17 @@ PE_GCS_MEXICO_ITRF2008, \
    "Geographic Coordinate Systems/North America", \
    "Mexico ITRF2008"
 
-PE_GCS_QORNOQ_1927, \
+PE_GCS_RGSPM_2006, \
    "Geographic Coordinate Systems/North America", \
-   "Qornoq 1927"
+   "RGSPM06"
+
+PE_GCS_RGSPM06_LON_LAT, \
+   "Geographic Coordinate Systems/North America", \
+   "RGSPM06 (lon-lat)"
 
 PE_GCS_SAINT_PIERRE_ET_MIQUELON_1950, \
    "Geographic Coordinate Systems/North America", \
    "Saint Pierre et Miquelon 1950"
-
-PE_GCS_SCORESBYSUND_1952, \
-   "Geographic Coordinate Systems/North America", \
-   "Scoresbysund 1952"
 
 PE_GCS_ATS_1977, \
    "Geographic Coordinate Systems/North America/Canada", \
@@ -2994,147 +2730,475 @@ PE_GCS_NAD_1983, \
 
 PE_GCS_NAD_1983_CSRS, \
    "Geographic Coordinate Systems/North America/Canada", \
-   "NAD 1983 (CSRS)"
+   "NAD83(CSRS)"
 
 PE_GCS_NAD_1983_CSRS_V2, \
    "Geographic Coordinate Systems/North America/Canada", \
-   "NAD 1983 (CSRS) v2"
+   "NAD83(CSRS)v2"
 
 PE_GCS_NAD_1983_CSRS_V3, \
    "Geographic Coordinate Systems/North America/Canada", \
-   "NAD 1983 (CSRS) v3"
+   "NAD83(CSRS)v3"
 
 PE_GCS_NAD_1983_CSRS_V4, \
    "Geographic Coordinate Systems/North America/Canada", \
-   "NAD 1983 (CSRS) v4"
+   "NAD83(CSRS)v4"
 
 PE_GCS_NAD_1983_CSRS_V5, \
    "Geographic Coordinate Systems/North America/Canada", \
-   "NAD 1983 (CSRS) v5"
+   "NAD83(CSRS)v5"
 
 PE_GCS_NAD_1983_CSRS_V6, \
    "Geographic Coordinate Systems/North America/Canada", \
-   "NAD 1983 (CSRS) v6"
+   "NAD83(CSRS)v6"
 
 PE_GCS_NAD_1983_CSRS_V7, \
    "Geographic Coordinate Systems/North America/Canada", \
-   "NAD 1983 (CSRS) v7"
+   "NAD83(CSRS)v7"
 
 PE_GCS_NAD_1983_CSRS_V8, \
    "Geographic Coordinate Systems/North America/Canada", \
-   "NAD 1983 (CSRS) v8"
-
-PE_GCS_NAD_1983_CSRS_V8_3D, \
-   "Geographic Coordinate Systems/North America/Canada", \
-   "NAD 1983 (CSRS) v8 3D"
+   "NAD83(CSRS)v8"
 
 PE_GCS_NAD_1983_CSRS96, \
    "Geographic Coordinate Systems/North America/Canada", \
-   "NAD 1983 (CSRS96)"
+   "NAD83(CSRS96)"
+
+PE_GCS_AMMASSALIK_1958, \
+   "Geographic Coordinate Systems/North America/Greenland", \
+   "Ammassalik 1958"
+
+PE_GCS_GR96_1996, \
+   "Geographic Coordinate Systems/North America/Greenland", \
+   "GR96(1996)"
+
+PE_GCS_GR96_2021, \
+   "Geographic Coordinate Systems/North America/Greenland", \
+   "GR96(2021)"
+
+PE_GCS_GREENLAND_1996, \
+   "Geographic Coordinate Systems/North America/Greenland", \
+   "Greenland 1996"
+
+PE_GCS_QORNOQ_1927, \
+   "Geographic Coordinate Systems/North America/Greenland", \
+   "Qornoq 1927"
+
+PE_GCS_SCORESBYSUND_1952, \
+   "Geographic Coordinate Systems/North America/Greenland", \
+   "Scoresbysund 1952"
 
 PE_GCS_ALASKAN_ISLANDS, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "Alaskan Islands"
 
-PE_GCS_SAMOA_1962, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
-   "American Samoa 1962"
+PE_GCS_CSRN_EPOCH_2025_0_ITRF2020, \
+   "Geographic Coordinate Systems/North America/United States", \
+   "CSRN epoch 2025.0 (ITRF2020)"
+
+PE_GCS_CSRN_EPOCH_2025_0_NAD83_2011, \
+   "Geographic Coordinate Systems/North America/United States", \
+   "CSRN epoch 2025.0 (NAD83 2011)"
 
 PE_GCS_CSRS_EPOCH_2017_5_NAD83, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "California SRS Epoch 2017.50 (NAD83)"
 
 PE_GCS_CAPE_CANAVERAL, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "Cape Canaveral"
 
-PE_GCS_GUAM_1963, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
-   "Guam 1963"
-
 PE_GCS_NAD_1927, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "NAD 1927"
 
 PE_GCS_NAD_1983, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "NAD 1983"
 
 PE_GCS_NAD_1983_2011, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "NAD 1983 (2011)"
 
 PE_GCS_NAD_1983_CORS96, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "NAD 1983 (CORS96)"
 
 PE_GCS_NAD_1983_FBN, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "NAD 1983 (FBN)"
 
-PE_GCS_NAD_1983_HARN_CORRECTED, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
-   "NAD 1983 (HARN Corrected)"
-
 PE_GCS_NAD_1983_NSRS2007, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "NAD 1983 (NSRS2007)"
 
 PE_GCS_NAD_1983_HARN, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "NAD 1983 HARN"
 
-PE_GCS_OLD_HAWAIIAN, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
-   "Old Hawaiian"
-
-PE_GCS_OLD_HAWAIIAN_INTL_1924, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
-   "Old Hawaiian Intl 1924"
-
-PE_GCS_PUERTO_RICO, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
-   "Puerto Rico"
-
 PE_GCS_ST_GEORGE_ISLAND, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "St. George Island"
 
 PE_GCS_ST_LAWRENCE_ISLAND, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "St. Lawrence Island"
 
 PE_GCS_ST_PAUL_ISLAND, \
-   "Geographic Coordinate Systems/North America/USA and territories", \
+   "Geographic Coordinate Systems/North America/United States", \
    "St. Paul Island"
 
-PE_GCS_ASCENSION_ISLAND_1958, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Ascension Island 1958"
+PE_GCS_NAD_1983_HARN_ADJ_MN_ANOKA, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Anoka"
 
-PE_GCS_DOS_71_4, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Astro DOS 71-4"
+PE_GCS_NAD_1983_HARN_ADJ_MN_BECKER, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Becker"
 
-PE_GCS_AZORES_CENTRAL_1948, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Azores Central 1948"
+PE_GCS_NAD_1983_HARN_ADJ_MN_BELTRAMI_N, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Beltrami North"
 
-PE_GCS_AZORES_CENTRAL_1995, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Azores Central 1995"
+PE_GCS_NAD_1983_HARN_ADJ_MN_BELTRAMI_S, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Beltrami South"
 
-PE_GCS_AZORES_OCCIDENTAL_1939, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Azores Occidental 1939"
+PE_GCS_NAD_1983_HARN_ADJ_MN_BENTON, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Benton"
 
-PE_GCS_AZORES_ORIENTAL_1940, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Azores Oriental 1940"
+PE_GCS_NAD_1983_HARN_ADJ_MN_BIG_STONE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Big Stone"
 
-PE_GCS_AZORES_ORIENTAL_1995, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Azores Oriental 1995"
+PE_GCS_NAD_1983_HARN_ADJ_MN_BLUE_EARTH, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Blue Earth"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_BROWN, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Brown"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_CARLTON, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Carlton"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_CARVER, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Carver"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_CASS_N, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Cass North"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_CASS_S, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Cass South"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_CHIPPEWA, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Chippewa"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_CHISAGO, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Chisago"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_COOK_N, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Cook North"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_COOK_S, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Cook South"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_COTTONWOOD, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Cottonwood"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_CROW_WING, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Crow Wing"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_DAKOTA, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Dakota"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_DODGE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Dodge"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_DOUGLAS, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Douglas"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_FARIBAULT, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Faribault"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_FILLMORE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Fillmore"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_FREEBORN, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Freeborn"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_GOODHUE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Goodhue"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_GRANT, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Grant"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_HENNEPIN, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Hennepin"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_HOUSTON, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Houston"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_ISANTI, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Isanti"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_ITASCA_N, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Itasca North"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_ITASCA_S, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Itasca South"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_JACKSON, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Jackson"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_KANABEC, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Kanabec"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_KANDIYOHI, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Kandiyohi"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_KITTSON, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Kittson"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_KOOCHICHING, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Koochiching"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_LAC_QUI_PARLE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Lac Qui Parle"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_LAKE_OF_THE_WOODS_N, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Lake of the Woods North"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_LAKE_OF_THE_WOODS_S, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Lake of the Woods South"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_LE_SUEUR, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Le Sueur"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_LINCOLN, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Lincoln"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_LYON, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Lyon"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_MAHNOMEN, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Mahnomen"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_MARSHALL, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Marshall"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_MARTIN, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Martin"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_MCLEOD, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN McLeod"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_MEEKER, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Meeker"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_MORRISON, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Morrison"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_MOWER, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Mower"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_MURRAY, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Murray"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_NICOLLET, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Nicollet"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_NOBLES, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Nobles"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_NORMAN, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Norman"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_OLMSTED, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Olmsted"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_OTTERTAIL, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Ottertail"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_PENNINGTON, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Pennington"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_PINE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Pine"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_PIPESTONE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Pipestone"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_POLK, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Polk"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_POPE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Pope"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_RAMSEY, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Ramsey"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_RED_LAKE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Red Lake"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_REDWOOD, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Redwood"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_RENVILLE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Renville"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_RICE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Rice"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_ROCK, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Rock"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_ROSEAU, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Roseau"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_SCOTT, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Scott"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_SHERBURNE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Sherburne"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_SIBLEY, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Sibley"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN St Louis"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS_C, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN St Louis Central"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS_N, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN St Louis North"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS_S, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN St Louis South"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_STEARNS, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Stearns"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_STEELE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Steele"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_STEVENS, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Stevens"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_SWIFT, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Swift"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_TODD, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Todd"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_TRAVERSE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Traverse"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_WABASHA, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Wabasha"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_WADENA, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Wadena"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_WASECA, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Waseca"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_WATONWAN, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Watonwan"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_WINONA, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Winona"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_WRIGHT, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Wright"
+
+PE_GCS_NAD_1983_HARN_ADJ_MN_YELLOW_MEDICINE, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
+   "NAD 1983 HARN Adj MN Yellow Medicine"
+
+PE_GCS_NAD_1983_HARN_ADJ_WI_CP, \
+   "Geographic Coordinate Systems/North America/United States/County Systems/Wisconsin", \
+   "NAD 1983 HARN Adj. Wisconsin Chippewa WCCS"
 
 PE_GCS_BERMUDA_1957, \
    "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
@@ -3144,45 +3208,17 @@ PE_GCS_BERMUDA_2000, \
    "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
    "Bermuda 2000"
 
-PE_GCS_GRACIOSA_1948, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Graciosa Base SW 1948"
-
-PE_GCS_HJORSEY_1955, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Hjorsey 1955"
-
 PE_GCS_ISTS_061_1968, \
    "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
    "ISTS 061 Astro 1968"
-
-PE_GCS_MADEIRA_1936, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Madeira 1936"
-
-PE_GCS_OBSERV_METEOR_1939, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Observ. Meteorologico 1939"
 
 PE_GCS_PN68, \
    "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
    "PN68"
 
-PE_GCS_PTRA08, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "PTRA08"
-
 PE_GCS_PICO_DE_LAS_NIEVES, \
    "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
    "Pico de Las Nieves"
-
-PE_GCS_PORTO_SANTO_1936, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Porto Santo 1936"
-
-PE_GCS_PORTO_SANTO_1995, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Porto Santo 1995"
 
 PE_GCS_PRINCIPE, \
    "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
@@ -3192,22 +3228,6 @@ PE_GCS_REGCAN95, \
    "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
    "REGCAN95"
 
-PE_GCS_RGSPM_2006, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "RGSPM06"
-
-PE_GCS_RGSPM06_LON_LAT, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "RGSPM06 (lon-lat)"
-
-PE_GCS_SHGD2015, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "SHGD2015"
-
-PE_GCS_SAO_BRAZ, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
-   "Sao Braz"
-
 PE_GCS_SAO_TOME, \
    "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
    "Sao Tome"
@@ -3216,16 +3236,76 @@ PE_GCS_SAPPER_HILL_1943, \
    "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
    "Sapper Hill 1943"
 
+PE_GCS_AZORES_CENTRAL_1948, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Azores Central 1948"
+
+PE_GCS_AZORES_CENTRAL_1995, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Azores Central 1995"
+
+PE_GCS_AZORES_OCCIDENTAL_1939, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Azores Occidental 1939"
+
+PE_GCS_AZORES_ORIENTAL_1940, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Azores Oriental 1940"
+
+PE_GCS_AZORES_ORIENTAL_1995, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Azores Oriental 1995"
+
+PE_GCS_GRACIOSA_1948, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Graciosa Base SW 1948"
+
+PE_GCS_MADEIRA_1936, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Madeira 1936"
+
+PE_GCS_OBSERV_METEOR_1939, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Observ. Meteorologico 1939"
+
+PE_GCS_PTRA08, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "PTRA08"
+
+PE_GCS_PORTO_SANTO_1936, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Porto Santo 1936"
+
+PE_GCS_PORTO_SANTO_1995, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Porto Santo 1995"
+
+PE_GCS_SAO_BRAZ, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Sao Braz"
+
 PE_GCS_SELVAGEM_GRANDE_1938, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Azores and Madeira", \
    "Selvagem Grande 1938"
 
+PE_GCS_ASCENSION_ISLAND_1958, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Saint Helena", \
+   "Ascension Island 1958"
+
+PE_GCS_DOS_71_4, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Saint Helena", \
+   "Astro DOS 71-4"
+
+PE_GCS_SHGD2015, \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Saint Helena", \
+   "SHGD2015"
+
 PE_GCS_ST_HELENA_TRITAN, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Saint Helena", \
    "St. Helena Tritan"
 
 PE_GCS_TRISTAN_1968, \
-   "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
+   "Geographic Coordinate Systems/Oceans/Atlantic Ocean/Saint Helena", \
    "Tristan Astro 1968"
 
 PE_GCS_ANGUILLA_1957, \
@@ -3236,49 +3316,17 @@ PE_GCS_ANTIGUA_1943, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "Antigua 1943"
 
-PE_GCS_BES2020_SABA, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "BES2020 Saba"
-
-PE_GCS_BES2020_SINT_EUSTATIUS, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "BES2020 Sint Eustatius"
-
 PE_GCS_BARBADOS_1938, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "Barbados 1938"
-
-PE_GCS_BONAIRE, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "Bonaire"
-
-PE_GCS_BONAIRE_2004, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "Bonaire 2004"
-
-PE_GCS_CIGD11, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "CIGD11"
 
 PE_GCS_DOMINICA_1945, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "Dominica 1945"
 
-PE_GCS_FORT_DESAIX, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "Fort Desaix"
-
-PE_GCS_FORT_MARIGOT, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "Fort Marigot"
-
 PE_GCS_FORT_THOMAS_1955, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "Fort Thomas 1955"
-
-PE_GCS_GRAND_CAYMAN_1959, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "Grand Cayman 1959"
 
 PE_GCS_GRENADA_1953, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
@@ -3296,45 +3344,17 @@ PE_GCS_JAMAICA_1969, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "Jamaica 1969"
 
-PE_GCS_LC5_1961, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "L.C. 5 Astro 1961"
-
-PE_GCS_LITTLE_CAYMAN_1961, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "Little Cayman 1961"
-
 PE_GCS_MONTSERRAT_1958, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "Montserrat 1958"
 
+PE_GCS_NAD_1983_HARN_CORRECTED, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
+   "NAD 1983 (HARN Corrected)"
+
 PE_GCS_PUERTO_RICO, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "Puerto Rico"
-
-PE_GCS_RGAF09, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "RGAF09"
-
-PE_GCS_RGAF09_LON_LAT, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "RGAF09 (lon-lat)"
-
-PE_GCS_RRAF_1991, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "RRAF 1991"
-
-PE_GCS_SABA, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "Saba"
-
-PE_GCS_SAINTE_ANNE, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "Sainte Anne"
-
-PE_GCS_SINT_EUSTATIUS, \
-   "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
-   "Sint Eustatius"
 
 PE_GCS_ST_KITTS_1955, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
@@ -3348,17 +3368,77 @@ PE_GCS_ST_VINCENT_1945, \
    "Geographic Coordinate Systems/Oceans/Caribbean Sea", \
    "St. Vincent 1945"
 
+PE_GCS_CIGD11, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Cayman Islands", \
+   "CIGD11"
+
+PE_GCS_GRAND_CAYMAN_1959, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Cayman Islands", \
+   "Grand Cayman 1959"
+
+PE_GCS_LC5_1961, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Cayman Islands", \
+   "L.C. 5 Astro 1961"
+
+PE_GCS_LITTLE_CAYMAN_1961, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Cayman Islands", \
+   "Little Cayman 1961"
+
+PE_GCS_BES2020_SABA, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "BES2020 Saba"
+
+PE_GCS_BES2020_SINT_EUSTATIUS, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "BES2020 Sint Eustatius"
+
+PE_GCS_BONAIRE, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "Bonaire"
+
+PE_GCS_BONAIRE_2004, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "Bonaire 2004"
+
+PE_GCS_CURACAO_1951, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "Curacao 1951"
+
+PE_GCS_SABA, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "Saba"
+
+PE_GCS_SINT_EUSTATIUS, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "Sint Eustatius"
+
+PE_GCS_FORT_DESAIX, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/French Antilles", \
+   "Fort Desaix"
+
+PE_GCS_FORT_MARIGOT, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/French Antilles", \
+   "Fort Marigot"
+
+PE_GCS_RGAF09, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/French Antilles", \
+   "RGAF09"
+
+PE_GCS_RGAF09_LON_LAT, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/French Antilles", \
+   "RGAF09 (lon-lat)"
+
+PE_GCS_RRAF_1991, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/French Antilles", \
+   "RRAF 1991"
+
+PE_GCS_SAINTE_ANNE, \
+   "Geographic Coordinate Systems/Oceans/Caribbean Sea/French Antilles", \
+   "Sainte Anne"
+
 PE_GCS_ANNA_1_1965, \
    "Geographic Coordinate Systems/Oceans/Indian Ocean", \
    "Anna 1 Astro 1965"
-
-PE_GCS_CADASTRE_1997, \
-   "Geographic Coordinate Systems/Oceans/Indian Ocean", \
-   "Cadastre 1997"
-
-PE_GCS_COMBANI_1950, \
-   "Geographic Coordinate Systems/Oceans/Indian Ocean", \
-   "Combani 1950"
 
 PE_GCS_GDM2008, \
    "Geographic Coordinate Systems/Oceans/Indian Ocean", \
@@ -3380,25 +3460,13 @@ PE_GCS_KERGUELEN_ISLAND_1949, \
    "Geographic Coordinate Systems/Oceans/Indian Ocean", \
    "Kerguelen Island 1949"
 
+PE_GCS_LE_POUCE_1934, \
+   "Geographic Coordinate Systems/Oceans/Indian Ocean", \
+   "Le Pouce 1934"
+
 PE_GCS_MAHE_1971, \
    "Geographic Coordinate Systems/Oceans/Indian Ocean", \
    "Mahe 1971"
-
-PE_GCS_RGM_2004, \
-   "Geographic Coordinate Systems/Oceans/Indian Ocean", \
-   "RGM04"
-
-PE_GCS_RGM04_LON_LAT, \
-   "Geographic Coordinate Systems/Oceans/Indian Ocean", \
-   "RGM04 (lon-lat)"
-
-PE_GCS_RGM23, \
-   "Geographic Coordinate Systems/Oceans/Indian Ocean", \
-   "RGM23"
-
-PE_GCS_RGM23_LON_LAT, \
-   "Geographic Coordinate Systems/Oceans/Indian Ocean", \
-   "RGM23 (lon-lat)"
 
 PE_GCS_RGR_1992, \
    "Geographic Coordinate Systems/Oceans/Indian Ocean", \
@@ -3424,13 +3492,29 @@ PE_GCS_SOUTH_EAST_ISLAND_1943, \
    "Geographic Coordinate Systems/Oceans/Indian Ocean", \
    "South East Island 1943"
 
-PE_GCS_ALASKAN_ISLANDS, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Alaskan Islands"
+PE_GCS_CADASTRE_1997, \
+   "Geographic Coordinate Systems/Oceans/Indian Ocean/Mayotte", \
+   "Cadastre 1997"
 
-PE_GCS_SAMOA_1962, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "American Samoa 1962"
+PE_GCS_COMBANI_1950, \
+   "Geographic Coordinate Systems/Oceans/Indian Ocean/Mayotte", \
+   "Combani 1950"
+
+PE_GCS_RGM_2004, \
+   "Geographic Coordinate Systems/Oceans/Indian Ocean/Mayotte", \
+   "RGM04"
+
+PE_GCS_RGM04_LON_LAT, \
+   "Geographic Coordinate Systems/Oceans/Indian Ocean/Mayotte", \
+   "RGM04 (lon-lat)"
+
+PE_GCS_RGM23, \
+   "Geographic Coordinate Systems/Oceans/Indian Ocean/Mayotte", \
+   "RGM23"
+
+PE_GCS_RGM23_LON_LAT, \
+   "Geographic Coordinate Systems/Oceans/Indian Ocean/Mayotte", \
+   "RGM23 (lon-lat)"
 
 PE_GCS_BEACON_E_1945, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
@@ -3464,45 +3548,9 @@ PE_GCS_EASTER_ISLAND_1967, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
    "Easter Island 1967"
 
-PE_GCS_FATU_IVA_1972, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Fatu Iva 1972"
-
-PE_GCS_FIJI_1956, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Fiji 1956"
-
-PE_GCS_FIJI_1986, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Fiji 1986"
-
 PE_GCS_GUX_1, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
    "GUX 1 Astro"
-
-PE_GCS_GUAM_1963, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Guam 1963"
-
-PE_GCS_IGN53_MARE, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "IGN53 Mare"
-
-PE_GCS_IGN56_LIFOU, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "IGN56 Lifou"
-
-PE_GCS_IGN63_HIVA_OA, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "IGN63 Hiva Oa"
-
-PE_GCS_IGN72_GRANDE_TERRE, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "IGN72 Grande Terre"
-
-PE_GCS_IGN72_NUKU_HIVA, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "IGN72 Nuku Hiva"
 
 PE_GCS_JOHNSTON_ISLAND_1961, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
@@ -3520,45 +3568,13 @@ PE_GCS_MAJURO, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
    "Majuro"
 
-PE_GCS_MAUPITI_1983, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Maupiti 1983"
-
 PE_GCS_MIDWAY_1961, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
    "Midway Astro 1961"
 
-PE_GCS_MOOREA_1987, \
+PE_GCS_PNG94, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Moorea 1987"
-
-PE_GCS_NAD_1983_MA11, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "NAD 1983 (MA11)"
-
-PE_GCS_NAD_1983_MARP00, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "NAD 1983 (MARP00)"
-
-PE_GCS_NAD_1983_PA11, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "NAD 1983 (PA11)"
-
-PE_GCS_NAD_1983_PACP00, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "NAD 1983 (PACP00)"
-
-PE_GCS_NEA74_NOUMEA, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "NEA74 Noumea"
-
-PE_GCS_OLD_HAWAIIAN, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Old Hawaiian"
-
-PE_GCS_OLD_HAWAIIAN_INTL_1924, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Old Hawaiian Intl 1924"
+   "PNG94"
 
 PE_GCS_PITCAIRN_2006, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
@@ -3572,30 +3588,6 @@ PE_GCS_POHNPEI, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
    "Pohnpei"
 
-PE_GCS_RGNC_1991, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "RGNC 1991"
-
-PE_GCS_RGNC_1991_93, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "RGNC 1991-93"
-
-PE_GCS_RGNC91_93_LON_LAT, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "RGNC 1991-93 (lon-lat)"
-
-PE_GCS_RGNC15, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "RGNC15"
-
-PE_GCS_RGNC15_LON_LAT, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "RGNC15 (lon-lat)"
-
-PE_GCS_RGPF, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "RGPF"
-
 PE_GCS_RGWF96, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
    "RGWF96"
@@ -3603,18 +3595,6 @@ PE_GCS_RGWF96, \
 PE_GCS_RGWF96_LON_LAT, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
    "RGWF96 (lon-lat)"
-
-PE_GCS_ST71_BELEP, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "ST71 Belep"
-
-PE_GCS_ST84_ILE_DES_PINS, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "ST84 Ile des Pins"
-
-PE_GCS_ST87_OUVEA, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "ST87 Ouvea"
 
 PE_GCS_SANTO_DOS_1965, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
@@ -3628,34 +3608,6 @@ PE_GCS_TGD2005, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
    "TGD2005"
 
-PE_GCS_TAHAA_1954, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Tahaa 1954"
-
-PE_GCS_TAHITI_1952, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Tahiti"
-
-PE_GCS_TAHITI_1979, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Tahiti 1979"
-
-PE_GCS_TERN_ISLAND_1961, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Tern Island Astro 1961"
-
-PE_GCS_VANUA_LEVU_1915, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Vanua Levu 1915"
-
-PE_GCS_VITI_LEVU_1912, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Viti Levu 1912"
-
-PE_GCS_VITI_LEVU_1916, \
-   "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
-   "Viti Levu 1916"
-
 PE_GCS_WAKE_ISLAND_1952, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
    "Wake Island Astro 1952"
@@ -3663,6 +3615,146 @@ PE_GCS_WAKE_ISLAND_1952, \
 PE_GCS_WAKE_ENIWETOK_1960, \
    "Geographic Coordinate Systems/Oceans/Pacific Ocean", \
    "Wake-Eniwetok 1960"
+
+PE_GCS_FIJI_1956, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Fiji", \
+   "Fiji 1956"
+
+PE_GCS_FIJI_1986, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Fiji", \
+   "Fiji 1986"
+
+PE_GCS_VANUA_LEVU_1915, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Fiji", \
+   "Vanua Levu 1915"
+
+PE_GCS_VITI_LEVU_1912, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Fiji", \
+   "Viti Levu 1912"
+
+PE_GCS_VITI_LEVU_1916, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Fiji", \
+   "Viti Levu 1916"
+
+PE_GCS_FATU_IVA_1972, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/French Polynesia", \
+   "Fatu Iva 1972"
+
+PE_GCS_IGN63_HIVA_OA, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/French Polynesia", \
+   "IGN63 Hiva Oa"
+
+PE_GCS_IGN72_NUKU_HIVA, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/French Polynesia", \
+   "IGN72 Nuku Hiva"
+
+PE_GCS_MAUPITI_1983, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/French Polynesia", \
+   "Maupiti 1983"
+
+PE_GCS_MOOREA_1987, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/French Polynesia", \
+   "Moorea 1987"
+
+PE_GCS_RGPF, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/French Polynesia", \
+   "RGPF"
+
+PE_GCS_TAHAA_1954, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/French Polynesia", \
+   "Tahaa 1954"
+
+PE_GCS_TAHITI_1952, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/French Polynesia", \
+   "Tahiti"
+
+PE_GCS_TAHITI_1979, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/French Polynesia", \
+   "Tahiti 1979"
+
+PE_GCS_SAMOA_1962, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "American Samoa 1962"
+
+PE_GCS_GUAM_1963, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "Guam 1963"
+
+PE_GCS_NAD_1983_MA11, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (MA11)"
+
+PE_GCS_NAD_1983_MARP00, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (MARP00)"
+
+PE_GCS_NAD_1983_PA11, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (PA11)"
+
+PE_GCS_NAD_1983_PACP00, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (PACP00)"
+
+PE_GCS_OLD_HAWAIIAN, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "Old Hawaiian"
+
+PE_GCS_OLD_HAWAIIAN_INTL_1924, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "Old Hawaiian Intl 1924"
+
+PE_GCS_TERN_ISLAND_1961, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "Tern Island Astro 1961"
+
+PE_GCS_IGN53_MARE, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "IGN53 Mare"
+
+PE_GCS_IGN56_LIFOU, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "IGN56 Lifou"
+
+PE_GCS_IGN72_GRANDE_TERRE, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "IGN72 Grande Terre"
+
+PE_GCS_NEA74_NOUMEA, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "NEA74 Noumea"
+
+PE_GCS_RGNC_1991, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC 1991"
+
+PE_GCS_RGNC_1991_93, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC 1991-93"
+
+PE_GCS_RGNC91_93_LON_LAT, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC 1991-93 (lon-lat)"
+
+PE_GCS_RGNC15, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC15"
+
+PE_GCS_RGNC15_LON_LAT, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC15 (lon-lat)"
+
+PE_GCS_ST71_BELEP, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "ST71 Belep"
+
+PE_GCS_ST84_ILE_DES_PINS, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "ST84 Ile des Pins"
+
+PE_GCS_ST87_OUVEA, \
+   "Geographic Coordinate Systems/Oceans/Pacific Ocean/New Caledonia", \
+   "ST87 Ouvea"
 
 PE_GCS_XT_SUN, \
    "Geographic Coordinate Systems/Solar System", \
@@ -4096,113 +4188,17 @@ PE_GCS_XT_VENUS_2000, \
    "Geographic Coordinate Systems/Solar System/Venus", \
    "Venus 2000"
 
-PE_GCS_ARATU, \
-   "Geographic Coordinate Systems/South America", \
-   "Aratu"
-
-PE_GCS_BOGOTA, \
-   "Geographic Coordinate Systems/South America", \
-   "Bogota"
-
-PE_GCS_BOGOTA_BOGOTA, \
-   "Geographic Coordinate Systems/South America", \
-   "Bogota (Bogota)"
-
-PE_GCS_CSG_1967, \
-   "Geographic Coordinate Systems/South America", \
-   "CSG 1967"
-
-PE_GCS_CAMPO_INCHAUSPE, \
-   "Geographic Coordinate Systems/South America", \
-   "Campo Inchauspe"
-
-PE_GCS_CHOS_MALAL_1914, \
-   "Geographic Coordinate Systems/South America", \
-   "Chos Malal 1914"
-
 PE_GCS_CHUA, \
    "Geographic Coordinate Systems/South America", \
    "Chua"
-
-PE_GCS_CORREGO_ALEGRE, \
-   "Geographic Coordinate Systems/South America", \
-   "Corrego Alegre"
-
-PE_GCS_CORREGO_ALEGRE_1961, \
-   "Geographic Coordinate Systems/South America", \
-   "Corrego Alegre 1961"
-
-PE_GCS_GUYANE_FRANCAISE, \
-   "Geographic Coordinate Systems/South America", \
-   "Guyane Francaise"
 
 PE_GCS_HITO_XVIII_1963, \
    "Geographic Coordinate Systems/South America", \
    "Hito XVIII 1963"
 
-PE_GCS_LA_CANOA, \
-   "Geographic Coordinate Systems/South America", \
-   "La Canoa"
-
-PE_GCS_LAKE, \
-   "Geographic Coordinate Systems/South America", \
-   "Lake"
-
-PE_GCS_LOMA_QUINTANA, \
-   "Geographic Coordinate Systems/South America", \
-   "Loma Quintana"
-
-PE_GCS_MAGNA, \
-   "Geographic Coordinate Systems/South America", \
-   "MAGNA"
-
-PE_GCS_MAGNA_SIRGAS_2018, \
-   "Geographic Coordinate Systems/South America", \
-   "MAGNA-SIRGAS 2018"
-
 PE_GCS_MARGEN, \
    "Geographic Coordinate Systems/South America", \
    "MARGEN"
-
-PE_GCS_MMN, \
-   "Geographic Coordinate Systems/South America", \
-   "MMN"
-
-PE_GCS_MMS, \
-   "Geographic Coordinate Systems/South America", \
-   "MMS"
-
-PE_GCS_MOUNT_DILLON, \
-   "Geographic Coordinate Systems/South America", \
-   "Mount Dillon"
-
-PE_GCS_NAPARIMA_1955, \
-   "Geographic Coordinate Systems/South America", \
-   "Naparima 1955"
-
-PE_GCS_NAPARIMA_1972, \
-   "Geographic Coordinate Systems/South America", \
-   "Naparima 1972"
-
-PE_GCS_POSGAR, \
-   "Geographic Coordinate Systems/South America", \
-   "POSGAR"
-
-PE_GCS_POSGAR_1994, \
-   "Geographic Coordinate Systems/South America", \
-   "POSGAR 1994"
-
-PE_GCS_POSGAR_1998, \
-   "Geographic Coordinate Systems/South America", \
-   "POSGAR 1998"
-
-PE_GCS_POSGAR_2007, \
-   "Geographic Coordinate Systems/South America", \
-   "POSGAR 2007"
-
-PE_GCS_PAMPA_DEL_CASTILLO, \
-   "Geographic Coordinate Systems/South America", \
-   "Pampa del Castillo"
 
 PE_GCS_PERU96, \
    "Geographic Coordinate Systems/South America", \
@@ -4211,26 +4207,6 @@ PE_GCS_PERU96, \
 PE_GCS_PSAD_1956, \
    "Geographic Coordinate Systems/South America", \
    "Provisional South American Datum 1956"
-
-PE_GCS_REDGEOMIN, \
-   "Geographic Coordinate Systems/South America", \
-   "REDGEOMIN"
-
-PE_GCS_REGVEN, \
-   "Geographic Coordinate Systems/South America", \
-   "REGVEN"
-
-PE_GCS_RGFG_1995, \
-   "Geographic Coordinate Systems/South America", \
-   "RGFG 1995"
-
-PE_GCS_RGFG95_LON_LAT, \
-   "Geographic Coordinate Systems/South America", \
-   "RGFG95 (lon-lat)"
-
-PE_GCS_SAD_1969_96, \
-   "Geographic Coordinate Systems/South America", \
-   "SAD 1969 (96)"
 
 PE_GCS_SIRGAS, \
    "Geographic Coordinate Systems/South America", \
@@ -4304,26 +4280,6 @@ PE_GCS_SIRGAS_CON_SIR17P01, \
    "Geographic Coordinate Systems/South America", \
    "SIRGAS-CON SIR17P01"
 
-PE_GCS_SIRGAS_CHILE_2002, \
-   "Geographic Coordinate Systems/South America", \
-   "SIRGAS-Chile 2002"
-
-PE_GCS_SIRGAS_CHILE_2010, \
-   "Geographic Coordinate Systems/South America", \
-   "SIRGAS-Chile 2010"
-
-PE_GCS_SIRGAS_CHILE_2013, \
-   "Geographic Coordinate Systems/South America", \
-   "SIRGAS-Chile 2013"
-
-PE_GCS_SIRGAS_CHILE_2016, \
-   "Geographic Coordinate Systems/South America", \
-   "SIRGAS-Chile 2016"
-
-PE_GCS_SIRGAS_CHILE_2021, \
-   "Geographic Coordinate Systems/South America", \
-   "SIRGAS-Chile 2021"
-
 PE_GCS_SIRGAS_ROU98, \
    "Geographic Coordinate Systems/South America", \
    "SIRGAS-ROU98"
@@ -4336,14 +4292,6 @@ PE_GCS_SAD_1969, \
    "Geographic Coordinate Systems/South America", \
    "South American Datum 1969"
 
-PE_GCS_TAPI_AIKE, \
-   "Geographic Coordinate Systems/South America", \
-   "Tapi Aike"
-
-PE_GCS_TRINIDAD_1903, \
-   "Geographic Coordinate Systems/South America", \
-   "Trinidad 1903"
-
 PE_GCS_YACARE, \
    "Geographic Coordinate Systems/South America", \
    "Yacare"
@@ -4352,113 +4300,145 @@ PE_GCS_ZANDERIJ, \
    "Geographic Coordinate Systems/South America", \
    "Zanderij"
 
-PE_GCS_SPHERE, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Authalic sphere"
+PE_GCS_CAMPO_INCHAUSPE, \
+   "Geographic Coordinate Systems/South America/Argentina", \
+   "Campo Inchauspe"
 
-PE_GCS_SPHERE_AI, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Authalic sphere (ARCINFO)"
+PE_GCS_CHOS_MALAL_1914, \
+   "Geographic Coordinate Systems/South America/Argentina", \
+   "Chos Malal 1914"
 
-PE_GCS_ATS_1977, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Average Terrestrial System 1977"
+PE_GCS_MMN, \
+   "Geographic Coordinate Systems/South America/Argentina", \
+   "MMN"
 
-PE_GCS_CLARKE_1866, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Clarke 1866"
+PE_GCS_MMS, \
+   "Geographic Coordinate Systems/South America/Argentina", \
+   "MMS"
 
-PE_GCS_SPHERE_CLARKE_1866_AUTHALIC, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Clarke 1866 Authalic Sphere"
+PE_GCS_POSGAR_1994, \
+   "Geographic Coordinate Systems/South America/Argentina", \
+   "POSGAR 1994"
 
-PE_GCS_EVEREST_ADJ_1937, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Everest (definition 1937)"
+PE_GCS_POSGAR_1998, \
+   "Geographic Coordinate Systems/South America/Argentina", \
+   "POSGAR 1998"
 
-PE_GCS_EVEREST_DEF_1962, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Everest (definition 1962)"
+PE_GCS_POSGAR_2007, \
+   "Geographic Coordinate Systems/South America/Argentina", \
+   "POSGAR 2007"
 
-PE_GCS_EVEREST_DEF_1967, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Everest (definition 1967)"
+PE_GCS_PAMPA_DEL_CASTILLO, \
+   "Geographic Coordinate Systems/South America/Argentina", \
+   "Pampa del Castillo"
 
-PE_GCS_EVEREST_DEF_1975, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Everest (definition 1975)"
+PE_GCS_TAPI_AIKE, \
+   "Geographic Coordinate Systems/South America/Argentina", \
+   "Tapi Aike"
 
-PE_GCS_EVEREST_1830, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Everest 1830"
+PE_GCS_ARATU, \
+   "Geographic Coordinate Systems/South America/Brazil", \
+   "Aratu"
 
-PE_GCS_EVEREST_MOD_1969, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Everest modified 1969"
+PE_GCS_CORREGO_ALEGRE, \
+   "Geographic Coordinate Systems/South America/Brazil", \
+   "Corrego Alegre"
 
-PE_GCS_FISCHER_1960, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Fischer 1960"
+PE_GCS_CORREGO_ALEGRE_1961, \
+   "Geographic Coordinate Systems/South America/Brazil", \
+   "Corrego Alegre 1961"
 
-PE_GCS_FISCHER_1968, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Fischer 1968"
+PE_GCS_SAD_1969_96, \
+   "Geographic Coordinate Systems/South America/Brazil", \
+   "SAD 1969 (96)"
 
-PE_GCS_FISCHER_MOD, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Fischer modified"
+PE_GCS_REDGEOMIN, \
+   "Geographic Coordinate Systems/South America/Chile", \
+   "REDGEOMIN"
 
-PE_GCS_GRS_1967, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "GRS 1967"
+PE_GCS_SIRGAS_CHILE_2002, \
+   "Geographic Coordinate Systems/South America/Chile", \
+   "SIRGAS-Chile 2002"
 
-PE_GCS_GRS_1980, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "GRS 1980"
+PE_GCS_SIRGAS_CHILE_2010, \
+   "Geographic Coordinate Systems/South America/Chile", \
+   "SIRGAS-Chile 2010"
 
-PE_GCS_SPHERE_GRS_1980_AUTHALIC, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "GRS 1980 Authalic Sphere"
+PE_GCS_SIRGAS_CHILE_2013, \
+   "Geographic Coordinate Systems/South America/Chile", \
+   "SIRGAS-Chile 2013"
 
-PE_GCS_SPHERE_GRS_1980_MEAN_RADIUS, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "GRS 1980 Mean Radius Sphere"
+PE_GCS_SIRGAS_CHILE_2016, \
+   "Geographic Coordinate Systems/South America/Chile", \
+   "SIRGAS-Chile 2016"
 
-PE_GCS_HELMERT_1906, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Helmert 1906"
+PE_GCS_SIRGAS_CHILE_2021, \
+   "Geographic Coordinate Systems/South America/Chile", \
+   "SIRGAS-Chile 2021"
 
-PE_GCS_HOUGH_1960, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Hough 1960"
+PE_GCS_BOGOTA, \
+   "Geographic Coordinate Systems/South America/Colombia", \
+   "Bogota"
 
-PE_GCS_HUGHES_1980, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Hughes 1980"
+PE_GCS_BOGOTA_BOGOTA, \
+   "Geographic Coordinate Systems/South America/Colombia", \
+   "Bogota (Bogota)"
 
-PE_GCS_INTERNATIONAL_1924, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "International 1924"
+PE_GCS_MAGNA, \
+   "Geographic Coordinate Systems/South America/Colombia", \
+   "MAGNA"
 
-PE_GCS_SPHERE_INTL_1924_AUTHALIC, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "International 1924 Authalic Sphere"
+PE_GCS_MAGNA_SIRGAS_2018, \
+   "Geographic Coordinate Systems/South America/Colombia", \
+   "MAGNA-SIRGAS 2018"
 
-PE_GCS_SPHERE_EMEP, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Sphere EMEP"
+PE_GCS_CSG_1967, \
+   "Geographic Coordinate Systems/South America/French Guiana", \
+   "CSG 1967"
 
-PE_GCS_NWL_9D, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Transit precise ephemeris"
+PE_GCS_GUYANE_FRANCAISE, \
+   "Geographic Coordinate Systems/South America/French Guiana", \
+   "Guyane Francaise"
 
-PE_GCS_WGS_1966, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "WGS 1966"
+PE_GCS_RGFG_1995, \
+   "Geographic Coordinate Systems/South America/French Guiana", \
+   "RGFG95"
 
-PE_GCS_WALBECK, \
-   "Geographic Coordinate Systems/Spheroid-based", \
-   "Walbeck"
+PE_GCS_RGFG95_LON_LAT, \
+   "Geographic Coordinate Systems/South America/French Guiana", \
+   "RGFG95 (lon-lat)"
+
+PE_GCS_MOUNT_DILLON, \
+   "Geographic Coordinate Systems/South America/Trinidad and Tobago", \
+   "Mount Dillon"
+
+PE_GCS_NAPARIMA_1955, \
+   "Geographic Coordinate Systems/South America/Trinidad and Tobago", \
+   "Naparima 1955"
+
+PE_GCS_NAPARIMA_1972, \
+   "Geographic Coordinate Systems/South America/Trinidad and Tobago", \
+   "Naparima 1972"
+
+PE_GCS_TRINIDAD_1903, \
+   "Geographic Coordinate Systems/South America/Trinidad and Tobago", \
+   "Trinidad 1903"
+
+PE_GCS_LA_CANOA, \
+   "Geographic Coordinate Systems/South America/Venezuela", \
+   "La Canoa"
+
+PE_GCS_LAKE, \
+   "Geographic Coordinate Systems/South America/Venezuela", \
+   "Lake"
+
+PE_GCS_LOMA_QUINTANA, \
+   "Geographic Coordinate Systems/South America/Venezuela", \
+   "Loma Quintana"
+
+PE_GCS_REGVEN, \
+   "Geographic Coordinate Systems/South America/Venezuela", \
+   "REGVEN"
 
 PE_GCS_IGS00, \
    "Geographic Coordinate Systems/World", \
@@ -4562,7 +4542,7 @@ PE_GCS_ITRF_2020_U2023, \
 
 PE_GCS_NSIDC_AUTHALIC_SPHERE, \
    "Geographic Coordinate Systems/World", \
-   "NSIDC_Authalic_Sphere"
+   "NSIDC Authalic Sphere"
 
 PE_GCS_NSWC_9Z_2, \
    "Geographic Coordinate Systems/World", \
@@ -4590,7 +4570,7 @@ PE_GCS_WGS_1972, \
 
 PE_GCS_WGS_1972_BE, \
    "Geographic Coordinate Systems/World", \
-   "WGS 1972 TBE"
+   "WGS 1972 BE"
 
 PE_GCS_WGS_1984, \
    "Geographic Coordinate Systems/World", \
@@ -4627,4 +4607,100 @@ PE_GCS_WGS_1984_G873, \
 PE_GCS_WGS_1984_TRANSIT, \
    "Geographic Coordinate Systems/World", \
    "WGS 1984 (Transit)"
+
+PE_GCS_SPHERE, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Authalic sphere"
+
+PE_GCS_SPHERE_AI, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Authalic sphere (ARCINFO)"
+
+PE_GCS_CLARKE_1866, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Clarke 1866"
+
+PE_GCS_SPHERE_CLARKE_1866_AUTHALIC, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Clarke 1866 Authalic Sphere"
+
+PE_GCS_EVEREST_ADJ_1937, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Everest (definition 1937)"
+
+PE_GCS_EVEREST_DEF_1962, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Everest (definition 1962)"
+
+PE_GCS_EVEREST_DEF_1967, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Everest (definition 1967)"
+
+PE_GCS_EVEREST_DEF_1975, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Everest (definition 1975)"
+
+PE_GCS_EVEREST_1830, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Everest 1830"
+
+PE_GCS_EVEREST_MOD_1969, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Everest modified 1969"
+
+PE_GCS_FISCHER_1960, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Fischer 1960"
+
+PE_GCS_FISCHER_1968, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Fischer 1968"
+
+PE_GCS_FISCHER_MOD, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Fischer modified"
+
+PE_GCS_GRS_1967, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "GRS 1967"
+
+PE_GCS_GRS_1980, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "GRS 1980"
+
+PE_GCS_SPHERE_GRS_1980_AUTHALIC, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "GRS 1980 Authalic Sphere"
+
+PE_GCS_SPHERE_GRS_1980_MEAN_RADIUS, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "GRS 1980 Mean Radius Sphere"
+
+PE_GCS_HELMERT_1906, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Helmert 1906"
+
+PE_GCS_HOUGH_1960, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Hough 1960"
+
+PE_GCS_HUGHES_1980, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Hughes 1980"
+
+PE_GCS_INTERNATIONAL_1924, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "International 1924"
+
+PE_GCS_SPHERE_INTL_1924_AUTHALIC, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "International 1924 Authalic Sphere"
+
+PE_GCS_NWL_9D, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Transit precise ephemeris"
+
+PE_GCS_WALBECK, \
+   "Geographic Coordinate Systems/World/Based on Ellipsoid", \
+   "Walbeck"
 

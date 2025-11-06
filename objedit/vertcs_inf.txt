@@ -32,6 +32,14 @@ PE_VCS_RSAO13, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Africa", \
    "RSAO13"
 
+PE_VCS_UGRF, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Africa", \
+   "UGRF"
+
+PE_VCS_AUSTRALIAN_ANTARCTIC_1998, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Antarctica", \
+   "Australian Antarctic 1998"
+
 PE_VCS_RGTAAF07, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Antarctica", \
    "RGTAAF07"
@@ -39,6 +47,10 @@ PE_VCS_RGTAAF07, \
 PE_VCS_RGTAAF07_LON_LAT, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Antarctica", \
    "RGTAAF07 (lon-lat)"
+
+PE_VCS_RSRGD2000, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Antarctica", \
+   "RSRGD2000"
 
 PE_VCS_CHINA_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
@@ -64,6 +76,10 @@ PE_VCS_GGD, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "GGD"
 
+PE_VCS_GSK_2011, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "GSK-2011"
+
 PE_VCS_HK_GEODETIC_CS, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "Hong Kong Geodetic CS"
@@ -84,10 +100,6 @@ PE_VCS_IGD05_2012, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "IGD05(2012)"
 
-PE_VCS_IGM_1995, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
-   "IGM 1995"
-
 PE_VCS_IGRS, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "IGRS"
@@ -99,6 +111,10 @@ PE_VCS_JGD_2000, \
 PE_VCS_JGD_2011, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "JGD 2011"
+
+PE_VCS_JGD_2024, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "JGD 2024"
 
 PE_VCS_KOREA_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
@@ -120,10 +136,6 @@ PE_VCS_LAO_1997, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "Lao 1997"
 
-PE_VCS_MACAO_2008, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
-   "MACAO 2008"
-
 PE_VCS_MONREF_1997, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "MONREF 1997"
@@ -131,6 +143,10 @@ PE_VCS_MONREF_1997, \
 PE_VCS_MTRF_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "MTRF-2000"
+
+PE_VCS_MACAO_2008, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "Macao 2008"
 
 PE_VCS_NEPAL_NAGARKOT, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
@@ -144,13 +160,17 @@ PE_VCS_ONGD17, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "ONGD17"
 
-PE_VCS_PNG94, \
+PE_VCS_PAL_GRF2023, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
-   "PNG94"
+   "PAL-GRF2023"
 
 PE_VCS_PRS_1992, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "PRS 1992"
+
+PE_VCS_QAZTRF_23, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "QazTRF-23"
 
 PE_VCS_SLD99, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
@@ -159,6 +179,10 @@ PE_VCS_SLD99, \
 PE_VCS_SRGI2013, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "SRGI2013"
+
+PE_VCS_TUREF, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "TUREF"
 
 PE_VCS_TWD_1997, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
@@ -174,7 +198,7 @@ PE_VCS_YEMEN_NGN_1996, \
 
 PE_VCS_ATRF2014, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Australia and New Zealand", \
-   "ATRF 2014"
+   "ATRF2014"
 
 PE_VCS_AGD_1966, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Australia and New Zealand", \
@@ -194,7 +218,7 @@ PE_VCS_GDA2020, \
 
 PE_VCS_NZGD_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Australia and New Zealand", \
-   "NZGD 2000"
+   "NZGD2000"
 
 PE_VCS_CR_SIRGAS, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
@@ -208,69 +232,77 @@ PE_VCS_MARCARIO_SOLIS, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
    "MARCARIO SOLIS"
 
+PE_VCS_SIRGAS_2000, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
+   "SIRGAS 2000"
+
 PE_VCS_SIRGAS_CON_DGF00P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network DGF00P01"
+   "SIRGAS-CON DGF00P01"
 
 PE_VCS_SIRGAS_CON_DGF01P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network DGF01P01"
+   "SIRGAS-CON DGF01P01"
 
 PE_VCS_SIRGAS_CON_DGF01P02, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network DGF01P02"
+   "SIRGAS-CON DGF01P02"
 
 PE_VCS_SIRGAS_CON_DGF02P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network DGF02P01"
+   "SIRGAS-CON DGF02P01"
 
 PE_VCS_SIRGAS_CON_DGF04P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network DGF04P01"
+   "SIRGAS-CON DGF04P01"
 
 PE_VCS_SIRGAS_CON_DGF05P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network DGF05P01"
+   "SIRGAS-CON DGF05P01"
 
 PE_VCS_SIRGAS_CON_DGF06P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network DGF06P01"
+   "SIRGAS-CON DGF06P01"
 
 PE_VCS_SIRGAS_CON_DGF07P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network DGF07P01"
+   "SIRGAS-CON DGF07P01"
 
 PE_VCS_SIRGAS_CON_DGF08P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network DGF08P01"
+   "SIRGAS-CON DGF08P01"
 
 PE_VCS_SIRGAS_CON_SIR09P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network SIR09P01"
+   "SIRGAS-CON SIR09P01"
 
 PE_VCS_SIRGAS_CON_SIR10P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network SIR10P01"
+   "SIRGAS-CON SIR10P01"
 
 PE_VCS_SIRGAS_CON_SIR11P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network SIR11P01"
+   "SIRGAS-CON SIR11P01"
 
 PE_VCS_SIRGAS_CON_SIR13P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network SIR13P01"
+   "SIRGAS-CON SIR13P01"
 
 PE_VCS_SIRGAS_CON_SIR14P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network SIR14P01"
+   "SIRGAS-CON SIR14P01"
 
 PE_VCS_SIRGAS_CON_SIR15P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network SIR15P01"
+   "SIRGAS-CON SIR15P01"
 
 PE_VCS_SIRGAS_CON_SIR17P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
-   "SIRGAS Continuously Operating Network SIR17P01"
+   "SIRGAS-CON SIR17P01"
+
+PE_VCS_SIRGAS_ES2007_8, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
+   "SIRGAS_ES2007.8"
 
 PE_VCS_BBT2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
@@ -294,23 +326,7 @@ PE_VCS_CH1903_PLUS, \
 
 PE_VCS_DB_REF, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "DB-REF"
-
-PE_VCS_ETRF_1989, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "ETRF 1989"
-
-PE_VCS_ETRF_2005, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "ETRF 2005"
-
-PE_VCS_ETRF_2014, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "ETRF 2014"
-
-PE_VCS_ETRF_2020, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "ETRF 2020"
+   "DB_REF"
 
 PE_VCS_ETRF_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
@@ -319,6 +335,22 @@ PE_VCS_ETRF_2000, \
 PE_VCS_ETRF2000_PL, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "ETRF2000-PL"
+
+PE_VCS_ETRF_2005, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF2005"
+
+PE_VCS_ETRF_2014, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF2014"
+
+PE_VCS_ETRF_2020, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF2020"
+
+PE_VCS_ETRF_1989, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "ETRF89"
 
 PE_VCS_ETRF_1990, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
@@ -372,9 +404,17 @@ PE_VCS_GSK_2011, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "GSK-2011"
 
+PE_VCS_HTRS07, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "HTRS07"
+
 PE_VCS_HTRS96, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "HTRS96"
+
+PE_VCS_IGM_1995, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "IGM 1995"
 
 PE_VCS_IRENET95, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
@@ -428,30 +468,6 @@ PE_VCS_RDN2008, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "RDN2008"
 
-PE_VCS_RGF_1993, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "RGF 1993"
-
-PE_VCS_RGF93_LON_LAT, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "RGF 1993 (lon-lat)"
-
-PE_VCS_RGF93_V2, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "RGF93 v2"
-
-PE_VCS_RGF93_V2_LON_LAT, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "RGF93 v2 (lon-lat)"
-
-PE_VCS_RGF93_V2B, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "RGF93 v2b"
-
-PE_VCS_RGF93_V2B_LON_LAT, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "RGF93 v2b (lon-lat)"
-
 PE_VCS_S_JTSK_JTSK03, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "S-JTSK [JTSK03]"
@@ -466,7 +482,7 @@ PE_VCS_S_JTSK_05_FERRO, \
 
 PE_VCS_SRB_ETRS89, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "SRB ETRS89"
+   "SRB_ETRS89"
 
 PE_VCS_SREF98, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
@@ -484,17 +500,41 @@ PE_VCS_CHTRF_1995, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "Swiss TRF 1995"
 
-PE_VCS_TUREF, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
-   "TUREF"
-
 PE_VCS_UKRAINE_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "Ukraine 2000"
 
-PE_VCS_CSRS_EPOCH_2017_5_NAD83, \
+PE_VCS_RGF_1993, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe/France", \
+   "RGF 1993"
+
+PE_VCS_RGF93_LON_LAT, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe/France", \
+   "RGF 1993 (lon-lat)"
+
+PE_VCS_RGF93_V2, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe/France", \
+   "RGF93 v2"
+
+PE_VCS_RGF93_V2_LON_LAT, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe/France", \
+   "RGF93 v2 (lon-lat)"
+
+PE_VCS_RGF93_V2B, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe/France", \
+   "RGF93 v2b"
+
+PE_VCS_RGF93_V2B_LON_LAT, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe/France", \
+   "RGF93 v2b (lon-lat)"
+
+PE_VCS_GR96_1996, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
-   "California SRS Epoch 2017.50 (NAD83)"
+   "GR96(1996)"
+
+PE_VCS_GR96_2021, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "GR96(2021)"
 
 PE_VCS_GREENLAND_1996, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
@@ -508,69 +548,89 @@ PE_VCS_MEXICO_ITRF2008, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
    "Mexico ITRF2008"
 
-PE_VCS_NAD_1983, \
+PE_VCS_RGSPM_2006, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "RGSPM06"
+
+PE_VCS_RGSPM06_LON_LAT, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "RGSPM06 (lon-lat)"
+
+PE_VCS_NAD_1983, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/Canada", \
    "NAD 1983"
 
-PE_VCS_NAD_1983_2011, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
-   "NAD 1983 (2011)"
-
 PE_VCS_NAD_1983_CSRS, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
-   "NAD 1983 (CSRS)"
-
-PE_VCS_NAD_1983_FBN, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
-   "NAD 1983 (FBN)"
-
-PE_VCS_NAD_1983_HARN_CORRECTED, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
-   "NAD 1983 (HARN Corrected)"
-
-PE_VCS_NAD_1983_NSRS2007, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
-   "NAD 1983 (NSRS2007)"
-
-PE_VCS_NAD_1983_CORS96, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
-   "NAD 1983 CORS96"
-
-PE_VCS_NAD_1983_HARN, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
-   "NAD 1983 HARN"
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/Canada", \
+   "NAD83(CSRS)"
 
 PE_VCS_NAD_1983_CSRS_V2, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/Canada", \
    "NAD83(CSRS)v2"
 
 PE_VCS_NAD_1983_CSRS_V3, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/Canada", \
    "NAD83(CSRS)v3"
 
 PE_VCS_NAD_1983_CSRS_V4, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/Canada", \
    "NAD83(CSRS)v4"
 
 PE_VCS_NAD_1983_CSRS_V5, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/Canada", \
    "NAD83(CSRS)v5"
 
 PE_VCS_NAD_1983_CSRS_V6, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/Canada", \
    "NAD83(CSRS)v6"
 
 PE_VCS_NAD_1983_CSRS_V7, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/Canada", \
    "NAD83(CSRS)v7"
 
 PE_VCS_NAD_1983_CSRS_V8, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/Canada", \
    "NAD83(CSRS)v8"
 
 PE_VCS_NAD_1983_CSRS96, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America", \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/Canada", \
    "NAD83(CSRS96)"
+
+PE_VCS_CSRN_EPOCH_2025_0_ITRF2020, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
+   "CSRN epoch 2025.0 (ITRF2020)"
+
+PE_VCS_CSRN_EPOCH_2025_0_NAD83_2011, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
+   "CSRN epoch 2025.0 (NAD83 2011)"
+
+PE_VCS_CSRS_EPOCH_2017_5_NAD83, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
+   "California SRS Epoch 2017.50 (NAD83)"
+
+PE_VCS_NAD_1983, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
+   "NAD 1983"
+
+PE_VCS_NAD_1983_2011, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
+   "NAD 1983 (2011)"
+
+PE_VCS_NAD_1983_CORS96, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
+   "NAD 1983 (CORS96)"
+
+PE_VCS_NAD_1983_FBN, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
+   "NAD 1983 (FBN)"
+
+PE_VCS_NAD_1983_NSRS2007, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
+   "NAD 1983 (NSRS2007)"
+
+PE_VCS_NAD_1983_HARN, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
+   "NAD 1983 HARN"
 
 PE_VCS_BERMUDA_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Atlantic Ocean", \
@@ -584,14 +644,6 @@ PE_VCS_REGCAN95, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Atlantic Ocean", \
    "REGCAN95"
 
-PE_VCS_RGSPM_2006, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Atlantic Ocean", \
-   "RGSPM 2006"
-
-PE_VCS_RGSPM06_LON_LAT, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Atlantic Ocean", \
-   "RGSPM06 (lon-lat)"
-
 PE_VCS_SHGD2015, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Atlantic Ocean", \
    "SHGD2015"
@@ -600,18 +652,6 @@ PE_VCS_ST_HELENA_TRITAN, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Atlantic Ocean", \
    "St. Helena Tritan"
 
-PE_VCS_BES2020_SABA, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
-   "BES2020 Saba"
-
-PE_VCS_BES2020_SINT_EUSTATIUS, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
-   "BES2020 Sint Eustatius"
-
-PE_VCS_BONAIRE_2004, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
-   "Bonaire 2004"
-
 PE_VCS_CIGD11, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
    "CIGD11"
@@ -619,6 +659,10 @@ PE_VCS_CIGD11, \
 PE_VCS_JAD_2001, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
    "JAD 2001"
+
+PE_VCS_NAD_1983_HARN_CORRECTED, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
+   "NAD 1983 (HARN Corrected)"
 
 PE_VCS_RGAF09, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
@@ -632,33 +676,25 @@ PE_VCS_RRAF_1991, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
    "RRAF 1991"
 
+PE_VCS_BES2020_SABA, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "BES2020 Saba"
+
+PE_VCS_BES2020_SINT_EUSTATIUS, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "BES2020 Sint Eustatius"
+
+PE_VCS_BONAIRE_2004, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea/Dutch Caribbean", \
+   "Bonaire 2004"
+
 PE_VCS_SABA, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea/Dutch Caribbean", \
    "Saba"
 
 PE_VCS_SINT_EUSTATIUS, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea", \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Caribbean Sea/Dutch Caribbean", \
    "Sint Eustatius"
-
-PE_VCS_CADASTRE_1997, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
-   "Cadastre 1997"
-
-PE_VCS_RGM_2004, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
-   "RGM 2004"
-
-PE_VCS_RGM04_LON_LAT, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
-   "RGM04 (lon-lat)"
-
-PE_VCS_RGM23, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
-   "RGM23"
-
-PE_VCS_RGM23_LON_LAT, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
-   "RGM23 (lon-lat)"
 
 PE_VCS_RGR_1992, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
@@ -676,41 +712,29 @@ PE_VCS_RGTAAF07_LON_LAT, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean", \
    "RGTAAF07 (lon-lat)"
 
-PE_VCS_NAD_1983_MARP00, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
-   "NAD 1983 (MARP00)"
+PE_VCS_CADASTRE_1997, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean/Mayotte", \
+   "Cadastre 1997"
 
-PE_VCS_NAD_1983_PA11, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
-   "NAD 1983 (PA11)"
+PE_VCS_RGM_2004, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean/Mayotte", \
+   "RGM04"
 
-PE_VCS_NAD_1983_PACP00, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
-   "NAD 1983 (PACP00)"
+PE_VCS_RGM04_LON_LAT, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean/Mayotte", \
+   "RGM04 (lon-lat)"
 
-PE_VCS_NAD_1983_MA11, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
-   "NAD_1983 (MA11)"
+PE_VCS_RGM23, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean/Mayotte", \
+   "RGM23"
 
-PE_VCS_RGNC_1991, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
-   "RGNC 1991"
+PE_VCS_RGM23_LON_LAT, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Indian Ocean/Mayotte", \
+   "RGM23 (lon-lat)"
 
-PE_VCS_RGNC_1991_93, \
+PE_VCS_PNG94, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
-   "RGNC 1991-93"
-
-PE_VCS_RGNC91_93_LON_LAT, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
-   "RGNC 1991-93 (lon-lat)"
-
-PE_VCS_RGNC15, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
-   "RGNC15"
-
-PE_VCS_RGNC15_LON_LAT, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
-   "RGNC15 (lon-lat)"
+   "PNG94"
 
 PE_VCS_RGPF, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
@@ -728,13 +752,41 @@ PE_VCS_TGD2005, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean", \
    "TGD2005"
 
-PE_VCS_AUSTRALIAN_ANTARCTIC_1998, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Polar", \
-   "Australian Antarctic 1998"
+PE_VCS_NAD_1983_MA11, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (MA11)"
 
-PE_VCS_RSRGD2000, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/Polar", \
-   "RSRGD2000"
+PE_VCS_NAD_1983_MARP00, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (MARP00)"
+
+PE_VCS_NAD_1983_PA11, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (PA11)"
+
+PE_VCS_NAD_1983_PACP00, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NAD 1983 (PACP00)"
+
+PE_VCS_RGNC_1991, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC 1991"
+
+PE_VCS_RGNC_1991_93, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC 1991-93"
+
+PE_VCS_RGNC91_93_LON_LAT, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC 1991-93 (lon-lat)"
+
+PE_VCS_RGNC15, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC15"
+
+PE_VCS_RGNC15_LON_LAT, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Pacific Ocean/New Caledonia", \
+   "RGNC15 (lon-lat)"
 
 PE_VCS_MAGNA, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
@@ -747,10 +799,6 @@ PE_VCS_MAGNA_SIRGAS_2018, \
 PE_VCS_MARGEN, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
    "MARGEN"
-
-PE_VCS_POSGAR, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "POSGAR"
 
 PE_VCS_POSGAR_1994, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
@@ -768,17 +816,13 @@ PE_VCS_PERU96, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
    "Peru96"
 
-PE_VCS_REDGEOMIN, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "REDGEOMIN"
-
 PE_VCS_REGVEN, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
    "REGVEN"
 
 PE_VCS_RGFG_1995, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "RGFG 1995"
+   "RGFG95"
 
 PE_VCS_RGFG95_LON_LAT, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
@@ -794,95 +838,95 @@ PE_VCS_SIRGAS_2000, \
 
 PE_VCS_SIRGAS_CON_DGF00P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network DGF00P01"
+   "SIRGAS-CON DGF00P01"
 
 PE_VCS_SIRGAS_CON_DGF01P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network DGF01P01"
+   "SIRGAS-CON DGF01P01"
 
 PE_VCS_SIRGAS_CON_DGF01P02, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network DGF01P02"
+   "SIRGAS-CON DGF01P02"
 
 PE_VCS_SIRGAS_CON_DGF02P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network DGF02P01"
+   "SIRGAS-CON DGF02P01"
 
 PE_VCS_SIRGAS_CON_DGF04P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network DGF04P01"
+   "SIRGAS-CON DGF04P01"
 
 PE_VCS_SIRGAS_CON_DGF05P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network DGF05P01"
+   "SIRGAS-CON DGF05P01"
 
 PE_VCS_SIRGAS_CON_DGF06P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network DGF06P01"
+   "SIRGAS-CON DGF06P01"
 
 PE_VCS_SIRGAS_CON_DGF07P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network DGF07P01"
+   "SIRGAS-CON DGF07P01"
 
 PE_VCS_SIRGAS_CON_DGF08P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network DGF08P01"
+   "SIRGAS-CON DGF08P01"
 
 PE_VCS_SIRGAS_CON_SIR09P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network SIR09P01"
+   "SIRGAS-CON SIR09P01"
 
 PE_VCS_SIRGAS_CON_SIR10P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network SIR10P01"
+   "SIRGAS-CON SIR10P01"
 
 PE_VCS_SIRGAS_CON_SIR11P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network SIR11P01"
+   "SIRGAS-CON SIR11P01"
 
 PE_VCS_SIRGAS_CON_SIR13P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network SIR13P01"
+   "SIRGAS-CON SIR13P01"
 
 PE_VCS_SIRGAS_CON_SIR14P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network SIR14P01"
+   "SIRGAS-CON SIR14P01"
 
 PE_VCS_SIRGAS_CON_SIR15P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network SIR15P01"
+   "SIRGAS-CON SIR15P01"
 
 PE_VCS_SIRGAS_CON_SIR17P01, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS Continuously Operating Network SIR17P01"
-
-PE_VCS_SIRGAS_ES2007_8, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS ES2007.8"
-
-PE_VCS_SIRGAS_CHILE_2002, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS-Chile 2002"
-
-PE_VCS_SIRGAS_CHILE_2010, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS-Chile 2010"
-
-PE_VCS_SIRGAS_CHILE_2013, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS-Chile 2013"
-
-PE_VCS_SIRGAS_CHILE_2016, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS-Chile 2016"
-
-PE_VCS_SIRGAS_CHILE_2021, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
-   "SIRGAS-Chile 2021"
+   "SIRGAS-CON SIR17P01"
 
 PE_VCS_SIRGAS_ROU98, \
    "Vertical Coordinate Systems/Ellipsoidal-based/South America", \
    "SIRGAS-ROU98"
+
+PE_VCS_REDGEOMIN, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/South America/Chile", \
+   "REDGEOMIN"
+
+PE_VCS_SIRGAS_CHILE_2002, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/South America/Chile", \
+   "SIRGAS-Chile 2002"
+
+PE_VCS_SIRGAS_CHILE_2010, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/South America/Chile", \
+   "SIRGAS-Chile 2010"
+
+PE_VCS_SIRGAS_CHILE_2013, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/South America/Chile", \
+   "SIRGAS-Chile 2013"
+
+PE_VCS_SIRGAS_CHILE_2016, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/South America/Chile", \
+   "SIRGAS-Chile 2016"
+
+PE_VCS_SIRGAS_CHILE_2021, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/South America/Chile", \
+   "SIRGAS-Chile 2021"
 
 PE_VCS_IGS00, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
@@ -1006,7 +1050,7 @@ PE_VCS_WGS_1972, \
 
 PE_VCS_WGS_1972_BE, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
-   "WGS 1972 TBE"
+   "WGS 1972 BE"
 
 PE_VCS_WGS_1984, \
    "Vertical Coordinate Systems/Ellipsoidal-based/World", \
@@ -1056,6 +1100,10 @@ PE_VCS_MAPUTO, \
    "Vertical Coordinate Systems/Gravity-related/Africa", \
    "Maputo"
 
+PE_VCS_MELILLA_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Africa", \
+   "Melilla height"
+
 PE_VCS_NGA_2022_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/Africa", \
    "NGA 2022 height"
@@ -1072,13 +1120,17 @@ PE_VCS_AIOC95_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "AIOC95 height"
 
+PE_VCS_ANTALYA, \
+   "Vertical Coordinate Systems/Gravity-related/Asia", \
+   "Antalya"
+
 PE_VCS_BANDAR_ABBAS, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "Bandar Abbas"
 
 PE_VCS_CASPIAN, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Caspian"
+   "Caspian depth"
 
 PE_VCS_CASPIAN_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -1096,10 +1148,6 @@ PE_VCS_FAO_1979, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "Fao 1979"
 
-PE_VCS_HKPD_D, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "HKPD depth"
-
 PE_VCS_HA_TIEN_1960, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "Ha Tien 1960"
@@ -1107,14 +1155,6 @@ PE_VCS_HA_TIEN_1960, \
 PE_VCS_HON_DAU_1992, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "Hon Dau 1992"
-
-PE_VCS_HONG_KONG_CHART_DATUM, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Hong Kong Chart Datum"
-
-PE_VCS_HONG_KONG_PRINCIPAL_DATUM, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Hong Kong Principal Datum"
 
 PE_VCS_INAGEOID2020_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -1124,38 +1164,6 @@ PE_VCS_INAGEOID2020_V2_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "INAGeoid2020 v2 height"
 
-PE_VCS_JSLD72_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "JSLD72 height"
-
-PE_VCS_JGD_2000_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Japanese Geodetic Datum 2000 (vertical) height"
-
-PE_VCS_JGD_2011_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Japanese Geodetic Datum 2011 (vertical) height"
-
-PE_VCS_JAPAN_STD_LEVEL_DATUM_1969, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Japanese Standard Levelling Datum 1969"
-
-PE_VCS_KOC_CONSTRUCTION_DATUM, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "KOC Construction Datum"
-
-PE_VCS_KOC_WD_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "KOC WD height"
-
-PE_VCS_KOC_WELL_DATUM, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "KOC Well Datum"
-
-PE_VCS_KOC_WD_DEPTH_FT, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "KOC Well Datum (depth in IFt)"
-
 PE_VCS_KSA_VRF14_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "KSA-VRF14 height"
@@ -1163,10 +1171,6 @@ PE_VCS_KSA_VRF14_HT, \
 PE_VCS_INCHEON_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "KVD1964 Height"
-
-PE_VCS_KUWAIT_PWD, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
-   "Kuwait PWD"
 
 PE_VCS_MVGC_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
@@ -1204,13 +1208,65 @@ PE_VCS_TWVD_2001_HT, \
    "Vertical Coordinate Systems/Gravity-related/Asia", \
    "TWVD 2001 height"
 
+PE_VCS_HKPD_D, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/China", \
+   "HKPD depth"
+
+PE_VCS_HONG_KONG_CHART_DATUM, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/China", \
+   "Hong Kong Chart Datum"
+
+PE_VCS_HONG_KONG_PRINCIPAL_DATUM, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/China", \
+   "Hong Kong Principal Datum"
+
 PE_VCS_YELLOW_SEA_1956, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
+   "Vertical Coordinate Systems/Gravity-related/Asia/China", \
    "Yellow Sea 1956"
 
 PE_VCS_YELLOW_SEA_1985, \
-   "Vertical Coordinate Systems/Gravity-related/Asia", \
+   "Vertical Coordinate Systems/Gravity-related/Asia/China", \
    "Yellow Sea 1985"
+
+PE_VCS_JSLD72_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/Japan", \
+   "JSLD72 height"
+
+PE_VCS_JGD_2000_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/Japan", \
+   "Japanese Geodetic Datum 2000 (vertical) height"
+
+PE_VCS_JGD_2011_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/Japan", \
+   "Japanese Geodetic Datum 2011 (vertical) height"
+
+PE_VCS_JGD_2024_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/Japan", \
+   "Japanese Geodetic Datum 2024 (vertical) height"
+
+PE_VCS_JAPAN_STD_LEVEL_DATUM_1969, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/Japan", \
+   "Japanese Standard Levelling Datum 1969"
+
+PE_VCS_KOC_CONSTRUCTION_DATUM, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/Kuwait", \
+   "KOC Construction Datum"
+
+PE_VCS_KOC_WD_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/Kuwait", \
+   "KOC WD height"
+
+PE_VCS_KOC_WELL_DATUM, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/Kuwait", \
+   "KOC Well Datum"
+
+PE_VCS_KOC_WD_DEPTH_FT, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/Kuwait", \
+   "KOC Well Datum depth (Intl Feet)"
+
+PE_VCS_KUWAIT_PWD, \
+   "Vertical Coordinate Systems/Gravity-related/Asia/Kuwait", \
+   "Kuwait PWD"
 
 PE_VCS_AHD, \
    "Vertical Coordinate Systems/Gravity-related/Australia and New Zealand", \
@@ -1296,18 +1352,6 @@ PE_VCS_DACR52_HT, \
    "Vertical Coordinate Systems/Gravity-related/Central America", \
    "DACR52 height"
 
-PE_VCS_ALBORAN_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Alboran_height"
-
-PE_VCS_ALICANTE, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Alicante"
-
-PE_VCS_ANTALYA, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Antalya"
-
 PE_VCS_BGS2005_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "BGS2005 height"
@@ -1352,13 +1396,21 @@ PE_VCS_CD_NORWAY_DEPTH, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "CD Norway depth"
 
-PE_VCS_CD_UK_IRELAND_VORF08_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "CD UK and Ireland VORF08 depth"
-
 PE_VCS_CAGLIARI_1956_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Cagliari 1956 height"
+
+PE_VCS_CASCAIS, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "Cascais"
+
+PE_VCS_CASPIAN, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "Caspian depth"
+
+PE_VCS_CASPIAN_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "Caspian height"
 
 PE_VCS_CATANIA_1965_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1367,70 +1419,6 @@ PE_VCS_CATANIA_1965_HEIGHT, \
 PE_VCS_CONSTANTA, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Constanta"
-
-PE_VCS_DHHN12_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DHHN12 height"
-
-PE_VCS_DHHN2016_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DHHN2016 height"
-
-PE_VCS_DHHN85, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DHHN85"
-
-PE_VCS_DHHN92, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DHHN92"
-
-PE_VCS_DKLAT_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DKLAT depth (ensemble)"
-
-PE_VCS_DKLAT_2022_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DKLAT(2022) depth"
-
-PE_VCS_DKLAT_2023_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DKLAT(2023) depth"
-
-PE_VCS_DKMSL_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DKMSL depth (ensemble)"
-
-PE_VCS_DKMSL_2022_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DKMSL(2022) depth"
-
-PE_VCS_DKMSL_2023_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DKMSL(2023) depth"
-
-PE_VCS_DANSK_VERT_REF_1990, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DVR90 height (ensemble)"
-
-PE_VCS_DVR90_2000_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DVR90(2000) height"
-
-PE_VCS_DVR90_2002_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DVR90(2002) height"
-
-PE_VCS_DVR90_2013_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DVR90(2013) height"
-
-PE_VCS_DVR90_2023_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "DVR90(2023) height"
-
-PE_VCS_DANSK_NORMAL_NUL, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Dansk Normal Nul"
 
 PE_VCS_DURRES, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1472,29 +1460,13 @@ PE_VCS_FCSVR10_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "FCSVR10 height"
 
-PE_VCS_FVR09_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "FVR09 height"
-
 PE_VCS_FAMAGUSTA_1960_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Famagusta 1960 height"
 
-PE_VCS_FORMENTERA_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Formentera_height"
-
 PE_VCS_GHA, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "GHA"
-
-PE_VCS_GNTRANS_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "GNTRANS height"
-
-PE_VCS_GNTRANS2016_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "GNTRANS2016 height"
 
 PE_VCS_GENOA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1511,10 +1483,6 @@ PE_VCS_HVRS_1971, \
 PE_VCS_ISH2004_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "ISN2004 height"
-
-PE_VCS_IBIZA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Ibiza height"
 
 PE_VCS_LAS07_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1540,22 +1508,6 @@ PE_VCS_MSL_NL_DEPTH, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "MSL NL depth"
 
-PE_VCS_MSL_UK_IRELAND_VORF08_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "MSL UK and Ireland VORF08 depth"
-
-PE_VCS_MALLORCA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Mallorca height"
-
-PE_VCS_MELILLA_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Melilla_height"
-
-PE_VCS_MENORCA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "Menorca height"
-
 PE_VCS_N2000, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "N2000 height"
@@ -1576,22 +1528,6 @@ PE_VCS_NG_L, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "NG95 height"
 
-PE_VCS_NGC_1948, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "NGC 1948"
-
-PE_VCS_NGF_IGN69, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "NGF IGN69"
-
-PE_VCS_NGF_IGN78, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "NGF IGN78"
-
-PE_VCS_NGF_LALLEMAND, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "NGF Lallemand"
-
 PE_VCS_NN2000_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "NN2000 height"
@@ -1608,10 +1544,6 @@ PE_VCS_PIRAEUS, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Piraeus"
 
-PE_VCS_REDNAP, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "REDNAP height"
-
 PE_VCS_RH1900, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "RH1900"
@@ -1623,10 +1555,6 @@ PE_VCS_RH2000, \
 PE_VCS_RH70, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "RH70"
-
-PE_VCS_SNN76, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "SNN76"
 
 PE_VCS_SRB_VRS12_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1652,125 +1580,225 @@ PE_VCS_VIENNA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Vienna height"
 
+PE_VCS_ZH_PORTUGAL_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "ZH Portugal depth"
+
+PE_VCS_DKLAT_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DKLAT depth (ensemble)"
+
+PE_VCS_DKLAT_2022_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DKLAT(2022) depth"
+
+PE_VCS_DKLAT_2023_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DKLAT(2023) depth"
+
+PE_VCS_DKMSL_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DKMSL depth (ensemble)"
+
+PE_VCS_DKMSL_2022_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DKMSL(2022) depth"
+
+PE_VCS_DKMSL_2023_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DKMSL(2023) depth"
+
+PE_VCS_DANSK_VERT_REF_1990, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DVR90 height (ensemble)"
+
+PE_VCS_DVR90_2000_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DVR90(2000) height"
+
+PE_VCS_DVR90_2002_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DVR90(2002) height"
+
+PE_VCS_DVR90_2013_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DVR90(2013) height"
+
+PE_VCS_DVR90_2023_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "DVR90(2023) height"
+
+PE_VCS_DANSK_NORMAL_NUL, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "Dansk Normal Nul"
+
+PE_VCS_FVR09_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Denmark", \
+   "FVR09 height"
+
+PE_VCS_NGC_1948, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/France", \
+   "NGC 1948"
+
+PE_VCS_NGF_IGN69, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/France", \
+   "NGF IGN69"
+
+PE_VCS_NGF_IGN78, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/France", \
+   "NGF IGN78"
+
+PE_VCS_NGF_LALLEMAND, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/France", \
+   "NGF Lallemand"
+
+PE_VCS_ASSE_2025_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Germany", \
+   "Asse 2025 height"
+
+PE_VCS_DHHN12_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Germany", \
+   "DHHN12 height"
+
+PE_VCS_DHHN2016_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Germany", \
+   "DHHN2016 height"
+
+PE_VCS_DHHN85, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Germany", \
+   "DHHN85"
+
+PE_VCS_DHHN92, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Germany", \
+   "DHHN92"
+
+PE_VCS_GNTRANS_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Germany", \
+   "GNTRANS height"
+
+PE_VCS_GNTRANS2016_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Germany", \
+   "GNTRANS2016 height"
+
+PE_VCS_SNN76, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Germany", \
+   "SNN76"
+
 PE_VCS_BELFAST, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Belfast"
 
 PE_VCS_BI_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "British Isles height (ensemble)"
 
+PE_VCS_CD_UK_IRELAND_VORF08_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
+   "CD UK and Ireland VORF08 depth"
+
 PE_VCS_DOUGLAS, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Douglas"
 
 PE_VCS_FAIR_ISLE, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Fair Isle"
 
 PE_VCS_FLANNAN_ISLES, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Flannan Isles"
 
 PE_VCS_FOULA, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Foula"
 
 PE_VCS_HS2_VRF_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "HS2-VRF height"
 
 PE_VCS_LERWICK, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Lerwick"
 
+PE_VCS_MSL_UK_IRELAND_VORF08_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
+   "MSL UK and Ireland VORF08 depth"
+
 PE_VCS_MALIN_HEAD, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Malin Head"
 
 PE_VCS_NEWLYN, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Newlyn"
 
 PE_VCS_NEWLYN_ORKNEY_ISLES, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Newlyn (Orkney Isles)"
 
 PE_VCS_NORTH_RONA, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "North Rona"
 
 PE_VCS_ODN_OFFSHORE_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "ODN (Offshore) height"
 
 PE_VCS_POOLBEG, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
-   "Poolbeg"
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
+   "Poolbeg height (British Feet 1936)"
 
 PE_VCS_POOLBEG_HT_M, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
-   "Poolbeg height (m)"
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
+   "Poolbeg height (Meters)"
 
 PE_VCS_ST_KILDA, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "St Kilda"
 
 PE_VCS_ST_MARYS, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "St Marys"
 
 PE_VCS_STORNOWAY, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Stornoway"
 
 PE_VCS_SULE_SKERRY, \
-   "Vertical Coordinate Systems/Gravity-related/Ireland and United Kingdom", \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Sule Skerry"
 
-PE_VCS_CGVD_1928, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "CGVD 1928"
+PE_VCS_ALBORAN_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Spain", \
+   "Alboran height"
 
-PE_VCS_CGVD2013_HT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "CGVD2013 height"
+PE_VCS_ALICANTE, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Spain", \
+   "Alicante"
 
-PE_VCS_CGVD2013A1997_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "CGVD2013a(1997) height"
+PE_VCS_FORMENTERA_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Spain", \
+   "Formentera height"
 
-PE_VCS_CGVD2013A2002_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "CGVD2013a(2002) height"
+PE_VCS_IBIZA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Spain", \
+   "Ibiza height"
 
-PE_VCS_CGVD2013_CGG2013A_HT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "CGVD2013a(2010) height"
+PE_VCS_MALLORCA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Spain", \
+   "Mallorca height"
 
-PE_VCS_CGVD28_HTV2_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "CGVD28(HTv2.0) height"
+PE_VCS_MENORCA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Spain", \
+   "Menorca height"
 
-PE_VCS_GLLAT_2023_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "GLLAT(2023) depth"
+PE_VCS_REDNAP, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Spain", \
+   "REDNAP height"
 
-PE_VCS_GLLMSL_2022_HEIGHT, \
+PE_VCS_DANGER_1950, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "GLLMSL(2022) height"
-
-PE_VCS_GLMSL_2023_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "GLMSL(2023) depth"
-
-PE_VCS_GVR2000_HT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "GVR2000 height"
-
-PE_VCS_GVR2016_HT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "GVR2016 height"
+   "Danger 1950"
 
 PE_VCS_IGLD_1955, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
@@ -1780,85 +1808,105 @@ PE_VCS_IGLD_1985, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
    "IGLD 1985"
 
-PE_VCS_MSL_HI_HT_USFT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "MSL Hawaii height (ftUS)"
-
-PE_VCS_MSL_HI_HT_M, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "MSL Hawaii height (m)"
-
-PE_VCS_MSL_D_FTUS, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "MSL depth (ftUS)"
-
-PE_VCS_MSL_HT_FTUS, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "MSL height (ftUS)"
-
-PE_VCS_NAVD88_D_USFT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NAVD88 depth (ftUS)"
-
 PE_VCS_NAVD88_D, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NAVD88 depth (m)"
-
-PE_VCS_NAVD88_HT_IFT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NAVD88 height (ftIntl)"
-
-PE_VCS_NAVD88_HT_USFT, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NAVD88 height (ftUS)"
+   "NAVD88 depth (Meters)"
 
 PE_VCS_NAVD_1988, \
    "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NAVD88 height (m)"
+   "NAVD88 height (Meters)"
+
+PE_VCS_CGVD_1928, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Canada", \
+   "CGVD 1928"
+
+PE_VCS_CGVD2013_HT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Canada", \
+   "CGVD2013 height"
+
+PE_VCS_CGVD2013A1997_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Canada", \
+   "CGVD2013a(1997) height"
+
+PE_VCS_CGVD2013A2002_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Canada", \
+   "CGVD2013a(2002) height"
+
+PE_VCS_CGVD2013_CGG2013A_HT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Canada", \
+   "CGVD2013a(2010) height"
+
+PE_VCS_CGVD28_HTV2_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Canada", \
+   "CGVD28(HTv2.0) height"
+
+PE_VCS_GLLAT_2023_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Greenland", \
+   "GLLAT(2023) depth"
+
+PE_VCS_GLLMSL_2022_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Greenland", \
+   "GLLMSL(2022) height"
+
+PE_VCS_GLMSL_2023_DEPTH, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Greenland", \
+   "GLMSL(2023) depth"
+
+PE_VCS_GVR2000_HT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Greenland", \
+   "GVR2000 height"
+
+PE_VCS_GVR2016_HT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/Greenland", \
+   "GVR2016 height"
+
+PE_VCS_COH88_2025_NAVD88_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "COH88 2025 (NAVD88) height"
+
+PE_VCS_MSL_D_FTUS, \
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "MSL depth (US Feet)"
+
+PE_VCS_MSL_HT_FTUS, \
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "MSL height (US Feet)"
+
+PE_VCS_NAVD88_D, \
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "NAVD88 depth (Meters)"
+
+PE_VCS_NAVD88_D_USFT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "NAVD88 depth (US Feet)"
+
+PE_VCS_NAVD88_HT_IFT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "NAVD88 height (Intl Feet)"
+
+PE_VCS_NAVD_1988, \
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "NAVD88 height (Meters)"
+
+PE_VCS_NAVD88_HT_USFT, \
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "NAVD88 height (US Feet)"
 
 PE_VCS_NGVD29_D, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NGVD29 depth (ftUS)"
-
-PE_VCS_NGVD_1929, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NGVD29 height (ftUS)"
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "NGVD29 depth (US Feet)"
 
 PE_VCS_NGVD29_HT_M, \
-   "Vertical Coordinate Systems/Gravity-related/North America", \
-   "NGVD29 height (m)"
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "NGVD29 height (Meters)"
 
-PE_VCS_DANGER_1950, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
-   "Danger 1950"
-
-PE_VCS_EL_HIERRO_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
-   "El Hierro height"
-
-PE_VCS_FUERTEVENTURA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
-   "Fuerteventura height"
-
-PE_VCS_GRAN_CANARIA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
-   "Gran Canaria height"
+PE_VCS_NGVD_1929, \
+   "Vertical Coordinate Systems/Gravity-related/North America/United States", \
+   "NGVD29 height (US Feet)"
 
 PE_VCS_JAMESTOWN_1971_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
    "Jamestown 1971 height"
-
-PE_VCS_LA_GOMERA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
-   "La Gomera height"
-
-PE_VCS_LA_PALMA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
-   "La Palma height"
-
-PE_VCS_LANZAROTE_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
-   "Lanzarote height"
 
 PE_VCS_SHVD2015_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
@@ -1868,8 +1916,72 @@ PE_VCS_ST_HELENA_TRITAN_2011_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
    "St. Helena Tritan 2011 height"
 
+PE_VCS_CAIS_DA_FIGUEIRINHA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Cais da Figueirinha - Angra do Heroismo height"
+
+PE_VCS_CAIS_DA_MADALENA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Cais da Madalena height"
+
+PE_VCS_CAIS_DA_PONTINHA_FUNCHAL_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Cais da Pontinha - Funchal height"
+
+PE_VCS_CAIS_DA_VILA_PORTO_SANTO_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Cais da Vila - Porto Santo height"
+
+PE_VCS_CAIS_DA_VILA_DO_PORTO_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Cais da Vila do Porto height"
+
+PE_VCS_CAIS_DAS_VELAS_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Cais das Velas height"
+
+PE_VCS_HORTA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Horta height"
+
+PE_VCS_PONTA_DELGADA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Ponta Delgada height"
+
+PE_VCS_SANTA_CRUZ_DA_GRACIOSA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Santa Cruz da Graciosa height"
+
+PE_VCS_SANTA_CRUZ_DAS_FLORES_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Azores and Madeira", \
+   "Santa Cruz das Flores height"
+
+PE_VCS_EL_HIERRO_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Canary Islands", \
+   "El Hierro height"
+
+PE_VCS_FUERTEVENTURA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Canary Islands", \
+   "Fuerteventura height"
+
+PE_VCS_GRAN_CANARIA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Canary Islands", \
+   "Gran Canaria height"
+
+PE_VCS_LA_GOMERA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Canary Islands", \
+   "La Gomera height"
+
+PE_VCS_LA_PALMA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Canary Islands", \
+   "La Palma height"
+
+PE_VCS_LANZAROTE_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Canary Islands", \
+   "Lanzarote height"
+
 PE_VCS_TENERIFE_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean", \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Atlantic Ocean/Canary Islands", \
    "Tenerife height"
 
 PE_VCS_BONAIRE_HEIGHT, \
@@ -1878,35 +1990,15 @@ PE_VCS_BONAIRE_HEIGHT, \
 
 PE_VCS_CBVD61_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "CBVD61 height"
+   "CBVD61 height (Intl Feet)"
 
 PE_VCS_GCVD54_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "GCVD54 height"
-
-PE_VCS_GUADELOUPE_1951, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "Guadeloupe 1951"
-
-PE_VCS_IGN_1987, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "IGN 1987"
-
-PE_VCS_IGN_1988, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "IGN 1988"
-
-PE_VCS_IGN_2008_LD_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "IGN 2008 LD height"
+   "GCVD54 height (Intl Feet)"
 
 PE_VCS_LCVD61_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "LCVD61 height"
-
-PE_VCS_MARTINIQUE_1955, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
-   "Martinique 1950"
+   "LCVD61 height (Intl Feet)"
 
 PE_VCS_PRVD02_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
@@ -1924,6 +2016,46 @@ PE_VCS_VIVD09_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea", \
    "VIVD09 height"
 
+PE_VCS_GUADELOUPE_1951, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea/French Antilles", \
+   "Guadeloupe 1951"
+
+PE_VCS_IGN_1987, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea/French Antilles", \
+   "IGN 1987"
+
+PE_VCS_IGN_1988, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea/French Antilles", \
+   "IGN 1988"
+
+PE_VCS_IGN_1988_LS, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea/French Antilles", \
+   "IGN 1988 Les Saintes"
+
+PE_VCS_IGN_1988_MG, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea/French Antilles", \
+   "IGN 1988 Marie-Galante"
+
+PE_VCS_IGN_1988_SB, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea/French Antilles", \
+   "IGN 1988 St Barthelemy"
+
+PE_VCS_IGN_1988_SM, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea/French Antilles", \
+   "IGN 1988 St Martin"
+
+PE_VCS_IGN_1992_LD, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea/French Antilles", \
+   "IGN 1992 La Desirade"
+
+PE_VCS_IGN_2008_LD_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea/French Antilles", \
+   "IGN 2008 LD height"
+
+PE_VCS_MARTINIQUE_1955, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Caribbean Sea/French Antilles", \
+   "Martinique 1950"
+
 PE_VCS_IGN_1989, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Indian Ocean", \
    "IGN 1989"
@@ -1931,74 +2063,6 @@ PE_VCS_IGN_1989, \
 PE_VCS_MAYOTTE_1950, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Indian Ocean", \
    "Mayotte 1950"
-
-PE_VCS_ASVD02_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "ASVD02 height"
-
-PE_VCS_BORA_BORA_SAU_2001, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Bora Bora SAU 2001"
-
-PE_VCS_GUVD04_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "GUVD04 height"
-
-PE_VCS_GUAM_1963_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Guam 1963 height"
-
-PE_VCS_HUAHINE_SAU_2001, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Huahine SAU 2001"
-
-PE_VCS_IGN_1966, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "IGN 1966"
-
-PE_VCS_IGN_1988_LS, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "IGN 1988 Les Saintes"
-
-PE_VCS_IGN_1988_MG, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "IGN 1988 Marie-Galante"
-
-PE_VCS_IGN_1988_SB, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "IGN 1988 St Barthelemy"
-
-PE_VCS_IGN_1988_SM, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "IGN 1988 St Martin"
-
-PE_VCS_IGN_1992_LD, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "IGN 1992 La Desirade"
-
-PE_VCS_KIUNGA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Kiunga height"
-
-PE_VCS_KUMUL_34_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Kumul 34 height"
-
-PE_VCS_MSL_HI_HT_USFT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "MSL Hawaii height (ftUS)"
-
-PE_VCS_MSL_HI_HT_M, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "MSL Hawaii height (m)"
-
-PE_VCS_MAUPITI_SAU_2001, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Maupiti SAU 2001"
-
-PE_VCS_MOOREA_SAU_1981, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Moorea SAU 1981"
 
 PE_VCS_NGNC, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
@@ -2008,89 +2072,89 @@ PE_VCS_NGNC08_HT, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
    "NGNC08 height"
 
+PE_VCS_BORA_BORA_SAU_2001, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/French Polynesia", \
+   "Bora Bora SAU 2001"
+
+PE_VCS_HUAHINE_SAU_2001, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/French Polynesia", \
+   "Huahine SAU 2001"
+
+PE_VCS_IGN_1966, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/French Polynesia", \
+   "IGN 1966"
+
+PE_VCS_MAUPITI_SAU_2001, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/French Polynesia", \
+   "Maupiti SAU 2001"
+
+PE_VCS_MOOREA_SAU_1981, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/French Polynesia", \
+   "Moorea SAU 1981"
+
 PE_VCS_NGPF, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/French Polynesia", \
    "NGPF"
 
-PE_VCS_NMVD03_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "NMVD03 height"
-
-PE_VCS_PNG08_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "PNG08 height"
-
-PE_VCS_POM08_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "POM08 height"
-
-PE_VCS_POM96_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "POM96 height"
-
-PE_VCS_PAGO_PAGO_2020_HEIGHT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
-   "Pago Pago 2020 height"
-
 PE_VCS_RAIATEA_SAU_2001, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/French Polynesia", \
    "Raiatea SAU 2001"
 
 PE_VCS_TAHAA_SAU_2001, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/French Polynesia", \
    "Tahaa SAU 2001"
 
+PE_VCS_ASVD02_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "ASVD02 height"
+
+PE_VCS_GUVD04_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "GUVD04 height"
+
+PE_VCS_GUAM_1963_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "Guam 1963 height"
+
+PE_VCS_MSL_HI_HT_M, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "MSL Hawaii height (Meters)"
+
+PE_VCS_MSL_HI_HT_USFT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "MSL Hawaii height (US Feet)"
+
+PE_VCS_NMVD03_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "NMVD03 height"
+
+PE_VCS_PAGO_PAGO_2020_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Hawaii and US Territories", \
+   "Pago Pago 2020 height"
+
 PE_VCS_TUTUILA_1962_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean", \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Hawaii and US Territories", \
    "Tutuila 1962 height"
 
-PE_VCS_CAIS_DA_FIGUEIRINHA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais da Figueirinha - Angra do Heroismo height"
+PE_VCS_KIUNGA_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Papua New Guinea", \
+   "Kiunga height"
 
-PE_VCS_CAIS_DA_MADALENA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais da Madalena height"
+PE_VCS_KUMUL_34_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Papua New Guinea", \
+   "Kumul 34 height"
 
-PE_VCS_CAIS_DA_PONTINHA_FUNCHAL_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais da Pontinha - Funchal height"
+PE_VCS_PNG08_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Papua New Guinea", \
+   "PNG08 height"
 
-PE_VCS_CAIS_DA_VILA_PORTO_SANTO_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais da Vila - Porto Santo height"
+PE_VCS_POM08_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Papua New Guinea", \
+   "POM08 height"
 
-PE_VCS_CAIS_DA_VILA_DO_PORTO_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais da Vila do Porto height"
-
-PE_VCS_CAIS_DAS_VELAS_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cais das Velas height"
-
-PE_VCS_CASCAIS, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Cascais"
-
-PE_VCS_HORTA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Horta height"
-
-PE_VCS_PONTA_DELGADA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Ponta Delgada height"
-
-PE_VCS_SANTA_CRUZ_DA_GRACIOSA_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Santa Cruz da Graciosa height"
-
-PE_VCS_SANTA_CRUZ_DAS_FLORES_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "Santa Cruz das Flores height"
-
-PE_VCS_ZH_PORTUGAL_DEPTH, \
-   "Vertical Coordinate Systems/Gravity-related/Portugal", \
-   "ZH_Portugal_depth"
+PE_VCS_POM96_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Pacific Ocean/Papua New Guinea", \
+   "POM96 height"
 
 PE_VCS_NGG_1977, \
    "Vertical Coordinate Systems/Gravity-related/South America", \
@@ -2114,11 +2178,11 @@ PE_VCS_EGM96_GEOID, \
 
 PE_VCS_EGM96_GEOID_IFT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "EGM96 height (ftIntl)"
+   "EGM96 height (Intl Feet)"
 
 PE_VCS_EGM96_GEOID_USFT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "EGM96 height (ftUS)"
+   "EGM96 height (US Feet)"
 
 PE_VCS_HAT_HT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
@@ -2190,7 +2254,7 @@ PE_VCS_MSL_DEPTH, \
 
 PE_VCS_MSL_D_FT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "MSL depth (ftIntl)"
+   "MSL depth (Intl Feet)"
 
 PE_VCS_MSL_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
@@ -2198,21 +2262,21 @@ PE_VCS_MSL_HEIGHT, \
 
 PE_VCS_MSL_HT_FT, \
    "Vertical Coordinate Systems/Gravity-related/World", \
-   "MSL height (ftIntl)"
+   "MSL height (Intl Feet)"
 
 PE_VCS_WGS_1984_GEOID, \
    "Vertical Coordinate Systems/Gravity-related/World", \
    "WGS 1984 Geoid"
 
-PE_VCS_UNKNOWN_HT_SYSTEM_USFT, \
-   "Vertical Coordinate Systems/Unknown Height Systems", \
-   "Unknown height system (US survey feet)"
-
 PE_VCS_UNKNOWN_HT_SYSTEM_FT, \
    "Vertical Coordinate Systems/Unknown Height Systems", \
-   "Unknown height system (international feet)"
+   "Unknown height system (Intl Feet)"
 
 PE_VCS_UNKNOWN_HT_SYSTEM_M, \
    "Vertical Coordinate Systems/Unknown Height Systems", \
-   "Unknown height system (meters)"
+   "Unknown height system (Meters)"
+
+PE_VCS_UNKNOWN_HT_SYSTEM_USFT, \
+   "Vertical Coordinate Systems/Unknown Height Systems", \
+   "Unknown height system (US Feet)"
 

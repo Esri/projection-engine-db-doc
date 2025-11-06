@@ -226,7 +226,7 @@ PE_PCS_NAD_1927_CONUS_ALBERS, \
 
 PE_PCS_NAD83_2011_AMTRAK_NECCS21_FT, \
    "Projected Coordinate Systems/Continental/North America", \
-   "NAD 1983 (2011) Amtrak NECCS21 (ft)"
+   "NAD 1983 (2011) Amtrak NECCS21 (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_CONUS_ALBERS, \
    "Projected Coordinate Systems/Continental/North America", \
@@ -294,7 +294,7 @@ PE_PCS_NAD_1983_N_AMERICA_LAMBERT, \
 
 PE_PCS_PANHANDLE_ENERGY_ALBERS, \
    "Projected Coordinate Systems/Continental/North America", \
-   "Panhandle Energy Albers"
+   "Panhandle Energy Albers (US Feet)"
 
 PE_PCS_US_NATIONAL_ATLAS_EQUAL_AREA, \
    "Projected Coordinate Systems/Continental/North America", \
@@ -338,27 +338,31 @@ PE_PCS_SAD_1969_S_AMERICA_LAMBERT, \
 
 PE_PCS_HJAIA, \
    "Projected Coordinate Systems/County Systems", \
-   "HJAIA_AirportGrid_09March2010"
+   "HJAIA AirportGrid 09March2010 (US Feet)"
 
 PE_PCS_NAD_1983_2011_FARGO, \
    "Projected Coordinate Systems/County Systems", \
    "NAD 1983 (2011) Fargo Ground Coordinate System (US Feet)"
 
+PE_PCS_NAD83_2011_NE_LDP_DS_IFT, \
+   "Projected Coordinate Systems/County Systems", \
+   "NAD 1983 (2011) Nebraska LDP Douglas-Sarpy County (Intl Feet)"
+
 PE_PCS_NAD_1983_2011_PCCS_1, \
    "Projected Coordinate Systems/County Systems", \
-   "NAD 1983 (2011) PCCS zone 1 (Feet)"
+   "NAD 1983 (2011) PCCS zone 1 (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_PCCS_2, \
    "Projected Coordinate Systems/County Systems", \
-   "NAD 1983 (2011) PCCS zone 2 (Feet)"
+   "NAD 1983 (2011) PCCS zone 2 (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_PCCS_3, \
    "Projected Coordinate Systems/County Systems", \
-   "NAD 1983 (2011) PCCS zone 3 (Feet)"
+   "NAD 1983 (2011) PCCS zone 3 (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_PCCS_4, \
    "Projected Coordinate Systems/County Systems", \
-   "NAD 1983 (2011) PCCS zone 4 (Feet)"
+   "NAD 1983 (2011) PCCS zone 4 (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_SF_CS13_M, \
    "Projected Coordinate Systems/County Systems", \
@@ -378,15 +382,11 @@ PE_PCS_NAD_1983_HARN_FARGO, \
 
 PE_PCS_NAD_1983_ID_ADA, \
    "Projected Coordinate Systems/County Systems", \
-   "NAD 1983 Idaho - Ada County"
+   "NAD 1983 Idaho - Ada County (US Feet)"
 
 PE_PCS_NAD_1983_NEBRASKA_LANCASTER_CTY_USFT, \
    "Projected Coordinate Systems/County Systems", \
    "NAD 1983 Nebraska - Lancaster County (US Feet)"
-
-PE_PCS_NAD83_2011_NE_LDP_DS_IFT, \
-   "Projected Coordinate Systems/County Systems", \
-   "NAD_1983 (2011) Nebraska LDP Douglas-Sarpy County (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_ICS_AURORA_USFT, \
    "Projected Coordinate Systems/County Systems/Illinois", \
@@ -522,595 +522,595 @@ PE_PCS_NAD_1983_2011_ICS_WATSEKA_USFT, \
 
 PE_PCS_NAD_1983_2011_INGCS_ADAMS_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Adams (m)"
+   "NAD 1983 (2011) InGCS Adams (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_ALLEN_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Allen (m)"
+   "NAD 1983 (2011) InGCS Allen (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_BARTHOLOMEW_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Bartholomew (m)"
+   "NAD 1983 (2011) InGCS Bartholomew (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_BENTON_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Benton (m)"
+   "NAD 1983 (2011) InGCS Benton (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_BLACKFORD_DELAWARE_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Blackford-Delaware (m)"
+   "NAD 1983 (2011) InGCS Blackford-Delaware (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_BOONE_HENDRICKS_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Boone-Hendricks (m)"
+   "NAD 1983 (2011) InGCS Boone-Hendricks (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_BROWN_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Brown (m)"
+   "NAD 1983 (2011) InGCS Brown (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_CARROLL_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Carroll (m)"
+   "NAD 1983 (2011) InGCS Carroll (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_CASS_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Cass (m)"
+   "NAD 1983 (2011) InGCS Cass (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_CLARK_FLOYD_SCOTT_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Clark-Floyd-Scott (m)"
+   "NAD 1983 (2011) InGCS Clark-Floyd-Scott (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_CLAY_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Clay (m)"
+   "NAD 1983 (2011) InGCS Clay (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_CLINTON_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Clinton (m)"
+   "NAD 1983 (2011) InGCS Clinton (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_CRAWFORD_LAWRENCE_ORANGE_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Crawford-Lawrence-Orange (m)"
+   "NAD 1983 (2011) InGCS Crawford-Lawrence-Orange (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_DAVIESS_GREENE_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Daviess-Greene (m)"
+   "NAD 1983 (2011) InGCS Daviess-Greene (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_DEKALB_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS DeKalb (m)"
+   "NAD 1983 (2011) InGCS DeKalb (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_DEARBORN_OHIO_SWITZERLAND_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Dearborn-Ohio-Switzerland (m)"
+   "NAD 1983 (2011) InGCS Dearborn-Ohio-Switzerland (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_DECATUR_RUSH_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Decatur-Rush (m)"
+   "NAD 1983 (2011) InGCS Decatur-Rush (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_DUBOIS_MARTIN_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Dubois-Martin (m)"
+   "NAD 1983 (2011) InGCS Dubois-Martin (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_ELKHART_KOSCIUSKO_WABASH_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Elkhart-Kosciusko-Wabash (m)"
+   "NAD 1983 (2011) InGCS Elkhart-Kosciusko-Wabash (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_FAYETTE_FRANKLIN_UNION_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Fayette-Franklin-Union (m)"
+   "NAD 1983 (2011) InGCS Fayette-Franklin-Union (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_FOUNTAIN_WARREN_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Fountain-Warren (m)"
+   "NAD 1983 (2011) InGCS Fountain-Warren (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_FULTON_MARSHALL_ST_JOSEPH_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Fulton-Marshall-St. Joseph (m)"
+   "NAD 1983 (2011) InGCS Fulton-Marshall-St. Joseph (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_GIBSON_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Gibson (m)"
+   "NAD 1983 (2011) InGCS Gibson (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_GRANT_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Grant (m)"
+   "NAD 1983 (2011) InGCS Grant (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_HAMILTON_TIPTON_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Hamilton-Tipton (m)"
+   "NAD 1983 (2011) InGCS Hamilton-Tipton (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_HANCOCK_MADISON_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Hancock-Madison (m)"
+   "NAD 1983 (2011) InGCS Hancock-Madison (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_HARRISON_WASHINGTON_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Harrison-Washington (m)"
+   "NAD 1983 (2011) InGCS Harrison-Washington (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_HENRY_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Henry (m)"
+   "NAD 1983 (2011) InGCS Henry (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_HOWARD_MIAMI_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Howard-Miami (m)"
+   "NAD 1983 (2011) InGCS Howard-Miami (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_HUNTINGTON_WHITLEY_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Huntington-Whitley (m)"
+   "NAD 1983 (2011) InGCS Huntington-Whitley (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_JACKSON_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Jackson (m)"
+   "NAD 1983 (2011) InGCS Jackson (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_JASPER_PORTER_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Jasper-Porter (m)"
+   "NAD 1983 (2011) InGCS Jasper-Porter (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_JAY_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Jay (m)"
+   "NAD 1983 (2011) InGCS Jay (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_JEFFERSON_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Jefferson (m)"
+   "NAD 1983 (2011) InGCS Jefferson (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_JENNINGS_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Jennings (m)"
+   "NAD 1983 (2011) InGCS Jennings (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_JOHNSON_MARION_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Johnson-Marion (m)"
+   "NAD 1983 (2011) InGCS Johnson-Marion (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_KNOX_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Knox (m)"
+   "NAD 1983 (2011) InGCS Knox (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_LAGRANGE_NOBLE_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS LaGrange-Noble (m)"
+   "NAD 1983 (2011) InGCS LaGrange-Noble (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_LAPORTE_PULASKI_STARKE_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS LaPorte-Pulaski-Starke (m)"
+   "NAD 1983 (2011) InGCS LaPorte-Pulaski-Starke (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_LAKE_NEWTON_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Lake-Newton (m)"
+   "NAD 1983 (2011) InGCS Lake-Newton (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_MONROE_MORGAN_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Monroe-Morgan (m)"
+   "NAD 1983 (2011) InGCS Monroe-Morgan (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_MONTGOMERY_PUTNAM_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Montgomery-Putnam (m)"
+   "NAD 1983 (2011) InGCS Montgomery-Putnam (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_OWEN_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Owen (m)"
+   "NAD 1983 (2011) InGCS Owen (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_PARKE_VERMILLION_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Parke-Vermillion (m)"
+   "NAD 1983 (2011) InGCS Parke-Vermillion (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_PERRY_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Perry (m)"
+   "NAD 1983 (2011) InGCS Perry (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_PIKE_WARRICK_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Pike-Warrick (m)"
+   "NAD 1983 (2011) InGCS Pike-Warrick (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_POSEY_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Posey (m)"
+   "NAD 1983 (2011) InGCS Posey (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_RANDOLPH_WAYNE_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Randolph-Wayne (m)"
+   "NAD 1983 (2011) InGCS Randolph-Wayne (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_RIPLEY_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Ripley (m)"
+   "NAD 1983 (2011) InGCS Ripley (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_SHELBY_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Shelby (m)"
+   "NAD 1983 (2011) InGCS Shelby (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_SPENCER_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Spencer (m)"
+   "NAD 1983 (2011) InGCS Spencer (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_STEUBEN_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Steuben (m)"
+   "NAD 1983 (2011) InGCS Steuben (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_SULLIVAN_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Sullivan (m)"
+   "NAD 1983 (2011) InGCS Sullivan (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_TIPPECANOE_WHITE_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Tippecanoe-White (m)"
+   "NAD 1983 (2011) InGCS Tippecanoe-White (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_VANDERBURGH_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Vanderburgh (m)"
+   "NAD 1983 (2011) InGCS Vanderburgh (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_VIGO_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Vigo (m)"
+   "NAD 1983 (2011) InGCS Vigo (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_WELLS_M, \
    "Projected Coordinate Systems/County Systems/Indiana/Meters", \
-   "NAD 1983 (2011) InGCS Wells (m)"
+   "NAD 1983 (2011) InGCS Wells (Meters)"
 
 PE_PCS_NAD_1983_2011_INGCS_ADAMS_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Adams (ftUS)"
+   "NAD 1983 (2011) InGCS Adams (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_ALLEN_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Allen (ftUS)"
+   "NAD 1983 (2011) InGCS Allen (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_BARTHOLOMEW_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Bartholomew (ftUS)"
+   "NAD 1983 (2011) InGCS Bartholomew (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_BENTON_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Benton (ftUS)"
+   "NAD 1983 (2011) InGCS Benton (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_BLACKFORD_DELAWARE_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Blackford-Delaware (ftUS)"
+   "NAD 1983 (2011) InGCS Blackford-Delaware (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_BOONE_HENDRICKS_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Boone-Hendricks (ftUS)"
+   "NAD 1983 (2011) InGCS Boone-Hendricks (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_BROWN_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Brown (ftUS)"
+   "NAD 1983 (2011) InGCS Brown (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_CARROLL_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Carroll (ftUS)"
+   "NAD 1983 (2011) InGCS Carroll (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_CASS_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Cass (ftUS)"
+   "NAD 1983 (2011) InGCS Cass (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_CLARK_FLOYD_SCOTT_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Clark-Floyd-Scott (ftUS)"
+   "NAD 1983 (2011) InGCS Clark-Floyd-Scott (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_CLAY_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Clay (ftUS)"
+   "NAD 1983 (2011) InGCS Clay (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_CLINTON_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Clinton (ftUS)"
+   "NAD 1983 (2011) InGCS Clinton (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_CRAWFORD_LAWRENCE_ORANGE_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Crawford-Lawrence-Orange (ftUS)"
+   "NAD 1983 (2011) InGCS Crawford-Lawrence-Orange (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_DAVIESS_GREENE_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Daviess-Greene (ftUS)"
+   "NAD 1983 (2011) InGCS Daviess-Greene (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_DEKALB_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS DeKalb (ftUS)"
+   "NAD 1983 (2011) InGCS DeKalb (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_DEARBORN_OHIO_SWITZERLAND_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Dearborn-Ohio-Switzerland (ftUS)"
+   "NAD 1983 (2011) InGCS Dearborn-Ohio-Switzerland (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_DECATUR_RUSH_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Decatur-Rush (ftUS)"
+   "NAD 1983 (2011) InGCS Decatur-Rush (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_DUBOIS_MARTIN_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Dubois-Martin (ftUS)"
+   "NAD 1983 (2011) InGCS Dubois-Martin (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_ELKHART_KOSCIUSKO_WABASH_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Elkhart-Kosciusko-Wabash (ftUS)"
+   "NAD 1983 (2011) InGCS Elkhart-Kosciusko-Wabash (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_FAYETTE_FRANKLIN_UNION_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Fayette-Franklin-Union (ftUS)"
+   "NAD 1983 (2011) InGCS Fayette-Franklin-Union (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_FOUNTAIN_WARREN_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Fountain-Warren (ftUS)"
+   "NAD 1983 (2011) InGCS Fountain-Warren (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_FULTON_MARSHALL_ST_JOSEPH_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Fulton-Marshall-St. Joseph (ftUS)"
+   "NAD 1983 (2011) InGCS Fulton-Marshall-St. Joseph (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_GIBSON_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Gibson (ftUS)"
+   "NAD 1983 (2011) InGCS Gibson (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_GRANT_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Grant (ftUS)"
+   "NAD 1983 (2011) InGCS Grant (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_HAMILTON_TIPTON_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Hamilton-Tipton (ftUS)"
+   "NAD 1983 (2011) InGCS Hamilton-Tipton (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_HANCOCK_MADISON_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Hancock-Madison (ftUS)"
+   "NAD 1983 (2011) InGCS Hancock-Madison (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_HARRISON_WASHINGTON_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Harrison-Washington (ftUS)"
+   "NAD 1983 (2011) InGCS Harrison-Washington (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_HENRY_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Henry (ftUS)"
+   "NAD 1983 (2011) InGCS Henry (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_HOWARD_MIAMI_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Howard-Miami (ftUS)"
+   "NAD 1983 (2011) InGCS Howard-Miami (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_HUNTINGTON_WHITLEY_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Huntington-Whitley (ftUS)"
+   "NAD 1983 (2011) InGCS Huntington-Whitley (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_JACKSON_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Jackson (ftUS)"
+   "NAD 1983 (2011) InGCS Jackson (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_JASPER_PORTER_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Jasper-Porter (ftUS)"
+   "NAD 1983 (2011) InGCS Jasper-Porter (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_JAY_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Jay (ftUS)"
+   "NAD 1983 (2011) InGCS Jay (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_JEFFERSON_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Jefferson (ftUS)"
+   "NAD 1983 (2011) InGCS Jefferson (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_JENNINGS_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Jennings (ftUS)"
+   "NAD 1983 (2011) InGCS Jennings (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_JOHNSON_MARION_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Johnson-Marion (ftUS)"
+   "NAD 1983 (2011) InGCS Johnson-Marion (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_KNOX_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Knox (ftUS)"
+   "NAD 1983 (2011) InGCS Knox (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_LAGRANGE_NOBLE_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS LaGrange-Noble (ftUS)"
+   "NAD 1983 (2011) InGCS LaGrange-Noble (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_LAPORTE_PULASKI_STARKE_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS LaPorte-Pulaski-Starke (ftUS)"
+   "NAD 1983 (2011) InGCS LaPorte-Pulaski-Starke (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_LAKE_NEWTON_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Lake-Newton (ftUS)"
+   "NAD 1983 (2011) InGCS Lake-Newton (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_MONROE_MORGAN_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Monroe-Morgan (ftUS)"
+   "NAD 1983 (2011) InGCS Monroe-Morgan (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_MONTGOMERY_PUTNAM_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Montgomery-Putnam (ftUS)"
+   "NAD 1983 (2011) InGCS Montgomery-Putnam (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_OWEN_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Owen (ftUS)"
+   "NAD 1983 (2011) InGCS Owen (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_PARKE_VERMILLION_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Parke-Vermillion (ftUS)"
+   "NAD 1983 (2011) InGCS Parke-Vermillion (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_PERRY_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Perry (ftUS)"
+   "NAD 1983 (2011) InGCS Perry (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_PIKE_WARRICK_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Pike-Warrick (ftUS)"
+   "NAD 1983 (2011) InGCS Pike-Warrick (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_POSEY_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Posey (ftUS)"
+   "NAD 1983 (2011) InGCS Posey (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_RANDOLPH_WAYNE_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Randolph-Wayne (ftUS)"
+   "NAD 1983 (2011) InGCS Randolph-Wayne (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_RIPLEY_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Ripley (ftUS)"
+   "NAD 1983 (2011) InGCS Ripley (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_SHELBY_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Shelby (ftUS)"
+   "NAD 1983 (2011) InGCS Shelby (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_SPENCER_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Spencer (ftUS)"
+   "NAD 1983 (2011) InGCS Spencer (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_STEUBEN_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Steuben (ftUS)"
+   "NAD 1983 (2011) InGCS Steuben (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_SULLIVAN_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Sullivan (ftUS)"
+   "NAD 1983 (2011) InGCS Sullivan (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_TIPPECANOE_WHITE_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Tippecanoe-White (ftUS)"
+   "NAD 1983 (2011) InGCS Tippecanoe-White (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_VANDERBURGH_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Vanderburgh (ftUS)"
+   "NAD 1983 (2011) InGCS Vanderburgh (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_VIGO_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Vigo (ftUS)"
+   "NAD 1983 (2011) InGCS Vigo (US Feet)"
 
 PE_PCS_NAD_1983_2011_INGCS_WELLS_USFT, \
    "Projected Coordinate Systems/County Systems/Indiana/US Feet", \
-   "NAD 1983 (2011) InGCS Wells (ftUS)"
+   "NAD 1983 (2011) InGCS Wells (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_1, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 1"
+   "NAD 1983 (2011) IaRCS zone 1 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_10, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 10"
+   "NAD 1983 (2011) IaRCS zone 10 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_11, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 11"
+   "NAD 1983 (2011) IaRCS zone 11 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_12, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 12"
+   "NAD 1983 (2011) IaRCS zone 12 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_13, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 13"
+   "NAD 1983 (2011) IaRCS zone 13 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_14, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 14"
+   "NAD 1983 (2011) IaRCS zone 14 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_2, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 2"
+   "NAD 1983 (2011) IaRCS zone 2 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_3, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 3"
+   "NAD 1983 (2011) IaRCS zone 3 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_4, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 4"
+   "NAD 1983 (2011) IaRCS zone 4 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_5, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 5"
+   "NAD 1983 (2011) IaRCS zone 5 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_6, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 6"
+   "NAD 1983 (2011) IaRCS zone 6 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_7, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 7"
+   "NAD 1983 (2011) IaRCS zone 7 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_8, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 8"
+   "NAD 1983 (2011) IaRCS zone 8 (US Feet)"
 
 PE_PCS_NAD_1983_2011_IARCS_9, \
    "Projected Coordinate Systems/County Systems/Iowa", \
-   "NAD 1983 (2011) IaRCS zone 9"
+   "NAD 1983 (2011) IaRCS zone 9 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_1, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 1"
+   "NAD 1983 (2011) KS RCS Zone 1 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_10, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 10"
+   "NAD 1983 (2011) KS RCS Zone 10 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_11, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 11"
+   "NAD 1983 (2011) KS RCS Zone 11 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_12, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 12"
+   "NAD 1983 (2011) KS RCS Zone 12 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_13, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 13"
+   "NAD 1983 (2011) KS RCS Zone 13 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_14, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 14"
+   "NAD 1983 (2011) KS RCS Zone 14 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_15, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 15"
+   "NAD 1983 (2011) KS RCS Zone 15 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_16, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 16"
+   "NAD 1983 (2011) KS RCS Zone 16 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_17, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 17"
+   "NAD 1983 (2011) KS RCS Zone 17 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_18, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 18"
+   "NAD 1983 (2011) KS RCS Zone 18 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_19, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 19"
+   "NAD 1983 (2011) KS RCS Zone 19 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_2, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 2"
+   "NAD 1983 (2011) KS RCS Zone 2 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_20, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 20"
+   "NAD 1983 (2011) KS RCS Zone 20 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_3, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 3"
+   "NAD 1983 (2011) KS RCS Zone 3 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_4, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 4"
+   "NAD 1983 (2011) KS RCS Zone 4 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_5, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 5"
+   "NAD 1983 (2011) KS RCS Zone 5 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_6, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 6"
+   "NAD 1983 (2011) KS RCS Zone 6 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_7, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 7"
+   "NAD 1983 (2011) KS RCS Zone 7 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_8, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 8"
+   "NAD 1983 (2011) KS RCS Zone 8 (US Feet)"
 
 PE_PCS_NAD_1983_2011_KS_RCS_9, \
    "Projected Coordinate Systems/County Systems/Kansas", \
-   "NAD 1983 (2011) KS RCS Zone 9"
+   "NAD 1983 (2011) KS RCS Zone 9 (US Feet)"
 
 PE_PCS_NAD_1983_2011_NCRS_LV_M, \
    "Projected Coordinate Systems/County Systems/Las Vegas", \
@@ -1904,13 +1904,13 @@ PE_PCS_NAD_1983_HARN_ADJ_MN_YELLOW_MEDICINE_FT, \
    "Projected Coordinate Systems/County Systems/Minnesota/US Feet", \
    "NAD 1983 HARN Adj MN Yellow Medicine (US Feet)"
 
-PE_PCS_NAD_1983_HARN_ADJ_WI_CP_FT, \
-   "Projected Coordinate Systems/County Systems/Wisconsin", \
-   "NAD 1983 HARN Adj. Wisconsin Chippewa WCCS (US foot)"
-
 PE_PCS_NAD_1983_HARN_ADJ_WI_CP_M, \
    "Projected Coordinate Systems/County Systems/Wisconsin", \
-   "NAD 1983 HARN Adj. Wisconsin Chippewa WCCS (meters)"
+   "NAD 1983 HARN Adj. Wisconsin Chippewa WCCS (Meters)"
+
+PE_PCS_NAD_1983_HARN_ADJ_WI_CP_FT, \
+   "Projected Coordinate Systems/County Systems/Wisconsin", \
+   "NAD 1983 HARN Adj. Wisconsin Chippewa WCCS (US Feet)"
 
 PE_PCS_NAD_1983_HARN_WISCRS_AD_M, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/Meters", \
@@ -1950,7 +1950,7 @@ PE_PCS_NAD_1983_HARN_WISCRS_CL_M, \
 
 PE_PCS_NAD_1983_HARN_WISCRS_CL_FL_OG_WN_M, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/Meters", \
-   "NAD 1983 HARN Wisconsin CRS Calumet, Fond du Lac, Outagamie and Winnebago (m)"
+   "NAD 1983 HARN Wisconsin CRS Calumet, Fond du Lac, Outagamie, Winnebago (Meters)"
 
 PE_PCS_NAD_1983_HARN_WISCRS_CP_M, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/Meters", \
@@ -2054,7 +2054,7 @@ PE_PCS_NAD_1983_HARN_WISCRS_KN_M, \
 
 PE_PCS_NAD_1983_HARN_WISCRS_KN_MW_OZ_RA_M, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/Meters", \
-   "NAD 1983 HARN Wisconsin CRS Kenosha, Milwaukee, Ozaukee and Racine (Meters)"
+   "NAD 1983 HARN Wisconsin CRS Kenosha, Milwaukee, Ozaukee, Racine (Meters)"
 
 PE_PCS_NAD_1983_HARN_WISCRS_KW_M, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/Meters", \
@@ -2062,7 +2062,7 @@ PE_PCS_NAD_1983_HARN_WISCRS_KW_M, \
 
 PE_PCS_NAD_1983_HARN_WISCRS_KW_MT_SG_M, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/Meters", \
-   "NAD 1983 HARN Wisconsin CRS Kewaunee, Manitowoc and Sheboygan (Meters)"
+   "NAD 1983 HARN Wisconsin CRS Kewaunee, Manitowoc, Sheboygan (Meters)"
 
 PE_PCS_NAD_1983_HARN_WISCRS_LC_M, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/Meters", \
@@ -2746,7 +2746,7 @@ PE_PCS_NAD_1983_HARN_WISCRS_CL_FT, \
 
 PE_PCS_NAD_1983_HARN_WISCRS_CL_FL_OG_WN_FT, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/US Feet", \
-   "NAD 1983 HARN Wisconsin CRS Calumet, Fond du Lac, Outagamie and Winnebago (ft)"
+   "NAD 1983 HARN Wisconsin CRS Calumet, Fond du Lac, Outagamie, Winnebago (US Feet)"
 
 PE_PCS_NAD_1983_HARN_WISCRS_CP_FT, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/US Feet", \
@@ -2850,7 +2850,7 @@ PE_PCS_NAD_1983_HARN_WISCRS_KN_FT, \
 
 PE_PCS_NAD_1983_HARN_WISCRS_KN_MW_OZ_RA_FT, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/US Feet", \
-   "NAD 1983 HARN Wisconsin CRS Kenosha, Milwaukee, Ozaukee and Racine (US Feet)"
+   "NAD 1983 HARN Wisconsin CRS Kenosha, Milwaukee, Ozaukee, Racine (US Feet)"
 
 PE_PCS_NAD_1983_HARN_WISCRS_KW_FT, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/US Feet", \
@@ -2858,7 +2858,7 @@ PE_PCS_NAD_1983_HARN_WISCRS_KW_FT, \
 
 PE_PCS_NAD_1983_HARN_WISCRS_KW_MT_SG_FT, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/US Feet", \
-   "NAD 1983 HARN Wisconsin CRS Kewaunee, Manitowoc and Sheboygan (US Feet)"
+   "NAD 1983 HARN Wisconsin CRS Kewaunee, Manitowoc, Sheboygan (US Feet)"
 
 PE_PCS_NAD_1983_HARN_WISCRS_LC_FT, \
    "Projected Coordinate Systems/County Systems/Wisconsin CRS/US Feet", \
@@ -3035,6 +3035,38 @@ PE_PCS_HANOI_1972_GK_18, \
 PE_PCS_HANOI_1972_GK_19, \
    "Projected Coordinate Systems/Gauss Kruger/Asia", \
    "Hanoi 1972 GK Zone 19"
+
+PE_PCS_QAZTRF_23_GAUSS_KRUGER_ZONE_10, \
+   "Projected Coordinate Systems/Gauss Kruger/Asia", \
+   "QazTRF-23 Gauss-Kruger zone 10"
+
+PE_PCS_QAZTRF_23_GAUSS_KRUGER_ZONE_11, \
+   "Projected Coordinate Systems/Gauss Kruger/Asia", \
+   "QazTRF-23 Gauss-Kruger zone 11"
+
+PE_PCS_QAZTRF_23_GAUSS_KRUGER_ZONE_12, \
+   "Projected Coordinate Systems/Gauss Kruger/Asia", \
+   "QazTRF-23 Gauss-Kruger zone 12"
+
+PE_PCS_QAZTRF_23_GAUSS_KRUGER_ZONE_13, \
+   "Projected Coordinate Systems/Gauss Kruger/Asia", \
+   "QazTRF-23 Gauss-Kruger zone 13"
+
+PE_PCS_QAZTRF_23_GAUSS_KRUGER_ZONE_14, \
+   "Projected Coordinate Systems/Gauss Kruger/Asia", \
+   "QazTRF-23 Gauss-Kruger zone 14"
+
+PE_PCS_QAZTRF_23_GAUSS_KRUGER_ZONE_15, \
+   "Projected Coordinate Systems/Gauss Kruger/Asia", \
+   "QazTRF-23 Gauss-Kruger zone 15"
+
+PE_PCS_QAZTRF_23_GAUSS_KRUGER_ZONE_8, \
+   "Projected Coordinate Systems/Gauss Kruger/Asia", \
+   "QazTRF-23 Gauss-Kruger zone 8"
+
+PE_PCS_QAZTRF_23_GAUSS_KRUGER_ZONE_9, \
+   "Projected Coordinate Systems/Gauss Kruger/Asia", \
+   "QazTRF-23 Gauss-Kruger zone 9"
 
 PE_PCS_SOUTH_YEMEN_GK_8, \
    "Projected Coordinate Systems/Gauss Kruger/Asia", \
@@ -3260,89 +3292,45 @@ PE_PCS_BEIJING_1954_GK_13, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 13"
 
-PE_PCS_BEIJING_1954_GK_13N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 13N"
-
 PE_PCS_BEIJING_1954_GK_14, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 14"
-
-PE_PCS_BEIJING_1954_GK_14N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 14N"
 
 PE_PCS_BEIJING_1954_GK_15, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 15"
 
-PE_PCS_BEIJING_1954_GK_15N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 15N"
-
 PE_PCS_BEIJING_1954_GK_16, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 16"
-
-PE_PCS_BEIJING_1954_GK_16N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 16N"
 
 PE_PCS_BEIJING_1954_GK_17, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 17"
 
-PE_PCS_BEIJING_1954_GK_17N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 17N"
-
 PE_PCS_BEIJING_1954_GK_18, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 18"
-
-PE_PCS_BEIJING_1954_GK_18N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 18N"
 
 PE_PCS_BEIJING_1954_GK_19, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 19"
 
-PE_PCS_BEIJING_1954_GK_19N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 19N"
-
 PE_PCS_BEIJING_1954_GK_20, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 20"
-
-PE_PCS_BEIJING_1954_GK_20N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 20N"
 
 PE_PCS_BEIJING_1954_GK_21, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 21"
 
-PE_PCS_BEIJING_1954_GK_21N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 21N"
-
 PE_PCS_BEIJING_1954_GK_22, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 22"
 
-PE_PCS_BEIJING_1954_GK_22N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 22N"
-
 PE_PCS_BEIJING_1954_GK_23, \
    "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
    "Beijing 1954 GK Zone 23"
-
-PE_PCS_BEIJING_1954_GK_23N, \
-   "Projected Coordinate Systems/Gauss Kruger/Beijing 1954", \
-   "Beijing 1954 GK Zone 23N"
 
 PE_PCS_CHINA_2000_3_DEG_GK_102E, \
    "Projected Coordinate Systems/Gauss Kruger/CGCS2000", \
@@ -5220,233 +5208,117 @@ PE_PCS_PULKOVO_1942_GK_10, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 10"
 
-PE_PCS_PULKOVO_1942_GK_10N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 10N"
-
 PE_PCS_PULKOVO_1942_GK_11, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 11"
-
-PE_PCS_PULKOVO_1942_GK_11N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 11N"
 
 PE_PCS_PULKOVO_1942_GK_12, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 12"
 
-PE_PCS_PULKOVO_1942_GK_12N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 12N"
-
 PE_PCS_PULKOVO_1942_GK_13, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 13"
-
-PE_PCS_PULKOVO_1942_GK_13N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 13N"
 
 PE_PCS_PULKOVO_1942_GK_14, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 14"
 
-PE_PCS_PULKOVO_1942_GK_14N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 14N"
-
 PE_PCS_PULKOVO_1942_GK_15, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 15"
-
-PE_PCS_PULKOVO_1942_GK_15N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 15N"
 
 PE_PCS_PULKOVO_1942_GK_16, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 16"
 
-PE_PCS_PULKOVO_1942_GK_16N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 16N"
-
 PE_PCS_PULKOVO_1942_GK_17, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 17"
-
-PE_PCS_PULKOVO_1942_GK_17N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 17N"
 
 PE_PCS_PULKOVO_1942_GK_18, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 18"
 
-PE_PCS_PULKOVO_1942_GK_18N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 18N"
-
 PE_PCS_PULKOVO_1942_GK_19, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 19"
-
-PE_PCS_PULKOVO_1942_GK_19N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 19N"
 
 PE_PCS_PULKOVO_1942_GK_20, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 20"
 
-PE_PCS_PULKOVO_1942_GK_20N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 20N"
-
 PE_PCS_PULKOVO_1942_GK_21, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 21"
-
-PE_PCS_PULKOVO_1942_GK_21N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 21N"
 
 PE_PCS_PULKOVO_1942_GK_22, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 22"
 
-PE_PCS_PULKOVO_1942_GK_22N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 22N"
-
 PE_PCS_PULKOVO_1942_GK_23, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 23"
-
-PE_PCS_PULKOVO_1942_GK_23N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 23N"
 
 PE_PCS_PULKOVO_1942_GK_24, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 24"
 
-PE_PCS_PULKOVO_1942_GK_24N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 24N"
-
 PE_PCS_PULKOVO_1942_GK_25, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 25"
-
-PE_PCS_PULKOVO_1942_GK_25N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 25N"
 
 PE_PCS_PULKOVO_1942_GK_26, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 26"
 
-PE_PCS_PULKOVO_1942_GK_26N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 26N"
-
 PE_PCS_PULKOVO_1942_GK_27, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 27"
-
-PE_PCS_PULKOVO_1942_GK_27N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 27N"
 
 PE_PCS_PULKOVO_1942_GK_28, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 28"
 
-PE_PCS_PULKOVO_1942_GK_28N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 28N"
-
 PE_PCS_PULKOVO_1942_GK_29, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 29"
-
-PE_PCS_PULKOVO_1942_GK_29N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 29N"
 
 PE_PCS_PULKOVO_1942_GK_30, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 30"
 
-PE_PCS_PULKOVO_1942_GK_30N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 30N"
-
 PE_PCS_PULKOVO_1942_GK_31, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 31"
-
-PE_PCS_PULKOVO_1942_GK_31N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 31N"
 
 PE_PCS_PULKOVO_1942_GK_32, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 32"
 
-PE_PCS_PULKOVO_1942_GK_32N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 32N"
-
 PE_PCS_PULKOVO_1942_GK_4, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 4"
-
-PE_PCS_PULKOVO_1942_GK_4N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 4N"
 
 PE_PCS_PULKOVO_1942_GK_5, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 5"
 
-PE_PCS_PULKOVO_1942_GK_5N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 5N"
-
 PE_PCS_PULKOVO_1942_GK_6, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 6"
-
-PE_PCS_PULKOVO_1942_GK_6N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 6N"
 
 PE_PCS_PULKOVO_1942_GK_7, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 7"
 
-PE_PCS_PULKOVO_1942_GK_7N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 7N"
-
 PE_PCS_PULKOVO_1942_GK_8, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 8"
 
-PE_PCS_PULKOVO_1942_GK_8N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 8N"
-
 PE_PCS_PULKOVO_1942_GK_9, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 GK Zone 9"
-
-PE_PCS_PULKOVO_1942_GK_9N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 GK Zone 9N"
 
 PE_PCS_PULKOVO_1942_GK_105E, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
@@ -5524,6 +5396,10 @@ PE_PCS_PULKOVO_1942_GK_39E, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 Gauss-Kruger CM 39E"
 
+PE_PCS_PULKOVO_1942_GK_45E, \
+   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
+   "Pulkovo 1942 Gauss-Kruger CM 45E"
+
 PE_PCS_PULKOVO_1942_GK_51E, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 Gauss-Kruger CM 51E"
@@ -5535,6 +5411,10 @@ PE_PCS_PULKOVO_1942_GK_57E, \
 PE_PCS_PULKOVO_1942_GK_63E, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 Gauss-Kruger CM 63E"
+
+PE_PCS_PULKOVO_1942_GK_69E, \
+   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
+   "Pulkovo 1942 Gauss-Kruger CM 69E"
 
 PE_PCS_PULKOVO_1942_GK_75E, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
@@ -5555,14 +5435,6 @@ PE_PCS_PULKOVO_1942_GK_93E, \
 PE_PCS_PULKOVO_1942_GK_99E, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
    "Pulkovo 1942 Gauss-Kruger CM 99E"
-
-PE_PCS_PULKOVO_1942_GK_45E, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 Gauss-Krugerr CM 45E"
-
-PE_PCS_PULKOVO_1942_GK_69E, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1942", \
-   "Pulkovo 1942 Gauss-Krugerr CM 69E"
 
 PE_PCS_PULKOVO_1995_3_DEG_GK_102E, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
@@ -6036,233 +5908,117 @@ PE_PCS_PULKOVO_1995_GK_10, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 10"
 
-PE_PCS_PULKOVO_1995_GK_10N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 10N"
-
 PE_PCS_PULKOVO_1995_GK_11, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 11"
-
-PE_PCS_PULKOVO_1995_GK_11N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 11N"
 
 PE_PCS_PULKOVO_1995_GK_12, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 12"
 
-PE_PCS_PULKOVO_1995_GK_12N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 12N"
-
 PE_PCS_PULKOVO_1995_GK_13, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 13"
-
-PE_PCS_PULKOVO_1995_GK_13N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 13N"
 
 PE_PCS_PULKOVO_1995_GK_14, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 14"
 
-PE_PCS_PULKOVO_1995_GK_14N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 14N"
-
 PE_PCS_PULKOVO_1995_GK_15, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 15"
-
-PE_PCS_PULKOVO_1995_GK_15N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 15N"
 
 PE_PCS_PULKOVO_1995_GK_16, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 16"
 
-PE_PCS_PULKOVO_1995_GK_16N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 16N"
-
 PE_PCS_PULKOVO_1995_GK_17, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 17"
-
-PE_PCS_PULKOVO_1995_GK_17N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 17N"
 
 PE_PCS_PULKOVO_1995_GK_18, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 18"
 
-PE_PCS_PULKOVO_1995_GK_18N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 18N"
-
 PE_PCS_PULKOVO_1995_GK_19, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 19"
-
-PE_PCS_PULKOVO_1995_GK_19N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 19N"
 
 PE_PCS_PULKOVO_1995_GK_20, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 20"
 
-PE_PCS_PULKOVO_1995_GK_20N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 20N"
-
 PE_PCS_PULKOVO_1995_GK_21, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 21"
-
-PE_PCS_PULKOVO_1995_GK_21N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 21N"
 
 PE_PCS_PULKOVO_1995_GK_22, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 22"
 
-PE_PCS_PULKOVO_1995_GK_22N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 22N"
-
 PE_PCS_PULKOVO_1995_GK_23, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 23"
-
-PE_PCS_PULKOVO_1995_GK_23N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 23N"
 
 PE_PCS_PULKOVO_1995_GK_24, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 24"
 
-PE_PCS_PULKOVO_1995_GK_24N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 24N"
-
 PE_PCS_PULKOVO_1995_GK_25, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 25"
-
-PE_PCS_PULKOVO_1995_GK_25N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 25N"
 
 PE_PCS_PULKOVO_1995_GK_26, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 26"
 
-PE_PCS_PULKOVO_1995_GK_26N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 26N"
-
 PE_PCS_PULKOVO_1995_GK_27, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 27"
-
-PE_PCS_PULKOVO_1995_GK_27N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 27N"
 
 PE_PCS_PULKOVO_1995_GK_28, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 28"
 
-PE_PCS_PULKOVO_1995_GK_28N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 28N"
-
 PE_PCS_PULKOVO_1995_GK_29, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 29"
-
-PE_PCS_PULKOVO_1995_GK_29N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 29N"
 
 PE_PCS_PULKOVO_1995_GK_30, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 30"
 
-PE_PCS_PULKOVO_1995_GK_30N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 30N"
-
 PE_PCS_PULKOVO_1995_GK_31, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 31"
-
-PE_PCS_PULKOVO_1995_GK_31N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 31N"
 
 PE_PCS_PULKOVO_1995_GK_32, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 32"
 
-PE_PCS_PULKOVO_1995_GK_32N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 32N"
-
 PE_PCS_PULKOVO_1995_GK_4, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 4"
-
-PE_PCS_PULKOVO_1995_GK_4N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 4N"
 
 PE_PCS_PULKOVO_1995_GK_5, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 5"
 
-PE_PCS_PULKOVO_1995_GK_5N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 5N"
-
 PE_PCS_PULKOVO_1995_GK_6, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 6"
-
-PE_PCS_PULKOVO_1995_GK_6N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 6N"
 
 PE_PCS_PULKOVO_1995_GK_7, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 7"
 
-PE_PCS_PULKOVO_1995_GK_7N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 7N"
-
 PE_PCS_PULKOVO_1995_GK_8, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 8"
 
-PE_PCS_PULKOVO_1995_GK_8N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 8N"
-
 PE_PCS_PULKOVO_1995_GK_9, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
    "Pulkovo 1995 GK Zone 9"
-
-PE_PCS_PULKOVO_1995_GK_9N, \
-   "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
-   "Pulkovo 1995 GK Zone 9N"
 
 PE_PCS_PULKOVO_1995_GK_105E, \
    "Projected Coordinate Systems/Gauss Kruger/Pulkovo 1995", \
@@ -6670,7 +6426,7 @@ PE_PCS_ABIDJAN_1987_TM_5_NW, \
 
 PE_PCS_ACCRA_GHANA_GRID, \
    "Projected Coordinate Systems/National Grids/Africa", \
-   "Accra Ghana Grid"
+   "Accra Ghana Grid (Gold Coast Feet)"
 
 PE_PCS_ACCRA_TM_1_NW, \
    "Projected Coordinate Systems/National Grids/Africa", \
@@ -6739,10 +6495,6 @@ PE_PCS_KATANGA_1955_KATANGA_GAUSS_D, \
 PE_PCS_KATANGA_1955_KATANGA_LAMBERT, \
    "Projected Coordinate Systems/National Grids/Africa", \
    "Katanga 1955 Katanga Lambert"
-
-PE_PCS_KATANGA_1955_KATANGA_TM, \
-   "Projected Coordinate Systems/National Grids/Africa", \
-   "Katanga 1955 Katanga TM"
 
 PE_PCS_LOCODJO_1965_TM_5_NW, \
    "Projected Coordinate Systems/National Grids/Africa", \
@@ -6828,13 +6580,17 @@ PE_PCS_RSAO13_UTM_34S, \
    "Projected Coordinate Systems/National Grids/Africa", \
    "RSAO13 UTM zone 34S"
 
+PE_PCS_SCHWARZECK_NAMPOWER_LCC_MM, \
+   "Projected Coordinate Systems/National Grids/Africa", \
+   "Schwarzeck NamPower Lambert (Millimeters)"
+
 PE_PCS_SIERRA_LEONE_1924_NEW_COLONY_GRID, \
    "Projected Coordinate Systems/National Grids/Africa", \
-   "Sierra Leone 1924 New Colony Grid"
+   "Sierra Leone 1924 New Colony Grid (Gold Coast Feet)"
 
 PE_PCS_SIERRA_LEONE_1924_NEW_WAR_OFFICE_GRID, \
    "Projected Coordinate Systems/National Grids/Africa", \
-   "Sierra Leone 1924 New War Office Grid"
+   "Sierra Leone 1924 New War Office Grid (Gold Coast Feet)"
 
 PE_PCS_VOIROL_S_ALGERIE_ANCIENNE, \
    "Projected Coordinate Systems/National Grids/Africa", \
@@ -7088,13 +6844,17 @@ PE_PCS_FD_1958_IRAQ, \
    "Projected Coordinate Systems/National Grids/Asia", \
    "FD 1958 Iraq"
 
+PE_PCS_GGD_LAMBERT, \
+   "Projected Coordinate Systems/National Grids/Asia", \
+   "Georgia Geodetic Datum Lambert"
+
 PE_PCS_HANOI_1972_GK_106_NE, \
    "Projected Coordinate Systems/National Grids/Asia", \
    "Hanoi 1972 GK 106 NE"
 
 PE_PCS_HONG_KONG_1963_GRID, \
    "Projected Coordinate Systems/National Grids/Asia", \
-   "Hong Kong 1963 Grid System"
+   "Hong Kong 1963 Grid System (Clarke Feet)"
 
 PE_PCS_HONG_KONG_1980_GRID, \
    "Projected Coordinate Systems/National Grids/Asia", \
@@ -7183,6 +6943,10 @@ PE_PCS_NEPAL_NAGARKOT_TM, \
 PE_PCS_OBSERV_METEOR_1965_MACAU_GRID, \
    "Projected Coordinate Systems/National Grids/Asia", \
    "Observatorio Meteorologico 1965 Macau Grid"
+
+PE_PCS_PAL_GRF2023_GRID, \
+   "Projected Coordinate Systems/National Grids/Asia", \
+   "PAL-GRF2023 Grid"
 
 PE_PCS_PNG94_PNGMG94_54, \
    "Projected Coordinate Systems/National Grids/Asia", \
@@ -7612,11 +7376,11 @@ PE_PCS_GDA_1994_NSW_LAMBERT, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA 1994 New South Wales Lambert"
 
-PE_PCS_GDA_1994_PCG94, \
+PE_PCS_GDA94_PCG94, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA 1994 PCG94"
 
-PE_PCS_GDA94_PCG94, \
+PE_PCS_GDA_1994_PCG94, \
    "Projected Coordinate Systems/National Grids/Australia", \
    "GDA 1994 PCG94"
 
@@ -7906,71 +7670,71 @@ PE_PCS_UTM_BANGLADESH_2010, \
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_01, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 01 Dinajpur"
+   "Cassini Bangladesh Zone 01 Dinajpur (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_02, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 02 Rangpur"
+   "Cassini Bangladesh Zone 02 Rangpur (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_03, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 03 Rajshahi"
+   "Cassini Bangladesh Zone 03 Rajshahi (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_04, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 04 Bogura"
+   "Cassini Bangladesh Zone 04 Bogura (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_05, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 05 Pabna"
+   "Cassini Bangladesh Zone 05 Pabna (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_06, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 06 Mymensingh"
+   "Cassini Bangladesh Zone 06 Mymensingh (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_07, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 07 Dhaka"
+   "Cassini Bangladesh Zone 07 Dhaka (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_08, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 08 Faridpur"
+   "Cassini Bangladesh Zone 08 Faridpur (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_09, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 09 Sylhet"
+   "Cassini Bangladesh Zone 09 Sylhet (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_10, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 10 Kushtia"
+   "Cassini Bangladesh Zone 10 Kushtia (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_11, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 11 Joshore"
+   "Cassini Bangladesh Zone 11 Joshore (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_12, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 12 Khulna"
+   "Cassini Bangladesh Zone 12 Khulna (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_13, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 13 Barishal"
+   "Cassini Bangladesh Zone 13 Barishal (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_14, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 14 Cumilla"
+   "Cassini Bangladesh Zone 14 Cumilla (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_15, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 15 Noakhali"
+   "Cassini Bangladesh Zone 15 Noakhali (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_16, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 16 Chottogram"
+   "Cassini Bangladesh Zone 16 Chottogram (Chains)"
 
 PE_PCS_CASSINI_BANGLADESH_ZONE_17, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
-   "Cassini Bangladesh Zone 17 CHT"
+   "Cassini Bangladesh Zone 17 CHT (Chains)"
 
 PE_PCS_GULSHAN_303_BANGLADESH_TM, \
    "Projected Coordinate Systems/National Grids/Bangladesh", \
@@ -8079,6 +7843,70 @@ PE_PCS_DRUKREF_03_YANGTSE_TM, \
 PE_PCS_DRUKREF_03_ZHEMGANG_TM, \
    "Projected Coordinate Systems/National Grids/Bhutan", \
    "DRUKREF 03 Zhemgang TM"
+
+PE_PCS_BNGRS02_COLLINS, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BNGRS02 Collins"
+
+PE_PCS_BNGRS02_LO21, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BNGRS02 LO21"
+
+PE_PCS_BNGRS02_LO23, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BNGRS02 LO23"
+
+PE_PCS_BNGRS02_LO25, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BNGRS02 LO25"
+
+PE_PCS_BNGRS02_LO27, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BNGRS02 LO27"
+
+PE_PCS_BNGRS02_LO29, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BNGRS02 LO29"
+
+PE_PCS_BNGRS02_UTM_34S, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BNGRS02 UTM zone 34S"
+
+PE_PCS_BNGRS02_UTM_35S, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BNGRS02 UTM zone 35S"
+
+PE_PCS_BTRS_COLLINS, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BTRS Collins"
+
+PE_PCS_BTRS_LO21, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BTRS LO21"
+
+PE_PCS_BTRS_LO23, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BTRS LO23"
+
+PE_PCS_BTRS_LO25, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BTRS LO25"
+
+PE_PCS_BTRS_LO27, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BTRS LO27"
+
+PE_PCS_BTRS_LO29, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BTRS LO29"
+
+PE_PCS_BTRS_UTM_34S, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BTRS UTM zone 34S"
+
+PE_PCS_BTRS_UTM_35S, \
+   "Projected Coordinate Systems/National Grids/Botswana", \
+   "BTRS UTM zone 35S"
 
 PE_PCS_ATS_1977_MTM_4_NS, \
    "Projected Coordinate Systems/National Grids/Canada", \
@@ -8262,7 +8090,7 @@ PE_PCS_NAD_1927_MTQ_LAMBERT, \
 
 PE_PCS_NAD_1927_NEW_BRUNSWICK, \
    "Projected Coordinate Systems/National Grids/Canada", \
-   "NAD 1927 New Brunswick Stereographic"
+   "NAD 1927 New Brunswick Stereographic (Intl Feet)"
 
 PE_PCS_NAD_1927_QUEBEC_LAMBERT, \
    "Projected Coordinate Systems/National Grids/Canada", \
@@ -9314,7 +9142,7 @@ PE_PCS_PANAMA_COLON_1911_PANAMA_LAMBERT, \
 
 PE_PCS_PANAMA_COLON_1911_PANAMA_POLYCONIC, \
    "Projected Coordinate Systems/National Grids/Central and North America", \
-   "Panama-Colon 1911 Panama Polyconic"
+   "Panama-Colon 1911 Panama Polyconic (Clarke Yards)"
 
 PE_PCS_PANAMA_ITRF08_UTM_17N, \
    "Projected Coordinate Systems/National Grids/Central and North America", \
@@ -9326,7 +9154,7 @@ PE_PCS_PANAMA_ITRF08_UTM_18N, \
 
 PE_PCS_SIBUN_GORGE_1922_COLONY_GRID, \
    "Projected Coordinate Systems/National Grids/Central and North America", \
-   "Sibun Gorge 1922 Colony Grid"
+   "Sibun Gorge 1922 Colony Grid (Clarke Feet)"
 
 PE_PCS_WGS_1984_COSTA_RICA_TM_90, \
    "Projected Coordinate Systems/National Grids/Central and North America", \
@@ -9438,7 +9266,7 @@ PE_PCS_BGS2005_CCS2005, \
 
 PE_PCS_BH_ETRS89_TM, \
    "Projected Coordinate Systems/National Grids/Europe", \
-   "BH ETRS89 TM"
+   "BH_ETRS89 TM"
 
 PE_PCS_BELGE_LAMBERT_1950, \
    "Projected Coordinate Systems/National Grids/Europe", \
@@ -9612,6 +9440,10 @@ PE_PCS_FEH2010_FEHMARNBELT_TM, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "FEH2010 Fehmarnbelt TM"
 
+PE_PCS_GGRS87_TM87_KASTELLORIZO, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "GGRS87 TM87 (Kastellorizo)"
+
 PE_PCS_GGRS_1987_GREEK_GRID, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "Greek Grid"
@@ -9623,6 +9455,14 @@ PE_PCS_GUERNSEY_GRID, \
 PE_PCS_HUNGARIAN_1972_EOV, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "HD 1972 EOV"
+
+PE_PCS_HTRS07_TM07, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "HTRS07 TM07"
+
+PE_PCS_HTRS07_TM07_KASTELLORIZO, \
+   "Projected Coordinate Systems/National Grids/Europe", \
+   "HTRS07 TM07 (Kastellorizo)"
 
 PE_PCS_HTRS96_CROATIA_LCC, \
    "Projected Coordinate Systems/National Grids/Europe", \
@@ -9864,10 +9704,6 @@ PE_PCS_REGCAN95_LCC_EUROPE, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "REGCAN95 LCC Europe"
 
-PE_PCS_RT90_25_GON_W, \
-   "Projected Coordinate Systems/National Grids/Europe", \
-   "RT90 2.5 gon West"
-
 PE_PCS_S_JTSK_FERRO_KROVAK, \
    "Projected Coordinate Systems/National Grids/Europe", \
    "S-JTSK (Ferro) Krovak"
@@ -10016,6 +9852,14 @@ PE_PCS_ETRS_1989_TM35FIN_NE, \
    "Projected Coordinate Systems/National Grids/Finland", \
    "EUREF-FIN TM35FIN (North,East)"
 
+PE_PCS_EUREF_FIN_UTM_ZONE_34N, \
+   "Projected Coordinate Systems/National Grids/Finland", \
+   "EUREF-FIN UTM zone 34N"
+
+PE_PCS_EUREF_FIN_UTM_ZONE_36N, \
+   "Projected Coordinate Systems/National Grids/Finland", \
+   "EUREF-FIN UTM zone 36N"
+
 PE_PCS_KKJ_FINLAND_1, \
    "Projected Coordinate Systems/National Grids/Finland", \
    "Finland Zone 1"
@@ -10092,34 +9936,6 @@ PE_PCS_ETRS_1989_ETRS_GK31FIN, \
    "Projected Coordinate Systems/National Grids/Finland/Replaced", \
    "EUREF-FIN ETRS-GK31FIN"
 
-PE_PCS_ED_1950_FRANCE_EUROLAMBERT, \
-   "Projected Coordinate Systems/National Grids/France", \
-   "ED 1950 France EuroLambert"
-
-PE_PCS_NTF_FRANCE_I, \
-   "Projected Coordinate Systems/National Grids/France", \
-   "France I"
-
-PE_PCS_NTF_FRANCE_II, \
-   "Projected Coordinate Systems/National Grids/France", \
-   "France II"
-
-PE_PCS_NTF_FRANCE_III, \
-   "Projected Coordinate Systems/National Grids/France", \
-   "France III"
-
-PE_PCS_NTF_FRANCE_IV, \
-   "Projected Coordinate Systems/National Grids/France", \
-   "France IV"
-
-PE_PCS_NTF_CENTRE_FRANCE, \
-   "Projected Coordinate Systems/National Grids/France", \
-   "NTF (Paris) Centre France"
-
-PE_PCS_NTF_CORSE, \
-   "Projected Coordinate Systems/National Grids/France", \
-   "NTF (Paris) Corse"
-
 PE_PCS_NTF_PARIS_LAMBERT_CENTRE_FRANCE, \
    "Projected Coordinate Systems/National Grids/France", \
    "NTF (Paris) Lambert Centre France"
@@ -10151,14 +9967,6 @@ PE_PCS_NTF_PARIS_LAMBERT_III, \
 PE_PCS_NTF_PARIS_LAMBERT_IV, \
    "Projected Coordinate Systems/National Grids/France", \
    "NTF (Paris) Lambert Zone IV"
-
-PE_PCS_NTF_NORD_FRANCE, \
-   "Projected Coordinate Systems/National Grids/France", \
-   "NTF (Paris) Nord France"
-
-PE_PCS_NTF_SUD_FRANCE, \
-   "Projected Coordinate Systems/National Grids/France", \
-   "NTF (Paris) Sud France"
 
 PE_PCS_NTF_FRANCE_I_DEG, \
    "Projected Coordinate Systems/National Grids/France", \
@@ -10315,6 +10123,10 @@ PE_PCS_RGF93_V2B_CC50, \
 PE_PCS_RGF93_V2B_LAMBERT_93, \
    "Projected Coordinate Systems/National Grids/France", \
    "RGF93 v2b Lambert-93"
+
+PE_PCS_ASSE_2025_3_DEGREE_GAUSS_KRUGER_ZONE_4_E_N, \
+   "Projected Coordinate Systems/National Grids/Germany", \
+   "Asse 2025 3-degree Gauss-Kruger zone 4 (E-N)"
 
 PE_PCS_DB_REF_3_DEG_GK_2_EN, \
    "Projected Coordinate Systems/National Grids/Germany", \
@@ -10522,27 +10334,27 @@ PE_PCS_RAUENBERG_DATUM_1983_3_DEG_GK_5_EN, \
 
 PE_PCS_KALIANPUR_1880_INDIA_0, \
    "Projected Coordinate Systems/National Grids/Indian Subcontinent", \
-   "Kalianpur 1880 India Zone 0"
+   "Kalianpur 1880 India Zone 0 (Indian Yards)"
 
 PE_PCS_KALIANPUR_1880_INDIA_I, \
    "Projected Coordinate Systems/National Grids/Indian Subcontinent", \
-   "Kalianpur 1880 India Zone I"
+   "Kalianpur 1880 India Zone I (Indian Yards)"
 
 PE_PCS_KALIANPUR_1880_INDIA_III, \
    "Projected Coordinate Systems/National Grids/Indian Subcontinent", \
-   "Kalianpur 1880 India Zone III"
+   "Kalianpur 1880 India Zone III (Indian Yards)"
 
 PE_PCS_KALIANPUR_1880_INDIA_IIA, \
    "Projected Coordinate Systems/National Grids/Indian Subcontinent", \
-   "Kalianpur 1880 India Zone IIa"
+   "Kalianpur 1880 India Zone IIa (Indian Yards)"
 
 PE_PCS_KALIANPUR_1880_INDIA_IIB, \
    "Projected Coordinate Systems/National Grids/Indian Subcontinent", \
-   "Kalianpur 1880 India Zone IIb"
+   "Kalianpur 1880 India Zone IIb (Indian Yards)"
 
 PE_PCS_KALIANPUR_1880_INDIA_IV, \
    "Projected Coordinate Systems/National Grids/Indian Subcontinent", \
-   "Kalianpur 1880 India Zone IV"
+   "Kalianpur 1880 India Zone IV (Indian Yards)"
 
 PE_PCS_KALIANPUR_1937_INDIA_IIB, \
    "Projected Coordinate Systems/National Grids/Indian Subcontinent", \
@@ -10916,14 +10728,6 @@ PE_PCS_IGM95_UTM_34N, \
    "Projected Coordinate Systems/National Grids/Italy", \
    "IGM 1995 UTM Zone 34N"
 
-PE_PCS_MONTE_MARIO_ROME_ITALY_1, \
-   "Projected Coordinate Systems/National Grids/Italy", \
-   "Monte Mario (Rome) Italy 1"
-
-PE_PCS_MONTE_MARIO_ROME_ITALY_2, \
-   "Projected Coordinate Systems/National Grids/Italy", \
-   "Monte Mario (Rome) Italy 2"
-
 PE_PCS_MONTE_MARIO_ITALY_1, \
    "Projected Coordinate Systems/National Grids/Italy", \
    "Monte Mario Italy 1"
@@ -11136,6 +10940,82 @@ PE_PCS_JGD_2011_JAPAN_19, \
    "Projected Coordinate Systems/National Grids/Japan", \
    "JGD 2011 Japan Zone 19"
 
+PE_PCS_JGD_2024_JAPAN_1, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 1"
+
+PE_PCS_JGD_2024_JAPAN_10, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 10"
+
+PE_PCS_JGD_2024_JAPAN_11, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 11"
+
+PE_PCS_JGD_2024_JAPAN_12, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 12"
+
+PE_PCS_JGD_2024_JAPAN_13, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 13"
+
+PE_PCS_JGD_2024_JAPAN_14, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 14"
+
+PE_PCS_JGD_2024_JAPAN_15, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 15"
+
+PE_PCS_JGD_2024_JAPAN_16, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 16"
+
+PE_PCS_JGD_2024_JAPAN_17, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 17N"
+
+PE_PCS_JGD_2024_JAPAN_18, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 18"
+
+PE_PCS_JGD_2024_JAPAN_19, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 19"
+
+PE_PCS_JGD_2024_JAPAN_2, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 2"
+
+PE_PCS_JGD_2024_JAPAN_3, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 3"
+
+PE_PCS_JGD_2024_JAPAN_4, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 4"
+
+PE_PCS_JGD_2024_JAPAN_5, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 5"
+
+PE_PCS_JGD_2024_JAPAN_6, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 6"
+
+PE_PCS_JGD_2024_JAPAN_7, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 7"
+
+PE_PCS_JGD_2024_JAPAN_8, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 8"
+
+PE_PCS_JGD_2024_JAPAN_9, \
+   "Projected Coordinate Systems/National Grids/Japan", \
+   "JGD 2024 Japan Zone 9"
+
 PE_PCS_TOKYO_JAPAN_1, \
    "Projected Coordinate Systems/National Grids/Japan", \
    "Japan Zone  1"
@@ -11340,13 +11220,13 @@ PE_PCS_GDM_2000_STATE_CASSINI_TERENGGANU, \
    "Projected Coordinate Systems/National Grids/Malaysia and Singapore", \
    "GDM 2000 Terengganu"
 
-PE_PCS_KERTAU_RSO_RSO_MALAYA_CH, \
-   "Projected Coordinate Systems/National Grids/Malaysia and Singapore", \
-   "Kertau (RSO) RSO Malaya (Chains 1922 Truncated)"
-
 PE_PCS_KERTAU_RSO_RSO_MALAYA, \
    "Projected Coordinate Systems/National Grids/Malaysia and Singapore", \
    "Kertau (RSO) RSO Malaya (Meters)"
+
+PE_PCS_KERTAU_RSO_RSO_MALAYA_CH, \
+   "Projected Coordinate Systems/National Grids/Malaysia and Singapore", \
+   "Kertau (RSO) RSO Malaya (Sears Chains 1922 Truncated)"
 
 PE_PCS_KERTAU_1968_JOHOR_GRID, \
    "Projected Coordinate Systems/National Grids/Malaysia and Singapore", \
@@ -11383,10 +11263,6 @@ PE_PCS_KERTAU_1968_SEMBILAN_MELAKA_GRID, \
 PE_PCS_KERTAU_1968_TERENGGANU_GRID, \
    "Projected Coordinate Systems/National Grids/Malaysia and Singapore", \
    "Kertau 1968 Terengganu Grid"
-
-PE_PCS_KERTAU_RSO_MALAYA_CH, \
-   "Projected Coordinate Systems/National Grids/Malaysia and Singapore", \
-   "Kertau RSO Malaya (Benoit Chains 1895 B)"
 
 PE_PCS_KERTAU_RSO_MALAYA_M, \
    "Projected Coordinate Systems/National Grids/Malaysia and Singapore", \
@@ -11714,11 +11590,11 @@ PE_PCS_NZGD_1949_NEW_ZEALAND_MAP_GRID, \
 
 PE_PCS_NZGD_1949_NORTH_ISLAND, \
    "Projected Coordinate Systems/National Grids/New Zealand", \
-   "New Zealand North Island"
+   "New Zealand North Island (Sears Yards)"
 
 PE_PCS_NZGD_1949_SOUTH_ISLAND, \
    "Projected Coordinate Systems/National Grids/New Zealand", \
-   "New Zealand South Island"
+   "New Zealand South Island (Sears Yards)"
 
 PE_PCS_WGS_1984_MERCATOR_41, \
    "Projected Coordinate Systems/National Grids/New Zealand", \
@@ -11922,11 +11798,11 @@ PE_PCS_NGO_1948_OSLO_KOMMUNE, \
 
 PE_PCS_DOS_71_4_SHLG71, \
    "Projected Coordinate Systems/National Grids/Oceans/Atlantic Ocean", \
-   "Astro DOS 71_4 SHLG71"
+   "Astro DOS 71-4 SHLG71"
 
 PE_PCS_DOS_71_4_UTM_30S, \
    "Projected Coordinate Systems/National Grids/Oceans/Atlantic Ocean", \
-   "Astro DOS 71_4 UTM zone 30S"
+   "Astro DOS 71-4 UTM zone 30S"
 
 PE_PCS_BERMUDA_2000_NATIONAL_GRID, \
    "Projected Coordinate Systems/National Grids/Oceans/Atlantic Ocean", \
@@ -11982,7 +11858,11 @@ PE_PCS_BONAIRE_DPNET, \
 
 PE_PCS_CAYMAN_ISLANDS_NATIONAL_GRID_2011, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
-   "Cayman Islands National Grid 2011"
+   "Cayman Islands National Grid 2011 (Intl Feet)"
+
+PE_PCS_CURACAO_1951_LOCAL_TM, \
+   "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
+   "Curacao 1951 Local TM"
 
 PE_PCS_DOMINICA_1945_BRITISH_W_INDIES, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
@@ -11990,7 +11870,7 @@ PE_PCS_DOMINICA_1945_BRITISH_W_INDIES, \
 
 PE_PCS_GRAND_CAYMAN_NATIONAL_GRID_1959, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
-   "Grand Cayman National Grid 1959"
+   "Grand Cayman National Grid 1959 (Intl Feet)"
 
 PE_PCS_JAD_2001_JAMAICA_GRID, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
@@ -11998,7 +11878,7 @@ PE_PCS_JAD_2001_JAMAICA_GRID, \
 
 PE_PCS_JAMAICA_1875_OLD_GRID, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
-   "Jamaica 1875 Old Grid"
+   "Jamaica 1875 Old Grid (Clarke Feet)"
 
 PE_PCS_JAD_1969_JAMAICA_GRID, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
@@ -12010,7 +11890,7 @@ PE_PCS_MONTSERRAT_1958_BRITISH_W_INDIES, \
 
 PE_PCS_MOUNT_DILLON_TOBAGO_GRID, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
-   "Mount Dillon Tobago Grid"
+   "Mount Dillon Tobago Grid (Clarke Links)"
 
 PE_PCS_NAD_1927_CUBA_NORTE, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
@@ -12034,7 +11914,7 @@ PE_PCS_SINT_EUSTATIUS_DPNET_SHORT, \
 
 PE_PCS_SISTER_ISLANDS_NATIONAL_GRID_1961, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
-   "Sister Islands National Grid 1961"
+   "Sister Islands National Grid 1961 (Intl Feet)"
 
 PE_PCS_ST_KITTS_1955_BRITISH_W_INDIES, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
@@ -12054,7 +11934,7 @@ PE_PCS_TRINIDAD_1903_TRINIDAD_GRID_FT_CLA, \
 
 PE_PCS_TRINIDAD_1903_TRINIDAD_GRID, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
-   "Trinidad 1903 Trinidad Grid (Links Clarke)"
+   "Trinidad 1903 Trinidad Grid (Clarke Links)"
 
 PE_PCS_WGS_1984_TM_20N_FTUS, \
    "Projected Coordinate Systems/National Grids/Oceans/Caribbean Sea", \
@@ -12094,7 +11974,7 @@ PE_PCS_WGS_1984_CKIG92, \
 
 PE_PCS_SAMOA_1962_SAMOA_LAMBERT, \
    "Projected Coordinate Systems/National Grids/Oceans/Pacific Ocean", \
-   "American Samoa 1962 Samoa Lambert"
+   "American Samoa 1962 Samoa Lambert (US Feet)"
 
 PE_PCS_BAB_SOUTH_PALAU_AZI_EQUI, \
    "Projected Coordinate Systems/National Grids/Oceans/Pacific Ocean", \
@@ -12123,10 +12003,6 @@ PE_PCS_PITCAIRN_2006_TM_2006, \
 PE_PCS_POHNPEI_AZ_EQ_1971, \
    "Projected Coordinate Systems/National Grids/Oceans/Pacific Ocean", \
    "Pohnpei Az Eq 1971"
-
-PE_PCS_RGNC_1991_LAMBERT_NEW_CALEDONIA, \
-   "Projected Coordinate Systems/National Grids/Oceans/Pacific Ocean", \
-   "RGNC 1991 Lambert New Caledonia"
 
 PE_PCS_RGNC_1991_93_LAMBERT_NEW_CALEDONIA, \
    "Projected Coordinate Systems/National Grids/Oceans/Pacific Ocean", \
@@ -12300,6 +12176,10 @@ PE_PCS_LAKE_MARACAIBO_LA_ROSA_GRID, \
    "Projected Coordinate Systems/National Grids/South America", \
    "Lake Maracaibo La Rosa Grid"
 
+PE_PCS_MOUNT_DILLON_TOBAGO_GRID, \
+   "Projected Coordinate Systems/National Grids/South America", \
+   "Mount Dillon Tobago Grid (Clarke Links)"
+
 PE_PCS_PSAD_1956_PERU_CENTRAL, \
    "Projected Coordinate Systems/National Grids/South America", \
    "Peru Central Zone"
@@ -12323,6 +12203,10 @@ PE_PCS_SAD_1969_96_BRAZIL_POLYCONIC, \
 PE_PCS_SAD_1969_BRAZIL_POLYCONIC, \
    "Projected Coordinate Systems/National Grids/South America", \
    "SAD 1969 Brazil Polyconic"
+
+PE_PCS_SIRGAS_2000_BRAZIL_ALBERS, \
+   "Projected Coordinate Systems/National Grids/South America", \
+   "SIRGAS 2000 Brazil Albers"
 
 PE_PCS_SIRGAS_2000_BRAZIL_MERCATOR, \
    "Projected Coordinate Systems/National Grids/South America", \
@@ -12358,11 +12242,11 @@ PE_PCS_TRINIDAD_1903_TRINIDAD_GRID_FT_CLA, \
 
 PE_PCS_TRINIDAD_1903_TRINIDAD_GRID, \
    "Projected Coordinate Systems/National Grids/South America", \
-   "Trinidad 1903 Trinidad Grid (Links Clarke)"
+   "Trinidad 1903 Trinidad Grid (Clarke Links)"
 
-PE_PCS_WGS_1984_SIRES_TMQ, \
+PE_PCS_WGS_1984_SIRES_DMQ, \
    "Projected Coordinate Systems/National Grids/South America", \
-   "WGS 1984 SIRES TMQ"
+   "WGS 1984 SIRES DMQ"
 
 PE_PCS_WGS_1984_TM_60_SW, \
    "Projected Coordinate Systems/National Grids/South America", \
@@ -13068,62 +12952,6 @@ PE_PCS_UCS_2000_LCS_85_SEVASTOPOL, \
    "Projected Coordinate Systems/National Grids/Ukraine", \
    "UCS-2000 LCS-85 Sevastopol"
 
-PE_PCS_UKRAINE_2000_3_DEG_GK_21E, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3 Degree GK CM 21E"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_24E, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3 Degree GK CM 24E"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_27E, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3 Degree GK CM 27E"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_30E, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3 Degree GK CM 30E"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_33E, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3 Degree GK CM 33E"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_36E, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3 Degree GK CM 36E"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_39E, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3 Degree GK CM 39E"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_10, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3-Degree GK Zone 10"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_11, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3-Degree GK Zone 11"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_12, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3-Degree GK Zone 12"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_13, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3-Degree GK Zone 13"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_7, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3-Degree GK Zone 7"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_8, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3-Degree GK Zone 8"
-
-PE_PCS_UKRAINE_2000_3_DEG_GK_9, \
-   "Projected Coordinate Systems/National Grids/Ukraine", \
-   "Ukraine 2000 3-Degree GK Zone 9"
-
 PE_PCS_UKRAINE_2000_GK_21E, \
    "Projected Coordinate Systems/National Grids/Ukraine", \
    "Ukraine 2000 GK CM 21E"
@@ -13214,7 +13042,7 @@ PE_PCS_TM75_IRISH_GRID, \
 
 PE_PCS_ABINVA96_2020_GRID, \
    "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
-   "AbInvA96 2020 Grid"
+   "AbInvA96_2020 Grid"
 
 PE_PCS_CNH22_GRID, \
    "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
@@ -13255,6 +13083,10 @@ PE_PCS_EOS21_GRID, \
 PE_PCS_EWR2_GRID, \
    "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
    "EWR2 Grid"
+
+PE_PCS_EWR3_GRID, \
+   "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
+   "EWR3 Grid"
 
 PE_PCS_FNL22_GRID, \
    "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
@@ -13335,6 +13167,10 @@ PE_PCS_TPEN11_GRID, \
 PE_PCS_WC05_GRID, \
    "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
    "WC05 Grid"
+
+PE_PCS_WSPG_GRID, \
+   "Projected Coordinate Systems/National Grids/United Kingdom/British Railways", \
+   "WSPG Grid"
 
 PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_A01H1, \
    "Projected Coordinate Systems/National Grids/United Kingdom/OSGB36 National Highways", \
@@ -13868,10 +13704,6 @@ PE_PCS_PETRELS_1972_TERRE_ADELIE_POLAR_STEREOGRAPHIC, \
    "Projected Coordinate Systems/Polar", \
    "Petrels 1972 Terre Adelie Polar Stereographic"
 
-PE_PCS_RGTAAF07_TERRE_ADELIE_PSTEREO, \
-   "Projected Coordinate Systems/Polar", \
-   "RGTAAF07 Terre Adelie Polar Stereographic"
-
 PE_PCS_RGTAAF07_UTM_53S, \
    "Projected Coordinate Systems/Polar", \
    "RGTAAF07 UTM Zone 53S"
@@ -13943,14 +13775,6 @@ PE_PCS_WGS_1984_AUSTRALIAN_ANTARCTIC_LAMBERT, \
 PE_PCS_WGS_1984_AUSTRALIAN_ANTARCTIC_P_STEREO, \
    "Projected Coordinate Systems/Polar", \
    "WGS 1984 Australian Antarctic Polar Stereographic"
-
-PE_PCS_WGS_1984_EASE_GRID_NORTH, \
-   "Projected Coordinate Systems/Polar", \
-   "WGS 1984 EASE Grid North"
-
-PE_PCS_WGS_1984_EASE_GRID_SOUTH, \
-   "Projected Coordinate Systems/Polar", \
-   "WGS 1984 EASE Grid South"
 
 PE_PCS_WGS_1984_IBCAO_POLAR_STEREO, \
    "Projected Coordinate Systems/Polar", \
@@ -17350,7 +17174,7 @@ PE_PCS_NAD_1983_HARN_WY_W, \
 
 PE_PCS_NAD_1983_HARN_WA_N_BELLEVUE_FTUS, \
    "Projected Coordinate Systems/State Plane/NAD 1983 (HARN) (US Feet)", \
-   "City Of Bellevue NAD83 2007"
+   "City Of Bellevue NAD83 2007 (US Feet)"
 
 PE_PCS_NAD_1983_HARN_AR_N_FT, \
    "Projected Coordinate Systems/State Plane/NAD 1983 (HARN) (US Feet)", \
@@ -19752,6 +19576,54 @@ PE_PCS_SAMOA_1962_AS, \
    "Projected Coordinate Systems/State Plane/Other GCS", \
    "American Samoa 1962 StatePlane Amer. Samoa FIPS 5300 (US Feet)"
 
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_1, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 1 (Meters)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_1_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 1 (US Feet)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_2, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 2 (Meters)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_2_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 2 (US Feet)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_3, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 3 (Meters)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_3_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 3 (US Feet)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_4, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 4 (Meters)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_4_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 4 (US Feet)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_5, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 5 (Meters)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_5_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 5 (US Feet)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_6, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 6 (Meters)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ZONE_6_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "CSRN2025 (NAD83 2011) California zone 6 (US Feet)"
+
 PE_PCS_CSRS_2017_5_NAD83_CA_I_USFT, \
    "Projected Coordinate Systems/State Plane/Other GCS", \
    "California SRS Epoch 2017.50 (NAD83) StatePlane CA I (US Feet)"
@@ -19779,6 +19651,10 @@ PE_PCS_CSRS_2017_5_NAD83_CA_VI_USFT, \
 PE_PCS_GUAM_GEODETIC_NETWORK_1993, \
    "Projected Coordinate Systems/State Plane/Other GCS", \
    "Guam Geodetic Network 1993 (Meters)"
+
+PE_PCS_NAD83_HARN_GGN93_USFT, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "Guam Geodetic Nework 1993 (US Feet)"
 
 PE_PCS_GUAM_GEODETIC_TRIANGULATION_NETWORK_1963, \
    "Projected Coordinate Systems/State Plane/Other GCS", \
@@ -19812,6 +19688,10 @@ PE_PCS_OLD_HAWAIIAN_HI_5, \
    "Projected Coordinate Systems/State Plane/Other GCS", \
    "Old Hawaiian StatePlane Hawaii 5 FIPS 5105 (US Feet)"
 
+PE_PCS_PUERTO_RICO_PR_M, \
+   "Projected Coordinate Systems/State Plane/Other GCS", \
+   "Puerto Rico StatePlane Puerto Rico (Meters)"
+
 PE_PCS_PUERTO_RICO_PR, \
    "Projected Coordinate Systems/State Plane/Other GCS", \
    "Puerto Rico StatePlane Puerto Rico FIPS 5201 (US Feet)"
@@ -19819,6 +19699,10 @@ PE_PCS_PUERTO_RICO_PR, \
 PE_PCS_PUERTO_RICO_VI, \
    "Projected Coordinate Systems/State Plane/Other GCS", \
    "Puerto Rico StatePlane Virgin Isl St.Croix FIPS 5202 (US Feet)"
+
+PE_PCS_CSRN2025_NAD83_2011_CALIFORNIA_ALBERS, \
+   "Projected Coordinate Systems/State Systems", \
+   "CSRN2025 (NAD83 2011) California Albers (Meters)"
 
 PE_PCS_NAD_1927_ALASKA_ALBERS_METERS, \
    "Projected Coordinate Systems/State Systems", \
@@ -19862,11 +19746,11 @@ PE_PCS_NAD_1983_2011_FLORIDA_GDL_ALBERS, \
 
 PE_PCS_NAD_1983_2011_KANSAS_LCC, \
    "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 (2011) Kansas LCC"
+   "NAD 1983 (2011) Kansas LCC (Meters)"
 
 PE_PCS_NAD_1983_2011_KANSAS_LCC_USFT, \
    "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 (2011) Kansas LCC ftUS"
+   "NAD 1983 (2011) Kansas LCC (US Feet)"
 
 PE_PCS_NAD_1983_2011_MICHIGAN_GEOREF_M, \
    "Projected Coordinate Systems/State Systems", \
@@ -19880,13 +19764,13 @@ PE_PCS_NAD_1983_2011_VIRGINIA_LAMBERT, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1983 (2011) Virginia Lambert (Meters)"
 
-PE_PCS_NAD_1983_2011_WYDOT_ALBERS_FTUS, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 (2011) WYDOT Albers (ftUS)"
-
 PE_PCS_NAD_1983_2011_WYDOT_ALBERS_M, \
    "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 (2011) WYDOT Albers (m)"
+   "NAD 1983 (2011) WYDOT Albers (Meters)"
+
+PE_PCS_NAD_1983_2011_WYDOT_ALBERS_FTUS, \
+   "Projected Coordinate Systems/State Systems", \
+   "NAD 1983 (2011) WYDOT Albers (US Feet)"
 
 PE_PCS_NAD_1983_2011_WISCONSIN_TM, \
    "Projected Coordinate Systems/State Systems", \
@@ -19958,11 +19842,11 @@ PE_PCS_NAD_1983_IDAHO_TM, \
 
 PE_PCS_NAD_1983_KANSAS_LCC, \
    "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 Kansas LCC"
+   "NAD 1983 Kansas LCC (Meters)"
 
 PE_PCS_NAD_1983_KANSAS_LCC_USFT, \
    "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 Kansas LCC ftUS"
+   "NAD 1983 Kansas LCC (US Feet)"
 
 PE_PCS_NAD_1983_MICHIGAN_GEOREF_M, \
    "Projected Coordinate Systems/State Systems", \
@@ -20010,7 +19894,7 @@ PE_PCS_NAD_1983_NSRS2007_WISCONSIN_TM_FT_US, \
 
 PE_PCS_NAD83_TWDB_GM, \
    "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 TWDB GM"
+   "NAD 1983 TWDB GM (US Feet)"
 
 PE_PCS_NAD_1983_USFS_R6_ALBERS, \
    "Projected Coordinate Systems/State Systems", \
@@ -20024,13 +19908,13 @@ PE_PCS_NAD_1983_VIRGINIA_LAMBERT, \
    "Projected Coordinate Systems/State Systems", \
    "NAD 1983 Virginia Lambert (Meters)"
 
-PE_PCS_NAD_1983_WYDOT_ALBERS_FTUS, \
-   "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 WYDOT Albers (ftUS)"
-
 PE_PCS_NAD_1983_WYDOT_ALBERS_M, \
    "Projected Coordinate Systems/State Systems", \
-   "NAD 1983 WYDOT Albers (m)"
+   "NAD 1983 WYDOT Albers (Meters)"
+
+PE_PCS_NAD_1983_WYDOT_ALBERS_FTUS, \
+   "Projected Coordinate Systems/State Systems", \
+   "NAD 1983 WYDOT Albers (US Feet)"
 
 PE_PCS_NAD_1983_WISCONSIN_TM, \
    "Projected Coordinate Systems/State Systems", \
@@ -20094,7 +19978,7 @@ PE_PCS_NAD_1983_OREGON_LAMBERT, \
 
 PE_PCS_NAD_1983_2011_OCRS_BAKER_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Baker NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Baker NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_BAKER_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20102,7 +19986,7 @@ PE_PCS_NAD_1983_2011_OCRS_BAKER_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_BAKER_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Baker NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Baker NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_BAKER_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20110,7 +19994,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_BAKER_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_BEND_BURNS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Bend-Burns NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Bend-Burns NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_BEND_BURNS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20118,7 +20002,7 @@ PE_PCS_NAD_1983_2011_OCRS_BEND_BURNS_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_BEND_BURNS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Bend-Burns NAD 1983 CORS96 LCC (Feet Intl)"
+   "OCRS Bend-Burns NAD 1983 CORS96 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_BEND_BURNS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20126,7 +20010,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_BEND_BURNS_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_BEND_KLAMATH_FALLS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Bend-Klamath Falls NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Bend-Klamath Falls NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_BEND_KLAMATH_FALLS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20134,7 +20018,7 @@ PE_PCS_NAD_1983_2011_OCRS_BEND_KLAMATH_FALLS_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_BEND_KLAMATH_FALLS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Bend-Klamath Falls NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Bend-Klamath Falls NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_BEND_KLAMATH_FALLS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20142,7 +20026,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_BEND_KLAMATH_FALLS_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_BEND_REDMOND_PRINEVILLE_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Bend-Redmond-Prineville NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Bend-Redmond-Prineville NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_BEND_REDMOND_PRINEVILLE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20150,7 +20034,7 @@ PE_PCS_NAD_1983_2011_OCRS_BEND_REDMOND_PRINEVILLE_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_BEND_REDMOND_PRINEVILLE_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Bend-Redmond-Prineville NAD 1983 CORS96 LCC (Feet Intl)"
+   "OCRS Bend-Redmond-Prineville NAD 1983 CORS96 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_BEND_REDMOND_PRINEVILLE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20158,7 +20042,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_BEND_REDMOND_PRINEVILLE_M, \
 
 PE_PCS_NAD_1983_2011_OR_BURNS_HARPER_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Burns-Harper NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Burns-Harper NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_BURNS_HARPER_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20166,7 +20050,7 @@ PE_PCS_NAD_1983_2011_OR_BURNS_HARPER_M, \
 
 PE_PCS_NAD_1983_2011_OR_CANYON_CITY_BURNS_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Canyon City-Burns NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Canyon City-Burns NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_CANYON_CITY_BURNS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20174,7 +20058,7 @@ PE_PCS_NAD_1983_2011_OR_CANYON_CITY_BURNS_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_CANYONVILLE_GRANTS_PASS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Canyonville-Grants Pass NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Canyonville-Grants Pass NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_CANYONVILLE_GRANTS_PASS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20182,7 +20066,7 @@ PE_PCS_NAD_1983_2011_OCRS_CANYONVILLE_GRANTS_PASS_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_CANYONVILLE_GRANTS_PASS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Canyonville-Grants Pass NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Canyonville-Grants Pass NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_CANYONVILLE_GRANTS_PASS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20190,7 +20074,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_CANYONVILLE_GRANTS_PASS_M, \
 
 PE_PCS_NAD_1983_2011_OR_COAST_RANGE_N_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Coast Range North NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Coast Range North NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_COAST_RANGE_N_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20198,7 +20082,7 @@ PE_PCS_NAD_1983_2011_OR_COAST_RANGE_N_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_COLUMBIA_RIVER_EAST_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Columbia River East NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Columbia River East NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_COLUMBIA_RIVER_EAST_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20206,7 +20090,7 @@ PE_PCS_NAD_1983_2011_OCRS_COLUMBIA_RIVER_EAST_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_COLUMBIA_RIVER_EAST_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Columbia River East NAD 1983 CORS96 LCC (Feet Intl)"
+   "OCRS Columbia River East NAD 1983 CORS96 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_COLUMBIA_RIVER_EAST_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20214,7 +20098,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_COLUMBIA_RIVER_EAST_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_COLUMBIA_RIVER_WEST_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Columbia River West NAD 1983 2011 OM (Feet Intl)"
+   "OCRS Columbia River West NAD 1983 2011 OM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_COLUMBIA_RIVER_WEST_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20222,7 +20106,7 @@ PE_PCS_NAD_1983_2011_OCRS_COLUMBIA_RIVER_WEST_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_COLUMBIA_RIVER_WEST_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Columbia River West NAD 1983 CORS96 OM (Feet Intl)"
+   "OCRS Columbia River West NAD 1983 CORS96 OM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_COLUMBIA_RIVER_WEST_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20230,7 +20114,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_COLUMBIA_RIVER_WEST_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_COTTAGE_GROVE_CANYONVILLE_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Cottage Grove-Canyonville NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Cottage Grove-Canyonville NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_COTTAGE_GROVE_CANYONVILLE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20238,7 +20122,7 @@ PE_PCS_NAD_1983_2011_OCRS_COTTAGE_GROVE_CANYONVILLE_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_COTTAGE_GROVE_CANYONVILLE_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Cottage Grove-Canyonville NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Cottage Grove-Canyonville NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_COTTAGE_GROVE_CANYONVILLE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20246,7 +20130,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_COTTAGE_GROVE_CANYONVILLE_M, \
 
 PE_PCS_NAD_1983_2011_OR_DAYVILLE_PRAIRIE_CITY_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Dayville-Prairie City NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Dayville-Prairie City NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_DAYVILLE_PRAIRIE_CITY_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20254,7 +20138,7 @@ PE_PCS_NAD_1983_2011_OR_DAYVILLE_PRAIRIE_CITY_M, \
 
 PE_PCS_NAD_1983_2011_OR_DENIO_BURNS_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Denio-Burns NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Denio-Burns NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_DENIO_BURNS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20262,7 +20146,7 @@ PE_PCS_NAD_1983_2011_OR_DENIO_BURNS_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_DUFUR_MADRAS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Dufur-Madras NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Dufur-Madras NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_DUFUR_MADRAS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20270,7 +20154,7 @@ PE_PCS_NAD_1983_2011_OCRS_DUFUR_MADRAS_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_DUFUR_MADRAS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Dufur-Madras NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Dufur-Madras NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_DUFUR_MADRAS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20278,7 +20162,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_DUFUR_MADRAS_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_EUGENE_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Eugene NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Eugene NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_EUGENE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20286,7 +20170,7 @@ PE_PCS_NAD_1983_2011_OCRS_EUGENE_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_EUGENE_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Eugene NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Eugene NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_EUGENE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20294,7 +20178,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_EUGENE_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_GRANTS_PASS_ASHLAND_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Grants Pass-Ashland NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Grants Pass-Ashland NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_GRANTS_PASS_ASHLAND_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20302,7 +20186,7 @@ PE_PCS_NAD_1983_2011_OCRS_GRANTS_PASS_ASHLAND_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_GRANTS_PASS_ASHLAND_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Grants Pass-Ashland NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Grants Pass-Ashland NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_GRANTS_PASS_ASHLAND_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20310,7 +20194,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_GRANTS_PASS_ASHLAND_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_GRESHAM_WARM_SPRINGS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Gresham-Warm Springs NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Gresham-Warm Springs NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_GRESHAM_WARM_SPRINGS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20318,7 +20202,7 @@ PE_PCS_NAD_1983_2011_OCRS_GRESHAM_WARM_SPRINGS_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_GRESHAM_WARM_SPRINGS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Gresham-Warm Springs NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Gresham-Warm Springs NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_GRESHAM_WARM_SPRINGS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20326,7 +20210,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_GRESHAM_WARM_SPRINGS_M, \
 
 PE_PCS_NAD_1983_2011_OR_HALFWAY_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Halfway NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Halfway NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_HALFWAY_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20334,7 +20218,7 @@ PE_PCS_NAD_1983_2011_OR_HALFWAY_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_LA_GRANDE_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS La Grande NAD 1983 2011 TM (Feet Intl)"
+   "OCRS La Grande NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_LA_GRANDE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20342,7 +20226,7 @@ PE_PCS_NAD_1983_2011_OCRS_LA_GRANDE_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_LA_GRANDE_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS La Grande NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS La Grande NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_LA_GRANDE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20350,7 +20234,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_LA_GRANDE_M, \
 
 PE_PCS_NAD_1983_2011_OR_MEDFORD_DIAMOND_LAKE_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Medford-Diamond Lake NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Medford-Diamond Lake NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_MEDFORD_DIAMOND_LAKE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20358,7 +20242,7 @@ PE_PCS_NAD_1983_2011_OR_MEDFORD_DIAMOND_LAKE_M, \
 
 PE_PCS_NAD_1983_2011_OR_MITCHELL_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Mitchell NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Mitchell NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_MITCHELL_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20366,7 +20250,7 @@ PE_PCS_NAD_1983_2011_OR_MITCHELL_M, \
 
 PE_PCS_NAD_1983_2011_OR_N_CENTRAL_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS North Central NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS North Central NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_N_CENTRAL_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20374,7 +20258,7 @@ PE_PCS_NAD_1983_2011_OR_N_CENTRAL_M, \
 
 PE_PCS_NAD_1983_2011_OR_OCHOCO_SUMMIT_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Ochoco Summit NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Ochoco Summit NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_OCHOCO_SUMMIT_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20382,7 +20266,7 @@ PE_PCS_NAD_1983_2011_OR_OCHOCO_SUMMIT_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_ONTARIO_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Ontario NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Ontario NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_ONTARIO_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20390,7 +20274,7 @@ PE_PCS_NAD_1983_2011_OCRS_ONTARIO_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_ONTARIO_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Ontario NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Ontario NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_ONTARIO_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20398,7 +20282,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_ONTARIO_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_OREGON_COAST_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Oregon Coast NAD 1983 2011 OM (Feet Intl)"
+   "OCRS Oregon Coast NAD 1983 2011 OM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_OREGON_COAST_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20406,7 +20290,7 @@ PE_PCS_NAD_1983_2011_OCRS_OREGON_COAST_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_OREGON_COAST_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Oregon Coast NAD 1983 CORS96 OM (Feet Intl)"
+   "OCRS Oregon Coast NAD 1983 CORS96 OM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_OREGON_COAST_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20414,7 +20298,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_OREGON_COAST_M, \
 
 PE_PCS_NAD_1983_2011_OR_OWYHEE_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Owyhee NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Owyhee NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_OWYHEE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20422,7 +20306,7 @@ PE_PCS_NAD_1983_2011_OR_OWYHEE_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_PENDLETON_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Pendleton NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Pendleton NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_PENDLETON_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20430,7 +20314,7 @@ PE_PCS_NAD_1983_2011_OCRS_PENDLETON_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_PENDLETON_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Pendleton NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Pendleton NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_PENDLETON_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20438,7 +20322,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_PENDLETON_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_PENDLETON_LA_GRANDE_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Pendleton-La Grande NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Pendleton-La Grande NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_PENDLETON_LA_GRANDE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20446,7 +20330,7 @@ PE_PCS_NAD_1983_2011_OCRS_PENDLETON_LA_GRANDE_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_PENDLETON_LA_GRANDE_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Pendleton-La Grande NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Pendleton-La Grande NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_PENDLETON_LA_GRANDE_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20454,7 +20338,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_PENDLETON_LA_GRANDE_M, \
 
 PE_PCS_NAD_1983_2011_OR_PILOT_ROCK_UKIAH_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Pilot Rock-Ukiah NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Pilot Rock-Ukiah NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_PILOT_ROCK_UKIAH_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20462,7 +20346,7 @@ PE_PCS_NAD_1983_2011_OR_PILOT_ROCK_UKIAH_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_PORTLAND_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Portland NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Portland NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_PORTLAND_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20470,7 +20354,7 @@ PE_PCS_NAD_1983_2011_OCRS_PORTLAND_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_PORTLAND_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Portland NAD 1983 CORS96 LCC (Feet Intl)"
+   "OCRS Portland NAD 1983 CORS96 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_PORTLAND_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20478,7 +20362,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_PORTLAND_M, \
 
 PE_PCS_NAD_1983_2011_OR_PRAIRIE_CITY_BROGAN_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Prairie City-Brogan NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Prairie City-Brogan NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_PRAIRIE_CITY_BROGAN_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20486,7 +20370,7 @@ PE_PCS_NAD_1983_2011_OR_PRAIRIE_CITY_BROGAN_M, \
 
 PE_PCS_NAD_1983_2011_OR_RILEY_LAKEVIEW_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Riley-Lakeview NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Riley-Lakeview NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_RILEY_LAKEVIEW_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20494,7 +20378,7 @@ PE_PCS_NAD_1983_2011_OR_RILEY_LAKEVIEW_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_SALEM_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Salem NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Salem NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_SALEM_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20502,7 +20386,7 @@ PE_PCS_NAD_1983_2011_OCRS_SALEM_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_SALEM_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Salem NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Salem NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_SALEM_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20510,7 +20394,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_SALEM_M, \
 
 PE_PCS_NAD_1983_2011_OCRS_SANTIAM_PASS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Santiam Pass NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Santiam Pass NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OCRS_SANTIAM_PASS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20518,7 +20402,7 @@ PE_PCS_NAD_1983_2011_OCRS_SANTIAM_PASS_M, \
 
 PE_PCS_NAD_1983_CORS96_OCRS_SANTIAM_PASS_FT_INTL, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Santiam Pass NAD 1983 CORS96 TM (Feet Intl)"
+   "OCRS Santiam Pass NAD 1983 CORS96 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_CORS96_OCRS_SANTIAM_PASS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20526,7 +20410,7 @@ PE_PCS_NAD_1983_CORS96_OCRS_SANTIAM_PASS_M, \
 
 PE_PCS_NAD_1983_2011_OR_SISKIYOU_PASS_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Siskiyou Pass NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Siskiyou Pass NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_SISKIYOU_PASS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20534,7 +20418,7 @@ PE_PCS_NAD_1983_2011_OR_SISKIYOU_PASS_M, \
 
 PE_PCS_NAD_1983_2011_OR_UKIAH_FOX_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Ukiah-Fox NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Ukiah-Fox NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_UKIAH_FOX_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20542,7 +20426,7 @@ PE_PCS_NAD_1983_2011_OR_UKIAH_FOX_M, \
 
 PE_PCS_NAD_1983_2011_OR_WALLOWA_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Wallowa NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Wallowa NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_WALLOWA_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20550,7 +20434,7 @@ PE_PCS_NAD_1983_2011_OR_WALLOWA_M, \
 
 PE_PCS_NAD_1983_2011_OR_WARNER_HWY_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Warner Highway NAD 1983 2011 LCC (Feet Intl)"
+   "OCRS Warner Highway NAD 1983 2011 LCC (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_WARNER_HWY_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20558,7 +20442,7 @@ PE_PCS_NAD_1983_2011_OR_WARNER_HWY_M, \
 
 PE_PCS_NAD_1983_2011_OR_WILLAMETTE_PASS_FT, \
    "Projected Coordinate Systems/State Systems/Oregon", \
-   "OCRS Willamette Pass NAD 1983 2011 TM (Feet Intl)"
+   "OCRS Willamette Pass NAD 1983 2011 TM (Intl Feet)"
 
 PE_PCS_NAD_1983_2011_OR_WILLAMETTE_PASS_M, \
    "Projected Coordinate Systems/State Systems/Oregon", \
@@ -20812,10 +20696,6 @@ PE_PCS_CONAKRY_1905_UTM_29N, \
    "Projected Coordinate Systems/UTM/Africa", \
    "Conakry 1905 UTM Zone 29N"
 
-PE_PCS_DOUALA_UTM_32N, \
-   "Projected Coordinate Systems/UTM/Africa", \
-   "Douala UTM Zone 32N"
-
 PE_PCS_GAROUA_UTM_33N, \
    "Projected Coordinate Systems/UTM/Africa", \
    "Garoua UTM Zone 33N"
@@ -20855,6 +20735,10 @@ PE_PCS_LGD2006_UTM_34N, \
 PE_PCS_LGD2006_UTM_35N, \
    "Projected Coordinate Systems/UTM/Africa", \
    "LGD2006 UTM Zone 35N"
+
+PE_PCS_LIBREF21_UTM_ZONE_28N, \
+   "Projected Coordinate Systems/UTM/Africa", \
+   "LibRef21 UTM zone 28N"
 
 PE_PCS_LIBREF21_UTM_ZONE_29N, \
    "Projected Coordinate Systems/UTM/Africa", \
@@ -21008,6 +20892,22 @@ PE_PCS_TETE_UTM_37S, \
    "Projected Coordinate Systems/UTM/Africa", \
    "Tete UTM Zone 37S"
 
+PE_PCS_UGRF_UTM_ZONE_35N, \
+   "Projected Coordinate Systems/UTM/Africa", \
+   "UGRF UTM zone 35N"
+
+PE_PCS_UGRF_UTM_ZONE_35S, \
+   "Projected Coordinate Systems/UTM/Africa", \
+   "UGRF UTM zone 35S"
+
+PE_PCS_UGRF_UTM_ZONE_36N, \
+   "Projected Coordinate Systems/UTM/Africa", \
+   "UGRF UTM zone 36N"
+
+PE_PCS_UGRF_UTM_ZONE_36S, \
+   "Projected Coordinate Systems/UTM/Africa", \
+   "UGRF UTM zone 36S"
+
 PE_PCS_YOFF_1972_UTM_28N, \
    "Projected Coordinate Systems/UTM/Africa", \
    "Yoff 1972 UTM Zone 28N"
@@ -21055,6 +20955,14 @@ PE_PCS_FAHUD_UTM_39N, \
 PE_PCS_FAHUD_UTM_40N, \
    "Projected Coordinate Systems/UTM/Asia", \
    "Fahud UTM Zone 40N"
+
+PE_PCS_GGD_UTM_ZONE_37N_N_E, \
+   "Projected Coordinate Systems/UTM/Asia", \
+   "Georgia Geodetic Datum UTM zone 37N (N-E)"
+
+PE_PCS_GGD_UTM_ZONE_38N_N_E, \
+   "Projected Coordinate Systems/UTM/Asia", \
+   "Georgia Geodetic Datum UTM zone 38N (N-E)"
 
 PE_PCS_HONG_KONG_1980_UTM_49N, \
    "Projected Coordinate Systems/UTM/Asia", \
@@ -21107,54 +21015,6 @@ PE_PCS_INDIAN_1975_UTM_47N, \
 PE_PCS_INDIAN_1975_UTM_48N, \
    "Projected Coordinate Systems/UTM/Asia", \
    "Indian 1975 UTM Zone 48N"
-
-PE_PCS_JGD_2000_UTM_51N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2000 UTM Zone 51N"
-
-PE_PCS_JGD_2000_UTM_52N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2000 UTM Zone 52N"
-
-PE_PCS_JGD_2000_UTM_53N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2000 UTM Zone 53N"
-
-PE_PCS_JGD_2000_UTM_54N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2000 UTM Zone 54N"
-
-PE_PCS_JGD_2000_UTM_55N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2000 UTM Zone 55N"
-
-PE_PCS_JGD_2000_UTM_56N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2000 UTM Zone 56N"
-
-PE_PCS_JGD_2011_UTM_51N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2011 UTM Zone 51N"
-
-PE_PCS_JGD_2011_UTM_52N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2011 UTM Zone 52N"
-
-PE_PCS_JGD_2011_UTM_53N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2011 UTM Zone 53N"
-
-PE_PCS_JGD_2011_UTM_54N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2011 UTM Zone 54N"
-
-PE_PCS_JGD_2011_UTM_55N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2011 UTM Zone 55N"
-
-PE_PCS_JGD_2011_UTM_56N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "JGD 2011 UTM Zone 56N"
 
 PE_PCS_KSA_GRF17_UTM_ZONE_36N, \
    "Projected Coordinate Systems/UTM/Asia", \
@@ -21312,34 +21172,6 @@ PE_PCS_QND_1995_UTM_39N, \
    "Projected Coordinate Systems/UTM/Asia", \
    "QND 1995 UTM Zone 39N"
 
-PE_PCS_SAMBOJA_UTM_50S, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "Samboja UTM Zone 50S"
-
-PE_PCS_TOKYO_UTM_51N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "Tokyo UTM Zone 51N"
-
-PE_PCS_TOKYO_UTM_52N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "Tokyo UTM Zone 52N"
-
-PE_PCS_TOKYO_UTM_53N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "Tokyo UTM Zone 53N"
-
-PE_PCS_TOKYO_UTM_54N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "Tokyo UTM Zone 54N"
-
-PE_PCS_TOKYO_UTM_55N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "Tokyo UTM Zone 55N"
-
-PE_PCS_TOKYO_UTM_56N, \
-   "Projected Coordinate Systems/UTM/Asia", \
-   "Tokyo UTM Zone 56N"
-
 PE_PCS_TC_1948_UTM_39N, \
    "Projected Coordinate Systems/UTM/Asia", \
    "Trucial Coast 1948 UTM Zone 39N"
@@ -21371,6 +21203,102 @@ PE_PCS_YEMEN_NGN_1996_UTM_39N, \
 PE_PCS_YEMEN_NGN_1996_UTM_40N, \
    "Projected Coordinate Systems/UTM/Asia", \
    "Yemen NGN 1996 UTM Zone 40N"
+
+PE_PCS_JGD_2000_UTM_51N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2000 UTM Zone 51N"
+
+PE_PCS_JGD_2000_UTM_52N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2000 UTM Zone 52N"
+
+PE_PCS_JGD_2000_UTM_53N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2000 UTM Zone 53N"
+
+PE_PCS_JGD_2000_UTM_54N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2000 UTM Zone 54N"
+
+PE_PCS_JGD_2000_UTM_55N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2000 UTM Zone 55N"
+
+PE_PCS_JGD_2000_UTM_56N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2000 UTM Zone 56N"
+
+PE_PCS_JGD_2011_UTM_51N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2011 UTM Zone 51N"
+
+PE_PCS_JGD_2011_UTM_52N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2011 UTM Zone 52N"
+
+PE_PCS_JGD_2011_UTM_53N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2011 UTM Zone 53N"
+
+PE_PCS_JGD_2011_UTM_54N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2011 UTM Zone 54N"
+
+PE_PCS_JGD_2011_UTM_55N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2011 UTM Zone 55N"
+
+PE_PCS_JGD_2011_UTM_56N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2011 UTM Zone 56N"
+
+PE_PCS_JGD_2024_UTM_51N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2024 UTM Zone 51N"
+
+PE_PCS_JGD_2024_UTM_52N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2024 UTM Zone 52N"
+
+PE_PCS_JGD_2024_UTM_53N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2024 UTM Zone 53N"
+
+PE_PCS_JGD_2024_UTM_54N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2024 UTM Zone 54N"
+
+PE_PCS_JGD_2024_UTM_55N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2024 UTM Zone 55N"
+
+PE_PCS_JGD_2024_UTM_56N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "JGD 2024 UTM Zone 56N"
+
+PE_PCS_TOKYO_UTM_51N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "Tokyo UTM Zone 51N"
+
+PE_PCS_TOKYO_UTM_52N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "Tokyo UTM Zone 52N"
+
+PE_PCS_TOKYO_UTM_53N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "Tokyo UTM Zone 53N"
+
+PE_PCS_TOKYO_UTM_54N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "Tokyo UTM Zone 54N"
+
+PE_PCS_TOKYO_UTM_55N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "Tokyo UTM Zone 55N"
+
+PE_PCS_TOKYO_UTM_56N, \
+   "Projected Coordinate Systems/UTM/Asia/Japan", \
+   "Tokyo UTM Zone 56N"
 
 PE_PCS_NAD_1927_BLM_1N, \
    "Projected Coordinate Systems/UTM/BLM (US Feet)", \
@@ -22016,10 +21944,6 @@ PE_PCS_ATS_1977_UTM_20N, \
    "Projected Coordinate Systems/UTM/North America", \
    "ATS 1977 UTM Zone 20N"
 
-PE_PCS_GRAND_CAYMAN_1959_UTM_17N, \
-   "Projected Coordinate Systems/UTM/North America", \
-   "Grand Cayman 1959 UTM Zone 17N"
-
 PE_PCS_GREENLAND_1996_UTM_18N, \
    "Projected Coordinate Systems/UTM/North America", \
    "Greenland 1996 UTM Zone 18N"
@@ -22075,10 +21999,6 @@ PE_PCS_JAD_2001_UTM_17N, \
 PE_PCS_JAD_2001_UTM_18N, \
    "Projected Coordinate Systems/UTM/North America", \
    "JAD 2001 UTM Zone 18N"
-
-PE_PCS_LITTLE_CAYMAN_1961_UTM_17N, \
-   "Projected Coordinate Systems/UTM/North America", \
-   "Little Cayman 1961 UTM Zone 17N"
 
 PE_PCS_MEXICO_ITRF2008_UTM_11N, \
    "Projected Coordinate Systems/UTM/North America", \
@@ -22652,6 +22572,10 @@ PE_PCS_NAD_1983_PA11_UTM_2S, \
    "Projected Coordinate Systems/UTM/North America/NAD 1983 (PA11)", \
    "NAD 1983 (PA11) UTM Zone 2S"
 
+PE_PCS_NAD_1983_PA11_UTM_2S_FT_US, \
+   "Projected Coordinate Systems/UTM/North America/NAD 1983 (PA11)", \
+   "NAD 1983 (PA11) UTM Zone 2S (US Feet)"
+
 PE_PCS_NAD_1983_PA11_UTM_4N, \
    "Projected Coordinate Systems/UTM/North America/NAD 1983 (PA11)", \
    "NAD 1983 (PA11) UTM Zone 4N"
@@ -22674,7 +22598,7 @@ PE_PCS_NAD_1983_PACP00_UTM_5N, \
 
 PE_PCS_DOS_71_4_UTM_30S, \
    "Projected Coordinate Systems/UTM/Oceans/Atlantic Ocean", \
-   "Astro DOS 71_4 UTM zone 30S"
+   "Astro DOS 71-4 UTM zone 30S"
 
 PE_PCS_AZORES_CENTRAL_1948_UTM_26N, \
    "Projected Coordinate Systems/UTM/Oceans/Atlantic Ocean", \
@@ -22715,10 +22639,6 @@ PE_PCS_HJORSEY_1955_UTM_27N, \
 PE_PCS_HJORSEY_1955_UTM_28N, \
    "Projected Coordinate Systems/UTM/Oceans/Atlantic Ocean", \
    "Hjorsey 1955 UTM Zone 28N"
-
-PE_PCS_MADEIRA_1936_UTM_28N, \
-   "Projected Coordinate Systems/UTM/Oceans/Atlantic Ocean", \
-   "Madeira 1936 UTM Zone 28N"
 
 PE_PCS_PTRA08_UTM_25N, \
    "Projected Coordinate Systems/UTM/Oceans/Atlantic Ocean", \
@@ -22763,6 +22683,10 @@ PE_PCS_SELVAGEM_GRANDE_1938_UTM_28N, \
 PE_PCS_ST_HELENA_TRITAN_UTM_30S, \
    "Projected Coordinate Systems/UTM/Oceans/Atlantic Ocean", \
    "St. Helena Tritan UTM zone 30S"
+
+PE_PCS_CURACAO_1951_UTM_19N, \
+   "Projected Coordinate Systems/UTM/Oceans/Caribbean Sea", \
+   "Curacao 1951 UTM zone 19N"
 
 PE_PCS_FORT_DESAIX_UTM_20N, \
    "Projected Coordinate Systems/UTM/Oceans/Caribbean Sea", \
@@ -25223,10 +25147,6 @@ PE_PCS_WORLD_VAN_DER_GRINTEN_I, \
 PE_PCS_WORLD_VERTICAL_PERSPECTIVE, \
    "Projected Coordinate Systems/World", \
    "Vertical Perspective (world)"
-
-PE_PCS_WGS_1984_EASE_GRID_GLOBAL, \
-   "Projected Coordinate Systems/World", \
-   "WGS 1984 EASE Grid Global"
 
 PE_PCS_WGS_1984_NSIDC_EASE_2_0_GLOBAL, \
    "Projected Coordinate Systems/World", \

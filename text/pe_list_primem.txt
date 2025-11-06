@@ -21,8 +21,7 @@ Latest-WKID : 8901
 Macro       : PE_PM_GREENWICH
 Name        : Greenwich
 WKT         : PRIMEM["Greenwich", 0.0]
-WKT2        : PRIMEM["Greenwich", 0.0,
-               ANGLEUNIT["Degree", 0.0174532925199433]]
+WKT2        : PRIMEM["Greenwich", 0.0]
 Description : 0~ 00' 00'' E
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -189,8 +188,7 @@ Latest-WKID : 108900
 Macro       : PE_PM_REFERENCE
 Name        : Reference_Meridian
 WKT         : PRIMEM["Reference_Meridian", 0.0]
-WKT2        : PRIMEM["Reference_Meridian", 0.0,
-               ANGLEUNIT["Degree", 0.0174532925199433]]
+WKT2        : PRIMEM["Reference_Meridian", 0.0]
 Description : Generic meridian origin
 Authority   : Esri
 Version     : 9.0.0

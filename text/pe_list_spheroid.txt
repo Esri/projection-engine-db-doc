@@ -21,8 +21,7 @@ Latest-WKID : 1024
 Macro       : PE_S_CGCS2000
 Name        : CGCS2000
 WKT         : SPHEROID["CGCS2000", 6378137.0, 298.257222101]
-WKT2        : ELLIPSOID["CGCS2000", 6378137.0, 298.257222101,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["CGCS2000", 6378137.0, 298.257222101]
 Description : China Geodetic Coordinate System 2000
 Authority   : EPSG
 Version     : 7.2(10.2.0)
@@ -33,8 +32,7 @@ Latest-WKID : 1025
 Macro       : PE_S_GSK_2011
 Name        : GSK-2011
 WKT         : SPHEROID["GSK-2011", 6378136.5, 298.2564151]
-WKT2        : ELLIPSOID["GSK-2011", 6378136.5, 298.2564151,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GSK-2011", 6378136.5, 298.2564151]
 Description : GSK-2011
 Authority   : EPSG
 Version     : 9.0(10.5.1)
@@ -45,8 +43,7 @@ Latest-WKID : 1026
 Macro       : PE_S_ZACH_1812
 Name        : Zach_1812
 WKT         : SPHEROID["Zach_1812", 6376045.0, 310.0]
-WKT2        : ELLIPSOID["Zach_1812", 6376045.0, 310.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Zach_1812", 6376045.0, 310.0]
 Description : Zach 1812
 Authority   : EPSG
 Version     : 9.1(10.6.0)
@@ -57,8 +54,7 @@ Latest-WKID : 7001
 Macro       : PE_S_AIRY_1830
 Name        : Airy_1830
 WKT         : SPHEROID["Airy_1830", 6377563.396, 299.3249646]
-WKT2        : ELLIPSOID["Airy_1830", 6377563.396, 299.3249646,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Airy_1830", 6377563.396, 299.3249646]
 Description : Airy 1830
 Authority   : EPSG
 Version     : 4.3(3.0.1)
@@ -69,8 +65,7 @@ Latest-WKID : 7002
 Macro       : PE_S_AIRY_MOD
 Name        : Airy_Modified
 WKT         : SPHEROID["Airy_Modified", 6377340.189, 299.3249646]
-WKT2        : ELLIPSOID["Airy_Modified", 6377340.189, 299.3249646,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Airy_Modified", 6377340.189, 299.3249646]
 Description : Airy modified
 Authority   : EPSG
 Version     : 4.3(3.0.1)
@@ -81,8 +76,7 @@ Latest-WKID : 7003
 Macro       : PE_S_AUSTRALIAN
 Name        : Australian
 WKT         : SPHEROID["Australian", 6378160.0, 298.25]
-WKT2        : ELLIPSOID["Australian", 6378160.0, 298.25,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Australian", 6378160.0, 298.25]
 Description : Australian National
 Authority   : EPSG
 Version     : 6.3(3.0.1)
@@ -93,8 +87,7 @@ Latest-WKID : 7004
 Macro       : PE_S_BESSEL_1841
 Name        : Bessel_1841
 WKT         : SPHEROID["Bessel_1841", 6377397.155, 299.1528128]
-WKT2        : ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Bessel_1841", 6377397.155, 299.1528128]
 Description : Bessel 1841
 Authority   : EPSG
 Version     : 4.3(3.0.1)
@@ -105,8 +98,7 @@ Latest-WKID : 7005
 Macro       : PE_S_BESSEL_MOD
 Name        : Bessel_Modified
 WKT         : SPHEROID["Bessel_Modified", 6377492.018, 299.1528128]
-WKT2        : ELLIPSOID["Bessel_Modified", 6377492.018, 299.1528128,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Bessel_Modified", 6377492.018, 299.1528128]
 Description : Bessel modified
 Authority   : EPSG
 Version     : 4.3(3.0.1)
@@ -117,8 +109,7 @@ Latest-WKID : 7006
 Macro       : PE_S_BESSEL_NAMIBIA
 Name        : Bessel_Namibia
 WKT         : SPHEROID["Bessel_Namibia", 6377483.865280418, 299.1528128]
-WKT2        : ELLIPSOID["Bessel_Namibia", 6377483.865280418, 299.1528128,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Bessel_Namibia", 6377483.865280418, 299.1528128]
 Description : Bessel Namibia
 Authority   : EPSG
 Version     : 3.2(3.0.1)
@@ -129,8 +120,7 @@ Latest-WKID : 7007
 Macro       : PE_S_CLARKE_1858
 Name        : Clarke_1858
 WKT         : SPHEROID["Clarke_1858", 6378293.645208759, 294.260676369]
-WKT2        : ELLIPSOID["Clarke_1858", 6378293.645208759, 294.260676369,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Clarke_1858", 6378293.645208759, 294.260676369]
 Description : Clarke 1858
 Authority   : EPSG
 Version     : 4.4(3.0.1)
@@ -141,8 +131,7 @@ Latest-WKID : 7008
 Macro       : PE_S_CLARKE_1866
 Name        : Clarke_1866
 WKT         : SPHEROID["Clarke_1866", 6378206.4, 294.9786982]
-WKT2        : ELLIPSOID["Clarke_1866", 6378206.4, 294.9786982,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Clarke_1866", 6378206.4, 294.9786982]
 Description : Clarke 1866
 Authority   : EPSG
 Version     : 4.3(3.0.1)
@@ -153,8 +142,7 @@ Latest-WKID : 7009
 Macro       : PE_S_CLARKE_1866_MICH
 Name        : Clarke_1866_Michigan
 WKT         : SPHEROID["Clarke_1866_Michigan", 6378450.047, 294.978684677]
-WKT2        : ELLIPSOID["Clarke_1866_Michigan", 6378450.047, 294.978684677,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Clarke_1866_Michigan", 6378450.047, 294.978684677]
 Description : Clarke 1866 Michigan
 Authority   : EPSG
 Version     : 4.2(3.0.1)
@@ -165,8 +153,7 @@ Latest-WKID : 7010
 Macro       : PE_S_CLARKE_1880_BENOIT
 Name        : Clarke_1880_Benoit
 WKT         : SPHEROID["Clarke_1880_Benoit", 6378300.789, 293.4663155389802]
-WKT2        : ELLIPSOID["Clarke_1880_Benoit", 6378300.789, 293.4663155389802,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Clarke_1880_Benoit", 6378300.789, 293.4663155389802]
 Description : Clarke 1880 (Benoit)
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -177,8 +164,7 @@ Latest-WKID : 7011
 Macro       : PE_S_CLARKE_1880_IGN
 Name        : Clarke_1880_IGN
 WKT         : SPHEROID["Clarke_1880_IGN", 6378249.2, 293.4660212936265]
-WKT2        : ELLIPSOID["Clarke_1880_IGN", 6378249.2, 293.4660212936265,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Clarke_1880_IGN", 6378249.2, 293.4660212936265]
 Description : Clarke 1880 (IGN)
 Authority   : EPSG
 Version     : 4.1(3.0.1)
@@ -189,8 +175,7 @@ Latest-WKID : 7012
 Macro       : PE_S_CLARKE_1880_RGS
 Name        : Clarke_1880_RGS
 WKT         : SPHEROID["Clarke_1880_RGS", 6378249.145, 293.465]
-WKT2        : ELLIPSOID["Clarke_1880_RGS", 6378249.145, 293.465,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Clarke_1880_RGS", 6378249.145, 293.465]
 Description : Clarke 1880 (RGS)
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -201,8 +186,7 @@ Latest-WKID : 7013
 Macro       : PE_S_CLARKE_1880_ARC
 Name        : Clarke_1880_Arc
 WKT         : SPHEROID["Clarke_1880_Arc", 6378249.145, 293.466307656]
-WKT2        : ELLIPSOID["Clarke_1880_Arc", 6378249.145, 293.466307656,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Clarke_1880_Arc", 6378249.145, 293.466307656]
 Description : Clarke 1880 (Arc)
 Authority   : EPSG
 Version     : 5.2(3.0.1)
@@ -213,8 +197,7 @@ Latest-WKID : 7014
 Macro       : PE_S_CLARKE_1880_SGA
 Name        : Clarke_1880_SGA
 WKT         : SPHEROID["Clarke_1880_SGA", 6378249.2, 293.46598]
-WKT2        : ELLIPSOID["Clarke_1880_SGA", 6378249.2, 293.46598,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Clarke_1880_SGA", 6378249.2, 293.46598]
 Description : Clarke 1880 (SGA)
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -225,8 +208,7 @@ Latest-WKID : 7015
 Macro       : PE_S_EVEREST_ADJ_1937
 Name        : Everest_Adjustment_1937
 WKT         : SPHEROID["Everest_Adjustment_1937", 6377276.345, 300.8017]
-WKT2        : ELLIPSOID["Everest_Adjustment_1937", 6377276.345, 300.8017,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Everest_Adjustment_1937", 6377276.345, 300.8017]
 Description : Everest (adjustment 1937)
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -237,8 +219,7 @@ Latest-WKID : 7016
 Macro       : PE_S_EVEREST_DEF_1967
 Name        : Everest_Definition_1967
 WKT         : SPHEROID["Everest_Definition_1967", 6377298.556, 300.8017]
-WKT2        : ELLIPSOID["Everest_Definition_1967", 6377298.556, 300.8017,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Everest_Definition_1967", 6377298.556, 300.8017]
 Description : Everest (definition 1967)
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -249,8 +230,7 @@ Latest-WKID : 7018
 Macro       : PE_S_EVEREST_MOD
 Name        : Everest_1830_Modified
 WKT         : SPHEROID["Everest_1830_Modified", 6377304.063, 300.8017]
-WKT2        : ELLIPSOID["Everest_1830_Modified", 6377304.063, 300.8017,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Everest_1830_Modified", 6377304.063, 300.8017]
 Description : Everest 1830 (modified)
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -261,8 +241,7 @@ Latest-WKID : 7019
 Macro       : PE_S_GRS_1980
 Name        : GRS_1980
 WKT         : SPHEROID["GRS_1980", 6378137.0, 298.257222101]
-WKT2        : ELLIPSOID["GRS_1980", 6378137.0, 298.257222101,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]
 Description : GRS 1980
 Authority   : EPSG
 Version     : 4.1(3.0.1)
@@ -273,8 +252,7 @@ Latest-WKID : 7020
 Macro       : PE_S_HELMERT_1906
 Name        : Helmert_1906
 WKT         : SPHEROID["Helmert_1906", 6378200.0, 298.3]
-WKT2        : ELLIPSOID["Helmert_1906", 6378200.0, 298.3,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Helmert_1906", 6378200.0, 298.3]
 Description : Helmert 1906
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -285,8 +263,7 @@ Latest-WKID : 7021
 Macro       : PE_S_INDONESIAN
 Name        : Indonesian
 WKT         : SPHEROID["Indonesian", 6378160.0, 298.247]
-WKT2        : ELLIPSOID["Indonesian", 6378160.0, 298.247,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Indonesian", 6378160.0, 298.247]
 Description : Indonesian National
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -297,8 +274,7 @@ Latest-WKID : 7022
 Macro       : PE_S_INTERNATIONAL_1924
 Name        : International_1924
 WKT         : SPHEROID["International_1924", 6378388.0, 297.0]
-WKT2        : ELLIPSOID["International_1924", 6378388.0, 297.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["International_1924", 6378388.0, 297.0]
 Description : International 1924
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -309,8 +285,7 @@ Latest-WKID : 7023
 Macro       : PE_S_INTERNATIONAL_1967
 Name        : International_1967
 WKT         : SPHEROID["International_1967", 6378160.0, 298.25]
-WKT2        : ELLIPSOID["International_1967", 6378160.0, 298.25,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["International_1967", 6378160.0, 298.25]
 Description : International 1967
 Authority   : Esri
 Version     : 3.0.1
@@ -321,8 +296,7 @@ Latest-WKID : 7024
 Macro       : PE_S_KRASOVSKY_1940
 Name        : Krasovsky_1940
 WKT         : SPHEROID["Krasovsky_1940", 6378245.0, 298.3]
-WKT2        : ELLIPSOID["Krasovsky_1940", 6378245.0, 298.3,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Krasovsky_1940", 6378245.0, 298.3]
 Description : Krasovsky 1940
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -333,8 +307,7 @@ Latest-WKID : 7025
 Macro       : PE_S_NWL_9D
 Name        : NWL_9D
 WKT         : SPHEROID["NWL_9D", 6378145.0, 298.25]
-WKT2        : ELLIPSOID["NWL_9D", 6378145.0, 298.25,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["NWL_9D", 6378145.0, 298.25]
 Description : Transit precise ephemeris
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -345,8 +318,7 @@ Latest-WKID : 7026
 Macro       : PE_S_NWL_10D
 Name        : NWL_10D
 WKT         : SPHEROID["NWL_10D", 6378135.0, 298.26]
-WKT2        : ELLIPSOID["NWL_10D", 6378135.0, 298.26,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["NWL_10D", 6378135.0, 298.26]
 Description : NWL-10D == WGS 1972
 Authority   : Esri
 Version     : 3.0.1
@@ -357,8 +329,7 @@ Latest-WKID : 7027
 Macro       : PE_S_PLESSIS_1817
 Name        : Plessis_1817
 WKT         : SPHEROID["Plessis_1817", 6376523.0, 308.64]
-WKT2        : ELLIPSOID["Plessis_1817", 6376523.0, 308.64,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Plessis_1817", 6376523.0, 308.64]
 Description : Plessis 1817
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -369,8 +340,7 @@ Latest-WKID : 7028
 Macro       : PE_S_STRUVE_1860
 Name        : Struve_1860
 WKT         : SPHEROID["Struve_1860", 6378298.3, 294.73]
-WKT2        : ELLIPSOID["Struve_1860", 6378298.3, 294.73,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Struve_1860", 6378298.3, 294.73]
 Description : Struve 1860
 Authority   : EPSG
 Version     : 4.2(3.0.1)
@@ -381,8 +351,7 @@ Latest-WKID : 7029
 Macro       : PE_S_WAR_OFFICE
 Name        : War_Office
 WKT         : SPHEROID["War_Office", 6378300.0, 296.0]
-WKT2        : ELLIPSOID["War_Office", 6378300.0, 296.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["War_Office", 6378300.0, 296.0]
 Description : War Office
 Authority   : EPSG
 Version     : 7.1.9(3.0.1)
@@ -393,8 +362,7 @@ Latest-WKID : 7030
 Macro       : PE_S_WGS_1984
 Name        : WGS_1984
 WKT         : SPHEROID["WGS_1984", 6378137.0, 298.257223563]
-WKT2        : ELLIPSOID["WGS_1984", 6378137.0, 298.257223563,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["WGS_1984", 6378137.0, 298.257223563]
 Description : WGS 1984
 Authority   : EPSG
 Version     : 4.2(3.0.1)
@@ -405,8 +373,7 @@ Latest-WKID : 7031
 Macro       : PE_S_GEM_10C
 Name        : GEM_10C
 WKT         : SPHEROID["GEM_10C", 6378137.0, 298.257223563]
-WKT2        : ELLIPSOID["GEM_10C", 6378137.0, 298.257223563,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GEM_10C", 6378137.0, 298.257223563]
 Description : GEM gravity potential model
 Authority   : EPSG
 Version     : 4.2(3.0.1)
@@ -417,8 +384,7 @@ Latest-WKID : 7032
 Macro       : PE_S_OSU_86F
 Name        : OSU_86F
 WKT         : SPHEROID["OSU_86F", 6378136.2, 298.257223563]
-WKT2        : ELLIPSOID["OSU_86F", 6378136.2, 298.257223563,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["OSU_86F", 6378136.2, 298.257223563]
 Description : OSU 1986 geoidal model
 Authority   : EPSG
 Version     : 4.2(3.0.1)
@@ -429,8 +395,7 @@ Latest-WKID : 7033
 Macro       : PE_S_OSU_91A
 Name        : OSU_91A
 WKT         : SPHEROID["OSU_91A", 6378136.3, 298.257223563]
-WKT2        : ELLIPSOID["OSU_91A", 6378136.3, 298.257223563,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["OSU_91A", 6378136.3, 298.257223563]
 Description : OSU 1991 geoidal model
 Authority   : EPSG
 Version     : 4.2(3.0.1)
@@ -441,8 +406,7 @@ Latest-WKID : 7034
 Macro       : PE_S_CLARKE_1880
 Name        : Clarke_1880
 WKT         : SPHEROID["Clarke_1880", 6378249.144808011, 293.4663076556253]
-WKT2        : ELLIPSOID["Clarke_1880", 6378249.144808011, 293.4663076556253,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Clarke_1880", 6378249.144808011, 293.4663076556253]
 Description : Clarke 1880
 Authority   : EPSG
 Version     : 6.16(3.0.1)
@@ -453,8 +417,7 @@ Latest-WKID : 7035
 Macro       : PE_S_SPHERE
 Name        : Sphere
 WKT         : SPHEROID["Sphere", 6371000.0, 0.0]
-WKT2        : ELLIPSOID["Sphere", 6371000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Sphere", 6371000.0, 0.0]
 Description : Authalic sphere
 Authority   : EPSG
 Version     : 2.1(3.0.1)
@@ -465,8 +428,7 @@ Latest-WKID : 7036
 Macro       : PE_S_GRS_1967
 Name        : GRS_1967
 WKT         : SPHEROID["GRS_1967", 6378160.0, 298.247167427]
-WKT2        : ELLIPSOID["GRS_1967", 6378160.0, 298.247167427,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1967", 6378160.0, 298.247167427]
 Description : GRS 1967 = International 1967
 Authority   : EPSG
 Version     : 3.0(3.0.1)
@@ -477,8 +439,7 @@ Latest-WKID : 7041
 Macro       : PE_S_ATS_1977
 Name        : ATS_1977
 WKT         : SPHEROID["ATS_1977", 6378135.0, 298.257]
-WKT2        : ELLIPSOID["ATS_1977", 6378135.0, 298.257,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["ATS_1977", 6378135.0, 298.257]
 Description : Average Terrestrial System 1977
 Authority   : EPSG
 Version     : 4.3(4.0.0)
@@ -501,8 +462,7 @@ Latest-WKID : 7043
 Macro       : PE_S_WGS_1972
 Name        : WGS_1972
 WKT         : SPHEROID["WGS_1972", 6378135.0, 298.26]
-WKT2        : ELLIPSOID["WGS_1972", 6378135.0, 298.26,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["WGS_1972", 6378135.0, 298.26]
 Description : WGS 1972
 Authority   : EPSG
 Version     : 4.3(3.0.1)
@@ -513,8 +473,7 @@ Latest-WKID : 7044
 Macro       : PE_S_EVEREST_DEF_1962
 Name        : Everest_Definition_1962
 WKT         : SPHEROID["Everest_Definition_1962", 6377301.243, 300.8017255]
-WKT2        : ELLIPSOID["Everest_Definition_1962", 6377301.243, 300.8017255,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Everest_Definition_1962", 6377301.243, 300.8017255]
 Description : Everest (definition 1962)
 Authority   : EPSG
 Version     : 4.4(8.1.0)
@@ -525,8 +484,7 @@ Latest-WKID : 7045
 Macro       : PE_S_EVEREST_DEF_1975
 Name        : Everest_Definition_1975
 WKT         : SPHEROID["Everest_Definition_1975", 6377299.151, 300.8017255]
-WKT2        : ELLIPSOID["Everest_Definition_1975", 6377299.151, 300.8017255,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Everest_Definition_1975", 6377299.151, 300.8017255]
 Description : Everest (definition 1975)
 Authority   : EPSG
 Version     : 4.4(3.0.1)
@@ -537,8 +495,7 @@ Latest-WKID : 7048
 Macro       : PE_S_SPHERE_GRS_1980_AUTHALIC
 Name        : Sphere_GRS_1980_Authalic
 WKT         : SPHEROID["Sphere_GRS_1980_Authalic", 6371007.0, 0.0]
-WKT2        : ELLIPSOID["Sphere_GRS_1980_Authalic", 6371007.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Sphere_GRS_1980_Authalic", 6371007.0, 0.0]
 Description : Authalic Sphere based on GRS80
 Authority   : EPSG
 Version     : 5.21(9.0.0)
@@ -549,8 +506,7 @@ Latest-WKID : 7049
 Macro       : PE_S_XIAN_1980
 Name        : Xian_1980
 WKT         : SPHEROID["Xian_1980", 6378140.0, 298.257]
-WKT2        : ELLIPSOID["Xian_1980", 6378140.0, 298.257,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Xian_1980", 6378140.0, 298.257]
 Description : Xian 1980
 Authority   : EPSG
 Version     : 7.2(9.0.0)
@@ -561,8 +517,7 @@ Latest-WKID : 7050
 Macro       : PE_S_GRS_1967_TRUNC
 Name        : GRS_1967_Truncated
 WKT         : SPHEROID["GRS_1967_Truncated", 6378160.0, 298.25]
-WKT2        : ELLIPSOID["GRS_1967_Truncated", 6378160.0, 298.25,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1967_Truncated", 6378160.0, 298.25]
 Description : GRS 1967 Truncated - was 107036, called GRS67 Modified in EPSG
 Authority   : EPSG
 Version     : 6.18(10.0.0)
@@ -573,8 +528,7 @@ Latest-WKID : 7051
 Macro       : PE_S_DANISH_1876
 Name        : Danish_1876
 WKT         : SPHEROID["Danish_1876", 6377019.27, 300.0]
-WKT2        : ELLIPSOID["Danish_1876", 6377019.27, 300.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Danish_1876", 6377019.27, 300.0]
 Description : Danish 1876
 Authority   : EPSG
 Version     : 6.4(9.0.0)
@@ -585,8 +539,7 @@ Latest-WKID : 7052
 Macro       : PE_S_SPHERE_CLARKE_1866_AUTHALIC
 Name        : Sphere_Clarke_1866_Authalic
 WKT         : SPHEROID["Sphere_Clarke_1866_Authalic", 6370997.0, 0.0]
-WKT2        : ELLIPSOID["Sphere_Clarke_1866_Authalic", 6370997.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Sphere_Clarke_1866_Authalic", 6370997.0, 0.0]
 Description : Authalic Sphere based on Clarke 1866
 Authority   : EPSG
 Version     : 6.5.2(9.2.0)
@@ -597,8 +550,7 @@ Latest-WKID : 7053
 Macro       : PE_S_HOUGH_1960
 Name        : Hough_1960
 WKT         : SPHEROID["Hough_1960", 6378270.0, 297.0]
-WKT2        : ELLIPSOID["Hough_1960", 6378270.0, 297.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Hough_1960", 6378270.0, 297.0]
 Description : Hough 1960
 Authority   : EPSG
 Version     : 6.9(9.2.0)
@@ -609,8 +561,7 @@ Latest-WKID : 7054
 Macro       : PE_S_PZ_1990
 Name        : PZ_1990
 WKT         : SPHEROID["PZ_1990", 6378136.0, 298.257839303]
-WKT2        : ELLIPSOID["PZ_1990", 6378136.0, 298.257839303,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["PZ_1990", 6378136.0, 298.257839303]
 Description : PZ 1990
 Authority   : EPSG
 Version     : 9.0(9.2.0)
@@ -621,8 +572,7 @@ Latest-WKID : 7055
 Macro       : PE_S_CLARKE_1880_IFT
 Name        : Clarke_1880_Intl_Ft
 WKT         : SPHEROID["Clarke_1880_Intl_Ft", 6378306.3696, 293.4663076556299]
-WKT2        : ELLIPSOID["Clarke_1880_Intl_Ft", 6378306.3696, 293.4663076556299,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Clarke_1880_Intl_Ft", 6378306.3696, 293.4663076556299]
 Description : Clarke 1880 definition assumed to be international feet
 Authority   : EPSG
 Version     : 9.2(9.3.0.0)
@@ -633,8 +583,7 @@ Latest-WKID : 7056
 Macro       : PE_S_EVEREST_MOD_1969
 Name        : Everest_Modified_1969
 WKT         : SPHEROID["Everest_Modified_1969", 6377295.664, 300.8017]
-WKT2        : ELLIPSOID["Everest_Modified_1969", 6377295.664, 300.8017,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Everest_Modified_1969", 6377295.664, 300.8017]
 Description : Everest modified 1969 - 107006, called Everest 1830 (RSO 1969)
               in EPSG
 Authority   : EPSG
@@ -646,8 +595,7 @@ Latest-WKID : 7057
 Macro       : PE_S_SPHERE_INTL_1924_AUTHALIC
 Name        : Sphere_International_1924_Authalic
 WKT         : SPHEROID["Sphere_International_1924_Authalic", 6371228.0, 0.0]
-WKT2        : ELLIPSOID["Sphere_International_1924_Authalic", 6371228.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Sphere_International_1924_Authalic", 6371228.0, 0.0]
 Description : Authalic sphere based on International 1924
 Authority   : EPSG
 Version     : 6.11.1(9.3.0.0)
@@ -658,8 +606,7 @@ Latest-WKID : 7058
 Macro       : PE_S_HUGHES_1980
 Name        : Hughes_1980
 WKT         : SPHEROID["Hughes_1980", 6378273.0, 298.279411123064]
-WKT2        : ELLIPSOID["Hughes_1980", 6378273.0, 298.279411123064,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Hughes_1980", 6378273.0, 298.279411123064]
 Description : Hughes 1980
 Authority   : EPSG
 Version     : 6.11.1(9.3.0.0)
@@ -670,8 +617,7 @@ Latest-WKID : 7059
 Macro       : PE_S_SPHERE_WGS_1984_MAJOR_AUXILIARY
 Name        : WGS_1984_Major_Auxiliary_Sphere
 WKT         : SPHEROID["WGS_1984_Major_Auxiliary_Sphere", 6378137.0, 0.0]
-WKT2        : ELLIPSOID["WGS_1984_Major_Auxiliary_Sphere", 6378137.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["WGS_1984_Major_Auxiliary_Sphere", 6378137.0, 0.0]
 Description : Major auxiliary sphere based on WGS 1984
 Authority   : EPSG
 Version     : 6.18.3(10.2.0)
@@ -682,8 +628,7 @@ Latest-WKID : 107001
 Macro       : PE_S_WGS_1966
 Name        : WGS_1966
 WKT         : SPHEROID["WGS_1966", 6378145.0, 298.25]
-WKT2        : ELLIPSOID["WGS_1966", 6378145.0, 298.25,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["WGS_1966", 6378145.0, 298.25]
 Description : WGS 1966
 Authority   : Esri
 Version     : 3.0.1
@@ -694,8 +639,7 @@ Latest-WKID : 107002
 Macro       : PE_S_FISCHER_1960
 Name        : Fischer_1960
 WKT         : SPHEROID["Fischer_1960", 6378166.0, 298.3]
-WKT2        : ELLIPSOID["Fischer_1960", 6378166.0, 298.3,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Fischer_1960", 6378166.0, 298.3]
 Description : Fischer 1960
 Authority   : Esri
 Version     : 3.0.1
@@ -706,8 +650,7 @@ Latest-WKID : 107003
 Macro       : PE_S_FISCHER_1968
 Name        : Fischer_1968
 WKT         : SPHEROID["Fischer_1968", 6378150.0, 298.3]
-WKT2        : ELLIPSOID["Fischer_1968", 6378150.0, 298.3,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Fischer_1968", 6378150.0, 298.3]
 Description : Fischer 1968
 Authority   : Esri
 Version     : 3.0.1
@@ -718,8 +661,7 @@ Latest-WKID : 107004
 Macro       : PE_S_FISCHER_MOD
 Name        : Fischer_Modified
 WKT         : SPHEROID["Fischer_Modified", 6378155.0, 298.3]
-WKT2        : ELLIPSOID["Fischer_Modified", 6378155.0, 298.3,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Fischer_Modified", 6378155.0, 298.3]
 Description : Fischer modified
 Authority   : Esri
 Version     : 3.0.1
@@ -730,8 +672,7 @@ Latest-WKID : 7053
 Macro       : PE_S_HOUGH_1960
 Name        : Hough_1960
 WKT         : SPHEROID["Hough_1960", 6378270.0, 297.0]
-WKT2        : ELLIPSOID["Hough_1960", 6378270.0, 297.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Hough_1960", 6378270.0, 297.0]
 Description : Hough 1960
 Authority   : Esri
 Version     : 8.1.0
@@ -742,8 +683,7 @@ Latest-WKID : 7056
 Macro       : PE_S_EVEREST_MOD_1969
 Name        : Everest_Modified_1969
 WKT         : SPHEROID["Everest_Modified_1969", 6377295.664, 300.8017]
-WKT2        : ELLIPSOID["Everest_Modified_1969", 6377295.664, 300.8017,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Everest_Modified_1969", 6377295.664, 300.8017]
 Description : Everest modified 1969 - 107006, called Everest 1830 (RSO 1969)
               in EPSG
 Authority   : Esri
@@ -755,8 +695,7 @@ Latest-WKID : 107007
 Macro       : PE_S_WALBECK
 Name        : Walbeck
 WKT         : SPHEROID["Walbeck", 6376896.0, 302.78]
-WKT2        : ELLIPSOID["Walbeck", 6376896.0, 302.78,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Walbeck", 6376896.0, 302.78]
 Description : Walbeck
 Authority   : Esri
 Version     : 8.1.0
@@ -767,8 +706,7 @@ Latest-WKID : 107008
 Macro       : PE_S_SPHERE_AI
 Name        : Sphere_ARC_INFO
 WKT         : SPHEROID["Sphere_ARC_INFO", 6370997.0, 0.0]
-WKT2        : ELLIPSOID["Sphere_ARC_INFO", 6370997.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Sphere_ARC_INFO", 6370997.0, 0.0]
 Description : Authalic sphere (ARC/INFO)
 Authority   : Esri
 Version     : 8.1.0
@@ -779,8 +717,7 @@ Latest-WKID : 107009
 Macro       : PE_S_SPHERE_EMEP
 Name        : Sphere_EMEP
 WKT         : SPHEROID["Sphere_EMEP", 6370000.0, 0.0]
-WKT2        : ELLIPSOID["Sphere_EMEP", 6370000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Sphere_EMEP", 6370000.0, 0.0]
 Description : EMEP Sphere of 6370000 m
 Authority   : Esri
 Version     : 9.0.0
@@ -791,8 +728,7 @@ Latest-WKID : 7050
 Macro       : PE_S_GRS_1967_TRUNC
 Name        : GRS_1967_Truncated
 WKT         : SPHEROID["GRS_1967_Truncated", 6378160.0, 298.25]
-WKT2        : ELLIPSOID["GRS_1967_Truncated", 6378160.0, 298.25,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1967_Truncated", 6378160.0, 298.25]
 Description : GRS 1967 Truncated - was 107036, called GRS67 Modified in EPSG
 Authority   : Esri
 Version     : 8.0.1
@@ -803,8 +739,7 @@ Latest-WKID : 7059
 Macro       : PE_S_SPHERE_WGS_1984_MAJOR_AUXILIARY
 Name        : WGS_1984_Major_Auxiliary_Sphere
 WKT         : SPHEROID["WGS_1984_Major_Auxiliary_Sphere", 6378137.0, 0.0]
-WKT2        : ELLIPSOID["WGS_1984_Major_Auxiliary_Sphere", 6378137.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["WGS_1984_Major_Auxiliary_Sphere", 6378137.0, 0.0]
 Description : Major auxiliary sphere based on WGS 1984
 Authority   : Esri
 Version     : 9.3.0.0
@@ -815,8 +750,7 @@ Latest-WKID : 1024
 Macro       : PE_S_CGCS2000
 Name        : CGCS2000
 WKT         : SPHEROID["CGCS2000", 6378137.0, 298.257222101]
-WKT2        : ELLIPSOID["CGCS2000", 6378137.0, 298.257222101,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["CGCS2000", 6378137.0, 298.257222101]
 Description : China Geodetic Coordinate System 2000
 Authority   : Esri
 Version     : 10.0.0
@@ -827,8 +761,7 @@ Latest-WKID : 107047
 Macro       : PE_S_SPHERE_GRS_1980_MEAN_RADIUS
 Name        : Sphere_GRS_1980_Mean_Radius
 WKT         : SPHEROID["Sphere_GRS_1980_Mean_Radius", 6371008.7714, 0.0]
-WKT2        : ELLIPSOID["Sphere_GRS_1980_Mean_Radius", 6371008.7714, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Sphere_GRS_1980_Mean_Radius", 6371008.7714, 0.0]
 Description : Sphere with mean radius based on GRS80
 Authority   : Esri
 Version     : 10.4.0
@@ -839,8 +772,7 @@ Latest-WKID : 107700
 Macro       : PE_S_GRS_1980_ADJ_MN_ANOKA
 Name        : S_GRS_1980_Adj_MN_Anoka
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Anoka", 6378418.941, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Anoka", 6378418.941, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Anoka", 6378418.941, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Anoka
 Authority   : Esri
 Version     : 9.0.0
@@ -851,8 +783,7 @@ Latest-WKID : 107701
 Macro       : PE_S_GRS_1980_ADJ_MN_BECKER
 Name        : S_GRS_1980_Adj_MN_Becker
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Becker", 6378586.581, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Becker", 6378586.581, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Becker", 6378586.581, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Becker
 Authority   : Esri
 Version     : 9.0.0
@@ -863,8 +794,7 @@ Latest-WKID : 107702
 Macro       : PE_S_GRS_1980_ADJ_MN_BELTRAMI_N
 Name        : S_GRS_1980_Adj_MN_Beltrami_North
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Beltrami_North", 6378505.809, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Beltrami_North", 6378505.809, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Beltrami_North", 6378505.809, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Beltrami North
 Authority   : Esri
 Version     : 9.0.0
@@ -875,8 +805,7 @@ Latest-WKID : 107703
 Macro       : PE_S_GRS_1980_ADJ_MN_BELTRAMI_S
 Name        : S_GRS_1980_Adj_MN_Beltrami_South
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Beltrami_South", 6378544.823, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Beltrami_South", 6378544.823, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Beltrami_South", 6378544.823, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Beltrami South
 Authority   : Esri
 Version     : 9.0.0
@@ -887,8 +816,7 @@ Latest-WKID : 107704
 Macro       : PE_S_GRS_1980_ADJ_MN_BENTON
 Name        : S_GRS_1980_Adj_MN_Benton
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Benton", 6378490.569, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Benton", 6378490.569, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Benton", 6378490.569, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Benton
 Authority   : Esri
 Version     : 9.0.0
@@ -899,8 +827,7 @@ Latest-WKID : 107705
 Macro       : PE_S_GRS_1980_ADJ_MN_BIG_STONE
 Name        : S_GRS_1980_Adj_MN_Big_Stone
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Big_Stone", 6378470.757, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Big_Stone", 6378470.757, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Big_Stone", 6378470.757, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Big Stone
 Authority   : Esri
 Version     : 9.0.0
@@ -911,8 +838,7 @@ Latest-WKID : 107706
 Macro       : PE_S_GRS_1980_ADJ_MN_BLUE_EARTH
 Name        : S_GRS_1980_Adj_MN_Blue_Earth
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Blue_Earth", 6378403.701, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Blue_Earth", 6378403.701, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Blue_Earth", 6378403.701, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Blue Earth
 Authority   : Esri
 Version     : 9.0.0
@@ -923,8 +849,7 @@ Latest-WKID : 107707
 Macro       : PE_S_GRS_1980_ADJ_MN_BROWN
 Name        : S_GRS_1980_Adj_MN_Brown
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Brown", 6378434.181, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Brown", 6378434.181, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Brown", 6378434.181, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Brown
 Authority   : Esri
 Version     : 9.0.0
@@ -935,8 +860,7 @@ Latest-WKID : 107708
 Macro       : PE_S_GRS_1980_ADJ_MN_CARLTON
 Name        : S_GRS_1980_Adj_MN_Carlton
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Carlton", 6378454.907, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Carlton", 6378454.907, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Carlton", 6378454.907, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Carlton
 Authority   : Esri
 Version     : 9.0.0
@@ -947,8 +871,7 @@ Latest-WKID : 107709
 Macro       : PE_S_GRS_1980_ADJ_MN_CARVER
 Name        : S_GRS_1980_Adj_MN_Carver
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Carver", 6378400.653, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Carver", 6378400.653, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Carver", 6378400.653, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Carver
 Authority   : Esri
 Version     : 9.0.0
@@ -959,8 +882,7 @@ Latest-WKID : 107710
 Macro       : PE_S_GRS_1980_ADJ_MN_CASS_N
 Name        : S_GRS_1980_Adj_MN_Cass_North
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Cass_North", 6378567.378, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Cass_North", 6378567.378, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Cass_North", 6378567.378, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Cass North
 Authority   : Esri
 Version     : 9.0.0
@@ -971,8 +893,7 @@ Latest-WKID : 107711
 Macro       : PE_S_GRS_1980_ADJ_MN_CASS_S
 Name        : S_GRS_1980_Adj_MN_Cass_South
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Cass_South", 6378546.957, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Cass_South", 6378546.957, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Cass_South", 6378546.957, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Cass South
 Authority   : Esri
 Version     : 9.0.0
@@ -983,8 +904,7 @@ Latest-WKID : 107712
 Macro       : PE_S_GRS_1980_ADJ_MN_CHIPPEWA
 Name        : S_GRS_1980_Adj_MN_Chippewa
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Chippewa", 6378476.853, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Chippewa", 6378476.853, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Chippewa", 6378476.853, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Chippewa
 Authority   : Esri
 Version     : 9.0.0
@@ -995,8 +915,7 @@ Latest-WKID : 107713
 Macro       : PE_S_GRS_1980_ADJ_MN_CHISAGO
 Name        : S_GRS_1980_Adj_MN_Chisago
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Chisago", 6378411.321, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Chisago", 6378411.321, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Chisago", 6378411.321, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Chisago
 Authority   : Esri
 Version     : 9.0.0
@@ -1007,8 +926,7 @@ Latest-WKID : 107714
 Macro       : PE_S_GRS_1980_ADJ_MN_COOK_N
 Name        : S_GRS_1980_Adj_MN_Cook_North
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Cook_North", 6378647.541, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Cook_North", 6378647.541, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Cook_North", 6378647.541, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Cook North
 Authority   : Esri
 Version     : 9.0.0
@@ -1019,8 +937,7 @@ Latest-WKID : 107715
 Macro       : PE_S_GRS_1980_ADJ_MN_COOK_S
 Name        : S_GRS_1980_Adj_MN_Cook_South
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Cook_South", 6378647.541, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Cook_South", 6378647.541, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Cook_South", 6378647.541, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Cook South
 Authority   : Esri
 Version     : 9.0.0
@@ -1031,8 +948,7 @@ Latest-WKID : 107716
 Macro       : PE_S_GRS_1980_ADJ_MN_COTTONWOOD
 Name        : S_GRS_1980_Adj_MN_Cottonwood
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Cottonwood", 6378514.953, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Cottonwood", 6378514.953, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Cottonwood", 6378514.953, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Cottonwood
 Authority   : Esri
 Version     : 9.0.0
@@ -1043,8 +959,7 @@ Latest-WKID : 107717
 Macro       : PE_S_GRS_1980_ADJ_MN_CROW_WING
 Name        : S_GRS_1980_Adj_MN_Crow_Wing
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Crow_Wing", 6378546.957, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Crow_Wing", 6378546.957, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Crow_Wing", 6378546.957, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Crow Wing
 Authority   : Esri
 Version     : 9.0.0
@@ -1055,8 +970,7 @@ Latest-WKID : 107718
 Macro       : PE_S_GRS_1980_ADJ_MN_DAKOTA
 Name        : S_GRS_1980_Adj_MN_Dakota
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Dakota", 6378421.989, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Dakota", 6378421.989, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Dakota", 6378421.989, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Dakota
 Authority   : Esri
 Version     : 9.0.0
@@ -1067,8 +981,7 @@ Latest-WKID : 107719
 Macro       : PE_S_GRS_1980_ADJ_MN_DODGE
 Name        : S_GRS_1980_Adj_MN_Dodge
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Dodge", 6378481.425, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Dodge", 6378481.425, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Dodge", 6378481.425, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Dodge
 Authority   : Esri
 Version     : 9.0.0
@@ -1079,8 +992,7 @@ Latest-WKID : 107720
 Macro       : PE_S_GRS_1980_ADJ_MN_DOUGLAS
 Name        : S_GRS_1980_Adj_MN_Douglas
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Douglas", 6378518.001, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Douglas", 6378518.001, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Douglas", 6378518.001, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Douglas
 Authority   : Esri
 Version     : 9.0.0
@@ -1091,8 +1003,7 @@ Latest-WKID : 107721
 Macro       : PE_S_GRS_1980_ADJ_MN_FARIBAULT
 Name        : S_GRS_1980_Adj_MN_Faribault
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Faribault", 6378521.049, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Faribault", 6378521.049, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Faribault", 6378521.049, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Faribault
 Authority   : Esri
 Version     : 9.0.0
@@ -1103,8 +1014,7 @@ Latest-WKID : 107722
 Macro       : PE_S_GRS_1980_ADJ_MN_FILLMORE
 Name        : S_GRS_1980_Adj_MN_Fillmore
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Fillmore", 6378464.661, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Fillmore", 6378464.661, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Fillmore", 6378464.661, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Fillmore
 Authority   : Esri
 Version     : 9.0.0
@@ -1115,8 +1025,7 @@ Latest-WKID : 107723
 Macro       : PE_S_GRS_1980_ADJ_MN_FREEBORN
 Name        : S_GRS_1980_Adj_MN_Freeborn
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Freeborn", 6378521.049, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Freeborn", 6378521.049, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Freeborn", 6378521.049, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Freeborn
 Authority   : Esri
 Version     : 9.0.0
@@ -1127,8 +1036,7 @@ Latest-WKID : 107724
 Macro       : PE_S_GRS_1980_ADJ_MN_GOODHUE
 Name        : S_GRS_1980_Adj_MN_Goodhue
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Goodhue", 6378434.181, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Goodhue", 6378434.181, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Goodhue", 6378434.181, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Goodhue
 Authority   : Esri
 Version     : 9.0.0
@@ -1139,8 +1047,7 @@ Latest-WKID : 107725
 Macro       : PE_S_GRS_1980_ADJ_MN_GRANT
 Name        : S_GRS_1980_Adj_MN_Grant
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Grant", 6378518.001, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Grant", 6378518.001, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Grant", 6378518.001, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Grant
 Authority   : Esri
 Version     : 9.0.0
@@ -1151,8 +1058,7 @@ Latest-WKID : 107726
 Macro       : PE_S_GRS_1980_ADJ_MN_HENNEPIN
 Name        : S_GRS_1980_Adj_MN_Hennepin
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Hennepin", 6378418.941, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Hennepin", 6378418.941, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Hennepin", 6378418.941, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Hennepin
 Authority   : Esri
 Version     : 9.0.0
@@ -1163,8 +1069,7 @@ Latest-WKID : 107727
 Macro       : PE_S_GRS_1980_ADJ_MN_HOUSTON
 Name        : S_GRS_1980_Adj_MN_Houston
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Houston", 6378436.619, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Houston", 6378436.619, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Houston", 6378436.619, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Houston
 Authority   : Esri
 Version     : 9.0.0
@@ -1175,8 +1080,7 @@ Latest-WKID : 107728
 Macro       : PE_S_GRS_1980_ADJ_MN_ISANTI
 Name        : S_GRS_1980_Adj_MN_Isanti
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Isanti", 6378411.321, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Isanti", 6378411.321, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Isanti", 6378411.321, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Isanti
 Authority   : Esri
 Version     : 9.0.0
@@ -1187,8 +1091,7 @@ Latest-WKID : 107729
 Macro       : PE_S_GRS_1980_ADJ_MN_ITASCA_N
 Name        : S_GRS_1980_Adj_MN_Itasca_North
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Itasca_North", 6378574.389, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Itasca_North", 6378574.389, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Itasca_North", 6378574.389, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Itasca North
 Authority   : Esri
 Version     : 9.0.0
@@ -1199,8 +1102,7 @@ Latest-WKID : 107730
 Macro       : PE_S_GRS_1980_ADJ_MN_ITASCA_S
 Name        : S_GRS_1980_Adj_MN_Itasca_South
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Itasca_South", 6378574.389, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Itasca_South", 6378574.389, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Itasca_South", 6378574.389, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Itasca South
 Authority   : Esri
 Version     : 9.0.0
@@ -1211,8 +1113,7 @@ Latest-WKID : 107731
 Macro       : PE_S_GRS_1980_ADJ_MN_JACKSON
 Name        : S_GRS_1980_Adj_MN_Jackson
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Jackson", 6378521.049, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Jackson", 6378521.049, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Jackson", 6378521.049, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Jackson
 Authority   : Esri
 Version     : 9.0.0
@@ -1223,8 +1124,7 @@ Latest-WKID : 107732
 Macro       : PE_S_GRS_1980_ADJ_MN_KANABEC
 Name        : S_GRS_1980_Adj_MN_Kanabec
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Kanabec", 6378472.281, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Kanabec", 6378472.281, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Kanabec", 6378472.281, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Kanabec
 Authority   : Esri
 Version     : 9.0.0
@@ -1235,8 +1135,7 @@ Latest-WKID : 107733
 Macro       : PE_S_GRS_1980_ADJ_MN_KANDIYOHI
 Name        : S_GRS_1980_Adj_MN_Kandiyohi
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Kandiyohi", 6378498.189, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Kandiyohi", 6378498.189, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Kandiyohi", 6378498.189, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Kandiyohi
 Authority   : Esri
 Version     : 9.0.0
@@ -1247,8 +1146,7 @@ Latest-WKID : 107734
 Macro       : PE_S_GRS_1980_ADJ_MN_KITTSON
 Name        : S_GRS_1980_Adj_MN_Kittson
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Kittson", 6378449.421, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Kittson", 6378449.421, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Kittson", 6378449.421, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Kittson
 Authority   : Esri
 Version     : 9.0.0
@@ -1259,8 +1157,7 @@ Latest-WKID : 107735
 Macro       : PE_S_GRS_1980_ADJ_MN_KOOCHICHING
 Name        : S_GRS_1980_Adj_MN_Koochiching
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Koochiching", 6378525.621, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Koochiching", 6378525.621, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Koochiching", 6378525.621, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Koochiching
 Authority   : Esri
 Version     : 9.0.0
@@ -1271,8 +1168,7 @@ Latest-WKID : 107736
 Macro       : PE_S_GRS_1980_ADJ_MN_LAC_QUI_PARLE
 Name        : S_GRS_1980_Adj_MN_Lac_Qui_Parle
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Lac_Qui_Parle", 6378476.853, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Lac_Qui_Parle", 6378476.853, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Lac_Qui_Parle", 6378476.853, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Lac Qui Parle
 Authority   : Esri
 Version     : 9.0.0
@@ -1283,8 +1179,7 @@ Latest-WKID : 107737
 Macro       : PE_S_GRS_1980_ADJ_MN_LAKE_OF_THE_WOODS_N
 Name        : S_GRS_1980_Adj_MN_Lake_of_the_Woods_North
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Lake_of_the_Woods_North", 6378466.185, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Lake_of_the_Woods_North", 6378466.185, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Lake_of_the_Woods_North", 6378466.185, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Lake of the Woods North
 Authority   : Esri
 Version     : 9.0.0
@@ -1295,8 +1190,7 @@ Latest-WKID : 107738
 Macro       : PE_S_GRS_1980_ADJ_MN_LAKE_OF_THE_WOODS_S
 Name        : S_GRS_1980_Adj_MN_Lake_of_the_Woods_South
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Lake_of_the_Woods_South", 6378496.665, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Lake_of_the_Woods_South", 6378496.665, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Lake_of_the_Woods_South", 6378496.665, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Lake of the Woods South
 Authority   : Esri
 Version     : 9.0.0
@@ -1307,8 +1201,7 @@ Latest-WKID : 107739
 Macro       : PE_S_GRS_1980_ADJ_MN_LE_SUEUR
 Name        : S_GRS_1980_Adj_MN_Le_Sueur
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Le_Sueur", 6378434.181, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Le_Sueur", 6378434.181, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Le_Sueur", 6378434.181, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Le Sueur
 Authority   : Esri
 Version     : 9.0.0
@@ -1319,8 +1212,7 @@ Latest-WKID : 107740
 Macro       : PE_S_GRS_1980_ADJ_MN_LINCOLN
 Name        : S_GRS_1980_Adj_MN_Lincoln
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Lincoln", 6378643.579, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Lincoln", 6378643.579, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Lincoln", 6378643.579, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Lincoln
 Authority   : Esri
 Version     : 9.0.0
@@ -1331,8 +1223,7 @@ Latest-WKID : 107741
 Macro       : PE_S_GRS_1980_ADJ_MN_LYON
 Name        : S_GRS_1980_Adj_MN_Lyon
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Lyon", 6378559.758, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Lyon", 6378559.758, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Lyon", 6378559.758, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Lyon
 Authority   : Esri
 Version     : 9.0.0
@@ -1343,8 +1234,7 @@ Latest-WKID : 107742
 Macro       : PE_S_GRS_1980_ADJ_MN_MCLEOD
 Name        : S_GRS_1980_Adj_MN_McLeod
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_McLeod", 6378414.369, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_McLeod", 6378414.369, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_McLeod", 6378414.369, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota McLeod
 Authority   : Esri
 Version     : 9.0.0
@@ -1355,8 +1245,7 @@ Latest-WKID : 107743
 Macro       : PE_S_GRS_1980_ADJ_MN_MAHNOMEN
 Name        : S_GRS_1980_Adj_MN_Mahnomen
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Mahnomen", 6378586.581, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Mahnomen", 6378586.581, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Mahnomen", 6378586.581, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Mahnomen
 Authority   : Esri
 Version     : 9.0.0
@@ -1367,8 +1256,7 @@ Latest-WKID : 107744
 Macro       : PE_S_GRS_1980_ADJ_MN_MARSHALL
 Name        : S_GRS_1980_Adj_MN_Marshall
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Marshall", 6378441.801, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Marshall", 6378441.801, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Marshall", 6378441.801, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Marshall
 Authority   : Esri
 Version     : 9.0.0
@@ -1379,8 +1267,7 @@ Latest-WKID : 107745
 Macro       : PE_S_GRS_1980_ADJ_MN_MARTIN
 Name        : S_GRS_1980_Adj_MN_Martin
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Martin", 6378521.049, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Martin", 6378521.049, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Martin", 6378521.049, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Martin
 Authority   : Esri
 Version     : 9.0.0
@@ -1391,8 +1278,7 @@ Latest-WKID : 107746
 Macro       : PE_S_GRS_1980_ADJ_MN_MEEKER
 Name        : S_GRS_1980_Adj_MN_Meeker
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Meeker", 6378498.189, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Meeker", 6378498.189, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Meeker", 6378498.189, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Meeker
 Authority   : Esri
 Version     : 9.0.0
@@ -1403,8 +1289,7 @@ Latest-WKID : 107747
 Macro       : PE_S_GRS_1980_ADJ_MN_MORRISON
 Name        : S_GRS_1980_Adj_MN_Morrison
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Morrison", 6378502.761, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Morrison", 6378502.761, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Morrison", 6378502.761, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Morrison
 Authority   : Esri
 Version     : 9.0.0
@@ -1415,8 +1300,7 @@ Latest-WKID : 107748
 Macro       : PE_S_GRS_1980_ADJ_MN_MOWER
 Name        : S_GRS_1980_Adj_MN_Mower
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Mower", 6378521.049, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Mower", 6378521.049, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Mower", 6378521.049, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Mower
 Authority   : Esri
 Version     : 9.0.0
@@ -1427,8 +1311,7 @@ Latest-WKID : 107749
 Macro       : PE_S_GRS_1980_ADJ_MN_MURRAY
 Name        : S_GRS_1980_Adj_MN_Murray
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Murray", 6378617.061, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Murray", 6378617.061, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Murray", 6378617.061, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Murray
 Authority   : Esri
 Version     : 9.0.0
@@ -1439,8 +1322,7 @@ Latest-WKID : 107750
 Macro       : PE_S_GRS_1980_ADJ_MN_NICOLLET
 Name        : S_GRS_1980_Adj_MN_Nicollet
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Nicollet", 6378403.701, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Nicollet", 6378403.701, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Nicollet", 6378403.701, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Nicollet
 Authority   : Esri
 Version     : 9.0.0
@@ -1451,8 +1333,7 @@ Latest-WKID : 107751
 Macro       : PE_S_GRS_1980_ADJ_MN_NOBLES
 Name        : S_GRS_1980_Adj_MN_Nobles
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Nobles", 6378624.681, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Nobles", 6378624.681, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Nobles", 6378624.681, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Nobles
 Authority   : Esri
 Version     : 9.0.0
@@ -1463,8 +1344,7 @@ Latest-WKID : 107752
 Macro       : PE_S_GRS_1980_ADJ_MN_NORMAN
 Name        : S_GRS_1980_Adj_MN_Norman
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Norman", 6378468.623, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Norman", 6378468.623, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Norman", 6378468.623, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Norman
 Authority   : Esri
 Version     : 9.0.0
@@ -1475,8 +1355,7 @@ Latest-WKID : 107753
 Macro       : PE_S_GRS_1980_ADJ_MN_OLMSTED
 Name        : S_GRS_1980_Adj_MN_Olmsted
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Olmsted", 6378481.425, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Olmsted", 6378481.425, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Olmsted", 6378481.425, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Olmsted
 Authority   : Esri
 Version     : 9.0.0
@@ -1487,8 +1366,7 @@ Latest-WKID : 107754
 Macro       : PE_S_GRS_1980_ADJ_MN_OTTERTAIL
 Name        : S_GRS_1980_Adj_MN_Ottertail
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Ottertail", 6378525.621, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Ottertail", 6378525.621, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Ottertail", 6378525.621, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Ottertail
 Authority   : Esri
 Version     : 9.0.0
@@ -1499,8 +1377,7 @@ Latest-WKID : 107755
 Macro       : PE_S_GRS_1980_ADJ_MN_PENNINGTON
 Name        : S_GRS_1980_Adj_MN_Pennington
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Pennington", 6378445.763, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Pennington", 6378445.763, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Pennington", 6378445.763, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Pennington
 Authority   : Esri
 Version     : 9.0.0
@@ -1511,8 +1388,7 @@ Latest-WKID : 107756
 Macro       : PE_S_GRS_1980_ADJ_MN_PINE
 Name        : S_GRS_1980_Adj_MN_Pine
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Pine", 6378472.281, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Pine", 6378472.281, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Pine", 6378472.281, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Pine
 Authority   : Esri
 Version     : 9.0.0
@@ -1523,8 +1399,7 @@ Latest-WKID : 107757
 Macro       : PE_S_GRS_1980_ADJ_MN_PIPESTONE
 Name        : S_GRS_1980_Adj_MN_Pipestone
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Pipestone", 6378670.401, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Pipestone", 6378670.401, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Pipestone", 6378670.401, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Pipestone
 Authority   : Esri
 Version     : 9.0.0
@@ -1535,8 +1410,7 @@ Latest-WKID : 107758
 Macro       : PE_S_GRS_1980_ADJ_MN_POLK
 Name        : S_GRS_1980_Adj_MN_Polk
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Polk", 6378445.763, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Polk", 6378445.763, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Polk", 6378445.763, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Polk
 Authority   : Esri
 Version     : 9.0.0
@@ -1547,8 +1421,7 @@ Latest-WKID : 107759
 Macro       : PE_S_GRS_1980_ADJ_MN_POPE
 Name        : S_GRS_1980_Adj_MN_Pope
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Pope", 6378502.761, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Pope", 6378502.761, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Pope", 6378502.761, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Pope
 Authority   : Esri
 Version     : 9.0.0
@@ -1559,8 +1432,7 @@ Latest-WKID : 107760
 Macro       : PE_S_GRS_1980_ADJ_MN_RAMSEY
 Name        : S_GRS_1980_Adj_MN_Ramsey
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Ramsey", 6378418.941, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Ramsey", 6378418.941, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Ramsey", 6378418.941, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Ramsey
 Authority   : Esri
 Version     : 9.0.0
@@ -1571,8 +1443,7 @@ Latest-WKID : 107761
 Macro       : PE_S_GRS_1980_ADJ_MN_RED_LAKE
 Name        : S_GRS_1980_Adj_MN_Red_Lake
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Red_Lake", 6378445.763, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Red_Lake", 6378445.763, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Red_Lake", 6378445.763, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Red Lake
 Authority   : Esri
 Version     : 9.0.0
@@ -1583,8 +1454,7 @@ Latest-WKID : 107762
 Macro       : PE_S_GRS_1980_ADJ_MN_REDWOOD
 Name        : S_GRS_1980_Adj_MN_Redwood
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Redwood", 6378438.753, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Redwood", 6378438.753, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Redwood", 6378438.753, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Redwood
 Authority   : Esri
 Version     : 9.0.0
@@ -1595,8 +1465,7 @@ Latest-WKID : 107763
 Macro       : PE_S_GRS_1980_ADJ_MN_RENVILLE
 Name        : S_GRS_1980_Adj_MN_Renville
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Renville", 6378414.369, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Renville", 6378414.369, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Renville", 6378414.369, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Renville
 Authority   : Esri
 Version     : 9.0.0
@@ -1607,8 +1476,7 @@ Latest-WKID : 107764
 Macro       : PE_S_GRS_1980_ADJ_MN_RICE
 Name        : S_GRS_1980_Adj_MN_Rice
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Rice", 6378434.181, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Rice", 6378434.181, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Rice", 6378434.181, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Rice
 Authority   : Esri
 Version     : 9.0.0
@@ -1619,8 +1487,7 @@ Latest-WKID : 107765
 Macro       : PE_S_GRS_1980_ADJ_MN_ROCK
 Name        : S_GRS_1980_Adj_MN_Rock
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Rock", 6378624.681, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Rock", 6378624.681, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Rock", 6378624.681, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Rock
 Authority   : Esri
 Version     : 9.0.0
@@ -1631,8 +1498,7 @@ Latest-WKID : 107766
 Macro       : PE_S_GRS_1980_ADJ_MN_ROSEAU
 Name        : S_GRS_1980_Adj_MN_Roseau
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Roseau", 6378449.421, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Roseau", 6378449.421, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Roseau", 6378449.421, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Roseau
 Authority   : Esri
 Version     : 9.0.0
@@ -1643,8 +1509,7 @@ Latest-WKID : 107767
 Macro       : PE_S_GRS_1980_ADJ_MN_ST_LOUIS_N
 Name        : S_GRS_1980_Adj_MN_St_Louis_North
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_St_Louis_North", 6378543.909, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_St_Louis_North", 6378543.909, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_St_Louis_North", 6378543.909, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota St Louis North
 Authority   : Esri
 Version     : 9.0.0
@@ -1655,8 +1520,7 @@ Latest-WKID : 107768
 Macro       : PE_S_GRS_1980_ADJ_MN_ST_LOUIS_C
 Name        : S_GRS_1980_Adj_MN_St_Louis_Central
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_St_Louis_Central", 6378605.783, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_St_Louis_Central", 6378605.783, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_St_Louis_Central", 6378605.783, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota St Louis Central
 Authority   : Esri
 Version     : 9.0.0
@@ -1667,8 +1531,7 @@ Latest-WKID : 107769
 Macro       : PE_S_GRS_1980_ADJ_MN_ST_LOUIS_S
 Name        : S_GRS_1980_Adj_MN_St_Louis_South
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_St_Louis_South", 6378540.861, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_St_Louis_South", 6378540.861, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_St_Louis_South", 6378540.861, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota St Louis South
 Authority   : Esri
 Version     : 9.0.0
@@ -1679,8 +1542,7 @@ Latest-WKID : 107770
 Macro       : PE_S_GRS_1980_ADJ_MN_SCOTT
 Name        : S_GRS_1980_Adj_MN_Scott
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Scott", 6378421.989, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Scott", 6378421.989, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Scott", 6378421.989, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Scott
 Authority   : Esri
 Version     : 9.0.0
@@ -1691,8 +1553,7 @@ Latest-WKID : 107771
 Macro       : PE_S_GRS_1980_ADJ_MN_SHERBURNE
 Name        : S_GRS_1980_Adj_MN_Sherburne
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Sherburne", 6378443.325, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Sherburne", 6378443.325, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Sherburne", 6378443.325, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Sherburne
 Authority   : Esri
 Version     : 9.0.0
@@ -1703,8 +1564,7 @@ Latest-WKID : 107772
 Macro       : PE_S_GRS_1980_ADJ_MN_SIBLEY
 Name        : S_GRS_1980_Adj_MN_Sibley
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Sibley", 6378414.369, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Sibley", 6378414.369, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Sibley", 6378414.369, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Sibley
 Authority   : Esri
 Version     : 9.0.0
@@ -1715,8 +1575,7 @@ Latest-WKID : 107773
 Macro       : PE_S_GRS_1980_ADJ_MN_STEARNS
 Name        : S_GRS_1980_Adj_MN_Stearns
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Stearns", 6378502.761, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Stearns", 6378502.761, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Stearns", 6378502.761, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Stearns
 Authority   : Esri
 Version     : 9.0.0
@@ -1727,8 +1586,7 @@ Latest-WKID : 107774
 Macro       : PE_S_GRS_1980_ADJ_MN_STEELE
 Name        : S_GRS_1980_Adj_MN_Steele
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Steele", 6378481.425, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Steele", 6378481.425, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Steele", 6378481.425, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Steele
 Authority   : Esri
 Version     : 9.0.0
@@ -1739,8 +1597,7 @@ Latest-WKID : 107775
 Macro       : PE_S_GRS_1980_ADJ_MN_STEVENS
 Name        : S_GRS_1980_Adj_MN_Stevens
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Stevens", 6378502.761, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Stevens", 6378502.761, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Stevens", 6378502.761, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Stevens
 Authority   : Esri
 Version     : 9.0.0
@@ -1751,8 +1608,7 @@ Latest-WKID : 107776
 Macro       : PE_S_GRS_1980_ADJ_MN_SWIFT
 Name        : S_GRS_1980_Adj_MN_Swift
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Swift", 6378470.757, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Swift", 6378470.757, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Swift", 6378470.757, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Swift
 Authority   : Esri
 Version     : 9.0.0
@@ -1763,8 +1619,7 @@ Latest-WKID : 107777
 Macro       : PE_S_GRS_1980_ADJ_MN_TODD
 Name        : S_GRS_1980_Adj_MN_Todd
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Todd", 6378548.481, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Todd", 6378548.481, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Todd", 6378548.481, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Todd
 Authority   : Esri
 Version     : 9.0.0
@@ -1775,8 +1630,7 @@ Latest-WKID : 107778
 Macro       : PE_S_GRS_1980_ADJ_MN_TRAVERSE
 Name        : S_GRS_1980_Adj_MN_Traverse
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Traverse", 6378463.746, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Traverse", 6378463.746, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Traverse", 6378463.746, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Traverse
 Authority   : Esri
 Version     : 9.0.0
@@ -1787,8 +1641,7 @@ Latest-WKID : 107779
 Macro       : PE_S_GRS_1980_ADJ_MN_WABASHA
 Name        : S_GRS_1980_Adj_MN_Wabasha
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Wabasha", 6378426.561, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Wabasha", 6378426.561, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Wabasha", 6378426.561, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Wabasha
 Authority   : Esri
 Version     : 9.0.0
@@ -1799,8 +1652,7 @@ Latest-WKID : 107780
 Macro       : PE_S_GRS_1980_ADJ_MN_WADENA
 Name        : S_GRS_1980_Adj_MN_Wadena
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Wadena", 6378546.957, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Wadena", 6378546.957, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Wadena", 6378546.957, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Wadena
 Authority   : Esri
 Version     : 9.0.0
@@ -1811,8 +1663,7 @@ Latest-WKID : 107781
 Macro       : PE_S_GRS_1980_ADJ_MN_WASECA
 Name        : S_GRS_1980_Adj_MN_Waseca
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Waseca", 6378481.425, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Waseca", 6378481.425, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Waseca", 6378481.425, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Waseca
 Authority   : Esri
 Version     : 9.0.0
@@ -1823,8 +1674,7 @@ Latest-WKID : 107782
 Macro       : PE_S_GRS_1980_ADJ_MN_WATONWAN
 Name        : S_GRS_1980_Adj_MN_Watonwan
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Watonwan", 6378514.953, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Watonwan", 6378514.953, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Watonwan", 6378514.953, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Watonwan
 Authority   : Esri
 Version     : 9.0.0
@@ -1835,8 +1685,7 @@ Latest-WKID : 107783
 Macro       : PE_S_GRS_1980_ADJ_MN_WINONA
 Name        : S_GRS_1980_Adj_MN_Winona
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Winona", 6378453.688, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Winona", 6378453.688, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Winona", 6378453.688, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Winona
 Authority   : Esri
 Version     : 9.0.0
@@ -1847,8 +1696,7 @@ Latest-WKID : 107784
 Macro       : PE_S_GRS_1980_ADJ_MN_WRIGHT
 Name        : S_GRS_1980_Adj_MN_Wright
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Wright", 6378443.325, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Wright", 6378443.325, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Wright", 6378443.325, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Wright
 Authority   : Esri
 Version     : 9.0.0
@@ -1859,8 +1707,7 @@ Latest-WKID : 107785
 Macro       : PE_S_GRS_1980_ADJ_MN_YELLOW_MEDICINE
 Name        : S_GRS_1980_Adj_MN_Yellow_Medicine
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_Yellow_Medicine", 6378530.193, 298.2572221008827]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Yellow_Medicine", 6378530.193, 298.2572221008827,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_Yellow_Medicine", 6378530.193, 298.2572221008827]
 Description : GRS 1980 Adj. Minnesota Yellow Medicine
 Authority   : Esri
 Version     : 9.0.0
@@ -1871,8 +1718,7 @@ Latest-WKID : 107786
 Macro       : PE_S_GRS_1980_ADJ_MN_ST_LOUIS
 Name        : S_GRS_1980_Adj_MN_St_Louis
 WKT         : SPHEROID["S_GRS_1980_Adj_MN_St_Louis", 6378523.0, 298.2752724]
-WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_St_Louis", 6378523.0, 298.2752724,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["S_GRS_1980_Adj_MN_St_Louis", 6378523.0, 298.2752724]
 Description : GRS 1980 Adj. Minnesota St. Louis
 Authority   : Esri
 Version     : 10.0.0
@@ -1883,8 +1729,7 @@ Latest-WKID : 107800
 Macro       : PE_S_GRS_1980_ADJ_WI_AL
 Name        : GRS_1980_Adj_WI_AL
 WKT         : SPHEROID["GRS_1980_Adj_WI_AL", 6378471.92, 298.272883775229]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_AL", 6378471.92, 298.272883775229,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_AL", 6378471.92, 298.272883775229]
 Description : GRS 1980 Adj. Wisconsin Ashland
 Authority   : Esri
 Version     : 9.0.0
@@ -1895,8 +1740,7 @@ Latest-WKID : 107801
 Macro       : PE_S_GRS_1980_ADJ_WI_BA
 Name        : GRS_1980_Adj_WI_BA
 WKT         : SPHEROID["GRS_1980_Adj_WI_BA", 6378472.931, 298.272931052052]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_BA", 6378472.931, 298.272931052052,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_BA", 6378472.931, 298.272931052052]
 Description : GRS 1980 Adj. Wisconsin Barron
 Authority   : Esri
 Version     : 9.0.0
@@ -1907,8 +1751,7 @@ Latest-WKID : 107802
 Macro       : PE_S_GRS_1980_ADJ_WI_BF
 Name        : GRS_1980_Adj_WI_BF
 WKT         : SPHEROID["GRS_1980_Adj_WI_BF", 6378411.351, 298.270051421254]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_BF", 6378411.351, 298.270051421254,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_BF", 6378411.351, 298.270051421254]
 Description : GRS 1980 Adj. Wisconsin Bayfield
 Authority   : Esri
 Version     : 9.0.0
@@ -1919,8 +1762,7 @@ Latest-WKID : 107803
 Macro       : PE_S_GRS_1980_ADJ_WI_BR
 Name        : GRS_1980_Adj_WI_BR
 WKT         : SPHEROID["GRS_1980_Adj_WI_BR", 6378137.0, 298.257222100225]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_BR", 6378137.0, 298.257222100225,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_BR", 6378137.0, 298.257222100225]
 Description : GRS 1980 Adj. Wisconsin Brown
 Authority   : Esri
 Version     : 9.0.0
@@ -1931,8 +1773,7 @@ Latest-WKID : 107804
 Macro       : PE_S_GRS_1980_ADJ_WI_BU
 Name        : GRS_1980_Adj_WI_BU
 WKT         : SPHEROID["GRS_1980_Adj_WI_BU", 6378380.991, 298.268631713702]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_BU", 6378380.991, 298.268631713702,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_BU", 6378380.991, 298.268631713702]
 Description : GRS 1980 Adj. Wisconsin Buffalo
 Authority   : Esri
 Version     : 9.0.0
@@ -1943,8 +1784,7 @@ Latest-WKID : 107805
 Macro       : PE_S_GRS_1980_ADJ_WI_BN
 Name        : GRS_1980_Adj_WI_BN
 WKT         : SPHEROID["GRS_1980_Adj_WI_BN", 6378414.96, 298.270220186885]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_BN", 6378414.96, 298.270220186885,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_BN", 6378414.96, 298.270220186885]
 Description : GRS 1980 Adj. Wisconsin Burnett
 Authority   : Esri
 Version     : 9.0.0
@@ -1955,8 +1795,7 @@ Latest-WKID : 107806
 Macro       : PE_S_GRS_1980_ADJ_WI_CP
 Name        : GRS_1980_Adj_WI_CP
 WKT         : SPHEROID["GRS_1980_Adj_WI_CP", 6378412.542, 298.270107115315]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_CP", 6378412.542, 298.270107115315,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_CP", 6378412.542, 298.270107115315]
 Description : GRS 1980 Adj. Wisconsin Chippewa
 Authority   : Esri
 Version     : 9.0.0
@@ -1967,8 +1806,7 @@ Latest-WKID : 107807
 Macro       : PE_S_GRS_1980_ADJ_WI_CK
 Name        : GRS_1980_Adj_WI_CK
 WKT         : SPHEROID["GRS_1980_Adj_WI_CK", 6378470.401, 298.272812743089]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_CK", 6378470.401, 298.272812743089,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_CK", 6378470.401, 298.272812743089]
 Description : GRS 1980 Adj. Wisconsin Clark
 Authority   : Esri
 Version     : 9.0.0
@@ -1979,8 +1817,7 @@ Latest-WKID : 107808
 Macro       : PE_S_GRS_1980_ADJ_WI_CO
 Name        : GRS_1980_Adj_WI_CO
 WKT         : SPHEROID["GRS_1980_Adj_WI_CO", 6378376.331, 298.268413800752]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_CO", 6378376.331, 298.268413800752,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_CO", 6378376.331, 298.268413800752]
 Description : GRS 1980 Adj. Wisconsin Columbia
 Authority   : Esri
 Version     : 9.0.0
@@ -1991,8 +1828,7 @@ Latest-WKID : 107809
 Macro       : PE_S_GRS_1980_ADJ_WI_CR
 Name        : GRS_1980_Adj_WI_CR
 WKT         : SPHEROID["GRS_1980_Adj_WI_CR", 6378379.031, 298.268540059328]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_CR", 6378379.031, 298.268540059328,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_CR", 6378379.031, 298.268540059328]
 Description : GRS 1980 Adj. Wisconsin Crawford
 Authority   : Esri
 Version     : 9.0.0
@@ -2003,8 +1839,7 @@ Latest-WKID : 107810
 Macro       : PE_S_GRS_1980_ADJ_WI_DN
 Name        : GRS_1980_Adj_WI_DN
 WKT         : SPHEROID["GRS_1980_Adj_WI_DN", 6378407.621, 298.269876997368]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_DN", 6378407.621, 298.269876997368,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_DN", 6378407.621, 298.269876997368]
 Description : GRS 1980 Adj. Wisconsin Dane
 Authority   : Esri
 Version     : 9.0.0
@@ -2015,8 +1850,7 @@ Latest-WKID : 107811
 Macro       : PE_S_GRS_1980_ADJ_WI_DR
 Name        : GRS_1980_Adj_WI_DR
 WKT         : SPHEROID["GRS_1980_Adj_WI_DR", 6378313.92, 298.26549531037]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_DR", 6378313.92, 298.26549531037,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_DR", 6378313.92, 298.26549531037]
 Description : GRS 1980 Adj. Wisconsin Door
 Authority   : Esri
 Version     : 9.0.0
@@ -2027,8 +1861,7 @@ Latest-WKID : 107812
 Macro       : PE_S_GRS_1980_ADJ_WI_DG
 Name        : GRS_1980_Adj_WI_DG
 WKT         : SPHEROID["GRS_1980_Adj_WI_DG", 6378414.93, 298.270218784012]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_DG", 6378414.93, 298.270218784012,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_DG", 6378414.93, 298.270218784012]
 Description : GRS 1980 Adj. Wisconsin Douglas
 Authority   : Esri
 Version     : 9.0.0
@@ -2039,8 +1872,7 @@ Latest-WKID : 107813
 Macro       : PE_S_GRS_1980_ADJ_WI_DU
 Name        : GRS_1980_Adj_WI_DU
 WKT         : SPHEROID["GRS_1980_Adj_WI_DU", 6378413.021, 298.270129514522]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_DU", 6378413.021, 298.270129514522,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_DU", 6378413.021, 298.270129514522]
 Description : GRS 1980 Adj. Wisconsin Dunn
 Authority   : Esri
 Version     : 9.0.0
@@ -2051,8 +1883,7 @@ Latest-WKID : 107814
 Macro       : PE_S_GRS_1980_ADJ_WI_EC
 Name        : GRS_1980_Adj_WI_EC
 WKT         : SPHEROID["GRS_1980_Adj_WI_EC", 6378380.381, 298.268603188617]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_EC", 6378380.381, 298.268603188617,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_EC", 6378380.381, 298.268603188617]
 Description : GRS 1980 Adj. Wisconsin EauClaire
 Authority   : Esri
 Version     : 9.0.0
@@ -2063,8 +1894,7 @@ Latest-WKID : 107815
 Macro       : PE_S_GRS_1980_ADJ_WI_FN
 Name        : GRS_1980_Adj_WI_FN
 WKT         : SPHEROID["GRS_1980_Adj_WI_FN", 6378530.851, 298.275639532334]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_FN", 6378530.851, 298.275639532334,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_FN", 6378530.851, 298.275639532334]
 Description : GRS 1980 Adj. Wisconsin Florence
 Authority   : Esri
 Version     : 9.0.0
@@ -2075,8 +1905,7 @@ Latest-WKID : 107816
 Macro       : PE_S_GRS_1980_ADJ_WI_FR
 Name        : GRS_1980_Adj_WI_FR
 WKT         : SPHEROID["GRS_1980_Adj_WI_FR", 6378591.521, 298.278476609315]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_FR", 6378591.521, 298.278476609315,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_FR", 6378591.521, 298.278476609315]
 Description : GRS 1980 Adj. Wisconsin Forest
 Authority   : Esri
 Version     : 9.0.0
@@ -2087,8 +1916,7 @@ Latest-WKID : 107817
 Macro       : PE_S_GRS_1980_ADJ_WI_GT
 Name        : GRS_1980_Adj_WI_GT
 WKT         : SPHEROID["GRS_1980_Adj_WI_GT", 6378378.881, 298.268533044963]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_GT", 6378378.881, 298.268533044963,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_GT", 6378378.881, 298.268533044963]
 Description : GRS 1980 Adj. Wisconsin Grant
 Authority   : Esri
 Version     : 9.0.0
@@ -2099,8 +1927,7 @@ Latest-WKID : 107818
 Macro       : PE_S_GRS_1980_ADJ_WI_IA
 Name        : GRS_1980_Adj_WI_IA
 WKT         : SPHEROID["GRS_1980_Adj_WI_IA", 6378408.041, 298.269896637591]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_IA", 6378408.041, 298.269896637591,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_IA", 6378408.041, 298.269896637591]
 Description : GRS 1980 Adj. Wisconsin Iowa
 Authority   : Esri
 Version     : 9.0.0
@@ -2111,8 +1938,7 @@ Latest-WKID : 107819
 Macro       : PE_S_GRS_1980_ADJ_WI_IR
 Name        : GRS_1980_Adj_WI_IR
 WKT         : SPHEROID["GRS_1980_Adj_WI_IR", 6378655.071, 298.281448362111]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_IR", 6378655.071, 298.281448362111,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_IR", 6378655.071, 298.281448362111]
 Description : GRS 1980 Adj. Wisconsin Iron
 Authority   : Esri
 Version     : 9.0.0
@@ -2123,8 +1949,7 @@ Latest-WKID : 107820
 Macro       : PE_S_GRS_1980_ADJ_WI_JA
 Name        : GRS_1980_Adj_WI_JA
 WKT         : SPHEROID["GRS_1980_Adj_WI_JA", 6378409.151, 298.269948543895]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_JA", 6378409.151, 298.269948543895,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_JA", 6378409.151, 298.269948543895]
 Description : GRS 1980 Adj. Wisconsin Jackson
 Authority   : Esri
 Version     : 9.0.0
@@ -2135,8 +1960,7 @@ Latest-WKID : 107821
 Macro       : PE_S_GRS_1980_ADJ_WI_LC
 Name        : GRS_1980_Adj_WI_LC
 WKT         : SPHEROID["GRS_1980_Adj_WI_LC", 6378379.301, 298.268552685186]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_LC", 6378379.301, 298.268552685186,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_LC", 6378379.301, 298.268552685186]
 Description : GRS 1980 Adj. Wisconsin LaCrosse
 Authority   : Esri
 Version     : 9.0.0
@@ -2147,8 +1971,7 @@ Latest-WKID : 107822
 Macro       : PE_S_GRS_1980_ADJ_WI_LG
 Name        : GRS_1980_Adj_WI_LG
 WKT         : SPHEROID["GRS_1980_Adj_WI_LG", 6378560.121, 298.277008268831]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_LG", 6378560.121, 298.277008268831,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_LG", 6378560.121, 298.277008268831]
 Description : GRS 1980 Adj. Wisconsin Langlade
 Authority   : Esri
 Version     : 9.0.0
@@ -2159,8 +1982,7 @@ Latest-WKID : 107823
 Macro       : PE_S_GRS_1980_ADJ_WI_LN
 Name        : GRS_1980_Adj_WI_LN
 WKT         : SPHEROID["GRS_1980_Adj_WI_LN", 6378531.821, 298.275684891897]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_LN", 6378531.821, 298.275684891897,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_LN", 6378531.821, 298.275684891897]
 Description : GRS 1980 Adj. Wisconsin Lincoln
 Authority   : Esri
 Version     : 9.0.0
@@ -2171,8 +1993,7 @@ Latest-WKID : 107824
 Macro       : PE_S_GRS_1980_ADJ_WI_MA
 Name        : GRS_1980_Adj_WI_MA
 WKT         : SPHEROID["GRS_1980_Adj_WI_MA", 6378500.6, 298.274224921888]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_MA", 6378500.6, 298.274224921888,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_MA", 6378500.6, 298.274224921888]
 Description : GRS 1980 Adj. Wisconsin Marathon
 Authority   : Esri
 Version     : 9.0.0
@@ -2183,8 +2004,7 @@ Latest-WKID : 107825
 Macro       : PE_S_GRS_1980_ADJ_WI_MN
 Name        : GRS_1980_Adj_WI_MN
 WKT         : SPHEROID["GRS_1980_Adj_WI_MN", 6378376.041, 298.268400239645]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_MN", 6378376.041, 298.268400239645,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_MN", 6378376.041, 298.268400239645]
 Description : GRS 1980 Adj. Wisconsin Marinette
 Authority   : Esri
 Version     : 9.0.0
@@ -2195,8 +2015,7 @@ Latest-WKID : 107826
 Macro       : PE_S_GRS_1980_ADJ_WI_ME
 Name        : GRS_1980_Adj_WI_ME
 WKT         : SPHEROID["GRS_1980_Adj_WI_ME", 6378406.601, 298.269829299684]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_ME", 6378406.601, 298.269829299684,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_ME", 6378406.601, 298.269829299684]
 Description : GRS 1980 Adj. Wisconsin Menominee
 Authority   : Esri
 Version     : 9.0.0
@@ -2207,8 +2026,7 @@ Latest-WKID : 107827
 Macro       : PE_S_GRS_1980_ADJ_WI_MR
 Name        : GRS_1980_Adj_WI_MR
 WKT         : SPHEROID["GRS_1980_Adj_WI_MR", 6378438.991, 298.27134393498]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_MR", 6378438.991, 298.27134393498,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_MR", 6378438.991, 298.27134393498]
 Description : GRS 1980 Adj. Wisconsin Monroe
 Authority   : Esri
 Version     : 9.0.0
@@ -2219,8 +2037,7 @@ Latest-WKID : 107828
 Macro       : PE_S_GRS_1980_ADJ_WI_OC
 Name        : GRS_1980_Adj_WI_OC
 WKT         : SPHEROID["GRS_1980_Adj_WI_OC", 6378345.42, 298.266968327098]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_OC", 6378345.42, 298.266968327098,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_OC", 6378345.42, 298.266968327098]
 Description : GRS 1980 Adj. Wisconsin Oconto
 Authority   : Esri
 Version     : 9.0.0
@@ -2231,8 +2048,7 @@ Latest-WKID : 107829
 Macro       : PE_S_GRS_1980_ADJ_WI_ON
 Name        : GRS_1980_Adj_WI_ON
 WKT         : SPHEROID["GRS_1980_Adj_WI_ON", 6378593.86, 298.278585986653]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_ON", 6378593.86, 298.278585986653,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_ON", 6378593.86, 298.278585986653]
 Description : GRS 1980 Adj. Wisconsin Oneida
 Authority   : Esri
 Version     : 9.0.0
@@ -2243,8 +2059,7 @@ Latest-WKID : 107830
 Macro       : PE_S_GRS_1980_ADJ_WI_PK
 Name        : GRS_1980_Adj_WI_PK
 WKT         : SPHEROID["GRS_1980_Adj_WI_PK", 6378413.671, 298.270159910105]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_PK", 6378413.671, 298.270159910105,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_PK", 6378413.671, 298.270159910105]
 Description : GRS 1980 Adj. Wisconsin Polk
 Authority   : Esri
 Version     : 9.0.0
@@ -2255,8 +2070,7 @@ Latest-WKID : 107831
 Macro       : PE_S_GRS_1980_ADJ_WI_PT
 Name        : GRS_1980_Adj_WI_PT
 WKT         : SPHEROID["GRS_1980_Adj_WI_PT", 6378344.377, 298.266919538913]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_PT", 6378344.377, 298.266919538913,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_PT", 6378344.377, 298.266919538913]
 Description : GRS 1980 Adj. Wisconsin Portage
 Authority   : Esri
 Version     : 9.0.0
@@ -2267,8 +2081,7 @@ Latest-WKID : 107832
 Macro       : PE_S_GRS_1980_ADJ_WI_PR
 Name        : GRS_1980_Adj_WI_PR
 WKT         : SPHEROID["GRS_1980_Adj_WI_PR", 6378563.891, 298.277184563214]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_PR", 6378563.891, 298.277184563214,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_PR", 6378563.891, 298.277184563214]
 Description : GRS 1980 Adj. Wisconsin Price
 Authority   : Esri
 Version     : 9.0.0
@@ -2279,8 +2092,7 @@ Latest-WKID : 107833
 Macro       : PE_S_GRS_1980_ADJ_WI_RC
 Name        : GRS_1980_Adj_WI_RC
 WKT         : SPHEROID["GRS_1980_Adj_WI_RC", 6378408.091, 298.269898975713]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_RC", 6378408.091, 298.269898975713,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_RC", 6378408.091, 298.269898975713]
 Description : GRS 1980 Adj. Wisconsin Richland
 Authority   : Esri
 Version     : 9.0.0
@@ -2291,8 +2103,7 @@ Latest-WKID : 107834
 Macro       : PE_S_GRS_1980_ADJ_WI_RK
 Name        : GRS_1980_Adj_WI_RK
 WKT         : SPHEROID["GRS_1980_Adj_WI_RK", 6378377.671, 298.268476462415]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_RK", 6378377.671, 298.268476462415,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_RK", 6378377.671, 298.268476462415]
 Description : GRS 1980 Adj. Wisconsin Rock
 Authority   : Esri
 Version     : 9.0.0
@@ -2303,8 +2114,7 @@ Latest-WKID : 107835
 Macro       : PE_S_GRS_1980_ADJ_WI_RS
 Name        : GRS_1980_Adj_WI_RS
 WKT         : SPHEROID["GRS_1980_Adj_WI_RS", 6378472.751, 298.272922634813]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_RS", 6378472.751, 298.272922634813,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_RS", 6378472.751, 298.272922634813]
 Description : GRS 1980 Adj. Wisconsin Rusk
 Authority   : Esri
 Version     : 9.0.0
@@ -2315,8 +2125,7 @@ Latest-WKID : 107836
 Macro       : PE_S_GRS_1980_ADJ_WI_SC
 Name        : GRS_1980_Adj_WI_SC
 WKT         : SPHEROID["GRS_1980_Adj_WI_SC", 6378412.511, 298.270105665679]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_SC", 6378412.511, 298.270105665679,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_SC", 6378412.511, 298.270105665679]
 Description : GRS 1980 Adj. Wisconsin StCroix
 Authority   : Esri
 Version     : 9.0.0
@@ -2327,8 +2136,7 @@ Latest-WKID : 107837
 Macro       : PE_S_GRS_1980_ADJ_WI_SK
 Name        : GRS_1980_Adj_WI_SK
 WKT         : SPHEROID["GRS_1980_Adj_WI_SK", 6378407.281, 298.26986109814]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_SK", 6378407.281, 298.26986109814,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_SK", 6378407.281, 298.26986109814]
 Description : GRS 1980 Adj. Wisconsin Sauk
 Authority   : Esri
 Version     : 9.0.0
@@ -2339,8 +2147,7 @@ Latest-WKID : 107838
 Macro       : PE_S_GRS_1980_ADJ_WI_SW
 Name        : GRS_1980_Adj_WI_SW
 WKT         : SPHEROID["GRS_1980_Adj_WI_SW", 6378534.451, 298.275807877103]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_SW", 6378534.451, 298.275807877103,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_SW", 6378534.451, 298.275807877103]
 Description : GRS 1980 Adj. Wisconsin Sawyer
 Authority   : Esri
 Version     : 9.0.0
@@ -2351,8 +2158,7 @@ Latest-WKID : 107839
 Macro       : PE_S_GRS_1980_ADJ_WI_SH
 Name        : GRS_1980_Adj_WI_SH
 WKT         : SPHEROID["GRS_1980_Adj_WI_SH", 6378406.051, 298.269803580344]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_SH", 6378406.051, 298.269803580344,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_SH", 6378406.051, 298.269803580344]
 Description : GRS 1980 Adj. Wisconsin Shawano
 Authority   : Esri
 Version     : 9.0.0
@@ -2363,8 +2169,7 @@ Latest-WKID : 107840
 Macro       : PE_S_GRS_1980_ADJ_WI_TA
 Name        : GRS_1980_Adj_WI_TA
 WKT         : SPHEROID["GRS_1980_Adj_WI_TA", 6378532.921, 298.275736330576]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_TA", 6378532.921, 298.275736330576,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_TA", 6378532.921, 298.275736330576]
 Description : GRS 1980 Adj. Wisconsin Taylor
 Authority   : Esri
 Version     : 9.0.0
@@ -2375,8 +2180,7 @@ Latest-WKID : 107841
 Macro       : PE_S_GRS_1980_ADJ_WI_TR
 Name        : GRS_1980_Adj_WI_TR
 WKT         : SPHEROID["GRS_1980_Adj_WI_TR", 6378380.091, 298.26858962751]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_TR", 6378380.091, 298.26858962751,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_TR", 6378380.091, 298.26858962751]
 Description : GRS 1980 Adj. Wisconsin Trempealeau
 Authority   : Esri
 Version     : 9.0.0
@@ -2387,8 +2191,7 @@ Latest-WKID : 107842
 Macro       : PE_S_GRS_1980_ADJ_WI_VR
 Name        : GRS_1980_Adj_WI_VR
 WKT         : SPHEROID["GRS_1980_Adj_WI_VR", 6378408.941, 298.269938723784]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_VR", 6378408.941, 298.269938723784,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_VR", 6378408.941, 298.269938723784]
 Description : GRS 1980 Adj. Wisconsin Vernon
 Authority   : Esri
 Version     : 9.0.0
@@ -2399,8 +2202,7 @@ Latest-WKID : 107843
 Macro       : PE_S_GRS_1980_ADJ_WI_VI
 Name        : GRS_1980_Adj_WI_VI
 WKT         : SPHEROID["GRS_1980_Adj_WI_VI", 6378624.171, 298.280003402845]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_VI", 6378624.171, 298.280003402845,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_VI", 6378624.171, 298.280003402845]
 Description : GRS 1980 Adj. Wisconsin Vilas
 Authority   : Esri
 Version     : 9.0.0
@@ -2411,8 +2213,7 @@ Latest-WKID : 107844
 Macro       : PE_S_GRS_1980_ADJ_WI_WW
 Name        : GRS_1980_Adj_WI_WW
 WKT         : SPHEROID["GRS_1980_Adj_WI_WW", 6378377.411, 298.268464304182]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WW", 6378377.411, 298.268464304182,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WW", 6378377.411, 298.268464304182]
 Description : GRS 1980 Adj. Wisconsin Walworth
 Authority   : Esri
 Version     : 9.0.0
@@ -2423,8 +2224,7 @@ Latest-WKID : 107845
 Macro       : PE_S_GRS_1980_ADJ_WI_WB
 Name        : GRS_1980_Adj_WI_WB
 WKT         : SPHEROID["GRS_1980_Adj_WI_WB", 6378474.591, 298.273008677695]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WB", 6378474.591, 298.273008677695,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WB", 6378474.591, 298.273008677695]
 Description : GRS 1980 Adj. Wisconsin Washburn
 Authority   : Esri
 Version     : 9.0.0
@@ -2435,8 +2235,7 @@ Latest-WKID : 107846
 Macro       : PE_S_GRS_1980_ADJ_WI_WA
 Name        : GRS_1980_Adj_WI_WA
 WKT         : SPHEROID["GRS_1980_Adj_WI_WA", 6378407.141, 298.269854551399]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WA", 6378407.141, 298.269854551399,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WA", 6378407.141, 298.269854551399]
 Description : GRS 1980 Adj. Wisconsin Washington
 Authority   : Esri
 Version     : 9.0.0
@@ -2447,8 +2246,7 @@ Latest-WKID : 107847
 Macro       : PE_S_GRS_1980_ADJ_WI_WK
 Name        : GRS_1980_Adj_WI_WK
 WKT         : SPHEROID["GRS_1980_Adj_WI_WK", 6378376.871, 298.268439052467]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WK", 6378376.871, 298.268439052467,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WK", 6378376.871, 298.268439052467]
 Description : GRS 1980 Adj. Wisconsin Waukesha
 Authority   : Esri
 Version     : 9.0.0
@@ -2459,8 +2257,7 @@ Latest-WKID : 107848
 Macro       : PE_S_GRS_1980_ADJ_WI_WP
 Name        : GRS_1980_Adj_WI_WP
 WKT         : SPHEROID["GRS_1980_Adj_WI_WP", 6378375.251, 298.268363297321]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WP", 6378375.251, 298.268363297321,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WP", 6378375.251, 298.268363297321]
 Description : GRS 1980 Adj. Wisconsin Waupaca
 Authority   : Esri
 Version     : 9.0.0
@@ -2471,8 +2268,7 @@ Latest-WKID : 107849
 Macro       : PE_S_GRS_1980_ADJ_WI_WS
 Name        : GRS_1980_Adj_WI_WS
 WKT         : SPHEROID["GRS_1980_Adj_WI_WS", 6378405.971, 298.269799839349]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WS", 6378405.971, 298.269799839349,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WS", 6378405.971, 298.269799839349]
 Description : GRS 1980 Adj. Wisconsin Waushara
 Authority   : Esri
 Version     : 9.0.0
@@ -2483,8 +2279,7 @@ Latest-WKID : 107850
 Macro       : PE_S_GRS_1980_ADJ_WI_WD
 Name        : GRS_1980_Adj_WI_WD
 WKT         : SPHEROID["GRS_1980_Adj_WI_WD", 6378437.651, 298.271281273316]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WD", 6378437.651, 298.271281273316,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_WD", 6378437.651, 298.271281273316]
 Description : GRS 1980 Adj. Wisconsin Wood
 Authority   : Esri
 Version     : 9.0.0
@@ -2495,8 +2290,7 @@ Latest-WKID : 107851
 Macro       : PE_S_GRS_1980_ADJ_WI_AD_JN
 Name        : GRS_1980_Adj_WI_AD_JN
 WKT         : SPHEROID["GRS_1980_Adj_WI_AD_JN", 6378376.271, 298.268410995005]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_AD_JN", 6378376.271, 298.268410995005,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_AD_JN", 6378376.271, 298.268410995005]
 Description : GRS 1980 Adj. Wisconsin Adams and Juneau
 Authority   : Esri
 Version     : 9.0.0
@@ -2507,8 +2301,7 @@ Latest-WKID : 107852
 Macro       : PE_S_GRS_1980_ADJ_WI_GR_LF
 Name        : GRS_1980_Adj_WI_GR_LF
 WKT         : SPHEROID["GRS_1980_Adj_WI_GR_LF", 6378408.481, 298.269917213063]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_GR_LF", 6378408.481, 298.269917213063,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_GR_LF", 6378408.481, 298.269917213063]
 Description : GRS 1980 Adj. Wisconsin Green and Lafayette
 Authority   : Esri
 Version     : 9.0.0
@@ -2519,8 +2312,7 @@ Latest-WKID : 107853
 Macro       : PE_S_GRS_1980_ADJ_WI_GL_MQ
 Name        : GRS_1980_Adj_WI_GL_MQ
 WKT         : SPHEROID["GRS_1980_Adj_WI_GL_MQ", 6378375.601, 298.268379664173]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_GL_MQ", 6378375.601, 298.268379664173,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_GL_MQ", 6378375.601, 298.268379664173]
 Description : GRS 1980 Adj. Wisconsin Green Lake and Marquette
 Authority   : Esri
 Version     : 9.0.0
@@ -2531,8 +2323,7 @@ Latest-WKID : 107854
 Macro       : PE_S_GRS_1980_ADJ_WI_DD_JF
 Name        : GRS_1980_Adj_WI_DD_JF
 WKT         : SPHEROID["GRS_1980_Adj_WI_DD_JF", 6378376.811, 298.268436246721]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_DD_JF", 6378376.811, 298.268436246721,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_DD_JF", 6378376.811, 298.268436246721]
 Description : GRS 1980 Adj. Wisconsin Dodge and Jefferson
 Authority   : Esri
 Version     : 9.0.0
@@ -2543,8 +2334,7 @@ Latest-WKID : 107855
 Macro       : PE_S_GRS_1980_ADJ_WI_PP_PC
 Name        : GRS_1980_Adj_WI_PP_PC
 WKT         : SPHEROID["GRS_1980_Adj_WI_PP_PC", 6378381.271, 298.268644807185]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_PP_PC", 6378381.271, 298.268644807185,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_PP_PC", 6378381.271, 298.268644807185]
 Description : GRS 1980 Adj. Wisconsin Pepin and Pierce
 Authority   : Esri
 Version     : 9.0.0
@@ -2555,8 +2345,7 @@ Latest-WKID : 107856
 Macro       : PE_S_GRS_1980_ADJ_WI_CL_FL_OG_WN
 Name        : GRS_1980_Adj_WI_CL_FL_OG_WN
 WKT         : SPHEROID["GRS_1980_Adj_WI_CL_FL_OG_WN", 6378345.09, 298.266952895494]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_CL_FL_OG_WN", 6378345.09, 298.266952895494,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_CL_FL_OG_WN", 6378345.09, 298.266952895494]
 Description : GRS 1980 Adj. Wisconsin Calumet, Fond du Lac, Outagamie, and
               Winnebago
 Authority   : Esri
@@ -2568,8 +2357,7 @@ Latest-WKID : 107857
 Macro       : PE_S_GRS_1980_ADJ_WI_KN_MW_OZ_RA
 Name        : GRS_1980_Adj_WI_KN_MW_OZ_RA
 WKT         : SPHEROID["GRS_1980_Adj_WI_KN_MW_OZ_RA", 6378315.7, 298.265578547505]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_KN_MW_OZ_RA", 6378315.7, 298.265578547505,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_KN_MW_OZ_RA", 6378315.7, 298.265578547505]
 Description : GRS 1980 Adj. Wisconsin Kenosha, Milwaukee, Ozaukee, and Racine
 Authority   : Esri
 Version     : 9.0.0
@@ -2580,8 +2368,7 @@ Latest-WKID : 107858
 Macro       : PE_S_GRS_1980_ADJ_WI_KW_MT_SG
 Name        : GRS_1980_Adj_WI_KW_MT_SG
 WKT         : SPHEROID["GRS_1980_Adj_WI_KW_MT_SG", 6378285.86, 298.264183156421]
-WKT2        : ELLIPSOID["GRS_1980_Adj_WI_KW_MT_SG", 6378285.86, 298.264183156421,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["GRS_1980_Adj_WI_KW_MT_SG", 6378285.86, 298.264183156421]
 Description : GRS 1980 Adj. Wisconsin Kewaunee, Manitowoc, and Sheboygan
 Authority   : Esri
 Version     : 9.0.0
@@ -2592,8 +2379,7 @@ Latest-WKID : 107861
 Macro       : PE_S_XT_PHOBOS_2015
 Name        : Phobos_2015
 WKT         : SPHEROID["Phobos_2015", 11080.0, 0.0]
-WKT2        : ELLIPSOID["Phobos_2015", 11080.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Phobos_2015", 11080.0, 0.0]
 Description : Mars - Phobos IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -2604,8 +2390,7 @@ Latest-WKID : 107862
 Macro       : PE_S_XT_CALLISTO_2015
 Name        : Callisto_2015
 WKT         : SPHEROID["Callisto_2015", 2410300.0, 0.0]
-WKT2        : ELLIPSOID["Callisto_2015", 2410300.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Callisto_2015", 2410300.0, 0.0]
 Description : Jupiter - Callisto IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -2616,8 +2401,7 @@ Latest-WKID : 107863
 Macro       : PE_S_XT_EUROPA_2015
 Name        : Europa_2015
 WKT         : SPHEROID["Europa_2015", 1560800.0, 0.0]
-WKT2        : ELLIPSOID["Europa_2015", 1560800.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Europa_2015", 1560800.0, 0.0]
 Description : Jupiter - Europa IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -2628,8 +2412,7 @@ Latest-WKID : 107864
 Macro       : PE_S_XT_GANYMEDE_2015
 Name        : Ganymede_2015
 WKT         : SPHEROID["Ganymede_2015", 2631200.0, 0.0]
-WKT2        : ELLIPSOID["Ganymede_2015", 2631200.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Ganymede_2015", 2631200.0, 0.0]
 Description : Jupiter - Ganymede IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -2640,8 +2423,7 @@ Latest-WKID : 107865
 Macro       : PE_S_XT_IO_2015
 Name        : Io_2015
 WKT         : SPHEROID["Io_2015", 1821490.0, 0.0]
-WKT2        : ELLIPSOID["Io_2015", 1821490.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Io_2015", 1821490.0, 0.0]
 Description : Jupiter - Io IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -2652,8 +2434,7 @@ Latest-WKID : 107866
 Macro       : PE_S_XT_METIS_2015
 Name        : Metis_2015
 WKT         : SPHEROID["Metis_2015", 21500.0, 0.0]
-WKT2        : ELLIPSOID["Metis_2015", 21500.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Metis_2015", 21500.0, 0.0]
 Description : Jupiter - Metis IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -2664,8 +2445,7 @@ Latest-WKID : 107867
 Macro       : PE_S_XT_AEGAEON_2015
 Name        : Aegaeon_2015
 WKT         : SPHEROID["Aegaeon_2015", 330.0, 0.0]
-WKT2        : ELLIPSOID["Aegaeon_2015", 330.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Aegaeon_2015", 330.0, 0.0]
 Description : Saturn - Aegaeon IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -2676,8 +2456,7 @@ Latest-WKID : 107868
 Macro       : PE_S_XT_ANTHE_2015
 Name        : Anthe_2015
 WKT         : SPHEROID["Anthe_2015", 500.0, 0.0]
-WKT2        : ELLIPSOID["Anthe_2015", 500.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Anthe_2015", 500.0, 0.0]
 Description : Saturn - Anthe IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -2688,8 +2467,7 @@ Latest-WKID : 107900
 Macro       : PE_S_XT_MERCURY_2000
 Name        : Mercury_2000_IAU_IAG
 WKT         : SPHEROID["Mercury_2000_IAU_IAG", 2439700.0, 0.0]
-WKT2        : ELLIPSOID["Mercury_2000_IAU_IAG", 2439700.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Mercury_2000_IAU_IAG", 2439700.0, 0.0]
 Description : Mercury
 Authority   : Esri
 Version     : 9.0.0
@@ -2700,8 +2478,7 @@ Latest-WKID : 107901
 Macro       : PE_S_XT_VENUS_1985
 Name        : Venus_1985_IAU_IAG_COSPAR
 WKT         : SPHEROID["Venus_1985_IAU_IAG_COSPAR", 6051000.0, 0.0]
-WKT2        : ELLIPSOID["Venus_1985_IAU_IAG_COSPAR", 6051000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Venus_1985_IAU_IAG_COSPAR", 6051000.0, 0.0]
 Description : Venus 1985
 Authority   : Esri
 Version     : 9.0.0
@@ -2712,8 +2489,7 @@ Latest-WKID : 107902
 Macro       : PE_S_XT_VENUS_2000
 Name        : Venus_2000_IAU_IAG
 WKT         : SPHEROID["Venus_2000_IAU_IAG", 6051800.0, 0.0]
-WKT2        : ELLIPSOID["Venus_2000_IAU_IAG", 6051800.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Venus_2000_IAU_IAG", 6051800.0, 0.0]
 Description : Venus 2000
 Authority   : Esri
 Version     : 9.0.0
@@ -2724,8 +2500,7 @@ Latest-WKID : 107903
 Macro       : PE_S_XT_MOON_2000
 Name        : Moon_2000_IAU_IAG
 WKT         : SPHEROID["Moon_2000_IAU_IAG", 1737400.0, 0.0]
-WKT2        : ELLIPSOID["Moon_2000_IAU_IAG", 1737400.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Moon_2000_IAU_IAG", 1737400.0, 0.0]
 Description : The Moon
 Authority   : Esri
 Version     : 9.0.0
@@ -2736,8 +2511,7 @@ Latest-WKID : 107904
 Macro       : PE_S_XT_MARS_1979
 Name        : Mars_1979_IAU_IAG
 WKT         : SPHEROID["Mars_1979_IAU_IAG", 3393400.0, 192.0430107526882]
-WKT2        : ELLIPSOID["Mars_1979_IAU_IAG", 3393400.0, 192.0430107526882,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Mars_1979_IAU_IAG", 3393400.0, 192.0430107526882]
 Description : Mars 1979
 Authority   : Esri
 Version     : 9.0.0
@@ -2748,8 +2522,7 @@ Latest-WKID : 107905
 Macro       : PE_S_XT_MARS_2000
 Name        : Mars_2000_IAU_IAG
 WKT         : SPHEROID["Mars_2000_IAU_IAG", 3396190.0, 169.8944472236118]
-WKT2        : ELLIPSOID["Mars_2000_IAU_IAG", 3396190.0, 169.8944472236118,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Mars_2000_IAU_IAG", 3396190.0, 169.8944472236118]
 Description : Mars 2000
 Authority   : Esri
 Version     : 9.0.0
@@ -2760,8 +2533,7 @@ Latest-WKID : 107906
 Macro       : PE_S_XT_DEIMOS_2000
 Name        : Deimos_2000_IAU_IAG
 WKT         : SPHEROID["Deimos_2000_IAU_IAG", 6200.0, 0.0]
-WKT2        : ELLIPSOID["Deimos_2000_IAU_IAG", 6200.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Deimos_2000_IAU_IAG", 6200.0, 0.0]
 Description : Mars - Deimos
 Authority   : Esri
 Version     : 9.0.0
@@ -2772,8 +2544,7 @@ Latest-WKID : 107907
 Macro       : PE_S_XT_PHOBOS_2000
 Name        : Phobos_2000_IAU_IAG
 WKT         : SPHEROID["Phobos_2000_IAU_IAG", 11100.0, 0.0]
-WKT2        : ELLIPSOID["Phobos_2000_IAU_IAG", 11100.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Phobos_2000_IAU_IAG", 11100.0, 0.0]
 Description : Mars - Phobos
 Authority   : Esri
 Version     : 9.0.0
@@ -2784,8 +2555,7 @@ Latest-WKID : 107908
 Macro       : PE_S_XT_JUPITER_2000
 Name        : Jupiter_2000_IAU_IAG
 WKT         : SPHEROID["Jupiter_2000_IAU_IAG", 71492000.0, 15.41440275981026]
-WKT2        : ELLIPSOID["Jupiter_2000_IAU_IAG", 71492000.0, 15.41440275981026,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Jupiter_2000_IAU_IAG", 71492000.0, 15.41440275981026]
 Description : Jupiter
 Authority   : Esri
 Version     : 9.0.0
@@ -2796,8 +2566,7 @@ Latest-WKID : 107909
 Macro       : PE_S_XT_ADRASTEA_2000
 Name        : Adrastea_2000_IAU_IAG
 WKT         : SPHEROID["Adrastea_2000_IAU_IAG", 8200.0, 0.0]
-WKT2        : ELLIPSOID["Adrastea_2000_IAU_IAG", 8200.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Adrastea_2000_IAU_IAG", 8200.0, 0.0]
 Description : Jupiter - Adrastea
 Authority   : Esri
 Version     : 9.0.0
@@ -2808,8 +2577,7 @@ Latest-WKID : 107910
 Macro       : PE_S_XT_AMALTHEA_2000
 Name        : Amalthea_2000_IAU_IAG
 WKT         : SPHEROID["Amalthea_2000_IAU_IAG", 83500.0, 0.0]
-WKT2        : ELLIPSOID["Amalthea_2000_IAU_IAG", 83500.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Amalthea_2000_IAU_IAG", 83500.0, 0.0]
 Description : Jupiter - Amalthea
 Authority   : Esri
 Version     : 9.0.0
@@ -2820,8 +2588,7 @@ Latest-WKID : 107911
 Macro       : PE_S_XT_ANANKE_2000
 Name        : Ananke_2000_IAU_IAG
 WKT         : SPHEROID["Ananke_2000_IAU_IAG", 10000.0, 0.0]
-WKT2        : ELLIPSOID["Ananke_2000_IAU_IAG", 10000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Ananke_2000_IAU_IAG", 10000.0, 0.0]
 Description : Jupiter - Ananke
 Authority   : Esri
 Version     : 9.0.0
@@ -2832,8 +2599,7 @@ Latest-WKID : 107912
 Macro       : PE_S_XT_CALLISTO_2000
 Name        : Callisto_2000_IAU_IAG
 WKT         : SPHEROID["Callisto_2000_IAU_IAG", 2409300.0, 0.0]
-WKT2        : ELLIPSOID["Callisto_2000_IAU_IAG", 2409300.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Callisto_2000_IAU_IAG", 2409300.0, 0.0]
 Description : Jupiter - Callisto
 Authority   : Esri
 Version     : 9.0.0
@@ -2844,8 +2610,7 @@ Latest-WKID : 107913
 Macro       : PE_S_XT_CARME_2000
 Name        : Carme_2000_IAU_IAG
 WKT         : SPHEROID["Carme_2000_IAU_IAG", 15000.0, 0.0]
-WKT2        : ELLIPSOID["Carme_2000_IAU_IAG", 15000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Carme_2000_IAU_IAG", 15000.0, 0.0]
 Description : Jupiter - Carme
 Authority   : Esri
 Version     : 9.0.0
@@ -2856,8 +2621,7 @@ Latest-WKID : 107914
 Macro       : PE_S_XT_ELARA_2000
 Name        : Elara_2000_IAU_IAG
 WKT         : SPHEROID["Elara_2000_IAU_IAG", 40000.0, 0.0]
-WKT2        : ELLIPSOID["Elara_2000_IAU_IAG", 40000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Elara_2000_IAU_IAG", 40000.0, 0.0]
 Description : Jupiter - Elara
 Authority   : Esri
 Version     : 9.0.0
@@ -2868,8 +2632,7 @@ Latest-WKID : 107915
 Macro       : PE_S_XT_EUROPA_2000
 Name        : Europa_2000_IAU_IAG
 WKT         : SPHEROID["Europa_2000_IAU_IAG", 1562090.0, 0.0]
-WKT2        : ELLIPSOID["Europa_2000_IAU_IAG", 1562090.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Europa_2000_IAU_IAG", 1562090.0, 0.0]
 Description : Jupiter - Europa
 Authority   : Esri
 Version     : 9.0.0
@@ -2880,8 +2643,7 @@ Latest-WKID : 107916
 Macro       : PE_S_XT_GANYMEDE_2000
 Name        : Ganymede_2000_IAU_IAG
 WKT         : SPHEROID["Ganymede_2000_IAU_IAG", 2632345.0, 0.0]
-WKT2        : ELLIPSOID["Ganymede_2000_IAU_IAG", 2632345.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Ganymede_2000_IAU_IAG", 2632345.0, 0.0]
 Description : Jupiter - Ganymede
 Authority   : Esri
 Version     : 9.0.0
@@ -2892,8 +2654,7 @@ Latest-WKID : 107917
 Macro       : PE_S_XT_HIMALIA_2000
 Name        : Himalia_2000_IAU_IAG
 WKT         : SPHEROID["Himalia_2000_IAU_IAG", 85000.0, 0.0]
-WKT2        : ELLIPSOID["Himalia_2000_IAU_IAG", 85000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Himalia_2000_IAU_IAG", 85000.0, 0.0]
 Description : Jupiter - Himalia
 Authority   : Esri
 Version     : 9.0.0
@@ -2904,8 +2665,7 @@ Latest-WKID : 107918
 Macro       : PE_S_XT_IO_2000
 Name        : Io_2000_IAU_IAG
 WKT         : SPHEROID["Io_2000_IAU_IAG", 1821460.0, 0.0]
-WKT2        : ELLIPSOID["Io_2000_IAU_IAG", 1821460.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Io_2000_IAU_IAG", 1821460.0, 0.0]
 Description : Jupiter - Io
 Authority   : Esri
 Version     : 9.0.0
@@ -2916,8 +2676,7 @@ Latest-WKID : 107919
 Macro       : PE_S_XT_LEDA_2000
 Name        : Leda_2000_IAU_IAG
 WKT         : SPHEROID["Leda_2000_IAU_IAG", 5000.0, 0.0]
-WKT2        : ELLIPSOID["Leda_2000_IAU_IAG", 5000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Leda_2000_IAU_IAG", 5000.0, 0.0]
 Description : Jupiter - Leda
 Authority   : Esri
 Version     : 9.0.0
@@ -2928,8 +2687,7 @@ Latest-WKID : 107920
 Macro       : PE_S_XT_LYSITHEA_2000
 Name        : Lysithea_2000_IAU_IAG
 WKT         : SPHEROID["Lysithea_2000_IAU_IAG", 12000.0, 0.0]
-WKT2        : ELLIPSOID["Lysithea_2000_IAU_IAG", 12000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Lysithea_2000_IAU_IAG", 12000.0, 0.0]
 Description : Jupiter - Lysithea
 Authority   : Esri
 Version     : 9.0.0
@@ -2940,8 +2698,7 @@ Latest-WKID : 107921
 Macro       : PE_S_XT_METIS_2000
 Name        : Metis_2000_IAU_IAG
 WKT         : SPHEROID["Metis_2000_IAU_IAG", 30000.0, 3.0]
-WKT2        : ELLIPSOID["Metis_2000_IAU_IAG", 30000.0, 3.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Metis_2000_IAU_IAG", 30000.0, 3.0]
 Description : Jupiter - Metis
 Authority   : Esri
 Version     : 9.0.0
@@ -2952,8 +2709,7 @@ Latest-WKID : 107922
 Macro       : PE_S_XT_PASIPHAE_2000
 Name        : Pasiphae_2000_IAU_IAG
 WKT         : SPHEROID["Pasiphae_2000_IAU_IAG", 18000.0, 0.0]
-WKT2        : ELLIPSOID["Pasiphae_2000_IAU_IAG", 18000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Pasiphae_2000_IAU_IAG", 18000.0, 0.0]
 Description : Jupiter - Pasiphae
 Authority   : Esri
 Version     : 9.0.0
@@ -2964,8 +2720,7 @@ Latest-WKID : 107923
 Macro       : PE_S_XT_SINOPE_2000
 Name        : Sinope_2000_IAU_IAG
 WKT         : SPHEROID["Sinope_2000_IAU_IAG", 14000.0, 0.0]
-WKT2        : ELLIPSOID["Sinope_2000_IAU_IAG", 14000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Sinope_2000_IAU_IAG", 14000.0, 0.0]
 Description : Jupiter - Sinope
 Authority   : Esri
 Version     : 9.0.0
@@ -2976,8 +2731,7 @@ Latest-WKID : 107924
 Macro       : PE_S_XT_THEBE_2000
 Name        : Thebe_2000_IAU_IAG
 WKT         : SPHEROID["Thebe_2000_IAU_IAG", 49300.0, 0.0]
-WKT2        : ELLIPSOID["Thebe_2000_IAU_IAG", 49300.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Thebe_2000_IAU_IAG", 49300.0, 0.0]
 Description : Jupiter - Thebe
 Authority   : Esri
 Version     : 9.0.0
@@ -2988,8 +2742,7 @@ Latest-WKID : 107925
 Macro       : PE_S_XT_SATURN_2000
 Name        : Saturn_2000_IAU_IAG
 WKT         : SPHEROID["Saturn_2000_IAU_IAG", 60268000.0, 10.2079945799458]
-WKT2        : ELLIPSOID["Saturn_2000_IAU_IAG", 60268000.0, 10.2079945799458,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Saturn_2000_IAU_IAG", 60268000.0, 10.2079945799458]
 Description : Saturn
 Authority   : Esri
 Version     : 9.0.0
@@ -3000,8 +2753,7 @@ Latest-WKID : 107926
 Macro       : PE_S_XT_ATLAS_2000
 Name        : Atlas_2000_IAU_IAG
 WKT         : SPHEROID["Atlas_2000_IAU_IAG", 16000.0, 0.0]
-WKT2        : ELLIPSOID["Atlas_2000_IAU_IAG", 16000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Atlas_2000_IAU_IAG", 16000.0, 0.0]
 Description : Saturn - Atlas
 Authority   : Esri
 Version     : 9.0.0
@@ -3012,8 +2764,7 @@ Latest-WKID : 107927
 Macro       : PE_S_XT_CALYPSO_2000
 Name        : Calypso_2000_IAU_IAG
 WKT         : SPHEROID["Calypso_2000_IAU_IAG", 9500.0, 0.0]
-WKT2        : ELLIPSOID["Calypso_2000_IAU_IAG", 9500.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Calypso_2000_IAU_IAG", 9500.0, 0.0]
 Description : Saturn - Calypso
 Authority   : Esri
 Version     : 9.0.0
@@ -3024,8 +2775,7 @@ Latest-WKID : 107928
 Macro       : PE_S_XT_DIONE_2000
 Name        : Dione_2000_IAU_IAG
 WKT         : SPHEROID["Dione_2000_IAU_IAG", 560000.0, 0.0]
-WKT2        : ELLIPSOID["Dione_2000_IAU_IAG", 560000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Dione_2000_IAU_IAG", 560000.0, 0.0]
 Description : Saturn - Dione
 Authority   : Esri
 Version     : 9.0.0
@@ -3036,8 +2786,7 @@ Latest-WKID : 107929
 Macro       : PE_S_XT_ENCELADUS_2000
 Name        : Enceladus_2000_IAU_IAG
 WKT         : SPHEROID["Enceladus_2000_IAU_IAG", 249400.0, 0.0]
-WKT2        : ELLIPSOID["Enceladus_2000_IAU_IAG", 249400.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Enceladus_2000_IAU_IAG", 249400.0, 0.0]
 Description : Saturn - Enceladus
 Authority   : Esri
 Version     : 9.0.0
@@ -3048,8 +2797,7 @@ Latest-WKID : 107930
 Macro       : PE_S_XT_EPIMETHEUS_2000
 Name        : Epimetheus_2000_IAU_IAG
 WKT         : SPHEROID["Epimetheus_2000_IAU_IAG", 59500.0, 0.0]
-WKT2        : ELLIPSOID["Epimetheus_2000_IAU_IAG", 59500.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Epimetheus_2000_IAU_IAG", 59500.0, 0.0]
 Description : Saturn - Epimetheus
 Authority   : Esri
 Version     : 9.0.0
@@ -3060,8 +2808,7 @@ Latest-WKID : 107931
 Macro       : PE_S_XT_HELENE_2000
 Name        : Helene_2000_IAU_IAG
 WKT         : SPHEROID["Helene_2000_IAU_IAG", 16000.0, 0.0]
-WKT2        : ELLIPSOID["Helene_2000_IAU_IAG", 16000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Helene_2000_IAU_IAG", 16000.0, 0.0]
 Description : Saturn - Helene
 Authority   : Esri
 Version     : 9.0.0
@@ -3072,8 +2819,7 @@ Latest-WKID : 107932
 Macro       : PE_S_XT_HYPERION_2000
 Name        : Hyperion_2000_IAU_IAG
 WKT         : SPHEROID["Hyperion_2000_IAU_IAG", 133000.0, 0.0]
-WKT2        : ELLIPSOID["Hyperion_2000_IAU_IAG", 133000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Hyperion_2000_IAU_IAG", 133000.0, 0.0]
 Description : Saturn - Hyperion
 Authority   : Esri
 Version     : 9.0.0
@@ -3084,8 +2830,7 @@ Latest-WKID : 107933
 Macro       : PE_S_XT_IAPETUS_2000
 Name        : Iapetus_2000_IAU_IAG
 WKT         : SPHEROID["Iapetus_2000_IAU_IAG", 718000.0, 0.0]
-WKT2        : ELLIPSOID["Iapetus_2000_IAU_IAG", 718000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Iapetus_2000_IAU_IAG", 718000.0, 0.0]
 Description : Saturn - Iapetus
 Authority   : Esri
 Version     : 9.0.0
@@ -3096,8 +2841,7 @@ Latest-WKID : 107934
 Macro       : PE_S_XT_JANUS_2000
 Name        : Janus_2000_IAU_IAG
 WKT         : SPHEROID["Janus_2000_IAU_IAG", 88800.0, 0.0]
-WKT2        : ELLIPSOID["Janus_2000_IAU_IAG", 88800.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Janus_2000_IAU_IAG", 88800.0, 0.0]
 Description : Saturn - Janus
 Authority   : Esri
 Version     : 9.0.0
@@ -3108,8 +2852,7 @@ Latest-WKID : 107935
 Macro       : PE_S_XT_MIMAS_2000
 Name        : Mimas_2000_IAU_IAG
 WKT         : SPHEROID["Mimas_2000_IAU_IAG", 198630.0, 0.0]
-WKT2        : ELLIPSOID["Mimas_2000_IAU_IAG", 198630.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Mimas_2000_IAU_IAG", 198630.0, 0.0]
 Description : Saturn - Mimas
 Authority   : Esri
 Version     : 9.0.0
@@ -3120,8 +2863,7 @@ Latest-WKID : 107936
 Macro       : PE_S_XT_PAN_2000
 Name        : Pan_2000_IAU_IAG
 WKT         : SPHEROID["Pan_2000_IAU_IAG", 10000.0, 0.0]
-WKT2        : ELLIPSOID["Pan_2000_IAU_IAG", 10000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Pan_2000_IAU_IAG", 10000.0, 0.0]
 Description : Saturn - Pan
 Authority   : Esri
 Version     : 9.0.0
@@ -3132,8 +2874,7 @@ Latest-WKID : 107937
 Macro       : PE_S_XT_PANDORA_2000
 Name        : Pandora_2000_IAU_IAG
 WKT         : SPHEROID["Pandora_2000_IAU_IAG", 41900.0, 0.0]
-WKT2        : ELLIPSOID["Pandora_2000_IAU_IAG", 41900.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Pandora_2000_IAU_IAG", 41900.0, 0.0]
 Description : Saturn - Pandora
 Authority   : Esri
 Version     : 9.0.0
@@ -3144,8 +2885,7 @@ Latest-WKID : 107938
 Macro       : PE_S_XT_PHOEBE_2000
 Name        : Phoebe_2000_IAU_IAG
 WKT         : SPHEROID["Phoebe_2000_IAU_IAG", 110000.0, 0.0]
-WKT2        : ELLIPSOID["Phoebe_2000_IAU_IAG", 110000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Phoebe_2000_IAU_IAG", 110000.0, 0.0]
 Description : Saturn - Phoebe
 Authority   : Esri
 Version     : 9.0.0
@@ -3156,8 +2896,7 @@ Latest-WKID : 107939
 Macro       : PE_S_XT_PROMETHEUS_2000
 Name        : Prometheus_2000_IAU_IAG
 WKT         : SPHEROID["Prometheus_2000_IAU_IAG", 50100.0, 0.0]
-WKT2        : ELLIPSOID["Prometheus_2000_IAU_IAG", 50100.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Prometheus_2000_IAU_IAG", 50100.0, 0.0]
 Description : Saturn - Prometheus
 Authority   : Esri
 Version     : 9.0.0
@@ -3168,8 +2907,7 @@ Latest-WKID : 107940
 Macro       : PE_S_XT_RHEA_2000
 Name        : Rhea_2000_IAU_IAG
 WKT         : SPHEROID["Rhea_2000_IAU_IAG", 764000.0, 0.0]
-WKT2        : ELLIPSOID["Rhea_2000_IAU_IAG", 764000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Rhea_2000_IAU_IAG", 764000.0, 0.0]
 Description : Saturn - Rhea
 Authority   : Esri
 Version     : 9.0.0
@@ -3180,8 +2918,7 @@ Latest-WKID : 107941
 Macro       : PE_S_XT_TELESTO_2000
 Name        : Telesto_2000_IAU_IAG
 WKT         : SPHEROID["Telesto_2000_IAU_IAG", 11000.0, 0.0]
-WKT2        : ELLIPSOID["Telesto_2000_IAU_IAG", 11000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Telesto_2000_IAU_IAG", 11000.0, 0.0]
 Description : Saturn - Telesto
 Authority   : Esri
 Version     : 9.0.0
@@ -3192,8 +2929,7 @@ Latest-WKID : 107942
 Macro       : PE_S_XT_TETHYS_2000
 Name        : Tethys_2000_IAU_IAG
 WKT         : SPHEROID["Tethys_2000_IAU_IAG", 529800.0, 0.0]
-WKT2        : ELLIPSOID["Tethys_2000_IAU_IAG", 529800.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Tethys_2000_IAU_IAG", 529800.0, 0.0]
 Description : Saturn - Tethys
 Authority   : Esri
 Version     : 9.0.0
@@ -3204,8 +2940,7 @@ Latest-WKID : 107943
 Macro       : PE_S_XT_TITAN_2000
 Name        : Titan_2000_IAU_IAG
 WKT         : SPHEROID["Titan_2000_IAU_IAG", 2575000.0, 0.0]
-WKT2        : ELLIPSOID["Titan_2000_IAU_IAG", 2575000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Titan_2000_IAU_IAG", 2575000.0, 0.0]
 Description : Saturn - Titan
 Authority   : Esri
 Version     : 9.0.0
@@ -3216,8 +2951,7 @@ Latest-WKID : 107944
 Macro       : PE_S_XT_URANUS_2000
 Name        : Uranus_2000_IAU_IAG
 WKT         : SPHEROID["Uranus_2000_IAU_IAG", 25559000.0, 43.61604095563141]
-WKT2        : ELLIPSOID["Uranus_2000_IAU_IAG", 25559000.0, 43.61604095563141,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Uranus_2000_IAU_IAG", 25559000.0, 43.61604095563141]
 Description : Uranus
 Authority   : Esri
 Version     : 9.0.0
@@ -3228,8 +2962,7 @@ Latest-WKID : 107945
 Macro       : PE_S_XT_ARIEL_2000
 Name        : Ariel_2000_IAU_IAG
 WKT         : SPHEROID["Ariel_2000_IAU_IAG", 578900.0, 0.0]
-WKT2        : ELLIPSOID["Ariel_2000_IAU_IAG", 578900.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Ariel_2000_IAU_IAG", 578900.0, 0.0]
 Description : Uranus - Ariel
 Authority   : Esri
 Version     : 9.0.0
@@ -3240,8 +2973,7 @@ Latest-WKID : 107946
 Macro       : PE_S_XT_BELINDA_2000
 Name        : Belinda_2000_IAU_IAG
 WKT         : SPHEROID["Belinda_2000_IAU_IAG", 33000.0, 0.0]
-WKT2        : ELLIPSOID["Belinda_2000_IAU_IAG", 33000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Belinda_2000_IAU_IAG", 33000.0, 0.0]
 Description : Uranus - Belinda
 Authority   : Esri
 Version     : 9.0.0
@@ -3252,8 +2984,7 @@ Latest-WKID : 107947
 Macro       : PE_S_XT_BIANCA_2000
 Name        : Bianca_2000_IAU_IAG
 WKT         : SPHEROID["Bianca_2000_IAU_IAG", 21000.0, 0.0]
-WKT2        : ELLIPSOID["Bianca_2000_IAU_IAG", 21000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Bianca_2000_IAU_IAG", 21000.0, 0.0]
 Description : Uranus - Bianca
 Authority   : Esri
 Version     : 9.0.0
@@ -3264,8 +2995,7 @@ Latest-WKID : 107948
 Macro       : PE_S_XT_CORDELIA_2000
 Name        : Cordelia_2000_IAU_IAG
 WKT         : SPHEROID["Cordelia_2000_IAU_IAG", 13000.0, 0.0]
-WKT2        : ELLIPSOID["Cordelia_2000_IAU_IAG", 13000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Cordelia_2000_IAU_IAG", 13000.0, 0.0]
 Description : Uranus - Cordelia
 Authority   : Esri
 Version     : 9.0.0
@@ -3276,8 +3006,7 @@ Latest-WKID : 107949
 Macro       : PE_S_XT_CRESSIDA_2000
 Name        : Cressida_2000_IAU_IAG
 WKT         : SPHEROID["Cressida_2000_IAU_IAG", 31000.0, 0.0]
-WKT2        : ELLIPSOID["Cressida_2000_IAU_IAG", 31000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Cressida_2000_IAU_IAG", 31000.0, 0.0]
 Description : Uranus - Cressida
 Authority   : Esri
 Version     : 9.0.0
@@ -3288,8 +3017,7 @@ Latest-WKID : 107950
 Macro       : PE_S_XT_DESDEMONA_2000
 Name        : Desdemona_2000_IAU_IAG
 WKT         : SPHEROID["Desdemona_2000_IAU_IAG", 27000.0, 0.0]
-WKT2        : ELLIPSOID["Desdemona_2000_IAU_IAG", 27000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Desdemona_2000_IAU_IAG", 27000.0, 0.0]
 Description : Uranus - Desdemona
 Authority   : Esri
 Version     : 9.0.0
@@ -3300,8 +3028,7 @@ Latest-WKID : 107951
 Macro       : PE_S_XT_JULIET_2000
 Name        : Juliet_2000_IAU_IAG
 WKT         : SPHEROID["Juliet_2000_IAU_IAG", 42000.0, 0.0]
-WKT2        : ELLIPSOID["Juliet_2000_IAU_IAG", 42000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Juliet_2000_IAU_IAG", 42000.0, 0.0]
 Description : Uranus - Juliet
 Authority   : Esri
 Version     : 9.0.0
@@ -3312,8 +3039,7 @@ Latest-WKID : 107952
 Macro       : PE_S_XT_MIRANDA_2000
 Name        : Miranda_2000_IAU_IAG
 WKT         : SPHEROID["Miranda_2000_IAU_IAG", 235800.0, 0.0]
-WKT2        : ELLIPSOID["Miranda_2000_IAU_IAG", 235800.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Miranda_2000_IAU_IAG", 235800.0, 0.0]
 Description : Uranus - Miranda
 Authority   : Esri
 Version     : 9.0.0
@@ -3324,8 +3050,7 @@ Latest-WKID : 107953
 Macro       : PE_S_XT_OBERON_2000
 Name        : Oberon_2000_IAU_IAG
 WKT         : SPHEROID["Oberon_2000_IAU_IAG", 761400.0, 0.0]
-WKT2        : ELLIPSOID["Oberon_2000_IAU_IAG", 761400.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Oberon_2000_IAU_IAG", 761400.0, 0.0]
 Description : Uranus - Oberon
 Authority   : Esri
 Version     : 9.0.0
@@ -3336,8 +3061,7 @@ Latest-WKID : 107954
 Macro       : PE_S_XT_OPHELIA_2000
 Name        : Ophelia_2000_IAU_IAG
 WKT         : SPHEROID["Ophelia_2000_IAU_IAG", 15000.0, 0.0]
-WKT2        : ELLIPSOID["Ophelia_2000_IAU_IAG", 15000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Ophelia_2000_IAU_IAG", 15000.0, 0.0]
 Description : Uranus - Ophelia
 Authority   : Esri
 Version     : 9.0.0
@@ -3348,8 +3072,7 @@ Latest-WKID : 107955
 Macro       : PE_S_XT_PORTIA_2000
 Name        : Portia_2000_IAU_IAG
 WKT         : SPHEROID["Portia_2000_IAU_IAG", 54000.0, 0.0]
-WKT2        : ELLIPSOID["Portia_2000_IAU_IAG", 54000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Portia_2000_IAU_IAG", 54000.0, 0.0]
 Description : Uranus - Portia
 Authority   : Esri
 Version     : 9.0.0
@@ -3360,8 +3083,7 @@ Latest-WKID : 107956
 Macro       : PE_S_XT_PUCK_2000
 Name        : Puck_2000_IAU_IAG
 WKT         : SPHEROID["Puck_2000_IAU_IAG", 77000.0, 0.0]
-WKT2        : ELLIPSOID["Puck_2000_IAU_IAG", 77000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Puck_2000_IAU_IAG", 77000.0, 0.0]
 Description : Uranus - Puck
 Authority   : Esri
 Version     : 9.0.0
@@ -3372,8 +3094,7 @@ Latest-WKID : 107957
 Macro       : PE_S_XT_ROSALIND_2000
 Name        : Rosalind_2000_IAU_IAG
 WKT         : SPHEROID["Rosalind_2000_IAU_IAG", 27000.0, 0.0]
-WKT2        : ELLIPSOID["Rosalind_2000_IAU_IAG", 27000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Rosalind_2000_IAU_IAG", 27000.0, 0.0]
 Description : Uranus - Rosalind
 Authority   : Esri
 Version     : 9.0.0
@@ -3384,8 +3105,7 @@ Latest-WKID : 107958
 Macro       : PE_S_XT_TITANIA_2000
 Name        : Titania_2000_IAU_IAG
 WKT         : SPHEROID["Titania_2000_IAU_IAG", 788900.0, 0.0]
-WKT2        : ELLIPSOID["Titania_2000_IAU_IAG", 788900.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Titania_2000_IAU_IAG", 788900.0, 0.0]
 Description : Uranus - Titania
 Authority   : Esri
 Version     : 9.0.0
@@ -3396,8 +3116,7 @@ Latest-WKID : 107959
 Macro       : PE_S_XT_UMBRIEL_2000
 Name        : Umbriel_2000_IAU_IAG
 WKT         : SPHEROID["Umbriel_2000_IAU_IAG", 584700.0, 0.0]
-WKT2        : ELLIPSOID["Umbriel_2000_IAU_IAG", 584700.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Umbriel_2000_IAU_IAG", 584700.0, 0.0]
 Description : Uranus - Umbriel
 Authority   : Esri
 Version     : 9.0.0
@@ -3408,8 +3127,7 @@ Latest-WKID : 107960
 Macro       : PE_S_XT_NEPTUNE_2000
 Name        : Neptune_2000_IAU_IAG
 WKT         : SPHEROID["Neptune_2000_IAU_IAG", 24764000.0, 58.54373522458629]
-WKT2        : ELLIPSOID["Neptune_2000_IAU_IAG", 24764000.0, 58.54373522458629,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Neptune_2000_IAU_IAG", 24764000.0, 58.54373522458629]
 Description : Neptune
 Authority   : Esri
 Version     : 9.0.0
@@ -3420,8 +3138,7 @@ Latest-WKID : 107961
 Macro       : PE_S_XT_DESPINA_2000
 Name        : Despina_2000_IAU_IAG
 WKT         : SPHEROID["Despina_2000_IAU_IAG", 74000.0, 0.0]
-WKT2        : ELLIPSOID["Despina_2000_IAU_IAG", 74000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Despina_2000_IAU_IAG", 74000.0, 0.0]
 Description : Neptune - Despina
 Authority   : Esri
 Version     : 9.0.0
@@ -3432,8 +3149,7 @@ Latest-WKID : 107962
 Macro       : PE_S_XT_GALATEA_2000
 Name        : Galatea_2000_IAU_IAG
 WKT         : SPHEROID["Galatea_2000_IAU_IAG", 79000.0, 0.0]
-WKT2        : ELLIPSOID["Galatea_2000_IAU_IAG", 79000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Galatea_2000_IAU_IAG", 79000.0, 0.0]
 Description : Neptune - Galatea
 Authority   : Esri
 Version     : 9.0.0
@@ -3444,8 +3160,7 @@ Latest-WKID : 107963
 Macro       : PE_S_XT_LARISSA_2000
 Name        : Larissa_2000_IAU_IAG
 WKT         : SPHEROID["Larissa_2000_IAU_IAG", 104000.0, 6.933333333333334]
-WKT2        : ELLIPSOID["Larissa_2000_IAU_IAG", 104000.0, 6.933333333333334,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Larissa_2000_IAU_IAG", 104000.0, 6.933333333333334]
 Description : Neptune - Larissa
 Authority   : Esri
 Version     : 9.0.0
@@ -3456,8 +3171,7 @@ Latest-WKID : 107964
 Macro       : PE_S_XT_NAIAD_2000
 Name        : Naiad_2000_IAU_IAG
 WKT         : SPHEROID["Naiad_2000_IAU_IAG", 29000.0, 0.0]
-WKT2        : ELLIPSOID["Naiad_2000_IAU_IAG", 29000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Naiad_2000_IAU_IAG", 29000.0, 0.0]
 Description : Neptune - Naiad
 Authority   : Esri
 Version     : 9.0.0
@@ -3468,8 +3182,7 @@ Latest-WKID : 107965
 Macro       : PE_S_XT_NEREID_2000
 Name        : Nereid_2000_IAU_IAG
 WKT         : SPHEROID["Nereid_2000_IAU_IAG", 170000.0, 0.0]
-WKT2        : ELLIPSOID["Nereid_2000_IAU_IAG", 170000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Nereid_2000_IAU_IAG", 170000.0, 0.0]
 Description : Neptune - Nereid
 Authority   : Esri
 Version     : 9.0.0
@@ -3480,8 +3193,7 @@ Latest-WKID : 107966
 Macro       : PE_S_XT_PROTEUS_2000
 Name        : Proteus_2000_IAU_IAG
 WKT         : SPHEROID["Proteus_2000_IAU_IAG", 208000.0, 0.0]
-WKT2        : ELLIPSOID["Proteus_2000_IAU_IAG", 208000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Proteus_2000_IAU_IAG", 208000.0, 0.0]
 Description : Neptune - Proteus
 Authority   : Esri
 Version     : 9.0.0
@@ -3492,8 +3204,7 @@ Latest-WKID : 107967
 Macro       : PE_S_XT_THALASSA_2000
 Name        : Thalassa_2000_IAU_IAG
 WKT         : SPHEROID["Thalassa_2000_IAU_IAG", 40000.0, 0.0]
-WKT2        : ELLIPSOID["Thalassa_2000_IAU_IAG", 40000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Thalassa_2000_IAU_IAG", 40000.0, 0.0]
 Description : Neptune - Thalassa
 Authority   : Esri
 Version     : 9.0.0
@@ -3504,8 +3215,7 @@ Latest-WKID : 107968
 Macro       : PE_S_XT_TRITON_2000
 Name        : Triton_2000_IAU_IAG
 WKT         : SPHEROID["Triton_2000_IAU_IAG", 1352600.0, 0.0]
-WKT2        : ELLIPSOID["Triton_2000_IAU_IAG", 1352600.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Triton_2000_IAU_IAG", 1352600.0, 0.0]
 Description : Neptune - Triton
 Authority   : Esri
 Version     : 9.0.0
@@ -3516,8 +3226,7 @@ Latest-WKID : 107969
 Macro       : PE_S_XT_PLUTO_2000
 Name        : Pluto_2000_IAU_IAG
 WKT         : SPHEROID["Pluto_2000_IAU_IAG", 1195000.0, 0.0]
-WKT2        : ELLIPSOID["Pluto_2000_IAU_IAG", 1195000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Pluto_2000_IAU_IAG", 1195000.0, 0.0]
 Description : Pluto
 Authority   : Esri
 Version     : 9.0.0
@@ -3528,8 +3237,7 @@ Latest-WKID : 107970
 Macro       : PE_S_XT_CHARON_2000
 Name        : Charon_2000_IAU_IAG
 WKT         : SPHEROID["Charon_2000_IAU_IAG", 593000.0, 0.0]
-WKT2        : ELLIPSOID["Charon_2000_IAU_IAG", 593000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Charon_2000_IAU_IAG", 593000.0, 0.0]
 Description : Pluto - Charon
 Authority   : Esri
 Version     : 9.0.0
@@ -3540,8 +3248,7 @@ Latest-WKID : 107971
 Macro       : PE_S_MARS_2000_SPHERE
 Name        : Mars_2000_(Sphere)
 WKT         : SPHEROID["Mars_2000_(Sphere)", 3396190.0, 0.0]
-WKT2        : ELLIPSOID["Mars_2000_(Sphere)", 3396190.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Mars_2000_(Sphere)", 3396190.0, 0.0]
 Description : Mars 2000 (Sphere)
 Authority   : Esri
 Version     : 10.5.1
@@ -3552,8 +3259,7 @@ Latest-WKID : 107972
 Macro       : PE_S_1_CERES_2015
 Name        : 1_Ceres_2015
 WKT         : SPHEROID["1_Ceres_2015", 470000.0, 0.0]
-WKT2        : ELLIPSOID["1_Ceres_2015", 470000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["1_Ceres_2015", 470000.0, 0.0]
 Description : 1 Ceres 2015
 Authority   : Esri
 Version     : 10.5.1
@@ -3564,8 +3270,7 @@ Latest-WKID : 107973
 Macro       : PE_S_4_VESTA_2015
 Name        : 4_Vesta_2015
 WKT         : SPHEROID["4_Vesta_2015", 255000.0, 0.0]
-WKT2        : ELLIPSOID["4_Vesta_2015", 255000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["4_Vesta_2015", 255000.0, 0.0]
 Description : 4 Vesta 2015
 Authority   : Esri
 Version     : 10.5.1
@@ -3576,8 +3281,7 @@ Latest-WKID : 107974
 Macro       : PE_S_MERCURY_2015
 Name        : Mercury_2015
 WKT         : SPHEROID["Mercury_2015", 2439400.0, 0.0]
-WKT2        : ELLIPSOID["Mercury_2015", 2439400.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Mercury_2015", 2439400.0, 0.0]
 Description : Mercury 2015
 Authority   : Esri
 Version     : 10.5.1
@@ -3588,8 +3292,7 @@ Latest-WKID : 107975
 Macro       : PE_S_XT_SUN_2015
 Name        : Sun_2015
 WKT         : SPHEROID["Sun_2015", 695700000.0, 0.0]
-WKT2        : ELLIPSOID["Sun_2015", 695700000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Sun_2015", 695700000.0, 0.0]
 Description : Sun IAU 2015
 Authority   : Esri
 Version     : 10.7.0
@@ -3600,8 +3303,7 @@ Latest-WKID : 107976
 Macro       : PE_S_XT_ATLAS_2015
 Name        : Atlas_2015
 WKT         : SPHEROID["Atlas_2015", 15100.0, 0.0]
-WKT2        : ELLIPSOID["Atlas_2015", 15100.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Atlas_2015", 15100.0, 0.0]
 Description : Saturn - Atlas IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3612,8 +3314,7 @@ Latest-WKID : 107977
 Macro       : PE_S_XT_CALYPSO_2015
 Name        : Calypso_2015
 WKT         : SPHEROID["Calypso_2015", 9600.0, 0.0]
-WKT2        : ELLIPSOID["Calypso_2015", 9600.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Calypso_2015", 9600.0, 0.0]
 Description : Saturn - Calypso IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3624,8 +3325,7 @@ Latest-WKID : 107978
 Macro       : PE_S_XT_DAPHNIS_2015
 Name        : Daphnis_2015
 WKT         : SPHEROID["Daphnis_2015", 3800.0, 0.0]
-WKT2        : ELLIPSOID["Daphnis_2015", 3800.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Daphnis_2015", 3800.0, 0.0]
 Description : Saturn - Daphnis IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3636,8 +3336,7 @@ Latest-WKID : 107979
 Macro       : PE_S_XT_DIONE_2015
 Name        : Dione_2015
 WKT         : SPHEROID["Dione_2015", 561400.0, 0.0]
-WKT2        : ELLIPSOID["Dione_2015", 561400.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Dione_2015", 561400.0, 0.0]
 Description : Saturn - Dione IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3648,8 +3347,7 @@ Latest-WKID : 107980
 Macro       : PE_S_XT_ENCELADUS_2015
 Name        : Enceladus_2015
 WKT         : SPHEROID["Enceladus_2015", 252100.0, 0.0]
-WKT2        : ELLIPSOID["Enceladus_2015", 252100.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Enceladus_2015", 252100.0, 0.0]
 Description : Saturn - Enceladus IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3660,8 +3358,7 @@ Latest-WKID : 107981
 Macro       : PE_S_XT_EPIMETHEUS_2015
 Name        : Epimetheus_2015
 WKT         : SPHEROID["Epimetheus_2015", 58200.0, 0.0]
-WKT2        : ELLIPSOID["Epimetheus_2015", 58200.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Epimetheus_2015", 58200.0, 0.0]
 Description : Saturn - Epimetheus IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3672,8 +3369,7 @@ Latest-WKID : 107982
 Macro       : PE_S_XT_HELENE_2015
 Name        : Helene_2015
 WKT         : SPHEROID["Helene_2015", 18000.0, 0.0]
-WKT2        : ELLIPSOID["Helene_2015", 18000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Helene_2015", 18000.0, 0.0]
 Description : Saturn - Helene IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3684,8 +3380,7 @@ Latest-WKID : 107983
 Macro       : PE_S_XT_HYPERION_2015
 Name        : Hyperion_2015
 WKT         : SPHEROID["Hyperion_2015", 135000.0, 0.0]
-WKT2        : ELLIPSOID["Hyperion_2015", 135000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Hyperion_2015", 135000.0, 0.0]
 Description : Saturn - Hyperion IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3696,8 +3391,7 @@ Latest-WKID : 107984
 Macro       : PE_S_XT_IAPETUS_2015
 Name        : Iapetus_2015
 WKT         : SPHEROID["Iapetus_2015", 745700.0, 0.0]
-WKT2        : ELLIPSOID["Iapetus_2015", 745700.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Iapetus_2015", 745700.0, 0.0]
 Description : Saturn - Iapetus IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3708,8 +3402,7 @@ Latest-WKID : 107985
 Macro       : PE_S_XT_JANUS_2015
 Name        : Janus_2015
 WKT         : SPHEROID["Janus_2015", 89200.0, 0.0]
-WKT2        : ELLIPSOID["Janus_2015", 89200.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Janus_2015", 89200.0, 0.0]
 Description : Saturn - Janus IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3720,8 +3413,7 @@ Latest-WKID : 107986
 Macro       : PE_S_XT_METHONE_2015
 Name        : Methone_2015
 WKT         : SPHEROID["Methone_2015", 1450.0, 0.0]
-WKT2        : ELLIPSOID["Methone_2015", 1450.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Methone_2015", 1450.0, 0.0]
 Description : Saturn - Methone IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3732,8 +3424,7 @@ Latest-WKID : 107987
 Macro       : PE_S_XT_MIMAS_2015
 Name        : Mimas_2015
 WKT         : SPHEROID["Mimas_2015", 198200.0, 0.0]
-WKT2        : ELLIPSOID["Mimas_2015", 198200.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Mimas_2015", 198200.0, 0.0]
 Description : Saturn - Mimas IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3744,8 +3435,7 @@ Latest-WKID : 107988
 Macro       : PE_S_XT_PALLENE_2015
 Name        : Pallene_2015
 WKT         : SPHEROID["Pallene_2015", 2230.0, 0.0]
-WKT2        : ELLIPSOID["Pallene_2015", 2230.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Pallene_2015", 2230.0, 0.0]
 Description : Saturn - Pallene IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3756,8 +3446,7 @@ Latest-WKID : 107989
 Macro       : PE_S_XT_PAN_2015
 Name        : Pan_2015
 WKT         : SPHEROID["Pan_2015", 14000.0, 0.0]
-WKT2        : ELLIPSOID["Pan_2015", 14000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Pan_2015", 14000.0, 0.0]
 Description : Saturn - Pan IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3768,8 +3457,7 @@ Latest-WKID : 107990
 Macro       : PE_S_XT_PANDORA_2015
 Name        : Pandora_2015
 WKT         : SPHEROID["Pandora_2015", 40600.0, 0.0]
-WKT2        : ELLIPSOID["Pandora_2015", 40600.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Pandora_2015", 40600.0, 0.0]
 Description : Saturn - Pandora IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3780,8 +3468,7 @@ Latest-WKID : 107991
 Macro       : PE_S_XT_PHOEBE_2015
 Name        : Phoebe_2015
 WKT         : SPHEROID["Phoebe_2015", 106500.0, 0.0]
-WKT2        : ELLIPSOID["Phoebe_2015", 106500.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Phoebe_2015", 106500.0, 0.0]
 Description : Saturn - Phoebe IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3792,8 +3479,7 @@ Latest-WKID : 107992
 Macro       : PE_S_XT_POLYDEUCES_2015
 Name        : Polydeuces_2015
 WKT         : SPHEROID["Polydeuces_2015", 1300.0, 0.0]
-WKT2        : ELLIPSOID["Polydeuces_2015", 1300.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Polydeuces_2015", 1300.0, 0.0]
 Description : Saturn - Polydeuces IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3804,8 +3490,7 @@ Latest-WKID : 107993
 Macro       : PE_S_XT_PROMETHEUS_2015
 Name        : Prometheus_2015
 WKT         : SPHEROID["Prometheus_2015", 43100.0, 0.0]
-WKT2        : ELLIPSOID["Prometheus_2015", 43100.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Prometheus_2015", 43100.0, 0.0]
 Description : Saturn - Prometheus IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3816,8 +3501,7 @@ Latest-WKID : 107994
 Macro       : PE_S_XT_RHEA_2015
 Name        : Rhea_2015
 WKT         : SPHEROID["Rhea_2015", 763500.0, 0.0]
-WKT2        : ELLIPSOID["Rhea_2015", 763500.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Rhea_2015", 763500.0, 0.0]
 Description : Saturn - Rhea IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3828,8 +3512,7 @@ Latest-WKID : 107995
 Macro       : PE_S_XT_TELESTO_2015
 Name        : Telesto_2015
 WKT         : SPHEROID["Telesto_2015", 12400.0, 0.0]
-WKT2        : ELLIPSOID["Telesto_2015", 12400.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Telesto_2015", 12400.0, 0.0]
 Description : Saturn - Telesto IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3840,8 +3523,7 @@ Latest-WKID : 107996
 Macro       : PE_S_XT_TETHYS_2015
 Name        : Tethys_2015
 WKT         : SPHEROID["Tethys_2015", 531000.0, 0.0]
-WKT2        : ELLIPSOID["Tethys_2015", 531000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Tethys_2015", 531000.0, 0.0]
 Description : Saturn - Tethys IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3852,8 +3534,7 @@ Latest-WKID : 107997
 Macro       : PE_S_XT_LARISSA_2015
 Name        : Larissa_2015
 WKT         : SPHEROID["Larissa_2015", 96000.0, 0.0]
-WKT2        : ELLIPSOID["Larissa_2015", 96000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Larissa_2015", 96000.0, 0.0]
 Description : Neptune - Larissa IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3864,8 +3545,7 @@ Latest-WKID : 107998
 Macro       : PE_S_XT_PLUTO_2015
 Name        : Pluto_2015
 WKT         : SPHEROID["Pluto_2015", 1188300.0, 0.0]
-WKT2        : ELLIPSOID["Pluto_2015", 1188300.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Pluto_2015", 1188300.0, 0.0]
 Description : Pluto IAU 2015
 Authority   : Esri
 Version     : 13.0.0
@@ -3876,8 +3556,7 @@ Latest-WKID : 107999
 Macro       : PE_S_XT_CHARON_2015
 Name        : Charon_2015
 WKT         : SPHEROID["Charon_2015", 606000.0, 0.0]
-WKT2        : ELLIPSOID["Charon_2015", 606000.0, 0.0,
-               LENGTHUNIT["Meter", 1.0]]
+WKT2        : ELLIPSOID["Charon_2015", 606000.0, 0.0]
 Description : Pluto - Charon IAU 2015
 Authority   : Esri
 Version     : 13.0.0

@@ -196,5 +196,27 @@
     "authority": "Esri",
     "version": "12.6.0",
     "deprecated": "no"
+  },
+  { "wkid": 109618,
+    "latestWkid": 109618,
+    "macro": "PE_MTH_MOLODENSKY_BADEKAS_POSITION_VECTOR",
+    "name": "Molodensky_Badekas_Position_Vector",
+    "wkt": "METHOD[\"Molodensky_Badekas_Position_Vector\"]",
+    "wkt2": "METHOD[\"Molodensky_Badekas_Position_Vector\"]",
+    "description": "Molodensky-Badekas Position Vector",
+    "authority": "Esri",
+    "version": "13.6.0",
+    "deprecated": "no"
+  },
+  { "wkid": 109619,
+    "latestWkid": 109619,
+    "macro": "PE_MTH_NTV2_VELOCITY",
+    "name": "NTv2_Velocity",
+    "wkt": "METHOD[\"NTv2_Velocity\"]",
+    "wkt2": "METHOD[\"NTv2_Velocity\"]",
+    "description": "NTv2 Velocity",
+    "authority": "Esri",
+    "version": "13.6.0",
+    "deprecated": "no"
   }
 ] }
