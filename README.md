@@ -10,7 +10,7 @@ known coordinate systems, datums, ellipsoids, units, etc. This database is
 regularly updated and kept in sync with the EPSG database.
 
 This documentation is based on ArcGIS Pro version 3.6.
-Entries taken from EPSG are from the 12.028 version of the EPSG database.
+Entries taken from EPSG are from the 12.018 version of the EPSG database.
 
 ### Contents
 
@@ -74,6 +74,38 @@ Documentation files are found in the following directories:
    <li>Documentation of the objedit files can be found in the file
        "other/PE_user_defined_objects.pdf".
 </ul>
+
+### ArcGIS and EPSG versions
+
+ArcGIS software packages use the PE library, which includes definitions for coordinate reference systems, transformations, and other objects that they rely on like ellipsoids and units. When an object is added or updated, it is tagged with the EPSG version. Each ArcGIS software release is linked to a specific EPSG version number. Any new or updated objects since the previous associated EPSG version are included if possible. 
+
+Associating an EPSG version number with a particular ArcGIS release does not guarantee that every object or change in that or previous EPSG versions are included. PE does not support all object types within the EPSG registry or an object may not be updated because the change will cause issues in interoperability with previously released ArcGIS software versions. 
+
+
+ArcGIS Pro | ArcGIS Enterprise and/or ArcMap\* | Build # | EPSG | ArcGIS Pro Release Date | ArcGIS Enterprise or ArcMap\* Release Date
+-- | -- | -- | -- | -- | --
+3.6.0 | 12.0.0 | 59527 | 12.018 | 13-Nov-25 | 18-Nov-25
+3.5.0 | 11.5.0 | 57366 | 12.002 | 13-May-25 | 22-May-25
+3.4.0 | 11.4.0 | 55405 | 11.015 | 7-Nov-24 | 7-Nov-24
+3.3.0 | 11.3.0 | 52636 | 11.003 | 7-May-24 | 23-May-24
+3.2.0 | 11.2.0 | 49743 | 10.094 | 7-Nov-23 | 9-Nov-23
+3.1.0 | 11.1.0 | 41833 | 10.076 | 23-Feb-23 | 20-Apr-23
+3.0.0 | 11.0.0 | 36056 | 10.054 | 23-Jun-22 | 22-Jul-22
+2.9.0 | 10.9.1   (10.8.2\*) | 32739 | 10.032 | 11-Nov-21 | 9-Dec-21
+2.8.0 | 10.9.0 | 29751 | 10.014 | 13-May-21 | 7-May-21
+2.7.0 |   | 28628 | 9.8.6 | 16-Dec-20 |  
+2.6.0 | 10.8.1 | 24783 | 9.8.6 | 28-Jul-20 | 28-Jul-20
+2.5.0 | 10.8.0 | 12790 | 9.8.2 | 6-Feb-20 | 2-Feb-20
+2.4.0 | 10.7.1 | 11595 | 9.1.2 | 27-Jun-19 | 27-Jun-19
+2.3.0 | 10.7.0 | 10450 | 9.1.2 | 24-Jan-19 | 21-Mar-19
+2.2.0 | 10.6.1 | 9270 | 9.1.2 | 26-Jun-18 | 17-Jul-18
+2.1.0 | 10.6.0 | 8321 | 9.1.2 | 17-Jan-18 | 17-Jan-18
+2.0.0 | 10.5.1 | 7333 | 9.0.0 | 27-Jun-17 | 29-Jun-17
+1.4.0 | 10.5.0 | 6489 | 8.9.4 | 11-Jan-17 | 15-Dec-16
+  | 10.4.1 | 5635 | 8.8.0 |   | 31-May-16
+  | 10.4.0 | 5524 | 8.7.2 |   | 18-Feb-16
+
+**\*** Version 10.8.2 is the final ArcMap / ArcGIS Desktop release. Versions 10.9.0 and later are ArcGIS Enterprise releases.
 
 ### Issues
 
