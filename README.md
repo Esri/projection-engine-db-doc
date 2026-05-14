@@ -9,8 +9,8 @@ To perform WKID conversion, the PE contains a comprehensive database of
 known coordinate systems, datums, ellipsoids, units, etc. This database is
 regularly updated and kept in sync with the EPSG database.
 
-This documentation is based on ArcGIS Pro version 3.6.
-Entries taken from EPSG are from the 12.018 version of the EPSG database.
+This documentation is based on ArcGIS Pro version 3.7.
+Entries taken from EPSG are from the 12.049<sup>[[2]](#fn2)</sup> version of the EPSG database.
 
 ### Contents
 
@@ -82,8 +82,9 @@ ArcGIS software packages use the PE library, which includes definitions for coor
 Associating an EPSG version number with a particular ArcGIS release does not guarantee that every object or change in that or previous EPSG versions are included. PE does not support all object types within the EPSG registry or an object may not be updated because the change will cause issues in interoperability with previously released ArcGIS software versions. 
 
 
-ArcGIS Pro | ArcGIS Enterprise and/or ArcMap\* | Build # | EPSG | ArcGIS Pro Release Date | ArcGIS Enterprise or ArcMap\* Release Date
+ArcGIS Pro | ArcGIS Enterprise and/or ArcMap<sup>[[1]](#fn1)</sup> | Build # | EPSG | ArcGIS Pro Release Date | ArcGIS Enterprise or ArcMap<sup>[[1]](#fn1)</sup> Release Date
 -- | -- | -- | -- | -- | --
+3.7.0 | 12.1.0 | 1901 | 12.049<sup>[[2]](#fn2)</sup> | 14-May-26 | tbd
 3.6.0 | 12.0.0 | 59527 | 12.018 | 13-Nov-25 | 18-Nov-25
 3.5.0 | 11.5.0 | 57366 | 12.002 | 13-May-25 | 22-May-25
 3.4.0 | 11.4.0 | 55405 | 11.015 | 7-Nov-24 | 7-Nov-24
@@ -91,7 +92,7 @@ ArcGIS Pro | ArcGIS Enterprise and/or ArcMap\* | Build # | EPSG | ArcGIS Pro Rel
 3.2.0 | 11.2.0 | 49743 | 10.094 | 7-Nov-23 | 9-Nov-23
 3.1.0 | 11.1.0 | 41833 | 10.076 | 23-Feb-23 | 20-Apr-23
 3.0.0 | 11.0.0 | 36056 | 10.054 | 23-Jun-22 | 22-Jul-22
-2.9.0 | 10.9.1   (10.8.2\*) | 32739 | 10.032 | 11-Nov-21 | 9-Dec-21
+2.9.0 | 10.9.1   (10.8.2)<sup>[[1]](#fn1)</sup> | 32739 | 10.032 | 11-Nov-21 | 9-Dec-21
 2.8.0 | 10.9.0 | 29751 | 10.014 | 13-May-21 | 7-May-21
 2.7.0 |   | 28628 | 9.8.6 | 16-Dec-20 |  
 2.6.0 | 10.8.1 | 24783 | 9.8.6 | 28-Jul-20 | 28-Jul-20
@@ -105,7 +106,8 @@ ArcGIS Pro | ArcGIS Enterprise and/or ArcMap\* | Build # | EPSG | ArcGIS Pro Rel
   | 10.4.1 | 5635 | 8.8.0 |   | 31-May-16
   | 10.4.0 | 5524 | 8.7.2 |   | 18-Feb-16
 
-**\*** Version 10.8.2 is the final ArcMap / ArcGIS Desktop release. Versions 10.9.0 and later are ArcGIS Enterprise releases.
+<b name="fn1">1.</b> Version 10.8.2 is the final ArcMap / ArcGIS Desktop release. Versions 10.9.0 and later are ArcGIS Enterprise releases.  
+<b name="fn2">2.</b> ETRS89 revisions introduced after EPSG v12.029 are not included in the release.
 
 ### Issues
 
