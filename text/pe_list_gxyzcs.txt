@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2025 Esri Inc.                                            #
+#  Copyright 1999-2026 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -42,7 +42,7 @@ Description : TWD97
 Authority   : EPSG
 Version     : 6.18(12.9.0)
 Deprecated  : no
-Area-name   : Taiwan
+Area-name-1 : Taiwan
 Area-slat   : 17.36
 Area-nlat   : 26.96
 Area-llon   : 114.32
@@ -74,7 +74,7 @@ Description : IGRS
 Authority   : EPSG
 Version     : 7.1(12.9.0)
 Deprecated  : no
-Area-name   : Iraq
+Area-name-1 : Iraq
 Area-slat   : 29.06
 Area-nlat   : 37.39
 Area-llon   : 38.79
@@ -106,7 +106,7 @@ Description : MOLDREF99
 Authority   : EPSG
 Version     : 7.1(12.9.0)
 Deprecated  : no
-Area-name   : Moldova
+Area-name-1 : Moldova
 Area-slat   : 45.44
 Area-nlat   : 48.47
 Area-llon   : 26.63
@@ -138,7 +138,7 @@ Description : RGRDC 2005
 Authority   : EPSG
 Version     : 7.1(12.9.0)
 Deprecated  : no
-Area-name   : Congo DR (Zaire) - south
+Area-name-1 : Congo DR (Zaire) - south
 Area-slat   : -13.46
 Area-nlat   : -3.41
 Area-llon   : 11.79
@@ -170,7 +170,7 @@ Description : SREF98
 Authority   : EPSG
 Version     : 7.1(12.9.0)
 Deprecated  : no
-Area-name   : Serbia
+Area-name-1 : Serbia
 Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
@@ -202,7 +202,7 @@ Description : REGCAN95
 Authority   : EPSG
 Version     : 7.1(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Canary Islands
+Area-name-1 : Spain - Canary Islands
 Area-slat   : 24.6
 Area-nlat   : 32.76
 Area-llon   : -21.93
@@ -234,7 +234,7 @@ Description : RGSPM06
 Authority   : EPSG
 Version     : 7.1.9(12.9.0)
 Deprecated  : no
-Area-name   : St Pierre and Miquelon
+Area-name-1 : St Pierre and Miquelon
 Area-slat   : 43.41
 Area-nlat   : 47.37
 Area-llon   : -57.1
@@ -266,7 +266,7 @@ Description : RGM04
 Authority   : EPSG
 Version     : 7.1.9(12.9.0)
 Deprecated  : no
-Area-name   : Mayotte
+Area-name-1 : Mayotte
 Area-slat   : -14.49
 Area-nlat   : -11.33
 Area-llon   : 43.68
@@ -298,7 +298,7 @@ Description : Cadastre 1997
 Authority   : EPSG
 Version     : 7.1.9(12.9.0)
 Deprecated  : no
-Area-name   : Mayotte - onshore
+Area-name-1 : Mayotte - onshore
 Area-slat   : -13.05
 Area-nlat   : -12.61
 Area-llon   : 44.98
@@ -330,7 +330,7 @@ Description : China Geodetic Coordinate System 2000
 Authority   : EPSG
 Version     : 7.2(12.9.0)
 Deprecated  : no
-Area-name   : China
+Area-name-1 : China
 Area-slat   : 16.7
 Area-nlat   : 53.56
 Area-llon   : 73.62
@@ -362,7 +362,7 @@ Description : Mexico ITRF92
 Authority   : EPSG
 Version     : 7.2(12.9.0)
 Deprecated  : no
-Area-name   : Mexico
+Area-name-1 : Mexico
 Area-slat   : 12.1
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -394,7 +394,7 @@ Description : RRAF 1991
 Authority   : EPSG
 Version     : 7.2(12.9.0)
 Deprecated  : no
-Area-name   : Caribbean - French Antilles
+Area-name-1 : Caribbean - French Antilles
 Area-slat   : 14.08
 Area-nlat   : 18.54
 Area-llon   : -63.66
@@ -424,9 +424,9 @@ WKT2        : GEODCRS["Slovenia_1996",
                ID["EPSG", "4882"]]
 Description : Slovenia 1996
 Authority   : EPSG
-Version     : 6.15(12.9.0)
+Version     : 12.044(12.9.0)
 Deprecated  : no
-Area-name   : Slovenia
+Area-name-1 : Slovenia
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
@@ -458,7 +458,7 @@ Description : RSRGD2000
 Authority   : EPSG
 Version     : 6.15(12.9.0)
 Deprecated  : no
-Area-name   : Antarctica - Ross Sea Region
+Area-name-1 : Antarctica - Ross Sea Region
 Area-slat   : -90.0
 Area-nlat   : -59.99
 Area-llon   : 144.99
@@ -490,7 +490,7 @@ Description : BDA2000
 Authority   : EPSG
 Version     : 6.15(12.9.0)
 Deprecated  : no
-Area-name   : Bermuda
+Area-name-1 : Bermuda
 Area-slat   : 28.91
 Area-nlat   : 35.73
 Area-llon   : -68.83
@@ -520,9 +520,9 @@ WKT2        : GEODCRS["HTRS96",
                ID["EPSG", "4888"]]
 Description : HTRS96
 Authority   : EPSG
-Version     : 6.15(12.9.0)
+Version     : 12.042(12.9.0)
 Deprecated  : no
-Area-name   : Croatia
+Area-name-1 : Croatia
 Area-slat   : 41.62
 Area-nlat   : 46.54
 Area-llon   : 13.0
@@ -554,7 +554,7 @@ Description : WGS 66
 Authority   : EPSG
 Version     : 6.13(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -586,7 +586,7 @@ Description : NAD83(NSRS2007)
 Authority   : EPSG
 Version     : 8.2.2(12.9.0)
 Deprecated  : no
-Area-name   : USA - CONUS and Alaska; PRVI
+Area-name-1 : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
 Area-nlat   : 74.71
 Area-llon   : 167.65
@@ -618,7 +618,7 @@ Description : JAD2001
 Authority   : EPSG
 Version     : 6.12(12.9.0)
 Deprecated  : no
-Area-name   : Jamaica
+Area-name-1 : Jamaica
 Area-slat   : 14.08
 Area-nlat   : 19.36
 Area-llon   : -80.6
@@ -650,7 +650,7 @@ Description : ITRF2005
 Authority   : EPSG
 Version     : 7.6.6(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -682,7 +682,7 @@ Description : DGN95
 Authority   : EPSG
 Version     : 6.11.1(12.9.0)
 Deprecated  : no
-Area-name   : Indonesia
+Area-name-1 : Indonesia
 Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
@@ -714,7 +714,7 @@ Description : LGD2006
 Authority   : EPSG
 Version     : 6.11.1(12.9.0)
 Deprecated  : no
-Area-name   : Libya
+Area-name-1 : Libya
 Area-slat   : 19.5
 Area-nlat   : 35.23
 Area-llon   : 9.31
@@ -746,7 +746,7 @@ Description : RGNC91-93
 Authority   : EPSG
 Version     : 10.085(12.9.0)
 Deprecated  : no
-Area-name   : New Caledonia
+Area-name-1 : New Caledonia
 Area-slat   : -26.45
 Area-nlat   : -14.83
 Area-llon   : 156.25
@@ -778,9 +778,9 @@ Description : GR96
 Authority   : EPSG
 Version     : 12.016(12.9.0)
 Deprecated  : no
-Area-name   : Greenland
+Area-name-1 : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.02
+Area-nlat   : 87.03
 Area-llon   : -75.0
 Area-rlon   : 7.99
 
@@ -810,7 +810,7 @@ Description : ITRF88
 Authority   : EPSG
 Version     : 6.5.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -842,7 +842,7 @@ Description : ITRF89
 Authority   : EPSG
 Version     : 6.5.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -874,7 +874,7 @@ Description : ITRF90
 Authority   : EPSG
 Version     : 6.5.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -906,7 +906,7 @@ Description : ITRF91
 Authority   : EPSG
 Version     : 6.5.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -938,7 +938,7 @@ Description : ITRF92
 Authority   : EPSG
 Version     : 6.5.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -970,7 +970,7 @@ Description : ITRF93
 Authority   : EPSG
 Version     : 6.5.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -1002,7 +1002,7 @@ Description : ITRF94
 Authority   : EPSG
 Version     : 6.5.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -1034,7 +1034,7 @@ Description : ITRF96
 Authority   : EPSG
 Version     : 6.5.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -1066,7 +1066,7 @@ Description : ITRF97
 Authority   : EPSG
 Version     : 6.5.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -1098,7 +1098,7 @@ Description : ITRF2000
 Authority   : EPSG
 Version     : 6.5.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -1130,7 +1130,7 @@ Description : GDM2000
 Authority   : EPSG
 Version     : 6.10(12.9.0)
 Deprecated  : no
-Area-name   : Malaysia
+Area-name-1 : Malaysia
 Area-slat   : 0.85
 Area-nlat   : 7.81
 Area-llon   : 98.02
@@ -1162,7 +1162,7 @@ Description : PZ-90
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -1194,7 +1194,7 @@ Description : Mauritania 1999
 Authority   : EPSG
 Version     : 6.8(12.9.0)
 Deprecated  : no
-Area-name   : Mauritania
+Area-name-1 : Mauritania
 Area-slat   : 14.72
 Area-nlat   : 27.3
 Area-llon   : -20.04
@@ -1226,7 +1226,7 @@ Description : KGD2002
 Authority   : EPSG
 Version     : 10.092(12.9.0)
 Deprecated  : no
-Area-name   : South Korea
+Area-name-1 : South Korea
 Area-slat   : 28.6
 Area-nlat   : 40.27
 Area-llon   : 122.71
@@ -1258,7 +1258,7 @@ Description : POSGAR 94
 Authority   : EPSG
 Version     : 7.6.9(12.9.0)
 Deprecated  : no
-Area-name   : Argentina
+Area-name-1 : Argentina
 Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
@@ -1290,7 +1290,7 @@ Description : Australian Antarctic
 Authority   : EPSG
 Version     : 6.5(12.9.0)
 Deprecated  : no
-Area-name   : Antarctica - Australian sector
+Area-name-1 : Antarctica - Australian sector
 Area-slat   : -90.0
 Area-nlat   : -60.0
 Area-llon   : 45.0
@@ -1322,7 +1322,7 @@ Description : CHTRF95
 Authority   : EPSG
 Version     : 8.8(12.9.0)
 Deprecated  : no
-Area-name   : Europe - Liechtenstein and Switzerland
+Area-name-1 : Europe - Liechtenstein and Switzerland
 Area-slat   : 45.81
 Area-nlat   : 47.81
 Area-llon   : 5.95
@@ -1352,9 +1352,9 @@ WKT2        : GEODCRS["Estonia_1997",
                ID["EPSG", "4934"]]
 Description : EST97
 Authority   : EPSG
-Version     : 6.5(12.9.0)
+Version     : 12.041(12.9.0)
 Deprecated  : no
-Area-name   : Estonia
+Area-name-1 : Estonia
 Area-slat   : 57.52
 Area-nlat   : 60.0
 Area-llon   : 20.37
@@ -1386,7 +1386,7 @@ Description : European Terrestrial Ref. System 1989
 Authority   : EPSG
 Version     : 6.7(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
+Area-name-1 : Europe - ETRF by country
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -1418,7 +1418,7 @@ Description : GDA94
 Authority   : EPSG
 Version     : 7.6.4(12.9.0)
 Deprecated  : no
-Area-name   : Australia - GDA
+Area-name-1 : Australia - GDA
 Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
@@ -1450,7 +1450,7 @@ Description : Hartebeesthoek94
 Authority   : EPSG
 Version     : 9.5.5(12.9.0)
 Deprecated  : no
-Area-name   : Africa - South Africa, Lesotho and Eswatini.
+Area-name-1 : Africa - South Africa, Lesotho and Eswatini.
 Area-slat   : -50.32
 Area-nlat   : -22.13
 Area-llon   : 13.33
@@ -1482,7 +1482,7 @@ Description : IRENET95
 Authority   : EPSG
 Version     : 7.6.4(12.9.0)
 Deprecated  : no
-Area-name   : Europe - Ireland (Republic and Ulster) - onshore
+Area-name-1 : Europe - Ireland (Republic and Ulster) - onshore
 Area-slat   : 51.39
 Area-nlat   : 55.43
 Area-llon   : -10.56
@@ -1514,7 +1514,7 @@ Description : ISN93
 Authority   : EPSG
 Version     : 7.6.1(12.9.0)
 Deprecated  : no
-Area-name   : Iceland
+Area-name-1 : Iceland
 Area-slat   : 59.96
 Area-nlat   : 69.59
 Area-llon   : -30.87
@@ -1546,7 +1546,7 @@ Description : JGD2000
 Authority   : EPSG
 Version     : 8.4(12.9.0)
 Deprecated  : no
-Area-name   : Japan
+Area-name-1 : Japan
 Area-slat   : 17.09
 Area-nlat   : 46.05
 Area-llon   : 122.38
@@ -1578,7 +1578,7 @@ Description : LKS92
 Authority   : EPSG
 Version     : 10.083(12.9.0)
 Deprecated  : no
-Area-name   : Latvia
+Area-name-1 : Latvia
 Area-slat   : 55.67
 Area-nlat   : 58.09
 Area-llon   : 19.06
@@ -1608,9 +1608,9 @@ WKT2        : GEODCRS["LKS_1994",
                ID["EPSG", "4950"]]
 Description : LKS94
 Authority   : EPSG
-Version     : 6.5(12.9.0)
+Version     : 12.044(12.9.0)
 Deprecated  : no
-Area-name   : Lithuania
+Area-name-1 : Lithuania
 Area-slat   : 53.89
 Area-nlat   : 56.45
 Area-llon   : 19.02
@@ -1642,7 +1642,7 @@ Description : Moznet
 Authority   : EPSG
 Version     : 6.5(12.9.0)
 Deprecated  : no
-Area-name   : Mozambique
+Area-name-1 : Mozambique
 Area-slat   : -27.71
 Area-nlat   : -10.09
 Area-llon   : 30.21
@@ -1674,7 +1674,7 @@ Description : NAD83(CSRS)
 Authority   : EPSG
 Version     : 6.11(12.9.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -1706,7 +1706,7 @@ Description : NAD83(HARN)
 Authority   : EPSG
 Version     : 6.13(12.9.0)
 Deprecated  : no
-Area-name   : USA - HARN
+Area-name-1 : USA - HARN
 Area-slat   : -14.59
 Area-nlat   : 71.4
 Area-llon   : 144.58
@@ -1738,7 +1738,7 @@ Description : NZGD2000
 Authority   : EPSG
 Version     : 6.15(12.9.0)
 Deprecated  : no
-Area-name   : New Zealand
+Area-name-1 : New Zealand
 Area-slat   : -55.95
 Area-nlat   : -25.88
 Area-llon   : 160.6
@@ -1770,7 +1770,7 @@ Description : POSGAR 98
 Authority   : EPSG
 Version     : 6.8(12.9.0)
 Deprecated  : no
-Area-name   : Argentina
+Area-name-1 : Argentina
 Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
@@ -1802,7 +1802,7 @@ Description : REGVEN
 Authority   : EPSG
 Version     : 6.5(12.9.0)
 Deprecated  : no
-Area-name   : Venezuela
+Area-name-1 : Venezuela
 Area-slat   : 0.64
 Area-nlat   : 16.75
 Area-llon   : -73.38
@@ -1834,7 +1834,7 @@ Description : RGF93
 Authority   : EPSG
 Version     : 10.034(12.9.0)
 Deprecated  : no
-Area-name   : France
+Area-name-1 : France
 Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
@@ -1866,7 +1866,7 @@ Description : RGFG95
 Authority   : EPSG
 Version     : 6.5(12.9.0)
 Deprecated  : no
-Area-name   : French Guiana
+Area-name-1 : French Guiana
 Area-slat   : 2.11
 Area-nlat   : 8.88
 Area-llon   : -54.61
@@ -1898,7 +1898,7 @@ Description : RGR92
 Authority   : EPSG
 Version     : 7.9.3(12.9.0)
 Deprecated  : no
-Area-name   : Reunion
+Area-name-1 : Reunion
 Area-slat   : -24.72
 Area-nlat   : -18.28
 Area-llon   : 51.83
@@ -1930,7 +1930,7 @@ Description : SIRGAS 1995
 Authority   : EPSG
 Version     : 6.5.2(12.9.0)
 Deprecated  : no
-Area-name   : South America - SIRGAS 1995 by country
+Area-name-1 : South America - SIRGAS 1995 by country
 Area-slat   : -59.87
 Area-nlat   : 16.75
 Area-llon   : -113.21
@@ -1960,9 +1960,9 @@ WKT2        : GEODCRS["SWEREF99",
                ID["EPSG", "4976"]]
 Description : SWEREF99
 Authority   : EPSG
-Version     : 6.5(12.9.0)
+Version     : 12.034(12.9.0)
 Deprecated  : no
-Area-name   : Sweden
+Area-name-1 : Sweden
 Area-slat   : 54.96
 Area-nlat   : 69.07
 Area-llon   : 10.03
@@ -1994,7 +1994,7 @@ Description : WGS 1984
 Authority   : EPSG
 Version     : 6.8(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -2026,7 +2026,7 @@ Description : Yemen NGN96
 Authority   : EPSG
 Version     : 6.5(12.9.0)
 Deprecated  : no
-Area-name   : Yemen
+Area-name-1 : Yemen
 Area-slat   : 8.95
 Area-nlat   : 19.0
 Area-llon   : 41.08
@@ -2058,7 +2058,7 @@ Description : IGM95
 Authority   : EPSG
 Version     : 6.5.2(12.9.0)
 Deprecated  : no
-Area-name   : Italy - including San Marino and Vatican
+Area-name-1 : Italy - including San Marino and Vatican
 Area-slat   : 34.76
 Area-nlat   : 47.1
 Area-llon   : 5.93
@@ -2090,7 +2090,7 @@ Description : WGS 72
 Authority   : EPSG
 Version     : 6.5(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -2122,7 +2122,7 @@ Description : WGS 72BE
 Authority   : EPSG
 Version     : 6.5(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -2154,7 +2154,7 @@ Description : SIRGAS 2000
 Authority   : EPSG
 Version     : 6.8(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - SIRGAS 2000 by country
+Area-name-1 : Latin America - SIRGAS 2000 by country
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -2186,7 +2186,7 @@ Description : Lao 1993
 Authority   : EPSG
 Version     : 6.5.2(12.9.0)
 Deprecated  : no
-Area-name   : Laos
+Area-name-1 : Laos
 Area-slat   : 13.92
 Area-nlat   : 22.5
 Area-llon   : 100.09
@@ -2218,7 +2218,7 @@ Description : Lao 1997
 Authority   : EPSG
 Version     : 6.5.2(12.9.0)
 Deprecated  : no
-Area-name   : Laos
+Area-name-1 : Laos
 Area-slat   : 13.92
 Area-nlat   : 22.5
 Area-llon   : 100.09
@@ -2250,7 +2250,7 @@ Description : PRS92
 Authority   : EPSG
 Version     : 6.7(12.9.0)
 Deprecated  : no
-Area-name   : Philippines
+Area-name-1 : Philippines
 Area-slat   : 3.0
 Area-nlat   : 22.18
 Area-llon   : 116.04
@@ -2282,7 +2282,7 @@ Description : MAGNA-SIRGAS
 Authority   : EPSG
 Version     : 6.13(12.9.0)
 Deprecated  : no
-Area-name   : Colombia
+Area-name-1 : Colombia
 Area-slat   : -4.23
 Area-nlat   : 15.51
 Area-llon   : -84.77
@@ -2314,7 +2314,7 @@ Description : RGPF
 Authority   : EPSG
 Version     : 6.8(12.9.0)
 Deprecated  : no
-Area-name   : French Polynesia
+Area-name-1 : French Polynesia
 Area-slat   : -31.24
 Area-nlat   : -4.52
 Area-llon   : -158.13
@@ -2346,7 +2346,7 @@ Description : PTRA08
 Authority   : EPSG
 Version     : 7.4.8(12.9.0)
 Deprecated  : no
-Area-name   : Portugal - Azores and Madeira
+Area-name-1 : Portugal - Azores and Madeira
 Area-slat   : 29.24
 Area-nlat   : 43.07
 Area-llon   : -35.58
@@ -2378,7 +2378,7 @@ Description : GDBD2009
 Authority   : EPSG
 Version     : 7.5.9(12.9.0)
 Deprecated  : no
-Area-name   : Brunei
+Area-name-1 : Brunei
 Area-slat   : 4.01
 Area-nlat   : 6.31
 Area-llon   : 112.37
@@ -2410,7 +2410,7 @@ Description : TUREF
 Authority   : EPSG
 Version     : 7.6(12.9.0)
 Deprecated  : no
-Area-name   : Turkey
+Area-name-1 : Turkey
 Area-slat   : 34.42
 Area-nlat   : 43.45
 Area-llon   : 25.62
@@ -2442,7 +2442,7 @@ Description : DRUKREF 03
 Authority   : EPSG
 Version     : 7.6(12.9.0)
 Deprecated  : no
-Area-name   : Bhutan
+Area-name-1 : Bhutan
 Area-slat   : 26.7
 Area-nlat   : 28.33
 Area-llon   : 88.74
@@ -2474,7 +2474,7 @@ Description : ISN2004
 Authority   : EPSG
 Version     : 7.6.1(12.9.0)
 Deprecated  : no
-Area-name   : Iceland
+Area-name-1 : Iceland
 Area-slat   : 59.96
 Area-nlat   : 69.59
 Area-llon   : -30.87
@@ -2506,7 +2506,7 @@ Description : ITRF2008
 Authority   : EPSG
 Version     : 7.6.6(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -2538,7 +2538,7 @@ Description : POSGAR 2007
 Authority   : EPSG
 Version     : 7.6.9(12.9.0)
 Deprecated  : no
-Area-name   : Argentina
+Area-name-1 : Argentina
 Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
@@ -2570,7 +2570,7 @@ Description : MARGEN
 Authority   : EPSG
 Version     : 7.6.8(12.9.0)
 Deprecated  : no
-Area-name   : Bolivia
+Area-name-1 : Bolivia
 Area-slat   : -22.91
 Area-nlat   : -9.67
 Area-llon   : -69.66
@@ -2581,12 +2581,12 @@ Latest-WKID : 5358
 Macro       : PE_XYZ_SIRGAS_CHILE_2002
 Name        : SIRGAS-Chile_2002
 WKT         : GXYZCS["SIRGAS-Chile_2002",
-               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
+               DATUM["SIRGAS-Chile_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["SIRGAS-Chile_2002",
-               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
+               DATUM["SIRGAS-Chile_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
@@ -2602,7 +2602,7 @@ Description : SIRGAS-Chile 2002
 Authority   : EPSG
 Version     : 7.6.8(12.9.0)
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -2634,7 +2634,7 @@ Description : CR05
 Authority   : EPSG
 Version     : 7.6.8(12.9.0)
 Deprecated  : no
-Area-name   : Costa Rica
+Area-name-1 : Costa Rica
 Area-slat   : 2.15
 Area-nlat   : 11.77
 Area-llon   : -90.45
@@ -2666,7 +2666,7 @@ Description : MACARIO SOLIS
 Authority   : EPSG
 Version     : 7.6.8(12.9.0)
 Deprecated  : no
-Area-name   : Panama
+Area-name-1 : Panama
 Area-slat   : 5.0
 Area-nlat   : 12.51
 Area-llon   : -84.32
@@ -2698,7 +2698,7 @@ Description : Peru96
 Authority   : EPSG
 Version     : 7.6.8(12.9.0)
 Deprecated  : no
-Area-name   : Peru
+Area-name-1 : Peru
 Area-slat   : -21.05
 Area-nlat   : -0.03
 Area-llon   : -84.68
@@ -2730,7 +2730,7 @@ Description : SIRGAS-ROU98
 Authority   : EPSG
 Version     : 7.6.8(12.9.0)
 Deprecated  : no
-Area-name   : Uruguay
+Area-name-1 : Uruguay
 Area-slat   : -37.77
 Area-nlat   : -30.09
 Area-llon   : -58.49
@@ -2762,7 +2762,7 @@ Description : SIRGAS_ES2007.8
 Authority   : EPSG
 Version     : 7.6.8(12.9.0)
 Deprecated  : no
-Area-name   : El Salvador
+Area-name-1 : El Salvador
 Area-slat   : 9.97
 Area-nlat   : 14.44
 Area-llon   : -91.43
@@ -2794,7 +2794,7 @@ Description : RGAF09
 Authority   : EPSG
 Version     : 7.7(12.9.0)
 Deprecated  : no
-Area-name   : Caribbean - French Antilles
+Area-name-1 : Caribbean - French Antilles
 Area-slat   : 14.08
 Area-nlat   : 18.54
 Area-llon   : -63.66
@@ -2826,7 +2826,7 @@ Description : PNG94
 Authority   : EPSG
 Version     : 7.8.2(12.9.0)
 Deprecated  : no
-Area-name   : Papua New Guinea
+Area-name-1 : Papua New Guinea
 Area-slat   : -14.75
 Area-nlat   : 2.58
 Area-llon   : 139.2
@@ -2858,7 +2858,7 @@ Description : UCS-2000
 Authority   : EPSG
 Version     : 7.9.1(12.9.0)
 Deprecated  : no
-Area-name   : Ukraine
+Area-name-1 : Ukraine
 Area-slat   : 43.18
 Area-nlat   : 52.38
 Area-llon   : 22.15
@@ -2890,7 +2890,7 @@ Description : FEH2010
 Authority   : EPSG
 Version     : 7.9.1(12.9.0)
 Deprecated  : no
-Area-name   : Europe - Fehmarnbelt outer
+Area-name-1 : Europe - Fehmarnbelt outer
 Area-slat   : 54.33
 Area-nlat   : 54.83
 Area-llon   : 10.66
@@ -2922,7 +2922,7 @@ Description : DB_REF
 Authority   : EPSG
 Version     : 7.9.5(12.9.0)
 Deprecated  : no
-Area-name   : Germany - onshore
+Area-name-1 : Germany - onshore
 Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
@@ -2954,7 +2954,7 @@ Description : TGD2005
 Authority   : EPSG
 Version     : 8.1(12.9.0)
 Deprecated  : no
-Area-name   : Tonga
+Area-name-1 : Tonga
 Area-slat   : -25.68
 Area-nlat   : -14.14
 Area-llon   : -179.08
@@ -2986,7 +2986,7 @@ Description : CIGD11
 Authority   : EPSG
 Version     : 8.1.2(12.9.0)
 Deprecated  : no
-Area-name   : Cayman Islands
+Area-name-1 : Cayman Islands
 Area-slat   : 17.58
 Area-nlat   : 20.68
 Area-llon   : -83.6
@@ -3018,7 +3018,7 @@ Description : CGRS93
 Authority   : EPSG
 Version     : 8.8(12.9.0)
 Deprecated  : no
-Area-name   : Cyprus - onshore
+Area-name-1 : Cyprus - onshore
 Area-slat   : 34.59
 Area-nlat   : 35.74
 Area-llon   : 32.2
@@ -3051,7 +3051,7 @@ Description : NAD83(2011)
 Authority   : EPSG
 Version     : 8.2.2(12.9.0)
 Deprecated  : no
-Area-name   : USA - CONUS and Alaska; PRVI
+Area-name-1 : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
 Area-nlat   : 74.71
 Area-llon   : 167.65
@@ -3068,7 +3068,8 @@ WKT         : GXYZCS["NAD_1983_PA11",
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["NAD_1983_PA11",
                DATUM["D_NAD_1983_PA11",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2010.0]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -3083,7 +3084,7 @@ Description : NAD83(PA11)
 Authority   : EPSG
 Version     : 8.2.2(12.9.0)
 Deprecated  : no
-Area-name   : NAD83 PA11 - US interests Pacific plate
+Area-name-1 : NAD83 PA11 - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
 Area-llon   : 151.3
@@ -3100,7 +3101,8 @@ WKT         : GXYZCS["NAD_1983_MA11",
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["NAD_1983_MA11",
                DATUM["D_NAD_1983_MA11",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2010.0]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -3115,7 +3117,7 @@ Description : NAD83(MA11)
 Authority   : EPSG
 Version     : 8.2.2(12.9.0)
 Deprecated  : no
-Area-name   : Pacific - US interests Mariana plate
+Area-name-1 : Pacific - US interests Mariana plate
 Area-slat   : 1.64
 Area-nlat   : 23.9
 Area-llon   : 129.48
@@ -3147,7 +3149,7 @@ Description : Mexico ITRF2008
 Authority   : EPSG
 Version     : 8.2.6(12.9.0)
 Deprecated  : no
-Area-name   : Mexico
+Area-name-1 : Mexico
 Area-slat   : 12.1
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -3179,7 +3181,7 @@ Description : JGD2011
 Authority   : EPSG
 Version     : 8.4(12.9.0)
 Deprecated  : no
-Area-name   : Japan
+Area-name-1 : Japan
 Area-slat   : 17.09
 Area-nlat   : 46.05
 Area-llon   : 122.38
@@ -3211,7 +3213,7 @@ Description : RDN2008
 Authority   : EPSG
 Version     : 8.3.3(12.9.0)
 Deprecated  : no
-Area-name   : Italy - including San Marino and Vatican
+Area-name-1 : Italy - including San Marino and Vatican
 Area-slat   : 34.76
 Area-nlat   : 47.1
 Area-llon   : 5.93
@@ -3243,7 +3245,7 @@ Description : NAD83(CORS96)
 Authority   : EPSG
 Version     : 8.5(12.9.0)
 Deprecated  : no
-Area-name   : USA - CONUS and Alaska; PRVI
+Area-name-1 : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
 Area-nlat   : 74.71
 Area-llon   : 167.65
@@ -3275,7 +3277,7 @@ Description : IGS08
 Authority   : EPSG
 Version     : 8.6.3(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3307,7 +3309,7 @@ Description : IG05 Intermediate CRS
 Authority   : EPSG
 Version     : 8.6(12.9.0)
 Deprecated  : no
-Area-name   : Asia - Middle East - Israel and Palestine onshore
+Area-name-1 : Asia - Middle East - Israel and Palestine onshore
 Area-slat   : 29.45
 Area-nlat   : 33.28
 Area-llon   : 34.17
@@ -3339,7 +3341,7 @@ Description : IG05/12 Intermediate CRS
 Authority   : EPSG
 Version     : 8.6(12.9.0)
 Deprecated  : no
-Area-name   : Asia - Middle East - Israel and Palestine onshore
+Area-name-1 : Asia - Middle East - Israel and Palestine onshore
 Area-slat   : 29.45
 Area-nlat   : 33.28
 Area-llon   : 34.17
@@ -3371,7 +3373,7 @@ Description : RGTAAF07
 Authority   : EPSG
 Version     : 8.7.1(12.9.0)
 Deprecated  : no
-Area-name   : French Southern and Antarctic Territories
+Area-name-1 : French Southern and Antarctic Territories
 Area-slat   : -67.13
 Area-nlat   : -20.91
 Area-llon   : 37.98
@@ -3403,7 +3405,7 @@ Description : IGD05
 Authority   : EPSG
 Version     : 8.7.3(12.9.0)
 Deprecated  : no
-Area-name   : Israel
+Area-name-1 : Israel
 Area-slat   : 29.45
 Area-nlat   : 33.53
 Area-llon   : 32.99
@@ -3435,7 +3437,7 @@ Description : IGD05/12
 Authority   : EPSG
 Version     : 8.7.3(12.9.0)
 Deprecated  : no
-Area-name   : Israel
+Area-name-1 : Israel
 Area-slat   : 29.45
 Area-nlat   : 33.53
 Area-llon   : 32.99
@@ -3467,7 +3469,7 @@ Description : ONGD14
 Authority   : EPSG
 Version     : 8.7.5(12.9.0)
 Deprecated  : no
-Area-name   : Oman
+Area-name-1 : Oman
 Area-slat   : 14.33
 Area-nlat   : 26.74
 Area-llon   : 51.99
@@ -3499,7 +3501,7 @@ Description : WGS 84 (G730)
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3531,7 +3533,7 @@ Description : WGS 84 (G873)
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3563,7 +3565,7 @@ Description : WGS 84 (G1150)
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3595,7 +3597,7 @@ Description : WGS 84 (G1674)
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3627,7 +3629,7 @@ Description : WGS 84 (G1762)
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3659,7 +3661,7 @@ Description : PZ-90.02
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3691,7 +3693,7 @@ Description : PZ-90.11
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3723,7 +3725,7 @@ Description : GSK-2011
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : Russia
+Area-name-1 : Russia
 Area-slat   : 39.87
 Area-nlat   : 85.19
 Area-llon   : 18.92
@@ -3755,7 +3757,7 @@ Description : Kyrg-06
 Authority   : EPSG
 Version     : 8.8.1(12.9.0)
 Deprecated  : no
-Area-name   : Kyrgyzstan
+Area-name-1 : Kyrgyzstan
 Area-slat   : 39.19
 Area-nlat   : 43.22
 Area-llon   : 69.24
@@ -3787,7 +3789,7 @@ Description : ITRF2014
 Authority   : EPSG
 Version     : 8.9.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3819,7 +3821,7 @@ Description : BGS2005
 Authority   : EPSG
 Version     : 8.9.3(12.9.0)
 Deprecated  : no
-Area-name   : Bulgaria
+Area-name-1 : Bulgaria
 Area-slat   : 41.24
 Area-nlat   : 44.23
 Area-llon   : 22.36
@@ -3851,7 +3853,7 @@ Description : WGS 84 (Transit)
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3883,7 +3885,7 @@ Description : GDA2020
 Authority   : EPSG
 Version     : 8.9.4(12.9.0)
 Deprecated  : no
-Area-name   : Australia - GDA
+Area-name-1 : Australia - GDA
 Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
@@ -3915,7 +3917,7 @@ Description : St. Helena Tritan
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : St Helena - St Helena Island
+Area-name-1 : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
@@ -3947,7 +3949,7 @@ Description : SHGD2015
 Authority   : EPSG
 Version     : 9.0(12.9.0)
 Deprecated  : no
-Area-name   : St Helena - St Helena Island
+Area-name-1 : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
@@ -3979,7 +3981,7 @@ Description : ETRF89
 Authority   : EPSG
 Version     : 9.1(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4011,7 +4013,7 @@ Description : ETRF90
 Authority   : EPSG
 Version     : 9.1(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4043,7 +4045,7 @@ Description : ETRF91
 Authority   : EPSG
 Version     : 9.1(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4075,7 +4077,7 @@ Description : ETRF92
 Authority   : EPSG
 Version     : 9.1(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4107,7 +4109,7 @@ Description : ETRF93
 Authority   : EPSG
 Version     : 9.1(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4139,7 +4141,7 @@ Description : ETRF94
 Authority   : EPSG
 Version     : 9.1(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4171,7 +4173,7 @@ Description : ETRF96
 Authority   : EPSG
 Version     : 9.1(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4203,7 +4205,7 @@ Description : ETRF97
 Authority   : EPSG
 Version     : 9.1(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4235,7 +4237,7 @@ Description : ETRF2000
 Authority   : EPSG
 Version     : 9.1(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
+Area-name-1 : Europe - ETRF by country
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4267,7 +4269,7 @@ Description : ISN2016
 Authority   : EPSG
 Version     : 9.1(12.9.0)
 Deprecated  : no
-Area-name   : Iceland
+Area-name-1 : Iceland
 Area-slat   : 59.96
 Area-nlat   : 69.59
 Area-llon   : -30.87
@@ -4299,7 +4301,7 @@ Description : IGS14
 Authority   : EPSG
 Version     : 9.1.1(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -4331,7 +4333,7 @@ Description : NAD83(CSRS96)
 Authority   : EPSG
 Version     : 9.1.1(12.9.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -4364,7 +4366,7 @@ Description : NAD83(CSRS)v2
 Authority   : EPSG
 Version     : 9.1.1(12.9.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -4397,7 +4399,7 @@ Description : NAD83(CSRS)v3
 Authority   : EPSG
 Version     : 9.1.1(12.9.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -4430,7 +4432,7 @@ Description : NAD83(CSRS)v4
 Authority   : EPSG
 Version     : 9.1.1(12.9.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -4463,7 +4465,7 @@ Description : NAD83(CSRS)v5
 Authority   : EPSG
 Version     : 9.1.1(12.9.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -4496,7 +4498,7 @@ Description : NAD83(CSRS)v6
 Authority   : EPSG
 Version     : 9.1.1(12.9.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -4529,7 +4531,7 @@ Description : NAD83(CSRS)v7
 Authority   : EPSG
 Version     : 9.1.1(12.9.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -4561,7 +4563,7 @@ Description : ETRF2005
 Authority   : EPSG
 Version     : 9.2.2(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4593,7 +4595,7 @@ Description : ETRF2014
 Authority   : EPSG
 Version     : 9.2.2(12.9.0)
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -4625,7 +4627,7 @@ Description : Hong Kong Geodetic CS
 Authority   : EPSG
 Version     : 9.2.2(12.9.0)
 Deprecated  : no
-Area-name   : Hong Kong
+Area-name-1 : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -4657,7 +4659,7 @@ Description : Macao 2008
 Authority   : EPSG
 Version     : 9.2.2(12.9.0)
 Deprecated  : no
-Area-name   : Macao
+Area-name-1 : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -4689,7 +4691,7 @@ Description : NAD83(FBN)
 Authority   : EPSG
 Version     : 9.5(12.9.0)
 Deprecated  : no
-Area-name   : USA - FBN
+Area-name-1 : USA - FBN
 Area-slat   : -14.59
 Area-nlat   : 49.38
 Area-llon   : 144.58
@@ -4721,7 +4723,7 @@ Description : NAD83(HARN Corrected)
 Authority   : EPSG
 Version     : 9.5(12.9.0)
 Deprecated  : no
-Area-name   : Caribbean - Puerto Rico and US Virgin Islands - onshore
+Area-name-1 : Caribbean - Puerto Rico and US Virgin Islands - onshore
 Area-slat   : 17.62
 Area-nlat   : 18.57
 Area-llon   : -67.97
@@ -4753,7 +4755,7 @@ Description : SRB_ETRS89
 Authority   : EPSG
 Version     : 9.5(12.9.0)
 Deprecated  : no
-Area-name   : Serbia
+Area-name-1 : Serbia
 Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
@@ -4785,7 +4787,7 @@ Description : RSAO13
 Authority   : EPSG
 Version     : 9.8(12.9.0)
 Deprecated  : no
-Area-name   : Angola
+Area-name-1 : Angola
 Area-slat   : -18.02
 Area-nlat   : -4.38
 Area-llon   : 8.2
@@ -4817,7 +4819,7 @@ Description : MTRF-2000
 Authority   : EPSG
 Version     : 9.5(12.9.0)
 Deprecated  : no
-Area-name   : Saudi Arabia
+Area-name-1 : Saudi Arabia
 Area-slat   : 16.29
 Area-nlat   : 32.16
 Area-llon   : 34.44
@@ -4849,7 +4851,7 @@ Description : RGWF96
 Authority   : EPSG
 Version     : 9.6.1(12.9.0)
 Deprecated  : no
-Area-name   : Wallis and Futuna
+Area-name-1 : Wallis and Futuna
 Area-slat   : -15.94
 Area-nlat   : -9.84
 Area-llon   : 179.49
@@ -4881,7 +4883,7 @@ Description : CR-SIRGAS
 Authority   : EPSG
 Version     : 9.6.1(12.9.0)
 Deprecated  : no
-Area-name   : Costa Rica
+Area-name-1 : Costa Rica
 Area-slat   : 2.15
 Area-nlat   : 11.77
 Area-llon   : -90.45
@@ -4913,7 +4915,7 @@ Description : SIRGAS-CON DGF00P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -4945,7 +4947,7 @@ Description : SIRGAS-CON DGF01P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -4977,7 +4979,7 @@ Description : SIRGAS-CON DGF01P02
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5009,7 +5011,7 @@ Description : SIRGAS-CON DGF02P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5041,7 +5043,7 @@ Description : SIRGAS-CON DGF04P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5073,7 +5075,7 @@ Description : SIRGAS-CON DGF05P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5105,7 +5107,7 @@ Description : SIRGAS-CON DGF06P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5137,7 +5139,7 @@ Description : SIRGAS-CON DGF07P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5169,7 +5171,7 @@ Description : SIRGAS-CON DGF08P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5201,7 +5203,7 @@ Description : SIRGAS-CON SIR09P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5233,7 +5235,7 @@ Description : SIRGAS-CON SIR10P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5265,7 +5267,7 @@ Description : SIRGAS-CON SIR11P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5297,7 +5299,7 @@ Description : SIRGAS-CON SIR13P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5329,7 +5331,7 @@ Description : SIRGAS-CON SIR14P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5361,7 +5363,7 @@ Description : SIRGAS-CON SIR15P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5393,7 +5395,7 @@ Description : SIRGAS-CON SIR17P01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -5404,12 +5406,12 @@ Latest-WKID : 8947
 Macro       : PE_XYZ_SIRGAS_CHILE_2010
 Name        : SIRGAS-Chile_2010
 WKT         : GXYZCS["SIRGAS-Chile_2010",
-               DATUM["SIRGAS-Chile_realization_2_epoch_2010",
+               DATUM["SIRGAS-Chile_2010",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["SIRGAS-Chile_2010",
-               DATUM["SIRGAS-Chile_realization_2_epoch_2010",
+               DATUM["SIRGAS-Chile_2010",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
@@ -5425,7 +5427,7 @@ Description : SIRGAS-Chile 2010
 Authority   : EPSG
 Version     : 9.8(12.9.0)
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -5457,7 +5459,7 @@ Description : IGS97
 Authority   : EPSG
 Version     : 9.6.3(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -5489,7 +5491,7 @@ Description : IGS00
 Authority   : EPSG
 Version     : 9.6.3(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -5521,7 +5523,7 @@ Description : IGb00
 Authority   : EPSG
 Version     : 9.6.3(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -5553,7 +5555,7 @@ Description : IGS05
 Authority   : EPSG
 Version     : 9.6.3(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -5585,7 +5587,7 @@ Description : IGb08
 Authority   : EPSG
 Version     : 9.6.3(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -5617,7 +5619,7 @@ Description : NAD83(MARP00)
 Authority   : EPSG
 Version     : 9.8(12.9.0)
 Deprecated  : no
-Area-name   : Pacific - US interests Mariana plate
+Area-name-1 : Pacific - US interests Mariana plate
 Area-slat   : 1.64
 Area-nlat   : 23.9
 Area-llon   : 129.48
@@ -5649,7 +5651,7 @@ Description : NAD83(PACP00)
 Authority   : EPSG
 Version     : 9.8(12.9.0)
 Deprecated  : no
-Area-name   : Pacific - US interests Pacific plate
+Area-name-1 : Pacific - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
 Area-llon   : 157.47
@@ -5681,7 +5683,7 @@ Description : KOSOVAREF01
 Authority   : EPSG
 Version     : 9.7(12.9.0)
 Deprecated  : no
-Area-name   : Kosovo
+Area-name-1 : Kosovo
 Area-slat   : 41.85
 Area-nlat   : 43.25
 Area-llon   : 19.97
@@ -5692,12 +5694,12 @@ Latest-WKID : 9146
 Macro       : PE_XYZ_SIRGAS_CHILE_2013
 Name        : SIRGAS-Chile_2013
 WKT         : GXYZCS["SIRGAS-Chile_2013",
-               DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+               DATUM["SIRGAS-Chile_2013",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["SIRGAS-Chile_2013",
-               DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+               DATUM["SIRGAS-Chile_2013",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
@@ -5713,7 +5715,7 @@ Description : SIRGAS-Chile 2013
 Authority   : EPSG
 Version     : 9.8(12.9.0)
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -5724,12 +5726,12 @@ Latest-WKID : 9151
 Macro       : PE_XYZ_SIRGAS_CHILE_2016
 Name        : SIRGAS-Chile_2016
 WKT         : GXYZCS["SIRGAS-Chile_2016",
-               DATUM["SIRGAS-Chile_realization_4_epoch_2016",
+               DATUM["SIRGAS-Chile_2016",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["SIRGAS-Chile_2016",
-               DATUM["SIRGAS-Chile_realization_4_epoch_2016",
+               DATUM["SIRGAS-Chile_2016",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
@@ -5745,7 +5747,7 @@ Description : SIRGAS-Chile 2016
 Authority   : EPSG
 Version     : 9.8(12.9.0)
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -5777,7 +5779,7 @@ Description : MGI
 Authority   : EPSG
 Version     : 9.8.5(12.9.0)
 Deprecated  : no
-Area-name   : Austria
+Area-name-1 : Austria
 Area-slat   : 46.4
 Area-nlat   : 49.02
 Area-llon   : 9.53
@@ -5809,7 +5811,7 @@ Description : ONGD17
 Authority   : EPSG
 Version     : 9.8.9(12.9.0)
 Deprecated  : no
-Area-name   : Oman
+Area-name-1 : Oman
 Area-slat   : 14.33
 Area-nlat   : 26.74
 Area-llon   : 51.99
@@ -5841,7 +5843,7 @@ Description : ATRF2014
 Authority   : EPSG
 Version     : 9.9(12.9.0)
 Deprecated  : no
-Area-name   : Australia - GDA
+Area-name-1 : Australia - GDA
 Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
@@ -5873,7 +5875,7 @@ Description : KSA-GRF17
 Authority   : EPSG
 Version     : 9.8.5(12.9.0)
 Deprecated  : no
-Area-name   : Saudi Arabia
+Area-name-1 : Saudi Arabia
 Area-slat   : 16.29
 Area-nlat   : 32.16
 Area-llon   : 34.44
@@ -5905,7 +5907,7 @@ Description : IGb14
 Authority   : EPSG
 Version     : 9.8.12(12.9.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -5937,7 +5939,7 @@ Description : SRGI2013
 Authority   : EPSG
 Version     : 9.9(12.9.0)
 Deprecated  : no
-Area-name   : Indonesia
+Area-name-1 : Indonesia
 Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
@@ -5969,7 +5971,7 @@ Description : LTF2004(G)
 Authority   : EPSG
 Version     : 10.009(12.9.0)
 Deprecated  : no
-Area-name   : Europe - Lyon-Turin
+Area-name-1 : Europe - Lyon-Turin
 Area-slat   : 44.87
 Area-nlat   : 45.89
 Area-llon   : 4.65
@@ -6001,7 +6003,7 @@ Description : REDGEOMIN
 Authority   : EPSG
 Version     : 10.013(12.9.0)
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -6033,7 +6035,7 @@ Description : ETRF2000-PL
 Authority   : EPSG
 Version     : 10.016(12.9.0)
 Deprecated  : no
-Area-name   : Poland
+Area-name-1 : Poland
 Area-slat   : 49.0
 Area-nlat   : 55.93
 Area-llon   : 14.14
@@ -6065,7 +6067,7 @@ Description : WGS 1984 (G2139)
 Authority   : EPSG
 Version     : 10.036(13.1.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -6097,7 +6099,7 @@ Description : RGF93 v2
 Authority   : EPSG
 Version     : 10.034(13.1.0)
 Deprecated  : no
-Area-name   : France
+Area-name-1 : France
 Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
@@ -6129,7 +6131,7 @@ Description : RGF93 v2b
 Authority   : EPSG
 Version     : 10.034(13.1.0)
 Deprecated  : no
-Area-name   : France
+Area-name-1 : France
 Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
@@ -6161,7 +6163,7 @@ Description : LUREF
 Authority   : EPSG
 Version     : 10.043(13.0.0)
 Deprecated  : no
-Area-name   : Luxembourg
+Area-name-1 : Luxembourg
 Area-slat   : 49.44
 Area-nlat   : 50.19
 Area-llon   : 5.73
@@ -6193,7 +6195,7 @@ Description : ITRF2020
 Authority   : EPSG
 Version     : 10.062(13.1.0)
 Deprecated  : no
-Area-name   : World (by country)
+Area-name-1 : World (by country)
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -6225,7 +6227,7 @@ Description : IGS20
 Authority   : EPSG
 Version     : 10.078(13.2.0)
 Deprecated  : no
-Area-name   : World (by country)
+Area-name-1 : World (by country)
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -6257,7 +6259,7 @@ Description : ETRS89 DREF91 2016
 Authority   : EPSG
 Version     : 10.083(13.2.0)
 Deprecated  : no
-Area-name   : Germany
+Area-name-1 : Germany
 Area-slat   : 47.27
 Area-nlat   : 55.92
 Area-llon   : 3.34
@@ -6289,7 +6291,7 @@ Description : RGSH2020
 Authority   : EPSG
 Version     : 10.083(13.2.0)
 Deprecated  : no
-Area-name   : Algeria
+Area-name-1 : Algeria
 Area-slat   : 18.97
 Area-nlat   : 38.8
 Area-llon   : -8.67
@@ -6321,7 +6323,7 @@ Description : LKS-2020
 Authority   : EPSG
 Version     : 10.083(13.2.0)
 Deprecated  : no
-Area-name   : Latvia
+Area-name-1 : Latvia
 Area-slat   : 55.67
 Area-nlat   : 58.09
 Area-llon   : 19.06
@@ -6353,7 +6355,7 @@ Description : RGNC15
 Authority   : EPSG
 Version     : 10.085(13.2.0)
 Deprecated  : no
-Area-name   : New Caledonia
+Area-name-1 : New Caledonia
 Area-slat   : -26.45
 Area-nlat   : -14.83
 Area-llon   : 156.25
@@ -6385,7 +6387,7 @@ Description : BH_ETRS89
 Authority   : EPSG
 Version     : 10.087(13.2.0)
 Deprecated  : no
-Area-name   : Bosnia and Herzegovina
+Area-name-1 : Bosnia and Herzegovina
 Area-slat   : 42.56
 Area-nlat   : 45.27
 Area-llon   : 15.74
@@ -6418,7 +6420,7 @@ Description : NAD83(CSRS)v8
 Authority   : EPSG
 Version     : 10.092(13.2.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -6450,7 +6452,7 @@ Description : BBT2000
 Authority   : EPSG
 Version     : 10.095(13.3.0)
 Deprecated  : no
-Area-name   : Europe - Brenner
+Area-name-1 : Europe - Brenner
 Area-slat   : 46.45
 Area-nlat   : 47.33
 Area-llon   : 11.04
@@ -6482,7 +6484,7 @@ Description : ETRF2020
 Authority   : EPSG
 Version     : 11.006(13.4.0)
 Deprecated  : no
-Area-name   : Europe - ETRF by country
+Area-name-1 : Europe - ETRF by country
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -6514,7 +6516,7 @@ Description : WGS 1984 (G2296)
 Authority   : EPSG
 Version     : 11.005(13.4.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -6546,7 +6548,7 @@ Description : Saba
 Authority   : EPSG
 Version     : 11.023(13.5.0)
 Deprecated  : no
-Area-name   : BES Islands - Saba onshore
+Area-name-1 : BES Islands - Saba onshore
 Area-slat   : 17.56
 Area-nlat   : 17.71
 Area-llon   : -63.31
@@ -6578,7 +6580,7 @@ Description : BES2020 Saba
 Authority   : EPSG
 Version     : 11.023(13.5.0)
 Deprecated  : no
-Area-name   : BES Islands - Saba onshore
+Area-name-1 : BES Islands - Saba onshore
 Area-slat   : 17.56
 Area-nlat   : 17.71
 Area-llon   : -63.31
@@ -6610,7 +6612,7 @@ Description : RGM23
 Authority   : EPSG
 Version     : 11.021(13.5.0)
 Deprecated  : no
-Area-name   : Mayotte
+Area-name-1 : Mayotte
 Area-slat   : -14.49
 Area-nlat   : -11.33
 Area-llon   : 43.68
@@ -6643,7 +6645,7 @@ Description : EUREF-FIN
 Authority   : EPSG
 Version     : 11.024(13.5.0)
 Deprecated  : no
-Area-name   : Finland
+Area-name-1 : Finland
 Area-slat   : 58.84
 Area-nlat   : 70.09
 Area-llon   : 19.08
@@ -6675,7 +6677,7 @@ Description : UZGD2024
 Authority   : EPSG
 Version     : 11.024(13.5.0)
 Deprecated  : no
-Area-name   : Uzbekistan
+Area-name-1 : Uzbekistan
 Area-slat   : 37.18
 Area-nlat   : 45.58
 Area-llon   : 55.99
@@ -6707,7 +6709,7 @@ Description : Sint Eustatius
 Authority   : EPSG
 Version     : 11.029(13.5.0)
 Deprecated  : no
-Area-name   : BES Islands - Sint Eustatius - onshore
+Area-name-1 : BES Islands - Sint Eustatius - onshore
 Area-slat   : 17.41
 Area-nlat   : 17.58
 Area-llon   : -63.05
@@ -6739,7 +6741,7 @@ Description : BES2020 Sint Eustatius
 Authority   : EPSG
 Version     : 11.029(13.5.0)
 Deprecated  : no
-Area-name   : BES Islands - Sint Eustatius - onshore
+Area-name-1 : BES Islands - Sint Eustatius - onshore
 Area-slat   : 17.41
 Area-nlat   : 17.58
 Area-llon   : -63.05
@@ -6771,7 +6773,7 @@ Description : Bonaire 2004
 Authority   : EPSG
 Version     : 11.029(13.5.0)
 Deprecated  : no
-Area-name   : BES Islands - Bonaire onshore
+Area-name-1 : BES Islands - Bonaire onshore
 Area-slat   : 11.97
 Area-nlat   : 12.36
 Area-llon   : -68.47
@@ -6803,7 +6805,7 @@ Description : ITRF2020-u2023
 Authority   : EPSG
 Version     : 11.029(13.5.0)
 Deprecated  : no
-Area-name   : World (by country)
+Area-name-1 : World (by country)
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -6835,7 +6837,7 @@ Description : IGb20
 Authority   : EPSG
 Version     : 11.029(13.5.0)
 Deprecated  : no
-Area-name   : World (by country)
+Area-name-1 : World (by country)
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -6867,7 +6869,7 @@ Description : UGRF
 Authority   : EPSG
 Version     : 12.006(13.6.0)
 Deprecated  : no
-Area-name   : Uganda
+Area-name-1 : Uganda
 Area-slat   : -1.48
 Area-nlat   : 4.23
 Area-llon   : 29.57
@@ -6899,7 +6901,7 @@ Description : LibRef21
 Authority   : EPSG
 Version     : 12.001(13.5.0)
 Deprecated  : no
-Area-name   : Liberia
+Area-name-1 : Liberia
 Area-slat   : 1.02
 Area-nlat   : 8.52
 Area-llon   : -13.59
@@ -6931,7 +6933,7 @@ Description : Georgia Geodetic Datum
 Authority   : EPSG
 Version     : 12.016(13.6.0)
 Deprecated  : no
-Area-name   : Georgia
+Area-name-1 : Georgia
 Area-slat   : 41.04
 Area-nlat   : 43.59
 Area-llon   : 38.97
@@ -6964,7 +6966,7 @@ Description : CSRN epoch 2025.0 (NAD83 2011)
 Authority   : EPSG
 Version     : 12.016(13.6.0)
 Deprecated  : no
-Area-name   : USA - California
+Area-name-1 : USA - California
 Area-slat   : 32.53
 Area-nlat   : 42.01
 Area-llon   : -124.45
@@ -6996,7 +6998,7 @@ Description : QazTRF-23
 Authority   : EPSG
 Version     : 12.015(13.6.0)
 Deprecated  : no
-Area-name   : Kazakhstan
+Area-name-1 : Kazakhstan
 Area-slat   : 40.59
 Area-nlat   : 55.45
 Area-llon   : 46.49
@@ -7029,7 +7031,7 @@ Description : CSRN epoch 2025.0 (ITRF2020)
 Authority   : EPSG
 Version     : 12.016(13.6.0)
 Deprecated  : no
-Area-name   : USA - California
+Area-name-1 : USA - California
 Area-slat   : 32.53
 Area-nlat   : 42.01
 Area-llon   : -124.45
@@ -7062,9 +7064,9 @@ Description : GR96(1996)
 Authority   : EPSG
 Version     : 12.016(13.6.0)
 Deprecated  : no
-Area-name   : Greenland
+Area-name-1 : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.02
+Area-nlat   : 87.03
 Area-llon   : -75.0
 Area-rlon   : 7.99
 
@@ -7095,23 +7097,153 @@ Description : GR96(2021)
 Authority   : EPSG
 Version     : 12.016(13.6.0)
 Deprecated  : no
-Area-name   : Greenland
+Area-name-1 : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.02
+Area-nlat   : 87.03
 Area-llon   : -75.0
 Area-rlon   : 7.99
+
+WKID        : 10991
+Latest-WKID : 10991
+Macro       : PE_XYZ_XRAIL84
+Name        : Xrail84
+WKT         : GXYZCS["Xrail84",
+               DATUM["D_Xrail84",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["Xrail84",
+               DATUM["D_Xrail84",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "10991"]]
+Description : Xrail84
+Authority   : EPSG
+Version     : 12.031(13.7.0)
+Deprecated  : no
+Area-name-1 : UK - Greater London
+Area-slat   : 51.1
+Area-nlat   : 52.0
+Area-llon   : -1.33
+Area-rlon   : 0.8
+
+WKID        : 11029
+Latest-WKID : 11029
+Macro       : PE_XYZ_SRGI2013_EPOCH_2021
+Name        : SRGI2013_epoch_2021.0
+WKT         : GXYZCS["SRGI2013_epoch_2021.0",
+               DATUM["Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["SRGI2013_epoch_2021.0",
+               DATUM["Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563],
+                ANCHOREPOCH[2021.0]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11029"]]
+Description : SRGI2013 epoch 2021.0
+Authority   : EPSG
+Version     : 12.042(13.7.0)
+Deprecated  : no
+Area-name-1 : Indonesia
+Area-slat   : -13.95
+Area-nlat   : 7.79
+Area-llon   : 92.01
+Area-rlon   : 141.46
+
+WKID        : 11041
+Latest-WKID : 11041
+Macro       : PE_XYZ_CR_SIRGAS_EPOCH_2019_24
+Name        : CR-SIRGAS_epoch_2019.24
+WKT         : GXYZCS["CR-SIRGAS_epoch_2019.24",
+               DATUM["CR-SIRGAS_epoch_2019.24",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["CR-SIRGAS_epoch_2019.24",
+               DATUM["CR-SIRGAS_epoch_2019.24",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2019.24]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11041"]]
+Description : CR-SIRGAS epoch 2019.24
+Authority   : EPSG
+Version     : 12.029(13.7.0)
+Deprecated  : no
+Area-name-1 : Costa Rica
+Area-slat   : 2.15
+Area-nlat   : 11.77
+Area-llon   : -90.45
+Area-rlon   : -81.43
+
+WKID        : 11224
+Latest-WKID : 11224
+Macro       : PE_XYZ_DRUKREF23
+Name        : DrukRef23
+WKT         : GXYZCS["DrukRef23",
+               DATUM["National_Reference_Frame_of_Bhutan_2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["DrukRef23",
+               DATUM["National_Reference_Frame_of_Bhutan_2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11224"]]
+Description : DrukRef23
+Authority   : EPSG
+Version     : 12.049(13.7.0)
+Deprecated  : no
+Area-name-1 : Bhutan
+Area-slat   : 26.7
+Area-nlat   : 28.33
+Area-llon   : 88.74
+Area-rlon   : 92.13
 
 WKID        : 20039
 Latest-WKID : 20039
 Macro       : PE_XYZ_SIRGAS_CHILE_2021
 Name        : SIRGAS-Chile_2021
 WKT         : GXYZCS["SIRGAS-Chile_2021",
-               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+               DATUM["SIRGAS-Chile_2021",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
 WKT2        : GEODCRS["SIRGAS-Chile_2021",
-               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+               DATUM["SIRGAS-Chile_2021",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
@@ -7127,7 +7259,7 @@ Description : SIRGAS-Chile 2021
 Authority   : EPSG
 Version     : 10.073(13.1.0)
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -7159,7 +7291,7 @@ Description : MAGNA-SIRGAS 2018
 Authority   : EPSG
 Version     : 10.082(13.2.0)
 Deprecated  : no
-Area-name   : Colombia
+Area-name-1 : Colombia
 Area-slat   : -4.23
 Area-nlat   : 15.51
 Area-llon   : -84.77
@@ -7191,7 +7323,7 @@ Description : PAL-GRF2023
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : Palestine
+Area-name-1 : Palestine
 Area-slat   : 31.21
 Area-nlat   : 32.55
 Area-llon   : 34.17

@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2025 Esri Inc.                                            #
+#  Copyright 1999-2026 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -35,7 +35,7 @@ Description : EGM2008 height
 Authority   : EPSG
 Version     : 6.18.3(10.1.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -60,7 +60,7 @@ Description : Fao 1979
 Authority   : EPSG
 Version     : 7.1(10.1.0)
 Deprecated  : no
-Area-name   : Iraq - onshore
+Area-name-1 : Iraq - onshore
 Area-slat   : 29.06
 Area-nlat   : 37.39
 Area-llon   : 38.79
@@ -85,7 +85,7 @@ Description : N2000 height
 Authority   : EPSG
 Version     : 7.5.1(10.1.0)
 Deprecated  : no
-Area-name   : Finland - onshore
+Area-name-1 : Finland - onshore
 Area-slat   : 59.75
 Area-nlat   : 70.09
 Area-llon   : 19.24
@@ -110,7 +110,7 @@ Description : NZVD2009 height
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
 Deprecated  : no
-Area-name   : New Zealand
+Area-name-1 : New Zealand
 Area-slat   : -55.95
 Area-nlat   : -25.88
 Area-llon   : 160.6
@@ -135,7 +135,7 @@ Description : Dunedin Bluff 1960 height
 Authority   : EPSG
 Version     : 7.1.9(10.1.0)
 Deprecated  : no
-Area-name   : New Zealand - South Island - Dunedin-Bluff vcrs
+Area-name-1 : New Zealand - South Island - Dunedin-Bluff vcrs
 Area-slat   : -46.73
 Area-nlat   : -44.52
 Area-llon   : 166.37
@@ -160,7 +160,7 @@ Description : KVD1964 Height
 Authority   : EPSG
 Version     : 7.5.6(10.1.0)
 Deprecated  : no
-Area-name   : South Korea - onshore
+Area-name-1 : South Korea - onshore
 Area-slat   : 33.14
 Area-nlat   : 38.64
 Area-llon   : 124.53
@@ -185,7 +185,7 @@ Description : Trieste height
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
 Deprecated  : no
-Area-name   : Europe - former Yugoslavia onshore
+Area-name-1 : Europe - former Yugoslavia onshore
 Area-slat   : 40.85
 Area-nlat   : 46.88
 Area-llon   : 13.38
@@ -210,7 +210,7 @@ Description : Genoa height
 Authority   : EPSG
 Version     : 7.5.8(10.1.0)
 Deprecated  : no
-Area-name   : Italy - mainland and Sicily
+Area-name-1 : Italy - mainland and Sicily
 Area-slat   : 36.59
 Area-nlat   : 47.1
 Area-llon   : 6.62
@@ -235,7 +235,7 @@ Description : SLVD height
 Authority   : EPSG
 Version     : 7.5.9(10.1.0)
 Deprecated  : no
-Area-name   : Sri Lanka - onshore
+Area-name-1 : Sri Lanka - onshore
 Area-slat   : 5.86
 Area-nlat   : 9.88
 Area-llon   : 79.64
@@ -260,7 +260,7 @@ Description : FVR09 height
 Authority   : EPSG
 Version     : 7.6(10.1.0)
 Deprecated  : no
-Area-name   : Faroe Islands - onshore
+Area-name-1 : Faroe Islands - onshore
 Area-slat   : 61.33
 Area-nlat   : 62.41
 Area-llon   : -7.49
@@ -285,7 +285,7 @@ Description : Black Sea depth
 Authority   : EPSG
 Version     : 7.6.4(10.2.0)
 Deprecated  : no
-Area-name   : Georgia - onshore
+Area-name-1 : Georgia - onshore
 Area-slat   : 41.04
 Area-nlat   : 43.59
 Area-llon   : 39.99
@@ -310,7 +310,7 @@ Description : FCSVR10 height
 Authority   : EPSG
 Version     : 7.9.1(10.1.1)
 Deprecated  : no
-Area-name   : Europe - Fehmarnbelt inner
+Area-name-1 : Europe - Fehmarnbelt inner
 Area-slat   : 54.42
 Area-nlat   : 54.76
 Area-llon   : 11.17
@@ -335,7 +335,7 @@ Description : NGPF
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : French Polynesia - Society Islands - main islands
+Area-name-1 : French Polynesia - Society Islands - main islands
 Area-slat   : -17.93
 Area-nlat   : -16.17
 Area-llon   : -152.39
@@ -360,7 +360,7 @@ Description : IGN 1966
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : French Polynesia - Society Islands - Tahiti
+Area-name-1 : French Polynesia - Society Islands - Tahiti
 Area-slat   : -17.93
 Area-nlat   : -17.44
 Area-llon   : -149.7
@@ -385,7 +385,7 @@ Description : Moorea SAU 1981
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : French Polynesia - Society Islands - Moorea
+Area-name-1 : French Polynesia - Society Islands - Moorea
 Area-slat   : -17.63
 Area-nlat   : -17.41
 Area-llon   : -150.0
@@ -410,7 +410,7 @@ Description : Raiatea SAU 2001
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : French Polynesia - Society Islands - Raiatea
+Area-name-1 : French Polynesia - Society Islands - Raiatea
 Area-slat   : -16.96
 Area-nlat   : -16.68
 Area-llon   : -151.55
@@ -435,7 +435,7 @@ Description : Maupiti SAU 2001
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : French Polynesia - Society Islands - Maupiti
+Area-name-1 : French Polynesia - Society Islands - Maupiti
 Area-slat   : -16.57
 Area-nlat   : -16.34
 Area-llon   : -152.39
@@ -460,7 +460,7 @@ Description : Huahine SAU 2001
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : French Polynesia - Society Islands - Huahine
+Area-name-1 : French Polynesia - Society Islands - Huahine
 Area-slat   : -16.87
 Area-nlat   : -16.63
 Area-llon   : -151.11
@@ -485,7 +485,7 @@ Description : Tahaa SAU 2001
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : French Polynesia - Society Islands - Tahaa
+Area-name-1 : French Polynesia - Society Islands - Tahaa
 Area-slat   : -16.72
 Area-nlat   : -16.5
 Area-llon   : -151.63
@@ -510,7 +510,7 @@ Description : Bora Bora SAU 2001
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : French Polynesia - Society Islands - Bora Bora
+Area-name-1 : French Polynesia - Society Islands - Bora Bora
 Area-slat   : -16.62
 Area-nlat   : -16.39
 Area-llon   : -151.86
@@ -535,7 +535,7 @@ Description : IGLD 1955
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : North America - Great Lakes basin and St Lawrence Seaway
+Area-name-1 : North America - Great Lakes basin and St Lawrence Seaway
 Area-slat   : 40.99
 Area-nlat   : 52.22
 Area-llon   : -93.17
@@ -560,7 +560,7 @@ Description : IGLD 1985
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : North America - Great Lakes basin and St Lawrence Seaway
+Area-name-1 : North America - Great Lakes basin and St Lawrence Seaway
 Area-slat   : 40.99
 Area-nlat   : 52.22
 Area-llon   : -93.17
@@ -585,7 +585,7 @@ Description : HVRS71
 Authority   : EPSG
 Version     : 6.15(10.0.0)
 Deprecated  : no
-Area-name   : Croatia - onshore
+Area-name-1 : Croatia - onshore
 Area-slat   : 42.34
 Area-nlat   : 46.54
 Area-llon   : 13.43
@@ -610,7 +610,7 @@ Description : Caspian height
 Authority   : EPSG
 Version     : 9.8.12(10.0.0)
 Deprecated  : no
-Area-name   : Asia - FSU - Caspian Sea
+Area-name-1 : Asia - FSU - Caspian Sea
 Area-slat   : 37.35
 Area-nlat   : 46.97
 Area-llon   : 46.95
@@ -635,7 +635,7 @@ Description : Baltic depth
 Authority   : EPSG
 Version     : 9.2.2(10.0.0)
 Deprecated  : no
-Area-name   : Europe - FSU, Czechoslovakia - onshore
+Area-name-1 : Europe - FSU, Czechoslovakia - onshore
 Area-slat   : 35.14
 Area-nlat   : 77.79
 Area-llon   : 12.09
@@ -662,7 +662,7 @@ Description : RH2000
 Authority   : EPSG
 Version     : 7.5.8(10.0.0)
 Deprecated  : no
-Area-name   : Sweden - onshore
+Area-name-1 : Sweden - onshore
 Area-slat   : 55.28
 Area-nlat   : 69.07
 Area-llon   : 10.93
@@ -689,7 +689,7 @@ Description : KOC Well Datum depth (Intl Feet)
 Authority   : EPSG
 Version     : 10.019(10.0.0)
 Deprecated  : no
-Area-name   : Kuwait - onshore
+Area-name-1 : Kuwait - onshore
 Area-slat   : 28.53
 Area-nlat   : 30.09
 Area-llon   : 46.54
@@ -714,7 +714,7 @@ Description : RH1900
 Authority   : EPSG
 Version     : 6.15(10.0.0)
 Deprecated  : no
-Area-name   : Sweden - onshore
+Area-name-1 : Sweden - onshore
 Area-slat   : 55.28
 Area-nlat   : 69.07
 Area-llon   : 10.93
@@ -739,7 +739,7 @@ Description : IGN 1988 Les Saintes
 Authority   : EPSG
 Version     : 6.18(10.0.0)
 Deprecated  : no
-Area-name   : Guadeloupe - Les Saintes - onshore
+Area-name-1 : Guadeloupe - Les Saintes - onshore
 Area-slat   : 15.8
 Area-nlat   : 15.94
 Area-llon   : -61.68
@@ -764,7 +764,7 @@ Description : IGN 1988 Marie-Galante
 Authority   : EPSG
 Version     : 6.18(10.0.0)
 Deprecated  : no
-Area-name   : Guadeloupe - Marie-Galante - onshore
+Area-name-1 : Guadeloupe - Marie-Galante - onshore
 Area-slat   : 15.8
 Area-nlat   : 16.05
 Area-llon   : -61.39
@@ -789,7 +789,7 @@ Description : IGN 1992 La Desirade
 Authority   : EPSG
 Version     : 9.7(10.0.0)
 Deprecated  : no
-Area-name   : Guadeloupe - La Desirade - onshore
+Area-name-1 : Guadeloupe - La Desirade - onshore
 Area-slat   : 16.26
 Area-nlat   : 16.38
 Area-llon   : -61.13
@@ -814,7 +814,7 @@ Description : IGN 1988 St Barthelemy
 Authority   : EPSG
 Version     : 6.18(10.0.0)
 Deprecated  : no
-Area-name   : Guadeloupe - St Barthelemy - onshore
+Area-name-1 : Guadeloupe - St Barthelemy - onshore
 Area-slat   : 17.82
 Area-nlat   : 17.98
 Area-llon   : -62.92
@@ -839,7 +839,7 @@ Description : IGN 1988 St Martin
 Authority   : EPSG
 Version     : 6.18(10.0.0)
 Deprecated  : no
-Area-name   : Guadeloupe - St Martin - onshore
+Area-name-1 : Guadeloupe - St Martin - onshore
 Area-slat   : 18.01
 Area-nlat   : 18.17
 Area-llon   : -63.21
@@ -864,7 +864,7 @@ Description : EVRF 2007
 Authority   : EPSG
 Version     : 8.6.3(10.0.0)
 Deprecated  : no
-Area-name   : Europe - EVRF2007
+Area-name-1 : Europe - EVRF2007
 Area-slat   : 35.95
 Area-nlat   : 71.24
 Area-llon   : -9.56
@@ -889,7 +889,7 @@ Description : Newlyn
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - Great Britain mainland onshore
+Area-name-1 : UK - Great Britain mainland onshore
 Area-slat   : 49.93
 Area-nlat   : 58.71
 Area-llon   : -7.06
@@ -914,11 +914,16 @@ Description : NGVD29 height (US Feet)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : USA - CONUS - onshore
+Area-name-1 : USA - CONUS - onshore
 Area-slat   : 24.41
 Area-nlat   : 49.38
 Area-llon   : -124.79
 Area-rlon   : -66.91
+Area-name-2 : USA - Alaska
+Area-slat   : 51.3
+Area-nlat   : 71.4
+Area-llon   : 172.42
+Area-rlon   : -129.99
 
 WKID        : 5703
 Latest-WKID : 5703
@@ -939,7 +944,7 @@ Description : NAVD88 height (Meters)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : North America - Mexico and USA - onshore
+Area-name-1 : North America - Mexico and USA - onshore
 Area-slat   : 14.51
 Area-nlat   : 71.4
 Area-llon   : 172.42
@@ -964,7 +969,7 @@ Description : Yellow Sea 1956
 Authority   : EPSG
 Version     : 2.1(10.2.0)
 Deprecated  : codechange
-Area-name   : China - onshore
+Area-name-1 : China - onshore
 Area-slat   : 18.11
 Area-nlat   : 53.56
 Area-llon   : 73.62
@@ -989,7 +994,7 @@ Description : Baltic
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Europe - FSU, Czechoslovakia - onshore
+Area-name-1 : Europe - FSU, Czechoslovakia - onshore
 Area-slat   : 35.14
 Area-nlat   : 77.79
 Area-llon   : 12.09
@@ -1014,7 +1019,7 @@ Description : Caspian depth
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Asia - FSU - Caspian Sea
+Area-name-1 : Asia - FSU - Caspian Sea
 Area-slat   : 37.35
 Area-nlat   : 46.97
 Area-llon   : 46.95
@@ -1039,7 +1044,7 @@ Description : NAP
 Authority   : EPSG
 Version     : 4.5(9.3.0.0)
 Deprecated  : no
-Area-name   : Netherlands
+Area-name-1 : Netherlands
 Area-slat   : 50.75
 Area-nlat   : 55.77
 Area-llon   : 2.53
@@ -1064,7 +1069,7 @@ Description : Oostende
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Belgium - onshore
+Area-name-1 : Belgium - onshore
 Area-slat   : 49.5
 Area-nlat   : 51.51
 Area-llon   : 2.5
@@ -1089,7 +1094,7 @@ Description : AHD
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Australia Christmas and Cocos - onshore
+Area-name-1 : Australia Christmas and Cocos - onshore
 Area-slat   : -43.7
 Area-nlat   : -9.86
 Area-llon   : 96.76
@@ -1114,7 +1119,7 @@ Description : AHD (Tasmania)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Australia - Tasmania mainland onshore
+Area-name-1 : Australia - Tasmania mainland onshore
 Area-slat   : -43.7
 Area-nlat   : -40.24
 Area-llon   : 144.55
@@ -1139,7 +1144,7 @@ Description : CGVD 1928
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Canada - CGVD28
+Area-name-1 : Canada - CGVD28
 Area-slat   : 41.67
 Area-nlat   : 69.81
 Area-llon   : -141.01
@@ -1164,7 +1169,7 @@ Description : MSL height
 Authority   : EPSG
 Version     : 7.12(9.3.0.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -1189,7 +1194,7 @@ Description : MSL depth
 Authority   : EPSG
 Version     : 7.12(9.3.0.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -1214,7 +1219,7 @@ Description : Piraeus
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Greece - onshore
+Area-name-1 : Greece - onshore
 Area-slat   : 34.88
 Area-nlat   : 41.75
 Area-llon   : 19.57
@@ -1239,7 +1244,7 @@ Description : N60
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Finland - onshore
+Area-name-1 : Finland - onshore
 Area-slat   : 59.75
 Area-nlat   : 70.09
 Area-llon   : 19.24
@@ -1264,7 +1269,7 @@ Description : RH70
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Sweden - onshore
+Area-name-1 : Sweden - onshore
 Area-slat   : 55.28
 Area-nlat   : 69.07
 Area-llon   : 10.93
@@ -1289,7 +1294,7 @@ Description : NGF Lallemand
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : France - mainland onshore
+Area-name-1 : France - mainland onshore
 Area-slat   : 42.33
 Area-nlat   : 51.14
 Area-llon   : -4.87
@@ -1314,7 +1319,7 @@ Description : NGF IGN69
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : France - mainland onshore
+Area-name-1 : France - mainland onshore
 Area-slat   : 42.33
 Area-nlat   : 51.14
 Area-llon   : -4.87
@@ -1339,7 +1344,7 @@ Description : NGF IGN78
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
 Deprecated  : no
-Area-name   : France - Corsica onshore
+Area-name-1 : France - Corsica onshore
 Area-slat   : 41.31
 Area-nlat   : 43.07
 Area-llon   : 8.5
@@ -1364,7 +1369,7 @@ Description : Maputo
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Mozambique - onshore
+Area-name-1 : Mozambique - onshore
 Area-slat   : -26.87
 Area-nlat   : -10.42
 Area-llon   : 30.21
@@ -1389,7 +1394,7 @@ Description : Japanese Standard Levelling Datum 1969
 Authority   : EPSG
 Version     : 6.2(9.3.0.0)
 Deprecated  : no
-Area-name   : Japan - onshore mainland
+Area-name-1 : Japan - onshore mainland
 Area-slat   : 30.94
 Area-nlat   : 45.54
 Area-llon   : 129.3
@@ -1414,7 +1419,7 @@ Description : PDO Height Datum 1993
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Oman - onshore
+Area-name-1 : Oman - onshore
 Area-slat   : 16.59
 Area-nlat   : 26.58
 Area-llon   : 51.99
@@ -1439,7 +1444,7 @@ Description : Fahud Height Datum 1993
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Oman - mainland
+Area-name-1 : Oman - mainland
 Area-slat   : 16.59
 Area-nlat   : 26.42
 Area-llon   : 51.99
@@ -1464,7 +1469,7 @@ Description : Ha Tien 1960
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Asia - Cambodia and Vietnam - mainland
+Area-name-1 : Asia - Cambodia and Vietnam - mainland
 Area-slat   : 8.33
 Area-nlat   : 23.4
 Area-llon   : 102.14
@@ -1489,7 +1494,7 @@ Description : Hon Dau 1992
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Vietnam - mainland
+Area-name-1 : Vietnam - mainland
 Area-slat   : 8.33
 Area-nlat   : 23.4
 Area-llon   : 102.14
@@ -1514,7 +1519,7 @@ Description : LN 1902
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Europe - Liechtenstein and Switzerland
+Area-name-1 : Europe - Liechtenstein and Switzerland
 Area-slat   : 45.81
 Area-nlat   : 47.81
 Area-llon   : 5.95
@@ -1539,7 +1544,7 @@ Description : LHN95
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Europe - Liechtenstein and Switzerland
+Area-name-1 : Europe - Liechtenstein and Switzerland
 Area-slat   : 45.81
 Area-nlat   : 47.81
 Area-llon   : 5.95
@@ -1564,7 +1569,7 @@ Description : EVRS 2000
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
 Deprecated  : no
-Area-name   : Europe - EVRF2000
+Area-name-1 : Europe - EVRF2000
 Area-slat   : 35.95
 Area-nlat   : 71.24
 Area-llon   : -9.56
@@ -1589,7 +1594,7 @@ Description : Malin Head
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Europe - Ireland (Republic and Ulster) - onshore
+Area-name-1 : Europe - Ireland (Republic and Ulster) - onshore
 Area-slat   : 51.39
 Area-nlat   : 55.43
 Area-llon   : -10.56
@@ -1614,7 +1619,7 @@ Description : Belfast
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - Northern Ireland - onshore
+Area-name-1 : UK - Northern Ireland - onshore
 Area-slat   : 53.96
 Area-nlat   : 55.36
 Area-llon   : -8.18
@@ -1639,7 +1644,7 @@ Description : Dansk Normal Nul
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Denmark - onshore
+Area-name-1 : Denmark - onshore
 Area-slat   : 54.5
 Area-nlat   : 57.81
 Area-llon   : 7.98
@@ -1664,7 +1669,7 @@ Description : AIOC95 depth
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Azerbaijan - offshore and Sangachal
+Area-name-1 : Azerbaijan - offshore and Sangachal
 Area-slat   : 37.89
 Area-nlat   : 42.59
 Area-llon   : 48.66
@@ -1689,7 +1694,7 @@ Description : Black Sea
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Georgia - onshore
+Area-name-1 : Georgia - onshore
 Area-slat   : 41.04
 Area-nlat   : 43.59
 Area-llon   : 39.99
@@ -1714,7 +1719,7 @@ Description : Yellow Sea 1956
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : China - onshore
+Area-name-1 : China - onshore
 Area-slat   : 18.11
 Area-nlat   : 53.56
 Area-llon   : 73.62
@@ -1739,7 +1744,7 @@ Description : Yellow Sea 1985
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : China - onshore
+Area-name-1 : China - onshore
 Area-slat   : 18.11
 Area-nlat   : 53.56
 Area-llon   : 73.62
@@ -1764,7 +1769,7 @@ Description : Hong Kong Principal Datum
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Hong Kong - onshore
+Area-name-1 : Hong Kong - onshore
 Area-slat   : 22.19
 Area-nlat   : 22.56
 Area-llon   : 113.82
@@ -1789,7 +1794,7 @@ Description : Hong Kong Chart Datum
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Hong Kong - offshore
+Area-name-1 : Hong Kong - offshore
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -1814,7 +1819,7 @@ Description : Newlyn (Orkney Isles)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - Orkney Islands onshore
+Area-name-1 : UK - Orkney Islands onshore
 Area-slat   : 58.72
 Area-nlat   : 59.41
 Area-llon   : -3.48
@@ -1839,7 +1844,7 @@ Description : Fair Isle
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - Fair Isle onshore
+Area-name-1 : UK - Fair Isle onshore
 Area-slat   : 59.45
 Area-nlat   : 59.6
 Area-llon   : -1.76
@@ -1864,7 +1869,7 @@ Description : Lerwick
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - Shetland Islands onshore
+Area-name-1 : UK - Shetland Islands onshore
 Area-slat   : 59.83
 Area-nlat   : 60.87
 Area-llon   : -1.78
@@ -1889,7 +1894,7 @@ Description : Foula
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - Foula onshore
+Area-name-1 : UK - Foula onshore
 Area-slat   : 60.06
 Area-nlat   : 60.2
 Area-llon   : -2.21
@@ -1914,7 +1919,7 @@ Description : Sule Skerry
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - Sule Skerry onshore
+Area-name-1 : UK - Sule Skerry onshore
 Area-slat   : 59.05
 Area-nlat   : 59.13
 Area-llon   : -4.5
@@ -1939,7 +1944,7 @@ Description : North Rona
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - North Rona onshore
+Area-name-1 : UK - North Rona onshore
 Area-slat   : 59.07
 Area-nlat   : 59.19
 Area-llon   : -5.92
@@ -1964,7 +1969,7 @@ Description : Stornoway
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - Outer Hebrides onshore
+Area-name-1 : UK - Outer Hebrides onshore
 Area-slat   : 56.76
 Area-nlat   : 58.54
 Area-llon   : -7.72
@@ -1989,7 +1994,7 @@ Description : St Kilda
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - St. Kilda onshore
+Area-name-1 : UK - St. Kilda onshore
 Area-slat   : 57.74
 Area-nlat   : 57.93
 Area-llon   : -8.74
@@ -2014,7 +2019,7 @@ Description : Flannan Isles
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - Flannan Isles onshore
+Area-name-1 : UK - Flannan Isles onshore
 Area-slat   : 58.21
 Area-nlat   : 58.35
 Area-llon   : -7.75
@@ -2039,7 +2044,7 @@ Description : St Marys
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : UK - Scilly Isles onshore
+Area-name-1 : UK - Scilly Isles onshore
 Area-slat   : 49.86
 Area-nlat   : 49.99
 Area-llon   : -6.41
@@ -2064,7 +2069,7 @@ Description : Douglas
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Isle of Man
+Area-name-1 : Isle of Man
 Area-slat   : 54.02
 Area-nlat   : 54.44
 Area-llon   : -4.87
@@ -2089,7 +2094,7 @@ Description : Fao
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Asia - Middle East -SE Iraq and SW Iran
+Area-name-1 : Asia - Middle East -SE Iraq and SW Iran
 Area-slat   : 29.06
 Area-nlat   : 33.5
 Area-llon   : 44.3
@@ -2114,7 +2119,7 @@ Description : Bandar Abbas
 Authority   : EPSG
 Version     : 6.5.1(9.3.0.0)
 Deprecated  : no
-Area-name   : Iran - onshore
+Area-name-1 : Iran - onshore
 Area-slat   : 25.02
 Area-nlat   : 39.78
 Area-llon   : 44.03
@@ -2139,7 +2144,7 @@ Description : NGNC
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Caledonia - Grande Terre
+Area-name-1 : New Caledonia - Grande Terre
 Area-slat   : -22.45
 Area-nlat   : -20.03
 Area-llon   : 163.92
@@ -2164,7 +2169,7 @@ Description : Poolbeg height (British Feet 1936)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Europe - Ireland (Republic and Ulster) - onshore
+Area-name-1 : Europe - Ireland (Republic and Ulster) - onshore
 Area-slat   : 51.39
 Area-nlat   : 55.43
 Area-llon   : -10.56
@@ -2189,7 +2194,7 @@ Description : NGG 1977
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : French Guiana - onshore
+Area-name-1 : French Guiana - onshore
 Area-slat   : 2.11
 Area-nlat   : 5.81
 Area-llon   : -54.61
@@ -2214,7 +2219,7 @@ Description : IGN 1987
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
 Deprecated  : no
-Area-name   : Martinique - onshore
+Area-name-1 : Martinique - onshore
 Area-slat   : 14.35
 Area-nlat   : 14.93
 Area-llon   : -61.29
@@ -2239,7 +2244,7 @@ Description : IGN 1988
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
 Deprecated  : no
-Area-name   : Guadeloupe - Grande-Terre and Basse-Terre - onshore
+Area-name-1 : Guadeloupe - Grande-Terre and Basse-Terre - onshore
 Area-slat   : 15.88
 Area-nlat   : 16.55
 Area-llon   : -61.85
@@ -2264,7 +2269,7 @@ Description : IGN 1989
 Authority   : EPSG
 Version     : 6.6(9.3.0.0)
 Deprecated  : no
-Area-name   : Reunion - onshore
+Area-name-1 : Reunion - onshore
 Area-slat   : -21.42
 Area-nlat   : -20.81
 Area-llon   : 55.16
@@ -2289,7 +2294,7 @@ Description : Auckland
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - North Island - Auckland vcrs
+Area-name-1 : New Zealand - North Island - Auckland vcrs
 Area-slat   : -37.67
 Area-nlat   : -36.12
 Area-llon   : 174.0
@@ -2314,7 +2319,7 @@ Description : Bluff
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - South Island - Bluff vcrs
+Area-name-1 : New Zealand - South Island - Bluff vcrs
 Area-slat   : -46.71
 Area-nlat   : -46.26
 Area-llon   : 168.01
@@ -2339,7 +2344,7 @@ Description : Dunedin
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - South Island - Dunedin vcrs
+Area-name-1 : New Zealand - South Island - Dunedin vcrs
 Area-slat   : -46.4
 Area-nlat   : -43.82
 Area-llon   : 167.73
@@ -2364,7 +2369,7 @@ Description : Gisborne
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - North Island - Gisborne vcrs
+Area-name-1 : New Zealand - North Island - Gisborne vcrs
 Area-slat   : -39.04
 Area-nlat   : -37.49
 Area-llon   : 176.41
@@ -2389,7 +2394,7 @@ Description : Lyttelton
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - South Island - Lyttleton vcrs
+Area-name-1 : New Zealand - South Island - Lyttleton vcrs
 Area-slat   : -44.92
 Area-nlat   : -41.6
 Area-llon   : 168.95
@@ -2414,7 +2419,7 @@ Description : Moturiki
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - North Island - Moturiki vcrs
+Area-name-1 : New Zealand - North Island - Moturiki vcrs
 Area-slat   : -40.59
 Area-nlat   : -37.52
 Area-llon   : 174.57
@@ -2439,7 +2444,7 @@ Description : Napier
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - North Island - Hawkes Bay mc Napier vcrs
+Area-name-1 : New Zealand - North Island - Hawkes Bay mc Napier vcrs
 Area-slat   : -40.57
 Area-nlat   : -38.87
 Area-llon   : 175.8
@@ -2464,7 +2469,7 @@ Description : Nelson
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - South Island - Nelson vcrs
+Area-name-1 : New Zealand - South Island - Nelson vcrs
 Area-slat   : -42.44
 Area-nlat   : -40.44
 Area-llon   : 171.82
@@ -2489,7 +2494,7 @@ Description : One Tree Point
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - North Island - One Tree vcrs
+Area-name-1 : New Zealand - North Island - One Tree vcrs
 Area-slat   : -36.41
 Area-nlat   : -34.36
 Area-llon   : 172.61
@@ -2514,7 +2519,7 @@ Description : Tararu
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - North Island - Tararu vcrs
+Area-name-1 : New Zealand - North Island - Tararu vcrs
 Area-slat   : -37.21
 Area-nlat   : -36.78
 Area-llon   : 175.44
@@ -2539,7 +2544,7 @@ Description : Taranaki
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - North Island - Taranaki vcrs
+Area-name-1 : New Zealand - North Island - Taranaki vcrs
 Area-slat   : -39.92
 Area-nlat   : -38.41
 Area-llon   : 173.68
@@ -2564,7 +2569,7 @@ Description : Wellington
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - North Island - Wellington vcrs
+Area-name-1 : New Zealand - North Island - Wellington vcrs
 Area-slat   : -41.67
 Area-nlat   : -40.12
 Area-llon   : 174.52
@@ -2589,7 +2594,7 @@ Description : Chatham Island
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - Chatham Island onshore
+Area-name-1 : New Zealand - Chatham Island onshore
 Area-slat   : -44.18
 Area-nlat   : -43.67
 Area-llon   : -176.92
@@ -2614,7 +2619,7 @@ Description : Stewart Island
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : New Zealand - Stewart Island
+Area-name-1 : New Zealand - Stewart Island
 Area-slat   : -47.33
 Area-nlat   : -46.63
 Area-llon   : 167.29
@@ -2639,7 +2644,7 @@ Description : EGM96 height
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -2664,7 +2669,7 @@ Description : NG95 height
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Luxembourg
+Area-name-1 : Luxembourg
 Area-slat   : 49.44
 Area-nlat   : 50.19
 Area-llon   : 5.73
@@ -2689,7 +2694,7 @@ Description : Antalya
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Turkey - onshore
+Area-name-1 : Turkey - onshore
 Area-slat   : 35.81
 Area-nlat   : 42.15
 Area-llon   : 25.62
@@ -2714,7 +2719,7 @@ Description : NN54
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Norway - onshore
+Area-name-1 : Norway - onshore
 Area-slat   : 57.9
 Area-nlat   : 71.24
 Area-llon   : 4.39
@@ -2739,7 +2744,7 @@ Description : Durres
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Albania - onshore
+Area-name-1 : Albania - onshore
 Area-slat   : 39.64
 Area-nlat   : 42.67
 Area-llon   : 19.22
@@ -2764,7 +2769,7 @@ Description : GHA
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Austria
+Area-name-1 : Austria
 Area-slat   : 46.4
 Area-nlat   : 49.02
 Area-llon   : 9.53
@@ -2789,7 +2794,7 @@ Description : SVS2000
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Slovenia - onshore
+Area-name-1 : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
@@ -2814,7 +2819,7 @@ Description : Cascais
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Portugal - mainland - onshore
+Area-name-1 : Portugal - mainland - onshore
 Area-slat   : 36.95
 Area-nlat   : 42.16
 Area-llon   : -9.56
@@ -2839,7 +2844,7 @@ Description : Constanta
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Romania - onshore
+Area-name-1 : Romania - onshore
 Area-slat   : 43.62
 Area-nlat   : 48.27
 Area-llon   : 20.26
@@ -2864,7 +2869,7 @@ Description : Alicante
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Spain and Gibraltar - onshore
+Area-name-1 : Spain and Gibraltar - onshore
 Area-slat   : 35.95
 Area-nlat   : 43.82
 Area-llon   : -9.37
@@ -2889,7 +2894,7 @@ Description : DHHN92
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Germany - onshore
+Area-name-1 : Germany - onshore
 Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
@@ -2914,7 +2919,7 @@ Description : DHHN85
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Germany - West Germany all states
+Area-name-1 : Germany - West Germany all states
 Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
@@ -2939,7 +2944,7 @@ Description : SNN76
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Germany - East Germany all states
+Area-name-1 : Germany - East Germany all states
 Area-slat   : 50.2
 Area-nlat   : 54.74
 Area-llon   : 9.92
@@ -2964,7 +2969,7 @@ Description : Baltic 1982
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Bulgaria - onshore
+Area-name-1 : Bulgaria - onshore
 Area-slat   : 41.24
 Area-nlat   : 44.23
 Area-llon   : 22.36
@@ -2989,7 +2994,7 @@ Description : EOMA 1980
 Authority   : EPSG
 Version     : 6.7(9.3.0.0)
 Deprecated  : no
-Area-name   : Hungary
+Area-name-1 : Hungary
 Area-slat   : 45.74
 Area-nlat   : 48.58
 Area-llon   : 16.11
@@ -3014,7 +3019,7 @@ Description : Kuwait PWD
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Kuwait - onshore
+Area-name-1 : Kuwait - onshore
 Area-slat   : 28.53
 Area-nlat   : 30.09
 Area-llon   : 46.54
@@ -3039,7 +3044,7 @@ Description : KOC Well Datum
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Kuwait - onshore
+Area-name-1 : Kuwait - onshore
 Area-slat   : 28.53
 Area-nlat   : 30.09
 Area-llon   : 46.54
@@ -3064,7 +3069,7 @@ Description : KOC Construction Datum
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Kuwait - onshore
+Area-name-1 : Kuwait - onshore
 Area-slat   : 28.53
 Area-nlat   : 30.09
 Area-llon   : 46.54
@@ -3089,7 +3094,7 @@ Description : NGC 1948
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : France - Corsica onshore
+Area-name-1 : France - Corsica onshore
 Area-slat   : 41.31
 Area-nlat   : 43.07
 Area-llon   : 8.5
@@ -3114,7 +3119,7 @@ Description : Danger 1950
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : St Pierre and Miquelon - onshore
+Area-name-1 : St Pierre and Miquelon - onshore
 Area-slat   : 46.69
 Area-nlat   : 47.19
 Area-llon   : -56.48
@@ -3139,7 +3144,7 @@ Description : Mayotte 1950
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Mayotte - onshore
+Area-name-1 : Mayotte - onshore
 Area-slat   : -13.05
 Area-nlat   : -12.61
 Area-llon   : 44.98
@@ -3164,7 +3169,7 @@ Description : Martinique 1950
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Martinique - onshore
+Area-name-1 : Martinique - onshore
 Area-slat   : 14.35
 Area-nlat   : 14.93
 Area-llon   : -61.29
@@ -3189,7 +3194,7 @@ Description : Guadeloupe 1951
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Guadeloupe - Grande-Terre and Basse-Terre - onshore
+Area-name-1 : Guadeloupe - Grande-Terre and Basse-Terre - onshore
 Area-slat   : 15.88
 Area-nlat   : 16.55
 Area-llon   : -61.85
@@ -3214,7 +3219,7 @@ Description : Lagos 1955
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Nigeria - onshore
+Area-name-1 : Nigeria - onshore
 Area-slat   : 4.22
 Area-nlat   : 13.9
 Area-llon   : 2.69
@@ -3239,7 +3244,7 @@ Description : AIOC95 height
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Azerbaijan - offshore and Sangachal
+Area-name-1 : Azerbaijan - offshore and Sangachal
 Area-slat   : 37.89
 Area-nlat   : 42.59
 Area-llon   : 48.66
@@ -3264,7 +3269,7 @@ Description : EGM84 height
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3289,7 +3294,7 @@ Description : DVR90 height (ensemble)
 Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
-Area-name   : Denmark - onshore
+Area-name-1 : Denmark - onshore
 Area-slat   : 54.5
 Area-nlat   : 57.81
 Area-llon   : 7.98
@@ -3314,7 +3319,7 @@ Description : Instantaneous Water Level height
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3339,7 +3344,7 @@ Description : Instantaneous Water Level depth
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3364,7 +3369,7 @@ Description : Ras Ghumays height
 Authority   : EPSG
 Version     : 8.6.3(10.4.0)
 Deprecated  : no
-Area-name   : UAE - Abu Dhabi - onshore
+Area-name-1 : UAE - Abu Dhabi - onshore
 Area-slat   : 22.63
 Area-nlat   : 24.95
 Area-llon   : 51.56
@@ -3389,7 +3394,7 @@ Description : LAT depth
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3414,7 +3419,7 @@ Description : LLWLT depth
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3439,7 +3444,7 @@ Description : ISLW depth
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3464,7 +3469,7 @@ Description : MLLWS depth
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3489,7 +3494,7 @@ Description : MLWS depth
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3514,7 +3519,7 @@ Description : MLLW depth
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3539,7 +3544,7 @@ Description : MLW depth
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3564,7 +3569,7 @@ Description : MHW height
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3589,7 +3594,7 @@ Description : MHHW height
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3614,7 +3619,7 @@ Description : MHWS height
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3639,7 +3644,7 @@ Description : HHWLT height
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3664,7 +3669,7 @@ Description : HAT height
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3689,7 +3694,7 @@ Description : LW depth
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3714,7 +3719,7 @@ Description : HW height
 Authority   : EPSG
 Version     : 7.12(10.2.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -3741,7 +3746,7 @@ Description : NN2000 height
 Authority   : EPSG
 Version     : 8.1.1(10.2.0)
 Deprecated  : no
-Area-name   : Norway - onshore
+Area-name-1 : Norway - onshore
 Area-slat   : 57.9
 Area-nlat   : 71.24
 Area-llon   : 4.39
@@ -3768,7 +3773,7 @@ Description : GCVD54 height (Intl Feet)
 Authority   : EPSG
 Version     : 8.1.2(10.2.1)
 Deprecated  : no
-Area-name   : Cayman Islands - Grand Cayman
+Area-name-1 : Cayman Islands - Grand Cayman
 Area-slat   : 19.21
 Area-nlat   : 19.41
 Area-llon   : -81.46
@@ -3793,7 +3798,7 @@ Description : LCVD61 height (Intl Feet)
 Authority   : EPSG
 Version     : 8.1.2(10.2.1)
 Deprecated  : no
-Area-name   : Cayman Islands - Little Cayman
+Area-name-1 : Cayman Islands - Little Cayman
 Area-slat   : 19.63
 Area-nlat   : 19.74
 Area-llon   : -80.14
@@ -3818,7 +3823,7 @@ Description : CBVD61 height (Intl Feet)
 Authority   : EPSG
 Version     : 8.1.2(10.2.1)
 Deprecated  : no
-Area-name   : Cayman Islands - Cayman Brac
+Area-name-1 : Cayman Islands - Cayman Brac
 Area-slat   : 19.66
 Area-nlat   : 19.78
 Area-llon   : -79.92
@@ -3843,7 +3848,7 @@ Description : Cais da Pontinha - Funchal height
 Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
-Area-name   : Portugal - Madeira and Desertas islands onshore
+Area-name-1 : Portugal - Madeira and Desertas islands onshore
 Area-slat   : 32.35
 Area-nlat   : 32.93
 Area-llon   : -17.31
@@ -3868,7 +3873,7 @@ Description : Cais da Vila - Porto Santo height
 Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
-Area-name   : Portugal - Porto Santo island onshore
+Area-name-1 : Portugal - Porto Santo island onshore
 Area-slat   : 32.96
 Area-nlat   : 33.15
 Area-llon   : -16.44
@@ -3893,7 +3898,7 @@ Description : Cais das Velas height
 Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
-Area-name   : Portugal - Azores C - S Jorge onshore
+Area-name-1 : Portugal - Azores C - S Jorge onshore
 Area-slat   : 38.48
 Area-nlat   : 38.8
 Area-llon   : -28.37
@@ -3918,7 +3923,7 @@ Description : Horta height
 Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
-Area-name   : Portugal - Azores C - Faial onshore
+Area-name-1 : Portugal - Azores C - Faial onshore
 Area-slat   : 38.46
 Area-nlat   : 38.7
 Area-llon   : -28.9
@@ -3943,7 +3948,7 @@ Description : Cais da Madalena height
 Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
-Area-name   : Portugal - Azores C - Pico onshore
+Area-name-1 : Portugal - Azores C - Pico onshore
 Area-slat   : 38.32
 Area-nlat   : 38.61
 Area-llon   : -28.61
@@ -3968,7 +3973,7 @@ Description : Santa Cruz da Graciosa height
 Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
-Area-name   : Portugal - Azores C - Graciosa onshore
+Area-name-1 : Portugal - Azores C - Graciosa onshore
 Area-slat   : 38.97
 Area-nlat   : 39.14
 Area-llon   : -28.13
@@ -3993,7 +3998,7 @@ Description : Cais da Figueirinha - Angra do Heroismo height
 Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
-Area-name   : Portugal - Azores C - Terceira onshore
+Area-name-1 : Portugal - Azores C - Terceira onshore
 Area-slat   : 38.57
 Area-nlat   : 38.86
 Area-llon   : -27.44
@@ -4018,7 +4023,7 @@ Description : Santa Cruz das Flores height
 Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
-Area-name   : Portugal - Azores W - onshore
+Area-name-1 : Portugal - Azores W - onshore
 Area-slat   : 39.3
 Area-nlat   : 39.77
 Area-llon   : -31.34
@@ -4043,7 +4048,7 @@ Description : Cais da Vila do Porto height
 Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
-Area-name   : Portugal - Azores E onshore - Santa Maria and Formigas
+Area-name-1 : Portugal - Azores E onshore - Santa Maria and Formigas
 Area-slat   : 36.87
 Area-nlat   : 37.34
 Area-llon   : -25.26
@@ -4068,7 +4073,7 @@ Description : Ponta Delgada height
 Authority   : EPSG
 Version     : 8.2(10.2.1)
 Deprecated  : no
-Area-name   : Portugal - Azores E - S Miguel onshore
+Area-name-1 : Portugal - Azores E - S Miguel onshore
 Area-slat   : 37.65
 Area-nlat   : 37.96
 Area-llon   : -25.92
@@ -4093,7 +4098,7 @@ Description : NAVD88 depth (Meters)
 Authority   : EPSG
 Version     : 8.2.7(10.3.1)
 Deprecated  : no
-Area-name   : North America - Mexico and USA - onshore
+Area-name-1 : North America - Mexico and USA - onshore
 Area-slat   : 14.51
 Area-nlat   : 71.4
 Area-llon   : 172.42
@@ -4118,7 +4123,7 @@ Description : NAVD88 depth (US Feet)
 Authority   : EPSG
 Version     : 8.2.7(10.3.1)
 Deprecated  : no
-Area-name   : USA - CONUS and Alaska - onshore
+Area-name-1 : USA - CONUS and Alaska - onshore
 Area-slat   : 24.41
 Area-nlat   : 71.4
 Area-llon   : -168.26
@@ -4143,11 +4148,16 @@ Description : NGVD29 depth (US Feet)
 Authority   : EPSG
 Version     : 8.2.7(10.3.1)
 Deprecated  : no
-Area-name   : USA - CONUS - onshore
+Area-name-1 : USA - CONUS - onshore
 Area-slat   : 24.41
 Area-nlat   : 49.38
 Area-llon   : -124.79
 Area-rlon   : -66.91
+Area-name-2 : USA - Alaska
+Area-slat   : 51.3
+Area-nlat   : 71.4
+Area-llon   : 172.42
+Area-rlon   : -129.99
 
 WKID        : 6360
 Latest-WKID : 6360
@@ -4168,7 +4178,7 @@ Description : NAVD88 height (US Feet)
 Authority   : EPSG
 Version     : 8.2.7(10.5.1)
 Deprecated  : no
-Area-name   : USA - CONUS and Alaska - onshore
+Area-name-1 : USA - CONUS and Alaska - onshore
 Area-slat   : 24.41
 Area-nlat   : 71.4
 Area-llon   : -168.26
@@ -4193,7 +4203,7 @@ Description : Tutuila 1962 height
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
 Deprecated  : no
-Area-name   : American Samoa - Tutuila island
+Area-name-1 : American Samoa - Tutuila island
 Area-slat   : -14.43
 Area-nlat   : -14.2
 Area-llon   : -170.88
@@ -4218,7 +4228,7 @@ Description : Guam 1963 height
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
 Deprecated  : no
-Area-name   : Guam - onshore
+Area-name-1 : Guam - onshore
 Area-slat   : 13.18
 Area-nlat   : 13.7
 Area-llon   : 144.58
@@ -4243,7 +4253,7 @@ Description : NMVD03 height
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
 Deprecated  : no
-Area-name   : Northern Mariana Islands - Rota, Saipan and Tinian
+Area-name-1 : Northern Mariana Islands - Rota, Saipan and Tinian
 Area-slat   : 14.06
 Area-nlat   : 15.35
 Area-llon   : 145.06
@@ -4268,7 +4278,7 @@ Description : PRVD02 height
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
 Deprecated  : no
-Area-name   : Puerto Rico - onshore
+Area-name-1 : Puerto Rico - onshore
 Area-slat   : 17.87
 Area-nlat   : 18.57
 Area-llon   : -67.97
@@ -4293,7 +4303,7 @@ Description : VIVD09 height
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
 Deprecated  : no
-Area-name   : Virgin Islands, US - onshore
+Area-name-1 : Virgin Islands, US - onshore
 Area-slat   : 17.62
 Area-nlat   : 18.44
 Area-llon   : -65.09
@@ -4318,7 +4328,7 @@ Description : ASVD02 height
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
 Deprecated  : no
-Area-name   : American Samoa - Tutuila island
+Area-name-1 : American Samoa - Tutuila island
 Area-slat   : -14.43
 Area-nlat   : -14.2
 Area-llon   : -170.88
@@ -4343,7 +4353,7 @@ Description : GUVD04 height
 Authority   : EPSG
 Version     : 8.2.10(10.3.1)
 Deprecated  : no
-Area-name   : Guam - onshore
+Area-name-1 : Guam - onshore
 Area-slat   : 13.18
 Area-nlat   : 13.7
 Area-llon   : 144.58
@@ -4368,7 +4378,7 @@ Description : CGVD2013 height
 Authority   : EPSG
 Version     : 8.3.3(10.3.1)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -4393,7 +4403,7 @@ Description : JSLD72 height
 Authority   : EPSG
 Version     : 8.4(10.3.1)
 Deprecated  : no
-Area-name   : Japan - onshore - Hokkaido
+Area-name-1 : Japan - onshore - Hokkaido
 Area-slat   : 41.34
 Area-nlat   : 45.54
 Area-llon   : 139.7
@@ -4418,7 +4428,7 @@ Description : Japanese Geodetic Datum 2000 (vertical) height
 Authority   : EPSG
 Version     : 8.4(10.3.1)
 Deprecated  : no
-Area-name   : Japan - onshore mainland
+Area-name-1 : Japan - onshore mainland
 Area-slat   : 30.94
 Area-nlat   : 45.54
 Area-llon   : 129.3
@@ -4443,7 +4453,7 @@ Description : Japanese Geodetic Datum 2011 (vertical) height
 Authority   : EPSG
 Version     : 8.4(10.3.1)
 Deprecated  : no
-Area-name   : Japan - onshore mainland
+Area-name-1 : Japan - onshore mainland
 Area-slat   : 30.94
 Area-nlat   : 45.54
 Area-llon   : 129.3
@@ -4468,7 +4478,7 @@ Description : SHD height
 Authority   : EPSG
 Version     : 8.5.1(10.3.1)
 Deprecated  : no
-Area-name   : Singapore
+Area-name-1 : Singapore
 Area-slat   : 1.13
 Area-nlat   : 1.47
 Area-llon   : 103.59
@@ -4493,7 +4503,7 @@ Description : Famagusta 1960 height
 Authority   : EPSG
 Version     : 8.8(10.5.0)
 Deprecated  : no
-Area-name   : Cyprus - onshore
+Area-name-1 : Cyprus - onshore
 Area-slat   : 34.59
 Area-nlat   : 35.74
 Area-llon   : 32.2
@@ -4518,7 +4528,7 @@ Description : PNG08 height
 Authority   : EPSG
 Version     : 8.8(10.5.0)
 Deprecated  : no
-Area-name   : Papua New Guinea - 0~N to 12~S and 140~E to 158~E
+Area-name-1 : Papua New Guinea - 0~N to 12~S and 140~E to 158~E
 Area-slat   : -12.0
 Area-nlat   : 0.01
 Area-llon   : 140.0
@@ -4543,7 +4553,7 @@ Description : Kumul 34 height
 Authority   : EPSG
 Version     : 8.8(10.5.0)
 Deprecated  : no
-Area-name   : Papua New Guinea - PFTB
+Area-name-1 : Papua New Guinea - PFTB
 Area-slat   : -8.28
 Area-nlat   : -5.59
 Area-llon   : 142.24
@@ -4568,7 +4578,7 @@ Description : Kiunga height
 Authority   : EPSG
 Version     : 8.8(10.5.0)
 Deprecated  : no
-Area-name   : Papua New Guinea - onshore south of 5~S and west of 144~E
+Area-name-1 : Papua New Guinea - onshore south of 5~S and west of 144~E
 Area-slat   : -9.35
 Area-nlat   : -5.0
 Area-llon   : 140.85
@@ -4593,7 +4603,7 @@ Description : DHHN12 height
 Authority   : EPSG
 Version     : 8.8.1(10.5.0)
 Deprecated  : no
-Area-name   : Germany - onshore
+Area-name-1 : Germany - onshore
 Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
@@ -4618,7 +4628,7 @@ Description : Latvia 2000 height
 Authority   : EPSG
 Version     : 8.8.1(10.5.0)
 Deprecated  : no
-Area-name   : Latvia - onshore
+Area-name-1 : Latvia - onshore
 Area-slat   : 55.67
 Area-nlat   : 58.09
 Area-llon   : 20.87
@@ -4643,7 +4653,7 @@ Description : ODN (Offshore) height
 Authority   : EPSG
 Version     : 8.9.3(10.5.0)
 Deprecated  : no
-Area-name   : UK - offshore 49~45'N to 61~N, 9~W to 2~E
+Area-name-1 : UK - offshore 49~45'N to 61~N, 9~W to 2~E
 Area-slat   : 49.75
 Area-nlat   : 61.01
 Area-llon   : -9.01
@@ -4668,8 +4678,7 @@ Description : POM96 height
 Authority   : EPSG
 Version     : 9.0(10.6.0)
 Deprecated  : no
-Area-name   : Papua New Guinea - onshore - Central province and Gulf province
-              east of 144~E
+Area-name-1 : Papua New Guinea - onshore - Central province and Gulf province east of 144~E
 Area-slat   : -10.42
 Area-nlat   : -6.67
 Area-llon   : 144.4
@@ -4694,7 +4703,7 @@ Description : DHHN2016 height
 Authority   : EPSG
 Version     : 8.9.4(10.5.0)
 Deprecated  : no
-Area-name   : Germany
+Area-name-1 : Germany
 Area-slat   : 47.27
 Area-nlat   : 55.92
 Area-llon   : 3.34
@@ -4719,7 +4728,7 @@ Description : NZVD2016 height
 Authority   : EPSG
 Version     : 9.0(10.6.0)
 Deprecated  : no
-Area-name   : New Zealand
+Area-name-1 : New Zealand
 Area-slat   : -55.95
 Area-nlat   : -25.88
 Area-llon   : 160.6
@@ -4744,8 +4753,7 @@ Description : POM08 height
 Authority   : EPSG
 Version     : 9.0(10.6.0)
 Deprecated  : no
-Area-name   : Papua New Guinea - onshore - Central province and Gulf province
-              east of 144~E
+Area-name-1 : Papua New Guinea - onshore - Central province and Gulf province east of 144~E
 Area-slat   : -10.42
 Area-nlat   : -6.67
 Area-llon   : 144.4
@@ -4770,7 +4778,7 @@ Description : Jamestown 1971 height
 Authority   : EPSG
 Version     : 9.0(10.6.0)
 Deprecated  : no
-Area-name   : St Helena - St Helena Island
+Area-name-1 : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
@@ -4795,7 +4803,7 @@ Description : St. Helena Tritan 2011 height
 Authority   : EPSG
 Version     : 9.0(10.6.0)
 Deprecated  : no
-Area-name   : St Helena - St Helena Island
+Area-name-1 : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
@@ -4820,7 +4828,7 @@ Description : SHVD2015 height
 Authority   : EPSG
 Version     : 9.0(10.6.0)
 Deprecated  : no
-Area-name   : St Helena - St Helena Island
+Area-name-1 : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
@@ -4845,7 +4853,7 @@ Description : Poolbeg height (Meters)
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : Europe - Ireland (Republic and Ulster) - onshore
+Area-name-1 : Europe - Ireland (Republic and Ulster) - onshore
 Area-slat   : 51.39
 Area-nlat   : 55.43
 Area-llon   : -10.56
@@ -4870,11 +4878,16 @@ Description : NGVD29 height (Meters)
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : USA - CONUS - onshore
+Area-name-1 : USA - CONUS - onshore
 Area-slat   : 24.41
 Area-nlat   : 49.38
 Area-llon   : -124.79
 Area-rlon   : -66.91
+Area-name-2 : USA - Alaska
+Area-slat   : 51.3
+Area-nlat   : 71.4
+Area-llon   : 172.42
+Area-rlon   : -129.99
 
 WKID        : 7976
 Latest-WKID : 7976
@@ -4895,7 +4908,7 @@ Description : HKPD depth
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : Hong Kong - onshore
+Area-name-1 : Hong Kong - onshore
 Area-slat   : 22.19
 Area-nlat   : 22.56
 Area-llon   : 113.82
@@ -4920,7 +4933,7 @@ Description : KOC WD height
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : Kuwait - onshore
+Area-name-1 : Kuwait - onshore
 Area-slat   : 28.53
 Area-nlat   : 30.09
 Area-llon   : 46.54
@@ -4945,7 +4958,7 @@ Description : MSL height (Intl Feet)
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -4970,7 +4983,7 @@ Description : MSL depth (Intl Feet)
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -4995,7 +5008,7 @@ Description : MSL height (US Feet)
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : USA
+Area-name-1 : USA
 Area-slat   : 15.56
 Area-nlat   : 74.71
 Area-llon   : 167.65
@@ -5020,7 +5033,7 @@ Description : MSL depth (US Feet)
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : USA
+Area-name-1 : USA
 Area-slat   : 15.56
 Area-nlat   : 74.71
 Area-llon   : 167.65
@@ -5045,10 +5058,10 @@ Description : ISN2004 height
 Authority   : EPSG
 Version     : 9.1(10.6.0)
 Deprecated  : no
-Area-name   : Iceland - onshore
+Area-name-1 : Iceland - onshore
 Area-slat   : 63.24
-Area-nlat   : 66.62
-Area-llon   : -24.66
+Area-nlat   : 66.63
+Area-llon   : -24.63
 Area-rlon   : -13.38
 
 WKID        : 8228
@@ -5070,7 +5083,7 @@ Description : NAVD88 height (Intl Feet)
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : USA - onshore - AZ MI MT ND OR SC
+Area-name-1 : USA - onshore - AZ MI MT ND OR SC
 Area-slat   : 31.33
 Area-nlat   : 49.01
 Area-llon   : -124.6
@@ -5095,7 +5108,7 @@ Description : GVR2000 height
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : Greenland - 59~N to 84~N
+Area-name-1 : Greenland - 59~N to 84~N
 Area-slat   : 59.0
 Area-nlat   : 84.01
 Area-llon   : -75.0
@@ -5120,7 +5133,7 @@ Description : GVR2016 height
 Authority   : EPSG
 Version     : 9.2(10.8.0)
 Deprecated  : no
-Area-name   : Greenland - 58~N to 85~N
+Area-name-1 : Greenland - 58~N to 85~N
 Area-slat   : 58.0
 Area-nlat   : 85.01
 Area-llon   : -75.0
@@ -5145,7 +5158,7 @@ Description : Baltic 1957 height
 Authority   : EPSG
 Version     : 9.2.2(10.8.0)
 Deprecated  : no
-Area-name   : Europe - Czechoslovakia
+Area-name-1 : Europe - Czechoslovakia
 Area-slat   : 47.73
 Area-nlat   : 51.06
 Area-llon   : 12.09
@@ -5170,7 +5183,7 @@ Description : Baltic 1957 depth
 Authority   : EPSG
 Version     : 9.2.2(10.8.0)
 Deprecated  : no
-Area-name   : Europe - Czechoslovakia
+Area-name-1 : Europe - Czechoslovakia
 Area-slat   : 47.73
 Area-nlat   : 51.06
 Area-llon   : 12.09
@@ -5195,7 +5208,7 @@ Description : Macao height
 Authority   : EPSG
 Version     : 9.2.2(10.8.0)
 Deprecated  : no
-Area-name   : Macao
+Area-name-1 : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -5220,7 +5233,7 @@ Description : N43 height
 Authority   : EPSG
 Version     : 9.4(10.8.0)
 Deprecated  : no
-Area-name   : Finland - mainland south of 66~N
+Area-name-1 : Finland - mainland south of 66~N
 Area-slat   : 59.75
 Area-nlat   : 66.73
 Area-llon   : 20.95
@@ -5245,7 +5258,7 @@ Description : SVS2010
 Authority   : EPSG
 Version     : 9.5(10.7.1)
 Deprecated  : no
-Area-name   : Slovenia - onshore
+Area-name-1 : Slovenia - onshore
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
@@ -5270,7 +5283,7 @@ Description : SRB_VRS12 height
 Authority   : EPSG
 Version     : 9.5(10.8.0)
 Deprecated  : no
-Area-name   : Serbia
+Area-name-1 : Serbia
 Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
@@ -5295,7 +5308,7 @@ Description : MVGC height
 Authority   : EPSG
 Version     : 9.5(10.8.0)
 Deprecated  : no
-Area-name   : Saudi Arabia - onshore
+Area-name-1 : Saudi Arabia - onshore
 Area-slat   : 16.37
 Area-nlat   : 32.16
 Area-llon   : 34.51
@@ -5320,7 +5333,7 @@ Description : Vienna height
 Authority   : EPSG
 Version     : 9.8.11(12.7.0)
 Deprecated  : no
-Area-name   : Austria - Vienna
+Area-name-1 : Austria - Vienna
 Area-slat   : 48.12
 Area-nlat   : 48.34
 Area-llon   : 16.18
@@ -5345,7 +5358,7 @@ Description : TWVD 2001 height
 Authority   : EPSG
 Version     : 9.6.1(10.8.0)
 Deprecated  : no
-Area-name   : Taiwan - onshore - mainland
+Area-name-1 : Taiwan - onshore - mainland
 Area-slat   : 21.87
 Area-nlat   : 25.34
 Area-llon   : 119.99
@@ -5370,7 +5383,7 @@ Description : DACR52 height
 Authority   : EPSG
 Version     : 9.6.1(10.8.0)
 Deprecated  : no
-Area-name   : Costa Rica - onshore
+Area-name-1 : Costa Rica - onshore
 Area-slat   : 7.98
 Area-nlat   : 11.22
 Area-llon   : -85.97
@@ -5395,7 +5408,7 @@ Description : IGN 2008 LD height
 Authority   : EPSG
 Version     : 9.7(10.8.0)
 Deprecated  : no
-Area-name   : Guadeloupe - La Desirade - onshore
+Area-name-1 : Guadeloupe - La Desirade - onshore
 Area-slat   : 16.26
 Area-nlat   : 16.38
 Area-llon   : -61.13
@@ -5421,7 +5434,7 @@ Description : CGVD2013a(2010) height
 Authority   : EPSG
 Version     : 9.8.4(12.6.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -5446,7 +5459,7 @@ Description : SRVN16 height
 Authority   : EPSG
 Version     : 9.8.5(12.6.0)
 Deprecated  : no
-Area-name   : Argentina - onshore
+Area-name-1 : Argentina - onshore
 Area-slat   : -55.11
 Area-nlat   : -21.78
 Area-llon   : -73.59
@@ -5471,7 +5484,7 @@ Description : EVRF2000 Austria height
 Authority   : EPSG
 Version     : 9.8.5(12.6.0)
 Deprecated  : no
-Area-name   : Austria
+Area-name-1 : Austria
 Area-slat   : 46.4
 Area-nlat   : 49.02
 Area-llon   : 9.53
@@ -5496,7 +5509,7 @@ Description : SA LLD height
 Authority   : EPSG
 Version     : 9.8.5(12.6.0)
 Deprecated  : no
-Area-name   : South Africa - onshore
+Area-name-1 : South Africa - onshore
 Area-slat   : -34.88
 Area-nlat   : -22.13
 Area-llon   : 16.45
@@ -5517,15 +5530,15 @@ WKT2        : VERTCRS["LAT_NL_depth",
                AXIS["Gravity-related height (H)", down,
                 LENGTHUNIT["Meter", 1.0]],
                ID["EPSG", "9287"]]
-Description : LAT NL depth
+Description : LAT-NLD depth
 Authority   : EPSG
 Version     : 9.9(12.9.0)
 Deprecated  : no
-Area-name   : Netherlands - offshore
-Area-slat   : 51.44
+Area-name-1 : Netherlands - offshore and nearshore
+Area-slat   : 51.32
 Area-nlat   : 55.77
 Area-llon   : 2.53
-Area-rlon   : 6.37
+Area-rlon   : 7.21
 
 WKID        : 9288
 Latest-WKID : 9288
@@ -5542,15 +5555,15 @@ WKT2        : VERTCRS["MSL_NL_depth",
                AXIS["Gravity-related height (H)", down,
                 LENGTHUNIT["Meter", 1.0]],
                ID["EPSG", "9288"]]
-Description : MSL NL depth
+Description : MSL-NLD depth
 Authority   : EPSG
 Version     : 9.9(12.9.0)
 Deprecated  : no
-Area-name   : Netherlands - offshore
-Area-slat   : 51.44
+Area-name-1 : Netherlands - offshore and nearshore
+Area-slat   : 51.32
 Area-nlat   : 55.77
 Area-llon   : 2.53
-Area-rlon   : 6.37
+Area-rlon   : 7.21
 
 WKID        : 9303
 Latest-WKID : 9303
@@ -5571,7 +5584,7 @@ Description : HS2-VRF height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : UK - London to Birmingham and Crewe
+Area-name-1 : UK - London to Birmingham and Crewe
 Area-slat   : 51.45
 Area-nlat   : 53.3
 Area-llon   : -2.75
@@ -5596,7 +5609,7 @@ Description : KSA-VRF14 height
 Authority   : EPSG
 Version     : 9.8.5(12.6.0)
 Deprecated  : no
-Area-name   : Saudi Arabia - onshore
+Area-name-1 : Saudi Arabia - onshore
 Area-slat   : 16.37
 Area-nlat   : 32.16
 Area-llon   : 34.51
@@ -5621,8 +5634,7 @@ Description : NGNC08 height
 Authority   : EPSG
 Version     : 9.8.11(12.7.0)
 Deprecated  : no
-Area-name   : New Caledonia - Belep, Grande Terre, Ile des Pins, Loyalty
-              Islands
+Area-name-1 : New Caledonia - Belep, Grande Terre, Ile des Pins, Loyalty Islands
 Area-slat   : -22.73
 Area-nlat   : -19.5
 Area-llon   : 163.54
@@ -5647,7 +5659,7 @@ Description : EVRF 2019 height
 Authority   : EPSG
 Version     : 9.8.14(12.9.0)
 Deprecated  : no
-Area-name   : Europe - EVRF2019
+Area-name-1 : Europe - EVRF2019
 Area-slat   : 35.95
 Area-nlat   : 77.07
 Area-llon   : -9.56
@@ -5672,7 +5684,7 @@ Description : EVRF 2019 mean-tide height
 Authority   : EPSG
 Version     : 9.8.14(12.9.0)
 Deprecated  : no
-Area-name   : Europe - EVRF2019
+Area-name-1 : Europe - EVRF2019
 Area-slat   : 35.95
 Area-nlat   : 77.07
 Area-llon   : -9.56
@@ -5697,7 +5709,7 @@ Description : Mallorca height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Balearic Islands - Mallorca
+Area-name-1 : Spain - Balearic Islands - Mallorca
 Area-slat   : 39.07
 Area-nlat   : 40.02
 Area-llon   : 2.23
@@ -5722,7 +5734,7 @@ Description : Menorca height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Balearic Islands - Menorca
+Area-name-1 : Spain - Balearic Islands - Menorca
 Area-slat   : 39.75
 Area-nlat   : 40.15
 Area-llon   : 3.73
@@ -5747,7 +5759,7 @@ Description : Ibiza height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Balearic Islands - Ibiza
+Area-name-1 : Spain - Balearic Islands - Ibiza
 Area-slat   : 38.77
 Area-nlat   : 39.17
 Area-llon   : 1.12
@@ -5772,7 +5784,7 @@ Description : Lanzarote height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Canary Islands - Lanzarote
+Area-name-1 : Spain - Canary Islands - Lanzarote
 Area-slat   : 28.78
 Area-nlat   : 29.47
 Area-llon   : -13.95
@@ -5797,7 +5809,7 @@ Description : Fuerteventura height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Canary Islands - Fuerteventura
+Area-name-1 : Spain - Canary Islands - Fuerteventura
 Area-slat   : 27.99
 Area-nlat   : 28.81
 Area-llon   : -14.58
@@ -5822,7 +5834,7 @@ Description : Gran Canaria height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Canary Islands - Gran Canaria
+Area-name-1 : Spain - Canary Islands - Gran Canaria
 Area-slat   : 27.68
 Area-nlat   : 28.23
 Area-llon   : -15.88
@@ -5847,7 +5859,7 @@ Description : Tenerife height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Canary Islands - Tenerife
+Area-name-1 : Spain - Canary Islands - Tenerife
 Area-slat   : 27.93
 Area-nlat   : 28.63
 Area-llon   : -16.96
@@ -5872,7 +5884,7 @@ Description : La Gomera height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Canary Islands - La Gomera
+Area-name-1 : Spain - Canary Islands - La Gomera
 Area-slat   : 27.95
 Area-nlat   : 28.26
 Area-llon   : -17.39
@@ -5897,7 +5909,7 @@ Description : La Palma height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Canary Islands - La Palma
+Area-name-1 : Spain - Canary Islands - La Palma
 Area-slat   : 28.4
 Area-nlat   : 28.9
 Area-llon   : -18.06
@@ -5922,7 +5934,7 @@ Description : El Hierro height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Canary Islands - El Hierro
+Area-name-1 : Spain - Canary Islands - El Hierro
 Area-slat   : 27.58
 Area-nlat   : 27.9
 Area-llon   : -18.22
@@ -5947,8 +5959,8 @@ Description : Ceuta 2 height
 Authority   : EPSG
 Version     : 9.8.13(12.9.0)
 Deprecated  : no
-Area-name   : Spain - Ceuta
-Area-slat   : 35.82
+Area-name-1 : Spain - Ceuta
+Area-slat   : 35.84
 Area-nlat   : 35.97
 Area-llon   : -5.4
 Area-rlon   : -5.24
@@ -5972,7 +5984,7 @@ Description : British Isles height (ensemble)
 Authority   : EPSG
 Version     : 9.9(12.9.0)
 Deprecated  : no
-Area-name   : Europe - British Isles - UK and Ireland onshore, UKCS
+Area-name-1 : Europe - British Isles - UK and Ireland onshore, UKCS
 Area-slat   : 49.75
 Area-nlat   : 61.01
 Area-llon   : -10.85
@@ -5997,7 +6009,7 @@ Description : AVWS height
 Authority   : EPSG
 Version     : 9.9(12.9.0)
 Deprecated  : no
-Area-name   : Australia - GDA
+Area-name-1 : Australia - GDA
 Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
@@ -6022,7 +6034,7 @@ Description : INAGeoid2020 height
 Authority   : EPSG
 Version     : 9.9(12.9.0)
 Deprecated  : no
-Area-name   : Indonesia
+Area-name-1 : Indonesia
 Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
@@ -6047,7 +6059,7 @@ Description : Baltic 1986 height
 Authority   : EPSG
 Version     : 10.016(12.9.0)
 Deprecated  : no
-Area-name   : Poland - onshore
+Area-name-1 : Poland - onshore
 Area-slat   : 49.0
 Area-nlat   : 54.89
 Area-llon   : 14.14
@@ -6068,11 +6080,11 @@ WKT2        : VERTCRS["EVRF_2007_PL_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["EPSG", "9651"]]
-Description : EVRF2007-PL height
+Description : PL-EVRF2007 height
 Authority   : EPSG
 Version     : 10.016(12.9.0)
 Deprecated  : no
-Area-name   : Poland - onshore
+Area-name-1 : Poland - onshore
 Area-slat   : 49.0
 Area-nlat   : 54.89
 Area-llon   : 14.14
@@ -6097,7 +6109,7 @@ Description : EH2000 height
 Authority   : EPSG
 Version     : 10.013(12.8.0)
 Deprecated  : no
-Area-name   : Estonia - onshore
+Area-name-1 : Estonia - onshore
 Area-slat   : 57.52
 Area-nlat   : 59.75
 Area-llon   : 21.74
@@ -6122,7 +6134,7 @@ Description : LAS07 height
 Authority   : EPSG
 Version     : 10.013(12.9.0)
 Deprecated  : no
-Area-name   : Lithuania - onshore
+Area-name-1 : Lithuania - onshore
 Area-slat   : 53.89
 Area-nlat   : 56.45
 Area-llon   : 20.86
@@ -6147,7 +6159,7 @@ Description : BGS2005 height
 Authority   : EPSG
 Version     : 10.013(12.9.0)
 Deprecated  : no
-Area-name   : Bulgaria - onshore
+Area-name-1 : Bulgaria - onshore
 Area-slat   : 41.24
 Area-nlat   : 44.23
 Area-llon   : 22.36
@@ -6172,7 +6184,7 @@ Description : CD Norway depth
 Authority   : EPSG
 Version     : 10.009(12.9.0)
 Deprecated  : no
-Area-name   : Norway, Svalbard and Jan Mayen - offshore
+Area-name-1 : Norway, Svalbard and Jan Mayen - offshore
 Area-slat   : 56.08
 Area-nlat   : 84.73
 Area-llon   : -13.63
@@ -6197,7 +6209,7 @@ Description : Pago Pago 2020 height
 Authority   : EPSG
 Version     : 10.008(12.9.0)
 Deprecated  : no
-Area-name   : American Samoa - Tutuila island
+Area-name-1 : American Samoa - Tutuila island
 Area-slat   : -14.43
 Area-nlat   : -14.2
 Area-llon   : -170.88
@@ -6222,7 +6234,7 @@ Description : NVD 1992 height
 Authority   : EPSG
 Version     : 10.009(12.9.0)
 Deprecated  : no
-Area-name   : Bangladesh - onshore
+Area-name-1 : Bangladesh - onshore
 Area-slat   : 20.52
 Area-nlat   : 26.64
 Area-llon   : 88.01
@@ -6247,7 +6259,7 @@ Description : Catania 1965 height
 Authority   : EPSG
 Version     : 10.021(12.9.0)
 Deprecated  : no
-Area-name   : Italy - Sicily onshore
+Area-name-1 : Italy - Sicily onshore
 Area-slat   : 36.59
 Area-nlat   : 38.35
 Area-llon   : 12.36
@@ -6272,7 +6284,7 @@ Description : Cagliari 1956 height
 Authority   : EPSG
 Version     : 10.021(12.9.0)
 Deprecated  : no
-Area-name   : Italy - Sardinia onshore
+Area-name-1 : Italy - Sardinia onshore
 Area-slat   : 38.82
 Area-nlat   : 41.31
 Area-llon   : 8.08
@@ -6297,7 +6309,7 @@ Description : GNTRANS height
 Authority   : EPSG
 Version     : 10.042(13.1.0)
 Deprecated  : no
-Area-name   : Germany - onshore
+Area-name-1 : Germany - onshore
 Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
@@ -6322,7 +6334,7 @@ Description : GNTRANS2016 height
 Authority   : EPSG
 Version     : 10.042(13.1.0)
 Deprecated  : no
-Area-name   : Germany - onshore
+Area-name-1 : Germany - onshore
 Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
@@ -6347,7 +6359,7 @@ Description : MSL UK and Ireland VORF08 depth
 Authority   : EPSG
 Version     : 10.077(13.2.0)
 Deprecated  : no
-Area-name   : Europe - Ireland and UK offshore
+Area-name-1 : Europe - Ireland and UK offshore
 Area-slat   : 47.42
 Area-nlat   : 63.89
 Area-llon   : -16.1
@@ -6372,7 +6384,7 @@ Description : CD UK and Ireland VORF08 depth
 Authority   : EPSG
 Version     : 10.077(13.2.0)
 Deprecated  : no
-Area-name   : Europe - Ireland and UK offshore
+Area-name-1 : Europe - Ireland and UK offshore
 Area-slat   : 47.42
 Area-nlat   : 63.89
 Area-llon   : -16.1
@@ -6397,7 +6409,7 @@ Description : NGA 2022 height
 Authority   : EPSG
 Version     : 10.083(13.2.0)
 Deprecated  : no
-Area-name   : Algeria - onshore
+Area-name-1 : Algeria - onshore
 Area-slat   : 18.97
 Area-nlat   : 37.14
 Area-llon   : -8.67
@@ -6422,7 +6434,7 @@ Description : ZH Portugal depth
 Authority   : EPSG
 Version     : 10.094(13.2.0)
 Deprecated  : no
-Area-name   : Portugal - offshore
+Area-name-1 : Portugal - offshore
 Area-slat   : 29.24
 Area-nlat   : 43.07
 Area-llon   : -35.58
@@ -6447,7 +6459,7 @@ Description : Formentera height
 Authority   : EPSG
 Version     : 10.091(13.2.0)
 Deprecated  : no
-Area-name   : Spain - Balearic Islands - Formentera
+Area-name-1 : Spain - Balearic Islands - Formentera
 Area-slat   : 38.59
 Area-nlat   : 38.86
 Area-llon   : 1.31
@@ -6472,7 +6484,7 @@ Description : Alboran height
 Authority   : EPSG
 Version     : 10.091(13.2.0)
 Deprecated  : no
-Area-name   : Spain - Alboran
+Area-name-1 : Spain - Alboran
 Area-slat   : 35.88
 Area-nlat   : 36.0
 Area-llon   : -3.1
@@ -6497,7 +6509,7 @@ Description : Melilla height
 Authority   : EPSG
 Version     : 10.091(13.2.0)
 Deprecated  : no
-Area-name   : Spain - Melilla
+Area-name-1 : Spain - Melilla
 Area-slat   : 35.26
 Area-nlat   : 35.38
 Area-llon   : -2.98
@@ -6522,7 +6534,7 @@ Description : DVR90(2000) height
 Authority   : EPSG
 Version     : 11.001(13.4.0)
 Deprecated  : no
-Area-name   : Denmark - onshore
+Area-name-1 : Denmark - onshore
 Area-slat   : 54.5
 Area-nlat   : 57.81
 Area-llon   : 7.98
@@ -6547,7 +6559,7 @@ Description : DVR90(2002) height
 Authority   : EPSG
 Version     : 11.001(13.4.0)
 Deprecated  : no
-Area-name   : Denmark - onshore
+Area-name-1 : Denmark - onshore
 Area-slat   : 54.5
 Area-nlat   : 57.81
 Area-llon   : 7.98
@@ -6572,7 +6584,7 @@ Description : DVR90(2013) height
 Authority   : EPSG
 Version     : 11.001(13.4.0)
 Deprecated  : no
-Area-name   : Denmark - onshore
+Area-name-1 : Denmark - onshore
 Area-slat   : 54.5
 Area-nlat   : 57.81
 Area-llon   : 7.98
@@ -6597,7 +6609,7 @@ Description : DVR90(2023) height
 Authority   : EPSG
 Version     : 11.001(13.4.0)
 Deprecated  : no
-Area-name   : Denmark - onshore
+Area-name-1 : Denmark - onshore
 Area-slat   : 54.5
 Area-nlat   : 57.81
 Area-llon   : 7.98
@@ -6622,7 +6634,7 @@ Description : DKMSL(2022) depth
 Authority   : EPSG
 Version     : 11.006(13.4.0)
 Deprecated  : no
-Area-name   : Denmark - offshore
+Area-name-1 : Denmark - offshore
 Area-slat   : 54.36
 Area-nlat   : 58.27
 Area-llon   : 3.25
@@ -6647,7 +6659,7 @@ Description : DKLAT(2022) depth
 Authority   : EPSG
 Version     : 11.006(13.4.0)
 Deprecated  : no
-Area-name   : Denmark - offshore
+Area-name-1 : Denmark - offshore
 Area-slat   : 54.36
 Area-nlat   : 58.27
 Area-llon   : 3.25
@@ -6672,7 +6684,7 @@ Description : DKMSL(2023) depth
 Authority   : EPSG
 Version     : 11.006(13.4.0)
 Deprecated  : no
-Area-name   : Denmark - offshore
+Area-name-1 : Denmark - offshore
 Area-slat   : 54.36
 Area-nlat   : 58.27
 Area-llon   : 3.25
@@ -6697,7 +6709,7 @@ Description : DKLAT(2023) depth
 Authority   : EPSG
 Version     : 11.006(13.4.0)
 Deprecated  : no
-Area-name   : Denmark - offshore
+Area-name-1 : Denmark - offshore
 Area-slat   : 54.36
 Area-nlat   : 58.27
 Area-llon   : 3.25
@@ -6722,7 +6734,7 @@ Description : DKMSL depth (ensemble)
 Authority   : EPSG
 Version     : 11.006(13.4.0)
 Deprecated  : no
-Area-name   : Denmark - offshore
+Area-name-1 : Denmark - offshore
 Area-slat   : 54.36
 Area-nlat   : 58.27
 Area-llon   : 3.25
@@ -6747,7 +6759,7 @@ Description : DKLAT depth (ensemble)
 Authority   : EPSG
 Version     : 11.006(13.4.0)
 Deprecated  : no
-Area-name   : Denmark - offshore
+Area-name-1 : Denmark - offshore
 Area-slat   : 54.36
 Area-nlat   : 58.27
 Area-llon   : 3.25
@@ -6772,7 +6784,7 @@ Description : GLLMSL(2022) height
 Authority   : EPSG
 Version     : 11.006(13.4.0)
 Deprecated  : no
-Area-name   : Greenland - onshore
+Area-name-1 : Greenland - onshore
 Area-slat   : 59.74
 Area-nlat   : 83.67
 Area-llon   : -73.29
@@ -6798,7 +6810,7 @@ Description : CGVD28(HTv2.0) height
 Authority   : EPSG
 Version     : 11.018(13.5.0)
 Deprecated  : no
-Area-name   : Canada - CGVD28(HTv2.0)
+Area-name-1 : Canada - CGVD28(HTv2.0)
 Area-slat   : 41.0
 Area-nlat   : 84.0
 Area-llon   : -141.01
@@ -6823,7 +6835,7 @@ Description : Saba height
 Authority   : EPSG
 Version     : 11.023(13.5.0)
 Deprecated  : no
-Area-name   : BES Islands - Saba onshore
+Area-name-1 : BES Islands - Saba onshore
 Area-slat   : 17.56
 Area-nlat   : 17.71
 Area-llon   : -63.31
@@ -6848,7 +6860,7 @@ Description : GLMSL(2023) depth
 Authority   : EPSG
 Version     : 11.013(13.4.0)
 Deprecated  : no
-Area-name   : Greenland - offshore
+Area-name-1 : Greenland - offshore
 Area-slat   : 56.38
 Area-nlat   : 87.03
 Area-llon   : -75.0
@@ -6873,7 +6885,7 @@ Description : GLLAT(2023) depth
 Authority   : EPSG
 Version     : 11.013(13.4.0)
 Deprecated  : no
-Area-name   : Greenland - offshore
+Area-name-1 : Greenland - offshore
 Area-slat   : 56.38
 Area-nlat   : 87.03
 Area-llon   : -75.0
@@ -6898,7 +6910,7 @@ Description : BSCD2000 depth
 Authority   : EPSG
 Version     : 11.018(13.5.0)
 Deprecated  : no
-Area-name   : Europe - Baltic Sea
+Area-name-1 : Europe - Baltic Sea
 Area-slat   : 53.88
 Area-nlat   : 65.92
 Area-llon   : 8.5
@@ -6923,7 +6935,7 @@ Description : Sint Eustatius height
 Authority   : EPSG
 Version     : 11.029(13.5.0)
 Deprecated  : no
-Area-name   : BES Islands - Sint Eustatius - onshore
+Area-name-1 : BES Islands - Sint Eustatius - onshore
 Area-slat   : 17.41
 Area-nlat   : 17.58
 Area-llon   : -63.05
@@ -6948,7 +6960,7 @@ Description : Bonaire height
 Authority   : EPSG
 Version     : 11.029(13.5.0)
 Deprecated  : no
-Area-name   : BES Islands - Bonaire onshore
+Area-name-1 : BES Islands - Bonaire onshore
 Area-slat   : 11.97
 Area-nlat   : 12.36
 Area-llon   : -68.47
@@ -6973,7 +6985,7 @@ Description : Asse 2025 height
 Authority   : EPSG
 Version     : 12.015(13.6.0)
 Deprecated  : no
-Area-name   : Germany - Lower Saxony - Asse
+Area-name-1 : Germany - Lower Saxony - Asse
 Area-slat   : 52.11
 Area-nlat   : 52.16
 Area-llon   : 10.6
@@ -6998,11 +7010,86 @@ Description : COH88 2025 (NAVD88) height
 Authority   : EPSG
 Version     : 12.016(13.6.0)
 Deprecated  : no
-Area-name   : USA - California
+Area-name-1 : USA - California
 Area-slat   : 32.53
 Area-nlat   : 42.01
 Area-llon   : -124.45
 Area-rlon   : -114.12
+
+WKID        : 10989
+Latest-WKID : 10989
+Macro       : PE_VCS_LONDON_SURVEY_GRID_HEIGHT
+Name        : London_Survey_Grid_height
+WKT         : VERTCS["London_Survey_Grid_height",
+               VDATUM["London_Survey_Grid_height_datum"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["London_Survey_Grid_height",
+               VDATUM["London_Survey_Grid_height_datum"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "10989"]]
+Description : London Survey Grid height
+Authority   : EPSG
+Version     : 12.031(13.7.0)
+Deprecated  : no
+Area-name-1 : UK - Greater London
+Area-slat   : 51.1
+Area-nlat   : 52.0
+Area-llon   : -1.33
+Area-rlon   : 0.8
+
+WKID        : 10999
+Latest-WKID : 10999
+Macro       : PE_VCS_SVD2024_HEIGHT
+Name        : SVD2024_height
+WKT         : VERTCS["SVD2024_height",
+               VDATUM["Svalbard_vertical_datum_2024"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["SVD2024_height",
+               VDATUM["Svalbard_vertical_datum_2024"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "10999"]]
+Description : SVD2024 height
+Authority   : EPSG
+Version     : 12.022(13.7.0)
+Deprecated  : no
+Area-name-1 : Svalbard
+Area-slat   : 74.3208
+Area-nlat   : 81.8504
+Area-llon   : 6.49005
+Area-rlon   : 33.50985
+
+WKID        : 11157
+Latest-WKID : 11157
+Macro       : PE_VCS_IGN_2023_MAYOTTE_HEIGHT
+Name        : IGN_2023_Mayotte_height
+WKT         : VERTCS["IGN_2023_Mayotte_height",
+               VDATUM["IGN_2023_Mayotte"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["IGN_2023_Mayotte_height",
+               VDATUM["IGN_2023_Mayotte"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "11157"]]
+Description : IGN 2023 Mayotte height
+Authority   : EPSG
+Version     : 12.028(13.7.0)
+Deprecated  : no
+Area-name-1 : Mayotte - onshore
+Area-slat   : -13.05
+Area-nlat   : -12.61
+Area-llon   : 44.98
+Area-rlon   : 45.35
 
 WKID        : 20000
 Latest-WKID : 20000
@@ -7023,7 +7110,7 @@ Description : SVD2006 height
 Authority   : EPSG
 Version     : 10.063(13.1.0)
 Deprecated  : no
-Area-name   : Arctic - 81~10'N to 76~10'N, 4~W to 38~E
+Area-name-1 : Arctic - 81~10'N to 76~10'N, 4~W to 38~E
 Area-slat   : 76.16
 Area-nlat   : 81.17
 Area-llon   : -3.35
@@ -7049,7 +7136,7 @@ Description : CGVD2013a(2002) height
 Authority   : EPSG
 Version     : 10.066(13.1.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -7075,7 +7162,7 @@ Description : CGVD2013a(1997) height
 Authority   : EPSG
 Version     : 10.066(13.1.0)
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -7100,7 +7187,7 @@ Description : INAGeoid2020 v2 height
 Authority   : EPSG
 Version     : 10.073(13.1.0)
 Deprecated  : no
-Area-name   : Indonesia
+Area-name-1 : Indonesia
 Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
@@ -7125,7 +7212,7 @@ Description : HVD height
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : Greece
+Area-name-1 : Greece
 Area-slat   : 33.26
 Area-nlat   : 41.75
 Area-llon   : 18.26
@@ -7152,7 +7239,7 @@ Description : BBT2000
 Authority   : Esri
 Version     : 13.3.0
 Deprecated  : no
-Area-name   : Europe - Brenner
+Area-name-1 : Europe - Brenner
 Area-slat   : 46.45
 Area-nlat   : 47.33
 Area-llon   : 11.04
@@ -7177,8 +7264,8 @@ Description : REDNAP height
 Authority   : Esri
 Version     : 10.3.1
 Deprecated  : no
-Area-name   : Spain - mainland and Balearic Islands onshore
-Area-slat   : 35.26
+Area-name-1 : Spain - mainland and Balearic Islands onshore
+Area-slat   : 35.84
 Area-nlat   : 43.82
 Area-llon   : -9.37
 Area-rlon   : 4.39
@@ -7202,11 +7289,121 @@ Description : Japanese Geodetic Datum 2024 (vertical) height
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : Japan - onshore
+Area-name-1 : Japan - onshore
 Area-slat   : 20.37
 Area-nlat   : 45.54
 Area-llon   : 122.83
 Area-rlon   : 154.05
+
+WKID        : 105605
+Latest-WKID : 105605
+Macro       : PE_VCS_XRAIL84
+Name        : Xrail84
+WKT         : VERTCS["Xrail84",
+               DATUM["D_Xrail84",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Xrail84",
+               DATUM["D_Xrail84",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105605"]]
+Description : Xrail84
+Authority   : Esri
+Version     : 13.7.0
+Deprecated  : no
+Area-name-1 : UK - Greater London
+Area-slat   : 51.1
+Area-nlat   : 52.0
+Area-llon   : -1.33
+Area-rlon   : 0.8
+
+WKID        : 105606
+Latest-WKID : 105606
+Macro       : PE_VCS_SRGI2013_EPOCH_2021
+Name        : SRGI2013_epoch_2021.0
+WKT         : VERTCS["SRGI2013_epoch_2021.0",
+               DATUM["Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0",
+                SPHEROID["WGS_1984", 6378137.0, 298.257223563]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["SRGI2013_epoch_2021.0",
+               DATUM["Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0",
+                ELLIPSOID["WGS_1984", 6378137.0, 298.257223563],
+                ANCHOREPOCH[2021.0]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105606"]]
+Description : SRGI2013 epoch 2021.0
+Authority   : Esri
+Version     : 13.7.0
+Deprecated  : no
+Area-name-1 : Indonesia
+Area-slat   : -13.95
+Area-nlat   : 7.79
+Area-llon   : 92.01
+Area-rlon   : 141.46
+
+WKID        : 105607
+Latest-WKID : 105607
+Macro       : PE_VCS_CR_SIRGAS_EPOCH_2019_24
+Name        : CR-SIRGAS_epoch_2019.24
+WKT         : VERTCS["CR-SIRGAS_epoch_2019.24",
+               DATUM["CR-SIRGAS_epoch_2019.24",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["CR-SIRGAS_epoch_2019.24",
+               DATUM["CR-SIRGAS_epoch_2019.24",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2019.24]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105607"]]
+Description : CR-SIRGAS epoch 2019.24
+Authority   : Esri
+Version     : 13.7.0
+Deprecated  : no
+Area-name-1 : Costa Rica
+Area-slat   : 2.15
+Area-nlat   : 11.77
+Area-llon   : -90.45
+Area-rlon   : -81.43
+
+WKID        : 105608
+Latest-WKID : 105608
+Macro       : PE_VCS_DRUKREF23
+Name        : DrukRef23
+WKT         : VERTCS["DrukRef23",
+               DATUM["National_Reference_Frame_of_Bhutan_2023",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["DrukRef23",
+               DATUM["National_Reference_Frame_of_Bhutan_2023",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105608"]]
+Description : DrukRef23
+Authority   : Esri
+Version     : 13.7.0
+Deprecated  : no
+Area-name-1 : Bhutan
+Area-slat   : 26.7
+Area-nlat   : 28.33
+Area-llon   : 88.74
+Area-rlon   : 92.13
 
 WKID        : 105700
 Latest-WKID : 105700
@@ -7227,7 +7424,7 @@ Description : WGS 1984 Geoid
 Authority   : Esri
 Version     : 9.3.0.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -7252,7 +7449,7 @@ Description : DVR90 height (ensemble)
 Authority   : Esri
 Version     : 9.3.0.0
 Deprecated  : codechange
-Area-name   : Denmark - onshore
+Area-name-1 : Denmark - onshore
 Area-slat   : 54.5
 Area-nlat   : 57.81
 Area-llon   : 7.98
@@ -7279,7 +7476,7 @@ Description : RH2000
 Authority   : Esri
 Version     : 9.3.0.0
 Deprecated  : codechange
-Area-name   : Sweden - onshore
+Area-name-1 : Sweden - onshore
 Area-slat   : 55.28
 Area-nlat   : 69.07
 Area-llon   : 10.93
@@ -7306,7 +7503,7 @@ Description : NAVD88 height (US Feet)
 Authority   : Esri
 Version     : 10.3.1
 Deprecated  : codechange
-Area-name   : USA - CONUS and Alaska - onshore
+Area-name-1 : USA - CONUS and Alaska - onshore
 Area-slat   : 24.41
 Area-nlat   : 71.4
 Area-llon   : -168.26
@@ -7331,7 +7528,7 @@ Description : LAS07 height
 Authority   : Esri
 Version     : 10.6.0
 Deprecated  : codechange
-Area-name   : Lithuania - onshore
+Area-name-1 : Lithuania - onshore
 Area-slat   : 53.89
 Area-nlat   : 56.45
 Area-llon   : 20.86
@@ -7356,7 +7553,7 @@ Description : EGM2008 height
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : codechange
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -7381,7 +7578,7 @@ Description : Fao 1979
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : codechange
-Area-name   : Iraq - onshore
+Area-name-1 : Iraq - onshore
 Area-slat   : 29.06
 Area-nlat   : 37.39
 Area-llon   : 38.79
@@ -7406,7 +7603,7 @@ Description : NZVD2009 height
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : codechange
-Area-name   : New Zealand
+Area-name-1 : New Zealand
 Area-slat   : -55.95
 Area-nlat   : -25.88
 Area-llon   : 160.6
@@ -7431,7 +7628,7 @@ Description : N2000 height
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : codechange
-Area-name   : Finland - onshore
+Area-name-1 : Finland - onshore
 Area-slat   : 59.75
 Area-nlat   : 70.09
 Area-llon   : 19.24
@@ -7456,7 +7653,7 @@ Description : Dunedin Bluff 1960 height
 Authority   : Esri
 Version     : 10.0.0
 Deprecated  : codechange
-Area-name   : New Zealand - South Island - Dunedin-Bluff vcrs
+Area-name-1 : New Zealand - South Island - Dunedin-Bluff vcrs
 Area-slat   : -46.73
 Area-nlat   : -44.52
 Area-llon   : 166.37
@@ -7481,7 +7678,7 @@ Description : MSL Hawaii height (Meters)
 Authority   : Esri
 Version     : 13.3.0
 Deprecated  : no
-Area-name   : USA - Hawaii - onshore
+Area-name-1 : USA - Hawaii - onshore
 Area-slat   : 18.87
 Area-nlat   : 22.29
 Area-llon   : -160.3
@@ -7506,7 +7703,7 @@ Description : MSL Hawaii height (US Feet)
 Authority   : Esri
 Version     : 13.3.0
 Deprecated  : no
-Area-name   : USA - Hawaii - onshore
+Area-name-1 : USA - Hawaii - onshore
 Area-slat   : 18.87
 Area-nlat   : 22.29
 Area-llon   : -160.3
@@ -7531,7 +7728,7 @@ Description : EGM96 height (Intl Feet)
 Authority   : Esri
 Version     : 13.3.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -7556,7 +7753,7 @@ Description : EGM96 height (US Feet)
 Authority   : Esri
 Version     : 13.3.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -7581,7 +7778,7 @@ Description : QVD height
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : Qatar - onshore
+Area-name-1 : Qatar - onshore
 Area-slat   : 24.55
 Area-nlat   : 26.2
 Area-llon   : 50.69
@@ -7610,7 +7807,7 @@ Description : WGS 1984
 Authority   : Esri
 Version     : 9.3.0.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -7637,7 +7834,7 @@ Description : ETRS 1989
 Authority   : Esri
 Version     : 9.3.0.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -7664,9 +7861,9 @@ Description : NAD 1983
 Authority   : Esri
 Version     : 9.3.0.0
 Deprecated  : no
-Area-name   : North America - NAD83
+Area-name-1 : North America - NAD83
 Area-slat   : 14.92
-Area-nlat   : 86.45
+Area-nlat   : 86.46
 Area-llon   : 167.65
 Area-rlon   : -40.73
 
@@ -7691,7 +7888,7 @@ Description : Australian Antarctic 1998
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Antarctica - Australian sector
+Area-name-1 : Antarctica - Australian sector
 Area-slat   : -90.0
 Area-nlat   : -60.0
 Area-llon   : 45.0
@@ -7718,7 +7915,7 @@ Description : Cadastre 1997
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Mayotte - onshore
+Area-name-1 : Mayotte - onshore
 Area-slat   : -13.05
 Area-nlat   : -12.61
 Area-llon   : 44.98
@@ -7745,7 +7942,7 @@ Description : China Geodetic Coordinate System 2000
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : China
+Area-name-1 : China
 Area-slat   : 16.7
 Area-nlat   : 53.56
 Area-llon   : 73.62
@@ -7772,7 +7969,7 @@ Description : Swiss TRF 1995
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Europe - Liechtenstein and Switzerland
+Area-name-1 : Europe - Liechtenstein and Switzerland
 Area-slat   : 45.81
 Area-nlat   : 47.81
 Area-llon   : 5.95
@@ -7799,7 +7996,7 @@ Description : CIGD11
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Cayman Islands
+Area-name-1 : Cayman Islands
 Area-slat   : 17.58
 Area-nlat   : 20.68
 Area-llon   : -83.6
@@ -7826,7 +8023,7 @@ Description : CR05
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Costa Rica
+Area-name-1 : Costa Rica
 Area-slat   : 2.15
 Area-nlat   : 11.77
 Area-llon   : -90.45
@@ -7853,7 +8050,7 @@ Description : DB_REF
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Germany - onshore
+Area-name-1 : Germany - onshore
 Area-slat   : 47.27
 Area-nlat   : 55.09
 Area-llon   : 5.86
@@ -7880,7 +8077,7 @@ Description : DGN 1995
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Indonesia
+Area-name-1 : Indonesia
 Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
@@ -7907,7 +8104,7 @@ Description : DRUKREF 03
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Bhutan
+Area-name-1 : Bhutan
 Area-slat   : 26.7
 Area-nlat   : 28.33
 Area-llon   : 88.74
@@ -7934,7 +8131,7 @@ Description : Estonia 1997
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Estonia
+Area-name-1 : Estonia
 Area-slat   : 57.52
 Area-nlat   : 60.0
 Area-llon   : 20.37
@@ -7962,7 +8159,7 @@ Description : EUREF-FIN
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Finland
+Area-name-1 : Finland
 Area-slat   : 58.84
 Area-nlat   : 70.09
 Area-llon   : 19.08
@@ -7989,7 +8186,7 @@ Description : FEH2010
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Europe - Fehmarnbelt outer
+Area-name-1 : Europe - Fehmarnbelt outer
 Area-slat   : 54.33
 Area-nlat   : 54.83
 Area-llon   : 10.66
@@ -8016,7 +8213,7 @@ Description : GDA 1994
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Australia - GDA
+Area-name-1 : Australia - GDA
 Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
@@ -8043,7 +8240,7 @@ Description : GDBD2009
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Brunei
+Area-name-1 : Brunei
 Area-slat   : 4.01
 Area-nlat   : 6.31
 Area-llon   : 112.37
@@ -8070,7 +8267,7 @@ Description : GDM 2000
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Malaysia
+Area-name-1 : Malaysia
 Area-slat   : 0.85
 Area-nlat   : 7.81
 Area-llon   : 98.02
@@ -8097,9 +8294,9 @@ Description : Greenland 1996
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Greenland
+Area-name-1 : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.02
+Area-nlat   : 87.03
 Area-llon   : -75.0
 Area-rlon   : 7.99
 
@@ -8124,7 +8321,7 @@ Description : Hartebeesthoek94
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Africa - South Africa, Lesotho and Eswatini.
+Area-name-1 : Africa - South Africa, Lesotho and Eswatini.
 Area-slat   : -50.32
 Area-nlat   : -22.13
 Area-llon   : 13.33
@@ -8151,7 +8348,7 @@ Description : IGD05
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Israel
+Area-name-1 : Israel
 Area-slat   : 29.45
 Area-nlat   : 33.53
 Area-llon   : 32.99
@@ -8178,7 +8375,7 @@ Description : IG05 Intermediate CRS
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Asia - Middle East - Israel and Palestine onshore
+Area-name-1 : Asia - Middle East - Israel and Palestine onshore
 Area-slat   : 29.45
 Area-nlat   : 33.28
 Area-llon   : 34.17
@@ -8205,7 +8402,7 @@ Description : IGD05(2012)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Israel
+Area-name-1 : Israel
 Area-slat   : 29.45
 Area-nlat   : 33.53
 Area-llon   : 32.99
@@ -8232,7 +8429,7 @@ Description : IG05(2012) Intermediate CRS
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Asia - Middle East - Israel and Palestine onshore
+Area-name-1 : Asia - Middle East - Israel and Palestine onshore
 Area-slat   : 29.45
 Area-nlat   : 33.28
 Area-llon   : 34.17
@@ -8259,7 +8456,7 @@ Description : IGM 1995
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Italy - including San Marino and Vatican
+Area-name-1 : Italy - including San Marino and Vatican
 Area-slat   : 34.76
 Area-nlat   : 47.1
 Area-llon   : 5.93
@@ -8286,7 +8483,7 @@ Description : IGRS
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Iraq
+Area-name-1 : Iraq
 Area-slat   : 29.06
 Area-nlat   : 37.39
 Area-llon   : 38.79
@@ -8313,7 +8510,7 @@ Description : IRENET95
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Europe - Ireland (Republic and Ulster) - onshore
+Area-name-1 : Europe - Ireland (Republic and Ulster) - onshore
 Area-slat   : 51.39
 Area-nlat   : 55.43
 Area-llon   : -10.56
@@ -8340,7 +8537,7 @@ Description : ISN 1993
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Iceland
+Area-name-1 : Iceland
 Area-slat   : 59.96
 Area-nlat   : 69.59
 Area-llon   : -30.87
@@ -8367,7 +8564,7 @@ Description : ISN 2004
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Iceland
+Area-name-1 : Iceland
 Area-slat   : 59.96
 Area-nlat   : 69.59
 Area-llon   : -30.87
@@ -8396,7 +8593,7 @@ Description : ITRF 1988
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -8425,7 +8622,7 @@ Description : ITRF 1989
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -8454,7 +8651,7 @@ Description : ITRF 1990
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -8483,7 +8680,7 @@ Description : ITRF 1991
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -8512,7 +8709,7 @@ Description : ITRF 1992
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -8529,8 +8726,7 @@ WKT         : VERTCS["ITRF_1993",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1993",
-               DYNAMIC[FRAMEEPOCH[1993.0],
-                MODEL["NNR-NUVEL1A"]],
+               DYNAMIC[FRAMEEPOCH[1993.0]],
                DATUM["D_ITRF_1993",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -8541,7 +8737,7 @@ Description : ITRF 1993
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -8558,7 +8754,8 @@ WKT         : VERTCS["ITRF_1996",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF_1996",
-               DYNAMIC[FRAMEEPOCH[1997.0]],
+               DYNAMIC[FRAMEEPOCH[1997.0],
+                MODEL["NNR-NUVEL1A"]],
                DATUM["D_ITRF_1996",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -8569,7 +8766,7 @@ Description : ITRF 1996
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -8598,7 +8795,7 @@ Description : ITRF 1997
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -8626,7 +8823,7 @@ Description : ITRF 2000
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -8655,7 +8852,7 @@ Description : ITRF 2005
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -8682,7 +8879,7 @@ Description : JAD 2001
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Jamaica
+Area-name-1 : Jamaica
 Area-slat   : 14.08
 Area-nlat   : 19.36
 Area-llon   : -80.6
@@ -8709,7 +8906,7 @@ Description : JGD 2000
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Japan
+Area-name-1 : Japan
 Area-slat   : 17.09
 Area-nlat   : 46.05
 Area-llon   : 122.38
@@ -8736,7 +8933,7 @@ Description : JGD 2011
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Japan
+Area-name-1 : Japan
 Area-slat   : 17.09
 Area-nlat   : 46.05
 Area-llon   : 122.38
@@ -8763,7 +8960,7 @@ Description : KGD2002
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : South Korea
+Area-name-1 : South Korea
 Area-slat   : 28.6
 Area-nlat   : 40.27
 Area-llon   : 122.71
@@ -8790,7 +8987,7 @@ Description : Lao 1997
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Laos
+Area-name-1 : Laos
 Area-slat   : 13.92
 Area-nlat   : 22.5
 Area-llon   : 100.09
@@ -8817,7 +9014,7 @@ Description : LGD2006
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Libya
+Area-name-1 : Libya
 Area-slat   : 19.5
 Area-nlat   : 35.23
 Area-llon   : 9.31
@@ -8844,7 +9041,7 @@ Description : LKS 1992
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Latvia
+Area-name-1 : Latvia
 Area-slat   : 55.67
 Area-nlat   : 58.09
 Area-llon   : 19.06
@@ -8871,7 +9068,7 @@ Description : LKS 1994
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Lithuania
+Area-name-1 : Lithuania
 Area-slat   : 53.89
 Area-nlat   : 56.45
 Area-llon   : 19.02
@@ -8898,7 +9095,7 @@ Description : Macao 2008
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Macao
+Area-name-1 : Macao
 Area-slat   : 22.06
 Area-nlat   : 22.23
 Area-llon   : 113.52
@@ -8925,7 +9122,7 @@ Description : MAGNA
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Colombia
+Area-name-1 : Colombia
 Area-slat   : -4.23
 Area-nlat   : 15.51
 Area-llon   : -84.77
@@ -8952,7 +9149,7 @@ Description : MARCARIO SOLIS
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Panama
+Area-name-1 : Panama
 Area-slat   : 5.0
 Area-nlat   : 12.51
 Area-llon   : -84.32
@@ -8979,7 +9176,7 @@ Description : MARGEN
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Bolivia
+Area-name-1 : Bolivia
 Area-slat   : -22.91
 Area-nlat   : -9.67
 Area-llon   : -69.66
@@ -9006,7 +9203,7 @@ Description : Mexico ITRF2008
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Mexico
+Area-name-1 : Mexico
 Area-slat   : 12.1
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -9033,7 +9230,7 @@ Description : MOLDREF99
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Moldova
+Area-name-1 : Moldova
 Area-slat   : 45.44
 Area-nlat   : 48.47
 Area-llon   : 26.63
@@ -9061,7 +9258,7 @@ Description : MONREF 1997
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Mongolia
+Area-name-1 : Mongolia
 Area-slat   : 41.58
 Area-nlat   : 52.15
 Area-llon   : 87.76
@@ -9088,7 +9285,7 @@ Description : Moznet
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Mozambique
+Area-name-1 : Mozambique
 Area-slat   : -27.71
 Area-nlat   : -10.09
 Area-llon   : 30.21
@@ -9105,8 +9302,6 @@ WKT         : VERTCS["NAD_1983_2011",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_2011",
-               DYNAMIC[FRAMEEPOCH[2010.0],
-                MODEL["HTDP"]],
                DATUM["D_NAD_1983_2011",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
                 ANCHOREPOCH[2010.0]],
@@ -9118,7 +9313,7 @@ Description : NAD 1983 (2011)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : USA - CONUS and Alaska; PRVI
+Area-name-1 : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
 Area-nlat   : 74.71
 Area-llon   : 167.65
@@ -9135,8 +9330,6 @@ WKT         : VERTCS["NAD_1983_CORS96",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_CORS96",
-               DYNAMIC[FRAMEEPOCH[1997.0],
-                MODEL["HTDP"]],
                DATUM["D_NAD_1983_CORS96",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -9147,7 +9340,7 @@ Description : NAD 1983 (CORS96)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : USA - CONUS and Alaska; PRVI
+Area-name-1 : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
 Area-nlat   : 74.71
 Area-llon   : 167.65
@@ -9174,7 +9367,7 @@ Description : NAD83(CSRS)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -9197,11 +9390,11 @@ WKT2        : VERTCRS["North_American_1983_HARN",
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115758"]]
-Description : NAD 1983 HARN
+Description : NAD 1983 (HARN)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : USA - HARN
+Area-name-1 : USA - HARN
 Area-slat   : -14.59
 Area-nlat   : 71.4
 Area-llon   : 144.58
@@ -9218,10 +9411,9 @@ WKT         : VERTCS["NAD_1983_MA11",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_MA11",
-               DYNAMIC[FRAMEEPOCH[2012.4467],
-                MODEL["HTDP"]],
                DATUM["D_NAD_1983_MA11",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2010.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
@@ -9230,7 +9422,7 @@ Description : NAD 1983 (MA11)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Pacific - US interests Mariana plate
+Area-name-1 : Pacific - US interests Mariana plate
 Area-slat   : 1.64
 Area-nlat   : 23.9
 Area-llon   : 129.48
@@ -9247,8 +9439,6 @@ WKT         : VERTCS["NAD_1983_MARP00",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_MARP00",
-               DYNAMIC[FRAMEEPOCH[1993.6205],
-                MODEL["HTDP"]],
                DATUM["D_NAD_1983_MARP00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -9259,7 +9449,7 @@ Description : NAD 1983 (MARP00)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Pacific - US interests Mariana plate
+Area-name-1 : Pacific - US interests Mariana plate
 Area-slat   : 1.64
 Area-nlat   : 23.9
 Area-llon   : 129.48
@@ -9286,7 +9476,7 @@ Description : NAD 1983 (NSRS2007)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : USA - CONUS and Alaska; PRVI
+Area-name-1 : USA - CONUS and Alaska; PRVI
 Area-slat   : 14.92
 Area-nlat   : 74.71
 Area-llon   : 167.65
@@ -9303,10 +9493,9 @@ WKT         : VERTCS["NAD_1983_PA11",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_PA11",
-               DYNAMIC[FRAMEEPOCH[2012.4467],
-                MODEL["HTDP"]],
                DATUM["D_NAD_1983_PA11",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2010.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
@@ -9315,7 +9504,7 @@ Description : NAD 1983 (PA11)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : NAD83 PA11 - US interests Pacific plate
+Area-name-1 : NAD83 PA11 - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
 Area-llon   : 151.3
@@ -9332,8 +9521,6 @@ WKT         : VERTCS["NAD_1983_PACP00",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["NAD_1983_PACP00",
-               DYNAMIC[FRAMEEPOCH[1993.6205],
-                MODEL["HTDP"]],
                DATUM["D_NAD_1983_PACP00",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -9344,7 +9531,7 @@ Description : NAD 1983 (PACP00)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Pacific - US interests Pacific plate
+Area-name-1 : Pacific - US interests Pacific plate
 Area-slat   : -17.56
 Area-nlat   : 31.8
 Area-llon   : 157.47
@@ -9371,7 +9558,7 @@ Description : Nepal Nagarkot
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Nepal
+Area-name-1 : Nepal
 Area-slat   : 26.34
 Area-nlat   : 30.43
 Area-llon   : 80.06
@@ -9398,7 +9585,7 @@ Description : NZGD2000
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : New Zealand
+Area-name-1 : New Zealand
 Area-slat   : -55.95
 Area-nlat   : -25.88
 Area-llon   : 160.6
@@ -9425,7 +9612,7 @@ Description : Peru96
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Peru
+Area-name-1 : Peru
 Area-slat   : -21.05
 Area-nlat   : -0.03
 Area-llon   : -84.68
@@ -9452,7 +9639,7 @@ Description : PNG94
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Papua New Guinea
+Area-name-1 : Papua New Guinea
 Area-slat   : -14.75
 Area-nlat   : 2.58
 Area-llon   : 139.2
@@ -9479,7 +9666,7 @@ Description : POSGAR ellipsoid height
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : yes
-Area-name   : Argentina
+Area-name-1 : Argentina
 Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
@@ -9506,7 +9693,7 @@ Description : POSGAR 1994
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Argentina
+Area-name-1 : Argentina
 Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
@@ -9533,7 +9720,7 @@ Description : POSGAR 1998
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Argentina
+Area-name-1 : Argentina
 Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
@@ -9560,7 +9747,7 @@ Description : PRS 1992
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Philippines
+Area-name-1 : Philippines
 Area-slat   : 3.0
 Area-nlat   : 22.18
 Area-llon   : 116.04
@@ -9587,7 +9774,7 @@ Description : PTRA08
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Portugal - Azores and Madeira
+Area-name-1 : Portugal - Azores and Madeira
 Area-slat   : 29.24
 Area-nlat   : 43.07
 Area-llon   : -35.58
@@ -9615,7 +9802,7 @@ Description : PZ 1990
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -9642,7 +9829,7 @@ Description : RDN2008
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Italy - including San Marino and Vatican
+Area-name-1 : Italy - including San Marino and Vatican
 Area-slat   : 34.76
 Area-nlat   : 47.1
 Area-llon   : 5.93
@@ -9669,7 +9856,7 @@ Description : REGCAN95
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Spain - Canary Islands
+Area-name-1 : Spain - Canary Islands
 Area-slat   : 24.6
 Area-nlat   : 32.76
 Area-llon   : -21.93
@@ -9696,7 +9883,7 @@ Description : REGVEN
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Venezuela
+Area-name-1 : Venezuela
 Area-slat   : 0.64
 Area-nlat   : 16.75
 Area-llon   : -73.38
@@ -9723,7 +9910,7 @@ Description : RGAF09
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Caribbean - French Antilles
+Area-name-1 : Caribbean - French Antilles
 Area-slat   : 14.08
 Area-nlat   : 18.54
 Area-llon   : -63.66
@@ -9750,7 +9937,7 @@ Description : RGF 1993
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : France
+Area-name-1 : France
 Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
@@ -9777,7 +9964,7 @@ Description : RGFG95
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : French Guiana
+Area-name-1 : French Guiana
 Area-slat   : 2.11
 Area-nlat   : 8.88
 Area-llon   : -54.61
@@ -9804,7 +9991,7 @@ Description : RGM04
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Mayotte
+Area-name-1 : Mayotte
 Area-slat   : -14.49
 Area-nlat   : -11.33
 Area-llon   : 43.68
@@ -9831,7 +10018,7 @@ Description : RGNC 1991
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : New Caledonia
+Area-name-1 : New Caledonia
 Area-slat   : -26.45
 Area-nlat   : -14.83
 Area-llon   : 156.25
@@ -9858,7 +10045,7 @@ Description : RGNC 1991-93
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : New Caledonia
+Area-name-1 : New Caledonia
 Area-slat   : -26.45
 Area-nlat   : -14.83
 Area-llon   : 156.25
@@ -9885,7 +10072,7 @@ Description : RGPF
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : French Polynesia
+Area-name-1 : French Polynesia
 Area-slat   : -31.24
 Area-nlat   : -4.52
 Area-llon   : -158.13
@@ -9912,7 +10099,7 @@ Description : RGR 1992
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Reunion
+Area-name-1 : Reunion
 Area-slat   : -24.72
 Area-nlat   : -18.28
 Area-llon   : 51.83
@@ -9939,7 +10126,7 @@ Description : RGRDC 2005
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Congo DR (Zaire) - south
+Area-name-1 : Congo DR (Zaire) - south
 Area-slat   : -13.46
 Area-nlat   : -3.41
 Area-llon   : 11.79
@@ -9966,7 +10153,7 @@ Description : RGSPM06
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : St Pierre and Miquelon
+Area-name-1 : St Pierre and Miquelon
 Area-slat   : 43.41
 Area-nlat   : 47.37
 Area-llon   : -57.1
@@ -9993,7 +10180,7 @@ Description : RRAF 1991
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Caribbean - French Antilles
+Area-name-1 : Caribbean - French Antilles
 Area-slat   : 14.08
 Area-nlat   : 18.54
 Area-llon   : -63.66
@@ -10020,7 +10207,7 @@ Description : RSRGD2000
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Antarctica - Ross Sea Region
+Area-name-1 : Antarctica - Ross Sea Region
 Area-slat   : -90.0
 Area-nlat   : -59.99
 Area-llon   : 144.99
@@ -10047,7 +10234,7 @@ Description : SIRGAS 2000
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Latin America - SIRGAS 2000 by country
+Area-name-1 : Latin America - SIRGAS 2000 by country
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -10058,13 +10245,13 @@ Latest-WKID : 115790
 Macro       : PE_VCS_SIRGAS_CHILE_2002
 Name        : SIRGAS-Chile_2002
 WKT         : VERTCS["SIRGAS-Chile_2002",
-               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
+               DATUM["SIRGAS-Chile_2002",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-Chile_2002",
-               DATUM["SIRGAS-Chile_realization_1_epoch_2002",
+               DATUM["SIRGAS-Chile_2002",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
@@ -10074,7 +10261,7 @@ Description : SIRGAS-Chile 2002
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -10101,7 +10288,7 @@ Description : SIRGAS_ES2007.8
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : El Salvador
+Area-name-1 : El Salvador
 Area-slat   : 9.97
 Area-nlat   : 14.44
 Area-llon   : -91.43
@@ -10128,7 +10315,7 @@ Description : SIRGAS-ROU98
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Uruguay
+Area-name-1 : Uruguay
 Area-slat   : -37.77
 Area-nlat   : -30.09
 Area-llon   : -58.49
@@ -10155,7 +10342,7 @@ Description : SLD99
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Sri Lanka - onshore
+Area-name-1 : Sri Lanka - onshore
 Area-slat   : 5.86
 Area-nlat   : 9.88
 Area-llon   : 79.64
@@ -10182,7 +10369,7 @@ Description : Slovenia 1996
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Slovenia
+Area-name-1 : Slovenia
 Area-slat   : 45.42
 Area-nlat   : 46.88
 Area-llon   : 13.38
@@ -10209,7 +10396,7 @@ Description : SREF98
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Serbia
+Area-name-1 : Serbia
 Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
@@ -10236,7 +10423,7 @@ Description : S-JTSK-05
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Czechia
+Area-name-1 : Czechia
 Area-slat   : 48.58
 Area-nlat   : 51.06
 Area-llon   : 12.09
@@ -10263,7 +10450,7 @@ Description : S-JTSK-05 (Ferro)
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Czechia
+Area-name-1 : Czechia
 Area-slat   : 48.58
 Area-nlat   : 51.06
 Area-llon   : 12.09
@@ -10290,7 +10477,7 @@ Description : SWEREF99
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Sweden
+Area-name-1 : Sweden
 Area-slat   : 54.96
 Area-nlat   : 69.07
 Area-llon   : 10.03
@@ -10317,7 +10504,7 @@ Description : TGD2005
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Tonga
+Area-name-1 : Tonga
 Area-slat   : -25.68
 Area-nlat   : -14.14
 Area-llon   : -179.08
@@ -10344,7 +10531,7 @@ Description : TWD 1997
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Taiwan
+Area-name-1 : Taiwan
 Area-slat   : 17.36
 Area-nlat   : 26.96
 Area-llon   : 114.32
@@ -10371,7 +10558,7 @@ Description : Ukraine 2000
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Ukraine
+Area-name-1 : Ukraine
 Area-slat   : 43.18
 Area-nlat   : 52.38
 Area-llon   : 22.15
@@ -10398,7 +10585,7 @@ Description : Yemen NGN 1996
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Yemen
+Area-name-1 : Yemen
 Area-slat   : 8.95
 Area-nlat   : 19.0
 Area-llon   : 41.08
@@ -10427,7 +10614,7 @@ Description : ITRF 2008
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10454,7 +10641,7 @@ Description : TUREF
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
-Area-name   : Turkey
+Area-name-1 : Turkey
 Area-slat   : 34.42
 Area-nlat   : 43.45
 Area-llon   : 25.62
@@ -10471,8 +10658,6 @@ WKT         : VERTCS["GDA2020",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["GDA2020",
-               DYNAMIC[FRAMEEPOCH[2020.0],
-                MODEL["GDA2020-PMM"]],
                DATUM["GDA2020",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -10483,7 +10668,7 @@ Description : GDA2020
 Authority   : Esri
 Version     : 10.5.0
 Deprecated  : no
-Area-name   : Australia - GDA
+Area-name-1 : Australia - GDA
 Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
@@ -10510,7 +10695,7 @@ Description : BGS2005
 Authority   : Esri
 Version     : 10.5.0
 Deprecated  : no
-Area-name   : Bulgaria
+Area-name-1 : Bulgaria
 Area-slat   : 41.24
 Area-nlat   : 44.23
 Area-llon   : 22.36
@@ -10535,7 +10720,7 @@ Description : Unknown height system (Meters)
 Authority   : Esri
 Version     : 10.5.1
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10560,7 +10745,7 @@ Description : Unknown height system (US Feet)
 Authority   : Esri
 Version     : 10.5.1
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10585,7 +10770,7 @@ Description : Unknown height system (Intl Feet)
 Authority   : Esri
 Version     : 10.5.1
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10614,7 +10799,7 @@ Description : ITRF 2014
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10641,7 +10826,7 @@ Description : SHGD2015
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : St Helena - St Helena Island
+Area-name-1 : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
@@ -10668,7 +10853,7 @@ Description : St. Helena Tritan
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : St Helena - St Helena Island
+Area-name-1 : St Helena - St Helena Island
 Area-slat   : -16.08
 Area-nlat   : -15.85
 Area-llon   : -5.85
@@ -10695,7 +10880,7 @@ Description : GSK-2011
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Russia
+Area-name-1 : Russia
 Area-slat   : 39.87
 Area-nlat   : 85.19
 Area-llon   : 18.92
@@ -10723,7 +10908,7 @@ Description : PZ-90.11
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10751,7 +10936,7 @@ Description : PZ-90.02
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10779,7 +10964,7 @@ Description : WGS 1984 (Transit)
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10808,7 +10993,7 @@ Description : WGS 1984 (G1762)
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10825,8 +11010,7 @@ WKT         : VERTCS["WGS_1984_(G1674)",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984_(G1674)",
-               DYNAMIC[FRAMEEPOCH[2007.5],
-                MODEL["ITRF2008-PMM"]],
+               DYNAMIC[FRAMEEPOCH[2005.0]],
                DATUM["World_Geodetic_System_1984_(G1674)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563]],
                CS[vertical, 1],
@@ -10837,7 +11021,7 @@ Description : WGS 1984 (G1674)
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10866,7 +11050,7 @@ Description : WGS 1984 (G1150)
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10895,7 +11079,7 @@ Description : WGS 1984 (G873)
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10912,7 +11096,8 @@ WKT         : VERTCS["WGS_1984_(G730)",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984_(G730)",
-               DYNAMIC[FRAMEEPOCH[1994.0]],
+               DYNAMIC[FRAMEEPOCH[1990.5],
+                MODEL["NNR-NUVEL1"]],
                DATUM["World_Geodetic_System_1984_(G730)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563]],
                CS[vertical, 1],
@@ -10923,7 +11108,7 @@ Description : WGS 1984 (G730)
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -10940,8 +11125,7 @@ WKT         : VERTCS["ETRF90",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF90",
-               DYNAMIC[FRAMEEPOCH[1989.0],
-                MODEL["AM0-2"]],
+               DYNAMIC[FRAMEEPOCH[1989.0]],
                DATUM["European_Terrestrial_Reference_Frame_1990",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -10952,7 +11136,7 @@ Description : ETRF90
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -10981,7 +11165,7 @@ Description : ETRF91
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -10998,8 +11182,7 @@ WKT         : VERTCS["ETRF92",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF92",
-               DYNAMIC[FRAMEEPOCH[1989.0],
-                MODEL["NNR-NUVEL1"]],
+               DYNAMIC[FRAMEEPOCH[1989.0]],
                DATUM["European_Terrestrial_Reference_Frame_1992",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -11010,7 +11193,7 @@ Description : ETRF92
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -11039,7 +11222,7 @@ Description : ETRF93
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -11068,7 +11251,7 @@ Description : ETRF94
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -11097,7 +11280,7 @@ Description : ETRF96
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -11114,8 +11297,7 @@ WKT         : VERTCS["ETRF97",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF97",
-               DYNAMIC[FRAMEEPOCH[1989.0],
-                MODEL["NNR-NUVEL1A"]],
+               DYNAMIC[FRAMEEPOCH[1989.0]],
                DATUM["European_Terrestrial_Reference_Frame_1997",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -11126,7 +11308,7 @@ Description : ETRF97
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -11155,7 +11337,7 @@ Description : ETRF2000
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -11182,7 +11364,7 @@ Description : NAD83(CSRS96)
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -11210,7 +11392,7 @@ Description : NAD83(CSRS)v2
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -11238,7 +11420,7 @@ Description : NAD83(CSRS)v3
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -11266,7 +11448,7 @@ Description : NAD83(CSRS)v4
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -11294,7 +11476,7 @@ Description : NAD83(CSRS)v5
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -11322,7 +11504,7 @@ Description : NAD83(CSRS)v6
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -11350,7 +11532,7 @@ Description : NAD83(CSRS)v7
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -11378,7 +11560,7 @@ Description : IGS14
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -11405,7 +11587,7 @@ Description : ISN2016
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Iceland
+Area-name-1 : Iceland
 Area-slat   : 59.96
 Area-nlat   : 69.59
 Area-llon   : -30.87
@@ -11432,7 +11614,7 @@ Description : Hong Kong Geodetic CS
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Hong Kong
+Area-name-1 : Hong Kong
 Area-slat   : 22.13
 Area-nlat   : 22.58
 Area-llon   : 113.76
@@ -11459,7 +11641,7 @@ Description : NAD 1983 (FBN)
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : USA - FBN
+Area-name-1 : USA - FBN
 Area-slat   : -14.59
 Area-nlat   : 49.38
 Area-llon   : 144.58
@@ -11486,7 +11668,7 @@ Description : NAD 1983 (HARN Corrected)
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Caribbean - Puerto Rico and US Virgin Islands - onshore
+Area-name-1 : Caribbean - Puerto Rico and US Virgin Islands - onshore
 Area-slat   : 17.62
 Area-nlat   : 18.57
 Area-llon   : -67.97
@@ -11513,7 +11695,7 @@ Description : SRB_ETRS89
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Serbia
+Area-name-1 : Serbia
 Area-slat   : 42.23
 Area-nlat   : 46.19
 Area-llon   : 18.81
@@ -11540,7 +11722,7 @@ Description : MTRF-2000
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Saudi Arabia
+Area-name-1 : Saudi Arabia
 Area-slat   : 16.29
 Area-nlat   : 32.16
 Area-llon   : 34.44
@@ -11564,11 +11746,11 @@ WKT2        : VERTCRS["California_SRS_Epoch_2017.50_(NAD83)",
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115844"]]
-Description : California SRS Epoch 2017.50 (NAD83)
+Description : California SRS epoch 2017.50 (NAD83)
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : USA - California and borders of NV, AZ, OR and MX
+Area-name-1 : USA - California and borders of NV, AZ, OR and MX
 Area-slat   : 32.25
 Area-nlat   : 42.53
 Area-llon   : -124.45
@@ -11595,7 +11777,7 @@ Description : GGD
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
-Area-name   : Georgia
+Area-name-1 : Georgia
 Area-slat   : 41.04
 Area-nlat   : 43.59
 Area-llon   : 38.97
@@ -11622,7 +11804,7 @@ Description : ONGD14
 Authority   : Esri
 Version     : 10.7.1
 Deprecated  : no
-Area-name   : Oman
+Area-name-1 : Oman
 Area-slat   : 14.33
 Area-nlat   : 26.74
 Area-llon   : 51.99
@@ -11649,7 +11831,7 @@ Description : ONGD17
 Authority   : Esri
 Version     : 10.7.1
 Deprecated  : no
-Area-name   : Oman
+Area-name-1 : Oman
 Area-slat   : 14.33
 Area-nlat   : 26.74
 Area-llon   : 51.99
@@ -11676,7 +11858,7 @@ Description : S-JTSK [JTSK03]
 Authority   : Esri
 Version     : 10.7.1
 Deprecated  : no
-Area-name   : Slovakia
+Area-name-1 : Slovakia
 Area-slat   : 47.73
 Area-nlat   : 49.61
 Area-llon   : 16.84
@@ -11703,7 +11885,7 @@ Description : CR-SIRGAS
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Costa Rica
+Area-name-1 : Costa Rica
 Area-slat   : 2.15
 Area-nlat   : 11.77
 Area-llon   : -90.45
@@ -11730,7 +11912,7 @@ Description : RGWF96
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Wallis and Futuna
+Area-name-1 : Wallis and Futuna
 Area-slat   : -15.94
 Area-nlat   : -9.84
 Area-llon   : 179.49
@@ -11758,7 +11940,7 @@ Description : SIRGAS-CON DGF00P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -11786,7 +11968,7 @@ Description : SIRGAS-CON DGF01P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -11814,7 +11996,7 @@ Description : SIRGAS-CON DGF01P02
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -11842,7 +12024,7 @@ Description : SIRGAS-CON DGF02P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -11870,7 +12052,7 @@ Description : SIRGAS-CON DGF04P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -11898,7 +12080,7 @@ Description : SIRGAS-CON DGF05P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -11926,7 +12108,7 @@ Description : SIRGAS-CON DGF06P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -11954,7 +12136,7 @@ Description : SIRGAS-CON DGF07P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -11982,7 +12164,7 @@ Description : SIRGAS-CON DGF08P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -12010,7 +12192,7 @@ Description : SIRGAS-CON SIR09P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -12038,7 +12220,7 @@ Description : SIRGAS-CON SIR10P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -12066,7 +12248,7 @@ Description : SIRGAS-CON SIR11P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -12094,7 +12276,7 @@ Description : SIRGAS-CON SIR13P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -12122,7 +12304,7 @@ Description : SIRGAS-CON SIR14P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -12150,7 +12332,7 @@ Description : SIRGAS-CON SIR15P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -12178,7 +12360,7 @@ Description : SIRGAS-CON SIR17P01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Latin America - Central America and South America
+Area-name-1 : Latin America - Central America and South America
 Area-slat   : -59.87
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -12206,7 +12388,7 @@ Description : IGS97
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -12234,7 +12416,7 @@ Description : IGS00
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -12262,7 +12444,7 @@ Description : IGb00
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -12290,7 +12472,7 @@ Description : IGS05
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -12318,7 +12500,7 @@ Description : IGb08
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -12345,7 +12527,7 @@ Description : KOSOVAREF01
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Kosovo
+Area-name-1 : Kosovo
 Area-slat   : 41.85
 Area-nlat   : 43.25
 Area-llon   : 19.97
@@ -12362,6 +12544,7 @@ WKT         : VERTCS["ETRF2005",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF2005",
+               DYNAMIC[FRAMEEPOCH[1989.0]],
                DATUM["European_Terrestrial_Reference_Frame_2005",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -12372,7 +12555,7 @@ Description : ETRF2005
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -12401,7 +12584,7 @@ Description : ETRF2014
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -12428,7 +12611,7 @@ Description : CH1903+
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : Europe - Liechtenstein and Switzerland
+Area-name-1 : Europe - Liechtenstein and Switzerland
 Area-slat   : 45.81
 Area-nlat   : 47.81
 Area-llon   : 5.95
@@ -12456,7 +12639,7 @@ Description : ATRF2014
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : Australia - GDA
+Area-name-1 : Australia - GDA
 Area-slat   : -60.55
 Area-nlat   : -8.47
 Area-llon   : 93.41
@@ -12483,7 +12666,7 @@ Description : Australian Geodetic Datum 1984
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : Australia - AGD84
+Area-name-1 : Australia - AGD84
 Area-slat   : -38.53
 Area-nlat   : -9.37
 Area-llon   : 109.23
@@ -12510,7 +12693,7 @@ Description : Australian Geodetic Datum 1966
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : Australasia - Australia and PNG - AGD66
+Area-name-1 : Australasia - Australia and PNG - AGD66
 Area-slat   : -47.2
 Area-nlat   : -1.3
 Area-llon   : 109.23
@@ -12539,7 +12722,7 @@ Description : ITRF 1994
 Authority   : Esri
 Version     : 13.0.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -12566,7 +12749,7 @@ Description : POSGAR 2007
 Authority   : Esri
 Version     : 13.1.0
 Deprecated  : no
-Area-name   : Argentina
+Area-name-1 : Argentina
 Area-slat   : -58.41
 Area-nlat   : -21.78
 Area-llon   : -73.59
@@ -12593,7 +12776,7 @@ Description : RGF93 v2
 Authority   : Esri
 Version     : 13.1.0
 Deprecated  : no
-Area-name   : France
+Area-name-1 : France
 Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
@@ -12620,7 +12803,7 @@ Description : RGF93 v2b
 Authority   : Esri
 Version     : 13.1.0
 Deprecated  : no
-Area-name   : France
+Area-name-1 : France
 Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
@@ -12648,7 +12831,7 @@ Description : ITRF 2020
 Authority   : Esri
 Version     : 13.1.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -12659,13 +12842,13 @@ Latest-WKID : 115884
 Macro       : PE_VCS_SIRGAS_CHILE_2021
 Name        : SIRGAS_Chile_2021_height
 WKT         : VERTCS["SIRGAS_Chile_2021_height",
-               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+               DATUM["SIRGAS-Chile_2021",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS_Chile_2021_height",
-               DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+               DATUM["SIRGAS-Chile_2021",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
@@ -12675,7 +12858,7 @@ Description : SIRGAS-Chile 2021
 Authority   : Esri
 Version     : 13.1.0
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -12704,7 +12887,7 @@ Description : WGS 1984 (G2139)
 Authority   : Esri
 Version     : 13.1.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -12731,7 +12914,7 @@ Description : LUREF
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Luxembourg
+Area-name-1 : Luxembourg
 Area-slat   : 49.44
 Area-nlat   : 50.19
 Area-llon   : 5.73
@@ -12758,7 +12941,7 @@ Description : Bermuda 2000
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Bermuda
+Area-name-1 : Bermuda
 Area-slat   : 28.91
 Area-nlat   : 35.73
 Area-llon   : -68.83
@@ -12785,7 +12968,7 @@ Description : CGRS 1993
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Cyprus - onshore
+Area-name-1 : Cyprus - onshore
 Area-slat   : 34.59
 Area-nlat   : 35.74
 Area-llon   : 32.2
@@ -12814,7 +12997,7 @@ Description : ETRF89
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -12841,7 +13024,7 @@ Description : ETRF2000-PL
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Poland
+Area-name-1 : Poland
 Area-slat   : 49.0
 Area-nlat   : 55.93
 Area-llon   : 14.14
@@ -12868,7 +13051,7 @@ Description : HTRS96
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Croatia
+Area-name-1 : Croatia
 Area-slat   : 41.62
 Area-nlat   : 46.54
 Area-llon   : 13.0
@@ -12896,7 +13079,7 @@ Description : IGb14
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -12925,7 +13108,7 @@ Description : IGS08
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -12952,7 +13135,7 @@ Description : KSA-GRF17
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Saudi Arabia
+Area-name-1 : Saudi Arabia
 Area-slat   : 16.29
 Area-nlat   : 32.16
 Area-llon   : 34.44
@@ -12979,7 +13162,7 @@ Description : Kyrg-06
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Kyrgyzstan
+Area-name-1 : Kyrgyzstan
 Area-slat   : 39.19
 Area-nlat   : 43.22
 Area-llon   : 69.24
@@ -13006,7 +13189,7 @@ Description : Lao 1993
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Laos
+Area-name-1 : Laos
 Area-slat   : 13.92
 Area-nlat   : 22.5
 Area-llon   : 100.09
@@ -13033,7 +13216,7 @@ Description : LTF2004(G)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Europe - Lyon-Turin
+Area-name-1 : Europe - Lyon-Turin
 Area-slat   : 44.87
 Area-nlat   : 45.89
 Area-llon   : 4.65
@@ -13060,7 +13243,7 @@ Description : Mauritania 1999
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Mauritania
+Area-name-1 : Mauritania
 Area-slat   : 14.72
 Area-nlat   : 27.3
 Area-llon   : -20.04
@@ -13088,7 +13271,7 @@ Description : REDGEOMIN
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -13115,7 +13298,7 @@ Description : RGTAAF07
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : French Southern and Antarctic Territories
+Area-name-1 : French Southern and Antarctic Territories
 Area-slat   : -67.13
 Area-nlat   : -20.91
 Area-llon   : 37.98
@@ -13142,7 +13325,7 @@ Description : RGTAAF07 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : French Southern and Antarctic Territories
+Area-name-1 : French Southern and Antarctic Territories
 Area-slat   : -67.13
 Area-nlat   : -20.91
 Area-llon   : 37.98
@@ -13169,7 +13352,7 @@ Description : RSAO13
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Angola
+Area-name-1 : Angola
 Area-slat   : -18.02
 Area-nlat   : -4.38
 Area-llon   : 8.2
@@ -13180,13 +13363,13 @@ Latest-WKID : 115903
 Macro       : PE_VCS_SIRGAS_CHILE_2010
 Name        : SIRGAS-Chile_2010
 WKT         : VERTCS["SIRGAS-Chile_2010",
-               DATUM["SIRGAS-Chile_realization_2_epoch_2010",
+               DATUM["SIRGAS-Chile_2010",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-Chile_2010",
-               DATUM["SIRGAS-Chile_realization_2_epoch_2010",
+               DATUM["SIRGAS-Chile_2010",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
@@ -13196,7 +13379,7 @@ Description : SIRGAS-Chile 2010
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -13207,13 +13390,13 @@ Latest-WKID : 115904
 Macro       : PE_VCS_SIRGAS_CHILE_2013
 Name        : SIRGAS-Chile_2013
 WKT         : VERTCS["SIRGAS-Chile_2013",
-               DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+               DATUM["SIRGAS-Chile_2013",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-Chile_2013",
-               DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+               DATUM["SIRGAS-Chile_2013",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
@@ -13223,7 +13406,7 @@ Description : SIRGAS-Chile 2013
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -13234,13 +13417,13 @@ Latest-WKID : 115905
 Macro       : PE_VCS_SIRGAS_CHILE_2016
 Name        : SIRGAS-Chile_2016
 WKT         : VERTCS["SIRGAS-Chile_2016",
-               DATUM["SIRGAS-Chile_realization_4_epoch_2016",
+               DATUM["SIRGAS-Chile_2016",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SIRGAS-Chile_2016",
-               DATUM["SIRGAS-Chile_realization_4_epoch_2016",
+               DATUM["SIRGAS-Chile_2016",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
@@ -13250,7 +13433,7 @@ Description : SIRGAS-Chile 2016
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Chile
+Area-name-1 : Chile
 Area-slat   : -59.87
 Area-nlat   : -17.5
 Area-llon   : -113.21
@@ -13278,7 +13461,7 @@ Description : SRGI2013
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Indonesia
+Area-name-1 : Indonesia
 Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
@@ -13306,7 +13489,7 @@ Description : WGS 1966
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -13334,7 +13517,7 @@ Description : WGS 1972
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -13362,7 +13545,7 @@ Description : WGS 1972 BE
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -13389,7 +13572,7 @@ Description : Mexican Datum of 1993
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Mexico
+Area-name-1 : Mexico
 Area-slat   : 12.1
 Area-nlat   : 32.72
 Area-llon   : -122.19
@@ -13416,7 +13599,7 @@ Description : RGSPM06 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : St Pierre and Miquelon
+Area-name-1 : St Pierre and Miquelon
 Area-slat   : 43.41
 Area-nlat   : 47.37
 Area-llon   : -57.1
@@ -13443,7 +13626,7 @@ Description : RGR 1992 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Reunion
+Area-name-1 : Reunion
 Area-slat   : -24.72
 Area-nlat   : -18.28
 Area-llon   : 51.83
@@ -13470,7 +13653,7 @@ Description : RGM04 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Mayotte
+Area-name-1 : Mayotte
 Area-slat   : -14.49
 Area-nlat   : -11.33
 Area-llon   : 43.68
@@ -13497,7 +13680,7 @@ Description : RGFG95 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : French Guiana
+Area-name-1 : French Guiana
 Area-slat   : 2.11
 Area-nlat   : 8.88
 Area-llon   : -54.61
@@ -13524,7 +13707,7 @@ Description : RGF 1993 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : France
+Area-name-1 : France
 Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
@@ -13551,7 +13734,7 @@ Description : RGAF09 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Caribbean - French Antilles
+Area-name-1 : Caribbean - French Antilles
 Area-slat   : 14.08
 Area-nlat   : 18.54
 Area-llon   : -63.66
@@ -13578,7 +13761,7 @@ Description : RGWF96 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Wallis and Futuna
+Area-name-1 : Wallis and Futuna
 Area-slat   : -15.94
 Area-nlat   : -9.84
 Area-llon   : 179.49
@@ -13605,7 +13788,7 @@ Description : RGF93 v2 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : France
+Area-name-1 : France
 Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
@@ -13632,7 +13815,7 @@ Description : RGF93 v2b (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : France
+Area-name-1 : France
 Area-slat   : 41.15
 Area-nlat   : 51.56
 Area-llon   : -9.86
@@ -13659,7 +13842,7 @@ Description : SIRGAS
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : South America - SIRGAS 1995 by country
+Area-name-1 : South America - SIRGAS 1995 by country
 Area-slat   : -59.87
 Area-nlat   : 16.75
 Area-llon   : -113.21
@@ -13686,7 +13869,7 @@ Description : Militar-Geographische Institut
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Europe - Austria and former Yugoslavia onshore
+Area-name-1 : Europe - Austria and former Yugoslavia onshore
 Area-slat   : 40.85
 Area-nlat   : 49.02
 Area-llon   : 9.53
@@ -13714,7 +13897,7 @@ Description : IGS20
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -13741,7 +13924,7 @@ Description : ETRS89 DREF91 2016
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Germany
+Area-name-1 : Germany
 Area-slat   : 47.27
 Area-nlat   : 55.92
 Area-llon   : 3.34
@@ -13768,7 +13951,7 @@ Description : RGSH2020
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Algeria
+Area-name-1 : Algeria
 Area-slat   : 18.97
 Area-nlat   : 38.8
 Area-llon   : -8.67
@@ -13795,7 +13978,7 @@ Description : LKS-2020
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Latvia
+Area-name-1 : Latvia
 Area-slat   : 55.67
 Area-nlat   : 58.09
 Area-llon   : 19.06
@@ -13822,7 +14005,7 @@ Description : RGNC 1991-93 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : New Caledonia
+Area-name-1 : New Caledonia
 Area-slat   : -26.45
 Area-nlat   : -14.83
 Area-llon   : 156.25
@@ -13849,7 +14032,7 @@ Description : RGNC15
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : New Caledonia
+Area-name-1 : New Caledonia
 Area-slat   : -26.45
 Area-nlat   : -14.83
 Area-llon   : 156.25
@@ -13876,7 +14059,7 @@ Description : RGNC15 (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : New Caledonia
+Area-name-1 : New Caledonia
 Area-slat   : -26.45
 Area-nlat   : -14.83
 Area-llon   : 156.25
@@ -13903,7 +14086,7 @@ Description : BH_ETRS89
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Bosnia and Herzegovina
+Area-name-1 : Bosnia and Herzegovina
 Area-slat   : 42.56
 Area-nlat   : 45.27
 Area-llon   : 15.74
@@ -13930,7 +14113,7 @@ Description : MAGNA-SIRGAS 2018
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Colombia
+Area-name-1 : Colombia
 Area-slat   : -4.23
 Area-nlat   : 15.51
 Area-llon   : -84.77
@@ -13958,7 +14141,7 @@ Description : NAD83(CSRS)v8
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
-Area-name   : Canada
+Area-name-1 : Canada
 Area-slat   : 38.21
 Area-nlat   : 86.46
 Area-llon   : -141.01
@@ -13975,6 +14158,7 @@ WKT         : VERTCS["ETRF2020",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF2020",
+               DYNAMIC[FRAMEEPOCH[1989.0]],
                DATUM["European_Terrestrial_Reference_Frame_2020",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -13985,7 +14169,7 @@ Description : ETRF2020
 Authority   : Esri
 Version     : 13.4.0
 Deprecated  : no
-Area-name   : Europe - ETRF
+Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
@@ -14002,6 +14186,7 @@ WKT         : VERTCS["WGS_1984_(G2296)",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["WGS_1984_(G2296)",
+               DYNAMIC[FRAMEEPOCH[2024.0]],
                DATUM["World_Geodetic_System_1984_(G2296)",
                 ELLIPSOID["WGS_1984", 6378137.0, 298.257223563]],
                CS[vertical, 1],
@@ -14012,7 +14197,7 @@ Description : WGS 1984 (G2296)
 Authority   : Esri
 Version     : 13.4.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -14039,7 +14224,7 @@ Description : Saba
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : BES Islands - Saba onshore
+Area-name-1 : BES Islands - Saba onshore
 Area-slat   : 17.56
 Area-nlat   : 17.71
 Area-llon   : -63.31
@@ -14066,7 +14251,7 @@ Description : BES2020 Saba
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : BES Islands - Saba onshore
+Area-name-1 : BES Islands - Saba onshore
 Area-slat   : 17.56
 Area-nlat   : 17.71
 Area-llon   : -63.31
@@ -14093,7 +14278,7 @@ Description : Sint Eustatius
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : BES Islands - Sint Eustatius - onshore
+Area-name-1 : BES Islands - Sint Eustatius - onshore
 Area-slat   : 17.41
 Area-nlat   : 17.58
 Area-llon   : -63.05
@@ -14120,7 +14305,7 @@ Description : BES2020 Sint Eustatius
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : BES Islands - Sint Eustatius - onshore
+Area-name-1 : BES Islands - Sint Eustatius - onshore
 Area-slat   : 17.41
 Area-nlat   : 17.58
 Area-llon   : -63.05
@@ -14147,7 +14332,7 @@ Description : Bonaire 2004
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : BES Islands - Bonaire onshore
+Area-name-1 : BES Islands - Bonaire onshore
 Area-slat   : 11.97
 Area-nlat   : 12.36
 Area-llon   : -68.47
@@ -14174,7 +14359,7 @@ Description : RGM23
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : Mayotte
+Area-name-1 : Mayotte
 Area-slat   : -14.49
 Area-nlat   : -11.33
 Area-llon   : 43.68
@@ -14201,7 +14386,7 @@ Description : RGM23 (lon-lat)
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : Mayotte
+Area-name-1 : Mayotte
 Area-slat   : -14.49
 Area-nlat   : -11.33
 Area-llon   : 43.68
@@ -14228,7 +14413,7 @@ Description : UZGD2024
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : Uzbekistan
+Area-name-1 : Uzbekistan
 Area-slat   : 37.18
 Area-nlat   : 45.58
 Area-llon   : 55.99
@@ -14245,6 +14430,7 @@ WKT         : VERTCS["IGb20",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGb20",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["IGb20",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -14255,7 +14441,7 @@ Description : IGb20
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -14272,6 +14458,7 @@ WKT         : VERTCS["ITRF2020-u2023",
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ITRF2020-u2023",
+               DYNAMIC[FRAMEEPOCH[2015.0]],
                DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                CS[vertical, 1],
@@ -14282,7 +14469,7 @@ Description : ITRF2020-u2023
 Authority   : Esri
 Version     : 13.5.0
 Deprecated  : no
-Area-name   : World
+Area-name-1 : World
 Area-slat   : -90.0
 Area-nlat   : 90.0
 Area-llon   : -180.0
@@ -14309,7 +14496,7 @@ Description : HTRS07
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : Greece
+Area-name-1 : Greece
 Area-slat   : 33.26
 Area-nlat   : 41.75
 Area-llon   : 18.26
@@ -14336,7 +14523,7 @@ Description : UGRF
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : Uganda
+Area-name-1 : Uganda
 Area-slat   : -1.48
 Area-nlat   : 4.23
 Area-llon   : 29.57
@@ -14364,7 +14551,7 @@ Description : CSRN epoch 2025.0 (NAD83 2011)
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : USA - California
+Area-name-1 : USA - California
 Area-slat   : 32.53
 Area-nlat   : 42.01
 Area-llon   : -124.45
@@ -14391,7 +14578,7 @@ Description : QazTRF-23
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : Kazakhstan
+Area-name-1 : Kazakhstan
 Area-slat   : 40.59
 Area-nlat   : 55.45
 Area-llon   : 46.49
@@ -14419,7 +14606,7 @@ Description : CSRN epoch 2025.0 (ITRF2020)
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : USA - California
+Area-name-1 : USA - California
 Area-slat   : 32.53
 Area-nlat   : 42.01
 Area-llon   : -124.45
@@ -14447,9 +14634,9 @@ Description : GR96(1996)
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : Greenland
+Area-name-1 : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.02
+Area-nlat   : 87.03
 Area-llon   : -75.0
 Area-rlon   : 7.99
 
@@ -14475,9 +14662,9 @@ Description : GR96(2021)
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : Greenland
+Area-name-1 : Greenland
 Area-slat   : 56.38
-Area-nlat   : 87.02
+Area-nlat   : 87.03
 Area-llon   : -75.0
 Area-rlon   : 7.99
 
@@ -14502,7 +14689,7 @@ Description : JGD 2024
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : Japan
+Area-name-1 : Japan
 Area-slat   : 17.09
 Area-nlat   : 46.05
 Area-llon   : 122.38
@@ -14529,7 +14716,7 @@ Description : PAL-GRF2023
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
-Area-name   : Palestine
+Area-name-1 : Palestine
 Area-slat   : 31.21
 Area-nlat   : 32.55
 Area-llon   : 34.17

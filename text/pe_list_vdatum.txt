@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2025 Esri Inc.                                            #
+#  Copyright 1999-2026 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -1647,6 +1647,39 @@ WKT2        : VDATUM["Derived_California_Orthometric_Heights_of_1988_epoch_2025"
 Description : Derived California Orthometric Heights of 1988 epoch 2025
 Authority   : EPSG
 Version     : 12.016(13.6.0)
+Deprecated  : no
+
+WKID        : 1423
+Latest-WKID : 1423
+Macro       : PE_VERTD_LONDON_SURVEY_GRID_HEIGHT_DATUM
+Name        : London_Survey_Grid_height_datum
+WKT         : VDATUM["London_Survey_Grid_height_datum"]
+WKT2        : VDATUM["London_Survey_Grid_height_datum"]
+Description : London Survey Grid height datum
+Authority   : EPSG
+Version     : 12.031(13.7.0)
+Deprecated  : no
+
+WKID        : 1424
+Latest-WKID : 1424
+Macro       : PE_VERTD_SVALBARD_VERTICAL_DATUM_2024
+Name        : Svalbard_vertical_datum_2024
+WKT         : VDATUM["Svalbard_vertical_datum_2024"]
+WKT2        : VDATUM["Svalbard_vertical_datum_2024"]
+Description : Svalbard vertical datum 2024
+Authority   : EPSG
+Version     : 12.022(13.7.0)
+Deprecated  : no
+
+WKID        : 1443
+Latest-WKID : 1443
+Macro       : PE_VERTD_IGN_2023_MAYOTTE
+Name        : IGN_2023_Mayotte
+WKT         : VDATUM["IGN_2023_Mayotte"]
+WKT2        : VDATUM["IGN_2023_Mayotte"]
+Description : IGN 2023 Mayotte
+Authority   : EPSG
+Version     : 12.028(13.7.0)
 Deprecated  : no
 
 WKID        : 5100

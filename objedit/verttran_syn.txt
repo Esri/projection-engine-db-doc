@@ -209,6 +209,11 @@
    FALSE, \
    "EPSG"
 
+"ETRS89_To_ODN_Offhore_Height_1_OSGM15", \
+   "ETRS89_To_ODN_Offshore_Height_1_OSGM15", \
+   TRUE, \
+   ""
+
 "ETRS89 to ODN (Offshore) height (1)", \
    "ETRS89_To_ODN_Offhore_Height_1_OSGM15", \
    FALSE, \
@@ -294,6 +299,16 @@
    FALSE, \
    "EPSG"
 
+"GR96 to GLLAT(2023) depth (1)", \
+   "Greenland_1996_To_GLLAT(2023)_Depth_1", \
+   FALSE, \
+   "EPSG"
+
+"GR96 to GLMSL(2023) depth (1)", \
+   "Greenland_1996_To_GLMSL(2023)_Depth_1", \
+   FALSE, \
+   "EPSG"
+
 "HVRS71 height to EVRF2000 height (1)", \
    "HVRS_1971_Height_To_EVRS_2000_Height_1", \
    FALSE, \
@@ -339,6 +354,41 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) to NAVD88 height (1)", \
+   "NAD_1983_2011_To_NAVD88_CONUS_GEOID12B_Height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) to NAVD88 height (2)", \
+   "NAD_1983_2011_To_NAVD88_Alaska_GEOID12B_Height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) to NAVD88 height (3)", \
+   "NAD_1983_2011_Height_To_NAVD88_CONUS_GEOID18_Height_3", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) to PRVD02 height (1)", \
+   "NAD_1983_2011_To_PRVD02_GEOID12B_Height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) to PRVD02 height (2)", \
+   "NAD_1983_2011_Height_To_PRVD02_GEOID18_Height_2", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) to VIVD09 height (1)", \
+   "NAD_1983_2011_To_VIVD09_GEOID12B_Height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) to VIVD09 height (2)", \
+   "NAD_1983_2011_Height_To_VIVD09_Height_GEOID18_2", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(CSRS)v6 to CGVD2013a(2010) height (1)", \
    "NAD83(CSRS)v6_Height_To_CGVD2013(CGG2013a)_Height_1", \
    FALSE, \
@@ -351,6 +401,106 @@
 
 "NAD83(CSRS)v6 to CGVD28 height (1)", \
    "NAD83(CSRS)v6_Height_To_CGVD28_Height_HT2", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(FBN) to ASVD02 height (1)", \
+   "NAD_1983_FBN_To_ASVD02_Height_GEOID09_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(FBN) to GUVD04 height (1)", \
+   "NAD_1983_FBN_To_GUVD04_Height_GEOID09_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(FBN) to NAVD88 height (1)", \
+   "NAD_1983_FBN_To_NAVD88_Height_CONUS_GEOID03", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(FBN) to NMVD03 height (1)", \
+   "NAD_1983_FBN_To_NMVD03_Height_GEOID09_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAVD88 height (1)", \
+   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAVD88 height (2)", \
+   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_2", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAVD88 height (3)", \
+   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_3", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAVD88 height (4)", \
+   "NAD_1983_HARN_To_AVD88_Height_GEOID99_4", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAVD88 height (5)", \
+   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_5", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAVD88 height (6)", \
+   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_6", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAVD88 height (7)", \
+   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_7", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAVD88 height (8)", \
+   "NAD_1983_HARN_To_NAVD88_Height_GEOID99_8", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(HARN) to NAVD88 height (9)", \
+   "NAD_1983_HARN_To_NAVD88_Height_Alaska_GEOID06_9", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(MA11) to GUVD04 height (1)", \
+   "NAD_1983_MA11_To_GUVD04_GEOID12B_Height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(MA11) to NMVD03 height (1)", \
+   "NAD_1983_MA11_To_NMVD03_GEOID12B_Height", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(NSRS2007) to NAVD88 height (1)", \
+   "NAD_1983_NSRS2007_To_NAVD88_Height_CONUS_GEOID09_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(NSRS2007) to NAVD88 height (2)", \
+   "NAD_1983_NSRS2007_To_NAVD88_Height_Alaska_GEOID09_2", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(NSRS2007) to PRVD02 height (1)", \
+   "NAD_1983_NSRS2007_To_PRVD02_Height_GEOID09_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(NSRS2007) to VIVD09 height (1)", \
+   "NAD_1983_NSRS2007_To_VIVD09_Height_GEOID09_1", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(PA11) to ASVD02 height (1)", \
+   "NAD_1983_PA11_To_ASVD02_GEOID12B_Height", \
    FALSE, \
    "EPSG"
 

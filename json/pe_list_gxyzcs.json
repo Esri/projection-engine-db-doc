@@ -9,13 +9,14 @@
     "authority": "EPSG",
     "version": "6.18(12.9.0)",
     "deprecated": "no",
-    "areaname": "Taiwan",
     "extent":
-    { "slat": 17.36,
+    [
+    { "areaname": "Taiwan",
+      "slat": 17.36,
       "nlat": 26.96,
       "llon": 114.32,
       "rlon": 123.61
-    }
+    }]
   },
   { "wkid": 3887,
     "latestWkid": 3887,
@@ -27,13 +28,14 @@
     "authority": "EPSG",
     "version": "7.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Iraq",
     "extent":
-    { "slat": 29.06,
+    [
+    { "areaname": "Iraq",
+      "slat": 29.06,
       "nlat": 37.39,
       "llon": 38.79,
       "rlon": 48.75
-    }
+    }]
   },
   { "wkid": 4000,
     "latestWkid": 4000,
@@ -45,13 +47,14 @@
     "authority": "EPSG",
     "version": "7.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Moldova",
     "extent":
-    { "slat": 45.44,
+    [
+    { "areaname": "Moldova",
+      "slat": 45.44,
       "nlat": 48.47,
       "llon": 26.63,
       "rlon": 30.13
-    }
+    }]
   },
   { "wkid": 4039,
     "latestWkid": 4039,
@@ -63,13 +66,14 @@
     "authority": "EPSG",
     "version": "7.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Congo DR (Zaire) - south",
     "extent":
-    { "slat": -13.46,
+    [
+    { "areaname": "Congo DR (Zaire) - south",
+      "slat": -13.46,
       "nlat": -3.41,
       "llon": 11.79,
       "rlon": 29.81
-    }
+    }]
   },
   { "wkid": 4073,
     "latestWkid": 4073,
@@ -81,13 +85,14 @@
     "authority": "EPSG",
     "version": "7.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Serbia",
     "extent":
-    { "slat": 42.23,
+    [
+    { "areaname": "Serbia",
+      "slat": 42.23,
       "nlat": 46.19,
       "llon": 18.81,
       "rlon": 23.01
-    }
+    }]
   },
   { "wkid": 4079,
     "latestWkid": 4079,
@@ -99,13 +104,14 @@
     "authority": "EPSG",
     "version": "7.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Spain - Canary Islands",
     "extent":
-    { "slat": 24.6,
+    [
+    { "areaname": "Spain - Canary Islands",
+      "slat": 24.6,
       "nlat": 32.76,
       "llon": -21.93,
       "rlon": -11.75
-    }
+    }]
   },
   { "wkid": 4465,
     "latestWkid": 4465,
@@ -117,13 +123,14 @@
     "authority": "EPSG",
     "version": "7.1.9(12.9.0)",
     "deprecated": "no",
-    "areaname": "St Pierre and Miquelon",
     "extent":
-    { "slat": 43.41,
+    [
+    { "areaname": "St Pierre and Miquelon",
+      "slat": 43.41,
       "nlat": 47.37,
       "llon": -57.1,
       "rlon": -55.9
-    }
+    }]
   },
   { "wkid": 4468,
     "latestWkid": 4468,
@@ -135,13 +142,14 @@
     "authority": "EPSG",
     "version": "7.1.9(12.9.0)",
     "deprecated": "no",
-    "areaname": "Mayotte",
     "extent":
-    { "slat": -14.49,
+    [
+    { "areaname": "Mayotte",
+      "slat": -14.49,
       "nlat": -11.33,
       "llon": 43.68,
       "rlon": 46.7
-    }
+    }]
   },
   { "wkid": 4473,
     "latestWkid": 4473,
@@ -153,13 +161,14 @@
     "authority": "EPSG",
     "version": "7.1.9(12.9.0)",
     "deprecated": "no",
-    "areaname": "Mayotte - onshore",
     "extent":
-    { "slat": -13.05,
+    [
+    { "areaname": "Mayotte - onshore",
+      "slat": -13.05,
       "nlat": -12.61,
       "llon": 44.98,
       "rlon": 45.35
-    }
+    }]
   },
   { "wkid": 4479,
     "latestWkid": 4479,
@@ -171,13 +180,14 @@
     "authority": "EPSG",
     "version": "7.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "China",
     "extent":
-    { "slat": 16.7,
+    [
+    { "areaname": "China",
+      "slat": 16.7,
       "nlat": 53.56,
       "llon": 73.62,
       "rlon": 134.77
-    }
+    }]
   },
   { "wkid": 4481,
     "latestWkid": 4481,
@@ -189,13 +199,14 @@
     "authority": "EPSG",
     "version": "7.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Mexico",
     "extent":
-    { "slat": 12.1,
+    [
+    { "areaname": "Mexico",
+      "slat": 12.1,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -84.64
-    }
+    }]
   },
   { "wkid": 4556,
     "latestWkid": 4556,
@@ -207,13 +218,14 @@
     "authority": "EPSG",
     "version": "7.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Caribbean - French Antilles",
     "extent":
-    { "slat": 14.08,
+    [
+    { "areaname": "Caribbean - French Antilles",
+      "slat": 14.08,
       "nlat": 18.54,
       "llon": -63.66,
       "rlon": -57.52
-    }
+    }]
   },
   { "wkid": 4882,
     "latestWkid": 4882,
@@ -223,15 +235,16 @@
     "wkt2": "GEODCRS[\"Slovenia_1996\",DATUM[\"D_Slovenia_Geodetic_Datum_1996\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"4882\"]]",
     "description": "Slovenia 1996",
     "authority": "EPSG",
-    "version": "6.15(12.9.0)",
+    "version": "12.044(12.9.0)",
     "deprecated": "no",
-    "areaname": "Slovenia",
     "extent":
-    { "slat": 45.42,
+    [
+    { "areaname": "Slovenia",
+      "slat": 45.42,
       "nlat": 46.88,
       "llon": 13.38,
       "rlon": 16.61
-    }
+    }]
   },
   { "wkid": 4884,
     "latestWkid": 4884,
@@ -243,13 +256,14 @@
     "authority": "EPSG",
     "version": "6.15(12.9.0)",
     "deprecated": "no",
-    "areaname": "Antarctica - Ross Sea Region",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "Antarctica - Ross Sea Region",
+      "slat": -90.0,
       "nlat": -59.99,
       "llon": 144.99,
       "rlon": -144.99
-    }
+    }]
   },
   { "wkid": 4886,
     "latestWkid": 4886,
@@ -261,13 +275,14 @@
     "authority": "EPSG",
     "version": "6.15(12.9.0)",
     "deprecated": "no",
-    "areaname": "Bermuda",
     "extent":
-    { "slat": 28.91,
+    [
+    { "areaname": "Bermuda",
+      "slat": 28.91,
       "nlat": 35.73,
       "llon": -68.83,
       "rlon": -60.7
-    }
+    }]
   },
   { "wkid": 4888,
     "latestWkid": 4888,
@@ -277,15 +292,16 @@
     "wkt2": "GEODCRS[\"HTRS96\",DATUM[\"D_Croatian_Terrestrial_Reference_System\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"4888\"]]",
     "description": "HTRS96",
     "authority": "EPSG",
-    "version": "6.15(12.9.0)",
+    "version": "12.042(12.9.0)",
     "deprecated": "no",
-    "areaname": "Croatia",
     "extent":
-    { "slat": 41.62,
+    [
+    { "areaname": "Croatia",
+      "slat": 41.62,
       "nlat": 46.54,
       "llon": 13.0,
       "rlon": 19.43
-    }
+    }]
   },
   { "wkid": 4890,
     "latestWkid": 4890,
@@ -297,13 +313,14 @@
     "authority": "EPSG",
     "version": "6.13(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4892,
     "latestWkid": 4892,
@@ -315,13 +332,14 @@
     "authority": "EPSG",
     "version": "8.2.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "USA - CONUS and Alaska; PRVI",
     "extent":
-    { "slat": 14.92,
+    [
+    { "areaname": "USA - CONUS and Alaska; PRVI",
+      "slat": 14.92,
       "nlat": 74.71,
       "llon": 167.65,
       "rlon": -63.88
-    }
+    }]
   },
   { "wkid": 4894,
     "latestWkid": 4894,
@@ -333,13 +351,14 @@
     "authority": "EPSG",
     "version": "6.12(12.9.0)",
     "deprecated": "no",
-    "areaname": "Jamaica",
     "extent":
-    { "slat": 14.08,
+    [
+    { "areaname": "Jamaica",
+      "slat": 14.08,
       "nlat": 19.36,
       "llon": -80.6,
       "rlon": -74.51
-    }
+    }]
   },
   { "wkid": 4896,
     "latestWkid": 4896,
@@ -351,13 +370,14 @@
     "authority": "EPSG",
     "version": "7.6.6(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4897,
     "latestWkid": 4897,
@@ -369,13 +389,14 @@
     "authority": "EPSG",
     "version": "6.11.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Indonesia",
     "extent":
-    { "slat": -13.95,
+    [
+    { "areaname": "Indonesia",
+      "slat": -13.95,
       "nlat": 7.79,
       "llon": 92.01,
       "rlon": 141.46
-    }
+    }]
   },
   { "wkid": 4899,
     "latestWkid": 4899,
@@ -387,13 +408,14 @@
     "authority": "EPSG",
     "version": "6.11.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Libya",
     "extent":
-    { "slat": 19.5,
+    [
+    { "areaname": "Libya",
+      "slat": 19.5,
       "nlat": 35.23,
       "llon": 9.31,
       "rlon": 26.21
-    }
+    }]
   },
   { "wkid": 4906,
     "latestWkid": 4906,
@@ -405,13 +427,14 @@
     "authority": "EPSG",
     "version": "10.085(12.9.0)",
     "deprecated": "no",
-    "areaname": "New Caledonia",
     "extent":
-    { "slat": -26.45,
+    [
+    { "areaname": "New Caledonia",
+      "slat": -26.45,
       "nlat": -14.83,
       "llon": 156.25,
       "rlon": 174.28
-    }
+    }]
   },
   { "wkid": 4908,
     "latestWkid": 4908,
@@ -423,13 +446,14 @@
     "authority": "EPSG",
     "version": "12.016(12.9.0)",
     "deprecated": "no",
-    "areaname": "Greenland",
     "extent":
-    { "slat": 56.38,
-      "nlat": 87.02,
+    [
+    { "areaname": "Greenland",
+      "slat": 56.38,
+      "nlat": 87.03,
       "llon": -75.0,
       "rlon": 7.99
-    }
+    }]
   },
   { "wkid": 4910,
     "latestWkid": 4910,
@@ -441,13 +465,14 @@
     "authority": "EPSG",
     "version": "6.5.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4911,
     "latestWkid": 4911,
@@ -459,13 +484,14 @@
     "authority": "EPSG",
     "version": "6.5.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4912,
     "latestWkid": 4912,
@@ -477,13 +503,14 @@
     "authority": "EPSG",
     "version": "6.5.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4913,
     "latestWkid": 4913,
@@ -495,13 +522,14 @@
     "authority": "EPSG",
     "version": "6.5.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4914,
     "latestWkid": 4914,
@@ -513,13 +541,14 @@
     "authority": "EPSG",
     "version": "6.5.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4915,
     "latestWkid": 4915,
@@ -531,13 +560,14 @@
     "authority": "EPSG",
     "version": "6.5.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4916,
     "latestWkid": 4916,
@@ -549,13 +579,14 @@
     "authority": "EPSG",
     "version": "6.5.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4917,
     "latestWkid": 4917,
@@ -567,13 +598,14 @@
     "authority": "EPSG",
     "version": "6.5.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4918,
     "latestWkid": 4918,
@@ -585,13 +617,14 @@
     "authority": "EPSG",
     "version": "6.5.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4919,
     "latestWkid": 4919,
@@ -603,13 +636,14 @@
     "authority": "EPSG",
     "version": "6.5.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4920,
     "latestWkid": 4920,
@@ -621,13 +655,14 @@
     "authority": "EPSG",
     "version": "6.10(12.9.0)",
     "deprecated": "no",
-    "areaname": "Malaysia",
     "extent":
-    { "slat": 0.85,
+    [
+    { "areaname": "Malaysia",
+      "slat": 0.85,
       "nlat": 7.81,
       "llon": 98.02,
       "rlon": 119.61
-    }
+    }]
   },
   { "wkid": 4922,
     "latestWkid": 4922,
@@ -639,13 +674,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4924,
     "latestWkid": 4924,
@@ -657,13 +693,14 @@
     "authority": "EPSG",
     "version": "6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Mauritania",
     "extent":
-    { "slat": 14.72,
+    [
+    { "areaname": "Mauritania",
+      "slat": 14.72,
       "nlat": 27.3,
       "llon": -20.04,
       "rlon": -4.8
-    }
+    }]
   },
   { "wkid": 4926,
     "latestWkid": 4926,
@@ -675,13 +712,14 @@
     "authority": "EPSG",
     "version": "10.092(12.9.0)",
     "deprecated": "no",
-    "areaname": "South Korea",
     "extent":
-    { "slat": 28.6,
+    [
+    { "areaname": "South Korea",
+      "slat": 28.6,
       "nlat": 40.27,
       "llon": 122.71,
       "rlon": 134.28
-    }
+    }]
   },
   { "wkid": 4928,
     "latestWkid": 4928,
@@ -693,13 +731,14 @@
     "authority": "EPSG",
     "version": "7.6.9(12.9.0)",
     "deprecated": "no",
-    "areaname": "Argentina",
     "extent":
-    { "slat": -58.41,
+    [
+    { "areaname": "Argentina",
+      "slat": -58.41,
       "nlat": -21.78,
       "llon": -73.59,
       "rlon": -52.63
-    }
+    }]
   },
   { "wkid": 4930,
     "latestWkid": 4930,
@@ -711,13 +750,14 @@
     "authority": "EPSG",
     "version": "6.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Antarctica - Australian sector",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "Antarctica - Australian sector",
+      "slat": -90.0,
       "nlat": -60.0,
       "llon": 45.0,
       "rlon": 160.0
-    }
+    }]
   },
   { "wkid": 4932,
     "latestWkid": 4932,
@@ -729,13 +769,14 @@
     "authority": "EPSG",
     "version": "8.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - Liechtenstein and Switzerland",
     "extent":
-    { "slat": 45.81,
+    [
+    { "areaname": "Europe - Liechtenstein and Switzerland",
+      "slat": 45.81,
       "nlat": 47.81,
       "llon": 5.95,
       "rlon": 10.5
-    }
+    }]
   },
   { "wkid": 4934,
     "latestWkid": 4934,
@@ -745,15 +786,16 @@
     "wkt2": "GEODCRS[\"Estonia_1997\",DATUM[\"D_Estonia_1997\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"4934\"]]",
     "description": "EST97",
     "authority": "EPSG",
-    "version": "6.5(12.9.0)",
+    "version": "12.041(12.9.0)",
     "deprecated": "no",
-    "areaname": "Estonia",
     "extent":
-    { "slat": 57.52,
+    [
+    { "areaname": "Estonia",
+      "slat": 57.52,
       "nlat": 60.0,
       "llon": 20.37,
       "rlon": 28.2
-    }
+    }]
   },
   { "wkid": 4936,
     "latestWkid": 4936,
@@ -765,13 +807,14 @@
     "authority": "EPSG",
     "version": "6.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF by country",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 4938,
     "latestWkid": 4938,
@@ -783,13 +826,14 @@
     "authority": "EPSG",
     "version": "7.6.4(12.9.0)",
     "deprecated": "no",
-    "areaname": "Australia - GDA",
     "extent":
-    { "slat": -60.55,
+    [
+    { "areaname": "Australia - GDA",
+      "slat": -60.55,
       "nlat": -8.47,
       "llon": 93.41,
       "rlon": 173.34
-    }
+    }]
   },
   { "wkid": 4940,
     "latestWkid": 4940,
@@ -801,13 +845,14 @@
     "authority": "EPSG",
     "version": "9.5.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Africa - South Africa, Lesotho and Eswatini.",
     "extent":
-    { "slat": -50.32,
+    [
+    { "areaname": "Africa - South Africa, Lesotho and Eswatini.",
+      "slat": -50.32,
       "nlat": -22.13,
       "llon": 13.33,
       "rlon": 42.85
-    }
+    }]
   },
   { "wkid": 4942,
     "latestWkid": 4942,
@@ -819,13 +864,14 @@
     "authority": "EPSG",
     "version": "7.6.4(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - Ireland (Republic and Ulster) - onshore",
     "extent":
-    { "slat": 51.39,
+    [
+    { "areaname": "Europe - Ireland (Republic and Ulster) - onshore",
+      "slat": 51.39,
       "nlat": 55.43,
       "llon": -10.56,
       "rlon": -5.34
-    }
+    }]
   },
   { "wkid": 4944,
     "latestWkid": 4944,
@@ -837,13 +883,14 @@
     "authority": "EPSG",
     "version": "7.6.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Iceland",
     "extent":
-    { "slat": 59.96,
+    [
+    { "areaname": "Iceland",
+      "slat": 59.96,
       "nlat": 69.59,
       "llon": -30.87,
       "rlon": -5.55
-    }
+    }]
   },
   { "wkid": 4946,
     "latestWkid": 4946,
@@ -855,13 +902,14 @@
     "authority": "EPSG",
     "version": "8.4(12.9.0)",
     "deprecated": "no",
-    "areaname": "Japan",
     "extent":
-    { "slat": 17.09,
+    [
+    { "areaname": "Japan",
+      "slat": 17.09,
       "nlat": 46.05,
       "llon": 122.38,
       "rlon": 157.65
-    }
+    }]
   },
   { "wkid": 4948,
     "latestWkid": 4948,
@@ -873,13 +921,14 @@
     "authority": "EPSG",
     "version": "10.083(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latvia",
     "extent":
-    { "slat": 55.67,
+    [
+    { "areaname": "Latvia",
+      "slat": 55.67,
       "nlat": 58.09,
       "llon": 19.06,
       "rlon": 28.24
-    }
+    }]
   },
   { "wkid": 4950,
     "latestWkid": 4950,
@@ -889,15 +938,16 @@
     "wkt2": "GEODCRS[\"LKS_1994\",DATUM[\"D_Lithuania_1994\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"4950\"]]",
     "description": "LKS94",
     "authority": "EPSG",
-    "version": "6.5(12.9.0)",
+    "version": "12.044(12.9.0)",
     "deprecated": "no",
-    "areaname": "Lithuania",
     "extent":
-    { "slat": 53.89,
+    [
+    { "areaname": "Lithuania",
+      "slat": 53.89,
       "nlat": 56.45,
       "llon": 19.02,
       "rlon": 26.82
-    }
+    }]
   },
   { "wkid": 4952,
     "latestWkid": 4952,
@@ -909,13 +959,14 @@
     "authority": "EPSG",
     "version": "6.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Mozambique",
     "extent":
-    { "slat": -27.71,
+    [
+    { "areaname": "Mozambique",
+      "slat": -27.71,
       "nlat": -10.09,
       "llon": 30.21,
       "rlon": 43.03
-    }
+    }]
   },
   { "wkid": 4954,
     "latestWkid": 4954,
@@ -927,13 +978,14 @@
     "authority": "EPSG",
     "version": "6.11(12.9.0)",
     "deprecated": "no",
-    "areaname": "Canada",
     "extent":
-    { "slat": 38.21,
+    [
+    { "areaname": "Canada",
+      "slat": 38.21,
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    }
+    }]
   },
   { "wkid": 4956,
     "latestWkid": 4956,
@@ -945,13 +997,14 @@
     "authority": "EPSG",
     "version": "6.13(12.9.0)",
     "deprecated": "no",
-    "areaname": "USA - HARN",
     "extent":
-    { "slat": -14.59,
+    [
+    { "areaname": "USA - HARN",
+      "slat": -14.59,
       "nlat": 71.4,
       "llon": 144.58,
       "rlon": -64.51
-    }
+    }]
   },
   { "wkid": 4958,
     "latestWkid": 4958,
@@ -963,13 +1016,14 @@
     "authority": "EPSG",
     "version": "6.15(12.9.0)",
     "deprecated": "no",
-    "areaname": "New Zealand",
     "extent":
-    { "slat": -55.95,
+    [
+    { "areaname": "New Zealand",
+      "slat": -55.95,
       "nlat": -25.88,
       "llon": 160.6,
       "rlon": -171.2
-    }
+    }]
   },
   { "wkid": 4960,
     "latestWkid": 4960,
@@ -981,13 +1035,14 @@
     "authority": "EPSG",
     "version": "6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Argentina",
     "extent":
-    { "slat": -58.41,
+    [
+    { "areaname": "Argentina",
+      "slat": -58.41,
       "nlat": -21.78,
       "llon": -73.59,
       "rlon": -52.63
-    }
+    }]
   },
   { "wkid": 4962,
     "latestWkid": 4962,
@@ -999,13 +1054,14 @@
     "authority": "EPSG",
     "version": "6.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Venezuela",
     "extent":
-    { "slat": 0.64,
+    [
+    { "areaname": "Venezuela",
+      "slat": 0.64,
       "nlat": 16.75,
       "llon": -73.38,
       "rlon": -58.95
-    }
+    }]
   },
   { "wkid": 4964,
     "latestWkid": 4964,
@@ -1017,13 +1073,14 @@
     "authority": "EPSG",
     "version": "10.034(12.9.0)",
     "deprecated": "no",
-    "areaname": "France",
     "extent":
-    { "slat": 41.15,
+    [
+    { "areaname": "France",
+      "slat": 41.15,
       "nlat": 51.56,
       "llon": -9.86,
       "rlon": 10.38
-    }
+    }]
   },
   { "wkid": 4966,
     "latestWkid": 4966,
@@ -1035,13 +1092,14 @@
     "authority": "EPSG",
     "version": "6.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "French Guiana",
     "extent":
-    { "slat": 2.11,
+    [
+    { "areaname": "French Guiana",
+      "slat": 2.11,
       "nlat": 8.88,
       "llon": -54.61,
       "rlon": -49.45
-    }
+    }]
   },
   { "wkid": 4970,
     "latestWkid": 4970,
@@ -1053,13 +1111,14 @@
     "authority": "EPSG",
     "version": "7.9.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "Reunion",
     "extent":
-    { "slat": -24.72,
+    [
+    { "areaname": "Reunion",
+      "slat": -24.72,
       "nlat": -18.28,
       "llon": 51.83,
       "rlon": 58.24
-    }
+    }]
   },
   { "wkid": 4974,
     "latestWkid": 4974,
@@ -1071,13 +1130,14 @@
     "authority": "EPSG",
     "version": "6.5.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "South America - SIRGAS 1995 by country",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "South America - SIRGAS 1995 by country",
+      "slat": -59.87,
       "nlat": 16.75,
       "llon": -113.21,
       "rlon": -26.0
-    }
+    }]
   },
   { "wkid": 4976,
     "latestWkid": 4976,
@@ -1087,15 +1147,16 @@
     "wkt2": "GEODCRS[\"SWEREF99\",DATUM[\"D_SWEREF99\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"4976\"]]",
     "description": "SWEREF99",
     "authority": "EPSG",
-    "version": "6.5(12.9.0)",
+    "version": "12.034(12.9.0)",
     "deprecated": "no",
-    "areaname": "Sweden",
     "extent":
-    { "slat": 54.96,
+    [
+    { "areaname": "Sweden",
+      "slat": 54.96,
       "nlat": 69.07,
       "llon": 10.03,
       "rlon": 24.17
-    }
+    }]
   },
   { "wkid": 4978,
     "latestWkid": 4978,
@@ -1107,13 +1168,14 @@
     "authority": "EPSG",
     "version": "6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4980,
     "latestWkid": 4980,
@@ -1125,13 +1187,14 @@
     "authority": "EPSG",
     "version": "6.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Yemen",
     "extent":
-    { "slat": 8.95,
+    [
+    { "areaname": "Yemen",
+      "slat": 8.95,
       "nlat": 19.0,
       "llon": 41.08,
       "rlon": 57.96
-    }
+    }]
   },
   { "wkid": 4982,
     "latestWkid": 4982,
@@ -1143,13 +1206,14 @@
     "authority": "EPSG",
     "version": "6.5.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Italy - including San Marino and Vatican",
     "extent":
-    { "slat": 34.76,
+    [
+    { "areaname": "Italy - including San Marino and Vatican",
+      "slat": 34.76,
       "nlat": 47.1,
       "llon": 5.93,
       "rlon": 18.99
-    }
+    }]
   },
   { "wkid": 4984,
     "latestWkid": 4984,
@@ -1161,13 +1225,14 @@
     "authority": "EPSG",
     "version": "6.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4986,
     "latestWkid": 4986,
@@ -1179,13 +1244,14 @@
     "authority": "EPSG",
     "version": "6.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 4988,
     "latestWkid": 4988,
@@ -1197,13 +1263,14 @@
     "authority": "EPSG",
     "version": "6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - SIRGAS 2000 by country",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - SIRGAS 2000 by country",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 4990,
     "latestWkid": 4990,
@@ -1215,13 +1282,14 @@
     "authority": "EPSG",
     "version": "6.5.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Laos",
     "extent":
-    { "slat": 13.92,
+    [
+    { "areaname": "Laos",
+      "slat": 13.92,
       "nlat": 22.5,
       "llon": 100.09,
       "rlon": 107.64
-    }
+    }]
   },
   { "wkid": 4992,
     "latestWkid": 4992,
@@ -1233,13 +1301,14 @@
     "authority": "EPSG",
     "version": "6.5.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Laos",
     "extent":
-    { "slat": 13.92,
+    [
+    { "areaname": "Laos",
+      "slat": 13.92,
       "nlat": 22.5,
       "llon": 100.09,
       "rlon": 107.64
-    }
+    }]
   },
   { "wkid": 4994,
     "latestWkid": 4994,
@@ -1251,13 +1320,14 @@
     "authority": "EPSG",
     "version": "6.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Philippines",
     "extent":
-    { "slat": 3.0,
+    [
+    { "areaname": "Philippines",
+      "slat": 3.0,
       "nlat": 22.18,
       "llon": 116.04,
       "rlon": 129.95
-    }
+    }]
   },
   { "wkid": 4996,
     "latestWkid": 4996,
@@ -1269,13 +1339,14 @@
     "authority": "EPSG",
     "version": "6.13(12.9.0)",
     "deprecated": "no",
-    "areaname": "Colombia",
     "extent":
-    { "slat": -4.23,
+    [
+    { "areaname": "Colombia",
+      "slat": -4.23,
       "nlat": 15.51,
       "llon": -84.77,
       "rlon": -66.87
-    }
+    }]
   },
   { "wkid": 4998,
     "latestWkid": 4998,
@@ -1287,13 +1358,14 @@
     "authority": "EPSG",
     "version": "6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "French Polynesia",
     "extent":
-    { "slat": -31.24,
+    [
+    { "areaname": "French Polynesia",
+      "slat": -31.24,
       "nlat": -4.52,
       "llon": -158.13,
       "rlon": -131.97
-    }
+    }]
   },
   { "wkid": 5011,
     "latestWkid": 5011,
@@ -1305,13 +1377,14 @@
     "authority": "EPSG",
     "version": "7.4.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Portugal - Azores and Madeira",
     "extent":
-    { "slat": 29.24,
+    [
+    { "areaname": "Portugal - Azores and Madeira",
+      "slat": 29.24,
       "nlat": 43.07,
       "llon": -35.58,
       "rlon": -12.48
-    }
+    }]
   },
   { "wkid": 5244,
     "latestWkid": 5244,
@@ -1323,13 +1396,14 @@
     "authority": "EPSG",
     "version": "7.5.9(12.9.0)",
     "deprecated": "no",
-    "areaname": "Brunei",
     "extent":
-    { "slat": 4.01,
+    [
+    { "areaname": "Brunei",
+      "slat": 4.01,
       "nlat": 6.31,
       "llon": 112.37,
       "rlon": 115.37
-    }
+    }]
   },
   { "wkid": 5250,
     "latestWkid": 5250,
@@ -1341,13 +1415,14 @@
     "authority": "EPSG",
     "version": "7.6(12.9.0)",
     "deprecated": "no",
-    "areaname": "Turkey",
     "extent":
-    { "slat": 34.42,
+    [
+    { "areaname": "Turkey",
+      "slat": 34.42,
       "nlat": 43.45,
       "llon": 25.62,
       "rlon": 44.83
-    }
+    }]
   },
   { "wkid": 5262,
     "latestWkid": 5262,
@@ -1359,13 +1434,14 @@
     "authority": "EPSG",
     "version": "7.6(12.9.0)",
     "deprecated": "no",
-    "areaname": "Bhutan",
     "extent":
-    { "slat": 26.7,
+    [
+    { "areaname": "Bhutan",
+      "slat": 26.7,
       "nlat": 28.33,
       "llon": 88.74,
       "rlon": 92.13
-    }
+    }]
   },
   { "wkid": 5322,
     "latestWkid": 5322,
@@ -1377,13 +1453,14 @@
     "authority": "EPSG",
     "version": "7.6.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Iceland",
     "extent":
-    { "slat": 59.96,
+    [
+    { "areaname": "Iceland",
+      "slat": 59.96,
       "nlat": 69.59,
       "llon": -30.87,
       "rlon": -5.55
-    }
+    }]
   },
   { "wkid": 5332,
     "latestWkid": 5332,
@@ -1395,13 +1472,14 @@
     "authority": "EPSG",
     "version": "7.6.6(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 5341,
     "latestWkid": 5341,
@@ -1413,13 +1491,14 @@
     "authority": "EPSG",
     "version": "7.6.9(12.9.0)",
     "deprecated": "no",
-    "areaname": "Argentina",
     "extent":
-    { "slat": -58.41,
+    [
+    { "areaname": "Argentina",
+      "slat": -58.41,
       "nlat": -21.78,
       "llon": -73.59,
       "rlon": -52.63
-    }
+    }]
   },
   { "wkid": 5352,
     "latestWkid": 5352,
@@ -1431,31 +1510,33 @@
     "authority": "EPSG",
     "version": "7.6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Bolivia",
     "extent":
-    { "slat": -22.91,
+    [
+    { "areaname": "Bolivia",
+      "slat": -22.91,
       "nlat": -9.67,
       "llon": -69.66,
       "rlon": -57.52
-    }
+    }]
   },
   { "wkid": 5358,
     "latestWkid": 5358,
     "macro": "PE_XYZ_SIRGAS_CHILE_2002",
     "name": "SIRGAS-Chile_2002",
-    "wkt": "GXYZCS[\"SIRGAS-Chile_2002\",DATUM[\"SIRGAS-Chile_realization_1_epoch_2002\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "GEODCRS[\"SIRGAS-Chile_2002\",DATUM[\"SIRGAS-Chile_realization_1_epoch_2002\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"5358\"]]",
+    "wkt": "GXYZCS[\"SIRGAS-Chile_2002\",DATUM[\"SIRGAS-Chile_2002\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"SIRGAS-Chile_2002\",DATUM[\"SIRGAS-Chile_2002\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"5358\"]]",
     "description": "SIRGAS-Chile 2002",
     "authority": "EPSG",
     "version": "7.6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Chile",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Chile",
+      "slat": -59.87,
       "nlat": -17.5,
       "llon": -113.21,
       "rlon": -65.72
-    }
+    }]
   },
   { "wkid": 5363,
     "latestWkid": 5363,
@@ -1467,13 +1548,14 @@
     "authority": "EPSG",
     "version": "7.6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Costa Rica",
     "extent":
-    { "slat": 2.15,
+    [
+    { "areaname": "Costa Rica",
+      "slat": 2.15,
       "nlat": 11.77,
       "llon": -90.45,
       "rlon": -81.43
-    }
+    }]
   },
   { "wkid": 5368,
     "latestWkid": 5368,
@@ -1485,13 +1567,14 @@
     "authority": "EPSG",
     "version": "7.6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Panama",
     "extent":
-    { "slat": 5.0,
+    [
+    { "areaname": "Panama",
+      "slat": 5.0,
       "nlat": 12.51,
       "llon": -84.32,
       "rlon": -77.04
-    }
+    }]
   },
   { "wkid": 5369,
     "latestWkid": 5369,
@@ -1503,13 +1586,14 @@
     "authority": "EPSG",
     "version": "7.6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Peru",
     "extent":
-    { "slat": -21.05,
+    [
+    { "areaname": "Peru",
+      "slat": -21.05,
       "nlat": -0.03,
       "llon": -84.68,
       "rlon": -68.67
-    }
+    }]
   },
   { "wkid": 5379,
     "latestWkid": 5379,
@@ -1521,13 +1605,14 @@
     "authority": "EPSG",
     "version": "7.6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Uruguay",
     "extent":
-    { "slat": -37.77,
+    [
+    { "areaname": "Uruguay",
+      "slat": -37.77,
       "nlat": -30.09,
       "llon": -58.49,
       "rlon": -50.01
-    }
+    }]
   },
   { "wkid": 5391,
     "latestWkid": 5391,
@@ -1539,13 +1624,14 @@
     "authority": "EPSG",
     "version": "7.6.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "El Salvador",
     "extent":
-    { "slat": 9.97,
+    [
+    { "areaname": "El Salvador",
+      "slat": 9.97,
       "nlat": 14.44,
       "llon": -91.43,
       "rlon": -87.65
-    }
+    }]
   },
   { "wkid": 5487,
     "latestWkid": 5487,
@@ -1557,13 +1643,14 @@
     "authority": "EPSG",
     "version": "7.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Caribbean - French Antilles",
     "extent":
-    { "slat": 14.08,
+    [
+    { "areaname": "Caribbean - French Antilles",
+      "slat": 14.08,
       "nlat": 18.54,
       "llon": -63.66,
       "rlon": -57.52
-    }
+    }]
   },
   { "wkid": 5544,
     "latestWkid": 5544,
@@ -1575,13 +1662,14 @@
     "authority": "EPSG",
     "version": "7.8.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Papua New Guinea",
     "extent":
-    { "slat": -14.75,
+    [
+    { "areaname": "Papua New Guinea",
+      "slat": -14.75,
       "nlat": 2.58,
       "llon": 139.2,
       "rlon": 162.81
-    }
+    }]
   },
   { "wkid": 5558,
     "latestWkid": 5558,
@@ -1593,13 +1681,14 @@
     "authority": "EPSG",
     "version": "7.9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Ukraine",
     "extent":
-    { "slat": 43.18,
+    [
+    { "areaname": "Ukraine",
+      "slat": 43.18,
       "nlat": 52.38,
       "llon": 22.15,
       "rlon": 40.18
-    }
+    }]
   },
   { "wkid": 5591,
     "latestWkid": 5591,
@@ -1611,13 +1700,14 @@
     "authority": "EPSG",
     "version": "7.9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - Fehmarnbelt outer",
     "extent":
-    { "slat": 54.33,
+    [
+    { "areaname": "Europe - Fehmarnbelt outer",
+      "slat": 54.33,
       "nlat": 54.83,
       "llon": 10.66,
       "rlon": 12.01
-    }
+    }]
   },
   { "wkid": 5828,
     "latestWkid": 5828,
@@ -1629,13 +1719,14 @@
     "authority": "EPSG",
     "version": "7.9.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Germany - onshore",
     "extent":
-    { "slat": 47.27,
+    [
+    { "areaname": "Germany - onshore",
+      "slat": 47.27,
       "nlat": 55.09,
       "llon": 5.86,
       "rlon": 15.04
-    }
+    }]
   },
   { "wkid": 5884,
     "latestWkid": 5884,
@@ -1647,13 +1738,14 @@
     "authority": "EPSG",
     "version": "8.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Tonga",
     "extent":
-    { "slat": -25.68,
+    [
+    { "areaname": "Tonga",
+      "slat": -25.68,
       "nlat": -14.14,
       "llon": -179.08,
       "rlon": -171.28
-    }
+    }]
   },
   { "wkid": 6133,
     "latestWkid": 6133,
@@ -1665,13 +1757,14 @@
     "authority": "EPSG",
     "version": "8.1.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Cayman Islands",
     "extent":
-    { "slat": 17.58,
+    [
+    { "areaname": "Cayman Islands",
+      "slat": 17.58,
       "nlat": 20.68,
       "llon": -83.6,
       "rlon": -78.72
-    }
+    }]
   },
   { "wkid": 6309,
     "latestWkid": 6309,
@@ -1683,13 +1776,14 @@
     "authority": "EPSG",
     "version": "8.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Cyprus - onshore",
     "extent":
-    { "slat": 34.59,
+    [
+    { "areaname": "Cyprus - onshore",
+      "slat": 34.59,
       "nlat": 35.74,
       "llon": 32.2,
       "rlon": 34.65
-    }
+    }]
   },
   { "wkid": 6317,
     "latestWkid": 6317,
@@ -1701,49 +1795,52 @@
     "authority": "EPSG",
     "version": "8.2.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "USA - CONUS and Alaska; PRVI",
     "extent":
-    { "slat": 14.92,
+    [
+    { "areaname": "USA - CONUS and Alaska; PRVI",
+      "slat": 14.92,
       "nlat": 74.71,
       "llon": 167.65,
       "rlon": -63.88
-    }
+    }]
   },
   { "wkid": 6320,
     "latestWkid": 6320,
     "macro": "PE_XYZ_NAD_1983_PA11",
     "name": "NAD_1983_PA11",
     "wkt": "GXYZCS[\"NAD_1983_PA11\",DATUM[\"D_NAD_1983_PA11\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "GEODCRS[\"NAD_1983_PA11\",DATUM[\"D_NAD_1983_PA11\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"6320\"]]",
+    "wkt2": "GEODCRS[\"NAD_1983_PA11\",DATUM[\"D_NAD_1983_PA11\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2010.0]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"6320\"]]",
     "description": "NAD83(PA11)",
     "authority": "EPSG",
     "version": "8.2.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "NAD83 PA11 - US interests Pacific plate",
     "extent":
-    { "slat": -17.56,
+    [
+    { "areaname": "NAD83 PA11 - US interests Pacific plate",
+      "slat": -17.56,
       "nlat": 31.8,
       "llon": 151.3,
       "rlon": -151.27
-    }
+    }]
   },
   { "wkid": 6323,
     "latestWkid": 6323,
     "macro": "PE_XYZ_NAD_1983_MA11",
     "name": "NAD_1983_MA11",
     "wkt": "GXYZCS[\"NAD_1983_MA11\",DATUM[\"D_NAD_1983_MA11\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "GEODCRS[\"NAD_1983_MA11\",DATUM[\"D_NAD_1983_MA11\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"6323\"]]",
+    "wkt2": "GEODCRS[\"NAD_1983_MA11\",DATUM[\"D_NAD_1983_MA11\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2010.0]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"6323\"]]",
     "description": "NAD83(MA11)",
     "authority": "EPSG",
     "version": "8.2.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Pacific - US interests Mariana plate",
     "extent":
-    { "slat": 1.64,
+    [
+    { "areaname": "Pacific - US interests Mariana plate",
+      "slat": 1.64,
       "nlat": 23.9,
       "llon": 129.48,
       "rlon": 149.55
-    }
+    }]
   },
   { "wkid": 6363,
     "latestWkid": 6363,
@@ -1755,13 +1852,14 @@
     "authority": "EPSG",
     "version": "8.2.6(12.9.0)",
     "deprecated": "no",
-    "areaname": "Mexico",
     "extent":
-    { "slat": 12.1,
+    [
+    { "areaname": "Mexico",
+      "slat": 12.1,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -84.64
-    }
+    }]
   },
   { "wkid": 6666,
     "latestWkid": 6666,
@@ -1773,13 +1871,14 @@
     "authority": "EPSG",
     "version": "8.4(12.9.0)",
     "deprecated": "no",
-    "areaname": "Japan",
     "extent":
-    { "slat": 17.09,
+    [
+    { "areaname": "Japan",
+      "slat": 17.09,
       "nlat": 46.05,
       "llon": 122.38,
       "rlon": 157.65
-    }
+    }]
   },
   { "wkid": 6704,
     "latestWkid": 6704,
@@ -1791,13 +1890,14 @@
     "authority": "EPSG",
     "version": "8.3.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "Italy - including San Marino and Vatican",
     "extent":
-    { "slat": 34.76,
+    [
+    { "areaname": "Italy - including San Marino and Vatican",
+      "slat": 34.76,
       "nlat": 47.1,
       "llon": 5.93,
       "rlon": 18.99
-    }
+    }]
   },
   { "wkid": 6781,
     "latestWkid": 6781,
@@ -1809,13 +1909,14 @@
     "authority": "EPSG",
     "version": "8.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "USA - CONUS and Alaska; PRVI",
     "extent":
-    { "slat": 14.92,
+    [
+    { "areaname": "USA - CONUS and Alaska; PRVI",
+      "slat": 14.92,
       "nlat": 74.71,
       "llon": 167.65,
       "rlon": -63.88
-    }
+    }]
   },
   { "wkid": 6934,
     "latestWkid": 6934,
@@ -1827,13 +1928,14 @@
     "authority": "EPSG",
     "version": "8.6.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 6981,
     "latestWkid": 6981,
@@ -1845,13 +1947,14 @@
     "authority": "EPSG",
     "version": "8.6(12.9.0)",
     "deprecated": "no",
-    "areaname": "Asia - Middle East - Israel and Palestine onshore",
     "extent":
-    { "slat": 29.45,
+    [
+    { "areaname": "Asia - Middle East - Israel and Palestine onshore",
+      "slat": 29.45,
       "nlat": 33.28,
       "llon": 34.17,
       "rlon": 35.69
-    }
+    }]
   },
   { "wkid": 6988,
     "latestWkid": 6988,
@@ -1863,13 +1966,14 @@
     "authority": "EPSG",
     "version": "8.6(12.9.0)",
     "deprecated": "no",
-    "areaname": "Asia - Middle East - Israel and Palestine onshore",
     "extent":
-    { "slat": 29.45,
+    [
+    { "areaname": "Asia - Middle East - Israel and Palestine onshore",
+      "slat": 29.45,
       "nlat": 33.28,
       "llon": 34.17,
       "rlon": 35.69
-    }
+    }]
   },
   { "wkid": 7071,
     "latestWkid": 7071,
@@ -1881,13 +1985,14 @@
     "authority": "EPSG",
     "version": "8.7.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "French Southern and Antarctic Territories",
     "extent":
-    { "slat": -67.13,
+    [
+    { "areaname": "French Southern and Antarctic Territories",
+      "slat": -67.13,
       "nlat": -20.91,
       "llon": 37.98,
       "rlon": 142.0
-    }
+    }]
   },
   { "wkid": 7134,
     "latestWkid": 7134,
@@ -1899,13 +2004,14 @@
     "authority": "EPSG",
     "version": "8.7.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "Israel",
     "extent":
-    { "slat": 29.45,
+    [
+    { "areaname": "Israel",
+      "slat": 29.45,
       "nlat": 33.53,
       "llon": 32.99,
       "rlon": 35.69
-    }
+    }]
   },
   { "wkid": 7137,
     "latestWkid": 7137,
@@ -1917,13 +2023,14 @@
     "authority": "EPSG",
     "version": "8.7.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "Israel",
     "extent":
-    { "slat": 29.45,
+    [
+    { "areaname": "Israel",
+      "slat": 29.45,
       "nlat": 33.53,
       "llon": 32.99,
       "rlon": 35.69
-    }
+    }]
   },
   { "wkid": 7371,
     "latestWkid": 7371,
@@ -1935,13 +2042,14 @@
     "authority": "EPSG",
     "version": "8.7.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Oman",
     "extent":
-    { "slat": 14.33,
+    [
+    { "areaname": "Oman",
+      "slat": 14.33,
       "nlat": 26.74,
       "llon": 51.99,
       "rlon": 63.38
-    }
+    }]
   },
   { "wkid": 7656,
     "latestWkid": 7656,
@@ -1953,13 +2061,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 7658,
     "latestWkid": 7658,
@@ -1971,13 +2080,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 7660,
     "latestWkid": 7660,
@@ -1989,13 +2099,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 7662,
     "latestWkid": 7662,
@@ -2007,13 +2118,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 7664,
     "latestWkid": 7664,
@@ -2025,13 +2137,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 7677,
     "latestWkid": 7677,
@@ -2043,13 +2156,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 7679,
     "latestWkid": 7679,
@@ -2061,13 +2175,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 7681,
     "latestWkid": 7681,
@@ -2079,13 +2194,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "Russia",
     "extent":
-    { "slat": 39.87,
+    [
+    { "areaname": "Russia",
+      "slat": 39.87,
       "nlat": 85.19,
       "llon": 18.92,
       "rlon": -168.97
-    }
+    }]
   },
   { "wkid": 7684,
     "latestWkid": 7684,
@@ -2097,13 +2213,14 @@
     "authority": "EPSG",
     "version": "8.8.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Kyrgyzstan",
     "extent":
-    { "slat": 39.19,
+    [
+    { "areaname": "Kyrgyzstan",
+      "slat": 39.19,
       "nlat": 43.22,
       "llon": 69.24,
       "rlon": 80.29
-    }
+    }]
   },
   { "wkid": 7789,
     "latestWkid": 7789,
@@ -2115,13 +2232,14 @@
     "authority": "EPSG",
     "version": "8.9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 7796,
     "latestWkid": 7796,
@@ -2133,13 +2251,14 @@
     "authority": "EPSG",
     "version": "8.9.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "Bulgaria",
     "extent":
-    { "slat": 41.24,
+    [
+    { "areaname": "Bulgaria",
+      "slat": 41.24,
       "nlat": 44.23,
       "llon": 22.36,
       "rlon": 31.35
-    }
+    }]
   },
   { "wkid": 7815,
     "latestWkid": 7815,
@@ -2151,13 +2270,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 7842,
     "latestWkid": 7842,
@@ -2169,13 +2289,14 @@
     "authority": "EPSG",
     "version": "8.9.4(12.9.0)",
     "deprecated": "no",
-    "areaname": "Australia - GDA",
     "extent":
-    { "slat": -60.55,
+    [
+    { "areaname": "Australia - GDA",
+      "slat": -60.55,
       "nlat": -8.47,
       "llon": 93.41,
       "rlon": 173.34
-    }
+    }]
   },
   { "wkid": 7879,
     "latestWkid": 7879,
@@ -2187,13 +2308,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "St Helena - St Helena Island",
     "extent":
-    { "slat": -16.08,
+    [
+    { "areaname": "St Helena - St Helena Island",
+      "slat": -16.08,
       "nlat": -15.85,
       "llon": -5.85,
       "rlon": -5.59
-    }
+    }]
   },
   { "wkid": 7884,
     "latestWkid": 7884,
@@ -2205,13 +2327,14 @@
     "authority": "EPSG",
     "version": "9.0(12.9.0)",
     "deprecated": "no",
-    "areaname": "St Helena - St Helena Island",
     "extent":
-    { "slat": -16.08,
+    [
+    { "areaname": "St Helena - St Helena Island",
+      "slat": -16.08,
       "nlat": -15.85,
       "llon": -5.85,
       "rlon": -5.59
-    }
+    }]
   },
   { "wkid": 7914,
     "latestWkid": 7914,
@@ -2223,13 +2346,14 @@
     "authority": "EPSG",
     "version": "9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 7916,
     "latestWkid": 7916,
@@ -2241,13 +2365,14 @@
     "authority": "EPSG",
     "version": "9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 7918,
     "latestWkid": 7918,
@@ -2259,13 +2384,14 @@
     "authority": "EPSG",
     "version": "9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 7920,
     "latestWkid": 7920,
@@ -2277,13 +2403,14 @@
     "authority": "EPSG",
     "version": "9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 7922,
     "latestWkid": 7922,
@@ -2295,13 +2422,14 @@
     "authority": "EPSG",
     "version": "9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 7924,
     "latestWkid": 7924,
@@ -2313,13 +2441,14 @@
     "authority": "EPSG",
     "version": "9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 7926,
     "latestWkid": 7926,
@@ -2331,13 +2460,14 @@
     "authority": "EPSG",
     "version": "9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 7928,
     "latestWkid": 7928,
@@ -2349,13 +2479,14 @@
     "authority": "EPSG",
     "version": "9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 7930,
     "latestWkid": 7930,
@@ -2367,13 +2498,14 @@
     "authority": "EPSG",
     "version": "9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF by country",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 8084,
     "latestWkid": 8084,
@@ -2385,13 +2517,14 @@
     "authority": "EPSG",
     "version": "9.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Iceland",
     "extent":
-    { "slat": 59.96,
+    [
+    { "areaname": "Iceland",
+      "slat": 59.96,
       "nlat": 69.59,
       "llon": -30.87,
       "rlon": -5.55
-    }
+    }]
   },
   { "wkid": 8227,
     "latestWkid": 8227,
@@ -2403,13 +2536,14 @@
     "authority": "EPSG",
     "version": "9.1.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 8230,
     "latestWkid": 8230,
@@ -2421,13 +2555,14 @@
     "authority": "EPSG",
     "version": "9.1.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Canada",
     "extent":
-    { "slat": 38.21,
+    [
+    { "areaname": "Canada",
+      "slat": 38.21,
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    }
+    }]
   },
   { "wkid": 8233,
     "latestWkid": 8233,
@@ -2439,13 +2574,14 @@
     "authority": "EPSG",
     "version": "9.1.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Canada",
     "extent":
-    { "slat": 38.21,
+    [
+    { "areaname": "Canada",
+      "slat": 38.21,
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    }
+    }]
   },
   { "wkid": 8238,
     "latestWkid": 8238,
@@ -2457,13 +2593,14 @@
     "authority": "EPSG",
     "version": "9.1.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Canada",
     "extent":
-    { "slat": 38.21,
+    [
+    { "areaname": "Canada",
+      "slat": 38.21,
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    }
+    }]
   },
   { "wkid": 8242,
     "latestWkid": 8242,
@@ -2475,13 +2612,14 @@
     "authority": "EPSG",
     "version": "9.1.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Canada",
     "extent":
-    { "slat": 38.21,
+    [
+    { "areaname": "Canada",
+      "slat": 38.21,
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    }
+    }]
   },
   { "wkid": 8247,
     "latestWkid": 8247,
@@ -2493,13 +2631,14 @@
     "authority": "EPSG",
     "version": "9.1.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Canada",
     "extent":
-    { "slat": 38.21,
+    [
+    { "areaname": "Canada",
+      "slat": 38.21,
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    }
+    }]
   },
   { "wkid": 8250,
     "latestWkid": 8250,
@@ -2511,13 +2650,14 @@
     "authority": "EPSG",
     "version": "9.1.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Canada",
     "extent":
-    { "slat": 38.21,
+    [
+    { "areaname": "Canada",
+      "slat": 38.21,
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    }
+    }]
   },
   { "wkid": 8253,
     "latestWkid": 8253,
@@ -2529,13 +2669,14 @@
     "authority": "EPSG",
     "version": "9.1.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Canada",
     "extent":
-    { "slat": 38.21,
+    [
+    { "areaname": "Canada",
+      "slat": 38.21,
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    }
+    }]
   },
   { "wkid": 8397,
     "latestWkid": 8397,
@@ -2547,13 +2688,14 @@
     "authority": "EPSG",
     "version": "9.2.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 8401,
     "latestWkid": 8401,
@@ -2565,13 +2707,14 @@
     "authority": "EPSG",
     "version": "9.2.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 8425,
     "latestWkid": 8425,
@@ -2583,13 +2726,14 @@
     "authority": "EPSG",
     "version": "9.2.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Hong Kong",
     "extent":
-    { "slat": 22.13,
+    [
+    { "areaname": "Hong Kong",
+      "slat": 22.13,
       "nlat": 22.58,
       "llon": 113.76,
       "rlon": 114.51
-    }
+    }]
   },
   { "wkid": 8429,
     "latestWkid": 8429,
@@ -2601,13 +2745,14 @@
     "authority": "EPSG",
     "version": "9.2.2(12.9.0)",
     "deprecated": "no",
-    "areaname": "Macao",
     "extent":
-    { "slat": 22.06,
+    [
+    { "areaname": "Macao",
+      "slat": 22.06,
       "nlat": 22.23,
       "llon": 113.52,
       "rlon": 113.68
-    }
+    }]
   },
   { "wkid": 8541,
     "latestWkid": 8541,
@@ -2619,13 +2764,14 @@
     "authority": "EPSG",
     "version": "9.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "USA - FBN",
     "extent":
-    { "slat": -14.59,
+    [
+    { "areaname": "USA - FBN",
+      "slat": -14.59,
       "nlat": 49.38,
       "llon": 144.58,
       "rlon": -64.51
-    }
+    }]
   },
   { "wkid": 8543,
     "latestWkid": 8543,
@@ -2637,13 +2783,14 @@
     "authority": "EPSG",
     "version": "9.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Caribbean - Puerto Rico and US Virgin Islands - onshore",
     "extent":
-    { "slat": 17.62,
+    [
+    { "areaname": "Caribbean - Puerto Rico and US Virgin Islands - onshore",
+      "slat": 17.62,
       "nlat": 18.57,
       "llon": -67.97,
       "rlon": -64.51
-    }
+    }]
   },
   { "wkid": 8683,
     "latestWkid": 8683,
@@ -2655,13 +2802,14 @@
     "authority": "EPSG",
     "version": "9.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Serbia",
     "extent":
-    { "slat": 42.23,
+    [
+    { "areaname": "Serbia",
+      "slat": 42.23,
       "nlat": 46.19,
       "llon": 18.81,
       "rlon": 23.01
-    }
+    }]
   },
   { "wkid": 8697,
     "latestWkid": 8697,
@@ -2673,13 +2821,14 @@
     "authority": "EPSG",
     "version": "9.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Angola",
     "extent":
-    { "slat": -18.02,
+    [
+    { "areaname": "Angola",
+      "slat": -18.02,
       "nlat": -4.38,
       "llon": 8.2,
       "rlon": 24.09
-    }
+    }]
   },
   { "wkid": 8816,
     "latestWkid": 8816,
@@ -2691,13 +2840,14 @@
     "authority": "EPSG",
     "version": "9.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Saudi Arabia",
     "extent":
-    { "slat": 16.29,
+    [
+    { "areaname": "Saudi Arabia",
+      "slat": 16.29,
       "nlat": 32.16,
       "llon": 34.44,
       "rlon": 55.67
-    }
+    }]
   },
   { "wkid": 8898,
     "latestWkid": 8898,
@@ -2709,13 +2859,14 @@
     "authority": "EPSG",
     "version": "9.6.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Wallis and Futuna",
     "extent":
-    { "slat": -15.94,
+    [
+    { "areaname": "Wallis and Futuna",
+      "slat": -15.94,
       "nlat": -9.84,
       "llon": 179.49,
       "rlon": -174.27
-    }
+    }]
   },
   { "wkid": 8905,
     "latestWkid": 8905,
@@ -2727,13 +2878,14 @@
     "authority": "EPSG",
     "version": "9.6.1(12.9.0)",
     "deprecated": "no",
-    "areaname": "Costa Rica",
     "extent":
-    { "slat": 2.15,
+    [
+    { "areaname": "Costa Rica",
+      "slat": 2.15,
       "nlat": 11.77,
       "llon": -90.45,
       "rlon": -81.43
-    }
+    }]
   },
   { "wkid": 8915,
     "latestWkid": 8915,
@@ -2745,13 +2897,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8917,
     "latestWkid": 8917,
@@ -2763,13 +2916,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8919,
     "latestWkid": 8919,
@@ -2781,13 +2935,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8921,
     "latestWkid": 8921,
@@ -2799,13 +2954,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8923,
     "latestWkid": 8923,
@@ -2817,13 +2973,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8925,
     "latestWkid": 8925,
@@ -2835,13 +2992,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8927,
     "latestWkid": 8927,
@@ -2853,13 +3011,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8929,
     "latestWkid": 8929,
@@ -2871,13 +3030,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8931,
     "latestWkid": 8931,
@@ -2889,13 +3049,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8933,
     "latestWkid": 8933,
@@ -2907,13 +3068,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8935,
     "latestWkid": 8935,
@@ -2925,13 +3087,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8937,
     "latestWkid": 8937,
@@ -2943,13 +3106,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8939,
     "latestWkid": 8939,
@@ -2961,13 +3125,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8941,
     "latestWkid": 8941,
@@ -2979,13 +3144,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8943,
     "latestWkid": 8943,
@@ -2997,13 +3163,14 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8945,
     "latestWkid": 8945,
@@ -3015,31 +3182,33 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Latin America - Central America and South America",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Latin America - Central America and South America",
+      "slat": -59.87,
       "nlat": 32.72,
       "llon": -122.19,
       "rlon": -25.28
-    }
+    }]
   },
   { "wkid": 8947,
     "latestWkid": 8947,
     "macro": "PE_XYZ_SIRGAS_CHILE_2010",
     "name": "SIRGAS-Chile_2010",
-    "wkt": "GXYZCS[\"SIRGAS-Chile_2010\",DATUM[\"SIRGAS-Chile_realization_2_epoch_2010\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "GEODCRS[\"SIRGAS-Chile_2010\",DATUM[\"SIRGAS-Chile_realization_2_epoch_2010\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"8947\"]]",
+    "wkt": "GXYZCS[\"SIRGAS-Chile_2010\",DATUM[\"SIRGAS-Chile_2010\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"SIRGAS-Chile_2010\",DATUM[\"SIRGAS-Chile_2010\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"8947\"]]",
     "description": "SIRGAS-Chile 2010",
     "authority": "EPSG",
     "version": "9.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Chile",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Chile",
+      "slat": -59.87,
       "nlat": -17.5,
       "llon": -113.21,
       "rlon": -65.72
-    }
+    }]
   },
   { "wkid": 9001,
     "latestWkid": 9001,
@@ -3051,13 +3220,14 @@
     "authority": "EPSG",
     "version": "9.6.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 9004,
     "latestWkid": 9004,
@@ -3069,13 +3239,14 @@
     "authority": "EPSG",
     "version": "9.6.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 9007,
     "latestWkid": 9007,
@@ -3087,13 +3258,14 @@
     "authority": "EPSG",
     "version": "9.6.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 9010,
     "latestWkid": 9010,
@@ -3105,13 +3277,14 @@
     "authority": "EPSG",
     "version": "9.6.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 9015,
     "latestWkid": 9015,
@@ -3123,13 +3296,14 @@
     "authority": "EPSG",
     "version": "9.6.3(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 9070,
     "latestWkid": 9070,
@@ -3141,13 +3315,14 @@
     "authority": "EPSG",
     "version": "9.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Pacific - US interests Mariana plate",
     "extent":
-    { "slat": 1.64,
+    [
+    { "areaname": "Pacific - US interests Mariana plate",
+      "slat": 1.64,
       "nlat": 23.9,
       "llon": 129.48,
       "rlon": 149.55
-    }
+    }]
   },
   { "wkid": 9073,
     "latestWkid": 9073,
@@ -3159,13 +3334,14 @@
     "authority": "EPSG",
     "version": "9.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Pacific - US interests Pacific plate",
     "extent":
-    { "slat": -17.56,
+    [
+    { "areaname": "Pacific - US interests Pacific plate",
+      "slat": -17.56,
       "nlat": 31.8,
       "llon": 157.47,
       "rlon": -151.27
-    }
+    }]
   },
   { "wkid": 9138,
     "latestWkid": 9138,
@@ -3177,49 +3353,52 @@
     "authority": "EPSG",
     "version": "9.7(12.9.0)",
     "deprecated": "no",
-    "areaname": "Kosovo",
     "extent":
-    { "slat": 41.85,
+    [
+    { "areaname": "Kosovo",
+      "slat": 41.85,
       "nlat": 43.25,
       "llon": 19.97,
       "rlon": 21.8
-    }
+    }]
   },
   { "wkid": 9146,
     "latestWkid": 9146,
     "macro": "PE_XYZ_SIRGAS_CHILE_2013",
     "name": "SIRGAS-Chile_2013",
-    "wkt": "GXYZCS[\"SIRGAS-Chile_2013\",DATUM[\"SIRGAS-Chile_realization_3_epoch_2013\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "GEODCRS[\"SIRGAS-Chile_2013\",DATUM[\"SIRGAS-Chile_realization_3_epoch_2013\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"9146\"]]",
+    "wkt": "GXYZCS[\"SIRGAS-Chile_2013\",DATUM[\"SIRGAS-Chile_2013\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"SIRGAS-Chile_2013\",DATUM[\"SIRGAS-Chile_2013\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"9146\"]]",
     "description": "SIRGAS-Chile 2013",
     "authority": "EPSG",
     "version": "9.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Chile",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Chile",
+      "slat": -59.87,
       "nlat": -17.5,
       "llon": -113.21,
       "rlon": -65.72
-    }
+    }]
   },
   { "wkid": 9151,
     "latestWkid": 9151,
     "macro": "PE_XYZ_SIRGAS_CHILE_2016",
     "name": "SIRGAS-Chile_2016",
-    "wkt": "GXYZCS[\"SIRGAS-Chile_2016\",DATUM[\"SIRGAS-Chile_realization_4_epoch_2016\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "GEODCRS[\"SIRGAS-Chile_2016\",DATUM[\"SIRGAS-Chile_realization_4_epoch_2016\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"9151\"]]",
+    "wkt": "GXYZCS[\"SIRGAS-Chile_2016\",DATUM[\"SIRGAS-Chile_2016\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"SIRGAS-Chile_2016\",DATUM[\"SIRGAS-Chile_2016\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"9151\"]]",
     "description": "SIRGAS-Chile 2016",
     "authority": "EPSG",
     "version": "9.8(12.9.0)",
     "deprecated": "no",
-    "areaname": "Chile",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Chile",
+      "slat": -59.87,
       "nlat": -17.5,
       "llon": -113.21,
       "rlon": -65.72
-    }
+    }]
   },
   { "wkid": 9266,
     "latestWkid": 9266,
@@ -3231,13 +3410,14 @@
     "authority": "EPSG",
     "version": "9.8.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Austria",
     "extent":
-    { "slat": 46.4,
+    [
+    { "areaname": "Austria",
+      "slat": 46.4,
       "nlat": 49.02,
       "llon": 9.53,
       "rlon": 17.17
-    }
+    }]
   },
   { "wkid": 9292,
     "latestWkid": 9292,
@@ -3249,13 +3429,14 @@
     "authority": "EPSG",
     "version": "9.8.9(12.9.0)",
     "deprecated": "no",
-    "areaname": "Oman",
     "extent":
-    { "slat": 14.33,
+    [
+    { "areaname": "Oman",
+      "slat": 14.33,
       "nlat": 26.74,
       "llon": 51.99,
       "rlon": 63.38
-    }
+    }]
   },
   { "wkid": 9307,
     "latestWkid": 9307,
@@ -3267,13 +3448,14 @@
     "authority": "EPSG",
     "version": "9.9(12.9.0)",
     "deprecated": "no",
-    "areaname": "Australia - GDA",
     "extent":
-    { "slat": -60.55,
+    [
+    { "areaname": "Australia - GDA",
+      "slat": -60.55,
       "nlat": -8.47,
       "llon": 93.41,
       "rlon": 173.34
-    }
+    }]
   },
   { "wkid": 9331,
     "latestWkid": 9331,
@@ -3285,13 +3467,14 @@
     "authority": "EPSG",
     "version": "9.8.5(12.9.0)",
     "deprecated": "no",
-    "areaname": "Saudi Arabia",
     "extent":
-    { "slat": 16.29,
+    [
+    { "areaname": "Saudi Arabia",
+      "slat": 16.29,
       "nlat": 32.16,
       "llon": 34.44,
       "rlon": 55.67
-    }
+    }]
   },
   { "wkid": 9378,
     "latestWkid": 9378,
@@ -3303,13 +3486,14 @@
     "authority": "EPSG",
     "version": "9.8.12(12.9.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 9468,
     "latestWkid": 9468,
@@ -3321,13 +3505,14 @@
     "authority": "EPSG",
     "version": "9.9(12.9.0)",
     "deprecated": "no",
-    "areaname": "Indonesia",
     "extent":
-    { "slat": -13.95,
+    [
+    { "areaname": "Indonesia",
+      "slat": -13.95,
       "nlat": 7.79,
       "llon": 92.01,
       "rlon": 141.46
-    }
+    }]
   },
   { "wkid": 9545,
     "latestWkid": 9545,
@@ -3339,13 +3524,14 @@
     "authority": "EPSG",
     "version": "10.009(12.9.0)",
     "deprecated": "no",
-    "areaname": "Europe - Lyon-Turin",
     "extent":
-    { "slat": 44.87,
+    [
+    { "areaname": "Europe - Lyon-Turin",
+      "slat": 44.87,
       "nlat": 45.89,
       "llon": 4.65,
       "rlon": 7.88
-    }
+    }]
   },
   { "wkid": 9694,
     "latestWkid": 9694,
@@ -3357,13 +3543,14 @@
     "authority": "EPSG",
     "version": "10.013(12.9.0)",
     "deprecated": "no",
-    "areaname": "Chile",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Chile",
+      "slat": -59.87,
       "nlat": -17.5,
       "llon": -113.21,
       "rlon": -65.72
-    }
+    }]
   },
   { "wkid": 9700,
     "latestWkid": 9700,
@@ -3375,13 +3562,14 @@
     "authority": "EPSG",
     "version": "10.016(12.9.0)",
     "deprecated": "no",
-    "areaname": "Poland",
     "extent":
-    { "slat": 49.0,
+    [
+    { "areaname": "Poland",
+      "slat": 49.0,
       "nlat": 55.93,
       "llon": 14.14,
       "rlon": 24.15
-    }
+    }]
   },
   { "wkid": 9753,
     "latestWkid": 9753,
@@ -3393,13 +3581,14 @@
     "authority": "EPSG",
     "version": "10.036(13.1.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 9775,
     "latestWkid": 9775,
@@ -3411,13 +3600,14 @@
     "authority": "EPSG",
     "version": "10.034(13.1.0)",
     "deprecated": "no",
-    "areaname": "France",
     "extent":
-    { "slat": 41.15,
+    [
+    { "areaname": "France",
+      "slat": 41.15,
       "nlat": 51.56,
       "llon": -9.86,
       "rlon": 10.38
-    }
+    }]
   },
   { "wkid": 9780,
     "latestWkid": 9780,
@@ -3429,13 +3619,14 @@
     "authority": "EPSG",
     "version": "10.034(13.1.0)",
     "deprecated": "no",
-    "areaname": "France",
     "extent":
-    { "slat": 41.15,
+    [
+    { "areaname": "France",
+      "slat": 41.15,
       "nlat": 51.56,
       "llon": -9.86,
       "rlon": 10.38
-    }
+    }]
   },
   { "wkid": 9892,
     "latestWkid": 9892,
@@ -3447,13 +3638,14 @@
     "authority": "EPSG",
     "version": "10.043(13.0.0)",
     "deprecated": "no",
-    "areaname": "Luxembourg",
     "extent":
-    { "slat": 49.44,
+    [
+    { "areaname": "Luxembourg",
+      "slat": 49.44,
       "nlat": 50.19,
       "llon": 5.73,
       "rlon": 6.53
-    }
+    }]
   },
   { "wkid": 9988,
     "latestWkid": 9988,
@@ -3465,13 +3657,14 @@
     "authority": "EPSG",
     "version": "10.062(13.1.0)",
     "deprecated": "no",
-    "areaname": "World (by country)",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World (by country)",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 10176,
     "latestWkid": 10176,
@@ -3483,13 +3676,14 @@
     "authority": "EPSG",
     "version": "10.078(13.2.0)",
     "deprecated": "no",
-    "areaname": "World (by country)",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World (by country)",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 10282,
     "latestWkid": 10282,
@@ -3501,13 +3695,14 @@
     "authority": "EPSG",
     "version": "10.083(13.2.0)",
     "deprecated": "no",
-    "areaname": "Germany",
     "extent":
-    { "slat": 47.27,
+    [
+    { "areaname": "Germany",
+      "slat": 47.27,
       "nlat": 55.92,
       "llon": 3.34,
       "rlon": 15.04
-    }
+    }]
   },
   { "wkid": 10297,
     "latestWkid": 10297,
@@ -3519,13 +3714,14 @@
     "authority": "EPSG",
     "version": "10.083(13.2.0)",
     "deprecated": "no",
-    "areaname": "Algeria",
     "extent":
-    { "slat": 18.97,
+    [
+    { "areaname": "Algeria",
+      "slat": 18.97,
       "nlat": 38.8,
       "llon": -8.67,
       "rlon": 11.99
-    }
+    }]
   },
   { "wkid": 10303,
     "latestWkid": 10303,
@@ -3537,13 +3733,14 @@
     "authority": "EPSG",
     "version": "10.083(13.2.0)",
     "deprecated": "no",
-    "areaname": "Latvia",
     "extent":
-    { "slat": 55.67,
+    [
+    { "areaname": "Latvia",
+      "slat": 55.67,
       "nlat": 58.09,
       "llon": 19.06,
       "rlon": 28.24
-    }
+    }]
   },
   { "wkid": 10308,
     "latestWkid": 10308,
@@ -3555,13 +3752,14 @@
     "authority": "EPSG",
     "version": "10.085(13.2.0)",
     "deprecated": "no",
-    "areaname": "New Caledonia",
     "extent":
-    { "slat": -26.45,
+    [
+    { "areaname": "New Caledonia",
+      "slat": -26.45,
       "nlat": -14.83,
       "llon": 156.25,
       "rlon": 174.28
-    }
+    }]
   },
   { "wkid": 10326,
     "latestWkid": 10326,
@@ -3573,13 +3771,14 @@
     "authority": "EPSG",
     "version": "10.087(13.2.0)",
     "deprecated": "no",
-    "areaname": "Bosnia and Herzegovina",
     "extent":
-    { "slat": 42.56,
+    [
+    { "areaname": "Bosnia and Herzegovina",
+      "slat": 42.56,
       "nlat": 45.27,
       "llon": 15.74,
       "rlon": 19.62
-    }
+    }]
   },
   { "wkid": 10412,
     "latestWkid": 10412,
@@ -3591,13 +3790,14 @@
     "authority": "EPSG",
     "version": "10.092(13.2.0)",
     "deprecated": "no",
-    "areaname": "Canada",
     "extent":
-    { "slat": 38.21,
+    [
+    { "areaname": "Canada",
+      "slat": 38.21,
       "nlat": 86.46,
       "llon": -141.01,
       "rlon": -40.73
-    }
+    }]
   },
   { "wkid": 10473,
     "latestWkid": 10473,
@@ -3609,13 +3809,14 @@
     "authority": "EPSG",
     "version": "10.095(13.3.0)",
     "deprecated": "no",
-    "areaname": "Europe - Brenner",
     "extent":
-    { "slat": 46.45,
+    [
+    { "areaname": "Europe - Brenner",
+      "slat": 46.45,
       "nlat": 47.33,
       "llon": 11.04,
       "rlon": 11.91
-    }
+    }]
   },
   { "wkid": 10569,
     "latestWkid": 10569,
@@ -3627,13 +3828,14 @@
     "authority": "EPSG",
     "version": "11.006(13.4.0)",
     "deprecated": "no",
-    "areaname": "Europe - ETRF by country",
     "extent":
-    { "slat": 33.26,
+    [
+    { "areaname": "Europe - ETRF by country",
+      "slat": 33.26,
       "nlat": 84.73,
       "llon": -16.1,
       "rlon": 38.01
-    }
+    }]
   },
   { "wkid": 10604,
     "latestWkid": 10604,
@@ -3645,13 +3847,14 @@
     "authority": "EPSG",
     "version": "11.005(13.4.0)",
     "deprecated": "no",
-    "areaname": "World",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 10634,
     "latestWkid": 10634,
@@ -3663,13 +3866,14 @@
     "authority": "EPSG",
     "version": "11.023(13.5.0)",
     "deprecated": "no",
-    "areaname": "BES Islands - Saba onshore",
     "extent":
-    { "slat": 17.56,
+    [
+    { "areaname": "BES Islands - Saba onshore",
+      "slat": 17.56,
       "nlat": 17.71,
       "llon": -63.31,
       "rlon": -63.16
-    }
+    }]
   },
   { "wkid": 10637,
     "latestWkid": 10637,
@@ -3681,13 +3885,14 @@
     "authority": "EPSG",
     "version": "11.023(13.5.0)",
     "deprecated": "no",
-    "areaname": "BES Islands - Saba onshore",
     "extent":
-    { "slat": 17.56,
+    [
+    { "areaname": "BES Islands - Saba onshore",
+      "slat": 17.56,
       "nlat": 17.71,
       "llon": -63.31,
       "rlon": -63.16
-    }
+    }]
   },
   { "wkid": 10669,
     "latestWkid": 10669,
@@ -3699,13 +3904,14 @@
     "authority": "EPSG",
     "version": "11.021(13.5.0)",
     "deprecated": "no",
-    "areaname": "Mayotte",
     "extent":
-    { "slat": -14.49,
+    [
+    { "areaname": "Mayotte",
+      "slat": -14.49,
       "nlat": -11.33,
       "llon": 43.68,
       "rlon": 46.7
-    }
+    }]
   },
   { "wkid": 10688,
     "latestWkid": 10688,
@@ -3717,13 +3923,14 @@
     "authority": "EPSG",
     "version": "11.024(13.5.0)",
     "deprecated": "no",
-    "areaname": "Finland",
     "extent":
-    { "slat": 58.84,
+    [
+    { "areaname": "Finland",
+      "slat": 58.84,
       "nlat": 70.09,
       "llon": 19.08,
       "rlon": 31.59
-    }
+    }]
   },
   { "wkid": 10723,
     "latestWkid": 10723,
@@ -3735,13 +3942,14 @@
     "authority": "EPSG",
     "version": "11.024(13.5.0)",
     "deprecated": "no",
-    "areaname": "Uzbekistan",
     "extent":
-    { "slat": 37.18,
+    [
+    { "areaname": "Uzbekistan",
+      "slat": 37.18,
       "nlat": 45.58,
       "llon": 55.99,
       "rlon": 73.17
-    }
+    }]
   },
   { "wkid": 10734,
     "latestWkid": 10734,
@@ -3753,13 +3961,14 @@
     "authority": "EPSG",
     "version": "11.029(13.5.0)",
     "deprecated": "no",
-    "areaname": "BES Islands - Sint Eustatius - onshore",
     "extent":
-    { "slat": 17.41,
+    [
+    { "areaname": "BES Islands - Sint Eustatius - onshore",
+      "slat": 17.41,
       "nlat": 17.58,
       "llon": -63.05,
       "rlon": -62.88
-    }
+    }]
   },
   { "wkid": 10737,
     "latestWkid": 10737,
@@ -3771,13 +3980,14 @@
     "authority": "EPSG",
     "version": "11.029(13.5.0)",
     "deprecated": "no",
-    "areaname": "BES Islands - Sint Eustatius - onshore",
     "extent":
-    { "slat": 17.41,
+    [
+    { "areaname": "BES Islands - Sint Eustatius - onshore",
+      "slat": 17.41,
       "nlat": 17.58,
       "llon": -63.05,
       "rlon": -62.88
-    }
+    }]
   },
   { "wkid": 10760,
     "latestWkid": 10760,
@@ -3789,13 +3999,14 @@
     "authority": "EPSG",
     "version": "11.029(13.5.0)",
     "deprecated": "no",
-    "areaname": "BES Islands - Bonaire onshore",
     "extent":
-    { "slat": 11.97,
+    [
+    { "areaname": "BES Islands - Bonaire onshore",
+      "slat": 11.97,
       "nlat": 12.36,
       "llon": -68.47,
       "rlon": -68.14
-    }
+    }]
   },
   { "wkid": 10779,
     "latestWkid": 10779,
@@ -3807,13 +4018,14 @@
     "authority": "EPSG",
     "version": "11.029(13.5.0)",
     "deprecated": "no",
-    "areaname": "World (by country)",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World (by country)",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 10783,
     "latestWkid": 10783,
@@ -3825,13 +4037,14 @@
     "authority": "EPSG",
     "version": "11.029(13.5.0)",
     "deprecated": "no",
-    "areaname": "World (by country)",
     "extent":
-    { "slat": -90.0,
+    [
+    { "areaname": "World (by country)",
+      "slat": -90.0,
       "nlat": 90.0,
       "llon": -180.0,
       "rlon": 180.0
-    }
+    }]
   },
   { "wkid": 10789,
     "latestWkid": 10789,
@@ -3843,13 +4056,14 @@
     "authority": "EPSG",
     "version": "12.006(13.6.0)",
     "deprecated": "no",
-    "areaname": "Uganda",
     "extent":
-    { "slat": -1.48,
+    [
+    { "areaname": "Uganda",
+      "slat": -1.48,
       "nlat": 4.23,
       "llon": 29.57,
       "rlon": 35.01
-    }
+    }]
   },
   { "wkid": 10798,
     "latestWkid": 10798,
@@ -3861,13 +4075,14 @@
     "authority": "EPSG",
     "version": "12.001(13.5.0)",
     "deprecated": "no",
-    "areaname": "Liberia",
     "extent":
-    { "slat": 1.02,
+    [
+    { "areaname": "Liberia",
+      "slat": 1.02,
       "nlat": 8.52,
       "llon": -13.59,
       "rlon": -7.36
-    }
+    }]
   },
   { "wkid": 10829,
     "latestWkid": 10829,
@@ -3879,13 +4094,14 @@
     "authority": "EPSG",
     "version": "12.016(13.6.0)",
     "deprecated": "no",
-    "areaname": "Georgia",
     "extent":
-    { "slat": 41.04,
+    [
+    { "areaname": "Georgia",
+      "slat": 41.04,
       "nlat": 43.59,
       "llon": 38.97,
       "rlon": 46.72
-    }
+    }]
   },
   { "wkid": 10908,
     "latestWkid": 10908,
@@ -3897,13 +4113,14 @@
     "authority": "EPSG",
     "version": "12.016(13.6.0)",
     "deprecated": "no",
-    "areaname": "USA - California",
     "extent":
-    { "slat": 32.53,
+    [
+    { "areaname": "USA - California",
+      "slat": 32.53,
       "nlat": 42.01,
       "llon": -124.45,
       "rlon": -114.12
-    }
+    }]
   },
   { "wkid": 10939,
     "latestWkid": 10939,
@@ -3915,13 +4132,14 @@
     "authority": "EPSG",
     "version": "12.015(13.6.0)",
     "deprecated": "no",
-    "areaname": "Kazakhstan",
     "extent":
-    { "slat": 40.59,
+    [
+    { "areaname": "Kazakhstan",
+      "slat": 40.59,
       "nlat": 55.45,
       "llon": 46.49,
       "rlon": 87.35
-    }
+    }]
   },
   { "wkid": 10950,
     "latestWkid": 10950,
@@ -3933,13 +4151,14 @@
     "authority": "EPSG",
     "version": "12.016(13.6.0)",
     "deprecated": "no",
-    "areaname": "USA - California",
     "extent":
-    { "slat": 32.53,
+    [
+    { "areaname": "USA - California",
+      "slat": 32.53,
       "nlat": 42.01,
       "llon": -124.45,
       "rlon": -114.12
-    }
+    }]
   },
   { "wkid": 10954,
     "latestWkid": 10954,
@@ -3951,13 +4170,14 @@
     "authority": "EPSG",
     "version": "12.016(13.6.0)",
     "deprecated": "no",
-    "areaname": "Greenland",
     "extent":
-    { "slat": 56.38,
-      "nlat": 87.02,
+    [
+    { "areaname": "Greenland",
+      "slat": 56.38,
+      "nlat": 87.03,
       "llon": -75.0,
       "rlon": 7.99
-    }
+    }]
   },
   { "wkid": 10957,
     "latestWkid": 10957,
@@ -3969,31 +4189,109 @@
     "authority": "EPSG",
     "version": "12.016(13.6.0)",
     "deprecated": "no",
-    "areaname": "Greenland",
     "extent":
-    { "slat": 56.38,
-      "nlat": 87.02,
+    [
+    { "areaname": "Greenland",
+      "slat": 56.38,
+      "nlat": 87.03,
       "llon": -75.0,
       "rlon": 7.99
-    }
+    }]
+  },
+  { "wkid": 10991,
+    "latestWkid": 10991,
+    "macro": "PE_XYZ_XRAIL84",
+    "name": "Xrail84",
+    "wkt": "GXYZCS[\"Xrail84\",DATUM[\"D_Xrail84\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"Xrail84\",DATUM[\"D_Xrail84\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"10991\"]]",
+    "description": "Xrail84",
+    "authority": "EPSG",
+    "version": "12.031(13.7.0)",
+    "deprecated": "no",
+    "extent":
+    [
+    { "areaname": "UK - Greater London",
+      "slat": 51.1,
+      "nlat": 52.0,
+      "llon": -1.33,
+      "rlon": 0.8
+    }]
+  },
+  { "wkid": 11029,
+    "latestWkid": 11029,
+    "macro": "PE_XYZ_SRGI2013_EPOCH_2021",
+    "name": "SRGI2013_epoch_2021.0",
+    "wkt": "GXYZCS[\"SRGI2013_epoch_2021.0\",DATUM[\"Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"SRGI2013_epoch_2021.0\",DATUM[\"Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0\",ELLIPSOID[\"WGS_1984\",6378137.0,298.257223563],ANCHOREPOCH[2021.0]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"11029\"]]",
+    "description": "SRGI2013 epoch 2021.0",
+    "authority": "EPSG",
+    "version": "12.042(13.7.0)",
+    "deprecated": "no",
+    "extent":
+    [
+    { "areaname": "Indonesia",
+      "slat": -13.95,
+      "nlat": 7.79,
+      "llon": 92.01,
+      "rlon": 141.46
+    }]
+  },
+  { "wkid": 11041,
+    "latestWkid": 11041,
+    "macro": "PE_XYZ_CR_SIRGAS_EPOCH_2019_24",
+    "name": "CR-SIRGAS_epoch_2019.24",
+    "wkt": "GXYZCS[\"CR-SIRGAS_epoch_2019.24\",DATUM[\"CR-SIRGAS_epoch_2019.24\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"CR-SIRGAS_epoch_2019.24\",DATUM[\"CR-SIRGAS_epoch_2019.24\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101],ANCHOREPOCH[2019.24]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"11041\"]]",
+    "description": "CR-SIRGAS epoch 2019.24",
+    "authority": "EPSG",
+    "version": "12.029(13.7.0)",
+    "deprecated": "no",
+    "extent":
+    [
+    { "areaname": "Costa Rica",
+      "slat": 2.15,
+      "nlat": 11.77,
+      "llon": -90.45,
+      "rlon": -81.43
+    }]
+  },
+  { "wkid": 11224,
+    "latestWkid": 11224,
+    "macro": "PE_XYZ_DRUKREF23",
+    "name": "DrukRef23",
+    "wkt": "GXYZCS[\"DrukRef23\",DATUM[\"National_Reference_Frame_of_Bhutan_2023\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"DrukRef23\",DATUM[\"National_Reference_Frame_of_Bhutan_2023\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"11224\"]]",
+    "description": "DrukRef23",
+    "authority": "EPSG",
+    "version": "12.049(13.7.0)",
+    "deprecated": "no",
+    "extent":
+    [
+    { "areaname": "Bhutan",
+      "slat": 26.7,
+      "nlat": 28.33,
+      "llon": 88.74,
+      "rlon": 92.13
+    }]
   },
   { "wkid": 20039,
     "latestWkid": 20039,
     "macro": "PE_XYZ_SIRGAS_CHILE_2021",
     "name": "SIRGAS-Chile_2021",
-    "wkt": "GXYZCS[\"SIRGAS-Chile_2021\",DATUM[\"SIRGAS-Chile_realization_5_epoch_2021\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
-    "wkt2": "GEODCRS[\"SIRGAS-Chile_2021\",DATUM[\"SIRGAS-Chile_realization_5_epoch_2021\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"20039\"]]",
+    "wkt": "GXYZCS[\"SIRGAS-Chile_2021\",DATUM[\"SIRGAS-Chile_2021\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Meter\",1.0]]",
+    "wkt2": "GEODCRS[\"SIRGAS-Chile_2021\",DATUM[\"SIRGAS-Chile_2021\",ELLIPSOID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],CS[Cartesian,3],AXIS[\"Geocentric X (X)\",geocentricX,ORDER[1]],AXIS[\"Geocentric Y (Y)\",geocentricY,ORDER[2]],AXIS[\"Geocentric Z (Z)\",geocentricZ,ORDER[3]],LENGTHUNIT[\"Meter\",1.0],ID[\"EPSG\",\"20039\"]]",
     "description": "SIRGAS-Chile 2021",
     "authority": "EPSG",
     "version": "10.073(13.1.0)",
     "deprecated": "no",
-    "areaname": "Chile",
     "extent":
-    { "slat": -59.87,
+    [
+    { "areaname": "Chile",
+      "slat": -59.87,
       "nlat": -17.5,
       "llon": -113.21,
       "rlon": -65.72
-    }
+    }]
   },
   { "wkid": 20044,
     "latestWkid": 20044,
@@ -4005,13 +4303,14 @@
     "authority": "EPSG",
     "version": "10.082(13.2.0)",
     "deprecated": "no",
-    "areaname": "Colombia",
     "extent":
-    { "slat": -4.23,
+    [
+    { "areaname": "Colombia",
+      "slat": -4.23,
       "nlat": 15.51,
       "llon": -84.77,
       "rlon": -66.87
-    }
+    }]
   },
   { "wkid": 103000,
     "latestWkid": 103000,
@@ -4023,12 +4322,13 @@
     "authority": "Esri",
     "version": "13.6.0",
     "deprecated": "no",
-    "areaname": "Palestine",
     "extent":
-    { "slat": 31.21,
+    [
+    { "areaname": "Palestine",
+      "slat": 31.21,
       "nlat": 32.55,
       "llon": 34.17,
       "rlon": 35.58
-    }
+    }]
   }
 ] }

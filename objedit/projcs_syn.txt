@@ -11307,11 +11307,6 @@
 "Merchich / Nord Maroc", \
    "Nord_Maroc", \
    FALSE, \
-   "EPSG"
-
-"Merchich / Nord Maroc", \
-   "Nord_Maroc", \
-   FALSE, \
    "Oracle"
 
 "Merchich / Nord Maroc", \
@@ -11348,11 +11343,6 @@
    "Sahara", \
    FALSE, \
    "Teradata"
-
-"Merchich / Sud Maroc", \
-   "Sud_Maroc", \
-   FALSE, \
-   "EPSG"
 
 "Merchich / Sud Maroc", \
    "Sud_Maroc", \
@@ -19529,6 +19519,16 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) / RMTCRS Big Timber 83 (ft)", \
+   "NAD83(2011)_RMTCRS_Big_Timber_83_Ft_Intl", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Big Timber 83 (m)", \
+   "NAD83(2011)_RMTCRS_Big_Timber_83_Meters", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(2011) / RMTCRS Billings (ft)", \
    "NAD_1983_2011_RMTCRS_Billings_Ft_Intl", \
    FALSE, \
@@ -19559,6 +19559,26 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) / RMTCRS Butte 83 (ft)", \
+   "NAD83(2011)_RMTCRS_Butte_83_Ft_Intl", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Butte 83 (m)", \
+   "NAD83(2011)_RMTCRS_Butte_83_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Canyon Ferry 83 (ft)", \
+   "NAD83(2011)_RMTCRS_Canyon_Ferry_83_Ft_Intl", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Canyon Ferry 83 (m)", \
+   "NAD83(2011)_RMTCRS_Canyon_Ferry_83_Meters", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(2011) / RMTCRS Crow (ft)", \
    "NAD_1983_2011_RMTCRS_Crow_Ft_Intl", \
    FALSE, \
@@ -19566,6 +19586,16 @@
 
 "NAD83(2011) / RMTCRS Crow (m)", \
    "NAD_1983_2011_RMTCRS_Crow_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Flathead 83 (ft)", \
+   "NAD83(2011)_RMTCRS_Flathead_83_Ft_Intl", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Flathead 83 (m)", \
+   "NAD83(2011)_RMTCRS_Flathead_83_Meters", \
    FALSE, \
    "EPSG"
 
@@ -19599,6 +19629,16 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) / RMTCRS Interstate 83 (ft)", \
+   "NAD83(2011)_RMTCRS_Interstate_83_Ft_Intl", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Interstate 83 (m)", \
+   "NAD83(2011)_RMTCRS_Interstate_83_Meters", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(2011) / RMTCRS Milk River (ft)", \
    "NAD_1983_2011_RMTCRS_Milk_River_Ft_Intl", \
    FALSE, \
@@ -19606,6 +19646,46 @@
 
 "NAD83(2011) / RMTCRS Milk River (m)", \
    "NAD_1983_2011_RMTCRS_Milk_River_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Mission 83 (ft)", \
+   "NAD83(2011)_RMTCRS_Mission_83_Ft_Intl", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Mission 83 (m)", \
+   "NAD83(2011)_RMTCRS_Mission_83_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Missoula 83 (ft)", \
+   "NAD83(2011)_RMTCRS_Missoula_83_Ft_Intl", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Missoula 83 (m)", \
+   "NAD83(2011)_RMTCRS_Missoula_83_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS NECI 83 (ft)", \
+   "NAD83(2011)_RMTCRS_NECI_83_Ft_Intl", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS NECI 83 (m)", \
+   "NAD83(2011)_RMTCRS_NECI_83_Meters", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Phillips 83 (ft)", \
+   "NAD83(2011)_RMTCRS_Phillips_83_Ft_Intl", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / RMTCRS Phillips 83 (m)", \
+   "NAD83(2011)_RMTCRS_Phillips_83_Meters", \
    FALSE, \
    "EPSG"
 
@@ -40104,8 +40184,13 @@
    FALSE, \
    "Teradata"
 
+"Nord_Maroc", \
+   "Merchich_Nord_Maroc", \
+   TRUE, \
+   ""
+
 "Nord_Maroc_Degree", \
-   "Nord_Maroc", \
+   "Merchich_Nord_Maroc", \
    FALSE, \
    ""
 
@@ -53979,8 +54064,13 @@
    FALSE, \
    "Teradata"
 
+"Sud_Maroc", \
+   "Merchich_Sud_Maroc", \
+   TRUE, \
+   ""
+
 "Sud_Maroc_Degree", \
-   "Sud_Maroc", \
+   "Merchich_Sud_Maroc", \
    FALSE, \
    ""
 
@@ -64388,6 +64478,11 @@
    "Xian_1980_GK_Zone_23", \
    FALSE, \
    "Teradata"
+
+"Xrail84 / London Survey Grid TM", \
+   "London_Survey_Grid", \
+   FALSE, \
+   "EPSG"
 
 "Yemen NGN96 / UTM zone 37N", \
    "Yemen_NGN_1996_UTM_Zone_37N", \

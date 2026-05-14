@@ -184,6 +184,10 @@ PE_GCS_SRGI2013_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "SRGI2013 3D"
 
+PE_GCS_SRGI2013_EPOCH_2021_3D, \
+   "Geographic Coordinate Systems/3D/Asia", \
+   "SRGI2013 epoch 2021.0 3D"
+
 PE_GCS_TUREF_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "TUREF 3D"
@@ -219,6 +223,10 @@ PE_GCS_NZGD_2000_3D, \
 PE_GCS_CR_SIRGAS_3D, \
    "Geographic Coordinate Systems/3D/Central America", \
    "CR-SIRGAS 3D"
+
+PE_GCS_CR_SIRGAS_EPOCH_2019_24_3D, \
+   "Geographic Coordinate Systems/3D/Central America", \
+   "CR-SIRGAS epoch 2019.24 3D"
 
 PE_GCS_CR05_3D, \
    "Geographic Coordinate Systems/3D/Central America", \
@@ -496,6 +504,10 @@ PE_GCS_UKRAINE_2000_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "Ukraine 2000 3D"
 
+PE_GCS_XRAIL84_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "Xrail84 3D"
+
 PE_GCS_RGF93_LON_LAT_3D, \
    "Geographic Coordinate Systems/3D/Europe/France", \
    "RGF 1993 (lon-lat) 3D"
@@ -598,7 +610,7 @@ PE_GCS_CSRN_EPOCH_2025_0_NAD83_2011_3D, \
 
 PE_GCS_CSRS_EPOCH_2017_5_NAD83_3D, \
    "Geographic Coordinate Systems/3D/North America/United States", \
-   "California SRS Epoch 2017.50 (NAD83) 3D"
+   "California SRS epoch 2017.50 (NAD83) 3D"
 
 PE_GCS_NAD_1983_2011_3D, \
    "Geographic Coordinate Systems/3D/North America/United States", \
@@ -612,6 +624,10 @@ PE_GCS_NAD_1983_FBN_3D, \
    "Geographic Coordinate Systems/3D/North America/United States", \
    "NAD 1983 (FBN) 3D"
 
+PE_GCS_NAD_1983_HARN_3D, \
+   "Geographic Coordinate Systems/3D/North America/United States", \
+   "NAD 1983 (HARN) 3D"
+
 PE_GCS_NAD_1983_NSRS2007_3D, \
    "Geographic Coordinate Systems/3D/North America/United States", \
    "NAD 1983 (NSRS2007) 3D"
@@ -619,10 +635,6 @@ PE_GCS_NAD_1983_NSRS2007_3D, \
 PE_GCS_NAD_1983_3D, \
    "Geographic Coordinate Systems/3D/North America/United States", \
    "NAD 1983 3D"
-
-PE_GCS_NAD_1983_HARN_3D, \
-   "Geographic Coordinate Systems/3D/North America/United States", \
-   "NAD 1983 HARN 3D"
 
 PE_GCS_BERMUDA_2000_3D, \
    "Geographic Coordinate Systems/3D/Oceans/Atlantic Ocean", \
@@ -1456,6 +1468,14 @@ PE_GCS_DEIR_EZ_ZOR, \
    "Geographic Coordinate Systems/Asia", \
    "Deir ez Zor"
 
+PE_GCS_DRUKREF23, \
+   "Geographic Coordinate Systems/Asia", \
+   "DrukRef23"
+
+PE_GCS_DRUKREF23_3D, \
+   "Geographic Coordinate Systems/Asia", \
+   "DrukRef23 3D"
+
 PE_GCS_ED_1950, \
    "Geographic Coordinate Systems/Asia", \
    "European Datum 1950"
@@ -1824,6 +1844,10 @@ PE_GCS_SRGI2013, \
    "Geographic Coordinate Systems/Asia/Indonesia", \
    "SRGI2013"
 
+PE_GCS_SRGI2013_EPOCH_2021, \
+   "Geographic Coordinate Systems/Asia/Indonesia", \
+   "SRGI2013 epoch 2021.0"
+
 PE_GCS_SEGORA, \
    "Geographic Coordinate Systems/Asia/Indonesia", \
    "Segora"
@@ -1924,6 +1948,10 @@ PE_GCS_CR_SIRGAS, \
    "Geographic Coordinate Systems/Central America", \
    "CR-SIRGAS"
 
+PE_GCS_CR_SIRGAS_EPOCH_2019_24, \
+   "Geographic Coordinate Systems/Central America", \
+   "CR-SIRGAS epoch 2019.24"
+
 PE_GCS_CR05, \
    "Geographic Coordinate Systems/Central America", \
    "CR05"
@@ -1942,7 +1970,7 @@ PE_GCS_PANAMA_COLON_1911, \
 
 PE_GCS_PANAMA08_2011, \
    "Geographic Coordinate Systems/Central America", \
-   "Panama-ITRF2008 Epoch 2011"
+   "Panama-ITRF2008 epoch 2011"
 
 PE_GCS_SIRGAS_2000, \
    "Geographic Coordinate Systems/Central America", \
@@ -2802,7 +2830,7 @@ PE_GCS_CSRN_EPOCH_2025_0_NAD83_2011, \
 
 PE_GCS_CSRS_EPOCH_2017_5_NAD83, \
    "Geographic Coordinate Systems/North America/United States", \
-   "California SRS Epoch 2017.50 (NAD83)"
+   "California SRS epoch 2017.50 (NAD83)"
 
 PE_GCS_CAPE_CANAVERAL, \
    "Geographic Coordinate Systems/North America/United States", \
@@ -2828,13 +2856,13 @@ PE_GCS_NAD_1983_FBN, \
    "Geographic Coordinate Systems/North America/United States", \
    "NAD 1983 (FBN)"
 
+PE_GCS_NAD_1983_HARN, \
+   "Geographic Coordinate Systems/North America/United States", \
+   "NAD 1983 (HARN)"
+
 PE_GCS_NAD_1983_NSRS2007, \
    "Geographic Coordinate Systems/North America/United States", \
    "NAD 1983 (NSRS2007)"
-
-PE_GCS_NAD_1983_HARN, \
-   "Geographic Coordinate Systems/North America/United States", \
-   "NAD 1983 HARN"
 
 PE_GCS_ST_GEORGE_ISLAND, \
    "Geographic Coordinate Systems/North America/United States", \
@@ -2850,355 +2878,355 @@ PE_GCS_ST_PAUL_ISLAND, \
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_ANOKA, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Anoka"
+   "NAD 1983 (HARN) Adj MN Anoka"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_BECKER, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Becker"
+   "NAD 1983 (HARN) Adj MN Becker"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_BELTRAMI_N, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Beltrami North"
+   "NAD 1983 (HARN) Adj MN Beltrami North"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_BELTRAMI_S, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Beltrami South"
+   "NAD 1983 (HARN) Adj MN Beltrami South"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_BENTON, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Benton"
+   "NAD 1983 (HARN) Adj MN Benton"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_BIG_STONE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Big Stone"
+   "NAD 1983 (HARN) Adj MN Big Stone"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_BLUE_EARTH, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Blue Earth"
+   "NAD 1983 (HARN) Adj MN Blue Earth"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_BROWN, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Brown"
+   "NAD 1983 (HARN) Adj MN Brown"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_CARLTON, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Carlton"
+   "NAD 1983 (HARN) Adj MN Carlton"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_CARVER, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Carver"
+   "NAD 1983 (HARN) Adj MN Carver"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_CASS_N, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Cass North"
+   "NAD 1983 (HARN) Adj MN Cass North"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_CASS_S, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Cass South"
+   "NAD 1983 (HARN) Adj MN Cass South"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_CHIPPEWA, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Chippewa"
+   "NAD 1983 (HARN) Adj MN Chippewa"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_CHISAGO, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Chisago"
+   "NAD 1983 (HARN) Adj MN Chisago"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_COOK_N, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Cook North"
+   "NAD 1983 (HARN) Adj MN Cook North"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_COOK_S, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Cook South"
+   "NAD 1983 (HARN) Adj MN Cook South"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_COTTONWOOD, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Cottonwood"
+   "NAD 1983 (HARN) Adj MN Cottonwood"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_CROW_WING, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Crow Wing"
+   "NAD 1983 (HARN) Adj MN Crow Wing"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_DAKOTA, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Dakota"
+   "NAD 1983 (HARN) Adj MN Dakota"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_DODGE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Dodge"
+   "NAD 1983 (HARN) Adj MN Dodge"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_DOUGLAS, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Douglas"
+   "NAD 1983 (HARN) Adj MN Douglas"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_FARIBAULT, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Faribault"
+   "NAD 1983 (HARN) Adj MN Faribault"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_FILLMORE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Fillmore"
+   "NAD 1983 (HARN) Adj MN Fillmore"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_FREEBORN, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Freeborn"
+   "NAD 1983 (HARN) Adj MN Freeborn"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_GOODHUE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Goodhue"
+   "NAD 1983 (HARN) Adj MN Goodhue"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_GRANT, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Grant"
+   "NAD 1983 (HARN) Adj MN Grant"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_HENNEPIN, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Hennepin"
+   "NAD 1983 (HARN) Adj MN Hennepin"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_HOUSTON, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Houston"
+   "NAD 1983 (HARN) Adj MN Houston"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_ISANTI, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Isanti"
+   "NAD 1983 (HARN) Adj MN Isanti"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_ITASCA_N, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Itasca North"
+   "NAD 1983 (HARN) Adj MN Itasca North"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_ITASCA_S, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Itasca South"
+   "NAD 1983 (HARN) Adj MN Itasca South"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_JACKSON, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Jackson"
+   "NAD 1983 (HARN) Adj MN Jackson"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_KANABEC, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Kanabec"
+   "NAD 1983 (HARN) Adj MN Kanabec"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_KANDIYOHI, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Kandiyohi"
+   "NAD 1983 (HARN) Adj MN Kandiyohi"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_KITTSON, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Kittson"
+   "NAD 1983 (HARN) Adj MN Kittson"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_KOOCHICHING, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Koochiching"
+   "NAD 1983 (HARN) Adj MN Koochiching"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_LAC_QUI_PARLE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Lac Qui Parle"
+   "NAD 1983 (HARN) Adj MN Lac Qui Parle"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_LAKE_OF_THE_WOODS_N, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Lake of the Woods North"
+   "NAD 1983 (HARN) Adj MN Lake of the Woods North"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_LAKE_OF_THE_WOODS_S, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Lake of the Woods South"
+   "NAD 1983 (HARN) Adj MN Lake of the Woods South"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_LE_SUEUR, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Le Sueur"
+   "NAD 1983 (HARN) Adj MN Le Sueur"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_LINCOLN, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Lincoln"
+   "NAD 1983 (HARN) Adj MN Lincoln"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_LYON, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Lyon"
+   "NAD 1983 (HARN) Adj MN Lyon"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_MAHNOMEN, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Mahnomen"
+   "NAD 1983 (HARN) Adj MN Mahnomen"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_MARSHALL, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Marshall"
+   "NAD 1983 (HARN) Adj MN Marshall"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_MARTIN, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Martin"
+   "NAD 1983 (HARN) Adj MN Martin"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_MCLEOD, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN McLeod"
+   "NAD 1983 (HARN) Adj MN McLeod"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_MEEKER, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Meeker"
+   "NAD 1983 (HARN) Adj MN Meeker"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_MORRISON, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Morrison"
+   "NAD 1983 (HARN) Adj MN Morrison"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_MOWER, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Mower"
+   "NAD 1983 (HARN) Adj MN Mower"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_MURRAY, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Murray"
+   "NAD 1983 (HARN) Adj MN Murray"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_NICOLLET, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Nicollet"
+   "NAD 1983 (HARN) Adj MN Nicollet"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_NOBLES, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Nobles"
+   "NAD 1983 (HARN) Adj MN Nobles"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_NORMAN, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Norman"
+   "NAD 1983 (HARN) Adj MN Norman"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_OLMSTED, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Olmsted"
+   "NAD 1983 (HARN) Adj MN Olmsted"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_OTTERTAIL, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Ottertail"
+   "NAD 1983 (HARN) Adj MN Ottertail"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_PENNINGTON, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Pennington"
+   "NAD 1983 (HARN) Adj MN Pennington"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_PINE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Pine"
+   "NAD 1983 (HARN) Adj MN Pine"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_PIPESTONE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Pipestone"
+   "NAD 1983 (HARN) Adj MN Pipestone"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_POLK, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Polk"
+   "NAD 1983 (HARN) Adj MN Polk"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_POPE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Pope"
+   "NAD 1983 (HARN) Adj MN Pope"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_RAMSEY, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Ramsey"
+   "NAD 1983 (HARN) Adj MN Ramsey"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_RED_LAKE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Red Lake"
+   "NAD 1983 (HARN) Adj MN Red Lake"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_REDWOOD, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Redwood"
+   "NAD 1983 (HARN) Adj MN Redwood"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_RENVILLE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Renville"
+   "NAD 1983 (HARN) Adj MN Renville"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_RICE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Rice"
+   "NAD 1983 (HARN) Adj MN Rice"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_ROCK, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Rock"
+   "NAD 1983 (HARN) Adj MN Rock"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_ROSEAU, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Roseau"
+   "NAD 1983 (HARN) Adj MN Roseau"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_SCOTT, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Scott"
+   "NAD 1983 (HARN) Adj MN Scott"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_SHERBURNE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Sherburne"
+   "NAD 1983 (HARN) Adj MN Sherburne"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_SIBLEY, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Sibley"
+   "NAD 1983 (HARN) Adj MN Sibley"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN St Louis"
+   "NAD 1983 (HARN) Adj MN St Louis"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS_C, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN St Louis Central"
+   "NAD 1983 (HARN) Adj MN St Louis Central"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS_N, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN St Louis North"
+   "NAD 1983 (HARN) Adj MN St Louis North"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_ST_LOUIS_S, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN St Louis South"
+   "NAD 1983 (HARN) Adj MN St Louis South"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_STEARNS, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Stearns"
+   "NAD 1983 (HARN) Adj MN Stearns"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_STEELE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Steele"
+   "NAD 1983 (HARN) Adj MN Steele"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_STEVENS, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Stevens"
+   "NAD 1983 (HARN) Adj MN Stevens"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_SWIFT, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Swift"
+   "NAD 1983 (HARN) Adj MN Swift"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_TODD, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Todd"
+   "NAD 1983 (HARN) Adj MN Todd"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_TRAVERSE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Traverse"
+   "NAD 1983 (HARN) Adj MN Traverse"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_WABASHA, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Wabasha"
+   "NAD 1983 (HARN) Adj MN Wabasha"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_WADENA, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Wadena"
+   "NAD 1983 (HARN) Adj MN Wadena"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_WASECA, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Waseca"
+   "NAD 1983 (HARN) Adj MN Waseca"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_WATONWAN, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Watonwan"
+   "NAD 1983 (HARN) Adj MN Watonwan"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_WINONA, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Winona"
+   "NAD 1983 (HARN) Adj MN Winona"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_WRIGHT, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Wright"
+   "NAD 1983 (HARN) Adj MN Wright"
 
 PE_GCS_NAD_1983_HARN_ADJ_MN_YELLOW_MEDICINE, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Minnesota", \
-   "NAD 1983 HARN Adj MN Yellow Medicine"
+   "NAD 1983 (HARN) Adj MN Yellow Medicine"
 
 PE_GCS_NAD_1983_HARN_ADJ_WI_CP, \
    "Geographic Coordinate Systems/North America/United States/County Systems/Wisconsin", \
-   "NAD 1983 HARN Adj. Wisconsin Chippewa WCCS"
+   "NAD 1983 (HARN) Adj. Wisconsin Chippewa WCCS"
 
 PE_GCS_BERMUDA_1957, \
    "Geographic Coordinate Systems/Oceans/Atlantic Ocean", \
