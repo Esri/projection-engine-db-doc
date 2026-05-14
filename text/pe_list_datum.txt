@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2025 Esri Inc.                                            #
+#  Copyright 1999-2026 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -409,10 +409,10 @@ Deprecated  : no
 WKID        : 1064
 Latest-WKID : 1064
 Macro       : PE_D_SIRGAS_CHILE
-Name        : SIRGAS-Chile_realization_1_epoch_2002
-WKT         : DATUM["SIRGAS-Chile_realization_1_epoch_2002",
+Name        : SIRGAS-Chile_2002
+WKT         : DATUM["SIRGAS-Chile_2002",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["SIRGAS-Chile_realization_1_epoch_2002",
+WKT2        : DATUM["SIRGAS-Chile_2002",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
 Description : SIRGAS-Chile (Incorrectly changed to 1254. Ensemble 1254 dep by
               EPSG. S/b sirgas-chile 2002)
@@ -727,7 +727,8 @@ Name        : D_NAD_1983_PA11
 WKT         : DATUM["D_NAD_1983_PA11",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_NAD_1983_PA11",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2010.0]]
 Description : NAD 1983 (PA11) - Pacific Plate 2011
 Authority   : EPSG
 Version     : 8.2.2(10.2.1)
@@ -740,7 +741,8 @@ Name        : D_NAD_1983_MA11
 WKT         : DATUM["D_NAD_1983_MA11",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_NAD_1983_MA11",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2010.0]]
 Description : NAD 1983 (MA11) - Marianas Plate 2011
 Authority   : EPSG
 Version     : 8.2.2(10.2.1)
@@ -1808,10 +1810,10 @@ Deprecated  : no
 WKID        : 1243
 Latest-WKID : 1243
 Macro       : PE_D_SIRGAS_CHILE_REAL_2_2010
-Name        : SIRGAS-Chile_realization_2_epoch_2010
-WKT         : DATUM["SIRGAS-Chile_realization_2_epoch_2010",
+Name        : SIRGAS-Chile_2010
+WKT         : DATUM["SIRGAS-Chile_2010",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["SIRGAS-Chile_realization_2_epoch_2010",
+WKT2        : DATUM["SIRGAS-Chile_2010",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
 Description : SIRGAS-Chile realization 2 epoch 2010.00
 Authority   : EPSG
@@ -1912,10 +1914,10 @@ Deprecated  : no
 WKID        : 1252
 Latest-WKID : 1252
 Macro       : PE_D_SIRGAS_CHILE_REAL_3_2013
-Name        : SIRGAS-Chile_realization_3_epoch_2013
-WKT         : DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+Name        : SIRGAS-Chile_2013
+WKT         : DATUM["SIRGAS-Chile_2013",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+WKT2        : DATUM["SIRGAS-Chile_2013",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
 Description : SIRGAS-Chile realization 3 epoch 2013.00
 Authority   : EPSG
@@ -1925,10 +1927,10 @@ Deprecated  : no
 WKID        : 1253
 Latest-WKID : 1253
 Macro       : PE_D_SIRGAS_CHILE_REAL_4_2016
-Name        : SIRGAS-Chile_realization_4_epoch_2016
-WKT         : DATUM["SIRGAS-Chile_realization_4_epoch_2016",
+Name        : SIRGAS-Chile_2016
+WKT         : DATUM["SIRGAS-Chile_2016",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["SIRGAS-Chile_realization_4_epoch_2016",
+WKT2        : DATUM["SIRGAS-Chile_2016",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
 Description : SIRGAS-Chile realization 4 epoch 2016.00
 Authority   : EPSG
@@ -1938,10 +1940,10 @@ Deprecated  : no
 WKID        : 1254
 Latest-WKID : 1064
 Macro       : PE_D_SIRGAS_CHILE
-Name        : SIRGAS-Chile_realization_1_epoch_2002
-WKT         : DATUM["SIRGAS-Chile_realization_1_epoch_2002",
+Name        : SIRGAS-Chile_2002
+WKT         : DATUM["SIRGAS-Chile_2002",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["SIRGAS-Chile_realization_1_epoch_2002",
+WKT2        : DATUM["SIRGAS-Chile_2002",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
 Description : SIRGAS-Chile (Incorrectly changed to 1254. Ensemble 1254 dep by
               EPSG. S/b sirgas-chile 2002)
@@ -2355,10 +2357,10 @@ Deprecated  : no
 WKID        : 1327
 Latest-WKID : 1327
 Macro       : PE_D_SIRGAS_CHILE_REALIZATION_5_EPOCH_2021
-Name        : SIRGAS-Chile_realization_5_epoch_2021
-WKT         : DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+Name        : SIRGAS-Chile_2021
+WKT         : DATUM["SIRGAS-Chile_2021",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+WKT2        : DATUM["SIRGAS-Chile_2021",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
 Description : SIRGAS-Chile realization 5 epoch 2021
 Authority   : EPSG
@@ -3043,6 +3045,19 @@ Authority   : EPSG
 Version     : 12.015(13.6.0)
 Deprecated  : no
 
+WKID        : 1408
+Latest-WKID : 1408
+Macro       : PE_D_XRAIL84
+Name        : D_Xrail84
+WKT         : DATUM["D_Xrail84",
+               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
+WKT2        : DATUM["D_Xrail84",
+               ELLIPSOID["WGS_1984", 6378137.0, 298.257223563]]
+Description : Xrail84
+Authority   : EPSG
+Version     : 12.031(13.7.0)
+Deprecated  : no
+
 WKID        : 1413
 Latest-WKID : 1413
 Macro       : PE_D_ASSE_GEODETIC_DATUM_2025
@@ -3136,6 +3151,47 @@ WKT2        : DATUM["Greenland_Reference_1996_ensemble",
 Description : Greenland Reference 1996 ensemble
 Authority   : EPSG
 Version     : 12.016(13.6.0)
+Deprecated  : no
+
+WKID        : 1426
+Latest-WKID : 1426
+Macro       : PE_D_SISTEM_REFERENSI_GEOSPASIAL_INDONESIA_2013_EPOCH_2021
+Name        : Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0
+WKT         : DATUM["Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0",
+               SPHEROID["WGS_1984", 6378137.0, 298.257223563]]
+WKT2        : DATUM["Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0",
+               ELLIPSOID["WGS_1984", 6378137.0, 298.257223563],
+               ANCHOREPOCH[2021.0]]
+Description : Sistem Referensi Geospasial Indonesia 2013 epoch 2021.0
+Authority   : EPSG
+Version     : 12.042(13.7.0)
+Deprecated  : no
+
+WKID        : 1428
+Latest-WKID : 1428
+Macro       : PE_D_CR_SIRGAS_EPOCH_2019_24
+Name        : CR-SIRGAS_epoch_2019.24
+WKT         : DATUM["CR-SIRGAS_epoch_2019.24",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["CR-SIRGAS_epoch_2019.24",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2019.24]]
+Description : CR-SIRGAS epoch 2019.24
+Authority   : EPSG
+Version     : 12.029(13.7.0)
+Deprecated  : no
+
+WKID        : 1448
+Latest-WKID : 1448
+Macro       : PE_D_NATIONAL_REFERENCE_FRAME_OF_BHUTAN_2023
+Name        : National_Reference_Frame_of_Bhutan_2023
+WKT         : DATUM["National_Reference_Frame_of_Bhutan_2023",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["National_Reference_Frame_of_Bhutan_2023",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+Description : National Reference Frame of Bhutan 2023
+Authority   : EPSG
+Version     : 12.049(13.7.0)
 Deprecated  : no
 
 WKID        : 6001
@@ -8324,7 +8380,7 @@ WKT2        : DATUM["D_Slovenia_Geodetic_Datum_1996",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
 Description : Slovenia Geodetic Datum 1996
 Authority   : EPSG
-Version     : 6.15(10.0.0)
+Version     : 12.044(10.0.0)
 Deprecated  : no
 
 WKID        : 6801
@@ -8914,7 +8970,7 @@ Version     : 13.6.0
 Deprecated  : no
 
 WKID        : 106050
-Latest-WKID : 106050
+Latest-WKID : 1408
 Macro       : PE_D_XRAIL84
 Name        : D_Xrail84
 WKT         : DATUM["D_Xrail84",
@@ -8924,7 +8980,7 @@ WKT2        : DATUM["D_Xrail84",
 Description : Xrail84
 Authority   : Esri
 Version     : 10.4.0
-Deprecated  : no
+Deprecated  : codechange
 
 WKID        : 106100
 Latest-WKID : 1056
@@ -10104,7 +10160,8 @@ Name        : D_NAD_1983_MA11
 WKT         : DATUM["D_NAD_1983_MA11",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_NAD_1983_MA11",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2010.0]]
 Description : NAD 1983 (MA11) - Marianas Plate 2011
 Authority   : Esri
 Version     : 10.1.0
@@ -10117,7 +10174,8 @@ Name        : D_NAD_1983_PA11
 WKT         : DATUM["D_NAD_1983_PA11",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_NAD_1983_PA11",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2010.0]]
 Description : NAD 1983 (PA11) - Pacific Plate 2011
 Authority   : Esri
 Version     : 10.1.0

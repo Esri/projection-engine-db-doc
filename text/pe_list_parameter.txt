@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2025 Esri Inc.                                            #
+#  Copyright 1999-2026 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -498,6 +498,17 @@ WKT2        : PARAMETER["Interpolation_Type", 0.0]
 Description : INTERP - Interpolation Type
 Authority   : Esri
 Version     : 10.0.0
+Deprecated  : no
+
+WKID        : 100066
+Latest-WKID : 100066
+Macro       : PE_PAR_GEOID_HEIGHT
+Name        : Geoid_Height
+WKT         : PARAMETER["Geoid_Height", 0.0]
+WKT2        : PARAMETER["Geoid_Height", 0.0]
+Description : GH - Geoid Height
+Authority   : Esri
+Version     : 13.7.0
 Deprecated  : no
 
 WKID        : 100070

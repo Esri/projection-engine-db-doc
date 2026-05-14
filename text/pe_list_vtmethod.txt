@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------- #
-#  Copyright 1999-2025 Esri Inc.                                            #
+#  Copyright 1999-2026 Esri Inc.                                            #
 #                                                                           #
 #  Licensed under the Apache License, Version 2.0 (the "License");          #
 #  you may not use this file except in compliance with the License.         #
@@ -69,6 +69,17 @@ WKT2        : METHOD["Zero_Tide_to_Mean_Tide_EVRF2019"]
 Description : Zero-tide height to mean-tide height (EVRF2019)
 Authority   : Esri
 Version     : 12.9.0
+Deprecated  : no
+
+WKID        : 129615
+Latest-WKID : 129615
+Macro       : PE_VTMTH_FIXED_GEOID_HEIGHT
+Name        : Fixed_Geoid_Height
+WKT         : VTMETHOD["Fixed_Geoid_Height"]
+WKT2        : METHOD["Fixed_Geoid_Height"]
+Description : Fixed Geoid Height
+Authority   : Esri
+Version     : 13.7.0
 Deprecated  : no
 
 WKID        : 129616

@@ -155,7 +155,7 @@ PE_D_MARCO_GEODESICO_NACIONAL, \
    ""
 
 PE_D_SIRGAS_CHILE, \
-   "SIRGAS-Chile_realization_1_epoch_2002", \
+   "SIRGAS-Chile_2002", \
    PE_S_GRS_1980,
    ""
 
@@ -278,12 +278,14 @@ PE_D_NAD_1983_2011, \
 PE_D_NAD_1983_PA11, \
    "D_NAD_1983_PA11", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2010.0
 
 PE_D_NAD_1983_MA11, \
    "D_NAD_1983_MA11", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2010.0
 
 PE_D_MEXICO_ITRF2008, \
    "D_Mexico_ITRF2008", \
@@ -687,7 +689,7 @@ PE_D_SIRGAS_CON_SIR17P01, \
    ""
 
 PE_D_SIRGAS_CHILE_REAL_2_2010, \
-   "SIRGAS-Chile_realization_2_epoch_2010", \
+   "SIRGAS-Chile_2010", \
    PE_S_GRS_1980,
    ""
 
@@ -727,12 +729,12 @@ PE_D_KOSOVO_REF_SYS_2001, \
    ""
 
 PE_D_SIRGAS_CHILE_REAL_3_2013, \
-   "SIRGAS-Chile_realization_3_epoch_2013", \
+   "SIRGAS-Chile_2013", \
    PE_S_GRS_1980,
    ""
 
 PE_D_SIRGAS_CHILE_REAL_4_2016, \
-   "SIRGAS-Chile_realization_4_epoch_2016", \
+   "SIRGAS-Chile_2016", \
    PE_S_GRS_1980,
    ""
 
@@ -892,7 +894,7 @@ PE_D_MWC18_INTERMEDIATE_REFERENCE_FRAME, \
    ""
 
 PE_D_SIRGAS_CHILE_REALIZATION_5_EPOCH_2021, \
-   "SIRGAS-Chile_realization_5_epoch_2021", \
+   "SIRGAS-Chile_2021", \
    PE_S_GRS_1980,
    ""
 
@@ -1158,6 +1160,11 @@ PE_D_WSPG_INTERMEDIATE_REFERENCE_FRAME, \
    PE_S_GRS_1980,
    ""
 
+PE_D_XRAIL84, \
+   "D_Xrail84", \
+   PE_S_WGS_1984,
+   ""
+
 PE_D_ASSE_GEODETIC_DATUM_2025, \
    "Asse_geodetic_datum_2025", \
    PE_S_BESSEL_1841,
@@ -1194,6 +1201,23 @@ PE_D_GREENLAND_REFERENCE_1996_1996, \
 
 PE_D_GREENLAND_REFERENCE_1996_ENSEMBLE, \
    "Greenland_Reference_1996_ensemble", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SISTEM_REFERENSI_GEOSPASIAL_INDONESIA_2013_EPOCH_2021, \
+   "Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0", \
+   PE_S_WGS_1984,
+   "",
+   2021.0
+
+PE_D_CR_SIRGAS_EPOCH_2019_24, \
+   "CR-SIRGAS_epoch_2019.24", \
+   PE_S_GRS_1980,
+   "",
+   2019.24
+
+PE_D_NATIONAL_REFERENCE_FRAME_OF_BHUTAN_2023, \
+   "National_Reference_Frame_of_Bhutan_2023", \
    PE_S_GRS_1980,
    ""
 
@@ -3376,11 +3400,6 @@ PE_D_SPHERE_GRS_1980_MEAN_RADIUS, \
 PE_D_HELLENIC_TERRESTRIAL_REFERENCE_SYSTEM_2007, \
    "Hellenic_Terrestrial_Reference_System_2007", \
    PE_S_GRS_1980,
-   ""
-
-PE_D_XRAIL84, \
-   "D_Xrail84", \
-   PE_S_WGS_1984,
    ""
 
 PE_D_ESTONIA_1937, \

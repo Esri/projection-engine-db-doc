@@ -64,6 +64,10 @@ PE_VCS_DRUKREF_03, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "DRUKREF 03"
 
+PE_VCS_DRUKREF23, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "DrukRef23"
+
 PE_VCS_GDBD2009, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "GDBD2009"
@@ -180,6 +184,10 @@ PE_VCS_SRGI2013, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "SRGI2013"
 
+PE_VCS_SRGI2013_EPOCH_2021, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
+   "SRGI2013 epoch 2021.0"
+
 PE_VCS_TUREF, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Asia", \
    "TUREF"
@@ -223,6 +231,10 @@ PE_VCS_NZGD_2000, \
 PE_VCS_CR_SIRGAS, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
    "CR-SIRGAS"
+
+PE_VCS_CR_SIRGAS_EPOCH_2019_24, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
+   "CR-SIRGAS epoch 2019.24"
 
 PE_VCS_CR05, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Central America", \
@@ -504,6 +516,10 @@ PE_VCS_UKRAINE_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
    "Ukraine 2000"
 
+PE_VCS_XRAIL84, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/Europe", \
+   "Xrail84"
+
 PE_VCS_RGF_1993, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Europe/France", \
    "RGF 1993"
@@ -606,7 +622,7 @@ PE_VCS_CSRN_EPOCH_2025_0_NAD83_2011, \
 
 PE_VCS_CSRS_EPOCH_2017_5_NAD83, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
-   "California SRS Epoch 2017.50 (NAD83)"
+   "California SRS epoch 2017.50 (NAD83)"
 
 PE_VCS_NAD_1983, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
@@ -624,13 +640,13 @@ PE_VCS_NAD_1983_FBN, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
    "NAD 1983 (FBN)"
 
+PE_VCS_NAD_1983_HARN, \
+   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
+   "NAD 1983 (HARN)"
+
 PE_VCS_NAD_1983_NSRS2007, \
    "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
    "NAD 1983 (NSRS2007)"
-
-PE_VCS_NAD_1983_HARN, \
-   "Vertical Coordinate Systems/Ellipsoidal-based/North America/United States", \
-   "NAD 1983 HARN"
 
 PE_VCS_BERMUDA_2000, \
    "Vertical Coordinate Systems/Ellipsoidal-based/Oceans/Atlantic Ocean", \
@@ -1448,10 +1464,6 @@ PE_VCS_EVRF2000_AUSTRIA_HT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "EVRF2000 Austria height"
 
-PE_VCS_EVRF_2007_PL_HT, \
-   "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "EVRF2007-PL height"
-
 PE_VCS_EVRS_2000, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "EVRS 2000"
@@ -1490,7 +1502,7 @@ PE_VCS_LAS07_HT, \
 
 PE_VCS_LAT_NL_DEPTH, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "LAT NL depth"
+   "LAT-NLD depth"
 
 PE_VCS_LHN95, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1506,7 +1518,7 @@ PE_VCS_LATVIA_2000_HT, \
 
 PE_VCS_MSL_NL_DEPTH, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
-   "MSL NL depth"
+   "MSL-NLD depth"
 
 PE_VCS_N2000, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1540,6 +1552,10 @@ PE_VCS_OOSTENDE, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Oostende"
 
+PE_VCS_EVRF_2007_PL_HT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "PL-EVRF2007 height"
+
 PE_VCS_PIRAEUS, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "Piraeus"
@@ -1563,6 +1579,10 @@ PE_VCS_SRB_VRS12_HT, \
 PE_VCS_SVD2006_HEIGHT, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
    "SVD2006 height"
+
+PE_VCS_SVD2024_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe", \
+   "SVD2024 height"
 
 PE_VCS_SVS2000, \
    "Vertical Coordinate Systems/Gravity-related/Europe", \
@@ -1719,6 +1739,10 @@ PE_VCS_HS2_VRF_HEIGHT, \
 PE_VCS_LERWICK, \
    "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
    "Lerwick"
+
+PE_VCS_LONDON_SURVEY_GRID_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
+   "London Survey Grid height"
 
 PE_VCS_MSL_UK_IRELAND_VORF08_DEPTH, \
    "Vertical Coordinate Systems/Gravity-related/Europe/Ireland and United Kingdom", \
@@ -2059,6 +2083,10 @@ PE_VCS_MARTINIQUE_1955, \
 PE_VCS_IGN_1989, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Indian Ocean", \
    "IGN 1989"
+
+PE_VCS_IGN_2023_MAYOTTE_HEIGHT, \
+   "Vertical Coordinate Systems/Gravity-related/Oceans/Indian Ocean", \
+   "IGN 2023 Mayotte height"
 
 PE_VCS_MAYOTTE_1950, \
    "Vertical Coordinate Systems/Gravity-related/Oceans/Indian Ocean", \

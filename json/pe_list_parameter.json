@@ -483,6 +483,17 @@
     "version": "10.0.0",
     "deprecated": "no"
   },
+  { "wkid": 100066,
+    "latestWkid": 100066,
+    "macro": "PE_PAR_GEOID_HEIGHT",
+    "name": "Geoid_Height",
+    "wkt": "PARAMETER[\"Geoid_Height\",0.0]",
+    "wkt2": "PARAMETER[\"Geoid_Height\",0.0]",
+    "description": "GH - Geoid Height",
+    "authority": "Esri",
+    "version": "13.7.0",
+    "deprecated": "no"
+  },
   { "wkid": 100070,
     "latestWkid": 100070,
     "macro": "PE_PAR_ASPECT_RATIO",
