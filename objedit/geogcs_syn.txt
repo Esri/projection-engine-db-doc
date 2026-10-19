@@ -425,14 +425,14 @@
    "Teradata"
 
 "CHTRS95", \
-   "Swiss_TRF_1995", \
+   "GCS_Swiss_TRF_1995", \
    FALSE, \
-   "EPSG"
+   ""
 
 "CHTRS95 (3D)", \
    "Swiss_TRF_1995_3D", \
    FALSE, \
-   "EPSG"
+   ""
 
 "CI1971", \
    "Chatham_Island_1971", \
@@ -504,6 +504,16 @@
    FALSE, \
    "Teradata"
 
+"CR-SIRGAS epoch 2014.59", \
+   "CR-SIRGAS", \
+   FALSE, \
+   "EPSG"
+
+"CR-SIRGAS epoch 2014.59 (3D)", \
+   "CR-SIRGAS_3D", \
+   FALSE, \
+   "EPSG"
+
 "CSG67", \
    "CSG_1967", \
    FALSE, \
@@ -533,6 +543,26 @@
    "CSG_1967", \
    FALSE, \
    "Teradata"
+
+"D96", \
+   "GCS_Slovenia_1996", \
+   FALSE, \
+   ""
+
+"D96-17", \
+   "GCS_Slovenia_1996", \
+   FALSE, \
+   ""
+
+"D96-17 (3D)", \
+   "Slovenia_1996_3D", \
+   FALSE, \
+   ""
+
+"D96 (3D)", \
+   "Slovenia_1996_3D", \
+   FALSE, \
+   ""
 
 "Dealul Piscului 1930", \
    "Dealul_Piscului_1933", \
@@ -815,9 +845,9 @@
    "Teradata"
 
 "EST97", \
-   "Estonia_1997", \
+   "GCS_Estonia_1997", \
    FALSE, \
-   "EPSG"
+   ""
 
 "EST97", \
    "Estonia_1997", \
@@ -847,7 +877,7 @@
 "EST97 (3D)", \
    "Estonia_1997_3D", \
    FALSE, \
-   "EPSG"
+   ""
 
 "ETRF2000-PL_(3D)", \
    "ETRF2000-PL_3D", \
@@ -896,6 +926,276 @@
 
 "ETRS89 (3D)", \
    "ETRS_1989_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BGR [BGS2005]", \
+   "BGS2005", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BGR [BGS2005] (3D)", \
+   "BGS2005_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BIH [BH_ETRS89]", \
+   "BH_ETRS89", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BIH [BH_ETRS89] (3D)", \
+   "BH_ETRS89_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-CHE [CHTRS95]", \
+   "Swiss_TRF_1995", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-CHE [CHTRS95] (3D)", \
+   "Swiss_TRF_1995_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016]", \
+   "ETRS89_DREF91_2016", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] (3D)", \
+   "ETRS89_DREF91_2016_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-EST [EST97]", \
+   "Estonia_1997", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-EST [EST97] (3D)", \
+   "Estonia_1997_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN]", \
+   "EUREF_FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] (3D)", \
+   "EUREF_FIN_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1]", \
+   "RGF_1993", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] (3D)", \
+   "RGF_1993_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] (lon-lat)", \
+   "RGF93_(lon-lat)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] (lon-lat) (3D)", \
+   "RGF93_(lon-lat)_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2]", \
+   "RGF93_v2", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] (3D)", \
+   "RGF93_v2_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b]", \
+   "RGF93_v2b", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] (3D)", \
+   "RGF93_v2b_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] (lon-lat)", \
+   "RGF93_v2b_(lon-lat)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] (lon-lat) (3D)", \
+   "RGF93_v2b_(lon-lat)_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] (lon-lat)", \
+   "RGF93_v2_(lon-lat)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] (lon-lat) (3D)", \
+   "RGF93_v2_(lon-lat)_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GRC [HTRS07]", \
+   "HTRS07", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GRC [HTRS07] (3D)", \
+   "HTRS07_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-HRV [HTRS96]", \
+   "HTRS96", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-HRV [HTRS96] (3D)", \
+   "HTRS96_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [IGM95]", \
+   "IGM_1995", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [IGM95] (3D)", \
+   "IGM_1995_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008]", \
+   "RDN2008", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] (3D)", \
+   "RDN2008_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LTU [LKS94]", \
+   "LKS_1994", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LTU [LKS94] (3D)", \
+   "LKS_1994_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-2020]", \
+   "LKS-2020", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-2020] (3D)", \
+   "LKS-2020_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-92]", \
+   "LKS_1992", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-92] (3D)", \
+   "LKS_1992_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-MDA [MOLDREF99]", \
+   "MOLDREF99", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-MDA [MOLDREF99] (3D)", \
+   "MOLDREF99_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000]", \
+   "ETRF2000-PL", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000] (3D)", \
+   "ETRF2000-PL_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SRB [SREF98]", \
+   "SREF98", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SRB [SREF98] (3D)", \
+   "SREF98_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SRB [STRS00]", \
+   "SRB_ETRS89", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SRB [STRS00] (3D)", \
+   "SRB_ETRS89_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96]", \
+   "Slovenia_1996", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96-17]", \
+   "GCS_Slovenia_1996", \
+   FALSE, \
+   ""
+
+"ETRS89-SVN [D96-17] (3D)", \
+   "Slovenia_1996_3D", \
+   FALSE, \
+   ""
+
+"ETRS89-SVN [D96] (3D)", \
+   "Slovenia_1996_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99]", \
+   "SWEREF99", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99] (3D)", \
+   "SWEREF99_3D", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-XKX [KOSOVAREF01]", \
+   "KOSOVAREF01", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-XKX [KOSOVAREF01] (3D)", \
+   "KOSOVAREF01_3D", \
    FALSE, \
    "EPSG"
 
@@ -1355,9 +1655,9 @@
    "EPSG"
 
 "IGM95", \
-   "IGM_1995", \
+   "GCS_IGM_1995", \
    FALSE, \
-   "EPSG"
+   ""
 
 "IGM95", \
    "IGM_1995", \
@@ -1387,7 +1687,7 @@
 "IGM95 (3D)", \
    "IGM_1995_3D", \
    FALSE, \
-   "EPSG"
+   ""
 
 "IGN 1962 Kerguelen", \
    "Kerguelen_Island_1949", \
@@ -1468,6 +1768,16 @@
    "TM65", \
    FALSE, \
    "Oracle"
+
+"IRENET95", \
+   "ETRS89-IRE_[ETRF2000]", \
+   TRUE, \
+   ""
+
+"IRENET95 3D", \
+   "ETRS89-IRE_[ETRF2000]_3D", \
+   TRUE, \
+   ""
 
 "ISN93", \
    "ISN_1993", \
@@ -1865,9 +2175,9 @@
    "Oracle"
 
 "LKS-92", \
-   "LKS_1992", \
+   "GCS_LKS_1992", \
    FALSE, \
-   "EPSG"
+   ""
 
 "LKS92", \
    "LKS_1992", \
@@ -1897,12 +2207,12 @@
 "LKS-92 (3D)", \
    "LKS_1992_3D", \
    FALSE, \
-   "EPSG"
+   ""
 
 "LKS94", \
-   "LKS_1994", \
+   "GCS_LKS_1994", \
    FALSE, \
-   "EPSG"
+   ""
 
 "LKS94", \
    "LKS_1994", \
@@ -1932,7 +2242,7 @@
 "LKS94 (3D)", \
    "LKS_1994_3D", \
    FALSE, \
-   "EPSG"
+   ""
 
 "LKS94 (ETRS89)", \
    "LKS_1994", \
@@ -3605,24 +3915,24 @@
    "Teradata"
 
 "RGF93 v1", \
-   "RGF_1993", \
+   "GCS_RGF_1993", \
    FALSE, \
-   "EPSG"
+   ""
 
 "RGF93 v1 (3D)", \
    "RGF_1993_3D", \
    FALSE, \
-   "EPSG"
+   ""
 
 "RGF93 v1 (lon-lat)", \
    "RGF93_(lon-lat)", \
    FALSE, \
-   "EPSG"
+   ""
 
 "RGF93 v1 (lon-lat) (3D)", \
    "RGF93_(lon-lat)_3D", \
    FALSE, \
-   "EPSG"
+   ""
 
 "RGFG95", \
    "RGFG_1995", \

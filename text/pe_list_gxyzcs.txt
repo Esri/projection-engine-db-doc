@@ -83,15 +83,16 @@ Area-rlon   : 48.75
 WKID        : 4000
 Latest-WKID : 4000
 Macro       : PE_XYZ_MOLDREF99
-Name        : MOLDREF99
-WKT         : GXYZCS["MOLDREF99",
+Name        : ETRS89-MDA_[MOLDREF99]
+WKT         : GXYZCS["ETRS89-MDA_[MOLDREF99]",
                DATUM["D_MOLDREF99",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["MOLDREF99",
+WKT2        : GEODCRS["ETRS89-MDA_[MOLDREF99]",
                DATUM["D_MOLDREF99",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1997.4]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -147,15 +148,16 @@ Area-rlon   : 29.81
 WKID        : 4073
 Latest-WKID : 4073
 Macro       : PE_XYZ_SREF98
-Name        : SREF98
-WKT         : GXYZCS["SREF98",
+Name        : ETRS89-SRB_[SREF98]
+WKT         : GXYZCS["ETRS89-SRB_[SREF98]",
                DATUM["D_Serbian_Reference_Network_1998",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["SREF98",
+WKT2        : GEODCRS["ETRS89-SRB_[SREF98]",
                DATUM["D_Serbian_Reference_Network_1998",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1998.7]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -403,15 +405,16 @@ Area-rlon   : -57.52
 WKID        : 4882
 Latest-WKID : 4882
 Macro       : PE_XYZ_SLOVENIA_1996
-Name        : Slovenia_1996
-WKT         : GXYZCS["Slovenia_1996",
+Name        : ETRS89-SVN_[D96]
+WKT         : GXYZCS["ETRS89-SVN_[D96]",
                DATUM["D_Slovenia_Geodetic_Datum_1996",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["Slovenia_1996",
+WKT2        : GEODCRS["ETRS89-SVN_[D96]",
                DATUM["D_Slovenia_Geodetic_Datum_1996",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2016.75]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -499,15 +502,16 @@ Area-rlon   : -60.7
 WKID        : 4888
 Latest-WKID : 4888
 Macro       : PE_XYZ_HTRS96
-Name        : HTRS96
-WKT         : GXYZCS["HTRS96",
+Name        : ETRS89-HRV_[HTRS96]
+WKT         : GXYZCS["ETRS89-HRV_[HTRS96]",
                DATUM["D_Croatian_Terrestrial_Reference_System",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["HTRS96",
+WKT2        : GEODCRS["ETRS89-HRV_[HTRS96]",
                DATUM["D_Croatian_Terrestrial_Reference_System",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1995.55]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -1299,13 +1303,13 @@ Area-rlon   : 160.0
 WKID        : 4932
 Latest-WKID : 4932
 Macro       : PE_XYZ_CHTRF_1995
-Name        : Swiss_TRF_1995
-WKT         : GXYZCS["Swiss_TRF_1995",
+Name        : ETRS89-CHE_[CHTRS95]
+WKT         : GXYZCS["ETRS89-CHE_[CHTRS95]",
                DATUM["D_Swiss_TRF_1995",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["Swiss_TRF_1995",
+WKT2        : GEODCRS["ETRS89-CHE_[CHTRS95]",
                DATUM["D_Swiss_TRF_1995",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
@@ -1331,15 +1335,16 @@ Area-rlon   : 10.5
 WKID        : 4934
 Latest-WKID : 4934
 Macro       : PE_XYZ_ESTONIA_1997
-Name        : Estonia_1997
-WKT         : GXYZCS["Estonia_1997",
+Name        : ETRS89-EST_[EST97]
+WKT         : GXYZCS["ETRS89-EST_[EST97]",
                DATUM["D_Estonia_1997",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["Estonia_1997",
+WKT2        : GEODCRS["ETRS89-EST_[EST97]",
                DATUM["D_Estonia_1997",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1997.56]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -1390,7 +1395,7 @@ Area-name-1 : Europe - ETRF by country
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 4938
 Latest-WKID : 4938
@@ -1459,15 +1464,16 @@ Area-rlon   : 42.85
 WKID        : 4942
 Latest-WKID : 4942
 Macro       : PE_XYZ_IRENET95
-Name        : IRENET95
-WKT         : GXYZCS["IRENET95",
-               DATUM["D_IRENET95",
+Name        : ETRS89-IRE_[ETRF2000]
+WKT         : GXYZCS["ETRS89-IRE_[ETRF2000]",
+               DATUM["ETRS89-IRE_[ETRF2000]",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["IRENET95",
-               DATUM["D_IRENET95",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+WKT2        : GEODCRS["ETRS89-IRE_[ETRF2000]",
+               DATUM["ETRS89-IRE_[ETRF2000]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2009.756]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -1478,7 +1484,7 @@ WKT2        : GEODCRS["IRENET95",
                 ORDER[3]],
                LENGTHUNIT["Meter", 1.0],
                ID["EPSG", "4942"]]
-Description : IRENET95
+Description : ETRS89-IRE [ETRF2000] (used to be IRENET95)
 Authority   : EPSG
 Version     : 7.6.4(12.9.0)
 Deprecated  : no
@@ -1555,15 +1561,16 @@ Area-rlon   : 157.65
 WKID        : 4948
 Latest-WKID : 4948
 Macro       : PE_XYZ_LKS_1992
-Name        : LKS_1992
-WKT         : GXYZCS["LKS_1992",
+Name        : ETRS89-LVA_[LKS-92]
+WKT         : GXYZCS["ETRS89-LVA_[LKS-92]",
                DATUM["D_Latvia_1992",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["LKS_1992",
+WKT2        : GEODCRS["ETRS89-LVA_[LKS-92]",
                DATUM["D_Latvia_1992",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1992.75]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -1587,15 +1594,16 @@ Area-rlon   : 28.24
 WKID        : 4950
 Latest-WKID : 4950
 Macro       : PE_XYZ_LKS_1994
-Name        : LKS_1994
-WKT         : GXYZCS["LKS_1994",
+Name        : ETRS89-LTU_[LKS94]
+WKT         : GXYZCS["ETRS89-LTU_[LKS94]",
                DATUM["D_Lithuania_1994",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["LKS_1994",
+WKT2        : GEODCRS["ETRS89-LTU_[LKS94]",
                DATUM["D_Lithuania_1994",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2003.75]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -1811,15 +1819,16 @@ Area-rlon   : -58.95
 WKID        : 4964
 Latest-WKID : 4964
 Macro       : PE_XYZ_RGF_1993
-Name        : RGF_1993
-WKT         : GXYZCS["RGF_1993",
+Name        : ETRS89-FRA_[RGF93_v1]
+WKT         : GXYZCS["ETRS89-FRA_[RGF93_v1]",
                DATUM["D_RGF_1993",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["RGF_1993",
+WKT2        : GEODCRS["ETRS89-FRA_[RGF93_v1]",
                DATUM["D_RGF_1993",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1993.0]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -1939,15 +1948,16 @@ Area-rlon   : -26.0
 WKID        : 4976
 Latest-WKID : 4976
 Macro       : PE_XYZ_SWEREF99
-Name        : SWEREF99
-WKT         : GXYZCS["SWEREF99",
+Name        : ETRS89-SWE_[SWEREF_99]
+WKT         : GXYZCS["ETRS89-SWE_[SWEREF_99]",
                DATUM["D_SWEREF99",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["SWEREF99",
+WKT2        : GEODCRS["ETRS89-SWE_[SWEREF_99]",
                DATUM["D_SWEREF99",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1999.5]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -2035,15 +2045,16 @@ Area-rlon   : 57.96
 WKID        : 4982
 Latest-WKID : 4982
 Macro       : PE_XYZ_IGM_1995
-Name        : IGM_1995
-WKT         : GXYZCS["IGM_1995",
+Name        : ETRS89-ITA_[IGM95]
+WKT         : GXYZCS["ETRS89-ITA_[IGM95]",
                DATUM["D_IGM_1995",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["IGM_1995",
+WKT2        : GEODCRS["ETRS89-ITA_[IGM95]",
                DATUM["D_IGM_1995",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1989.0]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -2411,7 +2422,7 @@ Authority   : EPSG
 Version     : 7.6(12.9.0)
 Deprecated  : no
 Area-name-1 : Turkey
-Area-slat   : 34.42
+Area-slat   : 34.2
 Area-nlat   : 43.45
 Area-llon   : 25.62
 Area-rlon   : 44.83
@@ -3157,15 +3168,15 @@ Area-rlon   : -84.64
 
 WKID        : 6666
 Latest-WKID : 6666
-Macro       : PE_XYZ_JGD_2011
-Name        : JGD_2011
-WKT         : GXYZCS["JGD_2011",
-               DATUM["D_JGD_2011",
+Macro       : PE_XYZ_JGD_2024
+Name        : JGD_2024
+WKT         : GXYZCS["JGD_2024",
+               DATUM["Japanese_Geodetic_Datum_2024",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["JGD_2011",
-               DATUM["D_JGD_2011",
+WKT2        : GEODCRS["JGD_2024",
+               DATUM["Japanese_Geodetic_Datum_2024",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
@@ -3177,9 +3188,9 @@ WKT2        : GEODCRS["JGD_2011",
                 ORDER[3]],
                LENGTHUNIT["Meter", 1.0],
                ID["EPSG", "6666"]]
-Description : JGD2011
+Description : JGD2024
 Authority   : EPSG
-Version     : 8.4(12.9.0)
+Version     : 8.4(13.8.0)
 Deprecated  : no
 Area-name-1 : Japan
 Area-slat   : 17.09
@@ -3190,15 +3201,16 @@ Area-rlon   : 157.65
 WKID        : 6704
 Latest-WKID : 6704
 Macro       : PE_XYZ_RDN2008
-Name        : RDN2008
-WKT         : GXYZCS["RDN2008",
+Name        : ETRS89-ITA_[RDN2008]
+WKT         : GXYZCS["ETRS89-ITA_[RDN2008]",
                DATUM["D_Rete_Dinamica_Nazionale_2008",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["RDN2008",
+WKT2        : GEODCRS["ETRS89-ITA_[RDN2008]",
                DATUM["D_Rete_Dinamica_Nazionale_2008",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.0]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -3798,15 +3810,16 @@ Area-rlon   : 180.0
 WKID        : 7796
 Latest-WKID : 7796
 Macro       : PE_XYZ_BGS2005
-Name        : BGS2005
-WKT         : GXYZCS["BGS2005",
+Name        : ETRS89-BGR_[BGS2005]
+WKT         : GXYZCS["ETRS89-BGR_[BGS2005]",
                DATUM["Bulgaria_Geodetic_System_2005",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["BGS2005",
+WKT2        : GEODCRS["ETRS89-BGR_[BGS2005]",
                DATUM["Bulgaria_Geodetic_System_2005",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2005.0]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -3985,7 +3998,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 7916
 Latest-WKID : 7916
@@ -4017,7 +4030,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 7918
 Latest-WKID : 7918
@@ -4049,7 +4062,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 7920
 Latest-WKID : 7920
@@ -4081,7 +4094,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 7922
 Latest-WKID : 7922
@@ -4113,7 +4126,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 7924
 Latest-WKID : 7924
@@ -4145,7 +4158,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 7926
 Latest-WKID : 7926
@@ -4177,7 +4190,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 7928
 Latest-WKID : 7928
@@ -4209,7 +4222,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 7930
 Latest-WKID : 7930
@@ -4241,7 +4254,7 @@ Area-name-1 : Europe - ETRF by country
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 8084
 Latest-WKID : 8084
@@ -4567,7 +4580,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 8401
 Latest-WKID : 8401
@@ -4599,7 +4612,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 8425
 Latest-WKID : 8425
@@ -4732,15 +4745,16 @@ Area-rlon   : -64.51
 WKID        : 8683
 Latest-WKID : 8683
 Macro       : PE_XYZ_SRB_ETRS89
-Name        : SRB_ETRS89
-WKT         : GXYZCS["SRB_ETRS89",
+Name        : ETRS89-SRB_[STRS00]
+WKT         : GXYZCS["ETRS89-SRB_[STRS00]",
                DATUM["Serbian_Spatial_Reference_System_2000",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["SRB_ETRS89",
+WKT2        : GEODCRS["ETRS89-SRB_[STRS00]",
                DATUM["Serbian_Spatial_Reference_System_2000",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2010.63]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -4860,15 +4874,16 @@ Area-rlon   : -174.27
 WKID        : 8905
 Latest-WKID : 8905
 Macro       : PE_XYZ_CR_SIRGAS
-Name        : CR-SIRGAS
-WKT         : GXYZCS["CR-SIRGAS",
+Name        : CR-SIRGAS_epoch_2014.59
+WKT         : GXYZCS["CR-SIRGAS_epoch_2014.59",
                DATUM["CR-SIRGAS",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["CR-SIRGAS",
+WKT2        : GEODCRS["CR-SIRGAS_epoch_2014.59",
                DATUM["CR-SIRGAS",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2014.59]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -5660,15 +5675,16 @@ Area-rlon   : -151.27
 WKID        : 9138
 Latest-WKID : 9138
 Macro       : PE_XYZ_KOSOVAREF01
-Name        : KOSOVAREF01
-WKT         : GXYZCS["KOSOVAREF01",
+Name        : ETRS89-XKX_[KOSOVAREF01]
+WKT         : GXYZCS["ETRS89-XKX_[KOSOVAREF01]",
                DATUM["Kosovo_Reference_System_2001",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["KOSOVAREF01",
+WKT2        : GEODCRS["ETRS89-XKX_[KOSOVAREF01]",
                DATUM["Kosovo_Reference_System_2001",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2001.25]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -6012,15 +6028,16 @@ Area-rlon   : -65.72
 WKID        : 9700
 Latest-WKID : 9700
 Macro       : PE_XYZ_ETRF2000_PL
-Name        : ETRF2000-PL
-WKT         : GXYZCS["ETRF2000-PL",
+Name        : ETRS89-POL_[PL-ETRF2000]
+WKT         : GXYZCS["ETRS89-POL_[PL-ETRF2000]",
                DATUM["ETRF2000_Poland",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["ETRF2000-PL",
+WKT2        : GEODCRS["ETRS89-POL_[PL-ETRF2000]",
                DATUM["ETRF2000_Poland",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2011.0]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -6076,15 +6093,16 @@ Area-rlon   : 180.0
 WKID        : 9775
 Latest-WKID : 9775
 Macro       : PE_XYZ_RGF93_V2
-Name        : RGF93_v2
-WKT         : GXYZCS["RGF93_v2",
+Name        : ETRS89-FRA_[RGF93_v2]
+WKT         : GXYZCS["ETRS89-FRA_[RGF93_v2]",
                DATUM["Reseau_Geodesique_Francais_1993_v2",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["RGF93_v2",
+WKT2        : GEODCRS["ETRS89-FRA_[RGF93_v2]",
                DATUM["Reseau_Geodesique_Francais_1993_v2",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2009.0]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -6108,15 +6126,16 @@ Area-rlon   : 10.38
 WKID        : 9780
 Latest-WKID : 9780
 Macro       : PE_XYZ_RGF93_V2B
-Name        : RGF93_v2b
-WKT         : GXYZCS["RGF93_v2b",
+Name        : ETRS89-FRA_[RGF93_v2b]
+WKT         : GXYZCS["ETRS89-FRA_[RGF93_v2b]",
                DATUM["Reseau_Geodesique_Francais_1993_v2b",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["RGF93_v2b",
+WKT2        : GEODCRS["ETRS89-FRA_[RGF93_v2b]",
                DATUM["Reseau_Geodesique_Francais_1993_v2b",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2019.0]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -6236,15 +6255,16 @@ Area-rlon   : 180.0
 WKID        : 10282
 Latest-WKID : 10282
 Macro       : PE_XYZ_ETRS89_DREF91_2016
-Name        : ETRS89_DREF91_2016
-WKT         : GXYZCS["ETRS89_DREF91_2016",
+Name        : ETRS89-DEU_[ETRS89_DREF91_2016]
+WKT         : GXYZCS["ETRS89-DEU_[ETRS89_DREF91_2016]",
                DATUM["ETRS89_DREF91_Realization_2016",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["ETRS89_DREF91_2016",
+WKT2        : GEODCRS["ETRS89-DEU_[ETRS89_DREF91_2016]",
                DATUM["ETRS89_DREF91_Realization_2016",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.46]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -6300,15 +6320,16 @@ Area-rlon   : 11.99
 WKID        : 10303
 Latest-WKID : 10303
 Macro       : PE_XYZ_LKS_2020
-Name        : LKS-2020
-WKT         : GXYZCS["LKS-2020",
+Name        : ETRS89-LVA_[LKS-2020]
+WKT         : GXYZCS["ETRS89-LVA_[LKS-2020]",
                DATUM["Latvian_coordinate_system_2020",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["LKS-2020",
+WKT2        : GEODCRS["ETRS89-LVA_[LKS-2020]",
                DATUM["Latvian_coordinate_system_2020",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2020.28]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -6364,15 +6385,16 @@ Area-rlon   : 174.28
 WKID        : 10326
 Latest-WKID : 10326
 Macro       : PE_XYZ_BH_ETRS89
-Name        : BH_ETRS89
-WKT         : GXYZCS["BH_ETRS89",
+Name        : ETRS89-BIH_[BH_ETRS89]
+WKT         : GXYZCS["ETRS89-BIH_[BH_ETRS89]",
                DATUM["BH_ETRS89",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["BH_ETRS89",
+WKT2        : GEODCRS["ETRS89-BIH_[BH_ETRS89]",
                DATUM["BH_ETRS89",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2011.307]],
                PRIMEM["Greenwich", 0.0],
                CS[Cartesian, 3],
                AXIS["Geocentric X (X)", geocentricX,
@@ -6488,7 +6510,7 @@ Area-name-1 : Europe - ETRF by country
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 10604
 Latest-WKID : 10604
@@ -6621,13 +6643,13 @@ Area-rlon   : 46.7
 WKID        : 10688
 Latest-WKID : 10688
 Macro       : PE_XYZ_EUREF_FIN
-Name        : EUREF-FIN
-WKT         : GXYZCS["EUREF-FIN",
+Name        : ETRS89-FIN_[EUREF-FIN]
+WKT         : GXYZCS["ETRS89-FIN_[EUREF-FIN]",
                DATUM["EUREF-FIN",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PRIMEM["Greenwich", 0.0],
                UNIT["Meter", 1.0]]
-WKT2        : GEODCRS["EUREF-FIN",
+WKT2        : GEODCRS["ETRS89-FIN_[EUREF-FIN]",
                DATUM["EUREF-FIN",
                 ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
                 ANCHOREPOCH[1997.0]],
@@ -6907,6 +6929,39 @@ Area-nlat   : 8.52
 Area-llon   : -13.59
 Area-rlon   : -7.36
 
+WKID        : 10805
+Latest-WKID : 10805
+Macro       : PE_XYZ_NKG_ETRF14
+Name        : NKG_ETRF14
+WKT         : GXYZCS["NKG_ETRF14",
+               DATUM["Nordic_Geodetic_Commission_ETRF14",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["NKG_ETRF14",
+               DATUM["Nordic_Geodetic_Commission_ETRF14",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2000.0]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "10805"]]
+Description : NKG_ETRF14
+Authority   : EPSG
+Version     : 12.021(13.8.0)
+Deprecated  : no
+Area-name-1 : Europe - Nordic and Baltic countries
+Area-slat   : 53.89
+Area-nlat   : 71.39
+Area-llon   : 3.24
+Area-rlon   : 31.77
+
 WKID        : 10829
 Latest-WKID : 10829
 Macro       : PE_XYZ_GGD
@@ -6938,6 +6993,72 @@ Area-slat   : 41.04
 Area-nlat   : 43.59
 Area-llon   : 38.97
 Area-rlon   : 46.72
+
+WKID        : 10873
+Latest-WKID : 10873
+Macro       : PE_XYZ_ETRS89_NOR_EUREF89
+Name        : ETRS89-NOR_[EUREF89]
+WKT         : GXYZCS["ETRS89-NOR_[EUREF89]",
+               DATUM["EUREF89",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-NOR_[EUREF89]",
+               DATUM["EUREF89",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1995.0]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "10873"]]
+Description : ETRS89-NOR [EUREF89]
+Authority   : EPSG
+Version     : 12.021(13.8.0)
+Deprecated  : no
+Area-name-1 : Norway
+Area-slat   : 56.08
+Area-nlat   : 84.73
+Area-llon   : -3.35
+Area-rlon   : 38.01
+
+WKID        : 10890
+Latest-WKID : 10890
+Macro       : PE_XYZ_ETRS89_DNK
+Name        : ETRS89-DNK
+WKT         : GXYZCS["ETRS89-DNK",
+               DATUM["ETRS89-DNK",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-DNK",
+               DATUM["ETRS89-DNK",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2015.829]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "10890"]]
+Description : ETRS89-DNK
+Authority   : EPSG
+Version     : 12.021(13.8.0)
+Deprecated  : no
+Area-name-1 : Denmark
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.24
+Area-rlon   : 16.51
 
 WKID        : 10908
 Latest-WKID : 10908
@@ -7135,6 +7256,39 @@ Area-nlat   : 52.0
 Area-llon   : -1.33
 Area-rlon   : 0.8
 
+WKID        : 11007
+Latest-WKID : 11007
+Macro       : PE_XYZ_ETRS89_GBR_OSNET_V2009
+Name        : ETRS89-GBR_[OSNet_v2009]
+WKT         : GXYZCS["ETRS89-GBR_[OSNet_v2009]",
+               DATUM["OSNet_v2009",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-GBR_[OSNet_v2009]",
+               DATUM["OSNet_v2009",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2009.756]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11007"]]
+Description : ETRS89-GBR [OSNet v2009]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+Area-name-1 : UK - Great Britain onshore and nearshore; Isle of Man
+Area-slat   : 49.79
+Area-nlat   : 60.94
+Area-llon   : -8.82
+Area-rlon   : 1.92
+
 WKID        : 11029
 Latest-WKID : 11029
 Macro       : PE_XYZ_SRGI2013_EPOCH_2021
@@ -7167,6 +7321,39 @@ Area-slat   : -13.95
 Area-nlat   : 7.79
 Area-llon   : 92.01
 Area-rlon   : 141.46
+
+WKID        : 11035
+Latest-WKID : 11035
+Macro       : PE_XYZ_ETRS89_NLD_AGRS2010
+Name        : ETRS89-NLD_[AGRS2010]
+WKT         : GXYZCS["ETRS89-NLD_[AGRS2010]",
+               DATUM["AGRS2010_(ETRF2000)",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-NLD_[AGRS2010]",
+               DATUM["AGRS2010_(ETRF2000)",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2010.5]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11035"]]
+Description : ETRS89-NLD [AGRS2010]
+Authority   : EPSG
+Version     : 12.046(13.8.0)
+Deprecated  : no
+Area-name-1 : Netherlands
+Area-slat   : 50.75
+Area-nlat   : 55.77
+Area-llon   : 2.53
+Area-rlon   : 7.22
 
 WKID        : 11041
 Latest-WKID : 11041
@@ -7201,6 +7388,633 @@ Area-nlat   : 11.77
 Area-llon   : -90.45
 Area-rlon   : -81.43
 
+WKID        : 11045
+Latest-WKID : 11045
+Macro       : PE_XYZ_ETRS89_ALB_2008
+Name        : ETRS89-ALB_[2008]
+WKT         : GXYZCS["ETRS89-ALB_[2008]",
+               DATUM["Albanian_Geodetic_Reference_Frame_2008",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-ALB_[2008]",
+               DATUM["Albanian_Geodetic_Reference_Frame_2008",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.0]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11045"]]
+Description : ETRS89-ALB [2008]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+Area-name-1 : Albania
+Area-slat   : 39.63
+Area-nlat   : 42.67
+Area-llon   : 18.46
+Area-rlon   : 21.06
+
+WKID        : 11051
+Latest-WKID : 11051
+Macro       : PE_XYZ_ETRS89_ALB_KRGJSH_2014
+Name        : ETRS89-ALB_[KRGJSH_2014]
+WKT         : GXYZCS["ETRS89-ALB_[KRGJSH_2014]",
+               DATUM["Albanian_Geodetic_Reference_Frame_2014",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-ALB_[KRGJSH_2014]",
+               DATUM["Albanian_Geodetic_Reference_Frame_2014",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2014.177]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11051"]]
+Description : ETRS89-ALB [KRGJSH 2014]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+Area-name-1 : Albania
+Area-slat   : 39.63
+Area-nlat   : 42.67
+Area-llon   : 18.46
+Area-rlon   : 21.06
+
+WKID        : 11055
+Latest-WKID : 11055
+Macro       : PE_XYZ_ETRS89_AUT_2002
+Name        : ETRS89-AUT_[2002]
+WKT         : GXYZCS["ETRS89-AUT_[2002]",
+               DATUM["ETRS89-AUT_[2002]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-AUT_[2002]",
+               DATUM["ETRS89-AUT_[2002]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2002.56]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11055"]]
+Description : ETRS89-AUT [2002]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+Area-name-1 : Austria
+Area-slat   : 46.4
+Area-nlat   : 49.02
+Area-llon   : 9.53
+Area-rlon   : 17.17
+
+WKID        : 11061
+Latest-WKID : 11061
+Macro       : PE_XYZ_ETRS89_BEL_BEREF2002
+Name        : ETRS89-BEL_[BEREF2002]
+WKT         : GXYZCS["ETRS89-BEL_[BEREF2002]",
+               DATUM["Belgian_Reference_Frame_2002",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-BEL_[BEREF2002]",
+               DATUM["Belgian_Reference_Frame_2002",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2002.73]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11061"]]
+Description : ETRS89-BEL [BEREF2002]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+Area-name-1 : Belgium
+Area-slat   : 49.5
+Area-nlat   : 51.88
+Area-llon   : 2.23
+Area-rlon   : 6.4
+
+WKID        : 11068
+Latest-WKID : 11068
+Macro       : PE_XYZ_ETRS89_CZE_2007
+Name        : ETRS89-CZE_[2007]
+WKT         : GXYZCS["ETRS89-CZE_[2007]",
+               DATUM["ETRS89-CZE_[2007]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-CZE_[2007]",
+               DATUM["ETRS89-CZE_[2007]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2007.0]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11068"]]
+Description : ETRS89-CZE [2007]
+Authority   : EPSG
+Version     : 12.043(13.8.0)
+Deprecated  : no
+Area-name-1 : Czechia
+Area-slat   : 48.58
+Area-nlat   : 51.06
+Area-llon   : 12.09
+Area-rlon   : 18.86
+
+WKID        : 11074
+Latest-WKID : 11074
+Macro       : PE_XYZ_ETRS89_SVK_SKTRF09
+Name        : ETRS89-SVK_[SKTRF09]
+WKT         : GXYZCS["ETRS89-SVK_[SKTRF09]",
+               DATUM["ETRS89-SVK_[SKTRF09]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-SVK_[SKTRF09]",
+               DATUM["ETRS89-SVK_[SKTRF09]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.5]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11074"]]
+Description : ETRS89-SVK [SKTRF09]
+Authority   : EPSG
+Version     : 12.043(13.8.0)
+Deprecated  : no
+Area-name-1 : Slovakia
+Area-slat   : 47.73
+Area-nlat   : 49.61
+Area-llon   : 16.84
+Area-rlon   : 22.56
+
+WKID        : 11077
+Latest-WKID : 11077
+Macro       : PE_XYZ_ETRS89_SVK_SKTRF2022
+Name        : ETRS89-SVK_[SKTRF2022]
+WKT         : GXYZCS["ETRS89-SVK_[SKTRF2022]",
+               DATUM["ETRS89-SVK_[SKTRF2022]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-SVK_[SKTRF2022]",
+               DATUM["ETRS89-SVK_[SKTRF2022]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.5]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11077"]]
+Description : ETRS89-SVK [SKTRF2022]
+Authority   : EPSG
+Version     : 12.043(13.8.0)
+Deprecated  : no
+Area-name-1 : Slovakia
+Area-slat   : 47.73
+Area-nlat   : 49.61
+Area-llon   : 16.84
+Area-rlon   : 22.56
+
+WKID        : 11085
+Latest-WKID : 11085
+Macro       : PE_XYZ_ETRS89_FRO_2008
+Name        : ETRS89-FRO_[2008]
+WKT         : GXYZCS["ETRS89-FRO_[2008]",
+               DATUM["ETRS89-FRO_[2008]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-FRO_[2008]",
+               DATUM["ETRS89-FRO_[2008]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.75]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11085"]]
+Description : ETRS89-FRO [2008]
+Authority   : EPSG
+Version     : 12.039(13.8.0)
+Deprecated  : no
+Area-name-1 : Faroe Islands
+Area-slat   : 59.94
+Area-nlat   : 65.7
+Area-llon   : -13.91
+Area-rlon   : -0.48
+
+WKID        : 11091
+Latest-WKID : 11091
+Macro       : PE_XYZ_HTRS07
+Name        : ETRS89-GRC_[HTRS07]
+WKT         : GXYZCS["ETRS89-GRC_[HTRS07]",
+               DATUM["Hellenic_Terrestrial_Reference_System_2007",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-GRC_[HTRS07]",
+               DATUM["Hellenic_Terrestrial_Reference_System_2007",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2007.5]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11091"]]
+Description : ETRS89-GRC [HTRS07]
+Authority   : EPSG
+Version     : 12.034(13.8.0)
+Deprecated  : no
+Area-name-1 : Greece
+Area-slat   : 33.26
+Area-nlat   : 41.75
+Area-llon   : 18.26
+Area-rlon   : 30.11
+
+WKID        : 11097
+Latest-WKID : 11097
+Macro       : PE_XYZ_ETRS89_MKD_EUREF_MAK2010
+Name        : ETRS89-MKD_[EUREF-MAK2010]
+WKT         : GXYZCS["ETRS89-MKD_[EUREF-MAK2010]",
+               DATUM["ETRS89-MKD_[EUREF-MAK2010]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-MKD_[EUREF-MAK2010]",
+               DATUM["ETRS89-MKD_[EUREF-MAK2010]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2010.631]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11097"]]
+Description : ETRS89-MKD [EUREF-MAK2010]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+Area-name-1 : North Macedonia
+Area-slat   : 40.85
+Area-nlat   : 42.36
+Area-llon   : 20.45
+Area-rlon   : 23.04
+
+WKID        : 11106
+Latest-WKID : 11106
+Macro       : PE_XYZ_ETRS89_PRT_1995
+Name        : ETRS89-PRT_[1995]
+WKT         : GXYZCS["ETRS89-PRT_[1995]",
+               DATUM["ETRS89-PRT_[1995]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-PRT_[1995]",
+               DATUM["ETRS89-PRT_[1995]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1995.4]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11106"]]
+Description : ETRS89-PRT [1995]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+Area-name-1 : Portugal - mainland - onshore and offshore
+Area-slat   : 34.91
+Area-nlat   : 42.16
+Area-llon   : -13.87
+Area-rlon   : -6.19
+
+WKID        : 11112
+Latest-WKID : 11112
+Macro       : PE_XYZ_ETRS89_ROU_ETRF2000
+Name        : ETRS89-ROU_[ETRF2000]
+WKT         : GXYZCS["ETRS89-ROU_[ETRF2000]",
+               DATUM["ETRS89-ROU_[ETRF2000]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-ROU_[ETRF2000]",
+               DATUM["ETRS89-ROU_[ETRF2000]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2000.0]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11112"]]
+Description : ETRS89-ROU [ETRF2000]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+Area-name-1 : Romania
+Area-slat   : 43.44
+Area-nlat   : 48.27
+Area-llon   : 20.26
+Area-rlon   : 31.41
+
+WKID        : 11126
+Latest-WKID : 11126
+Macro       : PE_XYZ_ETRS89_ESP_ERGNSS
+Name        : ETRS89-ESP_[ERGNSS]
+WKT         : GXYZCS["ETRS89-ESP_[ERGNSS]",
+               DATUM["ETRS89-ESP_[ERGNSS]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-ESP_[ERGNSS]",
+               DATUM["ETRS89-ESP_[ERGNSS]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2017.0]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11126"]]
+Description : ETRS89-ESP [ERGNSS]
+Authority   : EPSG
+Version     : 12.034(13.8.0)
+Deprecated  : no
+Area-name-1 : Spain - mainland and Balearic Islands
+Area-slat   : 35.26
+Area-nlat   : 46.26
+Area-llon   : -13.86
+Area-rlon   : 6.3
+
+WKID        : 11129
+Latest-WKID : 11129
+Macro       : PE_XYZ_ETRS89_ESP_REGENTE
+Name        : ETRS89-ESP_[REGENTE]
+WKT         : GXYZCS["ETRS89-ESP_[REGENTE]",
+               DATUM["ETRS89-ESP_[REGENTE]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-ESP_[REGENTE]",
+               DATUM["ETRS89-ESP_[REGENTE]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1995.4]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11129"]]
+Description : ETRS89-ESP [REGENTE]
+Authority   : EPSG
+Version     : 12.034(13.8.0)
+Deprecated  : no
+Area-name-1 : Spain - mainland and Balearic Islands
+Area-slat   : 35.26
+Area-nlat   : 46.26
+Area-llon   : -13.86
+Area-rlon   : 6.3
+
+WKID        : 11161
+Latest-WKID : 11161
+Macro       : PE_XYZ_ETRS89_HUN_ETRF2000
+Name        : ETRS89-HUN_[ETRF2000]
+WKT         : GXYZCS["ETRS89-HUN_[ETRF2000]",
+               DATUM["ETRS89-HUN_[ETRF2000]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-HUN_[ETRF2000]",
+               DATUM["ETRS89-HUN_[ETRF2000]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2024.0]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11161"]]
+Description : ETRS89-HUN [ETRF2000]
+Authority   : EPSG
+Version     : 12.039(13.8.0)
+Deprecated  : no
+Area-name-1 : Hungary
+Area-slat   : 45.74
+Area-nlat   : 48.58
+Area-llon   : 16.11
+Area-rlon   : 22.9
+
+WKID        : 11187
+Latest-WKID : 11187
+Macro       : PE_XYZ_ETRS89_HRV_CROPOS
+Name        : ETRS89-HRV_[CROPOS]
+WKT         : GXYZCS["ETRS89-HRV_[CROPOS]",
+               DATUM["CROPOS",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-HRV_[CROPOS]",
+               DATUM["CROPOS",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.83]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11187"]]
+Description : ETRS89-HRV [CROPOS]
+Authority   : EPSG
+Version     : 12.042(13.8.0)
+Deprecated  : no
+Area-name-1 : Croatia
+Area-slat   : 41.62
+Area-nlat   : 46.54
+Area-llon   : 13.0
+Area-rlon   : 19.43
+
+WKID        : 11197
+Latest-WKID : 11197
+Macro       : PE_XYZ_ETRS89_DEU_ETRS89_DREF91_2025
+Name        : ETRS89-DEU_[ETRS89_DREF91_2025]
+WKT         : GXYZCS["ETRS89-DEU_[ETRS89_DREF91_2025]",
+               DATUM["ETRS89_DREF91_Realization_2025",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-DEU_[ETRS89_DREF91_2025]",
+               DATUM["ETRS89_DREF91_Realization_2025",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2021.48]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11197"]]
+Description : ETRS89-DEU [ETRS89/DREF91/2025]
+Authority   : EPSG
+Version     : 12.042(13.8.0)
+Deprecated  : no
+Area-name-1 : Germany
+Area-slat   : 47.27
+Area-nlat   : 55.92
+Area-llon   : 3.34
+Area-rlon   : 15.04
+
+WKID        : 11213
+Latest-WKID : 11213
+Macro       : PE_XYZ_ETRS89_BEL_BEREF2011
+Name        : ETRS89-BEL_[BEREF2011]
+WKT         : GXYZCS["ETRS89-BEL_[BEREF2011]",
+               DATUM["Belgian_Reference_Frame_2011",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-BEL_[BEREF2011]",
+               DATUM["Belgian_Reference_Frame_2011",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2011.763]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11213"]]
+Description : ETRS89-BEL [BEREF2011]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+Area-name-1 : Belgium
+Area-slat   : 49.5
+Area-nlat   : 51.88
+Area-llon   : 2.23
+Area-rlon   : 6.4
+
+WKID        : 11222
+Latest-WKID : 11222
+Macro       : PE_XYZ_ETRS89_CHE_CHTRF95
+Name        : ETRS89-CHE_[CHTRF95]
+WKT         : GXYZCS["ETRS89-CHE_[CHTRF95]",
+               DATUM["Swiss_Terrestrial_Reference_Frame_1995",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-CHE_[CHTRF95]",
+               DATUM["Swiss_Terrestrial_Reference_Frame_1995",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1993.0]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11222"]]
+Description : ETRS89-CHE [CHTRF95]
+Authority   : EPSG
+Version     : 12.048(13.8.0)
+Deprecated  : no
+Area-name-1 : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.81
+Area-nlat   : 47.81
+Area-llon   : 5.95
+Area-rlon   : 10.5
+
 WKID        : 11224
 Latest-WKID : 11224
 Macro       : PE_XYZ_DRUKREF23
@@ -7232,6 +8046,104 @@ Area-slat   : 26.7
 Area-nlat   : 28.33
 Area-llon   : 88.74
 Area-rlon   : 92.13
+
+WKID        : 11391
+Latest-WKID : 11391
+Macro       : PE_XYZ_ETRS89_LUX_2020
+Name        : ETRS89-LUX_[2020]
+WKT         : GXYZCS["ETRS89-LUX_[2020]",
+               DATUM["ETRS89-LUX_[2020]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-LUX_[2020]",
+               DATUM["ETRS89-LUX_[2020]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2020.82]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11391"]]
+Description : ETRS89-LUX [ETRF2000]
+Authority   : EPSG
+Version     : 12.051(13.8.0)
+Deprecated  : no
+Area-name-1 : Luxembourg
+Area-slat   : 49.44
+Area-nlat   : 50.19
+Area-llon   : 5.73
+Area-rlon   : 6.53
+
+WKID        : 11471
+Latest-WKID : 11471
+Macro       : PE_XYZ_SIRGAS_CHILE_2025
+Name        : SIRGAS-Chile_2025
+WKT         : GXYZCS["SIRGAS-Chile_2025",
+               DATUM["SIRGAS-Chile_2025",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["SIRGAS-Chile_2025",
+               DATUM["SIRGAS-Chile_2025",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11471"]]
+Description : SIRGAS-Chile 2025
+Authority   : EPSG
+Version     : 12.057(13.8.0)
+Deprecated  : no
+Area-name-1 : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
+
+WKID        : 11545
+Latest-WKID : 11545
+Macro       : PE_XYZ_ETRS89_LUX_2025
+Name        : ETRS89-LUX_[2025]
+WKT         : GXYZCS["ETRS89-LUX_[2025]",
+               DATUM["ETRS89-LUX_[2025]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PRIMEM["Greenwich", 0.0],
+               UNIT["Meter", 1.0]]
+WKT2        : GEODCRS["ETRS89-LUX_[2025]",
+               DATUM["ETRS89-LUX_[2025]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2025.83]],
+               PRIMEM["Greenwich", 0.0],
+               CS[Cartesian, 3],
+               AXIS["Geocentric X (X)", geocentricX,
+                ORDER[1]],
+               AXIS["Geocentric Y (Y)", geocentricY,
+                ORDER[2]],
+               AXIS["Geocentric Z (Z)", geocentricZ,
+                ORDER[3]],
+               LENGTHUNIT["Meter", 1.0],
+               ID["EPSG", "11545"]]
+Description : ETRS89-LUX [2025]
+Authority   : EPSG
+Version     : 12.059(13.8.0)
+Deprecated  : no
+Area-name-1 : Luxembourg
+Area-slat   : 49.44
+Area-nlat   : 50.19
+Area-llon   : 5.73
+Area-rlon   : 6.53
 
 WKID        : 20039
 Latest-WKID : 20039

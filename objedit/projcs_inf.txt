@@ -740,6 +740,10 @@ PE_PCS_TETE_UTM_37S, \
    "Projected Coordinate Systems/Africa/Mozambique", \
    "Tete UTM zone 37S"
 
+PE_PCS_WGS_84_LAEA_MOZAMBIQUE, \
+   "Projected Coordinate Systems/Africa/Mozambique", \
+   "WGS 1984 LAEA Mozambique"
+
 PE_PCS_WGS_1984_TM_36_SE, \
    "Projected Coordinate Systems/Africa/Mozambique", \
    "WGS 1984 TM 36 SE"
@@ -840,77 +844,77 @@ PE_PCS_CAPE_LO33, \
    "Projected Coordinate Systems/Africa/South Africa", \
    "Cape Lo33"
 
+PE_PCS_HARTEBEESTHOEK94_LO17_EN, \
+   "Projected Coordinate Systems/Africa/South Africa", \
+   "Hartebeesthoek94 Inverted Lo17"
+
+PE_PCS_HARTEBEESTHOEK94_LO19_EN, \
+   "Projected Coordinate Systems/Africa/South Africa", \
+   "Hartebeesthoek94 Inverted Lo19"
+
+PE_PCS_HARTEBEESTHOEK94_LO21_EN, \
+   "Projected Coordinate Systems/Africa/South Africa", \
+   "Hartebeesthoek94 Inverted Lo21"
+
+PE_PCS_HARTEBEESTHOEK94_LO23_EN, \
+   "Projected Coordinate Systems/Africa/South Africa", \
+   "Hartebeesthoek94 Inverted Lo23"
+
+PE_PCS_HARTEBEESTHOEK94_LO25_EN, \
+   "Projected Coordinate Systems/Africa/South Africa", \
+   "Hartebeesthoek94 Inverted Lo25"
+
+PE_PCS_HARTEBEESTHOEK94_LO27_EN, \
+   "Projected Coordinate Systems/Africa/South Africa", \
+   "Hartebeesthoek94 Inverted Lo27"
+
+PE_PCS_HARTEBEESTHOEK94_LO29_EN, \
+   "Projected Coordinate Systems/Africa/South Africa", \
+   "Hartebeesthoek94 Inverted Lo29"
+
+PE_PCS_HARTEBEESTHOEK94_LO31_EN, \
+   "Projected Coordinate Systems/Africa/South Africa", \
+   "Hartebeesthoek94 Inverted Lo31"
+
+PE_PCS_HARTEBEESTHOEK94_LO33_EN, \
+   "Projected Coordinate Systems/Africa/South Africa", \
+   "Hartebeesthoek94 Inverted Lo33"
+
 PE_PCS_HARTEBEESTHOEK94_LO17, \
    "Projected Coordinate Systems/Africa/South Africa", \
    "Hartebeesthoek94 Lo17"
-
-PE_PCS_HARTEBEESTHOEK94_LO17_EN, \
-   "Projected Coordinate Systems/Africa/South Africa", \
-   "Hartebeesthoek94 Lo17 (E-N)"
 
 PE_PCS_HARTEBEESTHOEK94_LO19, \
    "Projected Coordinate Systems/Africa/South Africa", \
    "Hartebeesthoek94 Lo19"
 
-PE_PCS_HARTEBEESTHOEK94_LO19_EN, \
-   "Projected Coordinate Systems/Africa/South Africa", \
-   "Hartebeesthoek94 Lo19 (E-N)"
-
 PE_PCS_HARTEBEESTHOEK94_LO21, \
    "Projected Coordinate Systems/Africa/South Africa", \
    "Hartebeesthoek94 Lo21"
-
-PE_PCS_HARTEBEESTHOEK94_LO21_EN, \
-   "Projected Coordinate Systems/Africa/South Africa", \
-   "Hartebeesthoek94 Lo21 (E-N)"
 
 PE_PCS_HARTEBEESTHOEK94_LO23, \
    "Projected Coordinate Systems/Africa/South Africa", \
    "Hartebeesthoek94 Lo23"
 
-PE_PCS_HARTEBEESTHOEK94_LO23_EN, \
-   "Projected Coordinate Systems/Africa/South Africa", \
-   "Hartebeesthoek94 Lo23 (E-N)"
-
 PE_PCS_HARTEBEESTHOEK94_LO25, \
    "Projected Coordinate Systems/Africa/South Africa", \
    "Hartebeesthoek94 Lo25"
-
-PE_PCS_HARTEBEESTHOEK94_LO25_EN, \
-   "Projected Coordinate Systems/Africa/South Africa", \
-   "Hartebeesthoek94 Lo25 (E-N)"
 
 PE_PCS_HARTEBEESTHOEK94_LO27, \
    "Projected Coordinate Systems/Africa/South Africa", \
    "Hartebeesthoek94 Lo27"
 
-PE_PCS_HARTEBEESTHOEK94_LO27_EN, \
-   "Projected Coordinate Systems/Africa/South Africa", \
-   "Hartebeesthoek94 Lo27 (E-N)"
-
 PE_PCS_HARTEBEESTHOEK94_LO29, \
    "Projected Coordinate Systems/Africa/South Africa", \
    "Hartebeesthoek94 Lo29"
-
-PE_PCS_HARTEBEESTHOEK94_LO29_EN, \
-   "Projected Coordinate Systems/Africa/South Africa", \
-   "Hartebeesthoek94 Lo29 (E-N)"
 
 PE_PCS_HARTEBEESTHOEK94_LO31, \
    "Projected Coordinate Systems/Africa/South Africa", \
    "Hartebeesthoek94 Lo31"
 
-PE_PCS_HARTEBEESTHOEK94_LO31_EN, \
-   "Projected Coordinate Systems/Africa/South Africa", \
-   "Hartebeesthoek94 Lo31 (E-N)"
-
 PE_PCS_HARTEBEESTHOEK94_LO33, \
    "Projected Coordinate Systems/Africa/South Africa", \
    "Hartebeesthoek94 Lo33"
-
-PE_PCS_HARTEBEESTHOEK94_LO33_EN, \
-   "Projected Coordinate Systems/Africa/South Africa", \
-   "Hartebeesthoek94 Lo33 (E-N)"
 
 PE_PCS_HARTEBEESTHOEK94_ZAF_BSU_ALBERS_25E, \
    "Projected Coordinate Systems/Africa/South Africa", \
@@ -7602,15 +7606,15 @@ PE_PCS_SIBUN_GORGE_1922_COLONY_GRID, \
 
 PE_PCS_CR_SIRGAS_CRTM05, \
    "Projected Coordinate Systems/Central America/Costa Rica", \
-   "CR-SIRGAS CRTM05"
+   "CR-SIRGAS epoch 2014.59 CRTM05"
 
 PE_PCS_CR_SIRGAS_UTM_16N, \
    "Projected Coordinate Systems/Central America/Costa Rica", \
-   "CR-SIRGAS UTM zone 16N"
+   "CR-SIRGAS epoch 2014.59 UTM zone 16N"
 
 PE_PCS_CR_SIRGAS_UTM_17N, \
    "Projected Coordinate Systems/Central America/Costa Rica", \
-   "CR-SIRGAS UTM zone 17N"
+   "CR-SIRGAS epoch 2014.59 UTM zone 17N"
 
 PE_PCS_CRTM05, \
    "Projected Coordinate Systems/Central America/Costa Rica", \
@@ -7680,10 +7684,6 @@ PE_PCS_BBT2000_BBT_TM, \
    "Projected Coordinate Systems/Europe", \
    "BBT2000 BBT-TM"
 
-PE_PCS_BH_ETRS89_TM, \
-   "Projected Coordinate Systems/Europe", \
-   "BH_ETRS89 TM"
-
 PE_PCS_CGRS_1993_CYPRUS_LTM, \
    "Projected Coordinate Systems/Europe", \
    "CGRS 1993 Cyprus Local Transverse Mercator"
@@ -7707,14 +7707,6 @@ PE_PCS_EMEP_150KM, \
 PE_PCS_EMEP_50KM, \
    "Projected Coordinate Systems/Europe", \
    "EMEP 50 Kilometer Grid"
-
-PE_PCS_ETRS_1989_ALBANIA_2010, \
-   "Projected Coordinate Systems/Europe", \
-   "ETRS 1989 Albania 2010"
-
-PE_PCS_ETRS_1989_ALBANIA_LCC_2010, \
-   "Projected Coordinate Systems/Europe", \
-   "ETRS 1989 Albania LCC 2010"
 
 PE_PCS_ETRS_1989_GUERNSEY_GRID, \
    "Projected Coordinate Systems/Europe", \
@@ -7740,13 +7732,53 @@ PE_PCS_ETRS_1989_TM_BALTIC_1993, \
    "Projected Coordinate Systems/Europe", \
    "ETRS 1989 TM Baltic 1993"
 
-PE_PCS_ESTONIA_1997_ESTONIA_GRID, \
+PE_PCS_ETRS_1989_ALBANIA_LCC_2010, \
    "Projected Coordinate Systems/Europe", \
-   "Estonia 1997 Estonia National Grid"
+   "ETRS89-ALB [2008] Albania LCC 2010"
+
+PE_PCS_ETRS_1989_ALBANIA_2010, \
+   "Projected Coordinate Systems/Europe", \
+   "ETRS89-ALB [2008] Albania TM 2010"
+
+PE_PCS_BH_ETRS89_TM, \
+   "Projected Coordinate Systems/Europe", \
+   "ETRS89-BIH [BH_ETRS89] TM"
+
+PE_PCS_LKS_1994_LITHUANIA_TM, \
+   "Projected Coordinate Systems/Europe", \
+   "ETRS89-LTU [LKS94] Lithuania TM"
+
+PE_PCS_LKS_2020_LATVIA_TM, \
+   "Projected Coordinate Systems/Europe", \
+   "ETRS89-LVA [LKS-2020] Latvia TM"
+
+PE_PCS_LKS_1992_LATVIA_TM, \
+   "Projected Coordinate Systems/Europe", \
+   "ETRS89-LVA [LKS-92] Latvia TM"
+
+PE_PCS_LKS_1992_LATVIA_TM_0, \
+   "Projected Coordinate Systems/Europe", \
+   "ETRS89-LVA [LKS-92] Latvia TM (FN = 0)"
+
+PE_PCS_MOLDREF99_MOLDOVA_TM, \
+   "Projected Coordinate Systems/Europe", \
+   "ETRS89-MDA [MOLDREF99] Moldova TM"
+
+PE_PCS_SRB_ETRS89_UTM_34N, \
+   "Projected Coordinate Systems/Europe", \
+   "ETRS89-SRB [STRS00] UTM zone 34N"
+
+PE_PCS_KOSOVAREF01_BALKANS_7, \
+   "Projected Coordinate Systems/Europe", \
+   "ETRS89-XKX [KOSOVAREF01] Balkans zone 7"
 
 PE_PCS_ESTONIAN_COORDINATE_SYSTEM_1992, \
    "Projected Coordinate Systems/Europe", \
    "Estonian Coordinate System of 1992"
+
+PE_PCS_ESTONIA_1997_ESTONIA_GRID, \
+   "Projected Coordinate Systems/Europe", \
+   "Estonian Coordinate System of 1997"
 
 PE_PCS_ED_1950_EUROPE_ALBERS, \
    "Projected Coordinate Systems/Europe", \
@@ -7771,26 +7803,6 @@ PE_PCS_GUERNSEY_GRID, \
 PE_PCS_HUNGARIAN_1972_EOV, \
    "Projected Coordinate Systems/Europe", \
    "HD 1972 EOV"
-
-PE_PCS_KOSOVAREF01_BALKANS_7, \
-   "Projected Coordinate Systems/Europe", \
-   "KOSOVAREF01 Balkans zone 7"
-
-PE_PCS_LKS_1992_LATVIA_TM, \
-   "Projected Coordinate Systems/Europe", \
-   "LKS 1992 Latvia TM"
-
-PE_PCS_LKS_1992_LATVIA_TM_0, \
-   "Projected Coordinate Systems/Europe", \
-   "LKS 1992 Latvia TM (FN = 0)"
-
-PE_PCS_LKS_1994_LITHUANIA_TM, \
-   "Projected Coordinate Systems/Europe", \
-   "LKS 1994 Lithuania TM"
-
-PE_PCS_LKS_2020_LATVIA_TM, \
-   "Projected Coordinate Systems/Europe", \
-   "LKS-2020 Latvia TM"
 
 PE_PCS_LUXEMBOURG_1930_GAUSS, \
    "Projected Coordinate Systems/Europe", \
@@ -7848,10 +7860,6 @@ PE_PCS_MGI_BALKANS_8, \
    "Projected Coordinate Systems/Europe", \
    "MGI Balkans 8"
 
-PE_PCS_MOLDREF99_MOLDOVA_TM, \
-   "Projected Coordinate Systems/Europe", \
-   "MOLDREF99 Moldova TM"
-
 PE_PCS_MACEDONIA_STATE_COORDINATE_SYSTEM_TRUNCATED, \
    "Projected Coordinate Systems/Europe", \
    "Macedonia State Coordinate System truncated"
@@ -7859,10 +7867,6 @@ PE_PCS_MACEDONIA_STATE_COORDINATE_SYSTEM_TRUNCATED, \
 PE_PCS_MACEDONIAN_STATE_CS, \
    "Projected Coordinate Systems/Europe", \
    "Macedonian State Coordinate System"
-
-PE_PCS_MADRID_1870_MADRID_SPAIN, \
-   "Projected Coordinate Systems/Europe", \
-   "Madrid 1870 Madrid Spain"
 
 PE_PCS_AMERSFOORT_RD_NEW, \
    "Projected Coordinate Systems/Europe", \
@@ -7896,10 +7900,6 @@ PE_PCS_S_JTSK_JTSK03_KROVAK_EN, \
    "Projected Coordinate Systems/Europe", \
    "S-JTSK [JTSK03] Krovak EastNorth"
 
-PE_PCS_SRB_ETRS89_UTM_34N, \
-   "Projected Coordinate Systems/Europe", \
-   "SRB_ETRS89 UTM zone 34N"
-
 PE_PCS_WGS84_EQUI7_EUROPE, \
    "Projected Coordinate Systems/Europe", \
    "WGS 1984 Equi7 Europe"
@@ -7930,7 +7930,7 @@ PE_PCS_MGI_FERRO_AUSTRIA_WEST, \
 
 PE_PCS_ETRS_1989_AUSTRIA_LAMBERT, \
    "Projected Coordinate Systems/Europe/Austria", \
-   "ETRS 1989 Austria Lambert"
+   "ETRS89-AUT [2002] Austria Lambert"
 
 PE_PCS_MGI_FERRO_AUSTRIA_GK_CENTRAL, \
    "Projected Coordinate Systems/Europe/Austria", \
@@ -8022,51 +8022,55 @@ PE_PCS_BELGE_LAMBERT_1972_BAD_FE_FN, \
 
 PE_PCS_ETRS_1989_BELGE_LAMBERT_2005, \
    "Projected Coordinate Systems/Europe/Belgium", \
-   "Belge Lambert 2005"
+   "ETRS89-BEL [BEREF2002] Belgian Lambert 2005"
 
 PE_PCS_ETRS_1989_BELGE_LAMBERT_2008, \
    "Projected Coordinate Systems/Europe/Belgium", \
-   "Belge Lambert 2008"
+   "ETRS89-BEL [BEREF2002] Belgian Lambert 2008"
+
+PE_PCS_ETRS89_BEL_BEREF2011_BELGIAN_LAMBERT_2008, \
+   "Projected Coordinate Systems/Europe/Belgium", \
+   "ETRS89-BEL [BEREF2011] Belgian Lambert 2008"
 
 PE_PCS_BGS2005_CCS2005, \
    "Projected Coordinate Systems/Europe/Bulgaria", \
-   "BGS2005 - CCS2005"
+   "ETRS89-BGR [BGS2005] - CCS2005"
 
 PE_PCS_BGS2005_UTM_34N, \
    "Projected Coordinate Systems/Europe/Bulgaria", \
-   "BGS2005 UTM zone 34N"
+   "ETRS89-BGR [BGS2005] UTM zone 34N"
 
 PE_PCS_BGS2005_UTM_34N_NE, \
    "Projected Coordinate Systems/Europe/Bulgaria", \
-   "BGS2005 UTM zone 34N (N-E)"
+   "ETRS89-BGR [BGS2005] UTM zone 34N (N-E)"
 
 PE_PCS_BGS2005_UTM_35N, \
    "Projected Coordinate Systems/Europe/Bulgaria", \
-   "BGS2005 UTM zone 35N"
+   "ETRS89-BGR [BGS2005] UTM zone 35N"
 
 PE_PCS_BGS2005_UTM_35N_NE, \
    "Projected Coordinate Systems/Europe/Bulgaria", \
-   "BGS2005 UTM zone 35N (N-E)"
+   "ETRS89-BGR [BGS2005] UTM zone 35N (N-E)"
 
 PE_PCS_BGS2005_UTM_36N, \
    "Projected Coordinate Systems/Europe/Bulgaria", \
-   "BGS2005 UTM zone 36N"
+   "ETRS89-BGR [BGS2005] UTM zone 36N"
 
 PE_PCS_HTRS96_CROATIA_LCC, \
    "Projected Coordinate Systems/Europe/Croatia", \
-   "HTRS96 Croatia LCC"
+   "ETRS89-HRV [HTRS96] Croatia LCC"
 
 PE_PCS_HTRS96_CROATIA_TM, \
    "Projected Coordinate Systems/Europe/Croatia", \
-   "HTRS96 Croatia TM"
+   "ETRS89-HRV [HTRS96] Croatia TM"
 
 PE_PCS_HTRS96_UTM_33N, \
    "Projected Coordinate Systems/Europe/Croatia", \
-   "HTRS96 UTM zone 33N"
+   "ETRS89-HRV [HTRS96] UTM zone 33N"
 
 PE_PCS_HTRS96_UTM_34N, \
    "Projected Coordinate Systems/Europe/Croatia", \
-   "HTRS96 UTM zone 34N"
+   "ETRS89-HRV [HTRS96] UTM zone 34N"
 
 PE_PCS_ETRS_1989_DKTM1, \
    "Projected Coordinate Systems/Europe/Denmark", \
@@ -8084,10 +8088,6 @@ PE_PCS_ETRS_1989_DKTM4, \
    "Projected Coordinate Systems/Europe/Denmark", \
    "ETRS 1989 DKTM4"
 
-PE_PCS_ETRS_1989_FAROE_TM, \
-   "Projected Coordinate Systems/Europe/Denmark", \
-   "ETRS 1989 Faroe TM"
-
 PE_PCS_ETRS_1989_KP2000_BORNHOLM, \
    "Projected Coordinate Systems/Europe/Denmark", \
    "ETRS 1989 Kp2000 Bornholm"
@@ -8099,6 +8099,10 @@ PE_PCS_ETRS_1989_KP2000_JUTLAND, \
 PE_PCS_ETRS_1989_KP2000_ZEALAND, \
    "Projected Coordinate Systems/Europe/Denmark", \
    "ETRS 1989 Kp2000 Zealand"
+
+PE_PCS_ETRS_1989_FAROE_TM, \
+   "Projected Coordinate Systems/Europe/Denmark", \
+   "ETRS89-FRO [2008] Faroe TM"
 
 PE_PCS_FD_1954_UTM_29N, \
    "Projected Coordinate Systems/Europe/Denmark", \
@@ -8122,71 +8126,71 @@ PE_PCS_S34S_RECONSTRUCTION_EAST_ORIENTATED, \
 
 PE_PCS_ETRS_1989_GK19FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK19FIN"
+   "ETRS89-FIN [EUREF-FIN] GK19FIN"
 
 PE_PCS_ETRS_1989_GK20FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK20FIN"
+   "ETRS89-FIN [EUREF-FIN] GK20FIN"
 
 PE_PCS_ETRS_1989_GK21FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK21FIN"
+   "ETRS89-FIN [EUREF-FIN] GK21FIN"
 
 PE_PCS_ETRS_1989_GK22FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK22FIN"
+   "ETRS89-FIN [EUREF-FIN] GK22FIN"
 
 PE_PCS_ETRS_1989_GK23FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK23FIN"
+   "ETRS89-FIN [EUREF-FIN] GK23FIN"
 
 PE_PCS_ETRS_1989_GK24FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK24FIN"
+   "ETRS89-FIN [EUREF-FIN] GK24FIN"
 
 PE_PCS_ETRS_1989_GK25FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK25FIN"
+   "ETRS89-FIN [EUREF-FIN] GK25FIN"
 
 PE_PCS_ETRS_1989_GK26FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK26FIN"
+   "ETRS89-FIN [EUREF-FIN] GK26FIN"
 
 PE_PCS_ETRS_1989_GK27FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK27FIN"
+   "ETRS89-FIN [EUREF-FIN] GK27FIN"
 
 PE_PCS_ETRS_1989_GK28FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK28FIN"
+   "ETRS89-FIN [EUREF-FIN] GK28FIN"
 
 PE_PCS_ETRS_1989_GK29FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK29FIN"
+   "ETRS89-FIN [EUREF-FIN] GK29FIN"
 
 PE_PCS_ETRS_1989_GK30FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK30FIN"
+   "ETRS89-FIN [EUREF-FIN] GK30FIN"
 
 PE_PCS_ETRS_1989_GK31FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN GK31FIN"
+   "ETRS89-FIN [EUREF-FIN] GK31FIN"
 
 PE_PCS_EUREF_FIN_TM35FIN, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN TM35FIN"
+   "ETRS89-FIN [EUREF-FIN] TM35FIN (East, North)"
 
 PE_PCS_ETRS_1989_TM35FIN_NE, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN TM35FIN (North,East)"
+   "ETRS89-FIN [EUREF-FIN] TM35FIN (North,East)"
 
 PE_PCS_EUREF_FIN_UTM_ZONE_34N, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN UTM zone 34N"
+   "ETRS89-FIN [EUREF-FIN] UTM zone 34N"
 
 PE_PCS_EUREF_FIN_UTM_ZONE_36N, \
    "Projected Coordinate Systems/Europe/Finland", \
-   "EUREF-FIN UTM zone 36N"
+   "ETRS89-FIN [EUREF-FIN] UTM zone 36N"
 
 PE_PCS_KKJ_FINLAND_1, \
    "Projected Coordinate Systems/Europe/Finland", \
@@ -8214,59 +8218,179 @@ PE_PCS_KKJ_FINLAND_5, \
 
 PE_PCS_ETRS_1989_ETRS_GK19FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK19FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK19FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK20FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK20FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK20FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK21FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK21FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK21FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK22FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK22FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK22FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK23FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK23FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK23FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK24FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK24FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK24FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK25FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK25FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK25FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK26FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK26FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK26FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK27FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK27FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK27FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK28FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK28FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK28FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK29FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK29FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK29FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK30FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK30FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK30FIN"
 
 PE_PCS_ETRS_1989_ETRS_GK31FIN, \
    "Projected Coordinate Systems/Europe/Finland/Replaced", \
-   "EUREF-FIN ETRS-GK31FIN"
+   "ETRS89-FIN [EUREF-FIN] ETRS-GK31FIN"
 
 PE_PCS_ED_1950_TM_6_NE, \
    "Projected Coordinate Systems/Europe/France", \
    "ED 1950 TM 6 NE"
+
+PE_PCS_RGF_1993_CC42, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] CC42"
+
+PE_PCS_RGF_1993_CC43, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] CC43"
+
+PE_PCS_RGF_1993_CC44, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] CC44"
+
+PE_PCS_RGF_1993_CC45, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] CC45"
+
+PE_PCS_RGF_1993_CC46, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] CC46"
+
+PE_PCS_RGF_1993_CC47, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] CC47"
+
+PE_PCS_RGF_1993_CC48, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] CC48"
+
+PE_PCS_RGF_1993_CC49, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] CC49"
+
+PE_PCS_RGF_1993_CC50, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] CC50"
+
+PE_PCS_RGF_1993_LAMBERT_93, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] Lambert-93"
+
+PE_PCS_RGF93_V2_CC42, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] CC42"
+
+PE_PCS_RGF93_V2_CC43, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] CC43"
+
+PE_PCS_RGF93_V2_CC44, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] CC44"
+
+PE_PCS_RGF93_V2_CC45, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] CC45"
+
+PE_PCS_RGF93_V2_CC46, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] CC46"
+
+PE_PCS_RGF93_V2_CC47, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] CC47"
+
+PE_PCS_RGF93_V2_CC48, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] CC48"
+
+PE_PCS_RGF93_V2_CC49, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] CC49"
+
+PE_PCS_RGF93_V2_CC50, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] CC50"
+
+PE_PCS_RGF93_V2_LAMBERT_93, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] Lambert-93"
+
+PE_PCS_RGF93_V2B_CC42, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] CC42"
+
+PE_PCS_RGF93_V2B_CC43, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] CC43"
+
+PE_PCS_RGF93_V2B_CC44, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] CC44"
+
+PE_PCS_RGF93_V2B_CC45, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] CC45"
+
+PE_PCS_RGF93_V2B_CC46, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] CC46"
+
+PE_PCS_RGF93_V2B_CC47, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] CC47"
+
+PE_PCS_RGF93_V2B_CC48, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] CC48"
+
+PE_PCS_RGF93_V2B_CC49, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] CC49"
+
+PE_PCS_RGF93_V2B_CC50, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] CC50"
+
+PE_PCS_RGF93_V2B_LAMBERT_93, \
+   "Projected Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] Lambert-93"
 
 PE_PCS_NTF_PARIS_LAMBERT_CENTRE_FRANCE, \
    "Projected Coordinate Systems/Europe/France", \
@@ -8335,126 +8459,6 @@ PE_PCS_NTF_LAMBERT_IV, \
 PE_PCS_ATF_NORD_DE_GUERRE, \
    "Projected Coordinate Systems/Europe/France", \
    "Nord de Guerre"
-
-PE_PCS_RGF_1993_CC42, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF 1993 CC42"
-
-PE_PCS_RGF_1993_CC43, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF 1993 CC43"
-
-PE_PCS_RGF_1993_CC44, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF 1993 CC44"
-
-PE_PCS_RGF_1993_CC45, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF 1993 CC45"
-
-PE_PCS_RGF_1993_CC46, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF 1993 CC46"
-
-PE_PCS_RGF_1993_CC47, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF 1993 CC47"
-
-PE_PCS_RGF_1993_CC48, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF 1993 CC48"
-
-PE_PCS_RGF_1993_CC49, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF 1993 CC49"
-
-PE_PCS_RGF_1993_CC50, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF 1993 CC50"
-
-PE_PCS_RGF_1993_LAMBERT_93, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF 1993 Lambert-93"
-
-PE_PCS_RGF93_V2_CC42, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2 CC42"
-
-PE_PCS_RGF93_V2_CC43, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2 CC43"
-
-PE_PCS_RGF93_V2_CC44, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2 CC44"
-
-PE_PCS_RGF93_V2_CC45, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2 CC45"
-
-PE_PCS_RGF93_V2_CC46, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2 CC46"
-
-PE_PCS_RGF93_V2_CC47, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2 CC47"
-
-PE_PCS_RGF93_V2_CC48, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2 CC48"
-
-PE_PCS_RGF93_V2_CC49, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2 CC49"
-
-PE_PCS_RGF93_V2_CC50, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2 CC50"
-
-PE_PCS_RGF93_V2_LAMBERT_93, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2 Lambert-93"
-
-PE_PCS_RGF93_V2B_CC42, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2b CC42"
-
-PE_PCS_RGF93_V2B_CC43, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2b CC43"
-
-PE_PCS_RGF93_V2B_CC44, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2b CC44"
-
-PE_PCS_RGF93_V2B_CC45, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2b CC45"
-
-PE_PCS_RGF93_V2B_CC46, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2b CC46"
-
-PE_PCS_RGF93_V2B_CC47, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2b CC47"
-
-PE_PCS_RGF93_V2B_CC48, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2b CC48"
-
-PE_PCS_RGF93_V2B_CC49, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2b CC49"
-
-PE_PCS_RGF93_V2B_CC50, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2b CC50"
-
-PE_PCS_RGF93_V2B_LAMBERT_93, \
-   "Projected Coordinate Systems/Europe/France", \
-   "RGF93 v2b Lambert-93"
 
 PE_PCS_ASSE_2025_3_DEGREE_GAUSS_KRUGER_ZONE_4_E_N, \
    "Projected Coordinate Systems/Europe/Germany", \
@@ -8574,43 +8578,43 @@ PE_PCS_ETRS_1989_UTM_N32, \
 
 PE_PCS_ETRS89_DREF91_2016_3_DEGREE_GAUSS_KRUGER_ZONE_3, \
    "Projected Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016 3-degree Gauss-Kruger zone 3"
+   "ETRS89-DEU [ETRS89 DREF91 2016] 3-degree Gauss-Kruger zone 3"
 
 PE_PCS_ETRS89_DREF91_2016_UTM_ZONE_31N, \
    "Projected Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016 UTM zone 31N"
+   "ETRS89-DEU [ETRS89 DREF91 2016] UTM zone 31N"
 
 PE_PCS_ETRS89_DREF91_2016_UTM_ZONE_31N_N_ZE, \
    "Projected Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016 UTM zone 31N (N-zE)"
+   "ETRS89-DEU [ETRS89 DREF91 2016] UTM zone 31N (N-zE)"
 
 PE_PCS_ETRS89_DREF91_2016_UTM_ZONE_31N_ZE_N, \
    "Projected Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016 UTM zone 31N (zE-N)"
+   "ETRS89-DEU [ETRS89 DREF91 2016] UTM zone 31N (zE-N)"
 
 PE_PCS_ETRS89_DREF91_2016_UTM_ZONE_32N, \
    "Projected Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016 UTM zone 32N"
+   "ETRS89-DEU [ETRS89 DREF91 2016] UTM zone 32N"
 
 PE_PCS_ETRS89_DREF91_2016_UTM_ZONE_32N_N_ZE, \
    "Projected Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016 UTM zone 32N (N-zE)"
+   "ETRS89-DEU [ETRS89 DREF91 2016] UTM zone 32N (N-zE)"
 
 PE_PCS_ETRS89_DREF91_2016_UTM_ZONE_32N_ZE_N, \
    "Projected Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016 UTM zone 32N (zE-N)"
+   "ETRS89-DEU [ETRS89 DREF91 2016] UTM zone 32N (zE-N)"
 
 PE_PCS_ETRS89_DREF91_2016_UTM_ZONE_33N, \
    "Projected Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016 UTM zone 33N"
+   "ETRS89-DEU [ETRS89 DREF91 2016] UTM zone 33N"
 
 PE_PCS_ETRS89_DREF91_2016_UTM_ZONE_33N_N_ZE, \
    "Projected Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016 UTM zone 33N (N-zE)"
+   "ETRS89-DEU [ETRS89 DREF91 2016] UTM zone 33N (N-zE)"
 
 PE_PCS_ETRS89_DREF91_2016_UTM_ZONE_33N_ZE_N, \
    "Projected Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016 UTM zone 33N (zE-N)"
+   "ETRS89-DEU [ETRS89 DREF91 2016] UTM zone 33N (zE-N)"
 
 PE_PCS_DHDN_GERMANY_1, \
    "Projected Coordinate Systems/Europe/Germany", \
@@ -8688,21 +8692,21 @@ PE_PCS_RAUENBERG_DATUM_1983_GK_5, \
    "Projected Coordinate Systems/Europe/Germany", \
    "RD 83 GK zone 5"
 
-PE_PCS_GGRS87_TM87_KASTELLORIZO, \
-   "Projected Coordinate Systems/Europe/Greece", \
-   "GGRS87 TM87 (Kastellorizo)"
-
-PE_PCS_GGRS_1987_GREEK_GRID, \
-   "Projected Coordinate Systems/Europe/Greece", \
-   "Greek Grid"
-
 PE_PCS_HTRS07_TM07, \
    "Projected Coordinate Systems/Europe/Greece", \
-   "HTRS07 TM07"
+   "ETRS89-GRC [HTRS07] TM07"
 
 PE_PCS_HTRS07_TM07_KASTELLORIZO, \
    "Projected Coordinate Systems/Europe/Greece", \
-   "HTRS07 TM07 (Kastellorizo)"
+   "ETRS89-GRC [HTRS07] TM07 (Kastellorizo)"
+
+PE_PCS_GGRS_1987_GREEK_GRID, \
+   "Projected Coordinate Systems/Europe/Greece", \
+   "GGRS87 TM87"
+
+PE_PCS_GGRS87_TM87_KASTELLORIZO, \
+   "Projected Coordinate Systems/Europe/Greece", \
+   "GGRS87 TM87 (Kastellorizo)"
 
 PE_PCS_HJORSEY_1955_UTM_26N, \
    "Projected Coordinate Systems/Europe/Iceland", \
@@ -8758,11 +8762,11 @@ PE_PCS_ED_1950_TM_0_N, \
 
 PE_PCS_IRENET95_IRISH_TM, \
    "Projected Coordinate Systems/Europe/Ireland and United Kingdom", \
-   "IRENET95 Irish Tranverse Mercator"
+   "ETRS89-IRE [ETRF2000] Irish Tranverse Mercator"
 
 PE_PCS_IRENET95_UTM_29N, \
    "Projected Coordinate Systems/Europe/Ireland and United Kingdom", \
-   "IRENET95 UTM zone 29N"
+   "ETRS89-IRE [ETRF2000] UTM zone 29N"
 
 PE_PCS_TM65_IRISH_GRID, \
    "Projected Coordinate Systems/Europe/Ireland and United Kingdom", \
@@ -8771,6 +8775,10 @@ PE_PCS_TM65_IRISH_GRID, \
 PE_PCS_LONDON_SURVEY_GRID, \
    "Projected Coordinate Systems/Europe/Ireland and United Kingdom", \
    "London Survey Grid"
+
+PE_PCS_OSGB36_HEATHROW_AIRPORT_GIS_GRID_2026, \
+   "Projected Coordinate Systems/Europe/Ireland and United Kingdom", \
+   "OSGB36 Heathrow Airport GIS Grid 2026"
 
 PE_PCS_OSNI_1952_IRISH_NATIONAL_GRID, \
    "Projected Coordinate Systems/Europe/Ireland and United Kingdom", \
@@ -8799,6 +8807,10 @@ PE_PCS_CWS13_GRID, \
 PE_PCS_DIBA15_GRID, \
    "Projected Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "DIBA15 Grid"
+
+PE_PCS_DART26_GRID, \
+   "Projected Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
+   "Dart+26 Grid"
 
 PE_PCS_DOPW22_GRID, \
    "Projected Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
@@ -8895,6 +8907,10 @@ PE_PCS_SMITB20_GRID, \
 PE_PCS_SYC20_GRID, \
    "Projected Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "SYC20 Grid"
+
+PE_PCS_SZCTW_GRID, \
+   "Projected Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
+   "SZCTW Grid"
 
 PE_PCS_SHAB07_GRID, \
    "Projected Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
@@ -9322,15 +9338,55 @@ PE_PCS_OSGB_1936_NATIONAL_HIGHWAYS_C19H2, \
 
 PE_PCS_IGM_1995_UTM_32N, \
    "Projected Coordinate Systems/Europe/Italy", \
-   "IGM 1995 UTM zone 32N"
+   "ETRS89-ITA [IGM95] UTM zone 32N"
 
 PE_PCS_IGM_1995_UTM_33N, \
    "Projected Coordinate Systems/Europe/Italy", \
-   "IGM 1995 UTM zone 33N"
+   "ETRS89-ITA [IGM95] UTM zone 33N"
 
 PE_PCS_IGM95_UTM_34N, \
    "Projected Coordinate Systems/Europe/Italy", \
-   "IGM 1995 UTM zone 34N"
+   "ETRS89-ITA [IGM95] UTM zone 34N"
+
+PE_PCS_RDN2008_ITALY_EN, \
+   "Projected Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008] Italy zone (E-N)"
+
+PE_PCS_RDN2008_ITALY_ZONE, \
+   "Projected Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008] Italy zone (N-E)"
+
+PE_PCS_RDN2008_TM32, \
+   "Projected Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008] TM32"
+
+PE_PCS_RDN2008_TM33, \
+   "Projected Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008] TM33"
+
+PE_PCS_RDN2008_TM34, \
+   "Projected Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008] TM34"
+
+PE_PCS_RDN2008_UTM_32N, \
+   "Projected Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008] UTM zone 32N"
+
+PE_PCS_RDN2008_UTM_33N, \
+   "Projected Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008] UTM zone 33N"
+
+PE_PCS_RDN2008_UTM_34N, \
+   "Projected Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008] UTM zone 34N"
+
+PE_PCS_RDN2008_ITALY_12_EN, \
+   "Projected Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008] zone 12 (E-N)"
+
+PE_PCS_RDN2008_ZONE_12, \
+   "Projected Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008] zone 12 (N-E)"
 
 PE_PCS_MONTE_MARIO_ITALY_1, \
    "Projected Coordinate Systems/Europe/Italy", \
@@ -9344,46 +9400,6 @@ PE_PCS_MONTE_MARIO_TM_ER, \
    "Projected Coordinate Systems/Europe/Italy", \
    "Monte Mario TM Emilia-Romagna"
 
-PE_PCS_RDN2008_ITALY_ZONE, \
-   "Projected Coordinate Systems/Europe/Italy", \
-   "RDN2008 Italy zone"
-
-PE_PCS_RDN2008_ITALY_EN, \
-   "Projected Coordinate Systems/Europe/Italy", \
-   "RDN2008 Italy zone (E-N)"
-
-PE_PCS_RDN2008_ITALY_12_EN, \
-   "Projected Coordinate Systems/Europe/Italy", \
-   "RDN2008 Italy zone 12 (E-N)"
-
-PE_PCS_RDN2008_TM32, \
-   "Projected Coordinate Systems/Europe/Italy", \
-   "RDN2008 TM32"
-
-PE_PCS_RDN2008_TM33, \
-   "Projected Coordinate Systems/Europe/Italy", \
-   "RDN2008 TM33"
-
-PE_PCS_RDN2008_TM34, \
-   "Projected Coordinate Systems/Europe/Italy", \
-   "RDN2008 TM34"
-
-PE_PCS_RDN2008_UTM_32N, \
-   "Projected Coordinate Systems/Europe/Italy", \
-   "RDN2008 UTM zone 32N"
-
-PE_PCS_RDN2008_UTM_33N, \
-   "Projected Coordinate Systems/Europe/Italy", \
-   "RDN2008 UTM zone 33N"
-
-PE_PCS_RDN2008_UTM_34N, \
-   "Projected Coordinate Systems/Europe/Italy", \
-   "RDN2008 UTM zone 34N"
-
-PE_PCS_RDN2008_ZONE_12, \
-   "Projected Coordinate Systems/Europe/Italy", \
-   "RDN2008 zone 12"
-
 PE_PCS_ROMA_1940_GAUSS_BOAGA_EST, \
    "Projected Coordinate Systems/Europe/Italy", \
    "Roma 1940 Gauss Boaga Est"
@@ -9394,107 +9410,171 @@ PE_PCS_ROMA_1940_GAUSS_BOAGA_OVEST, \
 
 PE_PCS_ETRS_1989_NTM_10, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 10"
+   "ETRS89-NOR [EUREF89] NTM zone 10"
 
 PE_PCS_ETRS_1989_NTM_11, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 11"
+   "ETRS89-NOR [EUREF89] NTM zone 11"
 
 PE_PCS_ETRS_1989_NTM_12, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 12"
+   "ETRS89-NOR [EUREF89] NTM zone 12"
 
 PE_PCS_ETRS_1989_NTM_13, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 13"
+   "ETRS89-NOR [EUREF89] NTM zone 13"
 
 PE_PCS_ETRS_1989_NTM_14, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 14"
+   "ETRS89-NOR [EUREF89] NTM zone 14"
 
 PE_PCS_ETRS_1989_NTM_15, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 15"
+   "ETRS89-NOR [EUREF89] NTM zone 15"
 
 PE_PCS_ETRS_1989_NTM_16, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 16"
+   "ETRS89-NOR [EUREF89] NTM zone 16"
 
 PE_PCS_ETRS_1989_NTM_17, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 17"
+   "ETRS89-NOR [EUREF89] NTM zone 17"
 
 PE_PCS_ETRS_1989_NTM_18, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 18"
+   "ETRS89-NOR [EUREF89] NTM zone 18"
 
 PE_PCS_ETRS_1989_NTM_19, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 19"
+   "ETRS89-NOR [EUREF89] NTM zone 19"
 
 PE_PCS_ETRS_1989_NTM_20, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 20"
+   "ETRS89-NOR [EUREF89] NTM zone 20"
 
 PE_PCS_ETRS_1989_NTM_21, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 21"
+   "ETRS89-NOR [EUREF89] NTM zone 21"
 
 PE_PCS_ETRS_1989_NTM_22, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 22"
+   "ETRS89-NOR [EUREF89] NTM zone 22"
 
 PE_PCS_ETRS_1989_NTM_23, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 23"
+   "ETRS89-NOR [EUREF89] NTM zone 23"
 
 PE_PCS_ETRS_1989_NTM_24, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 24"
+   "ETRS89-NOR [EUREF89] NTM zone 24"
 
 PE_PCS_ETRS_1989_NTM_25, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 25"
+   "ETRS89-NOR [EUREF89] NTM zone 25"
 
 PE_PCS_ETRS_1989_NTM_26, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 26"
+   "ETRS89-NOR [EUREF89] NTM zone 26"
 
 PE_PCS_ETRS_1989_NTM_27, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 27"
+   "ETRS89-NOR [EUREF89] NTM zone 27"
 
 PE_PCS_ETRS_1989_NTM_28, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 28"
+   "ETRS89-NOR [EUREF89] NTM zone 28"
 
 PE_PCS_ETRS_1989_NTM_29, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 29"
+   "ETRS89-NOR [EUREF89] NTM zone 29"
 
 PE_PCS_ETRS_1989_NTM_30, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 30"
+   "ETRS89-NOR [EUREF89] NTM zone 30"
 
 PE_PCS_ETRS_1989_NTM_5, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 5"
+   "ETRS89-NOR [EUREF89] NTM zone 5"
 
 PE_PCS_ETRS_1989_NTM_6, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 6"
+   "ETRS89-NOR [EUREF89] NTM zone 6"
 
 PE_PCS_ETRS_1989_NTM_7, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 7"
+   "ETRS89-NOR [EUREF89] NTM zone 7"
 
 PE_PCS_ETRS_1989_NTM_8, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 8"
+   "ETRS89-NOR [EUREF89] NTM zone 8"
 
 PE_PCS_ETRS_1989_NTM_9, \
    "Projected Coordinate Systems/Europe/Norway", \
-   "ETRS 1989 NTM zone 9"
+   "ETRS89-NOR [EUREF89] NTM zone 9"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_30N, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 30N"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_30N_NE, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 30N (N-E)"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_31N, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 31N"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_31N_NE, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 31N (N-E)"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_32N, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 32N"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_32N_NE, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 32N (N-E)"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_33N, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 33N"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_33N_NE, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 33N (N-E)"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_34N, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 34N"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_34N_NE, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 34N (N-E)"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_35N, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 35N"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_35N_NE, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 35N (N-E)"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_36N, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 36N"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_36N_NE, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 36N (N-E)"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_37N, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 37N"
+
+PE_PCS_ETRS89_NOR_EUREF89_UTM_ZONE_37N_NE, \
+   "Projected Coordinate Systems/Europe/Norway", \
+   "ETRS89-NOR [EUREF89] UTM zone 37N (N-E)"
 
 PE_PCS_HELLE_1954_JAN_MAYEN_GRID, \
    "Projected Coordinate Systems/Europe/Norway", \
@@ -9604,25 +9684,9 @@ PE_PCS_NGO_1948_OSLO_KOMMUNE, \
    "Projected Coordinate Systems/Europe/Norway/Greenwich-based", \
    "NGO 1948 Oslo Kommune"
 
-PE_PCS_ETRS_1989_POLAND_CS2000_5, \
-   "Projected Coordinate Systems/Europe/Poland", \
-   "ETRF2000-PL CS2000 15 zone 5"
-
-PE_PCS_ETRS_1989_POLAND_CS2000_6, \
-   "Projected Coordinate Systems/Europe/Poland", \
-   "ETRF2000-PL CS2000 18 zone 6"
-
-PE_PCS_ETRS_1989_POLAND_CS2000_7, \
-   "Projected Coordinate Systems/Europe/Poland", \
-   "ETRF2000-PL CS2000 21 zone 7"
-
-PE_PCS_ETRS_1989_POLAND_CS2000_8, \
-   "Projected Coordinate Systems/Europe/Poland", \
-   "ETRF2000-PL CS2000 24 zone 8"
-
 PE_PCS_ETRS_1989_POLAND_CS92, \
    "Projected Coordinate Systems/Europe/Poland", \
-   "ETRF2000-PL CS92"
+   "ETRS 1989 PL-1992"
 
 PE_PCS_ETRS_1989_UWPP_1992, \
    "Projected Coordinate Systems/Europe/Poland", \
@@ -9643,6 +9707,22 @@ PE_PCS_ETRS_1989_UWPP_2000_PAS_7, \
 PE_PCS_ETRS_1989_UWPP_2000_PAS_8, \
    "Projected Coordinate Systems/Europe/Poland", \
    "ETRS 1989 UWPP 2000 zone 8"
+
+PE_PCS_ETRS_1989_POLAND_CS2000_5, \
+   "Projected Coordinate Systems/Europe/Poland", \
+   "ETRS89-POL [PL-ETRF2000] CS2000 15 zone 5"
+
+PE_PCS_ETRS_1989_POLAND_CS2000_6, \
+   "Projected Coordinate Systems/Europe/Poland", \
+   "ETRS89-POL [PL-ETRF2000] CS2000 18 zone 6"
+
+PE_PCS_ETRS_1989_POLAND_CS2000_7, \
+   "Projected Coordinate Systems/Europe/Poland", \
+   "ETRS89-POL [PL-ETRF2000] CS2000 21 zone 7"
+
+PE_PCS_ETRS_1989_POLAND_CS2000_8, \
+   "Projected Coordinate Systems/Europe/Poland", \
+   "ETRS89-POL [PL-ETRF2000] CS2000 24 zone 8"
 
 PE_PCS_PULKOVO_1942_ADJ_1958_POLAND_ZONE_I, \
    "Projected Coordinate Systems/Europe/Poland", \
@@ -9706,7 +9786,7 @@ PE_PCS_DATUM_73_UTM_ZONE_29N, \
 
 PE_PCS_ETRS_1989_PT_TM06, \
    "Projected Coordinate Systems/Europe/Portugal", \
-   "ETRS 1989 Portugal TM06"
+   "ETRS89-PRT [1995] Portugal TM06"
 
 PE_PCS_LISBOA_BESSEL_BONNE, \
    "Projected Coordinate Systems/Europe/Portugal", \
@@ -9756,6 +9836,14 @@ PE_PCS_ETRS_1989_SLOVENIA_TM, \
    "Projected Coordinate Systems/Europe/Slovenia", \
    "ETRS 1989 Slovenia TM"
 
+PE_PCS_SLOVENIA_1996_SLOVENE_NATIONAL_GRID, \
+   "Projected Coordinate Systems/Europe/Slovenia", \
+   "ETRS89-SVN [D96] Slovene National Grid"
+
+PE_PCS_SLOVENIA_1996_UTM_33N, \
+   "Projected Coordinate Systems/Europe/Slovenia", \
+   "ETRS89-SVN [D96] UTM zone 33N"
+
 PE_PCS_MGI_1901_SLOVENE_NATIONAL_GRID, \
    "Projected Coordinate Systems/Europe/Slovenia", \
    "MGI 1901 Slovene National Grid"
@@ -9768,13 +9856,121 @@ PE_PCS_MGI_SLOVENIA_GRID, \
    "Projected Coordinate Systems/Europe/Slovenia", \
    "MGI Slovenia Grid"
 
-PE_PCS_SLOVENIA_1996_SLOVENE_NATIONAL_GRID, \
-   "Projected Coordinate Systems/Europe/Slovenia", \
-   "Slovenia 1996 Slovene National Grid"
+PE_PCS_ETRS89_ESP_REGENTE_UTM_ZONE_28N, \
+   "Projected Coordinate Systems/Europe/Spain", \
+   "ETRS89-ESP [REGENTE] UTM zone 28N"
 
-PE_PCS_SLOVENIA_1996_UTM_33N, \
-   "Projected Coordinate Systems/Europe/Slovenia", \
-   "Slovenia 1996 UTM zone 33N"
+PE_PCS_ETRS89_ESP_REGENTE_UTM_ZONE_28N_NE, \
+   "Projected Coordinate Systems/Europe/Spain", \
+   "ETRS89-ESP [REGENTE] UTM zone 28N (N-E)"
+
+PE_PCS_ETRS89_ESP_REGENTE_UTM_ZONE_29N, \
+   "Projected Coordinate Systems/Europe/Spain", \
+   "ETRS89-ESP [REGENTE] UTM zone 29N"
+
+PE_PCS_ETRS89_ESP_REGENTE_UTM_ZONE_29N_NE, \
+   "Projected Coordinate Systems/Europe/Spain", \
+   "ETRS89-ESP [REGENTE] UTM zone 29N (N-E)"
+
+PE_PCS_ETRS89_ESP_REGENTE_UTM_ZONE_30N, \
+   "Projected Coordinate Systems/Europe/Spain", \
+   "ETRS89-ESP [REGENTE] UTM zone 30N"
+
+PE_PCS_ETRS89_ESP_REGENTE_UTM_ZONE_30N_NE, \
+   "Projected Coordinate Systems/Europe/Spain", \
+   "ETRS89-ESP [REGENTE] UTM zone 30N (N-E)"
+
+PE_PCS_ETRS89_ESP_REGENTE_UTM_ZONE_31N, \
+   "Projected Coordinate Systems/Europe/Spain", \
+   "ETRS89-ESP [REGENTE] UTM zone 31N"
+
+PE_PCS_ETRS89_ESP_REGENTE_UTM_ZONE_31N_NE, \
+   "Projected Coordinate Systems/Europe/Spain", \
+   "ETRS89-ESP [REGENTE] UTM zone 31N (N-E)"
+
+PE_PCS_MADRID_1870_MADRID_SPAIN, \
+   "Projected Coordinate Systems/Europe/Spain", \
+   "Madrid 1870 Madrid Spain"
+
+PE_PCS_SWEREF99_12_00, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 12 00]"
+
+PE_PCS_SWEREF99_13_30, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 13 30]"
+
+PE_PCS_SWEREF99_14_15, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 14 15]"
+
+PE_PCS_SWEREF99_15_00, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 15 00]"
+
+PE_PCS_SWEREF99_15_45, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 15 45]"
+
+PE_PCS_SWEREF99_16_30, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 16 30]"
+
+PE_PCS_SWEREF99_17_15, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 17 15]"
+
+PE_PCS_SWEREF99_18_00, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 18 00]"
+
+PE_PCS_SWEREF99_18_45, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 18 45]"
+
+PE_PCS_SWEREF99_20_15, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 20 15]"
+
+PE_PCS_SWEREF99_21_45, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 21 45]"
+
+PE_PCS_SWEREF99_23_15, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 23 15]"
+
+PE_PCS_SWEREF99_TM, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99 TM]"
+
+PE_PCS_SWEREF99_RT90_0_GON_EMULATION, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99] 0 gon emulation"
+
+PE_PCS_SWEREF99_RT90_2_5_GON_O_EMULATION, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99] 2.5 gon O emulation"
+
+PE_PCS_SWEREF99_RT90_2_5_GON_V_EMULATION, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99] 2.5 gon V emulation"
+
+PE_PCS_SWEREF99_RT90_5_GON_O_EMULATION, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99] 5 gon O emulation"
+
+PE_PCS_SWEREF99_RT90_5_GON_V_EMULATION, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99] 5 gon V emulation"
+
+PE_PCS_SWEREF99_RT90_7_5_GON_V_EMULATION, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99] 7.5 gon V emulation"
+
+PE_PCS_SWEREF99_COUNTY_ST74, \
+   "Projected Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99] County ST74"
 
 PE_PCS_RT38_0_GON, \
    "Projected Coordinate Systems/Europe/Sweden", \
@@ -9823,86 +10019,6 @@ PE_PCS_RT90_5_GON_V, \
 PE_PCS_RT90_75_GON_V, \
    "Projected Coordinate Systems/Europe/Sweden", \
    "RT90 75 gon V"
-
-PE_PCS_SWEREF99_RT90_0_GON_EMULATION, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 0 gon emulation"
-
-PE_PCS_SWEREF99_12_00, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 12 00"
-
-PE_PCS_SWEREF99_13_30, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 13 30"
-
-PE_PCS_SWEREF99_14_15, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 14 15"
-
-PE_PCS_SWEREF99_15_00, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 15 00"
-
-PE_PCS_SWEREF99_15_45, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 15 45"
-
-PE_PCS_SWEREF99_16_30, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 16 30"
-
-PE_PCS_SWEREF99_17_15, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 17 15"
-
-PE_PCS_SWEREF99_18_00, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 18 00"
-
-PE_PCS_SWEREF99_18_45, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 18 45"
-
-PE_PCS_SWEREF99_RT90_2_5_GON_O_EMULATION, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 2.5 gon O emulation"
-
-PE_PCS_SWEREF99_RT90_2_5_GON_V_EMULATION, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 2.5 gon V emulation"
-
-PE_PCS_SWEREF99_20_15, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 20 15"
-
-PE_PCS_SWEREF99_21_45, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 21 45"
-
-PE_PCS_SWEREF99_23_15, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 23 15"
-
-PE_PCS_SWEREF99_RT90_5_GON_O_EMULATION, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 5 gon O emulation"
-
-PE_PCS_SWEREF99_RT90_5_GON_V_EMULATION, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 5 gon V emulation"
-
-PE_PCS_SWEREF99_RT90_7_5_GON_V_EMULATION, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 7.5 gon V emulation"
-
-PE_PCS_SWEREF99_COUNTY_ST74, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 County ST74"
-
-PE_PCS_SWEREF99_TM, \
-   "Projected Coordinate Systems/Europe/Sweden", \
-   "SWEREF99 TM"
 
 PE_PCS_BERN_1898_BERN_LV03C, \
    "Projected Coordinate Systems/Europe/Switzerland and Liechtenstein", \
@@ -11228,6 +11344,10 @@ PE_PCS_NAD_1983_STATISTICS_CANADA_LAMBERT, \
    "Projected Coordinate Systems/North America/Canada", \
    "NAD 1983 Statistics Canada Lambert"
 
+PE_PCS_NAD83_STATISTICS_CANADA_SER_ALBERS, \
+   "Projected Coordinate Systems/North America/Canada", \
+   "NAD 1983 Statistics Canada Statistical Ecosystem Register Albers"
+
 PE_PCS_NAD_1983_TERANET_ONTARIO_LAMBERT, \
    "Projected Coordinate Systems/North America/Canada", \
    "NAD 1983 Teranet Ontario Lambert"
@@ -11808,6 +11928,106 @@ PE_PCS_NAD_1983_AK_9_FT, \
    "Projected Coordinate Systems/North America/United States/Alaska", \
    "NAD 1983 StatePlane Alaska 9 FIPS 5009 (US Feet)"
 
+PE_PCS_NAD_1983_2011_AK_DOT_AK_HWY_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Alaska Highway (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_BARROW_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Barrow (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_CORDOVA_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Cordova (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_DALTON_1_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Dalton zone 1 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_DALTON_2_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Dalton zone 2 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_DALTON_3_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Dalton zone 3 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_DALTON_4_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Dalton zone 4 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_DENALI_HWY_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Denali Highway (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_FAIRBANKS_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Fairbanks (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_GALENA_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Galena (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_GLENN_1_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Glenn zone 1 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_GLENN_2_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Glenn zone 2 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_KOTZEBUE_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Kotzebue (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_NOME_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Nome (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_PARKS_1_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Parks zone 1 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_PARKS_2_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Parks zone 2 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_PARKS_3_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Parks zone 3 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_RICH_1_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Rich zone 1 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_RICH_2_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Rich zone 2 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_RICH_3_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Rich zone 3 (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_ST_LAWRENCE_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT St Lawrence Island (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_TANANA_MANLEY_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Tanana and Manley (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_TAYLOR_HWY_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Taylor Highway (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_TOK_CUTOFF_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Tok Cutoff (US Feet)"
+
+PE_PCS_NAD_1983_2011_AK_DOT_VALDEZ_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Alaska/NAD 1983 (2011) AK DOT (US Feet)", \
+   "NAD 1983 (2011) AK DOT Valdez (US Feet)"
+
 PE_PCS_NAD_1927_AZ_C, \
    "Projected Coordinate Systems/North America/United States/Arizona", \
    "NAD 1927 StatePlane Arizona Central FIPS 0202"
@@ -12179,6 +12399,10 @@ PE_PCS_NAD_1983_2011_SF_CS13_M, \
 PE_PCS_NAD_1983_2011_SF_CS13_FTUS, \
    "Projected Coordinate Systems/North America/United States/California", \
    "NAD 1983 (2011) San Francisco CS13 (US Feet)"
+
+PE_PCS_NAD83_2011_SFO_B18_FTUS, \
+   "Projected Coordinate Systems/North America/United States/California", \
+   "NAD 1983 (2011) San Francisco SFO-B19 (US Feet)"
 
 PE_PCS_NAD_1983_2011_CA_I, \
    "Projected Coordinate Systems/North America/United States/California", \
@@ -13275,6 +13499,42 @@ PE_PCS_NAD_1983_2011_ICS_TAYLORVILLE_USFT, \
 PE_PCS_NAD_1983_2011_ICS_WATSEKA_USFT, \
    "Projected Coordinate Systems/North America/United States/Illinois/NAD 1983 (2011) ICS83 (US Feet)", \
    "NAD 1983 (2011) ICS83 Watseka (US Feet)"
+
+PE_PCS_NAD832011_ICS83_BOND_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Illinois/NAD 1983 (2011) ICS83 (US Feet)", \
+   "NAD 1983 (2011) ICS83-Bond (US Feet)"
+
+PE_PCS_NAD832011_ICS83_CALHOUN_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Illinois/NAD 1983 (2011) ICS83 (US Feet)", \
+   "NAD 1983 (2011) ICS83-Calhoun (US Feet)"
+
+PE_PCS_NAD832011_ICS83_CLINTON_WASHINGTON_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Illinois/NAD 1983 (2011) ICS83 (US Feet)", \
+   "NAD 1983 (2011) ICS83-Clinton-Washington (US Feet)"
+
+PE_PCS_NAD832011_ICS83_JERSEY_GREENE_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Illinois/NAD 1983 (2011) ICS83 (US Feet)", \
+   "NAD 1983 (2011) ICS83-Jersey-Greene (US Feet)"
+
+PE_PCS_NAD832011_ICS83_MADISON_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Illinois/NAD 1983 (2011) ICS83 (US Feet)", \
+   "NAD 1983 (2011) ICS83-Madison (US Feet)"
+
+PE_PCS_NAD832011_ICS83_MARION_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Illinois/NAD 1983 (2011) ICS83 (US Feet)", \
+   "NAD 1983 (2011) ICS83-Marion (US Feet)"
+
+PE_PCS_NAD832011_ICS83_MONROE_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Illinois/NAD 1983 (2011) ICS83 (US Feet)", \
+   "NAD 1983 (2011) ICS83-Monroe (US Feet)"
+
+PE_PCS_NAD832011_ICS83_RANDOLPH_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Illinois/NAD 1983 (2011) ICS83 (US Feet)", \
+   "NAD 1983 (2011) ICS83-Randolph (US Feet)"
+
+PE_PCS_NAD832011_ICS83_ST_CLAIR_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Illinois/NAD 1983 (2011) ICS83 (US Feet)", \
+   "NAD 1983 (2011) ICS83-St Clair (US Feet)"
 
 PE_PCS_NAD_1927_IN_E, \
    "Projected Coordinate Systems/North America/United States/Indiana", \
@@ -16019,6 +16279,10 @@ PE_PCS_NAD_1983_NSRS2007_NE, \
 PE_PCS_NAD_1983_NSRS2007_NE_FT_US, \
    "Projected Coordinate Systems/North America/United States/Nebraska", \
    "NAD 1983 (NSRS2007) StatePlane Nebraska FIPS 2600 (US Feet)"
+
+PE_PCS_NAD_1983_NE_HALL_FTUS, \
+   "Projected Coordinate Systems/North America/United States/Nebraska", \
+   "NAD 1983 Nebraska - Hall County (US Feet)"
 
 PE_PCS_NAD_1983_NEBRASKA_LANCASTER_CTY_USFT, \
    "Projected Coordinate Systems/North America/United States/Nebraska", \
@@ -22308,6 +22572,10 @@ PE_PCS_SIRGAS_CHILE_2021_UTM_ZONE_12S, \
    "Projected Coordinate Systems/Oceans/Pacific Ocean", \
    "SIRGAS-Chile 2021 UTM zone 12S"
 
+PE_PCS_SIRGAS_CHILE_2025_UTM_ZONE_12S, \
+   "Projected Coordinate Systems/Oceans/Pacific Ocean", \
+   "SIRGAS-Chile 2025 UTM zone 12S"
+
 PE_PCS_TGD2005_TONGA_MAP_GRID, \
    "Projected Coordinate Systems/Oceans/Pacific Ocean", \
    "TGD2005 Tonga Map Grid"
@@ -23115,6 +23383,14 @@ PE_PCS_SIRGAS_CHILE_2021_UTM_ZONE_18S, \
 PE_PCS_SIRGAS_CHILE_2021_UTM_ZONE_19S, \
    "Projected Coordinate Systems/South America/Chile", \
    "SIRGAS-Chile 2021 UTM zone 19S"
+
+PE_PCS_SIRGAS_CHILE_2025_UTM_ZONE_18S, \
+   "Projected Coordinate Systems/South America/Chile", \
+   "SIRGAS-Chile 2025 UTM zone 18S"
+
+PE_PCS_SIRGAS_CHILE_2025_UTM_ZONE_19S, \
+   "Projected Coordinate Systems/South America/Chile", \
+   "SIRGAS-Chile 2025 UTM zone 19S"
 
 PE_PCS_SIRGAS_CHILE_UTM_18S, \
    "Projected Coordinate Systems/South America/Chile", \
