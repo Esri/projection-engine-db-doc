@@ -14,15 +14,35 @@
    FALSE, \
    "EPSG"
 
+"BGS2005", \
+   "ETRS89-BGR_[BGS2005]", \
+   FALSE, \
+   ""
+
+"BH_ETRS89", \
+   "ETRS89-BIH_[BH_ETRS89]", \
+   FALSE, \
+   ""
+
 "CGRS93", \
    "CGRS_1993", \
    FALSE, \
    "EPSG"
 
 "CHTRS95", \
-   "Swiss_TRF_1995", \
+   "ETRS89-CHE_[CHTRS95]", \
    FALSE, \
-   "EPSG"
+   ""
+
+"D96", \
+   "ETRS89-SVN_[D96]", \
+   FALSE, \
+   ""
+
+"D96-17", \
+   "ETRS89-SVN_[D96]", \
+   FALSE, \
+   ""
 
 "DGN95", \
    "DGN_1995", \
@@ -30,9 +50,19 @@
    "EPSG"
 
 "EST97", \
-   "Estonia_1997", \
+   "ETRS89-EST_[EST97]", \
    FALSE, \
-   "EPSG"
+   ""
+
+"Estonia_1997", \
+   "ETRS89-EST_[EST97]", \
+   FALSE, \
+   ""
+
+"ETRF2000-PL", \
+   "ETRS89-POL_[PL-ETRF2000]", \
+   FALSE, \
+   ""
 
 "ETRF89", \
    "ETRF_1989", \
@@ -43,6 +73,21 @@
    "ETRS_1989", \
    FALSE, \
    "EPSG"
+
+"ETRS89_DREF91_2016", \
+   "ETRS89-DEU_[ETRS89_DREF91_2016]", \
+   FALSE, \
+   ""
+
+"ETRS89-SVN [D96-17]", \
+   "ETRS89-SVN_[D96]", \
+   FALSE, \
+   ""
+
+"EUREF-FIN", \
+   "ETRS89-FIN_[EUREF-FIN]", \
+   FALSE, \
+   ""
 
 "GDA94", \
    "GDA_1994", \
@@ -64,6 +109,11 @@
    FALSE, \
    "EPSG"
 
+"HTRS96", \
+   "ETRS89-HRV_[HTRS96]", \
+   FALSE, \
+   ""
+
 "IG05/12 Intermediate CRS", \
    "IG05(2012)_Intermediate_CRS", \
    FALSE, \
@@ -74,10 +124,20 @@
    FALSE, \
    "EPSG"
 
-"IGM95", \
-   "IGM_1995", \
+"IGM_1995", \
+   "ETRS89-ITA_[IGM95]", \
    FALSE, \
-   "EPSG"
+   ""
+
+"IGM95", \
+   "ETRS89-ITA_[IGM95]", \
+   FALSE, \
+   ""
+
+"IRENET95", \
+   "ETRS89-IRE_[ETRF2000]", \
+   TRUE, \
+   ""
 
 "ISN93", \
    "ISN_1993", \
@@ -134,15 +194,35 @@
    TRUE, \
    ""
 
-"LKS-92", \
-   "LKS_1992", \
+"KOSOVAREF01", \
+   "ETRS89-XKX_[KOSOVAREF01]", \
    FALSE, \
-   "EPSG"
+   ""
+
+"LKS_1992", \
+   "ETRS89-LVA_[LKS-92]", \
+   FALSE, \
+   ""
+
+"LKS_1994", \
+   "ETRS89-LTU_[LKS94]", \
+   FALSE, \
+   ""
+
+"LKS-2020", \
+   "ETRS89-LVA_[LKS-2020]", \
+   FALSE, \
+   ""
+
+"LKS-92", \
+   "ETRS89-LVA_[LKS-92]", \
+   FALSE, \
+   ""
 
 "LKS94", \
-   "LKS_1994", \
+   "ETRS89-LTU_[LKS94]", \
    FALSE, \
-   "EPSG"
+   ""
 
 "MAGNA-SIRGAS", \
    "MAGNA", \
@@ -153,6 +233,11 @@
    "Mexican_Datum_of_1993", \
    FALSE, \
    "EPSG"
+
+"MOLDREF99", \
+   "ETRS89-MDA_[MOLDREF99]", \
+   FALSE, \
+   ""
 
 "NAD83(2011)", \
    "NAD_1983_2011", \
@@ -229,10 +314,30 @@
    FALSE, \
    "EPSG"
 
-"RGF93 v1", \
-   "RGF_1993", \
+"RDN2008", \
+   "ETRS89-ITA_[RDN2008]", \
    FALSE, \
-   "EPSG"
+   ""
+
+"RGF_1993", \
+   "ETRS89-FRA_[RGF93_v1]", \
+   FALSE, \
+   ""
+
+"RGF93 v1", \
+   "ETRS89-FRA_[RGF93_v1]", \
+   FALSE, \
+   ""
+
+"RGF93_v2", \
+   "ETRS89-FRA_[RGF93_v2]", \
+   FALSE, \
+   ""
+
+"RGF93_v2b", \
+   "ETRS89-FRA_[RGF93_v2b]", \
+   FALSE, \
+   ""
 
 "RGFG95", \
    "RGFG_1995", \
@@ -263,6 +368,31 @@
    "SIRGAS", \
    FALSE, \
    "EPSG"
+
+"Slovenia_1996", \
+   "ETRS89-SVN_[D96]", \
+   FALSE, \
+   ""
+
+"SRB_ETRS89", \
+   "ETRS89-SRB_[STRS00]", \
+   FALSE, \
+   ""
+
+"SREF98", \
+   "ETRS89-SRB_[SREF98]", \
+   FALSE, \
+   ""
+
+"SWEREF99", \
+   "ETRS89-SWE_[SWEREF_99]", \
+   FALSE, \
+   ""
+
+"Swiss_TRF_1995", \
+   "ETRS89-CHE_[CHTRS95]", \
+   FALSE, \
+   ""
 
 "TWD97", \
    "TWD_1997", \

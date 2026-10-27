@@ -1682,6 +1682,105 @@ Authority   : EPSG
 Version     : 12.028(13.7.0)
 Deprecated  : no
 
+WKID        : 1450
+Latest-WKID : 1450
+Macro       : PE_VERTD_JAPANESE_GEODETIC_DATUM_2024
+Name        : Japanese_Geodetic_Datum_2024_vertical
+WKT         : VDATUM["Japanese_Geodetic_Datum_2024_vertical"]
+WKT2        : VDATUM["Japanese_Geodetic_Datum_2024_vertical"]
+Description : Japanese Geodetic Datum 2024 (vertical)
+Authority   : EPSG
+Version     : 12.055(13.8.0)
+Deprecated  : no
+
+WKID        : 1451
+Latest-WKID : 1451
+Macro       : PE_VERTD_BHUTAN_VERTICAL_DATUM_2022
+Name        : Bhutan_Vertical_Datum_2022
+WKT         : VDATUM["Bhutan_Vertical_Datum_2022"]
+WKT2        : VDATUM["Bhutan_Vertical_Datum_2022"]
+Description : Bhutan Vertical Datum 2022
+Authority   : EPSG
+Version     : 12.051(13.8.0)
+Deprecated  : no
+
+WKID        : 1454
+Latest-WKID : 1454
+Macro       : PE_VERTD_NORWAY_NORMAL_NULL_2000_2025
+Name        : Norway_Normal_Null_2000:2025
+WKT         : VDATUM["Norway_Normal_Null_2000:2025"]
+WKT2        : VDATUM["Norway_Normal_Null_2000:2025"]
+Description : Norway Normal Null 2000:2025
+Authority   : EPSG
+Version     : 12.054(13.8.0)
+Deprecated  : no
+
+WKID        : 1455
+Latest-WKID : 1455
+Macro       : PE_VERTD_NIVELLEMENT_GENERAL_DE_FUTUNA_ET_D_ALOFI_2022
+Name        : Nivellement_General_de_Futuna_et_d'Alofi_2022
+WKT         : VDATUM["Nivellement_General_de_Futuna_et_d'Alofi_2022"]
+WKT2        : VDATUM["Nivellement_General_de_Futuna_et_d'Alofi_2022"]
+Description : Nivellement General de Futuna et d'Alofi 2022
+Authority   : EPSG
+Version     : 12.054(13.8.0)
+Deprecated  : no
+
+WKID        : 1456
+Latest-WKID : 1456
+Macro       : PE_VERTD_GREENLAND_MEAN_SEA_LEVEL_2025
+Name        : Greenland_Mean_Sea_Level_(2025)
+WKT         : VDATUM["Greenland_Mean_Sea_Level_(2025)"]
+WKT2        : VDATUM["Greenland_Mean_Sea_Level_(2025)"]
+Description : Greenland Mean Sea Level (2025)
+Authority   : EPSG
+Version     : 12.055(13.8.0)
+Deprecated  : no
+
+WKID        : 1457
+Latest-WKID : 1457
+Macro       : PE_VERTD_GREENLAND_LOWEST_ASTRONOMIC_TIDE_2025
+Name        : Greenland_Lowest_Astronomic_Tide_(2025)
+WKT         : VDATUM["Greenland_Lowest_Astronomic_Tide_(2025)"]
+WKT2        : VDATUM["Greenland_Lowest_Astronomic_Tide_(2025)"]
+Description : Greenland Lowest Astronomic Tide (2025)
+Authority   : EPSG
+Version     : 12.055(13.8.0)
+Deprecated  : no
+
+WKID        : 1458
+Latest-WKID : 1458
+Macro       : PE_VERTD_GREENLAND_MEAN_SEA_LEVEL
+Name        : Greenland_Mean_Sea_Level
+WKT         : VDATUM["Greenland_Mean_Sea_Level"]
+WKT2        : VDATUM["Greenland_Mean_Sea_Level"]
+Description : Greenland Mean Sea Level (ensemble)
+Authority   : EPSG
+Version     : 12.055(13.8.0)
+Deprecated  : no
+
+WKID        : 1459
+Latest-WKID : 1459
+Macro       : PE_VERTD_GREENLAND_LOWEST_ASTRONOMIC_TIDE
+Name        : Greenland_Lowest_Astronomic_Tide
+WKT         : VDATUM["Greenland_Lowest_Astronomic_Tide"]
+WKT2        : VDATUM["Greenland_Lowest_Astronomic_Tide"]
+Description : Greenland Lowest Astronomic Tide (ensemble)
+Authority   : EPSG
+Version     : 12.055(13.8.0)
+Deprecated  : no
+
+WKID        : 1464
+Latest-WKID : 1464
+Macro       : PE_VERTD_COLOMBIAN_GEODETIC_VERTICAL_DATUM_2023
+Name        : Colombian_Geodetic_Vertical_Datum_2023
+WKT         : VDATUM["Colombian_Geodetic_Vertical_Datum_2023"]
+WKT2        : VDATUM["Colombian_Geodetic_Vertical_Datum_2023"]
+Description : Colombian Geodetic Vertical Datum 2023
+Authority   : EPSG
+Version     : 12.058(13.8.0)
+Deprecated  : no
+
 WKID        : 5100
 Latest-WKID : 5100
 Macro       : PE_VERTD_MSL
@@ -3025,7 +3124,7 @@ Version     : 13.5.0
 Deprecated  : no
 
 WKID        : 105108
-Latest-WKID : 105108
+Latest-WKID : 1450
 Macro       : PE_VERTD_JAPANESE_GEODETIC_DATUM_2024
 Name        : Japanese_Geodetic_Datum_2024_vertical
 WKT         : VDATUM["Japanese_Geodetic_Datum_2024_vertical"]
@@ -3033,6 +3132,17 @@ WKT2        : VDATUM["Japanese_Geodetic_Datum_2024_vertical"]
 Description : Japanese Geodetic Datum 2024 (vertical)
 Authority   : Esri
 Version     : 13.6.0
+Deprecated  : codechange
+
+WKID        : 105109
+Latest-WKID : 105109
+Macro       : PE_VERTD_BALTIC_1950
+Name        : Baltic_1950
+WKT         : VDATUM["Baltic_1950"]
+WKT2        : VDATUM["Baltic_1950"]
+Description : Baltic 1950
+Authority   : Esri
+Version     : 13.8.0
 Deprecated  : no
 
 WKID        : 105110

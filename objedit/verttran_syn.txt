@@ -114,6 +114,76 @@
    TRUE, \
    ""
 
+"ETRS89-DEU [ETRS89/DREF91/2016] to DHHN2016 height (1)", \
+   "ETRS89_DREF91_2016_To_DHHN2016_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] to GNTRANS2016 height (1)", \
+   "ETRS89_DREF91_2016_To_GNTRANS2016_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] to N2000 height (1)", \
+   "EUREF-FIN_To_N2000_Height_FIN2005N00", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] to N2000 height (2)", \
+   "EUREF-FIN_To_N2000_Height_FIN2023N2000_2", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] to N60 height (1)", \
+   "EUREF-FIN_To_N60_Height_FIN2000", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] to NGF-IGN69 height (5)", \
+   "RGF93_v2b_To_NGF-IGN69_Height_RAF20_5", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] to NGF-IGN78 height (3)", \
+   "RGF93_v2b_To_NGF-IGN78_Height_RAC23_3", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] to NGF-IGN69 height (3)", \
+   "RGF93_v2_To_NGF-IGN69_Height_RAF18_3", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] to NGF-IGN78 height (2)", \
+   "RGF93_v2_To_NGF-IGN78_Height_RAC09_2", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-92] to Latvia 2000 height (1)", \
+   "LKS_1992_To_Latvia_2000_Height_LV14", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000] to Baltic 1986 height (1)", \
+   "ETRF2000-PL_To_Baltic_1986_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000] to PL-EVRF2007 height (1)", \
+   "ETRF2000-PL_To_EVRF2007-PL_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000] to PL-EVRF2007 height (2)", \
+   "ETRF2000-PL_To_EVRF2007-PL_Height_2", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96] to SVS2010 height (1)", \
+   "Slovenia_1996_To_SVS2010_Height_1", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 to Alicante height (1)", \
    "ETRS89_Height_To_Alicante_Height_1", \
    FALSE, \
@@ -165,9 +235,14 @@
    "EPSG"
 
 "ETRS89 to HS2-VRF height (1)", \
-   "ETRS89_To_HS2-VRF_height_HS2GM15_1", \
+   "ETRS89-GBR_[OSNet_v2009]_To_HS2-VRF_height_1", \
    FALSE, \
    "EPSG"
+
+"ETRS89_To_HS2-VRF_height_HS2GM15_1", \
+   "ETRS89-GBR_[OSNet_v2009]_To_HS2-VRF_height_1", \
+   FALSE, \
+   ""
 
 "ETRS89 to Ibiza height (1)", \
    "ETRS89_Height_To_Ibiza_Height_1", \
@@ -215,7 +290,7 @@
    ""
 
 "ETRS89 to ODN (Offshore) height (1)", \
-   "ETRS89_To_ODN_Offhore_Height_1_OSGM15", \
+   "ETRS89_To_ODN_Offshore_Height_1_OSGM15", \
    FALSE, \
    "EPSG"
 
@@ -329,6 +404,16 @@
    FALSE, \
    "EPSG"
 
+"JGD2011 (vertical) height to JGD2024 (vertical) height (1)", \
+   "JGD2011_Vertical_To_JGD2024_Vertical_hyokorevBM", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 to JGD2024 (vertical) height (1)", \
+   "JGD2024_To_JGD2024_Vertical_JPGEO2024", \
+   FALSE, \
+   "EPSG"
+
 "LAS07 height to EVRF2019 mean-tide height (1)", \
    "LAS07_Height_To_EVRF2019_Mean-Tide_Height_2", \
    FALSE, \
@@ -346,6 +431,11 @@
 
 "LN02 height to EVRF2007 height (1)", \
    "LN_1902_Height_To_EVRF_2007_Height_1", \
+   FALSE, \
+   "EPSG"
+
+"Mexico ITRF2008 to NAVD88 height (1)", \
+   "Mexico_ITRF2008_To_NAVD88_Height_GGM10", \
    FALSE, \
    "EPSG"
 
@@ -681,6 +771,11 @@
 
 "RH70 height to EVRF2000 height (1)", \
    "RH70_To_EVRS_2000_1", \
+   FALSE, \
+   "EPSG"
+
+"Saba to Saba height (1)", \
+   "Saba_to_Saba_Height", \
    FALSE, \
    "EPSG"
 

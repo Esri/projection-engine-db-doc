@@ -10,9 +10,14 @@
    "EPSG"
 
 "Amersfoort / RD New + NAP height", \
-   "Amersfoort_RD_New_and_NAP_Height", \
+   "RD_New_and_NAP_Height", \
    FALSE, \
    "EPSG"
+
+"Amersfoort_RD_New_and_NAP_Height", \
+   "RD_New_and_NAP_Height", \
+   FALSE, \
+   ""
 
 "Asse 2025 + Asse 2025 height", \
    "Asse_2025_and_Asse_2025_height", \
@@ -85,7 +90,17 @@
    "EPSG"
 
 "CR-SIRGAS / CRTM05 + DACR52 height", \
-   "CR-SIRGAS_CRTM05_and_DACR52_height", \
+   "CR-SIRGAS_epoch_2014.59_CRTM05_and_DACR52_height", \
+   FALSE, \
+   "EPSG"
+
+"CR-SIRGAS_CRTM05_and_DACR52_height", \
+   "CR-SIRGAS_epoch_2014.59_CRTM05_and_DACR52_height", \
+   FALSE, \
+   ""
+
+"CR-SIRGAS epoch 2014.59 / CRTM05 + DACR52 height", \
+   "CR-SIRGAS_epoch_2014.59_CRTM05_and_DACR52_height", \
    FALSE, \
    "EPSG"
 
@@ -99,6 +114,11 @@
    FALSE, \
    "EPSG"
 
+"Dart+26 Grid + Malin Head height", \
+   "Dart+26_Grid_and_Malin_Head_height", \
+   FALSE, \
+   "EPSG"
+
 "DIBA15 Grid + ODN height", \
    "DIBA15_Grid_and_ODN_height", \
    FALSE, \
@@ -106,6 +126,11 @@
 
 "DoPw22 Grid + ODN height", \
    "DoPw22_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"DrukRef23 + Bhutan Vertical Datum 2022 height", \
+   "DrukRef23_and_Bhutan_Vertical_Datum_2022_height", \
    FALSE, \
    "EPSG"
 
@@ -135,14 +160,369 @@
    "EPSG"
 
 "ETRF2000-PL + Baltic 1986 height", \
-   "ETRF2000-PL_and_Baltic_1986_height", \
+   "ETRS89-POL_[PL-ETRF2000]_and_Baltic_1986_height", \
    FALSE, \
    "EPSG"
 
 "ETRF2000-PL + EVRF2007-PL height", \
-   "ETRF2000-PL_and_EVRF2007-PL_height", \
+   "ETRS89-POL_[PL-ETRF2000]_and_EVRF2007-PL_height", \
    FALSE, \
    "EPSG"
+
+"ETRF2000-PL_and_Baltic_1986_height", \
+   "ETRS89-POL_[PL-ETRF2000]_and_Baltic_1986_height", \
+   FALSE, \
+   ""
+
+"ETRF2000-PL_and_EVRF2007-PL_height", \
+   "ETRS89-POL_[PL-ETRF2000]_and_EVRF2007-PL_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_and_NN2000_height", \
+   "ETRS89_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_Belgian_Lambert_2008_and_Ostend_height", \
+   "ETRS89-BEL_[BEREF2002]_Belgian_Lambert_2008_and_Ostend_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_DREF91_2016_and_DHHN2016_height", \
+   "ETRS89-DEU_[ETRS89_DREF91_2016]_and_DHHN2016_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_Faroe_TM_and_FVR09_height", \
+   "ETRS89-FRO_[2008]_Faroe_TM_and_FVR09_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_ITM_and_BI_height", \
+   "ETRS89-IRE_[ETRF2000]_ITM_and_BI_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_10_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_10_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_10_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_11_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_11_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_11_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_11_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_12_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_12_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_12_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_12_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_13_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_13_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_13_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_13_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_14_and_NN2000_height", \
+   "HETRS89-NOR_[EUREF89]_NTM_zone_14_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_14_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_14_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_15_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_15_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_15_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_15_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_16_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_16_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_16_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_16_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_17_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_17_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_17_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_17_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_18_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_18_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_18_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_18_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_19_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_19_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_19_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_19_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_20_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_20_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_20_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_20_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_21_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_21_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_21_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_21_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_22_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_22_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_22_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_22_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_23_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_23_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_23_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_23_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_24_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_24_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_24_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_24_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_25_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_25_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_25_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_25_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_26_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_26_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_26_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_26_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_27_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_27_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_27_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_27_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_28_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_28_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_28_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_28_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_29_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_29_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_29_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_29_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_30_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_30_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_30_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_30_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_31_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_31_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_32_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_32_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_33_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_33_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_34_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_34_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_35_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_35_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_36_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_36_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_5_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_5_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_5_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_5_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_6_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_6_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_6_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_6_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_7_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_7_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_7_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_7_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_8_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_8_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_8_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_8_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_9_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_9_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9_and_NN54_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_UTM_Zone_31_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_31_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_UTM_Zone_32_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_32_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_UTM_Zone_33_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_33_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_UTM_Zone_34_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_34_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_UTM_Zone_35_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_35_and_NN2000:2018_height", \
+   FALSE, \
+   ""
+
+"ETRS_1989_UTM_Zone_36_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_36_and_NN2000:2018_height", \
+   FALSE, \
+   ""
 
 "ETRS89 + Alboran height", \
    "ETRS89_and_Alboran_height", \
@@ -289,6 +669,11 @@
    FALSE, \
    "EPSG"
 
+"ETRS89 + LAT-NLD depth", \
+   "ETRS_1989_and_LAT_NL_depth", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 + LAT NL depth", \
    "ETRS_1989_and_LAT_NL_depth", \
    FALSE, \
@@ -319,6 +704,11 @@
    FALSE, \
    "EPSG"
 
+"ETRS89 + MSL-NLD depth", \
+   "ETRS_1989_and_MSL_NL_depth", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 + MSL NL depth", \
    "ETRS_1989_and_MSL_NL_depth", \
    FALSE, \
@@ -334,8 +724,13 @@
    FALSE, \
    "EPSG"
 
+"ETRS89 + NN2000:2018 height", \
+   "ETRS89_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 + NN2000 height", \
-   "ETRS_1989_and_NN2000_height", \
+   "ETRS89_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
@@ -379,8 +774,38 @@
    FALSE, \
    "EPSG"
 
+"ETRS89-AUT [2002] + EVRF2000 Austria height", \
+   "ETRS89-AUT_[2002]_and_EVRF2000_Austria_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BEL [BEREF2002] / Belgian Lambert 2008 + Ostend height", \
+   "ETRS89-BEL_[BEREF2002]_Belgian_Lambert_2008_and_Ostend_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BEL [BEREF2011] + Ostend height", \
+   "ETRS89-BEL_[BEREF2011]_and_Ostend_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BEL [BEREF2011] / Belgian Lambert 2008 + Ostend height", \
+   "ETRS89-BEL_[BEREF2011]_Belgian_Lambert_2008_and_Ostend_height", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 / Belgian Lambert 2008 + Ostend height", \
-   "ETRS_1989_Belgian_Lambert_2008_and_Ostend_height", \
+   "ETRS89-BEL_[BEREF2002]_Belgian_Lambert_2008_and_Ostend_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-CZE [2007] + Baltic 1957 height", \
+   "ETRS89-CZE_[2007]_and_Baltic_1957_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] + DHHN2016 height", \
+   "ETRS89-DEU_[ETRS89_DREF91_2016]_and_DHHN2016_height", \
    FALSE, \
    "EPSG"
 
@@ -405,17 +830,267 @@
    "EPSG"
 
 "ETRS89/DREF91/2016 + DHHN2016 height", \
-   "ETRS_1989_DREF91_2016_and_DHHN2016_height", \
+   "ETRS89-DEU_[ETRS89_DREF91_2016]_and_DHHN2016_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ESP [REGENTE] + Alboran height", \
+   "ETRS89-ESP_[REGENTE]_and_Alboran_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ESP [REGENTE] + Alicante height", \
+   "ETRS89-ESP_[REGENTE]_and_Alicante_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ESP [REGENTE] + Ceuta 2 height", \
+   "ETRS89-ESP_[REGENTE]_and_Ceuta_2_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ESP [REGENTE] + Formentera height", \
+   "ETRS89-ESP_[REGENTE]_and_Formentera_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ESP [REGENTE] + Ibiza height", \
+   "ETRS89-ESP_[REGENTE]_and_Ibiza_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ESP [REGENTE] + Mallorca height", \
+   "ETRS89-ESP_[REGENTE]_and_Mallorca_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ESP [REGENTE] + Melilla height", \
+   "ETRS89-ESP_[REGENTE]_and_Melilla_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ESP [REGENTE] + Menorca height", \
+   "ETRS89-ESP_[REGENTE]_and_Menorca_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / Faroe TM + FVR09 height", \
-   "ETRS_1989_Faroe_TM_and_FVR09_height", \
+   "ETRS89-FRO_[2008]_Faroe_TM_and_FVR09_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] + N60 height", \
+   "ETRS89-FIN_[EUREF-FIN]_and_N60_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK19FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK19FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK20FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK20FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK21FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK21FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK22FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK22FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK23FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK23FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK24FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK24FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK25FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK25FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK26FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK26FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK27FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK27FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK28FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK28FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK29FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK29FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK30FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK30FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK31FIN + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_GK31FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / TM35FIN(E,N) + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_TM35FIN(E,N)_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / TM35FIN(N,E) + N2000 height", \
+   "ETRS89-FIN_[EUREF-FIN]_TM35FIN_and_N2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / TM35FIN(N,E) + N60 height", \
+   "ETRS89-FIN_[EUREF-FIN]_TM35FIN_and_N60_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / Lambert-93 + NGF-IGN69 height", \
+   "ETRS89-FRA_[RGF93_v1]_Lambert-93_and_NGF_IGN69_Height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / Lambert-93 + NGF-IGN78 height", \
+   "ETRS89-FRA_[RGF93_v1]_Lambert-93_and_NGF_IGN78_Height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] + NGF-IGN69 height", \
+   "ETRS89-FRA_[RGF93_v2]_and_NGF-IGN69_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] + NGF-IGN78 height", \
+   "ETRS89-FRA_[RGF93_v2]_and_NGF-IGN78_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] + NGF-IGN69 height", \
+   "ETRS89-FRA_[RGF93_v2b]_and_NGF-IGN69_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] + NGF-IGN78 height", \
+   "ETRS89-FRA_[RGF93_v2b]_and_NGF-IGN78_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / Lambert-93 + NGF-IGN69 height", \
+   "ETRS89-FRA_[RGF93_v2b]_Lambert-93_and_NGF-IGN69_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / Lambert-93 + NGF-IGN78 height", \
+   "ETRS89-FRA_[RGF93_v2b]_Lambert-93_and_NGF-IGN78_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / Lambert-93 + NGF-IGN69 height", \
+   "ETRS89-FRA_[RGF93_v2]_Lambert-93_and_NGF-IGN69_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / Lambert-93 + NGF-IGN78 height", \
+   "ETRS89-FRA_[RGF93_v2]_Lambert-93_and_NGF-IGN78_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRO [2008] + FVR09 height", \
+   "ETRS89-FRO_[2008]_and_FVR09_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRO [2008] / Faroe TM + FVR09 height", \
+   "ETRS89-FRO_[2008]_Faroe_TM_and_FVR09_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GBR [OSNet v2009] + Douglas height", \
+   "ETRS89-GBR_[OSNet_v2009]_and_Douglas_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GBR [OSNet v2009] + Lerwick height", \
+   "ETRS89-GBR_[OSNet_v2009]_and_Lerwick_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GBR [OSNet v2009] + London Survey Grid height", \
+   "ETRS89-GBR_[OSNet_v2009]_and_London_Survey_Grid_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GBR [OSNet v2009] + ODN height", \
+   "ETRS89-GBR_[OSNet_v2009]_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GBR [OSNet v2009] + ODN Orkney height", \
+   "ETRS89-GBR_[OSNet_v2009]_and_ODN_Orkney_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GBR [OSNet v2009] + St. Marys height", \
+   "ETRS89-GBR_[OSNet_v2009]_and_St_Marys_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GBR [OSNet v2009] + Stornoway height", \
+   "ETRS89-GBR_[OSNet_v2009]_and_Stornoway_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-HUN [ETRF2000] + EOMA 1980 height", \
+   "ETRS89-HUN_[ETRF2000]_and_EOMA_1980_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-IRE [ETRF2000] + Belfast height", \
+   "ETRS89-IRE_[ETRF2000]_and_Belfast_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-IRE [ETRF2000] + Malin Head height", \
+   "ETRS89-IRE_[ETRF2000]_and_Malin_Head_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] + Cagliari 1956 height", \
+   "ETRS89-ITA_[RDN2008]_and_Cagliari_1956_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] + Genoa 1942 height", \
+   "ETRS89-ITA_[RDN2008]_and_Genoa_1942_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / ITM + BI height", \
-   "ETRS_1989_ITM_and_BI_height", \
+   "ETRS89-IRE_[ETRF2000]_ITM_and_BI_height", \
    FALSE, \
    "EPSG"
 
@@ -434,263 +1109,913 @@
    FALSE, \
    "EPSG"
 
+"ETRS89-LVA [LKS-2020] + Latvia 2000 height", \
+   "ETRS89-LVA_[LKS-2020]_and_Latvia_2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-92] + Latvia 2000 height", \
+   "ETRS89-LVA_[LKS-92]_and_Latvia_2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NLD [AGRS2010] + LAT-NLD depth", \
+   "ETRS89-NLD_[AGRS2010]_and_LAT-NLD_depth", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NLD [AGRS2010] + MSL-NLD depth", \
+   "ETRS89-NLD_[AGRS2010]_and_MSL-NLD_depth", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NLD [AGRS2010] + NAP height", \
+   "ETRS89-NLD_[AGRS2010]_and_NAP_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] + CD Norway depth", \
+   "ETRS89-NOR_[EUREF89]_and_CD_Norway_depth", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] + SVD2006 height", \
+   "ETRS89-NOR_[EUREF89]_and_SVD2006_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] + SVD2024 height", \
+   "ETRS89-NOR_[EUREF89]_and_SVD2024_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 10 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_10_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 10 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_10_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 10 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_10_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 11 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_11_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 11 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_11_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 11 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_11_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 12 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_12_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 12 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_12_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 12 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_12_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 13 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_13_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 13 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_13_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 13 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_13_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 14 + NN2000:2018 height", \
+   "HETRS89-NOR_[EUREF89]_NTM_zone_14_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 14 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_14_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 14 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_14_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 15 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_15_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 15 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_15_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 15 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_15_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 16 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_16_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 16 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_16_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 16 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_16_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 17 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_17_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 17 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_17_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 17 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_17_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 18 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_18_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 18 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_18_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 18 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_18_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 19 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_19_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 19 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_19_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 19 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_19_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 20 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_20_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 20 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_20_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 20 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_20_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 21 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_21_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 21 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_21_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 21 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_21_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 22 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_22_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 22 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_22_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 22 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_22_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 23 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_23_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 23 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_23_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 23 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_23_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 24 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_24_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 24 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_24_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 24 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_24_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 25 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_25_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 25 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_25_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 25 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_25_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 26 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_26_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 26 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_26_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 26 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_26_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 27 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_27_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 27 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_27_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 27 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_27_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 28 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_28_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 28 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_28_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 28 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_28_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 29 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_29_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 29 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_29_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 29 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_29_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 30 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_30_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 30 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_30_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 30 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_30_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 5 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_5_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 5 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_5_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 5 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_5_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 6 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_6_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 6 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_6_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 6 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_6_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 7 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_7_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 7 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_7_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 7 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_7_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 8 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_8_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 8 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_8_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 8 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_8_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 9 + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 9 + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / NTM zone 9 + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 31N + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_31_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 31N + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_31N_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 31N + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_31_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 32N + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_32_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 32N + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_32N_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 32N + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_32_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 33N + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_33_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 33N + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_33N_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 33N + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_33_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 34N + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_34_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 34N + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_34N_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 34N + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_34_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 35N + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_35_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 35N + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_35N_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 35N + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_35_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 36N + NN2000:2018 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_36_and_NN2000:2018_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 36N + NN2000:2025 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_36N_and_NN2000:2025_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-NOR [EUREF89] / UTM zone 36N + NN54 height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_36_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 / NTM zone 10 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_10_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 10 + NN54 height", \
-   "ETRS_1989_NTM_Zone_10_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_10_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 11 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_11_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_11_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 11 + NN54 height", \
-   "ETRS_1989_NTM_Zone_11_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_11_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 12 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_12_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_12_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 12 + NN54 height", \
-   "ETRS_1989_NTM_Zone_12_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_12_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 13 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_13_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_13_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 13 + NN54 height", \
-   "ETRS_1989_NTM_Zone_13_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_13_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 14 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_14_and_NN2000_height", \
+   "HETRS89-NOR_[EUREF89]_NTM_zone_14_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 14 + NN54 height", \
-   "ETRS_1989_NTM_Zone_14_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_14_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 15 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_15_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_15_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 15 + NN54 height", \
-   "ETRS_1989_NTM_Zone_15_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_15_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 16 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_16_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_16_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 16 + NN54 height", \
-   "ETRS_1989_NTM_Zone_16_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_16_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 17 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_17_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_17_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 17 + NN54 height", \
-   "ETRS_1989_NTM_Zone_17_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_17_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 18 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_18_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_18_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 18 + NN54 height", \
-   "ETRS_1989_NTM_Zone_18_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_18_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 19 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_19_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_19_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 19 + NN54 height", \
-   "ETRS_1989_NTM_Zone_19_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_19_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 20 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_20_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_20_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 20 + NN54 height", \
-   "ETRS_1989_NTM_Zone_20_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_20_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 21 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_21_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_21_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 21 + NN54 height", \
-   "ETRS_1989_NTM_Zone_21_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_21_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 22 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_22_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_22_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 22 + NN54 height", \
-   "ETRS_1989_NTM_Zone_22_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_22_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 23 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_23_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_23_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 23 + NN54 height", \
-   "ETRS_1989_NTM_Zone_23_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_23_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 24 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_24_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_24_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 24 + NN54 height", \
-   "ETRS_1989_NTM_Zone_24_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_24_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 25 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_25_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_25_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 25 + NN54 height", \
-   "ETRS_1989_NTM_Zone_25_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_25_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 26 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_26_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_26_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 26 + NN54 height", \
-   "ETRS_1989_NTM_Zone_26_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_26_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 27 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_27_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_27_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 27 + NN54 height", \
-   "ETRS_1989_NTM_Zone_27_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_27_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 28 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_28_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_28_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 28 + NN54 height", \
-   "ETRS_1989_NTM_Zone_28_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_28_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 29 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_29_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_29_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 29 + NN54 height", \
-   "ETRS_1989_NTM_Zone_29_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_29_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 30 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_30_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_30_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 30 + NN54 height", \
-   "ETRS_1989_NTM_Zone_30_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_30_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 5 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_5_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_5_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 5 + NN54 height", \
-   "ETRS_1989_NTM_Zone_5_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_5_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 6 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_6_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_6_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 6 + NN54 height", \
-   "ETRS_1989_NTM_Zone_6_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_6_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 7 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_7_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_7_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 7 + NN54 height", \
-   "ETRS_1989_NTM_Zone_7_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_7_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 8 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_8_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_8_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 8 + NN54 height", \
-   "ETRS_1989_NTM_Zone_8_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_8_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 9 + NN2000 height", \
-   "ETRS_1989_NTM_Zone_9_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 9 + NN54 height", \
-   "ETRS_1989_NTM_Zone_9_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9_and_NN54_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000] + Baltic 1986 height", \
+   "ETRS89-POL_[PL-ETRF2000]_and_Baltic_1986_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000] + PL-EVRF2007 height", \
+   "ETRS89-POL_[PL-ETRF2000]_and_EVRF2007-PL_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-PRT [1995] + Cascais height", \
+   "ETRS89-PRT_[1995]_and_Cascais_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVK [SKTRF09] + Baltic 1957 height", \
+   "ETRS89-SVK_[SKTRF09]_and_Baltic_1957_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVK [SKTRF09] + EVRF2007 height", \
+   "ETRS89-SVK_[SKTRF09]_and_EVRF2007_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96] + SVS2000 height", \
+   "ETRS89-SVN_[D96]_and_SVS2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96] + SVS2010 height", \
+   "ETRS89-SVN_[D96]_and_SVS2010_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96] / Slovene National Grid + SVS2000 height", \
+   "ETRS89-SVN_[D96]_Slovene_National_Grid_and_SVS2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96] / Slovene National Grid + SVS2010 height", \
+   "ETRS89-SVN_[D96]_Slovene_National_Grid_and_SVS2010_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 12 00] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_12_00]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 13 30] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_13_30]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 14 15] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_14_15]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 15 00] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_15_00]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 15 45] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_15_45]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 16 30] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_16_30]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 17 15] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_17_15]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 18 00] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_18_00]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 18 45] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_18_45]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 20 15] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_20_15]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 21 45] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_21_45]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 23 15] + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99_23_15]_and_RH2000_height", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99] TM + RH2000 height", \
+   "ETRS89-SWE_[SWEREF_99]_TM_and_RH2000_height", \
    FALSE, \
    "EPSG"
 
@@ -700,12 +2025,12 @@
    "EPSG"
 
 "ETRS89 / UTM zone 31N + NN2000 height", \
-   "ETRS_1989_UTM_Zone_31_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_31_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / UTM zone 31N + NN54 height", \
-   "ETRS_1989_NTM_Zone_31_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_31_and_NN54_height", \
    FALSE, \
    "EPSG"
 
@@ -720,12 +2045,12 @@
    "EPSG"
 
 "ETRS89 / UTM zone 32N + NN2000 height", \
-   "ETRS_1989_UTM_Zone_32_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_32_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / UTM zone 32N + NN54 height", \
-   "ETRS_1989_NTM_Zone_32_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_32_and_NN54_height", \
    FALSE, \
    "EPSG"
 
@@ -740,67 +2065,92 @@
    "EPSG"
 
 "ETRS89 / UTM zone 33N + NN2000 height", \
-   "ETRS_1989_UTM_Zone_33_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_33_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / UTM zone 33N + NN54 height", \
-   "ETRS_1989_NTM_Zone_33_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_33_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / UTM zone 34N + NN2000 height", \
-   "ETRS_1989_UTM_Zone_34_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_34_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / UTM zone 34N + NN54 height", \
-   "ETRS_1989_NTM_Zone_34_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_34_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / UTM zone 35N + NN2000 height", \
-   "ETRS_1989_UTM_Zone_35_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_35_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / UTM zone 35N + NN54 height", \
-   "ETRS_1989_NTM_Zone_35_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_35_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / UTM zone 36N + NN2000 height", \
-   "ETRS_1989_UTM_Zone_36_and_NN2000_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_36_and_NN2000:2018_height", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / UTM zone 36N + NN54 height", \
-   "ETRS_1989_NTM_Zone_36_and_NN54_height", \
+   "ETRS89-NOR_[EUREF89]_UTM_zone_36_and_NN54_height", \
    FALSE, \
    "EPSG"
 
 "EUREF-FIN + N2000 height", \
-   "EUREF-FIN_and_N2000_height", \
+   "ETRS89-FIN_[EUREF-FIN]_and_N2000_height", \
    FALSE, \
    "EPSG"
 
 "EUREF-FIN + N60 height", \
-   "EUREF-FIN_and_N60_height", \
+   "ETRS89-FIN_[EUREF-FIN]_and_N60_height", \
    FALSE, \
    "EPSG"
+
+"EUREF-FIN_and_N2000_height", \
+   "ETRS89-FIN_[EUREF-FIN]_and_N2000_height", \
+   FALSE, \
+   ""
+
+"EUREF-FIN_and_N60_height", \
+   "ETRS89-FIN_[EUREF-FIN]_and_N60_height", \
+   FALSE, \
+   ""
+
+"EUREF-FIN_TM35FIN_and_N2000_height", \
+   "ETRS89-FIN_[EUREF-FIN]_TM35FIN_and_N60_height", \
+   FALSE, \
+   ""
+
+"EUREF-FIN_TM35FIN_and_N60_height", \
+   "ETRS89-FIN_[EUREF-FIN]_TM35FIN_and_N2000_height", \
+   FALSE, \
+   ""
 
 "EUREF-FIN / TM35FIN(E,N) + N2000 height", \
-   "EUREF-FIN_TM35FIN(E,N)_and_N2000_height", \
+   "ETRS89-FIN_[EUREF-FIN]_TM35FIN(E,N)_and_N2000_height", \
    FALSE, \
    "EPSG"
 
+"EUREF-FIN_TM35FIN(E,N)_and_N2000_height", \
+   "ETRS89-FIN_[EUREF-FIN]_TM35FIN(E,N)_and_N2000_height", \
+   FALSE, \
+   ""
+
 "EUREF-FIN / TM35FIN(N,E) + N2000 height", \
-   "EUREF-FIN_TM35FIN_and_N2000_height", \
+   "ETRS89-FIN_[EUREF-FIN]_TM35FIN_and_N60_height", \
    FALSE, \
    "EPSG"
 
 "EUREF-FIN / TM35FIN(N,E) + N60 height", \
-   "EUREF-FIN_TM35FIN_and_N60_height", \
+   "ETRS89-FIN_[EUREF-FIN]_TM35FIN_and_N2000_height", \
    FALSE, \
    "EPSG"
 
@@ -869,8 +2219,18 @@
    FALSE, \
    "EPSG"
 
+"GR96 + GLLAT(2025) depth", \
+   "GR96_and_GLLAT(2025)_depth", \
+   FALSE, \
+   "EPSG"
+
 "GR96 + GLMSL(2023) depth", \
    "GR96_and_GLMSL(2023)_depth", \
+   FALSE, \
+   "EPSG"
+
+"GR96 + GLMSL(2025) depth", \
+   "GR96_and_GLMSL(2025)_depth", \
    FALSE, \
    "EPSG"
 
@@ -914,6 +2274,11 @@
    FALSE, \
    "EPSG"
 
+"HVC_Amersfoort_RD_New_and_NAP_Height", \
+   "RD_New_and_NAP_Height", \
+   FALSE, \
+   ""
+
 "ISN2004 + ISH2004 height", \
    "ISN2004_and_ISH2004_height", \
    FALSE, \
@@ -955,72 +2320,242 @@
    "EPSG"
 
 "JGD2011 + JGD2011 (vertical) height", \
-   "JGD2011_and_JGD2011_vertical_height", \
+   "HVC_JGD2011_and_JGD2011_vertical_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS I + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_I_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS II + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_II_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS III + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_III_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS IV + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_IV_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS IX + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_IX_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS V + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_V_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS VI + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_VI_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS VII + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_VII_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS VIII + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_VIII_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS X + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_X_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XI + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_XI_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XII + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_XII_and_JGD2011_(vertical)_height", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XIII + JGD2011 (vertical) height", \
    "JGD2011_Japan_Plane_Rectangular_CS_XIII_and_JGD2011_(vertical)_height", \
+   FALSE, \
+   ""
+
+"JGD2024 + JGD2011 (vertical) height", \
+   "JGD2024_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 + JGD2024 (vertical) height", \
+   "JGD2024_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS I + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_I_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS I + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_I_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS II + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_II_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS II + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_II_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS III + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_III_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS III + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_III_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS IV + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_IV_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS IV + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_IV_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS IX + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_IX_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS IX + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_IX_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS V + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_V_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS V + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_V_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS VI + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_VI_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS VI + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_VI_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS VII + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_VII_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS VII + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_VII_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS VIII + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_VIII_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS VIII + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_VIII_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS X + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_X_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS X + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_X_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XI + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XI_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XI + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XI_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XII + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XII_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XII + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XII_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XIII + JGD2011 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XIII_and_JGD2011_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XIII + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XIII_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XIV + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XIV_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XIX + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XIX_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XV + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XV_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XVI + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XVI_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XVII + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XVII_and_JGD2024_vertical_height", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XVIII + JGD2024 (vertical) height", \
+   "JGD2024_Japan_Plane_Rectangular_CS_XVIII_and_JGD2024_vertical_height", \
    FALSE, \
    "EPSG"
 
@@ -1040,22 +2575,42 @@
    "EPSG"
 
 "LKS-2020 + Latvia 2000 height", \
-   "LKS-2020_and_Latvia_2000_height", \
+   "ETRS89-LVA_[LKS-2020]_and_Latvia_2000_height", \
    FALSE, \
    "EPSG"
 
+"LKS-2020_and_Latvia_2000_height", \
+   "ETRS89-LVA_[LKS-2020]_and_Latvia_2000_height", \
+   FALSE, \
+   ""
+
 "LKS-92 + Latvia 2000 height", \
-   "LKS-92_and_Latvia_2000_height", \
+   "ETRS89-LVA_[LKS-92]_and_Latvia_2000_height", \
    FALSE, \
    "EPSG"
+
+"LKS-92_and_Latvia_2000_height", \
+   "ETRS89-LVA_[LKS-92]_and_Latvia_2000_height", \
+   FALSE, \
+   ""
 
 "LUREF / Luxembourg TM + NG95 height", \
    "LUREF_Luxembourg_TM_and_NG95", \
    FALSE, \
    "EPSG"
 
+"MAGNA-SIRGAS 2018 + COLGVD2023 height", \
+   "MAGNA-SIRGAS_2018_and_COLGVD2023_height", \
+   FALSE, \
+   "EPSG"
+
 "MALS09 Grid + ODN height", \
    "MALS09_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"Mexico ITRF2008 + NAVD88 height", \
+   "Mexico_ITRF2008_and_NAVD88_height", \
    FALSE, \
    "EPSG"
 
@@ -1369,6 +2924,11 @@
    FALSE, \
    "EPSG"
 
+"NZGD2000 / New Zealand Transverse Mercator 2000 + NZVD2016 height", \
+   "NZGD2000_New_Zealand_Transverse_Mercator_and_NZVD2016_height", \
+   FALSE, \
+   "EPSG"
+
 "OSGB36 / British National Grid + BI height", \
    "OSGB36_British_National_Grid_and_BI_height", \
    FALSE, \
@@ -1396,6 +2956,11 @@
 
 "RBEPP12 Grid + ODN height", \
    "RBEPP12_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"RD + NAP height", \
+   "RD_New_and_NAP_Height", \
    FALSE, \
    "EPSG"
 
@@ -1474,55 +3039,105 @@
    FALSE, \
    "EPSG"
 
+"RGF_1993_Lambert_93_and_NGF_IGN69_Height", \
+   "ETRS89-FRA_[RGF93_v1]_Lambert-93_and_NGF_IGN69_Height", \
+   FALSE, \
+   ""
+
+"RGF_1993_Lambert_93_and_NGF_IGN78_Height", \
+   "ETRS89-FRA_[RGF93_v1]_Lambert-93_and_NGF_IGN78_Height", \
+   FALSE, \
+   ""
+
 "RGF93 v1 / Lambert-93 + NGF-IGN69 height", \
-   "RGF_1993_Lambert_93_and_NGF_IGN69_Height", \
+   "ETRS89-FRA_[RGF93_v1]_Lambert-93_and_NGF_IGN69_Height", \
    FALSE, \
    "EPSG"
 
 "RGF93 v1 / Lambert-93 + NGF-IGN78 height", \
-   "RGF_1993_Lambert_93_and_NGF_IGN78_Height", \
+   "ETRS89-FRA_[RGF93_v1]_Lambert-93_and_NGF_IGN78_Height", \
    FALSE, \
    "EPSG"
 
 "RGF93 v2 + NGF-IGN69 height", \
-   "RGF93_v2_and_NGF-IGN69_height", \
+   "ETRS89-FRA_[RGF93_v2]_and_NGF-IGN69_height", \
    FALSE, \
    "EPSG"
 
 "RGF93 v2 + NGF-IGN78 height", \
-   "RGF93_v2_and_NGF-IGN78_height", \
+   "ETRS89-FRA_[RGF93_v2]_and_NGF-IGN78_height", \
    FALSE, \
    "EPSG"
 
+"RGF93_v2_and_NGF-IGN69_height", \
+   "ETRS89-FRA_[RGF93_v2]_and_NGF-IGN69_height", \
+   FALSE, \
+   ""
+
+"RGF93_v2_and_NGF-IGN78_height", \
+   "ETRS89-FRA_[RGF93_v2]_and_NGF-IGN78_height", \
+   FALSE, \
+   ""
+
 "RGF93 v2b + NGF-IGN69 height", \
-   "RGF93_v2b_and_NGF-IGN69_height", \
+   "ETRS89-FRA_[RGF93_v2b]_and_NGF-IGN69_height", \
    FALSE, \
    "EPSG"
 
 "RGF93 v2b + NGF-IGN78 height", \
-   "RGF93_v2b_and_NGF-IGN78_height", \
+   "ETRS89-FRA_[RGF93_v2b]_and_NGF-IGN78_height", \
    FALSE, \
    "EPSG"
 
+"RGF93_v2b_and_NGF-IGN69_height", \
+   "ETRS89-FRA_[RGF93_v2b]_and_NGF-IGN69_height", \
+   FALSE, \
+   ""
+
+"RGF93_v2b_and_NGF-IGN78_height", \
+   "ETRS89-FRA_[RGF93_v2b]_and_NGF-IGN78_height", \
+   FALSE, \
+   ""
+
 "RGF93 v2b / Lambert-93 + NGF-IGN69 height", \
-   "RGF93_v2b_Lambert-93_and_NGF-IGN69_height", \
+   "ETRS89-FRA_[RGF93_v2b]_Lambert-93_and_NGF-IGN69_height", \
    FALSE, \
    "EPSG"
 
 "RGF93 v2b / Lambert-93 + NGF-IGN78 height", \
-   "RGF93_v2b_Lambert-93_and_NGF-IGN78_height", \
+   "ETRS89-FRA_[RGF93_v2b]_Lambert-93_and_NGF-IGN78_height", \
    FALSE, \
    "EPSG"
 
+"RGF93_v2b_Lambert-93_and_NGF-IGN69_height", \
+   "ETRS89-FRA_[RGF93_v2b]_Lambert-93_and_NGF-IGN69_height", \
+   FALSE, \
+   ""
+
+"RGF93_v2b_Lambert-93_and_NGF-IGN78_height", \
+   "ETRS89-FRA_[RGF93_v2b]_Lambert-93_and_NGF-IGN78_height", \
+   FALSE, \
+   ""
+
 "RGF93 v2 / Lambert-93 + NGF-IGN69 height", \
-   "RGF93_v2_Lambert-93_and_NGF-IGN69_height", \
+   "ETRS89-FRA_[RGF93_v2]_Lambert-93_and_NGF-IGN69_height", \
    FALSE, \
    "EPSG"
 
 "RGF93 v2 / Lambert-93 + NGF-IGN78 height", \
-   "RGF93_v2_Lambert-93_and_NGF-IGN78_height", \
+   "ETRS89-FRA_[RGF93_v2]_Lambert-93_and_NGF-IGN78_height", \
    FALSE, \
    "EPSG"
+
+"RGF93_v2_Lambert-93_and_NGF-IGN69_height", \
+   "ETRS89-FRA_[RGF93_v2]_Lambert-93_and_NGF-IGN69_height", \
+   FALSE, \
+   ""
+
+"RGF93_v2_Lambert-93_and_NGF-IGN78_height", \
+   "ETRS89-FRA_[RGF93_v2]_Lambert-93_and_NGF-IGN78_height", \
+   FALSE, \
+   ""
 
 "RGFG95 + NGG1977 height", \
    "RGFG95_and_NGG1977_height", \
@@ -1531,6 +3146,11 @@
 
 "RGM23 + IGN 2023 Mayotte height", \
    "RGM23_and_IGN_2023_Mayotte_height", \
+   FALSE, \
+   "EPSG"
+
+"RGM23 / UTM zone 38S + IGN 2023 Mayotte height", \
+   "RGM23_UTM_zone_38S_and_IGN_2023_Mayotte_height", \
    FALSE, \
    "EPSG"
 
@@ -1546,6 +3166,11 @@
 
 "RGSPM06 + Danger 1950 height", \
    "RGSPM06_and_Danger_1950_height", \
+   FALSE, \
+   "EPSG"
+
+"RGWF96 + NGFA 2022 height", \
+   "RGWF96_and_NGFA_2022_height", \
    FALSE, \
    "EPSG"
 
@@ -1605,24 +3230,44 @@
    "EPSG"
 
 "Slovenia 1996 + SVS2000 height", \
-   "Slovenia_1996_and_SVS2000_height", \
+   "ETRS89-SVN_[D96]_and_SVS2000_height", \
    FALSE, \
    "EPSG"
 
 "Slovenia 1996 + SVS2010 height", \
-   "Slovenia_1996_and_SVS2010_height", \
+   "ETRS89-SVN_[D96]_and_SVS2010_height", \
    FALSE, \
    "EPSG"
 
+"Slovenia_1996_and_SVS2000_height", \
+   "ETRS89-SVN_[D96]_and_SVS2000_height", \
+   FALSE, \
+   ""
+
+"Slovenia_1996_and_SVS2010_height", \
+   "ETRS89-SVN_[D96]_and_SVS2010_height", \
+   FALSE, \
+   ""
+
 "Slovenia 1996 / Slovene National Grid + SVS2000 height", \
-   "Slovenia_1996_Slovene_National_Grid_and_SVS2000_height", \
+   "ETRS89-SVN_[D96]_Slovene_National_Grid_and_SVS2000_height", \
    FALSE, \
    "EPSG"
 
 "Slovenia 1996 / Slovene National Grid + SVS2010 height", \
-   "Slovenia_1996_Slovene_National_Grid_and_SVS2010_height", \
+   "ETRS89-SVN_[D96]_Slovene_National_Grid_and_SVS2010_height", \
    FALSE, \
    "EPSG"
+
+"Slovenia_1996_Slovene_National_Grid_and_SVS2000_height", \
+   "ETRS89-SVN_[D96]_Slovene_National_Grid_and_SVS2000_height", \
+   FALSE, \
+   ""
+
+"Slovenia_1996_Slovene_National_Grid_and_SVS2010_height", \
+   "ETRS89-SVN_[D96]_Slovene_National_Grid_and_SVS2010_height", \
+   FALSE, \
+   ""
 
 "SMITB20 Grid + ODN height", \
    "SMITB20_Grid_and_ODN_height", \
@@ -1660,77 +3305,152 @@
    "EPSG"
 
 "SWEREF99 + RH2000 height", \
-   "SWEREF99_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99]_and_RH2000_height", \
    FALSE, \
    "EPSG"
 
 "SWEREF99 12 00 + RH2000 height", \
-   "SWEREF99_12_00_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_12_00]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_12_00_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_12_00]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 13 30 + RH2000 height", \
-   "SWEREF99_13_30_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_13_30]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_13_30_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_13_30]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 14 15 + RH2000 height", \
-   "SWEREF99_14_15_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_14_15]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_14_15_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_14_15]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 15 00 + RH2000 height", \
-   "SWEREF99_15_00_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_15_00]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_15_00_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_15_00]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 15 45 + RH2000 height", \
-   "SWEREF99_15_45_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_15_45]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_15_45_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_15_45]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 16 30 + RH2000 height", \
-   "SWEREF99_16_30_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_16_30]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_16_30_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_16_30]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 17 15 + RH2000 height", \
-   "SWEREF99_17_15_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_17_15]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_17_15_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_17_15]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 18 00 + RH2000 height", \
-   "SWEREF99_18_00_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_18_00]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_18_00_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_18_00]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 18 45 + RH2000 height", \
-   "SWEREF99_18_45_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_18_45]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_18_45_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_18_45]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 20 15 + RH2000 height", \
-   "SWEREF99_20_15_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_20_15]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_20_15_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_20_15]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 21 45 + RH2000 height", \
-   "SWEREF99_21_45_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_21_45]_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_21_45_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_21_45]_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SWEREF99 23 15 + RH2000 height", \
-   "SWEREF99_23_15_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_23_15]_and_RH2000_height", \
    FALSE, \
    "EPSG"
 
+"SWEREF99_23_15_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99_23_15]_and_RH2000_height", \
+   FALSE, \
+   ""
+
+"SWEREF99_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99]_and_RH2000_height", \
+   FALSE, \
+   ""
+
 "SWEREF99 TM + RH2000 height", \
-   "SWEREF99_TM_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99]_TM_and_RH2000_height", \
    FALSE, \
    "EPSG"
+
+"SWEREF99_TM_and_RH2000_height", \
+   "ETRS89-SWE_[SWEREF_99]_TM_and_RH2000_height", \
+   FALSE, \
+   ""
 
 "SYC20 Grid + ODN height", \
    "SYC20_Grid_and_ODN_height", \
+   FALSE, \
+   "EPSG"
+
+"SZCTW Grid + ODN height", \
+   "SZCTW_Grid_and_ODN_height", \
    FALSE, \
    "EPSG"
 

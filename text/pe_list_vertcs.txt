@@ -1220,10 +1220,10 @@ Authority   : EPSG
 Version     : 6.15(9.3.0.0)
 Deprecated  : no
 Area-name-1 : Greece - onshore
-Area-slat   : 34.88
+Area-slat   : 34.75
 Area-nlat   : 41.75
 Area-llon   : 19.57
-Area-rlon   : 28.3
+Area-rlon   : 29.69
 
 WKID        : 5717
 Latest-WKID : 5717
@@ -3742,7 +3742,7 @@ WKT2        : VERTCRS["NN2000_height",
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["EPSG", "5941"]]
-Description : NN2000 height
+Description : NN2000:2018 height
 Authority   : EPSG
 Version     : 8.1.1(10.2.0)
 Deprecated  : no
@@ -7091,6 +7091,231 @@ Area-nlat   : -12.61
 Area-llon   : 44.98
 Area-rlon   : 45.35
 
+WKID        : 11317
+Latest-WKID : 11317
+Macro       : PE_VCS_JGD_2024_HT
+Name        : JGD2024_vertical_height
+WKT         : VERTCS["JGD2024_vertical_height",
+               VDATUM["Japanese_Geodetic_Datum_2024_vertical"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["JGD2024_vertical_height",
+               VDATUM["Japanese_Geodetic_Datum_2024_vertical"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "11317"]]
+Description : Japanese Geodetic Datum 2024 (vertical) height
+Authority   : EPSG
+Version     : 12.055(13.8.0)
+Deprecated  : no
+Area-name-1 : Japan
+Area-slat   : 17.09
+Area-nlat   : 46.05
+Area-llon   : 122.38
+Area-rlon   : 157.65
+
+WKID        : 11338
+Latest-WKID : 11338
+Macro       : PE_VCS_BHUTAN_VERTICAL_DATUM_2022_HEIGHT
+Name        : Bhutan_Vertical_Datum_2022_height
+WKT         : VERTCS["Bhutan_Vertical_Datum_2022_height",
+               VDATUM["Bhutan_Vertical_Datum_2022"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Bhutan_Vertical_Datum_2022_height",
+               VDATUM["Bhutan_Vertical_Datum_2022"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "11338"]]
+Description : Bhutan Vertical Datum 2022 height
+Authority   : EPSG
+Version     : 12.051(13.8.0)
+Deprecated  : no
+Area-name-1 : Bhutan
+Area-slat   : 26.7
+Area-nlat   : 28.33
+Area-llon   : 88.74
+Area-rlon   : 92.13
+
+WKID        : 11394
+Latest-WKID : 11394
+Macro       : PE_VCS_NN2000_2025_HEIGHT
+Name        : NN2000:2025_height
+WKT         : VERTCS["NN2000:2025_height",
+               VDATUM["Norway_Normal_Null_2000:2025"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["NN2000:2025_height",
+               VDATUM["Norway_Normal_Null_2000:2025"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "11394"]]
+Description : NN2000:2025 height
+Authority   : EPSG
+Version     : 12.054(13.8.0)
+Deprecated  : no
+Area-name-1 : Norway - onshore
+Area-slat   : 57.9
+Area-nlat   : 71.24
+Area-llon   : 4.39
+Area-rlon   : 31.32
+
+WKID        : 11446
+Latest-WKID : 11446
+Macro       : PE_VCS_NGFA_2022_HEIGHT
+Name        : NGFA_2022_height
+WKT         : VERTCS["NGFA_2022_height",
+               VDATUM["Nivellement_General_de_Futuna_et_d'Alofi_2022"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["NGFA_2022_height",
+               VDATUM["Nivellement_General_de_Futuna_et_d'Alofi_2022"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "11446"]]
+Description : NGFA 2022 height
+Authority   : EPSG
+Version     : 12.054(13.8.0)
+Deprecated  : no
+Area-name-1 : Wallis and Futuna - Futuna and Alofi
+Area-slat   : -14.42
+Area-nlat   : -14.18
+Area-llon   : -178.24
+Area-rlon   : -177.94
+
+WKID        : 11450
+Latest-WKID : 11450
+Macro       : PE_VCS_GLLAT2025_DEPTH
+Name        : GLLAT(2025)_depth
+WKT         : VERTCS["GLLAT(2025)_depth",
+               VDATUM["Greenland_Lowest_Astronomic_Tide_(2025)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["GLLAT(2025)_depth",
+               VDATUM["Greenland_Lowest_Astronomic_Tide_(2025)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "11450"]]
+Description : GLLAT(2025) depth
+Authority   : EPSG
+Version     : 12.055(13.8.0)
+Deprecated  : no
+Area-name-1 : Greenland - offshore
+Area-slat   : 56.38
+Area-nlat   : 87.03
+Area-llon   : -75.0
+Area-rlon   : 7.99
+
+WKID        : 11451
+Latest-WKID : 11451
+Macro       : PE_VCS_GLMSL2025_DEPTH
+Name        : GLMSL(2025)_depth
+WKT         : VERTCS["GLMSL(2025)_depth",
+               VDATUM["Greenland_Mean_Sea_Level_(2025)"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["GLMSL(2025)_depth",
+               VDATUM["Greenland_Mean_Sea_Level_(2025)"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "11451"]]
+Description : GLMSL(2025) depth
+Authority   : EPSG
+Version     : 12.055(13.8.0)
+Deprecated  : no
+Area-name-1 : Greenland - offshore
+Area-slat   : 56.38
+Area-nlat   : 87.03
+Area-llon   : -75.0
+Area-rlon   : 7.99
+
+WKID        : 11454
+Latest-WKID : 11454
+Macro       : PE_VCS_GLLAT_DEPTH
+Name        : GLLAT_depth
+WKT         : VERTCS["GLLAT_depth",
+               VDATUM["Greenland_Lowest_Astronomic_Tide"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["GLLAT_depth",
+               VDATUM["Greenland_Lowest_Astronomic_Tide"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "11454"]]
+Description : GLLAT depth
+Authority   : EPSG
+Version     : 12.055(13.8.0)
+Deprecated  : no
+Area-name-1 : Greenland - offshore
+Area-slat   : 56.38
+Area-nlat   : 87.03
+Area-llon   : -75.0
+Area-rlon   : 7.99
+
+WKID        : 11455
+Latest-WKID : 11455
+Macro       : PE_VCS_GLMSL_DEPTH
+Name        : GLMSL_depth
+WKT         : VERTCS["GLMSL_depth",
+               VDATUM["Greenland_Mean_Sea_Level"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", -1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["GLMSL_depth",
+               VDATUM["Greenland_Mean_Sea_Level"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", down,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "11455"]]
+Description : GLMSL depth
+Authority   : EPSG
+Version     : 12.055(13.8.0)
+Deprecated  : no
+Area-name-1 : Greenland - offshore
+Area-slat   : 56.38
+Area-nlat   : 87.03
+Area-llon   : -75.0
+Area-rlon   : 7.99
+
+WKID        : 11513
+Latest-WKID : 11513
+Macro       : PE_VCS_COLGVD2023_HEIGHT
+Name        : COLGVD2023_height
+WKT         : VERTCS["COLGVD2023_height",
+               VDATUM["Colombian_Geodetic_Vertical_Datum_2023"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["COLGVD2023_height",
+               VDATUM["Colombian_Geodetic_Vertical_Datum_2023"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["EPSG", "11513"]]
+Description : COLGVD2023 height
+Authority   : EPSG
+Version     : 12.058(13.8.0)
+Deprecated  : no
+Area-name-1 : Colombia - mainland
+Area-slat   : -4.23
+Area-nlat   : 12.52
+Area-llon   : -79.1
+Area-rlon   : -66.87
+
 WKID        : 20000
 Latest-WKID : 20000
 Macro       : PE_VCS_SVD2006_HEIGHT
@@ -7114,7 +7339,7 @@ Area-name-1 : Arctic - 81~10'N to 76~10'N, 4~W to 38~E
 Area-slat   : 76.16
 Area-nlat   : 81.17
 Area-llon   : -3.35
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 20034
 Latest-WKID : 20034
@@ -7216,7 +7441,7 @@ Area-name-1 : Greece
 Area-slat   : 33.26
 Area-nlat   : 41.75
 Area-llon   : 18.26
-Area-rlon   : 30.23
+Area-rlon   : 30.11
 
 WKID        : 105602
 Latest-WKID : 105602
@@ -7271,7 +7496,7 @@ Area-llon   : -9.37
 Area-rlon   : 4.39
 
 WKID        : 105604
-Latest-WKID : 105604
+Latest-WKID : 11317
 Macro       : PE_VCS_JGD_2024_HT
 Name        : JGD2024_vertical_height
 WKT         : VERTCS["JGD2024_vertical_height",
@@ -7284,16 +7509,16 @@ WKT2        : VERTCRS["JGD2024_vertical_height",
                CS[vertical, 1],
                AXIS["Gravity-related height (H)", up,
                 LENGTHUNIT["Meter", 1.0]],
-               ID["Esri", "105604"]]
+               ID["Esri", "11317"]]
 Description : Japanese Geodetic Datum 2024 (vertical) height
 Authority   : Esri
 Version     : 13.6.0
-Deprecated  : no
-Area-name-1 : Japan - onshore
-Area-slat   : 20.37
-Area-nlat   : 45.54
-Area-llon   : 122.83
-Area-rlon   : 154.05
+Deprecated  : codechange
+Area-name-1 : Japan
+Area-slat   : 17.09
+Area-nlat   : 46.05
+Area-llon   : 122.38
+Area-rlon   : 157.65
 
 WKID        : 105605
 Latest-WKID : 105605
@@ -7404,6 +7629,733 @@ Area-slat   : 26.7
 Area-nlat   : 28.33
 Area-llon   : 88.74
 Area-rlon   : 92.13
+
+WKID        : 105609
+Latest-WKID : 105609
+Macro       : PE_VCS_NKG_ETRF14
+Name        : NKG_ETRF14
+WKT         : VERTCS["NKG_ETRF14",
+               DATUM["Nordic_Geodetic_Commission_ETRF14",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["NKG_ETRF14",
+               DATUM["Nordic_Geodetic_Commission_ETRF14",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2000.0]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105609"]]
+Description : NKG_ETRF14
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Europe - Nordic and Baltic countries
+Area-slat   : 53.89
+Area-nlat   : 71.39
+Area-llon   : 3.24
+Area-rlon   : 31.77
+
+WKID        : 105610
+Latest-WKID : 105610
+Macro       : PE_VCS_ETRS89_NOR_EUREF89
+Name        : ETRS89-NOR_[EUREF89]
+WKT         : VERTCS["ETRS89-NOR_[EUREF89]",
+               DATUM["EUREF89",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-NOR_[EUREF89]",
+               DATUM["EUREF89",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1995.0]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105610"]]
+Description : ETRS89-NOR [EUREF89]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Norway
+Area-slat   : 56.08
+Area-nlat   : 84.73
+Area-llon   : -3.35
+Area-rlon   : 38.01
+
+WKID        : 105611
+Latest-WKID : 105611
+Macro       : PE_VCS_ETRS89_DNK
+Name        : ETRS89-DNK
+WKT         : VERTCS["ETRS89-DNK",
+               DATUM["ETRS89-DNK",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-DNK",
+               DATUM["ETRS89-DNK",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2015.829]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105611"]]
+Description : ETRS89-DNK
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Denmark
+Area-slat   : 54.36
+Area-nlat   : 58.27
+Area-llon   : 3.24
+Area-rlon   : 16.51
+
+WKID        : 105612
+Latest-WKID : 105612
+Macro       : PE_VCS_ETRS89_GBR_OSNET_V2009
+Name        : ETRS89-GBR_[OSNet_v2009]
+WKT         : VERTCS["ETRS89-GBR_[OSNet_v2009]",
+               DATUM["OSNet_v2009",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-GBR_[OSNet_v2009]",
+               DATUM["OSNet_v2009",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2009.756]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105612"]]
+Description : ETRS89-GBR [OSNet v2009]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : UK - Great Britain onshore and nearshore; Isle of Man
+Area-slat   : 49.79
+Area-nlat   : 60.94
+Area-llon   : -8.82
+Area-rlon   : 1.92
+
+WKID        : 105613
+Latest-WKID : 105613
+Macro       : PE_VCS_ETRS89_NLD_AGRS2010
+Name        : ETRS89-NLD_[AGRS2010]
+WKT         : VERTCS["ETRS89-NLD_[AGRS2010]",
+               DATUM["AGRS2010_(ETRF2000)",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-NLD_[AGRS2010]",
+               DATUM["AGRS2010_(ETRF2000)",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2010.5]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105613"]]
+Description : ETRS89-NLD [AGRS2010]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Netherlands
+Area-slat   : 50.75
+Area-nlat   : 55.77
+Area-llon   : 2.53
+Area-rlon   : 7.22
+
+WKID        : 105614
+Latest-WKID : 105614
+Macro       : PE_VCS_ETRS89_ALB_2008
+Name        : ETRS89-ALB_[2008]
+WKT         : VERTCS["ETRS89-ALB_[2008]",
+               DATUM["Albanian_Geodetic_Reference_Frame_2008",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-ALB_[2008]",
+               DATUM["Albanian_Geodetic_Reference_Frame_2008",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.0]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105614"]]
+Description : ETRS89-ALB [2008]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Albania
+Area-slat   : 39.63
+Area-nlat   : 42.67
+Area-llon   : 18.46
+Area-rlon   : 21.06
+
+WKID        : 105615
+Latest-WKID : 105615
+Macro       : PE_VCS_ETRS89_ALB_KRGJSH_2014
+Name        : ETRS89-ALB_[KRGJSH_2014]
+WKT         : VERTCS["ETRS89-ALB_[KRGJSH_2014]",
+               DATUM["Albanian_Geodetic_Reference_Frame_2014",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-ALB_[KRGJSH_2014]",
+               DATUM["Albanian_Geodetic_Reference_Frame_2014",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2014.177]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105615"]]
+Description : ETRS89-ALB [KRGJSH 2014]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Albania
+Area-slat   : 39.63
+Area-nlat   : 42.67
+Area-llon   : 18.46
+Area-rlon   : 21.06
+
+WKID        : 105616
+Latest-WKID : 105616
+Macro       : PE_VCS_ETRS89_AUT_2002
+Name        : ETRS89-AUT_[2002]
+WKT         : VERTCS["ETRS89-AUT_[2002]",
+               DATUM["ETRS89-AUT_[2002]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-AUT_[2002]",
+               DATUM["ETRS89-AUT_[2002]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2002.56]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105616"]]
+Description : ETRS89-AUT [2002]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Austria
+Area-slat   : 46.4
+Area-nlat   : 49.02
+Area-llon   : 9.53
+Area-rlon   : 17.17
+
+WKID        : 105617
+Latest-WKID : 105617
+Macro       : PE_VCS_ETRS89_BEL_BEREF2002
+Name        : ETRS89-BEL_[BEREF2002]
+WKT         : VERTCS["ETRS89-BEL_[BEREF2002]",
+               DATUM["Belgian_Reference_Frame_2002",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-BEL_[BEREF2002]",
+               DATUM["Belgian_Reference_Frame_2002",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2002.73]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105617"]]
+Description : ETRS89-BEL [BEREF2002]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Belgium
+Area-slat   : 49.5
+Area-nlat   : 51.88
+Area-llon   : 2.23
+Area-rlon   : 6.4
+
+WKID        : 105618
+Latest-WKID : 105618
+Macro       : PE_VCS_ETRS89_CZE_2007
+Name        : ETRS89-CZE_[2007]
+WKT         : VERTCS["ETRS89-CZE_[2007]",
+               DATUM["ETRS89-CZE_[2007]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-CZE_[2007]",
+               DATUM["ETRS89-CZE_[2007]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2007.0]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105618"]]
+Description : ETRS89-CZE [2007]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Czechia
+Area-slat   : 48.58
+Area-nlat   : 51.06
+Area-llon   : 12.09
+Area-rlon   : 18.86
+
+WKID        : 105619
+Latest-WKID : 105619
+Macro       : PE_VCS_ETRS89_SVK_SKTRF09
+Name        : ETRS89-SVK_[SKTRF09]
+WKT         : VERTCS["ETRS89-SVK_[SKTRF09]",
+               DATUM["ETRS89-SVK_[SKTRF09]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-SVK_[SKTRF09]",
+               DATUM["ETRS89-SVK_[SKTRF09]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.5]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105619"]]
+Description : ETRS89-SVK [SKTRF09]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Slovakia
+Area-slat   : 47.73
+Area-nlat   : 49.61
+Area-llon   : 16.84
+Area-rlon   : 22.56
+
+WKID        : 105620
+Latest-WKID : 105620
+Macro       : PE_VCS_ETRS89_SVK_SKTRF2022
+Name        : ETRS89-SVK_[SKTRF2022]
+WKT         : VERTCS["ETRS89-SVK_[SKTRF2022]",
+               DATUM["ETRS89-SVK_[SKTRF2022]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-SVK_[SKTRF2022]",
+               DATUM["ETRS89-SVK_[SKTRF2022]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.5]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105620"]]
+Description : ETRS89-SVK [SKTRF2022]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Slovakia
+Area-slat   : 47.73
+Area-nlat   : 49.61
+Area-llon   : 16.84
+Area-rlon   : 22.56
+
+WKID        : 105621
+Latest-WKID : 105621
+Macro       : PE_VCS_ETRS89_FRO_2008
+Name        : ETRS89-FRO_[2008]
+WKT         : VERTCS["ETRS89-FRO_[2008]",
+               DATUM["ETRS89-FRO_[2008]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-FRO_[2008]",
+               DATUM["ETRS89-FRO_[2008]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.75]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105621"]]
+Description : ETRS89-FRO [2008]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Faroe Islands
+Area-slat   : 59.94
+Area-nlat   : 65.7
+Area-llon   : -13.91
+Area-rlon   : -0.48
+
+WKID        : 105622
+Latest-WKID : 105622
+Macro       : PE_VCS_ETRS89_MKD_EUREF_MAK2010
+Name        : ETRS89-MKD_[EUREF-MAK2010]
+WKT         : VERTCS["ETRS89-MKD_[EUREF-MAK2010]",
+               DATUM["ETRS89-MKD_[EUREF-MAK2010]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-MKD_[EUREF-MAK2010]",
+               DATUM["ETRS89-MKD_[EUREF-MAK2010]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2010.631]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105622"]]
+Description : ETRS89-MKD [EUREF-MAK2010]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : North Macedonia
+Area-slat   : 40.85
+Area-nlat   : 42.36
+Area-llon   : 20.45
+Area-rlon   : 23.04
+
+WKID        : 105623
+Latest-WKID : 105623
+Macro       : PE_VCS_ETRS89_PRT_1995
+Name        : ETRS89-PRT_[1995]
+WKT         : VERTCS["ETRS89-PRT_[1995]",
+               DATUM["ETRS89-PRT_[1995]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-PRT_[1995]",
+               DATUM["ETRS89-PRT_[1995]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1995.4]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105623"]]
+Description : ETRS89-PRT [1995]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Portugal - mainland - onshore and offshore
+Area-slat   : 34.91
+Area-nlat   : 42.16
+Area-llon   : -13.87
+Area-rlon   : -6.19
+
+WKID        : 105624
+Latest-WKID : 105624
+Macro       : PE_VCS_ETRS89_ROU_ETRF2000
+Name        : ETRS89-ROU_[ETRF2000]
+WKT         : VERTCS["ETRS89-ROU_[ETRF2000]",
+               DATUM["ETRS89-ROU_[ETRF2000]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-ROU_[ETRF2000]",
+               DATUM["ETRS89-ROU_[ETRF2000]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2000.0]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105624"]]
+Description : ETRS89-ROU [ETRF2000]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Romania
+Area-slat   : 43.44
+Area-nlat   : 48.27
+Area-llon   : 20.26
+Area-rlon   : 31.41
+
+WKID        : 105625
+Latest-WKID : 105625
+Macro       : PE_VCS_ETRS89_ESP_ERGNSS
+Name        : ETRS89-ESP_[ERGNSS]
+WKT         : VERTCS["ETRS89-ESP_[ERGNSS]",
+               DATUM["ETRS89-ESP_[ERGNSS]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-ESP_[ERGNSS]",
+               DATUM["ETRS89-ESP_[ERGNSS]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2017.0]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105625"]]
+Description : ETRS89-ESP [ERGNSS]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Spain - mainland and Balearic Islands
+Area-slat   : 35.26
+Area-nlat   : 46.26
+Area-llon   : -13.86
+Area-rlon   : 6.3
+
+WKID        : 105626
+Latest-WKID : 105626
+Macro       : PE_VCS_ETRS89_ESP_REGENTE
+Name        : ETRS89-ESP_[REGENTE]
+WKT         : VERTCS["ETRS89-ESP_[REGENTE]",
+               DATUM["ETRS89-ESP_[REGENTE]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-ESP_[REGENTE]",
+               DATUM["ETRS89-ESP_[REGENTE]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1995.4]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105626"]]
+Description : ETRS89-ESP [REGENTE]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Spain - mainland and Balearic Islands
+Area-slat   : 35.26
+Area-nlat   : 46.26
+Area-llon   : -13.86
+Area-rlon   : 6.3
+
+WKID        : 105627
+Latest-WKID : 105627
+Macro       : PE_VCS_ETRS89_HUN_ETRF2000
+Name        : ETRS89-HUN_[ETRF2000]
+WKT         : VERTCS["ETRS89-HUN_[ETRF2000]",
+               DATUM["ETRS89-HUN_[ETRF2000]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-HUN_[ETRF2000]",
+               DATUM["ETRS89-HUN_[ETRF2000]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2024.0]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105627"]]
+Description : ETRS89-HUN [ETRF2000]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Hungary
+Area-slat   : 45.74
+Area-nlat   : 48.58
+Area-llon   : 16.11
+Area-rlon   : 22.9
+
+WKID        : 105628
+Latest-WKID : 105628
+Macro       : PE_VCS_ETRS89_HRV_CROPOS
+Name        : ETRS89-HRV_[CROPOS]
+WKT         : VERTCS["ETRS89-HRV_[CROPOS]",
+               DATUM["CROPOS",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-HRV_[CROPOS]",
+               DATUM["CROPOS",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.83]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105628"]]
+Description : ETRS89-HRV [CROPOS]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Croatia
+Area-slat   : 41.62
+Area-nlat   : 46.54
+Area-llon   : 13.0
+Area-rlon   : 19.43
+
+WKID        : 105629
+Latest-WKID : 105629
+Macro       : PE_VCS_ETRS89_DEU_ETRS89_DREF91_2025
+Name        : ETRS89-DEU_[ETRS89_DREF91_2025]
+WKT         : VERTCS["ETRS89-DEU_[ETRS89_DREF91_2025]",
+               DATUM["ETRS89_DREF91_Realization_2025",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-DEU_[ETRS89_DREF91_2025]",
+               DATUM["ETRS89_DREF91_Realization_2025",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2021.48]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105629"]]
+Description : ETRS89-DEU [ETRS89 DREF91 2025]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Germany
+Area-slat   : 47.27
+Area-nlat   : 55.92
+Area-llon   : 3.34
+Area-rlon   : 15.04
+
+WKID        : 105630
+Latest-WKID : 105630
+Macro       : PE_VCS_ETRS89_BEL_BEREF2011
+Name        : ETRS89-BEL_[BEREF2011]
+WKT         : VERTCS["ETRS89-BEL_[BEREF2011]",
+               DATUM["Belgian_Reference_Frame_2011",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-BEL_[BEREF2011]",
+               DATUM["Belgian_Reference_Frame_2011",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2011.763]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105630"]]
+Description : ETRS89-BEL [BEREF2011]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Belgium
+Area-slat   : 49.5
+Area-nlat   : 51.88
+Area-llon   : 2.23
+Area-rlon   : 6.4
+
+WKID        : 105632
+Latest-WKID : 105632
+Macro       : PE_VCS_ETRS89_LUX_2020
+Name        : ETRS89-LUX_2020
+WKT         : VERTCS["ETRS89-LUX_2020",
+               DATUM["ETRS89-LUX_[2020]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-LUX_2020",
+               DATUM["ETRS89-LUX_[2020]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2020.82]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105632"]]
+Description : ETRS89-LUX [2020]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Luxembourg
+Area-slat   : 49.44
+Area-nlat   : 50.19
+Area-llon   : 5.73
+Area-rlon   : 6.53
+
+WKID        : 105633
+Latest-WKID : 105633
+Macro       : PE_VCS_ETRS89_LUX_2025
+Name        : ETRS89-LUX_2025
+WKT         : VERTCS["ETRS89-LUX_2025",
+               DATUM["ETRS89-LUX_[2025]",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-LUX_2025",
+               DATUM["ETRS89-LUX_[2025]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2025.83]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105633"]]
+Description : ETRS89-LUX [2025]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Luxembourg
+Area-slat   : 49.44
+Area-nlat   : 50.19
+Area-llon   : 5.73
+Area-rlon   : 6.53
+
+WKID        : 105634
+Latest-WKID : 105634
+Macro       : PE_VCS_ETRS89_CHE_CHTRF95
+Name        : ETRS89-CHE_[CHTRF95]
+WKT         : VERTCS["ETRS89-CHE_[CHTRF95]",
+               DATUM["Swiss_Terrestrial_Reference_Frame_1995",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["ETRS89-CHE_[CHTRF95]",
+               DATUM["Swiss_Terrestrial_Reference_Frame_1995",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1993.0]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105634"]]
+Description : ETRS89-CHE [CHTRF95]
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Europe - Liechtenstein and Switzerland
+Area-slat   : 45.81
+Area-nlat   : 47.81
+Area-llon   : 5.95
+Area-rlon   : 10.5
+
+WKID        : 105635
+Latest-WKID : 105635
+Macro       : PE_VCS_SIRGAS_CHILE_2025
+Name        : SIRGAS-Chile_2025
+WKT         : VERTCS["SIRGAS-Chile_2025",
+               DATUM["SIRGAS-Chile_2025",
+                SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["SIRGAS-Chile_2025",
+               DATUM["SIRGAS-Chile_2025",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+               CS[vertical, 1],
+               AXIS["Ellipsoidal height (h)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105635"]]
+Description : SIRGAS-Chile 2025
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Chile
+Area-slat   : -59.87
+Area-nlat   : -17.5
+Area-llon   : -113.21
+Area-rlon   : -65.72
 
 WKID        : 105700
 Latest-WKID : 105700
@@ -7533,6 +8485,31 @@ Area-slat   : 53.89
 Area-nlat   : 56.45
 Area-llon   : 20.86
 Area-rlon   : 26.82
+
+WKID        : 105705
+Latest-WKID : 105705
+Macro       : PE_VCS_BALTIC_1950_HEIGHT
+Name        : Baltic_1950_height
+WKT         : VERTCS["Baltic_1950_height",
+               VDATUM["Baltic_1950"],
+               PARAMETER["Vertical_Shift", 0.0],
+               PARAMETER["Direction", 1.0],
+               UNIT["Meter", 1.0]]
+WKT2        : VERTCRS["Baltic_1950_height",
+               VDATUM["Baltic_1950"],
+               CS[vertical, 1],
+               AXIS["Gravity-related height (H)", up,
+                LENGTHUNIT["Meter", 1.0]],
+               ID["Esri", "105705"]]
+Description : Baltic 1950 BSL height
+Authority   : Esri
+Version     : 13.8.0
+Deprecated  : no
+Area-name-1 : Mongolia
+Area-slat   : 41.58
+Area-nlat   : 52.15
+Area-llon   : 87.76
+Area-rlon   : 119.94
 
 WKID        : 105790
 Latest-WKID : 3855
@@ -7838,7 +8815,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115702
 Latest-WKID : 115702
@@ -7965,7 +8942,7 @@ WKT2        : VERTCRS["Swiss_TRF_1995",
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115706"]]
-Description : Swiss TRF 1995
+Description : ETRS89-CHE [CHTRS95]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -8122,12 +9099,13 @@ WKT         : VERTCS["Estonia_1997",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["Estonia_1997",
                DATUM["D_Estonia_1997",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1997.56]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115712"]]
-Description : Estonia 1997
+Description : ETRS89-EST [EST97]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -8155,7 +9133,7 @@ WKT2        : VERTCRS["EUREF_FIN",
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115713"]]
-Description : EUREF-FIN
+Description : ETRS89-FIN [EUREF-FIN]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -8447,12 +9425,13 @@ WKT         : VERTCS["IGM_1995",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["IGM_1995",
                DATUM["D_IGM_1995",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1989.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115724"]]
-Description : IGM 1995
+Description : ETRS89-ITA [IGM95]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -8492,21 +9471,22 @@ Area-rlon   : 48.75
 WKID        : 115726
 Latest-WKID : 115726
 Macro       : PE_VCS_IRENET95
-Name        : IRENET95
-WKT         : VERTCS["IRENET95",
-               DATUM["D_IRENET95",
+Name        : ETRS89-IRE_[ETRF2000]
+WKT         : VERTCS["ETRS89-IRE_[ETRF2000]",
+               DATUM["ETRS89-IRE_[ETRF2000]",
                 SPHEROID["GRS_1980", 6378137.0, 298.257222101]],
                PARAMETER["Vertical_Shift", 0.0],
                PARAMETER["Direction", 1.0],
                UNIT["Meter", 1.0]]
-WKT2        : VERTCRS["IRENET95",
-               DATUM["D_IRENET95",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+WKT2        : VERTCRS["ETRS89-IRE_[ETRF2000]",
+               DATUM["ETRS89-IRE_[ETRF2000]",
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2009.756]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115726"]]
-Description : IRENET95
+Description : ETRS89-IRE [ETRF2000]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -9032,12 +10012,13 @@ WKT         : VERTCS["LKS_1992",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["LKS_1992",
                DATUM["D_Latvia_1992",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1992.75]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115745"]]
-Description : LKS 1992
+Description : ETRS89-LVA [LKS-92]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -9059,12 +10040,13 @@ WKT         : VERTCS["LKS_1994",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["LKS_1994",
                DATUM["D_Lithuania_1994",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2003.75]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115746"]]
-Description : LKS 1994
+Description : ETRS89-LTU [LKS94]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -9221,12 +10203,13 @@ WKT         : VERTCS["MOLDREF99",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["MOLDREF99",
                DATUM["D_MOLDREF99",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1997.4]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115752"]]
-Description : MOLDREF99
+Description : ETRS89-MDA [MOLDREF99]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -9820,12 +10803,13 @@ WKT         : VERTCS["RDN2008",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["RDN2008",
                DATUM["D_Rete_Dinamica_Nazionale_2008",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115774"]]
-Description : RDN2008
+Description : ETRS89-ITA [RDN2008]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -9928,12 +10912,13 @@ WKT         : VERTCS["RGF_1993",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["RGF_1993",
                DATUM["D_RGF_1993",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1993.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115778"]]
-Description : RGF 1993
+Description : ETRS89-FRA [RGF93 v1]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -10360,12 +11345,13 @@ WKT         : VERTCS["Slovenia_1996",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["Slovenia_1996",
                DATUM["D_Slovenia_Geodetic_Datum_1996",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2016.75]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115794"]]
-Description : Slovenia 1996
+Description : ETRS89-SVN [D96]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -10387,12 +11373,13 @@ WKT         : VERTCS["SREF98",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SREF98",
                DATUM["D_Serbian_Reference_Network_1998",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1998.7]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115795"]]
-Description : SREF98
+Description : ETRS89-SRB [SREF98]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -10468,12 +11455,13 @@ WKT         : VERTCS["SWEREF99",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SWEREF99",
                DATUM["D_SWEREF99",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1999.5]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115798"]]
-Description : SWEREF99
+Description : ETRS89-SWE [SWEREF 99]
 Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
@@ -10642,7 +11630,7 @@ Authority   : Esri
 Version     : 10.4.0
 Deprecated  : no
 Area-name-1 : Turkey
-Area-slat   : 34.42
+Area-slat   : 34.2
 Area-nlat   : 43.45
 Area-llon   : 25.62
 Area-rlon   : 44.83
@@ -10686,12 +11674,13 @@ WKT         : VERTCS["BGS2005",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["BGS2005",
                DATUM["Bulgaria_Geodetic_System_2005",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2005.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115806"]]
-Description : BGS2005
+Description : ETRS89-BGR [BGS2005]
 Authority   : Esri
 Version     : 10.5.0
 Deprecated  : no
@@ -11140,7 +12129,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115823
 Latest-WKID : 115823
@@ -11169,7 +12158,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115824
 Latest-WKID : 115824
@@ -11197,7 +12186,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115825
 Latest-WKID : 115825
@@ -11226,7 +12215,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115826
 Latest-WKID : 115826
@@ -11255,7 +12244,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115827
 Latest-WKID : 115827
@@ -11284,7 +12273,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115828
 Latest-WKID : 115828
@@ -11312,7 +12301,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115829
 Latest-WKID : 115829
@@ -11341,7 +12330,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115830
 Latest-WKID : 115830
@@ -11686,12 +12675,13 @@ WKT         : VERTCS["SRB_ETRS89",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["SRB_ETRS89",
                DATUM["Serbian_Spatial_Reference_System_2000",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2010.63]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115842"]]
-Description : SRB_ETRS89
+Description : ETRS89-SRB [STRS00]
 Authority   : Esri
 Version     : 10.7.0
 Deprecated  : no
@@ -11876,12 +12866,13 @@ WKT         : VERTCS["CR-SIRGAS",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["CR-SIRGAS",
                DATUM["CR-SIRGAS",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2014.59]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115849"]]
-Description : CR-SIRGAS
+Description : CR-SIRGAS epoch 2014.59
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
@@ -12518,12 +13509,13 @@ WKT         : VERTCS["KOSOVAREF01",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["KOSOVAREF01",
                DATUM["Kosovo_Reference_System_2001",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2001.25]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115872"]]
-Description : KOSOVAREF01
+Description : ETRS89-XKX [KOSOVAREF01]
 Authority   : Esri
 Version     : 10.8.0
 Deprecated  : no
@@ -12559,7 +13551,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115874
 Latest-WKID : 115874
@@ -12588,7 +13580,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115875
 Latest-WKID : 115875
@@ -12767,12 +13759,13 @@ WKT         : VERTCS["RGF93_v2",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["RGF93_v2",
                DATUM["Reseau_Geodesique_Francais_1993_v2",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2009.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115881"]]
-Description : RGF93 v2
+Description : ETRS89-FRA [RGF93 v2]
 Authority   : Esri
 Version     : 13.1.0
 Deprecated  : no
@@ -12794,12 +13787,13 @@ WKT         : VERTCS["RGF93_v2b",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["RGF93_v2b",
                DATUM["Reseau_Geodesique_Francais_1993_v2b",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2019.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115882"]]
-Description : RGF93 v2b
+Description : ETRS89-FRA [RGF93 v2b]
 Authority   : Esri
 Version     : 13.1.0
 Deprecated  : no
@@ -13001,7 +13995,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115890
 Latest-WKID : 115890
@@ -13015,12 +14009,13 @@ WKT         : VERTCS["ETRF2000-PL",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRF2000-PL",
                DATUM["ETRF2000_Poland",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2011.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115890"]]
-Description : ETRF2000-PL
+Description : ETRS89-POL [PL-ETRF2000]
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
@@ -13042,12 +14037,13 @@ WKT         : VERTCS["HTRS96",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["HTRS96",
                DATUM["D_Croatian_Terrestrial_Reference_System",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1995.55]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115891"]]
-Description : HTRS96
+Description : ETRS89-HRV [HTRS96]
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
@@ -13698,12 +14694,13 @@ WKT         : VERTCS["RGF93_(lon-lat)",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["RGF93_(lon-lat)",
                DATUM["D_RGF_1993",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[1993.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115915"]]
-Description : RGF 1993 (lon-lat)
+Description : ETRS89-FRA [RGF93 v1] (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
@@ -13779,12 +14776,13 @@ WKT         : VERTCS["RGF93_v2_(lon-lat)",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["RGF93_v2_(lon-lat)",
                DATUM["Reseau_Geodesique_Francais_1993_v2",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2009.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115918"]]
-Description : RGF93 v2 (lon-lat)
+Description : ETRS89-FRA [RGF93 v2] (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
@@ -13806,12 +14804,13 @@ WKT         : VERTCS["RGF93_v2b_(lon-lat)",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["RGF93_v2b_(lon-lat)",
                DATUM["Reseau_Geodesique_Francais_1993_v2b",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2019.0]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115919"]]
-Description : RGF93 v2b (lon-lat)
+Description : ETRS89-FRA [RGF93 v2b] (lon-lat)
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
@@ -13915,12 +14914,13 @@ WKT         : VERTCS["ETRS89_DREF91_2016",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["ETRS89_DREF91_2016",
                DATUM["ETRS89_DREF91_Realization_2016",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2008.46]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115923"]]
-Description : ETRS89 DREF91 2016
+Description : ETRS89-DEU [ETRS89 DREF91 2016]
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
@@ -13969,12 +14969,13 @@ WKT         : VERTCS["LKS-2020",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["LKS-2020",
                DATUM["Latvian_coordinate_system_2020",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2020.28]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115925"]]
-Description : LKS-2020
+Description : ETRS89-LVA [LKS-2020]
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
@@ -14077,12 +15078,13 @@ WKT         : VERTCS["BH_ETRS89",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["BH_ETRS89",
                DATUM["BH_ETRS89",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2011.307]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115929"]]
-Description : BH_ETRS89
+Description : ETRS89-BIH [BH_ETRS89]
 Authority   : Esri
 Version     : 13.2.0
 Deprecated  : no
@@ -14173,7 +15175,7 @@ Area-name-1 : Europe - ETRF
 Area-slat   : 33.26
 Area-nlat   : 84.73
 Area-llon   : -16.1
-Area-rlon   : 38.01
+Area-rlon   : 38.0
 
 WKID        : 115933
 Latest-WKID : 115933
@@ -14487,12 +15489,13 @@ WKT         : VERTCS["HTRS07",
                UNIT["Meter", 1.0]]
 WKT2        : VERTCRS["HTRS07",
                DATUM["Hellenic_Terrestrial_Reference_System_2007",
-                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]],
+                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+                ANCHOREPOCH[2007.5]],
                CS[vertical, 1],
                AXIS["Ellipsoidal height (h)", up,
                 LENGTHUNIT["Meter", 1.0]],
                ID["Esri", "115944"]]
-Description : HTRS07
+Description : ETRS89-GRC [HTRS07]
 Authority   : Esri
 Version     : 13.6.0
 Deprecated  : no
@@ -14500,7 +15503,7 @@ Area-name-1 : Greece
 Area-slat   : 33.26
 Area-nlat   : 41.75
 Area-llon   : 18.26
-Area-rlon   : 30.23
+Area-rlon   : 30.11
 
 WKID        : 115945
 Latest-WKID : 115945

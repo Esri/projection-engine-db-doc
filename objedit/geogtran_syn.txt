@@ -1319,6 +1319,11 @@
    FALSE, \
    "EPSG"
 
+"CH1903+ to ETRS89-CHE [CHTRS95] (1)", \
+   "CH1903+_To_CHTRF_1995", \
+   FALSE, \
+   "EPSG"
+
 "CH1903+ to WGS 84 (1)", \
    "CH1903+_To_WGS_1984_1", \
    FALSE, \
@@ -1346,6 +1351,11 @@
 
 "CH1903 to ETRS89 (2)", \
    "CH1903_To_ETRS_1989_2_NTv2", \
+   FALSE, \
+   "EPSG"
+
+"CH1903 to ETRS89-CHE [CHTRS95] (1)", \
+   "CH1903_To_CHTRF95_1_NTv2", \
    FALSE, \
    "EPSG"
 
@@ -1481,6 +1491,11 @@
 
 "Corrego Alegre 1970-72 to WGS 84 (4)", \
    "Corrego_Alegre_To_WGS_1984_4", \
+   FALSE, \
+   "EPSG"
+
+"CR05 to CR-SIRGAS epoch 2014.59 (1)", \
+   "CR05_to_CR-SIRGAS_1", \
    FALSE, \
    "EPSG"
 
@@ -1774,6 +1789,16 @@
    FALSE, \
    "EPSG"
 
+"ED50 to ETRS89-ITA [IGM95] (1)", \
+   "ED50_to_IGM95_1", \
+   FALSE, \
+   "EPSG"
+
+"ED50 to ETRS89-ITA [RDN2008] (1)", \
+   "ED50_to_RDN2008_1", \
+   FALSE, \
+   "EPSG"
+
 "ED50 to WGS 84 (1)", \
    "ED_1950_To_WGS_1984_1", \
    FALSE, \
@@ -2064,33 +2089,298 @@
    FALSE, \
    "EPSG"
 
-"ETRS89 to EBBWV14-IRF (1)", \
-   "ETRS_1989_to_EBBWV14-IRF_1", \
+"ETRS_1989_to_EBBWV14-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_EBBWV14-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS_1989_to_FNL22-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_FNL22-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS_1989_to_HULLEE13-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_HULLEE13-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS_1989_to_MOLDOR11-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_MOLDOR11-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS_1989_to_MRH21-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_MRH21-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS_1989_to_MWC18-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_MWC18-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS_1989_to_SCM22-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_SCM22-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89-BGR [BGS2005] to WGS 84 (1)", \
+   "BGS2005_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
+
+"ETRS89-BIH [BH_ETRS89] to WGS 84 (1)", \
+   "BH_ETRS89_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] to ETRS89-DEU [ETRS89/DREF91/2025] (1)", \
+   "ETRS89-DEU_ETRS89_DREF91_2016_to_2025_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-EST [EST97] to WGS 84 (1)", \
+   "Estonia_1997_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] to WGS 84 (1)", \
+   "EUREF-FIN_to_WGS_84_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] to ETRS89-FRA [RGF93 v2] (1)", \
+   "RGF93_v1_to_RGF93_v2_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] to NTF (2)", \
+   "RGF_1993_To_NTF_NTv2", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] to WGS 84 (1)", \
+   "RGF_1993_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] to NTF (2)", \
+   "RGF93_v2b_to_NTF_2", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] to WGS 84 (1)", \
+   "RGF93_v2b_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] to ETRS89-FRA [RGF93 v2b]", \
+   "RGF93_v2_to_RGF93_v2b", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] to NTF (2)", \
+   "RGF93_v2_to_NTF_2", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] to WGS 84 (1)", \
+   "RGF93_v2_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GRC [HTRS07] to GGRS87 (1)", \
+   "HTRS07_To_GGRS87_Kastellorizo", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GRC [HTRS07] to GGRS87 (2)", \
+   "HTRS07_To_GGRS87_7parm", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-HRV [HTRS96] to WGS 84 (1)", \
+   "HTRS96_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [IGM95] to ETRS89-ITA [RDN2008] (1)", \
+   "IGM95_to_RDN2008_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [IGM95] to WGS 84 (1)", \
+   "IGM_1995_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] to WGS 84 (1)", \
+   "RDN2008_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LTU [LKS94] to WGS 84 (1)", \
+   "LKS_1994_To_WGS_1984", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-2020] to WGS 84 (1)", \
+   "LKS-2020_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-92] to ETRS89-LVA [LKS-2020] (1)", \
+   "LKS-92_to_LKS-2020_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-92] to WGS 84 (1)", \
+   "LKS_1992_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-MDA [MOLDREF99] to WGS 84 (1)", \
+   "MOLDREF99_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000] to WGS 84 (1)", \
+   "ETRF2000-PL_to_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SRB [SREF98] to WGS 84 (1)", \
+   "SREF98_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SRB [STRS00] to WGS 84 (1)", \
+   "SRB_ETRS89_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96] to WGS 84 (1)", \
+   "Slovenia_1996_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99] to WGS 84 (1)", \
+   "SWEREF99_To_WGS_1984_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89_to_AbInvA96_2020-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_AbInvA96_2020-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_CNH22-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_CNH22-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_COV23-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_COV23-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_CWS13-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_CWS13-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_DIBA15-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_DIBA15-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_DoPw22-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_DoPw22-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89 to EBBWV14-IRF (1)", \
+   "ETRS89-GBR_[OSNet_v2009]_to_EBBWV14-IRF_1", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89_to_ECML14-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_ECML14-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_ECML14_NB-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_ECML14_NB-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_EOS21-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_EOS21-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_EWR2-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_EWR2-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_EWR3-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_EWR3-IRF_1", \
+   FALSE, \
+   ""
 
 "ETRS89 to FNL22-IRF (1)", \
-   "ETRS_1989_to_FNL22-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_FNL22-IRF_1", \
    FALSE, \
    "EPSG"
+
+"ETRS89_to_GBK19-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_GBK19-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_GWPBS22-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_GWPBS22-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_GWWAB22-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_GWWAB22-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_GWWWA22-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_GWWWA22-IRF_1", \
+   FALSE, \
+   ""
 
 "ETRS89 to HULLEE13-IRF (1)", \
-   "ETRS_1989_to_HULLEE13-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_HULLEE13-IRF_1", \
    FALSE, \
    "EPSG"
 
+"ETRS89_to_MALS09-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_MALS09-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_MML07-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_MML07-IRF_1", \
+   FALSE, \
+   ""
+
 "ETRS89 to MOLDOR11-IRF (1)", \
-   "ETRS_1989_to_MOLDOR11-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_MOLDOR11-IRF_1", \
    FALSE, \
    "EPSG"
 
 "ETRS89 to MRH21-IRF (1)", \
-   "ETRS_1989_to_MRH21-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_MRH21-IRF_1", \
    FALSE, \
    "EPSG"
 
 "ETRS89 to MWC18-IRF (1)", \
-   "ETRS_1989_to_MWC18-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_MWC18-IRF_1", \
    FALSE, \
    "EPSG"
 
@@ -2099,18 +2389,63 @@
    FALSE, \
    "EPSG"
 
+"ETRS89_to_OxWo08-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_OxWo08-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_RBEPP12-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_RBEPP12-IRF_1", \
+   FALSE, \
+   ""
+
 "ETRS89 to SCM22-IRF (1)", \
-   "ETRS_1989_to_SCM22-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_SCM22-IRF_1", \
    FALSE, \
    "EPSG"
+
+"ETRS89_to_ShAb07-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_ShAb07-IRF_1", \
+   FALSE, \
+   ""
 
 "ETRS89 to S-JTSK [JTSK03] (1)", \
    "ETRS_1989_To_S-JTSK_[JTSK03]_1", \
    FALSE, \
    "EPSG"
 
+"ETRS89_to_SMITB20-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_SMITB20-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_SYC20-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_SYC20-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_TPEN11-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_TPEN11-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89_to_WC05-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_WC05-IRF_1", \
+   FALSE, \
+   ""
+
 "ETRS89 to WGS 84 (1)", \
    "ETRS_1989_To_WGS_1984", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89_to_WSPG-IRF_1", \
+   "ETRS89-GBR_[OSNet_v2009]_to_WSPG-IRF_1", \
+   FALSE, \
+   ""
+
+"ETRS89-XKX [KOSOVAREF01] to WGS 84 (1)", \
+   "KOSOVAREF01_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -2449,6 +2784,11 @@
    FALSE, \
    "EPSG"
 
+"HS2-IRF_to_ETRS89_1", \
+   "HS2-IRF_to_ETRS89-GBR_[OSNet_v2009]_1", \
+   FALSE, \
+   ""
+
 "HTRS96 to ETRS89 (1)", \
    "HTRS96_To_ETRS_1989_1", \
    FALSE, \
@@ -2674,14 +3014,29 @@
    FALSE, \
    "EPSG"
 
+"IRENET95_To_ETRF_1989", \
+   "ETRS89-IRE_[ETRF2000]_To_ETRF_1989", \
+   TRUE, \
+   ""
+
+"IRENET95_To_ETRS_1989", \
+   "ETRS89-IRE_[ETRF2000]_To_ETRS_1989", \
+   TRUE, \
+   ""
+
 "IRENET95 to ETRS89 (1)", \
-   "IRENET95_To_ETRS_1989", \
-   FALSE, \
+   "ETRS89-IRE_[ETRF2000]_To_ETRS_1989", \
+   TRUE, \
    "EPSG"
 
+"IRENET95_To_WGS_1984_1", \
+   "ETRS89-IRE_[ETRF2000]_To_WGS_84_1", \
+   TRUE, \
+   ""
+
 "IRENET95 to WGS 84 (1)", \
-   "IRENET95_To_WGS_1984_1", \
-   FALSE, \
+   "ETRS89-IRE_[ETRF2000]_To_WGS_84_1", \
+   TRUE, \
    "EPSG"
 
 "ISN2004 to WGS 84 (1)", \
@@ -2757,10 +3112,20 @@
 "JGD2000 to JGD2011 (1)", \
    "JGD_2000_To_JGD_2011_NTv2_1", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2000 to JGD2011 (2)", \
    "JGD_2000_To_JGD_2011_2_Null", \
+   FALSE, \
+   ""
+
+"JGD2000 to JGD2024 (1)", \
+   "JGD_2000_To_JGD_2024_NTv2_1", \
+   FALSE, \
+   "EPSG"
+
+"JGD2000 to JGD2024 (2)", \
+   "JGD_2000_To_JGD_2024_2_Null", \
    FALSE, \
    "EPSG"
 
@@ -2776,6 +3141,11 @@
 
 "JGD2011 to WGS 84 (1)", \
    "JGD2011_to_WGS_1984_1", \
+   FALSE, \
+   ""
+
+"JGD2024 to WGS 84 (1)", \
+   "JGD_2024_to_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -2891,6 +3261,11 @@
 
 "KKJ to ETRS89 (1)", \
    "KKJ_To_ETRS_1989_1_Old", \
+   FALSE, \
+   "EPSG"
+
+"KKJ to ETRS89-FIN [EUREF-FIN] (2)", \
+   "KKJ_To_EUREF_FIN", \
    FALSE, \
    "EPSG"
 
@@ -3419,6 +3794,81 @@
    FALSE, \
    "EPSG"
 
+"MGI 1901 to ETRS89-SRB [STRS00] (8)", \
+   "MGI_1901_to_SRB-ETRS89_8", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SRB [STRS00] (9)", \
+   "MGI_1901_to_SRB-ETRS89_9", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (1)", \
+   "MGI_1901_To_Slovenia_1996_1", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (10)", \
+   "MGI_1901_To_Slovenia_1996_10", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (11)", \
+   "MGI_1901_To_Slovenia_1996_11", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (12)", \
+   "MGI_1901_To_Slovenia_1996_12", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (2)", \
+   "MGI_1901_To_Slovenia_1996_2", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (3)", \
+   "MGI_1901_To_Slovenia_1996_3", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (4)", \
+   "MGI_1901_To_Slovenia_1996_4", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (5)", \
+   "MGI_1901_To_Slovenia_1996_5", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (6)", \
+   "MGI_1901_To_Slovenia_1996_6", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (7)", \
+   "MGI_1901_To_Slovenia_1996_7", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (8)", \
+   "MGI_1901_To_Slovenia_1996_8", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-SVN [D96] (9)", \
+   "MGI_1901_To_Slovenia_1996_9", \
+   FALSE, \
+   "EPSG"
+
+"MGI 1901 to ETRS89-XKX [KOSOVAREF01] (1)", \
+   "MGI_1901_To_KOSOVAREF01_1", \
+   FALSE, \
+   "EPSG"
+
 "MGI 1901 to WGS 84 (1)", \
    "MGI_1901_To_WGS_1984_1", \
    FALSE, \
@@ -3661,6 +4111,16 @@
 
 "Monte Mario to ETRS89 (3)", \
    "Monte_Mario_To_ETRS_1989_3", \
+   FALSE, \
+   "EPSG"
+
+"Monte Mario to ETRS89-ITA [IGM95] (4)", \
+   "Monte_Mario_to_IGM95_4", \
+   FALSE, \
+   "EPSG"
+
+"Monte Mario to ETRS89-ITA [RDN2008] (5)", \
+   "Monte_Mario_to_RDN2008_5", \
    FALSE, \
    "EPSG"
 
@@ -4895,7 +5355,7 @@
    "EPSG"
 
 "NGO 1948 (Oslo) to WGS 84 (1)", \
-   "Belge_1972_To_ETRS_1989_3", \
+   "NGO_1948_Oslo_To_WGS_1984_1", \
    FALSE, \
    "EPSG"
 
@@ -4976,6 +5436,11 @@
 
 "NTF (Paris) to ED50 (1)", \
    "NTF_Paris_To_ED_1950", \
+   FALSE, \
+   "EPSG"
+
+"NTF (Paris) to ETRS89-FRA [RGF93 v1] (2)", \
+   "NTF_(Paris)_to_RGF93_v1_2", \
    FALSE, \
    "EPSG"
 
@@ -5569,6 +6034,11 @@
    FALSE, \
    "EPSG"
 
+"Pulkovo 1942(83) to BGS2005 (1)", \
+   "Pulkovo_1942_Adj_1983_to_BGS2005_1", \
+   FALSE, \
+   "EPSG"
+
 "Pulkovo 1942(83) to ETRS89 (1)", \
    "Pulkovo_1942_Adj_1983_To_ETRS_1989_1", \
    FALSE, \
@@ -5576,6 +6046,11 @@
 
 "Pulkovo 1942(83) to ETRS89 (2)", \
    "Pulkovo_1942_Adj_1983_To_ETRS_1989_2", \
+   FALSE, \
+   "EPSG"
+
+"Pulkovo 1942(83) to ETRS89-BGR [BGS2005] (1)", \
+   "Pulkovo_1942_Adj_1983_to_BGS2005_1", \
    FALSE, \
    "EPSG"
 
@@ -5596,6 +6071,11 @@
 
 "Pulkovo 1942 to EST92 (1)", \
    "Pulkovo_1942_To_Estonia_1992", \
+   FALSE, \
+   "EPSG"
+
+"Pulkovo 1942 to ETRS89-LTU [LKS94] (1)", \
+   "Pulkovo_1942_To_LKS_1994", \
    FALSE, \
    "EPSG"
 
@@ -5951,6 +6431,11 @@
 
 "RT90 to ETRS89 (1)", \
    "RT90_To_ETRS_1989_1", \
+   FALSE, \
+   "EPSG"
+
+"RT90 to ETRS89-SWE [SWEREF 99] (1)", \
+   "RT90_To_SWEREF99_1", \
    FALSE, \
    "EPSG"
 
@@ -6726,6 +7211,11 @@
 
 "Tokyo to JGD2011 (2)", \
    "Tokyo_To_JGD_2011_2_NTv2", \
+   FALSE, \
+   ""
+
+"Tokyo to JGD2024 (2)", \
+   "Tokyo_To_JGD_2024_2_NTv2", \
    FALSE, \
    "EPSG"
 

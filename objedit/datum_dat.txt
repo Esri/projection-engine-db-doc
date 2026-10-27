@@ -32,7 +32,8 @@ PE_D_MGI_1901, \
 PE_D_MOLDREF99, \
    "D_MOLDREF99", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1997.4
 
 PE_D_RESEAU_GEODESIQUE_DE_LA_RDC_2005, \
    "D_Reseau_Geodesique_de_la_RDC_2005", \
@@ -42,7 +43,8 @@ PE_D_RESEAU_GEODESIQUE_DE_LA_RDC_2005, \
 PE_D_SERBIAN_REFERENCE_NETWORK_1998, \
    "D_Serbian_Reference_Network_1998", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1998.7
 
 PE_D_RED_GEODESICA_DE_CANARIAS_1995, \
    "D_Red_Geodesica_de_Canarias_1995", \
@@ -292,15 +294,16 @@ PE_D_MEXICO_ITRF2008, \
    PE_S_GRS_1980,
    ""
 
-PE_D_JGD_2011, \
-   "D_JGD_2011", \
+PE_D_JGD_2024, \
+   "Japanese_Geodetic_Datum_2024", \
    PE_S_GRS_1980,
    ""
 
 PE_D_RETE_DINAMICA_NAZIONALE_2008, \
    "D_Rete_Dinamica_Nazionale_2008", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2008.0
 
 PE_D_NAD_1983_CORS96, \
    "D_NAD_1983_CORS96", \
@@ -410,7 +413,8 @@ PE_D_WGS_1984_TRANSIT, \
 PE_D_BULGARIA_2005, \
    "Bulgaria_Geodetic_System_2005", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2005.0
 
 PE_D_GDA2020, \
    "GDA2020", \
@@ -576,7 +580,8 @@ PE_D_NAD_1983_HARN_CORRECTED, \
 PE_D_SSRS_2000, \
    "Serbian_Spatial_Reference_System_2000", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2010.63
 
 PE_D_CAMACUPA_2015, \
    "Camacupa_2015", \
@@ -606,7 +611,8 @@ PE_D_RGWF_1996, \
 PE_D_CR_SIRGAS, \
    "CR-SIRGAS", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2014.59
 
 PE_D_SIRGAS_CON_DGF00P01, \
    "SIRGAS_Continuously_Operating_Network_DGF00P01", \
@@ -726,7 +732,8 @@ PE_D_NAD_1983_PACP00, \
 PE_D_KOSOVO_REF_SYS_2001, \
    "Kosovo_Reference_System_2001", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2001.25
 
 PE_D_SIRGAS_CHILE_REAL_3_2013, \
    "SIRGAS-Chile_2013", \
@@ -821,7 +828,8 @@ PE_D_RED_GEODESICA_PARA_MINERIA_EN_CHILE, \
 PE_D_ETRF2000_POLAND, \
    "ETRF2000_Poland", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2011.0
 
 PE_D_EOS21_INTERMEDIATE_REFERENCE_FRAME, \
    "EOS21_Intermediate_Reference_Frame", \
@@ -846,12 +854,14 @@ PE_D_EWR2_INTERMEDIATE_REFERENCE_FRAME, \
 PE_D_RESEAU_GEODESIQUE_FRANCAIS_1993_V2, \
    "Reseau_Geodesique_Francais_1993_v2", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2009.0
 
 PE_D_RESEAU_GEODESIQUE_FRANCAIS_1993_V2B, \
    "Reseau_Geodesique_Francais_1993_v2b", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2019.0
 
 PE_D_MRH21_INTERMEDIATE_REFERENCE_FRAME, \
    "MRH21_Intermediate_Reference_Frame", \
@@ -1011,7 +1021,8 @@ PE_D_RBEPP12_INTERMEDIATE_REFERENCE_FRAME, \
 PE_D_ETRS89_DREF91_REALIZATION_2016, \
    "ETRS89_DREF91_Realization_2016", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2008.46
 
 PE_D_SONATRACH_REFERENCE_FRAME_2020, \
    "Sonatrach_Reference_Frame_2020", \
@@ -1021,7 +1032,8 @@ PE_D_SONATRACH_REFERENCE_FRAME_2020, \
 PE_D_LATVIAN_COORDINATE_SYSTEM_2020, \
    "Latvian_coordinate_system_2020", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2020.28
 
 PE_D_RESEAU_GEODESIQUE_DE_NOUVELLE_CALEDONIE_2015, \
    "Reseau_Geodesique_de_Nouvelle_Caledonie_2015", \
@@ -1031,7 +1043,8 @@ PE_D_RESEAU_GEODESIQUE_DE_NOUVELLE_CALEDONIE_2015, \
 PE_D_BH_ETRS89, \
    "BH_ETRS89", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2011.307
 
 PE_D_HUGHES_1980, \
    "D_Hughes_1980", \
@@ -1145,6 +1158,12 @@ PE_D_LIBERIA_REFERENCE_FRAME_2021, \
    PE_S_GRS_1980,
    ""
 
+PE_D_NORDIC_GEODETIC_COMMISSION_ETRF14, \
+   "Nordic_Geodetic_Commission_ETRF14", \
+   PE_S_GRS_1980,
+   "",
+   2000.0
+
 PE_D_GEORGIA_GEODETIC_DATUM, \
    "Georgia_Geodetic_Datum", \
    PE_S_GRS_1980,
@@ -1160,10 +1179,22 @@ PE_D_WSPG_INTERMEDIATE_REFERENCE_FRAME, \
    PE_S_GRS_1980,
    ""
 
+PE_D_EUREF89, \
+   "EUREF89", \
+   PE_S_GRS_1980,
+   "",
+   1995.0
+
 PE_D_XRAIL84, \
    "D_Xrail84", \
    PE_S_WGS_1984,
    ""
+
+PE_D_ETRS89_DNK, \
+   "ETRS89-DNK", \
+   PE_S_GRS_1980,
+   "",
+   2015.829
 
 PE_D_ASSE_GEODETIC_DATUM_2025, \
    "Asse_geodetic_datum_2025", \
@@ -1204,11 +1235,23 @@ PE_D_GREENLAND_REFERENCE_1996_ENSEMBLE, \
    PE_S_GRS_1980,
    ""
 
+PE_D_OSNET_V2009, \
+   "OSNet_v2009", \
+   PE_S_GRS_1980,
+   "",
+   2009.756
+
 PE_D_SISTEM_REFERENSI_GEOSPASIAL_INDONESIA_2013_EPOCH_2021, \
    "Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0", \
    PE_S_WGS_1984,
    "",
    2021.0
+
+PE_D_AGRS2010_ETRF2000, \
+   "AGRS2010_(ETRF2000)", \
+   PE_S_GRS_1980,
+   "",
+   2010.5
 
 PE_D_CR_SIRGAS_EPOCH_2019_24, \
    "CR-SIRGAS_epoch_2019.24", \
@@ -1216,10 +1259,151 @@ PE_D_CR_SIRGAS_EPOCH_2019_24, \
    "",
    2019.24
 
+PE_D_ALBANIAN_GEODETIC_REFERENCE_FRAME_2008, \
+   "Albanian_Geodetic_Reference_Frame_2008", \
+   PE_S_GRS_1980,
+   "",
+   2008.0
+
+PE_D_ALBANIAN_GEODETIC_REFERENCE_FRAME_2014, \
+   "Albanian_Geodetic_Reference_Frame_2014", \
+   PE_S_GRS_1980,
+   "",
+   2014.177
+
+PE_D_ETRS89_AUT_2002, \
+   "ETRS89-AUT_[2002]", \
+   PE_S_GRS_1980,
+   "",
+   2002.56
+
+PE_D_BELGIAN_REFERENCE_FRAME_2002, \
+   "Belgian_Reference_Frame_2002", \
+   PE_S_GRS_1980,
+   "",
+   2002.73
+
+PE_D_ETRS89_CZE_2007, \
+   "ETRS89-CZE_[2007]", \
+   PE_S_GRS_1980,
+   "",
+   2007.0
+
+PE_D_ETRS89_SVK_SKTRF09, \
+   "ETRS89-SVK_[SKTRF09]", \
+   PE_S_GRS_1980,
+   "",
+   2008.5
+
+PE_D_ETRS89_SVK_SKTRF2022, \
+   "ETRS89-SVK_[SKTRF2022]", \
+   PE_S_GRS_1980,
+   "",
+   2008.5
+
+PE_D_ETRS89_FRO_2008, \
+   "ETRS89-FRO_[2008]", \
+   PE_S_GRS_1980,
+   "",
+   2008.75
+
+PE_D_HELLENIC_TERRESTRIAL_REFERENCE_SYSTEM_2007, \
+   "Hellenic_Terrestrial_Reference_System_2007", \
+   PE_S_GRS_1980,
+   "",
+   2007.5
+
+PE_D_ETRS89_MKD_EUREF_MAK2010, \
+   "ETRS89-MKD_[EUREF-MAK2010]", \
+   PE_S_GRS_1980,
+   "",
+   2010.631
+
+PE_D_ETRS89_PRT_1995, \
+   "ETRS89-PRT_[1995]", \
+   PE_S_GRS_1980,
+   "",
+   1995.4
+
+PE_D_ETRS89_ROU_ETRF2000, \
+   "ETRS89-ROU_[ETRF2000]", \
+   PE_S_GRS_1980,
+   "",
+   2000.0
+
+PE_D_ETRS89_ESP_REGENTE, \
+   "ETRS89-ESP_[REGENTE]", \
+   PE_S_GRS_1980,
+   "",
+   1995.4
+
+PE_D_ETRS89_ESP_ERGNSS, \
+   "ETRS89-ESP_[ERGNSS]", \
+   PE_S_GRS_1980,
+   "",
+   2017.0
+
+PE_D_ETRS89_HUN_ETRF2000, \
+   "ETRS89-HUN_[ETRF2000]", \
+   PE_S_GRS_1980,
+   "",
+   2024.0
+
+PE_D_CROPOS, \
+   "CROPOS", \
+   PE_S_GRS_1980,
+   "",
+   2008.83
+
+PE_D_ETRS89_DREF91_REALIZATION_2025, \
+   "ETRS89_DREF91_Realization_2025", \
+   PE_S_GRS_1980,
+   "",
+   2021.48
+
+PE_D_BELGIAN_REFERENCE_FRAME_2011, \
+   "Belgian_Reference_Frame_2011", \
+   PE_S_GRS_1980,
+   "",
+   2011.763
+
 PE_D_NATIONAL_REFERENCE_FRAME_OF_BHUTAN_2023, \
    "National_Reference_Frame_of_Bhutan_2023", \
    PE_S_GRS_1980,
    ""
+
+PE_D_SWISS_TERRESTRIAL_REFERENCE_FRAME_1995, \
+   "Swiss_Terrestrial_Reference_Frame_1995", \
+   PE_S_GRS_1980,
+   "",
+   1993.0
+
+PE_D_ETRS89_LUX_2020, \
+   "ETRS89-LUX_[2020]", \
+   PE_S_GRS_1980,
+   "",
+   2020.82
+
+PE_D_DART26_INTERMEDIATE_REFERENCE_FRAME, \
+   "Dart+26_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SZCTW_INTERMEDIATE_REFERENCE_FRAME, \
+   "SZCTW_Intermediate_Reference_Frame", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_SIRGAS_CHILE_2025, \
+   "SIRGAS-Chile_2025", \
+   PE_S_GRS_1980,
+   ""
+
+PE_D_ETRS89_LUX_2025, \
+   "ETRS89-LUX_[2025]", \
+   PE_S_GRS_1980,
+   "",
+   2025.83
 
 PE_D_AIRY_1830, \
    "D_Airy_1830", \
@@ -1454,7 +1638,8 @@ PE_D_SAMBOJA, \
 PE_D_LITHUANIA_1994, \
    "D_Lithuania_1994", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2003.75
 
 PE_D_TETE, \
    "D_Tete", \
@@ -1679,7 +1864,8 @@ PE_D_SIRGAS, \
 PE_D_RGF_1993, \
    "D_RGF_1993", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1993.0
 
 PE_D_POSGAR, \
    "D_POSGAR", \
@@ -1687,9 +1873,10 @@ PE_D_POSGAR, \
    ""
 
 PE_D_IRENET95, \
-   "D_IRENET95", \
+   "ETRS89-IRE_[ETRF2000]", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2009.756
 
 PE_D_SIERRA_LEONE_1924, \
    "D_Sierra_Leone_1924", \
@@ -1719,7 +1906,8 @@ PE_D_PULKOVO_1942_ADJ_1958, \
 PE_D_ESTONIA_1997, \
    "D_Estonia_1997", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1997.56
 
 PE_D_LUXEMBOURG_1930, \
    "D_Luxembourg_Reference_Frame", \
@@ -2494,7 +2682,8 @@ PE_D_SAD_1969, \
 PE_D_SWEREF99, \
    "D_SWEREF99", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1999.5
 
 PE_D_POINT58, \
    "D_Point_58", \
@@ -2699,7 +2888,8 @@ PE_D_HELLE_1954, \
 PE_D_LATVIA_1992, \
    "D_Latvia_1992", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1992.75
 
 PE_D_PORTO_SANTO_1995, \
    "D_Porto_Santo_1995", \
@@ -2734,7 +2924,8 @@ PE_D_EUROPEAN_1979, \
 PE_D_IGM_1995, \
    "D_IGM_1995", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1989.0
 
 PE_D_VOIROL_1879, \
    "D_Voirol_1879", \
@@ -3179,7 +3370,8 @@ PE_D_WGS_1966, \
 PE_D_CROATIAN_TERRESTRIAL_REFERENCE_SYSTEM, \
    "D_Croatian_Terrestrial_Reference_System", \
    PE_S_GRS_1980,
-   ""
+   "",
+   1995.55
 
 PE_D_BERMUDA_2000, \
    "D_Bermuda_2000", \
@@ -3199,7 +3391,8 @@ PE_D_ROSS_SEA_REGION_GEODETIC_DATUM_2000, \
 PE_D_SLOVENIA_GEODETIC_DATUM_1996, \
    "D_Slovenia_Geodetic_Datum_1996", \
    PE_S_GRS_1980,
-   ""
+   "",
+   2016.75
 
 PE_D_CH1903_BERN, \
    "CH1903_(Bern)", \
@@ -3367,8 +3560,8 @@ PE_D_CSRS_EPOCH_2017_5_NAD83, \
    "",
    2017.5
 
-PE_D_JGD_2024, \
-   "Japanese_Geodetic_Datum_2024", \
+PE_D_JGD_2011, \
+   "D_JGD_2011", \
    PE_S_GRS_1980,
    ""
 
@@ -3395,11 +3588,6 @@ PE_D_GDM2008, \
 PE_D_SPHERE_GRS_1980_MEAN_RADIUS, \
    "D_Sphere_GRS_1980_Mean_Radius", \
    PE_S_SPHERE_GRS_1980_MEAN_RADIUS,
-   ""
-
-PE_D_HELLENIC_TERRESTRIAL_REFERENCE_SYSTEM_2007, \
-   "Hellenic_Terrestrial_Reference_System_2007", \
-   PE_S_GRS_1980,
    ""
 
 PE_D_ESTONIA_1937, \

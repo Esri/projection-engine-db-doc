@@ -2574,6 +2574,16 @@
    FALSE, \
    "Teradata"
 
+"Belge_Lambert_2005", \
+   "ETRS89-BEL_[BEREF2002]_Belgian_Lambert_2005", \
+   FALSE, \
+   ""
+
+"Belge_Lambert_2008", \
+   "ETRS89-BEL_[BEREF2002]_Belgian_Lambert_2008", \
+   FALSE, \
+   ""
+
 "Bern_1898_Bern_LV03C_Shifted", \
    "Bern_1898_Bern_LV03C", \
    FALSE, \
@@ -3524,6 +3534,21 @@
    FALSE, \
    "EPSG"
 
+"CR-SIRGAS epoch 2014.59 / CRTM05", \
+   "CR-SIRGAS_CRTM05", \
+   FALSE, \
+   "EPSG"
+
+"CR-SIRGAS epoch 2014.59 / UTM zone 16N", \
+   "CR-SIRGAS_UTM_Zone_16N", \
+   FALSE, \
+   "EPSG"
+
+"CR-SIRGAS epoch 2014.59 / UTM zone 17N", \
+   "CR-SIRGAS_UTM_Zone_17N", \
+   FALSE, \
+   "EPSG"
+
 "CSG67 / UTM zone 21N", \
    "CSG_1967_UTM_Zone_21N", \
    FALSE, \
@@ -3631,6 +3656,16 @@
 
 "CSRN2025 (NAD83 2011) / California zone 6 (ftUS)", \
    "CSRN2025_(NAD83_2011)_California_zone_6_US_Feet", \
+   FALSE, \
+   "EPSG"
+
+"D96/TM", \
+   "Slovenia_1996_Slovene_National_Grid", \
+   FALSE, \
+   "EPSG"
+
+"D96/UTM", \
+   "Slovenia_1996_UTM_Zone_33N", \
    FALSE, \
    "EPSG"
 
@@ -5859,6 +5894,26 @@
    FALSE, \
    "EPSG"
 
+"ETRF2000-PL_CS92", \
+   "ETRS89_PL-1992", \
+   FALSE, \
+   ""
+
+"ETRS_1989_Albania_2010", \
+   "ETRS89-ALB_[2008]_Albania_TM_2010", \
+   FALSE, \
+   ""
+
+"ETRS_1989_Albania_LCC_2010", \
+   "ETRS89-ALB_[2008]_Albania_LCC_2010", \
+   FALSE, \
+   ""
+
+"ETRS_1989_Austria_Lambert", \
+   "ETRS89-AUT_[2002]_Austria_Lambert", \
+   FALSE, \
+   ""
+
 "ETRS_1989_ETRS_GK19FIN", \
    "EUREF-FIN_ETRS-GK19FIN", \
    FALSE, \
@@ -5921,6 +5976,11 @@
 
 "ETRS_1989_ETRS_GK31FIN", \
    "EUREF-FIN_ETRS-GK31FIN", \
+   FALSE, \
+   ""
+
+"ETRS_1989_FAROE_TM", \
+   "ETRS89-FRO_[2008]_FAROE_TM", \
    FALSE, \
    ""
 
@@ -5989,6 +6049,136 @@
    FALSE, \
    ""
 
+"ETRS_1989_NTM_Zone_10", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_10", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_11", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_11", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_12", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_12", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_13", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_13", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_14", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_14", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_15", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_15", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_16", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_16", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_17", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_17", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_18", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_18", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_19", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_19", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_20", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_20", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_21", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_21", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_22", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_22", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_23", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_23", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_24", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_24", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_25", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_25", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_26", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_26", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_27", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_27", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_28", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_28", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_29", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_29", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_30", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_30", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_5", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_5", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_6", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_6", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_7", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_7", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_8", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_8", \
+   FALSE, \
+   ""
+
+"ETRS_1989_NTM_Zone_9", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9", \
+   FALSE, \
+   ""
+
 "ETRS_1989_Poland_CS2000_Zone_5", \
    "ETRF2000-PL_CS2000_15_Zone_5", \
    FALSE, \
@@ -6010,7 +6200,12 @@
    ""
 
 "ETRS_1989_Poland_CS92", \
-   "ETRF2000-PL_CS92", \
+   "ETRS89_PL-1992", \
+   FALSE, \
+   ""
+
+"ETRS_1989_Portugal_TM06", \
+   "ETRS89-PRT_[1995]_Portugal_TM06", \
    FALSE, \
    ""
 
@@ -6020,17 +6215,17 @@
    ""
 
 "ETRS89 / Albania LCC 2010", \
-   "ETRS_1989_Albania_LCC_2010", \
+   "ETRS89-ALB_[2008]_Albania_LCC_2010", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / Albania TM 2010", \
-   "ETRS_1989_Albania_2010", \
+   "ETRS89-ALB_[2008]_Albania_TM_2010", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / Austria Lambert", \
-   "ETRS_1989_Austria_Lambert", \
+   "ETRS89-AUT_[2002]_Austria_Lambert", \
    FALSE, \
    "EPSG"
 
@@ -6045,7 +6240,7 @@
    "SpatiaLite"
 
 "ETRS89 / Belgian Lambert 2005", \
-   "Belge_Lambert_2005", \
+   "ETRS89-BEL_[BEREF2002]_Belgian_Lambert_2005", \
    FALSE, \
    "EPSG"
 
@@ -6060,7 +6255,7 @@
    "SpatiaLite"
 
 "ETRS89 / Belgian Lambert 2008", \
-   "Belge_Lambert_2008", \
+   "ETRS89-BEL_[BEREF2002]_Belgian_Lambert_2008", \
    FALSE, \
    "EPSG"
 
@@ -6073,6 +6268,91 @@
    "Belge_Lambert_2008", \
    FALSE, \
    "SpatiaLite"
+
+"ETRS89-BGR [BGS2005] / CCS2005", \
+   "BGS2005_CCS2005", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BGR [BGS2005] / UTM zone 34N", \
+   "BGS2005_UTM_zone_34N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BGR [BGS2005] / UTM zone 34N (N-E)", \
+   "BGS2005_UTM_zone_34N_(N-E)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BGR [BGS2005] / UTM zone 35N", \
+   "BGS2005_UTM_zone_35N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BGR [BGS2005] / UTM zone 35N (N-E)", \
+   "BGS2005_UTM_zone_35N_(N-E)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BGR [BGS2005] / UTM zone 36N", \
+   "BGS2005_UTM_zone_36N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-BIH [BH_ETRS89] / TM", \
+   "BH_ETRS89_TM", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] / 3-degree Gauss-Kruger zone 3", \
+   "ETRS89_DREF91_2016_3-degree_Gauss-Kruger_zone_3", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] / UTM zone 31N", \
+   "ETRS89_DREF91_2016_UTM_zone_31N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] / UTM zone 31N (N-zE)", \
+   "ETRS89_DREF91_2016_UTM_zone_31N_(N-zE)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] / UTM zone 31N (zE-N)", \
+   "ETRS89_DREF91_2016_UTM_zone_31N_(zE-N)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] / UTM zone 32N", \
+   "ETRS89_DREF91_2016_UTM_zone_32N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] / UTM zone 32N (N-zE)", \
+   "ETRS89_DREF91_2016_UTM_zone_32N_(N-zE)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] / UTM zone 32N (zE-N)", \
+   "ETRS89_DREF91_2016_UTM_zone_32N_(zE-N)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] / UTM zone 33N", \
+   "ETRS89_DREF91_2016_UTM_zone_33N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] / UTM zone 33N (N-zE)", \
+   "ETRS89_DREF91_2016_UTM_zone_33N_(N-zE)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-DEU [ETRS89/DREF91/2016] / UTM zone 33N (zE-N)", \
+   "ETRS89_DREF91_2016_UTM_zone_33N_(zE-N)", \
+   FALSE, \
+   "EPSG"
 
 "ETRS89 / DKTM1", \
    "ETRS_1989_DKTM1", \
@@ -6126,6 +6406,11 @@
 
 "ETRS89 / EPSG Arctic zone 5-47", \
    "ETRS_1989_EPSG_Arctic_zone_5-47", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-EST [EST97] / Estonia National Grid", \
+   "Estonia_1997_Estonia_National_Grid", \
    FALSE, \
    "EPSG"
 
@@ -6670,12 +6955,322 @@
    "EPSG"
 
 "ETRS89 / Faroe TM", \
-   "ETRS_1989_FAROE_TM", \
+   "ETRS89-FRO_[2008]_FAROE_TM", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK19FIN", \
+   "EUREF-FIN_ETRS-GK19FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK20FIN", \
+   "EUREF-FIN_ETRS-GK20FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK21FIN", \
+   "EUREF-FIN_ETRS-GK21FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK22FIN", \
+   "EUREF-FIN_ETRS-GK22FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK23FIN", \
+   "EUREF-FIN_ETRS-GK23FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK24FIN", \
+   "EUREF-FIN_ETRS-GK24FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK25FIN", \
+   "EUREF-FIN_ETRS-GK25FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK26FIN", \
+   "EUREF-FIN_ETRS-GK26FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK27FIN", \
+   "EUREF-FIN_ETRS-GK27FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK28FIN", \
+   "EUREF-FIN_ETRS-GK28FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK29FIN", \
+   "EUREF-FIN_ETRS-GK29FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK30FIN", \
+   "EUREF-FIN_ETRS-GK30FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / ETRS-GK31FIN", \
+   "EUREF-FIN_ETRS-GK31FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK19FIN", \
+   "EUREF-FIN_GK19FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK20FIN", \
+   "EUREF-FIN_GK20FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK21FIN", \
+   "EUREF-FIN_GK21FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK22FIN", \
+   "EUREF-FIN_GK22FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK23FIN", \
+   "EUREF-FIN_GK23FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK24FIN", \
+   "EUREF-FIN_GK24FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK25FIN", \
+   "EUREF-FIN_GK25FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK26FIN", \
+   "EUREF-FIN_GK26FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK27FIN", \
+   "EUREF-FIN_GK27FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK28FIN", \
+   "EUREF-FIN_GK28FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK29FIN", \
+   "EUREF-FIN_GK29FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK30FIN", \
+   "EUREF-FIN_GK30FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / GK31FIN", \
+   "EUREF-FIN_GK31FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / TM35FIN(E,N)", \
+   "EUREF-FIN_TM35FIN", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / TM35FIN(N,E)", \
+   "EUREF-FIN_TM35FIN_NE", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / UTM zone 34N", \
+   "EUREF-FIN_UTM_zone_34N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FIN [EUREF-FIN] / UTM zone 36N", \
+   "EUREF-FIN_UTM_zone_36N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / CC42", \
+   "RGF_1993_CC42", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / CC43", \
+   "RGF_1993_CC43", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / CC44", \
+   "RGF_1993_CC44", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / CC45", \
+   "RGF_1993_CC45", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / CC46", \
+   "RGF_1993_CC46", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / CC47", \
+   "RGF_1993_CC47", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / CC48", \
+   "RGF_1993_CC48", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / CC49", \
+   "RGF_1993_CC49", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / CC50", \
+   "RGF_1993_CC50", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v1] / Lambert-93", \
+   "RGF_1993_Lambert_93", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / CC42", \
+   "RGF93_v2b_CC42", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / CC43", \
+   "RGF93_v2b_CC43", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / CC44", \
+   "RGF93_v2b_CC44", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / CC45", \
+   "RGF93_v2b_CC45", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / CC46", \
+   "RGF93_v2b_CC46", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / CC47", \
+   "RGF93_v2b_CC47", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / CC48", \
+   "RGF93_v2b_CC48", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / CC49", \
+   "RGF93_v2b_CC49", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / CC50", \
+   "RGF93_v2b_CC50", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2b] / Lambert-93", \
+   "RGF93_v2b_Lambert-93", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / CC42", \
+   "RGF93_v2_CC42", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / CC43", \
+   "RGF93_v2_CC43", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / CC44", \
+   "RGF93_v2_CC44", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / CC45", \
+   "RGF93_v2_CC45", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / CC46", \
+   "RGF93_v2_CC46", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / CC47", \
+   "RGF93_v2_CC47", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / CC48", \
+   "RGF93_v2_CC48", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / CC49", \
+   "RGF93_v2_CC49", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / CC50", \
+   "RGF93_v2_CC50", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-FRA [RGF93 v2] / Lambert-93", \
+   "RGF93_v2_Lambert-93", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / Gauss-Kruger CM 9E", \
    "ETRS_1989_GK_CM_9E", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GRC [HTRS07] / TM07", \
+   "HTRS07_TM07", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-GRC [HTRS07] / TM07 Kastellorizo", \
+   "HTRS07_TM07_(Kastellorizo)", \
    FALSE, \
    "EPSG"
 
@@ -6698,6 +7293,91 @@
    "ETRS_1989_Guernsey_Grid", \
    FALSE, \
    "Teradata"
+
+"ETRS89-HRV [HTRS96] / Croatia LCC", \
+   "HTRS96_Croatia_LCC", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-HRV [HTRS96] / Croatia TM", \
+   "HTRS96_Croatia_TM", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-HRV [HTRS96] / UTM zone 33N", \
+   "HTRS96_UTM_Zone_33N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-HRV [HTRS96] / UTM zone 34N", \
+   "HTRS96_UTM_Zone_34N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [IGM95] / UTM zone 32N", \
+   "IGM_1995_UTM_Zone_32N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [IGM95] / UTM zone 33N", \
+   "IGM_1995_UTM_Zone_33N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [IGM95] / UTM zone 34N", \
+   "IGM95_UTM_Zone_34N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] / Italy zone (E-N)", \
+   "RDN2008_Italy_zone_(E-N)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] / Italy zone (N-E)", \
+   "RDN2008_Italy_zone", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] / UTM zone 32N", \
+   "RDN2008_UTM_zone_32N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] / UTM zone 32N (N-E)", \
+   "RDN2008_TM32", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] / UTM zone 33N", \
+   "RDN2008_UTM_zone_33N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] / UTM zone 33N (N-E)", \
+   "RDN2008_TM33", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] / UTM zone 34N", \
+   "RDN2008_UTM_zone_34N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] / UTM zone 34N (N-E)", \
+   "RDN2008_TM34", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] / Zone 12 (E-N)", \
+   "RDN2008_Zone_12_(E-N)", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-ITA [RDN2008] / Zone 12 (N-E)", \
+   "RDN2008_Zone_12", \
+   FALSE, \
+   "EPSG"
 
 "ETRS89 / Jersey Transverse Mercator", \
    "ETRS_1989_Jersey_Transverse_Mercator", \
@@ -6804,133 +7484,153 @@
    FALSE, \
    "EPSG"
 
+"ETRS89-LTU [LKS94] / Lithuania TM", \
+   "LKS_1994_Lithuania_TM", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-2020] / Latvia TM", \
+   "LKS-2020_Latvia_TM", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-LVA [LKS-92] / Latvia TM", \
+   "LKS_1992_Latvia_TM", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-MDA [MOLDREF99] / Moldova TM", \
+   "MOLDREF99_Moldova_TM", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 / NTM zone 10", \
-   "ETRS_1989_NTM_Zone_10", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_10", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 11", \
-   "ETRS_1989_NTM_Zone_11", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_11", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 12", \
-   "ETRS_1989_NTM_Zone_12", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_12", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 13", \
-   "ETRS_1989_NTM_Zone_13", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_13", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 14", \
-   "ETRS_1989_NTM_Zone_14", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_14", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 15", \
-   "ETRS_1989_NTM_Zone_15", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_15", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 16", \
-   "ETRS_1989_NTM_Zone_16", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_16", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 17", \
-   "ETRS_1989_NTM_Zone_17", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_17", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 18", \
-   "ETRS_1989_NTM_Zone_18", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_18", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 19", \
-   "ETRS_1989_NTM_Zone_19", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_19", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 20", \
-   "ETRS_1989_NTM_Zone_20", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_20", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 21", \
-   "ETRS_1989_NTM_Zone_21", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_21", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 22", \
-   "ETRS_1989_NTM_Zone_22", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_22", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 23", \
-   "ETRS_1989_NTM_Zone_23", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_23", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 24", \
-   "ETRS_1989_NTM_Zone_24", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_24", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 25", \
-   "ETRS_1989_NTM_Zone_25", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_25", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 26", \
-   "ETRS_1989_NTM_Zone_26", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_26", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 27", \
-   "ETRS_1989_NTM_Zone_27", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_27", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 28", \
-   "ETRS_1989_NTM_Zone_28", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_28", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 29", \
-   "ETRS_1989_NTM_Zone_29", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_29", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 30", \
-   "ETRS_1989_NTM_Zone_30", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_30", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 5", \
-   "ETRS_1989_NTM_Zone_5", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_5", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 6", \
-   "ETRS_1989_NTM_Zone_6", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_6", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 7", \
-   "ETRS_1989_NTM_Zone_7", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_7", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 8", \
-   "ETRS_1989_NTM_Zone_8", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_8", \
    FALSE, \
    "EPSG"
 
 "ETRS89 / NTM zone 9", \
-   "ETRS_1989_NTM_Zone_9", \
+   "ETRS89-NOR_[EUREF89]_NTM_zone_9", \
    FALSE, \
    "EPSG"
 
@@ -7034,8 +7734,28 @@
    FALSE, \
    "Teradata"
 
+"ETRS89-POL [PL-ETRF2000] / CS2000/15", \
+   "ETRF2000-PL_CS2000_15_Zone_5", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000] / CS2000/18", \
+   "ETRF2000-PL_CS2000_18_Zone_6", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000] / CS2000/21", \
+   "ETRF2000-PL_CS2000_21_Zone_7", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-POL [PL-ETRF2000] / CS2000/24", \
+   "ETRF2000-PL_CS2000_24_Zone_8", \
+   FALSE, \
+   "EPSG"
+
 "ETRS89 / Portugal TM06", \
-   "ETRS_1989_Portugal_TM06", \
+   "ETRS89-PRT_[1995]_Portugal_TM06", \
    FALSE, \
    "EPSG"
 
@@ -7048,6 +7768,126 @@
    "ETRS_1989_Portugal_TM06", \
    FALSE, \
    "SpatiaLite"
+
+"ETRS89-SRB [STRS00] / UTM zone 34N", \
+   "SRB_ETRS89_UTM_zone_34N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96-17] / Slovene National Grid", \
+   "Slovenia_1996_Slovene_National_Grid", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96-17] / UTM zone 33N", \
+   "Slovenia_1996_UTM_Zone_33N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96] / Slovene National Grid", \
+   "Slovenia_1996_Slovene_National_Grid", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SVN [D96] / UTM zone 33N", \
+   "Slovenia_1996_UTM_Zone_33N", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 12 00]", \
+   "SWEREF99_12_00", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 13 30]", \
+   "SWEREF99_13_30", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 14 15]", \
+   "SWEREF99_14_15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 15 00]", \
+   "SWEREF99_15_00", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 15 45]", \
+   "SWEREF99_15_45", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 16 30]", \
+   "SWEREF99_16_30", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 17 15]", \
+   "SWEREF99_17_15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 18 00]", \
+   "SWEREF99_18_00", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 18 45]", \
+   "SWEREF99_18_45", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 20 15]", \
+   "SWEREF99_20_15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 21 45]", \
+   "SWEREF99_21_45", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 23 15]", \
+   "SWEREF99_23_15", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99] / RT90 0 gon emulation", \
+   "SWEREF99_RT90_0_gon_emulation", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99] / RT90 2.5 gon O emulation", \
+   "SWEREF99_RT90_2.5_gon_O_emulation", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99] / RT90 2.5 gon V emulation", \
+   "SWEREF99_RT90_2.5_gon_V_emulation", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99] / RT90 5 gon O emulation", \
+   "SWEREF99_RT90_5_gon_O_emulation", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99] / RT90 5 gon V emulation", \
+   "SWEREF99_RT90_5_gon_V_emulation", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99] / RT90 7.5 gon V emulation", \
+   "SWEREF99_RT90_7.5_gon_V_emulation", \
+   FALSE, \
+   "EPSG"
+
+"ETRS89-SWE [SWEREF 99 TM]", \
+   "SWEREF99_TM", \
+   FALSE, \
+   "EPSG"
 
 "ETRS89 / TM26", \
    "ETRS_1989_ETRS-TM26", \
@@ -7473,6 +8313,11 @@
    "ETRS_1989_UTM_Zone_38N", \
    FALSE, \
    "Teradata"
+
+"ETRS89-XKX [KOSOVAREF01] / Balkans zone 7", \
+   "KOSOVAREF01_Balkans_Zone_7", \
+   FALSE, \
+   "EPSG"
 
 "EUREF_FIN_TM35FIN", \
    "EUREF-FIN_TM35FIN", \
@@ -8394,6 +9239,11 @@
    FALSE, \
    ""
 
+"GGRS87 / TM87", \
+   "Greek_Grid", \
+   FALSE, \
+   "EPSG"
+
 "GR96 / UTM zone 18N", \
    "Greenland_1996_UTM_Zone_18N", \
    FALSE, \
@@ -8748,6 +9598,51 @@
    "Hanoi_1972_GK_Zone_19", \
    FALSE, \
    "Teradata"
+
+"Hartebeesthoek94 / Inverted Lo17", \
+   "Hartebeesthoek94_Lo17_(E-N)", \
+   FALSE, \
+   "EPSG"
+
+"Hartebeesthoek94 / Inverted Lo19", \
+   "Hartebeesthoek94_Lo19_(E-N)", \
+   FALSE, \
+   "EPSG"
+
+"Hartebeesthoek94 / Inverted Lo21", \
+   "Hartebeesthoek94_Lo21_(E-N)", \
+   FALSE, \
+   "EPSG"
+
+"Hartebeesthoek94 / Inverted Lo23", \
+   "Hartebeesthoek94_Lo23_(E-N)", \
+   FALSE, \
+   "EPSG"
+
+"Hartebeesthoek94 / Inverted Lo25", \
+   "Hartebeesthoek94_Lo25_(E-N)", \
+   FALSE, \
+   "EPSG"
+
+"Hartebeesthoek94 / Inverted Lo27", \
+   "Hartebeesthoek94_Lo27_(E-N)", \
+   FALSE, \
+   "EPSG"
+
+"Hartebeesthoek94 / Inverted Lo29", \
+   "Hartebeesthoek94_Lo29_(E-N)", \
+   FALSE, \
+   "EPSG"
+
+"Hartebeesthoek94 / Inverted Lo31", \
+   "Hartebeesthoek94_Lo31_(E-N)", \
+   FALSE, \
+   "EPSG"
+
+"Hartebeesthoek94 / Inverted Lo33", \
+   "Hartebeesthoek94_Lo33_(E-N)", \
+   FALSE, \
+   "EPSG"
 
 "HD72 / EOV", \
    "Hungarian_1972_Egyseges_Orszagos_Vetuleti", \
@@ -9484,6 +10379,16 @@
    FALSE, \
    "Teradata"
 
+"IRENET95_Irish_Transverse_Mercator", \
+   "ETRS89-IRE_[ETRF2000]_Irish_Transverse_Mercator", \
+   TRUE, \
+   ""
+
+"IRENET95_UTM_Zone_29N", \
+   "ETRS89-IRE_[ETRF2000]_UTM_Zone_29N", \
+   TRUE, \
+   ""
+
 "Irish_National_Grid", \
    "TM65_Irish_Grid", \
    TRUE, \
@@ -10082,95 +10987,190 @@
 "JGD2011 / Japan Plane Rectangular CS I", \
    "JGD_2011_Japan_Zone_1", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS II", \
    "JGD_2011_Japan_Zone_2", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS III", \
    "JGD_2011_Japan_Zone_3", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS IV", \
    "JGD_2011_Japan_Zone_4", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS IX", \
    "JGD_2011_Japan_Zone_9", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS V", \
    "JGD_2011_Japan_Zone_5", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS VI", \
    "JGD_2011_Japan_Zone_6", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS VII", \
    "JGD_2011_Japan_Zone_7", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS VIII", \
    "JGD_2011_Japan_Zone_8", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS X", \
    "JGD_2011_Japan_Zone_10", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XI", \
    "JGD_2011_Japan_Zone_11", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XII", \
    "JGD_2011_Japan_Zone_12", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XIII", \
    "JGD_2011_Japan_Zone_13", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XIV", \
    "JGD_2011_Japan_Zone_14", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XIX", \
    "JGD_2011_Japan_Zone_19", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XV", \
    "JGD_2011_Japan_Zone_15", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XVI", \
    "JGD_2011_Japan_Zone_16", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XVII", \
    "JGD_2011_Japan_Zone_17", \
    FALSE, \
-   "EPSG"
+   ""
 
 "JGD2011 / Japan Plane Rectangular CS XVIII", \
    "JGD_2011_Japan_Zone_18", \
+   FALSE, \
+   ""
+
+"JGD2024 / Japan Plane Rectangular CS I", \
+   "JGD_2024_Japan_Zone_1", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS II", \
+   "JGD_2024_Japan_Zone_2", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS III", \
+   "JGD_2024_Japan_Zone_3", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS IV", \
+   "JGD_2024_Japan_Zone_4", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS IX", \
+   "JGD_2024_Japan_Zone_9", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS V", \
+   "JGD_2024_Japan_Zone_5", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS VI", \
+   "JGD_2024_Japan_Zone_6", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS VII", \
+   "JGD_2024_Japan_Zone_7", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS VIII", \
+   "JGD_2024_Japan_Zone_8", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS X", \
+   "JGD_2024_Japan_Zone_10", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XI", \
+   "JGD_2024_Japan_Zone_11", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XII", \
+   "JGD_2024_Japan_Zone_12", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XIII", \
+   "JGD_2024_Japan_Zone_13", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XIV", \
+   "JGD_2024_Japan_Zone_14", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XIX", \
+   "JGD_2024_Japan_Zone_19", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XV", \
+   "JGD_2024_Japan_Zone_15", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XVI", \
+   "JGD_2024_Japan_Zone_16", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XVII", \
+   "JGD_2024_Japan_Zone_17", \
+   FALSE, \
+   "EPSG"
+
+"JGD2024 / Japan Plane Rectangular CS XVIII", \
+   "JGD_2024_Japan_Zone_18", \
    FALSE, \
    "EPSG"
 
@@ -17654,6 +18654,16 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) / ICS83-Bond (ftUS)", \
+   "NAD_1983_(2011)_ICS83-Bond_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Calhoun (ftUS)", \
+   "NAD_1983_(2011)_ICS83-Calhoun_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(2011) / ICS83-Carbondale (ftUS)", \
    "NAD_1983_(2011)_ICS_Carbondale_(US_Feet)", \
    FALSE, \
@@ -17676,6 +18686,11 @@
 
 "NAD83(2011) / ICS83-Chicago (ftUS)", \
    "NAD_1983_(2011)_ICS_Chicago_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Clinton-Washington (ftUS)", \
+   "NAD_1983_(2011)_ICS83-Clinton-Washington_(ftUS)", \
    FALSE, \
    "EPSG"
 
@@ -17709,6 +18724,11 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) / ICS83-Jersey-Greene (ftUS)", \
+   "NAD_1983_(2011)_ICS83-Jersey-Greene_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(2011) / ICS83-Jerseyville (ftUS)", \
    "NAD_1983_(2011)_ICS_Jerseyville_(US_Feet)", \
    FALSE, \
@@ -17729,6 +18749,16 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) / ICS83-Madison (ftUS)", \
+   "NAD_1983_(2011)_ICS83-Madison_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Marion (ftUS)", \
+   "NAD_1983_(2011)_ICS83-Marion_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(2011) / ICS83-Metropolis (ftUS)", \
    "NAD_1983_(2011)_ICS_Metropolis_(US_Feet)", \
    FALSE, \
@@ -17741,6 +18771,11 @@
 
 "NAD83(2011) / ICS83-Monmouth (ftUS)", \
    "NAD_1983_(2011)_ICS_Monmouth_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-Monroe (ftUS)", \
+   "NAD_1983_(2011)_ICS83-Monroe_(ftUS)", \
    FALSE, \
    "EPSG"
 
@@ -17774,6 +18809,11 @@
    FALSE, \
    "EPSG"
 
+"NAD83(2011) / ICS83-Randolph (ftUS)", \
+   "NAD_1983_(2011)_ICS83-Randolph_(ftUS)", \
+   FALSE, \
+   "EPSG"
+
 "NAD83(2011) / ICS83-Robinson (ftUS)", \
    "NAD_1983_(2011)_ICS_Robinson_(US_Feet)", \
    FALSE, \
@@ -17786,6 +18826,11 @@
 
 "NAD83(2011) / ICS83-Springfield (ftUS)", \
    "NAD_1983_(2011)_ICS_Springfield_(US_Feet)", \
+   FALSE, \
+   "EPSG"
+
+"NAD83(2011) / ICS83-St Clair (ftUS)", \
+   "NAD_1983_(2011)_ICS83-St_Clair_(ftUS)", \
    FALSE, \
    "EPSG"
 
@@ -52304,6 +53349,11 @@
    FALSE, \
    "EPSG"
 
+"RD", \
+   "RD_New", \
+   FALSE, \
+   "EPSG"
+
 "RD/83 / 3-degree Gauss-Kruger zone 4", \
    "RD/83_GK_Zone_4", \
    FALSE, \
@@ -59311,6 +60361,11 @@
 
 "WGS 84 / Kerala", \
    "WGS_1984_Kerala", \
+   FALSE, \
+   "EPSG"
+
+"WGS 84 / LAEA Mozambique", \
+   "WGS_1984_LAEA_Mozambique", \
    FALSE, \
    "EPSG"
 

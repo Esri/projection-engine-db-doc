@@ -9,8 +9,8 @@ To perform WKID conversion, the PE contains a comprehensive database of
 known coordinate systems, datums, ellipsoids, units, etc. This database is
 regularly updated and kept in sync with the EPSG database.
 
-This documentation is based on ArcGIS Pro version 3.7.
-Entries taken from EPSG are from the 12.049<sup>[[2]](#fn2)</sup> version of the EPSG database.
+This documentation is based on ArcGIS Pro version 3.8.
+Entries taken from EPSG are from the 13.102 version of the EPSG database.
 
 ### Contents
 
@@ -84,6 +84,7 @@ Associating an EPSG version number with a particular ArcGIS release does not gua
 
 Esri Projection Engine | Build # | EPSG | ArcGIS Pro | ArcGIS Pro Release Date | ArcGIS Enterprise and/or ArcMap<sup>[[1]](#fn1)</sup> | ArcGIS Enterprise or ArcMap<sup>[[1]](#fn1)</sup> Release Date
 -- | -- | -- | -- | -- | -- | --
+13.8.0 | 4371 | 13.102 | 3.8.0 | 5-Nov-26 | 12.2.0 | tbd
 13.7.0 | 1901 | 12.049<sup>[[2]](#fn2)</sup> | 3.7.0 | 14-May-26 | 12.1.0 | 21-May-26
 13.6.0 | 59527 | 12.018 | 3.6.0 | 13-Nov-25 | 12.0.0 | 18-Nov-25
 13.5.0 | 57366 | 12.002 | 3.5.0 | 13-May-25 | 11.5.0 | 22-May-25

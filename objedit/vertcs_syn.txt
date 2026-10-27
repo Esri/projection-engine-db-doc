@@ -114,10 +114,25 @@
    FALSE, \
    "EPSG"
 
+"CHTRS95", \
+   "Swiss_TRF_1995", \
+   FALSE, \
+   ""
+
 "Constanta height", \
    "Constanta", \
    FALSE, \
    "EPSG"
+
+"D96", \
+   "Slovenia_1996", \
+   FALSE, \
+   ""
+
+"D96-17", \
+   "Slovenia_1996", \
+   FALSE, \
+   ""
 
 "Danger 1950 height", \
    "Danger_1950", \
@@ -188,6 +203,146 @@
    "EOMA_1980", \
    FALSE, \
    "EPSG"
+
+"EST97", \
+   "Estonia_1997", \
+   FALSE, \
+   ""
+
+"ETRS89-BGR [BGS2005]", \
+   "BGS2005_height", \
+   FALSE, \
+   ""
+
+"ETRS89-BIH [BH_ETRS89]", \
+   "BH_ETRS89", \
+   FALSE, \
+   ""
+
+"ETRS89-CHE [CHTRS95]", \
+   "Swiss_TRF_1995", \
+   FALSE, \
+   ""
+
+"ETRS89-DEU [ETRS89/DREF91/2016]", \
+   "ETRS89_DREF91_2016", \
+   FALSE, \
+   ""
+
+"ETRS89-EST [EST97]", \
+   "Estonia_1997", \
+   FALSE, \
+   ""
+
+"ETRS89-FIN [EUREF-FIN]", \
+   "EUREF_FIN", \
+   FALSE, \
+   ""
+
+"ETRS89-FRA [RGF93 v1]", \
+   "RGF_1993", \
+   FALSE, \
+   ""
+
+"ETRS89-FRA [RGF93 v1] (lon-lat)", \
+   "RGF93_(lon-lat)", \
+   FALSE, \
+   ""
+
+"ETRS89-FRA [RGF93 v2]", \
+   "RGF93_v2", \
+   FALSE, \
+   ""
+
+"ETRS89-FRA [RGF93 v2b]", \
+   "RGF93_v2b", \
+   FALSE, \
+   ""
+
+"ETRS89-FRA [RGF93 v2b] (lon-lat)", \
+   "RGF93_v2b_(lon-lat)", \
+   FALSE, \
+   ""
+
+"ETRS89-FRA [RGF93 v2] (lon-lat)", \
+   "RGF93_v2_(lon-lat)", \
+   FALSE, \
+   ""
+
+"ETRS89-GRC [HTRS07]", \
+   "HTRS07", \
+   FALSE, \
+   ""
+
+"ETRS89-HRV [HTRS96]", \
+   "HTRS96", \
+   FALSE, \
+   ""
+
+"ETRS89-ITA [IGM95]", \
+   "IGM_1995", \
+   FALSE, \
+   ""
+
+"ETRS89-ITA [RDN2008]", \
+   "RDN2008", \
+   FALSE, \
+   ""
+
+"ETRS89-LTU [LKS94]", \
+   "LKS_1994", \
+   FALSE, \
+   ""
+
+"ETRS89-LVA [LKS-2020]", \
+   "LKS-2020", \
+   FALSE, \
+   ""
+
+"ETRS89-LVA [LKS-92]", \
+   "LKS_1992", \
+   FALSE, \
+   ""
+
+"ETRS89-MDA [MOLDREF99]", \
+   "MOLDREF99", \
+   FALSE, \
+   ""
+
+"ETRS89-POL [PL-ETRF2000]", \
+   "ETRF2000-PL", \
+   FALSE, \
+   ""
+
+"ETRS89-SRB [SREF98]", \
+   "SREF98", \
+   FALSE, \
+   ""
+
+"ETRS89-SRB [STRS00]", \
+   "SRB_ETRS89", \
+   FALSE, \
+   ""
+
+"ETRS89-SVN [D96]", \
+   "Slovenia_1996", \
+   FALSE, \
+   ""
+
+"ETRS89-SVN [D96-17]", \
+   "Slovenia_1996", \
+   FALSE, \
+   ""
+
+"ETRS89-SWE [SWEREF 99]", \
+   "SWEREF99", \
+   FALSE, \
+   ""
+
+"ETRS89-XKX [KOSOVAREF01]", \
+   "KOSOVAREF01", \
+   FALSE, \
+   ""
 
 "EVRF2000 height", \
    "EVRS_2000", \
@@ -309,6 +464,11 @@
    FALSE, \
    "EPSG"
 
+"IGM95", \
+   "IGM_1995", \
+   FALSE, \
+   ""
+
 "IGN 1966 height", \
    "IGN_1966", \
    FALSE, \
@@ -346,6 +506,11 @@
 
 "Incheon_Height", \
    "KVD1964_Height", \
+   TRUE, \
+   ""
+
+"IRENET95", \
+   "ETRS89-IRE_[ETRF2000]", \
    TRUE, \
    ""
 
@@ -398,6 +563,16 @@
    "LHN95", \
    FALSE, \
    "EPSG"
+
+"LKS-92", \
+   "LKS_1992", \
+   FALSE, \
+   ""
+
+"LKS94", \
+   "LKS_1994", \
+   FALSE, \
+   ""
 
 "LN02 height", \
    "LN_1902", \
@@ -559,6 +734,11 @@
    FALSE, \
    "EPSG"
 
+"NN2000:2018 height", \
+   "NN2000_height", \
+   FALSE, \
+   "EPSG"
+
 "NN54 height", \
    "NN54", \
    FALSE, \
@@ -628,6 +808,16 @@
    "IGN_1989", \
    FALSE, \
    "EPSG"
+
+"RGF93 v1", \
+   "RGF_1993", \
+   FALSE, \
+   ""
+
+"RGF93 v1 (lon-lat)", \
+   "RGF93_(lon-lat)", \
+   FALSE, \
+   ""
 
 "RH00 height", \
    "RH1900", \

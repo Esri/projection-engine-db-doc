@@ -68,6 +68,10 @@ PE_GCS_DRUKREF_03_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "DRUKREF 03 3D"
 
+PE_GCS_DRUKREF23_3D, \
+   "Geographic Coordinate Systems/3D/Asia", \
+   "DrukRef23 3D"
+
 PE_GCS_GDBD2009_3D, \
    "Geographic Coordinate Systems/3D/Asia", \
    "GDBD2009 3D"
@@ -222,7 +226,7 @@ PE_GCS_NZGD_2000_3D, \
 
 PE_GCS_CR_SIRGAS_3D, \
    "Geographic Coordinate Systems/3D/Central America", \
-   "CR-SIRGAS 3D"
+   "CR-SIRGAS epoch 2014.59 3D"
 
 PE_GCS_CR_SIRGAS_EPOCH_2019_24_3D, \
    "Geographic Coordinate Systems/3D/Central America", \
@@ -312,14 +316,6 @@ PE_GCS_BBT2000_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "BBT2000 3D"
 
-PE_GCS_BGS2005_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "BGS2005 3D"
-
-PE_GCS_BH_ETRS89_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "BH_ETRS89 3D"
-
 PE_GCS_CGRS_1993_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "CGRS 1993 3D"
@@ -331,10 +327,6 @@ PE_GCS_DB_REF_3D, \
 PE_GCS_ETRF_2000_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "ETRF2000 3D"
-
-PE_GCS_ETRF2000_PL_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "ETRF2000-PL 3D"
 
 PE_GCS_ETRF_2005_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
@@ -384,17 +376,185 @@ PE_GCS_ETRS_1989_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "ETRS 1989 3D"
 
+PE_GCS_ETRS89_ALB_2008_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-ALB [2008] 3D"
+
+PE_GCS_ETRS89_ALB_KRGJSH_2014_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-ALB [KRGJSH 2014] 3D"
+
+PE_GCS_ETRS89_AUT_2002_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-AUT [2002] 3D"
+
+PE_GCS_ETRS89_BEL_BEREF2002_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-BEL [BEREF2002] 3D"
+
+PE_GCS_ETRS89_BEL_BEREF2011_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-BEL [BEREF2011] 3D"
+
+PE_GCS_BGS2005_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-BGR [BGS2005] 3D"
+
+PE_GCS_BH_ETRS89_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-BIH [BH_ETRS89] 3D"
+
+PE_GCS_ETRS89_CHE_CHTRF95_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-CHE [CHTRF95] 3D"
+
+PE_GCS_CHTRF_1995_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-CHE [CHTRS95] 3D"
+
+PE_GCS_ETRS89_CZE_2007_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-CZE [2007] 3D"
+
 PE_GCS_ETRS89_DREF91_2016_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
-   "ETRS89 DREF91 2016 3D"
+   "ETRS89-DEU [ETRS89 DREF91 2016] 3D"
 
-PE_GCS_EUREF_FIN_3D, \
+PE_GCS_ETRS89_DEU_ETRS89_DREF91_2025_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
-   "EUREF-FIN 3D"
+   "ETRS89-DEU [ETRS89 DREF91 2025] 3D"
+
+PE_GCS_ETRS89_DNK_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-DNK 3D"
+
+PE_GCS_ETRS89_ESP_ERGNSS_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-ESP [ERGNSS] 3D"
+
+PE_GCS_ETRS89_ESP_REGENTE_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-ESP [REGENTE] 3D"
 
 PE_GCS_ESTONIA_1997_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
-   "Estonia 1997 3D"
+   "ETRS89-EST [EST97] 3D"
+
+PE_GCS_EUREF_FIN_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-FIN [EUREF-FIN] 3D"
+
+PE_GCS_ETRS89_FRO_2008_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-FRO [2008] 3D"
+
+PE_GCS_ETRS89_GBR_OSNET_V2009_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-GBR [OSNet v2009] 3D"
+
+PE_GCS_HTRS07_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-GRC [HTRS07] 3D"
+
+PE_GCS_ETRS89_HRV_CROPOS_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-HRV [CROPOS] 3D"
+
+PE_GCS_HTRS96_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-HRV [HTRS96] 3D"
+
+PE_GCS_ETRS89_HUN_ETRF2000_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-HUN [ETRF2000] 3D"
+
+PE_GCS_IRENET95_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-IRE [ETRF2000] 3D"
+
+PE_GCS_IGM_1995_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-ITA [IGM95] 3D"
+
+PE_GCS_RDN2008_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-ITA [RDN2008] 3D"
+
+PE_GCS_LKS_1994_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-LTU [LKS94] 3D"
+
+PE_GCS_ETRS89_LUX_2020_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-LUX [2020] 3D"
+
+PE_GCS_ETRS89_LUX_2025_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-LUX [2025] 3D"
+
+PE_GCS_LKS_2020_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-LVA [LKS-2020] 3D"
+
+PE_GCS_LKS_1992_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-LVA [LKS-92] 3D"
+
+PE_GCS_MOLDREF99_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-MDA [MOLDREF99] 3D"
+
+PE_GCS_ETRS89_MKD_EUREF_MAK2010_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-MKD [EUREF-MAK2010] 3D"
+
+PE_GCS_ETRS89_NLD_AGRS2010_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-NLD [AGRS2010] 3D"
+
+PE_GCS_ETRS89_NOR_EUREF89_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-NOR [EUREF89] 3D"
+
+PE_GCS_ETRF2000_PL_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-POL [PL-ETRF2000] 3D"
+
+PE_GCS_ETRS89_PRT_1995_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-PRT [1995] 3D"
+
+PE_GCS_ETRS89_ROU_ETRF2000_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-ROU [ETRF2000] 3D"
+
+PE_GCS_SREF98_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-SRB [SREF98] 3D"
+
+PE_GCS_SRB_ETRS89_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-SRB [STRS00] 3D"
+
+PE_GCS_ETRS89_SVK_SKTRF09_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-SVK [SKTRF09] 3D"
+
+PE_GCS_ETRS89_SVK_SKTRF2022_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-SVK [SKTRF2022] 3D"
+
+PE_GCS_SLOVENIA_1996_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-SVN [D96] 3D"
+
+PE_GCS_SWEREF99_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-SWE [SWEREF 99] 3D"
+
+PE_GCS_KOSOVAREF01_3D, \
+   "Geographic Coordinate Systems/3D/Europe", \
+   "ETRS89-XKX [KOSOVAREF01] 3D"
 
 PE_GCS_FEH2010_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
@@ -403,22 +563,6 @@ PE_GCS_FEH2010_3D, \
 PE_GCS_GSK_2011_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "GSK-2011 3D"
-
-PE_GCS_HTRS07_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "HTRS07 3D"
-
-PE_GCS_HTRS96_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "HTRS96 3D"
-
-PE_GCS_IGM_1995_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "IGM 1995 3D"
-
-PE_GCS_IRENET95_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "IRENET95 3D"
 
 PE_GCS_ISN_1993_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
@@ -432,22 +576,6 @@ PE_GCS_ISN2016_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "ISN2016 3D"
 
-PE_GCS_KOSOVAREF01_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "KOSOVAREF01 3D"
-
-PE_GCS_LKS_1992_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "LKS 1992 3D"
-
-PE_GCS_LKS_1994_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "LKS 1994 3D"
-
-PE_GCS_LKS_2020_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "LKS-2020 3D"
-
 PE_GCS_LTF2004G_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "LTF2004(G) 3D"
@@ -456,17 +584,13 @@ PE_GCS_LUREF_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "LUREF 3D"
 
-PE_GCS_MOLDREF99_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "MOLDREF99 3D"
-
 PE_GCS_MGI_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "Militar-Geographische Institut 3D"
 
-PE_GCS_RDN2008_3D, \
+PE_GCS_NKG_ETRF14_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
-   "RDN2008 3D"
+   "NKG_ETRF14 3D"
 
 PE_GCS_S_JTSK_JTSK03_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
@@ -480,26 +604,6 @@ PE_GCS_S_JTSK_05_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "S-JTSK-05 3D"
 
-PE_GCS_SRB_ETRS89_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "SRB_ETRS89 3D"
-
-PE_GCS_SREF98_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "SREF98 3D"
-
-PE_GCS_SWEREF99_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "SWEREF99 3D"
-
-PE_GCS_SLOVENIA_1996_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "Slovenia 1996 3D"
-
-PE_GCS_CHTRF_1995_3D, \
-   "Geographic Coordinate Systems/3D/Europe", \
-   "Swiss TRF 1995 3D"
-
 PE_GCS_UKRAINE_2000_3D, \
    "Geographic Coordinate Systems/3D/Europe", \
    "Ukraine 2000 3D"
@@ -510,27 +614,27 @@ PE_GCS_XRAIL84_3D, \
 
 PE_GCS_RGF93_LON_LAT_3D, \
    "Geographic Coordinate Systems/3D/Europe/France", \
-   "RGF 1993 (lon-lat) 3D"
+   "ETRS89-FRA [RGF93 v1] (lon-lat) 3D"
 
 PE_GCS_RGF_1993_3D, \
    "Geographic Coordinate Systems/3D/Europe/France", \
-   "RGF 1993 3D"
+   "ETRS89-FRA [RGF93 v1] 3D"
 
 PE_GCS_RGF93_V2_LON_LAT_3D, \
    "Geographic Coordinate Systems/3D/Europe/France", \
-   "RGF93 v2 (lon-lat) 3D"
+   "ETRS89-FRA [RGF93 v2] (lon-lat) 3D"
 
 PE_GCS_RGF93_V2_3D, \
    "Geographic Coordinate Systems/3D/Europe/France", \
-   "RGF93 v2 3D"
+   "ETRS89-FRA [RGF93 v2] 3D"
 
 PE_GCS_RGF93_V2B_LON_LAT_3D, \
    "Geographic Coordinate Systems/3D/Europe/France", \
-   "RGF93 v2b (lon-lat) 3D"
+   "ETRS89-FRA [RGF93 v2b] (lon-lat) 3D"
 
 PE_GCS_RGF93_V2B_3D, \
    "Geographic Coordinate Systems/3D/Europe/France", \
-   "RGF93 v2b 3D"
+   "ETRS89-FRA [RGF93 v2b] 3D"
 
 PE_GCS_GR96_1996_3D, \
    "Geographic Coordinate Systems/3D/North America", \
@@ -927,6 +1031,10 @@ PE_GCS_SIRGAS_CHILE_2016_3D, \
 PE_GCS_SIRGAS_CHILE_2021_3D, \
    "Geographic Coordinate Systems/3D/South America/Chile", \
    "SIRGAS-Chile 2021 3D"
+
+PE_GCS_SIRGAS_CHILE_2025_3D, \
+   "Geographic Coordinate Systems/3D/South America/Chile", \
+   "SIRGAS-Chile 2025 3D"
 
 PE_GCS_IGS00_3D, \
    "Geographic Coordinate Systems/3D/World", \
@@ -1456,9 +1564,17 @@ PE_GCS_AIN_EL_ABD_1970, \
    "Geographic Coordinate Systems/Asia", \
    "Ain el Abd 1970"
 
+PE_GCS_BEIJING_1954, \
+   "Geographic Coordinate Systems/Asia", \
+   "Beijing 1954"
+
 PE_GCS_BEKAA_VALLEY_1920, \
    "Geographic Coordinate Systems/Asia", \
    "Bekaa Valley 1920"
+
+PE_GCS_CHINA_2000, \
+   "Geographic Coordinate Systems/Asia", \
+   "China Geodetic Coordinate System 2000"
 
 PE_GCS_DRUKREF_03, \
    "Geographic Coordinate Systems/Asia", \
@@ -1471,10 +1587,6 @@ PE_GCS_DEIR_EZ_ZOR, \
 PE_GCS_DRUKREF23, \
    "Geographic Coordinate Systems/Asia", \
    "DrukRef23"
-
-PE_GCS_DRUKREF23_3D, \
-   "Geographic Coordinate Systems/Asia", \
-   "DrukRef23 3D"
 
 PE_GCS_ED_1950, \
    "Geographic Coordinate Systems/Asia", \
@@ -1515,6 +1627,22 @@ PE_GCS_HANOI_1972, \
 PE_GCS_HERAT_NORTH, \
    "Geographic Coordinate Systems/Asia", \
    "Herat North"
+
+PE_GCS_HONG_KONG_1963, \
+   "Geographic Coordinate Systems/Asia", \
+   "Hong Kong 1963"
+
+PE_GCS_HONG_KONG_1963_67, \
+   "Geographic Coordinate Systems/Asia", \
+   "Hong Kong 1963 (67)"
+
+PE_GCS_HONG_KONG_1980, \
+   "Geographic Coordinate Systems/Asia", \
+   "Hong Kong 1980"
+
+PE_GCS_HK_GEODETIC_CS, \
+   "Geographic Coordinate Systems/Asia", \
+   "Hong Kong Geodetic CS"
 
 PE_GCS_HU_TZU_SHAN, \
    "Geographic Coordinate Systems/Asia", \
@@ -1672,6 +1800,10 @@ PE_GCS_NEPAL_NAGARKOT, \
    "Geographic Coordinate Systems/Asia", \
    "Nepal Nagarkot"
 
+PE_GCS_NEW_BEIJING, \
+   "Geographic Coordinate Systems/Asia", \
+   "New Beijing"
+
 PE_GCS_OBSERV_METEOR_1965, \
    "Geographic Coordinate Systems/Asia", \
    "Observatorio Meteorologico 1965"
@@ -1760,41 +1892,13 @@ PE_GCS_VIENTIANE_1982, \
    "Geographic Coordinate Systems/Asia", \
    "Vientiane 1982"
 
+PE_GCS_XIAN_1980, \
+   "Geographic Coordinate Systems/Asia", \
+   "Xian 1980"
+
 PE_GCS_YEMEN_NGN_1996, \
    "Geographic Coordinate Systems/Asia", \
    "Yemen NGN 1996"
-
-PE_GCS_BEIJING_1954, \
-   "Geographic Coordinate Systems/Asia/China", \
-   "Beijing 1954"
-
-PE_GCS_CHINA_2000, \
-   "Geographic Coordinate Systems/Asia/China", \
-   "China Geodetic Coordinate System 2000"
-
-PE_GCS_HONG_KONG_1963, \
-   "Geographic Coordinate Systems/Asia/China", \
-   "Hong Kong 1963"
-
-PE_GCS_HONG_KONG_1963_67, \
-   "Geographic Coordinate Systems/Asia/China", \
-   "Hong Kong 1963 (67)"
-
-PE_GCS_HONG_KONG_1980, \
-   "Geographic Coordinate Systems/Asia/China", \
-   "Hong Kong 1980"
-
-PE_GCS_HK_GEODETIC_CS, \
-   "Geographic Coordinate Systems/Asia/China", \
-   "Hong Kong Geodetic CS"
-
-PE_GCS_NEW_BEIJING, \
-   "Geographic Coordinate Systems/Asia/China", \
-   "New Beijing"
-
-PE_GCS_XIAN_1980, \
-   "Geographic Coordinate Systems/Asia/China", \
-   "Xian 1980"
 
 PE_GCS_BATAVIA, \
    "Geographic Coordinate Systems/Asia/Indonesia", \
@@ -1946,7 +2050,7 @@ PE_GCS_NZGD_1949, \
 
 PE_GCS_CR_SIRGAS, \
    "Geographic Coordinate Systems/Central America", \
-   "CR-SIRGAS"
+   "CR-SIRGAS epoch 2014.59"
 
 PE_GCS_CR_SIRGAS_EPOCH_2019_24, \
    "Geographic Coordinate Systems/Central America", \
@@ -2060,22 +2164,6 @@ PE_GCS_BBT2000, \
    "Geographic Coordinate Systems/Europe", \
    "BBT2000"
 
-PE_GCS_BGS2005, \
-   "Geographic Coordinate Systems/Europe", \
-   "BGS2005"
-
-PE_GCS_BH_ETRS89, \
-   "Geographic Coordinate Systems/Europe", \
-   "BH_ETRS89"
-
-PE_GCS_BELGE_1950_BRUSSELS, \
-   "Geographic Coordinate Systems/Europe", \
-   "Belge 1950 (Brussels)"
-
-PE_GCS_BELGE_1972, \
-   "Geographic Coordinate Systems/Europe", \
-   "Belge 1972"
-
 PE_GCS_CGRS_1993, \
    "Geographic Coordinate Systems/Europe", \
    "CGRS 1993"
@@ -2095,10 +2183,6 @@ PE_GCS_DEALUL_PISCULUI_1970, \
 PE_GCS_ETRF_2000, \
    "Geographic Coordinate Systems/Europe", \
    "ETRF2000"
-
-PE_GCS_ETRF2000_PL, \
-   "Geographic Coordinate Systems/Europe", \
-   "ETRF2000-PL"
 
 PE_GCS_ETRF_2005, \
    "Geographic Coordinate Systems/Europe", \
@@ -2148,9 +2232,121 @@ PE_GCS_ETRS_1989, \
    "Geographic Coordinate Systems/Europe", \
    "ETRS 1989"
 
+PE_GCS_ETRS89_ALB_2008, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-ALB [2008]"
+
+PE_GCS_ETRS89_ALB_KRGJSH_2014, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-ALB [KRGJSH 2014]"
+
+PE_GCS_ETRS89_AUT_2002, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-AUT [2002]"
+
+PE_GCS_BGS2005, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-BGR [BGS2005]"
+
+PE_GCS_BH_ETRS89, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-BIH [BH_ETRS89]"
+
+PE_GCS_ETRS89_CZE_2007, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-CZE [2007]"
+
+PE_GCS_ETRS89_ESP_ERGNSS, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-ESP [ERGNSS]"
+
+PE_GCS_ETRS89_ESP_REGENTE, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-ESP [REGENTE]"
+
+PE_GCS_ESTONIA_1997, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-EST [EST97]"
+
 PE_GCS_EUREF_FIN, \
    "Geographic Coordinate Systems/Europe", \
-   "EUREF-FIN"
+   "ETRS89-FIN [EUREF-FIN]"
+
+PE_GCS_ETRS89_HRV_CROPOS, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-HRV [CROPOS]"
+
+PE_GCS_HTRS96, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-HRV [HTRS96]"
+
+PE_GCS_LKS_1994, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-LTU [LKS94]"
+
+PE_GCS_ETRS89_LUX_2020, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-LUX [2020]"
+
+PE_GCS_ETRS89_LUX_2025, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-LUX [2025]"
+
+PE_GCS_LKS_2020, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-LVA [LKS-2020]"
+
+PE_GCS_LKS_1992, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-LVA [LKS-92]"
+
+PE_GCS_MOLDREF99, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-MDA [MOLDREF99]"
+
+PE_GCS_ETRS89_MKD_EUREF_MAK2010, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-MKD [EUREF-MAK2010]"
+
+PE_GCS_ETRS89_NLD_AGRS2010, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-NLD [AGRS2010]"
+
+PE_GCS_ETRS89_NOR_EUREF89, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-NOR [EUREF89]"
+
+PE_GCS_ETRF2000_PL, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-POL [PL-ETRF2000]"
+
+PE_GCS_ETRS89_ROU_ETRF2000, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-ROU [ETRF2000]"
+
+PE_GCS_SREF98, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-SRB [SREF98]"
+
+PE_GCS_SRB_ETRS89, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-SRB [STRS00]"
+
+PE_GCS_ETRS89_SVK_SKTRF09, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-SVK [SKTRF09]"
+
+PE_GCS_ETRS89_SVK_SKTRF2022, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-SVK [SKTRF2022]"
+
+PE_GCS_SLOVENIA_1996, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-SVN [D96]"
+
+PE_GCS_KOSOVAREF01, \
+   "Geographic Coordinate Systems/Europe", \
+   "ETRS89-XKX [KOSOVAREF01]"
 
 PE_GCS_ESTONIA_1937, \
    "Geographic Coordinate Systems/Europe", \
@@ -2159,10 +2355,6 @@ PE_GCS_ESTONIA_1937, \
 PE_GCS_ESTONIA_1992, \
    "Geographic Coordinate Systems/Europe", \
    "Estonia 1992"
-
-PE_GCS_ESTONIA_1997, \
-   "Geographic Coordinate Systems/Europe", \
-   "Estonia 1997"
 
 PE_GCS_EUROPEAN_1979, \
    "Geographic Coordinate Systems/Europe", \
@@ -2176,10 +2368,6 @@ PE_GCS_ED_1987, \
    "Geographic Coordinate Systems/Europe", \
    "European Datum 1987"
 
-PE_GCS_FD_1954, \
-   "Geographic Coordinate Systems/Europe", \
-   "FD 1954"
-
 PE_GCS_FEH2010, \
    "Geographic Coordinate Systems/Europe", \
    "FEH2010"
@@ -2192,14 +2380,6 @@ PE_GCS_GUSTERBERG_FERRO, \
    "Geographic Coordinate Systems/Europe", \
    "Gusterberg (Ferro)"
 
-PE_GCS_HD1909, \
-   "Geographic Coordinate Systems/Europe", \
-   "HD1909"
-
-PE_GCS_HTRS96, \
-   "Geographic Coordinate Systems/Europe", \
-   "HTRS96"
-
 PE_GCS_HELLE_1954, \
    "Geographic Coordinate Systems/Europe", \
    "Helle 1954"
@@ -2208,29 +2388,9 @@ PE_GCS_HERMANNSKOGEL, \
    "Geographic Coordinate Systems/Europe", \
    "Hermannskogel"
 
-PE_GCS_HUNGARIAN_1972, \
-   "Geographic Coordinate Systems/Europe", \
-   "Hungarian Datum 1972"
-
-PE_GCS_KOSOVAREF01, \
-   "Geographic Coordinate Systems/Europe", \
-   "KOSOVAREF01"
-
 PE_GCS_KKJ, \
    "Geographic Coordinate Systems/Europe", \
    "Kartastokoordinaattijarjestelma"
-
-PE_GCS_LKS_1992, \
-   "Geographic Coordinate Systems/Europe", \
-   "LKS 1992"
-
-PE_GCS_LKS_1994, \
-   "Geographic Coordinate Systems/Europe", \
-   "LKS 1994"
-
-PE_GCS_LKS_2020, \
-   "Geographic Coordinate Systems/Europe", \
-   "LKS-2020"
 
 PE_GCS_LTF2004G, \
    "Geographic Coordinate Systems/Europe", \
@@ -2248,10 +2408,6 @@ PE_GCS_MGI_1901, \
    "Geographic Coordinate Systems/Europe", \
    "MGI 1901"
 
-PE_GCS_MOLDREF99, \
-   "Geographic Coordinate Systems/Europe", \
-   "MOLDREF99"
-
 PE_GCS_MADRID_1870_MADRID, \
    "Geographic Coordinate Systems/Europe", \
    "Madrid 1870 (Madrid)"
@@ -2268,6 +2424,10 @@ PE_GCS_NGO_1948_OSLO, \
    "Geographic Coordinate Systems/Europe", \
    "NGO 1948 (Oslo)"
 
+PE_GCS_NKG_ETRF14, \
+   "Geographic Coordinate Systems/Europe", \
+   "NKG_ETRF14"
+
 PE_GCS_PULKOVO_1942, \
    "Geographic Coordinate Systems/Europe", \
    "Pulkovo 1942"
@@ -2283,14 +2443,6 @@ PE_GCS_PULKOVO_1942_ADJ_1983, \
 PE_GCS_PULKOVO_1995, \
    "Geographic Coordinate Systems/Europe", \
    "Pulkovo 1995"
-
-PE_GCS_BELGE_1950, \
-   "Geographic Coordinate Systems/Europe", \
-   "Reseau National Belge 1950"
-
-PE_GCS_S42_HUNGARY, \
-   "Geographic Coordinate Systems/Europe", \
-   "S-42 Hungary"
 
 PE_GCS_S_JTSK, \
    "Geographic Coordinate Systems/Europe", \
@@ -2312,18 +2464,6 @@ PE_GCS_S_JTSK_05_FERRO, \
    "Geographic Coordinate Systems/Europe", \
    "S-JTSK-05 (Ferro)"
 
-PE_GCS_SRB_ETRS89, \
-   "Geographic Coordinate Systems/Europe", \
-   "SRB_ETRS89"
-
-PE_GCS_SREF98, \
-   "Geographic Coordinate Systems/Europe", \
-   "SREF98"
-
-PE_GCS_SLOVENIA_1996, \
-   "Geographic Coordinate Systems/Europe", \
-   "Slovenia 1996"
-
 PE_GCS_SPHERE_EMEP, \
    "Geographic Coordinate Systems/Europe", \
    "Sphere EMEP"
@@ -2336,9 +2476,37 @@ PE_GCS_UKRAINE_2000, \
    "Geographic Coordinate Systems/Europe", \
    "Ukraine 2000"
 
-PE_GCS_FK_1989, \
-   "Geographic Coordinate Systems/Europe", \
-   "fk89"
+PE_GCS_BELGE_1950_BRUSSELS, \
+   "Geographic Coordinate Systems/Europe/Belgium", \
+   "Belge 1950 (Brussels)"
+
+PE_GCS_BELGE_1972, \
+   "Geographic Coordinate Systems/Europe/Belgium", \
+   "Belge 1972"
+
+PE_GCS_ETRS89_BEL_BEREF2002, \
+   "Geographic Coordinate Systems/Europe/Belgium", \
+   "ETRS89-BEL [BEREF2002]"
+
+PE_GCS_ETRS89_BEL_BEREF2011, \
+   "Geographic Coordinate Systems/Europe/Belgium", \
+   "ETRS89-BEL [BEREF2011]"
+
+PE_GCS_BELGE_1950, \
+   "Geographic Coordinate Systems/Europe/Belgium", \
+   "Reseau National Belge 1950"
+
+PE_GCS_ETRS89_DNK, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "ETRS89-DNK"
+
+PE_GCS_ETRS89_FRO_2008, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "ETRS89-FRO [2008]"
+
+PE_GCS_FD_1954, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "FD 1954"
 
 PE_GCS_GS_IRF, \
    "Geographic Coordinate Systems/Europe/Denmark", \
@@ -2368,9 +2536,37 @@ PE_GCS_S45B_IRF, \
    "Geographic Coordinate Systems/Europe/Denmark", \
    "S45B-IRF"
 
+PE_GCS_FK_1989, \
+   "Geographic Coordinate Systems/Europe/Denmark", \
+   "fk89"
+
 PE_GCS_ATF_PARIS, \
    "Geographic Coordinate Systems/Europe/France", \
    "ATF (Paris)"
+
+PE_GCS_RGF_1993, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1]"
+
+PE_GCS_RGF93_LON_LAT, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v1] (lon-lat)"
+
+PE_GCS_RGF93_V2, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2]"
+
+PE_GCS_RGF93_V2_LON_LAT, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2] (lon-lat)"
+
+PE_GCS_RGF93_V2B, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b]"
+
+PE_GCS_RGF93_V2B_LON_LAT, \
+   "Geographic Coordinate Systems/Europe/France", \
+   "ETRS89-FRA [RGF93 v2b] (lon-lat)"
 
 PE_GCS_NTF, \
    "Geographic Coordinate Systems/Europe/France", \
@@ -2383,30 +2579,6 @@ PE_GCS_NTF_PARIS, \
 PE_GCS_NDG_PARIS, \
    "Geographic Coordinate Systems/Europe/France", \
    "Nord de Guerre (Paris)"
-
-PE_GCS_RGF_1993, \
-   "Geographic Coordinate Systems/Europe/France", \
-   "RGF 1993"
-
-PE_GCS_RGF93_LON_LAT, \
-   "Geographic Coordinate Systems/Europe/France", \
-   "RGF 1993 (lon-lat)"
-
-PE_GCS_RGF93_V2, \
-   "Geographic Coordinate Systems/Europe/France", \
-   "RGF93 v2"
-
-PE_GCS_RGF93_V2_LON_LAT, \
-   "Geographic Coordinate Systems/Europe/France", \
-   "RGF93 v2 (lon-lat)"
-
-PE_GCS_RGF93_V2B, \
-   "Geographic Coordinate Systems/Europe/France", \
-   "RGF93 v2b"
-
-PE_GCS_RGF93_V2B_LON_LAT, \
-   "Geographic Coordinate Systems/Europe/France", \
-   "RGF93 v2b (lon-lat)"
 
 PE_GCS_ASSE_2025, \
    "Geographic Coordinate Systems/Europe/Germany", \
@@ -2422,7 +2594,11 @@ PE_GCS_DHDN, \
 
 PE_GCS_ETRS89_DREF91_2016, \
    "Geographic Coordinate Systems/Europe/Germany", \
-   "ETRS89 DREF91 2016"
+   "ETRS89-DEU [ETRS89 DREF91 2016]"
+
+PE_GCS_ETRS89_DEU_ETRS89_DREF91_2025, \
+   "Geographic Coordinate Systems/Europe/Germany", \
+   "ETRS89-DEU [ETRS89 DREF91 2025]"
 
 PE_GCS_POTSDAM_DATUM_1983, \
    "Geographic Coordinate Systems/Europe/Germany", \
@@ -2431,6 +2607,10 @@ PE_GCS_POTSDAM_DATUM_1983, \
 PE_GCS_RAUENBERG_DATUM_1983, \
    "Geographic Coordinate Systems/Europe/Germany", \
    "RD 83"
+
+PE_GCS_HTRS07, \
+   "Geographic Coordinate Systems/Europe/Greece", \
+   "ETRS89-GRC [HTRS07]"
 
 PE_GCS_GGRS_1987, \
    "Geographic Coordinate Systems/Europe/Greece", \
@@ -2444,9 +2624,21 @@ PE_GCS_GREEK_ATHENS, \
    "Geographic Coordinate Systems/Europe/Greece", \
    "Greek (Athens)"
 
-PE_GCS_HTRS07, \
-   "Geographic Coordinate Systems/Europe/Greece", \
-   "HTRS07"
+PE_GCS_ETRS89_HUN_ETRF2000, \
+   "Geographic Coordinate Systems/Europe/Hungary", \
+   "ETRS89-HUN [ETRF2000]"
+
+PE_GCS_HD1909, \
+   "Geographic Coordinate Systems/Europe/Hungary", \
+   "HD1909"
+
+PE_GCS_HUNGARIAN_1972, \
+   "Geographic Coordinate Systems/Europe/Hungary", \
+   "Hungarian Datum 1972"
+
+PE_GCS_S42_HUNGARY, \
+   "Geographic Coordinate Systems/Europe/Hungary", \
+   "S-42 Hungary"
 
 PE_GCS_HJORSEY_1955, \
    "Geographic Coordinate Systems/Europe/Iceland", \
@@ -2468,9 +2660,13 @@ PE_GCS_REYKJAVIK_1900, \
    "Geographic Coordinate Systems/Europe/Iceland", \
    "Reykjavik 1900"
 
+PE_GCS_ETRS89_GBR_OSNET_V2009, \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom", \
+   "ETRS89-GBR [OSNet v2009]"
+
 PE_GCS_IRENET95, \
    "Geographic Coordinate Systems/Europe/Ireland and United Kingdom", \
-   "IRENET95"
+   "ETRS89-IRE [ETRF2000]"
 
 PE_GCS_OS_SN_1980, \
    "Geographic Coordinate Systems/Europe/Ireland and United Kingdom", \
@@ -2515,6 +2711,10 @@ PE_GCS_CWS13_IRF, \
 PE_GCS_DIBA15_IRF, \
    "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "DIBA15-IRF"
+
+PE_GCS_DART26_IRF, \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
+   "Dart+26-IRF"
 
 PE_GCS_DOPW22_IRF, \
    "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
@@ -2612,6 +2812,10 @@ PE_GCS_SYC20_IRF, \
    "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "SYC20-IRF"
 
+PE_GCS_SZCTW_IRF, \
+   "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
+   "SZCTW-IRF"
+
 PE_GCS_SHAB07_IRF, \
    "Geographic Coordinate Systems/Europe/Ireland and United Kingdom/British Railways", \
    "ShAb07-IRF"
@@ -2634,7 +2838,11 @@ PE_GCS_XRAIL84, \
 
 PE_GCS_IGM_1995, \
    "Geographic Coordinate Systems/Europe/Italy", \
-   "IGM 1995"
+   "ETRS89-ITA [IGM95]"
+
+PE_GCS_RDN2008, \
+   "Geographic Coordinate Systems/Europe/Italy", \
+   "ETRS89-ITA [RDN2008]"
 
 PE_GCS_MONTE_MARIO, \
    "Geographic Coordinate Systems/Europe/Italy", \
@@ -2643,10 +2851,6 @@ PE_GCS_MONTE_MARIO, \
 PE_GCS_MONTE_MARIO_ROME, \
    "Geographic Coordinate Systems/Europe/Italy", \
    "Monte Mario (Rome)"
-
-PE_GCS_RDN2008, \
-   "Geographic Coordinate Systems/Europe/Italy", \
-   "RDN2008"
 
 PE_GCS_ROMA_1940, \
    "Geographic Coordinate Systems/Europe/Italy", \
@@ -2664,6 +2868,10 @@ PE_GCS_LISBOA_HAYFORD, \
    "Geographic Coordinate Systems/Europe/Portugal", \
    "Datum Lisboa Hayford"
 
+PE_GCS_ETRS89_PRT_1995, \
+   "Geographic Coordinate Systems/Europe/Portugal", \
+   "ETRS89-PRT [1995]"
+
 PE_GCS_LISBON, \
    "Geographic Coordinate Systems/Europe/Portugal", \
    "Lisbon"
@@ -2680,6 +2888,10 @@ PE_GCS_LISBON_1890_LISBON, \
    "Geographic Coordinate Systems/Europe/Portugal", \
    "Lisbon 1890 (Lisbon)"
 
+PE_GCS_SWEREF99, \
+   "Geographic Coordinate Systems/Europe/Sweden", \
+   "ETRS89-SWE [SWEREF 99]"
+
 PE_GCS_RT90, \
    "Geographic Coordinate Systems/Europe/Sweden", \
    "RT 1990"
@@ -2691,10 +2903,6 @@ PE_GCS_RT38, \
 PE_GCS_RT38_STOCKHOLM, \
    "Geographic Coordinate Systems/Europe/Sweden", \
    "RT38 (Stockholm)"
-
-PE_GCS_SWEREF99, \
-   "Geographic Coordinate Systems/Europe/Sweden", \
-   "SWEREF99"
 
 PE_GCS_BERN_1898_BERN, \
    "Geographic Coordinate Systems/Europe/Switzerland and Liechtenstein", \
@@ -2712,9 +2920,13 @@ PE_GCS_CH1903_PLUS, \
    "Geographic Coordinate Systems/Europe/Switzerland and Liechtenstein", \
    "CH1903+"
 
+PE_GCS_ETRS89_CHE_CHTRF95, \
+   "Geographic Coordinate Systems/Europe/Switzerland and Liechtenstein", \
+   "ETRS89-CHE [CHTRF95]"
+
 PE_GCS_CHTRF_1995, \
    "Geographic Coordinate Systems/Europe/Switzerland and Liechtenstein", \
-   "Swiss TRF 1995"
+   "ETRS89-CHE [CHTRS95]"
 
 PE_GCS_MEXICAN_DATUM_1993, \
    "Geographic Coordinate Systems/North America", \
@@ -4403,6 +4615,10 @@ PE_GCS_SIRGAS_CHILE_2016, \
 PE_GCS_SIRGAS_CHILE_2021, \
    "Geographic Coordinate Systems/South America/Chile", \
    "SIRGAS-Chile 2021"
+
+PE_GCS_SIRGAS_CHILE_2025, \
+   "Geographic Coordinate Systems/South America/Chile", \
+   "SIRGAS-Chile 2025"
 
 PE_GCS_BOGOTA, \
    "Geographic Coordinate Systems/South America/Colombia", \

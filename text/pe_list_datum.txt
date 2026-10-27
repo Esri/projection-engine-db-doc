@@ -88,7 +88,8 @@ Name        : D_MOLDREF99
 WKT         : DATUM["D_MOLDREF99",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_MOLDREF99",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1997.4]]
 Description : MOLDREF99
 Authority   : EPSG
 Version     : 7.1(10.1.0)
@@ -114,7 +115,8 @@ Name        : D_Serbian_Reference_Network_1998
 WKT         : DATUM["D_Serbian_Reference_Network_1998",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_Serbian_Reference_Network_1998",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1998.7]]
 Description : Serbian Reference Network 1998
 Authority   : EPSG
 Version     : 7.1(10.1.0)
@@ -763,15 +765,15 @@ Deprecated  : no
 
 WKID        : 1128
 Latest-WKID : 1128
-Macro       : PE_D_JGD_2011
-Name        : D_JGD_2011
-WKT         : DATUM["D_JGD_2011",
+Macro       : PE_D_JGD_2024
+Name        : Japanese_Geodetic_Datum_2024
+WKT         : DATUM["Japanese_Geodetic_Datum_2024",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["D_JGD_2011",
+WKT2        : DATUM["Japanese_Geodetic_Datum_2024",
                ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
-Description : Japan Geodetic Datum 2011
+Description : Japanese Geodetic Datum 2024
 Authority   : EPSG
-Version     : 8.4(10.3.1)
+Version     : 8.4(13.8.0)
 Deprecated  : no
 
 WKID        : 1132
@@ -781,7 +783,8 @@ Name        : D_Rete_Dinamica_Nazionale_2008
 WKT         : DATUM["D_Rete_Dinamica_Nazionale_2008",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_Rete_Dinamica_Nazionale_2008",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2008.0]]
 Description : Rete Dinanica Nazionale 2008
 Authority   : EPSG
 Version     : 8.3.3(10.3.1)
@@ -1093,7 +1096,8 @@ Name        : Bulgaria_Geodetic_System_2005
 WKT         : DATUM["Bulgaria_Geodetic_System_2005",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["Bulgaria_Geodetic_System_2005",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2005.0]]
 Description : Bulgaria Geodetic System 2005
 Authority   : EPSG
 Version     : 8.9.3(10.5.0)
@@ -1515,7 +1519,8 @@ Name        : Serbian_Spatial_Reference_System_2000
 WKT         : DATUM["Serbian_Spatial_Reference_System_2000",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["Serbian_Spatial_Reference_System_2000",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2010.63]]
 Description : Serbian Spatial Reference System 2000
 Authority   : EPSG
 Version     : 9.5(10.7.0)
@@ -1593,7 +1598,8 @@ Name        : CR-SIRGAS
 WKT         : DATUM["CR-SIRGAS",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["CR-SIRGAS",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2014.59]]
 Description : Costa Rica - SIRGAS
 Authority   : EPSG
 Version     : 9.6.1(10.8.0)
@@ -1905,7 +1911,8 @@ Name        : Kosovo_Reference_System_2001
 WKT         : DATUM["Kosovo_Reference_System_2001",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["Kosovo_Reference_System_2001",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2001.25]]
 Description : Kosovo Reference System 2001
 Authority   : EPSG
 Version     : 9.7(10.8.0)
@@ -2166,7 +2173,8 @@ Name        : ETRF2000_Poland
 WKT         : DATUM["ETRF2000_Poland",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["ETRF2000_Poland",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2011.0]]
 Description : ETRF2000 Poland
 Authority   : EPSG
 Version     : 10.016(12.9.0)
@@ -2231,7 +2239,8 @@ Name        : Reseau_Geodesique_Francais_1993_v2
 WKT         : DATUM["Reseau_Geodesique_Francais_1993_v2",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["Reseau_Geodesique_Francais_1993_v2",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2009.0]]
 Description : Reseau Geodesique Francais 1993 v2
 Authority   : EPSG
 Version     : 10.034(13.1.0)
@@ -2244,7 +2253,8 @@ Name        : Reseau_Geodesique_Francais_1993_v2b
 WKT         : DATUM["Reseau_Geodesique_Francais_1993_v2b",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["Reseau_Geodesique_Francais_1993_v2b",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2019.0]]
 Description : Reseau Geodesique Francais 1993 v2b
 Authority   : EPSG
 Version     : 10.034(13.1.0)
@@ -2660,7 +2670,8 @@ Name        : ETRS89_DREF91_Realization_2016
 WKT         : DATUM["ETRS89_DREF91_Realization_2016",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["ETRS89_DREF91_Realization_2016",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2008.46]]
 Description : ETRS89 DREF91 Realization 2016
 Authority   : EPSG
 Version     : 10.083(13.2.0)
@@ -2686,7 +2697,8 @@ Name        : Latvian_coordinate_system_2020
 WKT         : DATUM["Latvian_coordinate_system_2020",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["Latvian_coordinate_system_2020",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2020.28]]
 Description : Latvian coordinate system 2020
 Authority   : EPSG
 Version     : 10.083(13.2.0)
@@ -2712,7 +2724,8 @@ Name        : BH_ETRS89
 WKT         : DATUM["BH_ETRS89",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["BH_ETRS89",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2011.307]]
 Description : BH_ETRS89
 Authority   : EPSG
 Version     : 10.087(13.2.0)
@@ -3006,6 +3019,20 @@ Authority   : EPSG
 Version     : 12.001(13.5.0)
 Deprecated  : no
 
+WKID        : 1403
+Latest-WKID : 1403
+Macro       : PE_D_NORDIC_GEODETIC_COMMISSION_ETRF14
+Name        : Nordic_Geodetic_Commission_ETRF14
+WKT         : DATUM["Nordic_Geodetic_Commission_ETRF14",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Nordic_Geodetic_Commission_ETRF14",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2000.0]]
+Description : Nordic Geodetic Commission ETRF14
+Authority   : EPSG
+Version     : 12.021(13.8.0)
+Deprecated  : no
+
 WKID        : 1404
 Latest-WKID : 1404
 Macro       : PE_D_GEORGIA_GEODETIC_DATUM
@@ -3045,6 +3072,20 @@ Authority   : EPSG
 Version     : 12.015(13.6.0)
 Deprecated  : no
 
+WKID        : 1407
+Latest-WKID : 1407
+Macro       : PE_D_EUREF89
+Name        : EUREF89
+WKT         : DATUM["EUREF89",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["EUREF89",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1995.0]]
+Description : EUREF89
+Authority   : EPSG
+Version     : 12.021(13.8.0)
+Deprecated  : no
+
 WKID        : 1408
 Latest-WKID : 1408
 Macro       : PE_D_XRAIL84
@@ -3056,6 +3097,20 @@ WKT2        : DATUM["D_Xrail84",
 Description : Xrail84
 Authority   : EPSG
 Version     : 12.031(13.7.0)
+Deprecated  : no
+
+WKID        : 1412
+Latest-WKID : 1412
+Macro       : PE_D_ETRS89_DNK
+Name        : ETRS89-DNK
+WKT         : DATUM["ETRS89-DNK",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-DNK",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2015.829]]
+Description : ETRS89-DNK
+Authority   : EPSG
+Version     : 12.021(13.8.0)
 Deprecated  : no
 
 WKID        : 1413
@@ -3153,6 +3208,20 @@ Authority   : EPSG
 Version     : 12.016(13.6.0)
 Deprecated  : no
 
+WKID        : 1425
+Latest-WKID : 1425
+Macro       : PE_D_OSNET_V2009
+Name        : OSNet_v2009
+WKT         : DATUM["OSNet_v2009",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["OSNet_v2009",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2009.756]]
+Description : OSNet v2009
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+
 WKID        : 1426
 Latest-WKID : 1426
 Macro       : PE_D_SISTEM_REFERENSI_GEOSPASIAL_INDONESIA_2013_EPOCH_2021
@@ -3165,6 +3234,20 @@ WKT2        : DATUM["Sistem_Referensi_Geospasial_Indonesia_2013_epoch_2021.0",
 Description : Sistem Referensi Geospasial Indonesia 2013 epoch 2021.0
 Authority   : EPSG
 Version     : 12.042(13.7.0)
+Deprecated  : no
+
+WKID        : 1427
+Latest-WKID : 1427
+Macro       : PE_D_AGRS2010_ETRF2000
+Name        : AGRS2010_(ETRF2000)
+WKT         : DATUM["AGRS2010_(ETRF2000)",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["AGRS2010_(ETRF2000)",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2010.5]]
+Description : AGRS2010 (ETRF2000)
+Authority   : EPSG
+Version     : 12.046(13.8.0)
 Deprecated  : no
 
 WKID        : 1428
@@ -3181,6 +3264,258 @@ Authority   : EPSG
 Version     : 12.029(13.7.0)
 Deprecated  : no
 
+WKID        : 1429
+Latest-WKID : 1429
+Macro       : PE_D_ALBANIAN_GEODETIC_REFERENCE_FRAME_2008
+Name        : Albanian_Geodetic_Reference_Frame_2008
+WKT         : DATUM["Albanian_Geodetic_Reference_Frame_2008",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Albanian_Geodetic_Reference_Frame_2008",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2008.0]]
+Description : Albanian Geodetic Reference Frame 2008
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+
+WKID        : 1430
+Latest-WKID : 1430
+Macro       : PE_D_ALBANIAN_GEODETIC_REFERENCE_FRAME_2014
+Name        : Albanian_Geodetic_Reference_Frame_2014
+WKT         : DATUM["Albanian_Geodetic_Reference_Frame_2014",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Albanian_Geodetic_Reference_Frame_2014",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2014.177]]
+Description : Albanian Geodetic Reference Frame 2014
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+
+WKID        : 1431
+Latest-WKID : 1431
+Macro       : PE_D_ETRS89_AUT_2002
+Name        : ETRS89-AUT_[2002]
+WKT         : DATUM["ETRS89-AUT_[2002]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-AUT_[2002]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2002.56]]
+Description : ETRS89-AUT [2002]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+
+WKID        : 1432
+Latest-WKID : 1432
+Macro       : PE_D_BELGIAN_REFERENCE_FRAME_2002
+Name        : Belgian_Reference_Frame_2002
+WKT         : DATUM["Belgian_Reference_Frame_2002",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Belgian_Reference_Frame_2002",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2002.73]]
+Description : Belgian Reference Frame 2002
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+
+WKID        : 1433
+Latest-WKID : 1433
+Macro       : PE_D_ETRS89_CZE_2007
+Name        : ETRS89-CZE_[2007]
+WKT         : DATUM["ETRS89-CZE_[2007]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-CZE_[2007]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2007.0]]
+Description : ETRS89-CZE [2007]
+Authority   : EPSG
+Version     : 12.043(13.8.0)
+Deprecated  : no
+
+WKID        : 1434
+Latest-WKID : 1434
+Macro       : PE_D_ETRS89_SVK_SKTRF09
+Name        : ETRS89-SVK_[SKTRF09]
+WKT         : DATUM["ETRS89-SVK_[SKTRF09]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-SVK_[SKTRF09]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2008.5]]
+Description : ETRS89-SVK [SKTRF09]
+Authority   : EPSG
+Version     : 12.043(13.8.0)
+Deprecated  : no
+
+WKID        : 1435
+Latest-WKID : 1435
+Macro       : PE_D_ETRS89_SVK_SKTRF2022
+Name        : ETRS89-SVK_[SKTRF2022]
+WKT         : DATUM["ETRS89-SVK_[SKTRF2022]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-SVK_[SKTRF2022]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2008.5]]
+Description : ETRS89-SVK [SKTRF2022]
+Authority   : EPSG
+Version     : 12.043(13.8.0)
+Deprecated  : no
+
+WKID        : 1436
+Latest-WKID : 1436
+Macro       : PE_D_ETRS89_FRO_2008
+Name        : ETRS89-FRO_[2008]
+WKT         : DATUM["ETRS89-FRO_[2008]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-FRO_[2008]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2008.75]]
+Description : ETRS89-FRO [2008]
+Authority   : EPSG
+Version     : 12.039(13.8.0)
+Deprecated  : no
+
+WKID        : 1437
+Latest-WKID : 1437
+Macro       : PE_D_HELLENIC_TERRESTRIAL_REFERENCE_SYSTEM_2007
+Name        : Hellenic_Terrestrial_Reference_System_2007
+WKT         : DATUM["Hellenic_Terrestrial_Reference_System_2007",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Hellenic_Terrestrial_Reference_System_2007",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2007.5]]
+Description : Hellenic Terrestrial Reference System 2007
+Authority   : EPSG
+Version     : 12.034(13.8.0)
+Deprecated  : no
+
+WKID        : 1438
+Latest-WKID : 1438
+Macro       : PE_D_ETRS89_MKD_EUREF_MAK2010
+Name        : ETRS89-MKD_[EUREF-MAK2010]
+WKT         : DATUM["ETRS89-MKD_[EUREF-MAK2010]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-MKD_[EUREF-MAK2010]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2010.631]]
+Description : ETRS89-MKD [EUREF-MAK2010]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+
+WKID        : 1439
+Latest-WKID : 1439
+Macro       : PE_D_ETRS89_PRT_1995
+Name        : ETRS89-PRT_[1995]
+WKT         : DATUM["ETRS89-PRT_[1995]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-PRT_[1995]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1995.4]]
+Description : ETRS89-PRT [1995]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+
+WKID        : 1440
+Latest-WKID : 1440
+Macro       : PE_D_ETRS89_ROU_ETRF2000
+Name        : ETRS89-ROU_[ETRF2000]
+WKT         : DATUM["ETRS89-ROU_[ETRF2000]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-ROU_[ETRF2000]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2000.0]]
+Description : ETRS89-ROU [ETRF2000]
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+
+WKID        : 1441
+Latest-WKID : 1441
+Macro       : PE_D_ETRS89_ESP_REGENTE
+Name        : ETRS89-ESP_[REGENTE]
+WKT         : DATUM["ETRS89-ESP_[REGENTE]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-ESP_[REGENTE]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1995.4]]
+Description : ETRS89-ESP [REGENTE]
+Authority   : EPSG
+Version     : 12.034(13.8.0)
+Deprecated  : no
+
+WKID        : 1442
+Latest-WKID : 1442
+Macro       : PE_D_ETRS89_ESP_ERGNSS
+Name        : ETRS89-ESP_[ERGNSS]
+WKT         : DATUM["ETRS89-ESP_[ERGNSS]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-ESP_[ERGNSS]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2017.0]]
+Description : ETRS89-ESP [ERGNSS]
+Authority   : EPSG
+Version     : 12.034(13.8.0)
+Deprecated  : no
+
+WKID        : 1444
+Latest-WKID : 1444
+Macro       : PE_D_ETRS89_HUN_ETRF2000
+Name        : ETRS89-HUN_[ETRF2000]
+WKT         : DATUM["ETRS89-HUN_[ETRF2000]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-HUN_[ETRF2000]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2024.0]]
+Description : ETRS89-HUN [ETRF2000]
+Authority   : EPSG
+Version     : 12.039(13.8.0)
+Deprecated  : no
+
+WKID        : 1445
+Latest-WKID : 1445
+Macro       : PE_D_CROPOS
+Name        : CROPOS
+WKT         : DATUM["CROPOS",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["CROPOS",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2008.83]]
+Description : CROPOS
+Authority   : EPSG
+Version     : 12.042(13.8.0)
+Deprecated  : no
+
+WKID        : 1446
+Latest-WKID : 1446
+Macro       : PE_D_ETRS89_DREF91_REALIZATION_2025
+Name        : ETRS89_DREF91_Realization_2025
+WKT         : DATUM["ETRS89_DREF91_Realization_2025",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89_DREF91_Realization_2025",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2021.48]]
+Description : ETRS89/DREF91 Realization 2025
+Authority   : EPSG
+Version     : 12.042(13.8.0)
+Deprecated  : no
+
+WKID        : 1447
+Latest-WKID : 1447
+Macro       : PE_D_BELGIAN_REFERENCE_FRAME_2011
+Name        : Belgian_Reference_Frame_2011
+WKT         : DATUM["Belgian_Reference_Frame_2011",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Belgian_Reference_Frame_2011",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2011.763]]
+Description : Belgian Reference Frame 2011
+Authority   : EPSG
+Version     : 12.031(13.8.0)
+Deprecated  : no
+
 WKID        : 1448
 Latest-WKID : 1448
 Macro       : PE_D_NATIONAL_REFERENCE_FRAME_OF_BHUTAN_2023
@@ -3192,6 +3527,87 @@ WKT2        : DATUM["National_Reference_Frame_of_Bhutan_2023",
 Description : National Reference Frame of Bhutan 2023
 Authority   : EPSG
 Version     : 12.049(13.7.0)
+Deprecated  : no
+
+WKID        : 1449
+Latest-WKID : 1449
+Macro       : PE_D_SWISS_TERRESTRIAL_REFERENCE_FRAME_1995
+Name        : Swiss_Terrestrial_Reference_Frame_1995
+WKT         : DATUM["Swiss_Terrestrial_Reference_Frame_1995",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Swiss_Terrestrial_Reference_Frame_1995",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1993.0]]
+Description : Swiss Terrestrial Reference Frame 1995
+Authority   : EPSG
+Version     : 12.048(13.8.0)
+Deprecated  : no
+
+WKID        : 1453
+Latest-WKID : 1453
+Macro       : PE_D_ETRS89_LUX_2020
+Name        : ETRS89-LUX_[2020]
+WKT         : DATUM["ETRS89-LUX_[2020]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-LUX_[2020]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2020.82]]
+Description : ETRS89-LUX [2020]
+Authority   : EPSG
+Version     : 12.051(13.8.0)
+Deprecated  : no
+
+WKID        : 1460
+Latest-WKID : 1460
+Macro       : PE_D_DART26_INTERMEDIATE_REFERENCE_FRAME
+Name        : Dart+26_Intermediate_Reference_Frame
+WKT         : DATUM["Dart+26_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["Dart+26_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+Description : Dart+26 Intermediate Reference Frame
+Authority   : EPSG
+Version     : 12.056(13.8.0)
+Deprecated  : no
+
+WKID        : 1461
+Latest-WKID : 1461
+Macro       : PE_D_SZCTW_INTERMEDIATE_REFERENCE_FRAME
+Name        : SZCTW_Intermediate_Reference_Frame
+WKT         : DATUM["SZCTW_Intermediate_Reference_Frame",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["SZCTW_Intermediate_Reference_Frame",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SZCTW Intermediate Reference Frame
+Authority   : EPSG
+Version     : 12.056(13.8.0)
+Deprecated  : no
+
+WKID        : 1462
+Latest-WKID : 1462
+Macro       : PE_D_SIRGAS_CHILE_2025
+Name        : SIRGAS-Chile_2025
+WKT         : DATUM["SIRGAS-Chile_2025",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["SIRGAS-Chile_2025",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+Description : SIRGAS-Chile 2025
+Authority   : EPSG
+Version     : 12.057(13.8.0)
+Deprecated  : no
+
+WKID        : 1463
+Latest-WKID : 1463
+Macro       : PE_D_ETRS89_LUX_2025
+Name        : ETRS89-LUX_[2025]
+WKT         : DATUM["ETRS89-LUX_[2025]",
+               SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
+WKT2        : DATUM["ETRS89-LUX_[2025]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2025.83]]
+Description : ETRS89-LUX [2025]
+Authority   : EPSG
+Version     : 12.059(13.8.0)
 Deprecated  : no
 
 WKID        : 6001
@@ -3813,7 +4229,8 @@ Name        : D_Lithuania_1994
 WKT         : DATUM["D_Lithuania_1994",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_Lithuania_1994",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2003.75]]
 Description : Lithuania 1994
 Authority   : EPSG
 Version     : 8.9.4(8.0.1)
@@ -4398,7 +4815,8 @@ Name        : D_RGF_1993
 WKT         : DATUM["D_RGF_1993",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_RGF_1993",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1993.0]]
 Description : Reseau Geodesique Francais 1993
 Authority   : EPSG
 Version     : 5.3(9.0.0)
@@ -4420,12 +4838,13 @@ Deprecated  : no
 WKID        : 6173
 Latest-WKID : 6173
 Macro       : PE_D_IRENET95
-Name        : D_IRENET95
-WKT         : DATUM["D_IRENET95",
+Name        : ETRS89-IRE_[ETRF2000]
+WKT         : DATUM["ETRS89-IRE_[ETRF2000]",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
-WKT2        : DATUM["D_IRENET95",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
-Description : IRENET95
+WKT2        : DATUM["ETRS89-IRE_[ETRF2000]",
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2009.756]]
+Description : ETRS89-IRE [ETRF2000] (used to be IRENET95)
 Authority   : EPSG
 Version     : 6.5.3(8.1.2)
 Deprecated  : no
@@ -4502,7 +4921,8 @@ Name        : D_Estonia_1997
 WKT         : DATUM["D_Estonia_1997",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_Estonia_1997",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1997.56]]
 Description : Estonia 1997
 Authority   : EPSG
 Version     : 6.11.1(9.0.0)
@@ -6557,7 +6977,8 @@ Name        : D_SWEREF99
 WKT         : DATUM["D_SWEREF99",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_SWEREF99",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1999.5]]
 Description : SWEREF99
 Authority   : EPSG
 Version     : 7.4.4(9.0.0)
@@ -7077,7 +7498,8 @@ Name        : D_Latvia_1992
 WKT         : DATUM["D_Latvia_1992",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_Latvia_1992",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1992.75]]
 Description : Latvia 1992
 Authority   : EPSG
 Version     : 8.9.4(9.0.0)
@@ -7168,7 +7590,8 @@ Name        : D_IGM_1995
 WKT         : DATUM["D_IGM_1995",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_IGM_1995",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1989.0]]
 Description : IGM 1995
 Authority   : EPSG
 Version     : 7.6.4(9.0.0)
@@ -8325,7 +8748,8 @@ Name        : D_Croatian_Terrestrial_Reference_System
 WKT         : DATUM["D_Croatian_Terrestrial_Reference_System",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_Croatian_Terrestrial_Reference_System",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1995.55]]
 Description : Croatian Terrestrial Reference System
 Authority   : EPSG
 Version     : 8.9.4(10.0.0)
@@ -8377,7 +8801,8 @@ Name        : D_Slovenia_Geodetic_Datum_1996
 WKT         : DATUM["D_Slovenia_Geodetic_Datum_1996",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_Slovenia_Geodetic_Datum_1996",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2016.75]]
 Description : Slovenia Geodetic Datum 1996
 Authority   : EPSG
 Version     : 12.044(10.0.0)
@@ -8853,7 +9278,7 @@ Version     : 10.7.0
 Deprecated  : no
 
 WKID        : 106020
-Latest-WKID : 1128
+Latest-WKID : 106020
 Macro       : PE_D_JGD_2011
 Name        : D_JGD_2011
 WKT         : DATUM["D_JGD_2011",
@@ -8863,10 +9288,10 @@ WKT2        : DATUM["D_JGD_2011",
 Description : Japan Geodetic Datum 2011
 Authority   : Esri
 Version     : 10.1.1
-Deprecated  : codechange
+Deprecated  : no
 
 WKID        : 106021
-Latest-WKID : 106021
+Latest-WKID : 1128
 Macro       : PE_D_JGD_2024
 Name        : Japanese_Geodetic_Datum_2024
 WKT         : DATUM["Japanese_Geodetic_Datum_2024",
@@ -8876,7 +9301,7 @@ WKT2        : DATUM["Japanese_Geodetic_Datum_2024",
 Description : Japanese Geodetic Datum 2024
 Authority   : Esri
 Version     : 13.6.0
-Deprecated  : no
+Deprecated  : codechange
 
 WKID        : 106022
 Latest-WKID : 106022
@@ -8957,17 +9382,18 @@ Version     : 10.4.0
 Deprecated  : no
 
 WKID        : 106048
-Latest-WKID : 106048
+Latest-WKID : 1437
 Macro       : PE_D_HELLENIC_TERRESTRIAL_REFERENCE_SYSTEM_2007
 Name        : Hellenic_Terrestrial_Reference_System_2007
 WKT         : DATUM["Hellenic_Terrestrial_Reference_System_2007",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["Hellenic_Terrestrial_Reference_System_2007",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[2007.5]]
 Description : Hellenic Terrestrial Reference System 2007
 Authority   : Esri
 Version     : 13.6.0
-Deprecated  : no
+Deprecated  : codechange
 
 WKID        : 106050
 Latest-WKID : 1408
@@ -9873,7 +10299,8 @@ Name        : D_RGF_1993
 WKT         : DATUM["D_RGF_1993",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_RGF_1993",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1993.0]]
 Description : Reseau Geodesique Francais 1993
 Authority   : Esri
 Version     : 8.1.0
@@ -13596,7 +14023,8 @@ Name        : D_MOLDREF99
 WKT         : DATUM["D_MOLDREF99",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_MOLDREF99",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1997.4]]
 Description : MOLDREF99
 Authority   : Esri
 Version     : 10.0.0
@@ -13622,7 +14050,8 @@ Name        : D_Serbian_Reference_Network_1998
 WKT         : DATUM["D_Serbian_Reference_Network_1998",
                SPHEROID["GRS_1980", 6378137.0, 298.257222101]]
 WKT2        : DATUM["D_Serbian_Reference_Network_1998",
-               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101]]
+               ELLIPSOID["GRS_1980", 6378137.0, 298.257222101],
+               ANCHOREPOCH[1998.7]]
 Description : Serbian Reference Network 1998
 Authority   : Esri
 Version     : 10.0.0
